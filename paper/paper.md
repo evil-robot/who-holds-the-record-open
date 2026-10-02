@@ -10,7 +10,7 @@
 
 **Submitted:** October 2026 · **Version:** <!-- GEN:version -->1.0<!-- /GEN:version --> · **Data as of:** <!-- GEN:asof -->2026-10-02<!-- /GEN:asof -->
 
-**DOI:** assigned by Zenodo on deposit. **Interactive index:** https://whoholds.supertruth.ai
+**DOI:** assigned by Zenodo on deposit. **Interactive index:** https://healthrecordrights.com
 
 ---
 
@@ -624,7 +624,7 @@ This index is a research tool. It is not legal advice and does not assess the co
 
 The public release is a clean export of the project, in a public repository linked from the Zenodo record. It holds the scores, category texts, sources, laws, journey maps and news items for every country; the rubric and its v1.1 anchors; the build script that computes every overall score; the audit and the record of score changes; the evidence grade; the strain and split layer; the external cross-check; the stability analysis and the blind re-scoring (plan, rater kit and ratings); and the script that fills every number in this paper. It does not include internal working files such as drafts, launch materials and internal review notes, and it does not include the individual accounts. For about an hour on 2 October 2026 the public copy also held the accounts and the internal review notes; they were removed and the repository history replaced, but copies made in that hour cannot be recalled. The paper and data are released under CC BY 4.0 and the scoring and analysis code under the MIT licence, copyright SuperTruth Inc. The dataset DOI is assigned by Zenodo on deposit.
 
-The interactive index is at https://whoholds.supertruth.ai. Each of the <!-- GEN:briefs -->198<!-- /GEN:briefs --> countries also has a printable one-page brief at https://whoholds.supertruth.ai/brief/ISO3/ (for example /brief/FIN/ for Finland). "Ask the index" is an agent on the same page that answers questions only from the index's own data and says so when the index does not hold an answer.
+The interactive index is at https://healthrecordrights.com. Each of the <!-- GEN:briefs -->198<!-- /GEN:briefs --> countries also has a printable one-page brief at https://healthrecordrights.com/brief/ISO3/ (for example /brief/FIN/ for Finland). "Ask the index" is an agent on the same page that answers questions only from the index's own data and says so when the index does not hold an answer.
 
 The accounts in Section 5 are linked from the interactive index and are not deposited, so that a removal request can be honoured; aggregate counts are in Tables 4 to 6. Removal and correction requests: see the interactive index.
 

@@ -4,7 +4,7 @@ An open index of health record rights in 198 countries and territories (all 193 
 
 In 2026, none of the 198 countries and territories we rated puts a person fully in charge of their own health record. Finland, Denmark, Estonia, Hungary and Sweden lead; allowing for scoring error, any of them could rank first, so we name them together. The median is 39. By band, 9 rate Strong, 66 Mixed, 111 Weak and 12 Poor, and none reaches Leading (85 and up). Control sits with the state or providers everywhere: 51 Shared, 81 Institutional, 66 State. Data as of 2026-10-02.
 
-- Live index, country briefs and the Ask the index tool: https://whoholds.supertruth.ai
+- Live index, country briefs and the Ask the index tool: https://healthrecordrights.com
 - Paper: `paper/paper.pdf` (source `paper/paper.md`)
 
 ## What is here
@@ -25,7 +25,7 @@ Eight weighted categories: patient access to the full record (20%), patient cont
 
 ## How to cite
 
-Snyder, J. A., Hill, B., & Raney, D. (2026). The Health Record Rights Index (version 1.0). SuperTruth Inc. https://whoholds.supertruth.ai/
+Snyder, J. A., Hill, B., & Raney, D. (2026). The Health Record Rights Index (version 1.0). SuperTruth Inc. https://healthrecordrights.com/
 
 The three authors conceived the index together and share equal billing.
 

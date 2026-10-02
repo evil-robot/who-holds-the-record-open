@@ -13,7 +13,7 @@ R = pathlib.Path(__file__).resolve().parents[1]
 SAMPLE = json.load(open(R / "sample.json"))
 REDIRECTS = {c["cell_id"]: c.get("allowed_redirects", []) for c in SAMPLE["cells"]}
 REDIRECTS[SAMPLE["pilot"]["cell_id"]] = SAMPLE["pilot"].get("allowed_redirects", [])
-FORBIDDEN_HOSTS = ["whoholds", "who-holds", "whoholdstherecord", "supertruth", "railway.app", "localhost", "127.0.0.1"]
+FORBIDDEN_HOSTS = ["whoholds", "healthrecordrights", "who-holds", "whoholdstherecord", "supertruth", "railway.app", "localhost", "127.0.0.1"]
 URL_RE = re.compile(r"""https?://[^\s"'<>|\\)]+""")
 TEXT_FILTERS = {"head", "tail", "sed", "grep", "tr", "cut", "wc", "iconv", "strings", "fold", "awk", "sort", "uniq", "cat", "xmllint", "textutil", "pdftotext"}
 

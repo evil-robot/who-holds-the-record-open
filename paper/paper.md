@@ -1,4 +1,4 @@
-# Who Holds the Record: A <!-- GEN:n -->198<!-- /GEN:n -->-Country Index of a Person's Right to See, Control and Share Their Health Record
+# The Health Record Rights Index: Who Holds the Record in <!-- GEN:n -->198<!-- /GEN:n --> Countries?
 
 **Jason Alan Snyder**¹, **Bobby Hill**¹, **Dustin Raney**¹
 

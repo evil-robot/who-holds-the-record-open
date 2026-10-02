@@ -1,6 +1,7 @@
 // One-page country brief (out/brief/<ISO3>/index.html), printable to A4 or Letter. Built from the same data as the page.
 // Context only: no claim beyond the index, its published rubric anchors and the strain layer.
 const fs = require('fs');
+const NAVM = require('./nav.js');
 
 const EU27 = new Set('AUT BEL BGR HRV CYP CZE DNK EST FIN FRA DEU GRC HUN IRL ITA LVA LTU LUX MLT NLD POL PRT ROU SVK SVN ESP SWE'.split(' '));
 // Named peer sets where a region-nearest default would miss the obvious comparison.
@@ -92,7 +93,7 @@ function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS
 <title>${esc((title + ' | SuperTruth').length > 60 ? title : title + ' | SuperTruth')}</title>${NOINDEX ? '<meta name="robots" content="noindex,nofollow">' : ''}
 <meta name="description" content="${esc(Cap(tn))} scores ${d.overall} of 100 on health record rights (${yr}; rank ${rankLabel(d.rank)} of ${N}, ${b.n}). Who holds the keys: ${d.controlModel}. Every source cited.">
 <meta property="og:type" content="article"><meta property="og:site_name" content="SuperTruth"><meta property="og:title" content="Who holds the health record in ${esc(tn)}? ${d.overall}/100"><meta property="og:description" content="${esc(d.headline)}">
-<meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}assets/og/${d.iso3}.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(d.name)}: ${d.overall} of 100, rank ${rankLabel(d.rank)} of ${N}, ${b.n}. Who Holds the Record by SuperTruth."><meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}assets/og/${d.iso3}.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(d.name)}: ${d.overall} of 100, rank ${rankLabel(d.rank)} of ${N}, ${b.n}. Health Record Rights Index by SuperTruth."><meta name="twitter:card" content="summary_large_image">
 <meta property="article:published_time" content="${PUBLISHED}"><meta property="article:modified_time" content="${later(lastmod[d.iso3], PUBLISHED)}">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>
 <link rel="canonical" href="${url}"><link rel="icon" href="../../assets/supertruth-icon.svg" type="image/svg+xml">
@@ -120,7 +121,7 @@ dl{display:grid;grid-template-columns:200px 1fr;gap:3px 10px;margin:4px 0}dt{col
 blockquote{margin:4px 0;padding-left:8px;border-left:2px solid #E5E7EB;color:#374151;font-size:11.5px}
 .contact{display:flex;gap:10px;align-items:center;margin-top:14px;padding:10px 12px;background:#F0FDFA;border-radius:10px;font-size:11.5px;color:#374151}.contact b{color:#0F766E}
 .foot{border-top:1px solid #E5E7EB;margin-top:14px;padding-top:8px;font-size:10px;color:#6B7280}
-.print{position:fixed;right:16px;top:16px;border:0;background:#0F766E;color:#fff;font:600 13px Inter;border-radius:999px;padding:10px 16px;cursor:pointer}
+.print{position:fixed;right:16px;top:76px;border:0;background:#0F766E;color:#fff;font:600 13px Inter;border-radius:999px;padding:10px 16px;cursor:pointer}
 .crumbs{font-size:12px;color:#6B7280;margin:10px 0 0}.crumbs a{color:#0F766E;text-decoration:none}.crumbs a:hover{text-decoration:underline}
 .answer{font-size:14px;color:#111827;margin:6px 0 4px;max-width:680px}
 .quote{border:1px solid #E5E7EB;border-radius:10px;padding:10px 12px;font-size:12.5px;color:#374151;margin:6px 0}
@@ -129,9 +130,8 @@ blockquote{margin:4px 0;padding-left:8px;border-left:2px solid #E5E7EB;color:#37
 @media screen{body{font-size:13px}.top .t,.key,.foot,.contact,th .w,.y,td.pv{font-size:12px}.f span{font-size:12px}}
 @media print{.print,.noprint{display:none}.page{padding:0;zoom:.74}h2{margin:6px 0 2px}p{margin:3px 0}.answer,.lead{margin:3px 0}.facts{margin:6px 0 8px}.contact{margin-top:8px;padding:6px 10px}.foot{margin-top:8px;padding-top:4px}}
 .tw{max-width:100%}
-@media(max-width:640px){.print{position:static;display:block;margin:12px 16px 0 auto}.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}th{white-space:normal}.facts{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}dl{grid-template-columns:1fr}}
-</style><script src="../../assets/analytics.js" defer></script></head><body><button class="print" onclick="window.print()">Print or save as PDF</button><div class="page">
-<div class="top"><a href="../../"><img src="../../assets/supertruth-logo-dark.svg" alt="Who Holds the Record by SuperTruth: back to the index" width="109" height="20"></a><span class="t">${esc(NAME)} · country brief · this country's data as of ${d.asOf || asOf}</span></div>
+@media(max-width:640px){.print{position:static;display:block;margin:12px 16px 0 auto}.top{flex-wrap:wrap;gap:6px}.top .t{flex-basis:100%}.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}th{white-space:normal}.facts{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}dl{grid-template-columns:1fr}}
+${NAVM.NAV_CSS}</style><script src="../../assets/analytics.js" defer></script></head><body>${NAVM.navHTML({ base: '../../' })}<div class="page"><button class="print" onclick="window.print()">Print or save as PDF</button><div class="top"><span class="t">${esc(NAME)} · country brief · this country's data as of ${d.asOf || asOf}</span></div>
 <nav class="crumbs noprint" aria-label="Breadcrumb"><a href="../../">${esc(NAME)}</a> › <a href="../../#ranking">Ranking</a> › <span aria-current="page">${esc(d.name)}</span></nav>
 <h1>Who holds the health record in ${esc(tn)}?</h1>
 <p class="answer">${esc(lede)}</p>

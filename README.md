@@ -1,4 +1,4 @@
-# Who Holds the Record
+# Health Record Rights Index
 
 An open index of health record rights in 198 countries and territories (all 193 UN member states, plus Greenland, Kosovo, Palestine, Taiwan and Vatican City), by SuperTruth Inc. Each country scores 0 to 100 on one question: can a person see, control and share their own health record?
 
@@ -25,7 +25,7 @@ Eight weighted categories: patient access to the full record (20%), patient cont
 
 ## How to cite
 
-Snyder, J. A., Hill, B., & Raney, D. (2026). Who Holds the Record (version 1.0). SuperTruth Inc. https://whoholds.supertruth.ai/
+Snyder, J. A., Hill, B., & Raney, D. (2026). The Health Record Rights Index (version 1.0). SuperTruth Inc. https://whoholds.supertruth.ai/
 
 The three authors conceived the index together and share equal billing.
 

@@ -4,7 +4,7 @@
 const fs=require('fs');const tc=require('topojson-client');const iso=require('i18n-iso-countries');
 const t=require('world-atlas/countries-110m.json');
 
-const NAME='Who Holds the Record';
+const NAME='Health Record Rights Index'; // renamed 2 Oct 2026 (JAS); "Who holds the record?" stays as the question
 const NOINDEX=!!process.env.PREVIEW_NOINDEX;
 const HOME_TEMPLATE_CHANGED='2026-10-02'; // bump only when the home page's own prose changes (sitemap lastmod)
 let DESCRIPTOR='Health record rights'; // completed with the country count once data is loaded
@@ -210,7 +210,11 @@ const rankHead=`${soleLead?`${top.name} leads.`:leadGroup.length>1?`${joinNames(
 const meds=CATS.map(c=>({c,m:DIST[c.k].med}));const lowM=Math.min(...meds.map(x=>x.m)),highM=Math.max(...meds.map(x=>x.m));
 const lc=w=>w==='AI'?w:w.toLowerCase();
 const joinAnd=xs=>xs.length<2?xs.join(''):xs.slice(0,-1).join(', ')+' and '+xs.at(-1);
-const matrixHead=`${joinAnd(meds.filter(x=>x.m===lowM).map(x=>lc(x.c.s)))} ${meds.filter(x=>x.m===lowM).length>1?'share':'has'} the lowest median (${lowM}); ${joinAnd(meds.filter(x=>x.m===highM).map(x=>lc(x.c.s)))} the highest (${highM}).`;
+// Plain-English meaning of each right, for the section heading and its lede (JAS: "this needs more context").
+const PLAIN={access:'getting a full copy of your own record',control:'having a say over who sees your record',privacy:'protection from leaks and misuse',journey:'your record following you between doctors, labs and pharmacies',commercial:'protection from your data being sold or used for marketing',clinical:'your doctor seeing your record when treating you',research:'being asked before your record is used for research',ai:'rules for AI used in your care'};
+const lowCats=meds.filter(x=>x.m===lowM).map(x=>x.c),highCats=meds.filter(x=>x.m===highM).map(x=>x.c),maxMed=Math.max(...meds.map(x=>x.m));
+const matrixHead=`The weakest rights worldwide: ${joinAnd(lowCats.map(c=>PLAIN[c.k]))}. The typical country scores ${lowM} of 100 on ${lowCats.length>1?'each':'it'}.`;
+const MATRIX_LEDE=`We score eight rights, each from 0 to 100. Access to the record and control over it count most, 20% each. Across all ${N} countries, the typical country, the one in the middle, scores highest on ${joinAnd(highCats.map(c=>PLAIN[c.k]))} (${highM} of 100)${maxMed<50?`; on every one of the eight, the typical score is under 50`:''}.`;
 const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
 const sourceLine=`Source: SuperTruth review of national laws, regulator and ministry pages and recent reporting, ${RESEARCH_WINDOW}. ${allSources.length} sources cited (${undated} undated). Rubric v1, weights below. ${lowConf.length?`${lowConf.length} ${lowConf.length===1?'country is':'countries are'} low confidence, marked with a hollow dot.`:'No country is rated low confidence.'}`;
 
@@ -252,7 +256,8 @@ const THEME_N={access_refused:'Access refused',access_delay_or_cost:'Delay or co
 const themeSorted=Object.entries(themeCount).sort((a,b)=>b[1]-a[1]);
 const storyCountries=C.filter(d=>d.stories.length).length;
 const topTheme=themeSorted.length?THEME_N[themeSorted[0][0]].toLowerCase():'';
-const vars={VERSION,STRAIN_THREE:esc(STRAIN_THREE),STRAIN_SPOT,STRAIN_HEAD:esc(STRAIN_HEAD),STRAIN_COVER:esc(STRAIN_COVER),STRAIN_KEY:esc(STRAIN_KEY),STRAIN_HEADERS,STRAIN_ROWS,STRAIN_NOTES,STRAIN_SOURCE:esc(STRAIN_SOURCE),OECD_N,STORIES_HEAD:esc(`${storyTotal} published accounts from ${storyCountries} countries. ${themeSorted.length?cap(topTheme)+' is the most common problem reported.':''}`),STORY_WINDOW:storyDates.length?`published ${monthYear(storyDates[0])} to ${monthYear(storyDates.at(-1))}`:'',THEME_BUTTONS:`<button type="button" data-theme="all" aria-pressed="true">All<span class="num">${storyTotal}</span></button>`+themeSorted.map(([k,v])=>`<button type="button" data-theme="${k}" aria-pressed="false">${THEME_N[k]}<span class="num">${v}</span></button>`).join(''),EU_INSET,LEDE_LEAD:esc(ledeLead),NAME:esc(NAME),DESCRIPTOR:esc(DESCRIPTOR),SITE,LEDE:esc(lede.slice(ledeLead.length).trim()),DATELINE:`Version ${VERSION} · published <time datetime="2026-10-02">2 October 2026</time> · data as of <time datetime="${asOf}">${asOf}</time> · research ${RESEARCH_WINDOW}`,LEGEND:legend,RANK_HEAD:esc(rankHead),MATRIX_HEAD:esc(cap(matrixHead)),
+const NAV=require('./nav.js');
+const vars={NAV:NAV.navHTML({base:''}),NAV_CSS:NAV.NAV_CSS,VERSION,STRAIN_THREE:esc(STRAIN_THREE),STRAIN_SPOT,STRAIN_HEAD:esc(STRAIN_HEAD),STRAIN_COVER:esc(STRAIN_COVER),STRAIN_KEY:esc(STRAIN_KEY),STRAIN_HEADERS,STRAIN_ROWS,STRAIN_NOTES,STRAIN_SOURCE:esc(STRAIN_SOURCE),OECD_N,STORIES_HEAD:esc(`${storyTotal} published accounts from ${storyCountries} countries. ${themeSorted.length?cap(topTheme)+' is the most common problem reported.':''}`),STORY_WINDOW:storyDates.length?`published ${monthYear(storyDates[0])} to ${monthYear(storyDates.at(-1))}`:'',THEME_BUTTONS:`<button type="button" data-theme="all" aria-pressed="true">All<span class="num">${storyTotal}</span></button>`+themeSorted.map(([k,v])=>`<button type="button" data-theme="${k}" aria-pressed="false">${THEME_N[k]}<span class="num">${v}</span></button>`).join(''),EU_INSET,LEDE_LEAD:esc(ledeLead),NAME:esc(NAME),DESCRIPTOR:esc(DESCRIPTOR),SITE,LEDE:esc(lede.slice(ledeLead.length).trim()),DATELINE:`Version ${VERSION} · published <time datetime="2026-10-02">2 October 2026</time> · data as of <time datetime="${asOf}">${asOf}</time> · research ${RESEARCH_WINDOW}`,LEGEND:legend,RANK_HEAD:esc(rankHead),MATRIX_LEDE:esc(MATRIX_LEDE),MATRIX_HEAD:esc(cap(matrixHead)),
  RANK_ROWS:ranked.map(rankRow).join('\n'),MATRIX_HEADERS:CATS.map(c=>`<th scope="col" data-k="${c.k}"><button type="button" data-tip="${{"access": "Can a person see and copy their whole record, and does it work in practice?", "control": "Can the person decide who sees their record and see who looked?", "privacy": "Strength and enforcement of health-data law; breaches; state access.", "journey": "Does the record follow the person across all of care?", "commercial": "Limits on selling or marketing health data; apps and brokers. Higher = more protection.", "clinical": "Can the treating clinician see the full record when needed?", "research": "Is research use consent-based or transparent, while research stays possible?", "ai": "Rules for AI used in care: oversight, transparency, change control."}[c.k]} Weight ${c.w}%. The grey line is the median.">${c.s}</button><span class="num">${c.w}% · med ${DIST[c.k].med}</span></th>`).join(''),MATRIX_ROWS:ranked.map(matrixRow).join('\n'),
  SOURCE_LINE:esc(sourceLine),SOURCE_LINE_MATRIX:esc(sourceLine.replace(/, marked with a hollow dot\./,', marked with an asterisk.')),MATRIX_SCALE:CATS.map(()=>'<th><span><i>0</i><i>50</i><i>100</i></span></th>').join(''),N:N,STORY_TOTAL:storyTotal,STORY_SINCE:storyDates.length?storyDates[0].slice(0,7):'',WEIGHTS:weights,BANDS_TABLE:bandsTable,MODELS:modelsList,
  LOWCONF_NOTE:lowConf.length?`* Low confidence: ${esc(joinAnd(lowConf.map(d=>d.name)))}. `:'',LOWCONF_LINE:lowConf.length?`${lowConf.length} ${lowConf.length===1?'country is':'countries are'} low confidence: ${esc(joinAnd(lowConf.map(d=>d.name)))}.`:'No country is rated low confidence.',UNRATED:unrated,CONTACT:STORIES_CONTACT,YEAR,ASOF:asOf,JSONLD:JSON.stringify(jsonld).replace(/</g,'\\u003c'),
@@ -283,7 +288,7 @@ const dline=d=>{const dt=d.dti&&!d.dti.provisional?`DTI evidence ${d.dti.dti} ${
  const cats=CATS.map(c=>`${c.s} ${d.categories[c.k].score}`).join(', ');
  const sums=CATS.map(c=>`  - ${c.n} (${d.categories[c.k].score}): ${d.categories[c.k].summary}`).join('\n');
  return `## ${d.name} [${d.iso3}] | overall ${d.overall}, rank ${rankLabel(d.rank)} of ${N}${likely(d.iso3)?` (likely range ${likely(d.iso3)})`:''}, ${bandOf(d.overall).n} | keys: ${d.controlModel} | confidence: ${d.confidence} | ${dt} | stories: ${d.stories.length}${d.dti&&d.dti.underReview&&d.dti.underReview.length?` | under review: ${d.dti.underReview.join(', ')}`:''}\nCategory scores: ${cats}\nHeadline: ${d.headline}\n${sums}${SPOTS[d.iso3]?`\n  - Strain and split (context, not scored): ${SPOTS[d.iso3].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').replace('Example: '+d.name,'').replace(/Open [^.]*$/,'').trim()}`:''}`};
-const digest=[`WHO HOLDS THE RECORD: index digest. Data as of ${asOf}. ${N} countries. Weights: ${CATS.map(c=>`${c.s} ${c.w}%`).join(', ')}.`,
+const digest=[`HEALTH RECORD RIGHTS INDEX: index digest. Data as of ${asOf}. ${N} countries. Weights: ${CATS.map(c=>`${c.s} ${c.w}%`).join(', ')}.`,
  `Bands: Poor 0-24, Weak 25-44, Mixed 45-64, Strong 65-84, Leading 85-100. Counts: ${BANDS.map(b=>`${b.n} ${bandCount[b.n]}`).join(', ')}. Median overall ${median}.`,
  `Keys models: ${models.map(m=>`${m} ${modelCount[m]}`).join(', ')}. Category medians: ${CATS.map(c=>`${c.s} ${DIST[c.k].med}`).join(', ')}.`,
  `Low confidence countries: ${lowConf.map(d=>d.name).join(', ')}. Stories: ${storyTotal} published accounts; themes: ${Object.entries(themeCount).map(([k,v])=>`${k} ${v}`).join(', ')}.`,
@@ -336,7 +341,8 @@ if(fs.existsSync('out/press-kit/index.html'))smap.push([`${SITE}press-kit/`,late
 ranked.forEach(d=>smap.push([`${SITE}brief/${d.iso3}/`,BR.lastmod[d.iso3]]));
 // The travelling patient (traveller.js; docs/TRAVELLER_DESIGN.md): its own page, built every time so a rebuild never drops it.
 // TRAVELLER_OFF=1 (Railway build variable) keeps the page out of production until the globe journey is finished.
-if(!process.env.TRAVELLER_OFF){const TR=require('./traveller.js').buildTraveller({SITE,NOINDEX,VERSION});console.log('traveller',TR.url);
+if(!process.env.TRAVELLER_OFF){NAV.writeNavScript('out'); // the shared top bar's country search (out/assets/whr-nav.js)
+const TR=require('./traveller.js').buildTraveller({SITE,NOINDEX,VERSION});console.log('traveller',TR.url);
 smap.push([`${SITE}traveller/`,TR.lastmod]);}
 // Same content dates for the server's Last-Modified header (server.mjs), so headers, sitemap and JSON-LD agree.
 const LM=Object.fromEntries(smap.filter(([,m])=>m).map(([u,m])=>[u.replace(SITE,'/'),m]));

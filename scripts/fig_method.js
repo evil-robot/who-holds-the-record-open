@@ -126,7 +126,7 @@ let y, s, h;
 
 const BOTTOM = Math.max(...ENDS) + 18; svg = svg.split('__COLH__').join(String(BOTTOM - TOPY));
 const WIDTH = X0 * 2 + 6 * CW + 5 * GAP, HEIGHT = BOTTOM + 48;
-svg += `<text x="${X0}" y="${BOTTOM + 30}" font-size="12" fill="${MUTED}">Method as in Section 3 of the paper. Rubric v1.1. ${N} countries, data as of ${facts.asOf}. Source: Who Holds the Record, SuperTruth.</text>`;
+svg += `<text x="${X0}" y="${BOTTOM + 30}" font-size="12" fill="${MUTED}">Method as in Section 3 of the paper. Rubric v1.1. ${N} countries, data as of ${facts.asOf}. Source: Health Record Rights Index, SuperTruth.</text>`;
 const out = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${WIDTH} ${HEIGHT}" width="${WIDTH}" height="${HEIGHT}" font-family="Inter, system-ui, sans-serif"><rect width="100%" height="100%" fill="#fff"/>${svg}</svg>`;
 fs.mkdirSync('paper/figures', { recursive: true });
 fs.writeFileSync('paper/figures/fig1_method.svg', out);

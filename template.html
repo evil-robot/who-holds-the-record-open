@@ -289,20 +289,18 @@ footer a:hover{color:var(--st-gray-900)}
 footer .brandline{display:flex;align-items:center;gap:10px}
 .disc{flex-basis:100%;margin:0;font-size:12px;color:var(--st-gray-500)}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+{{NAV_CSS}}
 </style>
 <link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt"><link rel="alternate" type="text/plain" href="llms-full.txt" title="llms-full.txt">
 <script src="assets/analytics.js" defer></script>
 </head>
 <body>
-<header class="bar"><div class="wrap">
-  <a href="https://supertruth.ai" aria-label="SuperTruth home"><img src="assets/supertruth-logo-dark.svg" alt="SuperTruth" width="131" height="24"></a>
-  <nav aria-label="Page"><a href="#ranking">Ranking</a><a href="#stories">Stories</a><a href="#categories">Categories</a><a href="#strain">Strain</a><a href="#method">Method</a><a href="traveller/">Travelling patient</a><a href="https://supertruth.ai/press">Press</a><a href="#" id="askNav">Ask</a></nav>
-</div></header>
+{{NAV}}
 
 <main>
 <section class="hero"><div class="wrap">
   <div>
-    <p class="overline">Health record rights</p>
+    <p class="overline">Who holds the record?</p>
     <h1>{{NAME}}</h1>
     <p class="deck">{{LEDE_LEAD}}</p>
     <p class="lede">{{LEDE}}</p>
@@ -354,6 +352,7 @@ footer .brandline{display:flex;align-items:center;gap:10px}
 <section id="categories"><div class="wrap-xl">
   <p class="overline">Eight rights</p>
   <h2>{{MATRIX_HEAD}}</h2>
+  <p class="lede">{{MATRIX_LEDE}}</p>
   <p class="cap">Each dot is one country's score, 0 to 100, on the same scale in every column. The grey line is the median of all {{N}}. Click a column name to sort by it.</p>
   <div class="scroll">
   <table class="matrix" id="matrix">
@@ -404,7 +403,7 @@ footer .brandline{display:flex;align-items:center;gap:10px}
     <div class="card" style="grid-column:1/-1" id="data"><h3>Download the data, and cite it</h3><p>Every score, category, source and law is open under CC BY 4.0. Use it, with credit.</p>
       <div class="dl"><a class="btn" href="data/who-holds-the-record-scores.csv" download>Scores (CSV)</a><a class="btn" href="data/who-holds-the-record-sources.csv" download>Sources (CSV)</a><a class="btn" href="data/who-holds-the-record.json" download>Everything (JSON)</a><a class="btn" href="press-kit/">Press kit</a></div>
       <p style="margin-top:14px"><b>Cite this</b></p>
-      <div class="cite">Snyder, J. A., Hill, B., &amp; Raney, D. ({{YEAR}}). Who Holds the Record: an index of a person's right to see, control and share their own health record (version {{VERSION}}). SuperTruth Inc. {{SITE}} (DOI assigned on publication)</div></div>
+      <div class="cite">Snyder, J. A., Hill, B., &amp; Raney, D. ({{YEAR}}). The Health Record Rights Index: who holds the record? (version {{VERSION}}). SuperTruth Inc. {{SITE}} (DOI assigned on publication)</div></div>
     <div class="card" style="grid-column:1/-1"><h3>About the stories</h3>
       <p><b>Everything in this index comes from public information: laws, government and regulator pages, court decisions and published news reports. We link to every source.</b></p>
       <p>These are published accounts from people and public bodies about problems with health records, pinned to the country where they happened. The summaries are ours; follow each link to read the original. We do not name the people, we include no one under 18, and we name a hospital or company only where a regulator, court or the organisation itself has stated what happened. Stories do not affect any country's score.</p>
@@ -547,7 +546,7 @@ const NAME_RE=new RegExp('\\b('+NAMES.map(([n])=>n.replace(/[.*+?^${}()|[\]\\]/g
 function linkify(el,text){el.replaceChildren();let last=0;text.replace(NAME_RE,(m,n,i)=>{el.append(text.slice(last,i));const iso=NAMES.find(x=>x[0]===n)[1];el.append(h('button',{type:'button',class:'cty',onclick:()=>{select(iso,true)}},n));last=i+m.length;return m});el.append(text.slice(last))}
 function openAsk(){ASK.hidden=false;ASKOPEN.hidden=true;ASKOPEN.setAttribute('aria-expanded','true');ASKIN.focus()}
 function closeAsk(){ASK.hidden=true;ASKOPEN.hidden=false;ASKOPEN.setAttribute('aria-expanded','false');ASKOPEN.focus()}
-ASKOPEN.addEventListener('click',openAsk);document.getElementById('askNav').addEventListener('click',e=>{e.preventDefault();openAsk()});document.getElementById('askClose').addEventListener('click',closeAsk);
+ASKOPEN.addEventListener('click',openAsk);document.getElementById('askClose').addEventListener('click',closeAsk);
 ASK.addEventListener('keydown',e=>{if(e.key==='Escape')closeAsk()});
 document.querySelectorAll('#askSugg button').forEach(b=>b.addEventListener('click',()=>askQ(b.textContent)));
 document.getElementById('askForm').addEventListener('submit',e=>{e.preventDefault();const q=ASKIN.value.trim();if(q)askQ(q)});

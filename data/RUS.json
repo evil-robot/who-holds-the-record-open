@@ -1,0 +1,351 @@
+{
+  "iso3": "RUS",
+  "name": "Russia",
+  "region": "Europe",
+  "controlModel": "State",
+  "headline": "Russians can see 32 types of medical documents on the state portal, but the state system decides how records flow and police access is broad.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 60,
+      "summary": "Federal Law 323-FZ gives patients the right to see their records and get copies, including electronically. The Gosuslugi portal shows 32 types of electronic documents, but how many people use it and how complete it is were not verified.",
+      "detail": [
+        "Article 22 of Federal Law 323-FZ (2011) lets a patient or legal representative read their medical documentation directly and, on request, receive documents, copies and extracts, including as electronic documents.",
+        "Health Ministry Order 789n (2020) sets the procedure. The deadline is tied to the general rules for citizen appeals, and requests can be filed on paper or electronically with a digital signature.",
+        "Since a Health Ministry letter of 11 December 2025 (No. 18-2/I/2-24895), 32 types of electronic medical documents, grouped by category, appear in the 'My Health' cabinet on Gosuslugi. Files download as an archive with detached digital signatures and a PDF view.",
+        "Coverage is uneven. A February 2026 Medvestnik report says only about 2% of Russia's 100,000 private clinics sent data to the state systems in 2025. Portal usage figures for the medical card were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Article 22. Information about state of health, Federal Law 323-FZ (ConsultantPlus)",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_121895/d2872d82b3b26ca307971f590ce02dd37f71cafc/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "32 types of electronic medical documents now shown on Gosuslugi (Kholmsk Central District Hospital)",
+          "url": "https://kholmskcrb.gosuslugi.ru/novosti/vyvedeny-32-vida-elektronnyh-meditsinskih-dokumentov.html",
+          "date": "2025-12-25",
+          "publisherClass": "official"
+        },
+        {
+          "title": "New procedure and deadlines for providing medical documents approved (ConsultantPlus)",
+          "url": "https://www.consultant.ru/law/hotdocs/64775.html",
+          "date": "2020-09-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry prepares new procedure for keeping medical documentation (Medvestnik)",
+          "url": "https://medvestnik.ru/content/news/minzdrav-rf-podgotovil-proekt-novogo-poryadka-vedeniya-medicinskoi-dokumentacii.html",
+          "date": "2026-02-19",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Law 323-FZ lets clinics exchange records through state information systems for care without the patient's consent. The health regulator has said a patient's written refusal to send health data to the state system should be honoured, but no patient-visible access log was found.",
+      "detail": [
+        "Article 13 of 323-FZ makes the fact of a visit, diagnosis and treatment details a medical secret. Part 4 lists 11 cases where it can be disclosed without consent, including exchange between medical organisations through information systems to provide care.",
+        "A vendor site reported in June 2025 that Roszdravnadzor answered that health information is sent to the state system (EGISZ) only with the patient's consent, so clinics may accept a refusal. A June 2026 Klerk article says full refusal is impossible and de-identified data still goes for statistics without consent.",
+        "The refusal is a written statement to each clinic. We found no national consent dashboard and no patient-visible log of who opened the record (not verified). This sits at the lower end of the opt-out band."
+      ],
+      "sources": [
+        {
+          "title": "Article 13. Medical secrecy, Federal Law 323-FZ (SudAct)",
+          "url": "https://sudact.ru/law/federalnyi-zakon-ot-21112011-n-323-fz-ob/glava-2/statia-13/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Is it legal to take a patient's refusal to send data to EGISZ? Roszdravnadzor's answer (Medrate)",
+          "url": "https://medrate.ru/posts/zakonno-li-brat-s-pacienta-otkaz-ot-peredachi-dannyh-v-egisz-otvet-roszdravnadzora.html",
+          "date": "2025-06-03",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "How to limit transfer of paid doctor visit data to EGISZ (Klerk)",
+          "url": "https://www.klerk.ru/buh/news/696717/",
+          "date": "2026-06-23",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 34,
+      "summary": "Health data is a special category, and since May 2025 leaking it can cost a firm 10 to 15 million rubles. The regulator is a government service, investigators can demand records without consent, and over a million medical records leaked in several 2026 months.",
+      "detail": [
+        "Article 10 of Federal Law 152-FZ bans processing of health data except listed cases, including care by a professional bound by medical secrecy.",
+        "Amendments in force from 30 May 2025 set fines of 10 to 15 million rubles for leaking special category data, 1 to 3 million for failing to report a leak, and 1 to 3% of revenue for repeat leaks, capped at 500 million.",
+        "Article 13 of 323-FZ allows disclosure without consent on request of investigators, courts, prosecutors and the penitentiary service. Roskomnadzor, the data regulator, is a federal government service, not an independent authority.",
+        "A security firm counted 1 million leaked medical records in March 2026, 1.2 million in April and 1.7 million in June, used for sale and phone fraud. Health-sector enforcement decisions were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Article 10. Special categories of personal data, Federal Law 152-FZ (Klerk legal database)",
+          "url": "https://www.klerk.ru/cdoc/view/3b8e926083fc0bd01959f782189eeea9/stata-10-specialnye-kategorii-personalnyh-dannyh/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Personal data: new fines from 30 May 2025 (ConsultantPlus)",
+          "url": "https://www.consultant.ru/legalnews/28492/",
+          "date": "2025-05-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Article 13. Medical secrecy, Federal Law 323-FZ (SudAct)",
+          "url": "https://sudact.ru/law/federalnyi-zakon-ot-21112011-n-323-fz-ob/glava-2/statia-13/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Fraudsters keep publishing leaked medical data (CNews)",
+          "url": "https://safe.cnews.ru/news/line/2026-07-03_perspektivnyj_monitoring",
+          "date": "2026-07-03",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "Commercial use of health data needs consent under the Personal Data Law, and the 2025 de-identified data rule excludes information restricted by law. Leaked clinic databases are sold, and drug makers sought access to state records in September 2026.",
+      "detail": [
+        "Article 10 of 152-FZ allows health data processing without consent only in listed cases such as care by staff bound by medical secrecy. Marketing use falls outside those cases.",
+        "Law 233-FZ (2024), in force from 1 September 2025, lets the digital ministry require operators to provide de-identified data sets. Operators must strip information whose access is restricted by federal law. Whether this keeps all health data out was not verified.",
+        "In September 2026 the drug industry group Infarma proposed an experimental legal regime to use de-identified state health records for drug development, after earlier requests in 2023 and 2025.",
+        "A security firm reports leaked Russian medical databases are sold or used for phone fraud. We found no specific law on health data brokers or consumer health apps (not verified)."
+      ],
+      "sources": [
+        {
+          "title": "Article 10. Special categories of personal data, Federal Law 152-FZ (Klerk legal database)",
+          "url": "https://www.klerk.ru/cdoc/view/3b8e926083fc0bd01959f782189eeea9/stata-10-specialnye-kategorii-personalnyh-dannyh/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law 233-FZ and new de-identification rules from 1 September 2025 (Anti-Malware)",
+          "url": "https://www.anti-malware.ru/analytics/Technology_Analysis/Depersonalization-of-personal-data-in-Russia-2025",
+          "date": "2025-06-02",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Pharma business proposes using Russians' de-identified medical data for new drugs (GxP News)",
+          "url": "https://gxpnews.net/2026/09/farmbiznes-predlozhil-ispolzovat-obezlichennye-meddannye-rossiyan-radi-novyh-lekarstv/",
+          "date": "2026-09-09",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Fraudsters keep publishing leaked medical data (CNews)",
+          "url": "https://safe.cnews.ru/news/line/2026-07-03_perspektivnyj_monitoring",
+          "date": "2026-07-03",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 55,
+      "summary": "A single state system, EGISZ, has 18 subsystems including a federal electronic medical card and a register of electronic documents, and it exchanges data with compulsory insurance. Private clinics barely take part and e-prescriptions still stop at regional borders.",
+      "detail": [
+        "Government Decree 140 (2022) sets up EGISZ with subsystems including the federal electronic registry, federal integrated electronic medical card, register of electronic medical documents, disease registries and drug registries. It exchanges data with the compulsory medical insurance system.",
+        "Order 209n (2026), as reported by Medvestnik, lets clinics and pharmacies drop paper copies unless the patient asks, with each signed document registered in the federal register.",
+        "A July 2026 ministry proposal says regional e-prescription systems work in isolation, so a prescription from one region cannot be filled in another. A federal experiment is planned from 1 December 2026.",
+        "Only about 2% of private clinics sent data in 2025, according to Medvestnik."
+      ],
+      "sources": [
+        {
+          "title": "Government Decree No. 140 of 9 February 2022 on EGISZ (Rossiyskaya Gazeta)",
+          "url": "https://rg.ru/documents/2022/02/15/pravitelstvo-post140-site-dok.html",
+          "date": "2022-02-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry prepares new procedure for keeping medical documentation (Medvestnik)",
+          "url": "https://medvestnik.ru/content/news/minzdrav-rf-podgotovil-proekt-novogo-poryadka-vedeniya-medicinskoi-dokumentacii.html",
+          "date": "2026-02-19",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Health Ministry proposes experiment on central accounting of e-prescriptions (Vademecum)",
+          "url": "https://www.vademec.ru/news/2026/07/27/minzdrav-predlozhil-eksperiment-po-tsentralizovannomu-uchetu-elektronnykh-retseptov/",
+          "date": "2026-07-27",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 45,
+      "summary": "The law lets clinics share records through information systems for care without consent, and a federal electronic medical card exists. Whether a treating doctor in practice sees records from other providers, especially private ones, was not verified.",
+      "detail": [
+        "Article 13 part 4 of 323-FZ allows exchange of medical secrets between medical organisations through information systems to provide care.",
+        "Decree 140 creates a federal integrated electronic medical card inside EGISZ. Day-to-day records sit in regional health systems.",
+        "With few private clinics connected and regional systems working separately for prescriptions, the complete cross-provider view depends on region and provider type. Clinician usage figures were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Article 13. Medical secrecy, Federal Law 323-FZ (SudAct)",
+          "url": "https://sudact.ru/law/federalnyi-zakon-ot-21112011-n-323-fz-ob/glava-2/statia-13/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Government Decree No. 140 of 9 February 2022 on EGISZ (Rossiyskaya Gazeta)",
+          "url": "https://rg.ru/documents/2022/02/15/pravitelstvo-post140-site-dok.html",
+          "date": "2022-02-15",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 42,
+      "summary": "Drug trial participants must sign written consent and can leave at any stage under Law 61-FZ. De-identified datasets from the federal electronic medical card have been offered to accredited AI developers since 2022 with no individual consent or opt-out found.",
+      "detail": [
+        "Article 43 of Federal Law 61-FZ (2010) makes trial participation voluntary, requires written information on risks and insurance, confirms consent by signature, and lets the patient withdraw at any stage.",
+        "In November 2022 the Health Ministry opened de-identified, expert-labelled datasets from the federal electronic medical card to IT companies accredited by the digital ministry, starting with three national research centres.",
+        "We found no general opt-out from research reuse and no public transparency register (not verified). Safeguards found are de-identification and developer accreditation."
+      ],
+      "sources": [
+        {
+          "title": "Article 43. Rights of patients in clinical trials, Federal Law 61-FZ (ConsultantPlus)",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_99350/9570de6d7195a78722b0b5efdcf4fa9a90c54557/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry opens AI developers' access to datasets from electronic medical records (Medvestnik)",
+          "url": "https://medvestnik.ru/content/news/Minzdrav-otkryl-razrabotchikam-iskusstvennogo-intellekta-dostup-k-datasetam-iz-elektronnyh-medkart.html",
+          "date": "2022-11-25",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 55,
+      "summary": "AI software in care is registered as a medical device in the highest risk class, and registered AI products must automatically report usage data to the regulator. Roszdravnadzor counted 59 domestic AI devices in August 2026; formal change control was not verified.",
+      "detail": [
+        "Health Ministry Order 4n classes software using AI as risk class 3, according to a September 2026 ComNews report in which a developer asked to end the automatic top class.",
+        "Roszdravnadzor Order 4472 (21 July 2025) set automatic transfer from AI devices of the product name, registration number, scope, number of studies run and AI performance results.",
+        "Federal Law 243-FZ, signed 26 July 2026, defines sovereign and national AI models, sets state powers over AI and requires labelling of AI-generated content, mostly from 1 September 2026. Health-specific rules in it were not verified.",
+        "Rules for retrained models after registration were not verified."
+      ],
+      "sources": [
+        {
+          "title": "AI law 243-FZ signed (ConsultantPlus)",
+          "url": "https://www.consultant.ru/law/hotdocs/95007.html",
+          "date": "2026-07-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Developer of AI medical devices asks not to class them automatically as risk class 3 (ComNews)",
+          "url": "https://www.comnews.ru/content/247569/2026-09-28/2026-w40/1007/razrabotchik-medizdeliy-iskusstvennym-intellektom-poprosil-ne-prichislyat-ikh-avtomaticheski-k-tretemu-klassu-riska",
+          "date": "2026-09-28",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Procedure approved for automatic transfer of AI medical device data to Roszdravnadzor (Meditex)",
+          "url": "https://meditex.ru/news_all/UtverzhdenporyadokavtomaticheskoyperedachidannykhomedizdeliyakhsIIvinformatsionnuyusistemuRoszdravna/",
+          "date": "2025-10-23",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Russia has registered 59 AI medical devices (Vedomosti)",
+          "url": "https://www.vedomosti.ru/technology/news/2026/08/18/1221917-rossii-zaregistrirovali",
+          "date": "2026-08-18",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "One state system (EGISZ) links public clinics, document registers, disease registries and insurance. Private clinics rarely connect, e-prescriptions stay within regions, and research access runs through ministry datasets. Russia is outside the EU, so the EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Federal Law 323-FZ on the Basics of Protecting Citizens' Health",
+      "level": "National",
+      "year": "2011",
+      "what": "Right to read records and get copies; medical secrecy with 11 listed exceptions, including police requests.",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_121895/d2872d82b3b26ca307971f590ce02dd37f71cafc/"
+    },
+    {
+      "name": "Federal Law 152-FZ on Personal Data",
+      "level": "National",
+      "year": "2006",
+      "what": "Health data is a special category; processing banned except listed cases such as medical care.",
+      "url": "https://www.klerk.ru/cdoc/view/3b8e926083fc0bd01959f782189eeea9/stata-10-specialnye-kategorii-personalnyh-dannyh/"
+    },
+    {
+      "name": "Government Decree 140 on the Unified State Health Information System (EGISZ)",
+      "level": "National",
+      "year": "2022",
+      "what": "Sets up EGISZ with 18 subsystems, including the federal electronic medical card and document register.",
+      "url": "https://rg.ru/documents/2022/02/15/pravitelstvo-post140-site-dok.html"
+    },
+    {
+      "name": "Federal Law 61-FZ on Circulation of Medicines (Article 43)",
+      "level": "National",
+      "year": "2010",
+      "what": "Voluntary, signed consent for drug trials and the right to withdraw at any stage.",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_99350/9570de6d7195a78722b0b5efdcf4fa9a90c54557/"
+    },
+    {
+      "name": "Administrative Code amendments on personal data fines (Law 420-FZ)",
+      "level": "National",
+      "year": "2024",
+      "what": "From 30 May 2025, fines up to 15 million rubles for health data leaks, turnover fines for repeats.",
+      "url": "https://www.consultant.ru/legalnews/28492/"
+    },
+    {
+      "name": "Federal Law 243-FZ on Support for AI Technologies",
+      "level": "National",
+      "year": "2026",
+      "what": "Defines sovereign and national AI models, state powers over AI and labelling of AI content, mostly from 1 September 2026.",
+      "url": "https://www.consultant.ru/law/hotdocs/95007.html"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-09",
+      "headline": "Drug makers ask for sandbox access to de-identified state medical records",
+      "source": "GxP News",
+      "url": "https://gxpnews.net/2026/09/farmbiznes-predlozhil-ispolzovat-obezlichennye-meddannye-rossiyan-radi-novyh-lekarstv/",
+      "why": "Would open de-identified state medical records to industry; no individual consent step was described."
+    },
+    {
+      "date": "2026-07-27",
+      "headline": "Health ministry plans federal e-prescription experiment as regional systems stay isolated",
+      "source": "Vademecum",
+      "url": "https://www.vademec.ru/news/2026/07/27/minzdrav-predlozhil-eksperiment-po-tsentralizovannomu-uchetu-elektronnykh-retseptov/",
+      "why": "Today a prescription from one region cannot be filled in another."
+    },
+    {
+      "date": "2026-07-03",
+      "headline": "Security firm counts millions of leaked Russian medical records in 2026",
+      "source": "CNews",
+      "url": "https://safe.cnews.ru/news/line/2026-07-03_perspektivnyj_monitoring",
+      "why": "Leaked records are used to defraud patients by phone."
+    },
+    {
+      "date": "2026-05-27",
+      "headline": "Online ordering of medical certificates to expand to all regions",
+      "source": "Vedomosti",
+      "url": "https://www.vedomosti.ru/society/news/2026/05/27/1200585-onlain-zakaz-meditsinskih-spravok",
+      "why": "Patients can get common certificates through Gosuslugi without a clinic visit."
+    },
+    {
+      "date": "2026-02-19",
+      "headline": "Health ministry moves medical records to signed electronic documents in EGISZ",
+      "source": "Medvestnik",
+      "url": "https://medvestnik.ru/content/news/minzdrav-rf-podgotovil-proekt-novogo-poryadka-vedeniya-medicinskoi-dokumentacii.html",
+      "why": "Paper copies end unless the patient asks, putting the record in the state system."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

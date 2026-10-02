@@ -1,0 +1,382 @@
+{
+  "iso3": "IRL",
+  "name": "Ireland",
+  "region": "Europe",
+  "controlModel": "State",
+  "headline": "Irish records are still largely paper, but a national Shared Care Record went live for clinicians in 2026; patient controls are legislated, not in force.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 55,
+      "summary": "Patients have a free GDPR and FOI right to their whole record, but get it by writing to each hospital or service. The HSE Health App shows only part of the record (appointments, waiting lists, vaccines) and had about 125,000 registered users in January 2026.",
+      "detail": [
+        "Citizens Information says patients can get records by writing to the service that treated them, by a GDPR subject access request, or under the Freedom of Information Act 2014. Records can be withheld if access is likely to cause serious harm to health.",
+        "GDPR binds Ireland: a controller must answer within one month and the first copy is free (EDPB guide). RTÉ found nearly 100,000 legal information requests to the HSE in three years, mostly patients seeking their own records.",
+        "The HSE Health App shows appointments from 35 hospitals, inpatient and day-case waiting lists, GP general referrals, flu and COVID-19 vaccine records, and chronic disease diagnosis and vital measurements (Department of Health). The medicines and allergies list is one the patient keeps, not a record feed. Scans and test results are promised for a later release.",
+        "The Department of Health reported over 125,000 registered users and 210,000 downloads in January 2026. Ireland's EU eHealth access score rose from 0% in 2022 to 44% in 2025 (DETE), against an EU-27 average of 87% (European Commission).",
+        "Not scored as a national portal (60 to 75 band): app record data covers programme patients and 35 hospitals, and no official figure shows it reaching most residents. Score: base 45, plus 5 for the GDPR deadline and free copy, plus 5 for an official partial portal."
+      ],
+      "sources": [
+        {
+          "title": "Access to medical records in the public healthcare system (Citizens Information)",
+          "url": "https://www.citizensinformation.ie/en/health/legal-matters-and-health/access-to-medical-records/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Minister for Health welcomes increase in HSE Health app usage as registrations pass 125,000 (Department of Health)",
+          "url": "https://www.gov.ie/en/department-of-health/press-releases/minister-for-health-welcomes-increase-in-hse-health-app-usage-as-registrations-pass-125000/",
+          "date": "2026-01-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ireland confirmed as one of the EU's strongest digital performers (Department of Enterprise, Tourism and Employment)",
+          "url": "https://enterprise.gov.ie/en/news-and-events/department-news/2026/august/ireland-confirmed-as-one-of-the-eus-strongest-digital-performers.html",
+          "date": "2026-08-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2026 Digital Decade eHealth Indicator Study, executive summary (European Commission)",
+          "url": "https://data.europa.eu/doi/10.2759/8560168",
+          "date": "2026-06",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "The new Shared Care Record shares data by default on a public interest basis, with no opt-out found and no patient-readable access log. Rights to restrict access and to be told who looked are in the Health Information Act 2026 but not commenced.",
+      "detail": [
+        "The HSE's DPIA summary rests the Shared Care Record on GDPR Articles 6(1)(e) and 9(2)(h), not consent. Audit logs are kept and staff must tell patients 'when appropriate' that their record is being accessed. No patient-facing log is described.",
+        "The HSE privacy notice lists a general right to object 'in certain circumstances'. We found no Shared Care Record opt-out or objection route on HSE pages, so none is credited.",
+        "Section 14 of the Act lets a patient restrict access to all or part of a national electronic health record, with emergency override logged. Section 15 requires free, automatic notice of every access, naming who, when and what.",
+        "The commencement table shows sections 13 to 15 and 17 to 18 with no commencement date; sections 10 to 12 (creating the record) commenced on 17 August 2026. Until 13 to 15 commence, these controls do not exist in practice."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Impact Assessment summary: Shared Care Record (HSE)",
+          "url": "https://about.hse.ie/publications/national-shared-care-record-dpia/",
+          "date": "2026-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "HSE Privacy Notice for patients and service users (HSE)",
+          "url": "https://about.hse.ie/publications/hse-privacy-notice-service-users/",
+          "date": "2024-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Information Act 2026, No. 10 of 2026 (Irish Statute Book)",
+          "url": "https://www.irishstatutebook.ie/eli/2026/act/10/enacted/en/index.html",
+          "date": "2026-04-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Information Act 2026: commencement table (Irish Statute Book)",
+          "url": "https://www.irishstatutebook.ie/eli/isbc/2026_10.html",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 56,
+      "summary": "The Data Protection Commission fined the HSE twice in 2026 (300,000 and 645,000 euros) for health record failures and reprimanded Children's Health Ireland. Fines on public bodies are capped at 1 million euros, and one case took over seven years.",
+      "detail": [
+        "In September 2026 the DPC fined the HSE 645,000 euros after intruders reached medical records in two disused psychiatric hospitals. Inspectors at 12 sites found records damaged by mould, animal droppings and water.",
+        "In June 2026 the DPC fined the HSE 300,000 euros over a November 2018 ransomware attack on the Tullamore hospital laboratory system, finding failures on security, processor contracts and telling affected patients.",
+        "On 1 October 2026 the DPC reprimanded Children's Health Ireland at Tallaght over children's paper records, including an overflowing confidential waste bin. In July 2026 a card-printing supplier's breach exposed 'a small number' of HSE records (Irish Times).",
+        "Section 141 of the Data Protection Act 2018 caps fines on public bodies at 1 million euros, and section 141(5) requires payment only after a court confirms the fine. Enforcement is real but slow and capped."
+      ],
+      "sources": [
+        {
+          "title": "DPC announces final decision following inquiry into the HSE (paper records storage)",
+          "url": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-announces-final-decision-following-inquiry-health-service-executive-hse",
+          "date": "2026-09-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Inquiry into Midlands Regional Hospital Tullamore (Data Protection Commission decision)",
+          "url": "https://www.dataprotection.ie/en/dpc-guidance/decisions/inquiry-midlands-regional-hospital-tullamore",
+          "date": "2026-06-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "DPC publishes final decision following inquiry into Children's Health Ireland",
+          "url": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-publishes-final-decision-following-inquiry-childrens-health-ireland-chi",
+          "date": "2026-10-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Protection Act 2018, section 141 (Irish Statute Book)",
+          "url": "https://www.irishstatutebook.ie/eli/2018/act/7/section/141/enacted/en/html",
+          "date": "2018",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 58,
+      "summary": "Research use of personal health data, including commercial research, needs explicit consent unless a national committee grants a declaration. We found no Irish ban on selling health data or on its use for advertising.",
+      "detail": [
+        "The Health Research Regulations 2018 make explicit consent a required safeguard for health research, with exceptions for anonymised data or specific legal provision (Irish Statute Book, HRCDC).",
+        "Section 17 of the Health Information Act 2026 limits provider use of the national record to the patient's care unless the patient consents. Other uses are by the HSE for public health, planning and statistics. This section has not commenced.",
+        "Consumer health apps and data brokers fall under general GDPR rules only. We found no Irish health-specific rule on sale or marketing, which keeps this cell in the middle band, level with Denmark."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act 2018 (Section 36(2)) (Health Research) Regulations 2018, S.I. No. 314 of 2018 (Irish Statute Book)",
+          "url": "https://www.irishstatutebook.ie/eli/2018/si/314/made/en/print",
+          "date": "2018",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Who we are (Health Research Consent Declaration Committee)",
+          "url": "https://hrcdc.ie/who-we-are/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Information Act 2026, No. 10 of 2026 (Irish Statute Book)",
+          "url": "https://www.irishstatutebook.ie/eli/2026/act/10/enacted/en/index.html",
+          "date": "2026-04-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Information Act 2026: commencement table (Irish Statute Book)",
+          "url": "https://www.irishstatutebook.ie/eli/isbc/2026_10.html",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 38,
+      "summary": "A national Shared Care Record released nationally in early 2026 now pulls medicines, GP labs and radiology, discharge summaries and vaccines into one read-only view. But the Department of Health says records remain 'fragmented and largely paper-based', and a national EHR is only in procurement.",
+      "detail": [
+        "The Shared Care Record went live in Waterford and Wexford in November 2025 and nationally in early 2026. Its April 2026 release added datasets; it covers reimbursed medicines, GP-requested labs and radiology, discharge summaries, appointments, waiting lists, procedures and vaccines (HSE).",
+        "Government approved shortlisting for a National Electronic Health Record on 5 February 2026. The Department said records are fragmented and largely paper-based. A maternity system in five hospitals covers 70% of births.",
+        "The national lab system MedLIS runs at Beaumont (since August 2024) and Cavan and Monaghan (from April 2026). The HSE aims for all 43 hospital labs by 2029."
+      ],
+      "sources": [
+        {
+          "title": "HSE Shared Care Record (HSE)",
+          "url": "https://about.hse.ie/our-work/technology/shared-care-record/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Shared Care Record continues to grow with expanded datasets and nationwide rollout (HSE)",
+          "url": "https://about.hse.ie/news/national-shared-care-record-nscr-continues-to-grow-with-expanded-datasets-and-nationwide-rollout/",
+          "date": "2026-06-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Minister announces Government approval to commence procurement for a National Electronic Health Record (Department of Health)",
+          "url": "https://www.gov.ie/en/department-of-health/press-releases/minister-announces-government-approval-to-commence-procurement-for-a-national-electronic-health-record/",
+          "date": "2026-02-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "HSE Laboratory Information System (MedLIS) (HSE)",
+          "url": "https://about.hse.ie/our-work/technology/national-laboratory-information-system-medlis/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 36,
+      "summary": "Over 2,500 HSE staff use the Shared Care Record to see a patient's medicines, results and discharge summaries from other services. It is read-only, not a complete record, and open only to HSE staff on the HSE network.",
+      "detail": [
+        "The HSE says access is limited to authorised, trained staff on the HEALTHIRL network after an e-learning module, with expansion to other staff 'in the coming months'.",
+        "The DPIA states the Shared Care Record 'is not a complete patient record' and that users should check other sources. Staff cannot add or edit data.",
+        "Hospital records themselves sit on paper or unlinked systems, so a clinician still often cannot see another hospital's notes (RTÉ, Department of Health). Section 7 of the Health Information Act 2026, a duty to share with other treating providers, has not commenced."
+      ],
+      "sources": [
+        {
+          "title": "HSE Shared Care Record (HSE)",
+          "url": "https://about.hse.ie/our-work/technology/shared-care-record/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Protection Impact Assessment summary: Shared Care Record (HSE)",
+          "url": "https://about.hse.ie/publications/national-shared-care-record-dpia/",
+          "date": "2026-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Almost 100k patient record requests amid lack of online system (RTÉ)",
+          "url": "https://www.rte.ie/news/2026/0513/1573052-hse-medical-records/",
+          "date": "2026-05-13",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Health Information Act 2026: commencement table (Irish Statute Book)",
+          "url": "https://www.irishstatutebook.ie/eli/isbc/2026_10.html",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 70,
+      "summary": "Explicit consent is the default for using personal data in health research, and a national committee can waive it only where the public interest significantly outweighs consent. The committee publishes an application log and meeting minutes.",
+      "detail": [
+        "S.I. 314 of 2018 lists explicit consent among required safeguards for health research, alongside access controls and logs of who consulted the data.",
+        "Exceptions: wholly anonymised data, research with specific legal authority, and HRCDC consent declarations, for example where people are lost to follow-up or cohorts are too large to contact. The HRCDC publishes a public application log (latest 7 September 2026).",
+        "Ireland is building a Health Data Access Body with HIQA and the Health Research Board under the EU-funded HealthData@IE project. EHDS secondary-use rules start to apply from March 2029 for most data categories (European Commission).",
+        "The score sits at the bottom of the opt-in band because registry and HSE statistical uses run outside consent, and the data infrastructure for research is still being built."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act 2018 (Section 36(2)) (Health Research) Regulations 2018, S.I. No. 314 of 2018 (Irish Statute Book)",
+          "url": "https://www.irishstatutebook.ie/eli/2018/si/314/made/en/print",
+          "date": "2018",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Who we are (Health Research Consent Declaration Committee)",
+          "url": "https://hrcdc.ie/who-we-are/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Decisions: public application log and meeting minutes (HRCDC)",
+          "url": "https://hrcdc.ie/decisions/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "HealthData@IE: national project implementing EHDS (Department of Health)",
+          "url": "https://www.gov.ie/en/department-of-health/collections/healthdataie-national-project-implementing-ehds/",
+          "date": "2026-09-09",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device law and the EU AI Act. Ireland's Regulation of Artificial Intelligence Act 2026 sets up an AI Office but, by the government's own account, adds no obligations, and HIQA's July 2026 AI guidance is good-practice guidance.",
+      "detail": [
+        "The Regulation of Artificial Intelligence Act 2026 was signed on 21 July 2026 and establishes the AI Office of Ireland to coordinate the EU AI Act. The government calls it 'a technical implementing measure' that does not add obligations.",
+        "HIQA published national guidance on responsible and safe use of AI in health and social care on 29 July 2026, built on accountability, human rights, safety and responsiveness. It promotes good practice; we found nothing making it binding.",
+        "Under the anchors, an EU country with only EU law and no binding national clinical-AI additions scores 50."
+      ],
+      "sources": [
+        {
+          "title": "AI Office of Ireland established under the Regulation of Artificial Intelligence Act 2026 (DETE)",
+          "url": "https://www.gov.ie/en/department-of-enterprise-tourism-and-employment/press-releases/ai-office-of-ireland-established-under-the-ai-regulation-bill-2026-paul-byrne-appointed-as-ceo/",
+          "date": "2026-07-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "HIQA publishes first National Guidance on Responsible and Safe Use of AI in Health and Social Care (HIQA)",
+          "url": "https://www.hiqa.ie/hiqa-news-updates/hiqa-publishes-first-national-guidance-responsible-and-safe-use-ai-health-and",
+          "date": "2026-07-29",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "The Shared Care Record links reimbursed medicines, GP labs and radiology, discharge summaries and vaccines for HSE staff. Hospital notes remain mostly paper; MedLIS is live at a few of 43 hospital labs; a national EHR is in procurement.",
+  "laws": [
+    {
+      "name": "Health Information Act 2026 (No. 10 of 2026)",
+      "level": "National",
+      "year": "2026",
+      "what": "National EHR for every patient, duty to share, restriction and access-notice rights; key sections not commenced.",
+      "url": "https://www.irishstatutebook.ie/eli/2026/act/10/enacted/en/index.html"
+    },
+    {
+      "name": "Data Protection Act 2018 (Section 36(2)) (Health Research) Regulations 2018 (S.I. 314/2018)",
+      "level": "National",
+      "year": "2018",
+      "what": "Explicit consent is a required safeguard for health research, unless the HRCDC grants a declaration.",
+      "url": "https://www.irishstatutebook.ie/eli/2018/si/314/made/en/print"
+    },
+    {
+      "name": "Data Protection Act 2018",
+      "level": "National",
+      "year": "2018",
+      "what": "Irish GDPR law; fines on public bodies capped at 1 million euros (s. 141).",
+      "url": "https://www.irishstatutebook.ie/eli/2018/act/7/section/141/enacted/en/html"
+    },
+    {
+      "name": "Freedom of Information Act 2014",
+      "level": "National",
+      "year": "2014",
+      "what": "Right of access to personal records held by the HSE, voluntary hospitals and GP records of medical card holders.",
+      "url": "https://www.citizensinformation.ie/en/health/legal-matters-and-health/access-to-medical-records/"
+    },
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "Health data is a special category; access within one month, first copy free.",
+      "url": "https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Patient access, restriction and access logs, cross-border exchange and secondary-use permits, phased 2029 to 2031.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "Regulation of Artificial Intelligence Act 2026",
+      "level": "National",
+      "year": "2026",
+      "what": "Creates the AI Office of Ireland to coordinate EU AI Act enforcement; adds no new obligations.",
+      "url": "https://www.gov.ie/en/department-of-enterprise-tourism-and-employment/press-releases/ai-office-of-ireland-established-under-the-ai-regulation-bill-2026-paul-byrne-appointed-as-ceo/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-02-05",
+      "headline": "Government approves procurement shortlisting for a national electronic health record",
+      "source": "Department of Health",
+      "url": "https://www.gov.ie/en/department-of-health/press-releases/minister-announces-government-approval-to-commence-procurement-for-a-national-electronic-health-record/",
+      "why": "First step toward one record that follows patients across hospitals, GPs and community care."
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Nearly 100,000 legal requests to the HSE in three years, mostly for own records",
+      "source": "RTÉ",
+      "url": "https://www.rte.ie/news/2026/0513/1573052-hse-medical-records/",
+      "why": "Shows patients still use legal processes to see their own treatment history."
+    },
+    {
+      "date": "2026-06-10",
+      "headline": "Data regulator fines HSE 300,000 euros over 2018 Tullamore lab ransomware attack",
+      "source": "Data Protection Commission",
+      "url": "https://www.dataprotection.ie/en/dpc-guidance/decisions/inquiry-midlands-regional-hospital-tullamore",
+      "why": "Lab results were encrypted and affected patients were not told everything the law requires."
+    },
+    {
+      "date": "2026-07-10",
+      "headline": "HSE card supplier hit by cyberattack; some HSE records accessed",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/health/2026/07/10/hse-pauses-issuing-some-services-including-medical-and-long-term-illness-cards-due-to-cyberattack/",
+      "why": "Third-party suppliers remain a weak point for patient data."
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "HSE fined 645,000 euros over medical records left in derelict buildings",
+      "source": "Data Protection Commission",
+      "url": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-announces-final-decision-following-inquiry-health-service-executive-hse",
+      "why": "Paper records stored in mould and rubble put sensitive medical information at risk."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

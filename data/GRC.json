@@ -1,0 +1,350 @@
+{
+  "iso3": "GRC",
+  "name": "Greece",
+  "region": "Europe",
+  "controlModel": "State",
+  "headline": "Greece put one national record in every patient's phone in 2025, but hospital archives are not yet digitised and per-doctor consent is unclear.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 66,
+      "summary": "Since May 2025 the national record (EHFY) shows diagnoses, prescriptions, test results and hospital stays in the MyHealth app and citizen portal. The EC still ranks Greece below the EU average, with no imaging reports in its 2024 data.",
+      "detail": [
+        "Law 4600/2019, Article 84, gives every holder of an AMKA a lifelong national record and a GDPR Article 15 right to see what it holds (Ministry of Health text).",
+        "The official portal lists prescriptions, referrals, lab and imaging results, diagnoses, allergies, vaccinations, chronic conditions and hospitalisations, viewable in the app or at citizen.ehealthrecord.gov.gr (EHFY).",
+        "The EC 2025 eHealth indicator study puts Greece among 'Followers', below the EU average but above 70%, and lists Greece among countries without access to medical imaging reports. It also notes Greece does not use a notified eID for login.",
+        "The EC country profile says 38% of Greeks accessed personal health information online in 2024, against an EU average of 28%."
+      ],
+      "sources": [
+        {
+          "title": "Ο Εθνικός Ηλεκτρονικός Φάκελος Υγείας (EHFY overview)",
+          "url": "https://ehealthrecord.gov.gr/ehfy-overview-details",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Commencement of the new digital platform for the National Electronic Health Record (NEHR)",
+          "url": "https://www.ehealthrecord.gov.gr/en/press-releases/%CE%B7%CE%BC-%CE%B5%CE%B7%CF%86%CF%85-golive",
+          "date": "2025-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2025 Digital Decade eHealth indicator study (European Commission)",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/bb5838fe-4742-11f0-85ba-01aa75ed71a1/language-en",
+          "date": "2025",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "State of Health in the EU: Greece Country Health Profile 2025 (European Commission, OECD)",
+          "url": "https://health.ec.europa.eu/document/download/b9b4092c-b357-4ae3-8d82-d9a252e7e159_en?filename=2025_chp_gr_english.pdf",
+          "date": "2025",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "control": {
+      "score": 46,
+      "summary": "Greek law logs every access to the record and lets the patient be told who looked and when. The 2019 law only requires that patients be informed of clinician access; a per-doctor consent or opt-out in the live platform is not verified.",
+      "detail": [
+        "Article 84 of Law 4600/2019 records the user and time of every access and entry, and the Ministry and IDIKA must let the patient learn who accessed the record, for example by an entry in the record, email or SMS.",
+        "The same article says the record is unified and mandatory nationally. Each certified clinician informs the patient that they have access for care; it does not set out an opt-out.",
+        "The official portal says citizens can monitor who accesses their data. No verified page describes hiding specific documents or refusing access to named doctors."
+      ],
+      "sources": [
+        {
+          "title": "Νόμος 4600/2019, Άρθρο 84: Ατομικός Ηλεκτρονικός Φάκελος Υγείας (Ministry of Health)",
+          "url": "https://www.moh.gov.gr/articles/newspaper/nomothesia-kanonismoi/3246-nomothesia-hlektronikhs-ygeias?fdl=14732",
+          "date": "2019-03-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ο Εθνικός Ηλεκτρονικός Φάκελος Υγείας (EHFY overview)",
+          "url": "https://ehealthrecord.gov.gr/ehfy-overview-details",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 56,
+      "summary": "The Data Protection Authority does act on hospital breaches, fining Thessaloniki's G. Gennimatas hospital 25,000 euros in September 2026 for posting 2,820 patients' diagnoses online. Fines are small and the case took two years.",
+      "detail": [
+        "A pseudonymisation error put a 235-page file with phone numbers, conditions and surgery dates of 2,820 patients on the hospital website in May 2024. The hospital notified late and did not tell patients (To Pontiki).",
+        "The DPA says patients may get copies of their file under GDPR Article 15 and Law 3418/2005, and facilities must keep files for 20 years.",
+        "Law 4600/2019 punishes unauthorised access to the record, e-prescription system or EOPYY files with prison and a fine of at least 20,000 euros for sensitive data."
+      ],
+      "sources": [
+        {
+          "title": "Πρόστιμο 25.000 ευρώ στο νοσοκομείο Γ. Γεννηματάς στη Θεσσαλονίκη (To Pontiki)",
+          "url": "https://www.topontiki.gr/2026/09/29/prostimo-25-000-evro-sto-nosokomio-g-gennimatas-sti-thessaloniki-gia-diarroi-prosopikon-stichion-2-820-asthenon/",
+          "date": "2026-09-29",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Δεδομένα υγείας: Συχνές ερωτήσεις (Αρχή Προστασίας Δεδομένων)",
+          "url": "https://www.dpa.gr/el/enimerwtiko/thematikes_enotites/eidikeskatigories/dedomenaugeias/faq_dedomena_ugeias",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Νόμος 4600/2019, Άρθρο 84 (Ministry of Health)",
+          "url": "https://www.moh.gov.gr/articles/newspaper/nomothesia-kanonismoi/3246-nomothesia-hlektronikhs-ygeias?fdl=14732",
+          "date": "2019-03-09",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 62,
+      "summary": "Law 4600/2019 bans employers, insurers and banks from using record data for other purposes, and the patient cannot waive that ban. The Ministry may still sell aggregate anonymised statistics, and a 2026 bill would open data to companies.",
+      "detail": [
+        "Article 84(13) says record data cannot be processed for other purposes by third parties such as employers, insurance companies and banks, and the data subject cannot lift this prohibition.",
+        "Article 84(11) lets the Ministry publish or supply aggregate statistics, from which people can no longer be identified, for a subscription or fee.",
+        "The secondary-use bill approved by cabinet in July 2026 names companies among users. Press reports say it bars marketing, insurance pricing, hiring decisions and re-identification (Iatropedia). Final text not verified."
+      ],
+      "sources": [
+        {
+          "title": "Νόμος 4600/2019, Άρθρο 84 (Ministry of Health)",
+          "url": "https://www.moh.gov.gr/articles/newspaper/nomothesia-kanonismoi/3246-nomothesia-hlektronikhs-ygeias?fdl=14732",
+          "date": "2019-03-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Η νέα πραγματικότητα της ψηφιακής υγείας: Ποιος θα έχει πρόσβαση στα δεδομένα (Iatropedia)",
+          "url": "https://www.iatropedia.gr/eidiseis/i-nea-pragmatikotita-tis-psifiakis-ygeias-poios-tha-echei-prosvasi-sta-dedomena-ekatommyrion-asthenon-kai-me-poious-orous/227674/",
+          "date": "2026-07-31",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Εγκρίθηκε από το υπουργικό συμβούλιο το νομοσχέδιο για ελεύθερη πρόσβαση στα δεδομένα υγείας (Ethnos)",
+          "url": "https://www.ethnos.gr/health/article/416159/egkrithhkeapotoypoyrgikosymboyliotonomosxediogiaeleytherhprosbashstadedomenaygeiastiallazei",
+          "date": "2026-07-30",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 62,
+      "summary": "National e-prescription and e-referral, run by IDIKA since 2010, feed one record for public and private care. From 1 September 2026 EOPYY-contracted labs must upload results to be paid, but hospital archives remain undigitised.",
+      "detail": [
+        "Law 3892/2010 requires doctors to register prescriptions and referrals, with diagnosis, in the national e-prescription system run by IDIKA.",
+        "Law 4600/2019 obliges anyone holding a patient file or registry, including EOPYY insured files, to register every health datum in the national record.",
+        "From 1 September 2026, public and private providers contracted with EOPYY must upload lab results, coded in LOINC, to a Digital Repository as a condition of reimbursement. Imaging is to follow (Iatronet).",
+        "In March 2026 Ethnos reported no hospital had begun digitising patient archives, risking 120 million euros of EU funds."
+      ],
+      "sources": [
+        {
+          "title": "Άρθρο 3, Νόμος 3892/2010 (Lawspot)",
+          "url": "https://www.lawspot.gr/nomothesia/n3892-2010/arthro-3-nomos-3892-2010/",
+          "date": "2010-11-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Νόμος 4600/2019, Άρθρο 84 (Ministry of Health)",
+          "url": "https://www.moh.gov.gr/articles/newspaper/nomothesia-kanonismoi/3246-nomothesia-hlektronikhs-ygeias?fdl=14732",
+          "date": "2019-03-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Από τον Σεπτέμβριο οι απεικονιστικές εξετάσεις στο myHealth app (Iatronet)",
+          "url": "https://www.iatronet.gr/article/142194/apo-ton-septemvrio-oi-apeikonistikes-exetaseis-sto-myhealth-app-leitoyrgia-kai-prosvash",
+          "date": "2026-08-14",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Άδωνις Γεωργιάδης: Αλλάζουν όλα στα νοσοκομεία και γίνονται ηλεκτρονικά μέχρι το καλοκαίρι του 2026 (Ethnos)",
+          "url": "https://www.ethnos.gr/health/article/401035/adonisgeorgiadhsallazoynolastanosokomeiakaiginontaihlektronikamexritokalokairitoy2026",
+          "date": "2026-03-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 58,
+      "summary": "Doctors in public and private care open a patient's national record through a dedicated portal, and emergency doctors can see it when a patient is unconscious. Older hospital records are still missing from it.",
+      "detail": [
+        "The official launch release says doctors get access to patients' complete medical history via doctor.ehealthrecord.gov.gr at all levels of the public and private sectors.",
+        "Physicians need active e-prescription credentials to log in (EHFY portal).",
+        "The health minister said only the treating doctor, and emergency doctors when a patient arrives unconscious, can access a record; insurers and third parties cannot (Iatronet, August 2026).",
+        "Hospital archives had not begun to be digitised as of March 2026, so older hospital stays may be missing (Ethnos)."
+      ],
+      "sources": [
+        {
+          "title": "Commencement of the new digital platform for the National Electronic Health Record (NEHR)",
+          "url": "https://www.ehealthrecord.gov.gr/en/press-releases/%CE%B7%CE%BC-%CE%B5%CE%B7%CF%86%CF%85-golive",
+          "date": "2025-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ο Εθνικός Ηλεκτρονικός Φάκελος Υγείας (EHFY overview)",
+          "url": "https://ehealthrecord.gov.gr/ehfy-overview-details",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Από τον Σεπτέμβριο οι απεικονιστικές εξετάσεις στο myHealth app (Iatronet)",
+          "url": "https://www.iatronet.gr/article/142194/apo-ton-septemvrio-oi-apeikonistikes-exetaseis-sto-myhealth-app-leitoyrgia-kai-prosvash",
+          "date": "2026-08-14",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Άδωνις Γεωργιάδης: Αλλάζουν όλα στα νοσοκομεία και γίνονται ηλεκτρονικά μέχρι το καλοκαίρι του 2026 (Ethnos)",
+          "url": "https://www.ethnos.gr/health/article/401035/adonisgeorgiadhsallazoynolastanosokomeiakaiginontaihlektronikamexritokalokairitoy2026",
+          "date": "2026-03-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 44,
+      "summary": "Today research uses anonymised or pseudonymised data with no individual consent and no general opt-out. A bill creating a Health Data Access Body with an EHDS opt-out passed cabinet in July 2026; its enactment is not verified.",
+      "detail": [
+        "The DPA says researchers may use medical files under GDPR Article 9(2) and Law 4624/2019 Article 22(1) if the data are pseudonymised or anonymised.",
+        "Law 4600/2019 lets IDIKA give anonymised record data to the Ministry for epidemiological, statistical and economic analysis.",
+        "The Ministry describes GR-HDAB, with the Ministry as permit body and IDIKA as technical body, public registers of permits and refusals, and an opt-out. These are planned under EHDS, not yet in force.",
+        "The bill also sets up a Scientific Advisory Committee and an Ethics Committee (Ethnos)."
+      ],
+      "sources": [
+        {
+          "title": "Δεδομένα υγείας: Συχνές ερωτήσεις (Αρχή Προστασίας Δεδομένων)",
+          "url": "https://www.dpa.gr/el/enimerwtiko/thematikes_enotites/eidikeskatigories/dedomenaugeias/faq_dedomena_ugeias",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Φορέας Πρόσβασης στα Δεδομένα Υγείας, GR-HDAB (Υπουργείο Υγείας)",
+          "url": "https://www.moh.gov.gr/articles/ehealth/gr-hdab/14291-foreas-prosbashs-sta-dedomena-ygeias",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Νόμος 4600/2019, Άρθρο 84 (Ministry of Health)",
+          "url": "https://www.moh.gov.gr/articles/newspaper/nomothesia-kanonismoi/3246-nomothesia-hlektronikhs-ygeias?fdl=14732",
+          "date": "2019-03-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Εγκρίθηκε από το υπουργικό συμβούλιο το νομοσχέδιο για ελεύθερη πρόσβαση στα δεδομένα υγείας (Ethnos)",
+          "url": "https://www.ethnos.gr/health/article/416159/egkrithhkeapotoypoyrgikosymboyliotonomosxediogiaeleytherhprosbashstadedomenaygeiastiallazei",
+          "date": "2026-07-30",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 54,
+      "summary": "EU device law and the AI Act apply, and Greece adds Law 4961/2022, which makes public bodies, including public hospitals, assess and register AI systems before use. No health-specific AI rules or authority were verified.",
+      "detail": [
+        "Law 4961/2022 requires every public sector body to run an algorithmic impact assessment before deploying AI, publish how systems work, and keep a register updated each 1 March. The National Transparency Authority handles complaints about breaches of the transparency duties.",
+        "The law has no health-specific provisions.",
+        "The state's own MyHealth Agent answers patients' questions from their record, gives information not health advice, and does not keep conversation history (Lawspot, December 2025)."
+      ],
+      "sources": [
+        {
+          "title": "Νόμος 4961/2022 (Lawspot)",
+          "url": "https://www.lawspot.gr/nomothesia/nomos-4961-2022/",
+          "date": "2022-07-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "MyHealth Agent: Διαθέσιμος ο Προσωπικός Βοηθός Υγείας Πολίτη (Lawspot)",
+          "url": "https://www.lawspot.gr/nomika-nea/myhealth-agent-diathesimos-o-prosopikos-boethos-ugeias-polite-meso-tou-myhealth-app/",
+          "date": "2025-12-12",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "E-prescriptions and referrals have flowed nationally since 2010. Lab uploads became a payment condition for EOPYY providers in September 2026; imaging follows. Hospital archives are not yet digitised and the research access body is still a bill.",
+  "laws": [
+    {
+      "name": "Law 4600/2019, Article 84 (Individual Electronic Health Record)",
+      "level": "National",
+      "year": "2019",
+      "what": "Lifelong national record; access logging; patient told who accessed; non-waivable ban on employer, insurer, bank use.",
+      "url": "https://www.moh.gov.gr/articles/newspaper/nomothesia-kanonismoi/3246-nomothesia-hlektronikhs-ygeias?fdl=14732"
+    },
+    {
+      "name": "Law 3892/2010 (electronic prescriptions and referrals)",
+      "level": "National",
+      "year": "2010",
+      "what": "Doctors must issue prescriptions and referrals electronically through the IDIKA system.",
+      "url": "https://www.lawspot.gr/nomothesia/n3892-2010/arthro-3-nomos-3892-2010/"
+    },
+    {
+      "name": "Law 3418/2005 (Code of Medical Ethics), Article 14",
+      "level": "National",
+      "year": "2005",
+      "what": "Patient may see and copy their medical file; files kept 20 years after last visit.",
+      "url": "https://www.dpa.gr/el/enimerwtiko/thematikes_enotites/eidikeskatigories/dedomenaugeias/faq_dedomena_ugeias"
+    },
+    {
+      "name": "Law 4624/2019 (GDPR implementing law)",
+      "level": "National",
+      "year": "2019",
+      "what": "Article 22(1) allows research processing of health data if pseudonymised or anonymised (DPA).",
+      "url": "https://www.dpa.gr/el/enimerwtiko/thematikes_enotites/eidikeskatigories/dedomenaugeias/faq_dedomena_ugeias"
+    },
+    {
+      "name": "Law 4961/2022 (emerging technologies, AI)",
+      "level": "National",
+      "year": "2022",
+      "what": "Public bodies must assess, disclose and register AI systems before use.",
+      "url": "https://www.lawspot.gr/nomothesia/nomos-4961-2022/"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Access logs and EU exchange from March 2029/2031; secondary-use permits and opt-out.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-12",
+      "headline": "State launches AI assistant that answers patients' questions from their health record",
+      "source": "Lawspot",
+      "url": "https://www.lawspot.gr/nomika-nea/myhealth-agent-diathesimos-o-prosopikos-boethos-ugeias-polite-meso-tou-myhealth-app/",
+      "why": "Patients can query their own record in plain language; it gives information, not advice."
+    },
+    {
+      "date": "2026-03-11",
+      "headline": "Minister promises digital hospitals by summer 2026 as archive digitisation stalls",
+      "source": "Ethnos",
+      "url": "https://www.ethnos.gr/health/article/401035/adonisgeorgiadhsallazoynolastanosokomeiakaiginontaihlektronikamexritokalokairitoy2026",
+      "why": "Past hospital stays may stay missing from patients' national record."
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "Cabinet approves bill on secondary use of health data under EHDS",
+      "source": "Ethnos",
+      "url": "https://www.ethnos.gr/health/article/416159/egkrithhkeapotoypoyrgikosymboyliotonomosxediogiaeleytherhprosbashstadedomenaygeiastiallazei",
+      "why": "Sets who may reuse patients' data for research and industry, and on what terms."
+    },
+    {
+      "date": "2026-08-14",
+      "headline": "Lab results must go into national record from September for EOPYY payment",
+      "source": "Iatronet",
+      "url": "https://www.iatronet.gr/article/142194/apo-ton-septemvrio-oi-apeikonistikes-exetaseis-sto-myhealth-app-leitoyrgia-kai-prosvash",
+      "why": "Patients and their doctors should see test results without chasing labs."
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Data authority fines Thessaloniki hospital 25,000 euros for exposing 2,820 patients",
+      "source": "To Pontiki",
+      "url": "https://www.topontiki.gr/2026/09/29/prostimo-25-000-evro-sto-nosokomio-g-gennimatas-sti-thessaloniki-gia-diarroi-prosopikon-stichion-2-820-asthenon/",
+      "why": "Shows breaches are punished, but slowly and with modest fines."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

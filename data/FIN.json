@@ -1,0 +1,389 @@
+{
+  "iso3": "FIN",
+  "name": "Finland",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Finns read a national record in OmaKanta and decide by permit who outside their region sees it, but public bodies cannot yet be fined.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 76,
+      "summary": "OmaKanta shows visit notes, lab and imaging results, vaccinations and prescriptions from public and private care, and 3.3 million people used it in 2025. Records start only when a provider joined Kanta (from 2013), and no app can yet download them.",
+      "detail": [
+        "Kanta collects records from public and private health care and pharmacies, and OmaKanta shows them to the patient. Stored items include hospital and health centre notes, dental notes, lab and imaging results, vaccinations and medical certificates. Kanta says not every provider yet stores everything, for example certificates.",
+        "Health care could store data in Kanta from 2013. A patient sees records only from the date their provider joined, and older data cannot be added afterwards. The e-prescription service opened in 2010. Social welfare data is appearing in stages over 2023 to 2026.",
+        "Kanta says most Finns use OmaKanta: 3.3 million people logged in 41.1 million times in 2025. Kela answers a request to inspect Kanta data within one month, extendable by two months, and sends the reply by registered letter.",
+        "The law lets approved wellbeing apps fetch patient data from Kanta with the person's permission. As of January 2026 Kanta lists no connected app, so a machine-readable export to the patient is not yet live. Data is kept 12 years after death and is not deleted on request."
+      ],
+      "sources": [
+        {
+          "title": "Kantaan tallentuvat tiedot näkyvät OmaKannassa (Kanta.fi)",
+          "url": "https://www.kanta.fi/tiedot-kannassa",
+          "date": "2026-05-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tilastot (Kanta.fi)",
+          "url": "https://www.kanta.fi/tilastot",
+          "date": "2026-06-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Näin pyydät sinusta tallennettuja tietoja (Kanta.fi)",
+          "url": "https://www.kanta.fi/nain-pyydat-tietojasi",
+          "date": "2026-03-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kantaan liitetyt hyvinvointisovellukset (Kanta.fi)",
+          "url": "https://www.kanta.fi/kantaan-liitetyt-hyvinvointisovellukset",
+          "date": "2026-01-29",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 74,
+      "summary": "Records leave the region or provider where they were written only if the patient gives a revocable permit, which can be narrowed by visit, register or all data, even in emergencies. OmaKanta shows which units fetched data, but staff names need a log request.",
+      "detail": [
+        "Under the Client Data Act (703/2023, sections 54, 58 and 59) another provider may use a patient's records only with a disclosure permit (luovutuslupa). The permit is voluntary, valid until revoked, and can be limited by denials aimed at one service event, one register or all records.",
+        "Without a permit, data stays with the wellbeing services county or private provider that recorded it. A patient can also forbid use in an emergency. Gaps: public care across Uusimaa shares without a permit once the patient is informed, and how denials work in private care varies by provider.",
+        "OmaKanta lists the providers that fetched health data through Kanta and the pharmacies that handled prescriptions. Names of staff are hidden to protect workers. A patient must ask each provider for its own access logs.",
+        "Kela gives Kanta log data for the past two years, longer only for a special reason, and answers within two months. A request names the person, the data and the period wanted."
+      ],
+      "sources": [
+        {
+          "title": "Laki sosiaali- ja terveydenhuollon asiakastietojen käsittelystä 703/2023 (Finlex, säädöskokoelma PDF)",
+          "url": "https://www.finlex.fi/api/media/statute/691372/mainPdf/main.pdf?timestamp=2023-04-13T21%3A00%3A00.000Z",
+          "date": "2023-04-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Potilastietojen luvat ja kiellot (Kanta.fi)",
+          "url": "https://www.kanta.fi/potilastietojen-luvat-ja-kiellot",
+          "date": "2025-11-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Näin tarkistat, missä tietojasi on käsitelty (Kanta.fi)",
+          "url": "https://www.kanta.fi/nain-tarkistat-missa-tietojasi-on-kasitelty",
+          "date": "2026-02-13",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Näin pyydät sinusta tallennettuja tietoja (Kanta.fi)",
+          "url": "https://www.kanta.fi/nain-pyydat-tietojasi",
+          "date": "2026-03-19",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 62,
+      "summary": "GDPR and the Data Protection Act apply, and the ombudsman acts on health cases, but section 24 of the Act bars fines on state and municipal bodies, including the wellbeing counties that hold most records. The government proposed fines for public bodies in April 2026.",
+      "detail": [
+        "Data Protection Act 1050/2018 section 24 says no administrative fine may be imposed on state or municipal authorities and other public bodies. In April 2026 the government proposed fines for public bodies too, set clearly lower than for companies, with courts and security authorities excluded.",
+        "In March 2026 the deputy ombudsman found that North Ostrobothnia wellbeing county had weak controls against staff snooping in patient records. The county was ordered to fix its practices and received a reprimand, not a fine.",
+        "In June 2026 an administrative court annulled the EUR 1.1 million fine on Yliopiston Apteekki, whose online pharmacy had passed customer data to Google and Meta. The ombudsman said the law reform would make sanctions more consistent.",
+        "The Vastaamo therapy centre breach of 2018 to 2019 still defines the risk. In February 2026 the Helsinki Court of Appeal raised the hacker's sentence to six years and 11 months. He had published data on about 33,000 patients and blackmailed them."
+      ],
+      "sources": [
+        {
+          "title": "Tietosuojarikkomuksista määrättävät seuraamusmaksut koskemaan myös julkista sektoria (Valtioneuvosto)",
+          "url": "https://valtioneuvosto.fi/-/1410853/tietosuojarikkomuksista-maarattavat-seuraamusmaksut-koskemaan-myos-julkista-sektoria",
+          "date": "2026-04-09",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Apulaistietosuojavaltuutettu: hyvinvointialueella puutteita potilastietojen käytön valvonnassa (Tietosuojavaltuutetun toimisto)",
+          "url": "https://tietosuoja.fi/-/apulaistietosuojavaltuutettu-hyvinvointialueella-puutteita-potilastietojen-kayton-valvonnassa",
+          "date": "2026-03-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Hallinto-oikeudelta päätös Yliopiston Apteekille määrätystä seuraamusmaksusta (Tietosuojavaltuutetun toimisto)",
+          "url": "https://tietosuoja.fi/-/hallinto-oikeudelta-paatos-yliopiston-apteekille-maaratysta-seuraamusmaksusta-lakiuudistus-julkisen-sektorin-seuraamusmaksuista-lisaisi-yhdenmukaisuutta",
+          "date": "2026-06-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kova tuomio vie Vastaamo-hakkeri Aleksanteri Kivimäen takaisin vankilaan (Yle)",
+          "url": "https://yle.fi/a/74-20211792",
+          "date": "2026-02-26",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 68,
+      "summary": "The Secondary Use Act bans using social and health data for marketing or for pricing individual services such as insurance, and innovation users get only anonymous statistics. But a pharmacy's EUR 1.1 million fine for sending data to Google and Meta was annulled in 2026.",
+      "detail": [
+        "Findata states that under the Secondary Use Act (552/2019) health and social data may not be used for marketing or to set individual commercial services such as insurance premiums.",
+        "Individual-level pseudonymised data is open only to research, statistics, authority planning and teaching. Development and innovation work, knowledge management and steering get anonymous statistical data only.",
+        "Companies are a small share of users. In 2025 private-sector applicants filed 18% of Findata applications, down from 26% in 2024. About EUR 2 million was paid for permits and data through Findata in 2025.",
+        "Outside the health system, consumer services fall under general GDPR. The ombudsman fined Yliopiston Apteekki EUR 1.1 million because its online pharmacy sent customer data to Google and Meta. An administrative court annulled the fine in June 2026."
+      ],
+      "sources": [
+        {
+          "title": "Lainsäädäntö (Findata)",
+          "url": "https://findata.fi/palvelut-ja-ohjeet/lainsaadanto/",
+          "date": "2026-09-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Oikeudet tietoihisi (Findata)",
+          "url": "https://findata.fi/tietoa-findatasta/oikeudet-tietoihisi/",
+          "date": "2026-09-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Vuosikatsaus 2025 (Findata)",
+          "url": "https://findata.fi/tietoa-findatasta/vuosikatsaus-2025/",
+          "date": "2026-03-17",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Hallinto-oikeudelta päätös Yliopiston Apteekille määrätystä seuraamusmaksusta (Tietosuojavaltuutetun toimisto)",
+          "url": "https://tietosuoja.fi/-/hallinto-oikeudelta-paatos-yliopiston-apteekille-maaratysta-seuraamusmaksusta-lakiuudistus-julkisen-sektorin-seuraamusmaksuista-lisaisi-yhdenmukaisuutta",
+          "date": "2026-06-02",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 82,
+      "summary": "All public health care, all pharmacies and two thirds of private health firms use Kanta, which stores over two million new documents a day. Health and social care data still cross only locally until March 2027, and the national medication list waits until October 2027.",
+      "detail": [
+        "Kanta says every public and private health provider and every pharmacy uses the e-prescription service, open since 2010. All public health care uses the patient data repository, as do two thirds of private health companies. Social welfare providers are joining in stages.",
+        "Over two million new documents reach Kanta each day. Kanta data also feeds research permits through Findata.",
+        "Sharing between social welfare and health care through Kanta becomes possible by 1 March 2027 at the latest. Until then it works only locally, for example inside one wellbeing county.",
+        "The Kanta medication list, one view of each person's medicines, will start in October 2027. Kela says Kanta development funding falls significantly in 2026 because of public spending cuts, and work is moving toward HL7 FHIR."
+      ],
+      "sources": [
+        {
+          "title": "Tilastot (Kanta.fi)",
+          "url": "https://www.kanta.fi/tilastot",
+          "date": "2026-06-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tietojen luovuttaminen sosiaali- ja terveydenhuollossa (Kanta.fi, ammattilaiset)",
+          "url": "https://www.kanta.fi/ammattilaiset/tietojen-luovuttaminen-ja-valittaminen",
+          "date": "2026-04-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Informationsgången är kärnan i reformen av apoteksverksamheten (Valtioneuvosto)",
+          "url": "https://valtioneuvosto.fi/sv/-/1271139/informationsgangen-ar-karnan-i-reformen-av-apoteksverksamheten?languageId=fi_FI",
+          "date": "2026-02-13",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kanta services in 2026: Developing Kanta data to better aid the work of professionals (Kanta.fi)",
+          "url": "https://www.kanta.fi/en/ajankohtaista/kanta-services-in-2026-developing-kanta-data-to-better-aid-the-work-of-professionals",
+          "date": "2026-01-19",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 76,
+      "summary": "Clinicians see all records inside their own wellbeing county or provider, and records from elsewhere through Kanta when the patient has given a permit. An emergency rule allows access to an unconscious patient's records unless the patient has forbidden it.",
+      "detail": [
+        "Professionals see records made in their own organisation through the local system, but only with a care relationship and when needed for care. Kanta checks the care relationship technically before releasing data from other providers.",
+        "Records from another region or provider need the patient's disclosure permit. Patients can block a single visit, a register or everything, which Kanta warns can slow care.",
+        "Section 54 of the Client Data Act lets a provider fetch essential records without a permit when a patient is unconscious or cannot judge the permit and has no representative. A patient's prior emergency denial is respected.",
+        "Prescriptions need no permit: treating professionals see them unless the patient denies a single prescription. Social welfare records reach clinicians only locally until 2027."
+      ],
+      "sources": [
+        {
+          "title": "Laki sosiaali- ja terveydenhuollon asiakastietojen käsittelystä 703/2023 (Finlex, säädöskokoelma PDF)",
+          "url": "https://www.finlex.fi/api/media/statute/691372/mainPdf/main.pdf?timestamp=2023-04-13T21%3A00%3A00.000Z",
+          "date": "2023-04-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Potilastietojen luvat ja kiellot (Kanta.fi)",
+          "url": "https://www.kanta.fi/potilastietojen-luvat-ja-kiellot",
+          "date": "2025-11-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Reseptitietojen luvat ja kiellot (Kanta.fi)",
+          "url": "https://www.kanta.fi/reseptitietojen-luvat-ja-kiellot",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tietojen luovuttaminen sosiaali- ja terveydenhuollossa (Kanta.fi, ammattilaiset)",
+          "url": "https://www.kanta.fi/ammattilaiset/tietojen-luovuttaminen-ja-valittaminen",
+          "date": "2026-04-21",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 58,
+      "summary": "Findata grants time-limited permits to pseudonymised data in a secure environment, under an opt-out model with no individual consent. The opt-out is fragmented, so the score sits low in its band: each controller must be asked separately, and Findata received 181 objections in 2025.",
+      "detail": [
+        "The Secondary Use Act (552/2019) uses an opt-out model: registry data is used without asking each patient, and permits come from Findata or the controller. A 2025 amendment (1159/2025) took effect in stages on 1 January and 1 May 2026 and lets applicants seek permits from single controllers too.",
+        "Data is pseudonymised, analysed only in the secure Kapseli environment, and results are checked for anonymity. In 2025 Findata made 367 decisions, 94% for scientific research, and received 181 objections and 80 access requests.",
+        "An objection to Findata does not reach every controller. Kanta says objections cannot be sent to Kanta and do not apply where use rests on a legal duty. Patients can block contact about research findings in OmaKanta.",
+        "In August 2026 Findata asked that EHDS opt-outs be managed centrally in OmaKanta and opposed exceptions to the opt-out."
+      ],
+      "sources": [
+        {
+          "title": "Lainsäädäntö (Findata)",
+          "url": "https://findata.fi/palvelut-ja-ohjeet/lainsaadanto/",
+          "date": "2026-09-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Vuosikatsaus 2025 (Findata)",
+          "url": "https://findata.fi/tietoa-findatasta/vuosikatsaus-2025/",
+          "date": "2026-03-17",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tietojen käyttö tutkimuksessa (Kanta.fi)",
+          "url": "https://www.kanta.fi/tietojen-kaytto-tutkimuksessa",
+          "date": "2026-05-25",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Findata supports many of the solutions proposed for the national implementation of the EHDS (Findata)",
+          "url": "https://findata.fi/en/news/findata-supports-many-of-the-solutions-proposed-for-the-national-implementation-of-the-ehds/",
+          "date": "2026-08-14",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI is governed by EU device law and the AI Act, whose duties for AI in medical devices now start 2 August 2028. Finland's 2025 law only names supervisors, with Fimea for medical devices, and adds no clinical AI rules.",
+      "detail": [
+        "Fimea says an AI system that is part of a medical device, or is device software itself, falls under both MDR/IVDR and the AI Act.",
+        "Act 1377/2025 on supervising AI systems took effect on 1 January 2026. It spreads AI Act supervision across 15 authorities, with Traficom as coordinator and Fimea for medical devices. It sets no Finland-specific clinical AI duties.",
+        "The EU Digital Omnibus on AI (Regulation 2026/1744) moved high-risk duties for AI built into regulated products, including medical devices, to 2 August 2028."
+      ],
+      "sources": [
+        {
+          "title": "Tekoälyn käyttö lääkinnällisissä laitteissa (Fimea)",
+          "url": "https://fimea.fi/laakinnalliset_laitteet/tekoalyn-kaytto-laakinnallisissa-laitteissa",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Uudet säännöt vahvistavat luottamusta tekoälyyn Euroopassa (Traficom)",
+          "url": "https://traficom.fi/fi/uutiset/uudet-saannot-vahvistavat-luottamusta-tekoalyyn-euroopassa",
+          "date": "2026-01-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Laki eräiden tekoälyjärjestelmien valvonnasta 1377/2025 (Finlex)",
+          "url": "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2025/1377",
+          "date": "2025",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Omnibus on AI has been published (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+          "date": "2026-07-24",
+          "publisherClass": "law_firm"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "connected"
+  },
+  "journeyNote": "Kanta links public and private care, labs, imaging and every pharmacy, with a permit for cross-provider views. Kela claims data joins research through Findata, not the care record. Social care links only locally until 2027.",
+  "laws": [
+    {
+      "name": "Act on the Processing of Client Data in Healthcare and Social Welfare (703/2023)",
+      "level": "National",
+      "year": "2023",
+      "what": "Runs Kanta and OmaKanta: disclosure permits, targeted denials, emergency access and logging.",
+      "url": "https://www.finlex.fi/api/media/statute/691372/mainPdf/main.pdf?timestamp=2023-04-13T21%3A00%3A00.000Z"
+    },
+    {
+      "name": "Act on the Secondary Use of Health and Social Data (552/2019), amended by 1159/2025",
+      "level": "National",
+      "year": "2019",
+      "what": "Permit-based secondary use with GDPR opt-out; bans marketing and insurance pricing uses.",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/2019/552"
+    },
+    {
+      "name": "Data Protection Act (1050/2018)",
+      "level": "National",
+      "year": "2018",
+      "what": "Supplements GDPR; section 24 bars administrative fines on state and municipal bodies.",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/2018/1050"
+    },
+    {
+      "name": "Act on the Supervision of Certain AI Systems (1377/2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "Names AI Act supervisors from 2026, with Fimea for medical devices.",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2025/1377"
+    },
+    {
+      "name": "Regulation (EU) 2025/327 (European Health Data Space)",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "In force March 2025; secondary-use rules apply from March 2029.",
+      "url": "https://findata.fi/faq/mika-on-toisiolaki/"
+    },
+    {
+      "name": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "level": "Supranational",
+      "year": "2026",
+      "what": "Moves AI Act high-risk duties for AI in medical devices to 2 August 2028.",
+      "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-30",
+      "headline": "Survey: 86% of Finns say people should decide on their health data",
+      "source": "Findata",
+      "url": "https://findata.fi/en/press-releases/survey-finns-support-the-use-of-health-data-in-research-most-want-to-decide-on-its-use-themselves/",
+      "why": "Support for research comes with a demand for personal control as the EHDS bill nears Parliament."
+    },
+    {
+      "date": "2026-08-14",
+      "headline": "Findata asks for EHDS opt-outs to be managed centrally in OmaKanta",
+      "source": "Findata",
+      "url": "https://findata.fi/en/news/findata-supports-many-of-the-solutions-proposed-for-the-national-implementation-of-the-ehds/",
+      "why": "Today a patient must object to each data holder separately."
+    },
+    {
+      "date": "2026-06-02",
+      "headline": "Court annuls pharmacy fine over data sent to Google and Meta",
+      "source": "Tietosuojavaltuutetun toimisto",
+      "url": "https://tietosuoja.fi/-/hallinto-oikeudelta-paatos-yliopiston-apteekille-maaratysta-seuraamusmaksusta-lakiuudistus-julkisen-sektorin-seuraamusmaksuista-lisaisi-yhdenmukaisuutta",
+      "why": "Pharmacy customer data reached Google and Meta, and the sanction did not hold."
+    },
+    {
+      "date": "2026-04-09",
+      "headline": "Government proposes data protection fines for public authorities",
+      "source": "Valtioneuvosto",
+      "url": "https://valtioneuvosto.fi/-/1410853/tietosuojarikkomuksista-maarattavat-seuraamusmaksut-koskemaan-myos-julkista-sektoria",
+      "why": "Wellbeing counties that hold most patient records cannot be fined today."
+    },
+    {
+      "date": "2026-02-26",
+      "headline": "Appeal court raises Vastaamo hacker's sentence to six years eleven months",
+      "source": "Yle",
+      "url": "https://yle.fi/a/74-20211792",
+      "why": "The theft of about 33,000 therapy records remains Finland's defining health breach."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

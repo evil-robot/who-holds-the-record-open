@@ -1,0 +1,384 @@
+{
+ "iso3": "EGY",
+ "name": "Egypt",
+ "region": "Middle East",
+ "controlModel": "State",
+ "headline": "Egypt links records for about 6.8 million people in seven governorates, but patients get no say over sharing, and data protection enforcement starts November 2026.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 30,
+   "summary": "Law 151 of 2020 gives a right to access only electronically processed data, with fees up to EGP 20,000, no response deadline, and enforcement from November 2026. Each gap costs 5 points from the base of 45, clamped at 30; what the patient e-portal shows is not verified.",
+   "detail": [
+    "Article 2 of the Personal Data Protection Law lets a person be informed of, access or obtain personal data held by any controller. Except for breach notices, the person bears the cost, with fees set by the Center and capped at EGP 20,000.",
+    "The executive regulations (Decree 816 of 2025) took effect in November 2025 with a one-year compliance period ending 1 November 2026. A February 2026 commentary by Masaar and EIPR says they set no unified procedure, response deadline or consequence for not answering access requests.",
+    "A hospital patient rights policy hosted on the Egyptian Health Council training portal says a patient or first-degree relative may view an archived file only after a formal request stating the reason, approved by hospital management. The 2025 Medical Liability Law requires doctors to record every procedure but gives no right to a copy.",
+    "A September 2026 news report of the Healthcare Authority's results lists a patient e-portal among systems used in universal insurance governorates. We could not open an official page describing it, and what it shows patients is not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 151 of 2020, Personal Data Protection Law (English translation, Andersen Egypt)",
+     "url": "https://eg.andersen.com/wp-content/uploads/2025/06/Law-No.-151-OF-2020.pdf",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Executive Regulations of the Personal Data Protection Law: a legal commentary (Masaar and EIPR, Arabic)",
+     "url": "https://eipr.org/sites/default/files/reports/pdf/_-_hmy_lbynt-2.pdf",
+     "date": "2026-02",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Hospital policy on patient rights (newborns and families), Egyptian Health Council training portal (Arabic)",
+     "url": "https://lms.ehc.gov.eg/lms/mod/book/view.php?id=457&chapterid=2491&lang=ar",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Prime Minister reviews Egypt Healthcare Authority results for H1 2025/2026 (Youm7, Arabic)",
+     "url": "https://www.youm7.com/story/2026/9/5/%D9%85%D8%AF%D8%A8%D9%88%D9%84%D9%89-%D9%8A%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1%D9%8B%D8%A7-%D8%AD%D9%88%D9%84-%D8%A5%D9%86%D8%AC%D8%A7%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%85%D9%86/7536515",
+     "date": "2026-09-05",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 25,
+   "summary": "Records are created and shared by default inside the universal insurance system, which is compulsory for citizens living in Egypt, with no opt-out and no patient-visible access log found. Written consent for health data applies only where no law authorises the processing.",
+   "detail": [
+    "The Universal Health Insurance Law of 2018 makes coverage compulsory for all citizens. Article 47 tells the insurer to build a beneficiary database linked to social insurance, civil registry and other agencies.",
+    "Registration opens a family medical file at the local primary care unit, according to the insurer's site. Neither source describes a consent step, an opt-out or blocking of named providers.",
+    "Law 151 requires a licence and written explicit consent for sensitive data, including health data, except where law permits. Article 3 excludes data processed under a legal provision or for official statistics, and data held by national security bodies.",
+    "Under one hospital policy on the Egyptian Health Council portal, doctors, nurses, pharmacists, records staff, prosecutors and approved researchers can open a file. We found no access log patients can read."
+   ],
+   "sources": [
+    {
+     "title": "Universal Health Insurance Law No. 2 of 2018, full text (Manshurat legal archive, Arabic)",
+     "url": "https://manshurat.org/node/63712",
+     "date": "2018",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Universal Health Insurance Authority home page: registration steps (Arabic)",
+     "url": "https://uhia.gov.eg/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Law No. 151 of 2020, Personal Data Protection Law (English translation, Andersen Egypt)",
+     "url": "https://eg.andersen.com/wp-content/uploads/2025/06/Law-No.-151-OF-2020.pdf",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Hospital policy on patient rights (newborns and families), Egyptian Health Council training portal (Arabic)",
+     "url": "https://lms.ehc.gov.eg/lms/mod/book/view.php?id=457&chapterid=2491&lang=ar",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 36,
+   "summary": "Law 151 makes health data sensitive, with prison and fines up to EGP 5 million, and the 2025 Medical Liability Law bars disclosing patient secrets. But the ICT minister chairs the regulator, whose board seats defence, interior and intelligence, and enforcement starts only after November 2026.",
+   "detail": [
+    "Law 151 defines physical, mental and genetic health data as sensitive. Article 41 punishes unlawful handling of sensitive data with at least three months in prison and fines of EGP 500,000 to 5 million. Breaches must be reported to the Center within 72 hours.",
+    "The Personal Data Protection Center is a public authority attached to the ICT minister, who chairs its board. The board includes representatives of the Ministry of Defence, Ministry of Interior and General Intelligence Service.",
+    "Article 3 excludes data held by national security bodies and lets them order controllers to change, erase or withhold data. The Masaar and EIPR commentary calls this exception loosely drafted.",
+    "Law 13 of 2025 bars care providers from disclosing patient secrets, with exceptions for consent, crime, courts, insurers and infectious disease. We found no health data breach reported in the last 12 months."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 151 of 2020, Personal Data Protection Law (English translation, Andersen Egypt)",
+     "url": "https://eg.andersen.com/wp-content/uploads/2025/06/Law-No.-151-OF-2020.pdf",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "President ratifies the Personal Data Protection Law (State Information Service, Arabic)",
+     "url": "https://sis.gov.eg/ar/%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9/%D8%B4%D8%A6%D9%88%D9%86-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9/%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D9%8A%D8%A9/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%89%D9%8A-%D9%8A-%D8%B5%D8%AF-%D9%82-%D8%B9%D9%84%D9%89-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9/",
+     "date": "2020-07-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Executive Regulations of the Personal Data Protection Law: a legal commentary (Masaar and EIPR, Arabic)",
+     "url": "https://eipr.org/sites/default/files/reports/pdf/_-_hmy_lbynt-2.pdf",
+     "date": "2026-02",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Law No. 13 of 2025 on Medical Liability and Patient Safety, Official Gazette No. 17 bis (Ministry of Justice, Arabic)",
+     "url": "https://moj.gov.eg:73/Doc/001/70640132025.pdf",
+     "date": "2025-04-28",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Law 151 requires prior consent and a licence for electronic direct marketing and a licence plus written consent for any health data processing. Trading in research samples is banned, but no rule on de-identified data sales or health data brokers was found, and enforcement starts November 2026.",
+   "detail": [
+    "Article 17 of Law 151 bans electronic direct marketing without prior consent, a clear sender identity and an easy opt-out. The regulations add a separate marketing licence, according to Soliman, Hashish and Partners.",
+    "Processing sensitive data, including health data, needs a Center licence and the person's written explicit consent. Article 41 penalties reach EGP 5 million.",
+    "The Clinical Research Law of 2020 bans trading in human samples obtained for research in any form.",
+    "Law 13 of 2025 lets a provider disclose findings when commissioned by an insurer or employer, within the task's scope. We found no rule on selling de-identified health data or on consumer health apps beyond the general law."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 151 of 2020, Personal Data Protection Law (English translation, Andersen Egypt)",
+     "url": "https://eg.andersen.com/wp-content/uploads/2025/06/Law-No.-151-OF-2020.pdf",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Executive Regulations of the Data Protection Law and the Data Protection Centre (Soliman, Hashish & Partners)",
+     "url": "https://www.shandpartners.com/insights/briefings/telecoms-media-technology/the-issuance-of-the-executive-regulations-of-the-data-protection-law-and-the-establishment-of-the-data-protection-centre/",
+     "date": "2026-01-11",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Law No. 214 of 2020 on Clinical Medical Research, Official Gazette No. 51 bis (f) (Arabic)",
+     "url": "https://nrc-mrec.online/?jet_download=c70bfcea951063cca1a77b849268a5dca8fe1356",
+     "date": "2020-12-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 13 of 2025 on Medical Liability and Patient Safety, Official Gazette No. 17 bis (Ministry of Justice, Arabic)",
+     "url": "https://moj.gov.eg:73/Doc/001/70640132025.pdf",
+     "date": "2025-04-28",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 35,
+   "summary": "Inside the universal insurance governorates, primary care runs fully digital and labs, imaging and prescriptions feed a unified record for about 6.8 million beneficiaries. Elsewhere care is not linked; a national platform was only proposed in September 2026.",
+   "detail": [
+    "The ministry says universal insurance has created 6 million unified electronic files, issued over 80 million electronic prescriptions, fully digitised primary care and digitised about 90% of hospitals, in six first-phase governorates plus Minya, where trial operation began in June 2026.",
+    "A Youm7 account of the Healthcare Authority's September 2026 report counts 6,767,985 beneficiaries, paper files stopped in primary care, and the lab system linked to the unified record in 298 facilities, with imaging archiving and pharmacy workflows digitised.",
+    "The National Digital Health Strategy 2025-2029 targets digitising 100% of facilities and linking all of them in one system. Second-phase insurance is meant to serve over 12 million people.",
+    "In September 2026 the health ministry proposed an Egypt Smart Healthcare Platform to share records between facilities, with no cost or timetable disclosed."
+   ],
+   "sources": [
+    {
+     "title": "Health ministry: universal insurance delivered 117 million services to 6 million people (Youm7, Arabic)",
+     "url": "https://www.youm7.com/story/2026/7/6/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D8%AD%D9%89-%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84-%D9%82%D8%AF%D9%85-%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-117-%D9%85%D9%84%D9%8A%D9%88%D9%86/7471635",
+     "date": "2026-07-06",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Prime Minister reviews Egypt Healthcare Authority results for H1 2025/2026 (Youm7, Arabic)",
+     "url": "https://www.youm7.com/story/2026/9/5/%D9%85%D8%AF%D8%A8%D9%88%D9%84%D9%89-%D9%8A%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1%D9%8B%D8%A7-%D8%AD%D9%88%D9%84-%D8%A5%D9%86%D8%AC%D8%A7%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%85%D9%86/7536515",
+     "date": "2026-09-05",
+     "publisherClass": "news"
+    },
+    {
+     "title": "National Digital Health Strategy 2025-2029 (State Information Service, Arabic)",
+     "url": "https://sis.gov.eg/ar/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A/%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9-2025-2029/",
+     "date": "2025-11-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Egypt plans unified digital platform to link patient records across health facilities (Daily News Egypt)",
+     "url": "https://www.dailynewsegypt.com/2026/09/14/egypt-plans-unified-digital-platform-to-link-patient-records-across-health-facilities/",
+     "date": "2026-09-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 30,
+   "summary": "Treating teams in universal insurance facilities can reach a patient's unified electronic record, which the Healthcare Authority says gives fast access to patient data. Most Egyptians are outside that system, and the law only requires doctors to share information when consulted.",
+   "detail": [
+    "The Healthcare Authority says the unified electronic file lets the medical team reach patient data quickly and safely in first-phase governorates.",
+    "A hospital policy on the Egyptian Health Council portal lets the treating doctor, radiologist, lab doctor, department head, nurses and pharmacist view the file while the patient is in hospital.",
+    "Law 13 of 2025 requires providers to cooperate with other providers treating the same patient and share information on request for a consultation. It sets no rule for cross-provider electronic access or emergency override.",
+    "Outside the insurance governorates no shared clinical record was found; the planned national platform has no timetable."
+   ],
+   "sources": [
+    {
+     "title": "Prime Minister reviews Egypt Healthcare Authority results for H1 2025/2026 (Youm7, Arabic)",
+     "url": "https://www.youm7.com/story/2026/9/5/%D9%85%D8%AF%D8%A8%D9%88%D9%84%D9%89-%D9%8A%D8%B3%D8%AA%D8%B9%D8%B1%D8%B6-%D8%AA%D9%82%D8%B1%D9%8A%D8%B1%D9%8B%D8%A7-%D8%AD%D9%88%D9%84-%D8%A5%D9%86%D8%AC%D8%A7%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%85%D9%86/7536515",
+     "date": "2026-09-05",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Hospital policy on patient rights (newborns and families), Egyptian Health Council training portal (Arabic)",
+     "url": "https://lms.ehc.gov.eg/lms/mod/book/view.php?id=457&chapterid=2491&lang=ar",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Law No. 13 of 2025 on Medical Liability and Patient Safety, Official Gazette No. 17 bis (Ministry of Justice, Arabic)",
+     "url": "https://moj.gov.eg:73/Doc/001/70640132025.pdf",
+     "date": "2025-04-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Egypt plans unified digital platform to link patient records across health facilities (Daily News Egypt)",
+     "url": "https://www.dailynewsegypt.com/2026/09/14/egypt-plans-unified-digital-platform-to-link-patient-records-across-health-facilities/",
+     "date": "2026-09-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "The 2020 Clinical Research Law covers retrospective record studies and requires written informed consent, Supreme Council ethics review, identity secrecy and prison for research without consent. Those four safeguards reach the 50 cap, though data must be open to the General Intelligence Service and no opt-out exists.",
+   "detail": [
+    "Law 214 of 2020 covers trials and retrospective studies of medical data. Article 12 gives participants the right to withdraw at any time and keeps their identity undisclosed without written consent.",
+    "Article 23 bans using samples without prior informed consent and storing leftovers for future research without consent and Supreme Council approval. Samples cannot leave Egypt without Council approval and national security review.",
+    "Article 15 requires investigators to make all research data available to the institutional committee, the Supreme Council, the General Intelligence Service and the Egyptian Drug Authority for audit. Article 26 punishes research without informed consent with prison.",
+    "One hospital policy opens files to researchers with management approval and without names. The Healthcare Authority plans a national health data science centre using over 6.5 million records, with no patient consent or opt-out described."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 214 of 2020 on Clinical Medical Research, Official Gazette No. 51 bis (f) (Arabic)",
+     "url": "https://nrc-mrec.online/?jet_download=c70bfcea951063cca1a77b849268a5dca8fe1356",
+     "date": "2020-12-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Hospital policy on patient rights (newborns and families), Egyptian Health Council training portal (Arabic)",
+     "url": "https://lms.ehc.gov.eg/lms/mod/book/view.php?id=457&chapterid=2491&lang=ar",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Egypt plans to establish first national center for health data science (State Information Service)",
+     "url": "https://sis.gov.eg/en/media-center/news/egypt-plans-to-establish-first-national-center-for-health-data-science/",
+     "date": "2026-05-16",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 40,
+   "summary": "Egypt governs AI through guidance: a 2023 Responsible AI Charter requiring final human determination and 2026 national guidelines. Medical device rules cover software and changes generally, but no AI-specific medical rule was found, and the AI law is still pending.",
+   "detail": [
+    "The Egyptian Charter for Responsible AI (2023) says final human determination is always in place. It is guidance, not law.",
+    "The National AI Strategy 2025-2030 names health as a target sector, and OECD.AI lists 2026 national guidelines for trustworthy AI and for generative AI.",
+    "Egyptian Drug Authority rules define medical devices to include application software and set a procedure for changes to registered devices. We found no guidance specific to AI or machine learning devices.",
+    "Parliament's ICT committee expects a government AI bill in the session opening October 2026, according to El Watan."
+   ],
+   "sources": [
+    {
+     "title": "Egyptian Charter for Responsible AI (National Council for AI)",
+     "url": "https://ai.gov.eg/SynchedFiles/en/Resources/Egyptian%20Charter%20for%20Responsible%20AI.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Egypt National Artificial Intelligence Strategy 2025-2030 (OECD.AI Policy Navigator)",
+     "url": "https://oecd.ai/en/dashboards/policy-initiatives/egypt-national-artificial-intelligence-strategy",
+     "date": "2026-02-10",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Regulatory guideline on changes to a registered medical device, version 3 (Egyptian Drug Authority)",
+     "url": "https://www.edaegypt.gov.eg/media/jf2cxmo4/3-regulatory-guideline-of-the-procedures-and-rules-organizing-the-changes-done-to-a-registration-license-data-of-a-medical-device_gd.pdf",
+     "date": "2025-09-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Four ICT bills before parliament, from AI to child protection (El Watan, Arabic)",
+     "url": "https://www.elwatannews.com/news/details/8341286",
+     "date": "2026-08-17",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "unknown",
+  "research": "siloed"
+ },
+ "journeyNote": "Primary care, hospitals, labs, imaging and prescriptions share one record only inside the seven universal insurance governorates. Elsewhere records stay with each facility. No national exchange or public health link was verified.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Law No. 151 of 2020",
+   "level": "National",
+   "year": "2020",
+   "what": "Health data is sensitive; licence and written consent required; fines up to EGP 5 million.",
+   "url": "https://eg.andersen.com/wp-content/uploads/2025/06/Law-No.-151-OF-2020.pdf"
+  },
+  {
+   "name": "PDPL Executive Regulations, Ministerial Decree 816 of 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Licensing, DPOs, breach steps; one-year compliance period ending 1 November 2026.",
+   "url": "https://eipr.org/sites/default/files/reports/pdf/_-_hmy_lbynt-2.pdf"
+  },
+  {
+   "name": "Medical Liability and Patient Safety Law No. 13 of 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Duty to record procedures, obtain consent and keep patient secrets; effective late October 2025.",
+   "url": "https://moj.gov.eg:73/Doc/001/70640132025.pdf"
+  },
+  {
+   "name": "Universal Health Insurance Law No. 2 of 2018",
+   "level": "National",
+   "year": "2018",
+   "what": "Compulsory family-based insurance; insurer builds a beneficiary database linked to other state databases.",
+   "url": "https://manshurat.org/node/63712"
+  },
+  {
+   "name": "Clinical Medical Research Law No. 214 of 2020",
+   "level": "National",
+   "year": "2020",
+   "what": "Written informed consent, withdrawal right, sample rules; data open to intelligence service for audit.",
+   "url": "https://nrc-mrec.online/?jet_download=c70bfcea951063cca1a77b849268a5dca8fe1356"
+  },
+  {
+   "name": "Medical Ethics Regulations, Ministerial Resolution 238 of 2003 (text hosted by the Egyptian Health Council)",
+   "level": "National",
+   "year": "2003",
+   "what": "Doctors may not disclose patient secrets except by court order, serious risk or law.",
+   "url": "https://www.ehc.gov.eg/documents/20126/0/medicine.pdf/7dee94e8-e6ac-1495-ffdf-2f0c95d582c7?t=1693421634760&download=true"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-29",
+   "headline": "Medical Liability Law takes effect as complaints committee and fund are set up",
+   "source": "Youm7",
+   "url": "https://www.youm7.com/story/2025/10/29/%D9%86%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D8%A8%D8%A7%D8%A1-%D8%AA%D8%B9%D9%84%D9%86-%D8%A8%D8%AF%D8%A1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A6%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9-%D8%B1%D8%B3%D9%85%D9%8A%D8%A7/7177564",
+   "why": "Patients gain a complaints route and statutory duties on records, consent and confidentiality."
+  },
+  {
+   "date": "2026-02-03",
+   "headline": "Prime Minister presses for faster digitization of universal health insurance",
+   "source": "Youm7",
+   "url": "https://www.youm7.com/story/2026/2/3/%D9%85%D8%AF%D8%A8%D9%88%D9%84%D9%89-%D9%8A%D8%B4%D8%AF%D8%AF-%D8%B9%D9%84%D9%89-%D8%B6%D8%B1%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%B9-%D9%81%D9%89-%D8%A7%D8%B3%D8%AA%D9%83%D9%85%D8%A7%D9%84-%D9%85%D9%8A%D9%83%D9%86%D8%A9-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86/7291685",
+   "why": "Expands the unified record to Minya and stresses state control over health data."
+  },
+  {
+   "date": "2026-05-14",
+   "headline": "Data protection regulator says licensing platform due, compliance deadline November 2026",
+   "source": "Al-Masry Al-Youm",
+   "url": "https://www.almasryalyoum.com/news/details/4270076",
+   "why": "Hospitals and clinics must be licensed to process health data once the grace period ends."
+  },
+  {
+   "date": "2026-05-16",
+   "headline": "Healthcare Authority plans national health data science and AI centre",
+   "source": "State Information Service",
+   "url": "https://sis.gov.eg/en/media-center/news/egypt-plans-to-establish-first-national-center-for-health-data-science/",
+   "why": "Over 6.5 million patient records will feed AI, with no consent process described."
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "Health ministry proposes national platform to link patient records across facilities",
+   "source": "Daily News Egypt",
+   "url": "https://www.dailynewsegypt.com/2026/09/14/egypt-plans-unified-digital-platform-to-link-patient-records-across-health-facilities/",
+   "why": "Could give clinicians full histories; cost, timetable and privacy design not disclosed."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

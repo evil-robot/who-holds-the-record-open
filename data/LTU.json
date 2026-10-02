@@ -1,0 +1,338 @@
+{
+  "iso3": "LTU",
+  "name": "Lithuania",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "A national e-health record with per-document hiding and a visible view history, undercut by weak clinician logins and a shaky central system.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 67,
+      "summary": "The law gives patients their records and certified copies, and the national E. sveikata portal shows diagnoses, prescriptions, referrals, images and vaccinations. An EC study scored Lithuania 95% on eHealth maturity, but lab results were only being added from October 2025.",
+      "detail": [
+        "Article 7 of the Law on the Rights of Patients says a patient's medical documents must be given on request. Providers must make certified copies and issue descriptions of diagnosis and treatment. A treating doctor may withhold documents only if the content would harm the patient's health or life.",
+        "The E. sveikata patient portal (esveikata.lt) gives the person, or someone they represent, access to their health records in the national ESPBI IS system. Doctors submit diagnoses, treatment, e-prescriptions, lab referrals and results, consultation referrals, medical images, vaccinations and health certificates.",
+        "The 2025 Digital Decade eHealth indicator study for the European Commission ranked Lithuania fourth in the EU at 95%, with full scores for timely summary data and for access by guardians and authorised persons.",
+        "Lab results were a gap. In October 2025 the health ministry said a new lab subsystem would bring results from all clinical labs into the portal, adding that until then patient access to lab results was very limited. Portal user numbers and a machine-readable export were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Lietuvos Respublikos pacientų teisių ir žalos sveikatai atlyginimo įstatymas I-1562 (suvestinė redakcija nuo 2025-07-01)",
+          "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.31932/asr",
+          "date": "2025-07-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "E. sveikata (E. sveikatos portalas)",
+          "url": "https://www.esveikata.lt/e-sveikata",
+          "date": "2025-10-14",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2025 Digital Decade eHealth indicator study, final report (European Commission, DG CNECT)",
+          "url": "http://espanadigital.gob.es/sites/espanadigital/files/2025-12/Estudio%20de%20Indicadores%20de%20eHealth%20de%20la%20D%C3%A9cada%20Digital%202025.pdf",
+          "date": "2025",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Pacientų laboratorinių tyrimų duomenys bus keliami į E. sveikatą",
+          "url": "https://www.esveikata.lt/naujiena/259",
+          "date": "2025-10-07",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 62,
+      "summary": "Patients can hide individual documents and see who viewed each one, when and on what basis. Hiding does not stop primary care doctors, emergency doctors or representatives, and uploads need no consent.",
+      "detail": [
+        "In the patient portal a person can switch a document from unrestricted to restricted visibility and back again. The portal records each change.",
+        "Each document has a view history showing the viewer's name, the date and time, and the reason for access.",
+        "Restrictions do not apply to doctors giving emergency care, doctors at the patient's primary care centre, or the patient's authorised representatives.",
+        "A 2016 Commission overview found no consent was needed to create the record, since providers have a legal duty to process the data. In June 2026 15min reported that any doctor can open any patient's record and that doctors' logins are passed to registration staff."
+      ],
+      "sources": [
+        {
+          "title": "4.21 Peržiūrėti ESI įrašą (E. sveikatos paciento portalo pagalba)",
+          "url": "https://pacientas.esveikata.lt/help/pages/perzireti-esi-irasa.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Overview of the national laws on electronic health records in the EU Member States: Lithuania (European Commission)",
+          "url": "https://ec.europa.eu/health/system/files/2016-11/laws_lithuania_en_0.pdf",
+          "date": "2016-11",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Siurbiami ne tik Registrų centro duomenys: jūsų sveikatos duomenis gali perskaityti ir valytoja (15min)",
+          "url": "https://www.15min.lt/verslas/naujiena/bendroves/siurbiami-ne-tik-registru-centro-duomenys-jusu-sveikatos-duomenis-gali-perskaityti-ir-valytoja-663-2698800",
+          "date": "2026-06-05",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 50,
+      "summary": "Patient information is confidential by law and GDPR applies, but clinician access to E. sveikata relies on a username and password. In June 2026 the ministry tabled a cybersecurity law package after an intrusion into a health agency subsystem.",
+      "detail": [
+        "Article 8 of the Law on the Rights of Patients makes all information about a patient's stay, diagnosis and treatment confidential, even after death. Disclosure to others needs the patient's written consent, with exceptions for people directly treating the patient.",
+        "15min reported in June 2026 that clinicians log in to E. sveikata with a generated username and password and no IP or time limits, and that records of celebrities and missing people had been looked up in bulk. Patients log in with stronger identification.",
+        "On 10 June 2026 the ministry said an unauthorised login on 7 to 8 June hit a subsystem run by the health accreditation agency through an Apache Superset flaw. It said E. sveikata patient data was not involved and that a law package to fund and secure the network was registered in the Seimas.",
+        "The operator, Registrų centras, also suffered a separate theft of over 500,000 property register records from January 2026. Health-sector fines by the data protection inspectorate (VDAI) were not verified because its site could not be opened."
+      ],
+      "sources": [
+        {
+          "title": "Lietuvos Respublikos pacientų teisių ir žalos sveikatai atlyginimo įstatymas I-1562 (suvestinė redakcija nuo 2025-07-01)",
+          "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.31932/asr",
+          "date": "2025-07-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Atsakas kibernetinėms grėsmėms: Seime registruoti strateginiai įstatymų pakeitimai E. sveikatos stiprinimui",
+          "url": "https://www.esveikata.lt/naujiena/318",
+          "date": "2026-06-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Siurbiami ne tik Registrų centro duomenys: jūsų sveikatos duomenis gali perskaityti ir valytoja (15min)",
+          "url": "https://www.15min.lt/verslas/naujiena/bendroves/siurbiami-ne-tik-registru-centro-duomenys-jusu-sveikatos-duomenis-gali-perskaityti-ir-valytoja-663-2698800",
+          "date": "2026-06-05",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 54,
+      "summary": "The 2021 health data reuse law limits reuse to six purposes, and marketing is not one of them, but businesses may get permits for innovation. No explicit ban on selling health data or using it for advertising was found.",
+      "detail": [
+        "Under Law XIV-789, health data may be reused only with a State Data Agency permit, for research and development, innovation, education, health knowledge management, health policy and planning, or statistics.",
+        "Companies operating in Lithuania can apply. Data is normally given pseudonymised inside the state reuse platform, and only anonymised results may be published or passed to third parties.",
+        "We found no clause that names marketing, advertising or insurance pricing as banned. Consumer health apps and data brokers outside health law rely on GDPR alone; no Lithuania-specific rule was verified."
+      ],
+      "sources": [
+        {
+          "title": "Lietuvos Respublikos pakartotinio sveikatos duomenų naudojimo įstatymas XIV-789 (suvestinė redakcija nuo 2023-09-01)",
+          "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/72c77a52626411ecb2fe9975f8a9e52e/asr",
+          "date": "2023-09-01",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 68,
+      "summary": "One national system, ESPBI IS, holds visits, diagnoses, e-prescriptions and referrals, and since October 2025 labs are moving onto it in a structured format. A November 2025 upgrade left clinicians unable to work properly.",
+      "detail": [
+        "ESPBI IS centrally collects and stores information on health services provided in Lithuania. Clinic and hospital systems integrate with it, and e-prescriptions run through it.",
+        "Lithuanian e-prescriptions can be filled in Latvia, Poland, Spain and Portugal, according to a September 2024 portal notice.",
+        "Lab results are being centralised: all clinical labs are to send results in an international structured format, with providers joining gradually after pilots at three Vilnius sites.",
+        "Researchers report that ESPBI IS and the insurance fund's Sveidra claims system each cover about 3.7 million patients and are linked with cancer and death registries by national ID. A large upgrade on 8 to 9 November 2025 slowed the system and disrupted clinicians."
+      ],
+      "sources": [
+        {
+          "title": "Pacientų laboratorinių tyrimų duomenys bus keliami į E. sveikatą",
+          "url": "https://www.esveikata.lt/naujiena/259",
+          "date": "2025-10-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lietuvoje išrašytus e. receptus pripažins daugiau ES valstybių",
+          "url": "https://www.esveikata.lt/naujiena/210",
+          "date": "2024-09-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Registrų centras tęsia E. sveikatos trikdžių šalinimą",
+          "url": "https://www.esveikata.lt/naujiena/274",
+          "date": "2025-11-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Resource Profile: The Lithuanian health data reuse pathway (International Journal of Epidemiology)",
+          "url": "https://academic.oup.com/ije/article/54/4/dyaf118/8186979",
+          "date": "2025-07-06",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 64,
+      "summary": "Clinicians use a national specialist portal to read records from other providers, and patient hiding cannot block emergency or primary care doctors. Cross-provider lab results only began arriving in late 2025.",
+      "detail": [
+        "Specialists work in the E. sveikata specialist portal, which reads the national ESPBI IS record. Emergency doctors and the patient's primary care doctors see documents even when the patient has restricted them.",
+        "The health ministry said that with the new lab subsystem a specialist will see all of a patient's test results regardless of where the tests were done. Until then, patients often carried paper results between institutions.",
+        "System stability is a weak point. After the November 2025 upgrade, part of the clinical workforce could not perform its functions properly, and the Prime Minister called E. sveikata a joke."
+      ],
+      "sources": [
+        {
+          "title": "4.21 Peržiūrėti ESI įrašą (E. sveikatos paciento portalo pagalba)",
+          "url": "https://pacientas.esveikata.lt/help/pages/perzireti-esi-irasa.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Pacientų laboratorinių tyrimų duomenys bus keliami į E. sveikatą",
+          "url": "https://www.esveikata.lt/naujiena/259",
+          "date": "2025-10-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Registrų centras tęsia E. sveikatos trikdžių šalinimą",
+          "url": "https://www.esveikata.lt/naujiena/274",
+          "date": "2025-11-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Premjerė e.sveikatą vadina anekdotu, tikisi IT progreso viešajame sektoriuje (tv3.lt, BNS)",
+          "url": "https://www.tv3.lt/naujiena/lietuva/premjere-e-sveikata-vadina-anekdotu-tikisi-it-progreso-viesajame-sektoriuje-n1468966",
+          "date": "2025-11-12",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 48,
+      "summary": "Data collected for care can be reused for research under a State Data Agency permit without the person's consent, and no general opt-out exists. Safeguards include a public register of permitted uses and checks that published results are anonymised.",
+      "detail": [
+        "Article 12 of Law XIV-789 says permits for data collected for health care may be issued without the data subject's consent. Where data was collected with consent, or through a biobank, reuse is limited to what the consent covers.",
+        "The agency must publish which datasets are used under permits, the areas of use and the categories of people whose data is used. Results must be anonymised, and the agency checks them before publication.",
+        "Biobank participation requires a voluntary, informed, written consent under the Law on Biomedical Research Ethics, amended in 2019.",
+        "Researchers describe no general opt-out. We did not find a specific re-identification penalty in the reuse law. The EHDS will add a secondary-use opt-out when its rules apply from 2029."
+      ],
+      "sources": [
+        {
+          "title": "Lietuvos Respublikos pakartotinio sveikatos duomenų naudojimo įstatymas XIV-789 (suvestinė redakcija nuo 2023-09-01)",
+          "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/72c77a52626411ecb2fe9975f8a9e52e/asr",
+          "date": "2023-09-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Biomedicininių tyrimų etikos įstatymo Nr. VIII-1679 pakeitimo įstatymas XIII-2758",
+          "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/b34677de288611ea8f0dfdc2b5879561/asr",
+          "date": "2019-12-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data Resource Profile: The Lithuanian health data reuse pathway (International Journal of Epidemiology)",
+          "url": "https://academic.oup.com/ije/article/54/4/dyaf118/8186979",
+          "date": "2025-07-06",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device law and the AI Act, whose duties for medical devices now start 2 August 2028. Lithuania has named the regulators the AI Act requires, but no national clinical AI rules were verified.",
+      "detail": [
+        "AI used as a medical device is regulated under EU device rules, and the AI Act adds high-risk duties such as risk management and human oversight. The Digital Omnibus, Regulation (EU) 2026/1744, moved those duties for AI in products like medical devices to 2 August 2028.",
+        "Per the Commission's AI Act Service Desk, the Communications Regulatory Authority is Lithuania's main market surveillance authority and single contact point. Innovation Agency Lithuania is the notifying authority and must run an AI regulatory sandbox. Every member state must make these designations, so they are not a national addition.",
+        "We did not find binding health ministry rules on AI in care, such as guidance on generative AI for clinicians."
+      ],
+      "sources": [
+        {
+          "title": "AI Act Service Desk: national resources (European Commission)",
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/national-resources",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "EU Digital Omnibus on AI enters into force (K&L Gates, Cyber Law Watch)",
+          "url": "https://www.cyberlawwatch.com/2026/07/31/eu-digital-omnibus-on-ai-enters-into-force/",
+          "date": "2026-07-31",
+          "publisherClass": "law_firm"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "connected"
+  },
+  "journeyNote": "ESPBI IS links primary care, hospitals and e-prescriptions. Labs are joining from October 2025. Sveidra claims sit in a separate system but link with ESPBI IS and registries for research through the State Data Agency permit route.",
+  "laws": [
+    {
+      "name": "Law on the Rights of Patients and Compensation for Damage to Health (I-1562)",
+      "level": "National",
+      "year": "1996",
+      "what": "Right to see records and get certified copies; confidentiality of patient information; consent for disclosure.",
+      "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.31932/asr"
+    },
+    {
+      "name": "Law on the Reuse of Health Data (XIV-789)",
+      "level": "National",
+      "year": "2021",
+      "what": "Permit-based reuse by the State Data Agency for six purposes; no consent needed for care data.",
+      "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/72c77a52626411ecb2fe9975f8a9e52e/asr"
+    },
+    {
+      "name": "Law on Biomedical Research Ethics (VIII-1679), amended by XIII-2758",
+      "level": "National",
+      "year": "2019",
+      "what": "Informed written consent for biomedical research and biobank participation.",
+      "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/b34677de288611ea8f0dfdc2b5879561/asr"
+    },
+    {
+      "name": "Regulation (EU) 2025/327 (European Health Data Space)",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Free access, restriction rights, access logs and secondary-use opt-out; main duties apply from March 2029 and 2031.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "level": "Supranational",
+      "year": "2026",
+      "what": "Delays AI Act duties for AI in medical devices to 2 August 2028.",
+      "url": "https://www.cyberlawwatch.com/2026/07/31/eu-digital-omnibus-on-ai-enters-into-force/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-06-10",
+      "headline": "Cybersecurity law package for E. sveikata registered after health agency intrusion",
+      "source": "E. sveikatos portalas (Sveikatos apsaugos ministerija)",
+      "url": "https://www.esveikata.lt/naujiena/318",
+      "why": "Would fund and tighten security for every clinic system that exchanges data with the national record."
+    },
+    {
+      "date": "2026-06-05",
+      "headline": "Report says any doctor can open any patient's E. sveikata record",
+      "source": "15min",
+      "url": "https://www.15min.lt/verslas/naujiena/bendroves/siurbiami-ne-tik-registru-centro-duomenys-jusu-sveikatos-duomenis-gali-perskaityti-ir-valytoja-663-2698800",
+      "why": "Shared clinician logins weaken the protection that view histories and hiding are meant to give."
+    },
+    {
+      "date": "2025-11-12",
+      "headline": "Prime Minister calls E. sveikata a joke after troubled upgrade",
+      "source": "tv3.lt (BNS)",
+      "url": "https://www.tv3.lt/naujiena/lietuva/premjere-e-sveikata-vadina-anekdotu-tikisi-it-progreso-viesajame-sektoriuje-n1468966",
+      "why": "The health minister floated EUR 15 million to make the system standalone; its future design is open."
+    },
+    {
+      "date": "2025-11-10",
+      "headline": "Registrų centras apologises as E. sveikata slows after major upgrade",
+      "source": "E. sveikatos portalas (Registrų centras)",
+      "url": "https://www.esveikata.lt/naujiena/274",
+      "why": "When the national record slows, clinicians cannot see or write patient data properly."
+    },
+    {
+      "date": "2025-10-07",
+      "headline": "New subsystem brings lab results from all labs into E. sveikata",
+      "source": "E. sveikatos portalas (Sveikatos apsaugos ministerija)",
+      "url": "https://www.esveikata.lt/naujiena/259",
+      "why": "Patients and doctors can see test results from any lab instead of carrying paper copies."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

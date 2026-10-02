@@ -1,0 +1,306 @@
+{
+ "iso3": "ALB",
+ "name": "Albania",
+ "region": "Europe",
+ "controlModel": "Institutional",
+ "headline": "Albania has a new EU-aligned data protection law, but patients have no national record to view and hospitals were still going digital in 2026.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 50,
+   "summary": "The 2024 data protection law gives a free right of access within 30 days, but no national portal shows the medical record. Only pieces are online, such as a child vaccination card on e-Albania, so the score sits at 50.",
+   "detail": [
+    "Article 14 of Law 124/2024 lets a person get confirmation and access to their personal data from any controller within 30 days. Article 12 makes the answer free, and Article 14 allows a reasonable fee only for later copies.",
+    "The 2009 Health Care Law (Article 30) says health documentation may stay with the institution or be owned by the patient, but sets no specific right to a copy of the record.",
+    "Since June 2024 parents can download a personal vaccination card for children aged 0 to 7 from e-Albania. Whether e-Albania shows other parts of the medical record today was not verified.",
+    "In June 2026 opposition MPs said public hospitals still lack an electronic medical record. A national patient portal with a full record was not found."
+   ],
+   "sources": [
+    {
+     "title": "Ligji nr. 124/2024 Për mbrojtjen e të dhënave personale (IDP copy)",
+     "url": "https://idp.al/wp-content/uploads/2025/07/ligj-2024-12-19-124.pdf",
+     "date": "2024-12-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ligji nr. 10 107, datë 30.3.2009 Për kujdesin shëndetësor në Republikën e Shqipërisë (ISHP copy)",
+     "url": "https://www.ishp.gov.al/wp-content/uploads/2015/ligjet/Per-kujdesin-shendetesor-ne-Republiken-e-Shqiperise.pdf",
+     "date": "2009-03-30",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kartela dhe rezervimi për bërjen e vaksinave për fëmijët 0-7 vjeç, online tek e-Albania (RTSH)",
+     "url": "https://rtsh.al/kartela-dhe-rezervimi-per-berjen-e-vaksinave-per-femijet-0-7-vjec-online-tek-e-albania/",
+     "date": "2024-06-11",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Gjendja e sistemit spitalor, PD kërkon interpelancë urgjente me Ministren Sala (RTSH)",
+     "url": "https://rtsh.al/gjendja-e-sistemit-spitalor-pd-kerkon-interpelance-urgjente-me-ministren-sala/",
+     "date": "2026-06-15",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data is a special category, but the law lets providers process it for care without consent, and no opt-out or patient-visible access log was found. Records sit with institutions, and the ministry has a legal right of access.",
+   "detail": [
+    "Law 124/2024 (Article 9) bans processing of sensitive data, including health data, unless an exception applies. One exception covers diagnosis, treatment and health service management by staff bound by professional secrecy.",
+    "The law gives rights to object (Article 19), to restrict processing (Article 17) and to portability (Article 18), but portability does not apply to public-task processing. How these work for health records in practice was not verified.",
+    "The 2009 Health Care Law (Article 30) obliges every institution that collects health data to give the Ministry of Health access, keeping it confidential. Patients have no stated say in this.",
+    "No national consent tool, opt-out from sharing, or access history visible to patients was found."
+   ],
+   "sources": [
+    {
+     "title": "Ligji nr. 124/2024 Për mbrojtjen e të dhënave personale (IDP copy)",
+     "url": "https://idp.al/wp-content/uploads/2025/07/ligj-2024-12-19-124.pdf",
+     "date": "2024-12-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ligji nr. 10 107, datë 30.3.2009 Për kujdesin shëndetësor në Republikën e Shqipërisë (ISHP copy)",
+     "url": "https://www.ishp.gov.al/wp-content/uploads/2015/ligjet/Per-kujdesin-shendetesor-ne-Republiken-e-Shqiperise.pdf",
+     "date": "2009-03-30",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 55,
+   "summary": "No health-sector enforcement evidence was found, so this is scored on the general law. Law 124/2024 is fully aligned with EU rules per the European Commission, with 72-hour breach notice and fines up to ALL 2 billion or 4% of turnover.",
+   "detail": [
+    "Law 124/2024, adopted 19 December 2024, replaced the 2008 law. The European Commission's 2025 report calls it fully aligned with the EU acquis, with seven of ten implementing acts adopted, but says the regulator's capacity must improve.",
+    "Controllers must notify the Commissioner of a breach within 72 hours (Article 29). The duty to tell affected people takes effect two years after publication.",
+    "Fines reach ALL 2 billion or 4% of global turnover (Article 94). The Commissioner received 900 complaints in 2025, double earlier years, mostly on access rights and disclosure without consent.",
+    "The law describes the Commissioner as independent. No health data breach or health-sector fine was verified.",
+    "Albania is an EU candidate. Talks on the internal market cluster, which includes health protection, opened on 14 April 2025. GDPR, the EHDS and the AI Act do not apply until accession. Article 100 repeals most of Law 124/2024 on the date Albania joins the EU."
+   ],
+   "sources": [
+    {
+     "title": "Ligji nr. 124/2024 Për mbrojtjen e të dhënave personale (IDP copy)",
+     "url": "https://idp.al/wp-content/uploads/2025/07/ligj-2024-12-19-124.pdf",
+     "date": "2024-12-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Albania 2025 Report, SWD(2025) (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/fe9138b7-90fe-4277-a12c-3a03f6d1957f_en?filename=albania-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "900 ankesa për cenim të të dhënave personale, ligji i ri ka shtrënguar masat (RTSH)",
+     "url": "https://rtsh.al/900-ankesa-per-cenim-te-te-dhenave-personale-ligji-i-ri-ka-shtrenguar-masat/",
+     "date": "2026-06-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "Using health data for direct marketing needs the person's explicit consent under Law 124/2024, and people can object at any time. No specific ban on selling health data or rule on health apps was found.",
+   "detail": [
+    "Article 46 of Law 124/2024 allows direct marketing on a legitimate interest basis, but sensitive data, including health data, may be used for marketing only with express consent.",
+    "People can object to marketing at any time under Article 19. Fines for breaking these rules reach ALL 2 billion or 4% of global turnover.",
+    "No law banning the sale of health data, rules for data brokers, or rules for consumer health apps outside the health system was found."
+   ],
+   "sources": [
+    {
+     "title": "Ligji nr. 124/2024 Për mbrojtjen e të dhënave personale (IDP copy)",
+     "url": "https://idp.al/wp-content/uploads/2025/07/ligj-2024-12-19-124.pdf",
+     "date": "2024-12-19",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 34,
+   "summary": "National systems exist for parts of the journey, including a health information system, a citizen register and e-prescriptions. The European Commission reports a system for collecting and reporting health data, but the government's plan for electronic public hospitals from August 2026 was not verified as done.",
+   "detail": [
+    "The European Commission's 2025 report says an electronic system for collecting and reporting health information from medical records has been set up. It gives no figures on use.",
+    "In 2017 the health minister said, in a statement the health fund published, that the citizen register held about 3.8 million records, check-ups were registered electronically and e-prescriptions were starting. Current e-prescription coverage was not verified.",
+    "In June 2026 the health minister said public hospitals would work electronically from 1 August 2026. The same day opposition MPs said the system lacked an electronic medical record and PACS imaging."
+   ],
+   "sources": [
+    {
+     "title": "Albania 2025 Report, SWD(2025) (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/fe9138b7-90fe-4277-a12c-3a03f6d1957f_en?filename=albania-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Nënshkrimi elektronik, një tjetër element dhe standard i rëndësishëm i Shëndetësisë Elektronike (FSDKSH)",
+     "url": "https://fsdksh.gov.al/nenshkrimi-elektronik-nje-tjeter-element-dhe-standard-i-rendesishem-i-shendetesise-elektronike/",
+     "date": "2019-01-08",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sala: Nis konsultimi publik për krijimin e Institutit Onkologjik Kombëtar. Nga 1 gushti, spitalet publike funksionojnë elektronikisht (RTSH)",
+     "url": "https://rtsh.al/sala-nis-konsultimi-publik-per-krijimin-e-institutit-onkologjik-kombetar-nga-1-gushti-spitalet-publike-funksionojne-elektronikisht/",
+     "date": "2026-06-15",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Gjendja e sistemit spitalor, PD kërkon interpelancë urgjente me Ministren Sala (RTSH)",
+     "url": "https://rtsh.al/gjendja-e-sistemit-spitalor-pd-kerkon-interpelance-urgjente-me-ministren-sala/",
+     "date": "2026-06-15",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 30,
+   "summary": "No shared record that lets a treating clinician see care from other providers was found. The health law leaves documentation with each institution or the patient, and opposition MPs said in June 2026 that hospitals still lack electronic records.",
+   "detail": [
+    "The 2009 Health Care Law makes each institution responsible for keeping its health documentation confidential and gives the ministry access for reporting. It does not create a cross-provider clinical record.",
+    "In June 2026 opposition MPs cited the lack of an electronic medical record and of PACS imaging in public hospitals. The minister announced electronic operation of public hospitals from 1 August 2026.",
+    "Whether clinicians can view records across providers, and any emergency access rules, were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Ligji nr. 10 107, datë 30.3.2009 Për kujdesin shëndetësor në Republikën e Shqipërisë (ISHP copy)",
+     "url": "https://www.ishp.gov.al/wp-content/uploads/2015/ligjet/Per-kujdesin-shendetesor-ne-Republiken-e-Shqiperise.pdf",
+     "date": "2009-03-30",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Gjendja e sistemit spitalor, PD kërkon interpelancë urgjente me Ministren Sala (RTSH)",
+     "url": "https://rtsh.al/gjendja-e-sistemit-spitalor-pd-kerkon-interpelance-urgjente-me-ministren-sala/",
+     "date": "2026-06-15",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Sala: Nis konsultimi publik për krijimin e Institutit Onkologjik Kombëtar. Nga 1 gushti, spitalet publike funksionojnë elektronikisht (RTSH)",
+     "url": "https://rtsh.al/sala-nis-konsultimi-publik-per-krijimin-e-institutit-onkologjik-kombetar-nga-1-gushti-spitalet-publike-funksionojne-elektronikisht/",
+     "date": "2026-06-15",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 43,
+   "summary": "Law 124/2024 treats research use of health data as a legitimate interest without consent, with no general opt-out. One safeguard class counts: fines up to 4% of turnover for misuse, including using research data for decisions about the person.",
+   "detail": [
+    "Article 45 of Law 124/2024 allows processing and reuse of personal data, including sensitive data, for scientific research, subject to safeguards.",
+    "Controllers must minimise data and pseudonymise or anonymise it where the purpose allows. Research data may not be used for decisions about the person without express consent.",
+    "A person may object to research use on personal grounds (Article 19), except where the research is a public-interest task. No ethics or permit body for data reuse, public register of uses, or trial consent law was verified."
+   ],
+   "sources": [
+    {
+     "title": "Ligji nr. 124/2024 Për mbrojtjen e të dhënave personale (IDP copy)",
+     "url": "https://idp.al/wp-content/uploads/2025/07/ligj-2024-12-19-124.pdf",
+     "date": "2024-12-19",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "No clinical AI rules or guidance were found, only a medical device law the European Commission calls partly aligned with EU rules. The Commission says Albania should fully align with the AI Act.",
+   "detail": [
+    "The European Commission's 2025 report says medical device rules remain partly aligned with the EU acquis and that Albania should fully align with the AI Act. Whether device rules cover software change control was not verified.",
+    "A draft law on in vitro diagnostic devices, partly harmonised with EU Regulation 2017/746, was reported in July 2026. It is not yet in force.",
+    "The Prime Minister said in November 2025 that AI would enter the health service in 2026 through a joint company the state is creating with a European health AI firm. No national health AI strategy or rule was found."
+   ],
+   "sources": [
+    {
+     "title": "Albania 2025 Report, SWD(2025) (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/fe9138b7-90fe-4277-a12c-3a03f6d1957f_en?filename=albania-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Projektligji i ri përcakton rregulla të rrepta për pajisjet mjekësore diagnostikuese in vitro (RTSH)",
+     "url": "https://rtsh.al/projektligji-i-ri-percakton-rregulla-te-rrepta-per-pajisjet-mjekesore-diagnostikuese-in-vitro/",
+     "date": "2026-07-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Rama: 1 mld euro për Shëndetësinë... 2026, viti i AI në mjekësi (RTSH)",
+     "url": "https://rtsh.al/rama-1-mld-euro-per-shendetesine-15-mln-euro-ekstra-per-pacientet-e-onkologjikut-2026-viti-i-ai-ne-mjekesi/",
+     "date": "2025-11-08",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "A national reporting system, a citizen register, e-prescriptions and a vaccination register exist. Hospitals lacked electronic records in June 2026; electronic operation from August 2026 was announced but not verified. Lab and research links not verified.",
+ "laws": [
+  {
+   "name": "Law No. 124/2024 On personal data protection",
+   "level": "National",
+   "year": "2024",
+   "what": "EU-aligned data protection law: health as sensitive data, access in 30 days, 72-hour breach notice, high fines.",
+   "url": "https://idp.al/wp-content/uploads/2025/07/ligj-2024-12-19-124.pdf"
+  },
+  {
+   "name": "Law No. 10107/2009 On health care in the Republic of Albania",
+   "level": "National",
+   "year": "2009",
+   "what": "Organises health care; creates a single health information system; institutions keep records confidential.",
+   "url": "https://www.ishp.gov.al/wp-content/uploads/2015/ligjet/Per-kujdesin-shendetesor-ne-Republiken-e-Shqiperise.pdf"
+  },
+  {
+   "name": "Law No. 9288/2004 ratifying Council of Europe Convention 108",
+   "level": "National",
+   "year": "2004",
+   "what": "Ratifies the Council of Europe convention on automatic processing of personal data.",
+   "url": "https://idp.al/wp-content/uploads/2024/01/ligji_9288_koventa-1.pdf"
+  },
+  {
+   "name": "Law No. 49/2022 ratifying the Protocol amending Convention 108",
+   "level": "National",
+   "year": "2022",
+   "what": "Ratifies the protocol that modernises Convention 108.",
+   "url": "https://idp.al/wp-content/uploads/2024/01/ligji-49-2022.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-08",
+   "headline": "Prime Minister says AI will enter Albania's health service in 2026",
+   "source": "RTSH",
+   "url": "https://rtsh.al/rama-1-mld-euro-per-shendetesine-15-mln-euro-ekstra-per-pacientet-e-onkologjikut-2026-viti-i-ai-ne-mjekesi/",
+   "why": "Clinical AI may reach patients before any national rules for it exist."
+  },
+  {
+   "date": "2026-02-09",
+   "headline": "Health minister says linking health systems is the main remaining challenge",
+   "source": "RTSH",
+   "url": "https://rtsh.al/ministrja-sala-ne-forumin-per-shendetesine-ne-dubai-hapi-i-radhes-per-shqiperine-ndertimi-i-sistemeve-te-lidhura/",
+   "why": "Without linked systems, patients' records stay split across institutions."
+  },
+  {
+   "date": "2026-06-15",
+   "headline": "Minister announces electronic operation of public hospitals from 1 August 2026",
+   "source": "RTSH",
+   "url": "https://rtsh.al/sala-nis-konsultimi-publik-per-krijimin-e-institutit-onkologjik-kombetar-nga-1-gushti-spitalet-publike-funksionojne-elektronikisht/",
+   "why": "Hospital records could finally become digital and shareable."
+  },
+  {
+   "date": "2026-06-28",
+   "headline": "Data protection complaints doubled to 900 in 2025",
+   "source": "RTSH",
+   "url": "https://rtsh.al/900-ankesa-per-cenim-te-te-dhenave-personale-ligji-i-ri-ka-shtrenguar-masat/",
+   "why": "People are using new rights, mostly on access and disclosure without consent."
+  },
+  {
+   "date": "2026-07-20",
+   "headline": "Draft law sets EU-style rules for in vitro diagnostic devices",
+   "source": "RTSH",
+   "url": "https://rtsh.al/projektligji-i-ri-percakton-rregulla-te-rrepta-per-pajisjet-mjekesore-diagnostikuese-in-vitro/",
+   "why": "Lab tests used on patients would face stricter safety and traceability rules."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

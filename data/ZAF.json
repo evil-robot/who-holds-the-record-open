@@ -1,0 +1,378 @@
+{
+ "iso3": "ZAF",
+ "name": "South Africa",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "South African patients have strong paper rights under POPIA and the National Health Act, but records stay in each provider's or province's own system.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "POPIA section 23 and PAIA give a right to your record within 30 days, but providers may charge a prescribed fee and no national patient portal was found. Scored as statutory right (45) minus 5 for the fee.",
+   "detail": [
+    "Section 23 of POPIA lets a person ask any organisation to confirm, free of charge, what it holds and to get the record. The record itself comes \"at a prescribed fee, if any\", after a written estimate. Section 23(4) applies PAIA's rules on health records.",
+    "PAIA sets a 30-day answer deadline for public bodies (section 25) and private bodies (section 56), extendable once by up to 30 days. Section 61 lets a private body consult a health practitioner first if disclosure might cause serious harm to the patient.",
+    "The National Health Act (section 13) makes facilities keep a record for every user but does not itself spell out a patient's right to a copy. HPCSA Booklet 9 says state institutions must give copies on request for a reasonable PAIA fee, and anyone aged 12 or over may get their own records.",
+    "The Department of Health says every user should have a portable electronic record that belongs to the patient, carried on HPRS. That is a design goal tied to NHI. We found no public portal where patients read their own record."
+   ],
+   "sources": [
+    {
+     "title": "Protection of Personal Information Act 4 of 2013 (Government Gazette 37067)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf",
+     "date": "2013-11-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Promotion of Access to Information Act 2 of 2000 (Department of Justice consolidated copy)",
+     "url": "https://www.justice.gov.za/legislation/acts/2000-002.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "HPCSA Guidelines on the Keeping of Patient Records, Booklet 9 (mirror copy)",
+     "url": "https://www.hpcsa-blogs.co.za/wp-content/uploads/2022/08/Booklet-9-Guidelines-on-Patient-Records.pdf",
+     "date": "2016-09",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "NHI Chief Directorate: Health Systems Digital Information (National Department of Health)",
+     "url": "https://www.health.gov.za/nhi-cd-hs/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 42,
+   "summary": "The National Health Act needs written consent to disclose records outside care, and POPIA lets you ask which third parties saw your data. But providers share for care without asking, and no system shows patients who opened their record.",
+   "detail": [
+    "Section 14 of the National Health Act makes user health information confidential. Disclosure needs written consent, a court order or law, or a serious public health threat. Section 16(1)(a) lets a provider examine records for treatment with the user's authorisation, but section 15 lets providers share records with others in the user's interest without consent.",
+    "POPIA section 23(1)(b) gives a right to learn the identity of all third parties, or categories of third parties, who have had access. This is an access log on request, not one patients can see online.",
+    "POPIA section 32 lets insurers and medical schemes process health data for risk assessment unless the person objects, and for contracts without consent. Discovery Health's HealthID shows a private consent model: doctors see a scheme member's record only with consent, which the member can revoke.",
+    "HealthID covers only members of schemes Discovery administers. With no general opt-out and no live patient-facing log, the cell sits in the lower half of the 40 to 55 band."
+   ],
+   "sources": [
+    {
+     "title": "National Health Act 61 of 2003 (Government Gazette 26595)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+     "date": "2004-07-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Protection of Personal Information Act 4 of 2013 (Government Gazette 37067)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf",
+     "date": "2013-11-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Discovery Health: Permission to make certain information available to a third party (HealthID consent form)",
+     "url": "https://discoveryhealthmedicalscheme.co.za/wcm/discoverycoza/assets/medical-aid/application-forms/2024/permission-to-make-certain-information-available-to-a-third-party.pdf",
+     "date": "2024-10-01",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 60,
+   "summary": "POPIA makes health special personal information, with fines up to R10 million and new 2026 health rules for insurers, schemes and employers. Breach notice has no fixed deadline, and no health-sector fine was found.",
+   "detail": [
+    "POPIA section 26 bars processing health information except under sections 27 and 32. Section 22 requires notice of a breach to the Regulator and the person \"as soon as reasonably possible\", with no hour limit. Administrative fines reach R10 million (section 109); some offences carry up to 10 years in prison (section 107).",
+    "Regulations gazetted on 6 March 2026 apply to insurers, medical schemes, administrators, managed care bodies, pension funds and employers. They require security safeguards, safe disposal and limits on transfers abroad. Healthcare providers are not listed, so they stay under POPIA's general rules and the National Health Act.",
+    "The Regulator ordered Dis-Chem pharmacies to fix security after a 2022 breach of 3.6 million records (names, emails and phone numbers). In 2023 it referred the Department of Health to its Enforcement Committee over COVID-19 data. In April 2026 Polmed, the police medical scheme, reported a suspected breach under section 22.",
+    "Section 17 of the National Health Act makes unauthorised access to health records an offence, with up to one year in prison."
+   ],
+   "sources": [
+    {
+     "title": "Protection of Personal Information Act 4 of 2013 (Government Gazette 37067)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf",
+     "date": "2013-11-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Regulations relating to the Processing of Data Subjects' Health Information by Certain Responsible Parties, 2026 (Gazette 54268, Notice 7198)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/202603/54268gon7198.pdf",
+     "date": "2026-03-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Information Regulator: Enforcement notice issued to Dis-Chem due to contravention of POPIA",
+     "url": "https://inforegulator.org.za/wp-content/uploads/2020/07/FINAL-MEDIA-STATEMENT-ENFORCEMENT-NOTICE-ISSUED-TO-DISCHEM-PHARMACIES-LTD.pdf",
+     "date": "2023-09-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Information Regulator refers National Department of Health to the Enforcement Committee over COVID-19 data",
+     "url": "https://inforegulator.org.za/wp-content/uploads/2020/07/Media-Statement_Information-Regulator-Refers-NDOH-to-the-Enforcement-Committee.pdf",
+     "date": "2023-02-20",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "POPIA requires opt-in consent for electronic direct marketing and treats health as special information, and the National Health Act bars disclosure without written consent. Insurers may still use health data for risk unless you object, and consumer health apps fall into gaps.",
+   "detail": [
+    "POPIA section 69 bans direct marketing by email, SMS or automated calls unless the person consented or is an existing customer with a chance to object. A responsible party may ask for consent only once.",
+    "The National Health Act (section 14) bars disclosure of a user's health information without written consent, a court order or law. We found no law that names or bans the sale of de-identified health data, or health data brokers.",
+    "POPIA section 32 lets insurers and medical schemes process health data to assess risk if the person has not objected. The 2026 regulations add safeguards but no ban on commercial reuse.",
+    "A 2025 legal study found POPIA, the National Health Act and the Consumer Protection Act leave gaps for mental health apps, including weak rules on third-party sharing and cross-border transfer.",
+    "South Africa is not on the EU's list of adequate countries. EU health data needs other safeguards to reach South African firms, and POPIA section 72 governs transfers out."
+   ],
+   "sources": [
+    {
+     "title": "Protection of Personal Information Act 4 of 2013 (Government Gazette 37067)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf",
+     "date": "2013-11-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Act 61 of 2003 (Government Gazette 26595)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+     "date": "2004-07-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Regulatory challenges of digital health: mental health applications and personal data in South Africa (Frontiers in Pharmacology)",
+     "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1498600/full",
+     "date": "2025-04-30",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "journey": {
+   "score": 33,
+   "summary": "Public clinics share a patient registration number (HPRS, in 3,265 facilities), but hospital records sit in separate provincial systems and four provinces have none. A national clinic EMR is only starting a 3,200-facility rollout.",
+   "detail": [
+    "The 2024/25 annual report says HPRS runs in 3,265 public facilities and holds over 68 million records, with duplicates and unverified entries. HPRS is a registration and identifier system, not a clinical record.",
+    "A May 2026 ministerial reply lists hospital records by province: 43 hospitals in the Eastern Cape, 21 in the Free State, 37 in Gauteng, 42 in KwaZulu-Natal and 53 in the Western Cape, on five different systems. An August 2025 reply said Mpumalanga, North West, Limpopo and Northern Cape run no hospital EMR.",
+    "The national EMR for primary care was beta tested in 85 facilities. Rollout to 3,200 facilities over 15 months was due to start in the second quarter of 2026/27. The Department calls this the start of a shared record.",
+    "Medical schemes covered 9.17 million beneficiaries in 2024. We found no exchange linking scheme claims or private records with public ones. NHI, meant to link public and private care, waits on a Constitutional Court judgment before its sections are proclaimed."
+   ],
+   "sources": [
+    {
+     "title": "National Department of Health Annual Report 2024/25",
+     "url": "https://www.health.gov.za/wp-content/uploads/2025/11/NDoH-2024-25-Annual-Report-_-19-September-2025.pdf",
+     "date": "2025-09-19",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Minister of Health reply to question NW2014 on hospital and PHC electronic records (PMG)",
+     "url": "https://pmg.org.za/committee-question/37900/",
+     "date": "2026-05-28",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Minister of Health reply to question NW4495 on EHR use in public hospitals and clinics (PMG)",
+     "url": "https://pmg.org.za/committee-question/31734/",
+     "date": "2025-08-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The 2024 CMS Industry Report is now available (Council for Medical Schemes)",
+     "url": "https://www.medicalschemes.co.za/the-2024-cms-industry-report-is-now-available/",
+     "date": "2025-12-04",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 32,
+   "summary": "Clinicians can see public lab results across facilities through the NHLS, which serves over 80 percent of South Africans, but no shared record exists across hospitals or between public and private care.",
+   "detail": [
+    "Section 15 of the National Health Act lets providers share records with each other for a legitimate purpose in the patient's interest. The law allows sharing, but there is no national system to do it.",
+    "The NHLS is the sole diagnostic pathology provider for over 80 percent of the population. Authorised clinicians view results online through TrakCare Lab WebView, and the NHLS says all access is audited.",
+    "Hospital EMRs are provincial and run on different systems, so a patient moving between provinces, or from public to private care, usually starts a new file.",
+    "In private care, Discovery's HealthID lets a treating doctor view a scheme member's record after consent. It covers only schemes Discovery administers."
+   ],
+   "sources": [
+    {
+     "title": "National Health Act 61 of 2003 (Government Gazette 26595)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+     "date": "2004-07-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "About the National Health Laboratory Service",
+     "url": "https://www.nhls.ac.za/about-us/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "NHLS TrakCare Lab WebView results viewer",
+     "url": "https://trakcarelabwebview.nhls.ac.za/trakcarelab/RDdefault.htm",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Discovery Health: Permission to make certain information available to a third party (HealthID consent form)",
+     "url": "https://discoveryhealthmedicalscheme.co.za/wcm/discoverycoza/assets/medical-aid/application-forms/2024/permission-to-make-certain-information-available-to-a-third-party.pdf",
+     "date": "2024-10-01",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Identifiable records need the patient's, facility head's and an ethics committee's authorisation, but de-identified use needs none and POPIA allows research without consent where asking is disproportionate. There is no opt-out and no public register of uses.",
+   "detail": [
+    "Section 16 of the National Health Act lets providers use records for research only with authorisation from the user, the facility head and a health research ethics committee. If the research reveals no identity, no authorisation is needed.",
+    "Section 71 requires written informed consent for research on a living person. Section 73 requires every research institution to use an ethics committee registered with the National Health Research Ethics Council. Section 17 makes linking a person's identifiers to their clinical record without authority an offence.",
+    "POPIA section 27(1)(d) allows special information to be used for research in the public interest, or where consent is impossible or disproportionate, with privacy guarantees. The NHREC's 2024 guidelines allow broad consent and let ethics committees waive consent for minimal-risk secondary use.",
+    "The Information Regulator declined ASSAf's research code of conduct, which became a voluntary framework. Scored at the 50 cap: 40 plus ethics body, statutory secrecy, re-identification offence and a consent route."
+   ],
+   "sources": [
+    {
+     "title": "National Health Act 61 of 2003 (Government Gazette 26595)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+     "date": "2004-07-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Protection of Personal Information Act 4 of 2013 (Government Gazette 37067)",
+     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf",
+     "date": "2013-11-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "South African Ethics in Health Research Guidelines, 3rd edition v3.2 (NHREC, National Department of Health)",
+     "url": "https://knowledgehub.health.gov.za/system/files/elibdownloads/2026-08/NDoH-2024-v3.2-master-signed.pdf",
+     "date": "2024",
+     "publisherClass": "official"
+    },
+    {
+     "title": "ASSAf POPIA Compliance Framework for Researchers and Research Institutions",
+     "url": "https://www.univen.ac.za/wp-content/uploads/2026/09/2025_ASSAf_POPIACompliance-Framework.pdf",
+     "date": "2025-05-01",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 48,
+   "summary": "SAHPRA's September 2025 communication MD08 sets AI device expectations, including local validation, human oversight and change control plans. SAHPRA has not started product registration of medical devices, so this is guidance, scored near the top of the 35 to 50 band.",
+   "detail": [
+    "MD08 says every AI or machine learning device needs SAHPRA authorisation and a four-tier risk class. Makers must show performance on local populations, address bias and run post-market monitoring. It covers generative AI, including chatbots and note-writing scribes.",
+    "SAHPRA states it has not commenced product registration of medical devices and IVDs. Until change-control guidance is formalised, significant algorithm changes need review, and a pre-determined change control plan must be agreed with SAHPRA.",
+    "Cabinet withdrew the Draft National AI Policy on 5 June 2026 after fictitious sources were found in its references. A July 2026 ministerial reply says the national clinic EMR includes AI and machine learning to support clinicians; we found no rule governing that use."
+   ],
+   "sources": [
+    {
+     "title": "SAHPRA Communication to Stakeholders MD08-2025/2026: Regulatory requirements of AI/ML-enabled medical devices",
+     "url": "https://www.sahpra.org.za/wp-content/uploads/2025/09/MD08-20252026_-SAHPRA-Communication-to-Industry-AI-Medical-devices_Acknowledgements.pdf",
+     "date": "2025-09-26",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cabinet approves withdrawal of AI policy (SAnews)",
+     "url": "https://www.sanews.gov.za/south-africa/cabinet-approves-withdrawal-ai-policy",
+     "date": "2026-06-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Minister of Health reply to question NW3043 on AI and digital health (PMG)",
+     "url": "https://pmg.org.za/committee-question/39322/",
+     "date": "2026-07-09",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "siloed",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "HPRS gives public patients one ID; NHLS links public labs and supports disease surveillance; CCMDD delivers chronic medicine parcels. Hospital EMRs are provincial and unlinked, scheme claims are separate, and the clinic EMR is starting rollout.",
+ "laws": [
+  {
+   "name": "Protection of Personal Information Act 4 of 2013 (POPIA)",
+   "level": "National",
+   "year": "2013",
+   "what": "Health is special personal information; access right; opt-in electronic marketing; breach notice; fines up to R10 million.",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf"
+  },
+  {
+   "name": "Promotion of Access to Information Act 2 of 2000 (PAIA)",
+   "level": "National",
+   "year": "2000",
+   "what": "Access to records held by public and private bodies, 30-day deadline, special rules for health records.",
+   "url": "https://www.justice.gov.za/legislation/acts/2000-002.pdf"
+  },
+  {
+   "name": "National Health Act 61 of 2003",
+   "level": "National",
+   "year": "2003",
+   "what": "Record keeping, confidentiality, written consent for disclosure, research authorisation, offences for record misuse.",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf"
+  },
+  {
+   "name": "National Health Insurance Act 20 of 2023",
+   "level": "National",
+   "year": "2023",
+   "what": "National fund with user registration; written approval for disclosure. Proclamation of sections delayed pending court judgment.",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/202405/50664nathealthinsuranceact202023.pdf"
+  },
+  {
+   "name": "Regulations relating to the Processing of Data Subjects' Health Information by Certain Responsible Parties, 2026",
+   "level": "National",
+   "year": "2026",
+   "what": "Safeguards and transfer limits for insurers, schemes, administrators, pension funds and employers handling health data.",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/202603/54268gon7198.pdf"
+  },
+  {
+   "name": "National 2021 Normative Standards Framework for Interoperability in Digital Health (Notice 2667)",
+   "level": "National",
+   "year": "2022",
+   "what": "National interoperability standards for digital health systems, issued under the National Health Act.",
+   "url": "https://www.gov.za/documents/notices/national-health-act-national-2021-normative-standards-framework-interoperability"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-02-24",
+   "headline": "President delays proclaiming NHI Act sections until Constitutional Court rules",
+   "source": "The Presidency",
+   "url": "https://www.thepresidency.gov.za/presidency-statement-national-health-insurance-act-nhi-litigation",
+   "why": "NHI is the legal basis for a portable national patient record."
+  },
+  {
+   "date": "2026-03-12",
+   "headline": "New POPIA health information regulations take effect for insurers and employers",
+   "source": "Moonstone",
+   "url": "https://www.moonstone.co.za/new-popia-regulations-on-health-information-now-in-force/",
+   "why": "Adds security and transfer rules for schemes, insurers and employers holding patients' health data."
+  },
+  {
+   "date": "2026-04-17",
+   "headline": "Police medical scheme Polmed investigates suspected data breach after ransom demand",
+   "source": "ITWeb",
+   "url": "https://www.itweb.co.za/article/saps-medical-aid-scheme-probes-potential-data-breach/P3gQ2MGA5VNvnRD1",
+   "why": "Shows medical scheme data is a target and tests POPIA's breach notice duty."
+  },
+  {
+   "date": "2026-05-28",
+   "headline": "Health minister says clinic EMR ready for rollout to 3,200 facilities",
+   "source": "Parliamentary Monitoring Group",
+   "url": "https://pmg.org.za/committee-question/37900/",
+   "why": "First national step toward a shared electronic record in public primary care."
+  },
+  {
+   "date": "2026-06-05",
+   "headline": "Cabinet withdraws draft national AI policy after fake citations found",
+   "source": "SAnews",
+   "url": "https://www.sanews.gov.za/south-africa/cabinet-approves-withdrawal-ai-policy",
+   "why": "Leaves clinical AI with only SAHPRA guidance and no national AI policy."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

@@ -1,0 +1,391 @@
+{
+  "iso3": "ESP",
+  "name": "Spain",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Spaniards can read key reports from any region and hide them from other doctors, but the national record is summaries, not the chart.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 66,
+      "summary": "Ley 41/2002 gives a free right to the clinical record, and the national HCDSNS shows up to nine report types from any region. Spain scored 88.3 on the EU record-access indicator (Digital Decade 2025, 2024 data; EU 82.7), but what each region publishes varies.",
+      "detail": [
+        "Article 18 of Ley 41/2002 gives patients the right to access their clinical history and obtain a copy. Professionals may withhold their subjective notes, and third parties' confidential data is protected (BOE).",
+        "The HCDSNS portal, reached through each regional health service, lets anyone with a health card read reports generated anywhere in the SNS. The Ministry says it does not give access to everything held in regional systems, and document types depend on the region.",
+        "The nine types are a summary history plus discharge, outpatient, emergency, primary care, nursing, laboratory, imaging and other test reports. Madrid says all its primary care reports are online but only some hospitals publish yet.",
+        "The European Commission scored Spain 88.3 on access to e-health records in 2024 (EU 82.7). In April 2026 the AEPD sanctioned a clinic for charging a patient 30 euros for her record, ruling the first copy free. In January 2026 it warned IB-Salut (Balearics) for sending two documents when a patient asked for the full record."
+      ],
+      "sources": [
+        {
+          "title": "Ley 41/2002, básica reguladora de la autonomía del paciente (BOE, texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188",
+          "date": "2002-11-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Historia Clínica Digital del SNS: preguntas frecuentes (Ministerio de Sanidad)",
+          "url": "https://www.sanidad.gob.es/profesionales/hcdsns/Preguntas_frecuentes.htm",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Decade 2025 country report: Spain (European Commission, published by the Spanish government)",
+          "url": "https://digital.gob.es/content/dam/portal-mtdfp/comunicacion/comunicacion_sedia/2025/06/16-06-2025/20250616InformeEspanaDecadaDigitalSDD25.pdf",
+          "date": "2025-06-16",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "La AEPD sanciona a un centro médico por cobrar 30 euros por entregar una historia clínica (Iberley)",
+          "url": "https://www.iberley.es/noticias/la-aepd-sanciona-cobrar-30-euros-acceder-historia-clinica-36403",
+          "date": "2026-04-30",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 64,
+      "summary": "Patients can hide individual reports from other doctors in HCDSNS and see every access, with a form to complain about unjustified ones. Choice covers only the shared national layer; inside each region clinicians treating the patient read the record by law.",
+      "detail": [
+        "The Ministry says each citizen can selectively hide clinical reports they do not want visible to professionals through HCDSNS. Professionals are then told that something has been hidden. Every access is logged and can be audited.",
+        "Each citizen can see the accesses made to their HCDSNS and file a complaint about any they consider unjustified. A professional who does not usually treat the patient should only open it when the patient seeks care and authorises it.",
+        "Regional portals add logs. Catalonia's La Meva Salut lets people see who has accessed their shared record (HC3). The e-prescription service lets a patient ask for a confidentiality code so a pharmacy cannot see a medicine without it.",
+        "Ley 41/2002 gives the professionals treating a patient access to the clinical history as a basic tool of care; regional opt-outs were not reviewed. In July 2026 the AEPD ruled that access logs given to patients should, as a rule, name who consulted the record (Cuatrecasas)."
+      ],
+      "sources": [
+        {
+          "title": "Historia Clínica Digital del SNS: preguntas frecuentes (Ministerio de Sanidad)",
+          "url": "https://www.sanidad.gob.es/profesionales/hcdsns/Preguntas_frecuentes.htm",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Historia Clínica Digital del Sistema Nacional de Salud (Comunidad de Madrid)",
+          "url": "https://www.comunidad.madrid/salud/historia-clinica-digital-sistema-nacional-salud",
+          "date": "2025-11-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Preguntas frecuentes, La Meva Salut (Generalitat de Catalunya)",
+          "url": "https://lamevasalut.gencat.cat/es/web/cps/ajuda/preguntes-frequents",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Trazabilidad de los accesos a datos de salud: la AEPD anticipa el estándar del EHDS (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/es/spain/farmaceutico-sanitario/art/trazabilidad-accesos-datos-salud",
+          "date": "2026-07-13",
+          "publisherClass": "law_firm"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 56,
+      "summary": "GDPR and the LOPDGDD protect health data and the AEPD fines private providers, including 1.2 million euros against a Quirón hospital company. But public health services cannot be fined under LOPDGDD Article 77, only declared in breach.",
+      "detail": [
+        "Health data is a special category under GDPR. LOPDGDD Article 9.2 says health processing based on Spanish law needs a statute of the rank of law. Deliberately reversing anonymisation to re-identify people is a very serious infringement (Article 72.1.p).",
+        "Article 77 lists regional administrations and public bodies, which run most of the SNS, and removes administrative fines for them. The AEPD can declare an infringement, order corrective measures and propose disciplinary action.",
+        "In a decision reported in February 2026, the AEPD fined IDCQ Hospitales y Sanidad (Grupo Quirón) 1.2 million euros for destroying a patient's imaging after one month. It found breaches of GDPR Articles 6, 9 and 25.",
+        "In March 2026 a hacker claimed to hold 1,146,700 clinical notes and 601,308 personal records from Eholo, Spanish software for psychologists (Escudo Digital). In August 2026 a group called Dire Wolf claimed a Quirónsalud breach that had not been independently confirmed (La Voz del Sur)."
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (BOE, texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+          "date": "2018-12-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Un hospital del Grupo Quirón recibe una multa de 1,2 millones de euros por perder el CD de un paciente (Infobae)",
+          "url": "https://www.infobae.com/espana/2026/02/12/un-hospital-del-grupo-quiron-recibe-una-multa-de-12-millones-de-euros-por-perder-el-cd-de-un-paciente-que-aporto-resonancias-hechas-en-otros-centros/",
+          "date": "2026-02-12",
+          "publisherClass": "news"
+        },
+        {
+          "title": "El software para psicólogos Eholo sufre una grave filtración de datos (Escudo Digital)",
+          "url": "https://www.escudodigital.com/ciberseguridad/eholo-startup-filtracion-datos-pacientes.html",
+          "date": "2026-03-05",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Un grupo de hackers asegura haber robado datos médicos y financieros de pacientes de Quirón en España (La Voz del Sur)",
+          "url": "https://www.lavozdelsur.es/actualidad/salud/un-grupo-de-hackers-asegura-haber-robado-datos-medicos-y-financieros-de-pacientes-de-quiron-en-espana.html",
+          "date": "2026-08-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 60,
+      "summary": "Ley 41/2002 ties the clinical record to care, and since 2023 life insurers may not consider cancer five years after treatment ends. No Spanish ban on selling health data beyond GDPR was found, and the 2026 national data space is open to companies.",
+      "detail": [
+        "Article 16 of Ley 41/2002 says the clinical history exists mainly to ensure proper care. Access for judicial, public health, research or teaching purposes must keep identity separate from clinical data, so that anonymity is the general rule unless the patient consents.",
+        "Real Decreto-ley 5/2023 changed the insurance contract law: a life insurance applicant need not declare cancer five years after radical treatment ends without relapse, and insurers may not consider it. It also bars discrimination for HIV/AIDS and other health conditions.",
+        "LOPDGDD Article 9.2 allows health processing under a law where an insurance contract the person is party to requires it.",
+        "The Espacio Nacional de Datos de Salud, launched in January 2026, is meant to let professionals, researchers and companies access large volumes of health data under ethical and security standards. Consumer health apps fall under general GDPR rules; the Eholo leak shows the exposure."
+      ],
+      "sources": [
+        {
+          "title": "Ley 41/2002, básica reguladora de la autonomía del paciente (BOE, texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188",
+          "date": "2002-11-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Real Decreto-ley 5/2023, art. 209: derecho al olvido oncológico en el contrato de seguro (BOE)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-15135",
+          "date": "2023-06-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (BOE, texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+          "date": "2018-12-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Presentado el Espacio Nacional de Datos de Salud (Ministerio para la Transformación Digital y de la Función Pública)",
+          "url": "https://digital.gob.es/digitalizacion/la-economia-del-dato/actualidad/2026/01/presentado-el-espacio-nacional-de-datos-de-salud",
+          "date": "2026-01-29",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 64,
+      "summary": "HCDSNS links nine report types across the regional health services, and e-prescriptions can be filled in any region's pharmacy. Spain has no nationwide longitudinal record; the Ministry commissioned a 2026 roadmap toward one.",
+      "detail": [
+        "Each region runs its own electronic record. HCDSNS is the federated layer that lets regions share relevant clinical documents, stored on regional servers, so they are available wherever a person is treated in the SNS (Ministry of Health).",
+        "The interoperable e-prescription service (RESNS) lets a patient collect medicine prescribed in another region at any pharmacy with a health card. The pharmacist can see the full active treatment. Mutual-fund patients (MUFACE, MUGEJU, ISFAS) are covered in all regions.",
+        "To lay a foundation for a nationwide record, the Ministry commissioned a Delphi study of 152 experts, published in The Lancet Digital Health in August 2026. It sets 20 recommendations toward a standardised, longitudinal national record.",
+        "The national data space, launched in January 2026 with 70 million euros of state money and 28 million for regions, links regional systems for secondary use. The draft digital health law to apply EHDS was still being drafted in September 2026."
+      ],
+      "sources": [
+        {
+          "title": "Historia Clínica Digital del SNS: preguntas frecuentes (Ministerio de Sanidad)",
+          "url": "https://www.sanidad.gob.es/profesionales/hcdsns/Preguntas_frecuentes.htm",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Receta Electrónica del Sistema Nacional de Salud (RESNS) (Ministerio de Sanidad)",
+          "url": "https://www.sanidad.gob.es/areas/saludDigital/recetaElectronicaSNS/home.htm",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Recommendations for a national electronic health record in Spain: a Delphi study (The Lancet Digital Health, via University of Edinburgh)",
+          "url": "https://www.research.ed.ac.uk/en/publications/recommendations-for-a-national-electronic-health-record-in-spain-/",
+          "date": "2026-08-19",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Presentado el Espacio Nacional de Datos de Salud (Ministerio para la Transformación Digital y de la Función Pública)",
+          "url": "https://digital.gob.es/digitalizacion/la-economia-del-dato/actualidad/2026/01/presentado-el-espacio-nacional-de-datos-de-salud",
+          "date": "2026-01-29",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 60,
+      "summary": "Inside each region clinicians usually share one record; Catalonia's HC3 reaches every public hospital and primary care centre. Across regions, a doctor sees only the HCDSNS report types, needs the patient's authorisation outside emergencies, and is told when reports are hidden.",
+      "detail": [
+        "Ley 41/2002 Article 16 requires each centre to give treating professionals access to the clinical history at all times.",
+        "Catalonia's shared record, HC3, connects every hospital and primary care centre in the public network and held more than 80 million documents in 2014, so a doctor in another town can see the patient's history (Govern de Catalunya).",
+        "Across regions, HCDSNS gives authorised professionals certain reports, not the full record. A professional who is not the usual carer should open it only when the patient seeks care and authorises it. Hidden reports are flagged, and all accesses are logged.",
+        "Records held by private providers are outside these networks unless a region connects them; we did not find a national figure on private-sector participation."
+      ],
+      "sources": [
+        {
+          "title": "Ley 41/2002, básica reguladora de la autonomía del paciente (BOE, texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188",
+          "date": "2002-11-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "La història clínica compartida, present a tots els hospitals i els CAP de la xarxa sanitària pública (Govern de Catalunya)",
+          "url": "https://govern.cat/gov/notes-premsa/275211/la-historia-clinica-compartida-present-a-tots-els-hospitals-i-els-cap-de-la-xarxa-sanitaria-publica",
+          "date": "2014-09-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Historia Clínica Digital del SNS: preguntas frecuentes (Ministerio de Sanidad)",
+          "url": "https://www.sanidad.gob.es/profesionales/hcdsns/Preguntas_frecuentes.htm",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Pseudonymised health data may be used for research without consent under the LOPDGDD, with no general opt-out, but with ethics review, separation of identity and a penalty for re-identification. The EHDS opt-out from secondary use starts in 2029.",
+      "detail": [
+        "LOPDGDD Additional Provision 17 makes pseudonymised research use lawful if the team holding re-identification keys is technically and functionally separate and researchers commit not to re-identify. It needs prior ethics committee approval and an impact assessment covering re-identification risk.",
+        "People may give broad consent covering research areas linked to a specialty, and data consented for one study may be reused in related research if the centre publishes notice. Reversing anonymisation to re-identify is a very serious infringement (Article 72.1.p).",
+        "Trials follow Real Decreto 1090/2015: informed consent under EU Regulation 536/2014 and Ley 41/2002, with accessible information for people with disabilities.",
+        "Under EHDS, secondary-use rules apply from March 2029. The 2025 consultation said the national law would define consent and objection procedures; the bill was still in drafting in September 2026."
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (BOE, texto consolidado)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+          "date": "2018-12-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Real Decreto 1090/2015, ensayos clínicos con medicamentos (BOE)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-14082",
+          "date": "2015-12-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "European Health Data Space Regulation (EHDS) (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Consulta pública previa sobre el Anteproyecto de Ley de Salud Digital (Ministerio de Sanidad)",
+          "url": "https://www.sanidad.gob.es/normativa/docs/2025.09.22_CPP_CPP_APL_Salud_Digital1_.pdf",
+          "date": "2025-09-22",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Spain relies on EU law for clinical AI. AESIA, the national AI supervisor, is an authority designation, and the national AI bill approved by the Council of Ministers in May 2026 was not yet law.",
+      "detail": [
+        "AESIA is the public body charged with ensuring the ethical and safe use of AI in Spain and supervising compliance by public and private entities (AESIA).",
+        "On 26 May 2026 the Council of Ministers approved the bill for an organic law on the good use and governance of AI, which develops the EU AI Act and requires human oversight of models. It must still pass the Cortes (La Moncloa).",
+        "The September 2025 consultation on the digital health law planned rules on traceability, algorithmic transparency and clinical supervision of digital tools, but no bill had been published by September 2026.",
+        "Regulation (EU) 2026/1744 moved AI Act high-risk duties for AI embedded in regulated products, including medical devices, to 2 August 2028 (Cuatrecasas)."
+      ],
+      "sources": [
+        {
+          "title": "¿Qué es la AESIA? (Agencia Española de Supervisión de Inteligencia Artificial)",
+          "url": "https://aesia.digital.gob.es/es",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "El Gobierno regula la inteligencia artificial para asegurar un uso confiable, ético y garantista (La Moncloa, Consejo de Ministros 26.5.2026)",
+          "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2026/260526-rueda-prensa-ministros.aspx",
+          "date": "2026-05-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Consulta pública previa sobre el Anteproyecto de Ley de Salud Digital (Ministerio de Sanidad)",
+          "url": "https://www.sanidad.gob.es/normativa/docs/2025.09.22_CPP_CPP_APL_Salud_Digital1_.pdf",
+          "date": "2025-09-22",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Omnibus on AI has been published (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+          "date": "2026-07-24",
+          "publisherClass": "law_firm"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "Regional records, linked nationally by HCDSNS for nine report types and by an interoperable e-prescription service in every region. Claims data is not a separate layer in this tax-funded system. A secondary-use data space began in 2026.",
+  "laws": [
+    {
+      "name": "Ley 41/2002, básica reguladora de la autonomía del paciente",
+      "level": "National",
+      "year": "2002",
+      "what": "Right to access and copy the clinical record; limits record use to care; anonymity for secondary uses.",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188"
+    },
+    {
+      "name": "Ley Orgánica 3/2018 (LOPDGDD)",
+      "level": "National",
+      "year": "2018",
+      "what": "Applies GDPR; pseudonymised research rules; re-identification offence; no fines for public bodies.",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "name": "Real Decreto-ley 5/2023 (derecho al olvido oncológico)",
+      "level": "National",
+      "year": "2023",
+      "what": "Life insurers may not consider cancer five years after treatment ends; bars health-condition discrimination.",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-15135"
+    },
+    {
+      "name": "Real Decreto 1090/2015, ensayos clínicos con medicamentos",
+      "level": "National",
+      "year": "2015",
+      "what": "Informed consent and ethics committee rules for clinical trials, applying EU Regulation 536/2014.",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-14082"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Patient access, access logs and EU exchange from 2029 and 2031; secondary-use rules and opt-out.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "Health data is a special category; free first copy within one month; breach notification and fines.",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807"
+    },
+    {
+      "name": "EU AI Act (EU) 2024/1689, amended by (EU) 2026/1744",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "Risk-based AI rules; duties for AI in medical devices apply from 2 August 2028.",
+      "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-01-03",
+      "headline": "Data regulator warns Balearic health service for withholding a patient's full record",
+      "source": "Última Hora",
+      "url": "https://www.ultimahora.es/noticias/local/2026/01/03/2537937/proteccion-datos-advierte-salut-por-facilitar-historial-clinico-paciente.html",
+      "why": "Shows the right to the whole record still needs enforcement against public services."
+    },
+    {
+      "date": "2026-01-29",
+      "headline": "Government launches 70 million euro national health data space",
+      "source": "Ministerio para la Transformación Digital y de la Función Pública",
+      "url": "https://digital.gob.es/digitalizacion/la-economia-del-dato/actualidad/2026/01/presentado-el-espacio-nacional-de-datos-de-salud",
+      "why": "Opens regional health data to researchers and companies for secondary use."
+    },
+    {
+      "date": "2026-02-12",
+      "headline": "Regulator fines Quirón hospital company 1.2 million euros over destroyed scans",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/espana/2026/02/12/un-hospital-del-grupo-quiron-recibe-una-multa-de-12-millones-de-euros-por-perder-el-cd-de-un-paciente-que-aporto-resonancias-hechas-en-otros-centros/",
+      "why": "Private providers face large fines for mishandling clinical data."
+    },
+    {
+      "date": "2026-07-13",
+      "headline": "Regulator says patients' access logs should name who viewed their records",
+      "source": "Cuatrecasas",
+      "url": "https://www.cuatrecasas.com/es/spain/farmaceutico-sanitario/art/trazabilidad-accesos-datos-salud",
+      "why": "Moves Spain toward the EHDS standard of named, visible access logs."
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Digital health law to apply EHDS still in drafting a year after consultation",
+      "source": "iSanidad",
+      "url": "https://isanidad.com/387083/sanidad-esta-ultimando-el-anteproyecto-de-ley-de-salud-digital-centrada-en-derechos-y-uso-de-los-datos-de-salud/",
+      "why": "Patient rights and a research opt-out under EHDS remain unlegislated nationally."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

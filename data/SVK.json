@@ -1,0 +1,325 @@
+{
+  "iso3": "SVK",
+  "name": "Slovakia",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Slovaks can read a national e-health record and see every access, but cannot opt out of clinician sharing, and login needs a chip ID card.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 62,
+      "summary": "The law gives patients the right to see their whole record without delay, and the national electronic health book (EZK) is online through the National Health Portal. Login needs a chip ID card with an activated e-signature, minors cannot log in, and usage figures were not verified.",
+      "detail": [
+        "Act 576/2004, section 25, says records are made available without delay to the patient or legal representative in full, and the patient may make extracts or copies on site. Anyone refused access can go to court.",
+        "A provider may refuse to show records to psychiatry or clinical psychology patients if access would harm their treatment.",
+        "Act 153/2013, section 5(5), lets a person read their EZK through the National Health Portal with an official authenticator. NCZI says this needs an eID card with an activated electronic signature and a security code, and that minors currently cannot log in.",
+        "The EZK holds a patient summary, prescriptions and dispensing, examination records and lab results, but lab coverage is still growing. How many residents use the EZK was not verified, so the score sits in the lower half of the portal band."
+      ],
+      "sources": [
+        {
+          "title": "Zakon c. 576/2004 Z. z. o zdravotnej starostlivosti, section 25 (Slov-Lex, version from 1 Aug 2026)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/576/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Zakon c. 153/2013 Z. z. o narodnom zdravotnickom informacnom systeme (Slov-Lex, version from 1 Aug 2026)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/153/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Pristup do elektronickej zdravotnej knizky (NCZI, ezdravotnictvo.sk)",
+          "url": "https://www.ezdravotnictvo.sk/en/-/pristup-do-elektronickej-zdravotnej-knizky",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 50,
+      "summary": "Patients can see who opened their EZK, when and in what role, and can grant and withdraw extra access. Providers share records without consent by law, and we found no general opt-out from clinician access.",
+      "detail": [
+        "Act 576/2004, section 18(2), says the patient's consent is not needed to process and share records under the law. Act 153/2013 lists by role which clinicians and state doctors see which parts of the EZK.",
+        "Section 5(10) of Act 153/2013 requires every access, data release and access attempt to be logged in the EZK. NCZI says the patient can see who, when, in what role and which records were accessed.",
+        "Patients can give a clinician or another person access through the portal and withdraw it at any time (section 5(11) and (12)). A paper ban with a certified signature can stop relatives from seeing records.",
+        "We found no right to block a treating clinician from the EZK. Only psychiatrists, sexologists and clinical psychologists can mark records as restricted, and that is the clinician's decision."
+      ],
+      "sources": [
+        {
+          "title": "Zakon c. 153/2013 Z. z., sections 5 and 5a (Slov-Lex)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/153/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Zakon c. 576/2004 Z. z., section 18 (Slov-Lex)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/576/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Pristup do elektronickej zdravotnej knizky (NCZI)",
+          "url": "https://www.ezdravotnictvo.sk/en/-/pristup-do-elektronickej-zdravotnej-knizky",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mozem ako pacient zakazat pristup do svojej zdravotnej dokumentacie? (nahradaskody.sk)",
+          "url": "https://www.nahradaskody.sk/clanky/zdravotna-dokumentacia/mozem-ako-pacient-zakazat-pristup-do-svojej-zdravotnej-dokumentacie/",
+          "date": "2024-10-23",
+          "publisherClass": "law_firm"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 58,
+      "summary": "GDPR and Act 18/2018 apply. NCZI may not give EZK data to police, but providers must give record extracts to criminal authorities and courts on written request, and the regulator imposed 542 fines totalling EUR 468,000 in 2025.",
+      "detail": [
+        "Health data is special-category data under the GDPR, with fines up to EUR 20 million or 4 percent of turnover. Slovakia's Act 18/2018 supplements it.",
+        "Act 153/2013, section 3a(21), lets NCZI give data to police, prosecutors and courts on request, but expressly excludes data held in the EZK. Act 576/2004, section 24(4), still requires providers to give record extracts to criminal authorities or courts on written request.",
+        "The Office for Personal Data Protection (UOOU) imposed 542 fines totalling EUR 468,000 in 2025. In 2026 it is checking how health providers inform patients, as part of a 25-authority EU action. We found no major health-specific fine, so this is scored mainly on the general law and its enforcement record."
+      ],
+      "sources": [
+        {
+          "title": "Sprava o stave ochrany osobnych udajov za rok 2025 (UOOU)",
+          "url": "https://dataprotection.gov.sk/files/annual-reports/uoou_sprava-stave-ochrany-osobnych-udajov_2025.pdf",
+          "date": "2026",
+          "publisherClass": "official"
+        },
+        {
+          "title": "CEF 2026: spolocna dozorova akcia EDPB zamerana na transparentnost informovania (UOOU)",
+          "url": "https://dataprotection.gov.sk/sk/aktuality/cef-2026-spolocna-dozorova-akcia-edpb-zamerana-transparentnost-informovania-do-ktorej-urad-ochranu-osobnych-udajov-sl.html",
+          "date": "2026-03-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Zakon c. 153/2013 Z. z., section 3a (Slov-Lex)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/153/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Zakon c. 576/2004 Z. z., section 24 (Slov-Lex)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/576/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 58,
+      "summary": "GDPR limits commercial use of identifiable health data, and the EU health data space will ban marketing uses of reused data. Act 153/2013 lets NCZI release anonymised data to anyone on request, and no Slovak ban on selling health data was verified.",
+      "detail": [
+        "GDPR Article 9 requires an explicit legal basis, such as explicit consent, for any commercial use of health data.",
+        "Under Act 153/2013, section 3a(15), anonymised and aggregated data from the national data base are provided to anyone on request under NCZI conditions.",
+        "The EHDS forbids reuse of health data for marketing, for decisions that harm people, and for re-identification. Most secondary-use rules apply from March 2029.",
+        "No Slovakia-specific rule on data brokers, health app data or sale of de-identified data was verified."
+      ],
+      "sources": [
+        {
+          "title": "Regulation (EU) 2016/679 (GDPR)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+          "date": "2016-04-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Zakon c. 153/2013 Z. z., section 3a (Slov-Lex)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/153/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 66,
+      "summary": "The national ezdravie system links 14,400 outpatient clinics, 129 hospitals, 2,193 pharmacies and all 3 health insurers. Electronic lab results (2.5 million in 2025) are still rolling out, and Slovakia is not yet on the EU MyHealth@EU network.",
+      "detail": [
+        "NCZI reports that ezdravie connects 14,400 outpatient clinics, 129 hospitals, 2,193 pharmacies and device outlets, 10 state institutions and 3 health insurers.",
+        "eLab became a legal duty from 1 January 2025, but rollout depends on software vendors. In 2025, 2.5 million lab results were recorded electronically and a pilot with one hospital, one lab and one insurer ran only in December 2025.",
+        "From 1 July 2026 (Act 344/2025), each billed service must carry the ID of its electronic health record, so insurers pay only for care recorded in ezdravie.",
+        "Slovakia is not yet connected to MyHealth@EU. NCZI tested the patient summary and ePrescription with Czechia, Cyprus, Italy and Croatia in a pre-production setting in 2025."
+      ],
+      "sources": [
+        {
+          "title": "Vyrocna sprava NCZI 2025",
+          "url": "https://www.nczisk.sk/Documents/download/vyrocna_sprava_NCZI_2025.pdf",
+          "date": "2026",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Zmena pravidiel vo vykazovani zdravotnej starostlivosti od 1. jula 2026 (NCZI)",
+          "url": "https://www.nczisk.sk/AKTUALITY/Pages/Zmena-pravidiel-vo-vykazovani-zdravotnej-starostlivosti-od-1-jula-2026.aspx",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "eSluzby: funkcie elektronickeho zdravotnictva (NCZI)",
+          "url": "https://www.ezdravotnictvo.sk/en/functions",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 60,
+      "summary": "The patient's registered GP sees most of the EZK, other treating doctors see parts via referral or the patient's ID card, and any health worker can see the emergency patient summary. Records outside ezdravie, such as paper reports, remain with each provider.",
+      "detail": [
+        "Act 153/2013, section 5(6), gives the GP with whom the patient is registered access to most EZK records. Specialists get access through the referral record or for patients under their long-term care.",
+        "Any other health worker can see the patient summary, which lists allergies, implants, key diagnoses and the GP's contacts.",
+        "Wider access needs the patient's consent, given by inserting their chip ID card at the provider or marking it in advance on the portal. The consent lasts for the episode of care.",
+        "Records marked restricted by psychiatrists or clinical psychologists stay closed even with consent. Completeness of the EZK depends on providers writing to it."
+      ],
+      "sources": [
+        {
+          "title": "Zakon c. 153/2013 Z. z., sections 5, 5a and 6 (Slov-Lex)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/153/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Vyrocna sprava NCZI 2025",
+          "url": "https://www.nczisk.sk/Documents/download/vyrocna_sprava_NCZI_2025.pdf",
+          "date": "2026",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 45,
+      "summary": "NCZI gives researchers modified statistical data under written contract, with no individual consent and no general opt-out found. A Slovak health data access body for the EHDS is still being built.",
+      "detail": [
+        "Act 153/2013, section 3a(10), lets NCZI provide confidential statistical data for clinical, scientific or policy use under a written contract with a requester who proves such activity. The data must not allow direct identification.",
+        "National disease registers list scientific research among their purposes. We found no opt-out for patients.",
+        "NCZI is building a system to assess data access requests under the EU-funded HeDAB-SK project, to join HealthData@EU. The EHDS adds a simple, reversible opt-out from 2029."
+      ],
+      "sources": [
+        {
+          "title": "Zakon c. 153/2013 Z. z., section 3a and annexes (Slov-Lex)",
+          "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/153/",
+          "date": "2026-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Vyrocna sprava NCZI 2025",
+          "url": "https://www.nczisk.sk/Documents/download/vyrocna_sprava_NCZI_2025.pdf",
+          "date": "2026",
+          "publisherClass": "official"
+        },
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under the EU AI Act and EU device rules only. A Slovak bill naming the ministry MIRRI as AI supervisor advanced in parliament in September 2026 and would apply from 1 January 2027, so it adds no points yet.",
+      "detail": [
+        "High-risk AI duties for systems inside regulated products such as medical devices apply from 2 August 2028 after the AI Omnibus, which took effect on 27 July 2026.",
+        "Slovakia's bill on state administration in AI and EU data regulation passed first reading and moved to second reading, as reported on 17 September 2026. It names MIRRI as the market supervisor and sets up a sandbox.",
+        "No Slovak health-specific AI rule or guidance was verified."
+      ],
+      "sources": [
+        {
+          "title": "AI Act: regulatory framework for AI (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "date": "2026-08-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Dohlad nad umelou inteligenciou preberie MIRRI (Zoznam, openiazoch)",
+          "url": "https://openiazoch.zoznam.sk/technologie/dohlad-nad-umelou-inteligenciou-preberie-mirri-poslanci-posunuli-zakon-dalej/",
+          "date": "2026-09-17",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "ezdravie links GPs, pharmacies and all three insurers, and claims must cite e-record IDs from July 2026. Lab results and hospital records are still filling in, and cross-border exchange is not yet live.",
+  "laws": [
+    {
+      "name": "Act No. 153/2013 on the National Health Information System",
+      "level": "National",
+      "year": "2013",
+      "what": "Creates the EZK, role-based access, patient access log, revocable consent and NCZI data release rules.",
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/153/"
+    },
+    {
+      "name": "Act No. 576/2004 on Health Care",
+      "level": "National",
+      "year": "2004",
+      "what": "Right to see the full record without delay; ban on relatives' access; no consent needed for lawful sharing.",
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/576/"
+    },
+    {
+      "name": "Act No. 18/2018 on Personal Data Protection",
+      "level": "National",
+      "year": "2018",
+      "what": "Supplements the GDPR in Slovakia and sets up the data protection office.",
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2018/18/"
+    },
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "Health is special-category data; right of access; fines up to EUR 20M or 4% of turnover.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Free access, restriction rights and secondary-use opt-out; main rules apply from 2029.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-03-19",
+      "headline": "Data protection office joins EU check of how clinics inform patients",
+      "source": "Urad na ochranu osobnych udajov SR",
+      "url": "https://dataprotection.gov.sk/sk/aktuality/cef-2026-spolocna-dozorova-akcia-edpb-zamerana-transparentnost-informovania-do-ktorej-urad-ochranu-osobnych-udajov-sl.html",
+      "why": "Providers may be questioned on whether patients understand how their health data is used."
+    },
+    {
+      "date": "2026-06-07",
+      "headline": "Insurers to pay only for care recorded in ezdravie from July",
+      "source": "Techbyte.sk",
+      "url": "https://www.techbyte.sk/2026/06/stat-meni-pravidlo-jula-poistovne-preplatia-ezdravie/",
+      "why": "Ties payment to electronic records, which should fill gaps in patients' EZK."
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "NCZI launches e-pregnancy book and e-certificates, mandatory from February 2027",
+      "source": "SITA",
+      "url": "https://sita.sk/vzdravotnictve/nczi-od-augusta-spusta-nove-e-sluzby-povinne-budu-od-februara-2027/",
+      "why": "More of a patient's care, including pregnancy, moves into the national record."
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Parliament advances law making MIRRI the national AI supervisor",
+      "source": "Zoznam (openiazoch)",
+      "url": "https://openiazoch.zoznam.sk/technologie/dohlad-nad-umelou-inteligenciou-preberie-mirri-poslanci-posunuli-zakon-dalej/",
+      "why": "Would give Slovakia an authority to enforce EU AI rules from 2027."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

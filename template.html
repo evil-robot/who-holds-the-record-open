@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{NAME}} | {{DESCRIPTOR}}</title>
+<meta name="msvalidate.01" content="63252A45CBDAEBC4C39456D29224E13A">
+<meta name="description" content="{{DESC}}">
+<link rel="canonical" href="{{SITE}}">
+<link rel="icon" href="assets/supertruth-icon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{NAME}}: {{DESCRIPTOR}}">
+<meta property="og:description" content="{{DESC}}">
+<meta property="og:url" content="{{SITE}}">
+<meta property="og:image" content="{{SITE}}assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{NAME}}: {{DESCRIPTOR}}, scored 0 to 100 by SuperTruth.">
+<meta property="og:site_name" content="SuperTruth">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{{JSONLD}}</script>
+<style>
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(assets/fonts/inter-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(assets/fonts/inter-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:100 800;font-display:swap;src:url(assets/fonts/jetbrains-mono-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:100 800;font-display:swap;src:url(assets/fonts/jetbrains-mono-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+/* SuperTruth tokens (supertruth-website-redesign globals.css v2.2). Ramp + layout: docs/TUFTE_SPEC.md. */
+:root{
+  --st-green-50:#F0FDFA;--st-green-200:#99F6E4;--st-green-600:#0D9488;--st-green-700:#0F766E;--st-gold-600:#A16207;
+  --st-gray-50:#F9FAFB;--st-gray-100:#F3F4F6;--st-gray-200:#E5E7EB;--st-gray-300:#D1D5DB;--st-gray-500:#6B7280;--st-gray-700:#374151;--st-gray-900:#111827;
+  --st-shadow-subtle:0 1px 2px rgba(0,0,0,.04);--st-shadow-medium:0 4px 12px rgba(0,0,0,.06);
+  --st-radius-sm:8px;--st-radius-lg:16px;--st-radius-xl:20px;--st-radius-pill:9999px;
+  --st-font-sans:"Inter",system-ui,-apple-system,sans-serif;--st-font-data:"JetBrains Mono","SF Mono",ui-monospace,monospace;
+  --st-text-h1:clamp(36px,4vw,48px);--st-text-h2:clamp(24px,2.5vw,34px);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--st-gray-900);font:400 15px/1.6 var(--st-font-sans);-webkit-font-smoothing:antialiased}
+a{color:var(--st-green-700);text-underline-offset:2px}
+:focus-visible{outline:2px solid var(--st-green-700);outline-offset:2px;border-radius:4px}
+.num{font-family:var(--st-font-data);font-variant-numeric:tabular-nums;font-weight:500}
+h1,h2,h3{text-wrap:balance;margin:0}
+h1{font-size:var(--st-text-h1);font-weight:700;line-height:1.15;letter-spacing:-.02em}
+h2{font-size:var(--st-text-h2);font-weight:700;line-height:1.25;letter-spacing:-.015em}
+h3{font-size:18px;font-weight:600;line-height:1.35}
+p{text-wrap:pretty}
+.overline{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--st-green-700);margin:0 0 12px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+.wrap-xl{max-width:1152px;margin:0 auto;padding:0 24px}
+.prose{max-width:680px}
+section{padding:64px 0}
+@media(min-width:900px){section{padding:96px 0}}
+.alt{background:var(--st-gray-50)}
+.cap{font-size:13px;color:var(--st-gray-500);margin:12px 0 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:var(--st-radius-pill);font:600 15px var(--st-font-sans);cursor:pointer;border:1px solid var(--st-gray-300);background:#fff;color:var(--st-gray-900)}
+.btn.primary{background:var(--st-green-700);border-color:var(--st-green-700);color:#fff}
+.btn:hover{border-color:var(--st-green-700)}
+/* site bar */
+.bar{border-bottom:1px solid var(--st-gray-100)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.bar img{height:24px;width:auto;display:block}
+.bar nav{display:flex;gap:20px;font-size:14px;font-weight:500}
+
+.bar nav a{color:var(--st-gray-700);text-decoration:none}
+.bar nav a:hover{color:var(--st-green-700)}
+/* hero */
+.hero{padding-top:24px}
+.hero .wrap{display:grid;gap:40px}
+@media(min-width:1000px){.hero .wrap{grid-template-columns:5fr 7fr;align-items:start}}
+.lede{font-size:18px;line-height:1.65;color:var(--st-gray-700);margin:20px 0 0;max-width:680px}
+.dateline{font:400 13px var(--st-font-data);color:var(--st-gray-500);margin:12px 0 0}
+.legend{list-style:none;margin:24px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--st-gray-700)}
+.legend li{display:flex;align-items:center;gap:6px}
+.legend i,.sw{display:inline-block;width:16px;height:10px;border-radius:2px}
+.sw{width:10px;height:10px;margin-right:6px;vertical-align:0}
+.legend i.nr{background:var(--st-gray-100);outline:.5px solid var(--st-gray-300)}
+.legend .num{font-size:12px;color:var(--st-gray-500);font-weight:400}
+.globe-well{position:relative;aspect-ratio:1;width:min(100%,calc(100svh - 112px));max-width:720px;justify-self:center;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-xl);overflow:hidden;background:#fff}
+#globe{position:absolute;inset:0}
+.globe-tools{position:absolute;left:12px;bottom:12px;right:12px;display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;color:var(--st-gray-500);pointer-events:none}
+.float-tooltip-kap{background:#fff!important;color:var(--st-gray-900)!important;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-sm);box-shadow:var(--st-shadow-medium);padding:8px 10px!important;font:14px var(--st-font-sans)!important}
+.tt-n{font-weight:600}.tt-s{font:13px var(--st-font-data);color:var(--st-gray-700)}
+.story-pin{width:8px;height:8px;border-radius:50%;background:var(--st-gold-600);box-shadow:0 0 0 1.5px #fff;transform:translate(-50%,-50%);cursor:pointer;pointer-events:auto}
+@media(max-width:699px){.globe-well{display:none}.globe-well.on{display:block}}
+.show-globe{display:none;margin-top:24px}
+@media(max-width:699px){.show-globe{display:inline-flex}}
+/* tables */
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;position:relative}
+table{border-collapse:collapse}
+.rank{width:100%;margin-top:24px}
+.rank th,.rank td{padding:0 10px;height:28px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--st-gray-100)}
+.rank thead th{font-size:12px;font-weight:600;color:var(--st-gray-500);border-bottom:1px solid var(--st-gray-200);height:36px;vertical-align:bottom;padding-bottom:6px}
+.rank thead button{all:unset;cursor:pointer}
+.rank thead button:hover,.rank thead button:focus-visible{color:var(--st-green-700);text-decoration:underline}
+.rank tbody tr{cursor:pointer}
+.rank tbody tr:hover,.rank tbody tr:focus-visible{background:#fff}
+.rank tbody tr.sel{background:var(--st-green-50)}
+.rank .nm{font-weight:500;font-size:15px}
+.rank .nm a{color:var(--st-gray-900);text-decoration:none}
+.rank .meta{font-size:13px;color:var(--st-gray-500)}
+.rank .num{font-size:14px;text-align:right}
+.rank .rk{font-size:13px;color:var(--st-gray-500);font-weight:400;text-align:left}
+.rank td.trk{padding:0 16px}
+.trk-scale{display:flex;justify-content:space-between;width:320px;font:400 12px var(--st-font-data);color:var(--st-gray-500);position:relative;height:14px}
+.trk-scale span{position:absolute;transform:translateX(-50%)}
+.rank td.trk{line-height:0}
+.rank .sub-h{display:block;font:400 11px var(--st-font-data);color:var(--st-gray-500)}
+.matrix .scale-row th{font:400 11px var(--st-font-data);color:var(--st-gray-500);border:0;padding-top:2px;padding-bottom:4px}
+.matrix .scale-row span{display:flex;justify-content:space-between;width:96px}
+.rank .tier{font:400 11px var(--st-font-sans);color:var(--st-gray-500);margin-left:2px}
+.review{display:inline-block;font:500 11px var(--st-font-sans);color:var(--st-gray-700);border:1px solid var(--st-gray-300);border-radius:var(--st-radius-pill);padding:0 7px;margin-left:6px;white-space:nowrap}
+.eu-inset{margin:24px 0 0;max-width:460px}.eu-inset svg{width:100%;height:auto;display:block}.eu-inset path[data-iso]{cursor:pointer}.eu-inset path[data-iso]:hover,.eu-inset path[data-iso]:focus-visible{stroke:#111827;stroke-width:1.5;outline:none}
+/* stories feed */
+.themes{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.themes button{all:unset;cursor:pointer;font:500 13px var(--st-font-sans);color:var(--st-gray-700);border:1px solid var(--st-gray-200);border-radius:var(--st-radius-pill);padding:6px 12px;min-height:20px}
+.themes button .num{font-size:12px;color:var(--st-gray-500);margin-left:4px}
+.themes button[aria-pressed="true"]{border-color:var(--st-green-700);color:var(--st-green-700);background:var(--st-green-50)}
+.themes button:focus-visible{outline:2px solid var(--st-green-700);outline-offset:2px}
+.feed{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:16px}
+@media(min-width:800px){.feed{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1150px){.feed{grid-template-columns:repeat(3,1fr)}}
+.story{background:#fff;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-lg);padding:16px 18px;display:flex;flex-direction:column;gap:6px}
+.story .m{font:400 12px var(--st-font-data);color:var(--st-gray-500)}
+.story h3{font-size:16px;line-height:1.4}
+.story h3 a{color:var(--st-gray-900);text-decoration:none}
+.story h3 a:hover{text-decoration:underline}
+.story p{margin:0;font-size:14px;color:var(--st-gray-700)}
+.story .foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:auto;padding-top:6px;font-size:13px}
+.story .foot button{all:unset;cursor:pointer;color:var(--st-green-700);font-weight:500}
+.story .foot button:hover,.story .foot button:focus-visible{text-decoration:underline}
+.more{margin-top:20px}
+/* tooltips: hover, focus, tap */
+[data-tip]{text-decoration:underline dotted var(--st-gray-300);text-underline-offset:3px;cursor:help}
+.rank thead button[data-tip],.matrix thead button[data-tip]{text-decoration:underline dotted var(--st-gray-300)}
+#tip{position:fixed;z-index:50;max-width:300px;background:var(--st-gray-900);color:#fff;font:400 13px/1.5 var(--st-font-sans);padding:10px 12px;border-radius:var(--st-radius-sm);box-shadow:var(--st-shadow-medium);pointer-events:none;opacity:0;transition:opacity .12s}
+#tip.on{opacity:1}
+@media (prefers-reduced-motion:reduce){#tip{transition:none}}
+/* Ask the index */
+.ask-fab{position:fixed;right:20px;bottom:20px;z-index:40;display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 22px;border-radius:var(--st-radius-pill);background:var(--st-green-700);color:#fff;font:600 15px var(--st-font-sans);border:0;cursor:pointer;box-shadow:var(--st-shadow-strong,0 8px 24px rgba(0,0,0,.12))}
+.ask-fab:focus-visible{outline:2px solid var(--st-gray-900);outline-offset:3px}
+.ask{position:fixed;right:20px;bottom:20px;z-index:41;width:min(420px,calc(100vw - 24px));height:min(620px,calc(100svh - 40px));background:#fff;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-xl);box-shadow:0 24px 80px rgba(0,0,0,.16);display:flex;flex-direction:column;overflow:hidden}
+.ask[hidden]{display:none}
+.ask-h{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--st-gray-100)}
+.ask-h b{font-size:15px}.ask-h span{font-size:12px;color:var(--st-gray-500);display:block}
+.ask-x{all:unset;cursor:pointer;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;color:var(--st-gray-700)}
+.ask-x:hover,.ask-x:focus-visible{background:var(--st-gray-100)}
+.ask-log{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px}
+.ask-msg{font-size:14px;line-height:1.55;white-space:pre-wrap;max-width:92%}
+.ask-msg.u{align-self:flex-end;background:var(--st-green-50);color:var(--st-gray-900);padding:8px 12px;border-radius:14px 14px 4px 14px}
+.ask-msg.a{align-self:flex-start;color:var(--st-gray-700)}
+.ask-msg.a button.cty{all:unset;cursor:pointer;color:var(--st-green-700);text-decoration:underline;text-underline-offset:2px}
+.ask-sugg{display:flex;flex-direction:column;gap:8px}
+.ask-sugg button{all:unset;cursor:pointer;font-size:14px;color:var(--st-gray-700);border:1px solid var(--st-gray-200);border-radius:12px;padding:8px 12px}
+.ask-sugg button:hover,.ask-sugg button:focus-visible{border-color:var(--st-green-700);color:var(--st-green-700)}
+.ask-f{display:flex;gap:8px;padding:12px;border-top:1px solid var(--st-gray-100)}
+.ask-f input{flex:1;min-height:44px;border:1px solid var(--st-gray-300);border-radius:var(--st-radius-pill);padding:0 16px;font:400 15px var(--st-font-sans)}
+.ask-f input:focus-visible{outline:2px solid var(--st-green-700);outline-offset:1px}
+.ask-f button{min-height:44px;padding:0 18px;border-radius:var(--st-radius-pill);border:0;background:var(--st-green-700);color:#fff;font:600 14px var(--st-font-sans);cursor:pointer}
+.ask-f button:disabled{opacity:.5;cursor:default}
+.ask-note{font-size:11px;color:var(--st-gray-500);padding:0 16px 10px}
+.strain{margin-top:16px;font-size:14px}
+.strain th,.strain td{padding:0 16px 0 0;height:28px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--st-gray-100)}
+.strain thead th{font-size:12px;font-weight:600;color:var(--st-gray-700);vertical-align:bottom;padding-bottom:6px;border-bottom:1px solid var(--st-gray-200);height:auto;white-space:normal;max-width:160px}
+.strain thead th .num{display:block;font-size:12px;font-weight:400;color:var(--st-gray-500)}
+.strain thead button{all:unset;cursor:pointer}
+.strain thead button:hover,.strain thead button:focus-visible{color:var(--st-green-700);text-decoration:underline}
+.strain tbody th{font-weight:500;position:sticky;left:0;background:var(--st-gray-50);padding-right:12px}
+.strain tbody th a{color:var(--st-gray-900);text-decoration:none}
+.strain tbody tr{cursor:pointer}
+.strain .v{font:400 14px var(--st-font-data);color:var(--st-gray-700)}
+.strain .v.f{font-weight:600;color:var(--st-gray-900)}
+.strain .v.f::before,.flagkey::before{content:"";display:inline-block;width:6px;height:6px;background:var(--st-gray-900);margin-right:5px;vertical-align:1px}
+.strain .y,.strain .r{font:400 12px var(--st-font-data);color:var(--st-gray-500);margin-left:6px}
+.unk{font:italic 400 13px var(--st-font-sans);color:var(--st-gray-500)}
+.strain-c{margin-top:32px}
+.strain-c .ctx{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--st-gray-500);margin-left:8px}
+.sk{display:grid;gap:10px 24px;margin:16px 0 0}
+@media(min-width:900px){.sk{grid-template-columns:220px auto 1fr}}
+.sk dt{font-weight:600;font-size:15px}.sk dd{margin:0;font-size:14px;color:var(--st-gray-700)}
+.sk .big2{font:500 20px var(--st-font-data);color:var(--st-gray-900)}
+.strain-c blockquote{margin:8px 0;padding-left:12px;border-left:2px solid var(--st-gray-200);color:var(--st-gray-700)}
+.pill{display:inline-flex;align-items:center;gap:6px;margin-top:12px;background:#fff;padding:6px 12px;min-height:36px;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-pill);font-size:13px;color:var(--st-gray-700);cursor:pointer}
+.spot{background:#fff;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-lg);padding:20px 24px;margin:24px 0;max-width:820px}
+.spot ol{margin:8px 0 0;padding-left:20px;display:grid;gap:8px;font-size:15px;color:var(--st-gray-700)}
+.spot b{color:var(--st-gray-900)}
+.spot .sig{font-size:12px;font-weight:600;color:var(--st-gray-700);border:1px solid var(--st-gray-300);border-radius:var(--st-radius-pill);padding:0 7px;margin-left:4px;white-space:nowrap}
+.rank td.lr{font-size:12px;font-weight:400;color:var(--st-gray-500);white-space:nowrap}
+.dl{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.cite{font:400 13px var(--st-font-data);background:var(--st-gray-50);border:1px solid var(--st-gray-200);border-radius:var(--st-radius-sm);padding:10px 12px;white-space:pre-wrap;color:var(--st-gray-700)}
+.lc{color:var(--st-gray-500);font-family:var(--st-font-data);margin-left:2px}
+svg .tl{stroke:var(--st-gray-200);stroke-width:1}
+svg .tk{stroke:var(--st-gray-200);stroke-width:1}
+svg .md{stroke:var(--st-gray-500);stroke-width:1}
+.matrix{margin-top:24px}
+.matrix th,.matrix td{padding:0 6px;height:24px;white-space:nowrap}
+.matrix thead th{font-size:13px;font-weight:600;text-align:left;vertical-align:bottom;padding-bottom:6px;border-bottom:1px solid var(--st-gray-200)}
+.matrix thead th .num{display:block;font-size:12px;color:var(--st-gray-500);font-weight:400}
+.matrix thead button{all:unset;cursor:pointer}
+.matrix thead button:hover,.matrix thead button:focus-visible{color:var(--st-green-700);text-decoration:underline}
+.matrix tbody th{font-size:14px;font-weight:500;text-align:left;position:sticky;left:0;background:#fff;padding-right:12px}
+.matrix tbody th a{color:var(--st-gray-900);text-decoration:none}
+.matrix td{line-height:0}
+/* country panel */
+#country[hidden]{display:none}
+.c-head{display:grid;gap:8px 32px;align-items:end}
+@media(min-width:900px){.c-head{grid-template-columns:1fr auto}}
+.big{font:500 44px/1 var(--st-font-data)}
+.big small{font:400 14px var(--st-font-sans);color:var(--st-gray-500)}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--st-gray-700);margin-top:10px}
+.c-headline{font-size:18px;line-height:1.65;color:var(--st-gray-700);max-width:760px;margin:20px 0 0}
+.lowwhy{font-size:14px;color:var(--st-gray-700);margin:8px 0 0}
+.cats{margin-top:32px;display:grid;gap:4px}
+.cat{display:grid;gap:4px 24px;padding:16px 0;border-top:1px solid var(--st-gray-200)}
+@media(min-width:900px){.cat{grid-template-columns:300px 1fr}}
+.cat .hd{display:grid;grid-template-columns:1fr auto auto;align-items:baseline;gap:10px}
+.cat .hd .num{font-size:20px}
+.cat .wt-l{font:400 12px var(--st-font-data);color:var(--st-gray-500)}
+.cat .strip-cap{font:400 12px var(--st-font-data);color:var(--st-gray-500)}
+.cat p{margin:0 0 6px;color:var(--st-gray-700)}
+details summary{cursor:pointer;color:var(--st-green-700);font-size:14px;font-weight:500}
+details .deep p{font-size:14px}
+.srcs{list-style:none;padding:0;margin:8px 0 0;font-size:13px}
+.srcs li{margin:3px 0}.srcs .num{color:var(--st-gray-500);font-weight:400;font-size:12px;margin-left:6px}
+.three{display:grid;gap:32px;margin-top:40px}
+@media(min-width:1000px){.three{grid-template-columns:repeat(3,1fr)}}
+.three h3{margin-bottom:8px}
+.rows{list-style:none;margin:0;padding:0}
+.rows li{padding:10px 0;border-top:1px solid var(--st-gray-200);font-size:14px}
+.rows .m{font:400 12px var(--st-font-data);color:var(--st-gray-500);display:block}
+.rows .w{color:var(--st-gray-700);display:block;font-size:13px}
+.chip{display:inline-block;font-size:12px;background:var(--st-gray-100);color:var(--st-gray-700);border-radius:var(--st-radius-pill);padding:1px 8px;margin:4px 4px 0 0}
+.journey{margin-top:32px}
+.track{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:12px}
+.stop{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;font-size:13px}
+.stop em{font:400 12px var(--st-font-data);font-style:normal;color:var(--st-gray-500)}
+.jkey{display:flex;flex-wrap:wrap;gap:16px;margin-top:10px;font-size:12px;color:var(--st-gray-500)}
+.jkey span{display:flex;align-items:center;gap:6px}
+@media(max-width:600px){.track{grid-template-columns:repeat(4,minmax(0,1fr));row-gap:14px}}
+/* method */
+.method{display:grid;gap:24px;margin-top:32px}
+@media(min-width:900px){.method{grid-template-columns:1fr 1fr}}
+.card{background:#fff;border:1px solid var(--st-gray-100);border-radius:var(--st-radius-lg);box-shadow:var(--st-shadow-subtle);padding:24px}
+.card h3{margin-bottom:12px}
+.card p,.card li{color:var(--st-gray-700);font-size:15px}
+.wt{width:100%;font-size:14px}
+.wt td,.wt th{padding:6px 8px 6px 0;border-bottom:1px solid var(--st-gray-100);text-align:left;vertical-align:top}
+.wt th{font-size:12px;color:var(--st-gray-500);font-weight:600}
+.wt .num{text-align:right}
+.plain{list-style:none;padding:0;margin:0}.plain li{margin:6px 0}
+.note{font-size:13px;color:var(--st-gray-700);margin:12px 0 0;max-width:760px}
+footer{border-top:1px solid var(--st-gray-100);padding:32px 0;font-size:13px;color:var(--st-gray-500)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between}
+
+/* ux-design review fixes, 1 Oct */
+.bar{position:sticky;top:0;z-index:10;background:#fff}
+.bar nav a{color:var(--st-gray-500)}
+.bar nav a:hover{color:var(--st-gray-900)}
+section[id]{scroll-margin-top:64px}
+@media(max-width:599px){.bar .wrap{height:auto;min-height:64px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px;gap:4px 16px}.bar nav{width:100%;gap:20px}.bar nav a{display:inline-flex;align-items:center;min-height:44px}}
+.rank{width:auto}
+.rank td.trk{padding:0 10px}
+.rank td.trk svg,.matrix svg{display:block}
+.rank tbody tr:hover{background:#fff;box-shadow:inset 3px 0 0 var(--st-gray-300)}
+.rank tbody tr.sel{background:#fff;box-shadow:inset 3px 0 0 var(--st-green-700)}
+.rank thead button:focus-visible,.matrix thead button:focus-visible{outline:2px solid var(--st-green-700);outline-offset:2px;border-radius:4px}
+.rank thead th.num,.wt th.num{font-family:var(--st-font-sans);font-size:12px;font-weight:600}
+@media(max-width:699px){.rank .meta,.rank .meta-h,.rank .dt,.rank .lr,.rank thead th:nth-child(4),.rank thead th:nth-child(7){display:none}.rank th.nm{white-space:normal}.rank td.trk svg{width:96px}.trk-scale{width:96px}.rank th,.rank td{padding:0 6px}}
+#country[hidden]+#method{background:var(--st-gray-50)}
+.btn{padding:0 32px;border-color:var(--st-green-200);color:var(--st-green-700)}
+.btn:hover{background:var(--st-green-50);border-color:var(--st-green-200)}
+.deck{margin:20px 0 0;max-width:680px;font-size:22px;line-height:1.45;font-weight:600;color:var(--st-gray-900);text-wrap:balance}
+.deck+.lede{margin-top:12px}
+.legend{gap:12px 20px}
+.legend li{display:grid;grid-template-columns:16px auto;column-gap:6px;align-items:center;line-height:1.35}
+.legend li .num{grid-column:2}
+@media(min-width:480px){.wt td:nth-child(-n+2){white-space:nowrap}}
+html,body{overflow-x:clip}
+.cat h3{font-size:15px}
+.globe-tools label{min-height:44px;padding:0 14px}
+#storyToggle{accent-color:var(--st-green-700);margin:0}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+footer{border-top-color:var(--st-gray-200)}
+footer a{color:var(--st-gray-500);text-decoration:none}
+footer a:hover{color:var(--st-gray-900)}
+footer .brandline{display:flex;align-items:center;gap:10px}
+.disc{flex-basis:100%;margin:0;font-size:12px;color:var(--st-gray-500)}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+<link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt"><link rel="alternate" type="text/plain" href="llms-full.txt" title="llms-full.txt">
+<script src="assets/analytics.js" defer></script>
+</head>
+<body>
+<header class="bar"><div class="wrap">
+  <a href="https://supertruth.ai" aria-label="SuperTruth home"><img src="assets/supertruth-logo-dark.svg" alt="SuperTruth" width="131" height="24"></a>
+  <nav aria-label="Page"><a href="#ranking">Ranking</a><a href="#stories">Stories</a><a href="#categories">Categories</a><a href="#strain">Strain</a><a href="#method">Method</a><a href="https://supertruth.ai/press">Press</a><a href="#" id="askNav">Ask</a></nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <div>
+    <p class="overline">Health record rights</p>
+    <h1>{{NAME}}</h1>
+    <p class="deck">{{LEDE_LEAD}}</p>
+    <p class="lede">{{LEDE}}</p>
+    <p class="dateline">{{DATELINE}}</p>
+    {{LEGEND}}
+    {{EU_INSET}}
+    <button type="button" class="btn show-globe" id="showGlobe" aria-controls="globeWell" aria-expanded="false">Show the globe</button>
+  </div>
+  <div class="globe-well" id="globeWell">
+    <div id="globe" role="img" aria-label="Globe coloured by overall score. The same scores are in the ranked table below."></div>
+    <div class="globe-tools"><span>Drag to turn. Click a country.</span></div>
+  </div>
+</div></section>
+
+<section class="alt" id="ranking"><div class="wrap-xl">
+  <p class="overline">Ranking</p>
+  <h2>{{RANK_HEAD}}</h2>
+  <div class="scroll">
+  <table class="rank" id="rankTable">
+    <thead><tr>
+      <th scope="col"><span class="tipped" tabindex="0" data-tip="Tied countries share a rank, shown with =. Scores move in steps of about 5 points, so treat gaps under 5 as ties.">Rank</span></th>
+      <th scope="col"><button type="button" data-sort="name">Country</button></th>
+      <th scope="col" class="num"><button type="button" data-sort="overall" data-tip="Overall score, 0 to 100: the weighted average of eight rights. Access to the record and control over it count most, 20% each.">Score</button></th>
+      <th scope="col" class="num"><span class="tipped" tabindex="0" data-tip="The range this country's rank falls in 90% of the time when the weights shift and every score moves by up to 5 points. Read ranks as ranges: a 4-place gap inside these ranges is not a real difference.">Likely rank</span></th>
+      <th scope="col" class="meta-h"><button type="button" data-sort="region" data-tip="Who holds the keys to the record by default. Shared: the person has real controls inside a state or provider system. Institutional: providers and insurers decide. State: the government decides. No country is Individual, where the person holds the keys.">Region · keys</button></th>
+      <th scope="col" class="trk-h" style="padding:0 16px" tabindex="0" data-tip="Each dot is a country's overall score on a 0 to 100 line. The faint lines mark the band edges at 25, 45, 65 and 85. A hollow dot means low confidence: the public evidence is thin."><div class="trk-scale" aria-hidden="true"><span style="left:0">0</span><span style="left:25%">25</span><span style="left:45%">45</span><span style="left:65%">65</span><span style="left:85%">85</span><span style="left:100%">100</span></div></th>
+      <th scope="col" class="num"><button type="button" data-sort="dti" data-tip="How strong the evidence behind the score is, graded with SuperTruth's Data Trust Index: primary sources, open availability, recency, completeness, corroboration, verification, breadth and stability. Platinum 90+, Gold 80+, Silver 70+, Bronze 55+. It never changes the score. Pending means the links and sources are still being checked.">Evidence</button><span class="sub-h">DTI grade</span></th>
+      <th scope="col" class="num"><button type="button" data-sort="stories" data-tip="Published accounts of real problems with health records, from regulators, courts and the news, over the last two years. They do not affect the score, and they are not a sample.">Stories</button><span class="sub-h">{{STORY_TOTAL}} since {{STORY_SINCE}}</span></th>
+    </tr></thead>
+    <tbody>
+{{RANK_ROWS}}
+    </tbody>
+  </table>
+  </div>
+  <p class="cap">{{SOURCE_LINE}}</p>
+  <p class="note">* Low confidence: {{LOWCONF}}. Scores move in steps of about 5 points, so treat differences under 5 as ties. Stories are published accounts we found. Their counts show where people have spoken publicly, not how common problems are. Stories do not affect any score.</p>
+</div></section>
+
+<section id="stories"><div class="wrap-xl">
+  <p class="overline">What people report</p>
+  <h2>{{STORIES_HEAD}}</h2>
+  <p class="cap">Our own short summaries of published reports from regulators, courts and the news, {{STORY_WINDOW}}. Each links to the original. They do not affect any score, and they are not a sample: counts show what is published and findable, not how common problems are.</p>
+  <div class="themes" role="group" aria-label="Filter stories by theme">{{THEME_BUTTONS}}</div>
+  <ul class="feed" id="feed"></ul>
+  <p class="more"><button type="button" class="btn" id="feedMore">Show more stories</button></p>
+</div></section>
+
+<section id="categories"><div class="wrap-xl">
+  <p class="overline">Eight rights</p>
+  <h2>{{MATRIX_HEAD}}</h2>
+  <p class="cap">Each dot is one country's score, 0 to 100, on the same scale in every column. The grey line is the median of all {{N}}. Click a column name to sort by it.</p>
+  <div class="scroll">
+  <table class="matrix" id="matrix">
+    <thead><tr><th scope="col">Country</th>{{MATRIX_HEADERS}}</tr><tr class="scale-row" aria-hidden="true"><th></th>{{MATRIX_SCALE}}</tr></thead>
+    <tbody>
+{{MATRIX_ROWS}}
+    </tbody>
+  </table>
+  </div>
+  <p class="cap">{{SOURCE_LINE_MATRIX}}</p>
+</div></section>
+
+<section class="alt" id="strain"><div class="wrap-xl">
+  <p class="overline">Context, not scored</p>
+  <h2>{{STRAIN_HEAD}}</h2>
+  <p class="lede">Some health systems are short of doctors and nurses and slow to treat. People who can pay go private, and if private clinics keep their own records, the person's record splits in two. This table shows four public measures of that chain for each country. It changes no score and it is not a ranking. {{STRAIN_THREE}} {{STRAIN_COVER}}</p>
+  {{STRAIN_SPOT}}
+  <p class="cap"><span class="flagkey"></span>{{STRAIN_KEY}}</p>
+  <label class="pill"><input type="checkbox" id="oecdOnly"> Show only the {{OECD_N}} OECD members</label>
+  <div class="scroll"><table class="strain" id="strainTable">
+    <thead><tr>{{STRAIN_HEADERS}}</tr></thead>
+    <tbody>
+{{STRAIN_ROWS}}
+    </tbody>
+  </table></div>
+  <ol class="note">{{STRAIN_NOTES}}</ol>
+  <p class="cap">{{STRAIN_SOURCE}}</p>
+</div></section>
+
+<section class="alt" id="country" hidden aria-live="polite"><div class="wrap-xl" id="countryBody"></div></section>
+
+<section id="method"><div class="wrap-xl">
+  <p class="overline">Method</p>
+  <h2>How we scored {{N}} countries</h2>
+  <div class="method">
+    <div class="card"><h3>Eight categories, one score</h3><p>Each country gets 0 to 100 in eight categories. The overall score is the weighted average. Access and control carry the most weight.</p>{{WEIGHTS}}</div>
+    <div class="card"><h3>Evidence grade (DTI)</h3><p>Every score also carries a grade for the evidence behind it, using the eight dimensions of SuperTruth's Data Trust Index&#8482;: provenance (primary sources count most), open availability, recency, completeness, corroboration, verification, breadth of sources, and stability (whether our audit found the same legal situation scored differently elsewhere). DTI was built to grade health records; here it grades our evidence. It never changes a score. Tiers: Platinum 90 and up, Gold 80 to 89, Silver 70 to 79, Bronze 55 to 69. Our own rule on top of DTI: evidence with no primary source (law, government, regulator) is never labelled above Silver, and neither is a country where fewer than 4 of its 8 categories cite one.</p></div>
+    <div class="card"><h3>Terms used</h3><ul class="plain"><li><b>OECD</b>: The Organisation for Economic Co-operation and Development: 38 mostly high-income countries that publish comparable health statistics.</li><li><b>WHO</b>: The World Health Organization, the United Nations agency for health. It publishes country data on health workers and spending.</li><li><b>EHDS</b>: The European Health Data Space: an EU law (Regulation 2025/327) that gives people in the EU access to their health data across borders. It applies from March 2027, with patient summaries and e-prescriptions from March 2029.</li><li><b>GDPR</b>: The General Data Protection Regulation: the EU law on personal data. Health data is a special category, and people have a right to a copy of their data.</li><li><b>HIPAA</b>: The Health Insurance Portability and Accountability Act: the US law that gives patients a right to copies of their records and limits how providers and insurers use them.</li><li><b>DTI</b>: Data Trust Index: SuperTruth&#39;s framework for grading how trustworthy data is. Here it grades the evidence behind each score; it never changes a score.</li></ul></div>
+    <div class="card"><h3>What the bands mean</h3>{{BANDS_TABLE}}</div>
+    <div class="card"><h3>Who holds the keys</h3>{{MODELS}}</div>
+    <div class="card"><h3>Known limits</h3><ul class="plain">
+      <li>Scores come from separate research passes against one rubric. An audit found that the passes sometimes scored the same legal situation differently in different regions. Those scores are under review.</li>
+      <li>{{LOWCONF_N}} countries are low confidence: {{LOWCONF}}.</li>
+      <li>Some laws are cited from secondary summaries rather than official text.</li>
+      <li>Differences under 5 points are within the precision of the rating.</li>
+      <li>{{UNRATED}} shapes on the map are not rated in this version.</li>
+      <li>This is a research tool, not legal advice.</li></ul></div>
+    <div class="card" style="grid-column:1/-1" id="data"><h3>Download the data, and cite it</h3><p>Every score, category, source and law is open under CC BY 4.0. Use it, with credit.</p>
+      <div class="dl"><a class="btn" href="data/who-holds-the-record-scores.csv" download>Scores (CSV)</a><a class="btn" href="data/who-holds-the-record-sources.csv" download>Sources (CSV)</a><a class="btn" href="data/who-holds-the-record.json" download>Everything (JSON)</a><a class="btn" href="press-kit/">Press kit</a></div>
+      <p style="margin-top:14px"><b>Cite this</b></p>
+      <div class="cite">Snyder, J. A., Hill, B., &amp; Raney, D. ({{YEAR}}). Who Holds the Record: an index of a person's right to see, control and share their own health record (version {{VERSION}}). SuperTruth Inc. {{SITE}} (DOI assigned on publication)</div></div>
+    <div class="card" style="grid-column:1/-1"><h3>About the stories</h3>
+      <p><b>Everything in this index comes from public information: laws, government and regulator pages, court decisions and published news reports. We link to every source.</b></p>
+      <p>These are published accounts from people and public bodies about problems with health records, pinned to the country where they happened. The summaries are ours; follow each link to read the original. We do not name the people, we include no one under 18, and we name a hospital or company only where a regulator, court or the organisation itself has stated what happened. Stories do not affect any country's score.</p>
+      <p>We searched news, regulator and ombudsman decisions, court rulings, parliamentary records and patient groups, in English and local languages. We did not use social media or forums. These are the accounts we could find and publish under these rules. They are not a sample.</p>
+      <p>SuperTruth sells health data verification products. We built this index and chose these stories ourselves; no one paid to be included or left out.</p>
+      <p>If you are in a story and want it removed, write to {{CONTACT}} and we will take it down within 48 hours. Anyone else can ask for a correction or removal at the same address; we reply within 3 business days and decide within 7.</p></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span class="brandline"><img src="assets/supertruth-icon.svg" alt="" width="28" height="28"><span>{{NAME}} · version 1.0 · data as of <span class="num">{{ASOF}}</span> · by SuperTruth. Text and scores CC BY 4.0.</span></span>
+  <span><a href="https://supertruth.ai/privacy-policy">Privacy</a> · <a href="https://supertruth.ai/terms-of-use">Terms</a> · <a href="https://supertruth.ai/press">Press</a> · <a href="https://supertruth.ai">supertruth.ai</a></span>
+  <p class="disc">© 2026 SuperTruth Inc. Everything in this index comes from public information: laws, government and regulator pages, court decisions and published news reports. We link to every source. Content on this page is for informational purposes only and does not constitute medical, clinical or legal advice. We count visits with Google Analytics only if you say yes; the Ask the index box sends your question to Anthropic to answer it, and we do not store it.</p>
+</div></footer>
+
+
+<button type="button" class="ask-fab" id="askOpen" aria-controls="ask" aria-expanded="false">Ask the index</button>
+<section class="ask" id="ask" hidden aria-label="Ask the index" role="dialog">
+  <div class="ask-h"><div><b>Ask the index</b><span>Answers come only from this index and its public sources.</span></div><button type="button" class="ask-x" id="askClose" aria-label="Close">&#x2715;</button></div>
+  <div class="ask-log" id="askLog" aria-live="polite">
+    <div class="ask-sugg" id="askSugg">
+      <button type="button">Why does Finland rank first?</button>
+      <button type="button">How does the United States compare with Europe?</button>
+      <button type="button">Where can patients see who opened their record?</button>
+      <button type="button">Which scores are under review, and why?</button>
+    </div>
+  </div>
+  <form class="ask-f" id="askForm"><input id="askIn" maxlength="1000" placeholder="Ask about any country or right" aria-label="Your question" autocomplete="off"><button type="submit" id="askSend">Ask</button></form>
+  <p class="ask-note">An agent built on this index. It can be wrong; check the country panel and sources. Not legal or medical advice.</p>
+</section>
+<script>
+const SPOTS=/*__SPOTS__*/null;
+const GEO=/*__GEO__*/null, DATA=/*__DATA__*/null, CATS=/*__CATS__*/null, BANDS=/*__BANDS__*/null, DIST=/*__DIST__*/null;
+const bandOf=s=>BANDS.find(b=>s>=b.lo&&s<=b.hi)||BANDS[0];
+const N=Object.keys(DATA).length;
+const CDEF={"access": "Can a person see and get a copy of their whole record (notes, labs, imaging, history), and does it work in practice: a portal, how many years, cost, export?", "control": "Can the person decide who sees and uses their record, change their mind, and see who looked at it? Is the default the person's choice or the institution's?", "privacy": "How strong health-data law is, whether the regulator is independent and enforces it, and the record on breaches and state access.", "journey": "Whether the record follows the person across family doctor, hospital, lab, pharmacy, insurer, public health and research.", "commercial": "Limits on selling health data or using it for marketing, on data brokers, and on health apps that sit outside health law. Higher means more protection.", "clinical": "Whether the treating clinician can see the patient's full record across providers when needed, under consent and emergency rules.", "research": "Whether research use of health data respects the person's choice (opt-in, opt-out or a permit with transparency) while still letting research happen.", "ai": "Rules for AI used in care: device regulation, change control, transparency, data provenance, human oversight and generative AI."};
+const MODELS={Individual:'the person holds the keys',Shared:'the person has real controls inside a state or provider system',Institutional:'providers and insurers decide',State:'the government decides, with limited individual say'};
+const STAGES=[['primaryCare','Primary care'],['hospital','Hospital'],['labs','Labs'],['pharmacy','Pharmacy'],['claims','Claims'],['publicHealth','Public health'],['research','Research']];
+const STATUS_ORDER={finding:0,admitted:1,alleged:2,self_reported:3};
+const LANG={en:'English',de:'German',fr:'French',es:'Spanish',it:'Italian',nl:'Dutch',sv:'Swedish',no:'Norwegian',nb:'Norwegian',da:'Danish',fi:'Finnish',et:'Estonian',pl:'Polish',pt:'Portuguese',ja:'Japanese',ko:'Korean',zh:'Chinese',th:'Thai',vi:'Vietnamese',id:'Indonesian',he:'Hebrew',ar:'Arabic',tl:'Filipino'};
+const THEMES={access_refused:'Access refused',access_delay_or_cost:'Delay or cost',record_wrong:'Record wrong',breach:'Breach',sold_or_shared:'Sold or shared',lost_between_providers:'Lost between providers',other:'Other'};
+
+function h(tag,attrs={},...kids){const e=document.createElement(tag);for(const[k,v]of Object.entries(attrs||{})){if(v==null||v===false)continue;if(k==='style')e.style.cssText=v;else if(k.startsWith('on'))e.addEventListener(k.slice(2),v);else if(k==='text')e.textContent=v;else if(k==='html')e.innerHTML=v;else e.setAttribute(k,v)}for(const c of kids.flat(Infinity)){if(c==null||c===false)continue;e.append(c.nodeType?c:document.createTextNode(c))}return e}
+const ext=(url,text)=>url?h('a',{href:url,target:'_blank',rel:'noopener'},text):h('span',{},text);
+const svgNS='http://www.w3.org/2000/svg';
+function s(tag,attrs){const e=document.createElementNS(svgNS,tag);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);return e}
+
+// distribution strip: one rug tick per country, q1-q3 bar, median tick, this country's dot (same 0-100 scale in all rows)
+function strip(k,v){const W=240,H=22,x=n=>(W*n/100).toFixed(1),D=DIST[k];const g=s('svg',{width:W,height:H,viewBox:`0 0 ${W} ${H}`,'aria-hidden':'true'});
+  D.all.forEach(n=>g.append(s('line',{x1:x(n),x2:x(n),y1:6,y2:16,stroke:'#D1D5DB','stroke-width':1})));
+  g.append(s('rect',{x:x(D.q1),y:9,width:(W*(D.q3-D.q1)/100).toFixed(1),height:4,fill:'#E5E7EB'}));
+  g.append(s('line',{x1:x(D.med),x2:x(D.med),y1:3,y2:19,stroke:'#6B7280','stroke-width':2}));
+  g.append(s('circle',{cx:x(v),cy:11,r:4,fill:'#111827'}));return g}
+function marker(state){const g=s('svg',{width:16,height:16,viewBox:'0 0 16 16','aria-hidden':'true'}),c='#0F766E';
+  if(state==='connected')g.append(s('circle',{cx:8,cy:8,r:6.5,fill:c}));
+  else if(state==='partial'){g.append(s('circle',{cx:8,cy:8,r:6,fill:'#fff',stroke:c,'stroke-width':1.5}));g.append(s('path',{d:'M8 2 A6 6 0 0 0 8 14 Z',fill:c}))}
+  else if(state==='siloed')g.append(s('circle',{cx:8,cy:8,r:6,fill:'#fff',stroke:c,'stroke-width':1.5}));
+  else g.append(s('circle',{cx:8,cy:8,r:6,fill:'#fff',stroke:'#9CA3AF','stroke-width':1.5,'stroke-dasharray':'2 2'}));return g}
+
+const PANEL=document.getElementById('country'),BODY=document.getElementById('countryBody');
+function renderCountry(d){
+  const b=bandOf(d.overall);
+  const stories=[...d.stories].sort((a,b)=>STATUS_ORDER[a.status]-STATUS_ORDER[b.status]||String(b.date).localeCompare(String(a.date))).slice(0,5);
+  BODY.replaceChildren(...[
+    h('p',{class:'overline'},'Country'),
+    h('div',{class:'c-head'},
+      h('div',{},h('h2',{},d.name),
+        h('div',{class:'facts'},
+          h('span',{},h('i',{class:'sw',style:`background:${b.c}`}),b.n),
+          h('span',{},'Rank ',h('span',{class:'num'},`${d.rankLabel} of ${N}`)),
+          h('span',{'data-tip':'Who holds the keys to the record by default: the person, the person within a shared system, providers and insurers, or the state.',tabindex:'0'},`Keys: ${d.controlModel}, ${MODELS[d.controlModel]}`),
+          h('span',{'data-tip':'How much primary evidence (laws, government and regulator pages) backs the scores. High: 7 or 8 of the 8 categories. Medium: 5 or 6. Low: 4 or fewer.',tabindex:'0'},`Confidence: ${d.confidence}`),
+          d.dti&&!d.dti.provisional?h('span',{'data-tip':'How strong the evidence behind these scores is, graded with SuperTruth\'s Data Trust Index. It never changes a score.',tabindex:'0'},'Evidence: DTI ',h('span',{class:'num'},String(d.dti.dti)),` · ${d.dti.tier}`):h('span',{},'Evidence grade: pending link and source checks'),
+          h('span',{},'As of ',h('span',{class:'num'},d.asOf)))),
+      h('div',{class:'big'},String(d.overall),h('small',{},' /100'))),
+    d.confidence==='low'?h('p',{class:'lowwhy'},'Low confidence: the public evidence for this country is thin, so treat its scores as provisional.'):null,
+    h('p',{class:'c-headline'},d.headline),
+    h('div',{class:'cats'},CATS.map(c=>{const x=d.categories[c.k],cb=bandOf(x.score);return h('div',{class:'cat'},
+      h('div',{},h('div',{class:'hd'},h('h3',{},h('span',{'data-tip':CDEF[c.k],tabindex:'0'},c.n)),h('span',{class:'num'},String(x.score)),h('i',{class:'sw',style:`background:${cb.c}`,title:cb.n})),
+        h('div',{class:'wt-l'},`weight ${c.w}% · ${cb.n}`),h('div',{'data-tip':`Grey ticks: every country's ${c.s.toLowerCase()} score. Light bar: the middle half of countries. Dark line: the median (${DIST[c.k].med}). Black dot: ${d.name} (${x.score}).`,tabindex:'0',style:'display:inline-block;text-decoration:none'},strip(c.k,x.score)),
+        h('div',{class:'strip-cap'},`median ${DIST[c.k].med} · rank ${d.catRank[c.k]} of ${N}`),
+        d.dti&&!d.dti.provisional?h('div',{class:'strip-cap'},`evidence DTI ${d.dti.cells[c.k].dti} · ${d.dti.cells[c.k].tier}`,d.dti.cells[c.k].underReview?h('span',{class:'review','data-tip':'Our own audit found countries with the same legal situation scored differently. This score is being reviewed and may change.',tabindex:'0'},'Under review'):null):null),
+      h('div',{},h('p',{},x.summary),
+        h('details',{},h('summary',{},'In-depth review and sources'),h('div',{class:'deep'},(x.detail||[]).map(p=>h('p',{},p)),
+          h('ul',{class:'srcs'},(x.sources||[]).map(s=>h('li',{},ext(s.url,s.title),h('span',{class:'num'},s.date&&!/n\.?d|not verified/i.test(s.date)?s.date:'undated'))))))))})),
+    h('div',{class:'journey'},h('h3',{},'Care journey'),
+      h('div',{class:'track'},STAGES.map(([k,n])=>{const st=(d.journey||{})[k]||'unknown';return h('div',{class:'stop'},marker(st),h('span',{},n),h('em',{},st))})),
+      d.journeyNote?h('p',{class:'note'},d.journeyNote):null,
+      h('div',{class:'jkey'},[['connected','The record flows here automatically for most people.'],['partial','Some providers or some people are connected; others are not.'],['siloed','The record stays inside each provider.'],['unknown','We could not verify this stage.']].map(([k,tip])=>h('span',{'data-tip':tip,tabindex:'0'},marker(k),k)))),
+    d.strain?strainBlock(d):null,
+    h('div',{class:'three'},
+      h('div',{},h('h3',{},'Key laws'),h('ul',{class:'rows'},(d.laws||[]).map(l=>h('li',{},ext(l.url,l.name),h('span',{class:'m'},`${l.level||''} · ${l.year||''}`),h('span',{class:'w'},l.what||''))))),
+      h('div',{},h('h3',{},'In the news'),(d.news&&d.news.length)?h('ul',{class:'rows'},d.news.map(n=>h('li',{},h('span',{class:'m'},`${n.date||''} · ${n.source||''}`),ext(n.url,n.headline),h('span',{class:'w'},n.why||'')))):h('p',{class:'note'},'No qualifying news items found in the last 12 months.')),
+      h('div',{},h('h3',{},'Stories from people ',h('span',{class:'num'},`· ${d.stories.length}`)),
+        stories.length?h('div',{},d.stories.length>stories.length?h('p',{class:'note'},`Showing ${stories.length} of ${d.stories.length}, decided findings first.`):null,h('ul',{class:'rows'},stories.map(st=>h('li',{},h('span',{class:'m'},`${st.date} · ${st.source}`),ext(st.url,st.headline),h('span',{class:'w'},st.paraphrase),
+          st.lang!=='en'?h('span',{class:'m'},`From a ${LANG[st.lang]||st.lang} source; summary ours.`):null,h('span',{class:'chip'},THEMES[st.theme]||st.theme))))):h('p',{class:'note'},`No published stories yet for ${d.name}.`))),
+    h('p',{style:'margin-top:32px;display:flex;gap:12px;flex-wrap:wrap'},h('a',{href:'#globeWell',class:'btn',onclick:e=>{e.preventDefault();const g=document.getElementById('globeWell');(g.offsetParent?g:document.body).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'})}},'Back to the globe'),h('a',{href:'#ranking',class:'btn'},'Back to the ranking'),h('a',{href:`brief/${d.iso3}/`,class:'btn primary',target:'_blank',rel:'noopener'},'One-page brief'))].filter(Boolean));
+  PANEL.hidden=false;
+}
+
+// table sorting
+function sorter(table,getKey,desc,th){if(th&&th.getAttribute('aria-sort')===(desc?'descending':'ascending'))desc=!desc;if(th){table.querySelectorAll('thead th').forEach(x=>x.removeAttribute('aria-sort'));th.setAttribute('aria-sort',desc?'descending':'ascending')}const tb=table.tBodies[0];[...tb.rows].sort((a,b)=>{const x=getKey(a),y=getKey(b);return(typeof x==='number'?(desc?y-x:x-y):(desc?-1:1)*String(x).localeCompare(String(y)))}).forEach(r=>tb.append(r))}
+const RT=document.getElementById('rankTable');
+RT.querySelectorAll('thead button[data-sort]').forEach(btn=>btn.addEventListener('click',()=>{const k=btn.dataset.sort;{const th=btn.closest('th'),num=k==='overall'||k==='stories'||k==='dti';sorter(RT,r=>num?+r.dataset[k]:r.dataset[k],num,th)}}));
+RT.tBodies[0].addEventListener('click',e=>{if(e.target.closest('a')&&(e.metaKey||e.ctrlKey||e.shiftKey))return;const tr=e.target.closest('tr');if(tr){e.preventDefault();select(tr.dataset.iso,true)}});
+const MT=document.getElementById('matrix');
+MT.querySelectorAll('thead th[data-k] button').forEach(btn=>btn.addEventListener('click',()=>{const k=btn.parentElement.dataset.k,i=CATS.findIndex(c=>c.k===k)+1;sorter(MT,r=>+r.cells[i].dataset.v,true,btn.closest('th'))}));
+MT.tBodies[0].addEventListener('click',e=>{const tr=e.target.closest('tr');if(tr){e.preventDefault();select(tr.dataset.iso,true)}});
+
+
+
+// tooltips: one floating box for every [data-tip]; hover, keyboard focus, and tap on touch screens
+const TIPBOX=document.createElement('div');TIPBOX.id='tip';TIPBOX.setAttribute('role','tooltip');document.body.append(TIPBOX);
+let tipFor=null;
+function showTip(el){const txt=el.getAttribute('data-tip');if(!txt)return;tipFor=el;TIPBOX.textContent=txt;TIPBOX.classList.add('on');el.setAttribute('aria-describedby','tip');
+  const r=el.getBoundingClientRect(),w=TIPBOX.offsetWidth,hgt=TIPBOX.offsetHeight;let x=Math.min(Math.max(8,r.left+r.width/2-w/2),innerWidth-w-8);let y=r.bottom+8;if(y+hgt>innerHeight-8)y=r.top-hgt-8;TIPBOX.style.left=x+'px';TIPBOX.style.top=y+'px'}
+function hideTip(){if(tipFor)tipFor.removeAttribute('aria-describedby');tipFor=null;TIPBOX.classList.remove('on')}
+document.addEventListener('mouseover',e=>{const el=e.target.closest('[data-tip]');if(el&&el!==tipFor)showTip(el);else if(!el&&tipFor)hideTip()});
+document.addEventListener('focusin',e=>{const el=e.target.closest('[data-tip]');el?showTip(el):hideTip()});
+document.addEventListener('focusout',hideTip);
+document.addEventListener('touchstart',e=>{const el=e.target.closest('[data-tip]');if(el&&el!==tipFor){showTip(el)}else if(!el)hideTip()},{passive:true});
+addEventListener('scroll',hideTip,{passive:true});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')hideTip()});
+
+
+// Ask the index: streamed answers from /api/ask; country names become buttons that open the panel
+const ASK=document.getElementById('ask'),ASKOPEN=document.getElementById('askOpen'),ASKLOG=document.getElementById('askLog'),ASKIN=document.getElementById('askIn'),ASKSEND=document.getElementById('askSend');
+const askHistory=[];const NAMES=(()=>{const xs=Object.values(DATA).map(d=>[d.name,d.iso3]);try{for(const lang of ['es','fr','de','pt','it','nl','sv','pl']){const dn=new Intl.DisplayNames([lang],{type:'region'});for(const d of Object.values(DATA)){if(!d.iso2)continue;const n=dn.of(d.iso2);if(n&&n!==d.name&&!xs.some(x=>x[0]===n))xs.push([n,d.iso3])}}}catch(e){}return xs.sort((a,b)=>b[0].length-a[0].length)})();
+const NAME_RE=new RegExp('\\b('+NAMES.map(([n])=>n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')\\b','g');
+function linkify(el,text){el.replaceChildren();let last=0;text.replace(NAME_RE,(m,n,i)=>{el.append(text.slice(last,i));const iso=NAMES.find(x=>x[0]===n)[1];el.append(h('button',{type:'button',class:'cty',onclick:()=>{select(iso,true)}},n));last=i+m.length;return m});el.append(text.slice(last))}
+function openAsk(){ASK.hidden=false;ASKOPEN.hidden=true;ASKOPEN.setAttribute('aria-expanded','true');ASKIN.focus()}
+function closeAsk(){ASK.hidden=true;ASKOPEN.hidden=false;ASKOPEN.setAttribute('aria-expanded','false');ASKOPEN.focus()}
+ASKOPEN.addEventListener('click',openAsk);document.getElementById('askNav').addEventListener('click',e=>{e.preventDefault();openAsk()});document.getElementById('askClose').addEventListener('click',closeAsk);
+ASK.addEventListener('keydown',e=>{if(e.key==='Escape')closeAsk()});
+document.querySelectorAll('#askSugg button').forEach(b=>b.addEventListener('click',()=>askQ(b.textContent)));
+document.getElementById('askForm').addEventListener('submit',e=>{e.preventDefault();const q=ASKIN.value.trim();if(q)askQ(q)});
+async function askQ(q){
+  document.getElementById('askSugg')?.remove();ASKIN.value='';ASKSEND.disabled=true;
+  ASKLOG.append(h('div',{class:'ask-msg u'},q));const a=h('div',{class:'ask-msg a'},'Looking at the index…');ASKLOG.append(a);ASKLOG.scrollTop=ASKLOG.scrollHeight;
+  let text='';
+  try{
+    window.whrTrack&&whrTrack('ask_index',{turn:askHistory.length/2+1});const r=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:q,history:askHistory})});
+    const rd=r.body.getReader(),dec=new TextDecoder();let buf='';
+    for(;;){const {value,done}=await rd.read();if(done)break;buf+=dec.decode(value,{stream:true});let i;
+      while((i=buf.indexOf('\n\n'))>=0){const chunk=buf.slice(0,i);buf=buf.slice(i+2);const ev=(chunk.match(/^event: (.*)$/m)||[])[1],data=(chunk.match(/^data: (.*)$/m)||[])[1];if(!data)continue;const d=JSON.parse(data);
+        if(ev==='reset'){text='';a.textContent='Looking at the index…'}else if(ev==='text'){text+=d.t;a.textContent=text}else if(ev==='done'){window.__askSig=d.sig}else if(ev==='country'&&!text){a.textContent=`Opening ${d.name}…`}}
+      ASKLOG.scrollTop=ASKLOG.scrollHeight}
+  }catch(e){text=text||"Sorry, I couldn't answer that just now. Please try again in a moment."}
+  linkify(a,text||"Sorry, I couldn't answer that just now. Please try again in a moment.");
+  askHistory.push({role:'user',content:q},{role:'assistant',content:text,sig:window.__askSig||''});ASKSEND.disabled=false;ASKIN.focus();ASKLOG.scrollTop=ASKLOG.scrollHeight}
+
+
+const SPOTPICK=document.getElementById('spotPick');if(SPOTPICK)SPOTPICK.addEventListener('change',()=>{document.getElementById('spotBox').innerHTML=SPOTS[SPOTPICK.value]||''});
+// strain table: sort, OECD filter, row click; country-panel block
+const ST=document.getElementById('strainTable');
+if(ST){ST.querySelectorAll('thead th[data-i] button').forEach(btn=>btn.addEventListener('click',()=>{const i=+btn.parentElement.dataset.i;sorter(ST,r=>{const v=r.cells[i].dataset.v;return v===''?-Infinity:+v},true,btn.closest('th'))}));
+ ST.tBodies[0].addEventListener('click',e=>{const tr=e.target.closest('tr');if(tr){e.preventDefault();select(tr.dataset.iso,true)}});
+ document.getElementById('oecdOnly').addEventListener('change',e=>{[...ST.tBodies[0].rows].forEach(tr=>tr.hidden=e.target.checked&&!tr.dataset.oecd)})}
+function strainBlock(d){const S=d.strain,I=S.ind,unk=()=>h('span',{class:'unk'},'unknown');
+  const row=(label,x,suffix,extra)=>[h('dt',{},label),h('dd',{},x?[h('span',{class:'big2'},`${(+x.v).toFixed(x.v>=100?0:1)}${suffix||''}`),h('span',{class:'num',style:'margin-left:8px;font-size:12px;color:#6B7280'},`${x.y}${x.stale?' old':''}`)]:unk()),h('dd',{},x&&x.r?`OECD ${x.r}`:'',extra||null)];
+  const waits=['hip','knee'].map(j=>I['waitMedianDays_'+j]?`${j} ${Math.round(I['waitMedianDays_'+j].v)} days`:null).filter(Boolean);
+  const rs=S.recordSplit||{class:'unknown'};
+  const chain=SPOTS[d.iso3]?(()=>{const w=document.createElement('div');w.innerHTML=SPOTS[d.iso3];const a=w.firstElementChild;a.querySelector('.overline').textContent='The chain in '+d.name;a.querySelector('.spot-open')?.remove();return a})():null;
+  return h('div',{class:'strain-c'},h('h3',{},'Strain and split',h('span',{class:'ctx'},'context, not scored')),chain,
+    h('p',{class:'note'},S.reading||''),
+    h('dl',{class:'sk'},
+      row('Doctors per 10,000',I.doctorsPer10k),
+      row('Nurses and midwives per 10,000',I.nursesMidwivesPer10k),
+      row('Private insurance + out-of-pocket',I.vhiPlusOopShareCHE,'%',I.vhiShareCHE&&I.oopShareCHE?h('div',{class:'cap',style:'margin:2px 0 0'},`voluntary insurance ${(+I.vhiShareCHE.v).toFixed(1)} + out-of-pocket ${(+I.oopShareCHE.v).toFixed(1)}`):null),
+      h('dt',{},'Median wait, specialist to treatment'),h('dd',{},waits.length?waits.join(', '):unk()),h('dd',{},I.waitMedianDays_hip&&I.waitMedianDays_hip.r?`OECD ${I.waitMedianDays_hip.r}`:''),
+      h('dt',{},'Record reaches private care?'),h('dd',{},rs.class==='unknown'?unk():h('b',{},rs.class)),h('dd',{},rs.quote?h('blockquote',{},`"${rs.quote}"`):(rs.class==='unknown'?'Our file says nothing about private providers. Unknown, not connected.':''))),
+    I.compulsoryPrivateInsuranceShareCHE?h('p',{class:'cap'},`Compulsory private insurance, counted separately: ${(+I.compulsoryPrivateInsuranceShareCHE.v).toFixed(1)}% of health spending (${I.compulsoryPrivateInsuranceShareCHE.y}).`):null,
+    h('p',{class:'cap'},'Context, not scored. WHO Global Health Observatory, WHO Global Health Expenditure Database, OECD Health Statistics. ',h('a',{href:'#strain'},'Compare all countries')))}
+
+
+// Plain-English tooltips for abbreviations, anywhere on the page (static text, panels, feed, Ask answers)
+const GLOSS={"OECD": "The Organisation for Economic Co-operation and Development: 38 mostly high-income countries that publish comparable health statistics.", "WHO": "The World Health Organization, the United Nations agency for health. It publishes country data on health workers and spending.", "EHDS": "The European Health Data Space: an EU law (Regulation 2025/327) that gives people in the EU access to their health data across borders. It applies from March 2027, with patient summaries and e-prescriptions from March 2029.", "GDPR": "The General Data Protection Regulation: the EU law on personal data. Health data is a special category, and people have a right to a copy of their data.", "HIPAA": "The Health Insurance Portability and Accountability Act: the US law that gives patients a right to copies of their records and limits how providers and insurers use them.", "DTI": "Data Trust Index: SuperTruth's framework for grading how trustworthy data is. Here it grades the evidence behind each score; it never changes a score."};
+const GLOSS_RE=new RegExp('\\b('+Object.keys(GLOSS).join('|')+')\\b','g');
+function glossify(root){if(!root)return;const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>{const p=n.parentElement;if(!p||p.closest('[data-tip],script,style,svg,button,select,option,a,input,textarea,.unk'))return NodeFilter.FILTER_REJECT;GLOSS_RE.lastIndex=0;const hit=GLOSS_RE.test(n.nodeValue);GLOSS_RE.lastIndex=0;return hit?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT}});
+  const nodes=[];while(w.nextNode())nodes.push(w.currentNode);
+  for(const n of nodes){GLOSS_RE.lastIndex=0;const f=document.createDocumentFragment();let last=0,m;const v=n.nodeValue;while((m=GLOSS_RE.exec(v))){f.append(v.slice(last,m.index));const sp=document.createElement('span');sp.setAttribute('data-tip',GLOSS[m[1]]);sp.setAttribute('tabindex','0');sp.textContent=m[1];f.append(sp);last=m.index+m[1].length}f.append(v.slice(last));n.replaceWith(f)}}
+glossify(document.querySelector('main'));glossify(document.getElementById('askLog'));
+const GLOSS_OBS=new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes){if(n.nodeType===1&&!n.closest?.('[data-tip]'))glossify(n)}});GLOSS_OBS.observe(document.querySelector('main'),{childList:true,subtree:true});GLOSS_OBS.observe(document.getElementById('askLog'),{childList:true,subtree:true});
+
+// stories feed: newest first, filter by theme, 12 at a time
+const FEED=Object.values(DATA).flatMap(d=>d.stories.map(s=>({...s,country:d.name,iso:d.iso3}))).sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+let feedTheme=null,feedShown=12;
+const FEEDEL=document.getElementById('feed'),MORE=document.getElementById('feedMore');
+function renderFeed(){const xs=FEED.filter(s=>!feedTheme||s.theme===feedTheme);
+  FEEDEL.replaceChildren(...xs.slice(0,feedShown).map(s=>h('li',{class:'story'},
+    h('span',{class:'m'},`${s.country} · ${s.date} · ${s.source}`),
+    h('h3',{},ext(s.url,s.headline)),
+    h('p',{},s.paraphrase),
+    s.lang!=='en'?h('span',{class:'m'},`From a ${LANG[s.lang]||s.lang} source; summary ours.`):null,
+    h('div',{class:'foot'},h('span',{class:'chip'},THEMES[s.theme]||s.theme),h('button',{type:'button',onclick:()=>select(s.iso,true)},`Open ${s.country}`)))));
+  MORE.hidden=xs.length<=feedShown;MORE.textContent=`Show more stories (${xs.length-feedShown} more)`}
+document.querySelectorAll('.themes button').forEach(b=>b.addEventListener('click',()=>{const on=b.getAttribute('aria-pressed')!=='true';document.querySelectorAll('.themes button').forEach(x=>x.setAttribute('aria-pressed','false'));const pick=on?b:document.querySelector('.themes button[data-theme="all"]');pick.setAttribute('aria-pressed','true');feedTheme=pick.dataset.theme==='all'?null:pick.dataset.theme;feedShown=12;renderFeed()}));
+MORE.addEventListener('click',()=>{feedShown+=24;renderFeed()});
+renderFeed();
+
+// globe: navigation only. No atmosphere, no graticule, no extrusion, no auto-rotate (TUFTE_SPEC 3.5)
+let world=null,selected=null,showStories=false;
+const byIso={};GEO.features.forEach(f=>{if(f.properties.iso3)byIso[f.properties.iso3]=f});
+function initGlobe(){
+  const el=document.getElementById('globe');if(world||!el.offsetWidth||typeof Globe!=='function')return;
+  try{
+  world=Globe()(el).backgroundColor('#ffffff').showAtmosphere(false).showGraticules(false)
+    .polygonsData(GEO.features)
+    .polygonCapColor(f=>{const d=DATA[f.properties.iso3];return d?bandOf(d.overall).c:'#F3F4F6'})
+    .polygonSideColor(f=>{const d=DATA[f.properties.iso3];return d?bandOf(d.overall).c:'#F3F4F6'})
+    .polygonStrokeColor(f=>{const i=f.properties.iso3,d=DATA[i];if(i&&i===selected)return '#111827';return d?'#FFFFFF':'#D1D5DB'})
+    .polygonAltitude(0.006).polygonsTransitionDuration(0)
+    .polygonLabel(f=>{const d=DATA[f.properties.iso3];const nm=(d?d.name:f.properties.name).replace(/[<>&]/g,'');return d?`<div class="tt-n">${nm}</div><div class="tt-s">${d.overall} · ${bandOf(d.overall).n} · rank ${d.rankLabel} of ${N}</div>${d.confidence==='low'?'<div class="tt-s">Low confidence</div>':''}${d.stories.length?`<div class="tt-s">${d.stories.length} ${d.stories.length===1?'story':'stories'}</div>`:''}`:`<div class="tt-n">${nm}</div><div class="tt-s">Not rated in v1</div>`})
+    .onPolygonClick(f=>{if(DATA[f.properties.iso3])select(f.properties.iso3,false)})
+    .pointsData(Object.values(DATA).filter(d=>d.point)).pointLat(d=>d.lat).pointLng(d=>d.lng).pointColor(d=>bandOf(d.overall).c).pointAltitude(0.01).pointRadius(0.6)
+    .pointLabel(d=>`<div class="tt-n">${d.name}</div><div class="tt-s">${d.overall} · ${bandOf(d.overall).n} · rank ${d.rankLabel} of ${N}</div>`)
+    .onPointClick(d=>select(d.iso3,false))
+  const m=world.globeMaterial();m.color.set('#ffffff');
+  // flat light so a band colour reads the same anywhere on the sphere (Tufte re-review #3)
+  try{const L=world.lights();L.forEach(l=>{if(l.isDirectionalLight)l.intensity=0;if(l.isAmbientLight){l.color.set('#ffffff');l.intensity=Math.PI}});world.lights(L)}catch(e){}
+  world.controls().autoRotate=false;world.pointOfView({lat:30,lng:20,altitude:2.0},0);
+  const size=()=>{const r=el.getBoundingClientRect();world.width(r.width).height(r.height)};new ResizeObserver(size).observe(el);size();
+  }catch(err){el.replaceChildren(h('p',{class:'note',style:'padding:24px'},'The globe needs WebGL. Every score is in the ranked table below.'));world=null}
+}
+function storyPins(){if(!world)return;world.polygonStrokeColor(world.polygonStrokeColor());world.pointStroke&&0}
+document.querySelectorAll('.eu-inset path[data-iso]').forEach(p=>{p.addEventListener('click',()=>select(p.dataset.iso,true));p.addEventListener('keydown',e=>{if(e.key==='Enter')select(p.dataset.iso,true)})});
+const well=document.getElementById('globeWell'),showBtn=document.getElementById('showGlobe');
+showBtn.addEventListener('click',()=>{const on=well.classList.toggle('on');showBtn.setAttribute('aria-expanded',on);showBtn.textContent=on?'Hide the globe':'Show the globe';if(on)requestAnimationFrame(loadGlobe)});
+// globe.gl (1.9 MB) loads only when the globe is on screen, after the page is usable (CWV: never blocks the tables or the first paint)
+function loadGlobe(){if(typeof Globe==='function')return initGlobe();if(!well.offsetWidth||loadGlobe.p)return;loadGlobe.p=1;const s=document.createElement('script');s.src='assets/globe.gl.min.js';s.onload=initGlobe;document.head.append(s)}
+if(document.readyState==='complete')loadGlobe();else addEventListener('load',loadGlobe);
+
+function select(iso,fromList){window.whrTrack&&whrTrack('country_open',{iso3:iso});
+  if(!DATA[iso])return;selected=iso;
+  document.querySelectorAll('#rankTable tbody tr').forEach(r=>{const on=r.dataset.iso===iso;r.classList.toggle('sel',on);on?r.setAttribute('aria-current','true'):r.removeAttribute('aria-current')});
+  renderCountry(DATA[iso]);
+  if(world){world.polygonStrokeColor(world.polygonStrokeColor());const f=byIso[iso],d=DATA[iso];world.pointOfView({lat:f?f.properties.lat:d.lat,lng:f?f.properties.lng:d.lng,altitude:d.region==='Europe'?1.1:1.6},matchMedia('(prefers-reduced-motion: reduce)').matches?0:600)}
+  try{history.replaceState(null,'','#'+iso)}catch(e){}
+  PANEL.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+}
+window.addEventListener('hashchange',()=>{const k=location.hash.slice(1).toUpperCase();if(DATA[k]&&k!==selected)select(k,true)});
+const start=location.hash.slice(1).toUpperCase();if(DATA[start])select(start,true);
+</script>
+</body>
+</html>

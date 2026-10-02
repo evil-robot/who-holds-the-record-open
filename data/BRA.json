@@ -1,0 +1,391 @@
+{
+  "iso3": "BRA",
+  "name": "Brazil",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "Brazil's national network holds over 5 billion health records and patients can see part of theirs, but the state decides who else sees them.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 62,
+      "summary": "LGPD gives a free right of access with a 15-day deadline, and the national Meu SUS Digital app shows vaccines, exam results, medicines and visit records. It is a partial record: no export was found and patients cannot correct entries themselves.",
+      "detail": [
+        "LGPD Article 18 gives the right to access, correction and portability, and paragraph 5 says requests are met at no cost. Article 19 requires a full statement within 15 days. The medical ethics code (Article 88) bars doctors from denying patients access to their record or a copy.",
+        "The Ministry of Health FAQ lists what Meu SUS Digital shows: vaccination history and certificates, exam results, prescribed and dispensed medicines, records of visits and procedures, and booked appointments. Login uses Gov.br; the CadSUS registry behind it holds 228.6 million active users with a CPF.",
+        "The FAQ says only health facilities can add, change or delete displayed data. A patient who finds an error must ask in person at a facility. No machine-readable export of the record was found in official material.",
+        "The FAQ does not list full clinical notes, imaging or hospital discharge records among what the app shows. No official figure for monthly app users was found; press figures differ by a factor of three (not verified)."
+      ],
+      "sources": [
+        {
+          "title": "Meu SUS Digital: perguntas e respostas, cidadão (Ministério da Saúde)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital/perguntas-e-respostas/cidadao",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lei 13.709/2018, Lei Geral de Proteção de Dados (texto compilado, Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+          "date": "2018-08-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Código de Ética Médica, Resolução CFM 2.217/2018 (CFM)",
+          "url": "https://portal.cfm.org.br/images/PDF/cem2019.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ministério da Saúde inicia jornada para a Nuvem Soberana do SUS (Ministério da Saúde)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/ministerio-da-saude-inicia-jornada-para-a-nuvem-soberana-do-sus",
+          "date": "2026-08-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 35,
+      "summary": "Decree 12,560/2025 puts the Ministry of Health in charge of the RNDS and limits clinician access to the care context, but sets no patient consent switch. A published notice offering an opt-out from clinician viewing could not be verified as working today.",
+      "detail": [
+        "Decree 12,560 of July 2025 says public and private facilities send data to the RNDS and lets the Ministry share it with public bodies, health managers and research bodies. Article 17 says professional access must be restricted and tied to the care context.",
+        "The decree promises citizens access to information about how their data is processed (Article 6) and orders a Ministry ordinance on handling data subject requests and transparency, after public consultation (Article 8). That ordinance was not found on the Ministry's LGPD legislation page.",
+        "A Ministry notice in Conecte SUS, transcribed in a 2023 UnB thesis, gave clinicians 30 minutes of access and let people refuse RNDS sharing without loss of care. The thesis shows an April 2023 Conecte SUS screen offering all, chosen or no professionals. Whether this works today is not verified; the live notice did not render.",
+        "No patient-visible log of which professional opened a record was found in official material. The same notice promised an app alert on every access (not verified today)."
+      ],
+      "sources": [
+        {
+          "title": "Decreto nº 12.560, de 23 de julho de 2025 (RNDS e Plataformas SUS Digital, Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12560.htm",
+          "date": "2025-07-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Implementação de requisitos de privacidade da LGPD e ISO no Conecte SUS (UnB, trabalho de conclusão, reproduz a Nota Informativa)",
+          "url": "https://bdm.unb.br/bitstream/10483/39153/1/2023_LucasLopesXavier_tcc.pdf",
+          "date": "2023",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Dimensões da privacidade das informações em saúde no Brasil (Direitos Fundamentais & Justiça, n. 47)",
+          "url": "https://dfj.emnuvens.com.br/dfj/article/download/1203/1096/5184",
+          "date": "2022-12",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Rede Nacional de Dados em Saúde (Ministério da Saúde)",
+          "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/rnds",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 58,
+      "summary": "LGPD treats health data as sensitive and fines private firms up to R$50 million per violation, but public bodies cannot be fined. The ANPD upheld warnings against the Ministry of Health in December 2025 and opened a case over a 500,000-patient breach in July 2026.",
+      "detail": [
+        "LGPD Article 11 limits processing of sensitive data, Article 48 requires breach notice to the authority and to affected people, and Article 52 allows fines up to 2% of Brazilian revenue, capped at R$50 million per violation. Article 52, paragraph 3 excludes fines for public bodies.",
+        "In December 2025 the ANPD board rejected the Ministry of Health's appeal and kept warnings plus corrective measures for breaching Articles 48 and 49, over a May 2022 security incident that was reported only partially, with the Ministry missing the ANPD deadline to complete the notice.",
+        "In July 2026 the ANPD opened a sanction case against Instituto Saúde e Cidadania, which runs public health units in several states. A ransomware attack hit about 500,000 records with exams, prescriptions and diagnoses; people were not told individually.",
+        "Law 15,352 of 2026 gave Article 55-A its current wording: the ANPD is now the Agência Nacional de Proteção de Dados, a special-regime agency with functional, technical and financial autonomy. In August 2026 the Ministry began moving RNDS and CadSUS data to a national sovereign cloud run with Serpro.",
+        "EU position: EHDS does not apply to Brazil. The European Commission adopted an adequacy decision for Brazil on 26 January 2026, so personal data can flow from the EU without extra safeguards, and Brazil recognised the EU in return."
+      ],
+      "sources": [
+        {
+          "title": "ANPD instaura processo de sanção contra OS por falha na proteção de dados de 500 mil pacientes (ANPD)",
+          "url": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-instaura-processo-de-sancao-contra-organizacao-social-por-falha-na-protecao-de-dados-de-500-mil-pacientes-de-unidades-publicas-de-saude",
+          "date": "2026-07-08",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Processo 00261.001882/2022-73, votos do Conselho Diretor sobre recurso do Ministério da Saúde (ANPD, CD 37/2025)",
+          "url": "https://www.gov.br/anpd/pt-br/assuntos/deliberacoes-do-conselho-diretor/circuitos-deliberativos-ano-2025/cd-37-2025-votos.pdf/@@display-file/file",
+          "date": "2025-12-24",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lei 13.709/2018, Lei Geral de Proteção de Dados (texto compilado, Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+          "date": "2018-08-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data protection adequacy for non-EU countries (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 55,
+      "summary": "LGPD bans sharing health data between controllers for economic advantage and bans health plans from using it to select risks. Enforcement is uneven: the ANPD closed a pharmacy data case, while a June 2026 ruling ordered Drogasil to pay R$10 million in collective damages over CPF-for-discount practices.",
+      "detail": [
+        "LGPD Article 11, paragraph 4 prohibits communicating or sharing health data between controllers to gain economic advantage, except for health services, pharmacy and diagnostic services in the patient's interest, portability on request, and related financial transactions.",
+        "Article 11, paragraph 5 prohibits private health plan operators from processing health data to select risks when enrolling or excluding members. Decree 12,560 bars RNDS data from any purpose outside care, surveillance, management, research and public policy.",
+        "The Ministry says it shares personal data with private entities only exceptionally, for a public interest, never for commercial interests, and that recipients may not reuse the data.",
+        "In June 2026 a Maranhão judge barred Drogasil from making discounts depend on giving a CPF number, citing missing free consent, and set R$10 million in collective damages. Conjur reports the ANPD had closed its own inspection of the chain."
+      ],
+      "sources": [
+        {
+          "title": "Lei 13.709/2018, Lei Geral de Proteção de Dados (texto compilado, Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+          "date": "2018-08-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto nº 12.560, de 23 de julho de 2025 (RNDS e Plataformas SUS Digital, Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12560.htm",
+          "date": "2025-07-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Compartilhamento de Dados Pessoais (Ministério da Saúde, LGPD)",
+          "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/lgpd/compartilhamento-de-dados-pessoais",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Juiz proíbe Drogasil de exigir CPF de clientes para dar descontos (Conjur)",
+          "url": "https://conjur.com.br/2026-jun-02/farmacias-nao-podem-exigir-dados-pessoais-de-clientes-na-oferta-de-descontos/",
+          "date": "2026-06-02",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 55,
+      "summary": "The RNDS is the legal national exchange for public and private care and grew to 4.3 billion records by January 2026, over 5 billion by August. Coverage is uneven: hospital, private lab and health plan data are still being added.",
+      "detail": [
+        "Decree 12,560/2025 makes the RNDS the interoperability platform for SUS health, administrative and financial data, fed by public and private facilities through standard models agreed in the tripartite commission and published by ordinance.",
+        "The January 2026 tripartite commission summary reports RNDS growth from 745.9 million records in 2023 to 4.3 billion, a data partnership with the health plan regulator ANS, and lab notifications from the Abramed diagnostics group widened from 2 to 44 diseases.",
+        "Futuro da Saúde lists what the RNDS held: 1.6 billion vaccinations, 559 million clinical encounters, 66 million lab exams, 49 million prescriptions and 78 million high-complexity procedure authorisations. It reports about one billion health plan records added; Mobile Time, citing the Ministry, reports 2 billion.",
+        "In August 2026 the Ministry put the RNDS at over 5 billion records. State-level federalisation ran as pilots in eight states in 2025, with expansion to all states planned for 2026 (Futuro da Saúde)."
+      ],
+      "sources": [
+        {
+          "title": "Decreto nº 12.560, de 23 de julho de 2025 (RNDS e Plataformas SUS Digital, Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12560.htm",
+          "date": "2025-07-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resumo executivo, 1ª Reunião Ordinária da Comissão Intergestores Tripartite 2026 (Ministério da Saúde, Conass, Conasems)",
+          "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/gestao-do-sus/articulacao-interfederativa/cit/pautas-de-reunioes-e-resumos/2026/janeiro/resumo-executivo-1a-reuniao-ordinaria-cit.pdf",
+          "date": "2026-01-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ministério da Saúde inicia jornada para a Nuvem Soberana do SUS (Ministério da Saúde)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/ministerio-da-saude-inicia-jornada-para-a-nuvem-soberana-do-sus",
+          "date": "2026-08-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Saúde digital no SUS avança com aumento de telessaúde e registros na RNDS (Futuro da Saúde)",
+          "url": "https://futurodasaude.com.br/saude-digital-no-sus-telessaude-rnds/",
+          "date": "2026-01-30",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 50,
+      "summary": "SUS Digital Profissional, announced in July 2024, lets clinicians open a patient's RNDS history during care anywhere in the country, limited by decree to the care context. The view covers encounters, medicines, vaccines and exams, not full clinical notes.",
+      "detail": [
+        "Agência Brasil (July 2024) reports the Ministry made a unified record available so professionals can open a patient's history at any point of the SUS network during care. The January 2026 tripartite summary describes the same SUS Digital Profissional function.",
+        "Decree 12,560, Article 17 says access by public and private professionals and facilities is restricted and tied to the care context. A Conecte SUS notice transcribed by researchers in 2023 set a 30-minute window per encounter.",
+        "Mobile Time reports, citing the Ministry's digital health secretary, 1.6 million professionals, 60,800 facilities and 4,400 municipalities integrated in 2025. These figures are from press, not an official page opened.",
+        "What clinicians see depends on what facilities send. Private hospital data and full notes are not yet part of the shared view in the sources opened."
+      ],
+      "sources": [
+        {
+          "title": "Decreto nº 12.560, de 23 de julho de 2025 (RNDS e Plataformas SUS Digital, Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12560.htm",
+          "date": "2025-07-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Profissionais do SUS terão acesso a prontuário unificado de pacientes (Agência Brasil)",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2024-07/profissionais-do-sus-terao-acesso-a-prontuario-unificado-de-pacientes",
+          "date": "2024-07-16",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Resumo executivo, 1ª Reunião Ordinária da Comissão Intergestores Tripartite 2026 (Ministério da Saúde, Conass, Conasems)",
+          "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/gestao-do-sus/articulacao-interfederativa/cit/pautas-de-reunioes-e-resumos/2026/janeiro/resumo-executivo-1a-reuniao-ordinaria-cit.pdf",
+          "date": "2026-01-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "SUS Digital recebeu da saúde suplementar 2 bilhões de dados (Mobile Time)",
+          "url": "https://www.mobiletime.com.br/noticias/28/01/2026/saude-sus-dados-enviados/",
+          "date": "2026-01-28",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Research bodies may use RNDS and other health data without individual consent under LGPD Article 13, with no general opt-out. Safeguards are real: ethics committees under Law 14,874/2024, secure environments, a ban on transfer to third parties and a public register of Ministry data sharing.",
+      "detail": [
+        "LGPD Article 11 allows research bodies to process sensitive data without consent, anonymised where possible. Article 13 limits public health studies to a controlled, secure environment inside the body, pseudonymised where possible, bars transfer to third parties and bars results that reveal personal data.",
+        "Decree 12,560 lets the RNDS share data with research bodies under Article 13. No general opt-out from research use was found.",
+        "Law 14,874 of May 2024 makes trial participation conditional on a signed consent form and lets participants withdraw at any time. Decree 12,651 of October 2025 limits research data and samples to the project's purpose unless consent covers future use, and publishes registered studies.",
+        "The Ministry says each data sharing is formalised, preceded by an impact report and published as an extract on its website, and that sharing is anonymised where possible."
+      ],
+      "sources": [
+        {
+          "title": "Lei 13.709/2018, Lei Geral de Proteção de Dados (texto compilado, Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+          "date": "2018-08-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lei nº 14.874, de 28 de maio de 2024, pesquisa com seres humanos (Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14874.htm",
+          "date": "2024-05-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto nº 12.651, de 7 de outubro de 2025, regulamenta a Lei 14.874 (Planalto)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12651.htm",
+          "date": "2025-10-07",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Compartilhamento de Dados Pessoais (Ministério da Saúde, LGPD)",
+          "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/lgpd/compartilhamento-de-dados-pessoais",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 57,
+      "summary": "Anvisa regulates AI software as a medical device under RDC 657/2022, requiring disclosure of training data and prior approval of significant algorithm changes. CFM Resolution 2,454/2026, in force since August 2026, requires human final decisions and telling patients when AI is used.",
+      "detail": [
+        "The Anvisa Q&A on RDC 657/2022 says AI devices must describe training and validation datasets and justify the technique. Algorithm changes that add functions or significantly affect safety or performance need an amendment petition before reaching the market. No continuously learning AI device was registered when it was written.",
+        "CFM Resolution 2,454 of February 2026 took effect after 180 days. It requires doctors to record AI use in the chart, tells them to inform patients, keeps final decisions human, classifies tools by risk and requires an AI committee in institutions that adopt their own AI systems.",
+        "Futuro da Saúde (August 2026) reports many institutions were not ready, and that revising RDC 657 is on Anvisa's 2026 to 2027 agenda.",
+        "The general AI bill PL 2338/2023 passed the Senate in December 2024 but remains in a Chamber special committee, with a vote not expected before late 2026 (*desinformante, August 2026)."
+      ],
+      "sources": [
+        {
+          "title": "Software como Dispositivo Médico: perguntas e respostas sobre a RDC 657/2022 (Anvisa)",
+          "url": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/produtos-para-a-saude/manuais/software-como-dispositivo-medico-perguntas-e-respostas/@@download/file",
+          "date": "2022-09-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Resolução CFM nº 2.454/2026, normatiza o uso da inteligência artificial na medicina (CFM)",
+          "url": "https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2026/2454_2026.pdf",
+          "date": "2026-02-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Norma de IA do CFM chega cercada de dúvidas e desafios de implementação (Futuro da Saúde)",
+          "url": "https://futurodasaude.com.br/resolucao-cfm-inteligencia-artificial/",
+          "date": "2026-08-19",
+          "publisherClass": "news"
+        },
+        {
+          "title": "UE avança na regulação de IA enquanto projeto brasileiro segue parado na Câmara (*desinformante)",
+          "url": "https://desinformante.com.br/ue-avanca-regulacao-ia-projeto-brasileiro-parado/",
+          "date": "2026-08-12",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "Vaccination and SUS encounters feed the RNDS nationally. Health plan records arrived through ANS in 2025 and 2026, private labs for 44 notifiable diseases via Abramed, and prescriptions in part; hospitals and private notes lag.",
+  "laws": [
+    {
+      "name": "Lei Geral de Proteção de Dados (Lei 13.709)",
+      "level": "National",
+      "year": "2018",
+      "what": "Health data is sensitive; free access rights; bans sharing for economic advantage and plan risk selection.",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm"
+    },
+    {
+      "name": "Decreto 12.560 (RNDS and SUS Digital platforms)",
+      "level": "National",
+      "year": "2025",
+      "what": "Makes the RNDS the national health data exchange; limits uses; restricts clinician access to care context.",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12560.htm"
+    },
+    {
+      "name": "Lei 13.787 (digital patient records)",
+      "level": "National",
+      "year": "2018",
+      "what": "Rules for digitising records; keep at least 20 years; records may be returned to the patient.",
+      "url": "http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13787.htm"
+    },
+    {
+      "name": "Lei 14.874 (research with human beings)",
+      "level": "National",
+      "year": "2024",
+      "what": "National research ethics system; written informed consent; withdrawal at any time.",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14874.htm"
+    },
+    {
+      "name": "Anvisa RDC 657/2022 (software as a medical device)",
+      "level": "National",
+      "year": "2022",
+      "what": "Regulates medical software including AI; significant algorithm changes need approval before market.",
+      "url": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/produtos-para-a-saude/manuais/software-como-dispositivo-medico-perguntas-e-respostas/@@download/file"
+    },
+    {
+      "name": "Resolução CFM 2.454 (AI in medicine)",
+      "level": "National",
+      "year": "2026",
+      "what": "Doctors keep final decisions, record AI use, inform patients; institutions classify AI risk.",
+      "url": "https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2026/2454_2026.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07-08",
+      "headline": "ANPD opens sanction case after ransomware exposed 500,000 public patients' records",
+      "source": "ANPD",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-instaura-processo-de-sancao-contra-organizacao-social-por-falha-na-protecao-de-dados-de-500-mil-pacientes-de-unidades-publicas-de-saude",
+      "why": "Tests whether LGPD enforcement reaches the private operators running public health units."
+    },
+    {
+      "date": "2025-12-24",
+      "headline": "ANPD board upholds warnings against Ministry of Health over 2022 incident",
+      "source": "ANPD",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/deliberacoes-do-conselho-diretor/circuitos-deliberativos-ano-2025/cd-37-2025-votos.pdf/@@display-file/file",
+      "why": "The ministry running the national record faces warnings, not fines, when it fails on security."
+    },
+    {
+      "date": "2026-08-11",
+      "headline": "Ministry starts moving RNDS and CadSUS data to a national sovereign cloud",
+      "source": "Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/ministerio-da-saude-inicia-jornada-para-a-nuvem-soberana-do-sus",
+      "why": "Keeps over 5 billion health records under Brazilian jurisdiction and public operators."
+    },
+    {
+      "date": "2026-06-02",
+      "headline": "Court bars Drogasil from tying pharmacy discounts to customers' CPF numbers",
+      "source": "Conjur",
+      "url": "https://conjur.com.br/2026-jun-02/farmacias-nao-podem-exigir-dados-pessoais-de-clientes-na-oferta-de-descontos/",
+      "why": "Pharmacy purchase data reveals health conditions; the ruling limits pressure to hand it over."
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "CFM rules on AI in medicine take effect amid readiness doubts",
+      "source": "Futuro da Saúde",
+      "url": "https://futurodasaude.com.br/resolucao-cfm-inteligencia-artificial/",
+      "why": "Patients must be told when AI supports their care, and a doctor keeps the final decision."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

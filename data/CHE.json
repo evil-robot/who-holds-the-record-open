@@ -1,0 +1,385 @@
+{
+ "iso3": "CHE",
+ "name": "Switzerland",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Swiss patients have a free right to their whole record, but the optional e-dossier reached only 136,076 people, so Parliament is building an opt-out replacement.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 55,
+   "summary": "The data protection act gives a free copy of the whole record, normally within 30 days, and an official national portal exists. Most people still ask each doctor or hospital, because the portal (the e-dossier, EPD) is optional: only 136,076 were open by end of April 2026.",
+   "detail": [
+    "Under the Data Protection Act (DSG) Art. 25, anyone can ask a provider for the personal data held about them. Access must be free, with narrow exceptions, and is normally given within 30 days. Art. 28 adds a right to receive data in a common electronic format in some cases.",
+    "The Federal Office of Public Health (BAG) says the right covers the whole record: diagnoses, course of illness, medicines, test results, X-rays, reports and certificates. Only data about third parties and a provider's personal notes are excluded. Records must be kept at least ten years.",
+    "The EPD is the only national patient portal. Patients can read their own data and add their own (EPDG Art. 8). By end of April 2026, 136,076 EPDs had been opened. Cantons and providers decide whether opening it is free.",
+    "The FDPIC notes that patients must act themselves to use the right. Deletion requests usually yield to documentation duties in cantonal health laws, and records are often kept for 20 years."
+   ],
+   "sources": [
+    {
+     "title": "Bundesgesetz über den Datenschutz (DSG), SR 235.1, Stand 7. Juli 2025",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/491/20250707/de/html/fedlex-data-admin-ch-eli-cc-2022-491-20250707-de-html-1.html",
+     "date": "2025-07-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Recht auf Einsicht in das Patientendossier (BAG)",
+     "url": "https://www.bag.admin.ch/de/recht-auf-einsicht-in-das-patientendossier",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Aktueller Stand des EPD in der Schweiz (eHealth Suisse)",
+     "url": "https://www.e-health-suisse.ch/koordination/elektronisches-patientendossier/aktueller-stand",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Einsicht, Aufbewahrung und Löschung von Patientendaten (EDÖB)",
+     "url": "https://www.edoeb.admin.ch/de/einsicht-aufbewahrung-und-loeschung-von-patientendaten",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 60,
+   "summary": "Inside the EPD the patient opens it by explicit consent, picks which professionals see what, can block named providers and reads an access log. Few people hold one, so for most patients control rests on doctors' professional secrecy.",
+   "detail": [
+    "An EPD needs the patient's explicit, informed consent and can be revoked at any time without reasons (EPDG Art. 3). Revoking it closes the dossier (EPDV Art. 21).",
+    "Professionals see data only if the patient grants rights. The patient can grant rights to individuals or groups, exclude named professionals, set confidentiality levels per document, limit rights in time and name a deputy (EPDG Art. 9, EPDV Art. 2 to 4).",
+    "Every processing step is logged (EPDG Art. 10) and the patient portal must display the log data (EPDV Art. 18).",
+    "Outside the EPD, records stay with each provider. Doctors, pharmacists and other health professionals may disclose secrets only with consent or official permission, under threat of up to three years in prison (StGB Art. 321). No access log is visible to patients there."
+   ],
+   "sources": [
+    {
+     "title": "Bundesgesetz über das elektronische Patientendossier (EPDG), SR 816.1, Stand 1. Oktober 2024",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/203/20241001/de/html/fedlex-data-admin-ch-eli-cc-2017-203-20241001-de-html-2.html",
+     "date": "2024-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Verordnung über das elektronische Patientendossier (EPDV), SR 816.11, Stand 1. Oktober 2024",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/204/20241001/de/html/fedlex-data-admin-ch-eli-cc-2017-204-20241001-de-html-2.html",
+     "date": "2024-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Schweizerisches Strafgesetzbuch (StGB), SR 311.0, Art. 321, Stand 1. Oktober 2026",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/54/757_781_799/20261001/de/html/fedlex-data-admin-ch-eli-cc-54-757_781_799-20261001-de-html.html",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Aktueller Stand des EPD in der Schweiz (eHealth Suisse)",
+     "url": "https://www.e-health-suisse.ch/koordination/elektronisches-patientendossier/aktueller-stand",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 60,
+   "summary": "Health data is sensitive data, breaches must be reported to the regulator, and doctors face criminal secrecy rules. The regulator (FDPIC) cannot fine; cantons prosecute individuals for fines up to CHF 250,000, and a radiology network was hacked twice in 2025 and 2026.",
+   "detail": [
+    "The DSG lists health and genetic data as particularly sensitive (Art. 5). Processing them needs express consent where consent is the basis (Art. 6). Controllers must report breaches likely to cause high risk to the FDPIC as soon as possible (Art. 24).",
+    "The FDPIC can order processing to stop and data to be deleted (Art. 51), but fines of up to CHF 250,000 are criminal penalties on private persons, prosecuted by the cantons (Art. 60 to 65). In 2025/26 it received 484 breach notices and over 2,000 reports, and intervened 156 times.",
+    "In health, the FDPIC pushed for opt-out, deletion and log access in the planned dossier, and for anonymised hospital data in the SpiGes statistics project.",
+    "The Réseau Radiologique Romand (20 centres, seven cantons) was hit in April 2026 after a 2025 attack in which medical data was stolen. In 2026 medical data was encrypted and internal documents leaked."
+   ],
+   "sources": [
+    {
+     "title": "Bundesgesetz über den Datenschutz (DSG), SR 235.1, Stand 7. Juli 2025",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/491/20250707/de/html/fedlex-data-admin-ch-eli-cc-2022-491-20250707-de-html-1.html",
+     "date": "2025-07-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "33. Tätigkeitsbericht 2025/2026 (EDÖB)",
+     "url": "https://www.edoeb.admin.ch/dam/de/sd-web/ZgZZm5CLxIFF/33_T%C3%A4tigkeitsbericht%202025-2026%20DE_Web.pdf",
+     "date": "2026-06-30",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Update: Westschweizer Radiologienetzwerk bestätigt Datendiebstahl nach Cyberangriff (SwissCybersecurity.net)",
+     "url": "https://www.swisscybersecurity.net/news/2026-05-07/cyberangriff-legt-westschweizer-radiologie-netzwerk-erneut-lahm",
+     "date": "2026-05-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 58,
+   "summary": "Passing health data to third parties counts as a breach of personality rights unless justified, and health professionals face criminal secrecy rules. No Swiss ban on selling health data or on health data brokers was found, and consumer apps rely on general law.",
+   "detail": [
+    "Under DSG Art. 30, disclosing particularly sensitive data such as health data to third parties is a personality violation. It is unlawful unless justified by consent, an overriding interest or law (Art. 31).",
+    "StGB Art. 321 makes disclosure of patient secrets by doctors, pharmacists, psychologists and other listed professionals a crime, unless the patient consents or an authority permits it.",
+    "Wearables and health apps fall under the general DSG. In April 2026 the FDPIC warned that such devices collect highly personal data and advised users to check privacy terms and refuse needless permissions.",
+    "Switzerland is not in the EU, so the EHDS limits on commercial reuse of health data do not apply. A specific Swiss ban on health data sales or advertising use was not found."
+   ],
+   "sources": [
+    {
+     "title": "Bundesgesetz über den Datenschutz (DSG), SR 235.1, Stand 7. Juli 2025",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/491/20250707/de/html/fedlex-data-admin-ch-eli-cc-2022-491-20250707-de-html-1.html",
+     "date": "2025-07-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Schweizerisches Strafgesetzbuch (StGB), SR 311.0, Art. 321, Stand 1. Oktober 2026",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/54/757_781_799/20261001/de/html/fedlex-data-admin-ch-eli-cc-54-757_781_799-20261001-de-html.html",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Le PFPDT alerte sur les risques des objets connectés (ICTjournal)",
+     "url": "https://www.ictjournal.ch/news/2026-04-21/le-pfpdt-alerte-sur-les-risques-des-objets-connectes",
+     "date": "2026-04-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "European Health Data Space Regulation (EHDS) (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "journey": {
+   "score": 40,
+   "summary": "About 96 percent of hospitals are connected to the EPD, but only about 10 percent of outpatient doctors and 13 percent of pharmacies were in September 2025. Mandatory e-prescription and the opt-out E-GD are still passing through Parliament.",
+   "detail": [
+    "In September 2025, 258 hospitals (about 96 percent) and 1,011 nursing homes (about 69 percent) were connected to the EPD, against 244 pharmacies (about 13 percent) and 2,932 outpatient doctors (about 10 percent).",
+    "Hospitals and doctors licensed since 2022 must offer the EPD; other professionals join voluntarily. The Post is closing its EPD platform at the end of 2026, leaving about 70,000 dossiers to move.",
+    "The E-GD bill would oblige doctors, pharmacists, physiotherapists and others billing basic insurance to enter all treatment-relevant data. The government expects it around 2030.",
+    "The National Council voted 128 to 62 in March 2026 for mandatory e-prescriptions and an electronic medication plan. Final adoption by both chambers was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Faktenblatt: Das elektronische Patientendossier in Zahlen (BAG)",
+     "url": "https://www.bag.admin.ch/dam/de/sd-web/KMR8cp6wryyN/Faktenblatt%20EPD%20in%20Zahlen%20(Stand%20Oktober%202025).pdf",
+     "date": "2025-11-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ende 2026 ist Schluss mit der EPD-Plattform der Post (Netzwoche)",
+     "url": "https://www.netzwoche.ch/news/2026-06-25/ende-2026-ist-schluss-mit-der-epd-plattform-der-post",
+     "date": "2026-06-25",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Bundesrat beschliesst Neuausrichtung: Elektronisches Gesundheitsdossier E-GD löst EPD ab (EDI)",
+     "url": "https://www.edi.admin.ch/de/bundesrat-beschliesst-neuausrichtung-elektronisches-gesundheitsdossier-e-gd-loest-epd-ab",
+     "date": "2025-11-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Pflicht für elektronische Arztrezepte nimmt erste Hürde (Parlamentsdienste)",
+     "url": "https://www.parlament.ch/de/services/news/Seiten/2026/20260312115534601194158159026_bsd085.aspx",
+     "date": "2026-03-12",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 38,
+   "summary": "A clinician sees another provider's documents only if the patient holds an EPD and grants access, or in an emergency unless the patient excluded it. With few dossiers and about 10 percent of outpatient doctors connected, this is rare.",
+   "detail": [
+    "Access depends on rights the patient grants to individuals or groups. Rights for single professionals last until withdrawn; group rights must have an end date (EPDV Art. 3).",
+    "In an emergency, professionals without rights can open documents marked normally accessible, unless the patient excluded this. The patient must be informed of the emergency access (EPDG Art. 9, EPDV Art. 2).",
+    "Outside the EPD, records move by referral letters and requests, and professional secrecy requires patient consent (StGB Art. 321).",
+    "Only 136,076 dossiers existed by April 2026, and only about 10 percent of outpatient doctors were connected in September 2025."
+   ],
+   "sources": [
+    {
+     "title": "Verordnung über das elektronische Patientendossier (EPDV), SR 816.11, Stand 1. Oktober 2024",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/204/20241001/de/html/fedlex-data-admin-ch-eli-cc-2017-204-20241001-de-html-2.html",
+     "date": "2024-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Bundesgesetz über das elektronische Patientendossier (EPDG), SR 816.1, Stand 1. Oktober 2024",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/203/20241001/de/html/fedlex-data-admin-ch-eli-cc-2017-203-20241001-de-html-2.html",
+     "date": "2024-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Faktenblatt: Das elektronische Patientendossier in Zahlen (BAG)",
+     "url": "https://www.bag.admin.ch/dam/de/sd-web/KMR8cp6wryyN/Faktenblatt%20EPD%20in%20Zahlen%20(Stand%20Oktober%202025).pdf",
+     "date": "2025-11-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Aktueller Stand des EPD in der Schweiz (eHealth Suisse)",
+     "url": "https://www.e-health-suisse.ch/koordination/elektronisches-patientendossier/aktueller-stand",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 66,
+   "summary": "The Human Research Act requires consent to reuse identifiable data and genetic data, while coded non-genetic data may be reused after information unless the person objects. Cancer registration has its own right to object since 2020.",
+   "detail": [
+    "Under the Human Research Act (HFG) Art. 32 and 33, uncoded health data and coded genetic data need informed consent for research reuse. Coded non-genetic health data may be reused if the person was informed and did not object.",
+    "Art. 34 allows reuse without consent only in exceptions, when consent is impossible or unreasonable, no documented refusal exists and research interest prevails. Ethics committees decide.",
+    "Swissethics publishes a national general consent template for reusing coded data and samples. Under the Cancer Registration Act (Art. 6), data is registered only if the informed patient does not object, and objection is possible at any time.",
+    "An HFG revision on access to and reuse of research data is being drafted; consultation is due in the second quarter of 2027. The EU EHDS secondary use rules do not apply."
+   ],
+   "sources": [
+    {
+     "title": "Bundesgesetz über die Forschung am Menschen (HFG), SR 810.30, Stand 1. September 2023",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2013/617/20230901/de/html/fedlex-data-admin-ch-eli-cc-2013-617-20230901-de-html-10.html",
+     "date": "2023-09-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Bundesgesetz über die Registrierung von Krebserkrankungen (KRG), SR 818.33, Stand 1. September 2023",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2018/289/20230901/de/html/fedlex-data-admin-ch-eli-cc-2018-289-20230901-de-html-9.html",
+     "date": "2023-09-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Generalkonsent (swissethics)",
+     "url": "https://swissethics.ch/documents/generalkonsent",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Revision des Humanforschungsgesetzes und des Stammzellenforschungsgesetzes (BAG)",
+     "url": "https://www.bag.admin.ch/de/humanforschung-revision-hfg-stfg",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 56,
+   "summary": "Medical software, including AI, is regulated under the Medical Devices Ordinance, which uses EU MDR classification and requires post-market surveillance and incident reporting. Switzerland has no AI law yet and chose in February 2025 to ratify the Council of Europe AI convention.",
+   "detail": [
+    "The Medical Devices Ordinance (MepV) lists software as a medical device (Art. 3) and classifies products by EU MDR Annex VIII (Art. 15). Makers need conformity assessment, a post-market surveillance system (Art. 56) and must report serious incidents to Swissmedic (Art. 66).",
+    "Swissmedic says it assesses AI elements against WHO, ICH, IMDRF, EMA and FDA guidance and follows AI applications across the product life cycle.",
+    "On 12 February 2025 the Federal Council decided to ratify the Council of Europe AI Convention and keep regulating by sector, naming health care. The EU AI Act does not apply.",
+    "Conformity assessment follows EU MDR Annexes IX to XI (MepV Art. 23). AI-specific change control and human oversight rules were not verified, and no Swiss rule on generative AI in care was found."
+   ],
+   "sources": [
+    {
+     "title": "Medizinprodukteverordnung (MepV), SR 812.213, Stand 1. Juli 2026",
+     "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/552/20260701/de/html/fedlex-data-admin-ch-eli-cc-2020-552-20260701-de-html-2.html",
+     "date": "2026-07-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Rahmenbedingungen für KI in Arzneimittelentwicklung und regulatorischem Prozess (Swissmedic)",
+     "url": "https://www.swissmedic.ch/swissmedic/de/home/humanarzneimittel/authorisations/artificiel-intelligence.html",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Bundesrat will KI-Konvention des Europarats ratifizieren (Bundesrat)",
+     "url": "https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-104110.html",
+     "date": "2025-02-12",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "Hospitals are connected to the EPD (about 96 percent) but outpatient doctors (about 10 percent) and pharmacies (about 13 percent) mostly are not. Lab and claims links were not verified. Cancer registration is national, with a right to object.",
+ "laws": [
+  {
+   "name": "Bundesgesetz über den Datenschutz (DSG)",
+   "level": "National",
+   "year": "2020",
+   "what": "In force 1 Sept 2023. Health is sensitive data; free access within 30 days; breach reports; fines to CHF 250,000.",
+   "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/491/20250707/de/html/fedlex-data-admin-ch-eli-cc-2022-491-20250707-de-html-1.html"
+  },
+  {
+   "name": "Bundesgesetz über das elektronische Patientendossier (EPDG)",
+   "level": "National",
+   "year": "2015",
+   "what": "Opt-in EPD; patient sets access rights, can exclude providers; all access logged; emergency access unless excluded.",
+   "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2017/203/20241001/de/html/fedlex-data-admin-ch-eli-cc-2017-203-20241001-de-html-2.html"
+  },
+  {
+   "name": "Bundesgesetz über das elektronische Gesundheitsdossier (EGDG), bill",
+   "level": "National",
+   "year": "2025",
+   "what": "Opt-out E-GD for every resident, central federal system, mandatory outpatient use. Passed National Council September 2026.",
+   "url": "https://www.edi.admin.ch/de/bundesrat-beschliesst-neuausrichtung-elektronisches-gesundheitsdossier-e-gd-loest-epd-ab"
+  },
+  {
+   "name": "Strafgesetzbuch (StGB), Art. 321",
+   "level": "National",
+   "year": "1937",
+   "what": "Professional secrecy: health professionals who disclose patient secrets without consent face up to three years in prison.",
+   "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/54/757_781_799/20261001/de/html/fedlex-data-admin-ch-eli-cc-54-757_781_799-20261001-de-html.html"
+  },
+  {
+   "name": "Bundesgesetz über die Forschung am Menschen (HFG)",
+   "level": "National",
+   "year": "2011",
+   "what": "Consent for reuse of identifiable and genetic data; coded non-genetic data reusable unless the person objects.",
+   "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2013/617/20230901/de/html/fedlex-data-admin-ch-eli-cc-2013-617-20230901-de-html-10.html"
+  },
+  {
+   "name": "Krebsregistrierungsgesetz (KRG)",
+   "level": "National",
+   "year": "2016",
+   "what": "National cancer registration (in force 2020); data registered only if the informed patient does not object.",
+   "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2018/289/20230901/de/html/fedlex-data-admin-ch-eli-cc-2018-289-20230901-de-html-9.html"
+  },
+  {
+   "name": "Medizinprodukteverordnung (MepV)",
+   "level": "National",
+   "year": "2020",
+   "what": "Software as medical device; EU MDR classification; post-market surveillance and incident reports to Swissmedic.",
+   "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/552/20260701/de/html/fedlex-data-admin-ch-eli-cc-2020-552-20260701-de-html-2.html"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-05",
+   "headline": "Federal Council sends Parliament an opt-out electronic health dossier law",
+   "source": "Federal Department of Home Affairs",
+   "url": "https://www.edi.admin.ch/de/bundesrat-beschliesst-neuausrichtung-elektronisches-gesundheitsdossier-e-gd-loest-epd-ab",
+   "why": "Every resident would get a free dossier unless they object or delete it."
+  },
+  {
+   "date": "2026-03-12",
+   "headline": "National Council votes 128 to 62 for mandatory electronic prescriptions",
+   "source": "Parliamentary Services (sda)",
+   "url": "https://www.parlament.ch/de/services/news/Seiten/2026/20260312115534601194158159026_bsd085.aspx",
+   "why": "E-prescriptions and a medication plan would link doctors and pharmacies."
+  },
+  {
+   "date": "2026-05-07",
+   "headline": "Western Swiss radiology network confirms data theft after second cyberattack",
+   "source": "SwissCybersecurity.net",
+   "url": "https://www.swisscybersecurity.net/news/2026-05-07/cyberangriff-legt-westschweizer-radiologie-netzwerk-erneut-lahm",
+   "why": "Imaging records at 20 centres were encrypted and internal files leaked."
+  },
+  {
+   "date": "2026-06-25",
+   "headline": "Swiss Post to shut its EPD platform, about 70,000 dossiers to move",
+   "source": "Netzwoche",
+   "url": "https://www.netzwoche.ch/news/2026-06-25/ende-2026-ist-schluss-mit-der-epd-plattform-der-post",
+   "why": "Patients who opened an EPD with the Post must migrate or lose access."
+  },
+  {
+   "date": "2026-09-15",
+   "headline": "National Council adopts opt-out health dossier 134 to 53",
+   "source": "ICTjournal",
+   "url": "https://www.ictjournal.ch/news/2026-09-15/le-conseil-national-soutient-le-dossier-electronique-de-sante-update",
+   "why": "Moves Switzerland toward a record for all; Council of States still to vote."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

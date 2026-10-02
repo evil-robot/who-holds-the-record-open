@@ -1,0 +1,379 @@
+{
+  "iso3": "BEL",
+  "name": "Belgium",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Belgian records are indexed unless patients object, providers need consent to open them, and patients can block named doctors and see who looked.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 68,
+      "summary": "The law gives a free first copy, paper or electronic, within 15 days, and the EU rates Belgian record access 100 out of 100. The federal portal shows linked documents, not one full record, and French speakers cannot see vaccines or test results in the app.",
+      "detail": [
+        "Article 9 of the law of 22 August 2002 gives the right to consult the file within 15 days of a request and to receive explanations. The first copy is free, the patient chooses paper or electronic, and later copies may cost only reasonable, justified fees.",
+        "The federal Masanté portal and app show open prescriptions, vaccinations, a health summary, screening results, medical reports and results, and up to one year of dispensed medicines, on the web and in a mobile app (INAMI).",
+        "The European Commission's 2026 country report scores Belgian access to electronic health records 100.0, against an EU average of 86.51. It also flags gaps in how people experience access and says integration problems persist across providers and regions.",
+        "Pedro Facon, who runs INAMI's VIDIS project, said in June 2026 that the app had 120,000 downloads and that French-speaking users could not see their vaccines or test results in it (Le Spécialiste). This gap, and no official usage figure, keep the score below France's 70 within the 60 to 75 band."
+      ],
+      "sources": [
+        {
+          "title": "Loi du 22 août 2002 relative aux droits du patient, version consolidée (Justel)",
+          "url": "https://www.ejustice.just.fgov.be/eli/loi/2002/08/22/2002022737/justel",
+          "date": "2002-08-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Masanté : consultez et gérez vos données de santé en ligne et via notre application mobile (INAMI)",
+          "url": "https://www.inami.fgov.be/fr/themes/esante/masante-consultez-et-gerez-vos-donnees-de-sante-en-ligne-et-via-notre-application-mobile",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Decade 2026 country report, Belgium, SWD(2026) 155 (European Commission)",
+          "url": "https://ec.europa.eu/newsroom/dae/redirection/document/128636",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Abrumet soupçonne une volonté fédérale de centraliser les réseaux de santé (Le Spécialiste)",
+          "url": "https://www.lespecialiste.be/fr/actualites/e-health/abrumet-soupconne-une-volonte-federale-de-centraliser-les-reseaux-de-sante.html",
+          "date": "2026-06-23",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 72,
+      "summary": "The national index lists where a patient's data sits unless the patient objects, but another provider may open it only with revocable consent. Patients can exclude named providers and see who consulted their data; exclusion works only name by name.",
+      "detail": [
+        "Articles 36 to 38 of the 2019 Quality Law let a professional see health data held by another only with prior informed consent, a therapeutic relationship and a need for care. Article 40 requires that patients can see who has or had access to their data.",
+        "The eHealth platform says the patient can limit access to providers of their choice without giving reasons, gets access to a history of consultations, and can withdraw consent at any time without limit. A central database records exclusions.",
+        "Since a law of 23 November 2023, the eHealth reference directory may record which providers hold a patient's data unless the patient expressly objects through an eHealth application. Anyone other than the patient may consult it only with the patient's consent (law of 21 August 2008, Article 5).",
+        "A royal decree of 15 December 2024 set consent rules. The doctors' union ABSyM challenged it at the Council of State, partly because patients could exclude only named individuals, not whole groups such as all pharmacists. It was withdrawn by a decree published on 17 April 2026 (ABSyM).",
+        "The score sits mid-band: an opt-out index, opt-in consent for access, a log and exclusions all exist, but choices are coarse."
+      ],
+      "sources": [
+        {
+          "title": "Loi du 22 avril 2019 relative à la qualité de la pratique des soins de santé (Justel)",
+          "url": "https://www.ejustice.just.fgov.be/eli/loi/2019/04/22/2019041141/justel",
+          "date": "2019-04-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Wet van 21 augustus 2008 houdende oprichting en organisatie van het eHealth-platform, gecoördineerde tekst (eHealth-platform)",
+          "url": "https://www.ehealth.fgov.be/ehealthplatform/nl/wet-van-21-augustus-2008-houdende-oprichting-en-organisatie-van-het-ehealth-platform",
+          "date": "2023-12-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Privacy Notice (eHealth-platform)",
+          "url": "https://www.ehealth.fgov.be/ehealthplatform/nl/privacy-notice",
+          "date": "2021-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Retrait de l'AR sur l'accès aux données de santé (ABSyM)",
+          "url": "https://www.absym-bvas.be/fr/actualite/retrait-de-lar-sur-lacces-aux-donnees-de-sante-confirmation-de-preoccupations-legitimes",
+          "date": "2026-04-27",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 54,
+      "summary": "The data protection authority acts on hospital cases, but in 2025 it imposed only four fines totalling 75,700 euros, and a court cut a hospital ransomware fine from 200,000 to 50,000 euros. In January 2026 a supplier flaw exposed identity data of about 71,000 hospital patients.",
+      "detail": [
+        "Belgian law adds health-data duties to the GDPR: Article 9 of the law of 30 July 2018 requires a list of who may access health data and binding confidentiality for them.",
+        "The Data Protection Authority fined a hospital 200,000 euros after a ransomware attack affecting 300,000 people. In September 2025 the Market Court cut the fine to 50,000 euros; the authority appealed to the Court of Cassation (annual report 2025).",
+        "In December 2025 the authority found a hospital broke GDPR security rules when a physiotherapist opened a patient's prenatal NIPT result, but issued a reprimand, not a fine (decision 209/2025). The authority received 1,216 breach notifications in 2025.",
+        "In January 2026 a cyberattack shut down AZ Monica in Antwerp. A security expert said a shared supplier exposed names, addresses and national register numbers of about 71,000 patients across hospitals (VRT)."
+      ],
+      "sources": [
+        {
+          "title": "Loi du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel (etaamb)",
+          "url": "https://etaamb.openjustice.be/fr/loi-du-30-juillet-2018_n2018040581.html",
+          "date": "2018-07-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Rapport annuel 2025 (Autorité de protection des données)",
+          "url": "https://www.autoriteprotectiondonnees.be/index.php/publications/rapport-annuel-2025.pdf",
+          "date": "2026-03-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Décision quant au fond 209/2025 du 18 décembre 2025 (Chambre Contentieuse, APD)",
+          "url": "https://autoriteprotectiondonnees.be/publications/decision-quant-au-fond-n0-209-2025.pdf",
+          "date": "2025-12-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ook bij 3 andere Vlaamse ziekenhuizen lag toegang tot patiëntengegevens open voor hackers (VRT NWS)",
+          "url": "https://www.vrt.be/vrtnws/nl/2026/01/14/ziekenhuizen-cyberaanval-impact/",
+          "date": "2026-01-14",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 54,
+      "summary": "Insurers may not receive genetic data or use genetic tests to predict future health, but the 2023 Health Data Agency law covers reuse for commercial as well as non-commercial purposes. A Belgian ban on selling health data beyond the GDPR was not verified.",
+      "detail": [
+        "Article 58 of the insurance law of 4 April 2014 says genetic data may not be communicated. Article 61 limits insurer medical exams to the current state of health and bars genetic analysis to predict future health.",
+        "The law of 14 March 2023 creating the Health Data Agency describes reuse of health data for commercial and non-commercial purposes, and sets no opt-out.",
+        "Health data processors must name the categories of staff with access and bind them to confidentiality (law of 30 July 2018, Article 9).",
+        "We found no Belgian rule on health data brokers, de-identified data sales or health advertising in apps beyond the GDPR, so the score stays in the lower half of the mixed band."
+      ],
+      "sources": [
+        {
+          "title": "Loi du 4 avril 2014 relative aux assurances, articles 58 et 61 (etaamb)",
+          "url": "https://etaamb.openjustice.be/fr/loi-du-04-avril-2014_n2014011239.html",
+          "date": "2014-04-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Wet van 14 maart 2023 houdende oprichting en organisatie van het Gezondheids(zorg)data-agentschap (etaamb)",
+          "url": "https://etaamb.openjustice.be/nl/wet-van-14-maart-2023_n2023041135.html",
+          "date": "2023-03-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Loi du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel (etaamb)",
+          "url": "https://etaamb.openjustice.be/fr/loi-du-30-juillet-2018_n2018040581.html",
+          "date": "2018-07-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 68,
+      "summary": "A national metahub indexes which regional hub holds a patient's documents, and electronic prescribing is mandatory for most outpatient prescriptions. Data stays decentralised and largely document-based, and the structured integrated record is planned for 2027 to 2029.",
+      "detail": [
+        "The eHealth platform's metahub records in which hubs or health vaults data on a patient can be found, together with consent, therapeutic links and exclusions. Data is not stored centrally; hospitals and hubs keep their own repositories.",
+        "Doctors, dentists, midwives and nurse specialists must prescribe medicines electronically for non-hospitalised patients, with exceptions for prescribers aged 64 or over on 1 January 2020, home visits and emergencies (RIZIV).",
+        "INAMI says data is still scattered across systems, regional vaults and hospitals. The Belgian Integrated Health Record will connect sources without a central file, with standards due by end 2026 and FHIR mandatory for new exchanges in 2028.",
+        "The eHealth platform head said in June 2026 that non-compliant software faces removal from the market from March 2029 (Medi-Sfeer)."
+      ],
+      "sources": [
+        {
+          "title": "Verwijzingsrepertorium (Metahub) (eHealth-platform)",
+          "url": "https://www.ehealth.fgov.be/ehealthplatform/nl/service-verwijzingsrepertorium-metahub",
+          "date": "2025-10-09",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Geneesmiddelen verplicht elektronisch voorschrijven (RIZIV)",
+          "url": "https://www.riziv.fgov.be/nl/thema-s/verzorging-kosten-en-terugbetaling/wat-het-ziekenfonds-terugbetaalt/geneesmiddelen/geneesmiddel-voorschrijven/geneesmiddelen-verplicht-elektronisch-voorschrijven",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "BIHR (Belgian Integrated Health Record) : un système d'information intégré pour des soins de qualité (INAMI)",
+          "url": "https://www.inami.fgov.be/fr/themes/esante/bihr-belgian-integrated-health-record-un-systeme-d-information-integre-pour-des-soins-de-qualite",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "E-gezondheid: het plan wordt al uitgevoerd zonder te wachten op de formele goedkeuring (Medi-Sfeer)",
+          "url": "https://www.medi-sfeer.be/nl/nieuws/e-health/e-gezondheid-het-plan-wordt-al-uitgevoerd-zonder-te-wachten-op-de-formele-goedkeuring.html",
+          "date": "2026-06-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 62,
+      "summary": "With consent and a therapeutic relationship, a clinician can reach relevant data held in hospitals, labs and imaging centres across Belgium, with emergency access in law. No official usage figure was found, and what a clinician sees depends on profession and on what providers publish.",
+      "detail": [
+        "The 2019 Quality Law limits access to professionals with consent and a therapeutic relationship, and Article 39 allows access to relevant data in an emergency when consent is unclear.",
+        "The eHealth platform head writes that GPs, specialists and hospitals that prove a therapeutic relationship can access relevant data available in all Belgian hospitals, clinical labs and imaging centres, with extramural vaults holding medication schemes, vaccinations and allergies.",
+        "Access depends on the type of provider. The data protection authority cited the eHealth access matrix as a good example of granular access in its December 2025 hospital decision.",
+        "The metahub only points to where documents sit; it does not hold or merge the data itself."
+      ],
+      "sources": [
+        {
+          "title": "Loi du 22 avril 2019 relative à la qualité de la pratique des soins de santé (Justel)",
+          "url": "https://www.ejustice.just.fgov.be/eli/loi/2019/04/22/2019041141/justel",
+          "date": "2019-04-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Verwijzingsrepertorium (Metahub) (eHealth-platform)",
+          "url": "https://www.ehealth.fgov.be/ehealthplatform/nl/service-verwijzingsrepertorium-metahub",
+          "date": "2025-10-09",
+          "publisherClass": "official"
+        },
+        {
+          "title": "L'échange d'informations électroniques dans les soins de santé en Belgique (Frank Robben, eHealth platform head, personal site)",
+          "url": "https://www.frankrobben.be/fr/lechange-dinformations-electroniques-dans-les-soins-de-sante-en-belgique/",
+          "date": "2025-03-11",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Décision quant au fond 209/2025 du 18 décembre 2025 (Chambre Contentieuse, APD)",
+          "url": "https://autoriteprotectiondonnees.be/publications/decision-quant-au-fond-n0-209-2025.pdf",
+          "date": "2025-12-18",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Secondary use runs through authorisations of the Information Security Committee, which lists 1,093 public deliberations, recent ones largely on pseudonymised data. There is no individual consent or general opt-out for secondary use today; the EHDS opt-out arrives from 2029.",
+      "detail": [
+        "The Information Security Committee, created by the law of 5 September 2018, authorises disclosures of social security and health data. It is not the GDPR supervisor; its deliberations are reported to Parliament.",
+        "The eHealth platform lists 1,093 deliberations, recent ones mostly on pseudonymised health data for projects and registries. This counts as a permit body, a public register and pseudonymisation safeguards, placing the cell at 49 in the 40 to 50 band.",
+        "The 2023 Health Data Agency law sets up a contact point and governance for reuse, but no opt-out.",
+        "Clinical research on people needs free, informed, written consent that can be withdrawn at any time, and a favourable ethics committee opinion (law of 7 May 2004, Articles 5, 6 and 10)."
+      ],
+      "sources": [
+        {
+          "title": "Het IVC in het kort (Kruispuntbank van de Sociale Zekerheid)",
+          "url": "https://www.ksz-bcss.fgov.be/nl/page/ivc-in-het-kort",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Beraadslagingen van het Informatieveiligheidscomité (eHealth-platform)",
+          "url": "https://www.ehealth.fgov.be/ehealthplatform/nl/sectoraal-comite/documenten",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Wet van 14 maart 2023 houdende oprichting en organisatie van het Gezondheids(zorg)data-agentschap (etaamb)",
+          "url": "https://etaamb.openjustice.be/nl/wet-van-14-maart-2023_n2023041135.html",
+          "date": "2023-03-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Loi du 7 mai 2004 relative aux expérimentations sur la personne humaine (Justel)",
+          "url": "https://www.ejustice.just.fgov.be/eli/loi/2004/05/07/2004022376/justel",
+          "date": "2004-05-07",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "EU device law and the AI Act govern clinical AI; rules for AI in medical devices apply from 2 August 2028. Belgium's 2022 AI plan has a health objective, but no binding national clinical AI rules were found.",
+      "detail": [
+        "The AI Omnibus entered into force on 27 July 2026. High-risk rules apply from 2 December 2027 for Annex III systems and from 2 August 2028 for AI embedded in regulated products (European Commission).",
+        "The Commission's 2026 country report notes Belgium's 2022 National convergence plan for AI with an objective on healthcare, and says AI adoption in healthcare remains limited and uneven. Six Belgian organisations joined the Network of AI-powered Advanced Medical Centres.",
+        "A strategy is not binding guidance, so no national addition is credited and the cell stays at the EU-only score of 50."
+      ],
+      "sources": [
+        {
+          "title": "AI Omnibus enters into force (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+          "date": "2026-07-27",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Digital Decade 2026 country report, Belgium, SWD(2026) 155 (European Commission)",
+          "url": "https://ec.europa.eu/newsroom/dae/redirection/document/128636",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "A federal metahub points to documents held in regional hubs and health vaults; e-prescribing is mandatory. GP data reaches others through extramural vaults. The structured BIHR record and EHDS formats are due from 2027 to 2031.",
+  "laws": [
+    {
+      "name": "Loi du 22 août 2002 relative aux droits du patient",
+      "level": "National",
+      "year": "2002",
+      "what": "Right to a kept file, consultation within 15 days, free first copy on paper or electronically.",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/2002/08/22/2002022737/justel"
+    },
+    {
+      "name": "Loi du 22 avril 2019 relative à la qualité de la pratique des soins de santé",
+      "level": "National",
+      "year": "2019",
+      "what": "Access to others' records needs consent and a therapeutic link; emergency access; patients can see who accessed.",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/2019/04/22/2019041141/justel"
+    },
+    {
+      "name": "Loi du 30 juillet 2018 relative à la protection des données",
+      "level": "National",
+      "year": "2018",
+      "what": "Implements the GDPR; extra duties for health data: named access categories and confidentiality.",
+      "url": "https://etaamb.openjustice.be/fr/loi-du-30-juillet-2018_n2018040581.html"
+    },
+    {
+      "name": "Loi du 4 avril 2014 relative aux assurances (articles 58 and 61)",
+      "level": "National",
+      "year": "2014",
+      "what": "Genetic data may not be given to insurers; no genetic tests to predict future health.",
+      "url": "https://etaamb.openjustice.be/fr/loi-du-04-avril-2014_n2014011239.html"
+    },
+    {
+      "name": "Wet van 14 maart 2023 Gezondheids(zorg)data-agentschap",
+      "level": "National",
+      "year": "2023",
+      "what": "Creates the Health Data Agency to facilitate commercial and non-commercial reuse of health data.",
+      "url": "https://etaamb.openjustice.be/nl/wet-van-14-maart-2023_n2023041135.html"
+    },
+    {
+      "name": "Decreet van 8 juli 2022 tot oprichting van het platform Vitalink",
+      "level": "Regional",
+      "year": "2022",
+      "what": "Flemish sharing platform; consent required for sharing, revocable; research gets pseudonymised data only.",
+      "url": "https://codex.vlaanderen.be/PrintDocument.ashx?id=1037408&datum=&geannoteerd=true&print=false"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Patient summaries and e-prescriptions from March 2029, labs and imaging 2031; secondary-use opt-out.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-01-14",
+      "headline": "Cyberattack on Antwerp hospital AZ Monica; supplier exposed about 71,000 patient records",
+      "source": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/01/14/ziekenhuizen-cyberaanval-impact/",
+      "why": "Shows that supplier weaknesses can expose patients' identity data across several hospitals."
+    },
+    {
+      "date": "2026-03-02",
+      "headline": "INAMI launches MaSanté app for prescriptions, vaccinations and health data",
+      "source": "L'Avenir",
+      "url": "https://www.lavenir.net/actu/2026/03/02/lapplication-masante-pour-faciliter-lacces-de-chacun-a-ses-donnees-de-sante-DXP3KYUTNBAT5MIBP4EXLZHA6U/",
+      "why": "Puts patients' own records on their phone in one federal app."
+    },
+    {
+      "date": "2026-04-21",
+      "headline": "Government withdraws 2024 royal decree on access to health data",
+      "source": "Legalnews (Dewallens & partners)",
+      "url": "https://legalnews.be/medisch-pharma/toegang-tot-patientendossier-gewijzigd-door-het-kb-van-2-april-2026-dewallens-partners/",
+      "why": "Consent rules for record sharing must be rewritten, now with the EHDS in view."
+    },
+    {
+      "date": "2026-06-04",
+      "headline": "eHealth chief says integrated record plan runs before formal approval",
+      "source": "Medi-Sfeer",
+      "url": "https://www.medi-sfeer.be/nl/nieuws/e-health/e-gezondheid-het-plan-wordt-al-uitgevoerd-zonder-te-wachten-op-de-formele-goedkeuring.html",
+      "why": "Software that cannot share structured data may be removed from 2029."
+    },
+    {
+      "date": "2026-06-23",
+      "headline": "Brussels hub accuses federal level of centralising regional health networks",
+      "source": "Le Spécialiste",
+      "url": "https://www.lespecialiste.be/fr/actualites/e-health/abrumet-soupconne-une-volonte-federale-de-centraliser-les-reseaux-de-sante.html",
+      "why": "Hub disputes affect which results patients can see in the federal app."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

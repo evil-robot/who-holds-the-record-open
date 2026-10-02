@@ -1,0 +1,390 @@
+{
+  "iso3": "CHL",
+  "name": "Chile",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Chilean law gives patients a free, portable copy of their record, but records stay provider by provider and the new data law may slip.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "Ley 20.584 Article 13 gives patients a free, complete copy of their record in a structured, portable format, but only on request to each provider. The national Portal Paciente shows vaccines, GES guarantees and waiting lists, not the clinical record.",
+      "detail": [
+        "Article 13 of Ley 20.584 lists the patient, a legal representative or heirs first among those who may receive the record. They may ask for a complete copy, free and without undue delay, in a structured, commonly used format that can be moved to another provider.",
+        "The law ties that format to a technical norm issued by the Ministry of Health (MINSAL). Whether that norm has been issued was not verified, because MINSAL pages could not be opened. The article sets no fixed number of days.",
+        "Providers must keep the record at least 15 years (Ley 20.584 Article 13; Decreto 41 Article 11). Ley 19.628 Article 12 also gives a general right to know what data a holder keeps and who receives it.",
+        "MINSAL's Portal Paciente, entered with the government Clave Unica login, describes access to vaccination history, GES guarantees and waiting lists. The e-prescription system has a patient module showing prescriptions and dispensing. Neither shows notes, labs or imaging reports.",
+        "Scored on the statutory-right anchor: 45 base, -5 no fixed deadline (\"without undue delay\" is not a day count), +5 portal documented officially. The +5 for a structured, portable format is not credited, because the MINSAL technical norm that defines the format was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Ley 20.584, derechos y deberes de los pacientes, texto vigente (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1039348",
+          "date": "2012-04-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 41 de 2012, reglamento sobre fichas clinicas (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1046753",
+          "date": "2012-12-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Portal Paciente, Ministerio de Salud",
+          "url": "https://portalpaciente.minsal.cl/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Avances y desafios de la Receta Electronica del Minsal (Ehealth Reporter)",
+          "url": "https://ehealthreporter.com/avances-y-desafios-de-la-receta-electronica-del-minsal/",
+          "date": "2025-12-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 35,
+      "summary": "The law bars staff not involved in care from the record and makes providers log who opens it, but patients have no opt-out, consent switch or visible log. Scored at the top of the lowest band because no national sharing system is live.",
+      "detail": [
+        "Ley 20.584 Article 13 says third parties not directly involved in a person's care, including the provider's own uninvolved clinical and administrative staff, have no access to the record.",
+        "Decreto 41 of 2012 Article 9 requires every record system to log the dates and people who accessed each record. Nothing found shows patients can see or request that log.",
+        "Ley 21.668 (May 2024) added a route for treating providers and professionals directly involved in care to receive the data essential for continuity of care. The text sets no patient consent step for this route.",
+        "No national record exchange is live, so default sharing is limited in practice. That places Chile at the top of the band for records with no individual choice and no patient-visible log."
+      ],
+      "sources": [
+        {
+          "title": "Ley 20.584, derechos y deberes de los pacientes, texto vigente (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1039348",
+          "date": "2012-04-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 21.668, interoperabilidad de las fichas clinicas (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1203827",
+          "date": "2024-05-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 41 de 2012, reglamento sobre fichas clinicas (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1046753",
+          "date": "2012-12-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 19.628, proteccion de la vida privada, texto vigente (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=141599",
+          "date": "1999-08-28",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 40,
+      "summary": "Health data are sensitive in law, but Chile still runs on its 1999 data law with no regulator, and a September 2026 bill would delay the new law to December 2027. Two major hospital breaches hit in the past year.",
+      "detail": [
+        "Ley 20.584 Article 12 makes everything in the clinical record sensitive data under Ley 19.628. Ley 19.628 Article 10 bars processing sensitive data without a law, consent, or a health-benefit purpose. Enforcement today is by court action (Article 16), with no data protection authority.",
+        "Ley 21.719 (13 December 2024) rewrites the law, creates a Personal Data Protection Agency, requires breach reporting (Article 14 sexies) and sets fines up to 20,000 UTM for the most serious infractions (Article 35 of Ley 19.628 as amended). Its statutory start date is 1 December 2026.",
+        "On 1 September 2026 the government filed a Senate bill to move that date to 1 December 2027 because the agency is not yet in place. As of 15 September it sat in Senate committees without a vote.",
+        "In December 2025 SERNAC questioned Clinica Davila after about 250 GB was stolen, reportedly including records and HIV results. In September 2026 Hospital Clinico Universidad de Chile filed a criminal complaint after imaging results, names and RUT numbers were published online."
+      ],
+      "sources": [
+        {
+          "title": "Ley 19.628, proteccion de la vida privada, texto vigente (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=141599",
+          "date": "1999-08-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 19.628, version que rige desde el 1 de diciembre de 2026 (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=141599&idVersion=2026-12-01",
+          "date": "2024-12-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Prorroga de la Ley de Datos abre un ano clave para que empresas preparen su cumplimiento (Publimetro)",
+          "url": "https://www.publimetro.cl/tecnologia/2026/09/15/prorroga-de-la-ley-de-datos-abre-un-ano-clave-para-que-empresas-preparen-su-cumplimiento/",
+          "date": "2026-09-15",
+          "publisherClass": "news"
+        },
+        {
+          "title": "SERNAC oficia a Clinica Davila tras incidente de ciberseguridad",
+          "url": "https://www.sernac.cl/portal/604/w3-article-87923.html",
+          "date": "2025-12-24",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 42,
+      "summary": "Current law allows sensitive data to be processed only with consent, a legal basis or for health benefits, and blocks commercial use on request. The stronger ban on health data gathered by insurers, employers and others waits for Ley 21.719.",
+      "detail": [
+        "Ley 19.628 Article 10 limits processing of sensitive data to cases a law allows, the person's consent, or determining health benefits. Article 12 lets a person demand blocking or deletion where data are used for commercial communications they did not want.",
+        "Ley 20.584 Article 13 confines the record to listed parties (the patient, authorised third parties, courts, health authorities, treating professionals). Employers and marketers are not on the list.",
+        "Ley 21.719 Article 16 bis will ban processing or transferring health and biological data collected in work, school, sport, insurance or security settings unless a law allows it. It applies from 1 December 2026, or later if the delay bill passes.",
+        "SERNAC treats data security as a consumer right, as shown in its Clinica Davila inquiry. No rule on health data brokers, health apps or sales of de-identified data was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley 19.628, proteccion de la vida privada, texto vigente (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=141599",
+          "date": "1999-08-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 20.584, derechos y deberes de los pacientes, texto vigente (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1039348",
+          "date": "2012-04-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 21.719, proteccion y tratamiento de datos personales (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1209272",
+          "date": "2024-12-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "SERNAC oficia a Clinica Davila tras incidente de ciberseguridad",
+          "url": "https://www.sernac.cl/portal/604/w3-article-87923.html",
+          "date": "2025-12-24",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 38,
+      "summary": "Ley 21.668 requires providers to make records interoperable, but the implementing regulation is not in force: Decreto 41 on BCN is unchanged since 2012. MINSAL calls a shared national record a goal for 2030; e-prescriptions reached about 2 million patients by September 2025.",
+      "detail": [
+        "Ley 21.668 (28 May 2024) made providers responsible for interoperability and gave MINSAL 18 months to update the records regulation. That period ended around November 2025. BCN still shows Decreto 41 of 2012 in its original version, and no new regulation was found.",
+        "In September 2026 MINSAL launched a digital transformation team with seven projects, including a Shared Clinical Record (Historia Clinica Compartida), a National Digital Prescription and a citizen portal. The stated aim is full interoperability by 2030.",
+        "Meganoticias reported in September 2026 that the minister described a record shared between primary and hospital care as a work line, giving no dates. The Clinic reported that public and private systems remain far from interoperable.",
+        "Ehealth Reporter, citing MINSAL, reported 10 million e-prescriptions to 2 million patients by September 2025, against 80 to 100 million prescriptions a year. Next steps include links to primary care and records. MINSAL's own page could not be opened."
+      ],
+      "sources": [
+        {
+          "title": "Ley 21.668, interoperabilidad de las fichas clinicas (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1203827",
+          "date": "2024-05-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Un portal ciudadano e historia clinica compartida: los siete proyectos de la ministra Chomali (The Clinic)",
+          "url": "https://www.theclinic.cl/2026/09/02/un-portal-ciudadano-e-historia-clinica-compartida-los-siete-proyectos-con-los-que-la-ministra-chomali-busca-modernizar-el-sistema-de-salud-publico/",
+          "date": "2026-09-02",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Avances y desafios de la Receta Electronica del Minsal (Ehealth Reporter)",
+          "url": "https://ehealthreporter.com/avances-y-desafios-de-la-receta-electronica-del-minsal/",
+          "date": "2025-12-10",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Los cambios digitales que prepara el Minsal para la atencion primaria (Meganoticias)",
+          "url": "https://www.meganoticias.cl/nacional/532436-filas-consultorio-5-de-la-manana-cambios-digitales-minsal-atencion-primaria.html",
+          "date": "2026-09-24",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 35,
+      "summary": "Ley 21.668 gives treating professionals a legal right to the data essential for continuity of care, but no national exchange delivers it yet. Clinicians mostly see only their own provider's record.",
+      "detail": [
+        "Ley 20.584 Article 13(g), added by Ley 21.668, lets the individual provider and professionals directly involved in care receive the data essential for continuity of care. Article 13 also makes providers responsible for timely access when such a professional asks.",
+        "The law gives a technical route for patient-directed transfers: the receiving provider gets the details needed to reach the record remotely and extract what it needs.",
+        "In practice the shared record is a project. MINSAL's 2026 to 2030 agenda aims to consolidate a national shared record so no one has to repeat tests or medicines. Live cross-provider coverage was not found."
+      ],
+      "sources": [
+        {
+          "title": "Ley 20.584, derechos y deberes de los pacientes, texto vigente (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1039348",
+          "date": "2012-04-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 21.668, interoperabilidad de las fichas clinicas (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1203827",
+          "date": "2024-05-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Minsal fija hoja de ruta 2026-2030 con foco en acceso y digitalizacion (El Periodista)",
+          "url": "https://www.elperiodista.cl/2026/07/minsal-fija-hoja-de-ruta-2026-2030-con-foco-en-acceso-digitalizacion-y-fortalecimiento-de-red-publica/",
+          "date": "2026-07-29",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Los cambios digitales que prepara el Minsal para la atencion primaria (Meganoticias)",
+          "url": "https://www.meganoticias.cl/nacional/532436-filas-consultorio-5-de-la-manana-cambios-digitales-minsal-atencion-primaria.html",
+          "date": "2026-09-24",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Research on people needs prior, written, informed consent and approval by an accredited ethics committee under Ley 20.120. Ley 21.719 will allow public-interest research on health data without consent, and record-based research rules today were not verified.",
+      "detail": [
+        "Ley 20.120 Article 11 requires prior, express, free and informed consent for any scientific research on a human being. Decreto 114 Article 11 adds that it must be personal and in writing, recorded in a signed form.",
+        "Decreto 114 Article 10 requires a favourable report from an ethics committee accredited by the health authority. Ley 20.120 punishes research without authorisation with a three-year professional suspension. Ley 20.584 Article 21 says refusing research must not affect care.",
+        "Ley 21.719 Article 16 bis(c) will let health data be used without consent for historical, statistical or scientific purposes of public interest, with results published only in anonymised form.",
+        "How retrospective research on clinical records is handled today, and whether any register of data uses exists, was not verified. No opt-out route was found. Scored 50: base 40, +3 each for ethics committees, a misuse penalty, statutory secrecy of the record and a consent route, capped at 50."
+      ],
+      "sources": [
+        {
+          "title": "Ley 20.120, investigacion cientifica en el ser humano (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=253478",
+          "date": "2006-09-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 114 de 2011, reglamento de la Ley 20.120 (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1032919",
+          "date": "2011-11-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 20.584, derechos y deberes de los pacientes, texto vigente (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1039348",
+          "date": "2012-04-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 21.719, proteccion y tratamiento de datos personales (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1209272",
+          "date": "2024-12-13",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 30,
+      "summary": "Chile has no rules specific to clinical AI. A March 2026 decree brings oncology imaging software under device registration, with re-registration for major changes and a phase-in of up to 36 months, while the AI bill is still in the Senate.",
+      "detail": [
+        "Decreto Exento 25, published 19 March 2026, adds 39 device types to sanitary control by the Public Health Institute (ISP). Carey's summary lists software for processing, analysing and planning oncology images among them.",
+        "Registered devices need a new registration after relevant changes in design, manufacture or intended use. Most listed devices get 36 months to comply.",
+        "The AI bill (Boletin 16821-19) was in its second stage in the Senate in April 2026. Rules on transparency, data provenance or human oversight of clinical AI were not found.",
+        "Ley 21.719 Article 8 bis will give a right to human intervention and an explanation for automated decisions, once in force. Scored at the top of the band for no clinical-AI rules, credited for the software decree."
+      ],
+      "sources": [
+        {
+          "title": "ISP informa sobre nueva normativa que regula 39 dispositivos medicos (Instituto de Salud Publica)",
+          "url": "https://www.ispch.gob.cl/noticia/isp-informa-sobre-nueva-normativa-que-regula-39-dispositivos-medicos-incluidos-dispositivos-medicos-de-diagnostico-in-vitro/",
+          "date": "2026-03-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "MINSAL incorpora nuevos dispositivos medicos al regimen de control sanitario (Carey)",
+          "url": "https://www.carey.cl/minsal-incorpora-nuevos-dispositivos-medicos-al-regimen-de-control-sanitario",
+          "date": "2026-03-20",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "Inteligencia Artificial: especialistas debaten sobre nueva legislacion (Senado de Chile)",
+          "url": "https://www.senado.cl/comunicaciones/noticias/inteligencia-artificial-especialistas-de-la-industria-la-academia-y-sector",
+          "date": "2026-04-24",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley 21.719, proteccion y tratamiento de datos personales (BCN Ley Chile)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1209272",
+          "date": "2024-12-13",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "siloed",
+    "labs": "unknown",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Interoperability is law (Ley 21.668) but its regulation is not in force. E-prescription is national but partial. The patient portal shows vaccinations. A shared record is a 2030 goal; claims links were not researched.",
+  "laws": [
+    {
+      "name": "Ley 20.584 (derechos y deberes de los pacientes)",
+      "level": "National",
+      "year": "2012",
+      "what": "Confidential record kept 15 years; free, structured, portable copy for the patient on request.",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=1039348"
+    },
+    {
+      "name": "Ley 21.668 (interoperabilidad de las fichas clinicas)",
+      "level": "National",
+      "year": "2024",
+      "what": "Makes providers responsible for record interoperability; treating professionals get essential data for continuity.",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=1203827"
+    },
+    {
+      "name": "Ley 19.628 (proteccion de la vida privada)",
+      "level": "National",
+      "year": "1999",
+      "what": "Current data law; sensitive data need consent or a legal basis; enforced through the courts.",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=141599"
+    },
+    {
+      "name": "Ley 21.719 (proteccion de datos personales)",
+      "level": "National",
+      "year": "2024",
+      "what": "New data law, agency, breach reporting, fines to 20,000 UTM; due 1 December 2026, delay proposed.",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=1209272"
+    },
+    {
+      "name": "Decreto 41 de 2012 (reglamento sobre fichas clinicas)",
+      "level": "National",
+      "year": "2012",
+      "what": "Record content and storage rules; providers must log who accessed each record.",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=1046753"
+    },
+    {
+      "name": "Ley 20.120 (investigacion cientifica en el ser humano)",
+      "level": "National",
+      "year": "2006",
+      "what": "Written informed consent and ethics committee approval for research on people.",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=253478"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-30",
+      "headline": "University of Chile hospital sues after imaging results published online",
+      "source": "T13",
+      "url": "https://www.t13.cl/noticia/nacional/hospital-clinico-chile-querella-tras-ciberataque-filtracion-informacion-confidencial-30-9-2026",
+      "why": "Patient names, RUT numbers and exam results were exposed."
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Government bill would delay the new data protection law to December 2027",
+      "source": "Publimetro",
+      "url": "https://www.publimetro.cl/tecnologia/2026/09/15/prorroga-de-la-ley-de-datos-abre-un-ano-clave-para-que-empresas-preparen-su-cumplimiento/",
+      "why": "Patients would wait a further year for a regulator and breach reporting."
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Health ministry launches seven digital projects, including a shared clinical record",
+      "source": "The Clinic",
+      "url": "https://www.theclinic.cl/2026/09/02/un-portal-ciudadano-e-historia-clinica-compartida-los-siete-proyectos-con-los-que-la-ministra-chomali-busca-modernizar-el-sistema-de-salud-publico/",
+      "why": "A record that follows the patient is now a stated goal for 2030."
+    },
+    {
+      "date": "2025-12-24",
+      "headline": "Consumer agency questions Clinica Davila after 250 GB of patient data stolen",
+      "source": "SERNAC",
+      "url": "https://www.sernac.cl/portal/604/w3-article-87923.html",
+      "why": "Stolen files reportedly included clinical records and HIV results."
+    },
+    {
+      "date": "2025-12-10",
+      "headline": "National e-prescription system reaches 10 million prescriptions and adds controlled drugs",
+      "source": "Ehealth Reporter",
+      "url": "https://ehealthreporter.com/avances-y-desafios-de-la-receta-electronica-del-minsal/",
+      "why": "Patients can see their prescriptions online, but coverage is still a fraction."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

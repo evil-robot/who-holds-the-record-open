@@ -1,0 +1,360 @@
+{
+  "iso3": "SVN",
+  "name": "Slovenia",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Slovenia's zVEM portal shows patients their reports, prescriptions and an access log, but data flows to the central register without consent.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 66,
+      "summary": "The Patients' Rights Act gives a right to see and copy the record within five working days, and the national zVEM portal shows test results, prescriptions, referrals and appointments. Some providers still send less than they should, so the portal is not the full chart.",
+      "detail": [
+        "Article 41 of the Patients' Rights Act (ZPacP) gives patients the right to view and copy their records immediately or within five working days. Providers may charge material costs of copying. Disputes go to the Information Commissioner.",
+        "The zVEM portal and app show test results, prescriptions, referrals, appointment dates and sick notes. NIJZ reported over 700,000 registered users in August 2026, and over 900,000 counting linked persons.",
+        "Parents can see data for children under 15, and users can give digital authorisations to others.",
+        "eZdravje says sending documents to the central register is an obligation for all providers, but some still send nothing or less than expected. How large that gap is was not verified."
+      ],
+      "sources": [
+        {
+          "title": "41. clen ZPacP: Nacin seznanitve z zdravstveno dokumentacijo (zakonodaja.com)",
+          "url": "https://zakonodaja.com/zakon/zpacp/41-clen-nacin-seznanitve-z-zdravstveno-dokumentacijo",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Portal in mobilna aplikacija zVEM (NIJZ)",
+          "url": "https://nijz.si/informatika-v-zdravstvu/ezdravje/portal-in-mobilna-aplikacija-zvem-vase-zdravje-na-dosegu-roke/",
+          "date": "2026-08-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kateri izvajalci zdravstvene dejavnosti posredujejo podatke v CRPP? (eZdravje podpora)",
+          "url": "https://podpora.ezdrav.si/faq/kateri-izvajalci-zdravstvene-dejavnosti-posredujejo-podatke-v-crpp/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 60,
+      "summary": "Patients can block viewing of their Patient Data Summary for one provider or all providers and can see which institution opened their records. They cannot stop data going to the central register, and the log names institutions, not staff.",
+      "detail": [
+        "The 2015 amendment to the Health Data Collections Act (ZZPPZ-A) lets providers in Slovenia access central register data without the patient's consent. Access by providers abroad needs consent.",
+        "Patients may prohibit viewing of the Patient Data Summary, per provider or for all providers, by written statement or on the zVEM portal (not the app). The block cannot target one health worker, and name, EMSO and insurance number stay visible.",
+        "Every access is logged. The zVEM audit trail shows the institution, not the individual health worker; patients must ask the institution or complain to the Information Commissioner.",
+        "Other doctors see documents only with a valid referral, a treatment statement or patient consent, for up to 45 days after the referral expires."
+      ],
+      "sources": [
+        {
+          "title": "Zakon o spremembah in dopolnitvah ZZPPZ (ZZPPZ-A), Uradni list RS 47/2015",
+          "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2015-01-1933?sop=2015-01-1933",
+          "date": "2015-06-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Na kaksen nacin lahko prepovem vpogled v svoj Povzetek podatkov o pacientu? (eZdravje podpora)",
+          "url": "https://podpora.ezdrav.si/faq/na-kaksen-nacin-lahko-prepovem-vpogled-v-svoj-povzetek-podatkov-o-pacientu/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Na koga naj se obrnem za natancnejse podatke o vpogledih v svojo zdravstveno dokumentacijo? (eZdravje podpora)",
+          "url": "https://podpora.ezdrav.si/faq/na-koga-naj-se-obrnem-za-natancnejse-podatke-o-vpogledih-v-svojo-zdravstveno-dokumentacijo-ali-lahko-pridobim-poimenske-podatke-oseb-zdravstvenih-delavcev-ki-dostopajo-do-mojih-podatkov/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kateri zdravstveni delavci imajo vpogled v CRPP in pod kaksnimi pogoji? (eZdravje podpora)",
+          "url": "https://podpora.ezdrav.si/faq/kateri-zdravstveni-delavci-imajo-vpogled-v-crpp-in-pod-kaksnimi-pogoji/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 62,
+      "summary": "Health data is covered by the GDPR and the 2022 Personal Data Protection Act (ZVOP-2), enforced by the Information Commissioner. In January 2025 the Commissioner opened a priority inspection after patient records from Celje General Hospital were found in the trash.",
+      "detail": [
+        "ZVOP-2 (Uradni list RS 163/2022) supplements the GDPR in Slovenia and took effect 30 days after publication. The Information Commissioner is the supervisory body.",
+        "Under the Patients' Rights Act, the Commissioner is the appeal body when providers refuse access to records.",
+        "In January 2025, test reports, surgery lists, waiting lists and other health data of Celje General Hospital patients dating back to autumn 2022 were found in waste containers. The Commissioner opened an inspection with top priority.",
+        "No major Slovenian health-data cyber breach in the last 12 months was verified. The outcome of the Celje inspection was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Zakon o varstvu osebnih podatkov (ZVOP-2), Uradni list RS 163/2022",
+          "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-4187?sop=2022-01-4187",
+          "date": "2022-12-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Malomarno ravnanje: obcutljivi podatki bolnikov v smeteh (24ur)",
+          "url": "https://www.24ur.com/novice/slovenija/malomarno-ravnanje-obcutljivi-podatki-bolnikov-v-smeteh.html",
+          "date": "2025-01-15",
+          "publisherClass": "news"
+        },
+        {
+          "title": "41. clen ZPacP: Nacin seznanitve z zdravstveno dokumentacijo (zakonodaja.com)",
+          "url": "https://zakonodaja.com/zakon/zpacp/41-clen-nacin-seznanitve-z-zdravstveno-dokumentacijo",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 60,
+      "summary": "Commercial use of health data is limited by the GDPR and ZVOP-2, and the EU health data space will bar marketing and decisions that harm people from 2029. No Slovenia-specific ban on health data brokers or app data sales was verified.",
+      "detail": [
+        "Health data is special-category data under the GDPR, which ZVOP-2 supplements in Slovenia.",
+        "The EHDS regulation forbids using reused health data for marketing or decisions detrimental to individuals. Most secondary-use rules apply from March 2029.",
+        "No Slovenian law specific to data brokers or consumer health apps was verified."
+      ],
+      "sources": [
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Data protection (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Zakon o varstvu osebnih podatkov (ZVOP-2), Uradni list RS 163/2022",
+          "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-4187?sop=2022-01-4187",
+          "date": "2022-12-27",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 66,
+      "summary": "eZdravje links providers through a central patient register, e-prescriptions, e-referrals, e-booking and a vaccination register, built since 2008. Every provider must send documents, but some do not, so coverage is uneven.",
+      "detail": [
+        "eZdravje lists 17 applications, including eRecept, eNapotnica, eNarocanje, the CRPP register, the eRCO vaccination register, teleradiology and TeleKap. Rollout began in 2008; NIJZ has run it since December 2015.",
+        "CRPP first held outpatient reports and discharge letters. From 2018 it added physiotherapy, pathology, consultation, ultrasound and X-ray reports.",
+        "Since early 2026, health centres have moved patient messages from email to zVEM. N1 reported that in January 2026, 24 of 59 public health centres used it.",
+        "The European Commission publishes Slovenian notices for MyHealth@EU ePrescription and Patient Summary services. Start dates were not verified."
+      ],
+      "sources": [
+        {
+          "title": "eHealth (eZdravje)",
+          "url": "https://ezdrav.si/en/ehealth/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kateri izvajalci zdravstvene dejavnosti posredujejo podatke v CRPP? (eZdravje podpora)",
+          "url": "https://podpora.ezdrav.si/faq/kateri-izvajalci-zdravstvene-dejavnosti-posredujejo-podatke-v-crpp/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Elektronska komunikacija z zdravnikom po novem: kaj moram storiti (N1)",
+          "url": "https://n1info.si/novice/slovenija/elektronska-komunikacija-z-zdravnikom-po-novem-kaj-moram-storiti/",
+          "date": "2026-01-07",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Patient information notices: Slovenia (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/digital-health-and-care/electronic-cross-border-health-services/patient-information-notices-slovenia_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 68,
+      "summary": "The chosen GP sees the full central record, other doctors see it with a referral or consent, and emergency units get automatic access. Elsewhere a doctor can open an 8-hour emergency window, which is logged.",
+      "detail": [
+        "Only the patient's chosen personal physician has unrestricted access to CRPP documents. Other doctors need a valid referral, a treatment statement or patient consent.",
+        "The Patient Data Summary (chronic illness, allergies, vaccinations, major procedures, medicines) is visible to providers unless the patient blocks it.",
+        "Emergency services get access automatically. Other doctors can request emergency access for up to 8 hours, tied to their own ID and recorded in the audit trail.",
+        "Records that providers fail to send to CRPP stay out of view."
+      ],
+      "sources": [
+        {
+          "title": "Kateri zdravstveni delavci imajo vpogled v CRPP in pod kaksnimi pogoji? (eZdravje podpora)",
+          "url": "https://podpora.ezdrav.si/faq/kateri-zdravstveni-delavci-imajo-vpogled-v-crpp-in-pod-kaksnimi-pogoji/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Na kaksen nacin lahko zdravnik pridobi dostop do dokumentacije v izrednih primerih? (eZdravje podpora)",
+          "url": "https://podpora.ezdrav.si/faq/na-kaksen-nacin-lahko-zdravnik-pridobi-dostop-do-dokumentacije-v-izrednih-primerih/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Zakon o spremembah in dopolnitvah ZZPPZ (ZZPPZ-A), Uradni list RS 47/2015",
+          "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2015-01-1933?sop=2015-01-1933",
+          "date": "2015-06-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 45,
+      "summary": "ZVOP-2 allows research reuse when another law permits it or the person has not prohibited it; professional secrets need written consent. A central way to register that prohibition was not verified, and the national health data access body is still being built.",
+      "detail": [
+        "Article 69 of ZVOP-2 allows research reuse if another law permits it, or if the person has not prohibited research use. Data that is a professional secret needs written consent.",
+        "Researchers must give the data controller a full research description, including purpose, security measures and whether they want pseudonymised or anonymised data.",
+        "NIJZ leads the SI-SUD project (December 2023 to November 2026) to set up SI-HDAB, the national health data access body under the EHDS. It says health data sources lack uniform metadata.",
+        "Under the EHDS, people will get a simple, reversible opt-out from secondary use."
+      ],
+      "sources": [
+        {
+          "title": "Zakon o varstvu osebnih podatkov (ZVOP-2), Uradni list RS 163/2022",
+          "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-4187?sop=2022-01-4187",
+          "date": "2022-12-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Podpora institucijam za dostop do zdravstvenih podatkov v Sloveniji (NIJZ)",
+          "url": "https://nijz.si/projekti/podpora-institucijam-za-dostop-do-zdravstvenih-podatkov-v-sloveniji/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device law and the AI Act, which Slovenia implemented with a national law in force since 21 November 2025. That law names authorities but adds no new duties, and AI Act rules for medical devices start 2 August 2028.",
+      "detail": [
+        "ZIUDHPUI (Uradni list RS 85/2025) designates national authorities for the EU AI Act. It names the medicines and medical devices agency JAZMP as notifying authority for AI in products under the EU device regulations.",
+        "A law firm review notes that the act creates no new substantive obligations; those come from the EU regulation.",
+        "After the AI Omnibus, which entered into force on 27 July 2026, high-risk rules for AI in medical devices apply from 2 August 2028.",
+        "No Slovenian binding guidance on AI in clinical care was verified."
+      ],
+      "sources": [
+        {
+          "title": "Zakon o izvajanju uredbe (EU) o dolocitvi harmoniziranih pravil o umetni inteligenci (ZIUDHPUI), Uradni list RS 85/2025",
+          "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3035/zakon-o-izvajanju-uredbe-eu-o-dolocitvi-harmoniziranih-pravil-o-umetni-inteligenci-ziudhpui",
+          "date": "2025-11-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Kaj prinasa Zakon o izvajanju Akta o umetni inteligenci? (Jadek & Pensa)",
+          "url": "https://www.jadek-pensa.si/kaj-prinasa-zakon-o-izvajanju-akta-o-umetni-inteligenci/",
+          "date": "2025-12-05",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "AI Act: regulatory framework for AI (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "date": "2026-08-03",
+          "publisherClass": "intergov"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "GPs, e-prescriptions and e-referrals run on national eZdravje services. All providers must send documents to CRPP but some do not. Claims linkage was not verified. A research access body is in development.",
+  "laws": [
+    {
+      "name": "Patients' Rights Act (Zakon o pacientovih pravicah, ZPacP)",
+      "level": "National",
+      "year": "2008",
+      "what": "Right to view and copy records within five working days; Information Commissioner hears access disputes.",
+      "url": "https://zakonodaja.com/zakon/zpacp/41-clen-nacin-seznanitve-z-zdravstveno-dokumentacijo"
+    },
+    {
+      "name": "Health Data Collections Act amendment (ZZPPZ-A)",
+      "level": "National",
+      "year": "2015",
+      "what": "Sets up eZdravje and the CRPP register; patients may block viewing of their Patient Data Summary.",
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2015-01-1933?sop=2015-01-1933"
+    },
+    {
+      "name": "Personal Data Protection Act (ZVOP-2)",
+      "level": "National",
+      "year": "2022",
+      "what": "Supplements the GDPR; Article 69 sets conditions for research reuse, including a right to prohibit it.",
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-4187?sop=2022-01-4187"
+    },
+    {
+      "name": "Act implementing the EU AI Regulation (ZIUDHPUI)",
+      "level": "National",
+      "year": "2025",
+      "what": "Names AI Act authorities; JAZMP is notifying authority for AI in medical devices.",
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3035/zakon-o-izvajanju-uredbe-eu-o-dolocitvi-harmoniziranih-pravil-o-umetni-inteligenci-ziudhpui"
+    },
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "EU data protection law applicable since 25 May 2018; health is special-category data.",
+      "url": "https://commission.europa.eu/law/law-topic/data-protection_en"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Patient summaries and e-prescriptions from 2029; opt-out from secondary use; bans marketing use.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "EU Artificial Intelligence Act (EU) 2024/1689",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "Risk-based AI rules; high-risk duties for AI in medical devices from 2 August 2028.",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-05",
+      "headline": "Slovenia's AI Act implementing law in force, naming national supervisors",
+      "source": "Jadek & Pensa",
+      "url": "https://www.jadek-pensa.si/kaj-prinasa-zakon-o-izvajanju-akta-o-umetni-inteligenci/",
+      "why": "Sets who oversees AI, including AI used in medical devices."
+    },
+    {
+      "date": "2026-01-07",
+      "headline": "Email to GPs to be replaced by messaging in the zVEM portal",
+      "source": "N1",
+      "url": "https://n1info.si/novice/slovenija/elektronska-komunikacija-z-zdravnikom-po-novem-kaj-moram-storiti/",
+      "why": "Patient requests for prescriptions and referrals move to one logged national channel."
+    },
+    {
+      "date": "2026-03-03",
+      "headline": "zVEM passes 580,000 registered users as digital help points open",
+      "source": "Ljubljanske novice",
+      "url": "https://ljnovice.si/2026/03/03/dobro-je-vedeti-zvem-nov-nacin-komuniciranja-z-zdravniki/",
+      "why": "In-person help points aim to bring people without digital skills into the portal."
+    },
+    {
+      "date": "2026-07-03",
+      "headline": "Phishing emails impersonate the Association of Health Institutions of Slovenia",
+      "source": "Slo24",
+      "url": "https://slo24.si/kibernetski-napad-na-zdravstveno-zdruzenje/",
+      "why": "Credential theft attempts aimed at health sector staff put systems holding patient data at risk."
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "NIJZ reports over 700,000 registered zVEM users",
+      "source": "NIJZ",
+      "url": "https://nijz.si/informatika-v-zdravstvu/ezdravje/portal-in-mobilna-aplikacija-zvem-vase-zdravje-na-dosegu-roke/",
+      "why": "Shows how many people now see their own records online."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

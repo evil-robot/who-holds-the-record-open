@@ -1,0 +1,384 @@
+{
+ "iso3": "ARE",
+ "name": "United Arab Emirates",
+ "region": "Middle East",
+ "controlModel": "Shared",
+ "headline": "Each emirate runs its own shared record with near-universal reach, but patient copy rights and opt-outs come from emirate regulators, not federal law.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "No federal law gives patients a right to a copy of their record; the right sits in Abu Dhabi and Dubai regulator standards. Three government portals show part of the record by region, which lifts the cell to the top of its band (35) and no further.",
+   "detail": [
+    "Federal Law No. 2 of 2019 on ICT in health sets confidentiality, a central exchange and 25-year retention, but none of its 31 articles gives the patient a right to see or copy the record. The general privacy law, Decree-Law 45 of 2021, does not apply to health data that has its own law (Article 2).",
+    "Abu Dhabi's 2020 DOH privacy standard says that, except in certain circumstances, patients have the right to review and obtain a copy of their records. Dubai's 2022 DHA policy grants a subject access request for a copy, answered within one month. No federal equivalent for the Northern Emirates was opened.",
+    "Abu Dhabi residents see Malaffi data in the Sahatna app: lab and microbiology results, radiology reports, visits and e-prescriptions, but only from Abu Dhabi facilities connected to Malaffi. MOHAP's Smart Patient Portal shows lab tests, radiology reports, documents, medicines, vaccinations and allergies.",
+    "Dubai's DHA app shows appointment history, lab results and medications. Whether it shows records from private facilities through NABIDH was not verified. No portal offers machine-readable export, and no official figure on portal use was found."
+   ],
+   "sources": [
+    {
+     "title": "DOH Standard on Patient Healthcare Data Privacy (Department of Health Abu Dhabi, hosted by Malaffi)",
+     "url": "https://staticcdn.malaffi.ae/wpblobe9e5523f25/2021/02/2020-09-15-DOH-Standard-on-Patient-Healthcare-Data-Privacy-for-publication-2.pdf",
+     "date": "2020-09-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Policy for Data and Health Information Protection and Confidentiality (Dubai Health Authority)",
+     "url": "https://dha.gov.ae/uploads/082022/Health%20Data%20Protection%20and%20Confidentiality%20Policy_EN2022810559.pdf",
+     "date": "2022-08-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sahatna App FAQ (Department of Health Abu Dhabi)",
+     "url": "https://sahatna-app.doh.gov.ae/en/faqs/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Smart Patient Portal (MOHAP, Internet Archive copy of 22 Jan 2026)",
+     "url": "https://web.archive.org/web/20260122171056/https://mohap.gov.ae/en/w/smart-patient-portal",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 48,
+   "summary": "Each emirate has a different rule: Riayati lets Northern Emirates patients opt out and promises access notices, Dubai's NABIDH takes opt-outs by signed form, and Abu Dhabi's Malaffi makes participation universal. The blend sits mid-band at 48.",
+   "detail": [
+    "Riayati's 2020 policy uploads every record without consent. Caregivers can view it unless the patient opts out for one facility or all, at the facility or in the MOHAP portal. Riayati promises a notice each time a facility opens the record, but whether this works in practice was not verified.",
+    "MOHAP keeps access after any opt-out, for planning, surveillance, statistics and research.",
+    "In Dubai, upload to NABIDH needs no consent, but viewing needs a general consent valid one year after the last visit. To opt out, the patient signs a form sent to Nabidh.optout@dha.gov.ae. Data still flows in, anonymised. Insurance and public health portals are exempt. A patient-visible access log was not found.",
+    "Abu Dhabi's 2020 HIE policy makes patient participation in Malaffi mandatory and authorises sharing without consent where consent is unavailable. The DOH privacy standard mentions 'selective disclosure', but no Malaffi opt-out route was found on official pages."
+   ],
+   "sources": [
+    {
+     "title": "Riayati Healthcare Data Confidentiality and Privacy Policy RYT-PGM-POL-003 v1.2 (MOHAP, Internet Archive copy of 15 Apr 2025)",
+     "url": "https://web.archive.org/web/20250415110215/https://mohap.gov.ae/documents/20117/590019/Riayati_Confidentiality_and_data_privacy_policy_V1.2.pdf/114cf9a6-69d8-32a1-53e7-6ef447d1a7f8",
+     "date": "2020-06-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Standards for Health Information Consent and Access Control (Dubai Health Authority)",
+     "url": "https://dha.gov.ae/uploads/012025/Standards%20for%20Consnet%20and%20Access%20Control2025129762.pdf",
+     "date": "2025-01-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "DOH Policy on the Abu Dhabi Health Information Exchange (Department of Health Abu Dhabi)",
+     "url": "https://www.doh.gov.ae/-/media/A78104416DF2440E89AC90FB75F11055.ashx",
+     "date": "2020-04-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "DOH Standard on Patient Healthcare Data Privacy (Department of Health Abu Dhabi, hosted by Malaffi)",
+     "url": "https://staticcdn.malaffi.ae/wpblobe9e5523f25/2021/02/2020-09-15-DOH-Standard-on-Patient-Healthcare-Data-Privacy-for-publication-2.pdf",
+     "date": "2020-09-16",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 50,
+   "summary": "The 2019 health ICT law keeps health data in the UAE and fines unlawful export AED 500,000 to 700,000. But health data, and government bodies, fall outside the privacy law, the federal privacy regulator never became fully operational, and courts and health authorities can obtain records without consent.",
+   "detail": [
+    "Law 2 of 2019 requires confidentiality and bars storing or processing health data outside the UAE without an authority decision (Article 13). Regulators can fine providers AED 1,000 to 1,000,000 and suspend or cancel system licences (Article 25). Abu Dhabi's standard requires breaches to be reported to authorities within 24 hours.",
+    "Article 16 allows disclosure without consent to insurers, for research without identity, for public health, and on request of judicial authorities or a health authority.",
+    "Decree-Law 45 of 2021 excludes health data covered by its own law and government entities. Morgan Lewis wrote in June 2026 that its implementing regulations were still not issued and the Data Office never became fully operational; a new federal AI and Data Authority absorbed it on 14 June 2026.",
+    "A ransomware group claimed 450 million data points from American Hospital Dubai in June 2025 (Semafor). No published regulator decision on a health privacy breach was found."
+   ],
+   "sources": [
+    {
+     "title": "Federal Law No. 2 of 2019 on ICT in Health Fields (UAE Legislation portal, Internet Archive copy of 26 Nov 2025)",
+     "url": "https://web.archive.org/web/20251126033721/https://uaelegislation.gov.ae/en/legislations/1209/download",
+     "date": "2019-02-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE Legislation portal, Internet Archive copy of 7 Sep 2026)",
+     "url": "https://web.archive.org/web/20260907034008/https://www.uaelegislation.gov.ae/en/legislations/1972/download",
+     "date": "2021-09-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "UAE Establishes Federal Authority for Artificial Intelligence and Data (Morgan Lewis)",
+     "url": "https://www.morganlewis.com/pubs/2026/06/uae-establishes-federal-authority-for-artificial-intelligence-and-data",
+     "date": "2026-06-15",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Millions of patient records hacked in Dubai (Semafor)",
+     "url": "https://www.semafor.com/article/06/11/2025/millions-of-dubai-patient-records-hacked",
+     "date": "2025-06-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 56,
+   "summary": "The health ICT law bars non-health use of patient data without written consent, and Abu Dhabi's exchange policy bans commercial or marketing use. Rules for consumer health apps and data brokers were not found, and Malaffi is run by a commercial M42 company.",
+   "detail": [
+    "Article 16 of Law 2 of 2019: whoever handles patient information must keep it confidential and use it only for health purposes, unless the patient gives written approval. Publishing health advertising through the central system without a licence carries a fine of AED 100,000 to 200,000.",
+    "Abu Dhabi's HIE policy lists 'use for commercial gain or marketing purposes', sub-licensing, distribution to third parties and storage abroad as forbidden uses of Malaffi data.",
+    "The federal Consumer Protection Law bars suppliers from using consumer data for marketing (u.ae). No rule on health data brokers or on consumer health apps outside the health laws was found.",
+    "Malaffi is a DoH initiative operated by M42's Abu Dhabi Health Data Services, which also says its records give a foundation for research and AI-driven analytics. What data, if any, reaches commercial partners was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Federal Law No. 2 of 2019 on ICT in Health Fields (UAE Legislation portal, Internet Archive copy of 26 Nov 2025)",
+     "url": "https://web.archive.org/web/20251126033721/https://uaelegislation.gov.ae/en/legislations/1209/download",
+     "date": "2019-02-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "DOH Policy on the Abu Dhabi Health Information Exchange (Department of Health Abu Dhabi)",
+     "url": "https://www.doh.gov.ae/-/media/A78104416DF2440E89AC90FB75F11055.ashx",
+     "date": "2020-04-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Data protection laws (The Official Platform of the UAE Government, u.ae)",
+     "url": "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Malaffi reaches 3.5 billion clinical records (Malaffi)",
+     "url": "https://www.malaffi.ae/malaffi-reaches-3-5-billion-clinical-records-setting-a-new-standard-for-healthcare-innovation-in-abu-dhabi/",
+     "date": "2025-08-14",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 80,
+   "summary": "In June 2026 Malaffi connected 100% of Abu Dhabi hospitals and 3,144 facilities, with 4.2 billion records for 14 million patients; NABIDH links over 2,000 Dubai facilities. Riayati is the bridge, and a direct Malaffi to NABIDH link is still a plan.",
+   "detail": [
+    "Malaffi's June 2026 report lists 3,147 signed and 3,144 connected facilities, 94 EMR systems, 4.2 billion clinical records, 14 million unique patients and 56,192 users with access. Records cover diagnoses, labs, radiology, medicines, documents and immunisations.",
+    "DHA said in February 2026 that NABIDH holds more than 11 million unified records, connects nearly 60,000 clinicians and over 2,000 facilities. Dubai processed close to 50 million insurance claims in 2025; whether claims data joins the clinical record was not verified.",
+    "Riayati held 2.7 billion records for 11.6 million patients from over 3,850 facilities in October 2023, when Malaffi users gained access to Northern Emirates records.",
+    "Malaffi's FAQ says integration with NABIDH is a future plan. Its data sets include medications, lab results, radiology and clinical documents from all in-scope Abu Dhabi facilities."
+   ],
+   "sources": [
+    {
+     "title": "Malaffi Progress Report, June 2026 (Malaffi)",
+     "url": "https://www.malaffi.ae/malaffi-progress-report/",
+     "date": "2026-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Dubai Health Authority: enabling a future-ready health sector, interview (Economy Middle East)",
+     "url": "https://economymiddleeast.com/news/dubai-health-authority-enabling-a-future-ready-health-sector-interview/",
+     "date": "2026-02-09",
+     "publisherClass": "news"
+    },
+    {
+     "title": "DoH's Malaffi and MOHAP announce completion of latest phase of Riayati integration (Malaffi)",
+     "url": "https://www.malaffi.ae/dohs-malaffi-and-mohap-announce-the-completion-of-the-latest-phase-of-riayati-integration/",
+     "date": "2023-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Malaffi FAQ for end users: General (Malaffi, operated by M42's Abu Dhabi Health Data Services)",
+     "url": "https://www.malaffi.ae/faq-end-users/general/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 76,
+   "summary": "Clinicians in each emirate can open a shared record with labs, radiology images, medicines and documents, with break-the-glass access in emergencies. Cross-emirate views run through Riayati, and VIP flags, opt-outs and Dubai's consent rule limit some views.",
+   "detail": [
+    "Malaffi gives authorised users records from connected Abu Dhabi facilities, embedded in their own EMR, including radiology images and an AI risk profile. Malaffi reported adoption by over 65% of Abu Dhabi's doctors in 2023.",
+    "NABIDH requires patient consent to view and allows break-the-glass access only for physicians in direct emergency care, with notification and a logged reason. Opted-out records cannot be retrieved by break-the-glass.",
+    "Malaffi's FAQ says select Malaffi users can see records from Northern Emirates visits through Riayati. Riayati hides VIP-flagged records from providers entirely.",
+    "Clinician access to Dubai records from Abu Dhabi, and the reverse, depends on a planned Malaffi to NABIDH link (Malaffi FAQ)."
+   ],
+   "sources": [
+    {
+     "title": "Malaffi FAQ for end users: General (Malaffi, operated by M42's Abu Dhabi Health Data Services)",
+     "url": "https://www.malaffi.ae/faq-end-users/general/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Malaffi Media Center (Malaffi)",
+     "url": "https://www.malaffi.ae/media-center/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Standards for Health Information Consent and Access Control (Dubai Health Authority)",
+     "url": "https://dha.gov.ae/uploads/012025/Standards%20for%20Consnet%20and%20Access%20Control2025129762.pdf",
+     "date": "2025-01-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Riayati Healthcare Data Confidentiality and Privacy Policy RYT-PGM-POL-003 v1.2 (MOHAP, Internet Archive copy of 15 Apr 2025)",
+     "url": "https://web.archive.org/web/20250415110215/https://mohap.gov.ae/documents/20117/590019/Riayati_Confidentiality_and_data_privacy_policy_V1.2.pdf/114cf9a6-69d8-32a1-53e7-6ef447d1a7f8",
+     "date": "2020-06-11",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "The 2019 law allows research on patient data without consent if identity is not disclosed and research ethics are followed, and no research opt-out exists. Ethics committee review and the law's statutory confidentiality duty add two safeguard classes to a base of 40.",
+   "detail": [
+    "Article 16(2) of Law 2 of 2019 permits scientific and clinical research use without written approval, provided patients are not identified and research ethics are observed.",
+    "Riayati says consent is not needed to give de-identified data to MOHAP or, with its approval, to a research organisation, and research must not serve market intelligence or commercial promotion. A patient's opt-out does not stop MOHAP access for research.",
+    "Abu Dhabi's 2020 standard requires facility research ethics committees authorised by DoH to review human subject research, including research using identifiable private information.",
+    "Simmons & Simmons reported that the 2020 executive regulation lets data be kept beyond the retention period for research and public health. No public register of data uses was found."
+   ],
+   "sources": [
+    {
+     "title": "Federal Law No. 2 of 2019 on ICT in Health Fields (UAE Legislation portal, Internet Archive copy of 26 Nov 2025)",
+     "url": "https://web.archive.org/web/20251126033721/https://uaelegislation.gov.ae/en/legislations/1209/download",
+     "date": "2019-02-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Riayati Healthcare Data Confidentiality and Privacy Policy RYT-PGM-POL-003 v1.2 (MOHAP, Internet Archive copy of 15 Apr 2025)",
+     "url": "https://web.archive.org/web/20250415110215/https://mohap.gov.ae/documents/20117/590019/Riayati_Confidentiality_and_data_privacy_policy_V1.2.pdf/114cf9a6-69d8-32a1-53e7-6ef447d1a7f8",
+     "date": "2020-06-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "DOH Standard on Human Subject Research (Department of Health Abu Dhabi)",
+     "url": "https://www.doh.gov.ae/-/media/C07A10ADB6504312A601E3A514D43084.ashx",
+     "date": "2020-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "New regulation on the use of ICT in healthcare in the UAE (Simmons & Simmons)",
+     "url": "https://www.simmons-simmons.com/en/publications/ckcbolcc9l9s90a791x94jrz0/new-regulation-on-the-use-of-ict-in-healthcare-in-the-uae",
+     "date": "2020-07-07",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "ai": {
+   "score": 64,
+   "summary": "Decree-Law 38 of 2024 regulates AI-based products as medical devices and requires new approval after fundamental design changes. Abu Dhabi's October 2025 standard adds human oversight, disclosure to patients and an AI opt-out notice, but only for Abu Dhabi.",
+   "detail": [
+    "Decree-Law 38 of 2024 defines medical equipment to include operating software and products based on AI technology. Fundamental design changes void the marketing approval (Article 15); minor changes need EDE approval (Article 16).",
+    "DoH's Responsible AI Standard, effective October 2025, says AI systems must always function under human oversight, tell patients when AI contributes to decisions, inform them of a right to opt out where applicable, log changes, and not train on production data.",
+    "Dubai's 2021 DHA AI policy sets transparency and accountability duties with sanctions, according to the International Bar Association; the policy text itself was not opened.",
+    "No federal rule specific to generative AI in clinical care was found."
+   ],
+   "sources": [
+    {
+     "title": "Federal Decree-Law No. 38 of 2024 Governing Medical Products, Pharmacists and Pharmaceutical Establishments (UAE Legislation portal, Internet Archive copy of 7 Jan 2026)",
+     "url": "https://web.archive.org/web/20260107203406/https://uaelegislation.gov.ae/en/legislations/2751/download",
+     "date": "2024-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Responsible Artificial Intelligence (AI) Standard V1 (Department of Health Abu Dhabi)",
+     "url": "https://www.doh.gov.ae/-/media/Feature/Resources/Standards/2025/Responsible-AI-Standard-V1.ashx",
+     "date": "2025-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "How is AI in healthcare being regulated in the UAE? (International Bar Association)",
+     "url": "https://www.ibanet.org/ai-healthcare-regulation-uae",
+     "date": "2026-05-11",
+     "publisherClass": "law_firm"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "connected",
+  "labs": "connected",
+  "pharmacy": "connected",
+  "claims": "partial",
+  "publicHealth": "connected",
+  "research": "partial"
+ },
+ "journeyNote": "Malaffi, NABIDH and Riayati connect hospitals, clinics, labs and pharmacies within their emirates; Riayati bridges Abu Dhabi and the Northern Emirates. Claims run on separate insurance systems. Abu Dhabi builds disease registries from Malaffi.",
+ "laws": [
+  {
+   "name": "Federal Law No. 2 of 2019 on the Use of ICT in Health Fields",
+   "level": "National",
+   "year": "2019",
+   "what": "Confidentiality, central exchange, 25-year retention, health data kept in the UAE, fines and licence sanctions.",
+   "url": "https://web.archive.org/web/20251126033721/https://uaelegislation.gov.ae/en/legislations/1209/download"
+  },
+  {
+   "name": "Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data",
+   "level": "National",
+   "year": "2021",
+   "what": "General privacy law; excludes health data with its own law and government entities.",
+   "url": "https://web.archive.org/web/20260907034008/https://www.uaelegislation.gov.ae/en/legislations/1972/download"
+  },
+  {
+   "name": "Federal Decree-Law No. 38 of 2024 on Medical Products",
+   "level": "National",
+   "year": "2024",
+   "what": "Regulates medical devices including AI-based products; design changes need new approval.",
+   "url": "https://web.archive.org/web/20260107203406/https://uaelegislation.gov.ae/en/legislations/2751/download"
+  },
+  {
+   "name": "DOH Standard on Patient Healthcare Data Privacy (Abu Dhabi)",
+   "level": "State/Provincial",
+   "year": "2020",
+   "what": "Right to review and copy records; written consent for non-health use; 24-hour breach reporting.",
+   "url": "https://staticcdn.malaffi.ae/wpblobe9e5523f25/2021/02/2020-09-15-DOH-Standard-on-Patient-Healthcare-Data-Privacy-for-publication-2.pdf"
+  },
+  {
+   "name": "DOH Policy on the Abu Dhabi Health Information Exchange",
+   "level": "State/Provincial",
+   "year": "2020",
+   "what": "Mandatory universal participation in Malaffi; bans commercial and marketing use of exchange data.",
+   "url": "https://www.doh.gov.ae/-/media/A78104416DF2440E89AC90FB75F11055.ashx"
+  },
+  {
+   "name": "DHA Standards for Health Information Consent and Access Control (Dubai)",
+   "level": "State/Provincial",
+   "year": "2025",
+   "what": "Consent to view NABIDH, signed-form opt-out, break-the-glass rules for emergencies.",
+   "url": "https://dha.gov.ae/uploads/012025/Standards%20for%20Consnet%20and%20Access%20Control2025129762.pdf"
+  },
+  {
+   "name": "DoH Responsible AI Standard V1 (Abu Dhabi)",
+   "level": "State/Provincial",
+   "year": "2025",
+   "what": "Human oversight, disclosure to patients, AI opt-out notice, change logs for healthcare AI.",
+   "url": "https://www.doh.gov.ae/-/media/Feature/Resources/Standards/2025/Responsible-AI-Standard-V1.ashx"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-16",
+   "headline": "Health ministry plans AI to predict cancers from Riayati unified records",
+   "source": "Emarat Alyoum",
+   "url": "https://www.emaratalyoum.com/local-section/health/2026-01-16-1.2006697",
+   "why": "Federal records will be scanned to flag at-risk people; no consent step is described."
+  },
+  {
+   "date": "2026-02-09",
+   "headline": "Dubai's NABIDH passes 11 million unified records and 2,000 facilities",
+   "source": "Economy Middle East",
+   "url": "https://economymiddleeast.com/news/dubai-health-authority-enabling-a-future-ready-health-sector-interview/",
+   "why": "More Dubai patients have a record that treating clinicians can open."
+  },
+  {
+   "date": "2026-06-14",
+   "headline": "UAE creates federal AI and Data Authority, absorbing the Data Office",
+   "source": "Sharjah24",
+   "url": "https://sharjah24.ae/ar/Articles/2026/06/14/kmr15",
+   "why": "The body meant to enforce the privacy law never fully operated; this may change that."
+  },
+  {
+   "date": "2026-07-20",
+   "headline": "Abu Dhabi completes 12 disease registries built from Malaffi data",
+   "source": "ARN News Centre",
+   "url": "https://www.arnnewscentre.ae/en/news/uae/abu-dhabi-completes-12-digital-disease-registries-to-boost-early-diagnosis/",
+   "why": "Patient records now feed registries used for planning and research, with AI planned next."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

@@ -1,0 +1,400 @@
+{
+  "iso3": "CAN",
+  "name": "Canada",
+  "region": "Americas",
+  "controlModel": "Shared",
+  "headline": "Provinces grant record access and Quebec and Ontario allow blocking, but records stop at provincial borders and only 13% see core records online.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 50,
+      "summary": "Provincial laws give a right to a copy, and the largest provinces run portals with labs and medications. But in 2025 only 13% of adults could see test results, vaccines and medication history online, and Quebec holds results back 30 days.",
+      "detail": [
+        "Health records fall under provincial law. Ontario's PHIPA requires a custodian to answer an access request within 30 days, with one extension, and caps fees at reasonable cost recovery. The IPC says total time can run 30 to 60 days and complaints about fees or refusals go to it.",
+        "Provincial portals show part of the record. BC's Health Gateway has pharmacy records back to 1995, labs back to 2020, imaging since September 2023 and seven years of billed visits; CIHI says 5.4 million people have registered. Ontario's My Health Record shows labs and publicly funded medications.",
+        "Quebec's Carnet santé shows test and exam results only 30 days after they reach the doctor (La Presse). A court refused to suspend the rule in February 2026 but said the delay causes patients irreparable harm. A ministry document proposed ending it for lab results.",
+        "CIHI (July 2026) found 69% of adults have at least one type of electronic access, 52% can see lab results, but only 13% can see all three core elements. About 10 million adults (31%) have no electronic access. In a 10-country survey, Canadians used portals least.",
+        "No national portal, so the cell sits in the 40 to 50 band for a statutory right: base 45, minus 5 for the cost-recovery fee, plus 10 for an official figure on wide portal use (69%). Same regime and score as the United States; Canadians used portals least among 10 surveyed countries."
+      ],
+      "sources": [
+        {
+          "title": "Personal Health Information Protection Act, 2004 (Ontario e-Laws)",
+          "url": "https://www.ontario.ca/laws/statute/04p03",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Comment les Canadiens accèdent-ils aux services de santé numériques? (How Canadians access digital health services, CIHI)",
+          "url": "https://www.cihi.ca/fr/information-numerique-sur-la-sante-au-canada-mesure-de-lacces-et-de-lutilisation/le-point-de-vue-des-canadiens",
+          "date": "2026-07-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Gateway (Government of British Columbia)",
+          "url": "https://www2.gov.bc.ca/gov/content/health/managing-your-health/health-gateway",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Québec poursuivi pour son Carnet santé (Quebec sued over its Carnet santé, La Presse)",
+          "url": "https://www.lapresse.ca/actualites/2026-03-02/quebec-poursuivi-pour-son-carnet-sante.php",
+          "date": "2026-03-02",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 55,
+      "summary": "Control depends on the province. Quebec lets patients block named providers or categories from chosen items and shows an access log in Carnet santé, while Ontario cut its EHR blocks to whole repositories in February 2026 and gives logs only on request.",
+      "detail": [
+        "Quebec's health information law (in force 1 July 2024) lets anyone 14 or older restrict a named provider, or a category of providers, from specific items in their file. A restriction cannot block care where life is at risk. People can also refuse some uses in advance; a refusal yields only where law requires disclosure.",
+        "Quebec residents have a right to know who accessed their information, with date and time. Carnet santé, the provincial portal, shows medications, test results, imaging reports and billed services, and lists the providers who accessed the person's health information.",
+        "Ontario patients can ask Ontario Health to block their provincial EHR. Since 13 February 2026 the choice is one whole repository or all repositories; older item or provider blocks were widened. Clinicians can override a block in set circumstances for an 8-hour window.",
+        "Ontario law requires Ontario Health to log every view of EHR data. Patients can request those logs, plus consent directive and override logs, through a formal access request. There is no self-serve log.",
+        "Other provinces were not reviewed in depth. Ontario, the largest province, matches the UK regime (blocking plus logs on formal request), which sits in the 40 to 55 band. Quebec meets the 60 to 80 band, which lifts Canada to the top of the lower band, not out of it."
+      ],
+      "sources": [
+        {
+          "title": "Limiter l'accès aux renseignements de santé et de services sociaux (Limiting access to health information, Gouvernement du Québec)",
+          "url": "https://www.quebec.ca/sante/vos-informations-de-sante/loi-renseignements-sante-services-sociaux",
+          "date": "2024-07-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Carnet santé Québec (Gouvernement du Québec)",
+          "url": "https://www.quebec.ca/sante/vos-informations-de-sante/carnet-sante-quebec",
+          "date": "2026-01-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Memo: Important Changes to Consent Management in the Electronic Health Record (Ontario Health)",
+          "url": "https://www.ontariohealth.ca/news/memo-changes-consent-management-electronic-health-record.html",
+          "date": "2026-02-25",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Electronic Health Record Request for Access to Personal Health Information policy (Ontario Health)",
+          "url": "https://ontariohealth.ca/about/privacy/resources/ehr-request-access-phi.html",
+          "date": "2026-08-10",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 58,
+      "summary": "Health data has dedicated provincial laws, and Ontario's regulator now fines snoopers. But Ontario logged 785 health breaches in 2025, and the federal commissioner still cannot order compliance; reform with fines up to 3% of global revenue sits at first reading.",
+      "detail": [
+        "Ontario custodians reported 785 health privacy breaches to the IPC in 2025, up from 709 in 2024. Snooping caused 280, misdirected or lost information 207, cyberattacks 47.",
+        "The IPC issued its third administrative monetary penalty under PHIPA in August 2026: a hospital clerk must pay $3,000 for viewing 675 records without authority.",
+        "Large incidents keep coming. A vendor breach at Health P.E.I. may have exposed health card data of about 234,000 people (September 2026). An Ontario Health atHome vendor was hit by ransomware in 2025.",
+        "Federally, the Privacy Commissioner acts as an ombudsman and cannot order compliance with PIPEDA (Blakes). Bill C-36, tabled 15 June 2026, would treat health data as sensitive and allow penalties up to $10 million or 3% of global revenue.",
+        "The EU recognises Canada as adequate for commercial organisations under PIPEDA, reviewed in January 2024, so GDPR data can flow to Canadian businesses."
+      ],
+      "sources": [
+        {
+          "title": "2025 Annual Report: Statistics (IPC Ontario)",
+          "url": "https://www.ipc.on.ca/en/2025-annual-report/statistics",
+          "date": "2026",
+          "publisherClass": "official"
+        },
+        {
+          "title": "IPC issues third administrative monetary penalty under Ontario's health privacy law (IPC Ontario)",
+          "url": "https://www.ipc.on.ca/en/decisions/ipc-issues-third-administrative-monetary-penalty-under-ontarios-health-privacy-law",
+          "date": "2026-08-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Third Time's the Charm? Canada's Latest Approach to Reform the Federal Private-Sector Privacy Framework (Blakes)",
+          "url": "https://www.blakes.com/insights/third-time-s-the-charm-canada-s-latest-approach-to-reform-the-federal-private-sector-privacy-framew/",
+          "date": "2026-09-25",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "Ontario's PHIPA bars use of health data for marketing without express consent. Yet a 2025 study found clinic chains and data brokers turning primary care records into products for drug makers, and the federal regulator cannot fine.",
+      "detail": [
+        "PHIPA section 33 forbids custodians from using or disclosing health information for marketing or market research unless the person expressly consents. PIPEDA requires consent for commercial use outside custodian law and lists medical records as personal information.",
+        "A JAMA Network Open study reported by CBC (May 2025) found for-profit clinic chains, physicians, data brokers and drug companies working together to turn patient records into commercial assets, often with de-identified data and without patients in the decision.",
+        "Healthy Debate (January 2026) describes brokers that own clinics, with access to identified data, relying on implied consent. It contrasts this with the EU's EHDS, which bans health data use for marketing.",
+        "The 23andMe breach touched about 320,000 people in Canada. The federal commissioner found breaches of PIPEDA but could only declare the complaint well-founded and resolved. Bill C-36 would add fines; it is at first reading."
+      ],
+      "sources": [
+        {
+          "title": "Personal Health Information Protection Act, 2004 (Ontario e-Laws)",
+          "url": "https://www.ontario.ca/laws/statute/04p03",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Millions of Canadians' health data available for sale to pharmaceutical industry, study shows (CBC News)",
+          "url": "https://www.cbc.ca/news/health/health-data-records-pharmaceutical-private-clinics-1.7529955",
+          "date": "2025-05-09",
+          "publisherClass": "news"
+        },
+        {
+          "title": "The quiet commercialization of primary care records (Healthy Debate)",
+          "url": "https://healthydebate.ca/2026/01/topic/the-quiet-commercialization-of-primary-care-records/",
+          "date": "2026-01-20",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Résumé de l'enquête conjointe sur l'atteinte chez 23andMe (Joint 23andMe breach investigation summary, OPC)",
+          "url": "https://www.priv.gc.ca/fr/nouvelles-du-commissariat/nouvelles-et-annonces/2025/info_23andme_250617/",
+          "date": "2025-06-17",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 50,
+      "summary": "Each province links labs, drugs and hospital reports in its own system, but records do not cross provincial lines. In 2024 only 52% of providers shared patient data electronically outside their workplace, from 72% in Alberta to 36% in Quebec.",
+      "detail": [
+        "Statistics Canada found 92% of providers had a digital health system in 2024, but only 52% used it to share clinical data outside their workplace. Alberta led at 72%; Quebec was lowest at 36%. Of providers using a digital system, 78% hit at least one barrier to sharing.",
+        "Within provinces, links exist. Ontario's provincial EHR feeds lab results and publicly funded medication data to patients through My Health Record. BC's Health Gateway pulls pharmacy, labs, imaging, hospital and billing data into one view.",
+        "CIHI (2026) notes fax is still widely used and that only 34% of Canadian family doctors got follow-up information within two days of a patient's hospital discharge.",
+        "Bill S-5, the Connected Care for Canadians Act, would require common standards and ban vendor data blocking where provinces lack similar law. It passed the Senate on 26 May 2026 and awaits second reading in the Commons."
+      ],
+      "sources": [
+        {
+          "title": "Enquête sur l'utilisation des technologies numériques par les fournisseurs de soins de santé, 2025 (Survey on health providers' use of digital technology, Statistics Canada)",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260330/dq260330b-fra.htm",
+          "date": "2026-03-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Patient Access to Digital Health Services (Ontario Health)",
+          "url": "https://ontariohealth.ca/digital/programs-services/patient-access-digital-health.html",
+          "date": "2026-06-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Le point de vue des dispensateurs de soins de santé (The providers' perspective, CIHI)",
+          "url": "https://www.cihi.ca/fr/information-numerique-sur-la-sante-au-canada-mesure-de-lacces-et-de-lutilisation/le-point-de-vue-des-dispensateurs-de-soins-de-sante",
+          "date": "2026-07-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "S-5 (45-1), Connected Care for Canadians Act, LEGISinfo (Parliament of Canada)",
+          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/s-5",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 55,
+      "summary": "Clinicians in most provinces can open a provincial viewer with labs, drugs and hospital reports. But 17% of providers said in 2025 that barriers stop them using outside records, and nothing follows a patient across provinces.",
+      "detail": [
+        "Ontario's provincial EHR gives thousands of providers in hospitals, family practices, long-term care and pharmacies access to labs, publicly funded dispensed drugs, imaging and discharge summaries through viewers such as ConnectingOntario and ClinicalConnect.",
+        "Statistics Canada reports 97% of providers had some access to patient clinical information in 2024, and 92% had a digital system, highest in Alberta and Newfoundland and Labrador (96%).",
+        "CIHI found 17% of providers did not regularly use outside electronic records in 2025. Top barriers were poor integration (47%), long or multiple logins (30%) and missing permissions (23%).",
+        "Quebec began replacing paper and fax in hospitals with a single digital record (DSN) at two health establishments in May 2026; the launch had a system slowdown and patient list errors."
+      ],
+      "sources": [
+        {
+          "title": "What's an EHR? (eHealth Ontario / Ontario Health)",
+          "url": "https://ehealthontario.on.ca/en/patients-and-families/ehrs-explained",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Enquête sur l'utilisation des technologies numériques par les fournisseurs de soins de santé, 2025 (Survey on health providers' use of digital technology, Statistics Canada)",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260330/dq260330b-fra.htm",
+          "date": "2026-03-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Le point de vue des dispensateurs de soins de santé (The providers' perspective, CIHI)",
+          "url": "https://www.cihi.ca/fr/information-numerique-sur-la-sante-au-canada-mesure-de-lacces-et-de-lutilisation/le-point-de-vue-des-dispensateurs-de-soins-de-sante",
+          "date": "2026-07-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Dossier santé numérique: un départ chaotique lundi matin (Digital health record: a chaotic Monday start, La Presse)",
+          "url": "https://www.lapresse.ca/actualites/sante/2026-05-11/dossier-sante-numerique/un-depart-chaotique-lundi-matin.php",
+          "date": "2026-05-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Identifiable health data can be used for research without consent once an ethics board or Quebec's access centre approves. There is no general opt-out; ethics review, statutory penalties and a Quebec right to refuse research contact lift the cell to 49.",
+      "detail": [
+        "Under PHIPA section 44, custodians may disclose health information to researchers who submit a plan approved by a research ethics board and sign an agreement. Boards weigh whether consent would be impractical.",
+        "TCPS 2 Article 5.5A lets researchers use identifiable data without consent only if a board finds it essential, low risk, protected, consent impracticable, and known preferences respected.",
+        "Quebec researchers need a protocol, an ethics decision and a privacy impact assessment. Researchers outside the public network apply to a central access centre (CAR). Quebec residents can refuse access for research solicitation.",
+        "Safeguards found: ethics or permit bodies, offences with fines up to $1,000,000 under PHIPA, and a partial refusal route in Quebec. Three safeguard classes give 49 (base 40, plus 3 each). A public register of research uses was not found."
+      ],
+      "sources": [
+        {
+          "title": "Personal Health Information Protection Act, 2004 (Ontario e-Laws)",
+          "url": "https://www.ontario.ca/laws/statute/04p03",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "EPTC 2 (2022), chapitre 5: Vie privée et confidentialité (TCPS 2 Chapter 5, Panel on Research Ethics)",
+          "url": "https://ethics.gc.ca/fra/tcps2-eptc2_2022_chapter5-chapitre5.html",
+          "date": "2022",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Accès aux renseignements de santé et de services sociaux par les chercheurs (Researcher access to health information, Gouvernement du Québec)",
+          "url": "https://www.quebec.ca/sante/professionnels/encadrement-recherche-participants-humains/acces-renseignements-sante-services-sociaux-chercheurs-recherche",
+          "date": "2026-01-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Limiter l'accès aux renseignements de santé et de services sociaux (Limiting access to health information, Gouvernement du Québec)",
+          "url": "https://www.quebec.ca/sante/vos-informations-de-sante/loi-renseignements-sante-services-sociaux",
+          "date": "2024-07-01",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 56,
+      "summary": "Health Canada licenses machine learning medical devices and lets makers pre-authorize planned changes through change control plans. Canada has no AI statute: Bill C-36 has no stand-alone AI rules, and Ontario's 2024 digital trust law has no AI regulation in force.",
+      "detail": [
+        "Health Canada's pre-market guidance for machine learning-enabled devices (page dated 1 April 2026) says changes made under an authorized change control plan need no licence amendment. It expects transparency to users and warns against automation bias.",
+        "Fasken notes Bill C-36 (June 2026) includes no stand-alone AI regulation; AI rules are split between automated-decision rights in C-36 and chatbot provisions in the online harms bill.",
+        "Ontario's Enhancing Digital Security and Trust Act names AI as a risk, but the regulations in force from 1 July 2026 cover cyber security, including hospitals, and children's data only.",
+        "Ontario's privacy commissioner issued AI scribe guidance for the health sector in January 2026, covering vendor checks, contracts and monitoring. It is guidance, not binding rules."
+      ],
+      "sources": [
+        {
+          "title": "Pre-market guidance for machine learning-enabled medical devices (Health Canada)",
+          "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/guidance-documents/pre-market-guidance-machine-learning-enabled-medical-devices.html",
+          "date": "2026-04-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Bill C-36: A Third Attempt at Federal Private-Sector Privacy Reform (Fasken)",
+          "url": "https://www.fasken.com/en/knowledge/2026/06/bill-c-36",
+          "date": "2026-06-18",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "Enhancing Digital Security and Trust Act (Government of Ontario)",
+          "url": "http://www.ontario.ca/page/enhancing-digital-security-and-trust-act",
+          "date": "2026-05-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "IPC releases new guidance on AI scribes to help protect patient privacy (IPC Ontario)",
+          "url": "https://www.ipc.on.ca/en/media-centre/news-releases/ipc-releases-new-guidance-ai-scribes-help-protect-patient-privacy",
+          "date": "2026-01-28",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "connected",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "Provincial, not national. Provinces link labs, drugs, imaging and billing in their own systems, but only 52% of providers share outside their workplace. Federal Bill S-5 passed the Senate in May 2026 and awaits Commons second reading.",
+  "laws": [
+    {
+      "name": "Personal Information Protection and Electronic Documents Act (PIPEDA)",
+      "level": "National",
+      "year": "2000",
+      "what": "Consent-based private-sector privacy law; four provinces have health laws deemed substantially similar.",
+      "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+    },
+    {
+      "name": "Personal Health Information Protection Act (PHIPA), Ontario",
+      "level": "State/Provincial",
+      "year": "2004",
+      "what": "Access within 30 days at cost recovery, marketing needs express consent, EHR access logging, fines up to $1 million.",
+      "url": "https://www.ontario.ca/laws/statute/04p03"
+    },
+    {
+      "name": "Loi sur les renseignements de santé et de services sociaux (LRSSS), Quebec",
+      "level": "State/Provincial",
+      "year": "2023",
+      "what": "Right to restrict named providers, know who accessed records, and controlled researcher access.",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-22.1"
+    },
+    {
+      "name": "Bill S-5, Connected Care for Canadians Act",
+      "level": "National",
+      "year": "2026",
+      "what": "Would mandate interoperability standards and ban vendor data blocking. Passed Senate; not yet law.",
+      "url": "https://www.parl.ca/legisinfo/en/bill/45-1/s-5"
+    },
+    {
+      "name": "Bill C-36, Protecting Privacy and Consumer Data Act",
+      "level": "National",
+      "year": "2026",
+      "what": "Would replace PIPEDA's privacy part, define health data as sensitive, add penalties. First reading only.",
+      "url": "https://www.parl.ca/documentviewer/fr/45-1/projet-loi/C-36/premiere-lecture"
+    },
+    {
+      "name": "Pre-market guidance for machine learning-enabled medical devices (Health Canada)",
+      "level": "National",
+      "year": "2026",
+      "what": "Licensing expectations for ML devices, including predetermined change control plans and transparency.",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/guidance-documents/pre-market-guidance-machine-learning-enabled-medical-devices.html"
+    },
+    {
+      "name": "Enhancing Digital Security and Trust Act, 2024 (Ontario)",
+      "level": "State/Provincial",
+      "year": "2024",
+      "what": "Public sector cyber rules, including hospitals, in force July 2026; AI rules not yet made.",
+      "url": "http://www.ontario.ca/page/enhancing-digital-security-and-trust-act"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-28",
+      "headline": "Health P.E.I. says vendor breach may expose 234,000 people's health card data",
+      "source": "CBC News",
+      "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-health-data-breach-9.7360962",
+      "why": "Shows health data risk sits with vendors that provinces contract."
+    },
+    {
+      "date": "2026-06-16",
+      "headline": "Documents show Ontario health ministry knew early of home care vendor ransomware",
+      "source": "Global News",
+      "url": "https://globalnews.ca/news/11906406/ontario-health-home-inform-ministry-health/",
+      "why": "Patients affected by a breach may be told late."
+    },
+    {
+      "date": "2026-06-15",
+      "headline": "Federal government tables Bill C-36 to replace PIPEDA's privacy rules",
+      "source": "Parliament of Canada (LEGISinfo)",
+      "url": "https://www.parl.ca/legisinfo/fr/projet-de-loi/45-1/c-36",
+      "why": "Would give a federal regulator real fines over private health data handlers."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Quebec's new digital hospital record has a rough first weekday",
+      "source": "La Presse",
+      "url": "https://www.lapresse.ca/actualites/sante/2026-05-11/dossier-sante-numerique/un-depart-chaotique-lundi-matin.php",
+      "why": "The record meant to replace fax and paper is still settling in."
+    },
+    {
+      "date": "2026-03-02",
+      "headline": "Citizen sues Quebec over 30-day wait for results in Carnet santé",
+      "source": "La Presse",
+      "url": "https://www.lapresse.ca/actualites/2026-03-02/quebec-poursuivi-pour-son-carnet-sante.php",
+      "why": "Patients wait a month to see their own lab and imaging results."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

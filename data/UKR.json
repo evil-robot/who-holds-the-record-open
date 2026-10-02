@@ -1,0 +1,334 @@
+{
+  "iso3": "UKR",
+  "name": "Ukraine",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Ukraine's national e-health system holds records on 34.6 million people, but patients still cannot see their own medical data in the state portal.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 46,
+      "summary": "The law gives patients a right to see their medical documents and to get their personal data within 30 days, but the national patient cabinet shows only personal data and doctor declarations. Some private apps show part of the record.",
+      "detail": [
+        "Article 39 of the 1992 Fundamentals of Health Legislation gives adult patients the right to full information about their health, including the right to review their medical documents. Clinicians may limit access to some documents if they judge the information could harm the patient.",
+        "The Personal Data Protection Law (2010) gives a right of access and an answer on the content of one's data within 30 calendar days of a request.",
+        "The national patient cabinet opened to all adults in February 2026. It shows personal data and declarations only; NSZU says access to medical records, tests and prescriptions will come in later stages, with no date given.",
+        "Patient apps of private medical information systems show only records stored at that facility or software, not the central record, NSZU says. Score sits inside the 40 to 50 band for a statutory right with no national record portal."
+      ],
+      "sources": [
+        {
+          "title": "Osnovy zakonodavstva Ukrainy pro okhoronu zdorovia (Fundamentals of Health Legislation), Art. 39",
+          "url": "https://zakon.rada.gov.ua/laws/show/2801-12",
+          "date": "2026-02-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "De ya mozhu perehlianuty svoi medychni dani v ESOZ? (Patient cabinet FAQ, NSZU)",
+          "url": "https://pis.esoz.gov.ua/faq/de-ya-mozhu-perehlyanuty-svoyi-medychni-dani-e-napravlennya-e-retsepty-toshcho-yaki-zberihayutsya-v-esoz/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kabinet patsiienta: podannia deklaratsii likariu onlain (eHealth)",
+          "url": "https://ehealth.gov.ua/2026/02/11/kabinet-patsiyenta-dlya-ukrayintsiv-teper-dostupna-mozhlyvist-podannya-deklaratsiyi-likaryu-onlajn/",
+          "date": "2026-02-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Zakon Ukrainy pro zakhyst personalnykh danykh (Personal Data Protection Law), Art. 8",
+          "url": "https://zakon.rada.gov.ua/laws/show/2297-17",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "control": {
+      "score": 50,
+      "summary": "The law says access to a patient's e-health data needs consent, and patients approve other doctors by SMS code. But signing a family doctor declaration counts as blanket consent, and no patient-visible access log was found.",
+      "detail": [
+        "Article 24-2 of the Fundamentals allows access to e-health data only with the patient's consent, except for a direct threat to life, when consent cannot be obtained, or by court order.",
+        "Signing a declaration with a family doctor gives that doctor, and doctors on their referrals, consent to access the record.",
+        "Other clinicians must request permission, which the patient confirms by SMS code, documents or a trusted person. HIV and psychiatric data need separate written consent.",
+        "Since 2025 the defence ministry can receive military medical exam results from the system through automated data exchange, with no consent step in the law. A patient-visible access log was not verified; the national cabinet does not show medical data at all."
+      ],
+      "sources": [
+        {
+          "title": "Fundamentals of Health Legislation, Art. 24-2 (electronic health system)",
+          "url": "https://zakon.rada.gov.ua/laws/show/2801-12",
+          "date": "2026-02-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Khto maie dostup do danykh patsiienta v ESOZ? (eHealth)",
+          "url": "https://ehealth.gov.ua/2024/02/29/hto-maye-dostup-do-danyh-patsiyenta-v-esoz/",
+          "date": "2024-02-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Medychni dani ukraintsiv: khto mozhe dyvytysia vashu istoriiu khvorob (RBC-Ukraine)",
+          "url": "https://www.rbc.ua/rus/news/medichni-dani-ukrayintsiv-hto-mozhe-divitisya-1764940793.html",
+          "date": "2025-12-09",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 42,
+      "summary": "Health data is a special category under a 2010 law enforced by the parliamentary human rights commissioner, not a standalone regulator. A GDPR-style replacement (bill 8153) passed first reading in November 2024 and was still not adopted at research date.",
+      "detail": [
+        "The Personal Data Protection Law bans processing of health data except on listed grounds such as unambiguous consent or care by staff bound by medical secrecy.",
+        "Oversight sits with the Verkhovna Rada Commissioner for Human Rights and the courts. The commissioner can inspect and issue binding orders.",
+        "Bill 8153, which would replace the law and create a dedicated regulator, was adopted at first reading on 20 November 2024 and remained on the agenda in September 2026.",
+        "NSZU said in December 2025 that no data loss had occurred from the central database. In April 2026, 12 software systems faced disconnection for failing technical requirements; eHealth says checks also cover security. A 2025 amendment lets the defence ministry receive medical exam results."
+      ],
+      "sources": [
+        {
+          "title": "Zakon Ukrainy pro zakhyst personalnykh danykh, Arts. 7, 22, 23",
+          "url": "https://zakon.rada.gov.ua/laws/show/2297-17",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Bill 8153 card: Pro zakhyst personalnykh danykh (Verkhovna Rada)",
+          "url": "https://itd.rada.gov.ua/billinfo/Bills/Card/40707",
+          "date": "2022-10-25",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Oprylyudnyly perelik medychnykh onlain-system, yaki vidkliuchat vid ESOZ (LB.ua)",
+          "url": "https://lb.ua/health/2026/04/23/734385_oprilyudnili_perelik_medichnih.html",
+          "date": "2026-04-23",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Medychni dani ukraintsiv: khto mozhe dyvytysia vashu istoriiu khvorob (RBC-Ukraine)",
+          "url": "https://www.rbc.ua/rus/news/medichni-dani-ukrayintsiv-hto-mozhe-divitisya-1764940793.html",
+          "date": "2025-12-09",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "Commercial use of health data needs the person's unambiguous consent, but no specific ban on selling health data was found. Private firms run the patient apps; Helsi, with about 29 million users, planned an 80 hryvnia AI subscription by end-2025.",
+      "detail": [
+        "Article 7 of the Personal Data Protection Law allows health data processing for non-care purposes only on narrow grounds, the main one being unambiguous consent.",
+        "Private companies run the medical information systems that clinics use to write to the national database and that patients use to see their data.",
+        "Forbes Ukraine reported in July 2025 that Helsi planned to put its AI test-result explainer into an 80 hryvnia monthly subscription by end-2025. This is a paid feature, not evidence of data sales.",
+        "No Ukrainian rule on data brokers or sale of de-identified health data was verified."
+      ],
+      "sources": [
+        {
+          "title": "Zakon Ukrainy pro zakhyst personalnykh danykh, Art. 7",
+          "url": "https://zakon.rada.gov.ua/laws/show/2297-17",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Platni funktsii Helsi: navishcho servis vvodyt pidpysku (Forbes Ukraine)",
+          "url": "https://forbes.ua/innovations/peretvoriti-patsientiv-na-pidpisnikiv-medichniy-servis-helsi-robit-platnoyu-shi-rozshifrovku-analiziv-u-rozrobku-yakoi-vklala-400-000-yak-kompaniya-monetizue-29-mln-koristuvachiv-04072025-31016",
+          "date": "2025-07-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 62,
+      "summary": "One national e-health system links family doctors, e-referrals, e-prescriptions, sick notes and NSZU payments for 34.6 million registered patients. Over 111.8 million e-prescriptions have been created, but self-paid prescriptions and hospital data are less complete.",
+      "detail": [
+        "The central database, owned by NSZU, plus 37 connected commercial software systems form the national e-health system (ESOZ).",
+        "By March 2026, 34.6 million patients were registered. Records include e-referrals, e-prescriptions, treatment plans, sick-leave conclusions sent to the Pension Fund, and birth conclusions.",
+        "By May 2026, 111.8 million e-prescriptions had been created, 106.9 million of them under the reimbursement program and 4.6 million for self-paid medicines.",
+        "NSZU uses de-identified records to pay contracted facilities. The eHealth agency says the record is only as complete as what each clinic enters."
+      ],
+      "sources": [
+        {
+          "title": "Reiestr patsiientiv ESOZ nalichuie ponad 34,5 miljony aktyvnykh zapysiv (eHealth)",
+          "url": "https://ehealth.gov.ua/2026/03/13/reyestr-patsiyentiv-esoz-nalichuye-ponad-34-5-miljony-aktyvnyh-zapysiv-yaki-mozhlyvosti-dostupni-dlya-patsiyenta/",
+          "date": "2026-03-13",
+          "publisherClass": "official"
+        },
+        {
+          "title": "V ESOZ stvoreno ponad 111 miljoniv e-Retseptiv (eHealth)",
+          "url": "https://ehealth.gov.ua/2026/05/14/v-esoz-stvoreno-ponad-111-miljoniv-e-retseptiv/",
+          "date": "2026-05-14",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Khto maie dostup do danykh patsiienta v ESOZ? (eHealth)",
+          "url": "https://ehealth.gov.ua/2024/02/29/hto-maye-dostup-do-danyh-patsiyenta-v-esoz/",
+          "date": "2024-02-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Oprylyudnyly perelik medychnykh onlain-system, yaki vidkliuchat vid ESOZ (LB.ua)",
+          "url": "https://lb.ua/health/2026/04/23/734385_oprilyudnili_perelik_medichnih.html",
+          "date": "2026-04-23",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 58,
+      "summary": "A patient's family doctor sees all records except HIV and psychiatric data, and the law allows access without consent when life is at risk. Other doctors see only what the patient approves by SMS code or what is attached to a referral.",
+      "detail": [
+        "The declared family doctor has access to all medical data except HIV and psychiatric diagnoses, which need temporary written permission.",
+        "Treating doctors elsewhere see data attached to the referral, or request permission that the patient confirms by SMS or another method.",
+        "Article 24-2 allows access without consent when there are signs of a direct threat to life or consent cannot be obtained.",
+        "Completeness depends on how fully each clinic enters data."
+      ],
+      "sources": [
+        {
+          "title": "Khto maie dostup do danykh patsiienta v ESOZ? (eHealth)",
+          "url": "https://ehealth.gov.ua/2024/02/29/hto-maye-dostup-do-danyh-patsiyenta-v-esoz/",
+          "date": "2024-02-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Fundamentals of Health Legislation, Art. 24-2",
+          "url": "https://zakon.rada.gov.ua/laws/show/2801-12",
+          "date": "2026-02-11",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 44,
+      "summary": "Law requires anonymity when medical secrets are used in research and free, informed consent for experiments on people, but no opt-out from secondary use was found. As a non-EU country, Ukraine is not covered by the EHDS opt-out.",
+      "detail": [
+        "Article 40 of the Fundamentals requires patient anonymity when information covered by medical secrecy is used in teaching or research.",
+        "Article 45 allows medical-biological experiments only with full information and free consent of an adult with legal capacity, and bans research experiments on sick people, prisoners or prisoners of war.",
+        "NSZU can use de-identified records for payments and statistics. No public register of research data access or individual opt-out was verified.",
+        "The EU EHDS, which gives a simple, reversible opt-out from secondary use, binds EU member states, not candidates such as Ukraine."
+      ],
+      "sources": [
+        {
+          "title": "Fundamentals of Health Legislation, Arts. 40 and 45",
+          "url": "https://zakon.rada.gov.ua/laws/show/2801-12",
+          "date": "2026-02-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Khto maie dostup do danykh patsiienta v ESOZ? (eHealth)",
+          "url": "https://ehealth.gov.ua/2024/02/29/hto-maye-dostup-do-danyh-patsiyenta-v-esoz/",
+          "date": "2024-02-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "Medical devices, including software, still fall under 2013 rules based on older EU directives. New device rules were adopted in June 2026 (their EU MDR basis is not verified in the text) but take effect only from 31 December 2030, and no clinical AI law was found.",
+      "detail": [
+        "Cabinet Resolution 753 of 2013 sets the current technical regulation for medical devices.",
+        "On 10 June 2026 the government adopted Resolutions 758 and 759, new technical regulations for medical devices and in vitro diagnostics, applied from 31 December 2030 except for some provisions. Their basis in EU Regulations 2017/745 and 2017/746 was not verified in the text.",
+        "A Ministry of Health survey published in August 2026 found 80.5 percent of responding clinicians use AI at least occasionally.",
+        "No binding Ukrainian rule on clinical AI change control, transparency or human oversight was verified."
+      ],
+      "sources": [
+        {
+          "title": "Postanova KMU No. 759 vid 10.06.2026 pro zatverdzhennia Tekhnichnoho rehlamentu shchodo medychnykh vyrobiv",
+          "url": "https://zakon.rada.gov.ua/laws/show/759-2026-%D0%BF",
+          "date": "2026-06-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Zatverdzhennia novykh Tekhnichnykh rehlamentiv shchodo medychnykh vyrobiv (State Service on Medicines and Drugs Control)",
+          "url": "https://www.dls.gov.ua/for_subject/%D0%B7%D0%B0%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%85-%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%B8%D1%85-%D1%80%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC/",
+          "date": "2026-06-16",
+          "publisherClass": "official"
+        },
+        {
+          "title": "MOZ: 80,5% opytanykh medykiv uzhe vykorystovuiut ShI u roboti (7eminar)",
+          "url": "https://7eminar.ua/news/23759-moz-805-opitanix-medikiv-uze-vikoristovuyut-si-u-roboti",
+          "date": "2026-08-28",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "connected",
+    "publicHealth": "partial",
+    "research": "siloed"
+  },
+  "journeyNote": "ESOZ links family doctors, e-referrals, reimbursed e-prescriptions, sick notes and NSZU payments. Self-paid prescriptions (4.6 million of 111.8 million) and hospital and lab entries depend on clinics. No research access route was verified.",
+  "laws": [
+    {
+      "name": "Fundamentals of Ukrainian Health Legislation (No. 2801-XII)",
+      "level": "National",
+      "year": "1992",
+      "what": "Right to review medical documents, medical secrecy, consent rules for e-health access (Art. 24-2).",
+      "url": "https://zakon.rada.gov.ua/laws/show/2801-12"
+    },
+    {
+      "name": "Law on Personal Data Protection (No. 2297-VI)",
+      "level": "National",
+      "year": "2010",
+      "what": "Health data is special category; access within 30 days; human rights commissioner oversees.",
+      "url": "https://zakon.rada.gov.ua/laws/show/2297-17"
+    },
+    {
+      "name": "Law No. 4497-IX (State Register of Servicemen; amends Art. 24-2 of the Fundamentals)",
+      "level": "National",
+      "year": "2025",
+      "what": "Lets the defence ministry receive military medical exam results from the e-health system.",
+      "url": "https://zakon.rada.gov.ua/laws/show/4497-20"
+    },
+    {
+      "name": "Cabinet Resolution No. 759, Technical Regulation on Medical Devices",
+      "level": "National",
+      "year": "2026",
+      "what": "New medical device technical regulation; applies from 31 December 2030. EU MDR basis not verified.",
+      "url": "https://zakon.rada.gov.ua/laws/show/759-2026-%D0%BF"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-09",
+      "headline": "NSZU says central health database has had no data loss",
+      "source": "RBC-Ukraine",
+      "url": "https://www.rbc.ua/rus/news/medichni-dani-ukrayintsiv-hto-mozhe-divitisya-1764940793.html",
+      "why": "Explains who can see records and admits patients lack direct access."
+    },
+    {
+      "date": "2026-01-02",
+      "headline": "Military medical board decisions now flow automatically into Oberig registry",
+      "source": "RBC-Ukraine",
+      "url": "https://www.rbc.ua/rus/news/paperiv-i-zatrimok-rishennya-vlk-teper-avtomatichno-1767358976.html",
+      "why": "Health findings now move to a state military registry without paper."
+    },
+    {
+      "date": "2026-02-09",
+      "headline": "National patient cabinet opens to all adults, without medical records yet",
+      "source": "NSZU patient cabinet",
+      "url": "https://pis.esoz.gov.ua/2026/02/09/kabinet-patsiyenta-dlya-ukrayintsiv-teper-dostupna-mozhlyvist-podannya-deklaratsiyi-likaryu-onlayn/",
+      "why": "First state portal for patients, though it shows only personal data."
+    },
+    {
+      "date": "2026-04-23",
+      "headline": "Twelve medical software systems face cutoff over technical requirements",
+      "source": "LB.ua",
+      "url": "https://lb.ua/health/2026/04/23/734385_oprilyudnili_perelik_medichnih.html",
+      "why": "Clinics using non-compliant systems must switch to keep e-prescriptions working."
+    },
+    {
+      "date": "2026-06-16",
+      "headline": "Government adopts new medical device rules, effective end of 2030",
+      "source": "State Service on Medicines and Drugs Control",
+      "url": "https://www.dls.gov.ua/for_subject/%D0%B7%D0%B0%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%85-%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%B8%D1%85-%D1%80%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC/",
+      "why": "Medical software, including AI, will face MDR-level checks only from 31 December 2030."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

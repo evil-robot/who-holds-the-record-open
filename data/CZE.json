@@ -1,0 +1,359 @@
+{
+ "iso3": "CZE",
+ "name": "Czechia",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Czechia added an opt-out shared record and the EZKarta app in 2026, but the record is still thin and research use needs no consent.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 60,
+   "summary": "Patients have a legal right to copy their records, and the first copy has been free since 1 October 2024. The EZKarta app shows labs, prescriptions, vaccinations and some hospital documents, but it is still partial, with about 34,000 daily users.",
+   "detail": [
+    "Section 65 of the Health Services Act lets patients view their records and get copies or extracts. Since 1 October 2024 (Act 240/2024) providers may not charge for the first copy, following the EU Court of Justice ruling C-307/22.",
+    "The September 2026 EZKarta shows 10 selected lab values with 3 years of history, 12 months of prescriptions, vaccinations, screening and documents from over 30 hospitals.",
+    "The app has about 3.1 million downloads but about 34,000 daily active users, and lab data is updated about monthly."
+   ],
+   "sources": [
+    {
+     "title": "Vykladove stanovisko k § 66 odst. 3 zakona o zdravotnich sluzbach (Ministerstvo zdravotnictvi)",
+     "url": "https://mzd.gov.cz/wp-content/uploads/2024/11/Vykladove-stanovisko-k-ustanoveni-%C2%A7-66-odst.-3-zakona-o-zdravotnich-sluzbach-ve-zneni-zakona-c.-240-2024-Sb.pdf",
+     "date": "2024-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministerstvo zdravotnictvi spousti novou generaci EZKarty (MZ CR)",
+     "url": "https://mzd.gov.cz/tiskove-centrum-mz/ministerstvo-zdravotnictvi-spousti-novou-generaci-ezkarty-pripomene-preventivni-vysetreni-a-zpristupni-dulezite-zdravotni-informace/",
+     "date": "2026-09-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Nova EZKarta zpristupni pacientum laboratorni vysledky (DigitalHealth.cz)",
+     "url": "https://www.digitalhealth.cz/nova-ezkarta-laboratorni-vysledky-prevence/",
+     "date": "2026-09-03",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Zdravotnicka dokumentace (NZIP)",
+     "url": "https://www.nzip.cz/clanek/1074-zdravotnicka-dokumentace",
+     "date": "2024-01-31",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 64,
+   "summary": "Clinicians can see the shared health record and the medication record unless the patient objects, and patients can allow named doctors only. The medication record shows patients who viewed it; an access log for the newer shared record was not verified.",
+   "detail": [
+    "Under section 34a of the eHealth Act (325/2021), clinicians treating a patient and the statistics institute can read the shared health record unless the patient objects. The objection is held in a national authorisation register.",
+    "For the medication record, consent is presumed. Patients can object at any time, allow only named doctors or pharmacists, or limit access to one group, through the eRecept app or a signed form to SUKL.",
+    "Section 37 gives patients a legal right to see an activity journal recording time, activity, purpose and who acted. The September 2026 EZKarta release lists this overview as still in preparation.",
+    "SUKL says patients can check who viewed their medication record in its access history. For the shared health record, the ministry listed EZKarta activity logs as a future step in September 2026, so a working log there was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Zakon c. 325/2021 Sb., o elektronizaci zdravotnictvi (zneni od 1. 4. 2026)",
+     "url": "https://www.zakonyprolidi.cz/cs/2021-325",
+     "date": "2026-04-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Vyjadreni souhlasu/nesouhlasu s nahlizenim na lekovy zaznam (Portal verejne spravy)",
+     "url": "https://portal.gov.cz/sluzby-vs/vyjadreni-souhlasunesouhlasu-s-nahlizenim-na-lekovy-zaznam-S11085",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "System Sdileny zdravotni zaznam (NCEZ)",
+     "url": "https://ncez.mzcr.cz/cs/node/5545",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zabezpeceni lekoveho zaznamu (SUKL, epreskripce.gov.cz)",
+     "url": "https://epreskripce.gov.cz/zabezpeceni-lekoveho-zaznamu/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 56,
+   "summary": "GDPR and the 2019 Data Protection Act apply, but the regulator's 2025 fines went mostly to marketing cases and no health-sector fine was found. Czech law bars GDPR fines on public bodies, and a health database leaked in August 2026.",
+   "detail": [
+    "Health data is special-category data under the GDPR, with fines up to EUR 20 million or 4 percent of turnover. Act 110/2019 tells the regulator (UOOU) not to fine public bodies for GDPR breaches (GDPR Article 83(7)), though law-enforcement processing can still be fined.",
+    "In 2025 UOOU received 3,854 complaints and 392 breach notifications, opened 27 inspections, and fined CZK 12.1 million for electronic marketing. It named health records as an area of rising complaints but gave no health figures.",
+    "In August 2026 UOOU issued guidance limiting cameras in hospitals, and ruled out cameras in examination rooms and bathrooms.",
+    "A security firm reported that on 27 August 2026 a Czech healthcare database with patient records and insurance data was offered for sale for USD 1,400. The organisation was not named."
+   ],
+   "sources": [
+    {
+     "title": "Vyrocni zprava UOOU za rok 2025",
+     "url": "https://www.ochranaudaju.cz/aktuality/vyrocni-zprava-uoou-za-rok-2025",
+     "date": "2026-03-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zakon c. 110/2019 Sb., o zpracovani osobnich udaju",
+     "url": "https://www.zakonyprolidi.cz/cs/2019-110",
+     "date": "2019-04-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kamery v nemocnicich maji sva pravidla (Zdravotnicky denik)",
+     "url": "https://www.zdravotnickydenik.cz/2026/08/kamery-v-nemocnicich-maji-sva-pravidla-uoou-vymezil-kde-konci-ochrana-a-zacina-smirovani/",
+     "date": "2026-08-18",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Kyberneticke incidenty v CR v srpnu (Feedit)",
+     "url": "https://feedit.cz/2026/09/14/kyberneticke-incidenty-v-cr-v-srpnu-ransomware-uderil-na-zdravotnictvi-vyrobu-i-it-sluzby-unikla-citliva-data-pacientu/",
+     "date": "2026-09-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 60,
+   "summary": "GDPR requires an explicit legal basis for any commercial use of health data, and the EU health data space will bar reuse for marketing. No Czech law specific to health data brokers or consumer health apps was found.",
+   "detail": [
+    "Health data falls under GDPR Article 9, so marketing or sale needs explicit consent or another narrow legal basis.",
+    "The EHDS regulation, in force since 26 March 2025, forbids secondary use of health data for marketing or for decisions that harm individuals. It applies in phases from March 2027 to 2035.",
+    "UOOU fined CZK 12.1 million for unsolicited electronic marketing in 2025, which shows it acts on marketing, though not in health cases we could find.",
+    "Consumer health apps outside the eHealth system rely on GDPR alone. No Czech rule on health data brokers was verified."
+   ],
+   "sources": [
+    {
+     "title": "European Health Data Space Regulation (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Vyrocni zprava UOOU za rok 2025",
+     "url": "https://www.ochranaudaju.cz/aktuality/vyrocni-zprava-uoou-za-rok-2025",
+     "date": "2026-03-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Art. 83 GDPR (gdpr-info.eu)",
+     "url": "https://gdpr-info.eu/art-83-gdpr/",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "journey": {
+   "score": 55,
+   "summary": "E-prescriptions have been mandatory since 2018 and feed a national medication record, but the shared hospital record covers just over 30 hospitals. E-referrals started on 2 January 2026 as a voluntary pilot.",
+   "detail": [
+    "E-prescribing has been mandatory under the Medicines Act since January 2018, and the shared medication record has run since June 2020. Cross-border e-prescriptions work with Poland, Croatia, Spain, Latvia, Estonia, Greece and Finland.",
+    "Act 236/2025, in force since 1 January 2026, added the shared health record, eZadanka e-referrals and EZKarta.",
+    "The national eHealth portal launched on 2 January 2026 as a voluntary pilot. The minister said digitisation only works if it becomes mandatory and signalled law changes.",
+    "A central store holds about 450 million lab records, updated about monthly. Only over 30 hospitals share documents so far."
+   ],
+   "sources": [
+    {
+     "title": "O eReceptu (SUKL, epreskripce.gov.cz)",
+     "url": "https://epreskripce.gov.cz/o-ereceptu/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Portal lekare a pacienta: spusteni novych digitalnich sluzeb (MZ CR)",
+     "url": "https://mzd.gov.cz/tiskove-centrum-mz/spusteni-nove-digitalni-sluzby-portal-lekare-a-pacienta/",
+     "date": "2025-12-31",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zakon c. 236/2025 Sb., novela zakona o elektronizaci zdravotnictvi",
+     "url": "https://www.zakonyprolidi.cz/cs/2025-236",
+     "date": "2025-06-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ministerstvo zdravotnictvi spousti novou generaci EZKarty (MZ CR)",
+     "url": "https://mzd.gov.cz/tiskove-centrum-mz/ministerstvo-zdravotnictvi-spousti-novou-generaci-ezkarty-pripomene-preventivni-vysetreni-a-zpristupni-dulezite-zdravotni-informace/",
+     "date": "2026-09-03",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 52,
+   "summary": "Any treating clinician can see the emergency record (blood type, allergies, drug reactions, 12 months of medicines) and the medication record unless the patient objects. Full notes from other providers are shared only by the 30-plus hospitals connected so far.",
+   "detail": [
+    "Section 34a of the eHealth Act defines an emergency health record with blood type, allergies, adverse drug and transfusion reactions, and medicines from the last 12 months. Providers must record these items without delay.",
+    "Doctors and pharmacists see the e-prescription medication record by presumed consent.",
+    "Clinicians reach the shared record through their own software or the national portal. Software vendors are connecting gradually, and portal use is voluntary in the pilot.",
+    "Wider clinical documents are shared only by the over 30 participating hospitals."
+   ],
+   "sources": [
+    {
+     "title": "Zakon c. 325/2021 Sb., o elektronizaci zdravotnictvi (zneni od 1. 4. 2026)",
+     "url": "https://www.zakonyprolidi.cz/cs/2021-325",
+     "date": "2026-04-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "System Sdileny zdravotni zaznam (NCEZ)",
+     "url": "https://ncez.mzcr.cz/cs/node/5545",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "O eReceptu (SUKL, epreskripce.gov.cz)",
+     "url": "https://epreskripce.gov.cz/o-ereceptu/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 45,
+   "summary": "National health registers collect data without consent and with no opt-out, a design the Constitutional Court upheld in 2020. Safeguards include non-public registers, access limited by law, and synthetic and aggregate data for researchers.",
+   "detail": [
+    "Data flows into the National Health Information System (NZIS), run by UZIS, without the patient's consent, and NZIS is used for science and research.",
+    "In case Pl. US 33/16 (18 November 2020) the Constitutional Court rejected a challenge to the NZIS registers, finding that their legal purpose and non-public status justify collection. Four judges dissented.",
+    "UZIS offers synthetic data, aggregate one-off outputs and open data. We did not verify a route for researchers to get record-level pseudonymised data.",
+    "The EHDS will add a simple, reversible opt-out from secondary use as it phases in between 2027 and 2035. A Czech health data access body was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Vyhlaseni nalezu Ustavniho soudu sp. zn. Pl. US 33/16",
+     "url": "https://www.usoud.cz/aktualne/vyhlaseni-nalezu-ustavniho-soudu-sp-zn-pl-us-33-16-dne-18-listopadu-2020-rozhodnuti-zverejnene-s-tiskovou-zpravou",
+     "date": "2020-11-18",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zadosti o vystupy NZIS (UZIS CR)",
+     "url": "https://www.uzis.cz/index.php?pg=kontakt--zadosti-vystupy-nzis",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "European Health Data Space Regulation (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "Clinical AI falls under the EU AI Act and EU device rules only. A national AI law naming the telecoms office (CTU) as main supervisor was a draft in February 2026, and we did not verify that it has passed.",
+   "detail": [
+    "A February 2026 legal update said the Czech AI bill had cleared inter-ministerial review and was awaiting government discussion. We found no record of its adoption.",
+    "The draft names CTU as the main market surveillance authority, with the central bank and UOOU covering their own sectors.",
+    "On 31 July 2026 CTU said AI Act transparency duties, such as telling users they are talking to a chatbot, apply from 2 August 2026.",
+    "We found no Czech rule specific to clinical AI."
+   ],
+   "sources": [
+    {
+     "title": "2. srpna 2026 jako klicove datum pro pravidla transparentnosti podle Aktu o AI (CTU)",
+     "url": "https://ctu.gov.cz/tiskova-zprava-2.-srpna-2026-jako-klicove-datum-pro-pravidla-transparentnosti-podle-aktu-o-umele",
+     "date": "2026-07-31",
+     "publisherClass": "official"
+    },
+    {
+     "title": "AI Act v praxi: cesky adaptacni zakon (LeitnerLaw)",
+     "url": "https://www.leitnerlaw.cz/novinky/ai-act-v-praxi-cesky-adaptacni-zakon-vymezuje-kompetence-postupy-a-sankce/",
+     "date": "2026-02-26",
+     "publisherClass": "law_firm"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "E-prescriptions and the medication record are national. Labs feed a central store monthly, 30-plus hospitals share documents, and e-referrals are a pilot. Insurer claims links were not verified. NZIS registers feed research without consent.",
+ "laws": [
+  {
+   "name": "General Data Protection Regulation (EU) 2016/679",
+   "level": "Supranational",
+   "year": "2016",
+   "what": "Health is special-category data; free first copy; fines up to EUR 20M or 4% of turnover.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+  },
+  {
+   "name": "Act 110/2019 Sb. on Personal Data Processing",
+   "level": "National",
+   "year": "2019",
+   "what": "Czech GDPR implementing act; regulator refrains from fining public bodies under GDPR Art. 83(7).",
+   "url": "https://www.zakonyprolidi.cz/cs/2019-110"
+  },
+  {
+   "name": "Act 372/2011 Sb. on Health Services (as amended by Act 240/2024)",
+   "level": "National",
+   "year": "2011",
+   "what": "Right to view and copy records; first copy free since 1 October 2024; basis for NZIS registers.",
+   "url": "https://mzd.gov.cz/wp-content/uploads/2024/11/Vykladove-stanovisko-k-ustanoveni-%C2%A7-66-odst.-3-zakona-o-zdravotnich-sluzbach-ve-zneni-zakona-c.-240-2024-Sb.pdf"
+  },
+  {
+   "name": "Act 325/2021 Sb. on the Electronisation of Healthcare",
+   "level": "National",
+   "year": "2021",
+   "what": "Shared health record with patient objection, authorisation register, activity journal, EZKarta.",
+   "url": "https://www.zakonyprolidi.cz/cs/2021-325"
+  },
+  {
+   "name": "Act 236/2025 Sb. amending the eHealth Act",
+   "level": "National",
+   "year": "2025",
+   "what": "Adds shared health record, eZadanka e-referrals and EZKarta; in force 1 January 2026.",
+   "url": "https://www.zakonyprolidi.cz/cs/2025-236"
+  },
+  {
+   "name": "European Health Data Space Regulation (EU) 2025/327",
+   "level": "Supranational",
+   "year": "2025",
+   "what": "Free access, restriction rights, opt-out from secondary use, ban on marketing use; phased from 2027.",
+   "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-31",
+   "headline": "Health ministry launches national eHealth portal and e-referral pilot",
+   "source": "Ministerstvo zdravotnictvi",
+   "url": "https://mzd.gov.cz/tiskove-centrum-mz/spusteni-nove-digitalni-sluzby-portal-lekare-a-pacienta/",
+   "why": "Starts the shift from paper referrals, though use is voluntary for now."
+  },
+  {
+   "date": "2026-03-20",
+   "headline": "Data regulator reports 392 breach notifications and rising health complaints in 2025",
+   "source": "UOOU",
+   "url": "https://www.ochranaudaju.cz/aktuality/vyrocni-zprava-uoou-za-rok-2025",
+   "why": "Shows how often personal data, including health records, is exposed."
+  },
+  {
+   "date": "2026-08-18",
+   "headline": "Regulator sets limits on cameras in hospitals and clinics",
+   "source": "Zdravotnicky denik",
+   "url": "https://www.zdravotnickydenik.cz/2026/08/kamery-v-nemocnicich-maji-sva-pravidla-uoou-vymezil-kde-konci-ochrana-a-zacina-smirovani/",
+   "why": "Protects patient privacy in examination rooms and wards."
+  },
+  {
+   "date": "2026-09-03",
+   "headline": "New EZKarta app adds lab results and hospital documents",
+   "source": "Ministerstvo zdravotnictvi",
+   "url": "https://mzd.gov.cz/tiskove-centrum-mz/ministerstvo-zdravotnictvi-spousti-novou-generaci-ezkarty-pripomene-preventivni-vysetreni-a-zpristupni-dulezite-zdravotni-informace/",
+   "why": "Patients can see 3 years of selected lab values in one place."
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "Czech healthcare patient database offered for sale after August attack",
+   "source": "Feedit",
+   "url": "https://feedit.cz/2026/09/14/kyberneticke-incidenty-v-cr-v-srpnu-ransomware-uderil-na-zdravotnictvi-vyrobu-i-it-sluzby-unikla-citliva-data-pacientu/",
+   "why": "Leaked health records stay sensitive for life."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

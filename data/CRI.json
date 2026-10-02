@@ -1,0 +1,149 @@
+{
+  "iso3": "CRI",
+  "name": "Costa Rica",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "Costa Rica runs one national digital record (EDUS) across public care; patients can view and share parts of it but cannot opt out.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 64,
+      "summary": "Ley 8239 gives a right to a copy, and the EDUS app lets patients download an authenticated copy showing diagnoses, medicines, allergies and visits, not the full chart. App usage was not verified, so the score sits in the lower half of the portal band.",
+      "detail": [
+        "Ley 8239, Article 2(k), gives users of public and private health services the right to access their clinical record and to receive a copy.",
+        "The CCSS EDUS regulation (Article 28) says patients may print or generate a digital copy directly from the EDUS app, as a faithful copy of the database. Formal requests go to the facility's medical director, and the CCSS may charge a fee.",
+        "Article 57 gives the patient unrestricted access from age 12, unless a medical alert requires a clinician to be present.",
+        "The App Store listing shows diagnoses, medicines, allergies, some lab results (cytology), and consultation, emergency and hospital visit history. Whether full clinical notes and imaging reports are shown was not verified.",
+        "Older paper records were never digitised, so EDUS history is incomplete for earlier care (CISS, 2020). The share of residents who actively use the app was not verified."
+      ],
+      "sources": [
+        {"title": "Ley 8239, Derechos y deberes de las personas usuarias de los servicios de salud publicos y privados (IAFA copy)", "url": "https://iafa.go.cr/wp-content/uploads/2025/01/Derechos-y-deberes-de-las-personas-usuarias-de-los-servicios-de-salud-publicos-y-privados.pdf", "date": "2002", "publisherClass": "legal_text"},
+        {"title": "Reglamento del Expediente Digital Unico en Salud (CCSS, SINALEVI)", "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=85915&param2=111286&param3=1&param4=", "date": "2018-01-29", "publisherClass": "legal_text"},
+        {"title": "EDUS app, App Store Costa Rica", "url": "https://apps.apple.com/cr/app/edus/id1042094805", "date": "undated", "publisherClass": "blog_vendor"},
+        {"title": "El Expediente Digital Unico en Salud de la CCSS (Conferencia Interamericana de Seguridad Social)", "url": "https://archivos.juridicas.unam.mx/www/bjv/libros/13/6338/1.pdf", "date": "2020-03", "publisherClass": "intergov"}
+      ]
+    },
+    "control": {
+      "score": 48,
+      "summary": "EDUS data is collected without patient consent and is visible to any CCSS user with the right access level, with no opt-out. Every action is logged, and a patient can ask their clinic for a certified access record.",
+      "detail": [
+        "Article 6 of the EDUS regulation says data collected in EDUS does not require the patient's consent, citing Ley 8968 and the General Health Law. Article 56 makes care data automatically available to EDUS users by competence and access level.",
+        "Article 44 requires the EDUS log (bitacora) to record all user activity. In March 2026 the national patient front FRENASS said patients can ask their clinic for a certification of who accessed their file. The log is not shown in the app.",
+        "Third parties need the patient's written authorisation (Article 58). Since August 2025 the app's Compartir option creates a code that gives an outside provider temporary, limited access, at the patient's choice.",
+        "No way to block or limit access by CCSS staff was found."
+      ],
+      "sources": [
+        {"title": "Reglamento del Expediente Digital Unico en Salud (CCSS, SINALEVI)", "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=85915&param2=111286&param3=1&param4=", "date": "2018-01-29", "publisherClass": "legal_text"},
+        {"title": "Como saber si alguien reviso su expediente en EDUS (CRHoy)", "url": "https://crhoy.com/nacionales/como-saber-si-alguien-reviso-su-expediente-en-edus-asi-puede-solicitar-el-registro-de-accesos/", "date": "2026-03-17", "publisherClass": "news"},
+        {"title": "Nueva funcion en aplicacion EDUS permite compartir expediente medico con personal de salud privado (Monumental)", "url": "https://www.monumental.co.cr/2025/08/07/nueva-funcion-en-aplicacion-edus-permite-compartir-expediente-medico-con-personal-de-salud-privado/", "date": "2025-08-07", "publisherClass": "news"}
+      ]
+    },
+    "privacy": {
+      "score": 40,
+      "summary": "Ley 9162 and Ley 8968 treat health data as sensitive, but fines top out at 30 base salaries. The Comptroller found 8,966 irregular EDUS access permissions in 2022, and a May 2022 cyberattack forced CCSS hospitals back to paper.",
+      "detail": [
+        "Ley 9162, Article 11, declares all EDUS information private and sensitive and requires technical and organisational security. Ley 8968, Article 9, prohibits processing health data except for care by staff bound by professional secrecy, among other exceptions.",
+        "Ley 8968 fines reach 15 to 30 base salaries of a junior judicial clerk for the most serious faults. No breach notification duty was found in the law text opened.",
+        "In April 2022 the Comptroller (CGR) reported 8,966 irregular access profiles, including 1,002 retired or deceased staff and 6,619 people not on the CCSS payroll. A May 2022 cyberattack forced CCSS hospitals back to paper.",
+        "A GDPR-style replacement law (bill 23097) is still pending."
+      ],
+      "sources": [
+        {"title": "Ley 9162, Expediente Digital Unico de Salud (SINALEVI)", "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=75700&param2=93998&param3=1&param4=", "date": "2013-08-26", "publisherClass": "legal_text"},
+        {"title": "Ley 8968, Proteccion de la Persona frente al tratamiento de sus datos personales (MICITT)", "url": "https://micitt.go.cr/sites/default/files/marco_juridico_legal/08.%20Ley%20n.%C2%B0%208968%20Ley%20de%20Protecci%C3%B3n%20de%20la%20Persona%20frente%20al%20tratamiento%20de%20sus%20datos%20personales..pdf", "date": "2011-07-07", "publisherClass": "legal_text"},
+        {"title": "Pensionados y personas fuera de planilla de la CCSS tienen acceso a datos de EDUS, revela CGR (AmeliaRueda.com)", "url": "https://ameliarueda.com/nota/pensionados-personas-fuera-planilla-tienen-acceso-edus-noticias-costa-rica", "date": "2022-04-25", "publisherClass": "news"},
+        {"title": "Hackeo a la CCSS obliga a pacientes a volver a centros medicos (La Teja)", "url": "https://www.lateja.cr/nacional/hackeo-a-la-ccss-obliga-a-pacientes-a-volver-a/OBKTUUCXTRHX5KOIAAFXHCUWFY/story/", "date": "2022-05-31", "publisherClass": "news"}
+      ]
+    },
+    "commercial": {
+      "score": 52,
+      "summary": "Ley 8968 makes collecting or transmitting sensitive data by private parties its most serious offence, and the EDUS rules require explicit patient authorisation before sensitive data goes to private organisations. No enforcement record on health data sales was found.",
+      "detail": [
+        "Ley 8968, Article 31(a), lists collecting, storing or transmitting sensitive data by private persons or companies as a very serious fault. Article 14 requires the data subject's express authorisation before data is transferred.",
+        "The EDUS regulation, Article 61, lets the CCSS pass only general-access data to private organisations, and sensitive data only with the patient's explicit authorisation.",
+        "Article 34 of Ley 8968 sets a fee on each sale of personal data from registered databases, so non-sensitive data trading is legal.",
+        "No rules aimed at consumer health apps or data brokers, and no PRODHAB decisions on health data sales, were found."
+      ],
+      "sources": [
+        {"title": "Ley 8968, Proteccion de la Persona frente al tratamiento de sus datos personales (MICITT)", "url": "https://micitt.go.cr/sites/default/files/marco_juridico_legal/08.%20Ley%20n.%C2%B0%208968%20Ley%20de%20Protecci%C3%B3n%20de%20la%20Persona%20frente%20al%20tratamiento%20de%20sus%20datos%20personales..pdf", "date": "2011-07-07", "publisherClass": "legal_text"},
+        {"title": "Reglamento del Expediente Digital Unico en Salud (CCSS, SINALEVI)", "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=85915&param2=111286&param3=1&param4=", "date": "2018-01-29", "publisherClass": "legal_text"}
+      ]
+    },
+    "journey": {
+      "score": 68,
+      "summary": "EDUS reached all three levels of public care by September 2018, linking 1,040 primary care teams and 29 hospitals with lab, pharmacy and family records. Private hospitals and clinics are not connected beyond the patient's share code.",
+      "detail": [
+        "Ley 9162 (2013) required one digital record per person and gave the CCSS five years to roll it out. By December 2016, 1,040 EBAIS primary care teams were connected, and by September 2018 all three levels of care (CISS, 2020).",
+        "Modules cover scheduling, the clinical record, lab, cytology, pathology, imaging, surgery, admissions and pharmacy requests.",
+        "A June 2025 La Nacion editorial reported more than 99 percent of consultations recorded digitally, repeated outages, and no integration with private hospitals.",
+        "In 2026 EDUS was extended to IAFA addiction centres (12 centres by April) and to prison clinics (3 of 21 by September)."
+      ],
+      "sources": [
+        {"title": "El Expediente Digital Unico en Salud de la CCSS (Conferencia Interamericana de Seguridad Social)", "url": "https://archivos.juridicas.unam.mx/www/bjv/libros/13/6338/1.pdf", "date": "2020-03", "publisherClass": "intergov"},
+        {"title": "IAFA avanza en implementacion del EDUS (Ministerio de Salud)", "url": "https://www.ministeriodesalud.go.cr/index.php/prensa/67-noticias-2026/2406-iafa-avanza-en-implementacion-del-edus-para-mejorar-la-atencion-en-salud-a-nivel-nacional", "date": "2026-04-14", "publisherClass": "official"},
+        {"title": "Editorial: El EDUS necesita atencion urgente de la CCSS (La Nacion)", "url": "https://www.nacion.com/opinion/editorial/editorial-el-edus-necesita-atencion-urgente-de-la/IPGZZZCK4BEV5ERMQCBXCB2UJA/story/", "date": "2025-06-18", "publisherClass": "news"},
+        {"title": "Costa Rica lleva el EDUS a dos carceles (Infobae)", "url": "https://www.infobae.com/costa-rica/2026/09/15/costa-rica-lleva-el-expediente-digital-unico-en-salud-a-dos-carceles-y-prepara-su-expansion-a-21-centros-mas/", "date": "2026-09-15", "publisherClass": "news"}
+      ]
+    },
+    "clinical": {
+      "score": 65,
+      "summary": "The EDUS regulation makes care data automatically available to every CCSS clinician by access level, across all public facilities. Private clinicians see only a summary when the patient shares a code.",
+      "detail": [
+        "Article 56 of the EDUS regulation says care data in EDUS must be automatically available to EDUS users according to their role and access level, with the national ID as the single patient key.",
+        "In 2026, Ministry of Justice prison clinicians and IAFA addiction centres began using the same EDUS record.",
+        "Private providers can read diagnoses, medicines, allergies, vaccines and discharge summaries only through the patient's Compartir code, using HL7 FHIR (La Nacion, August 2025).",
+        "Outages leave clinicians without records. Specific emergency access rules for outside providers were not verified."
+      ],
+      "sources": [
+        {"title": "Reglamento del Expediente Digital Unico en Salud (CCSS, SINALEVI)", "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=85915&param2=111286&param3=1&param4=", "date": "2018-01-29", "publisherClass": "legal_text"},
+        {"title": "IAFA avanza en implementacion del EDUS (Ministerio de Salud)", "url": "https://www.ministeriodesalud.go.cr/index.php/prensa/67-noticias-2026/2406-iafa-avanza-en-implementacion-del-edus-para-mejorar-la-atencion-en-salud-a-nivel-nacional", "date": "2026-04-14", "publisherClass": "official"},
+        {"title": "EDUS ya le permite compartir su expediente con su medico privado (La Nacion)", "url": "https://www.nacion.com/el-pais/edus-ya-le-permite-compartir-su-expediente-con-su/LOHIOEVWN5DYPGT4YT6KKDWLBM/story/", "date": "2025-08-06", "publisherClass": "news"}
+      ]
+    },
+    "research": {
+      "score": 45,
+      "summary": "Ley 9234 requires express, written, signed consent for biomedical research, overseen by ethics committees and the national council CONIS. Ethics committees can waive consent for observational studies, and no general opt-out from research use of EDUS data was found.",
+      "detail": [
+        "Ley 9234 (2014) covers all human health research, public and private. Participation needs express, specific, written consent, approved and sealed by a scientific ethics committee. Participants may withdraw.",
+        "For observational research, the ethics committee may waive the signed consent if it judges participants' rights are not affected.",
+        "The law bans sale of biological samples and protects participant confidentiality. Ley 8239 also gives patients the right to refuse clinical research.",
+        "No public register of research uses of EDUS data and no opt-out for secondary use were found (not verified)."
+      ],
+      "sources": [
+        {"title": "Ley Reguladora de Investigacion Biomedica N 9234 (text copy)", "url": "https://clsanagustin.com/wp-content/uploads/2017/09/Ley-Investigacion-Biomedica-No9234.pdf", "date": "2014-04-22", "publisherClass": "legal_text"},
+        {"title": "Ley 8239, Derechos y deberes de las personas usuarias de los servicios de salud publicos y privados (IAFA copy)", "url": "https://iafa.go.cr/wp-content/uploads/2025/01/Derechos-y-deberes-de-las-personas-usuarias-de-los-servicios-de-salud-publicos-y-privados.pdf", "date": "2002", "publisherClass": "legal_text"}
+      ]
+    },
+    "ai": {
+      "score": 30,
+      "summary": "Medical device registration (Decreto 34482-S) covers software inside devices, but there is no AI-specific clinical rule, and three general AI bills await a plenary vote. The CCSS uses AI on EDUS data with human validation as internal policy.",
+      "detail": [
+        "Decreto 34482-S (2008) regulates registration and control of biomedical equipment, defined to include software that supports its function. A 2022 technical regulation on the same subject was found but not opened.",
+        "Observatorio IA reported in August 2026 that bills 23.771, 23.919 and 24.484 have committee approval and await plenary votes. No health-specific AI law was found.",
+        "In May 2026 the CCSS described an AI bot that cross-checks EDUS and civil registry data to clean surgical waiting lists, with mandatory human validation before removal."
+      ],
+      "sources": [
+        {"title": "Decreto 34482-S, Reglamento para registro, clasificacion, importacion y control de equipo y material biomedico (La Gaceta)", "url": "https://www.imprentanacional.go.cr/pub/2008/04/25/ALCA19_25_04_2008.html", "date": "2008-04-25", "publisherClass": "legal_text"},
+        {"title": "Legislacion de IA en Costa Rica (Observatorio IA)", "url": "https://www.observatorioia.org/es/legislacion/", "date": "2026-08", "publisherClass": "blog_vendor"},
+        {"title": "CCSS incorpora inteligencia artificial para depuracion de listas de espera (Infobae)", "url": "https://www.infobae.com/costa-rica/2026/05/08/caja-costarricense-de-seguro-social-incorpora-inteligencia-artificial-para-depuracion-de-listas-de-espera/", "date": "2026-05-07", "publisherClass": "news"}
+      ]
+    }
+  },
+  "journey": {"primaryCare": "connected", "hospital": "connected", "labs": "connected", "pharmacy": "connected", "claims": "unknown", "publicHealth": "partial", "research": "unknown"},
+  "journeyNote": "One CCSS record links primary care, hospitals, labs and pharmacy across public care. The CCSS is both insurer and provider, so no separate claims flow was assessed. Private providers connect only through the patient's share code.",
+  "laws": [
+    {"name": "Ley 8239 (derechos y deberes de las personas usuarias de los servicios de salud)", "level": "National", "year": "2002", "what": "Right to access and copy one's clinical record, confidentiality, and to refuse research.", "url": "https://iafa.go.cr/wp-content/uploads/2025/01/Derechos-y-deberes-de-las-personas-usuarias-de-los-servicios-de-salud-publicos-y-privados.pdf"},
+    {"name": "Ley 8968 (proteccion de la persona frente al tratamiento de sus datos personales)", "level": "National", "year": "2011", "what": "General data law; health data sensitive; creates PRODHAB; fines up to 30 base salaries.", "url": "https://micitt.go.cr/sites/default/files/marco_juridico_legal/08.%20Ley%20n.%C2%B0%208968%20Ley%20de%20Protecci%C3%B3n%20de%20la%20Persona%20frente%20al%20tratamiento%20de%20sus%20datos%20personales..pdf"},
+    {"name": "Ley 9162 (expediente digital unico de salud)", "level": "National", "year": "2013", "what": "Mandates one national digital health record run by the CCSS; all its data private and sensitive.", "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=75700&param2=93998&param3=1&param4="},
+    {"name": "Reglamento del Expediente Digital Unico en Salud (CCSS)", "level": "National", "year": "2018", "what": "Patient app copies, access log, no consent for collection, explicit consent for private transfer.", "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=85915&param2=111286&param3=1&param4="},
+    {"name": "Ley 9234 (reguladora de investigacion biomedica)", "level": "National", "year": "2014", "what": "Written informed consent, ethics committees and CONIS oversight for human health research.", "url": "https://clsanagustin.com/wp-content/uploads/2017/09/Ley-Investigacion-Biomedica-No9234.pdf"},
+    {"name": "Decreto 34482-S (equipo y material biomedico)", "level": "National", "year": "2008", "what": "Registration and control of medical devices, including embedded software.", "url": "https://www.imprentanacional.go.cr/pub/2008/04/25/ALCA19_25_04_2008.html"}
+  ],
+  "news": [
+    {"date": "2026-09-15", "headline": "CCSS extends the national digital record to prison clinics", "source": "Infobae", "url": "https://www.infobae.com/costa-rica/2026/09/15/costa-rica-lleva-el-expediente-digital-unico-en-salud-a-dos-carceles-y-prepara-su-expansion-a-21-centros-mas/", "why": "Prisoners' care records now follow them, with 21 centres planned."},
+    {"date": "2026-05-07", "headline": "CCSS uses AI on EDUS data to clean surgical waiting lists", "source": "Infobae", "url": "https://www.infobae.com/costa-rica/2026/05/08/caja-costarricense-de-seguro-social-incorpora-inteligencia-artificial-para-depuracion-de-listas-de-espera/", "why": "Patient records feed an automated tool; removals require human validation."},
+    {"date": "2026-04-14", "headline": "IAFA addiction centres join the EDUS national record", "source": "Ministerio de Salud", "url": "https://www.ministeriodesalud.go.cr/index.php/prensa/67-noticias-2026/2406-iafa-avanza-en-implementacion-del-edus-para-mejorar-la-atencion-en-salud-a-nivel-nacional", "why": "Addiction treatment records join the shared record, raising both continuity and sensitivity."},
+    {"date": "2026-03-17", "headline": "Patients can request a certified log of who opened their EDUS file", "source": "CRHoy", "url": "https://crhoy.com/nacionales/como-saber-si-alguien-reviso-su-expediente-en-edus-asi-puede-solicitar-el-registro-de-accesos/", "why": "The access log exists but must be requested in person at a clinic."},
+    {"date": "2026-03-11", "headline": "Patient sues CCSS alleging a doctor used her EDUS record to threaten her", "source": "CRHoy", "url": "https://crhoy.com/nacionales/usuaria-demanda-a-la-ccss-por-accesos-a-su-edus-alega-que-extrajeron-informacion-para-amenazarla/", "why": "Tests whether misuse of wide staff access to records has consequences."}
+  ],
+  "asOf": "2026-10-01"
+}

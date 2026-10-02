@@ -1,0 +1,386 @@
+{
+ "iso3": "THA",
+ "name": "Thailand",
+ "region": "Asia",
+ "controlModel": "Shared",
+ "headline": "Thais can choose which hospitals share their records through Health Link, but sign-up is optional and ministry data flows without a choice.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 50,
+   "summary": "The PDPA gives a right to a copy within 30 days, and Health Link on the Paotang and Tang Rat apps lets opted-in users see treatment and claims history. Only about 30,129 people had viewed records on Tang Rat by April 2026, and hospitals charge for copies.",
+   "detail": [
+    "Section 30 of the Personal Data Protection Act 2019 gives a right to access and obtain a copy of one's personal data, to be met within 30 days. Section 31 adds a right to receive it in a machine-readable format.",
+    "The 2015 Declaration of Patients' Rights, issued by the medical, nursing, pharmacy and other professional councils, says patients may see information in their own medical record on request, following each facility's procedure.",
+    "BDI, the digital government agency and the national health insurer said in July 2026 the apps let people see their own treatment and claims history, once they register and consent. About 30,129 people had signed up on Tang Rat and viewed their records by 24 April 2026, Thansettakij reported.",
+    "Ramathibodi Hospital charges 3 baht a page for up to 30 pages, 90 baht for a longer copy by email, and 8 baht a page for certified copies.",
+    "How many people use Health Link in the Paotang app was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act B.E. 2562 (2019), unofficial translation (Ministry of Digital Economy and Society)",
+     "url": "https://www.mdes.go.th/law/detail/3577-Personal-Data-Protection-Act-B-E--2562--2019-",
+     "date": "2019-05-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "BDI, NHSO and DGA sign MOU to upgrade Health Link nationwide (Thansettakij)",
+     "url": "https://www.thansettakij.com/health-wellness/657666",
+     "date": "2026-04-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "BDI says Tang Rat and Health Link only display data and never edit it (Thansettakij)",
+     "url": "https://www.thansettakij.com/health-wellness/665340",
+     "date": "2026-07-31",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Requesting copies of medical records and service fees (Ramathibodi Hospital, Mahidol University)",
+     "url": "https://www.rama.mahidol.ac.th/medicalrecord/th/prepare_doc_for_copy",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 50,
+   "summary": "Health Link is opt-in: a person chooses which hospitals may share, some hospitals ask for consent each time, and consent can be withdrawn at any time. Ministry of Public Health data flows to its cloud without a verified choice, and no patient-visible access log was verified.",
+   "detail": [
+    "Under Health Link a patient decides which hospitals may send data, can block one hospital while sharing others, and can leave the scheme at any time, according to the public relations department.",
+    "Hospitals set to per-visit consent send a notice to the Paotang app, where the patient approves or refuses a doctor's request. Emergency doctors may search the records of an unconscious patient.",
+    "The health ministry's cloud already gathers data from more than 6,600 of its own facilities, reported Thai PBS Policy Watch. A patient choice over that flow was not verified.",
+    "PDPA section 26 requires explicit consent for health data, but allows care, public health and national health security uses without it. A log showing patients who opened their record was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Health Link: Thailand's health data linking system (Government Public Relations Department)",
+     "url": "https://itcenter.prd.go.th/th/content/article/detail/id/8/iid/335512",
+     "date": "2024-10-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health Link: getting to know the health data link on Paotang (Government Public Relations Department)",
+     "url": "https://www.prd.go.th/th/content/category/detail/id/31/iid/505311",
+     "date": "2026-05-21",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Personal Data Protection Act B.E. 2562 (2019), unofficial translation (Ministry of Digital Economy and Society)",
+     "url": "https://www.mdes.go.th/law/detail/3577-Personal-Data-Protection-Act-B-E--2562--2019-",
+     "date": "2019-05-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Mor Prom revived: from vaccine app to national health Super App (Thai PBS Policy Watch)",
+     "url": "https://policywatch.thaipbs.or.th/article/life-243",
+     "date": "2026-01-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 55,
+   "summary": "The PDPA makes health data sensitive, requires breach notice within 72 hours and allows fines up to 5 million baht. The regulator fined a private hospital 1.21 million baht in 2025 after over 1,000 medical records leaked.",
+   "detail": [
+    "PDPA section 26 bars collecting health data without explicit consent unless an exception applies. Section 37 requires breach notice to the regulator within 72 hours where feasible. Section 84 sets fines up to 5 million baht for sensitive data breaches.",
+    "In August 2025 the Personal Data Protection Committee fined a large private hospital 1,210,000 baht after more than 1,000 medical records left a document-shredding contractor and were reused as snack bags.",
+    "The PDPC's PDPA Center had logged 2,672 complaints by January 2026, and fines across sectors, including healthcare, ranged from tens of thousands to several million baht, Tilleke & Gibbins reported.",
+    "The National Health Act 2007 also makes health information confidential, with up to six months in jail. Thailand has no EU adequacy decision, so the EHDS does not apply; transfers run under PDPA sections 28 and 29."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act B.E. 2562 (2019), unofficial translation (Ministry of Digital Economy and Society)",
+     "url": "https://www.mdes.go.th/law/detail/3577-Personal-Data-Protection-Act-B-E--2562--2019-",
+     "date": "2019-05-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "PDPC fines a large private hospital 1.2 million baht over leaked medical records (Thai PBS)",
+     "url": "https://www.thaipbs.or.th/news/content/354970",
+     "date": "2025-08-01",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Key takeaways from Thailand's Data Privacy Day 2026 (Tilleke & Gibbins)",
+     "url": "https://www.tilleke.com/insights/key-takeaways-from-thailands-data-privacy-day-2026/",
+     "date": "2026-01-30",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Health data needs explicit consent and cannot be reused beyond its purpose, and people can object to direct marketing. No specific ban on selling de-identified health data was found, and the health ministry plans to draw value from linked data with tech partners.",
+   "detail": [
+    "PDPA section 27 bars using or disclosing data beyond the purpose collected without consent. Section 32 gives a right to object to direct marketing at any time.",
+    "The PDPC has cited hospitals that used care data for other purposes, such as sending birthday cards, according to Tilleke & Gibbins.",
+    "In August 2026 the health minister listed creating value from linked health data as a goal. Mor Prom partners include True and Huawei, which links smart watch data and runs a research app, under the PDPA.",
+    "A law limiting sale of de-identified health data or use by insurers was not found in the pages opened."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act B.E. 2562 (2019), unofficial translation (Ministry of Digital Economy and Society)",
+     "url": "https://www.mdes.go.th/law/detail/3577-Personal-Data-Protection-Act-B-E--2562--2019-",
+     "date": "2019-05-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Key takeaways from Thailand's Data Privacy Day 2026 (Tilleke & Gibbins)",
+     "url": "https://www.tilleke.com/insights/key-takeaways-from-thailands-data-privacy-day-2026/",
+     "date": "2026-01-30",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Health ministry pushes Mor Prom as national health data hub; 18,052 record complaints (Bangkok Biz News)",
+     "url": "https://www.bangkokbiznews.com/health/public-health/1247304",
+     "date": "2026-08-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 57,
+   "summary": "Health Link and the health ministry's Mor Prom and cloud systems together aim to link about 15,000 to 20,000 facilities, including clinics and pharmacies. The two systems are still being joined, and a Digital Health Act is only in drafting.",
+   "detail": [
+    "Health Link uses the HL7 FHIR standard to exchange records between hospitals that use different systems, according to the public relations department.",
+    "In April 2026 BDI's director said Health Link linked claims data from over 10,000 national insurer units plus about 8,500 clinics and pharmacies, nearly 20,000 in total, as reported by Thansettakij and MGR Online.",
+    "The health ministry's cloud holds data from over 6,600 of its facilities, and its MOPH Refer system has sent over 1 million electronic referrals, reported Thai PBS Policy Watch in January 2026.",
+    "In October 2025 the digital and health ministries agreed to link Mor Prom and Health Link and to draft a Digital Health Act. Parliament committees were still discussing digital health governance in September 2026."
+   ],
+   "sources": [
+    {
+     "title": "Health Link: Thailand's health data linking system (Government Public Relations Department)",
+     "url": "https://itcenter.prd.go.th/th/content/article/detail/id/8/iid/335512",
+     "date": "2024-10-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "BDI puts Health Link, linking about 20,000 facilities, on the Tang Rat app (MGR Online)",
+     "url": "https://mgronline.com/cyberbiz/detail/9690000039578",
+     "date": "2026-04-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Mor Prom revived: from vaccine app to national health Super App (Thai PBS Policy Watch)",
+     "url": "https://policywatch.thaipbs.or.th/article/life-243",
+     "date": "2026-01-11",
+     "publisherClass": "news"
+    },
+    {
+     "title": "NHCO briefs parliament on health data, Section 7 and digital health governance (National Health Commission Office)",
+     "url": "https://www.nationalhealth.or.th/public/index.php/NHCO/367",
+     "date": "2026-09-24",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 50,
+   "summary": "With the patient's consent, doctors at linked facilities can see diagnoses, medicines and lab results from other providers through Health Link, and emergency doctors can search records of unconscious patients. Opt-in sign-up and data errors limit how complete the view is.",
+   "detail": [
+    "Health Link was built so doctors can view a patient's data from other hospitals, with the patient controlling access, the public relations department says.",
+    "Only the treating doctor with the patient's consent may view data, and records are reassembled only when a doctor requests them through the proper steps, according to a May 2026 government article.",
+    "Linked data covers disease history and medicine use across nearly 20,000 facilities, BDI's director said in April 2026.",
+    "In August 2026 a ministry review of flagged Mor Prom items found 24.8% were recording errors, which weakens trust in what clinicians see."
+   ],
+   "sources": [
+    {
+     "title": "Health Link: Thailand's health data linking system (Government Public Relations Department)",
+     "url": "https://itcenter.prd.go.th/th/content/article/detail/id/8/iid/335512",
+     "date": "2024-10-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health Link: getting to know the health data link on Paotang (Government Public Relations Department)",
+     "url": "https://www.prd.go.th/th/content/category/detail/id/31/iid/505311",
+     "date": "2026-05-21",
+     "publisherClass": "official"
+    },
+    {
+     "title": "BDI, NHSO and DGA sign MOU to upgrade Health Link nationwide (Thansettakij)",
+     "url": "https://www.thansettakij.com/health-wellness/657666",
+     "date": "2026-04-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Health ministry pushes Mor Prom as national health data hub; 18,052 record complaints (Bangkok Biz News)",
+     "url": "https://www.bangkokbiznews.com/health/public-health/1247304",
+     "date": "2026-08-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "The PDPA allows health data to be used for research without consent if safeguards set by the regulator apply, and there is no general opt-out. Trials need written consent under the National Health Act, and people may object to research use case by case.",
+   "detail": [
+    "PDPA section 26(5)(d) allows research use of sensitive data without explicit consent, only as far as necessary and with safeguards set by the PDPC.",
+    "A 2023 PDPC notification sets those safeguards: security measures, control under research ethics standards, and pseudonymisation or encryption where possible.",
+    "National Health Act section 9 requires advance notice and written consent before a patient is used in an experiment. Breaking sections 7 or 9 can bring up to six months in jail or a 10,000 baht fine.",
+    "PDPA section 32(3) lets a person object to research use unless it serves a public-interest task. A public register of research uses was not found."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act B.E. 2562 (2019), unofficial translation (Ministry of Digital Economy and Society)",
+     "url": "https://www.mdes.go.th/law/detail/3577-Personal-Data-Protection-Act-B-E--2562--2019-",
+     "date": "2019-05-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Act B.E. 2550 (2007), Thai text (Department of Medical Services)",
+     "url": "https://www.dms.go.th/backend/Content/Content_File/Information_Center/Attach/25621124013609AM_17.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "PDPC Notification on safeguards for research and statistics under sections 24(1) and 26(5)(d), B.E. 2566 (text mirror, SiData)",
+     "url": "https://pdpa.sidata.plus/reference-article-26-5",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "PDPA subordinate laws list, including the PDPC research safeguards notification (Chiang Mai University)",
+     "url": "https://privacy.cmu.ac.th/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%8E%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2/",
+     "date": "2025-06-13",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 55,
+   "summary": "Medical AI must be registered as a device, and Thai FDA guidance from 2024 says it must disclose training data and must not replace clinical judgment. Limits on continuous learning are only advice, and a general AI Act is still a draft.",
+   "detail": [
+    "The Thai FDA regulates software and AI with a medical purpose under the Medical Device Act 2008, as amended in 2019, with risk classes and registration.",
+    "Its October 2024 guidance says AI and machine learning devices must show the data sets used to train and test them, and must not be intended to replace clinicians' judgment in diagnosis or treatment.",
+    "The same guidance says models should not keep learning from live data in use, and that updates should follow a set plan or cycle. These are recommendations, not mandates.",
+    "A draft AI Act using risk-based rules was still under review after public consultation in September 2026, Thairath reported."
+   ],
+   "sources": [
+    {
+     "title": "Guidance manual on regulating software and AI as medical devices (Thai FDA Medical Device Control Division)",
+     "url": "https://medical.fda.moph.go.th/media.php?id=616254428592349184&name=Non-IVD_G_SMD_01_Guidance_SaMD.pdf",
+     "date": "2024-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Regulation of software and AI as medical devices (Thai FDA Medical Device Control Division)",
+     "url": "https://medical.fda.moph.go.th/samd-head",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "AI push for the economy; business watches new AI law (Thairath)",
+     "url": "https://www.thairath.co.th/money/economics/thai_economics/2958310",
+     "date": "2026-09-09",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Health Link links national insurer claims data, clinics and pharmacies; the ministry cloud covers its own facilities. Social security and civil servant scheme claims, and research linkage, were not verified.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Act B.E. 2562",
+   "level": "National",
+   "year": "2019",
+   "what": "Health is sensitive data needing explicit consent; access within 30 days; 72-hour breach notice; research exception.",
+   "url": "https://www.mdes.go.th/law/detail/3577-Personal-Data-Protection-Act-B-E--2562--2019-"
+  },
+  {
+   "name": "National Health Act B.E. 2550",
+   "level": "National",
+   "year": "2007",
+   "what": "Health information is confidential (s.7); written consent before research experiments (s.9); jail or fine.",
+   "url": "https://www.dms.go.th/backend/Content/Content_File/Information_Center/Attach/25621124013609AM_17.pdf"
+  },
+  {
+   "name": "Declaration of Patients' Rights and Duties",
+   "level": "National",
+   "year": "2015",
+   "what": "Professional councils' declaration: patients may see their own medical record information on request.",
+   "url": "https://www.pharmacycouncil.org/index.php?option=content_detail&view=detail&itemid=648&catid=1"
+  },
+  {
+   "name": "PDPC Notification on safeguards for research and statistics",
+   "level": "National",
+   "year": "2023",
+   "what": "Sets security, ethics and pseudonymisation safeguards for research use of data without consent.",
+   "url": "https://pdpa.sidata.plus/reference-article-26-5"
+  },
+  {
+   "name": "Medical Device Act B.E. 2551 (amended 2019)",
+   "level": "National",
+   "year": "2008",
+   "what": "Basis for Thai FDA registration of software and AI as medical devices.",
+   "url": "https://medical.fda.moph.go.th/media.php?id=616254428592349184&name=Non-IVD_G_SMD_01_Guidance_SaMD.pdf"
+  },
+  {
+   "name": "Digital Health Act (draft, not enacted)",
+   "level": "National",
+   "year": "2025",
+   "what": "Draft central law for exchanging digital health data; framework agreed October 2025, not enacted.",
+   "url": "https://techsauce.co/healthtech/thai-digital-health-integration-healthlink"
+  },
+  {
+   "name": "Artificial Intelligence Act (draft, not enacted)",
+   "level": "National",
+   "year": "2026",
+   "what": "Draft risk-based AI law under review after public consultation as of September 2026.",
+   "url": "https://www.thairath.co.th/money/economics/thai_economics/2958310"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-29",
+   "headline": "Digital and health ministries agree to link Mor Prom and Health Link",
+   "source": "Techsauce",
+   "url": "https://techsauce.co/healthtech/thai-digital-health-integration-healthlink",
+   "why": "Joins the two main record systems and starts a Digital Health Act."
+  },
+  {
+   "date": "2026-01-11",
+   "headline": "Health ministry relaunches Mor Prom as national health super app",
+   "source": "Thai PBS Policy Watch",
+   "url": "https://policywatch.thaipbs.or.th/article/life-243",
+   "why": "One state app aims to show records, appointments and prescriptions."
+  },
+  {
+   "date": "2026-04-27",
+   "headline": "Health Link linked to national insurer claims, shown in Tang Rat app",
+   "source": "Thansettakij",
+   "url": "https://www.thansettakij.com/health-wellness/657666",
+   "why": "Gold Card members can see treatment and claims history on their phones."
+  },
+  {
+   "date": "2026-08-14",
+   "headline": "Thousands report Mor Prom records that do not match care received",
+   "source": "Bangkok Biz News",
+   "url": "https://www.bangkokbiznews.com/health/public-health/1247304",
+   "why": "Patient access exposed 18,052 suspect entries; 24.8% of checked items were errors."
+  },
+  {
+   "date": "2026-09-09",
+   "headline": "Draft AI Act under review as businesses warn of costs",
+   "source": "Thairath",
+   "url": "https://www.thairath.co.th/money/economics/thai_economics/2958310",
+   "why": "Would add general AI rules above medical device guidance for clinical AI."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

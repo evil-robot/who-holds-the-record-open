@@ -1,0 +1,377 @@
+{
+ "iso3": "NGA",
+ "name": "Nigeria",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A modern data law on paper, but records stay inside each hospital and patients have no tool to see or steer who uses them.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Section 34 of the Data Protection Act 2023 gives a right to a copy in a common electronic format, but sets no day limit and lets providers pass on unreasonable costs. There is no national patient portal, so each hospital must be asked separately.",
+   "detail": [
+    "Section 34(1) of the Nigeria Data Protection Act 2023 lets a person obtain their data 'without constraint or unreasonable delay', including a copy in a commonly used electronic format. If that would impose unreasonable costs, the controller may make the person bear some or all of them. The GAID 2025 sets no fixed day limit for access requests.",
+    "GAID Article 37 creates a right to data portability, but only for data processed on consent or contract, and it may not apply to controllers performing public duties. Much hospital care rests on the 'medical care' ground in section 30, so portability of a full record is uncertain.",
+    "The National Health Act 2014 (section 25) obliges every health establishment to keep a record for each user, but it does not spell out a patient's right to a copy. The 2018 Patients' Bill of Rights says providers should give records on request 'in accordance with prevailing laws'. It is guidance, not a new law.",
+    "We found no national portal where residents can view their record. Base 45 under the anchors, plus 5 for the electronic format, minus 5 for no deadline and minus 5 for possible cost recovery, gives 40."
+   ],
+   "sources": [
+    {
+     "title": "Nigeria Data Protection Act, 2023 (Official Gazette copy, NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2024/03/Nigeria_Data_Protection_Act_2023.pdf",
+     "date": "2023-07-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "NDP Act General Application and Implementation Directive (GAID) 2025 (NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2025/07/NDP-ACT-GAID-2025-MARCH-20TH.pdf",
+     "date": "2025-03-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Act, 2014 (Official Gazette, FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/nig162642.pdf",
+     "date": "2014",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Patients' Bill of Rights (Consumer Protection Council and Federal Ministry of Health; copy hosted by Infusion Lawyers)",
+     "url": "https://infusionlawyers.com/wp-content/uploads/2018/08/Patients-Bill-of-Rights-PBoR-Long-version.pdf",
+     "date": "2018",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The National Health Act requires written consent to disclose health information, but section 27 lets providers pass records to other providers without asking again. Patients may ask which recipients got their data, but no working opt-out or patient-visible log exists, so control sits with each facility.",
+   "detail": [
+    "Section 26 of the National Health Act makes all user health information confidential. It may be disclosed only with written consent, a court order or a law requiring it, a guardian's request, or where non-disclosure is a serious threat to public health.",
+    "Section 27 lets any health worker or provider disclose records to another person or facility for a legitimate purpose within their duties, where it is in the user's interest. The patient is not asked again, and nothing requires them to be told.",
+    "The Data Protection Act lets a person withdraw consent at any time (section 35) and object to processing (section 36). GAID Article 18 requires consent for processing sensitive data. These are rights to complain and ask, not working controls in a health system.",
+    "The December 2025 health MoU with the United States has not been published. A March 2026 lawsuit says it allows transfer of medical records and samples without the public knowing the terms. Patients have no say in it.",
+    "Section 34(1)(a)(iii) of the Data Protection Act gives a right to learn the recipients, or only the categories of recipients, of a person's data. That is weaker than a log, and we found no tool that delivers it, so as with Ghana it earns no move into the 40 to 55 band."
+   ],
+   "sources": [
+    {
+     "title": "National Health Act, 2014 (Official Gazette, FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/nig162642.pdf",
+     "date": "2014",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Nigeria Data Protection Act, 2023 (Official Gazette copy, NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2024/03/Nigeria_Data_Protection_Act_2023.pdf",
+     "date": "2023-07-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "NDP Act General Application and Implementation Directive (GAID) 2025 (NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2025/07/NDP-ACT-GAID-2025-MARCH-20TH.pdf",
+     "date": "2025-03-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Nigerian govt sued over deal to share citizens' health data with US (Daily Trust, from Premium Times)",
+     "url": "https://dailytrust.com/nigerian-govt-sued-over-deal-to-share-citizens-health-data-with-us/",
+     "date": "2026-03-20",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health status is sensitive data under the 2023 Act, with 72-hour breach notice and fines of the greater of N10 million or 2% of revenue. But we found no health-sector enforcement, and a state teaching hospital was found unregistered in 2026.",
+   "detail": [
+    "The Data Protection Act lists health status as sensitive personal data (section 65) and limits its processing to set grounds (section 30). Controllers must report breaches to the Commission within 72 hours and tell people directly when the risk is high (section 40). Fines reach the greater of N10 million or 2% of revenue for major controllers.",
+    "Section 29 of the National Health Act makes it an offence to access, copy, falsify or link records without authority, with up to two years in prison or a N250,000 fine. Transfers abroad need adequate protection or another basis under sections 41 to 43.",
+    "On 30 October 2025 the Commission settled with Meta and wrote off a $32.8 million fine, and a court made the deal a consent judgment on 3 November 2025. The terms were not published until Premium Times obtained them in April 2026.",
+    "In May 2026 FIJ found Lagos State University Teaching Hospital unregistered with the Commission and without a public privacy policy. We found no published sanction on a health provider."
+   ],
+   "sources": [
+    {
+     "title": "Nigeria Data Protection Act, 2023 (Official Gazette copy, NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2024/03/Nigeria_Data_Protection_Act_2023.pdf",
+     "date": "2023-07-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Act, 2014 (Official Gazette, FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/nig162642.pdf",
+     "date": "2014",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Inside Nigeria's deal to write off $32.8 million fine against Meta (Premium Times)",
+     "url": "https://www.premiumtimesng.com/news/headlines/873350-exclusive-inside-nigerias-deal-to-write-off-32-8-million-fine-against-meta.html",
+     "date": "2026-04-26",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Airlines, hospitals... major data controllers not registered under NDPC (FIJ)",
+     "url": "https://fij.ng/article/alert-airlines-hospitals-major-data-controllers-not-registered-under-ndpc/",
+     "date": "2026-05-30",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "GAID 2025 requires consent for any direct marketing and for processing sensitive data such as health data. There are no rules we found on health apps, data brokers or sale of de-identified data, and the Meta settlement softened earlier consent orders on behavioural advertising.",
+   "detail": [
+    "GAID Article 18 requires consent for any direct marketing activity, for processing sensitive personal data, and for further processing incompatible with the original purpose. Section 36(3) of the Act lets a person object to direct marketing at any time, including profiling.",
+    "Health apps and telemedicine platforms fall under the general Act. The House Digital Health Services Bill 2025 would license digital health providers and require explicit consent before sharing patient data, but it had only a first reading in March 2025.",
+    "The Commission found Meta did not get 'express, specific and unambiguous consent' for behavioural advertising. Its October 2025 settlement dropped the fine and softened those orders, according to Premium Times, which weakens the signal to other firms.",
+    "We found no rule on sale of de-identified health data or on data brokers."
+   ],
+   "sources": [
+    {
+     "title": "NDP Act General Application and Implementation Directive (GAID) 2025 (NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2025/07/NDP-ACT-GAID-2025-MARCH-20TH.pdf",
+     "date": "2025-03-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Nigeria Data Protection Act, 2023 (Official Gazette copy, NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2024/03/Nigeria_Data_Protection_Act_2023.pdf",
+     "date": "2023-07-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Inside Nigeria's deal to write off $32.8 million fine against Meta (Premium Times)",
+     "url": "https://www.premiumtimesng.com/news/headlines/873350-exclusive-inside-nigerias-deal-to-write-off-32-8-million-fine-against-meta.html",
+     "date": "2026-04-26",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Review of Nigeria's Digital Health Services Bill, 2025 (Tech Hive Advisory)",
+     "url": "https://www.techhiveadvisory.africa/insights/review-of-nigerias-digital-health-services-bill-2025",
+     "date": "2025-11-10",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 28,
+   "summary": "An assessment of 79 federal tertiary hospitals found average EMR adoption of 74.5%, but the Minister of State says donor-built systems still cannot share patient information across facilities. A national architecture was endorsed in June 2025, yet no working exchange links hospitals, labs and pharmacies.",
+   "detail": [
+    "In June 2026 the Minister of State for Health said (per Premium Times; no ministry release found) an assessment of 79 federal tertiary hospitals found average EMR adoption of 74.5%. He said multiple donor-supported platforms run independently, so providers struggle to share patient information. 43% of primary care centres have no electricity and about 60% of rural ones no internet.",
+    "The National Digital Health Architecture, endorsed by all 36 states and the FCT in June 2025, sets standards for records, registries and interoperability. The NDHI site lists a national EMR and data exchange as aims, with a target of 720 or more digitised facilities.",
+    "In June 2026 a ministry official said all Basic Health Care Provision Fund facilities should be digitised by month end and a list published. We did not find the published list.",
+    "The NHIA Act 2022 requires state schemes to feed data into the Authority's ICT system. The government reports over 22 million people in health insurance. We found no link from claims to clinical records."
+   ],
+   "sources": [
+    {
+     "title": "Nigeria needs N500 billion to scale digital health infrastructure over five years (Premium Times)",
+     "url": "https://www.premiumtimesng.com/health/health-news/890930-nigeria-needs-%E2%82%A6500-billion-to-scale-digital-health-infrastructure-over-five-years-official.html",
+     "date": "2026-06-26",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Nigeria Digital in Health Initiative (Federal Ministry of Health and Social Welfare)",
+     "url": "https://www.digitalhealth.gov.ng/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "FG records major gains in health sector renewal, approves N32.8 billion BHCPF disbursement (Federal Ministry of Information)",
+     "url": "https://fmino.gov.ng/fg-records-major-gains-in-health-sector-renewal-approves-n32-8-billion-bhcpf-disbursement-to-states/",
+     "date": "2026-06-27",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Federal Govt expands electronic medical records deployment across health facilities (Leadership)",
+     "url": "https://leadership.ng/federal-govt-expands-electronic-medical-records-deployment-across-health-facilities/",
+     "date": "2026-06-17",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 22,
+   "summary": "A clinician usually sees only their own facility's record. Section 27 of the Health Act lets providers share for treatment, but there is no national record or exchange to pull a patient's history from elsewhere.",
+   "detail": [
+    "Section 28 lets a provider examine records for treatment with the user's authorisation, and section 27 lets providers pass records to each other in the user's interest. Without a shared record, this depends on referral letters, paper and phone calls.",
+    "Introducing the National E-Health Bill (SB. 758) in July 2026, the Senate Deputy President cited paper records, lost patient information, repeated tests and poor information sharing among institutions. The bill passed second reading and went to committee.",
+    "The government said in July 2026 it would build health information exchanges and registries on 'security, interoperability and sovereignty'. These are plans; no emergency access rule tied to a shared system exists."
+   ],
+   "sources": [
+    {
+     "title": "National Health Act, 2014 (Official Gazette, FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/nig162642.pdf",
+     "date": "2014",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Senate advances bill to integrate e-health services in Nigeria (Vanguard)",
+     "url": "https://www.vanguardngr.com/2026/07/senate-advances-bill-to-integrate-e-health-services-in-nigeria/",
+     "date": "2026-07-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Nigerian govt unveils blueprint for secure, interoperable digital health system (Premium Times)",
+     "url": "https://www.premiumtimesng.com/news/top-news/898831-nigerian-govt-unveils-blueprint-for-secure-interoperable-digital-health-system.html",
+     "date": "2026-07-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Research use of identifiable records needs the patient's authorisation, the facility head's approval and ethics clearance under section 28 of the Health Act, the same regime as South Africa. De-identified data is exempt, and there is no public register of uses.",
+   "detail": [
+    "Section 28(1) allows study, teaching or research on records only with authorisation from the user, the head of the establishment and a health research ethics committee. Section 28(2) drops all three where the research obtains no identifying information.",
+    "Section 32 requires written informed consent for research on living people, with extra rules for minors. The National Health Research Ethics Committee sets norms and registers and audits institutional committees.",
+    "The 2007 National Code of Health Research Ethics exempts research on existing records recorded so that participants cannot be identified. The Data Protection Act (section 30(1)(i)) allows research processing of sensitive data on the basis of a law with safeguards.",
+    "We found no national research data platform, public register of uses or general opt-out. Four safeguard classes (ethics committees, section 29 misuse offences, section 26 confidentiality, the section 28 consent route) give 40 plus 12, capped at 50."
+   ],
+   "sources": [
+    {
+     "title": "National Health Act, 2014 (Official Gazette, FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/nig162642.pdf",
+     "date": "2014",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Code of Health Research Ethics (NHREC, Federal Ministry of Health)",
+     "url": "https://healthresearchwebafrica.org.za/files/NCHRECurrentVersion.pdf",
+     "date": "2007-08-13",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Nigeria Data Protection Act, 2023 (Official Gazette copy, NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2024/03/Nigeria_Data_Protection_Act_2023.pdf",
+     "date": "2023-07-01",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 38,
+   "summary": "NAFDAC registers software as a medical device under a 2024 guideline with risk classes and clinical validation, but it has no AI-specific rules. The Health Minister asked in July 2026 whether frameworks for health AI exist.",
+   "detail": [
+    "NAFDAC's SaMD guideline (DR&R-GDL-036-00, effective 1 July 2024) uses IMDRF risk categories I to IV and asks for clinical association, analytical validation and clinical validation. A change that alters the product's definition statement triggers re-categorisation. It does not mention AI, learning models or human oversight.",
+    "GAID Article 43 requires anyone deploying AI on personal data to run an impact assessment, test in low-risk settings, check for disparate outcomes and monitor continuously. Section 37 of the Act gives a right to human intervention in solely automated decisions.",
+    "In July 2026 a Senate bill to replace NAFDAC's laws, covering AI-assisted diagnostics, passed second reading. The Minister asked, 'Do we have existing frameworks, guidelines and regulations that tie all this together?' Under the anchors, guidance only puts Nigeria at 35 to 50."
+   ],
+   "sources": [
+    {
+     "title": "Guidelines for Registration of Software as a Medical Device (SaMD) in Nigeria, DR&R-GDL-036-00 (NAFDAC)",
+     "url": "https://nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/DR_And_R_Guidelines/Guidelines-for-Registration-of-Software-as-a-Medical-Device-SaMD-in-Nigeria.pdf",
+     "date": "2024-07-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "NDP Act General Application and Implementation Directive (GAID) 2025 (NDPC)",
+     "url": "https://ndpc.gov.ng/wp-content/uploads/2025/07/NDP-ACT-GAID-2025-MARCH-20TH.pdf",
+     "date": "2025-03-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Senate begins consideration of bill to regulate AI diagnostics, IVF and emerging health technologies (National Assembly Library Trust Fund)",
+     "url": "https://naltf.gov.ng/senate-begins-consideration-of-landmark-bill-to-regulate-ai-diagnostics-ivf-and-emerging-health-technologies/",
+     "date": "2026-07-24",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Nigerian govt unveils blueprint for secure, interoperable digital health system (Premium Times)",
+     "url": "https://www.premiumtimesng.com/news/top-news/898831-nigerian-govt-unveils-blueprint-for-secure-interoperable-digital-health-system.html",
+     "date": "2026-07-28",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Federal hospitals mostly run their own EMRs and primary care is being digitised, but platforms do not share data. NHIA reports over 22 million enrolled; we found no evidence of claims data flows. No national exchange links care.",
+ "laws": [
+  {
+   "name": "Nigeria Data Protection Act, 2023",
+   "level": "National",
+   "year": "2023",
+   "what": "Health status is sensitive data; access, objection, 72-hour breach notice, fines of greater of N10 million or 2% revenue.",
+   "url": "https://ndpc.gov.ng/wp-content/uploads/2024/03/Nigeria_Data_Protection_Act_2023.pdf"
+  },
+  {
+   "name": "NDP Act General Application and Implementation Directive (GAID) 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Consent for marketing and sensitive data; portability; AI deployment duties under Article 43.",
+   "url": "https://ndpc.gov.ng/wp-content/uploads/2025/07/NDP-ACT-GAID-2025-MARCH-20TH.pdf"
+  },
+  {
+   "name": "National Health Act, 2014",
+   "level": "National",
+   "year": "2014",
+   "what": "Record keeping, confidentiality, provider sharing, research authorisation, offences for unauthorised record access.",
+   "url": "https://faolex.fao.org/docs/pdf/nig162642.pdf"
+  },
+  {
+   "name": "National Health Insurance Authority Act, 2022",
+   "level": "National",
+   "year": "2022",
+   "what": "Makes health insurance mandatory and requires state schemes to feed data into NHIA's ICT system.",
+   "url": "https://p4h.world/app/uploads/2024/06/Nigeria-National-Health-Insurance-Act.x23411.pdf"
+  },
+  {
+   "name": "NAFDAC Guidelines for Registration of Software as a Medical Device",
+   "level": "National",
+   "year": "2024",
+   "what": "Risk classes and clinical validation for medical software; no AI-specific provisions.",
+   "url": "https://nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/DR_And_R_Guidelines/Guidelines-for-Registration-of-Software-as-a-Medical-Device-SaMD-in-Nigeria.pdf"
+  },
+  {
+   "name": "National E-Health Bill, 2026 (SB. 758)",
+   "level": "National",
+   "year": "2026",
+   "what": "Pending: passed Senate second reading July 2026; would regulate and integrate electronic health services.",
+   "url": "https://www.vanguardngr.com/2026/07/senate-advances-bill-to-integrate-e-health-services-in-nigeria/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-03-20",
+   "headline": "Lawyer sues to suspend Nigeria-US health MoU over health data transfers",
+   "source": "Daily Trust (Premium Times)",
+   "url": "https://dailytrust.com/nigerian-govt-sued-over-deal-to-share-citizens-health-data-with-us/",
+   "why": "An unpublished deal may move medical records and samples abroad without patients knowing."
+  },
+  {
+   "date": "2026-04-26",
+   "headline": "Data regulator wrote off $32.8 million Meta fine in secret settlement",
+   "source": "Premium Times",
+   "url": "https://www.premiumtimesng.com/news/headlines/873350-exclusive-inside-nigerias-deal-to-write-off-32-8-million-fine-against-meta.html",
+   "why": "Weak follow-through on big cases lowers the cost of misusing personal data."
+  },
+  {
+   "date": "2026-05-30",
+   "headline": "Lagos teaching hospital found unregistered with data protection regulator",
+   "source": "FIJ",
+   "url": "https://fij.ng/article/alert-airlines-hospitals-major-data-controllers-not-registered-under-ndpc/",
+   "why": "Hospitals hold sensitive data yet some ignore basic registration and privacy notices."
+  },
+  {
+   "date": "2026-06-26",
+   "headline": "Minister says hospital platforms cannot share patient data, seeks N500 billion",
+   "source": "Premium Times",
+   "url": "https://www.premiumtimesng.com/health/health-news/890930-nigeria-needs-%E2%82%A6500-billion-to-scale-digital-health-infrastructure-over-five-years-official.html",
+   "why": "Records exist in many hospitals but do not follow the patient between them."
+  },
+  {
+   "date": "2026-07-08",
+   "headline": "Senate passes National E-Health Bill at second reading",
+   "source": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/07/senate-advances-bill-to-integrate-e-health-services-in-nigeria/",
+   "why": "Could create the first law on electronic records and data sharing between facilities."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

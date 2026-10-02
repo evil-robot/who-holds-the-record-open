@@ -1,0 +1,388 @@
+{
+ "iso3": "ISR",
+ "name": "Israel",
+ "region": "Middle East",
+ "controlModel": "Shared",
+ "headline": "Every Israeli can read most of their record in their health fund's app, but the national exchange offers only an all-or-nothing opt-out.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 66,
+   "summary": "The Patient's Rights Act gives a right to the record and a copy, and a 2019 ministry circular makes all four health funds show members structured and free-text data online. No fixed deadline was found and no official usage figure was verified.",
+   "detail": [
+    "Section 18(a) of the Patient's Rights Act 1996 entitles a patient to medical information from their record, including a copy. A clinician may withhold information that could cause serious harm, but must refer the decision to the ethics committee, which can reverse it.",
+    "The 2019 fee regulations make online viewing free and cap a computerised copy at NIS 10 per request, for records created in the five years before the request. Discharge letters, test results and follow-up instructions are free once per episode. No statutory deadline for answering a request was found.",
+    "Circular 8/2019 requires each health fund (every resident belongs to one) to show structured and free-text record data in a personal online file, plus data from the national exchange, with print and download. Funds may keep clinicians' internal note fields hidden. Clalit's app lists diagnoses, tests, sensitivities, medicines and vaccines.",
+    "Full copies are still requested institution by institution, since the fee rules treat each hospital or health fund record as a unit. The share of residents who use the portals was not verified. The 2024 Portability Law will add a right to move data between providers, but it starts on 24 July 2027."
+   ],
+   "sources": [
+    {
+     "title": "Chok Zchuyot HaCholeh, 1996 (Patient's Rights Act), sections 18 to 20, consolidated text (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%94",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Takanot Zchuyot HaCholeh (maximum fee for a copy of a medical record or viewing it), 2019 (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%94_(%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%9E%D7%A8%D7%91%D7%99_%D7%91%D7%A2%D7%93_%D7%9E%D7%A1%D7%99%D7%A8%D7%AA_%D7%94%D7%A2%D7%AA%D7%A7_%D7%A8%D7%A9%D7%95%D7%9E%D7%94_%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA_%D7%90%D7%95_%D7%A2%D7%99%D7%95%D7%9F_%D7%91%D7%94)",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Director-General Circular 8/2019: giving patients access to personal health data, 'Health in the palm of your hand' (Ministry of Health)",
+     "url": "https://www.gov.il/BlobFolder/policy/mk08-2019/he/files_circulars_mk_mk08_2019.pdf",
+     "date": "2019-11-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Clalit app: your medical information (Clalit Health Services)",
+     "url": "https://www.clalit.co.il/he/info/services/Pages/new_app.aspx",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 50,
+   "summary": "Everyone is in the national Eitan exchange by default and can leave only completely, by a request at a health fund branch that is handled within 30 days. Every view is logged, but no patient-facing view of that log was found.",
+   "detail": [
+    "The Ministry of Health says a patient may ask to leave the exchange, and the exit is full: nobody can block a single episode, institution or clinician. Exit does not stop the health fund seeing its own members' data, and under Circular 8/2019 exchange-only data no longer appears in the patient's online file.",
+    "The ministry logs every view with user, place, time and patient. We found no way for patients to read that log. Some organisations let a patient mark a visit as highly confidential so it is never sent.",
+    "The Patient's Rights Act lets a clinician pass information to another clinician for treatment without consent. The 2024 Portability Law will add a ministry consent system with per-recipient, revocable permissions the person can view, but it is not yet in force."
+   ],
+   "sources": [
+    {
+     "title": "HaReshet HaLeumit LeShituf Meida Refui, Eitan (Ministry of Health)",
+     "url": "https://www.gov.il/he/pages/shared-medical-info",
+     "date": "2026-09-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Director-General Circular 8/2019: giving patients access to personal health data, 'Health in the palm of your hand' (Ministry of Health)",
+     "url": "https://www.gov.il/BlobFolder/policy/mk08-2019/he/files_circulars_mk_mk08_2019.pdf",
+     "date": "2019-11-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Chok Zchuyot HaCholeh, 1996 (Patient's Rights Act), sections 18 to 20, consolidated text (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%94",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Chok Niyud Meida Refui, 2024 (Medical Information Portability Law), consolidated with Amendment 2 of 2025 (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A0%D7%99%D7%95%D7%93_%D7%9E%D7%99%D7%93%D7%A2_%D7%A8%D7%A4%D7%95%D7%90%D7%99",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 58,
+   "summary": "Amendment 13, in force since 14 August 2025, makes health data specially sensitive and forces hospitals and health funds to appoint data protection officers. In July 2026 the regulator fined Meuhedet NIS 256,000 for reporting a breach two months late.",
+   "detail": [
+    "The Protection of Privacy Law lists health and genetic data as information of special sensitivity. Hospitals and health funds must appoint a data protection officer. Fines are set by breach type, can double for databases of over a million people, and are capped at 5% of turnover.",
+    "Courts may award up to NIS 50,000 without proof of harm, doubled if the intrusion was intended. The Privacy Protection Authority sits inside the Ministry of Justice. Section 19 shields police, army intelligence and the Shin Bet for reasonable acts within their role.",
+    "Breaches are frequent. Emails with medical information were exposed in an attack on Shamir Medical Center in late 2025, and in February 2026 the Handala group published thousands of Clalit referral forms and sick notes. A Meuhedet system fault let some members see relatives' files.",
+    "Israel is not in the EU and the European Health Data Space does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Chok Haganat HaPratiut, 1981 (Protection of Privacy Law), consolidated with Amendment 13 (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Israel: Significant Amendment to the Privacy Law Takes Effect (Pearl Cohen)",
+     "url": "https://www.pearlcohen.com/israel-significant-amendment-to-the-privacy-law-takes-effect/",
+     "date": "2025-09-03",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Meuhedet fined NIS 256,000, first fine since the privacy law amendment (NWS News)",
+     "url": "https://nws.report/health-and-environment/151313/",
+     "date": "2026-07-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Clalit probes suspected cyberattack after Iranian-linked hackers leak patient files (Ynet News)",
+     "url": "https://www.ynetnews.com/health_science/article/ry0gesnobl",
+     "date": "2026-02-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 56,
+   "summary": "Ministry circulars bar exclusive data deals beyond 18 months, require a stated public benefit and forbid uses aimed at insurance or employment discrimination. These are circulars, not statute, and they regulate commercial collaborations rather than ban them.",
+   "detail": [
+    "Circular 2/2018 sets terms for every collaboration that reuses health fund or hospital data. The contract must show public benefit, ban socially improper uses, especially insurance and employment discrimination, and may not grant exclusivity, except for newly collected data, for up to 18 months.",
+    "Circular 1/2018 makes de-identified data the default for secondary use and requires consent for identifiable use unless law allows otherwise. Its reporting form lists commercial and marketing purposes as a category, so such uses are expected, not banned.",
+    "The Genetic Information Law stops insurers, including health funds, from asking for genetic tests or using identified genetic data, with a narrow exception for large life, illness or disability policies.",
+    "Amendment 13 requires registration of any database whose main purpose is passing personal data to others, if it holds over 10,000 people. No rule specific to consumer health apps was found."
+   ],
+   "sources": [
+    {
+     "title": "Director-General Circular 2/2018: collaborations based on secondary use of health data (Ministry of Health)",
+     "url": "https://www.gov.il/BlobFolder/policy/mk02-2018/he/files_circulars_mk_MK02_2018.pdf",
+     "date": "2018-01-17",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Director-General Circular 1/2018: secondary uses of health data (Ministry of Health)",
+     "url": "https://www.gov.il/BlobFolder/policy/mk01-2018/he/files_circulars_mk_MK01_2018.pdf",
+     "date": "2018-01-17",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Chok Meida Geneti, 2000 (Genetic Information Law), insurer provisions (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%99%D7%93%D7%A2_%D7%92%D7%A0%D7%98%D7%99",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Chok Haganat HaPratiut, 1981 (Protection of Privacy Law), consolidated with Amendment 13 (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 78,
+   "summary": "Eitan links hospitals, health funds, mother and child clinics, district health offices and prison medicine, and health funds receive emergency and discharge summaries every day. Each health fund keeps primary care, labs and pharmacy in one record.",
+   "detail": [
+    "The Ministry of Health runs Eitan as a closed national network with no central database. Data stays at each member and is shown to the treating team during a visit. Health funds also receive daily emergency room and inpatient summaries for members discharged that day.",
+    "Inside each health fund the record joins family doctors, specialists, labs and prescriptions. Maccabi sends digital prescriptions straight to its own and contracted pharmacies, and members can see only prescriptions written by Maccabi doctors.",
+    "Several categories never travel, including abortion committees, HIV results, genetic sequencing and psychotherapy notes. The 2024 Portability Law will add a standard set of 16 data baskets in three stages from July 2027.",
+    "A December 2025 draft bill would let the minister order national health registries fed by every medical institution."
+   ],
+   "sources": [
+    {
+     "title": "HaReshet HaLeumit LeShituf Meida Refui, Eitan (Ministry of Health)",
+     "url": "https://www.gov.il/he/pages/shared-medical-info",
+     "date": "2026-09-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Digital prescriptions (Maccabi Healthcare Services)",
+     "url": "https://www.maccabi4u.co.il/31276/digital-services/medication/digital_prescriptions/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Chok Niyud Meida Refui, 2024 (Medical Information Portability Law), consolidated with Amendment 2 of 2025 (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A0%D7%99%D7%95%D7%93_%D7%9E%D7%99%D7%93%D7%A2_%D7%A8%D7%A4%D7%95%D7%90%D7%99",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Publication of the National Health Registries Draft Bill (2025) for public comment (Gornitzky)",
+     "url": "https://www.gornitzky.com/publication-of-the-national-health-registries-draft-bill-2025-for-public-comment/",
+     "date": "2025-12-28",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 75,
+   "summary": "Authorised clinicians at any member hospital or health fund can view a patient's data from other members during the visit, without asking for consent. Highly confidential items are never shown, and patients who opted out appear with no data.",
+   "detail": [
+    "The Patient's Rights Act allows disclosure to another clinician for the patient's treatment without consent. Eitan applies this: staff with a specific role-based permission can view data while the patient is in their institution, and in some cases for a set time before or after.",
+    "Psychiatric data is shown only to mental health staff and genetic data only to genetics staff. The ministry warns that free text in visit summaries cannot be fully hidden and that medicines can reveal conditions.",
+    "When a patient has left the exchange, the clinician sees a notice and no data. Members listed by the ministry are hospitals, health funds, mother and child clinics, health offices and prison medicine."
+   ],
+   "sources": [
+    {
+     "title": "HaReshet HaLeumit LeShituf Meida Refui, Eitan (Ministry of Health)",
+     "url": "https://www.gov.il/he/pages/shared-medical-info",
+     "date": "2026-09-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Chok Zchuyot HaCholeh, 1996 (Patient's Rights Act), sections 18 to 20, consolidated text (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%94",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Director-General Circular 8/2019: giving patients access to personal health data, 'Health in the palm of your hand' (Ministry of Health)",
+     "url": "https://www.gov.il/BlobFolder/policy/mk08-2019/he/files_circulars_mk_mk08_2019.pdf",
+     "date": "2019-11-11",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Identifiable data needs specific consent for research, but Helsinki ethics committees may waive consent for properly de-identified data, and there is no general opt-out. Ministry rules push research into secure research rooms inside each organisation.",
+   "detail": [
+    "Circular 1/2018 requires specific, free and informed consent for secondary use of identifiable data, unless law allows otherwise. A Helsinki committee may exempt a researcher from consent if the data is properly de-identified. The Patient's Rights Act allows research disclosure without identifiers.",
+    "The circular says research access should happen in a secure environment inside the health organisation, avoiding release of individual identifiable data. These are three documented safeguards: an ethics body, a secure environment and a consent route for identified data.",
+    "Psifas, the national genome project, enrols only consenting volunteers referred by their doctors. A December 2025 draft registries bill would require institutions to report data for registries and create a national serum bank from leftover blood samples.",
+    "A public register of research uses and a specific re-identification penalty were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Director-General Circular 1/2018: secondary uses of health data (Ministry of Health)",
+     "url": "https://www.gov.il/BlobFolder/policy/mk01-2018/he/files_circulars_mk_MK01_2018.pdf",
+     "date": "2018-01-17",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Chok Zchuyot HaCholeh, 1996 (Patient's Rights Act), sections 18 to 20, consolidated text (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%94",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Psifas: Israeli National Genomic Medicine Initiative",
+     "url": "https://psifas.org.il/en/%D7%93%D7%A3-%D7%94%D7%91%D7%99%D7%AA-english/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Israel's health ministry plans controversial genetic mega-database (Calcalist Ctech)",
+     "url": "https://www.calcalistech.com/ctechnews/article/kiutzefjf",
+     "date": "2026-01-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "The Medical Equipment Law requires registration of devices and the software that runs them, with approval for every change. The ministry's February 2026 AI trial principles are guidance for ethics committees, so the cell sits at the top of the guidance-only band.",
+   "detail": [
+    "The Medical Equipment Law 2012 covers devices and software needed to run them, and every change to a registration needs approval. A device registered in a recognised country can be registered for the same period. Whether standalone AI software is covered was not verified.",
+    "The ministry's principles ask Helsinki committees to examine training data, bias, model updates and human-machine interaction for AI that may affect care. Arnon, Tadmor-Levy reports they were issued in February 2026 in Hebrew and English.",
+    "In March 2026 the ministry told all health organisations to stop using public AI tools on their networks, and by June it was blocking them on government hospital computers."
+   ],
+   "sources": [
+    {
+     "title": "Chok Tziud Refui, 2012 (Medical Equipment Law), consolidated text (Hebrew Wikisource)",
+     "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A6%D7%99%D7%95%D7%93_%D7%A8%D7%A4%D7%95%D7%90%D7%99",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Key Principles for Evaluating AI-Driven Interventional Trials (Ministry of Health)",
+     "url": "https://www.gov.il/BlobFolder/rfp/key-principles-for-evaluating-ai-driven-interventional-trials/he/subjects_Digital_Medical_Technology_Key-Principles-for-Evaluating-AI-Driven-Interventional-Trials-en.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Israel Life Sciences & Healthcare: Regulatory Overview (2026) (Arnon, Tadmor-Levy)",
+     "url": "https://arnontl.com/news/israel-life-sciences-healthcare-regulatory-overview-2026/",
+     "date": "2026-04-21",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Israel blocks public AI tools on government hospital computers over data leak fears (Ynet News)",
+     "url": "https://www.ynetnews.com/health_science/article/bkqtty2fze",
+     "date": "2026-06-26",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "connected",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "Eitan links hospitals, health funds, mother and child clinics and health offices by viewing data in place. Labs and prescriptions sit inside each health fund. National registries are still a December 2025 draft bill.",
+ "laws": [
+  {
+   "name": "Patient's Rights Act 1996",
+   "level": "National",
+   "year": "1996",
+   "what": "Right to record information and a copy; confidentiality; disclosure to other clinicians for treatment without consent.",
+   "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%94"
+  },
+  {
+   "name": "Patient's Rights Regulations (maximum fee for a medical record copy) 2019",
+   "level": "National",
+   "year": "2019",
+   "what": "Free online viewing; computerised copy capped at NIS 10; free discharge letters and test results.",
+   "url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%94_(%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%9E%D7%A8%D7%91%D7%99_%D7%91%D7%A2%D7%93_%D7%9E%D7%A1%D7%99%D7%A8%D7%AA_%D7%94%D7%A2%D7%AA%D7%A7_%D7%A8%D7%A9%D7%95%D7%9E%D7%94_%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA_%D7%90%D7%95_%D7%A2%D7%99%D7%95%D7%9F_%D7%91%D7%94)"
+  },
+  {
+   "name": "Protection of Privacy Law 1981, Amendment 13",
+   "level": "National",
+   "year": "2024",
+   "what": "Health data specially sensitive; mandatory officers for hospitals and health funds; regulator fines; in force August 2025.",
+   "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA"
+  },
+  {
+   "name": "Medical Information Portability Law 2024",
+   "level": "National",
+   "year": "2024",
+   "what": "Consent-based transfer of 16 data baskets between providers via a ministry permission system, starting July 2027.",
+   "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A0%D7%99%D7%95%D7%93_%D7%9E%D7%99%D7%93%D7%A2_%D7%A8%D7%A4%D7%95%D7%90%D7%99"
+  },
+  {
+   "name": "Genetic Information Law 2000",
+   "level": "National",
+   "year": "2000",
+   "what": "Insurers and health funds may not request genetic tests or use identified genetic data, with narrow exceptions.",
+   "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9E%D7%99%D7%93%D7%A2_%D7%92%D7%A0%D7%98%D7%99"
+  },
+  {
+   "name": "Medical Equipment Law 2012",
+   "level": "National",
+   "year": "2012",
+   "what": "Devices, including software needed to run them, must be registered; changes need approval.",
+   "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A6%D7%99%D7%95%D7%93_%D7%A8%D7%A4%D7%95%D7%90%D7%99"
+  },
+  {
+   "name": "Director-General Circulars 1/2018 and 2/2018",
+   "level": "National",
+   "year": "2018",
+   "what": "Consent or de-identification for secondary use; limits on exclusivity and discriminatory uses in data deals.",
+   "url": "https://www.gov.il/BlobFolder/policy/mk02-2018/he/files_circulars_mk_MK02_2018.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-28",
+   "headline": "Health ministry publishes draft bill for national registries and a serum bank",
+   "source": "Gornitzky",
+   "url": "https://www.gornitzky.com/publication-of-the-national-health-registries-draft-bill-2025-for-public-comment/",
+   "why": "Institutions could be ordered to report patient data to registries without individual consent."
+  },
+  {
+   "date": "2026-02-25",
+   "headline": "Iran-linked hackers publish thousands of Clalit patient documents",
+   "source": "Ynet News",
+   "url": "https://www.ynetnews.com/health_science/article/ry0gesnobl",
+   "why": "Referral forms and sick notes of patients at the largest health fund were posted online."
+  },
+  {
+   "date": "2026-04-21",
+   "headline": "Law firm reports new ministry principles for reviewing AI-based clinical trials",
+   "source": "Arnon, Tadmor-Levy",
+   "url": "https://arnontl.com/news/israel-life-sciences-healthcare-regulatory-overview-2026/",
+   "why": "Trial participants get ethics review of AI tools that may shape their care."
+  },
+  {
+   "date": "2026-06-26",
+   "headline": "Health ministry blocks public AI tools on government hospital computers",
+   "source": "Ynet News",
+   "url": "https://www.ynetnews.com/health_science/article/bkqtty2fze",
+   "why": "Limits the risk of patient data being pasted into public chat tools."
+  },
+  {
+   "date": "2026-07-21",
+   "headline": "Privacy regulator fines Meuhedet NIS 256,000 for late breach report",
+   "source": "NWS News",
+   "url": "https://nws.report/health-and-environment/151313/",
+   "why": "First Amendment 13 fine on a health fund; members could see relatives' records."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

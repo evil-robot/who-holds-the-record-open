@@ -1,0 +1,356 @@
+{
+ "iso3": "RWA",
+ "name": "Rwanda",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Rwanda's 2025 health law gives patients their file within five working days, but the state record is still rolling out with no sharing controls.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 50,
+   "summary": "Law 026/2025 gives patients the right to consult their file and get a copy within five working days of a written request. A national patient app is planned, and whether patients can see their own records online today is not verified.",
+   "detail": [
+    "Article 61 of Law n° 026/2025 regulating healthcare services, in force since 18 September 2025, lets a patient or representative consult the file and receive a copy. The written request goes to the head of the facility, and the copy is due within five working days. We found no fee clause in the article.",
+    "Law n° 058/2021 on personal data adds a right to a copy of your data and a description of who has had access (Article 18). It sets no reply deadline. Article 20 adds portability in a structured, readable format, with an answer due within 30 days.",
+    "The Health Sector Strategic Plan V (2024 to 2029) lists a citizen health app among its eight digital priorities, so the app is a plan in that document. In September 2026 the CEO of Irembo described Irembo Medi as a way for patients to see their information across facilities.",
+    "Reports in 2025 said e-Ubuzima lets patients see records, but we found no official page or usage figure. Patient online access is not verified and earns nothing, so the score is the base of 45 plus 5 for the fixed deadline: 50."
+   ],
+   "sources": [
+    {
+     "title": "Law n° 026/2025 of 17/09/2025 regulating healthcare services (Official Gazette n° Special of 18/09/2025, Ministry of Justice)",
+     "url": "https://www.minijust.gov.rw/index.php?eID=dumpFile&f=144155&t=f&token=75e63fc504481c93e1ed017130c13b4c35f3935e",
+     "date": "2025-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law n° 058/2021 relating to the protection of personal data and privacy (RwandaLII)",
+     "url": "https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15",
+     "date": "2021-10-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Health Sector Strategic Plan V, July 2024 to June 2029 (Ministry of Health)",
+     "url": "https://www.moh.gov.rw/index.php?eID=dumpFile&t=f&f=117507&token=f2a527e089201f73bec29f8ce6d6c4dc55ed241e",
+     "date": "2024",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Five Years On, Rwanda Is Leading the Edge of Digital Health in Africa (KT Press)",
+     "url": "https://www.ktpress.rw/2026/09/five-years-on-rwanda-is-leading-the-edge-of-digital-health-in-africa/",
+     "date": "2026-09-30",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "The law requires consent or another legal ground, but health processing for care and public health needs no separate consent, and records are linked to the national ID. We found no opt-out and no access log patients can see.",
+   "detail": [
+    "Article 10 of Law 058/2021 lets controllers process sensitive data without consent for medicine, public health, and research or statistics. Article 19 lets a person object, but a controller can refuse on compelling legitimate grounds.",
+    "Article 51 of Law 026/2025 bars professionals from disclosing health status, except with written consent for research or planning, a written request from a competent organ, or an epidemic threat. Article 61(3) lets a patient keep the file confidential from a representative. Neither is a choice over which providers see the record.",
+    "The national client registry checks identity against the National Identification Agency database and gives each patient a unique health ID, an implementing partner report says. Data from facilities flows to a central shared health record.",
+    "Article 18 gives a right to a description of who has had access, on written request only. We found no patient-facing access log or blocking tool, so the cell stays in the 20 to 35 band."
+   ],
+   "sources": [
+    {
+     "title": "Law n° 058/2021 relating to the protection of personal data and privacy (RwandaLII)",
+     "url": "https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15",
+     "date": "2021-10-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law n° 026/2025 of 17/09/2025 regulating healthcare services (Official Gazette n° Special of 18/09/2025, Ministry of Justice)",
+     "url": "https://www.minijust.gov.rw/index.php?eID=dumpFile&f=144155&t=f&token=75e63fc504481c93e1ed017130c13b4c35f3935e",
+     "date": "2025-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Rwanda Health Information Exchange (RHIE): achievements over the last three years, full report (CIIC-HIN, implementing partner)",
+     "url": "https://ciichin.org/wp-content/uploads/2025/01/Rwanda-Health-Information-System-Ecosystem-RHIE-Achievement-over-last-Three-years-Full-Report.pdf",
+     "date": "2025-01",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 52,
+   "summary": "Health status and medical records are sensitive data, breaches go to the regulator within 48 hours, and the 2025 health law requires encryption of patient data. The regulator sits inside the national cyber security authority, and we found no published health-sector fine.",
+   "detail": [
+    "Law 058/2021 lists health status and medical records as sensitive data. Controllers notify the supervisory authority within 48 hours of a breach (Article 43). Data must be stored in Rwanda unless the authority issues a certificate (Article 50). Administrative fines run from RWF 2 million to 5 million or 1% of turnover (Article 53).",
+    "Law 026/2025 requires digital health services to follow data protection law and to encrypt patient data in transit and at rest (Article 39). Facilities keep files at least ten years and must prevent unauthorised access (Article 79).",
+    "The supervisory authority is defined as the public authority in charge of cyber security. Its Data Protection and Privacy Office warned in January 2026 of fines and suspension for non-compliance, but gave no enforcement figures.",
+    "Human Rights Watch reported in June 2026 that Rwanda's 2025 US health agreement references sharing pathogen specimens and related data. Rwanda is not on the European Commission's adequacy list, so EU transfers need other safeguards. The EHDS does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Law n° 058/2021 relating to the protection of personal data and privacy (RwandaLII)",
+     "url": "https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15",
+     "date": "2021-10-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law n° 026/2025 of 17/09/2025 regulating healthcare services (Official Gazette n° Special of 18/09/2025, Ministry of Justice)",
+     "url": "https://www.minijust.gov.rw/index.php?eID=dumpFile&f=144155&t=f&token=75e63fc504481c93e1ed017130c13b4c35f3935e",
+     "date": "2025-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "What to do after you register with NCSA (Data Protection and Privacy Office)",
+     "url": "https://dpo.gov.rw/news-and-updates/news/article/what-to-do-after-you-register-with-ncsa",
+     "date": "2026-01-26",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "Selling personal data against the law carries five to seven years in prison, re-identifying de-identified data is a crime, and the 2025 health law bans advertising of health services. We found no rules for health apps, data brokers or de-identified data sales.",
+   "detail": [
+    "Article 59 of Law 058/2021 punishes selling personal data contrary to the law with five to seven years in prison and a fine of RWF 12 million to 15 million. Article 57 makes re-identifying de-identified data an offence, with one to three years in prison.",
+    "Article 19 lets a person stop processing for direct marketing, including profiling, with a reply due within 30 days. Article 80 of Law 026/2025 allows facilities to market their services but prohibits marketing for advertising purposes.",
+    "These are general rules. We found no rule on consumer health apps, data brokers or sale of de-identified health data, and no published case involving health data."
+   ],
+   "sources": [
+    {
+     "title": "Law n° 058/2021 relating to the protection of personal data and privacy (RwandaLII)",
+     "url": "https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15",
+     "date": "2021-10-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law n° 026/2025 of 17/09/2025 regulating healthcare services (Official Gazette n° Special of 18/09/2025, Ministry of Justice)",
+     "url": "https://www.minijust.gov.rw/index.php?eID=dumpFile&f=144155&t=f&token=75e63fc504481c93e1ed017130c13b4c35f3935e",
+     "date": "2025-09-18",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 46,
+   "summary": "Insurance claims and public health data are digital and national, but the Ministry's own plan put facilities with a fully working electronic record at 12% at baseline. The goal of a paper-free public system by end-2025 is not verified as met.",
+   "detail": [
+    "HSSP V sets a baseline of 12% of hospitals and health centres with a fully functioning EMR, rising to a 70% target by 2028/29. The plan cites limited interoperability, siloed systems and no operational EMRs at many facilities.",
+    "In May 2025 the Minister of Health said e-Ubuzima was fully deployed in about 200 facilities, with more than 510 health centres and 57 hospitals in the country. He aimed for all facilities by end-2025. Whether that target was met is not verified.",
+    "RSSB says facilities file community health insurance claims digitally, and it reports 11 million beneficiaries, 114 million prescriptions and 89.06% population coverage.",
+    "The Health Intelligence Centre, launched in April 2025, pulls data from DHIS2, eBuzima, the community EMR, logistics and civil registration. A national laboratory information system is a plan in HSSP V."
+   ],
+   "sources": [
+    {
+     "title": "Health Sector Strategic Plan V, July 2024 to June 2029 (Ministry of Health)",
+     "url": "https://www.moh.gov.rw/index.php?eID=dumpFile&t=f&f=117507&token=f2a527e089201f73bec29f8ce6d6c4dc55ed241e",
+     "date": "2024",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ikoranabuhanga rya E-Ubuzima riratangira gukoreshwa hose bitarenze 2025 (Voice of Africa)",
+     "url": "https://voiceofafrica.rw/2025/05/08/ikoranabuhanga-rya-e-ubuzima-riratangira-gukoreshwa-hose-bitarenze-2025/",
+     "date": "2025-05-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "CBHI / Mutuelle de Santé scheme page (Rwanda Social Security Board)",
+     "url": "https://rssb.rw/schemes/cbhi-scheme",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "New Health Intelligence Center to drive real-time, evidence-based decisions (Ministry of Health)",
+     "url": "https://www.moh.gov.rw/news-detail/new-health-intelligence-center-to-drive-real-time-evidence-based-decisions",
+     "date": "2025-04-03",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 34,
+   "summary": "A shared health record and national patient ID exist, but an implementing partner reported that clinicians were not yet trained to view data from other facilities. We found no source showing cross-facility viewing in use, so the cell sits below Tanzania's working referral view.",
+   "detail": [
+    "The Rwanda Health Information Exchange report says the shared health record reached 197 facilities in 30 districts. It found the record receives a lot of data, but clinicians were not yet trained to view patient data from another facility.",
+    "The New Times reported in July 2026 that e-Ubuzima and E-Fiche let providers track a patient from first consultation to discharge. It gave no figures on cross-facility viewing.",
+    "HSSP V's own 12% EMR baseline limits what a treating clinician can see. We found no rules on emergency access or on private clinics joining e-Ubuzima."
+   ],
+   "sources": [
+    {
+     "title": "Rwanda Health Information Exchange (RHIE): achievements over the last three years, full report (CIIC-HIN, implementing partner)",
+     "url": "https://ciichin.org/wp-content/uploads/2025/01/Rwanda-Health-Information-System-Ecosystem-RHIE-Achievement-over-last-Three-years-Full-Report.pdf",
+     "date": "2025-01",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Rwanda: Bill Gates in Rwanda to Explore Health, AI Progress (The New Times via allAfrica)",
+     "url": "https://allafrica.com/stories/202607210078.html",
+     "date": "2026-07-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Health Sector Strategic Plan V, July 2024 to June 2029 (Ministry of Health)",
+     "url": "https://www.moh.gov.rw/index.php?eID=dumpFile&t=f&f=117507&token=f2a527e089201f73bec29f8ce6d6c4dc55ed241e",
+     "date": "2024",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Research on people needs ethics approval and written consent, reuse of research data needs the participant's permission again, and re-identification is a crime. Routine data still flows to a national analytics centre with no individual opt-out we could find.",
+   "detail": [
+    "Law n° 015/2022 sets up the Rwanda National Research Ethics Committee. Participants consent in writing and can withdraw at any time. Article 15 requires RNEC and participant authorisation to reuse research data for a new purpose. Research without consent can bring one to two years in prison.",
+    "Article 51(a) of Law 026/2025 lets a professional disclose health status for research or planning only with the patient's written consent.",
+    "Law 058/2021 still allows sensitive data to be processed for research or statistics without consent (Article 10). The Health Intelligence Centre analyses routine data from the whole health system. We found no opt-out or public register of uses.",
+    "Score: base 40, plus 3 each for an ethics body, statutory secrecy, a re-identification penalty and a partial consent route, capped at 50."
+   ],
+   "sources": [
+    {
+     "title": "Law n° 015/2022 relating to research on a human being (RwandaLII)",
+     "url": "https://rwandalii.org/akn/rw/act/law/2022/15/eng@2022-08-12",
+     "date": "2022-08-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law n° 026/2025 of 17/09/2025 regulating healthcare services (Official Gazette n° Special of 18/09/2025, Ministry of Justice)",
+     "url": "https://www.minijust.gov.rw/index.php?eID=dumpFile&f=144155&t=f&token=75e63fc504481c93e1ed017130c13b4c35f3935e",
+     "date": "2025-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law n° 058/2021 relating to the protection of personal data and privacy (RwandaLII)",
+     "url": "https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15",
+     "date": "2021-10-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "New Health Intelligence Center to drive real-time, evidence-based decisions (Ministry of Health)",
+     "url": "https://www.moh.gov.rw/news-detail/new-health-intelligence-center-to-drive-real-time-evidence-based-decisions",
+     "date": "2025-04-03",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 55,
+   "summary": "Rwanda FDA guidelines in effect since December 2025 cover AI software as a medical device, including adaptive models, data provenance, algorithm changes and post-market drift. Human oversight appears only in the foreword, not as a binding requirement, so the cell sits at the bottom of the band.",
+   "detail": [
+    "The Rwanda FDA SaMD guidelines were first issued on 11 June 2025, with an effective date of 11 December 2025. They cover locked and adaptive models, require learning limits and retraining frequency for adaptive ones, and ask for data provenance, bias analysis and explainability for high-risk devices.",
+    "Algorithm changes are handled as variations to a registered product, and post-market plans must address AI-specific issues and drift. The foreword cites WHO principles, including human oversight, but no operative section requires it (human-oversight rule not verified). The document number is still a placeholder (WWW/XXX/YYY/ZZZ).",
+    "The 2022 National AI Policy names healthcare a priority sector and asks RURA to promote national ethical AI guidelines. Horizon 1000, a USD 50 million Gates Foundation and OpenAI programme, uses Rwanda as its first pilot. We found no public terms on patient data for it."
+   ],
+   "sources": [
+    {
+     "title": "Guidelines for Review and Approval of Software as Medical Devices (SaMD), Version 1 (Rwanda FDA; Internet Archive copy of 7 Jan 2026, live link returned 404 on 2 Oct 2026)",
+     "url": "https://web.archive.org/web/20260107064605/https://rwandafda.gov.rw/monitoring-tool/documents-management/uploads/1/Guidelines/1767694227_Guidelines%20for%20Review%20and%20Approval%20of%20Software%20as%20Medical%20Devices%20(SaMD)_December%202025.pdf",
+     "date": "2025-06-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Stakeholders documents: Guidelines for review and approval of software as medical devices (SaMD), listed 17/12/2025 (Rwanda FDA)",
+     "url": "https://monitoring.rwandafda.gov.rw/stakeholders/",
+     "date": "2025-12-17",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The National AI Policy (Ministry of ICT and Innovation)",
+     "url": "https://www.minict.gov.rw/fileadmin/user_upload/minict_user_upload/Documents/Policies/Artificial_Intelligence_Policy.pdf",
+     "date": "2022",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Rwanda: Bill Gates in Rwanda to Explore Health, AI Progress (The New Times via allAfrica)",
+     "url": "https://allafrica.com/stories/202607210078.html",
+     "date": "2026-07-20",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "connected",
+  "publicHealth": "connected",
+  "research": "partial"
+ },
+ "journeyNote": "Insurance claims and public health data are national and digital. Facility records are moving to e-Ubuzima, but the official baseline was 12% with a working EMR, and a national laboratory information system is still a plan.",
+ "laws": [
+  {
+   "name": "Law n° 058/2021 relating to the protection of personal data and privacy",
+   "level": "National",
+   "year": "2021",
+   "what": "Health is sensitive data; copy right; 48-hour breach notice; storage in Rwanda; prison for selling data.",
+   "url": "https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15"
+  },
+  {
+   "name": "Law n° 026/2025 regulating healthcare services",
+   "level": "National",
+   "year": "2025",
+   "what": "Patient file copy in five working days; confidentiality; encryption of patient data; ten-year retention.",
+   "url": "https://www.minijust.gov.rw/index.php?eID=dumpFile&f=144155&t=f&token=75e63fc504481c93e1ed017130c13b4c35f3935e"
+  },
+  {
+   "name": "Law n° 015/2022 relating to research on a human being",
+   "level": "National",
+   "year": "2022",
+   "what": "Ethics committee approval; written, revocable consent; reuse of research data needs fresh permission.",
+   "url": "https://rwandalii.org/akn/rw/act/law/2022/15/eng@2022-08-12"
+  },
+  {
+   "name": "Rwanda FDA Guidelines for Review and Approval of Software as Medical Devices (SaMD)",
+   "level": "National",
+   "year": "2025",
+   "what": "Registration rules for AI software, covering adaptive models, provenance, changes and post-market drift.",
+   "url": "https://monitoring.rwandafda.gov.rw/stakeholders/"
+  },
+  {
+   "name": "National Artificial Intelligence Policy",
+   "level": "National",
+   "year": "2022",
+   "what": "Names healthcare a priority AI sector; RURA to promote national ethical AI guidelines.",
+   "url": "https://www.minict.gov.rw/fileadmin/user_upload/minict_user_upload/Documents/Policies/Artificial_Intelligence_Policy.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-05",
+   "headline": "Rwanda and US sign five-year, $228 million health cooperation agreement",
+   "source": "U.S. Embassy in Rwanda",
+   "url": "https://rw.usembassy.gov/united-states-rwanda-bilateral-health-cooperation-memorandum-of-understanding/",
+   "why": "Funding is tied to disease surveillance and outbreak response, and the embassy did not publish the data terms."
+  },
+  {
+   "date": "2026-03-31",
+   "headline": "Community health workers move from paper registers to digital records",
+   "source": "UNICEF Rwanda",
+   "url": "https://www.unicef.org/rwanda/stories/piles-registers-digital-care-community-health-workers-rwanda-adopt-digital-health-rec",
+   "why": "Community-level care data becomes digital, with a target of all 30 districts by end-2026."
+  },
+  {
+   "date": "2026-06-08",
+   "headline": "Human Rights Watch criticises data terms in US health deals, including Rwanda's",
+   "source": "Human Rights Watch",
+   "url": "https://www.hrw.org/news/2026/06/08/us-global-health-aid-tied-to-harmful-conditions",
+   "why": "It says patient confidentiality protections are missing and Rwanda's agreement was never officially published."
+  },
+  {
+   "date": "2026-07-20",
+   "headline": "Bill Gates visits Rwanda to review health AI and digital records",
+   "source": "The New Times",
+   "url": "https://allafrica.com/stories/202607210078.html",
+   "why": "Shows AI tools from the Horizon 1000 pilot reaching primary care that runs on e-Ubuzima."
+  },
+  {
+   "date": "2026-09-30",
+   "headline": "Irembo plans a patient app to view health information across facilities",
+   "source": "KT Press",
+   "url": "https://www.ktpress.rw/2026/09/five-years-on-rwanda-is-leading-the-edge-of-digital-health-in-africa/",
+   "why": "It could become the first patient-facing view of the national record."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

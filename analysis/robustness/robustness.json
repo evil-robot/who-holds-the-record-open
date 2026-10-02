@@ -1,0 +1,6353 @@
+{
+ "reference": {
+  "overall": {
+   "ALB": 41,
+   "ARE": 55,
+   "ARG": 48,
+   "AUS": 66,
+   "AUT": 65,
+   "BEL": 63,
+   "BGR": 59,
+   "BRA": 52,
+   "CAN": 52,
+   "CHE": 54,
+   "CHL": 39,
+   "CHN": 43,
+   "COL": 43,
+   "CRI": 54,
+   "CYP": 55,
+   "CZE": 57,
+   "DEU": 63,
+   "DNK": 70,
+   "EGY": 33,
+   "ESP": 61,
+   "EST": 68,
+   "FIN": 71,
+   "FRA": 66,
+   "GBR": 59,
+   "GHA": 38,
+   "GRC": 57,
+   "HRV": 60,
+   "HUN": 68,
+   "IDN": 47,
+   "IND": 45,
+   "IRL": 47,
+   "ISL": 62,
+   "ISR": 62,
+   "ITA": 63,
+   "JPN": 56,
+   "KEN": 49,
+   "KOR": 60,
+   "LIE": 61,
+   "LTU": 60,
+   "LUX": 59,
+   "LVA": 62,
+   "MEX": 42,
+   "MLT": 59,
+   "NGA": 35,
+   "NLD": 60,
+   "NOR": 66,
+   "NZL": 48,
+   "PHL": 39,
+   "POL": 59,
+   "PRT": 64,
+   "ROU": 56,
+   "RUS": 45,
+   "RWA": 44,
+   "SAU": 53,
+   "SGP": 62,
+   "SVK": 58,
+   "SVN": 62,
+   "SWE": 67,
+   "THA": 52,
+   "TUR": 63,
+   "TWN": 63,
+   "UKR": 49,
+   "USA": 48,
+   "VNM": 47,
+   "ZAF": 43
+  },
+  "unrounded": {
+   "ALB": 41.0,
+   "ARE": 54.8,
+   "ARG": 47.8,
+   "AUS": 65.75,
+   "AUT": 64.8,
+   "BEL": 62.85,
+   "BGR": 59.45,
+   "BRA": 52.2,
+   "CAN": 52.45,
+   "CHE": 53.7,
+   "CHL": 39.4,
+   "CHN": 43.1,
+   "COL": 43.4,
+   "CRI": 54.05,
+   "CYP": 55.05,
+   "CZE": 57.4,
+   "DEU": 62.8,
+   "DNK": 69.75,
+   "EGY": 33.15,
+   "ESP": 61.0,
+   "EST": 68.15,
+   "FIN": 71.4,
+   "FRA": 65.6,
+   "GBR": 59.25,
+   "GHA": 38.05,
+   "GRC": 57.0,
+   "HRV": 60.35,
+   "HUN": 67.95,
+   "IDN": 47.1,
+   "IND": 45.05,
+   "IRL": 46.5,
+   "ISL": 62.3,
+   "ISR": 61.65,
+   "ITA": 62.5,
+   "JPN": 56.4,
+   "KEN": 49.1,
+   "KOR": 60.35,
+   "LIE": 61.3,
+   "LTU": 60.2,
+   "LUX": 58.8,
+   "LVA": 61.5,
+   "MEX": 42.1,
+   "MLT": 59.0,
+   "NGA": 35.35,
+   "NLD": 59.55,
+   "NOR": 65.8,
+   "NZL": 47.6,
+   "PHL": 39.15,
+   "POL": 58.8,
+   "PRT": 64.1,
+   "ROU": 56.2,
+   "RUS": 44.7,
+   "RWA": 44.35,
+   "SAU": 53.2,
+   "SGP": 61.5,
+   "SVK": 57.55,
+   "SVN": 61.95,
+   "SWE": 66.65,
+   "THA": 51.55,
+   "TUR": 63.3,
+   "TWN": 62.5,
+   "UKR": 48.8,
+   "USA": 48.05,
+   "VNM": 47.45,
+   "ZAF": 43.45
+  },
+  "rank": {
+   "ALB": 60,
+   "ARE": 37,
+   "ARG": 47,
+   "AUS": 6,
+   "AUT": 9,
+   "BEL": 11,
+   "BGR": 27,
+   "BRA": 42,
+   "CAN": 42,
+   "CHE": 39,
+   "CHL": 61,
+   "CHN": 56,
+   "COL": 56,
+   "CRI": 39,
+   "CYP": 37,
+   "CZE": 33,
+   "DEU": 11,
+   "DNK": 2,
+   "EGY": 65,
+   "ESP": 21,
+   "EST": 3,
+   "FIN": 1,
+   "FRA": 6,
+   "GBR": 27,
+   "GHA": 63,
+   "GRC": 33,
+   "HRV": 23,
+   "HUN": 3,
+   "IDN": 50,
+   "IND": 53,
+   "IRL": 50,
+   "ISL": 16,
+   "ISR": 16,
+   "ITA": 11,
+   "JPN": 35,
+   "KEN": 45,
+   "KOR": 23,
+   "LIE": 21,
+   "LTU": 23,
+   "LUX": 27,
+   "LVA": 16,
+   "MEX": 59,
+   "MLT": 27,
+   "NGA": 64,
+   "NLD": 23,
+   "NOR": 6,
+   "NZL": 47,
+   "PHL": 61,
+   "POL": 27,
+   "PRT": 10,
+   "ROU": 35,
+   "RUS": 53,
+   "RWA": 55,
+   "SAU": 41,
+   "SGP": 16,
+   "SVK": 32,
+   "SVN": 16,
+   "SWE": 5,
+   "THA": 42,
+   "TUR": 11,
+   "TWN": 11,
+   "UKR": 45,
+   "USA": 47,
+   "VNM": 50,
+   "ZAF": 56
+  }
+ },
+ "monteCarlo": {
+  "dirichlet": {
+   "countries": {
+    "ALB": {
+     "medianRank": 60,
+     "rank90": [
+      58,
+      60
+     ],
+     "bandShare": 0.9995,
+     "score90": [
+      39,
+      43
+     ]
+    },
+    "ARE": {
+     "medianRank": 37,
+     "rank90": [
+      32,
+      41
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      57
+     ]
+    },
+    "ARG": {
+     "medianRank": 47,
+     "rank90": [
+      45,
+      50
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      49
+     ]
+    },
+    "AUS": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      7
+     ],
+     "bandShare": 0.9862,
+     "score90": [
+      65,
+      67
+     ]
+    },
+    "AUT": {
+     "medianRank": 9,
+     "rank90": [
+      6,
+      9
+     ],
+     "bandShare": 0.7108,
+     "score90": [
+      64,
+      66
+     ]
+    },
+    "BEL": {
+     "medianRank": 12,
+     "rank90": [
+      11,
+      15
+     ],
+     "bandShare": 0.9831,
+     "score90": [
+      62,
+      64
+     ]
+    },
+    "BGR": {
+     "medianRank": 26,
+     "rank90": [
+      23,
+      29
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      61
+     ]
+    },
+    "BRA": {
+     "medianRank": 42,
+     "rank90": [
+      40,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      54
+     ]
+    },
+    "CAN": {
+     "medianRank": 41,
+     "rank90": [
+      39,
+      43
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      53
+     ]
+    },
+    "CHE": {
+     "medianRank": 39,
+     "rank90": [
+      37,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      55
+     ]
+    },
+    "CHL": {
+     "medianRank": 61,
+     "rank90": [
+      60,
+      62
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      39,
+      40
+     ]
+    },
+    "CHN": {
+     "medianRank": 57,
+     "rank90": [
+      53,
+      59
+     ],
+     "bandShare": 0.9001,
+     "score90": [
+      41,
+      45
+     ]
+    },
+    "COL": {
+     "medianRank": 56,
+     "rank90": [
+      53,
+      58
+     ],
+     "bandShare": 0.8961,
+     "score90": [
+      42,
+      45
+     ]
+    },
+    "CRI": {
+     "medianRank": 39,
+     "rank90": [
+      36,
+      41
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      56
+     ]
+    },
+    "CYP": {
+     "medianRank": 37,
+     "rank90": [
+      35,
+      39
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      54,
+      56
+     ]
+    },
+    "CZE": {
+     "medianRank": 32,
+     "rank90": [
+      29,
+      34
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      58
+     ]
+    },
+    "DEU": {
+     "medianRank": 12,
+     "rank90": [
+      10,
+      15
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      62,
+      64
+     ]
+    },
+    "DNK": {
+     "medianRank": 2,
+     "rank90": [
+      2,
+      2
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      68,
+      71
+     ]
+    },
+    "EGY": {
+     "medianRank": 65,
+     "rank90": [
+      65,
+      65
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      32,
+      34
+     ]
+    },
+    "ESP": {
+     "medianRank": 20,
+     "rank90": [
+      16,
+      22
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      60,
+      62
+     ]
+    },
+    "EST": {
+     "medianRank": 3,
+     "rank90": [
+      3,
+      4
+     ],
+     "bandShare": 0.9989,
+     "score90": [
+      66,
+      70
+     ]
+    },
+    "FIN": {
+     "medianRank": 1,
+     "rank90": [
+      1,
+      1
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      70,
+      73
+     ]
+    },
+    "FRA": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      8
+     ],
+     "bandShare": 0.9757,
+     "score90": [
+      65,
+      66
+     ]
+    },
+    "GBR": {
+     "medianRank": 27,
+     "rank90": [
+      22,
+      29
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      60
+     ]
+    },
+    "GHA": {
+     "medianRank": 63,
+     "rank90": [
+      62,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      37,
+      39
+     ]
+    },
+    "GRC": {
+     "medianRank": 33,
+     "rank90": [
+      30,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      58
+     ]
+    },
+    "HRV": {
+     "medianRank": 22,
+     "rank90": [
+      19,
+      25
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      61
+     ]
+    },
+    "HUN": {
+     "medianRank": 3,
+     "rank90": [
+      3,
+      4
+     ],
+     "bandShare": 0.9993,
+     "score90": [
+      66,
+      69
+     ]
+    },
+    "IDN": {
+     "medianRank": 49,
+     "rank90": [
+      47,
+      52
+     ],
+     "bandShare": 0.9999,
+     "score90": [
+      46,
+      48
+     ]
+    },
+    "IND": {
+     "medianRank": 53,
+     "rank90": [
+      51,
+      56
+     ],
+     "bandShare": 0.7526,
+     "score90": [
+      44,
+      46
+     ]
+    },
+    "IRL": {
+     "medianRank": 51,
+     "rank90": [
+      46,
+      53
+     ],
+     "bandShare": 0.9505,
+     "score90": [
+      45,
+      48
+     ]
+    },
+    "ISL": {
+     "medianRank": 13,
+     "rank90": [
+      10,
+      17
+     ],
+     "bandShare": 0.9951,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "ISR": {
+     "medianRank": 16,
+     "rank90": [
+      12,
+      23
+     ],
+     "bandShare": 0.9963,
+     "score90": [
+      60,
+      63
+     ]
+    },
+    "ITA": {
+     "medianRank": 13,
+     "rank90": [
+      11,
+      19
+     ],
+     "bandShare": 0.996,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "JPN": {
+     "medianRank": 35,
+     "rank90": [
+      32,
+      37
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      57
+     ]
+    },
+    "KEN": {
+     "medianRank": 45,
+     "rank90": [
+      45,
+      47
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      48,
+      50
+     ]
+    },
+    "KOR": {
+     "medianRank": 22,
+     "rank90": [
+      18,
+      26
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      61
+     ]
+    },
+    "LIE": {
+     "medianRank": 18,
+     "rank90": [
+      12,
+      23
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      60,
+      63
+     ]
+    },
+    "LTU": {
+     "medianRank": 23,
+     "rank90": [
+      20,
+      26
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      61
+     ]
+    },
+    "LUX": {
+     "medianRank": 28,
+     "rank90": [
+      24,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      60
+     ]
+    },
+    "LVA": {
+     "medianRank": 17,
+     "rank90": [
+      15,
+      20
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      62
+     ]
+    },
+    "MEX": {
+     "medianRank": 59,
+     "rank90": [
+      56,
+      59
+     ],
+     "bandShare": 0.9991,
+     "score90": [
+      41,
+      43
+     ]
+    },
+    "MLT": {
+     "medianRank": 28,
+     "rank90": [
+      23,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      60
+     ]
+    },
+    "NGA": {
+     "medianRank": 64,
+     "rank90": [
+      64,
+      64
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      34,
+      37
+     ]
+    },
+    "NLD": {
+     "medianRank": 25,
+     "rank90": [
+      19,
+      30
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      61
+     ]
+    },
+    "NOR": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      8
+     ],
+     "bandShare": 0.9737,
+     "score90": [
+      65,
+      67
+     ]
+    },
+    "NZL": {
+     "medianRank": 48,
+     "rank90": [
+      46,
+      51
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      49
+     ]
+    },
+    "PHL": {
+     "medianRank": 61,
+     "rank90": [
+      60,
+      62
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      38,
+      40
+     ]
+    },
+    "POL": {
+     "medianRank": 28,
+     "rank90": [
+      24,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      60
+     ]
+    },
+    "PRT": {
+     "medianRank": 10,
+     "rank90": [
+      9,
+      10
+     ],
+     "bandShare": 0.7066,
+     "score90": [
+      63,
+      65
+     ]
+    },
+    "ROU": {
+     "medianRank": 35,
+     "rank90": [
+      33,
+      37
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      57
+     ]
+    },
+    "RUS": {
+     "medianRank": 53,
+     "rank90": [
+      52,
+      56
+     ],
+     "bandShare": 0.5566,
+     "score90": [
+      43,
+      47
+     ]
+    },
+    "RWA": {
+     "medianRank": 54,
+     "rank90": [
+      53,
+      56
+     ],
+     "bandShare": 0.5668,
+     "score90": [
+      43,
+      46
+     ]
+    },
+    "SAU": {
+     "medianRank": 40,
+     "rank90": [
+      38,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      55
+     ]
+    },
+    "SGP": {
+     "medianRank": 17,
+     "rank90": [
+      12,
+      21
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      62
+     ]
+    },
+    "SVK": {
+     "medianRank": 32,
+     "rank90": [
+      30,
+      33
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      59
+     ]
+    },
+    "SVN": {
+     "medianRank": 15,
+     "rank90": [
+      12,
+      18
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      63
+     ]
+    },
+    "SWE": {
+     "medianRank": 5,
+     "rank90": [
+      3,
+      5
+     ],
+     "bandShare": 0.9946,
+     "score90": [
+      65,
+      68
+     ]
+    },
+    "THA": {
+     "medianRank": 43,
+     "rank90": [
+      41,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      52
+     ]
+    },
+    "TUR": {
+     "medianRank": 11,
+     "rank90": [
+      9,
+      14
+     ],
+     "bandShare": 0.8615,
+     "score90": [
+      61,
+      65
+     ]
+    },
+    "TWN": {
+     "medianRank": 13,
+     "rank90": [
+      9,
+      19
+     ],
+     "bandShare": 0.9826,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "UKR": {
+     "medianRank": 45,
+     "rank90": [
+      45,
+      49
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      48,
+      50
+     ]
+    },
+    "USA": {
+     "medianRank": 47,
+     "rank90": [
+      45,
+      50
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      49
+     ]
+    },
+    "VNM": {
+     "medianRank": 48,
+     "rank90": [
+      45,
+      51
+     ],
+     "bandShare": 0.9963,
+     "score90": [
+      46,
+      49
+     ]
+    },
+    "ZAF": {
+     "medianRank": 56,
+     "rank90": [
+      53,
+      58
+     ],
+     "bandShare": 0.882,
+     "score90": [
+      42,
+      45
+     ]
+    }
+   },
+   "system": {
+    "rankShiftRS": {
+     "median": 1.22,
+     "p95": 1.86
+    },
+    "bandCount90": {
+     "Poor": [
+      0,
+      0
+     ],
+     "Weak": [
+      9,
+      13
+     ],
+     "Mixed": [
+      42,
+      48
+     ],
+     "Strong": [
+      8,
+      11
+     ],
+     "Leading": [
+      0,
+      0
+     ]
+    },
+    "shareAnyLeading": 0.0,
+    "shareAnyPoor": 0.0,
+    "maxScoreSeen": 74,
+    "minScoreSeen": 31,
+    "medianScore90": [
+     57,
+     58
+    ],
+    "shareMedianMixed": 1.0,
+    "finlandFirstShare": 1.0,
+    "finlandSoleFirstShare": 0.9941
+   }
+  },
+  "band25": {
+   "countries": {
+    "ALB": {
+     "medianRank": 60,
+     "rank90": [
+      59,
+      60
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      40,
+      42
+     ]
+    },
+    "ARE": {
+     "medianRank": 37,
+     "rank90": [
+      35,
+      40
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      56
+     ]
+    },
+    "ARG": {
+     "medianRank": 47,
+     "rank90": [
+      46,
+      49
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      48
+     ]
+    },
+    "AUS": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      7
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      65,
+      66
+     ]
+    },
+    "AUT": {
+     "medianRank": 9,
+     "rank90": [
+      7,
+      9
+     ],
+     "bandShare": 0.8436,
+     "score90": [
+      64,
+      65
+     ]
+    },
+    "BEL": {
+     "medianRank": 12,
+     "rank90": [
+      11,
+      14
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      62,
+      64
+     ]
+    },
+    "BGR": {
+     "medianRank": 26,
+     "rank90": [
+      23,
+      28
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      60
+     ]
+    },
+    "BRA": {
+     "medianRank": 42,
+     "rank90": [
+      41,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      53
+     ]
+    },
+    "CAN": {
+     "medianRank": 42,
+     "rank90": [
+      40,
+      43
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      53
+     ]
+    },
+    "CHE": {
+     "medianRank": 39,
+     "rank90": [
+      38,
+      41
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      54
+     ]
+    },
+    "CHL": {
+     "medianRank": 61,
+     "rank90": [
+      61,
+      62
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      39,
+      40
+     ]
+    },
+    "CHN": {
+     "medianRank": 57,
+     "rank90": [
+      54,
+      58
+     ],
+     "bandShare": 0.9903,
+     "score90": [
+      42,
+      44
+     ]
+    },
+    "COL": {
+     "medianRank": 56,
+     "rank90": [
+      54,
+      57
+     ],
+     "bandShare": 0.9909,
+     "score90": [
+      43,
+      44
+     ]
+    },
+    "CRI": {
+     "medianRank": 39,
+     "rank90": [
+      37,
+      40
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      55
+     ]
+    },
+    "CYP": {
+     "medianRank": 37,
+     "rank90": [
+      35,
+      38
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      54,
+      56
+     ]
+    },
+    "CZE": {
+     "medianRank": 32,
+     "rank90": [
+      31,
+      34
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      58
+     ]
+    },
+    "DEU": {
+     "medianRank": 11,
+     "rank90": [
+      11,
+      13
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      62,
+      63
+     ]
+    },
+    "DNK": {
+     "medianRank": 2,
+     "rank90": [
+      2,
+      2
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      69,
+      71
+     ]
+    },
+    "EGY": {
+     "medianRank": 65,
+     "rank90": [
+      65,
+      65
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      33,
+      34
+     ]
+    },
+    "ESP": {
+     "medianRank": 20,
+     "rank90": [
+      18,
+      22
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      61
+     ]
+    },
+    "EST": {
+     "medianRank": 3,
+     "rank90": [
+      3,
+      3
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      67,
+      69
+     ]
+    },
+    "FIN": {
+     "medianRank": 1,
+     "rank90": [
+      1,
+      1
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      71,
+      72
+     ]
+    },
+    "FRA": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      8
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      65,
+      66
+     ]
+    },
+    "GBR": {
+     "medianRank": 27,
+     "rank90": [
+      23,
+      28
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      60
+     ]
+    },
+    "GHA": {
+     "medianRank": 63,
+     "rank90": [
+      62,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      37,
+      39
+     ]
+    },
+    "GRC": {
+     "medianRank": 33,
+     "rank90": [
+      31,
+      35
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      58
+     ]
+    },
+    "HRV": {
+     "medianRank": 23,
+     "rank90": [
+      20,
+      24
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      60,
+      61
+     ]
+    },
+    "HUN": {
+     "medianRank": 3,
+     "rank90": [
+      3,
+      4
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      67,
+      69
+     ]
+    },
+    "IDN": {
+     "medianRank": 49,
+     "rank90": [
+      47,
+      52
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      46,
+      48
+     ]
+    },
+    "IND": {
+     "medianRank": 53,
+     "rank90": [
+      52,
+      54
+     ],
+     "bandShare": 0.8839,
+     "score90": [
+      44,
+      46
+     ]
+    },
+    "IRL": {
+     "medianRank": 52,
+     "rank90": [
+      47,
+      52
+     ],
+     "bandShare": 0.9994,
+     "score90": [
+      45,
+      48
+     ]
+    },
+    "ISL": {
+     "medianRank": 14,
+     "rank90": [
+      11,
+      16
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      62,
+      63
+     ]
+    },
+    "ISR": {
+     "medianRank": 16,
+     "rank90": [
+      12,
+      20
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      63
+     ]
+    },
+    "ITA": {
+     "medianRank": 12,
+     "rank90": [
+      11,
+      16
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      62,
+      63
+     ]
+    },
+    "JPN": {
+     "medianRank": 35,
+     "rank90": [
+      32,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      57
+     ]
+    },
+    "KEN": {
+     "medianRank": 45,
+     "rank90": [
+      45,
+      45
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      49,
+      50
+     ]
+    },
+    "KOR": {
+     "medianRank": 23,
+     "rank90": [
+      19,
+      25
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      60,
+      61
+     ]
+    },
+    "LIE": {
+     "medianRank": 19,
+     "rank90": [
+      14,
+      21
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      62
+     ]
+    },
+    "LTU": {
+     "medianRank": 23,
+     "rank90": [
+      20,
+      24
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      60,
+      61
+     ]
+    },
+    "LUX": {
+     "medianRank": 28,
+     "rank90": [
+      26,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      59
+     ]
+    },
+    "LVA": {
+     "medianRank": 17,
+     "rank90": [
+      15,
+      20
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      62
+     ]
+    },
+    "MEX": {
+     "medianRank": 59,
+     "rank90": [
+      57,
+      59
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      41,
+      43
+     ]
+    },
+    "MLT": {
+     "medianRank": 27,
+     "rank90": [
+      24,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      60
+     ]
+    },
+    "NGA": {
+     "medianRank": 64,
+     "rank90": [
+      64,
+      64
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      35,
+      36
+     ]
+    },
+    "NLD": {
+     "medianRank": 25,
+     "rank90": [
+      23,
+      29
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      60
+     ]
+    },
+    "NOR": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      7
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      65,
+      66
+     ]
+    },
+    "NZL": {
+     "medianRank": 47,
+     "rank90": [
+      46,
+      50
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      48
+     ]
+    },
+    "PHL": {
+     "medianRank": 61,
+     "rank90": [
+      61,
+      62
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      39,
+      40
+     ]
+    },
+    "POL": {
+     "medianRank": 28,
+     "rank90": [
+      25,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      60
+     ]
+    },
+    "PRT": {
+     "medianRank": 10,
+     "rank90": [
+      9,
+      10
+     ],
+     "bandShare": 0.8724,
+     "score90": [
+      64,
+      65
+     ]
+    },
+    "ROU": {
+     "medianRank": 35,
+     "rank90": [
+      33,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      57
+     ]
+    },
+    "RUS": {
+     "medianRank": 53,
+     "rank90": [
+      53,
+      55
+     ],
+     "bandShare": 0.6095,
+     "score90": [
+      44,
+      46
+     ]
+    },
+    "RWA": {
+     "medianRank": 54,
+     "rank90": [
+      53,
+      55
+     ],
+     "bandShare": 0.5981,
+     "score90": [
+      44,
+      45
+     ]
+    },
+    "SAU": {
+     "medianRank": 40,
+     "rank90": [
+      38,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      54
+     ]
+    },
+    "SGP": {
+     "medianRank": 17,
+     "rank90": [
+      13,
+      20
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      62
+     ]
+    },
+    "SVK": {
+     "medianRank": 32,
+     "rank90": [
+      30,
+      33
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      58
+     ]
+    },
+    "SVN": {
+     "medianRank": 15,
+     "rank90": [
+      12,
+      17
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      62,
+      62
+     ]
+    },
+    "SWE": {
+     "medianRank": 5,
+     "rank90": [
+      4,
+      5
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      66,
+      67
+     ]
+    },
+    "THA": {
+     "medianRank": 43,
+     "rank90": [
+      42,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      52
+     ]
+    },
+    "TUR": {
+     "medianRank": 11,
+     "rank90": [
+      9,
+      12
+     ],
+     "bandShare": 0.9826,
+     "score90": [
+      62,
+      64
+     ]
+    },
+    "TWN": {
+     "medianRank": 12,
+     "rank90": [
+      11,
+      15
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      62,
+      63
+     ]
+    },
+    "UKR": {
+     "medianRank": 45,
+     "rank90": [
+      45,
+      46
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      48,
+      49
+     ]
+    },
+    "USA": {
+     "medianRank": 47,
+     "rank90": [
+      45,
+      49
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      49
+     ]
+    },
+    "VNM": {
+     "medianRank": 48,
+     "rank90": [
+      46,
+      51
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      46,
+      49
+     ]
+    },
+    "ZAF": {
+     "medianRank": 56,
+     "rank90": [
+      53,
+      58
+     ],
+     "bandShare": 0.986,
+     "score90": [
+      43,
+      44
+     ]
+    }
+   },
+   "system": {
+    "rankShiftRS": {
+     "median": 0.91,
+     "p95": 1.26
+    },
+    "bandCount90": {
+     "Poor": [
+      0,
+      0
+     ],
+     "Weak": [
+      10,
+      12
+     ],
+     "Mixed": [
+      43,
+      47
+     ],
+     "Strong": [
+      8,
+      10
+     ],
+     "Leading": [
+      0,
+      0
+     ]
+    },
+    "shareAnyLeading": 0.0,
+    "shareAnyPoor": 0.0,
+    "maxScoreSeen": 73,
+    "minScoreSeen": 32,
+    "medianScore90": [
+     57,
+     58
+    ],
+    "shareMedianMixed": 1.0,
+    "finlandFirstShare": 1.0,
+    "finlandSoleFirstShare": 1.0
+   }
+  },
+  "band50": {
+   "countries": {
+    "ALB": {
+     "medianRank": 60,
+     "rank90": [
+      58,
+      60
+     ],
+     "bandShare": 0.9992,
+     "score90": [
+      39,
+      43
+     ]
+    },
+    "ARE": {
+     "medianRank": 37,
+     "rank90": [
+      30,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      58
+     ]
+    },
+    "ARG": {
+     "medianRank": 47,
+     "rank90": [
+      45,
+      50
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      46,
+      49
+     ]
+    },
+    "AUS": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      7
+     ],
+     "bandShare": 0.993,
+     "score90": [
+      65,
+      66
+     ]
+    },
+    "AUT": {
+     "medianRank": 9,
+     "rank90": [
+      6,
+      10
+     ],
+     "bandShare": 0.6808,
+     "score90": [
+      64,
+      66
+     ]
+    },
+    "BEL": {
+     "medianRank": 12,
+     "rank90": [
+      11,
+      16
+     ],
+     "bandShare": 0.9814,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "BGR": {
+     "medianRank": 26,
+     "rank90": [
+      23,
+      29
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      61
+     ]
+    },
+    "BRA": {
+     "medianRank": 42,
+     "rank90": [
+      39,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      54
+     ]
+    },
+    "CAN": {
+     "medianRank": 41,
+     "rank90": [
+      39,
+      43
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      53
+     ]
+    },
+    "CHE": {
+     "medianRank": 39,
+     "rank90": [
+      36,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      55
+     ]
+    },
+    "CHL": {
+     "medianRank": 61,
+     "rank90": [
+      60,
+      62
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      39,
+      40
+     ]
+    },
+    "CHN": {
+     "medianRank": 56,
+     "rank90": [
+      53,
+      60
+     ],
+     "bandShare": 0.8552,
+     "score90": [
+      41,
+      45
+     ]
+    },
+    "COL": {
+     "medianRank": 56,
+     "rank90": [
+      53,
+      58
+     ],
+     "bandShare": 0.8092,
+     "score90": [
+      42,
+      45
+     ]
+    },
+    "CRI": {
+     "medianRank": 39,
+     "rank90": [
+      36,
+      41
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      56
+     ]
+    },
+    "CYP": {
+     "medianRank": 37,
+     "rank90": [
+      35,
+      39
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      54,
+      56
+     ]
+    },
+    "CZE": {
+     "medianRank": 32,
+     "rank90": [
+      29,
+      34
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      58
+     ]
+    },
+    "DEU": {
+     "medianRank": 12,
+     "rank90": [
+      10,
+      15
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      62,
+      64
+     ]
+    },
+    "DNK": {
+     "medianRank": 2,
+     "rank90": [
+      2,
+      2
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      68,
+      71
+     ]
+    },
+    "EGY": {
+     "medianRank": 65,
+     "rank90": [
+      65,
+      65
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      32,
+      34
+     ]
+    },
+    "ESP": {
+     "medianRank": 20,
+     "rank90": [
+      16,
+      22
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      60,
+      62
+     ]
+    },
+    "EST": {
+     "medianRank": 3,
+     "rank90": [
+      3,
+      4
+     ],
+     "bandShare": 0.9995,
+     "score90": [
+      66,
+      70
+     ]
+    },
+    "FIN": {
+     "medianRank": 1,
+     "rank90": [
+      1,
+      1
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      70,
+      73
+     ]
+    },
+    "FRA": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      8
+     ],
+     "bandShare": 0.9635,
+     "score90": [
+      65,
+      66
+     ]
+    },
+    "GBR": {
+     "medianRank": 27,
+     "rank90": [
+      22,
+      30
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      60
+     ]
+    },
+    "GHA": {
+     "medianRank": 63,
+     "rank90": [
+      62,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      37,
+      39
+     ]
+    },
+    "GRC": {
+     "medianRank": 33,
+     "rank90": [
+      30,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      58
+     ]
+    },
+    "HRV": {
+     "medianRank": 22,
+     "rank90": [
+      18,
+      26
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      61
+     ]
+    },
+    "HUN": {
+     "medianRank": 3,
+     "rank90": [
+      3,
+      4
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      66,
+      69
+     ]
+    },
+    "IDN": {
+     "medianRank": 49,
+     "rank90": [
+      47,
+      52
+     ],
+     "bandShare": 0.9997,
+     "score90": [
+      46,
+      49
+     ]
+    },
+    "IND": {
+     "medianRank": 53,
+     "rank90": [
+      51,
+      57
+     ],
+     "bandShare": 0.7187,
+     "score90": [
+      43,
+      47
+     ]
+    },
+    "IRL": {
+     "medianRank": 51,
+     "rank90": [
+      46,
+      53
+     ],
+     "bandShare": 0.9392,
+     "score90": [
+      44,
+      49
+     ]
+    },
+    "ISL": {
+     "medianRank": 13,
+     "rank90": [
+      10,
+      18
+     ],
+     "bandShare": 0.9959,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "ISR": {
+     "medianRank": 16,
+     "rank90": [
+      11,
+      24
+     ],
+     "bandShare": 0.9955,
+     "score90": [
+      60,
+      64
+     ]
+    },
+    "ITA": {
+     "medianRank": 13,
+     "rank90": [
+      11,
+      19
+     ],
+     "bandShare": 0.9963,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "JPN": {
+     "medianRank": 35,
+     "rank90": [
+      32,
+      37
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      57
+     ]
+    },
+    "KEN": {
+     "medianRank": 45,
+     "rank90": [
+      45,
+      47
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      48,
+      50
+     ]
+    },
+    "KOR": {
+     "medianRank": 22,
+     "rank90": [
+      17,
+      26
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      61
+     ]
+    },
+    "LIE": {
+     "medianRank": 18,
+     "rank90": [
+      12,
+      24
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      60,
+      63
+     ]
+    },
+    "LTU": {
+     "medianRank": 23,
+     "rank90": [
+      19,
+      26
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      61
+     ]
+    },
+    "LUX": {
+     "medianRank": 28,
+     "rank90": [
+      23,
+      33
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      60
+     ]
+    },
+    "LVA": {
+     "medianRank": 17,
+     "rank90": [
+      15,
+      20
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      62
+     ]
+    },
+    "MEX": {
+     "medianRank": 58,
+     "rank90": [
+      56,
+      59
+     ],
+     "bandShare": 0.9981,
+     "score90": [
+      41,
+      44
+     ]
+    },
+    "MLT": {
+     "medianRank": 28,
+     "rank90": [
+      22,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      61
+     ]
+    },
+    "NGA": {
+     "medianRank": 64,
+     "rank90": [
+      64,
+      64
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      34,
+      37
+     ]
+    },
+    "NLD": {
+     "medianRank": 25,
+     "rank90": [
+      17,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      61
+     ]
+    },
+    "NOR": {
+     "medianRank": 6,
+     "rank90": [
+      5,
+      8
+     ],
+     "bandShare": 0.9765,
+     "score90": [
+      65,
+      67
+     ]
+    },
+    "NZL": {
+     "medianRank": 48,
+     "rank90": [
+      46,
+      51
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      49
+     ]
+    },
+    "PHL": {
+     "medianRank": 61,
+     "rank90": [
+      60,
+      62
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      38,
+      40
+     ]
+    },
+    "POL": {
+     "medianRank": 28,
+     "rank90": [
+      23,
+      32
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      60
+     ]
+    },
+    "PRT": {
+     "medianRank": 10,
+     "rank90": [
+      9,
+      11
+     ],
+     "bandShare": 0.7219,
+     "score90": [
+      63,
+      65
+     ]
+    },
+    "ROU": {
+     "medianRank": 35,
+     "rank90": [
+      33,
+      37
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      57
+     ]
+    },
+    "RUS": {
+     "medianRank": 54,
+     "rank90": [
+      51,
+      57
+     ],
+     "bandShare": 0.5516,
+     "score90": [
+      42,
+      47
+     ]
+    },
+    "RWA": {
+     "medianRank": 54,
+     "rank90": [
+      53,
+      56
+     ],
+     "bandShare": 0.5453,
+     "score90": [
+      43,
+      46
+     ]
+    },
+    "SAU": {
+     "medianRank": 40,
+     "rank90": [
+      36,
+      43
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      56
+     ]
+    },
+    "SGP": {
+     "medianRank": 17,
+     "rank90": [
+      12,
+      21
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      62
+     ]
+    },
+    "SVK": {
+     "medianRank": 32,
+     "rank90": [
+      29,
+      34
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      59
+     ]
+    },
+    "SVN": {
+     "medianRank": 15,
+     "rank90": [
+      12,
+      18
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      61,
+      63
+     ]
+    },
+    "SWE": {
+     "medianRank": 5,
+     "rank90": [
+      3,
+      5
+     ],
+     "bandShare": 0.9958,
+     "score90": [
+      65,
+      68
+     ]
+    },
+    "THA": {
+     "medianRank": 43,
+     "rank90": [
+      41,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      52
+     ]
+    },
+    "TUR": {
+     "medianRank": 11,
+     "rank90": [
+      9,
+      15
+     ],
+     "bandShare": 0.8443,
+     "score90": [
+      61,
+      65
+     ]
+    },
+    "TWN": {
+     "medianRank": 13,
+     "rank90": [
+      9,
+      19
+     ],
+     "bandShare": 0.966,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "UKR": {
+     "medianRank": 45,
+     "rank90": [
+      45,
+      50
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      50
+     ]
+    },
+    "USA": {
+     "medianRank": 47,
+     "rank90": [
+      45,
+      50
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      46,
+      50
+     ]
+    },
+    "VNM": {
+     "medianRank": 48,
+     "rank90": [
+      45,
+      51
+     ],
+     "bandShare": 0.9897,
+     "score90": [
+      45,
+      50
+     ]
+    },
+    "ZAF": {
+     "medianRank": 56,
+     "rank90": [
+      53,
+      59
+     ],
+     "bandShare": 0.8473,
+     "score90": [
+      42,
+      45
+     ]
+    }
+   },
+   "system": {
+    "rankShiftRS": {
+     "median": 1.37,
+     "p95": 2.05
+    },
+    "bandCount90": {
+     "Poor": [
+      0,
+      0
+     ],
+     "Weak": [
+      9,
+      13
+     ],
+     "Mixed": [
+      42,
+      48
+     ],
+     "Strong": [
+      8,
+      11
+     ],
+     "Leading": [
+      0,
+      0
+     ]
+    },
+    "shareAnyLeading": 0.0,
+    "shareAnyPoor": 0.0,
+    "maxScoreSeen": 74,
+    "minScoreSeen": 31,
+    "medianScore90": [
+     57,
+     58
+    ],
+    "shareMedianMixed": 1.0,
+    "finlandFirstShare": 1.0,
+    "finlandSoleFirstShare": 0.9935
+   }
+  },
+  "noise5": {
+   "countries": {
+    "ALB": {
+     "medianRank": 60,
+     "rank90": [
+      57,
+      61
+     ],
+     "bandShare": 0.9999,
+     "score90": [
+      39,
+      43
+     ]
+    },
+    "ARE": {
+     "medianRank": 37,
+     "rank90": [
+      33,
+      40
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      57
+     ]
+    },
+    "ARG": {
+     "medianRank": 47,
+     "rank90": [
+      45,
+      51
+     ],
+     "bandShare": 0.9991,
+     "score90": [
+      46,
+      50
+     ]
+    },
+    "AUS": {
+     "medianRank": 6,
+     "rank90": [
+      4,
+      10
+     ],
+     "bandShare": 0.8675,
+     "score90": [
+      64,
+      68
+     ]
+    },
+    "AUT": {
+     "medianRank": 8,
+     "rank90": [
+      5,
+      12
+     ],
+     "bandShare": 0.6044,
+     "score90": [
+      63,
+      67
+     ]
+    },
+    "BEL": {
+     "medianRank": 12,
+     "rank90": [
+      8,
+      19
+     ],
+     "bandShare": 0.9303,
+     "score90": [
+      61,
+      65
+     ]
+    },
+    "BGR": {
+     "medianRank": 25,
+     "rank90": [
+      18,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      61
+     ]
+    },
+    "BRA": {
+     "medianRank": 42,
+     "rank90": [
+      38,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      54
+     ]
+    },
+    "CAN": {
+     "medianRank": 41,
+     "rank90": [
+      38,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      54
+     ]
+    },
+    "CHE": {
+     "medianRank": 39,
+     "rank90": [
+      36,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      56
+     ]
+    },
+    "CHL": {
+     "medianRank": 61,
+     "rank90": [
+      59,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      38,
+      41
+     ]
+    },
+    "CHN": {
+     "medianRank": 57,
+     "rank90": [
+      53,
+      59
+     ],
+     "bandShare": 0.8974,
+     "score90": [
+      41,
+      45
+     ]
+    },
+    "COL": {
+     "medianRank": 56,
+     "rank90": [
+      53,
+      59
+     ],
+     "bandShare": 0.8321,
+     "score90": [
+      42,
+      45
+     ]
+    },
+    "CRI": {
+     "medianRank": 39,
+     "rank90": [
+      35,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      56
+     ]
+    },
+    "CYP": {
+     "medianRank": 37,
+     "rank90": [
+      33,
+      40
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      57
+     ]
+    },
+    "CZE": {
+     "medianRank": 32,
+     "rank90": [
+      26,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      59
+     ]
+    },
+    "DEU": {
+     "medianRank": 12,
+     "rank90": [
+      8,
+      20
+     ],
+     "bandShare": 0.9362,
+     "score90": [
+      61,
+      65
+     ]
+    },
+    "DNK": {
+     "medianRank": 2,
+     "rank90": [
+      1,
+      3
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      68,
+      72
+     ]
+    },
+    "EGY": {
+     "medianRank": 65,
+     "rank90": [
+      64,
+      65
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      31,
+      35
+     ]
+    },
+    "ESP": {
+     "medianRank": 19,
+     "rank90": [
+      12,
+      27
+     ],
+     "bandShare": 0.9995,
+     "score90": [
+      59,
+      63
+     ]
+    },
+    "EST": {
+     "medianRank": 3,
+     "rank90": [
+      2,
+      5
+     ],
+     "bandShare": 0.9999,
+     "score90": [
+      66,
+      70
+     ]
+    },
+    "FIN": {
+     "medianRank": 1,
+     "rank90": [
+      1,
+      2
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      70,
+      73
+     ]
+    },
+    "FRA": {
+     "medianRank": 7,
+     "rank90": [
+      4,
+      10
+     ],
+     "bandShare": 0.8404,
+     "score90": [
+      64,
+      67
+     ]
+    },
+    "GBR": {
+     "medianRank": 26,
+     "rank90": [
+      19,
+      32
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      61
+     ]
+    },
+    "GHA": {
+     "medianRank": 63,
+     "rank90": [
+      61,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      36,
+      40
+     ]
+    },
+    "GRC": {
+     "medianRank": 33,
+     "rank90": [
+      27,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      59
+     ]
+    },
+    "HRV": {
+     "medianRank": 22,
+     "rank90": [
+      14,
+      29
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      62
+     ]
+    },
+    "HUN": {
+     "medianRank": 3,
+     "rank90": [
+      2,
+      6
+     ],
+     "bandShare": 0.9994,
+     "score90": [
+      66,
+      70
+     ]
+    },
+    "IDN": {
+     "medianRank": 49,
+     "rank90": [
+      45,
+      53
+     ],
+     "bandShare": 0.9921,
+     "score90": [
+      45,
+      49
+     ]
+    },
+    "IND": {
+     "medianRank": 53,
+     "rank90": [
+      49,
+      56
+     ],
+     "bandShare": 0.6853,
+     "score90": [
+      43,
+      47
+     ]
+    },
+    "IRL": {
+     "medianRank": 50,
+     "rank90": [
+      46,
+      54
+     ],
+     "bandShare": 0.9627,
+     "score90": [
+      45,
+      48
+     ]
+    },
+    "ISL": {
+     "medianRank": 14,
+     "rank90": [
+      9,
+      22
+     ],
+     "bandShare": 0.9784,
+     "score90": [
+      60,
+      64
+     ]
+    },
+    "ISR": {
+     "medianRank": 16,
+     "rank90": [
+      10,
+      24
+     ],
+     "bandShare": 0.9949,
+     "score90": [
+      60,
+      63
+     ]
+    },
+    "ITA": {
+     "medianRank": 13,
+     "rank90": [
+      9,
+      21
+     ],
+     "bandShare": 0.9634,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "JPN": {
+     "medianRank": 34,
+     "rank90": [
+      29,
+      37
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      58
+     ]
+    },
+    "KEN": {
+     "medianRank": 45,
+     "rank90": [
+      44,
+      49
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      51
+     ]
+    },
+    "KOR": {
+     "medianRank": 22,
+     "rank90": [
+      14,
+      29
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      59,
+      62
+     ]
+    },
+    "LIE": {
+     "medianRank": 18,
+     "rank90": [
+      11,
+      25
+     ],
+     "bandShare": 0.9991,
+     "score90": [
+      59,
+      63
+     ]
+    },
+    "LTU": {
+     "medianRank": 23,
+     "rank90": [
+      15,
+      29
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      62
+     ]
+    },
+    "LUX": {
+     "medianRank": 28,
+     "rank90": [
+      20,
+      33
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      61
+     ]
+    },
+    "LVA": {
+     "medianRank": 17,
+     "rank90": [
+      11,
+      25
+     ],
+     "bandShare": 0.9978,
+     "score90": [
+      60,
+      63
+     ]
+    },
+    "MEX": {
+     "medianRank": 58,
+     "rank90": [
+      55,
+      60
+     ],
+     "bandShare": 0.9859,
+     "score90": [
+      40,
+      44
+     ]
+    },
+    "MLT": {
+     "medianRank": 27,
+     "rank90": [
+      19,
+      32
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      61
+     ]
+    },
+    "NGA": {
+     "medianRank": 64,
+     "rank90": [
+      63,
+      64
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      34,
+      37
+     ]
+    },
+    "NLD": {
+     "medianRank": 25,
+     "rank90": [
+      17,
+      31
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      58,
+      61
+     ]
+    },
+    "NOR": {
+     "medianRank": 6,
+     "rank90": [
+      4,
+      10
+     ],
+     "bandShare": 0.8741,
+     "score90": [
+      64,
+      68
+     ]
+    },
+    "NZL": {
+     "medianRank": 48,
+     "rank90": [
+      45,
+      52
+     ],
+     "bandShare": 0.9986,
+     "score90": [
+      46,
+      49
+     ]
+    },
+    "PHL": {
+     "medianRank": 61,
+     "rank90": [
+      59,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      37,
+      41
+     ]
+    },
+    "POL": {
+     "medianRank": 28,
+     "rank90": [
+      20,
+      33
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      61
+     ]
+    },
+    "PRT": {
+     "medianRank": 9,
+     "rank90": [
+      6,
+      14
+     ],
+     "bandShare": 0.6368,
+     "score90": [
+      62,
+      66
+     ]
+    },
+    "ROU": {
+     "medianRank": 35,
+     "rank90": [
+      30,
+      38
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      54,
+      58
+     ]
+    },
+    "RUS": {
+     "medianRank": 54,
+     "rank90": [
+      50,
+      57
+     ],
+     "bandShare": 0.5688,
+     "score90": [
+      43,
+      47
+     ]
+    },
+    "RWA": {
+     "medianRank": 54,
+     "rank90": [
+      51,
+      57
+     ],
+     "bandShare": 0.5595,
+     "score90": [
+      43,
+      46
+     ]
+    },
+    "SAU": {
+     "medianRank": 40,
+     "rank90": [
+      36,
+      43
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      55
+     ]
+    },
+    "SGP": {
+     "medianRank": 17,
+     "rank90": [
+      11,
+      25
+     ],
+     "bandShare": 0.9977,
+     "score90": [
+      60,
+      63
+     ]
+    },
+    "SVK": {
+     "medianRank": 32,
+     "rank90": [
+      25,
+      35
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      59
+     ]
+    },
+    "SVN": {
+     "medianRank": 15,
+     "rank90": [
+      10,
+      23
+     ],
+     "bandShare": 0.9899,
+     "score90": [
+      60,
+      64
+     ]
+    },
+    "SWE": {
+     "medianRank": 5,
+     "rank90": [
+      3,
+      8
+     ],
+     "bandShare": 0.9732,
+     "score90": [
+      65,
+      69
+     ]
+    },
+    "THA": {
+     "medianRank": 43,
+     "rank90": [
+      39,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      53
+     ]
+    },
+    "TUR": {
+     "medianRank": 11,
+     "rank90": [
+      7,
+      18
+     ],
+     "bandShare": 0.848,
+     "score90": [
+      61,
+      65
+     ]
+    },
+    "TWN": {
+     "medianRank": 13,
+     "rank90": [
+      9,
+      21
+     ],
+     "bandShare": 0.9633,
+     "score90": [
+      61,
+      64
+     ]
+    },
+    "UKR": {
+     "medianRank": 46,
+     "rank90": [
+      44,
+      50
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      51
+     ]
+    },
+    "USA": {
+     "medianRank": 47,
+     "rank90": [
+      45,
+      51
+     ],
+     "bandShare": 0.9998,
+     "score90": [
+      46,
+      50
+     ]
+    },
+    "VNM": {
+     "medianRank": 48,
+     "rank90": [
+      45,
+      52
+     ],
+     "bandShare": 0.9975,
+     "score90": [
+      46,
+      49
+     ]
+    },
+    "ZAF": {
+     "medianRank": 56,
+     "rank90": [
+      53,
+      59
+     ],
+     "bandShare": 0.8176,
+     "score90": [
+      42,
+      45
+     ]
+    }
+   },
+   "system": {
+    "rankShiftRS": {
+     "median": 2.08,
+     "p95": 2.51
+    },
+    "bandCount90": {
+     "Poor": [
+      0,
+      0
+     ],
+     "Weak": [
+      9,
+      13
+     ],
+     "Mixed": [
+      43,
+      48
+     ],
+     "Strong": [
+      7,
+      11
+     ],
+     "Leading": [
+      0,
+      0
+     ]
+    },
+    "shareAnyLeading": 0.0,
+    "shareAnyPoor": 0.0,
+    "maxScoreSeen": 75,
+    "minScoreSeen": 30,
+    "medianScore90": [
+     56,
+     58
+    ],
+    "shareMedianMixed": 1.0,
+    "finlandFirstShare": 0.8974,
+    "finlandSoleFirstShare": 0.7323
+   }
+  },
+  "noise5Shared": {
+   "countries": {
+    "ALB": {
+     "medianRank": 59,
+     "rank90": [
+      52,
+      63
+     ],
+     "bandShare": 0.8484,
+     "score90": [
+      37,
+      45
+     ]
+    },
+    "ARE": {
+     "medianRank": 37,
+     "rank90": [
+      24,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      59
+     ]
+    },
+    "ARG": {
+     "medianRank": 48,
+     "rank90": [
+      41,
+      56
+     ],
+     "bandShare": 0.8338,
+     "score90": [
+      43,
+      52
+     ]
+    },
+    "AUS": {
+     "medianRank": 7,
+     "rank90": [
+      2,
+      19
+     ],
+     "bandShare": 0.6198,
+     "score90": [
+      61,
+      70
+     ]
+    },
+    "AUT": {
+     "medianRank": 9,
+     "rank90": [
+      3,
+      22
+     ],
+     "bandShare": 0.5262,
+     "score90": [
+      60,
+      69
+     ]
+    },
+    "BEL": {
+     "medianRank": 14,
+     "rank90": [
+      5,
+      27
+     ],
+     "bandShare": 0.6628,
+     "score90": [
+      58,
+      67
+     ]
+    },
+    "BGR": {
+     "medianRank": 24,
+     "rank90": [
+      11,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      64
+     ]
+    },
+    "BRA": {
+     "medianRank": 41,
+     "rank90": [
+      32,
+      48
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      48,
+      57
+     ]
+    },
+    "CAN": {
+     "medianRank": 41,
+     "rank90": [
+      31,
+      48
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      48,
+      57
+     ]
+    },
+    "CHE": {
+     "medianRank": 39,
+     "rank90": [
+      28,
+      46
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      49,
+      58
+     ]
+    },
+    "CHL": {
+     "medianRank": 61,
+     "rank90": [
+      54,
+      64
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      35,
+      44
+     ]
+    },
+    "CHN": {
+     "medianRank": 56,
+     "rank90": [
+      48,
+      62
+     ],
+     "bandShare": 0.6426,
+     "score90": [
+      39,
+      48
+     ]
+    },
+    "COL": {
+     "medianRank": 55,
+     "rank90": [
+      48,
+      61
+     ],
+     "bandShare": 0.617,
+     "score90": [
+      39,
+      48
+     ]
+    },
+    "CRI": {
+     "medianRank": 38,
+     "rank90": [
+      27,
+      45
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      59
+     ]
+    },
+    "CYP": {
+     "medianRank": 36,
+     "rank90": [
+      24,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      60
+     ]
+    },
+    "CZE": {
+     "medianRank": 30,
+     "rank90": [
+      17,
+      40
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      62
+     ]
+    },
+    "DEU": {
+     "medianRank": 14,
+     "rank90": [
+      5,
+      28
+     ],
+     "bandShare": 0.6637,
+     "score90": [
+      58,
+      67
+     ]
+    },
+    "DNK": {
+     "medianRank": 2,
+     "rank90": [
+      1,
+      8
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      65,
+      74
+     ]
+    },
+    "EGY": {
+     "medianRank": 65,
+     "rank90": [
+      62,
+      65
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      29,
+      38
+     ]
+    },
+    "ESP": {
+     "medianRank": 20,
+     "rank90": [
+      8,
+      33
+     ],
+     "bandShare": 0.8572,
+     "score90": [
+      56,
+      65
+     ]
+    },
+    "EST": {
+     "medianRank": 4,
+     "rank90": [
+      1,
+      12
+     ],
+     "bandShare": 0.8666,
+     "score90": [
+      64,
+      73
+     ]
+    },
+    "FIN": {
+     "medianRank": 1,
+     "rank90": [
+      1,
+      5
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      67,
+      76
+     ]
+    },
+    "FRA": {
+     "medianRank": 7,
+     "rank90": [
+      2,
+      19
+     ],
+     "bandShare": 0.6148,
+     "score90": [
+      61,
+      70
+     ]
+    },
+    "GBR": {
+     "medianRank": 25,
+     "rank90": [
+      12,
+      37
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      64
+     ]
+    },
+    "GHA": {
+     "medianRank": 62,
+     "rank90": [
+      56,
+      64
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      34,
+      43
+     ]
+    },
+    "GRC": {
+     "medianRank": 31,
+     "rank90": [
+      18,
+      41
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      62
+     ]
+    },
+    "HRV": {
+     "medianRank": 21,
+     "rank90": [
+      9,
+      34
+     ],
+     "bandShare": 0.9145,
+     "score90": [
+      56,
+      65
+     ]
+    },
+    "HUN": {
+     "medianRank": 4,
+     "rank90": [
+      1,
+      13
+     ],
+     "bandShare": 0.8413,
+     "score90": [
+      63,
+      72
+     ]
+    },
+    "IDN": {
+     "medianRank": 49,
+     "rank90": [
+      42,
+      57
+     ],
+     "bandShare": 0.7552,
+     "score90": [
+      43,
+      52
+     ]
+    },
+    "IND": {
+     "medianRank": 53,
+     "rank90": [
+      45,
+      59
+     ],
+     "bandShare": 0.5595,
+     "score90": [
+      41,
+      50
+     ]
+    },
+    "IRL": {
+     "medianRank": 50,
+     "rank90": [
+      43,
+      58
+     ],
+     "bandShare": 0.6981,
+     "score90": [
+      42,
+      51
+     ]
+    },
+    "ISL": {
+     "medianRank": 16,
+     "rank90": [
+      5,
+      29
+     ],
+     "bandShare": 0.7197,
+     "score90": [
+      58,
+      67
+     ]
+    },
+    "ISR": {
+     "medianRank": 18,
+     "rank90": [
+      7,
+      31
+     ],
+     "bandShare": 0.7881,
+     "score90": [
+      57,
+      66
+     ]
+    },
+    "ITA": {
+     "medianRank": 15,
+     "rank90": [
+      5,
+      28
+     ],
+     "bandShare": 0.7017,
+     "score90": [
+      58,
+      67
+     ]
+    },
+    "JPN": {
+     "medianRank": 33,
+     "rank90": [
+      20,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      61
+     ]
+    },
+    "KEN": {
+     "medianRank": 46,
+     "rank90": [
+      39,
+      54
+     ],
+     "bandShare": 0.9579,
+     "score90": [
+      45,
+      54
+     ]
+    },
+    "KOR": {
+     "medianRank": 22,
+     "rank90": [
+      9,
+      34
+     ],
+     "bandShare": 0.9161,
+     "score90": [
+      56,
+      65
+     ]
+    },
+    "LIE": {
+     "medianRank": 19,
+     "rank90": [
+      7,
+      32
+     ],
+     "bandShare": 0.8225,
+     "score90": [
+      57,
+      66
+     ]
+    },
+    "LTU": {
+     "medianRank": 22,
+     "rank90": [
+      9,
+      35
+     ],
+     "bandShare": 0.9278,
+     "score90": [
+      56,
+      65
+     ]
+    },
+    "LUX": {
+     "medianRank": 26,
+     "rank90": [
+      13,
+      38
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      54,
+      63
+     ]
+    },
+    "LVA": {
+     "medianRank": 18,
+     "rank90": [
+      7,
+      31
+     ],
+     "bandShare": 0.7968,
+     "score90": [
+      57,
+      66
+     ]
+    },
+    "MEX": {
+     "medianRank": 57,
+     "rank90": [
+      50,
+      62
+     ],
+     "bandShare": 0.7444,
+     "score90": [
+      38,
+      47
+     ]
+    },
+    "MLT": {
+     "medianRank": 25,
+     "rank90": [
+      12,
+      37
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      63
+     ]
+    },
+    "NGA": {
+     "medianRank": 64,
+     "rank90": [
+      60,
+      65
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      31,
+      40
+     ]
+    },
+    "NLD": {
+     "medianRank": 24,
+     "rank90": [
+      11,
+      36
+     ],
+     "bandShare": 0.9943,
+     "score90": [
+      55,
+      64
+     ]
+    },
+    "NOR": {
+     "medianRank": 7,
+     "rank90": [
+      2,
+      19
+     ],
+     "bandShare": 0.6305,
+     "score90": [
+      61,
+      70
+     ]
+    },
+    "NZL": {
+     "medianRank": 48,
+     "rank90": [
+      41,
+      56
+     ],
+     "bandShare": 0.8055,
+     "score90": [
+      43,
+      52
+     ]
+    },
+    "PHL": {
+     "medianRank": 61,
+     "rank90": [
+      55,
+      64
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      35,
+      44
+     ]
+    },
+    "POL": {
+     "medianRank": 26,
+     "rank90": [
+      13,
+      38
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      54,
+      63
+     ]
+    },
+    "PRT": {
+     "medianRank": 11,
+     "rank90": [
+      3,
+      24
+     ],
+     "bandShare": 0.5383,
+     "score90": [
+      60,
+      69
+     ]
+    },
+    "ROU": {
+     "medianRank": 33,
+     "rank90": [
+      20,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      61
+     ]
+    },
+    "RUS": {
+     "medianRank": 53,
+     "rank90": [
+      46,
+      60
+     ],
+     "bandShare": 0.5163,
+     "score90": [
+      40,
+      49
+     ]
+    },
+    "RWA": {
+     "medianRank": 54,
+     "rank90": [
+      46,
+      60
+     ],
+     "bandShare": 0.5159,
+     "score90": [
+      40,
+      49
+     ]
+    },
+    "SAU": {
+     "medianRank": 40,
+     "rank90": [
+      29,
+      47
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      49,
+      58
+     ]
+    },
+    "SGP": {
+     "medianRank": 18,
+     "rank90": [
+      7,
+      31
+     ],
+     "bandShare": 0.804,
+     "score90": [
+      57,
+      66
+     ]
+    },
+    "SVK": {
+     "medianRank": 30,
+     "rank90": [
+      16,
+      40
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      62
+     ]
+    },
+    "SVN": {
+     "medianRank": 17,
+     "rank90": [
+      6,
+      30
+     ],
+     "bandShare": 0.7591,
+     "score90": [
+      57,
+      66
+     ]
+    },
+    "SWE": {
+     "medianRank": 6,
+     "rank90": [
+      2,
+      17
+     ],
+     "bandShare": 0.7102,
+     "score90": [
+      62,
+      71
+     ]
+    },
+    "THA": {
+     "medianRank": 42,
+     "rank90": [
+      34,
+      49
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      56
+     ]
+    },
+    "TUR": {
+     "medianRank": 13,
+     "rank90": [
+      4,
+      26
+     ],
+     "bandShare": 0.6286,
+     "score90": [
+      59,
+      68
+     ]
+    },
+    "TWN": {
+     "medianRank": 15,
+     "rank90": [
+      5,
+      28
+     ],
+     "bandShare": 0.7015,
+     "score90": [
+      58,
+      67
+     ]
+    },
+    "UKR": {
+     "medianRank": 47,
+     "rank90": [
+      39,
+      54
+     ],
+     "bandShare": 0.9286,
+     "score90": [
+      44,
+      53
+     ]
+    },
+    "USA": {
+     "medianRank": 48,
+     "rank90": [
+      40,
+      55
+     ],
+     "bandShare": 0.8533,
+     "score90": [
+      44,
+      53
+     ]
+    },
+    "VNM": {
+     "medianRank": 49,
+     "rank90": [
+      41,
+      56
+     ],
+     "bandShare": 0.7973,
+     "score90": [
+      43,
+      52
+     ]
+    },
+    "ZAF": {
+     "medianRank": 55,
+     "rank90": [
+      48,
+      61
+     ],
+     "bandShare": 0.6054,
+     "score90": [
+      39,
+      48
+     ]
+    }
+   },
+   "system": {
+    "rankShiftRS": {
+     "median": 5.02,
+     "p95": 5.88
+    },
+    "bandCount90": {
+     "Poor": [
+      0,
+      0
+     ],
+     "Weak": [
+      9,
+      14
+     ],
+     "Mixed": [
+      39,
+      47
+     ],
+     "Strong": [
+      7,
+      14
+     ],
+     "Leading": [
+      0,
+      0
+     ]
+    },
+    "shareAnyLeading": 0.0,
+    "shareAnyPoor": 0.0,
+    "maxScoreSeen": 76,
+    "minScoreSeen": 28,
+    "medianScore90": [
+     56,
+     58
+    ],
+    "shareMedianMixed": 1.0,
+    "finlandFirstShare": 0.5308,
+    "finlandSoleFirstShare": 0.4327
+   }
+  },
+  "combined": {
+   "countries": {
+    "ALB": {
+     "medianRank": 59,
+     "rank90": [
+      56,
+      61
+     ],
+     "bandShare": 0.9882,
+     "score90": [
+      38,
+      44
+     ]
+    },
+    "ARE": {
+     "medianRank": 37,
+     "rank90": [
+      30,
+      42
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      52,
+      58
+     ]
+    },
+    "ARG": {
+     "medianRank": 48,
+     "rank90": [
+      45,
+      52
+     ],
+     "bandShare": 0.995,
+     "score90": [
+      46,
+      50
+     ]
+    },
+    "AUS": {
+     "medianRank": 6,
+     "rank90": [
+      3,
+      10
+     ],
+     "bandShare": 0.8369,
+     "score90": [
+      64,
+      68
+     ]
+    },
+    "AUT": {
+     "medianRank": 8,
+     "rank90": [
+      5,
+      13
+     ],
+     "bandShare": 0.5895,
+     "score90": [
+      63,
+      67
+     ]
+    },
+    "BEL": {
+     "medianRank": 13,
+     "rank90": [
+      8,
+      20
+     ],
+     "bandShare": 0.8793,
+     "score90": [
+      61,
+      65
+     ]
+    },
+    "BGR": {
+     "medianRank": 25,
+     "rank90": [
+      17,
+      32
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      62
+     ]
+    },
+    "BRA": {
+     "medianRank": 42,
+     "rank90": [
+      38,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      55
+     ]
+    },
+    "CAN": {
+     "medianRank": 41,
+     "rank90": [
+      38,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      54
+     ]
+    },
+    "CHE": {
+     "medianRank": 39,
+     "rank90": [
+      34,
+      43
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      56
+     ]
+    },
+    "CHL": {
+     "medianRank": 61,
+     "rank90": [
+      59,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      37,
+      41
+     ]
+    },
+    "CHN": {
+     "medianRank": 56,
+     "rank90": [
+      52,
+      60
+     ],
+     "bandShare": 0.8113,
+     "score90": [
+      40,
+      46
+     ]
+    },
+    "COL": {
+     "medianRank": 56,
+     "rank90": [
+      52,
+      59
+     ],
+     "bandShare": 0.7674,
+     "score90": [
+      41,
+      46
+     ]
+    },
+    "CRI": {
+     "medianRank": 39,
+     "rank90": [
+      34,
+      43
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      51,
+      57
+     ]
+    },
+    "CYP": {
+     "medianRank": 37,
+     "rank90": [
+      32,
+      40
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      53,
+      57
+     ]
+    },
+    "CZE": {
+     "medianRank": 32,
+     "rank90": [
+      25,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      60
+     ]
+    },
+    "DEU": {
+     "medianRank": 13,
+     "rank90": [
+      8,
+      20
+     ],
+     "bandShare": 0.9052,
+     "score90": [
+      61,
+      65
+     ]
+    },
+    "DNK": {
+     "medianRank": 2,
+     "rank90": [
+      1,
+      3
+     ],
+     "bandShare": 0.9997,
+     "score90": [
+      67,
+      72
+     ]
+    },
+    "EGY": {
+     "medianRank": 65,
+     "rank90": [
+      64,
+      65
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      31,
+      35
+     ]
+    },
+    "ESP": {
+     "medianRank": 19,
+     "rank90": [
+      12,
+      27
+     ],
+     "bandShare": 0.9978,
+     "score90": [
+      59,
+      63
+     ]
+    },
+    "EST": {
+     "medianRank": 3,
+     "rank90": [
+      2,
+      6
+     ],
+     "bandShare": 0.9899,
+     "score90": [
+      66,
+      71
+     ]
+    },
+    "FIN": {
+     "medianRank": 1,
+     "rank90": [
+      1,
+      2
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      69,
+      74
+     ]
+    },
+    "FRA": {
+     "medianRank": 7,
+     "rank90": [
+      3,
+      11
+     ],
+     "bandShare": 0.7998,
+     "score90": [
+      64,
+      68
+     ]
+    },
+    "GBR": {
+     "medianRank": 26,
+     "rank90": [
+      17,
+      32
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      61
+     ]
+    },
+    "GHA": {
+     "medianRank": 62,
+     "rank90": [
+      60,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      36,
+      40
+     ]
+    },
+    "GRC": {
+     "medianRank": 33,
+     "rank90": [
+      26,
+      37
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      59
+     ]
+    },
+    "HRV": {
+     "medianRank": 22,
+     "rank90": [
+      14,
+      29
+     ],
+     "bandShare": 0.9993,
+     "score90": [
+      58,
+      63
+     ]
+    },
+    "HUN": {
+     "medianRank": 3,
+     "rank90": [
+      2,
+      6
+     ],
+     "bandShare": 0.9909,
+     "score90": [
+      66,
+      70
+     ]
+    },
+    "IDN": {
+     "medianRank": 49,
+     "rank90": [
+      45,
+      53
+     ],
+     "bandShare": 0.9713,
+     "score90": [
+      45,
+      49
+     ]
+    },
+    "IND": {
+     "medianRank": 53,
+     "rank90": [
+      48,
+      57
+     ],
+     "bandShare": 0.6542,
+     "score90": [
+      43,
+      47
+     ]
+    },
+    "IRL": {
+     "medianRank": 50,
+     "rank90": [
+      45,
+      54
+     ],
+     "bandShare": 0.8843,
+     "score90": [
+      44,
+      49
+     ]
+    },
+    "ISL": {
+     "medianRank": 14,
+     "rank90": [
+      8,
+      23
+     ],
+     "bandShare": 0.94,
+     "score90": [
+      60,
+      65
+     ]
+    },
+    "ISR": {
+     "medianRank": 17,
+     "rank90": [
+      10,
+      26
+     ],
+     "bandShare": 0.967,
+     "score90": [
+      59,
+      64
+     ]
+    },
+    "ITA": {
+     "medianRank": 14,
+     "rank90": [
+      8,
+      22
+     ],
+     "bandShare": 0.9199,
+     "score90": [
+      60,
+      65
+     ]
+    },
+    "JPN": {
+     "medianRank": 34,
+     "rank90": [
+      28,
+      38
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      54,
+      59
+     ]
+    },
+    "KEN": {
+     "medianRank": 45,
+     "rank90": [
+      43,
+      49
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      47,
+      51
+     ]
+    },
+    "KOR": {
+     "medianRank": 22,
+     "rank90": [
+      13,
+      29
+     ],
+     "bandShare": 0.9997,
+     "score90": [
+      58,
+      62
+     ]
+    },
+    "LIE": {
+     "medianRank": 18,
+     "rank90": [
+      11,
+      27
+     ],
+     "bandShare": 0.9866,
+     "score90": [
+      59,
+      64
+     ]
+    },
+    "LTU": {
+     "medianRank": 23,
+     "rank90": [
+      14,
+      30
+     ],
+     "bandShare": 0.9994,
+     "score90": [
+      58,
+      62
+     ]
+    },
+    "LUX": {
+     "medianRank": 28,
+     "rank90": [
+      19,
+      34
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      61
+     ]
+    },
+    "LVA": {
+     "medianRank": 17,
+     "rank90": [
+      11,
+      25
+     ],
+     "bandShare": 0.9909,
+     "score90": [
+      59,
+      64
+     ]
+    },
+    "MEX": {
+     "medianRank": 58,
+     "rank90": [
+      54,
+      60
+     ],
+     "bandShare": 0.9598,
+     "score90": [
+      40,
+      44
+     ]
+    },
+    "MLT": {
+     "medianRank": 27,
+     "rank90": [
+      18,
+      33
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      61
+     ]
+    },
+    "NGA": {
+     "medianRank": 64,
+     "rank90": [
+      63,
+      65
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      33,
+      38
+     ]
+    },
+    "NLD": {
+     "medianRank": 25,
+     "rank90": [
+      16,
+      32
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      57,
+      62
+     ]
+    },
+    "NOR": {
+     "medianRank": 6,
+     "rank90": [
+      3,
+      10
+     ],
+     "bandShare": 0.84,
+     "score90": [
+      64,
+      68
+     ]
+    },
+    "NZL": {
+     "medianRank": 48,
+     "rank90": [
+      45,
+      52
+     ],
+     "bandShare": 0.9955,
+     "score90": [
+      46,
+      50
+     ]
+    },
+    "PHL": {
+     "medianRank": 61,
+     "rank90": [
+      59,
+      63
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      37,
+      41
+     ]
+    },
+    "POL": {
+     "medianRank": 28,
+     "rank90": [
+      19,
+      34
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      56,
+      61
+     ]
+    },
+    "PRT": {
+     "medianRank": 10,
+     "rank90": [
+      6,
+      15
+     ],
+     "bandShare": 0.6181,
+     "score90": [
+      62,
+      66
+     ]
+    },
+    "ROU": {
+     "medianRank": 35,
+     "rank90": [
+      29,
+      38
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      54,
+      58
+     ]
+    },
+    "RUS": {
+     "medianRank": 54,
+     "rank90": [
+      49,
+      58
+     ],
+     "bandShare": 0.5483,
+     "score90": [
+      42,
+      47
+     ]
+    },
+    "RWA": {
+     "medianRank": 54,
+     "rank90": [
+      50,
+      58
+     ],
+     "bandShare": 0.5285,
+     "score90": [
+      42,
+      47
+     ]
+    },
+    "SAU": {
+     "medianRank": 40,
+     "rank90": [
+      35,
+      44
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      56
+     ]
+    },
+    "SGP": {
+     "medianRank": 17,
+     "rank90": [
+      11,
+      25
+     ],
+     "bandShare": 0.9946,
+     "score90": [
+      59,
+      63
+     ]
+    },
+    "SVK": {
+     "medianRank": 31,
+     "rank90": [
+      25,
+      36
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      55,
+      60
+     ]
+    },
+    "SVN": {
+     "medianRank": 15,
+     "rank90": [
+      10,
+      23
+     ],
+     "bandShare": 0.9756,
+     "score90": [
+      60,
+      64
+     ]
+    },
+    "SWE": {
+     "medianRank": 5,
+     "rank90": [
+      3,
+      8
+     ],
+     "bandShare": 0.9414,
+     "score90": [
+      64,
+      69
+     ]
+    },
+    "THA": {
+     "medianRank": 43,
+     "rank90": [
+      39,
+      45
+     ],
+     "bandShare": 1.0,
+     "score90": [
+      50,
+      53
+     ]
+    },
+    "TUR": {
+     "medianRank": 11,
+     "rank90": [
+      6,
+      19
+     ],
+     "bandShare": 0.7692,
+     "score90": [
+      61,
+      66
+     ]
+    },
+    "TWN": {
+     "medianRank": 14,
+     "rank90": [
+      8,
+      23
+     ],
+     "bandShare": 0.9116,
+     "score90": [
+      60,
+      65
+     ]
+    },
+    "UKR": {
+     "medianRank": 46,
+     "rank90": [
+      43,
+      51
+     ],
+     "bandShare": 0.9996,
+     "score90": [
+      47,
+      51
+     ]
+    },
+    "USA": {
+     "medianRank": 47,
+     "rank90": [
+      44,
+      52
+     ],
+     "bandShare": 0.9928,
+     "score90": [
+      46,
+      50
+     ]
+    },
+    "VNM": {
+     "medianRank": 48,
+     "rank90": [
+      45,
+      53
+     ],
+     "bandShare": 0.9677,
+     "score90": [
+      45,
+      50
+     ]
+    },
+    "ZAF": {
+     "medianRank": 56,
+     "rank90": [
+      51,
+      59
+     ],
+     "bandShare": 0.7631,
+     "score90": [
+      41,
+      46
+     ]
+    }
+   },
+   "system": {
+    "rankShiftRS": {
+     "median": 2.35,
+     "p95": 2.95
+    },
+    "bandCount90": {
+     "Poor": [
+      0,
+      0
+     ],
+     "Weak": [
+      9,
+      13
+     ],
+     "Mixed": [
+      41,
+      49
+     ],
+     "Strong": [
+      6,
+      12
+     ],
+     "Leading": [
+      0,
+      0
+     ]
+    },
+    "shareAnyLeading": 0.0,
+    "shareAnyPoor": 0.0,
+    "maxScoreSeen": 77,
+    "minScoreSeen": 28,
+    "medianScore90": [
+     56,
+     58
+    ],
+    "shareMedianMixed": 1.0,
+    "finlandFirstShare": 0.8848,
+    "finlandSoleFirstShare": 0.7174
+   }
+  }
+ },
+ "alternatives": {
+  "equal": {
+   "spearman": 0.9884,
+   "rankShiftRS": 1.94,
+   "maxRankShift": 9,
+   "maxShiftCountries": [
+    "ARE"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 68,
+   "min": 36,
+   "median": 56,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 9,
+    "Mixed": 52,
+    "Strong": 4,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "AUS",
+    "AUT",
+    "CHN",
+    "FRA",
+    "NOR",
+    "RWA",
+    "SWE"
+   ],
+   "rank": {
+    "ALB": 60,
+    "ARE": 28,
+    "ARG": 52,
+    "AUS": 6,
+    "AUT": 10,
+    "BEL": 15,
+    "BGR": 28,
+    "BRA": 41,
+    "CAN": 42,
+    "CHE": 37,
+    "CHL": 62,
+    "CHN": 52,
+    "COL": 57,
+    "CRI": 42,
+    "CYP": 37,
+    "CZE": 35,
+    "DEU": 11,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 21,
+    "EST": 3,
+    "FIN": 1,
+    "FRA": 5,
+    "GBR": 21,
+    "GHA": 62,
+    "GRC": 32,
+    "HRV": 24,
+    "HUN": 3,
+    "IDN": 50,
+    "IND": 55,
+    "IRL": 45,
+    "ISL": 11,
+    "ISR": 15,
+    "ITA": 15,
+    "JPN": 35,
+    "KEN": 45,
+    "KOR": 15,
+    "LIE": 24,
+    "LTU": 24,
+    "LUX": 32,
+    "LVA": 21,
+    "MEX": 59,
+    "MLT": 28,
+    "NGA": 64,
+    "NLD": 24,
+    "NOR": 6,
+    "NZL": 50,
+    "PHL": 60,
+    "POL": 28,
+    "PRT": 11,
+    "ROU": 37,
+    "RUS": 55,
+    "RWA": 52,
+    "SAU": 37,
+    "SGP": 11,
+    "SVK": 32,
+    "SVN": 15,
+    "SWE": 6,
+    "THA": 42,
+    "TUR": 15,
+    "TWN": 6,
+    "UKR": 48,
+    "USA": 45,
+    "VNM": 48,
+    "ZAF": 57
+   }
+  },
+  "geometric": {
+   "spearman": 0.9977,
+   "rankShiftRS": 0.94,
+   "maxRankShift": 4,
+   "maxShiftCountries": [
+    "ISL",
+    "SVN"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 71,
+   "min": 33,
+   "median": 57,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 13,
+    "Mixed": 44,
+    "Strong": 8,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "AUT",
+    "IND",
+    "RUS"
+   ],
+   "rank": {
+    "ALB": 60,
+    "ARE": 38,
+    "ARG": 47,
+    "AUS": 5,
+    "AUT": 9,
+    "BEL": 12,
+    "BGR": 26,
+    "BRA": 42,
+    "CAN": 41,
+    "CHE": 38,
+    "CHL": 61,
+    "CHN": 57,
+    "COL": 57,
+    "CRI": 38,
+    "CYP": 37,
+    "CZE": 32,
+    "DEU": 11,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 18,
+    "EST": 3,
+    "FIN": 1,
+    "FRA": 7,
+    "GBR": 26,
+    "GHA": 63,
+    "GRC": 34,
+    "HRV": 23,
+    "HUN": 3,
+    "IDN": 47,
+    "IND": 53,
+    "IRL": 52,
+    "ISL": 12,
+    "ISR": 18,
+    "ITA": 12,
+    "JPN": 34,
+    "KEN": 45,
+    "KOR": 23,
+    "LIE": 18,
+    "LTU": 23,
+    "LUX": 29,
+    "LVA": 18,
+    "MEX": 59,
+    "MLT": 29,
+    "NGA": 64,
+    "NLD": 26,
+    "NOR": 7,
+    "NZL": 47,
+    "PHL": 61,
+    "POL": 29,
+    "PRT": 9,
+    "ROU": 34,
+    "RUS": 54,
+    "RWA": 54,
+    "SAU": 42,
+    "SGP": 18,
+    "SVK": 32,
+    "SVN": 12,
+    "SWE": 5,
+    "THA": 42,
+    "TUR": 12,
+    "TWN": 12,
+    "UKR": 46,
+    "USA": 47,
+    "VNM": 51,
+    "ZAF": 54
+   }
+  },
+  "drop_access": {
+   "spearman": 0.9869,
+   "rankShiftRS": 2.23,
+   "maxRankShift": 14,
+   "maxShiftCountries": [
+    "ARE"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY",
+    "NGA"
+   ],
+   "max": 70,
+   "min": 34,
+   "median": 56,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 14,
+    "Mixed": 43,
+    "Strong": 8,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "CHN",
+    "IND",
+    "IRL",
+    "RUS",
+    "SWE",
+    "VNM"
+   ],
+   "rank": {
+    "ALB": 59,
+    "ARE": 23,
+    "ARG": 49,
+    "AUS": 4,
+    "AUT": 4,
+    "BEL": 12,
+    "BGR": 26,
+    "BRA": 44,
+    "CAN": 38,
+    "CHE": 38,
+    "CHL": 62,
+    "CHN": 49,
+    "COL": 55,
+    "CRI": 41,
+    "CYP": 38,
+    "CZE": 31,
+    "DEU": 10,
+    "DNK": 2,
+    "EGY": 64,
+    "ESP": 23,
+    "EST": 4,
+    "FIN": 1,
+    "FRA": 4,
+    "GBR": 29,
+    "GHA": 62,
+    "GRC": 35,
+    "HRV": 23,
+    "HUN": 3,
+    "IDN": 49,
+    "IND": 55,
+    "IRL": 52,
+    "ISL": 12,
+    "ISR": 14,
+    "ITA": 14,
+    "JPN": 35,
+    "KEN": 46,
+    "KOR": 26,
+    "LIE": 14,
+    "LTU": 26,
+    "LUX": 29,
+    "LVA": 14,
+    "MEX": 59,
+    "MLT": 32,
+    "NGA": 64,
+    "NLD": 14,
+    "NOR": 4,
+    "NZL": 48,
+    "PHL": 59,
+    "POL": 32,
+    "PRT": 10,
+    "ROU": 35,
+    "RUS": 58,
+    "RWA": 55,
+    "SAU": 43,
+    "SGP": 14,
+    "SVK": 32,
+    "SVN": 14,
+    "SWE": 9,
+    "THA": 41,
+    "TUR": 14,
+    "TWN": 14,
+    "UKR": 44,
+    "USA": 46,
+    "VNM": 52,
+    "ZAF": 52
+   }
+  },
+  "drop_control": {
+   "spearman": 0.9627,
+   "rankShiftRS": 3.88,
+   "maxRankShift": 13,
+   "maxShiftCountries": [
+    "NLD",
+    "SAU"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 71,
+   "min": 35,
+   "median": 57,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 9,
+    "Mixed": 47,
+    "Strong": 9,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "AUT",
+    "CHN",
+    "COL",
+    "IND",
+    "ISR",
+    "NOR",
+    "RWA",
+    "TWN"
+   ],
+   "rank": {
+    "ALB": 57,
+    "ARE": 33,
+    "ARG": 50,
+    "AUS": 5,
+    "AUT": 13,
+    "BEL": 19,
+    "BGR": 28,
+    "BRA": 33,
+    "CAN": 42,
+    "CHE": 42,
+    "CHL": 61,
+    "CHN": 56,
+    "COL": 50,
+    "CRI": 36,
+    "CYP": 33,
+    "CZE": 36,
+    "DEU": 15,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 23,
+    "EST": 3,
+    "FIN": 1,
+    "FRA": 5,
+    "GBR": 19,
+    "GHA": 62,
+    "GRC": 23,
+    "HRV": 28,
+    "HUN": 4,
+    "IDN": 50,
+    "IND": 57,
+    "IRL": 46,
+    "ISL": 10,
+    "ISR": 5,
+    "ITA": 23,
+    "JPN": 40,
+    "KEN": 48,
+    "KOR": 15,
+    "LIE": 32,
+    "LTU": 23,
+    "LUX": 36,
+    "LVA": 19,
+    "MEX": 57,
+    "MLT": 19,
+    "NGA": 64,
+    "NLD": 36,
+    "NOR": 10,
+    "NZL": 50,
+    "PHL": 63,
+    "POL": 23,
+    "PRT": 13,
+    "ROU": 40,
+    "RUS": 50,
+    "RWA": 50,
+    "SAU": 28,
+    "SGP": 15,
+    "SVK": 28,
+    "SVN": 15,
+    "SWE": 5,
+    "THA": 42,
+    "TUR": 10,
+    "TWN": 5,
+    "UKR": 49,
+    "USA": 46,
+    "VNM": 42,
+    "ZAF": 57
+   }
+  },
+  "drop_privacy": {
+   "spearman": 0.9927,
+   "rankShiftRS": 1.68,
+   "maxRankShift": 7,
+   "maxShiftCountries": [
+    "HRV",
+    "LTU",
+    "SGP"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 73,
+   "min": 33,
+   "median": 57,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 11,
+    "Mixed": 42,
+    "Strong": 12,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "PRT",
+    "TUR",
+    "TWN"
+   ],
+   "rank": {
+    "ALB": 60,
+    "ARE": 37,
+    "ARG": 46,
+    "AUS": 7,
+    "AUT": 11,
+    "BEL": 13,
+    "BGR": 27,
+    "BRA": 42,
+    "CAN": 42,
+    "CHE": 41,
+    "CHL": 60,
+    "CHN": 55,
+    "COL": 57,
+    "CRI": 33,
+    "CYP": 39,
+    "CZE": 31,
+    "DEU": 13,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 16,
+    "EST": 3,
+    "FIN": 1,
+    "FRA": 5,
+    "GBR": 27,
+    "GHA": 63,
+    "GRC": 33,
+    "HRV": 16,
+    "HUN": 4,
+    "IDN": 46,
+    "IND": 51,
+    "IRL": 54,
+    "ISL": 16,
+    "ISR": 16,
+    "ITA": 13,
+    "JPN": 37,
+    "KEN": 48,
+    "KOR": 27,
+    "LIE": 23,
+    "LTU": 16,
+    "LUX": 27,
+    "LVA": 16,
+    "MEX": 57,
+    "MLT": 31,
+    "NGA": 64,
+    "NLD": 23,
+    "NOR": 7,
+    "NZL": 51,
+    "PHL": 62,
+    "POL": 23,
+    "PRT": 7,
+    "ROU": 33,
+    "RUS": 51,
+    "RWA": 55,
+    "SAU": 40,
+    "SGP": 23,
+    "SVK": 33,
+    "SVN": 16,
+    "SWE": 5,
+    "THA": 42,
+    "TUR": 7,
+    "TWN": 11,
+    "UKR": 45,
+    "USA": 48,
+    "VNM": 48,
+    "ZAF": 59
+   }
+  },
+  "drop_commercial": {
+   "spearman": 0.9957,
+   "rankShiftRS": 1.0,
+   "maxRankShift": 6,
+   "maxShiftCountries": [
+    "BGR"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 72,
+   "min": 32,
+   "median": 57,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 11,
+    "Mixed": 45,
+    "Strong": 9,
+    "Leading": 0
+   },
+   "bandChanged": [],
+   "rank": {
+    "ALB": 60,
+    "ARE": 37,
+    "ARG": 48,
+    "AUS": 6,
+    "AUT": 9,
+    "BEL": 10,
+    "BGR": 21,
+    "BRA": 43,
+    "CAN": 40,
+    "CHE": 40,
+    "CHL": 61,
+    "CHN": 55,
+    "COL": 57,
+    "CRI": 39,
+    "CYP": 37,
+    "CZE": 33,
+    "DEU": 16,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 21,
+    "EST": 3,
+    "FIN": 1,
+    "FRA": 6,
+    "GBR": 27,
+    "GHA": 63,
+    "GRC": 35,
+    "HRV": 21,
+    "HUN": 3,
+    "IDN": 48,
+    "IND": 52,
+    "IRL": 53,
+    "ISL": 13,
+    "ISR": 16,
+    "ITA": 13,
+    "JPN": 33,
+    "KEN": 46,
+    "KOR": 21,
+    "LIE": 16,
+    "LTU": 21,
+    "LUX": 27,
+    "LVA": 16,
+    "MEX": 59,
+    "MLT": 27,
+    "NGA": 64,
+    "NLD": 27,
+    "NOR": 6,
+    "NZL": 50,
+    "PHL": 61,
+    "POL": 27,
+    "PRT": 10,
+    "ROU": 35,
+    "RUS": 53,
+    "RWA": 55,
+    "SAU": 40,
+    "SGP": 21,
+    "SVK": 32,
+    "SVN": 16,
+    "SWE": 5,
+    "THA": 43,
+    "TUR": 10,
+    "TWN": 13,
+    "UKR": 45,
+    "USA": 46,
+    "VNM": 50,
+    "ZAF": 57
+   }
+  },
+  "drop_journey": {
+   "spearman": 0.9855,
+   "rankShiftRS": 2.34,
+   "maxRankShift": 11,
+   "maxShiftCountries": [
+    "LIE"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 70,
+   "min": 33,
+   "median": 57,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 11,
+    "Mixed": 47,
+    "Strong": 7,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "AUT",
+    "FRA",
+    "RUS",
+    "ZAF"
+   ],
+   "rank": {
+    "ALB": 58,
+    "ARE": 43,
+    "ARG": 47,
+    "AUS": 7,
+    "AUT": 8,
+    "BEL": 12,
+    "BGR": 30,
+    "BRA": 40,
+    "CAN": 39,
+    "CHE": 34,
+    "CHL": 60,
+    "CHN": 60,
+    "COL": 58,
+    "CRI": 40,
+    "CYP": 38,
+    "CZE": 30,
+    "DEU": 12,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 18,
+    "EST": 4,
+    "FIN": 1,
+    "FRA": 8,
+    "GBR": 24,
+    "GHA": 63,
+    "GRC": 34,
+    "HRV": 24,
+    "HUN": 4,
+    "IDN": 52,
+    "IND": 52,
+    "IRL": 47,
+    "ISL": 18,
+    "ISR": 24,
+    "ITA": 12,
+    "JPN": 30,
+    "KEN": 43,
+    "KOR": 18,
+    "LIE": 10,
+    "LTU": 24,
+    "LUX": 18,
+    "LVA": 18,
+    "MEX": 56,
+    "MLT": 24,
+    "NGA": 64,
+    "NLD": 24,
+    "NOR": 4,
+    "NZL": 46,
+    "PHL": 60,
+    "POL": 33,
+    "PRT": 10,
+    "ROU": 34,
+    "RUS": 56,
+    "RWA": 55,
+    "SAU": 43,
+    "SGP": 15,
+    "SVK": 34,
+    "SVN": 15,
+    "SWE": 3,
+    "THA": 42,
+    "TUR": 18,
+    "TWN": 15,
+    "UKR": 49,
+    "USA": 49,
+    "VNM": 49,
+    "ZAF": 52
+   }
+  },
+  "drop_clinical": {
+   "spearman": 0.9947,
+   "rankShiftRS": 1.4,
+   "maxRankShift": 8,
+   "maxShiftCountries": [
+    "KOR"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 71,
+   "min": 34,
+   "median": 57,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 9,
+    "Mixed": 47,
+    "Strong": 9,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "RWA",
+    "ZAF"
+   ],
+   "rank": {
+    "ALB": 59,
+    "ARE": 41,
+    "ARG": 46,
+    "AUS": 6,
+    "AUT": 9,
+    "BEL": 12,
+    "BGR": 27,
+    "BRA": 41,
+    "CAN": 41,
+    "CHE": 37,
+    "CHL": 62,
+    "CHN": 59,
+    "COL": 57,
+    "CRI": 39,
+    "CYP": 37,
+    "CZE": 32,
+    "DEU": 12,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 15,
+    "EST": 3,
+    "FIN": 1,
+    "FRA": 6,
+    "GBR": 27,
+    "GHA": 63,
+    "GRC": 33,
+    "HRV": 23,
+    "HUN": 3,
+    "IDN": 46,
+    "IND": 53,
+    "IRL": 46,
+    "ISL": 15,
+    "ISR": 23,
+    "ITA": 10,
+    "JPN": 33,
+    "KEN": 45,
+    "KOR": 15,
+    "LIE": 15,
+    "LTU": 23,
+    "LUX": 27,
+    "LVA": 15,
+    "MEX": 57,
+    "MLT": 27,
+    "NGA": 64,
+    "NLD": 23,
+    "NOR": 6,
+    "NZL": 46,
+    "PHL": 61,
+    "POL": 27,
+    "PRT": 10,
+    "ROU": 33,
+    "RUS": 55,
+    "RWA": 53,
+    "SAU": 39,
+    "SGP": 15,
+    "SVK": 33,
+    "SVN": 15,
+    "SWE": 3,
+    "THA": 41,
+    "TUR": 12,
+    "TWN": 15,
+    "UKR": 46,
+    "USA": 52,
+    "VNM": 46,
+    "ZAF": 55
+   }
+  },
+  "drop_research": {
+   "spearman": 0.9971,
+   "rankShiftRS": 0.91,
+   "maxRankShift": 6,
+   "maxShiftCountries": [
+    "TWN"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 72,
+   "min": 32,
+   "median": 58,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 11,
+    "Mixed": 44,
+    "Strong": 10,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "PRT"
+   ],
+   "rank": {
+    "ALB": 60,
+    "ARE": 38,
+    "ARG": 47,
+    "AUS": 6,
+    "AUT": 8,
+    "BEL": 11,
+    "BGR": 26,
+    "BRA": 43,
+    "CAN": 41,
+    "CHE": 41,
+    "CHL": 61,
+    "CHN": 56,
+    "COL": 56,
+    "CRI": 38,
+    "CYP": 37,
+    "CZE": 32,
+    "DEU": 13,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 17,
+    "EST": 3,
+    "FIN": 1,
+    "FRA": 8,
+    "GBR": 29,
+    "GHA": 63,
+    "GRC": 32,
+    "HRV": 23,
+    "HUN": 3,
+    "IDN": 49,
+    "IND": 52,
+    "IRL": 52,
+    "ISL": 13,
+    "ISR": 17,
+    "ITA": 13,
+    "JPN": 35,
+    "KEN": 45,
+    "KOR": 23,
+    "LIE": 17,
+    "LTU": 23,
+    "LUX": 29,
+    "LVA": 17,
+    "MEX": 59,
+    "MLT": 26,
+    "NGA": 64,
+    "NLD": 26,
+    "NOR": 6,
+    "NZL": 49,
+    "PHL": 61,
+    "POL": 29,
+    "PRT": 10,
+    "ROU": 35,
+    "RUS": 52,
+    "RWA": 55,
+    "SAU": 40,
+    "SGP": 17,
+    "SVK": 32,
+    "SVN": 13,
+    "SWE": 5,
+    "THA": 43,
+    "TUR": 11,
+    "TWN": 17,
+    "UKR": 45,
+    "USA": 47,
+    "VNM": 49,
+    "ZAF": 56
+   }
+  },
+  "drop_ai": {
+   "spearman": 0.9973,
+   "rankShiftRS": 1.03,
+   "maxRankShift": 6,
+   "maxShiftCountries": [
+    "SGP"
+   ],
+   "first": [
+    "FIN"
+   ],
+   "last": [
+    "EGY"
+   ],
+   "max": 73,
+   "min": 33,
+   "median": 58,
+   "bandCount": {
+    "Poor": 0,
+    "Weak": 12,
+    "Mixed": 43,
+    "Strong": 10,
+    "Leading": 0
+   },
+   "bandChanged": [
+    "PRT",
+    "RUS"
+   ],
+   "rank": {
+    "ALB": 58,
+    "ARE": 39,
+    "ARG": 47,
+    "AUS": 7,
+    "AUT": 7,
+    "BEL": 11,
+    "BGR": 25,
+    "BRA": 42,
+    "CAN": 42,
+    "CHE": 39,
+    "CHL": 61,
+    "CHN": 58,
+    "COL": 54,
+    "CRI": 37,
+    "CYP": 37,
+    "CZE": 32,
+    "DEU": 13,
+    "DNK": 2,
+    "EGY": 65,
+    "ESP": 18,
+    "EST": 3,
+    "FIN": 1,
+    "FRA": 7,
+    "GBR": 28,
+    "GHA": 63,
+    "GRC": 34,
+    "HRV": 22,
+    "HUN": 3,
+    "IDN": 50,
+    "IND": 53,
+    "IRL": 52,
+    "ISL": 13,
+    "ISR": 18,
+    "ITA": 13,
+    "JPN": 36,
+    "KEN": 45,
+    "KOR": 25,
+    "LIE": 18,
+    "LTU": 22,
+    "LUX": 28,
+    "LVA": 18,
+    "MEX": 58,
+    "MLT": 28,
+    "NGA": 64,
+    "NLD": 25,
+    "NOR": 6,
+    "NZL": 47,
+    "PHL": 62,
+    "POL": 28,
+    "PRT": 10,
+    "ROU": 34,
+    "RUS": 54,
+    "RWA": 54,
+    "SAU": 41,
+    "SGP": 22,
+    "SVK": 32,
+    "SVN": 13,
+    "SWE": 5,
+    "THA": 44,
+    "TUR": 11,
+    "TWN": 13,
+    "UKR": 45,
+    "USA": 47,
+    "VNM": 50,
+    "ZAF": 57
+   }
+  }
+ },
+ "meta": {
+  "generated": "2026-10-02",
+  "seed": 20261002,
+  "draws": 10000,
+  "data": {
+   "files": 65,
+   "dataSha256": "89921052b5511179bc7c60dcf43bf282059330ed1bd6b1590aff31f7a176843c",
+   "asOf": [
+    "2026-10-01",
+    "2026-10-02"
+   ],
+   "factsAsOf": "2026-10-02",
+   "countries": 65,
+   "categoryScores": 520
+  },
+  "journeyClinicalR": 0.9363,
+  "weights": {
+   "access": 20.0,
+   "control": 20.0,
+   "privacy": 15.0,
+   "commercial": 10.0,
+   "journey": 15.0,
+   "clinical": 10.0,
+   "research": 5.0,
+   "ai": 5.0
+  },
+  "dirichletConcentration": 100.0,
+  "noiseHalfWidth": 5.0,
+  "impliedWeight90": {
+   "dirichlet": {
+    "access": [
+     13.9,
+     26.9
+    ],
+    "control": [
+     13.7,
+     26.8
+    ],
+    "privacy": [
+     9.5,
+     21.2
+    ],
+    "commercial": [
+     5.6,
+     15.3
+    ],
+    "journey": [
+     9.5,
+     21.4
+    ],
+    "clinical": [
+     5.5,
+     15.4
+    ],
+    "research": [
+     2.0,
+     9.0
+    ],
+    "ai": [
+     2.0,
+     9.1
+    ]
+   },
+   "band25": {
+    "access": [
+     16.0,
+     24.0
+    ],
+    "control": [
+     16.0,
+     24.0
+    ],
+    "privacy": [
+     11.8,
+     18.2
+    ],
+    "commercial": [
+     7.8,
+     12.3
+    ],
+    "journey": [
+     11.9,
+     18.2
+    ],
+    "clinical": [
+     7.8,
+     12.3
+    ],
+    "research": [
+     3.9,
+     6.2
+    ],
+    "ai": [
+     3.9,
+     6.2
+    ]
+   },
+   "band50": {
+    "access": [
+     11.9,
+     28.1
+    ],
+    "control": [
+     11.9,
+     28.1
+    ],
+    "privacy": [
+     8.7,
+     21.6
+    ],
+    "commercial": [
+     5.7,
+     14.8
+    ],
+    "journey": [
+     8.7,
+     21.5
+    ],
+    "clinical": [
+     5.7,
+     14.7
+    ],
+    "research": [
+     2.8,
+     7.5
+    ],
+    "ai": [
+     2.8,
+     7.5
+    ]
+   }
+  },
+  "rules": {
+   "rounding": "half up, as JavaScript Math.round in build.js",
+   "ranking": "competition ranking on the rounded overall, ties share the best rank, as build.js",
+   "bands": "applied to the rounded overall, edges as build.js BANDS",
+   "intervals": "5th and 95th percentiles of the draws (inverted CDF, so every bound is an attained rank)",
+   "geometric": "weighted geometric mean of unscaled 0-100 scores (min score 20, no zeros)",
+   "leaveOneOut": "drop one category, rescale the other seven weights to sum to 100",
+   "dirichlet": "weights drawn from a Dirichlet with alpha equal to the published weight in points, published scores",
+   "band25": "each weight times an independent uniform factor in [0.75, 1.25], rescaled to sum to 100, published scores",
+   "band50": "each weight times an independent uniform factor in [0.5, 1.5], rescaled to sum to 100, published scores",
+   "noise5": "independent uniform on [-5, +5] per category score, clipped to [0, 100], published weights",
+   "noise5Shared": "pessimistic bound: one uniform [-5, +5] offset per country applied to all eight of its categories (a rater generous or harsh to a whole country)",
+   "combined": "Dirichlet weights and noise together in one draw (Handbook 7.1)"
+  },
+  "keysModel": {
+   "note": "controlModel is a coded judgement, not a function of scores or weights; nothing here can test it",
+   "counts": {
+    "Institutional": 7,
+    "Shared": 44,
+    "State": 14
+   }
+  },
+  "handbook": {
+   "citation": "OECD/European Commission Joint Research Centre (2008). Handbook on Constructing Composite Indicators: Methodology and User Guide. Nardo M, Saisana M, Saltelli A, Tarantola S (JRC); Hoffmann A, Giovannini E (OECD). OECD Publishing, Paris. ISBN 978-92-64-04345-9.",
+   "doi": "https://doi.org/10.1787/9789264043466-en",
+   "fetched": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/08/handbook-on-constructing-composite-indicators-methodology-and-user-guide_g1gh9301/9789264043466-en.pdf",
+   "fetchedOn": "2026-10-02",
+   "pdfSha256": "8b82c5b5563122960170f3dff0607ba47eaeab5e7c4b85c9edaf28d58cf5eca7",
+   "passages": {
+    "section 1.7, pp. 34-35": "lists sources of uncertainty to test, including 'Using different aggregation systems, e.g. linear, geometric mean' and 'Using different plausible values for the weights'; results 'generally reported as country rankings with their related uncertainty bounds'",
+    "Step 7 opens p. 117; eq. 38, p. 118": "average shift in rank R_S = (1/M) sum |Rank_ref(CI_c) - Rank(CI_c)|",
+    "7.1, p. 118": "the analysis is conducted as a single Monte Carlo experiment, exploring all uncertainty sources simultaneously",
+    "Figure 18, p. 125": "original rank, median rank and 5th and 95th percentile bounds of the Monte Carlo ranks"
+   }
+  },
+  "synthetic": "Every interval is a simulation under the stated assumptions about weights and rater precision, not a measurement.",
+  "names": {
+   "ALB": "Albania",
+   "ARE": "United Arab Emirates",
+   "ARG": "Argentina",
+   "AUS": "Australia",
+   "AUT": "Austria",
+   "BEL": "Belgium",
+   "BGR": "Bulgaria",
+   "BRA": "Brazil",
+   "CAN": "Canada",
+   "CHE": "Switzerland",
+   "CHL": "Chile",
+   "CHN": "China",
+   "COL": "Colombia",
+   "CRI": "Costa Rica",
+   "CYP": "Cyprus",
+   "CZE": "Czechia",
+   "DEU": "Germany",
+   "DNK": "Denmark",
+   "EGY": "Egypt",
+   "ESP": "Spain",
+   "EST": "Estonia",
+   "FIN": "Finland",
+   "FRA": "France",
+   "GBR": "United Kingdom",
+   "GHA": "Ghana",
+   "GRC": "Greece",
+   "HRV": "Croatia",
+   "HUN": "Hungary",
+   "IDN": "Indonesia",
+   "IND": "India",
+   "IRL": "Ireland",
+   "ISL": "Iceland",
+   "ISR": "Israel",
+   "ITA": "Italy",
+   "JPN": "Japan",
+   "KEN": "Kenya",
+   "KOR": "South Korea",
+   "LIE": "Liechtenstein",
+   "LTU": "Lithuania",
+   "LUX": "Luxembourg",
+   "LVA": "Latvia",
+   "MEX": "Mexico",
+   "MLT": "Malta",
+   "NGA": "Nigeria",
+   "NLD": "Netherlands",
+   "NOR": "Norway",
+   "NZL": "New Zealand",
+   "PHL": "Philippines",
+   "POL": "Poland",
+   "PRT": "Portugal",
+   "ROU": "Romania",
+   "RUS": "Russia",
+   "RWA": "Rwanda",
+   "SAU": "Saudi Arabia",
+   "SGP": "Singapore",
+   "SVK": "Slovakia",
+   "SVN": "Slovenia",
+   "SWE": "Sweden",
+   "THA": "Thailand",
+   "TUR": "Turkey",
+   "TWN": "Taiwan",
+   "UKR": "Ukraine",
+   "USA": "United States",
+   "VNM": "Vietnam",
+   "ZAF": "South Africa"
+  }
+ }
+}

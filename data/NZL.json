@@ -1,0 +1,377 @@
+{
+  "iso3": "NZL",
+  "name": "New Zealand",
+  "region": "Oceania",
+  "controlModel": "Shared",
+  "headline": "New Zealanders get records free from public agencies, but the national shared record is not live and a 2025 portal hack exposed nearly 100,000 patients.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 55,
+      "summary": "The health privacy code gives a right to your records within 20 working days, free from public agencies. The national My Health Record shows only immunisations, COVID-19 results and some identity details; fuller views sit in private GP portals.",
+      "detail": [
+        "Rule 6 of the Health Information Privacy Code 2020 gives a right to access your health information. The Privacy Commissioner says agencies must respond within 20 working days and may extend only with reasons.",
+        "Public health agencies such as Health NZ cannot charge. Private providers and health insurers may charge only for a repeat request within 12 months or for copies of images such as x-rays, MRI or CAT scans.",
+        "Health NZ's My Health Record, reached through My Health Account, shows immunisations, COVID-19 test results and certain details from the National Health Index. It is not a summary of the clinical record.",
+        "Many patients see notes and results through private practice portals; RNZ reported Manage My Health had more than 1.8 million registered users, with no official figure found. My Health Record shows too little for the national-portal band. Score: base 45, plus 5 free with a deadline, plus 5 for the official My Health Record portal."
+      ],
+      "sources": [
+        {
+          "title": "Ask for your information (Office of the Privacy Commissioner)",
+          "url": "https://www.privacy.org.nz/your-rights/ask-for-your-information/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Charging for access to personal information (Office of the Privacy Commissioner)",
+          "url": "https://www.privacy.org.nz/responsibilities/charging-for-access-to-personal-information/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "About My Health Account (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/websites-and-apps/my-health-account/about-my-health-account",
+          "date": "2026-07-22",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Manage My Health data breach: a timeline of what happened (RNZ)",
+          "url": "https://www.rnz.co.nz/news/crime-and-justice/584053/manage-my-health-data-breach-a-timeline-of-what-happened-and-everything-we-know-so-far",
+          "date": "2026-01-14",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 47,
+      "summary": "Today choices are narrow: people can restrict their national immunisation record, and some regional shared records allow opt-out. The national Shared Digital Health Record, with opt-out, item blocking and access summaries, has not started sharing.",
+      "detail": [
+        "Rule 11 of the health code lets agencies disclose information without the person's authorisation where it is not practicable to ask and the disclosure is directly related to the purpose of collection, which covers care.",
+        "The Aotearoa Immunisation Register offers restricted access: only the vaccinating provider can see the record, other providers cannot. It applies to all records at once, and Health NZ can open it in an emergency. This live national choice over who sees a care record makes the class Shared.",
+        "Health NZ says sharing already happens in some regions. One regional Shared Electronic Health Record enrols patients automatically, lets them opt out by phone, and keeps a log of which professionals looked, available on request.",
+        "The national Shared Digital Health Record will offer three choices: share, mark items private with a provider, or block all or specific data, and people can request a summary of where and when it was accessed. Sharing of immunisations and medicines is planned for late 2026, GP data from mid-2027.",
+        "Score sits in the 40 to 55 band: an opt-out and logs exist only regionally, and the national choices are not yet live."
+      ],
+      "sources": [
+        {
+          "title": "Privacy: Shared Digital Health Record (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/privacy/wider-sharing-of-your-health-information/privacy-shared-digital-health-record",
+          "date": "2026-08-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Restricted access to records in the AIR (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/immunisation/aotearoa-immunisation-register-air/restricted-access-to-records-air",
+          "date": "2026-05-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Shared Electronic Health Record: frequently asked questions (sehr.org.nz, operator not stated)",
+          "url": "https://sehr.org.nz/frequently-asked-questions/",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Supporting your care with shared health information (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/privacy/wider-sharing-of-your-health-information",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 50,
+      "summary": "A health-specific code and an active commissioner exist, but the December 2025 Manage My Health hack exposed nearly 100,000 people and the regulator's strongest tool was a compliance notice. Fines reach only NZ$10,000, for failing to report a breach.",
+      "detail": [
+        "On 27 May 2026 the Privacy Commissioner found both Manage My Health and Health NZ breached rule 5 (security). Nearly 100,000 people were affected, about 91% in Northland, because of a unique hospital discharge arrangement in that region.",
+        "The Commissioner said compliance notices are the strongest tool currently available to him. Notices issued on 23 September 2026 give Health NZ until 29 January 2027 and Manage My Health until 31 August 2027.",
+        "Failing to report a serious breach is an offence with a fine of up to $10,000. IAPP notes there is no civil penalty for breaching the privacy principles themselves, and that serious breach notifications rose 43% in 2024-25. In February 2026 the MediMap medication portal was also tampered with."
+      ],
+      "sources": [
+        {
+          "title": "Privacy Commissioner releases Phase 1 Inquiry into Manage My Health cyber incident (Office of the Privacy Commissioner)",
+          "url": "https://www.privacy.org.nz/tuhono-connect/statements-media-releases/privacy-commissioner-finds-manage-my-health-and-health-nz-breached-privacy-act/",
+          "date": "2026-05-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Privacy Commissioner issues Compliance Notices to Manage My Health and Health NZ (Office of the Privacy Commissioner)",
+          "url": "https://www.privacy.org.nz/tuhono-connect/statements-media-releases/privacy-commissioner-issues-compliance-notices-to-manage-my-health-and-health-nz/",
+          "date": "2026-09-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "NotifyUs: evaluate a privacy breach (Office of the Privacy Commissioner)",
+          "url": "https://www.privacy.org.nz/responsibilities/privacy-breaches/notify-us/evaluate",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Calls to strengthen New Zealand's Privacy Act grow amid an increasing number of major breaches (IAPP)",
+          "url": "https://iapp.org/news/a/calls-to-strengthen-new-zealand-s-privacy-act-grow-amid-an-increasing-number-of-major-breaches",
+          "date": "2026-03-05",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 52,
+      "summary": "The health code covers insurers, sellers of medicines and devices, and firms that handle health information for others, and limits disclosure beyond the original purpose. But breaches carry no civil fines, and vendors acting for others escape direct liability.",
+      "detail": [
+        "The Health Information Privacy Code applies to health providers, health and accident insurers (for that business), agencies that make or sell medicines and devices, and agencies providing services in respect of health information.",
+        "Rule 11 bars disclosure outside the purposes of collection unless the person authorises it or a listed exception applies, such as de-identified, statistical or ethics-approved research use. No specific ban on selling health data or on health advertising was found.",
+        "After the Manage My Health inquiry, the Commissioner recommended amending the Privacy Act so third-party providers that fail to keep data safe can be held liable even when acting for another agency.",
+        "IAPP reports no civil penalty regime exists for breaching the privacy principles, so the deterrent to misuse is mainly reputational and Tribunal damages of up to NZ$350,000 per complainant."
+      ],
+      "sources": [
+        {
+          "title": "Health Information Privacy Code 2020 (Privacy Commissioner, consolidated website version)",
+          "url": "https://www.privacy.org.nz/assets/Codes-of-Practice-2020/Health-Information-Privacy-Code-2020-website-version.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Privacy Commissioner releases Phase 1 Inquiry into Manage My Health cyber incident (Office of the Privacy Commissioner)",
+          "url": "https://www.privacy.org.nz/tuhono-connect/statements-media-releases/privacy-commissioner-finds-manage-my-health-and-health-nz-breached-privacy-act/",
+          "date": "2026-05-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Calls to strengthen New Zealand's Privacy Act grow amid an increasing number of major breaches (IAPP)",
+          "url": "https://iapp.org/news/a/calls-to-strengthen-new-zealand-s-privacy-act-grow-amid-an-increasing-number-of-major-breaches",
+          "date": "2026-03-05",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 40,
+      "summary": "National building blocks exist: an immunisation register, the ePrescription Service and a dispensing claims collection. But Health NZ says record sharing happens only in some regions, and its national connector will not share GP data until mid-2027.",
+      "detail": [
+        "The Aotearoa Immunisation Register is the national register for vaccination activity. Patients can see their immunisations in My Health Record.",
+        "The New Zealand ePrescription Service carries prescriptions from prescriber to community pharmacy and returns dispensing notes. It is integrated with several practice systems; national coverage figures were not found.",
+        "The pharmaceutical collection holds claim and payment records for subsidised dispensings since 1992, used by Health NZ and Pharmac for analysis, not shared at the point of care.",
+        "In July 2026 Health NZ extended the Shared Digital Health Record timeline for extra checks under the Government Digital Delivery Agency information sharing standard. Lab results, imaging and discharge summaries are planned \"in the future\"."
+      ],
+      "sources": [
+        {
+          "title": "Shared Digital Health Record update: July 2026 (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/news-and-updates/shared-digital-health-record-update-july-2026",
+          "date": "2026-07-09",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Privacy: Shared Digital Health Record (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/privacy/wider-sharing-of-your-health-information/privacy-shared-digital-health-record",
+          "date": "2026-08-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "e-Medicines programme (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/about-us/what-we-do/programmes-and-initiatives/e-medicines-programme",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Pharmaceutical collection (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/national-collections/pharmaceutical-collection",
+          "date": "2026-07-22",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 40,
+      "summary": "In regions with a shared electronic record, GPs, pharmacists, paramedics and emergency departments can view a summary. Elsewhere clinicians rely on local systems, as Health NZ's national connector has not yet begun sharing.",
+      "detail": [
+        "Health NZ says information sharing already happens in some regions and the Shared Digital Health Record aims to make it consistent nationwide, so information can follow patients when they are away from home.",
+        "One regional shared record shows a health summary to approved professionals in general practice, after-hours centres, pharmacies, ambulance and emergency departments in several lower North Island districts.",
+        "Once live, the national record will be viewable by approved providers in practices, hospitals, ambulance services, pharmacies and residential care. Providers will be told when a patient has withheld information.",
+        "The code permits disclosure directly related to the purpose of collection, which covers treatment, so the legal barrier is low. The gap is infrastructure."
+      ],
+      "sources": [
+        {
+          "title": "Supporting your care with shared health information (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/privacy/wider-sharing-of-your-health-information",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Privacy: Shared Digital Health Record (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/privacy/wider-sharing-of-your-health-information/privacy-shared-digital-health-record",
+          "date": "2026-08-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Shared Electronic Health Record: frequently asked questions (sehr.org.nz, operator not stated)",
+          "url": "https://sehr.org.nz/frequently-asked-questions/",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Health Information Privacy Code 2020 (Privacy Commissioner, consolidated website version)",
+          "url": "https://www.privacy.org.nz/assets/Codes-of-Practice-2020/Health-Information-Privacy-Code-2020-website-version.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Identifiable health data can be used for research without consent if an ethics committee approves a waiver, with no general opt-out. Stats NZ's Integrated Data Infrastructure applies de-identification, a closed data lab and prosecution for misuse.",
+      "detail": [
+        "Rule 11 of the health code allows disclosure for research approved by an ethics committee where needed, if results will not identify the person.",
+        "The National Ethical Standards make consent the default. A waiver for identifiable data requires showing an ethics committee that benefits outweigh harms to individuals, whanau, hapu, iwi and Maori communities.",
+        "Stats NZ removes names and addresses, encrypts NHI numbers, allows access only in its Data Lab, checks outputs, and binds researchers by a lifetime confidentiality certificate under the Data and Statistics Act 2022. Breakers can be prosecuted.",
+        "People who restrict their immunisation record are left out of reports to Health NZ data sharing partners. Score: base 40 plus four safeguard classes, capped at 50."
+      ],
+      "sources": [
+        {
+          "title": "Health Information Privacy Code 2020 (Privacy Commissioner, consolidated website version)",
+          "url": "https://www.privacy.org.nz/assets/Codes-of-Practice-2020/Health-Information-Privacy-Code-2020-website-version.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "National Ethical Standards, 7. Informed consent (National Ethics Advisory Committee)",
+          "url": "https://neac.health.govt.nz/national-ethical-standards/part-two/7-informed-consent/",
+          "date": "2026-03-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "How we keep integrated data safe (Stats NZ)",
+          "url": "https://www.stats.govt.nz/integrated-data/how-we-keep-integrated-data-safe/",
+          "date": "2022-08-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Restricted access to records in the AIR (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/immunisation/aotearoa-immunisation-register-air/restricted-access-to-records-air",
+          "date": "2026-05-21",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "New Zealand has no approval system for medical devices, so clinical AI is not assessed before use. Health NZ's own rules bar clinical decisions by generative AI and require registration of AI projects, while a new Medical Products Bill is still being drafted.",
+      "detail": [
+        "Medsafe states there is no approval system for medical devices under the Medicines Act 1981. Suppliers only notify devices to the WAND database, which does not mean Medsafe has assessed them.",
+        "Health NZ staff must not enter patient data into unapproved generative AI tools or use them for clinical decisions. Its AI and Algorithm Expert Advisory Group endorses uses and keeps a register of AI in use.",
+        "Health NZ rolled out the Heidi AI scribe to emergency departments in 2026. A doctor told RNZ patients are asked for consent before each use, and that it occasionally inserts false information.",
+        "The associate health minister said in May 2026 the Medical Products Bill will regulate therapeutic software and AI, but not AI scribes. Score: guidance-only band, lower half."
+      ],
+      "sources": [
+        {
+          "title": "Explanation of the WAND database (Medsafe)",
+          "url": "https://www.medsafe.govt.nz/regulatory/devicesnew/3-2Explanation.asp",
+          "date": "2011-05-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Using generative AI and large language models (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/digital-technologies/using-generative-ai-and-large-language-models",
+          "date": "2026-05-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Artificial Intelligence and Algorithm Expert Advisory Group (Health New Zealand)",
+          "url": "https://www.healthnz.govt.nz/about-us/who-we-are/expert-groups-and-networks/expert-groups/artificial-intelligence-and-algorithm-expert-advisory-group",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Medical Products Bill to introduce risk-based framework for software and AI regulation (eHealthNews.nz, HiNZ)",
+          "url": "https://www.hinz.org.nz/news/727150/Medical-Products-Bill-to-introduce-risk-based-framework-for-software-and-AI-regulation-.htm",
+          "date": "2026-05-12",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "GP and hospital records are shared only in some regions. ePrescribing and a national immunisation register exist; a dispensing claims collection serves funding. Lab links not verified. The national connector starts with immunisations and medicines in late 2026.",
+  "laws": [
+    {
+      "name": "Privacy Act 2020",
+      "level": "National",
+      "year": "2020",
+      "what": "General privacy law; breach notification, compliance notices, fines up to $10,000 for failing to notify.",
+      "url": "https://www.privacy.org.nz/responsibilities/privacy-breaches/notify-us/evaluate"
+    },
+    {
+      "name": "Health Information Privacy Code 2020",
+      "level": "National",
+      "year": "2020",
+      "what": "Health-specific rules on collection, security, access, charges and disclosure for health agencies and insurers.",
+      "url": "https://www.privacy.org.nz/assets/Codes-of-Practice-2020/Health-Information-Privacy-Code-2020-website-version.pdf"
+    },
+    {
+      "name": "Health Information Privacy Code 2020 Amendment No 2",
+      "level": "National",
+      "year": "2026",
+      "what": "Adds rule 3A: tell people when health data is collected from someone else. In force 1 May 2026.",
+      "url": "https://www.privacy.org.nz/assets/Codes-of-Practice-2020/Amendment-No-2-to-Health-Information-Privacy-Code-2020.pdf"
+    },
+    {
+      "name": "Medicines Act 1981 and Medicines (Database of Medical Devices) Regulations 2003",
+      "level": "National",
+      "year": "1981",
+      "what": "Devices, including software, need only WAND notification; no pre-market approval.",
+      "url": "https://www.medsafe.govt.nz/regulatory/devicesnew/3-2Explanation.asp"
+    },
+    {
+      "name": "Data and Statistics Act 2022",
+      "level": "National",
+      "year": "2022",
+      "what": "Confidentiality duties and penalties for researchers using integrated government data, including health records.",
+      "url": "https://www.stats.govt.nz/integrated-data/how-we-keep-integrated-data-safe/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-23",
+      "headline": "Privacy Commissioner orders Manage My Health and Health NZ to fix security",
+      "source": "Office of the Privacy Commissioner",
+      "url": "https://www.privacy.org.nz/tuhono-connect/statements-media-releases/privacy-commissioner-issues-compliance-notices-to-manage-my-health-and-health-nz/",
+      "why": "Sets deadlines into 2027 for securing the portal patients use to see records."
+    },
+    {
+      "date": "2026-07-09",
+      "headline": "Health NZ delays national shared record; GP data now expected mid-2027",
+      "source": "Health New Zealand",
+      "url": "https://www.healthnz.govt.nz/news-and-updates/shared-digital-health-record-update-july-2026",
+      "why": "Clinicians across regions will wait longer for a common view of patients."
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "Emergency doctors report time savings from Heidi AI scribe rollout",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/health/589774/emergency-doctors-estimate-ai-scribe-heidi-saving-up-to-10-minutes-per-patient",
+      "why": "AI now drafts ED notes; patients are asked to consent and errors need editing."
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "Major health portal breaches fuel calls for Privacy Act civil penalties",
+      "source": "IAPP",
+      "url": "https://iapp.org/news/a/calls-to-strengthen-new-zealand-s-privacy-act-grow-amid-an-increasing-number-of-major-breaches",
+      "why": "Without fines, firms holding health data face little cost for weak security."
+    },
+    {
+      "date": "2026-01-14",
+      "headline": "Hackers stole documents from Manage My Health portal and demanded ransom",
+      "source": "RNZ",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/584053/manage-my-health-data-breach-a-timeline-of-what-happened-and-everything-we-know-so-far",
+      "why": "Hackers threatened to post stolen medical notes on the dark web and published a sample."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

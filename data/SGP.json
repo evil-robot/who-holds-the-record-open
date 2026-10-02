@@ -1,0 +1,371 @@
+{
+  "iso3": "SGP",
+  "name": "Singapore",
+  "region": "Asia",
+  "controlModel": "Shared",
+  "headline": "A 2026 law, not yet in force, makes every provider feed one national record without consent; patients can block access, but very few do.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 62,
+      "summary": "Patients can view medications, immunisations and lab results from the national record in HealthHub, and the PDPA gives a right to request the rest from each provider. But providers may charge a fee and need not hand over copies of doctors' notes.",
+      "detail": [
+        "Synapxe, which runs the National Electronic Health Record (NEHR), says patients do not have direct access to it. They see selected items through the HealthHub app, such as discharge summaries, medications, immunisations, lab results and radiology reports. MOH's HIA site says more providers' data will appear in HealthHub from September 2027 and September 2028.",
+        "Section 21 of the Personal Data Protection Act 2012 (PDPA) requires an organisation to give a person their personal data 'as soon as reasonably possible'. PDPC's healthcare guidelines say a clinic may charge a reasonable fee and, if it cannot answer within 30 days, must say in writing when it will.",
+        "The same guidelines say a clinic need not photocopy handwritten notes; it may answer with a medical report instead. Section 4 exempts public agencies, such as ministries, from PDPA duties.",
+        "Section 17 of the Health Information Act 2026 lets a person access their own NEHR information 'in any manner prescribed', but the Act is not yet in force. How many years HealthHub shows and whether the record can be exported were not verified. The score sits low in the 60 to 75 band for a partial national view."
+      ],
+      "sources": [
+        {
+          "title": "NEHR FAQ (Synapxe, operator of the NEHR)",
+          "url": "https://www.synapxe.sg/healthtech/national-programmes/national-electronic-health-record-nehr/faq",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Overview of the Health Information Act (HIA) (healthinfo.gov.sg, MOH)",
+          "url": "https://www.healthinfo.gov.sg/hia/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Advisory Guidelines for the Healthcare Sector, revised 20 September 2023 (PDPC)",
+          "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-for-the-healthcare-sector-sep-2023.pdf",
+          "date": "2023-09-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Personal Data Protection Act 2012, sections 4, 21, 26D and 48J (Singapore Statutes Online)",
+          "url": "https://sso.agc.gov.sg/Act/PDPA2012",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "control": {
+      "score": 58,
+      "summary": "Data flows into the NEHR without consent, but a person can block all provider access and can see a one-year log of which institutions opened their record. Only about 2,300 people have placed a block since 2011, and finer choices in HealthHub are planned from 2027.",
+      "detail": [
+        "Section 11 of the Health Information Act 2026 says a person's consent is not required to contribute, access or disclose NEHR information. Contribution continues even if a restriction is in place.",
+        "Today a restriction is requested at selected public healthcare institutions. Synapxe says it blocks the record from view to healthcare providers, and that a person who places one cannot enrol in Healthier SG. Synapxe says over 2,300 people have placed one since 2011 and more than 180 later removed it; The Straits Times says after counselling.",
+        "HealthHub's NEHR Access History lists the private institutions and public healthcare clusters that opened a record over the past year. Suspicious access can be reported.",
+        "The Act (section 29) allows finer 'class 2' restrictions by information type, person, purpose or time, and MOH says restrictions can be requested through HealthHub from 2027. Allergies and vaccinations stay visible, and 'break glass' overrides any restriction. With a block and a log but no live granular choices, the score sits just below the 60 to 80 band."
+      ],
+      "sources": [
+        {
+          "title": "Health Information Act 2026 (No. 1 of 2026), Singapore Statutes Online",
+          "url": "https://sso.agc.gov.sg/Act/HIA2026/Uncommenced/20260624040946?DocDate=20260212",
+          "date": "2026-02-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Overview of the Health Information Act (HIA) (healthinfo.gov.sg, MOH)",
+          "url": "https://www.healthinfo.gov.sg/hia/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "NEHR FAQ (Synapxe, operator of the NEHR)",
+          "url": "https://www.synapxe.sg/healthtech/national-programmes/national-electronic-health-record-nehr/faq",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Information Bill to support coordinated care across Singapore's healthcare ecosystem (MOH)",
+          "url": "https://www.moh.gov.sg/newsroom/health-information-bill-to-support-coordinated-care-across-singapore-s-healthcare-ecosystem/",
+          "date": "2026-01-12",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 62,
+      "summary": "PDPA requires breach notice within 3 days, and PDPC fined SingHealth and IHiS S$1 million in total over the 2018 breach of 1.5 million patients' data. The Health Information Act, not yet in force, adds MOH incident reporting and up to 2 years' jail for improper record access.",
+      "detail": [
+        "In 2018 attackers took the personal data of 1,495,364 SingHealth patients and outpatient prescription records of about 159,000. PDPC fined IHiS S$750,000 and SingHealth S$250,000.",
+        "PDPA fines can reach 10% of Singapore turnover for firms above S$10 million, or S$1 million. Section 26D requires notice to PDPC within 3 calendar days of assessing a breach as notifiable, and notice to affected people. Section 4 exempts public agencies from these duties.",
+        "The Health Information Act, not yet in force, requires cybersecurity and data security measures, MOH notification of incidents, and notice to people when a breach is likely to cause significant harm. Improper NEHR access carries up to S$50,000 and 2 years in jail (section 38).",
+        "Diagnoses of two mental health conditions and all STIs get tighter access, a double login and closer audit, a minister told Parliament in January 2026."
+      ],
+      "sources": [
+        {
+          "title": "Grounds of Decision: Singapore Health Services Pte Ltd and others (PDPC)",
+          "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/Grounds-of-Decision---SingHealth-IHiS---150119.pdf",
+          "date": "2019-01-14",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Personal Data Protection Act 2012, sections 4, 21, 26D and 48J (Singapore Statutes Online)",
+          "url": "https://sso.agc.gov.sg/Act/PDPA2012",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Information Act 2026 (No. 1 of 2026), Singapore Statutes Online",
+          "url": "https://sso.agc.gov.sg/Act/HIA2026/Uncommenced/20260624040946?DocDate=20260212",
+          "date": "2026-02-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Extra safeguards for more sensitive medical info like mental health conditions: MOH (The Straits Times)",
+          "url": "https://www.straitstimes.com/singapore/health/added-safeguards-for-medical-records-that-are-more-sensitive-such-as-mental-health-conditions-moh",
+          "date": "2026-01-16",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 62,
+      "summary": "Using the NEHR for insurance or employment is an offence carrying up to S$100,000 and four years in jail, and insurers cannot use most genetic test results. Outside the NEHR, health data held by firms and apps falls under the general PDPA.",
+      "detail": [
+        "MOH says NEHR access for employment or insurance is prohibited, except for listed medical examinations required by law. It told The Straits Times that access for an excluded purpose such as insurance carries a fine up to S$100,000 and/or four years in prison for a first offence.",
+        "In January 2026 MOH told doctors that patients must be notified and give explicit consent before health information goes to private insurers, and only necessary information may be shared.",
+        "The MOH and Life Insurance Association moratorium bars insurers from requiring genetic tests and from using most results, except diagnostic tests and two predictive tests above set cover limits. It is an industry agreement, not a statute.",
+        "PDPC guidelines say a hospital needs express consent to market unrelated health products to a patient, and the 'legitimate interests' exception cannot be used for direct marketing. No statute specific to data brokers or health apps was found."
+      ],
+      "sources": [
+        {
+          "title": "Health Information Bill to support coordinated care across Singapore's healthcare ecosystem (MOH)",
+          "url": "https://www.moh.gov.sg/newsroom/health-information-bill-to-support-coordinated-care-across-singapore-s-healthcare-ecosystem/",
+          "date": "2026-01-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Patients must be notified, give consent for their health information to be shared with insurers (The Straits Times)",
+          "url": "https://www.straitstimes.com/singapore/health/patients-need-to-be-notified-and-consent-sought-for-sharing-of-relevant-information-with-insurers",
+          "date": "2026-01-26",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Moratorium on Genetic Testing and Insurance (MOH)",
+          "url": "https://www.moh.gov.sg/others/resources-and-statistics/moratorium-on-genetic-testing-and-insurance/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Advisory Guidelines for the Healthcare Sector, revised 20 September 2023 (PDPC)",
+          "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-for-the-healthcare-sector-sep-2023.pdf",
+          "date": "2023-09-20",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 64,
+      "summary": "Public hospitals, which handle 90% of acute care, have used the NEHR since 2011, and about 70% of over 2,000 GP clinics had joined by October 2025. Three of nine private hospitals, many specialists, labs and dental clinics were still outside.",
+      "detail": [
+        "The NEHR holds diagnoses, medications, allergies, vaccinations, lab reports, radiological images and discharge summaries. MOH says it covers the whole public system, most GPs have joined through Healthier SG, and private hospitals have joined or are joining.",
+        "The Straits Times reports about 70% of GP clinics on board as at 31 October 2025. Thomson Medical, Farrer Park Hospital and Crawfurd Hospital had not joined despite earlier commitments.",
+        "MOH names private specialist clinics, clinical and radiological labs and dental clinics as remaining gaps. The Health Information Act makes contribution mandatory for all licensed providers and retail pharmacies from early 2027. MOH's HIA page says their data reaches HealthHub in phases from September 2027 to March 2030.",
+        "Links between the NEHR and insurance claims or public health surveillance were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Health Information Bill to support coordinated care across Singapore's healthcare ecosystem (MOH)",
+          "url": "https://www.moh.gov.sg/newsroom/health-information-bill-to-support-coordinated-care-across-singapore-s-healthcare-ecosystem/",
+          "date": "2026-01-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "All healthcare service providers must contribute and share patients' key health information (The Straits Times)",
+          "url": "https://www.straitstimes.com/singapore/politics/all-healthcare-service-providers-must-contribute-and-share-patients-key-health-information",
+          "date": "2026-01-12",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Overview of the Health Information Act (HIA) (healthinfo.gov.sg, MOH)",
+          "url": "https://www.healthinfo.gov.sg/hia/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 68,
+      "summary": "Treating doctors, nurses, pharmacists and allied health staff can open the NEHR by default, and a 'break glass' feature works even past a restriction. Gaps in private specialist, lab and dental data limit what they see until mandatory contribution starts.",
+      "detail": [
+        "MOH says patients' key information is by default accessible to their healthcare providers, limited to those the patient is seeking care from. Section 19 of the Act limits access to the purpose of providing care or a listed statutory examination.",
+        "Section 30(4) lets users access a restricted record when needed to respond to an emergency threatening the patient's life or health.",
+        "Sensitive diagnoses are visible only to professionals directly caring for that condition, behind a second login (Straits Times, January 2026).",
+        "The record holds a summary, not each provider's full chart, and private-sector gaps remain until the Act takes effect."
+      ],
+      "sources": [
+        {
+          "title": "Health Information Bill to support coordinated care across Singapore's healthcare ecosystem (MOH)",
+          "url": "https://www.moh.gov.sg/newsroom/health-information-bill-to-support-coordinated-care-across-singapore-s-healthcare-ecosystem/",
+          "date": "2026-01-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Information Act 2026 (No. 1 of 2026), Singapore Statutes Online",
+          "url": "https://sso.agc.gov.sg/Act/HIA2026/Uncommenced/20260624040946?DocDate=20260212",
+          "date": "2026-02-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Extra safeguards for more sensitive medical info like mental health conditions: MOH (The Straits Times)",
+          "url": "https://www.straitstimes.com/singapore/health/added-safeguards-for-medical-records-that-are-more-sensitive-such-as-mental-health-conditions-moh",
+          "date": "2026-01-16",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "The Health Information Act lets the Minister release NEHR-derived data for public health or public interest purposes without consent, and a restriction does not block it. Safeguards include ethics review, a secure research platform and fines up to S$50,000.",
+      "detail": [
+        "Sections 25 and 26 let approved applicants obtain identifiable or anonymised 'derived information' without individual consent. For identifiable data the Minister must weigh whether consent is feasible. Breaching approval conditions carries up to S$50,000 and 2 years in jail. Section 30(5) says an access restriction does not stop this.",
+        "Synapxe's FAQ says the NEHR cannot be used for non-care purposes such as research, while MOH's HIA page says it supports research. We record both.",
+        "The Human Biomedical Research Act 2015 requires appropriate consent for regulated research and tissue use. The PDPA allows research use without consent under set conditions. The TRUST platform holds anonymised data reviewed by a data access committee. No general opt-out was found, so the score sits at the 50 cap."
+      ],
+      "sources": [
+        {
+          "title": "Health Information Act 2026 (No. 1 of 2026), Singapore Statutes Online",
+          "url": "https://sso.agc.gov.sg/Act/HIA2026/Uncommenced/20260624040946?DocDate=20260212",
+          "date": "2026-02-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NEHR FAQ (Synapxe, operator of the NEHR)",
+          "url": "https://www.synapxe.sg/healthtech/national-programmes/national-electronic-health-record-nehr/faq",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Regulation of human biomedical research (MOH)",
+          "url": "https://www.moh.gov.sg/others/health-regulation/regulation-of-human-biomedical-research/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "How TRUST ensures data is safe (TRUST Platform)",
+          "url": "https://www.trustplatform.sg/about-us/how-trust-ensures-data-is-safe/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 62,
+      "summary": "HSA regulates AI software as medical devices, with ML labelling and a change management program for planned model updates. MOH's March 2026 guidelines call human oversight mandatory for clinical AI but are guidance, not law, so the cell sits mid-band.",
+      "detail": [
+        "HSA's GL-04 Revision 4 (December 2025) covers software and machine learning-enabled medical devices across their life cycle, including change notification and a Change Management Program for pre-specified updates.",
+        "Labels must include a statement that the device contains ML and the degree of human intervention in the clinical workflow.",
+        "AIHGle 2.0, published by MOH and HSA in March 2026, says 'human oversight is mandatory for all Clinical and Clinical-Ops use of AI' and covers generative AI and patient communication.",
+        "AIHGle describes itself as recommendations that complement law. Device rules with change control are in force, but human oversight is not a legal duty (unlike Korea's AI Basic Act), so the score sits mid-band in 55 to 70, level with Taiwan and China."
+      ],
+      "sources": [
+        {
+          "title": "GL-04 Revision 4: Regulatory Guidelines for Software Medical Devices including Machine Learning-Enabled Medical Devices (HSA)",
+          "url": "https://isomer-user-content.by.gov.sg/409/26808a93-6a7a-4551-8c66-13046c6124c5/gl-04-r4-regulatory-guidelines-for-software-medical-devices---a-life-cycle-approach-(2025-dec)-pub.pdf",
+          "date": "2025-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Artificial Intelligence in Healthcare Guidelines (AIHGle) Version 2.0 (MOH and HSA)",
+          "url": "https://isomer-user-content.by.gov.sg/3/23fb5b36-56b4-4abb-9370-75c9ddcaf3ed/AIHGle%202.0.pdf",
+          "date": "2026-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Singapore: MOH and HSA Launch Refreshed AI in Healthcare Guidelines (Baker McKenzie)",
+          "url": "https://www.bakermckenzie.com/en/insight/publications/2026/03/singapore-moh-and-hsa-launch-refreshed-ai-in-healthcare-guidelines",
+          "date": "2026-03-31",
+          "publisherClass": "law_firm"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "connected",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "partial"
+  },
+  "journeyNote": "Public hospitals and polyclinics feed the NEHR, as do about 70% of GP clinics and six of nine private hospitals. Contribution becomes mandatory for all providers from early 2027. Claims and public health links were not verified.",
+  "laws": [
+    {
+      "name": "Health Information Act 2026",
+      "level": "National",
+      "year": "2026",
+      "what": "Mandatory NEHR contribution without consent, access restrictions, insurance and employment ban, breach notification; not yet in force.",
+      "url": "https://sso.agc.gov.sg/Act/HIA2026/Uncommenced/20260624040946?DocDate=20260212"
+    },
+    {
+      "name": "Personal Data Protection Act 2012",
+      "level": "National",
+      "year": "2012",
+      "what": "General privacy law: access right, consent, breach duties, fines up to 10% of turnover; excludes public agencies.",
+      "url": "https://sso.agc.gov.sg/Act/PDPA2012"
+    },
+    {
+      "name": "Human Biomedical Research Act 2015",
+      "level": "National",
+      "year": "2015",
+      "what": "Requires appropriate consent for human biomedical research and tissue use, with regulated exemptions.",
+      "url": "https://sso.agc.gov.sg/Act/HBRA2015"
+    },
+    {
+      "name": "HSA GL-04 Revision 4, software and ML medical devices",
+      "level": "National",
+      "year": "2025",
+      "what": "Life-cycle rules for AI and ML devices: labelling, change notification, change management program.",
+      "url": "https://isomer-user-content.by.gov.sg/409/26808a93-6a7a-4551-8c66-13046c6124c5/gl-04-r4-regulatory-guidelines-for-software-medical-devices---a-life-cycle-approach-(2025-dec)-pub.pdf"
+    },
+    {
+      "name": "Artificial Intelligence in Healthcare Guidelines (AIHGle) 2.0",
+      "level": "National",
+      "year": "2026",
+      "what": "MOH and HSA guidance: duties for developers, deployers, clinicians; human oversight for clinical AI.",
+      "url": "https://isomer-user-content.by.gov.sg/3/23fb5b36-56b4-4abb-9370-75c9ddcaf3ed/AIHGle%202.0.pdf"
+    },
+    {
+      "name": "Moratorium on Genetic Testing and Insurance (2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "MOH and insurer agreement barring use of most genetic test results in underwriting.",
+      "url": "https://www.moh.gov.sg/others/resources-and-statistics/moratorium-on-genetic-testing-and-insurance/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-01-12",
+      "headline": "Parliament makes NEHR contribution compulsory for all healthcare providers",
+      "source": "The Straits Times",
+      "url": "https://www.straitstimes.com/singapore/politics/all-healthcare-service-providers-must-contribute-and-share-patients-key-health-information",
+      "why": "Specialist, lab and dental records will follow patients, without a consent step."
+    },
+    {
+      "date": "2026-01-16",
+      "headline": "MOH details extra safeguards for mental health and STI records",
+      "source": "The Straits Times",
+      "url": "https://www.straitstimes.com/singapore/health/added-safeguards-for-medical-records-that-are-more-sensitive-such-as-mental-health-conditions-moh",
+      "why": "The most stigmatising diagnoses get narrower, audited access in the national record."
+    },
+    {
+      "date": "2026-01-26",
+      "headline": "MOH says insurers need patient consent and cannot touch the NEHR",
+      "source": "The Straits Times",
+      "url": "https://www.straitstimes.com/singapore/health/patients-need-to-be-notified-and-consent-sought-for-sharing-of-relevant-information-with-insurers",
+      "why": "Patients get a clear line between care records and insurance underwriting."
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "MOH and HSA publish refreshed AI in Healthcare Guidelines",
+      "source": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/03/singapore-moh-and-hsa-launch-refreshed-ai-in-healthcare-guidelines",
+      "why": "Sets expectations for human oversight and telling patients when AI shapes care."
+    },
+    {
+      "date": "2026-09-19",
+      "headline": "Cancer centre e-mail exposes people on a hereditary cancer list",
+      "source": "The Straits Times",
+      "url": "https://www.straitstimes.com/singapore/national-cancer-centre-e-mail-lapse-allegedly-exposes-patients-details-including-names-workplaces",
+      "why": "Shows how simple lapses can reveal genetic conditions; PDPC is investigating."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

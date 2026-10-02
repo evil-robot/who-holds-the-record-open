@@ -1,0 +1,754 @@
+{
+ "generated_utc": "2026-10-02T10:10:35Z",
+ "plan_sha256": "b2e68d0714bccf5d776ac1ae6c191be4dbd769ec6330072090caad907f0615e2",
+ "plan_stamp": "PLAN.md written 2026-10-02T10:02:47Z\nb2e68d0714bccf5d776ac1ae6c191be4dbd769ec6330072090caad907f0615e2  PLAN.md\n10780458781bf348ec286436008fd91b941480bf1d656e85c8219970da18e612  rater_kit/RUBRIC_V1_1_ANCHORS_REDACTED.md\n17db953b83b9707e474a982777fa262f22d227d1ed459c313fdd7e3a2943fa3c  rater_kit/RUBRIC.md\naae0b3f49b9f052f042f670da7c8f7d0e7ad7b3a003ffb9a598fe7c81514e726  scripts/audit_transcripts.py\n814ee63c349e307aa6838bf006fc2f154827daade6a9e43886044df993727cf8  scripts/build_prompt.py\nd22721b8d459118d22d1f5d34058f39cac57945ae71a3d8a2590f1b476ae3c19  scripts/draw_sample.py\ne84b61894cb71c0c08c2e5cc235d94aa760dbcfd210e2d0653272be21d4aa465  scripts/stats.py\n29ed30b2b87787abbdede2544070c892f78bfbcc956d050c1c729915e6334c82  scripts/run_rater.sh\n",
+ "rater_models": [
+  "claude-opus-5-5"
+ ],
+ "services": {
+  "raters": "Anthropic via the claude CLI (headless sessions), tools WebFetch and curl only",
+  "sources": "the cell's cited URLs as published in data/, opened by the raters on the run date",
+  "published_scores": "data/<ISO3>.json categories.*.score, asOf 2026-10-01",
+  "statistics": "ds-lab Python (numpy, scipy, scikit-learn)"
+ },
+ "audit": [
+  {
+   "transcript": "batch_1.jsonl",
+   "model": "claude-opus-5-5",
+   "n_tasks": 10,
+   "fails": [],
+   "warns": [
+    "denied, not executed: pipe into non-filter '\u0441\u043f\u0435\u0448\u043d': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter '\u043b\u0435\u043a\u0430\u0440': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter '\u0434\u0430\u043d\u043d\u0438'': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'artificial\\': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter '[Aa]rtificial\\': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'digital': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/"
+   ],
+   "pass": true
+  },
+  {
+   "transcript": "batch_2.jsonl",
+   "model": "claude-opus-5-5",
+   "n_tasks": 10,
+   "fails": [],
+   "warns": [
+    "denied, not executed: pipe into non-filter 'reklam': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'rinkodar': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'parduo': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'draud\u017ei': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'bauda': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'tikslai': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'tikslu\"': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'reklam': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'rinkodar': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'draud\u017eiama)[^<>]{0,250}\"': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'reklam\\': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'rinkodar/p'': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/"
+   ],
+   "pass": true
+  },
+  {
+   "transcript": "batch_3.jsonl",
+   "model": "claude-opus-5-5",
+   "n_tasks": 10,
+   "fails": [],
+   "warns": [
+    "denied, not executed: pipe into non-filter '%': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'interoperab': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'exchange\"': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/"
+   ],
+   "pass": true
+  },
+  {
+   "transcript": "batch_4.jsonl",
+   "model": "claude-opus-5-5",
+   "n_tasks": 10,
+   "fails": [],
+   "warns": [],
+   "pass": true
+  },
+  {
+   "transcript": "batch_5.jsonl",
+   "model": "claude-opus-5-5",
+   "n_tasks": 10,
+   "fails": [],
+   "warns": [],
+   "pass": true
+  },
+  {
+   "transcript": "batch_6.jsonl",
+   "model": "claude-opus-5-5",
+   "n_tasks": 10,
+   "fails": [],
+   "warns": [],
+   "pass": true
+  },
+  {
+   "transcript": "batch_7.jsonl",
+   "model": "claude-opus-5-5",
+   "n_tasks": 10,
+   "fails": [],
+   "warns": [
+    "denied, not executed: pipe into non-filter 'record': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'patient': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'pharmac': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'hospital': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'clinic\"': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'record': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'facilit': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'claim': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'prescri': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'riayati': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/",
+    "denied, not executed: pipe into non-filter 'unified\"': curl -sL -A \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/"
+   ],
+   "pass": true
+  }
+ ],
+ "sample": {
+  "cells": 64,
+  "rated": 58,
+  "null": [
+   "CRI.commercial",
+   "JPN.commercial",
+   "ITA.commercial",
+   "TWN.journey",
+   "TWN.clinical",
+   "NGA.research"
+  ]
+ },
+ "headline": {
+  "n": 58,
+  "mad": 5.844827586206897,
+  "mad_ci": [
+   4.310344827586207,
+   7.603448275862069
+  ],
+  "within5": 0.5689655172413793,
+  "within5_ci": [
+   0.4482758620689655,
+   0.6896551724137931
+  ],
+  "within10": 0.8793103448275862,
+  "within10_ci": [
+   0.7931034482758621,
+   0.9482758620689655
+  ],
+  "band_exact": 0.6206896551724138,
+  "band_exact_ci": [
+   0.5,
+   0.7413793103448276
+  ],
+  "qwk_bands": 0.6309090909090909,
+  "qwk_ci": [
+   0.41787935323383085,
+   0.7788446803745916
+  ],
+  "icc2_1": 0.8220624356370729,
+  "icc2_1_ci": [
+   0.7166114747642142,
+   0.8907474193314603
+  ],
+  "bland_altman": {
+   "bias": -0.3620689655172414,
+   "bias_ci": [
+    -2.682536941298162,
+    1.958399010263679
+   ],
+   "sd_diff": 8.82519971616779,
+   "loa": [
+    -17.65946040920611,
+    16.935322478171624
+   ],
+   "proportional_bias_slope": 0.037532625148820685,
+   "proportional_bias_p": 0.6565868685315907
+  },
+  "pearson_r": 0.8202355973345092,
+  "published_sd": 14.44559227294445,
+  "rater_sd": 14.947629893847257
+ },
+ "icc_verdict_koo_li": "good",
+ "decision_close_agreement_claim_allowed": true,
+ "by_category": {
+  "access": {
+   "n": 8,
+   "mad": 9.375,
+   "mad_ci": [
+    3.0,
+    16.75
+   ],
+   "within5": 0.375,
+   "within5_ci": [
+    0.0,
+    0.75
+   ],
+   "within10": 0.75,
+   "within10_ci": [
+    0.375,
+    1.0
+   ],
+   "band_exact": 0.5,
+   "band_exact_ci": [
+    0.125,
+    0.875
+   ],
+   "bias": -3.875,
+   "bias_ci": [
+    -13.25,
+    4.5
+   ]
+  },
+  "control": {
+   "n": 8,
+   "mad": 4.5,
+   "mad_ci": [
+    2.625,
+    7.125
+   ],
+   "within5": 0.75,
+   "within5_ci": [
+    0.375,
+    1.0
+   ],
+   "within10": 0.875,
+   "within10_ci": [
+    0.625,
+    1.0
+   ],
+   "band_exact": 0.625,
+   "band_exact_ci": [
+    0.25,
+    0.875
+   ],
+   "bias": 0.0,
+   "bias_ci": [
+    -4.253124999999999,
+    3.375
+   ]
+  },
+  "privacy": {
+   "n": 8,
+   "mad": 4.625,
+   "mad_ci": [
+    2.0,
+    7.25
+   ],
+   "within5": 0.5,
+   "within5_ci": [
+    0.25,
+    0.875
+   ],
+   "within10": 1.0,
+   "within10_ci": [
+    1.0,
+    1.0
+   ],
+   "band_exact": 0.75,
+   "band_exact_ci": [
+    0.375,
+    1.0
+   ],
+   "bias": 3.875,
+   "bias_ci": [
+    0.625,
+    7.25
+   ]
+  },
+  "commercial": {
+   "n": 5,
+   "mad": 2.8,
+   "mad_ci": [
+    0.2,
+    5.8
+   ],
+   "within5": 0.8,
+   "within5_ci": [
+    0.4,
+    1.0
+   ],
+   "within10": 1.0,
+   "within10_ci": [
+    1.0,
+    1.0
+   ],
+   "band_exact": 0.8,
+   "band_exact_ci": [
+    0.4,
+    1.0
+   ],
+   "bias": -2.4,
+   "bias_ci": [
+    -5.6,
+    0.4
+   ]
+  },
+  "journey": {
+   "n": 7,
+   "mad": 5.571428571428571,
+   "mad_ci": [
+    1.2857142857142858,
+    12.714285714285714
+   ],
+   "within5": 0.8571428571428571,
+   "within5_ci": [
+    0.5714285714285714,
+    1.0
+   ],
+   "within10": 0.8571428571428571,
+   "within10_ci": [
+    0.5714285714285714,
+    1.0
+   ],
+   "band_exact": 0.7142857142857143,
+   "band_exact_ci": [
+    0.2857142857142857,
+    1.0
+   ],
+   "bias": -4.428571428571429,
+   "bias_ci": [
+    -12.142857142857142,
+    0.5714285714285714
+   ]
+  },
+  "clinical": {
+   "n": 7,
+   "mad": 7.142857142857143,
+   "mad_ci": [
+    4.0,
+    10.857142857142858
+   ],
+   "within5": 0.42857142857142855,
+   "within5_ci": [
+    0.14285714285714285,
+    0.8571428571428571
+   ],
+   "within10": 0.8571428571428571,
+   "within10_ci": [
+    0.5714285714285714,
+    1.0
+   ],
+   "band_exact": 0.5714285714285714,
+   "band_exact_ci": [
+    0.14285714285714285,
+    0.8571428571428571
+   ],
+   "bias": 1.7142857142857142,
+   "bias_ci": [
+    -4.0,
+    8.428571428571429
+   ]
+  },
+  "research": {
+   "n": 7,
+   "mad": 4.142857142857143,
+   "mad_ci": [
+    2.142857142857143,
+    6.0
+   ],
+   "within5": 0.5714285714285714,
+   "within5_ci": [
+    0.14285714285714285,
+    0.8571428571428571
+   ],
+   "within10": 1.0,
+   "within10_ci": [
+    1.0,
+    1.0
+   ],
+   "band_exact": 0.5714285714285714,
+   "band_exact_ci": [
+    0.14285714285714285,
+    0.8571428571428571
+   ],
+   "bias": 0.7142857142857143,
+   "bias_ci": [
+    -2.857142857142857,
+    4.142857142857143
+   ]
+  },
+  "ai": {
+   "n": 8,
+   "mad": 7.375,
+   "mad_ci": [
+    2.75,
+    12.625
+   ],
+   "within5": 0.375,
+   "within5_ci": [
+    0.125,
+    0.75
+   ],
+   "within10": 0.75,
+   "within10_ci": [
+    0.5,
+    1.0
+   ],
+   "band_exact": 0.5,
+   "band_exact_ci": [
+    0.125,
+    0.875
+   ],
+   "bias": 0.625,
+   "bias_ci": [
+    -6.0,
+    8.25
+   ]
+  }
+ },
+ "by_region": {
+  "Africa": {
+   "n": 4,
+   "mad": 4.0,
+   "mad_ci": [
+    3.0,
+    5.0
+   ],
+   "within5": 1.0,
+   "within5_ci": [
+    1.0,
+    1.0
+   ],
+   "within10": 1.0,
+   "within10_ci": [
+    1.0,
+    1.0
+   ],
+   "band_exact": 0.75,
+   "band_exact_ci": [
+    0.25,
+    1.0
+   ],
+   "bias": -4.0,
+   "bias_ci": [
+    -5.0,
+    -3.0
+   ]
+  },
+  "Americas": {
+   "n": 7,
+   "mad": 7.142857142857143,
+   "mad_ci": [
+    2.857142857142857,
+    13.0
+   ],
+   "within5": 0.42857142857142855,
+   "within5_ci": [
+    0.14285714285714285,
+    0.8571428571428571
+   ],
+   "within10": 0.8571428571428571,
+   "within10_ci": [
+    0.5714285714285714,
+    1.0
+   ],
+   "band_exact": 0.7142857142857143,
+   "band_exact_ci": [
+    0.2857142857142857,
+    1.0
+   ],
+   "bias": 5.428571428571429,
+   "bias_ci": [
+    0.0,
+    12.0
+   ]
+  },
+  "Asia": {
+   "n": 7,
+   "mad": 5.857142857142857,
+   "mad_ci": [
+    1.7142857142857142,
+    10.714285714285714
+   ],
+   "within5": 0.42857142857142855,
+   "within5_ci": [
+    0.14285714285714285,
+    0.8571428571428571
+   ],
+   "within10": 0.8571428571428571,
+   "within10_ci": [
+    0.5714285714285714,
+    1.0
+   ],
+   "band_exact": 0.7142857142857143,
+   "band_exact_ci": [
+    0.42857142857142855,
+    1.0
+   ],
+   "bias": 5.857142857142857,
+   "bias_ci": [
+    1.7142857142857142,
+    10.432142857142871
+   ]
+  },
+  "Europe": {
+   "n": 34,
+   "mad": 4.852941176470588,
+   "mad_ci": [
+    2.911764705882353,
+    7.235294117647059
+   ],
+   "within5": 0.6470588235294118,
+   "within5_ci": [
+    0.47058823529411764,
+    0.7941176470588235
+   ],
+   "within10": 0.9411764705882353,
+   "within10_ci": [
+    0.8529411764705882,
+    1.0
+   ],
+   "band_exact": 0.6470588235294118,
+   "band_exact_ci": [
+    0.5,
+    0.7941176470588235
+   ],
+   "bias": -0.9117647058823529,
+   "bias_ci": [
+    -3.9713235294117646,
+    1.6176470588235294
+   ]
+  },
+  "Middle East": {
+   "n": 4,
+   "mad": 12.25,
+   "mad_ci": [
+    6.25,
+    19.0
+   ],
+   "within5": 0.25,
+   "within5_ci": [
+    0.0,
+    0.75
+   ],
+   "within10": 0.5,
+   "within10_ci": [
+    0.0,
+    1.0
+   ],
+   "band_exact": 0.25,
+   "band_exact_ci": [
+    0.0,
+    0.75
+   ],
+   "bias": -12.25,
+   "bias_ci": [
+    -19.0,
+    -6.25
+   ]
+  },
+  "Oceania": {
+   "n": 2,
+   "mad": 9.0,
+   "mad_ci": [
+    7.0,
+    11.0
+   ],
+   "within5": 0.0,
+   "within5_ci": [
+    0.0,
+    0.0
+   ],
+   "within10": 0.5,
+   "within10_ci": [
+    0.0,
+    1.0
+   ],
+   "band_exact": 0.0,
+   "band_exact_ci": [
+    0.0,
+    0.0
+   ],
+   "bias": -2.0,
+   "bias_ci": [
+    -11.0,
+    7.0
+   ]
+  }
+ },
+ "repeat": {
+  "n": 5,
+  "mad_between_sessions": 1.2,
+  "pairs": [
+   [
+    "FRA.privacy",
+    66,
+    62,
+    58
+   ],
+   [
+    "NOR.privacy",
+    74,
+    72,
+    64
+   ],
+   [
+    "ALB.privacy",
+    52,
+    52,
+    55
+   ],
+   [
+    "HRV.journey",
+    68,
+    68,
+    68
+   ],
+   [
+    "ISL.ai",
+    50,
+    50,
+    50
+   ]
+  ]
+ },
+ "sensitivity": {
+  "repeat_averaged": {
+   "n": 58,
+   "mad": 5.793103448275862,
+   "within10": 0.8793103448275862,
+   "icc2_1": 0.8233743112443238,
+   "qwk_bands": 0.6396686608375518,
+   "bias": -0.41379310344827586
+  },
+  "without_ISL.ai": {
+   "n": 57,
+   "mad": 5.947368421052632,
+   "within10": 0.8771929824561403,
+   "icc2_1": 0.8218303470499185,
+   "qwk_bands": 0.6308973172987974,
+   "bias": -0.3684210526315789
+  }
+ },
+ "exploratory_source_access": {
+  "label": "exploratory, not pre-registered",
+  "all_cited_sources_opened": {
+   "n": 30,
+   "mad": 4.4,
+   "within10": 0.9333333333333333,
+   "n_abs_ge_15": 1
+  },
+  "some_cited_source_unreadable": {
+   "n": 28,
+   "mad": 7.392857142857143,
+   "within10": 0.8214285714285714,
+   "n_abs_ge_15": 4
+  },
+  "urls_cited": 168,
+  "urls_opened": 125,
+  "urls_unreadable": 43
+ },
+ "flagged_for_editors_abs_diff_ge_15": [
+  {
+   "cell_id": "PRT.access",
+   "published": 70,
+   "rater": 40,
+   "rater_repeat": null,
+   "reason": "Lei 12/2005 grants access to the whole clinical record and ERS says consultation is free, but no fixed deadline (-5) and copies may cost money; national portal not verified (PDFs unreadable), so no-portal formula: base 45 minus 5.",
+   "published_summary": "Portugal scored 88.1 on the EU 2025 record-access indicator against an EU average of 82.7, and SNS 24 shows prescriptions, lab results, vaccines and five years of care history. Lei 12/2005 gives a right to the whole record, but the portal is not the full chart."
+  },
+  {
+   "cell_id": "PRT.journey",
+   "published": 68,
+   "rater": 42,
+   "rater_repeat": null,
+   "reason": "Only Law 95/2019 was readable: Base 15 requires SNS system interoperability, but no infrastructure, coverage or usage evidence was verified, so it stays below the mixed band.",
+   "published_summary": "A central agency, SPMS, gives every public provider and most private ones a common data centre, network and software, and the RSE timeline lists episodes from all SNS institutions. Private providers have no legal duty to share records."
+  },
+  {
+   "cell_id": "ARE.access",
+   "published": 54,
+   "rater": 32,
+   "rater_repeat": null,
+   "reason": "PDPL Art. 2 excludes health data and no health-sector access right could be verified, so band 15-35; upper end because Abu Dhabi's Sahatna app shows Malaffi records, screenings and vaccines (60% of Abu Dhabi facilities connected), but it covers one emirate and part of the record",
+   "published_summary": "Abu Dhabi residents can see visits, diagnoses, lab results, prescriptions and vaccinations from Malaffi in the free Sahatna app. No verified legal right to a full chart copy, and the general privacy law excludes health data."
+  },
+  {
+   "cell_id": "MEX.ai",
+   "published": 20,
+   "rater": 42,
+   "rater_repeat": null,
+   "reason": "COFEPRIS 2025 guidelines for AI in imaging and decision support plus one authorised software product, but the Health Law has no AI definitions and the Jan 2026 reform left AI out; change control not verified, so lower half of the guidance band 35-50.",
+   "published_summary": "The General Health Law does not define AI or clinical decision algorithms, and the January 2026 digital health reform did not create an AI category. Yet the 2027 health service plans to add AI tools."
+  },
+  {
+   "cell_id": "IND.clinical",
+   "published": 35,
+   "rater": 52,
+   "rater_repeat": null,
+   "reason": "Mixed band: PIB (22 May 2026) reports over 100 crore records linked to ABHA and 450+ integrated solutions, with consent-based HIE-CM sharing to providers. Clinician access depends on patient-initiated linking and sharing, and emergency rules and real clinician use were not verified.",
+   "published_summary": "A treating doctor can pull ABHA-linked records only when the patient consents through the exchange. With records scattered across providers, most clinicians still work from what the patient brings."
+  }
+ ],
+ "largest_disagreements": [
+  {
+   "cell_id": "PRT.access",
+   "published": 70,
+   "rater": 40,
+   "reason": "Lei 12/2005 grants access to the whole clinical record and ERS says consultation is free, but no fixed deadline (-5) and copies may cost money; national portal not verified (PDFs unreadable), so no-portal formula: base 45 minus 5.",
+   "published_summary": "Portugal scored 88.1 on the EU 2025 record-access indicator against an EU average of 82.7, and SNS 24 shows prescriptions, lab results, vaccines and five years of care history. Lei 12/2005 gives a right to the whole record, but the portal is not the full chart."
+  },
+  {
+   "cell_id": "PRT.journey",
+   "published": 68,
+   "rater": 42,
+   "reason": "Only Law 95/2019 was readable: Base 15 requires SNS system interoperability, but no infrastructure, coverage or usage evidence was verified, so it stays below the mixed band.",
+   "published_summary": "A central agency, SPMS, gives every public provider and most private ones a common data centre, network and software, and the RSE timeline lists episodes from all SNS institutions. Private providers have no legal duty to share records."
+  },
+  {
+   "cell_id": "ARE.access",
+   "published": 54,
+   "rater": 32,
+   "reason": "PDPL Art. 2 excludes health data and no health-sector access right could be verified, so band 15-35; upper end because Abu Dhabi's Sahatna app shows Malaffi records, screenings and vaccines (60% of Abu Dhabi facilities connected), but it covers one emirate and part of the record",
+   "published_summary": "Abu Dhabi residents can see visits, diagnoses, lab results, prescriptions and vaccinations from Malaffi in the free Sahatna app. No verified legal right to a full chart copy, and the general privacy law excludes health data."
+  },
+  {
+   "cell_id": "MEX.ai",
+   "published": 20,
+   "rater": 42,
+   "reason": "COFEPRIS 2025 guidelines for AI in imaging and decision support plus one authorised software product, but the Health Law has no AI definitions and the Jan 2026 reform left AI out; change control not verified, so lower half of the guidance band 35-50.",
+   "published_summary": "The General Health Law does not define AI or clinical decision algorithms, and the January 2026 digital health reform did not create an AI category. Yet the 2027 health service plans to add AI tools."
+  },
+  {
+   "cell_id": "IND.clinical",
+   "published": 35,
+   "rater": 52,
+   "reason": "Mixed band: PIB (22 May 2026) reports over 100 crore records linked to ABHA and 450+ integrated solutions, with consent-based HIE-CM sharing to providers. Clinician access depends on patient-initiated linking and sharing, and emergency rules and real clinician use were not verified.",
+   "published_summary": "A treating doctor can pull ABHA-linked records only when the patient consents through the exchange. With records scattered across providers, most clinicians still work from what the patient brings."
+  },
+  {
+   "cell_id": "ARE.control",
+   "published": 55,
+   "rater": 42,
+   "reason": "Only vendor blogs, Dubai NABIDH only: automatic enrolment with facility or global opt-out, audit trails, and patient notice on break-glass access. That suggests band 40-55, but there is no primary source, no verified patient-visible log and no national (Riayati) source, so it sits at the bottom.",
+   "published_summary": "The federal Riayati exchange is opt-out: records upload without consent, but patients can block viewing by any or all facilities and are told when their record is opened. Regulators keep access even after opt-out."
+  },
+  {
+   "cell_id": "AUS.ai",
+   "published": 55,
+   "rater": 44,
+   "reason": "Legislation pages showed only metadata (amendments to the Medical Devices Regulations 2002), so AI/ML device coverage and change control were not verified. That earns nothing and puts it in the guidance band 35-50. OAIC AI and automated-decision transparency resources (Sept 2026) set the mid-band score.",
+   "published_summary": "Software-based medical devices have been regulated under therapeutic goods rules since 2021 amendments, and new amendments were registered in September 2026. The TGA's 2025 AI review could not be opened (not verified)."
+  },
+  {
+   "cell_id": "NOR.privacy",
+   "published": 64,
+   "rater": 74,
+   "reason": "Strong band: GDPR Art. 9 plus helseregisterloven, health data barred from employers, insurers and prosecutors, and patient-visible access logs. Datatilsynet acted in the health sector (Dec 2025 warning of an order to Helseplattformen on access control, logging and incidents). Kept below Leading because that case shows real security gaps.",
+   "published_summary": "GDPR applies through the EEA. In December 2025 the data regulator found major gaps in Helseplattformen's governance and access control and warned it would order fixes."
+  },
+  {
+   "cell_id": "USA.clinical",
+   "published": 55,
+   "rater": 65,
+   "reason": "TEFCA exchange grew from 10 million to over 1 billion records in under a year, information blocking enforcement started in 2026 (up to $1M per violation), and Surescripts reaches 2.32M clinicians; bottom of Strong because complete cross-provider record access at point of care was not verified (NCBI source blocked).",
+   "published_summary": "Most hospitals can pull outside records, but clinicians often do not use them: 71% had routine access to external data at the point of care in 2023, yet only 42% reported clinicians using it."
+  },
+  {
+   "cell_id": "VNM.ai",
+   "published": 50,
+   "rater": 60,
+   "reason": "AI Law in force 1 Mar 2026 with risk tiers, and high-risk systems need conformity assessment before deployment and after significant changes (change control verified), plus deployer monitoring and logs; mid-band because healthcare systems already running get an 18-month grace period and medical-device rules are not specified",
+   "published_summary": "Vietnam's first Law on Artificial Intelligence took effect 1 March 2026 with a risk-based model and human oversight duties for high-risk systems. Health AI gets an 18-month grace period, so obligations bite from late 2027."
+  }
+ ]
+}

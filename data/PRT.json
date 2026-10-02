@@ -1,0 +1,372 @@
+{
+  "iso3": "PRT",
+  "name": "Portugal",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Portugal's SNS 24 shows patients who opened their record and asks consent before clinicians look; a May 2026 credential theft tested both.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 70,
+      "summary": "Portugal scored 88.1 on the EU 2025 record-access indicator against an EU average of 82.7, and SNS 24 shows prescriptions, lab results, vaccines and five years of care history. Lei 12/2005 gives a right to the whole record, but the portal is not the full chart.",
+      "detail": [
+        "Lei 12/2005 says health information belongs to the person and the holder may see the whole clinical record, except in justified exceptional cases where it would harm them. Since 2016 a doctor intermediates only if the person asks.",
+        "The health regulator ERS says consulting the record is free, while copies (photocopies, CDs) and medical reports may carry a fee. The ERS page gives no response deadline.",
+        "Anyone with a health user number can log in to the SNS 24 personal area (gov.pt). The OECD profile lists vaccination records, e-prescriptions, sick leave, living wills, appointments and lab orders and results.",
+        "In 2024, 40% of Portuguese adults accessed their record online, against 28% in the EU, but 62% of the most educated did so versus 19% of the least educated (OECD). Since early 2026 the app also shows five years of care history (E-Konomista)."
+      ],
+      "sources": [
+        {
+          "title": "Portugal 2025 Digital Decade country report (Council of the EU, ST 10407/25 ADD 23)",
+          "url": "https://data.consilium.europa.eu/doc/document/ST-10407-2025-ADD-23/en/pdf",
+          "date": "2025-06-18",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "State of Health in the EU: Portugal Country Health Profile 2025 (OECD and European Observatory)",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/portugal_6d4acb43/56041c8e-en.pdf",
+          "date": "2025-12",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Lei n.º 12/2005, informação genética pessoal e informação de saúde (PGD Lisboa, consolidated)",
+          "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1660&tabela=leis&ficha=1&pagina=1",
+          "date": "2005-01-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Direito de acesso à informação de saúde e à proteção de dados pessoais (ERS)",
+          "url": "https://www.ers.pt/pt/utentes/perguntas-frequentes/faq/direito-de-acesso-a-informacao-de-saude-e-a-protecao-de-dados-pessoais/",
+          "date": "2025-02-26",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 70,
+      "summary": "Clinicians cannot open the national record without the patient's authorisation, set in SNS 24 or given at the visit, and patients can see every access. Lei 58/2019 requires that people be notified of any access to their health data.",
+      "detail": [
+        "Article 29(6) of Lei 58/2019 says the data subject must be notified of any access to their health data, and the controller must provide that tracing and notification mechanism.",
+        "The ACSS manual for the RSE professional area says access is checked against the patient's SNS 24 authorisations, with separate permissions for SNS and for private or social sector providers. Without one, the patient must authenticate. Unauthorised simplified access shows vaccines only.",
+        "Pplware (May 2026) says the personal area shows several years of who viewed the data and lets people grant or refuse access to history, exams, medicines, consultations and nursing visits.",
+        "The system was tested in May 2026, when one doctor's stolen credentials were used against many records. Parents learned of it from SNS 24 access notifications (HealthNews), which shows the log works, though authorisation did not stop the misuse."
+      ],
+      "sources": [
+        {
+          "title": "Lei n.º 58/2019, execução do RGPD (Diário da República)",
+          "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf",
+          "date": "2019-08-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Manual do Utilizador: acesso à Área do Profissional do RSE para médicos e enfermeiros (ACSS/SPMS)",
+          "url": "https://www.acss.min-saude.pt/wp-content/uploads/2016/12/Manual-de-Utilizador-RSE-PCPMACNO_VF.pdf",
+          "date": "2025-04-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "SNS 24: saiba quem teve acesso às suas informações e como gerir autorizações (Pplware)",
+          "url": "https://pplware.sapo.pt/internet/sns-24-saiba-quem-teve-acesso-as-suas-informacoes-e-como-gerir-autorizacoes/",
+          "date": "2026-05-26",
+          "publisherClass": "news"
+        },
+        {
+          "title": "ULS do Alto Minho admite roubo de credenciais médicas para aceder a dados de utentes (HealthNews)",
+          "url": "https://healthnews.pt/2026/05/22/uls-do-alto-minho-admite-roubo-de-credenciais-medicas-para-aceder-a-dados-de-utentes/",
+          "date": "2026-05-22",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 56,
+      "summary": "Health data has strong statutory protection, but in May 2026 a doctor's stolen credentials were used to improperly access data of more than 100,000 SNS users. The regulator CNPD opened an inquiry and reported possible crimes to prosecutors.",
+      "detail": [
+        "Lei 58/2019 applies the GDPR in Portugal. Article 29 limits health data access to need to know, binds everyone handling it to secrecy, and calls for differentiated permissions, prior authentication and electronic logs of access.",
+        "Lei 12/2005 requires health units to prevent improper third-party access to clinical records and systems, including backups, and to separate health and genetic data from other personal data.",
+        "In May 2026 the CNPD received hundreds of complaints about improper access using a doctor's credentials at ULS Alto Minho, affecting more than 100,000 people including children (ECO). The ULS said the records reached were administrative, not clinical (HealthNews).",
+        "In 2018 the CNPD fined the Barreiro Montijo hospital centre 400,000 euros for giving clinical-record credentials to staff who should not have them (Jornal de Negócios). The OECD notes several high-profile ransomware attacks on the health system."
+      ],
+      "sources": [
+        {
+          "title": "Lei n.º 58/2019, execução do RGPD (Diário da República)",
+          "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf",
+          "date": "2019-08-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Comissão Nacional de Proteção de Dados averigua acesso indevido a dados de saúde (ECO)",
+          "url": "https://eco.sapo.pt/2026/05/26/comissao-nacional-de-protecao-de-dados-averigua-acesso-indevido-a-dados-de-saude/",
+          "date": "2026-05-26",
+          "publisherClass": "news"
+        },
+        {
+          "title": "ULS do Alto Minho admite roubo de credenciais médicas para aceder a dados de utentes (HealthNews)",
+          "url": "https://healthnews.pt/2026/05/22/uls-do-alto-minho-admite-roubo-de-credenciais-medicas-para-aceder-a-dados-de-utentes/",
+          "date": "2026-05-22",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Hospital do Barreiro multado em 400 mil euros por não proteger dados clínicos dos doentes (Jornal de Negócios)",
+          "url": "https://www.jornaldenegocios.pt/economia/saude/detalhe/hospital-do-barreiro-multado-em-400-mil-euros-por-nao-proteger-dados-clinicos-dos-doentes",
+          "date": "2018-10-18",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 62,
+      "summary": "Lei 12/2005 says health information may be used only for care, health research and other uses set by law, and bans insurers from using genetic data. A 2021 law stops lenders and insurers using past cancer and other overcome conditions.",
+      "detail": [
+        "Article 3 of Lei 12/2005 makes health units custodians, not owners, of health information, which cannot be used for purposes other than care, health research and others set by law. Article 4 requires written authorisation for other uses by the health system.",
+        "Article 12 bars insurers from requesting or using genetic information, including family history, to refuse cover or raise premiums.",
+        "Lei 75/2021 creates a right to be forgotten: after set periods, lenders and linked insurers may not collect or use health information about a serious condition the person has overcome or mitigated.",
+        "We found no Portugal-specific rule on consumer health apps or data brokers beyond the GDPR, so those fall under general data protection law."
+      ],
+      "sources": [
+        {
+          "title": "Lei n.º 12/2005, informação genética pessoal e informação de saúde (PGD Lisboa, consolidated)",
+          "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1660&tabela=leis&ficha=1&pagina=1",
+          "date": "2005-01-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lei n.º 75/2021, direito ao esquecimento no crédito e nos seguros (PGD Lisboa)",
+          "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3478&tabela=leis",
+          "date": "2021-11-18",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 68,
+      "summary": "A central agency, SPMS, gives every public provider and most private ones a common data centre, network and software, and the RSE timeline lists episodes from all SNS institutions. Private providers have no legal duty to share records.",
+      "detail": [
+        "The OECD describes a highly centralised architecture run by SPMS, supplying every public provider and most private ones with a common data centre, secure network and standard software.",
+        "There is no legal requirement for private providers to make patient data electronically available to others, which leaves gaps in the shared record (OECD). Some primary care units still run legacy software and hospitals are moving to a new platform in phases.",
+        "The RSE professional timeline lists prescriptions, results, discharge notes, consultations, emergencies, admissions, surgeries and SNS 24 contacts across SNS institutions (ACSS manual).",
+        "Lei 95/2019 says health information circulation must rely on interoperability and interconnection of SNS systems. For EU exchange, SPMS is scaling MyHealth@EU services (OECD)."
+      ],
+      "sources": [
+        {
+          "title": "State of Health in the EU: Portugal Country Health Profile 2025 (OECD and European Observatory)",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/portugal_6d4acb43/56041c8e-en.pdf",
+          "date": "2025-12",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Manual do Utilizador: acesso à Área do Profissional do RSE para médicos e enfermeiros (ACSS/SPMS)",
+          "url": "https://www.acss.min-saude.pt/wp-content/uploads/2016/12/Manual-de-Utilizador-RSE-PCPMACNO_VF.pdf",
+          "date": "2025-04-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lei n.º 95/2019, Lei de Bases da Saúde (PGD Lisboa)",
+          "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3197&tabela=leis&ficha=1",
+          "date": "2019-09-04",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 64,
+      "summary": "With the patient's authorisation, a doctor or nurse sees a timeline of episodes from every SNS institution and can open each source record over the health network. Data held only by private providers is often missing.",
+      "detail": [
+        "The RSE professional area shows a chronological list and a map of all the patient's contacts with SNS institutions, with a link to each institution's local electronic record (ACSS manual).",
+        "Opening the local record needs a VPN connection to the health information network. Without it the professional sees only the history without detail.",
+        "Access needs the patient's prior authorisation in SNS 24 or authentication at the visit. Lei 12/2005 limits record access to the treating doctor and supervised staff, as strictly needed. Private-sector data is not legally required to be shared (OECD)."
+      ],
+      "sources": [
+        {
+          "title": "Manual do Utilizador: acesso à Área do Profissional do RSE para médicos e enfermeiros (ACSS/SPMS)",
+          "url": "https://www.acss.min-saude.pt/wp-content/uploads/2016/12/Manual-de-Utilizador-RSE-PCPMACNO_VF.pdf",
+          "date": "2025-04-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lei n.º 12/2005, informação genética pessoal e informação de saúde (PGD Lisboa, consolidated)",
+          "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1660&tabela=leis&ficha=1&pagina=1",
+          "date": "2005-01-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "State of Health in the EU: Portugal Country Health Profile 2025 (OECD and European Observatory)",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/portugal_6d4acb43/56041c8e-en.pdf",
+          "date": "2025-12",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "research": {
+      "score": 48,
+      "summary": "Anonymised health data may be used for research without individual consent under Lei 12/2005, and no general opt-out exists yet. Trials need informed consent and ethics approval, and Portugal was first to list a dataset on HealthData@EU.",
+      "detail": [
+        "Article 4(4) of Lei 12/2005 lets anonymised health information be provided for research. Lei 58/2019 article 31 requires minimisation and anonymisation or pseudonymisation where possible, and allows consent covering several research areas.",
+        "Lei 21/2014, the clinical research law, requires informed consent, a prior interview with the investigator, a right to withdraw without effect on care, and insurance.",
+        "In November 2025 Portugal became the first member state to publish a dataset on the HealthData@EU central platform (AFP, reprinting SPMS). The OECD says the HealthData@PT access body is being set up.",
+        "The EHDS opt-out from secondary use applies from March 2029 (European Commission). Until then we found no national opt-out."
+      ],
+      "sources": [
+        {
+          "title": "Lei n.º 12/2005, informação genética pessoal e informação de saúde (PGD Lisboa, consolidated)",
+          "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1660&tabela=leis&ficha=1&pagina=1",
+          "date": "2005-01-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lei n.º 58/2019, execução do RGPD (Diário da República)",
+          "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf",
+          "date": "2019-08-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lei n.º 21/2014, lei da investigação clínica (PGD Lisboa)",
+          "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=2089&tabela=leis",
+          "date": "2014-04-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "European Health Data Space Regulation (EHDS) (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Portugal relies on EU law for clinical AI, with no national AI law. ANACOM supervises the AI Act and the health regulator ERS protects fundamental rights for high-risk AI, both EU-required roles.",
+      "detail": [
+        "The government chose ANACOM in September 2025 as main market supervisor and contact point for the AI Act (ECO).",
+        "ERS was notified to the European Commission as an authority protecting fundamental rights under Article 77(2) of the AI Act for high-risk systems in Annex III, and commits to guide the sector (ERS).",
+        "SPMS is piloting AI for clinical triage, antimicrobial alerts and dermatology (OECD). We found no binding national clinical-AI guidance.",
+        "Regulation (EU) 2026/1744 moved high-risk duties to 2 December 2027 for standalone systems and 2 August 2028 for AI in medical devices (Cuatrecasas)."
+      ],
+      "sources": [
+        {
+          "title": "Regulamento da Inteligência Artificial (ERS)",
+          "url": "https://www.ers.pt/pt/atividade/regulamento-da-inteligencia-artificial/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Anacom escolhida pelo Governo para regular inteligência artificial em Portugal (ECO)",
+          "url": "https://eco.sapo.pt/2025/09/19/anacom-escolhida-pelo-governo-para-regular-inteligencia-artificial-em-portugal/",
+          "date": "2025-09-19",
+          "publisherClass": "news"
+        },
+        {
+          "title": "State of Health in the EU: Portugal Country Health Profile 2025 (OECD and European Observatory)",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/portugal_6d4acb43/56041c8e-en.pdf",
+          "date": "2025-12",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Digital Omnibus on AI has been published (Regulation (EU) 2026/1744) (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+          "date": "2026-07-24",
+          "publisherClass": "law_firm"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "partial",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "SPMS runs shared infrastructure for all public and most private providers. Prescriptions and vaccines are national; hospitals are migrating platforms and private providers need not share data.",
+  "laws": [
+    {
+      "name": "Lei n.º 12/2005, informação genética pessoal e informação de saúde",
+      "level": "National",
+      "year": "2005",
+      "what": "Health data belongs to the person; right to the whole record; insurers barred from genetic data.",
+      "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1660&tabela=leis&ficha=1&pagina=1"
+    },
+    {
+      "name": "Lei n.º 58/2019, execução do RGPD",
+      "level": "National",
+      "year": "2019",
+      "what": "Applies GDPR; health data need to know, secrecy duty, and notice to people of every access.",
+      "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf"
+    },
+    {
+      "name": "Lei n.º 95/2019, Lei de Bases da Saúde",
+      "level": "National",
+      "year": "2019",
+      "what": "Health information is the person's property; SNS systems must interoperate.",
+      "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3197&tabela=leis&ficha=1"
+    },
+    {
+      "name": "Lei n.º 75/2021, direito ao esquecimento",
+      "level": "National",
+      "year": "2021",
+      "what": "Lenders and linked insurers may not use overcome serious health conditions after set periods.",
+      "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3478&tabela=leis"
+    },
+    {
+      "name": "Lei n.º 21/2014, lei da investigação clínica",
+      "level": "National",
+      "year": "2014",
+      "what": "Clinical studies need informed consent, ethics approval, withdrawal rights and insurance.",
+      "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=2089&tabela=leis"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Access logs, restrictions and secondary-use opt-out; exchange from March 2029 and 2031.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "EU AI Act (EU) 2024/1689, amended by (EU) 2026/1744",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "High-risk AI duties now apply from December 2027, and August 2028 for medical devices.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-11-19",
+      "headline": "Portugal first to publish a dataset on EU HealthData@EU platform",
+      "source": "AFP (reprint of SPMS release)",
+      "url": "https://afp.com.pt/portugal-e-o-1-o-pais-a-publicar-um-conjunto-de-dados-na-plataforma-healthdataeu-spms/",
+      "why": "Portuguese health data is being readied for EU secondary use under EHDS."
+    },
+    {
+      "date": "2026-01",
+      "headline": "SNS 24 app adds five years of care history and state co-payments",
+      "source": "E-Konomista",
+      "url": "https://www.e-konomista.pt/app-sns-24-permite-consultar-historico/",
+      "why": "Patients can see consultations, exams and emergencies across five years in one place."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "Alto Minho health unit admits doctor credentials were stolen to view patient records",
+      "source": "HealthNews",
+      "url": "https://healthnews.pt/2026/05/22/uls-do-alto-minho-admite-roubo-de-credenciais-medicas-para-aceder-a-dados-de-utentes/",
+      "why": "Parents spotted the access through SNS 24 notifications, showing the access log works."
+    },
+    {
+      "date": "2026-05-26",
+      "headline": "Data protection regulator investigates improper access to over 100,000 SNS users' data",
+      "source": "ECO",
+      "url": "https://eco.sapo.pt/2026/05/26/comissao-nacional-de-protecao-de-dados-averigua-acesso-indevido-a-dados-de-saude/",
+      "why": "Tests whether the regulator enforces health data security in the public system."
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "EU publishes AI Act amendment delaying medical device AI obligations to 2028",
+      "source": "Cuatrecasas",
+      "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+      "why": "Binding rules for AI in medical devices now start 2 August 2028."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

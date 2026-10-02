@@ -1,0 +1,161 @@
+{
+ "iso3": "HRV",
+ "name": "Croatia",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Croatians can see labs, prescriptions and hospital letters online and block whole groups of doctors, but private clinics stay outside CEZIH until 2027.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 62,
+   "summary": "The 2004 patient rights law gives a right to the whole record, with copies at the patient's cost. Portal zdravlja shows lab results, prescriptions, referrals and hospital letters, but its user count was not verified, so the score sits in the lower half of the band.",
+   "detail": [
+    "Article 23 of the Act on the Protection of Patients' Rights gives patients access to all medical records on diagnosis and treatment. A copy can be requested at the patient's own cost.",
+    "Portal zdravlja in e-Gradani shows prescribed referrals, laboratory results and prescribed medicines. HZZO says it also shows hospital findings and discharge letters, plus medicines dispensed in pharmacies.",
+    "The 2023 e-Karton rulebook lists lab and specialist findings, discharge letters and prescriptions. Imaging is not named in it. Parents can view a child's record.",
+    "The number of portal users was not verified from an official source. Findings from private clinics outside HZZO contracts are not yet in the national system, and a machine-readable export was not verified."
+   ],
+   "sources": [
+    {"title": "Zakon o zastiti prava pacijenata (NN 169/04)", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2004_12_169_2953.html", "date": "2004-12-03", "publisherClass": "legal_text"},
+    {"title": "HZZO za e-Gradane", "url": "https://hzzo.hr/e-gradani/hzzo-za-e-gradane", "date": "undated", "publisherClass": "official"},
+    {"title": "Portal zdravlja dostupan i na mobilnim uredajima (gov.hr)", "url": "https://gov.hr/hr/portal-zdravlja-dostupan-i-na-mobilnim-uredjajima/2340", "date": "undated", "publisherClass": "official"},
+    {"title": "Pravilnik o opsegu i sadrzaju podataka te nacinu vodenja e-Kartona (NN 74/2023)", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_07_74_1210.html", "date": "2023-07-06", "publisherClass": "legal_text"}
+   ]
+  },
+  "control": {
+   "score": 66,
+   "summary": "In Portal zdravlja patients can allow or block access by whole groups, such as all family doctors, emergency doctors or hospital specialists. A law-backed log shows who viewed which data and when, but sharing is on by default.",
+   "detail": [
+    "The 2019 health data law says only clinicians involved in a patient's care, and people the patient has explicitly authorised, may access the e-Karton.",
+    "The portal's privacy rules let patients allow or deny access by category: family doctors, dentists, gynaecologists, emergency doctors, school doctors, hospital specialists, private providers, pharmacists and occupational doctors. The chosen family doctor can manage these settings for patients who cannot.",
+    "Article 17 of the 2023 e-Karton rulebook requires the portal to show who viewed which data and when.",
+    "Every provider must send data to CEZIH. Choices are by group of clinician, not by document, so the default is shared, with patient restrictions."
+   ],
+   "sources": [
+    {"title": "eKarton pravila privatnosti (Ministarstvo zdravstva)", "url": "https://mobilne.portal.zdravlje.hr/ek/ekarton-pravila-privatnosti.html", "date": "2026-06-24", "publisherClass": "official"},
+    {"title": "Pravilnik o opsegu i sadrzaju podataka te nacinu vodenja e-Kartona (NN 74/2023)", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_07_74_1210.html", "date": "2023-07-06", "publisherClass": "legal_text"},
+    {"title": "Zakon o podacima i informacijama u zdravstvu (NN 14/19)", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2019_02_14_269.html", "date": "2019-02-07", "publisherClass": "legal_text"},
+    {"title": "HZZO za e-Gradane", "url": "https://hzzo.hr/e-gradani/hzzo-za-e-gradane", "date": "undated", "publisherClass": "official"}
+   ]
+  },
+  "privacy": {
+   "score": 52,
+   "summary": "The regulator AZOP has fined hospitals, including EUR 190,000 for lost radiology images. But Croatian law bars fines on public authorities, fines on public services must not disrupt them, and hospitals and the ministry have been hacked.",
+   "detail": [
+    "Health data is special-category data under the GDPR. Article 47 of Croatia's 2018 GDPR implementation act says no administrative fine can be imposed on a public authority. Article 44 says fines on bodies providing a public service must not endanger that service.",
+    "In September 2024 AZOP fined a special hospital near Rijeka EUR 190,000 after patients' radiology images were lost for good. In March 2025 it fined Vinkovci county hospital EUR 3,000 for weak security, saying Article 44 applied.",
+    "In July 2024 the LockBit group attacked KBC Zagreb hospital. Faktograf reported patients had not been told 11 days later.",
+    "In June 2026 hackers hit Ministry of Health applications; the ministry said patient records were not affected. In August 2026 a group claimed a leak of about 9,400 records from an unnamed Croatian clinic; this was not confirmed."
+   ],
+   "sources": [
+    {"title": "Zakon o provedbi Opce uredbe o zastiti podataka (NN 42/18)", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_05_42_805.html", "date": "2018-05-09", "publisherClass": "legal_text"},
+    {"title": "Izdane nove upravne novcane kazne u ukupnom iznosu od 270.700 eura (AZOP)", "url": "https://azop.hr/izdane-nove-upravne-novcane-kazne-u-ukupnom-iznosu-od-270-700-eura/", "date": "2024-09-13", "publisherClass": "official"},
+    {"title": "Izreceno novih sedam upravnih novcanih kazni u iznosu od 169.000 eura (AZOP)", "url": "https://azop.hr/sedam-novih-upravnih-novcanih-kazni-u-iznosu-od-169-000-eura/", "date": "2025-03-24", "publisherClass": "official"},
+    {"title": "KBC Zagreb je kontaktirao AZOP, ali pacijente i dalje nije obavijestio (Faktograf)", "url": "https://faktograf.hr/2024/07/08/kbc-zagreb-je-kontaktirao-azop-ali-pacijente-i-dalje-nije-obavijestio-o-mogucoj-kradi-podataka/", "date": "2024-07-08", "publisherClass": "news"}
+   ]
+  },
+  "commercial": {
+   "score": 56,
+   "summary": "Croatia relies on the GDPR, and its health data law bars collecting health data from secondary sources unless another law allows it. No Croatian ban on selling de-identified health data was verified, and the same law lists commercial use among legitimate data users.",
+   "detail": [
+    "GDPR Article 9 requires an explicit legal basis, such as explicit consent, before health data can be used for marketing or sold.",
+    "Article 31 of the 2019 health data law forbids collecting health data from secondary sources unless a special law permits it. Article 30 lists health, professional, scientific, economic (gospodarsko) and public uses among those of authorised data users.",
+    "No Croatia-specific rule on data brokers, consumer health apps or sale of anonymised data was verified.",
+    "From 2029 the EU EHDS will bar using health data released for secondary use for marketing."
+   ],
+   "sources": [
+    {"title": "Zakon o podacima i informacijama u zdravstvu (NN 14/19, HLK copy)", "url": "https://www.hlk.hr/EasyEdit/UserFiles/propisi/zakon-o-podacima-i-informacijama-u-zdravstvu-nn-14-2019.pdf", "date": "2019-02-07", "publisherClass": "legal_text"},
+    {"title": "Regulation (EU) 2016/679 (GDPR)", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng", "date": "2016-04-27", "publisherClass": "legal_text"},
+    {"title": "European Health Data Space Regulation (European Commission)", "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en", "date": "undated", "publisherClass": "official"}
+   ]
+  },
+  "journey": {
+   "score": 68,
+   "summary": "By law every provider must exchange data through CEZIH, which carries e-prescriptions, e-referrals, lab results and hospital letters. Private clinics outside HZZO contracts got two extensions and now have until 1 January 2027.",
+   "detail": [
+    "Article 28 of the 2019 health data law obliges every healthcare provider in Croatia to exchange health data through CEZIH, run by the HZZO insurer. Records are kept for ten years after death.",
+    "WHO Europe reported in 2016 that all 2,300 general practices, 1,100 pharmacists, 100 primary care labs and 800 outpatient specialists were connected. The WHO Observatory reported e-Karton in 25 hospitals in 2022.",
+    "Private providers outside HZZO contracts were due to connect in January 2026. The deadline moved to July, then to 1 January 2027, and the ministry gave no count of those connected.",
+    "Public health registries sit in a separate national system run by the HZJZ institute and are kept permanently."
+   ],
+   "sources": [
+    {"title": "Zakon o podacima i informacijama u zdravstvu (NN 14/19, HLK copy)", "url": "https://www.hlk.hr/EasyEdit/UserFiles/propisi/zakon-o-podacima-i-informacijama-u-zdravstvu-nn-14-2019.pdf", "date": "2019-02-07", "publisherClass": "legal_text"},
+    {"title": "Developing an integrated e-health system in Croatia (WHO Europe)", "url": "https://www.integratedcare4people.org/practices/327/developing-an-integrated-e-health-system-in-croatia-to-drive-care-improvements/", "date": "2016", "publisherClass": "intergov"},
+    {"title": "Introduction of electronic health records in hospitals (WHO European Observatory)", "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/croatia-2022/introduction-of-electronic-health-records-in-hospitals", "date": "2022-10-21", "publisherClass": "intergov"},
+    {"title": "Rok za prikljucivanje produljen (Glas Slavonije)", "url": "https://www.glas-slavonije.hr/novosti/hrvatska/2026/08/13/rok-za-prikljucivanje-produljen-nalazi-privatnih-lijecnika-tek-od-1-sijecnja-iduce-godine-u-cezih-u-779594/", "date": "2026-08-13", "publisherClass": "news"}
+   ]
+  },
+  "clinical": {
+   "score": 64,
+   "summary": "The chosen family doctor, the paediatrician and clinicians who start treatment can see the e-Karton through CEZIH. Patients can block groups such as emergency doctors, and private findings will be missing until 2027.",
+   "detail": [
+    "Article 16 of the 2023 rulebook gives the chosen family doctor and paediatrician access to e-Karton data and documents, as well as clinicians who begin treatment.",
+    "The e-Karton holds allergies, vaccinations, history, active therapy, implants, prescriptions, lab and specialist findings and discharge letters.",
+    "Patients can deny access to emergency doctors and hospital specialists. A separate emergency override was not verified.",
+    "Imaging is not listed in the rulebook, and findings from private clinics outside HZZO contracts are still on paper."
+   ],
+   "sources": [
+    {"title": "Pravilnik o opsegu i sadrzaju podataka te nacinu vodenja e-Kartona (NN 74/2023)", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_07_74_1210.html", "date": "2023-07-06", "publisherClass": "legal_text"},
+    {"title": "eKarton pravila privatnosti (Ministarstvo zdravstva)", "url": "https://mobilne.portal.zdravlje.hr/ek/ekarton-pravila-privatnosti.html", "date": "2026-06-24", "publisherClass": "official"},
+    {"title": "Rok za prikljucivanje produljen (Glas Slavonije)", "url": "https://www.glas-slavonije.hr/novosti/hrvatska/2026/08/13/rok-za-prikljucivanje-produljen-nalazi-privatnih-lijecnika-tek-od-1-sijecnja-iduce-godine-u-cezih-u-779594/", "date": "2026-08-13", "publisherClass": "news"}
+   ]
+  },
+  "research": {
+   "score": 45,
+   "summary": "The 2019 law allows further processing of health data for research and statistics, with no individual consent or general opt-out found. A national health data access body (CHDC) is being built by the HZJZ institute until November 2027.",
+   "detail": [
+    "Article 5 of the 2019 health data law allows further processing for public-interest archiving, scientific or historical research and statistics. Registries in the national public health system are kept permanently.",
+    "No general opt-out from research use was found. Trials and other research on patients need written, informed consent under Articles 19 and 20 of the patient rights law.",
+    "The HZJZ leads the Croatian Health Data Centre project (EUR 2.94 million, December 2023 to November 2027) to set up the EHDS access body.",
+    "The EHDS opt-out from secondary use applies from 2029."
+   ],
+   "sources": [
+    {"title": "Zakon o podacima i informacijama u zdravstvu (NN 14/19, HLK copy)", "url": "https://www.hlk.hr/EasyEdit/UserFiles/propisi/zakon-o-podacima-i-informacijama-u-zdravstvu-nn-14-2019.pdf", "date": "2019-02-07", "publisherClass": "legal_text"},
+    {"title": "Hrvatski centar za zdravstvene podatke (CHDC) (HZJZ)", "url": "https://www.hzjz.hr/en/projekti/hrvatski-centar-za-zdravstvene-podatke-eng-croatian-health-data-centre-chdc/", "date": "undated", "publisherClass": "official"},
+    {"title": "Zakon o zastiti prava pacijenata (NN 169/04)", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2004_12_169_2953.html", "date": "2004-12-03", "publisherClass": "legal_text"},
+    {"title": "European Health Data Space Regulation (European Commission)", "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en", "date": "undated", "publisherClass": "official"}
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "Clinical AI falls under EU law only: the AI Act and the medical device rules. Croatia named fundamental-rights bodies in 2024, but no national AI law or health-AI rule was verified as adopted.",
+   "detail": [
+    "In December 2024 the justice ministry listed seven bodies, including AZOP and the ombudspersons, to protect fundamental rights in high-risk AI. No health body was on the list.",
+    "In July 2025 the ministry said it was preparing a national framework to name a market surveillance body. Its adoption was not verified.",
+    "High-risk duties for AI inside medical devices apply from 2 August 2028 under the EU AI Act."
+   ],
+   "sources": [
+    {"title": "Objavljen popis nadleznih tijela sukladno Uredbi o umjetnoj inteligenciji (MPUDT)", "url": "https://mpudt.gov.hr/vijesti/objavljen-popis-nadleznih-tijela-sukladno-uredbi-o-umjetnoj-inteligenciji/29657?lang=hr", "date": "2024-12-05", "publisherClass": "official"},
+    {"title": "Hrvatska priprema zakonski okvir za nadzor primjene umjetne inteligencije (financije.hr)", "url": "https://financije.hr/hrvatska-priprema-zakonski-okvir-za-nadzor-primjene-umjetne-inteligencije/", "date": "2025-07-21", "publisherClass": "news"},
+    {"title": "AI Act: regulatory framework for AI (European Commission)", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "date": "undated", "publisherClass": "official"}
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "CEZIH links family doctors, pharmacies, primary care labs and HZZO claims. Hospital letters flow in, but imaging is not listed and private clinics join only in 2027. Registries sit in a separate HZJZ system; the research access body is unfinished.",
+ "laws": [
+  {"name": "Zakon o podacima i informacijama u zdravstvu (NN 14/19)", "level": "National", "year": "2019", "what": "Creates e-Karton, limits access to treating clinicians, obliges every provider to exchange data via CEZIH.", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2019_02_14_269.html"},
+  {"name": "Zakon o zastiti prava pacijenata (NN 169/04)", "level": "National", "year": "2004", "what": "Right to the whole medical record, copies at own cost; written consent for research.", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2004_12_169_2953.html"},
+  {"name": "Pravilnik o opsegu i sadrzaju podataka te nacinu vodenja e-Kartona (NN 74/2023)", "level": "National", "year": "2023", "what": "Sets e-Karton contents and access; portal must show who viewed which data and when.", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_07_74_1210.html"},
+  {"name": "Zakon o provedbi Opce uredbe o zastiti podataka (NN 42/18)", "level": "National", "year": "2018", "what": "Implements GDPR; public authorities cannot be fined by AZOP.", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_05_42_805.html"},
+  {"name": "General Data Protection Regulation (EU) 2016/679", "level": "Supranational", "year": "2016", "what": "Health is special-category data; fines up to EUR 20M or 4% of turnover.", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"},
+  {"name": "European Health Data Space Regulation (EU) 2025/327", "level": "Supranational", "year": "2025", "what": "Free access, access log, restriction rights and secondary-use opt-out; main parts apply from 2029.", "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"},
+  {"name": "Artificial Intelligence Act (EU) 2024/1689", "level": "Supranational", "year": "2024", "what": "Risk-based AI rules; high-risk duties for AI in medical devices from August 2028.", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"}
+ ],
+ "news": [
+  {"date": "2025-10-08", "headline": "Regulator fines unnamed firm EUR 35,000 after ransomware attack", "source": "Bug.hr", "url": "https://www.bug.hr/propisi/bili-zrtvom-ransomware-napada-a-onda-ih-kaznio-i-azop-54285", "why": "Firm reported to be in healthcare; no two-factor VPN and old servers were faulted."},
+  {"date": "2026-01-02", "headline": "Health ministry says private clinics will join CEZIH by mid-2026", "source": "Telegram.hr", "url": "https://www.telegram.hr/politika-kriminal/hdz-ova-ministrica-u-2026-uvjerava-gradane-da-ce-digitalizacija-reformirati-zdravstvo/", "why": "Private findings would join the national record, ending repeat tests."},
+  {"date": "2026-06-09", "headline": "Hackers hit health ministry applications; ministry says patient records untouched", "source": "Glas Slavonije", "url": "https://www.glas-slavonije.hr/novosti/hrvatska/2026/06/09/hakirano-i-ministarstvo-zdravstva-767983/", "why": "Shows repeated attacks on the systems that hold national health data."},
+  {"date": "2026-08-13", "headline": "Private clinics' CEZIH deadline pushed again, to 1 January 2027", "source": "Glas Slavonije", "url": "https://www.glas-slavonije.hr/novosti/hrvatska/2026/08/13/rok-za-prikljucivanje-produljen-nalazi-privatnih-lijecnika-tek-od-1-sijecnja-iduce-godine-u-cezih-u-779594/", "why": "Patients keep carrying paper findings from private doctors for another year."},
+  {"date": "2026-08-23", "headline": "Hacker group claims leak of 9,400 records from unnamed Croatian clinic", "source": "DuList", "url": "https://dulist.hr/srpski-hakeri-objavili-na-tisuce-osjetljivih-zdravstvenih-zapisa-hrvata/1040640", "why": "Claimed leak includes diagnoses, medicines and doctors' notes; not yet confirmed."}
+ ],
+ "asOf": "2026-10-01"
+}

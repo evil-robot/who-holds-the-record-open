@@ -1,0 +1,385 @@
+{
+  "iso3": "AUS",
+  "name": "Australia",
+  "region": "Oceania",
+  "controlModel": "Shared",
+  "headline": "Australia's opt-out national record holds over 25 million records patients can lock and audit, and test results now upload to it by default.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 70,
+      "summary": "My Health Record held 25.16 million records in July 2026, and from 1 July 2026 pathology and imaging reports must be uploaded by default. It is a summary, not the full chart, and copies from providers may carry a fee.",
+      "detail": [
+        "The Australian Digital Health Agency counted 25.16 million records and over 2.4 billion documents in July 2026. Records hold shared health summaries, prescriptions and dispensing, pathology and imaging reports, discharge summaries, immunisations and Medicare claims history (healthdirect).",
+        "From 1 July 2026 pathology and diagnostic imaging reports must be uploaded unless an exception applies. The Agency says consumer views of these reports rose 433% to over 3 million a week by 7 June 2026.",
+        "For the full chart, the Privacy Act gives a right to request access from each provider. The OAIC treats 30 days as a reasonable period; a fee is allowed but cannot be excessive. Public hospitals fall under state law, such as NSW's HRIP Act.",
+        "Providers keep their own records, and a new record may hold little until a doctor uploads a summary (healthdirect). Machine-readable export of the whole record was not verified. The score sits in the 60 to 75 band for a national portal showing part of the record."
+      ],
+      "sources": [
+        {
+          "title": "My Health Record statistics and insights, July 2026 (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/sites/default/files/documents/my-health-record-statistics-july-2026-landscape.pdf",
+          "date": "2026-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Australians already seeing the benefits of sharing health information by default (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/newsroom/media/australians-already-seeing-the-benefits-of-sharing-health-information-by-default",
+          "date": "2026-07-08",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Access your health information (OAIC)",
+          "url": "https://www.oaic.gov.au/privacy/your-privacy-rights/health-information/access-your-health-information",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "About My Health Record (healthdirect, Australian Government)",
+          "url": "https://www.healthdirect.gov.au/my-health-record",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 68,
+      "summary": "People can cancel the record, lock it or single documents with access codes, stop uploads, and read an access log with alerts. But the default lets every treating provider see everything, and only about 72,000 people use advanced access controls.",
+      "detail": [
+        "Records are created by default. The System Operator must cancel a record on written request and then destroy its health information (My Health Records Act, ss 17 and 51). The record can also be deleted at any time (healthdirect).",
+        "A Record Access Code limits the whole record to providers given the code; a Limited Document Access Code protects documents marked restricted. Patients can remove providers from the access list and remove documents. A provider must follow a request not to upload (OAIC; Act s 10B).",
+        "The access history shows the date, time, organisation and action for every access. People can ask for an SMS or email when a provider opens the record for the first time or in an emergency (OAIC).",
+        "Controls work per organisation, not per staff member, and emergency access overrides them. The Agency counted over 72,000 people with advanced access controls in July 2026, out of 25.16 million records."
+      ],
+      "sources": [
+        {
+          "title": "My Health Record access controls (OAIC)",
+          "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/health-service-providers/my-health-record/my-health-record-access-controls",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Manage your My Health Record (OAIC)",
+          "url": "https://www.oaic.gov.au/privacy/your-privacy-rights/health-information/my-health-record/manage-your-my-health-record",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "My Health Records Act 2012 (compilation C2026C00277, 1 July 2026)",
+          "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+          "date": "2026-07-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "My Health Record statistics and insights, July 2026 (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/sites/default/files/documents/my-health-record-statistics-july-2026-landscape.pdf",
+          "date": "2026-07",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 62,
+      "summary": "In October 2025 the Federal Court ordered Australian Clinical Labs to pay $5.8 million, the first civil penalties under the Privacy Act, for a pathology breach. Yet health providers led 2025 breach notifications with 225 of a record 1,205.",
+      "detail": [
+        "The Privacy Act treats health information as sensitive information. The OAIC is the independent regulator for the Privacy Act and the My Health Record system (OAIC digital health report 2024-25).",
+        "The ACL penalty covered a 2022 Medlab Pathology attack that exfiltrated data on over 223,000 people: $4.2 million for failing to protect data, plus $800,000 each for a slow breach assessment and late notice to the Commissioner.",
+        "The OAIC received 1,205 breach notifications in 2025, up 8%, the most since the scheme began in 2018. Health service providers were the top sector with 225 (19%). The OAIC logged 18 breach notifications about My Health Record in 2024-25, down from 39.",
+        "Section 69A of the My Health Records Act lets government agencies obtain record data only under an order by a judicial officer. The second tranche of Privacy Act reform is still an exposure draft, out for consultation until 18 September 2026 (IAPP)."
+      ],
+      "sources": [
+        {
+          "title": "Australian Clinical Labs ordered to pay penalties in relation to Medlab Pathology data breach (OAIC)",
+          "url": "https://www.oaic.gov.au/news/media-centre/australian-clinical-labs-ordered-to-pay-penalties-in-relation-to-medlab-pathology-data-breach-in-first-for-privacy-act",
+          "date": "2025-10-09",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data breach notifications increase to all-time high in 2025, new NDB stats show (OAIC)",
+          "url": "https://www.oaic.gov.au/news/media-centre/data-breach-notifications-increase-to-all-time-high-in-2025,-new-ndb-stats-show",
+          "date": "2026-07-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Annual report of the Australian Information Commissioner's activities in relation to digital health 2024-25 (OAIC)",
+          "url": "https://www.oaic.gov.au/about-the-OAIC/our-corporate-information/digital-health-annual-reports/annual-report-of-the-australian-information-commissioners-activities-in-relation-to-digital-health-202425",
+          "date": "2025-10-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Australia publishes initial proposals for second wave of Privacy Act reforms (IAPP)",
+          "url": "https://iapp.org/news/a/australia-publishes-initial-proposals-for-second-wave-of-privacy-act-reforms",
+          "date": "2026-08-31",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 65,
+      "summary": "The My Health Records Act bans use of record data for insurance underwriting or employment, with civil penalties of 1,500 penalty units. In June 2026 the regulator ruled that health websites need consent before tracking pixels feed advertising.",
+      "detail": [
+        "Section 70A defines prohibited purposes: underwriting or deciding on insurance cover, and an employer's hiring or firing decisions. Section 59A sets a civil penalty of 1,500 penalty units for such use. Section 16 bars giving de-identified record data to any insurer.",
+        "The framework for research use of record data says data will not be used solely for commercial purposes and must not be sold (Australian Digital Health Agency).",
+        "On 24 June 2026 the Privacy Commissioner found telehealth provider Medmate and Monash IVF interfered with privacy by collecting health data through third-party tracking pixels used for social media ad targeting. The OAIC said 9 in 10 Australians see such targeting as unfair.",
+        "Outside My Health Record, apps and data brokers fall under the general Privacy Act. A proposed fair and reasonable test for data handling is only in the 2026 exposure draft (IAPP)."
+      ],
+      "sources": [
+        {
+          "title": "My Health Records Act 2012 (compilation C2026C00277, 1 July 2026)",
+          "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+          "date": "2026-07-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Privacy Commissioner finds privacy breaches in third-party tracking pixel investigation (OAIC)",
+          "url": "https://www.oaic.gov.au/news/media-centre/privacy-commissioner-finds-privacy-breaches-in-third-party-tracking-pixel-investigation",
+          "date": "2026-06-24",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Secondary use of data (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/initiatives-and-programs/my-health-record/manage-your-record/privacy-and-access/secondary-use-of-data",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 70,
+      "summary": "One national record links GPs, pharmacies, public hospitals, labs and imaging: 99% of GPs and pharmacies and 97% of public hospitals are registered. Specialists and aged care lag, and the national exchange program is still being built.",
+      "detail": [
+        "In July 2026, 99% of GPs and 99% of pharmacies were registered and had used My Health Record; 97% of public hospitals were registered and 95% had used it. Only 45% of specialists and 21% of aged care services had used it (Agency statistics).",
+        "Pathology reports in the record rose from 63 million to 140 million, and imaging reports from 7.5 million to 13.1 million, between July 2025 and July 2026. Upload is now required by default.",
+        "Medicare and PBS claims and Australian Immunisation Register data can flow into the record (OAIC). The Agency reported over 370 million electronic prescriptions generated as of July 2025.",
+        "Health Connect Australia, a national health information exchange program built on FHIR standards and the record, is still in delivery. Record data has not yet been released for research."
+      ],
+      "sources": [
+        {
+          "title": "My Health Record statistics and insights, July 2026 (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/sites/default/files/documents/my-health-record-statistics-july-2026-landscape.pdf",
+          "date": "2026-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Connect Australia (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/health-connect-australia",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Understanding the Exploration of Electronic Prescriptions in Australia (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/newsroom/blogs/understanding-the-exploration-of-electronic-prescriptions-in-australia",
+          "date": "2025-10-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "My Health Record (Share by Default) Rules 2025 (F2025L01569)",
+          "url": "https://www.legislation.gov.au/F2025L01569/asmade/text",
+          "date": "2025-12-12",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 66,
+      "summary": "GPs, pharmacists and public hospital staff can open a patient's national record at the point of care, with an emergency override. But it holds summaries and reports, not each provider's full notes, and specialist use is low.",
+      "detail": [
+        "By default every provider organisation involved in a patient's care can view all clinical documents, unless the patient has set access codes (OAIC).",
+        "Section 64 of the Act lets a participant access the record without consent to prevent a serious threat to life, health or safety, and the patient can be alerted. Providers may not refuse care because a patient set access controls.",
+        "Use is near universal in general practice, pharmacy and public hospitals, but only 45% of specialists and 21% of aged care services had used the record by July 2026.",
+        "The record does not replace providers' own records (healthdirect), so detailed notes still travel by letter or local systems."
+      ],
+      "sources": [
+        {
+          "title": "My Health Record access controls (OAIC)",
+          "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/health-service-providers/my-health-record/my-health-record-access-controls",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "My Health Records Act 2012 (compilation C2026C00277, 1 July 2026)",
+          "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+          "date": "2026-07-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "My Health Record statistics and insights, July 2026 (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/sites/default/files/documents/my-health-record-statistics-july-2026-landscape.pdf",
+          "date": "2026-07",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "People can switch off research use of their My Health Record, but that data has not yet been released and other health data has no general opt-out. Ethics committees can approve use without consent under NHMRC guidelines, inside a registered data-sharing scheme.",
+      "detail": [
+        "Record holders can choose Do not participate under Research and Public health in their settings. The AIHW is custodian, but the governance board is still to be established and release will start only once infrastructure is in place (Australian Digital Health Agency).",
+        "The Act allows identified record data for research only with the person's consent, and bars release to insurers (ss 15(ma), 16).",
+        "Under the Section 95A guidelines, remade in 2024, a human research ethics committee may approve use of health information held by organisations without consent after weighing the public interest (NHMRC).",
+        "The DATA Scheme requires accredited users, a public register of data-sharing agreements, no sharing before registration, and bans re-identification (Office of the National Data Commissioner). Four safeguard classes (ethics body, public register, re-identification ban, a partial opt-out) reach the band cap of 50."
+      ],
+      "sources": [
+        {
+          "title": "Secondary use of data (Australian Digital Health Agency)",
+          "url": "https://www.digitalhealth.gov.au/initiatives-and-programs/my-health-record/manage-your-record/privacy-and-access/secondary-use-of-data",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Guidelines approved under Section 95A of the Privacy Act 1988 (NHMRC)",
+          "url": "https://www.nhmrc.gov.au/about-us/publications/guidelines-approved-under-section-95a-privacy-act-1988",
+          "date": "2024",
+          "publisherClass": "official"
+        },
+        {
+          "title": "The DATA Scheme safeguards (Office of the National Data Commissioner)",
+          "url": "https://www.datacommissioner.gov.au/data-scheme/data-scheme-safeguards",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "My Health Records Act 2012 (compilation C2026C00277, 1 July 2026)",
+          "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+          "date": "2026-07-01",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 55,
+      "summary": "The TGA regulates AI software that meets the device definition, requires notice of significant changes, and is starting compliance action on AI scribes. But change control for adaptive AI is case by case, no human oversight mandate exists, and mandatory AI guardrails were dropped.",
+      "detail": [
+        "The TGA's July 2025 review found the device framework largely fit for purpose but short on guidance. Sponsors must notify significant changes, yet change control for adaptive AI is set case by case; pre-approved change control plans are still being discussed with other regulators.",
+        "The review notes Europe mandates human oversight for high-risk AI; no Australian mandate was found. The TGA said in August 2026 it does not intend new regulations or legislation (Medical Republic).",
+        "After a 12-month review, the TGA said it is starting compliance action against scribe suppliers operating as unapproved medical devices, citing scope creep and weak monitoring.",
+        "The December 2025 National AI Plan paused mandatory guardrails and relies on existing laws plus a $30 million AI Safety Institute (ABC). Device regulation is in force but change control is case by case with no pre-approved plans, so the cell sits at 55, the band floor, below Canada (56)."
+      ],
+      "sources": [
+        {
+          "title": "Report: Clarifying and strengthening the regulation of Medical Device Software including AI, v1.0 (TGA)",
+          "url": "https://consultations.tga.gov.au/tga/clarifying-and-strengthening-the-regulation-of-ai/supporting_documents/tga-report-clarifying-and-strengthening-the-regulation-of-medical-device-software-including-artificial-intelligence-aipdf",
+          "date": "2025-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "TGA AI Review: Outcomes report published (TGA)",
+          "url": "https://www.tga.gov.au/news/news-articles/tga-ai-review-outcomes-report-published",
+          "date": "2025-07-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "TGA flags compliance action on AI scribes as review finds safety concerns (Medical Republic)",
+          "url": "https://www.medicalrepublic.com.au/tga-flags-compliance-action-on-ai-scribes-as-review-finds-safety-concerns/127888",
+          "date": "2026-08-04",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Government drops AI 'mandatory guardrails', reveals road map on data centres (ABC News)",
+          "url": "https://www.abc.net.au/news/2025-12-02/national-artificial-intelligence-plan-growth-existing-laws/106086474",
+          "date": "2025-12-02",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "partial",
+    "research": "siloed"
+  },
+  "journeyNote": "GPs, pharmacies and 97% of public hospitals use the national record, and lab and imaging reports upload by default. Claims and immunisations flow in. Specialists and aged care lag, and record data is not yet released for research.",
+  "laws": [
+    {
+      "name": "My Health Records Act 2012",
+      "level": "National",
+      "year": "2012",
+      "what": "Opt-out national record; access controls, cancellation, insurance and employment bans, court order for agency access.",
+      "url": "https://www.legislation.gov.au/C2012A00063/latest/text"
+    },
+    {
+      "name": "Health Legislation Amendment (Modernising My Health Record, Sharing by Default) Act 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Requires prescribed providers to share key information to My Health Record by default.",
+      "url": "https://www.legislation.gov.au/C2025A00008/asmade/text"
+    },
+    {
+      "name": "Privacy Act 1988",
+      "level": "National",
+      "year": "1988",
+      "what": "Health data is sensitive information; right of access (APP 12), breach notification, civil penalties.",
+      "url": "https://www.legislation.gov.au/C2004A03712/latest/text"
+    },
+    {
+      "name": "Privacy and Other Legislation Amendment Act 2024",
+      "level": "National",
+      "year": "2024",
+      "what": "First tranche of reform: new OAIC enforcement powers, automated decision transparency, statutory privacy tort.",
+      "url": "https://www.legislation.gov.au/C2024A00128/asmade/text"
+    },
+    {
+      "name": "Data Availability and Transparency Act 2022",
+      "level": "National",
+      "year": "2022",
+      "what": "Accredited sharing of public sector data with registered agreements and a re-identification ban.",
+      "url": "https://www.legislation.gov.au/C2022A00011/latest/text"
+    },
+    {
+      "name": "Therapeutic Goods Act 1989",
+      "level": "National",
+      "year": "1989",
+      "what": "Regulates medical devices, including software and AI that meet the device definition.",
+      "url": "https://www.legislation.gov.au/C2004A03952/latest/text"
+    },
+    {
+      "name": "Health Records and Information Privacy Act 2002 (NSW)",
+      "level": "State/Provincial",
+      "year": "2002",
+      "what": "Right to access health information held by NSW public and private providers.",
+      "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2002-071"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-09",
+      "headline": "Court orders first Privacy Act civil penalties over pathology lab breach",
+      "source": "OAIC",
+      "url": "https://www.oaic.gov.au/news/media-centre/australian-clinical-labs-ordered-to-pay-penalties-in-relation-to-medlab-pathology-data-breach-in-first-for-privacy-act",
+      "why": "Health data holders now face real fines for weak security and late notice."
+    },
+    {
+      "date": "2025-11-12",
+      "headline": "Genea IVF patients criticise response to breach exposing sensitive medical data",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2025-11-12/genea-ivf-data-breach-fallout-ongoing-cyber-concerns-raised/105984716",
+      "why": "Fertility patients' records were exposed and no formal investigation had begun."
+    },
+    {
+      "date": "2026-06-24",
+      "headline": "Regulator finds telehealth and IVF sites used ad pixels without consent",
+      "source": "OAIC",
+      "url": "https://www.oaic.gov.au/news/media-centre/privacy-commissioner-finds-privacy-breaches-in-third-party-tracking-pixel-investigation",
+      "why": "Health websites must get consent before tracking feeds advertising."
+    },
+    {
+      "date": "2026-07-08",
+      "headline": "Pathology and imaging reports now upload to My Health Record by default",
+      "source": "Australian Digital Health Agency",
+      "url": "https://www.digitalhealth.gov.au/newsroom/media/australians-already-seeing-the-benefits-of-sharing-health-information-by-default",
+      "why": "Patients see their test results without asking each lab."
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "TGA moves to compliance action against unapproved AI scribe suppliers",
+      "source": "Medical Republic",
+      "url": "https://www.medicalrepublic.com.au/tga-flags-compliance-action-on-ai-scribes-as-review-finds-safety-concerns/127888",
+      "why": "AI tools that shape clinical notes may need device approval."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

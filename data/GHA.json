@@ -1,0 +1,370 @@
+{
+ "iso3": "GHA",
+ "name": "Ghana",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Ghana's data law gives patients a 40-day right of access, but records sit in a state-owned hospital system rebuilt after a 2025 vendor shutdown.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Act 843 lets you ask any provider for your data, with a reply due within 40 days, but the request can carry a prescribed fee. There is no national patient portal: the official MyNHIS app covers insurance membership, not records.",
+   "detail": [
+    "Under sections 32 and 35 of the Data Protection Act, 2012 (Act 843), a data subject who proves identity can learn what data a controller holds, its source and who has had access. Section 35(10) requires a reply within forty days. Section 32 allows a reasonable cost and a prescribed fee.",
+    "Section 83 says no one can be required to hand over their own health records, for example as a condition of a service. Health data is special personal data under section 37.",
+    "A 2015 legal paper reports that a 2010 High Court case, Vaah v Lister, treated access to medical records as a constitutional right, while the authors argued the Act makes access closer to a privilege. Ghana has no separate health records law.",
+    "The National Health Insurance Authority's MyNHIS app lets members register, renew and see facility, medicines and benefit lists. It does not show clinical records. We found no national portal for notes, labs or imaging."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2012 (Act 843), full text (WHO Compendium of Public Health Legislation copy)",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GHA_Ghana_Data-Protection-Act_2012.pdf",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "MyNHIS app listing, National Health Insurance Authority (Google Play)",
+     "url": "https://play.google.com/store/apps/details?id=gh.gov.nhis.android.nma&hl=en",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Patients' access to medical records: is it a privilege or a right? (Advances in Applied Sociology)",
+     "url": "https://file.scirp.org/Html/1-2290290_61714.htm",
+     "date": "2015-12",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "On paper the Act lets you object to processing and learn who has had access, but health processing by clinicians is presumed necessary and no opt-out or patient access log works in practice (not verified). Hospital records now sit in a state-owned system by design.",
+   "detail": [
+    "Section 20 of Act 843 bars processing without prior consent unless an exception applies, including a statutory duty or legitimate interest, and lets a person object. Section 37(6)(e) presumes health data processing necessary for medical purposes by a health professional under a duty of confidentiality.",
+    "The Ghana Health Service Patients Charter says information about a patient must not go to a third party without consent, unless the law or the public interest requires it. It also requires consent before case notes are used for teaching.",
+    "The Health Minister said in October 2025 that GHIMS belongs to the state, that vendors must hand data and admin access to the state, and that all systems will plug into a central exchange. Nothing in that plan gives patients a sharing choice or a log.",
+    "Section 32(1)(b) gives a right to a description of who has had access, but we found no tool that shows a patient an access log. These paper rights are not verified in practice, so they earn no move into the 40 to 55 band."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2012 (Act 843), full text (WHO Compendium of Public Health Legislation copy)",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GHA_Ghana_Data-Protection-Act_2012.pdf",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The GHS Patients Charter (Ghana Health Service, posted by Nandom Municipal Health Directorate)",
+     "url": "https://www.nandomdistrict.gov.gh/wp-content/uploads/2026/07/Ghana-Health-Service-Patients-Charter_Nandom-MHD.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "GHIMS gives state ownership of Ghanaian medical records, Health Minister (Information Services Department)",
+     "url": "https://www.isd.gov.gh/ghims-gives-state-ownership-of-ghanaian-medical-records-health-minister/",
+     "date": "2025-10-29",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health is special personal data under Act 843, breaches must be reported, and selling personal data carries up to five years in prison. But the Commission runs from one office, declared 2026 a year of enforcement, and reports complaints about improper disclosure of health records.",
+   "detail": [
+    "Section 31 requires notice to the Data Protection Commission and the person as soon as reasonably practicable after unauthorised access. Section 62 bars disclosure of physical or mental health data unless the law requires it. Section 89 makes selling personal data an offence with up to 2,500 penalty units or five years in prison.",
+    "Section 60 exempts processing for public order, safety, morality, national security or public interest, proven by a ministerial certificate, subject to judicial review.",
+    "In January 2026 the Commission's executive director called 2026 a year of enforcement and listed complaints about improper disclosure of health records. In August 2026 he said the Commission operated only from its head office and would watch how health data is stored and shared.",
+    "Ghana is not on the European Commission's adequacy list, so EU transfers to Ghana need other safeguards. The EHDS does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2012 (Act 843), full text (WHO Compendium of Public Health Legislation copy)",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GHA_Ghana_Data-Protection-Act_2012.pdf",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "2026 will be a year of enforcement, Data Protection Commission warns (Ghana News Agency)",
+     "url": "https://gna.org.gh/2026/01/2026-will-be-a-year-of-enforcement-data-protection-commission-warns/",
+     "date": "2026-01-31",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Data Protection Commission steps up enforcement with new vehicles (Graphic Online)",
+     "url": "https://www.graphic.com.gh/news/general-news/data-protection-commission-steps-up-enforcement-with-new-vehicles.html",
+     "date": "2026-08-22",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 48,
+   "summary": "Act 843 requires prior written consent for direct marketing and makes buying or selling personal data a crime, which the regulator restated in 2026. We found no health-specific rules for apps, brokers or de-identified data, and no published health enforcement case.",
+   "detail": [
+    "Section 40 bars using a person's data for direct marketing without prior written consent and lets them stop it at any time by written notice. Section 88 makes purchasing another person's data an offence. Section 89 punishes selling or offering to sell it, with up to five years in prison.",
+    "In January 2026 the Commission's executive director said selling personal data is illegal even where people seem to have given it voluntarily, and warned against marketing without informed consent.",
+    "These are general rules. We found no rule on consumer health apps, data brokers or sale of de-identified health data, and no fine or prosecution involving health data.",
+    "The Pharmacy Council's e-pharmacy policy requires online pharmacies to register with the Commission and keep purchase data confidential except as the law requires."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2012 (Act 843), full text (WHO Compendium of Public Health Legislation copy)",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GHA_Ghana_Data-Protection-Act_2012.pdf",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "2026 will be a year of enforcement, Data Protection Commission warns (Ghana News Agency)",
+     "url": "https://gna.org.gh/2026/01/2026-will-be-a-year-of-enforcement-data-protection-commission-warns/",
+     "date": "2026-01-31",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Electronic Pharmacy Policy (Pharmacy Council, Ghana)",
+     "url": "https://pcghana.org/newwebsite/wp-content/uploads/2024/08/EPHARMACY-POLICY.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 35,
+   "summary": "Insurance claims are almost fully electronic (99.96 percent by end of 2024), but hospital records were split when the LHIMS system went down in 2025. Its state-owned replacement, GHIMS, began at teaching hospitals in November 2025; its current reach is not verified.",
+   "detail": [
+    "The Health Minister said the 2019 LHIMS contract aimed to connect 950 facilities but reached 450. The vendor's own count, cited in the Ghana Medical Journal, was 253 major facilities. When the vendor switched the system off, hospitals went back to paper.",
+    "GHIMS rollout began at Tamale Teaching Hospital in November 2025 under a Ministry of Health national rollout team. We found no official 2026 count of facilities live on GHIMS (not verified).",
+    "The National Health Insurance Authority says about 99.96 percent of claims were submitted electronically between 2023 and the end of 2024, through its ClaimsIT system.",
+    "The same journal review says LHIMS was built without global exchange standards such as HL7 FHIR and was pushed to all public facilities regardless of internet access or readiness."
+   ],
+   "sources": [
+    {
+     "title": "GHIMS gives state ownership of Ghanaian medical records, Health Minister (Information Services Department)",
+     "url": "https://www.isd.gov.gh/ghims-gives-state-ownership-of-ghanaian-medical-records-health-minister/",
+     "date": "2025-10-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "GHIMS rollout begins at Tamale Teaching Hospital (Tamale Teaching Hospital)",
+     "url": "https://www.tth.gov.gh/blog/ghims-rollout-begins-at-tamale-teaching-hospital",
+     "date": "2025-11-08",
+     "publisherClass": "official"
+    },
+    {
+     "title": "NHIA's electronic claims system enhances efficiency in healthcare reimbursement (National Health Insurance Authority)",
+     "url": "https://www.nhis.gov.gh/News/nhia%E2%80%99s-electronic-claims-system-enhances-efficiency-in-healthcare-reimbursement-5656",
+     "date": "2025-02-28",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Beyond a single system: lessons from Ghana's discontinued national EHR (Ghana Medical Journal, PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12877703/",
+     "date": "2025-12",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 28,
+   "summary": "A clinician sees what is in their own facility system, and since 2025 that system may be the new state-owned GHIMS. Cross-facility viewing through the national exchange is planned but its use at the bedside is not verified.",
+   "detail": [
+    "The vendor said LHIMS ran as separate databases at each hospital, with backups at the Ministry of Health. A Ghana Medical Journal review reports that hospitals were forced back to paper when the system was switched off in 2025.",
+    "The Ministry says GHIMS and its exchange will let records follow patients across facilities. A July 2026 Ghana Health Service project plans HL7 FHIR links between a national teleconsultation centre, GHIMS and e-Tracker, which shows the links were still being built.",
+    "We found no rule on emergency access or on clinician access to records held by private providers."
+   ],
+   "sources": [
+    {
+     "title": "GHIMS gives state ownership of Ghanaian medical records, Health Minister (Information Services Department)",
+     "url": "https://www.isd.gov.gh/ghims-gives-state-ownership-of-ghanaian-medical-records-health-minister/",
+     "date": "2025-10-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ghana Health Service and JICA launch National Teleconsultation Center project (Ghana Health Service)",
+     "url": "https://ghs.gov.gh/news-and-events/ghana-health-service-and-jica-launch-national-teleconsultation-center-project-to-drive-universal-health-coverage",
+     "date": "2026-07-24",
+     "publisherClass": "official"
+    },
+    {
+     "title": "We don't own patient data; it belongs to the MOH, LHIMS Project Manager (MyJoyOnline)",
+     "url": "https://www.myjoyonline.com/we-dont-own-patient-data-it-belongs-to-the-moh-lhims-project-manager/",
+     "date": "2025-10-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Beyond a single system: lessons from Ghana's discontinued national EHR (Ghana Medical Journal, PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12877703/",
+     "date": "2025-12",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Trials need FDA approval, ethics clearance, PACTR registration and written informed consent under the Public Health Act. Record reuse for research falls under a broad Act 843 exemption with no consent or opt-out; three safeguard classes (ethics body, public trial register, Act 843 misuse offences) give 49.",
+   "detail": [
+    "Section 158 of the Public Health Act, 2012 (Act 851) says an authorised trial cannot start until each adult gives voluntary written informed consent, or a parent or guardian for a child. The Patients Charter adds a right to refuse or withdraw without losing care.",
+    "The FDA's January 2024 trial guideline requires ethics committee approval and registration with the Pan African Clinical Trials Registry, and says approved trials are listed on the FDA registry.",
+    "Section 65 of Act 843 allows further processing for research and indefinite retention, and exempts research data from the Act if results do not identify people. There is no individual consent or opt-out for this reuse."
+   ],
+   "sources": [
+    {
+     "title": "Public Health Act, 2012 (Act 851), full text (Ministry of Health)",
+     "url": "https://www.moh.gov.gh/wp-content/uploads/2016/02/Public-Health-Act-851.pdf",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Guideline for Authorization of Clinical Trials of Medicines, Food Supplements, Vaccines and Medical Devices in Ghana (Food and Drugs Authority)",
+     "url": "https://fdaghana.gov.gh/guideline-for-authorization-of-clinical-trials-of-medicines-food-supplements-vaccines-and-medical-devices-in-ghana/",
+     "date": "2024-01-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Data Protection Act, 2012 (Act 843), full text (WHO Compendium of Public Health Legislation copy)",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GHA_Ghana_Data-Protection-Act_2012.pdf",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The GHS Patients Charter (Ghana Health Service, posted by Nandom Municipal Health Directorate)",
+     "url": "https://www.nandomdistrict.gov.gh/wp-content/uploads/2026/07/Ghana-Health-Service-Patients-Charter_Nandom-MHD.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 40,
+   "summary": "The FDA's 2017 software-as-a-medical-device guideline requires registration and approval for significant changes, including algorithm changes, but has nothing specific on AI or human oversight. A national AI-in-health policy was still being drafted in August 2026.",
+   "detail": [
+    "The FDA guideline, adopted in November 2017 and based on IMDRF definitions, requires registration of medical software, post-market surveillance and variation applications for significant changes. It lists modification of an algorithm affecting diagnosis or therapy as a change to assess.",
+    "In August 2026 the Ministry of Health said it was developing a National AI Health Policy and Guidelines covering approval, validation, human oversight and monitoring. It reported that 44 percent of surveyed stakeholders already use or pilot AI.",
+    "A WHO and UNDP programme launched in May 2026 aims to build AI governance capacity and data protection for health. In March 2026 the communications minister announced a new data protection bill and an emerging technologies bill to cover AI. Neither is law yet.",
+    "Section 41 of Act 843 lets people demand that significant decisions are not made solely by automated means."
+   ],
+   "sources": [
+    {
+     "title": "Guideline for Registration of Software as a Medical Device, FDA/MCH/MDD/GL-RSAMD/2017/03 (Food and Drugs Authority)",
+     "url": "https://fdaghana.gov.gh/guideline-for-registration-of-software-as-medical-device-3/",
+     "date": "2017-12-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ghana launches AI-driven health programme to strengthen systems and safeguard communities (WHO Regional Office for Africa)",
+     "url": "https://www.afro.who.int/countries/ghana/news/ghana-launches-artificial-intelligence-driven-health-programme-strengthen-systems-and-safeguard",
+     "date": "2026-05-17",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Health Ministry develops AI policy to guide safe use of artificial intelligence in Ghana's healthcare system (MyJoyOnline)",
+     "url": "https://www.myjoyonline.com/health-ministry-develops-ai-policy-to-guide-safe-use-of-artificial-intelligence-in-ghanas-healthcare-system/",
+     "date": "2026-08-06",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Govt to introduce new Data Protection Bill to regulate AI, cross-border data flows (Ghana News Agency)",
+     "url": "https://gna.org.gh/2026/03/govt-to-introduce-new-data-protection-bill-to-regulate-ai-cross-border-data-flows/",
+     "date": "2026-03-02",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "partial",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Claims run through NHIA's electronic system. Hospital records moved from LHIMS to state-owned GHIMS from late 2025, with live coverage not verified. E-pharmacy covers online orders; no national lab record was found.",
+ "laws": [
+  {
+   "name": "Data Protection Act, 2012 (Act 843)",
+   "level": "National",
+   "year": "2012",
+   "what": "Health is special data; 40-day access; breach notice; written consent for marketing; selling data is a crime.",
+   "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/GHA_Ghana_Data-Protection-Act_2012.pdf"
+  },
+  {
+   "name": "Public Health Act, 2012 (Act 851)",
+   "level": "National",
+   "year": "2012",
+   "what": "FDA powers over medical devices; clinical trials need authorisation and written informed consent (section 158).",
+   "url": "https://www.moh.gov.gh/wp-content/uploads/2016/02/Public-Health-Act-851.pdf"
+  },
+  {
+   "name": "FDA Guideline for Registration of Software as a Medical Device",
+   "level": "National",
+   "year": "2017",
+   "what": "Registration, post-market surveillance and change approval for medical software; no AI-specific rules.",
+   "url": "https://fdaghana.gov.gh/guideline-for-registration-of-software-as-medical-device-3/"
+  },
+  {
+   "name": "FDA Guideline for Authorization of Clinical Trials",
+   "level": "National",
+   "year": "2024",
+   "what": "Ethics approval, informed consent forms and PACTR registration required before trials.",
+   "url": "https://fdaghana.gov.gh/guideline-for-authorization-of-clinical-trials-of-medicines-food-supplements-vaccines-and-medical-devices-in-ghana/"
+  },
+  {
+   "name": "Ghana Health Service Patients Charter",
+   "level": "National",
+   "year": "not verified",
+   "what": "Confidentiality without consent except by law or public interest; right to refuse research.",
+   "url": "https://www.nandomdistrict.gov.gh/wp-content/uploads/2026/07/Ghana-Health-Service-Patients-Charter_Nandom-MHD.pdf"
+  },
+  {
+   "name": "Pharmacy Council Electronic Pharmacy Policy",
+   "level": "National",
+   "year": "not verified",
+   "what": "All e-pharmacy orders through the national platform; registration with the Data Protection Commission.",
+   "url": "https://pcghana.org/newwebsite/wp-content/uploads/2024/08/EPHARMACY-POLICY.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-29",
+   "headline": "Health Minister launches state-owned GHIMS after vendor switches off LHIMS",
+   "source": "Information Services Department",
+   "url": "https://www.isd.gov.gh/ghims-gives-state-ownership-of-ghanaian-medical-records-health-minister/",
+   "why": "Hospital records moved to a state system; patients faced paper records during the outage."
+  },
+  {
+   "date": "2026-01-31",
+   "headline": "Data Protection Commission declares 2026 a year of enforcement",
+   "source": "Ghana News Agency",
+   "url": "https://gna.org.gh/2026/01/2026-will-be-a-year-of-enforcement-data-protection-commission-warns/",
+   "why": "The regulator cites complaints about improper disclosure of health records."
+  },
+  {
+   "date": "2026-03-02",
+   "headline": "Government plans new data protection bill covering AI and cross-border transfers",
+   "source": "Ghana News Agency",
+   "url": "https://gna.org.gh/2026/03/govt-to-introduce-new-data-protection-bill-to-regulate-ai-cross-border-data-flows/",
+   "why": "Could update 2012 rights that patients rely on, including automated decisions."
+  },
+  {
+   "date": "2026-08-06",
+   "headline": "Ministry of Health drafting national policy on AI in health care",
+   "source": "MyJoyOnline",
+   "url": "https://www.myjoyonline.com/health-ministry-develops-ai-policy-to-guide-safe-use-of-artificial-intelligence-in-ghanas-healthcare-system/",
+   "why": "Would set rules on approval, validation and human oversight of clinical AI."
+  },
+  {
+   "date": "2026-09-28",
+   "headline": "Mahama says Cabinet rejected US health compact that sought medical records",
+   "source": "MyJoyOnline",
+   "url": "https://www.myjoyonline.com/mahama-explains-ghanas-rejection-of-us-health-compact-over-medical-records-fda-concerns/",
+   "why": "Ghana refused to share citizens' medical records with a foreign government."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

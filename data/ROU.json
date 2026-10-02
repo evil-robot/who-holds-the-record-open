@@ -1,0 +1,328 @@
+{
+  "iso3": "ROU",
+  "name": "Romania",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Romania opened a national patient portal on 1 September 2026 with 10 years of history, but the older e-health record was largely empty.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 60,
+      "summary": "Since 1 September 2026 the CNAS portal eSanatateaMea shows insured people their medical history from the last 10 years and prescriptions from the last 5. Score sits at the bottom of the portal band because the launch is staged and the earlier record was largely empty.",
+      "detail": [
+        "The patient rights law (Law 46/2003) says patients have access to their personal medical data. After discharge, a copy of the hospital observation sheet is released on a written request to the hospital manager. Fees and deadlines were not verified.",
+        "The portal eSanatateaMea opened on 1 September 2026, with login through the ROeID national digital identity. It shows insured status, 10 years of medical history, 5 years of prescriptions and what CNAS paid.",
+        "CNAS says modules will arrive in stages. Creating an account is optional, and the health card stays valid.",
+        "Before this, patients could open the older electronic health record (DES) with a health card and PIN or a code from their family doctor. In April 2025 doctors described those records as nearly empty.",
+        "Export in a machine-readable form and actual user numbers were not verified."
+      ],
+      "sources": [
+        {
+          "title": "A fost lansat portalul eSanatateaMea (JURIDICE.ro, preluare comunicat CNAS)",
+          "url": "https://www.juridice.ro/848816/a-fost-lansat-portalul-esanatateamea.html",
+          "date": "2026-09-02",
+          "publisherClass": "news"
+        },
+        {
+          "title": "CNAS finalizeaza modernizarea platformei informatice: 100 de milioane de euro (Economedia)",
+          "url": "https://economedia.ro/cnas-finalizeaza-modernizarea-platformei-informatice-100-de-milioane-de-euro-pentru-un-sistem-care-gestioneaza-anual-sute-de-milioane-de-servicii-medicale.html",
+          "date": "2026-09-01",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Accesul pacientului la datele medicale (Spitalul Negresti Oas)",
+          "url": "https://spitalnegrestioas.ro/index.php/ro/pagina-pacientului/accesul-pacientului-la-datele-medicale",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tu ai obtinut acces la dosarul electronic de sanatate pana acum? (Avocatnet.ro)",
+          "url": "https://www.avocatnet.ro/articol_68806/Tu-ai-ob%C8%9Binut-acces-la-dosarul-electronic-de-s%C4%83n%C4%83tate-pan%C4%83-acum-Tot-ce-trebuie-s%C4%83-%C8%99tii-despre-acesta-in-2025.html",
+          "date": "2025-04-09",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 62,
+      "summary": "The law lets patients choose which doctors can open their e-health record, see the full history of doctor access, and refuse the record without losing care. Whether the new portal offers these controls in practice was not verified.",
+      "detail": [
+        "Law 95/2006, Title IX^1 (added in 2019), splits the record into modules. Most can be opened by a doctor only with the patient's consent.",
+        "Patients give consent ahead of time in their account, or at the visit with a health card and PIN or a security code.",
+        "Article 346^6(6) says patients can view the complete history of doctors' access to their record.",
+        "A patient who explicitly refuses the record has their data anonymised, and the law says refusal does not cost them medical care.",
+        "Reports on the new portal say doctors see the full history only with consent. We did not verify an access log in the new portal."
+      ],
+      "sources": [
+        {
+          "title": "Legea 95/2006, Titlul IX^1 Dosarul electronic de sanatate al pacientului (introdus prin Legea 45/2019), lege5.ro",
+          "url": "https://lege5.ro/Gratuit/gmzdgmjygy2q/dupa-titlul-ix-cardul-european-si-cardul-national-de-asigurari-sociale-de-sanatate-se-introduce-un-nou-titlu-titlul-ix1-dosarul-electronic-de-sanatate-al-pacientului-continand-articolele-3461-34612-cu?dp=gi4dcmrxgaytgny",
+          "date": "2019",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Din toamna, pacientii vor avea acces online la dosarul medical prin portalul e-Sanatatea Mea (Gazarul)",
+          "url": "https://gazarul.ro/2026/07/16/din-toamna-pacientii-vor-avea-acces-online-la-dosarul-medical-si-isi-vor-putea-face-programari-prin-portalul-e-sanatatea-mea/",
+          "date": "2026-07-16",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Tu ai obtinut acces la dosarul electronic de sanatate pana acum? (Avocatnet.ro)",
+          "url": "https://www.avocatnet.ro/articol_68806/Tu-ai-ob%C8%9Binut-acces-la-dosarul-electronic-de-s%C4%83n%C4%83tate-pan%C4%83-acum-Tot-ce-trebuie-s%C4%83-%C8%99tii-despre-acesta-in-2025.html",
+          "date": "2025-04-09",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 50,
+      "summary": "Health data is protected by the GDPR and Law 190/2018, but public bodies first get a warning and a remediation plan before any fine. In February 2024 a ransomware attack on one hospital software system took about 100 facilities offline.",
+      "detail": [
+        "Health data is special-category data under the GDPR. Law 190/2018 allows health-data profiling or automated decisions only with explicit consent or an express legal basis.",
+        "For public authorities and bodies, which includes public hospitals, the regulator ANSPDCP must first issue a warning with a remediation plan. Later fines range from 10,000 to 100,000 lei for some breaches and up to 200,000 lei for others.",
+        "In February 2024 Backmydata ransomware hit the Hipocrate hospital system. Data at 26 hospitals was encrypted and 74 more facilities were disconnected as a precaution.",
+        "Health fines we found were small. In February 2025 a clinic was fined 9,946.2 lei (about EUR 2,000) for emailing one patient's results to another patient, and warned for not reporting the breach. We found no health-sector decisions from the last 12 months."
+      ],
+      "sources": [
+        {
+          "title": "Legea 190/2018 privind masuri de punere in aplicare a GDPR (text publicat)",
+          "url": "https://www.spitalleordeni.ro/doc/date%20personale/Legea%20nr.%20190%20din%202018.pdf",
+          "date": "2018-07-18",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ransomware Attack Knocks 100 Romanian Hospitals Offline (SecurityWeek)",
+          "url": "https://www.securityweek.com/ransomware-attack-knocks-100-romanian-hospitals-offline/",
+          "date": "2024-02-13",
+          "publisherClass": "news"
+        },
+        {
+          "title": "ANSPDCP sanctioneaza un centru medical (JURIDICE.ro)",
+          "url": "https://www.juridice.ro/772254/anspdcp-sanctioneaza-un-centru-medical-2.html",
+          "date": "2025-02-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 56,
+      "summary": "Law 190/2018 says health data processed for public health cannot later be used by third parties for other purposes. The regulator has fined a clinic for emailing promotions to patients without consent, but we found no law aimed at data brokers or health apps.",
+      "detail": [
+        "Article 3(2) of Law 190/2018 says third parties cannot later reuse health data processed for public health for other purposes.",
+        "ANSPDCP fined Hilmi Medical Center 10,000 lei, partly for emailing promotional medical packages to patients without prior express consent. The notice is undated and cites the pre-GDPR law.",
+        "No Romanian rule on selling de-identified health data, or on consumer health apps outside health law, was verified."
+      ],
+      "sources": [
+        {
+          "title": "Legea 190/2018 privind masuri de punere in aplicare a GDPR (text publicat)",
+          "url": "https://www.spitalleordeni.ro/doc/date%20personale/Legea%20nr.%20190%20din%202018.pdf",
+          "date": "2018-07-18",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "ANSPDCP a amendat Hilmi Medical Center (ANSPDCP)",
+          "url": "https://www.dataprotection.ro/index.jsp?lang=ro&page=ANSPDCP_a_amendat_Hilmi_Medical_Center",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 60,
+      "summary": "The CNAS platform PIAS links more than 35,000 providers: family doctors, specialists, hospitals, labs and pharmacies, with e-prescriptions and digital referrals. The record itself has been thin, and the EU cross-border health services page has no Romanian patient notice yet.",
+      "detail": [
+        "PIAS handles more than 120 million family-doctor visits, 11 million hospital admissions, 88 million lab and imaging tests and 65 million prescriptions a year, according to CNAS figures reported in September 2026.",
+        "The EUR 100 million upgrade is funded by the EU recovery plan. Providers must offer online booking from the fourth quarter of 2026.",
+        "The European Commission's 2025 report says Romania improved the availability of eHealth data. It recommends adding more data sources online.",
+        "The EU page for cross-border health services shows no Romanian patient information notice, which suggests Romania's cross-border service is not yet live."
+      ],
+      "sources": [
+        {
+          "title": "CNAS finalizeaza modernizarea platformei informatice: 100 de milioane de euro (Economedia)",
+          "url": "https://economedia.ro/cnas-finalizeaza-modernizarea-platformei-informatice-100-de-milioane-de-euro-pentru-un-sistem-care-gestioneaza-anual-sute-de-milioane-de-servicii-medicale.html",
+          "date": "2026-09-01",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Romania 2025 Digital Decade Country Report (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/factpages/romania-2025-digital-decade-country-report",
+          "date": "2025-06-18",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Electronic cross-border health services (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/digital-health-and-care/electronic-cross-border-health-services_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 50,
+      "summary": "By law any doctor can open the record with the patient's consent, and emergency and family doctors can see an emergency summary without it. In 2025 doctors reported the records were so empty they were of little use.",
+      "detail": [
+        "The emergency summary (allergies, implants, transplants, blood type) is open to doctors in emergency services and to family doctors without consent.",
+        "Other doctors need the patient's consent, given in advance or at the visit with a card and PIN.",
+        "In April 2025 doctors said DES records were either missing or nearly empty. In March 2026 the CNAS head said any doctor the patient visits would see the record; July 2026 reports say only with the patient's consent. How complete it is was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Legea 95/2006, Titlul IX^1 Dosarul electronic de sanatate al pacientului (introdus prin Legea 45/2019), lege5.ro",
+          "url": "https://lege5.ro/Gratuit/gmzdgmjygy2q/dupa-titlul-ix-cardul-european-si-cardul-national-de-asigurari-sociale-de-sanatate-se-introduce-un-nou-titlu-titlul-ix1-dosarul-electronic-de-sanatate-al-pacientului-continand-articolele-3461-34612-cu?dp=gi4dcmrxgaytgny",
+          "date": "2019",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tu ai obtinut acces la dosarul electronic de sanatate pana acum? (Avocatnet.ro)",
+          "url": "https://www.avocatnet.ro/articol_68806/Tu-ai-ob%C8%9Binut-acces-la-dosarul-electronic-de-s%C4%83n%C4%83tate-pan%C4%83-acum-Tot-ce-trebuie-s%C4%83-%C8%99tii-despre-acesta-in-2025.html",
+          "date": "2025-04-09",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Seful CNAS: Dosarul electronic de sanatate va fi disponibil pentru fiecare pacient (AGERPRES)",
+          "url": "https://agerpres.ro/sanatate/2026/03/31/seful-cnas-dosarul-electronic-de-sanatate-va-fi-disponibil-pentru-fiecare-pacient-incepand-cu-vara-a--1542731",
+          "date": "2026-03-31",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Din toamna, pacientii vor avea acces online la dosarul medical prin portalul e-Sanatatea Mea (Gazarul)",
+          "url": "https://gazarul.ro/2026/07/16/din-toamna-pacientii-vor-avea-acces-online-la-dosarul-medical-si-isi-vor-putea-face-programari-prin-portalul-e-sanatatea-mea/",
+          "date": "2026-07-16",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 44,
+      "summary": "The e-health record law lets health authorities use anonymised data for statistics, and we found no individual opt-out from research use. Trials follow the EU Clinical Trials Regulation under the medicines agency ANMDMR.",
+      "detail": [
+        "Law 95/2006 allows health authorities to use anonymised record data for statistics, subject to the GDPR.",
+        "No Romanian health data access body, public register of data uses, or opt-out from secondary use was verified.",
+        "Clinical trials follow EU Regulation 536/2014, which has applied since 31 January 2022. ANMDMR oversees trials, and all trials had to move to the new rules by 30 January 2025.",
+        "The EU EHDS will require a health data access body and an opt-out from secondary use. Score is in the lower half of the band because evidence is thin."
+      ],
+      "sources": [
+        {
+          "title": "Legea 95/2006, Titlul IX^1 Dosarul electronic de sanatate al pacientului (introdus prin Legea 45/2019), lege5.ro",
+          "url": "https://lege5.ro/Gratuit/gmzdgmjygy2q/dupa-titlul-ix-cardul-european-si-cardul-national-de-asigurari-sociale-de-sanatate-se-introduce-un-nou-titlu-titlul-ix1-dosarul-electronic-de-sanatate-al-pacientului-continand-articolele-3461-34612-cu?dp=gi4dcmrxgaytgny",
+          "date": "2019",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Regulament Studii Clinice / Sistem Informatic pentru Studii Clinice (ANMDMR)",
+          "url": "https://www.anm.ro/regulament-studii-clinice-sistem-informatic-pentru-studii-clinice/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ce se intampla cu datele tale medicale dupa digitalizare (EVZ)",
+          "url": "https://evz.ro/ce-se-intampla-cu-datele-tale-medicale-dupa-digitalizare-frica-legitima-si-ce-spun-documentele-oficiale.html",
+          "date": "2026-01-13",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Romania has no verified national rules for clinical AI and relies on EU law. On 24 July 2026 the regulator ANCOM said no authority can sanction breaches of the AI Act until a national law, still being drafted, takes effect.",
+      "detail": [
+        "A government memorandum proposed ANCOM as the national AI market surveillance authority and single point of contact, according to ANCOM. The memorandum's date was not verified.",
+        "ANCOM said on 24 July 2026 that the national implementing law was not yet adopted, so breaches cannot yet be verified or sanctioned.",
+        "AI in medical devices is covered by EU device rules and the AI Act. ANCOM's statement does not mention health."
+      ],
+      "sources": [
+        {
+          "title": "Artificial Intelligence Act in Romania: current state of the implementation framework (ANCOM)",
+          "url": "https://www.ancom.ro/en/about-us/media-en/press-releases/artificial-intelligence-act-in-romania-current-state-of-the-implementation-framework/",
+          "date": "2026-07-24",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "CNAS's PIAS links family doctors, hospitals, labs, pharmacies, e-prescriptions and claims. The clinical record has been thin, and public health and research links were not verified.",
+  "laws": [
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "Health is special-category data; right of access; fines up to EUR 20M or 4% of turnover.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    },
+    {
+      "name": "Law 190/2018 implementing the GDPR",
+      "level": "National",
+      "year": "2018",
+      "what": "Limits health-data profiling; bans third-party reuse of public-health data; warning first for public bodies.",
+      "url": "https://www.spitalleordeni.ro/doc/date%20personale/Legea%20nr.%20190%20din%202018.pdf"
+    },
+    {
+      "name": "Law 46/2003 on patient rights",
+      "level": "National",
+      "year": "2003",
+      "what": "Patients have access to their personal medical data; confidentiality of medical information.",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/41483"
+    },
+    {
+      "name": "Law 95/2006 on health reform, Title IX^1 (added by Law 45/2019)",
+      "level": "National",
+      "year": "2019",
+      "what": "Electronic health record: consent for doctor access, emergency summary, patient-visible access history.",
+      "url": "https://lege5.ro/Gratuit/gmzdgmjygy2q/dupa-titlul-ix-cardul-european-si-cardul-national-de-asigurari-sociale-de-sanatate-se-introduce-un-nou-titlu-titlul-ix1-dosarul-electronic-de-sanatate-al-pacientului-continand-articolele-3461-34612-cu?dp=gi4dcmrxgaytgny"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Free access, restriction rights and opt-out from secondary use; applies from 2029.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+    },
+    {
+      "name": "Artificial Intelligence Act (EU) 2024/1689",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "Risk-based AI rules; most obligations from 2 August 2026; national sanctions law pending in Romania.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10",
+      "headline": "CNAS says ageing insurance IT platform PIAS will be replaced in 2026",
+      "source": "Mediafax",
+      "url": "https://www.mediafax.ro/social/cnas-platforma-pias-va-fi-inlocuita-cu-un-sistem-informatic-modern-sigur-si-accesibil-23626170",
+      "why": "The system behind prescriptions, referrals and records for 18 million people was at its limits."
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "CNAS head promises every patient online access to their record by summer",
+      "source": "AGERPRES",
+      "url": "https://agerpres.ro/sanatate/2026/03/31/seful-cnas-dosarul-electronic-de-sanatate-va-fi-disponibil-pentru-fiecare-pacient-incepand-cu-vara-a--1542731",
+      "why": "A national pledge to make the record usable online for every patient; the older record was rarely used."
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "ANCOM says AI Act breaches cannot be sanctioned until national law passes",
+      "source": "ANCOM",
+      "url": "https://www.ancom.ro/en/about-us/media-en/press-releases/artificial-intelligence-act-in-romania-current-state-of-the-implementation-framework/",
+      "why": "Patients harmed by AI systems have no national enforcer with sanction powers yet."
+    },
+    {
+      "date": "2026-09-01",
+      "headline": "CNAS launches eSanatateaMea portal with 10 years of medical history",
+      "source": "Economedia",
+      "url": "https://economedia.ro/cnas-finalizeaza-modernizarea-platformei-informatice-100-de-milioane-de-euro-pentru-un-sistem-care-gestioneaza-anual-sute-de-milioane-de-servicii-medicale.html",
+      "why": "Patients can see their history, prescriptions and CNAS payments online for the first time."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

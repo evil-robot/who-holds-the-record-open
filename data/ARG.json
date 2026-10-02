@@ -1,0 +1,381 @@
+{
+  "iso3": "ARG",
+  "name": "Argentina",
+  "region": "Americas",
+  "controlModel": "Shared",
+  "headline": "Argentine law makes patients owners of their record, and a national app lets people refuse network sharing, but the network is still young.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 60,
+      "summary": "Ley 26.529 makes the patient the owner of the clinical record, with an authenticated copy due within 48 hours. The Mi Argentina app shows vaccines, 60 days of e-prescriptions and records from connected facilities, not the full chart; usage figures were not verified.",
+      "detail": [
+        "Article 14 of Ley 26.529 says the patient is the owner of the clinical record and must receive an authenticated copy on simple request within 48 hours. Decreto 1089/2012 asks for immediate delivery when the patient is in care or in an emergency.",
+        "If a facility refuses, delays or stays silent, Article 20 gives the patient a direct habeas data action, free of court costs in the national jurisdiction.",
+        "Ley 27.706 (2023) says the patient owns the data in the electronic record and has the right to know it at all times, with free access and follow-up.",
+        "Mi Salud in Mi Argentina shows vaccines from the national vaccination register and records from facilities linked to the national network. Since May 2026 it also shows e-prescriptions from the last 60 days.",
+        "The ministry warns that facilities not yet linked, or still on paper, will not show up. No official figure for Mi Salud users was found, and records are still held facility by facility."
+      ],
+      "sources": [
+        {
+          "title": "Ley 26.529, derechos del paciente, texto actualizado (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/160000-164999/160432/texact.htm",
+          "date": "2009-10-21",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 1089/2012, reglamentacion de la Ley 26.529 (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/195000-199999/199296/norma.htm",
+          "date": "2012-07",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Preguntas frecuentes: Mi Salud en Mi Argentina (Ministerio de Salud)",
+          "url": "https://www.argentina.gob.ar/salud/frecuentes",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "La Receta Electronica se incorpora a la app Mi Argentina (Ministerio de Salud)",
+          "url": "https://www.argentina.gob.ar/noticias/la-receta-electronica-se-incorpora-la-app-mi-argentina",
+          "date": "2026-05-14",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 48,
+      "summary": "Official pages say facilities on the national network can see a record unless the person explicitly refuses, using privacy settings in Mi Argentina. A patient-visible access log is described only as design intent; use of the opt-out was not verified.",
+      "detail": [
+        "The privacy page for the Red Nacional de Salud Digital says facilities can access the record of people who consented to care, provided there is no explicit refusal. Mi Argentina is named as the tool for exercising access rights.",
+        "The health FAQ lists configuring privacy options for data travelling over the network as a current Mi Salud function. Viewing health data in the app also needs an 'I accept to see my health information' switch and identity validation.",
+        "The ministry's network page says patients will set professionals' permissions and will be able to monitor access through a patient portal. That wording is future tense; no live access log was found.",
+        "Ley 25.326 Article 11 requires prior, revocable consent to pass personal data on, but exempts health data needed for public health or emergencies when identities are protected. No figure on how many people use the opt-out was found."
+      ],
+      "sources": [
+        {
+          "title": "Red Nacional de Salud Digital: configuracion de privacidad (Mi Argentina)",
+          "url": "https://www.argentina.gob.ar/miargentina/configuracion-de-privacidad",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Preguntas frecuentes: Mi Salud en Mi Argentina (Ministerio de Salud)",
+          "url": "https://www.argentina.gob.ar/salud/frecuentes",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Red Nacional de Salud Digital (Ministerio de Salud)",
+          "url": "https://www.argentina.gob.ar/salud/digital/red",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley 25.326, proteccion de los datos personales, texto actualizado (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm",
+          "date": "2000-10-04",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 42,
+      "summary": "Health data is sensitive under Ley 25.326 (2000), but fines still top out at 100,000 pesos and the law itself has no breach notification article. The EU still rates the law adequate; a 2026 reform bill with 72-hour breach notice is pending.",
+      "detail": [
+        "Ley 25.326 says no one can be forced to give sensitive data and lets health facilities process health data under professional secrecy. Ley 26.529 adds a patient right to confidentiality of the record.",
+        "AAIP Resolution 126/2024 grades fines from 1,000 to 100,000 pesos, with a cap of 500 times the scale maximum for repeated conduct. Ley 25.326 itself contains no breach notification article.",
+        "In December 2025 the AAIP opened an inquiry into a reported mass leak and said it had received no formal incident notice. In March 2026 the Buenos Aires province insurer IOMA confirmed an attack on membership rolls; the national Health Ministry denied any leak.",
+        "A bill filed on 16 July 2026 (3397-D-2026) would add 72-hour breach notice and fines up to 4% of global turnover. It repeats a 2023 bill that lapsed in 2025.",
+        "The European Commission lists Argentina among countries with an adequacy decision, confirmed in its January 2024 review, so EU data can flow in freely. The EU health data space (EHDS) does not apply to Argentina."
+      ],
+      "sources": [
+        {
+          "title": "Ley 25.326, proteccion de los datos personales, texto actualizado (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm",
+          "date": "2000-10-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resolucion AAIP 126/2024, infracciones y sanciones (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/395000-399999/399750/norma.htm",
+          "date": "2024-05-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "La AAIP inicio una investigacion de oficio ante presunta filtracion masiva de datos personales",
+          "url": "https://www.argentina.gob.ar/noticias/la-aaip-inicio-una-investigacion-de-oficio-ante-presunta-filtracion-masiva-de-datos",
+          "date": "2025-12-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "Ley 25.326 requires prior, revocable consent to pass personal data to others and bans databases that reveal sensitive data, with anonymised research as the exception. No health-specific rule on data brokers, health apps or ad targeting was found, and fines are small.",
+      "detail": [
+        "Article 7 bars forming files or databases that directly or indirectly reveal sensitive data, and allows statistical or scientific use only when people cannot be identified.",
+        "Article 11 requires prior, informed and revocable consent before personal data is passed to a third party. Article 27 limits marketing profiles to public data, data given by the person or data used with consent, and lets people ask to be removed at any time.",
+        "The national network's conditions of use forbid using information obtained through the network for anything other than health purposes, under administrative, civil and criminal liability.",
+        "No rule aimed at health data brokers, consumer health apps outside health law, or sale of de-identified health data was found. Maximum fines of 100,000 pesos per infraction limit deterrence."
+      ],
+      "sources": [
+        {
+          "title": "Ley 25.326, proteccion de los datos personales, texto actualizado (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm",
+          "date": "2000-10-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Condiciones de uso, intercambio y confidencialidad de salud digital (Ministerio de Salud)",
+          "url": "https://www.argentina.gob.ar/salud/digital/condiciones-de-uso",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Resolucion AAIP 126/2024, infracciones y sanciones (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/395000-399999/399750/norma.htm",
+          "date": "2024-05-24",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 45,
+      "summary": "E-prescription has been mandatory nationwide since January 2025, and the ministry reports more than 70 million prescriptions registered. Clinical records move through a federated network that provinces were still testing in June 2026; national coverage was not verified.",
+      "detail": [
+        "Ley 27.553 allows electronic prescriptions and telehealth nationwide. Electronic prescribing of medicines became mandatory on 1 January 2025, and Resolution 2214/2025 extended it to studies, procedures and devices, identified by CUIL and a unique prescription key.",
+        "In June 2026 the Health Minister said more than 70 million prescriptions were registered, averaging 20 million a month in the previous 60 days, and announced digital rules to replace the paper drug label at dispensing.",
+        "At a national Conectaton in June 2026, national and provincial technical teams and vendors tested real-time exchange of clinical information between systems using international standards. The ministry framed this as work to speed up its 2025-2030 digital health strategy.",
+        "At a May 2026 regional meeting, La Rioja's digital health director said the work allows clinical information to be shared federally for the first time. The open-source HSI record was reported at about 8 million patients and over 1,600 facilities in eight provinces, a figure from the project lead, not the ministry."
+      ],
+      "sources": [
+        {
+          "title": "Salud impulsa la interoperabilidad para consolidar un sistema de salud digital integrado (Ministerio de Salud)",
+          "url": "https://www.argentina.gob.ar/noticias/salud-impulsa-la-interoperabilidad-para-consolidar-un-sistema-de-salud-digital-integrado",
+          "date": "2026-06-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "El Ministerio de Salud completa la implementacion de la receta electronica (Resolucion 2214/2025)",
+          "url": "https://www.argentina.gob.ar/noticias/el-ministerio-de-salud-completa-la-implementacion-de-la-receta-electronica-ahora-tambien",
+          "date": "2025-07-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Integracion sanitaria digital en Tucuman impulsa la atencion federal de pacientes (Ministerio de Salud Publica de Tucuman)",
+          "url": "https://msptucuman.gov.ar/integracion-sanitaria-digital-en-tucuman-impulsa-la-atencion-federal-de-pacientes/",
+          "date": "2026-05-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "La plataforma Historia de Salud Integrada ya alcanza a ocho provincias y mas de 1.600 establecimientos (Convergencia)",
+          "url": "https://www.convergencia.com/a-diario-convergencia/la-plataforma-historia-de-salud-integrada-ya-alcanza-a-ocho-provincias-y-mas-de-1-600-establecimientos-5786/",
+          "date": "2026-05-29",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 42,
+      "summary": "A clinician using a standards-based record can query a patient's history at other facilities through the national network, unless the patient has refused. Cross-province sharing was only being validated in 2026, and the share of facilities connected was not verified.",
+      "detail": [
+        "The ministry's network page describes a doctor in one facility or province using a standards-based electronic record to consult the history the patient has at other institutions.",
+        "Each node keeps its own patient index and repository, so what a clinician sees depends on which facilities are connected. The ministry FAQ says data held in unconnected systems or on paper will not be available.",
+        "Ley 27.706 promises clinicians access to relevant clinical data from anywhere in the country, but it is to be built progressively. Within each facility, Ley 26.529 requires a single record per patient.",
+        "Provincial health ministries described the 2026 Conectaton as a validation exercise and a first step toward federal sharing. No national figure on connected facilities was published on the pages opened."
+      ],
+      "sources": [
+        {
+          "title": "Red Nacional de Salud Digital (Ministerio de Salud)",
+          "url": "https://www.argentina.gob.ar/salud/digital/red",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Preguntas frecuentes: Mi Salud en Mi Argentina (Ministerio de Salud)",
+          "url": "https://www.argentina.gob.ar/salud/frecuentes",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley 27.706, Programa Federal Unico de Informatizacion y Digitalizacion de Historias Clinicas (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/380000-384999/380710/norma.htm",
+          "date": "2023-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Integracion sanitaria digital en Tucuman impulsa la atencion federal de pacientes (Ministerio de Salud Publica de Tucuman)",
+          "url": "https://msptucuman.gov.ar/integracion-sanitaria-digital-en-tucuman-impulsa-la-atencion-federal-de-pacientes/",
+          "date": "2026-05-19",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Studies using identifiable data need informed consent and ethics review under Resolution 1480/2011, but committees can waive consent for record or registry research, and there is no general opt-out. Score: base 40, +3 each for ethics review, a consent route and a public research registry.",
+      "detail": [
+        "Resolution 1480/2011 says studies using samples or data linked to people need informed consent and initial and periodic review by an ethics committee. A committee may approve an exception only on a justified request.",
+        "The same guide says research on stored data or samples that cannot identify the person carries no risk and needs no control. Ley 25.326 Article 7 also allows statistical or scientific use of sensitive data when people cannot be identified.",
+        "The resolution created a National Registry of Health Research to make study information public. The guide and registry are binding for registration drug trials and ministry-funded research.",
+        "ANMAT Disposition 7516/2025, in force from 1 December 2025, adopts the ICH E6(R3) good clinical practice guideline for registration trials. No general opt-out from secondary use of network data was found."
+      ],
+      "sources": [
+        {
+          "title": "Resolucion 1480/2011, Guia para Investigaciones en Salud Humana, texto actualizado (Argentina.gob.ar)",
+          "url": "https://www.argentina.gob.ar/normativa/nacional/norma-187206/actualizacion",
+          "date": "2011-09-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 25.326, proteccion de los datos personales, texto actualizado (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm",
+          "date": "2000-10-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Nueva normativa sobre Buenas Practicas Clinicas para estudios de farmacologia clinica (ANMAT)",
+          "url": "https://www.argentina.gob.ar/noticias/nueva-normativa-sobre-buenas-practicas-clinicas-para-estudios-de-farmacologia-clinica",
+          "date": "2025-10-09",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "ANMAT treats software that diagnoses, prevents or treats disease as a medical device needing registration under Disposition 64/2025, with post-market vigilance. No AI-specific change control or human oversight rule exists, so the score sits low in the guidance band, near Mexico (38).",
+      "detail": [
+        "Disposition 64/2025 incorporates the Mercosur medical device rule into Argentine law, including a definition of software as a medical device (SaMD).",
+        "In September 2026 ANMAT said any software meant to diagnose, prevent, treat or mitigate a condition, including health apps on smartwatches, must go through registration. Examples include ECG and sleep apnea detection features.",
+        "A September 2026 law firm review notes that Argentina has no mechanism like the FDA's predetermined change control plans for AI updates. It points to tecnovigilance rules (Disposition 8194/2023) for post-market monitoring.",
+        "No national rule on transparency, data provenance or human oversight of clinical AI was found."
+      ],
+      "sources": [
+        {
+          "title": "ANMAT actualiza los criterios regulatorios para software como dispositivo medico (SaMD)",
+          "url": "https://www.argentina.gob.ar/noticias/anmat-actualiza-los-criterios-regulatorios-para-software-como-dispositivo-medico-samd",
+          "date": "2026-09-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Disposicion ANMAT 64/2025, Reglamento Tecnico Mercosur de Registro de Productos Medicos (Infoleg)",
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/405000-409999/408309/norma.htm",
+          "date": "2025-01-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Inteligencia artificial y software medico en Argentina: desafios regulatorios (Abogados.com.ar, Allende & Brea)",
+          "url": "https://abogados.com.ar/inteligencia-artificial-y-software-medico-en-argentina-desafios-regulatorios-para-el-regimen-de-productos-medicos/40131",
+          "date": "2026-09-24",
+          "publisherClass": "law_firm"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "siloed"
+  },
+  "journeyNote": "Electronic prescribing is mandatory nationwide and visible in Mi Argentina. Primary care and hospital records are shared through a federated network that provinces were still testing in 2026. Test orders are electronic; result sharing and claims links were not verified.",
+  "laws": [
+    {
+      "name": "Ley 26.529 (derechos del paciente, historia clinica y consentimiento informado)",
+      "level": "National",
+      "year": "2009",
+      "what": "Patient owns the record; authenticated copy within 48 hours; confidentiality; habeas data if refused.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/160000-164999/160432/texact.htm"
+    },
+    {
+      "name": "Ley 25.326 (proteccion de los datos personales)",
+      "level": "National",
+      "year": "2000",
+      "what": "Health is sensitive data; consent to pass data on; ten-day access right; AAIP enforces.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm"
+    },
+    {
+      "name": "Ley 27.706 (historias clinicas electronicas)",
+      "level": "National",
+      "year": "2023",
+      "what": "Federal program for a single interoperable electronic record system; patient owns data with free access.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/380000-384999/380710/norma.htm"
+    },
+    {
+      "name": "Ley 27.553 (recetas electronicas o digitales)",
+      "level": "National",
+      "year": "2020",
+      "what": "Allows electronic prescriptions and telehealth platforms nationwide under data protection and patient rights laws.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/340000-344999/340919/norma.htm"
+    },
+    {
+      "name": "Resolucion 1480/2011 (Guia para Investigaciones en Salud Humana)",
+      "level": "National",
+      "year": "2011",
+      "what": "Consent and ethics review for research on people or their data; creates national research registry.",
+      "url": "https://www.argentina.gob.ar/normativa/nacional/norma-187206/actualizacion"
+    },
+    {
+      "name": "Disposicion ANMAT 64/2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Adopts the Mercosur medical device registration rule, defining software as a medical device.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/405000-409999/408309/norma.htm"
+    },
+    {
+      "name": "Ley 15.201 (Provincia de Buenos Aires, gestion digital de estudios)",
+      "level": "State/Provincial",
+      "year": "2020",
+      "what": "Labs and imaging centres must send results digitally, free, in a non-proprietary format if patients opt in.",
+      "url": "https://normas.gba.gob.ar/documentos/xAm1DYco.html"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-23",
+      "headline": "Data protection agency opens inquiry into reported mass leak of personal data",
+      "source": "Agencia de Acceso a la Informacion Publica",
+      "url": "https://www.argentina.gob.ar/noticias/la-aaip-inicio-una-investigacion-de-oficio-ante-presunta-filtracion-masiva-de-datos",
+      "why": "Shows the regulator acts on its own, but no breach notice duty exists yet."
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Buenos Aires insurer IOMA confirms cyberattack on membership rolls amid mass hack claims",
+      "source": "Chequeado",
+      "url": "https://chequeado.com/el-explicador/que-se-sabe-sobre-el-hackeo-a-ioma-y-otros-organismos-publicos-y-como-cuidar-tus-datos/",
+      "why": "Health insurer data was targeted; patients learn of incidents through press, not notices."
+    },
+    {
+      "date": "2026-05-14",
+      "headline": "E-prescriptions from the last 60 days now viewable in Mi Argentina app",
+      "source": "Ministerio de Salud",
+      "url": "https://www.argentina.gob.ar/noticias/la-receta-electronica-se-incorpora-la-app-mi-argentina",
+      "why": "Patients can see their own prescriptions on their phone after opting in."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Unconfirmed dark web claim of Health Ministry data on 52 million people",
+      "source": "DEF Online",
+      "url": "https://defonline.com.ar/seguridad/filtracion-de-datos-en-argentina-que-se-sabe-del-nuevo-incidente-de-ciberseguridad-en-el-ministerio-de-salud/",
+      "why": "Repeated breach claims test trust in national health databases; not officially confirmed."
+    },
+    {
+      "date": "2026-09-10",
+      "headline": "ANMAT says diagnostic health software, including smartwatch apps, needs device registration",
+      "source": "ANMAT",
+      "url": "https://www.argentina.gob.ar/noticias/anmat-actualiza-los-criterios-regulatorios-para-software-como-dispositivo-medico-samd",
+      "why": "Clinical algorithms reaching patients must now be registered and monitored."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

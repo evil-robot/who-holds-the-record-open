@@ -1,0 +1,376 @@
+{
+  "iso3": "KOR",
+  "name": "South Korea",
+  "region": "Asia",
+  "controlModel": "Shared",
+  "headline": "Koreans can copy their whole record and see 10 years of claims online, and clinical records move only with opt-in consent.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 66,
+      "summary": "The Medical Service Act lets patients view or copy their whole record, though copies carry a fee and we found no deadline. Since May 2026 NHIS lets every insured person view and download up to 10 years of claims-based treatment history online.",
+      "detail": [
+        "Article 21(1) of the Medical Service Act lets a patient ask any provider to view or copy all or part of their record, including original and amended versions, and bars refusal without good reason. Article 21-3, added in 2024 and in force June 2025, lets patients have records sent to a new hospital.",
+        "MOHW caps copy fees at 1,000 won per page for the first five pages, 100 won per page after that, and 10,000 won per imaging CD (2017 notice). We found no fixed legal deadline for supplying copies in the texts we opened.",
+        "The My Health Record app joins KDCA vaccinations, NHIS checkups and HIRA medication data with clinical records. In August 2025 MOHW counted 1,264 linked facilities, including all 47 tertiary hospitals, showing visits, test results and prescriptions.",
+        "Since May 2026 NHIS lets any insured person view and download up to 10 years of claims-based treatment history, with diagnoses and providers, as a PDF. Uptake of the clinical app is not verified: the only figure we found sits on a page that did not open on 2 October 2026."
+      ],
+      "sources": [
+        {
+          "title": "Medical Service Act, current text (CaseNote mirror of Korean statute)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EC%9D%98%EB%A3%8C%EB%B2%95",
+          "date": "2026-03-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Standard on certificate fees of medical institutions (MOHW notice, hosted by HIRA)",
+          "url": "https://www.hira.or.kr/cms/inform/01/__icsFiles/afieldfile/2017/09/19/1.pdf",
+          "date": "2017-09-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "All 47 tertiary hospitals now visible in My Health Record app (MOHW via korea.kr)",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148948286",
+          "date": "2025-08-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "NHIS starts mobile issuance of 10 years of treatment history (Edaily via Daum)",
+          "url": "https://v.daum.net/v/20260511101017677",
+          "date": "2026-05-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 55,
+      "summary": "Records move between hospitals, or to apps and firms, only with the patient's opt-in consent, chosen by institution, item and period and revocable. We found no way for patients to see who opened their chart, which holds control at the top of the 40 to 55 band.",
+      "detail": [
+        "Medical Service Act Article 21-2 lets a provider send records to another provider only with the patient's or guardian's consent, except for unconscious or emergency patients with no guardian to ask. Article 21-3 also lets patients ask for their records to be sent straight to a new hospital.",
+        "On the Health Information Highway the patient picks which institutions, data items and periods to share, and the platform runs a consent and withdrawal system. PIPC says the right to request transfer has applied to health data since 13 March 2025, letting people send their records to places they choose.",
+        "In March 2026 PIPC widened the health transfer duty from 50 bodies (KDCA, NHIS, HIRA and 47 tertiary hospitals) to 387 by adding 337 general hospitals. Only 115 of those 337 were connected to the Highway at the time, so the duty applies in stages.",
+        "Claims still flow to NHIS and HIRA by law, with no opt-out. Under an amended Act in force 10 December 2026 and a draft MOHW rule, providers must log every view of an electronic record. Nurse News says this lays a basis for patients to check access history, but no rule we opened lets patients read the log."
+      ],
+      "sources": [
+        {
+          "title": "Medical Service Act, current text (CaseNote mirror of Korean statute)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EC%9D%98%EB%A3%8C%EB%B2%95",
+          "date": "2026-03-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "What is the Health Information Highway service? (MOHW / KHIS portal)",
+          "url": "https://www.myhealthway.go.kr/portal/index?page=Individual/Portal/MediMyData/MydataService",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health-sector data transmitters expanded to general hospitals (PIPC press release)",
+          "url": "https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=11899",
+          "date": "2026-03-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Even viewing an EMR will leave an access record from December (Korean Nurses Association news)",
+          "url": "https://www.nursenews.co.kr/news/articleView.html?idxno=44048",
+          "date": "2026-09-09",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 65,
+      "summary": "PIPA treats health data as sensitive, and the independent PIPC has sanctioned hospitals with administrative fines and improvement orders rather than revenue-based penalties. Since 11 September 2026 serious violations can cost up to 10% of revenue, and the EU confirmed Korea's GDPR adequacy in July 2026.",
+      "detail": [
+        "In July 2023 PIPC fined 16 of 17 general hospitals and told all 17 to improve after hospital and drug-company staff removed records of 185,271 patients between 2018 and 2020. Most hospitals had not kept access logs for two years or checked them monthly.",
+        "The PIPA amendment of 10 March 2026, in force 11 September 2026, keeps the 3% of total revenue ceiling and adds a 10% tier for a repeat violation within 3 years, an intentional or grossly negligent breach affecting 10 million people or more, and a repeat after an ignored correction order.",
+        "In June 2026 PIPC fined Coupang 624.681 billion won after a leak of about 37.55 million people's data. It also found that Coupang's logistics arm misused employees' weight data, kept for health management, by submitting it to a court.",
+        "The European Commission found Korea adequate under the GDPR in 2021 and, after its first review, confirmed on 23 July 2026 that Korea still gives an adequate level of protection. The European Health Data Space does not apply to Korea."
+      ],
+      "sources": [
+        {
+          "title": "PIPC sanctions 17 general hospitals over patient data leak (PIPC press release)",
+          "url": "https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=9056",
+          "date": "2023-07-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Personal Information Protection Act, current text in force 11 Sep 2026 (CaseNote mirror of Korean statute)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4_%EB%B3%B4%ED%98%B8%EB%B2%95",
+          "date": "2026-03-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "PIPC decides sanctions on Coupang and affiliates for leak and rights violations (PIPC press release)",
+          "url": "https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12171",
+          "date": "2026-06-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "2026-07-23",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 55,
+      "summary": "Providers who release records face criminal penalties, and health data needs separate consent. But PIPA lets companies use pseudonymised health data without consent for research that includes private investment research, and patients can send records to commercial apps.",
+      "detail": [
+        "Medical Service Act Article 21(2) bars providers from letting anyone but the patient see records outside listed exceptions, and Article 88 sets up to 3 years in prison or a 30 million won fine. PIPA Article 23 requires consent separate from other consents before health data is processed.",
+        "PIPA Article 28-2 allows pseudonymised data to be processed without consent for statistics, scientific research and public-interest archiving. Article 2 defines scientific research to include technology development and private investment research, so commercial research and development can qualify.",
+        "The 2023 hospital case shows the pressure: drug-company staff obtained records of patients prescribed their products from 17 hospitals. PIPC fined 16 of the hospitals for weak safeguards.",
+        "The Highway portal says that, with consent, personal health data can go to government bodies and companies such as drug makers. Each transfer needs the person's consent, but no rule we opened limits marketing use by the receiving firm."
+      ],
+      "sources": [
+        {
+          "title": "Medical Service Act, current text (CaseNote mirror of Korean statute)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EC%9D%98%EB%A3%8C%EB%B2%95",
+          "date": "2026-03-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Personal Information Protection Act, current text in force 11 Sep 2026 (CaseNote mirror of Korean statute)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4_%EB%B3%B4%ED%98%B8%EB%B2%95",
+          "date": "2026-03-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "PIPC sanctions 17 general hospitals over patient data leak (PIPC press release)",
+          "url": "https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=9056",
+          "date": "2023-07-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "What is the Health Information Highway service? (MOHW / KHIS portal)",
+          "url": "https://www.myhealthway.go.kr/portal/index?page=Individual/Portal/MediMyData/MydataService",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 62,
+      "summary": "Claims, medication and vaccination data are national, and the consent-based exchange links 10,332 facilities. Clinical records still sit in each provider's system, only about 600 facilities can share CT or MRI images, and a merged national platform is planned for 2029.",
+      "detail": [
+        "MOHW describes the Health Information Highway as a national relay for treatment, medication, checkup and vaccination data held by public bodies and providers. In August 2025 it linked 47 tertiary hospitals, 53 general hospitals and 1,164 clinics, 1,264 facilities in all.",
+        "MOHW's exchange programme reached 10,332 facilities in February 2026 and carried about 1.81 million records, including images, in 2025. Only about 600 facilities can exchange CT or MRI images because their EMR and PACS systems need upgrades.",
+        "Pharmacies and prescribers use HIRA's DUR check, but it is not legally required. A 2025 parliamentary review found that a provider counts as participating after a single check a year.",
+        "MOHW plans to merge the exchange and the Highway into one Digital Medical Information Exchange System, with design in 2026, build from 2027 and launch targeted for 2029."
+      ],
+      "sources": [
+        {
+          "title": "All 47 tertiary hospitals now visible in My Health Record app (MOHW via korea.kr)",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148948286",
+          "date": "2025-08-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Records follow you when you change hospitals: exchange passes 10,000 facilities (MOHW press release)",
+          "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489085&tag=&nPage=4",
+          "date": "2026-02-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Is DUR really checked by 99% of providers? (Medigate News)",
+          "url": "https://www.medigatenews.com/news/3461624456",
+          "date": "2025-10-17",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Government to merge exchange and Health Information Highway by 2029 (Electronic Times)",
+          "url": "https://www.etnews.com/20251020000130",
+          "date": "2025-10-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 58,
+      "summary": "A doctor can pull records from another provider through the national exchange with the patient's consent, and without it for unconscious or emergency patients. Use is thin: about 1.81 million exchanges in 2025, and medication safety checks rarely change prescriptions.",
+      "detail": [
+        "Medical Service Act Article 21-2 makes a provider answer another provider's request for records once the patient or guardian consents. Consent is not needed when the patient is unconscious or an emergency case with no guardian, and records must go with any emergency transfer without delay.",
+        "MOHW says 10,332 facilities joined the exchange by February 2026, and it carried about 1.81 million records in 2025. Image sharing is limited to about 600 facilities.",
+        "HIRA's DUR system warns doctors and pharmacists about duplicate drugs and contraindications in real time. Medigate reported in October 2025 that prescriptions were changed in under 5% of cases after a DUR check, and that the checks are not legally mandatory."
+      ],
+      "sources": [
+        {
+          "title": "Medical Service Act, current text (CaseNote mirror of Korean statute)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EC%9D%98%EB%A3%8C%EB%B2%95",
+          "date": "2026-03-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Records follow you when you change hospitals: exchange passes 10,000 facilities (MOHW press release)",
+          "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489085&tag=&nPage=4",
+          "date": "2026-02-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Is DUR really checked by 99% of providers? (Medigate News)",
+          "url": "https://www.medigatenews.com/news/3461624456",
+          "date": "2025-10-17",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Pseudonymised health data can be used for research without consent and with no general opt-out. Safeguards cap the cell at 50: data review boards, secure analysis centres, a 5-year prison penalty for re-identification, and a consent route for data donation.",
+      "detail": [
+        "PIPA Article 28-2 allows pseudonymised data to be processed without consent for statistics and scientific research. We found no general opt-out, and the law asks for no individual consent for this use.",
+        "MOHW and PIPC revised the Health and Medical Data Utilisation Guideline, in force 31 December 2025. It adds shared data review boards (DRB) for smaller institutions and standard IRB and DRB procedures, including IRB exemption for pseudonymised research, and sets rules for data on deceased patients.",
+        "K-CURE runs Safe Use Centres in Seoul and regional hospitals where approved researchers analyse health data in a controlled environment. PIPA Article 71 punishes processing pseudonymised data to identify a person with up to 5 years in prison or a 50 million won fine.",
+        "The Highway also offers a consent route: people can choose to donate or send their own records to hospitals, universities and research institutes. We found no public register of approved pseudonymised health data uses."
+      ],
+      "sources": [
+        {
+          "title": "Personal Information Protection Act, current text in force 11 Sep 2026 (CaseNote mirror of Korean statute)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4_%EB%B3%B4%ED%98%B8%EB%B2%95",
+          "date": "2026-03-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "MOHW revises Health and Medical Data Utilisation Guideline (Korea Medical & Pharmaceutical News)",
+          "url": "https://www.kmpnews.co.kr/news/articleView.html?idxno=68913",
+          "date": "2026-01-01",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Safe Use Centres for health data (K-CURE, MOHW)",
+          "url": "https://k-cure.mohw.go.kr/portal/pfm/kif/use/viewPfmKifUse.do",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "What is the Health Information Highway service? (MOHW / KHIS portal)",
+          "url": "https://www.myhealthway.go.kr/portal/index?page=Individual/Portal/MediMyData/MydataService",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 66,
+      "summary": "Korea's Digital Medical Products Act, in force since January 2025, requires change approval for significant software changes, and the AI Basic Act names healthcare AI high-impact and requires human oversight. MFDS issued generative AI device guidance and approved the first such device in April 2026.",
+      "detail": [
+        "The Digital Medical Products Act took effect on 24 January 2025. Article 11 requires change approval or notification for changes that affect safety or effectiveness, and a record and report for other changes. Article 15 allows real-world performance evaluation to support approvals and changes.",
+        "Article 16 sets a management system certification covering development, testing, maintenance, safety reporting and cybersecurity, valid for 3 years. Articles 13 and 14 make makers keep collecting and fixing defects and patch cybersecurity weaknesses under an MFDS security guideline.",
+        "MFDS published a generative AI device guideline on 24 January 2025, covering medical foundation models, data quality and bias. On 1 April 2026 it approved a device that drafts chest X-ray reports for radiologists, after a trial in which five experienced radiologists rated its reports against radiologists' own readings.",
+        "The AI Basic Act, in force 22 January 2026, lists healthcare delivery and medical devices as high-impact areas. Article 34 requires risk management, explanation, user protection and human oversight, though the science ministry may only recommend compliance with its detailed standards."
+      ],
+      "sources": [
+        {
+          "title": "Digital Medical Products Act (CaseNote mirror of Korean statute)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EB%94%94%EC%A7%80%ED%84%B8%EC%9D%98%EB%A3%8C%EC%A0%9C%ED%92%88%EB%B2%95",
+          "date": "2024-01-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Framework Act on AI Development and Trust (AI Basic Act), current text (CaseNote mirror)",
+          "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5_%EB%B0%9C%EC%A0%84%EA%B3%BC_%EC%8B%A0%EB%A2%B0_%EA%B8%B0%EB%B0%98_%EC%A1%B0%EC%84%B1_%EB%93%B1%EC%97%90_%EA%B4%80%ED%95%9C_%EA%B8%B0%EB%B3%B8%EB%B2%95",
+          "date": "2026-01-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "MFDS publishes world-first approval and review guideline for generative AI medical devices (MFDS press release)",
+          "url": "https://www.mfds.go.kr/brd/m_99/view.do?seq=48833",
+          "date": "2025-01-24",
+          "publisherClass": "official"
+        },
+        {
+          "title": "MFDS approves Korea's first generative-AI digital medical device (MFDS press release)",
+          "url": "https://www.mfds.go.kr/brd/m_99/view.do?seq=49815",
+          "date": "2026-04-01",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "Claims, medication checks and vaccinations are national. Hospital and clinic records move by consent through the exchange (10,332 facilities) and the Health Information Highway, with image sharing at about 600 sites.",
+  "laws": [
+    {
+      "name": "Medical Service Act (2024 amendment; Articles 21, 21-2, 21-3, 88)",
+      "level": "National",
+      "year": "2024",
+      "what": "Right to view and copy records, consent-based transfer between providers, criminal penalty for unlawful disclosure.",
+      "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EC%9D%98%EB%A3%8C%EB%B2%95"
+    },
+    {
+      "name": "Personal Information Protection Act (2026 amendment)",
+      "level": "National",
+      "year": "2026",
+      "what": "Separate consent for health data, consent-free pseudonymised research, data transfer right, fines up to 10% of revenue.",
+      "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4_%EB%B3%B4%ED%98%B8%EB%B2%95"
+    },
+    {
+      "name": "Digital Medical Products Act",
+      "level": "National",
+      "year": "2024",
+      "what": "Dedicated law for digital and AI medical devices with change approval, real-world evaluation and certification; in force 2025.",
+      "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EB%94%94%EC%A7%80%ED%84%B8%EC%9D%98%EB%A3%8C%EC%A0%9C%ED%92%88%EB%B2%95"
+    },
+    {
+      "name": "Framework Act on AI Development and Trust (AI Basic Act)",
+      "level": "National",
+      "year": "2025",
+      "what": "Healthcare AI is high-impact; requires risk management, explanation and human oversight; in force 22 Jan 2026.",
+      "url": "https://casenote.kr/%EB%B2%95%EB%A0%B9/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5_%EB%B0%9C%EC%A0%84%EA%B3%BC_%EC%8B%A0%EB%A2%B0_%EA%B8%B0%EB%B0%98_%EC%A1%B0%EC%84%B1_%EB%93%B1%EC%97%90_%EA%B4%80%ED%95%9C_%EA%B8%B0%EB%B3%B8%EB%B2%95"
+    },
+    {
+      "name": "EU adequacy decision for the Republic of Korea",
+      "level": "Supranational",
+      "year": "2021",
+      "what": "Lets personal data flow from the EU to Korea; confirmed after first review on 23 July 2026.",
+      "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-09",
+      "headline": "Draft rule would make hospitals log every view of electronic records",
+      "source": "Korean Nurses Association News",
+      "url": "https://www.nursenews.co.kr/news/articleView.html?idxno=44048",
+      "why": "Creates a trail of who opened a chart, though patients' access to it is unclear."
+    },
+    {
+      "date": "2026-06-11",
+      "headline": "Privacy regulator fines Coupang 624.7 billion won, faults misuse of staff weight data",
+      "source": "Personal Information Protection Commission",
+      "url": "https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS074&mCode=C020010000&nttId=12171",
+      "why": "Health-related data kept for one purpose cannot be reused without a legal basis."
+    },
+    {
+      "date": "2026-03-18",
+      "headline": "Right to transfer medical data extended to 337 general hospitals",
+      "source": "Yonhap News",
+      "url": "https://www.yna.co.kr/view/AKR20260318060500530",
+      "why": "More patients can move hospital records to apps and services they choose."
+    },
+    {
+      "date": "2026-02-12",
+      "headline": "Hospital record exchange passes 10,000 facilities, but only about 600 share images",
+      "source": "Ministry of Health and Welfare",
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489085&tag=&nPage=4",
+      "why": "Records can follow patients between hospitals, but CT and MRI images mostly cannot."
+    },
+    {
+      "date": "2025-10-17",
+      "headline": "Lawmaker says 99% drug-safety check participation figure counts one check a year",
+      "source": "Medigate News",
+      "url": "https://www.medigatenews.com/news/3461624456",
+      "why": "Medication safety checks at the point of care are less used than official figures suggest."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

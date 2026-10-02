@@ -1,0 +1,360 @@
+{
+  "iso3": "COL",
+  "name": "Colombia",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "Colombia's law says patients own their electronic record and must consent to sharing, but the new national exchange is built for providers, not patients.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "Ley 1751 and Ley 2015 give patients a free, complete electronic copy of their record. No national patient portal was found; the new national summaries are viewed by providers, so access still runs provider by provider.",
+      "detail": [
+        "Article 10(g) of statutory Ley 1751 of 2015 gives every person the right to consult their whole clinical record free of charge and to get a copy.",
+        "Article 9 of Ley 2015 of 2020 adds that providers must supply the record by any electronic means, free, complete and quickly. Resolution 1995 of 1999 lists the patient first among those who may access the record.",
+        "The national Digital Care Summary (RDA) is shown through a viewer built into each provider's own software. The ministry pages opened describe professional access only.",
+        "A patient-facing portal or app showing the national summaries was not found in sources opened (not verified). No legal deadline for answering copy requests was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley Estatutaria 1751 de 2015, articulo 10 (Secretaria del Senado)",
+          "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1751_2015.html",
+          "date": "2015",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 2015 de 2020, historia clinica electronica interoperable (Funcion Publica)",
+          "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=105472",
+          "date": "2020-01-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resolucion 1995 de 1999, manejo de la historia clinica (Minsalud)",
+          "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/RESOLUCI%C3%93N%201995%20DE%201999.pdf",
+          "date": "1999",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resumen Digitales de Atencion (RDA), micrositio IHCE (Minsalud)",
+          "url": "https://www.minsalud.gov.co/ihce/Paginas/resumen-digitales-de-atencion.aspx",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 27,
+      "summary": "Ley 2015 says providers may access the electronic record only with the person's prior, express consent. The rollout rules describe automatic sharing with any authorised professional and no patient-facing consent switch or access log.",
+      "detail": [
+        "Ley 2015 Article 6 makes each person the owner (titular) of their electronic record. Providers may access it with the person's prior and express consent. Article 7 says only the owner may authorise use by third parties, unless a law says otherwise.",
+        "Resolution 1888 of 2025 says summaries are generated when each encounter closes, sent to the ministry platform, and searched by authenticated professionals for care purposes.",
+        "The resolution requires every access to be logged for audit and traceability. It does not say patients can see that log.",
+        "How the statutory consent is captured in practice was not verified. No opt-out from the national exchange was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley 2015 de 2020, historia clinica electronica interoperable (Funcion Publica)",
+          "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=105472",
+          "date": "2020-01-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resolucion 1888 de 2025, Resumen Digital de Atencion en Salud (Minsalud)",
+          "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resolucion%20No%201888%20de%202025.pdf",
+          "date": "2025-09-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Informe especial: implementacion de la interoperabilidad de la historia clinica electronica (Minsalud)",
+          "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/OT/informe-especial-ihce.pdf",
+          "date": "2026-08",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 50,
+      "summary": "Ley 1581 treats health data as sensitive and the SIC has sanctioned health insurers, including EPS SOS for sharing an HIV patient's record. Fines reach 2,000 monthly minimum wages but apply only to private entities, and the health superintendency itself was breached in March 2026.",
+      "detail": [
+        "Ley 1581 of 2012 lists health data as sensitive (Article 5) and bans processing it without explicit authorisation, with exceptions (Article 6). Article 17 requires controllers to report security breaches to the data protection authority.",
+        "The SIC can fine up to 2,000 legal monthly minimum wages and close operations with sensitive data. These sanctions apply only to private parties; public bodies are referred to the Procuraduria.",
+        "SIC's 2025 list includes a 13 February 2025 sanction on EPS SOS for sharing health data without authorisation, and later actions against EPS Suramericana and Clinica Porvenir.",
+        "In March 2026 attackers downloaded 1.6 percent of the health superintendency's document store, mostly complaint files that, by its own account, may contain medical histories and details of care."
+      ],
+      "sources": [
+        {
+          "title": "Ley 1581 de 2012, proteccion de datos personales (Secretaria del Senado)",
+          "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html",
+          "date": "2012",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Sanciones proteccion de datos personales 2025 (SIC)",
+          "url": "https://www.sic.gov.co/sanciones-proteccion-datos-personales-2025",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "SIC sanciona a EPS SOS por divulgar historia clinica de paciente con VIH",
+          "url": "https://consultorsalud.com/sic-sanciona-eps-sos-historia-clinica-vih/",
+          "date": "2025-08-25",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Supersalud confirma filtracion masiva de datos sensibles de su archivo documental",
+          "url": "https://www.eltiempo.com/datos/supersalud-confirma-filtracion-masiva-de-datos-sensibles-de-su-archivo-documental-en-ciberataque-3544641",
+          "date": "2026-04-01",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 50,
+      "summary": "Health data cannot be processed without explicit authorisation under Ley 1581, and Ley 2015 bars insurers and providers from disclosing record data without express consent. No specific rule on health-data brokers, ad targeting or de-identified data sales was found.",
+      "detail": [
+        "Ley 1581 Article 6 prohibits processing sensitive data, including health data, unless the person gives explicit authorisation or another listed exception applies.",
+        "Ley 2015 Article 12 bans anyone who accessed the electronic record from disclosing it. Insurers (EPS) and providers (IPS) may not disclose data they manage without the person's express authorisation.",
+        "The SIC sanction against EPS SOS shows the authorisation rule is enforced against insurers.",
+        "No health-specific rule on data brokers, health apps, marketing use or sale of de-identified data was found in sources opened."
+      ],
+      "sources": [
+        {
+          "title": "Ley 1581 de 2012, proteccion de datos personales (Secretaria del Senado)",
+          "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html",
+          "date": "2012",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 2015 de 2020, historia clinica electronica interoperable (Funcion Publica)",
+          "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=105472",
+          "date": "2020-01-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Sanciones proteccion de datos personales 2025 (SIC)",
+          "url": "https://www.sic.gov.co/sanciones-proteccion-datos-personales-2025",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 50,
+      "summary": "A national exchange run by the Ministry of Health went live on 15 April 2026. By 4 August 2026 it held 21.5 million care summaries for 6.9 million patients from 1,430 providers, but labs, imaging and claims are not yet included.",
+      "detail": [
+        "Ley 2015 of 2020 required national record interoperability within five years. Resolution 1888 of 2025 set the summary format and gave providers until 15 April 2026 to connect.",
+        "The ministry reports 21,487,483 summaries for 6,936,927 patients, from 1,430 providers at 4,491 sites in 393 municipalities, as of 4 August 2026. That is about 13 percent of the 53 million people it cites.",
+        "Summaries cover outpatient, emergency and inpatient care. Records from before a provider joined stay with that provider.",
+        "Resolution 1799 of 2026 adds a pharmacy dispensing summary, with six months from 1 September 2026 to comply. The ministry names labs, imaging and claims (RIPS, e-invoices) as future additions."
+      ],
+      "sources": [
+        {
+          "title": "Informe especial: implementacion de la interoperabilidad de la historia clinica electronica (Minsalud)",
+          "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/OT/informe-especial-ihce.pdf",
+          "date": "2026-08",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Resolucion 1888 de 2025, Resumen Digital de Atencion en Salud (Minsalud)",
+          "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resolucion%20No%201888%20de%202025.pdf",
+          "date": "2025-09-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resolucion 1799 de 2026, RDA de dispensacion de medicamentos (Minsalud)",
+          "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1799-de-2026.pdf",
+          "date": "2026-08-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 2015 de 2020, historia clinica electronica interoperable (Funcion Publica)",
+          "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=105472",
+          "date": "2020-01-31",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 50,
+      "summary": "Any authenticated professional at a connected provider can search a patient's national care summaries in real time from their own system. Coverage is limited to care since each provider joined in 2026, about 13 percent of residents by August.",
+      "detail": [
+        "Resolution 1888 says the summaries are available to health professionals during care through search tools built into the provider's record system.",
+        "The professional must be authenticated and authorised, may use the data only for care purposes, and every access is logged.",
+        "The ministry says summaries are built from 2026, when each provider joins. Older history stays at the provider, so clinicians still miss earlier and unconnected care."
+      ],
+      "sources": [
+        {
+          "title": "Resolucion 1888 de 2025, Resumen Digital de Atencion en Salud (Minsalud)",
+          "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resolucion%20No%201888%20de%202025.pdf",
+          "date": "2025-09-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Informe especial: implementacion de la interoperabilidad de la historia clinica electronica (Minsalud)",
+          "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/OT/informe-especial-ihce.pdf",
+          "date": "2026-08",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 45,
+      "summary": "Research on people needs written informed consent reviewed by an ethics committee under Resolution 8430, but the committee may waive consent for no-risk studies such as record review. No general opt-out or public register of data uses was found.",
+      "detail": [
+        "Resolution 8430 of 1993 requires written informed consent, drafted by the lead investigator and reviewed by an ethics committee.",
+        "It classes retrospective record reviews without identification as no-risk research, and lets the ethics committee waive consent for such studies.",
+        "Ley 1581 Article 6(e) allows sensitive data to be processed for historical, statistical or scientific purposes, with steps to remove identity.",
+        "No national opt-out from secondary use of health data and no public register of research uses was found in sources opened."
+      ],
+      "sources": [
+        {
+          "title": "Resolucion 8430 de 1993, normas para la investigacion en salud (Minsalud)",
+          "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/RESOLUCION-8430-DE-1993.PDF",
+          "date": "1993",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 1581 de 2012, proteccion de datos personales (Secretaria del Senado)",
+          "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html",
+          "date": "2012",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 35,
+      "summary": "Decreto 4725 of 2005 treats medical software as a device needing INVIMA registration, but no AI-specific change control or oversight rule was found. A health AI strategy is still being drafted and the AI bill filed in July 2026 is pending.",
+      "detail": [
+        "Decreto 4725 of 2005 defines a medical device to include software and computer programs, so diagnostic software falls under INVIMA registration by risk class.",
+        "The CONPES 4144 national AI policy, approved 14 February 2025, sets over 100 actions to 2030, but it is a policy, not binding health rules.",
+        "The ministry's August 2026 report says the national strategy for AI in the health system is under construction.",
+        "Proyecto de Ley 025 of 2026, filed 21 July 2026, would class AI used as a safety component of medical devices as high risk, with conformity assessment and human oversight. It is a bill, not law."
+      ],
+      "sources": [
+        {
+          "title": "Decreto 4725 de 2005, dispositivos medicos (normograma INVIMA)",
+          "url": "https://normograma.invima.gov.co/compilacion/docs/decreto_4725_2005.htm",
+          "date": "2005",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "CONPES 4144: hoja de ruta de Colombia en inteligencia artificial (DNP)",
+          "url": "https://www.dnp.gov.co/publicaciones/Planeacion/Paginas/conpes-4144-hoja-de-ruta-colombia-inteligencia-artificial-retos-actuales-transformacion-futura.aspx",
+          "date": "2025-05-16",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Informe especial: implementacion de la interoperabilidad de la historia clinica electronica (Minsalud)",
+          "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/OT/informe-especial-ihce.pdf",
+          "date": "2026-08",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Proyecto de Ley 025 de 2026 Camara, regula la inteligencia artificial",
+          "url": "https://www.camara.gov.co/wp-content/uploads/2026/07/proyectos-ley/documentos/proyecto-36127/P.L.025-2026SC-INTELIGENCIA-ARTIFICIAL.pdf",
+          "date": "2026-07-21",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "siloed",
+    "pharmacy": "partial",
+    "claims": "siloed",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "National exchange live since 15 April 2026 for outpatient, emergency and inpatient summaries, reaching 6.9 million patients by August. Pharmacy dispensing joins by March 2027; labs, imaging and claims are not yet included.",
+  "laws": [
+    {
+      "name": "Ley Estatutaria 1751 de 2015 (derecho fundamental a la salud)",
+      "level": "National",
+      "year": "2015",
+      "what": "Right to consult the whole clinical record free, get a copy, and confidentiality.",
+      "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1751_2015.html"
+    },
+    {
+      "name": "Ley 2015 de 2020 (historia clinica electronica interoperable)",
+      "level": "National",
+      "year": "2020",
+      "what": "Patient owns the electronic record; consent for access; free electronic copy; national interoperability.",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=105472"
+    },
+    {
+      "name": "Ley 1581 de 2012 (proteccion de datos personales)",
+      "level": "National",
+      "year": "2012",
+      "what": "Health data sensitive; explicit authorisation; breach reporting; SIC fines up to 2,000 minimum wages.",
+      "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html"
+    },
+    {
+      "name": "Resolucion 1888 de 2025 (Resumen Digital de Atencion en Salud)",
+      "level": "National",
+      "year": "2025",
+      "what": "Adopts national care summaries, FHIR exchange, access logging; providers to connect by April 2026.",
+      "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Resolucion%20No%201888%20de%202025.pdf"
+    },
+    {
+      "name": "Resolucion 1799 de 2026 (RDA de dispensacion de medicamentos)",
+      "level": "National",
+      "year": "2026",
+      "what": "Adds medicine dispensing to the national summaries; six months from 1 September 2026.",
+      "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1799-de-2026.pdf"
+    },
+    {
+      "name": "Resolucion 8430 de 1993 (investigacion en salud)",
+      "level": "National",
+      "year": "1993",
+      "what": "Written informed consent and ethics committee review; waiver possible for no-risk research.",
+      "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/RESOLUCION-8430-DE-1993.PDF"
+    },
+    {
+      "name": "Decreto 4725 de 2005 (dispositivos medicos)",
+      "level": "National",
+      "year": "2005",
+      "what": "Medical device rules covering software; INVIMA registration by risk class.",
+      "url": "https://normograma.invima.gov.co/compilacion/docs/decreto_4725_2005.htm"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-04-14",
+      "headline": "National interoperable clinical record exchange becomes mandatory for providers",
+      "source": "El Pais (Cali)",
+      "url": "https://www.elpais.com.co/colombia/minsalud-anuncia-modernizacion-en-el-sistema-historia-clinica-sera-compartida-entre-instituciones-desde-abril-de-2026-1450.html",
+      "why": "Providers anywhere can now see a patient's recent care summaries."
+    },
+    {
+      "date": "2026-04-01",
+      "headline": "Health superintendency confirms leak of sensitive complaint files after cyberattack",
+      "source": "El Tiempo",
+      "url": "https://www.eltiempo.com/datos/supersalud-confirma-filtracion-masiva-de-datos-sensibles-de-su-archivo-documental-en-ciberataque-3544641",
+      "why": "Complaint files that may contain medical histories of people who filed health complaints were downloaded."
+    },
+    {
+      "date": "2026-08-06",
+      "headline": "Ministry adds medicine dispensing to national digital care summaries",
+      "source": "Consultorsalud",
+      "url": "https://consultorsalud.com/minsalud-rda-dispensacion-medicamentos/",
+      "why": "Pharmacy data will join the shared record, tracking whether patients get medicines."
+    },
+    {
+      "date": "2026-07-21",
+      "headline": "New bill to regulate artificial intelligence filed in the House",
+      "source": "Camara de Representantes",
+      "url": "https://www.camara.gov.co/wp-content/uploads/2026/07/proyectos-ley/documentos/proyecto-36127/P.L.025-2026SC-INTELIGENCIA-ARTIFICIAL.pdf",
+      "why": "Would class AI in medical devices as high risk, with assessment before use."
+    },
+    {
+      "date": "2026-09-14",
+      "headline": "Report says health sector draws most cyberattacks in Colombia",
+      "source": "HSB Noticias",
+      "url": "https://www.hsbnoticias.com/6-de-cada-10-ciberataques-en-colombia-van-dirigidos-al-sector-salud-que-pasa-con-las-historias-clinicas/",
+      "why": "Cites a security vendor's count of 410 ransomware events in early 2026."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

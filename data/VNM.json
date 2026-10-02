@@ -1,0 +1,378 @@
+{
+ "iso3": "VNM",
+ "name": "Vietnam",
+ "region": "Asia",
+ "controlModel": "State",
+ "headline": "Vietnamese patients can download visit records in their ID app, but every facility must feed a national database with no opt-out.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 60,
+   "summary": "Law 15/2023 lets patients read and copy their record on written request, and Decree 356 sets a 10-day deadline. VNeID shows visit summaries, labs and drugs as downloadable PDFs, but only 34 million people had one in September 2026, short of most residents.",
+   "detail": [
+    "Article 12 of Law 15/2023 on medical examination and treatment gives patients the right to read, view, copy and take notes on their record and to get a record summary. Article 69(4)(d) says this applies to records that are complete and archived, on a written request. The law text sets no fee and no deadline.",
+    "The PDP Law (91/2025, Article 4) adds rights to see, correct and obtain personal data. Decree 356/2025 (Article 5) requires a reply within 2 working days and delivery within 10 days.",
+    "Under Decision 31/QĐ-BYT of January 2026, the VNeID health book shows allergies, history, vaccinations, each visit's diagnosis, test values, drugs and procedures, and a discharge summary. Patients can download each visit as a PDF. Machine-readable export was not found.",
+    "Coverage: the Ministry of Health counted 34,023,412 people with a VNeID health book on 16 September 2026 (reported by VOV, the state broadcaster). That is well short of most of Vietnam's residents, so the 60 to 75 portal band is not reached.",
+    "Score: base 45 for a statutory right with no portal reaching most residents, plus 5 for the 10-day PDP deadline, plus 10 for an official portal with an official usage figure, giving 60, the top of that ladder. The Law 15 limit to archived records is offset by the PDP right, which covers all personal data."
+   ],
+   "sources": [
+    {
+     "title": "Luật Khám bệnh, chữa bệnh số 15/2023/QH15, toàn văn (Xây dựng chính sách, Cổng TTĐT Chính phủ)",
+     "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-15-2023-qh15-kham-benh-chua-benh-119231127164453959.htm",
+     "date": "2023-11-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Nghị định 356/2025/NĐ-CP quy định chi tiết Luật Bảo vệ dữ liệu cá nhân (LuatVietnam)",
+     "url": "https://luatvietnam.vn/dan-su/nghi-dinh-356-2025-nd-cp-quy-dinh-chi-tiet-luat-bao-ve-du-lieu-ca-nhan-422896-d1.html",
+     "date": "2025-12-31",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sổ sức khỏe điện tử trên VNeID có thể thay sổ giấy (Báo Điện tử Chính phủ)",
+     "url": "https://baochinhphu.vn/so-suc-khoe-dien-tu-tren-vneid-co-the-thay-so-giay-102260108162952758.htm",
+     "date": "2026-01-08",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Hơn 34 triệu người đã có Sổ sức khỏe điện tử trên VNeID (VOV)",
+     "url": "https://vov.gov.vn/hon-34-trieu-nguoi-da-co-so-suc-khoe-dien-tu-tren-vneid-mobiledtnew-1165910",
+     "date": "2026-09-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Decree 102/2025 makes every facility push records to the national health database and VNeID, with no article letting a patient opt out. Agency heads may release health data without consent for public interest, and no patient-visible access log was found.",
+   "detail": [
+    "Decree 102/2025 (Articles 10 and 23) requires every health facility to link and synchronise its data with the National Health Database and the VNeID health book. No article lets a patient opt out.",
+    "Decree 102 (Article 9) needs a person's consent before others access health information, but heads of state agencies may release it without consent when needed for public interest or community health. PDP Law Article 19 exempts state agency activities from consent.",
+    "The PDP Law gives a right to withdraw consent and object, with a 15-day deadline under Decree 356. A patient-visible access log in VNeID was not found in any source opened, so the score sits in the 20 to 35 band."
+   ],
+   "sources": [
+    {
+     "title": "Decree 102/2025/ND-CP on health data management, English text (LuatVietnam)",
+     "url": "https://english.luatvietnam.vn/y-te/decree-102-2025-nd-cp-health-data-management-400071-d1.html",
+     "date": "2025-05-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Luật Bảo vệ dữ liệu cá nhân 2025, số 91/2025/QH15 (LuatVietnam)",
+     "url": "https://luatvietnam.vn/dan-su/luat-bao-ve-du-lieu-ca-nhan-2025-so-91-2025-qh15-405135-d1.html",
+     "date": "2025-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Nghị định 356/2025/NĐ-CP quy định chi tiết Luật Bảo vệ dữ liệu cá nhân (LuatVietnam)",
+     "url": "https://luatvietnam.vn/dan-su/nghi-dinh-356-2025-nd-cp-quy-dinh-chi-tiet-luat-bao-ve-du-lieu-ca-nhan-422896-d1.html",
+     "date": "2025-12-31",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 42,
+   "summary": "Health is sensitive data under the 2025 PDP Law, with 72-hour breach notice, fines up to VND 3 billion (5% of revenue for cross-border breaches) and an August 2026 sanctions decree. But the regulator is the police ministry, state uses are exempt from consent, and hospital hacks continue.",
+   "detail": [
+    "The PDP Law (91/2025) took effect 1 January 2026. Decree 356/2025 (Article 4) lists health status, biometric and genetic data as sensitive. PDP Article 26 requires consent to process health information, except in Article 19 cases.",
+    "Article 23 requires notice to the data protection authority within 72 hours of a violation that may harm life, health or security. Article 8 caps fines at 5% of prior-year revenue for cross-border violations and VND 3 billion for others. Decree 330/2026, issued 19 August 2026, sets the penalties.",
+    "The Ministry of Public Security is the lead agency for data protection (PDP Article 36), so the regulator is not independent. Article 19 lets state agencies and security needs bypass consent.",
+    "In May 2026 the ministry's A05 department reported two health-sector hacks, including patient imaging results at Viet Duc Hospital. No fine against a hospital under the new law was found."
+   ],
+   "sources": [
+    {
+     "title": "Luật Bảo vệ dữ liệu cá nhân 2025, số 91/2025/QH15 (LuatVietnam)",
+     "url": "https://luatvietnam.vn/dan-su/luat-bao-ve-du-lieu-ca-nhan-2025-so-91-2025-qh15-405135-d1.html",
+     "date": "2025-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Nghị định 356/2025/NĐ-CP quy định chi tiết Luật Bảo vệ dữ liệu cá nhân (LuatVietnam)",
+     "url": "https://luatvietnam.vn/dan-su/nghi-dinh-356-2025-nd-cp-quy-dinh-chi-tiet-luat-bao-ve-du-lieu-ca-nhan-422896-d1.html",
+     "date": "2025-12-31",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Mức xử phạt vi phạm hành chính đối với hành vi vi phạm về bảo vệ dữ liệu cá nhân (Báo Điện tử Chính phủ)",
+     "url": "https://baochinhphu.vn/muc-xu-phat-vi-pham-hanh-chinh-doi-voi-hanh-vi-vi-pham-ve-bao-ve-du-lieu-ca-nhan-102260822154959691.htm",
+     "date": "2026-08-22",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cảnh báo rò rỉ dữ liệu y tế do hacker (Thanh Niên)",
+     "url": "https://thanhnien.vn/canh-bao-ro-ri-du-lieu-y-te-do-hacker-185260524204547959.htm",
+     "date": "2026-05-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 55,
+   "summary": "The PDP Law bans buying and selling personal data, with fines up to 10 times the revenue gained, and bars health bodies from giving data to insurers without the person's written request. De-identified data falls outside the law.",
+   "detail": [
+    "PDP Law Article 7 bans buying and selling personal data unless a law allows it. Article 8 sets the maximum fine for data trading at 10 times the revenue gained.",
+    "Article 26 says health sector bodies may not give personal data to other health providers or to health or life insurers unless the person asks in writing or an Article 19 exemption applies. Developers of health apps must follow the law in full.",
+    "Article 2 says data that has been de-identified is no longer personal data, so sale of de-identified health data is not covered.",
+    "Enforcement is real for general data: in July 2026 Hanoi police charged 3 people running a data marketplace with 53 million transactions. No case involving health data sales was found."
+   ],
+   "sources": [
+    {
+     "title": "Luật Bảo vệ dữ liệu cá nhân 2025, số 91/2025/QH15 (LuatVietnam)",
+     "url": "https://luatvietnam.vn/dan-su/luat-bao-ve-du-lieu-ca-nhan-2025-so-91-2025-qh15-405135-d1.html",
+     "date": "2025-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Những quy định đáng chú ý trong Luật Bảo vệ dữ liệu cá nhân 2025 (Xây dựng chính sách, Cổng TTĐT Chính phủ)",
+     "url": "https://xaydungchinhsach.chinhphu.vn/nhung-quy-dinh-dang-chu-y-trong-luat-bao-ve-du-lieu-ca-nhan-2025-119251225084154179.htm",
+     "date": "2025-12-25",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Công an TP Hà Nội khởi tố 3 người điều hành sàn mua bán dữ liệu cá nhân (VietNamNet)",
+     "url": "https://vietnamnet.vn/cong-an-tp-ha-noi-khoi-to-3-nguoi-dieu-hanh-san-mua-ban-du-lieu-ca-nhan-2534474.html",
+     "date": "2026-07-10",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 55,
+   "summary": "By 19 September 2026, 1,268 of 1,650 hospitals had electronic records and 99.5% of facilities linked to the social insurance claims system. The ministry admits many hospitals still run paper in parallel, and lab and pharmacy links are still being built.",
+   "detail": [
+    "The Ministry of Health reported 1,268 of 1,650 public and private hospitals in electronic medical records on 19 September 2026, about 77%. All hospitals run hospital information systems.",
+    "99.5% of facilities stay connected to Vietnam Social Security's claims assessment system, and visit summaries flow through that gateway into the VNeID health book.",
+    "Hospitals must stop using paper records from 1 January 2027. The ministry admits many EMRs do not meet quality rules and that staff keep paper and electronic records side by side.",
+    "Pharmacies must link sales data to a new national pharmacy database, with data from 1 January 2026, but some provinces had not started by August 2026. Reuse of 441 lab and imaging tests across facilities is still a draft circular."
+   ],
+   "sources": [
+    {
+     "title": "Số cơ sở y tế tham gia bệnh án điện tử tiếp tục tăng (Sức khỏe & Đời sống, Bộ Y tế)",
+     "url": "https://suckhoedoisong.vn/so-co-so-y-te-tham-gia-benh-an-dien-tu-tiep-tuc-tang-169260919154315649.htm",
+     "date": "2026-09-19",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cổng thông tin Bệnh án điện tử, danh sách cơ sở tham gia (Bộ Y tế)",
+     "url": "https://benhandientu.moh.gov.vn/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Hơn 75% bệnh viện triển khai bệnh án điện tử, tiến tới bỏ bệnh án giấy từ năm 2027 (Báo Đầu tư)",
+     "url": "https://baodautu.vn/hon-75-benh-vien-trien-khai-benh-an-dien-tu-tien-toi-bo-benh-an-giay-tu-nam-2027-d701953.html",
+     "date": "2026-09-14",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Cơ sở bán buôn, bán lẻ thuốc phải liên thông dữ liệu từ 01/01/2026 lên Hệ thống Cơ sở dữ liệu về dược (LuatVietnam)",
+     "url": "https://luatvietnam.vn/tin-van-ban-moi/co-so-ban-buon-ban-le-thuoc-phai-lien-thong-du-lieu-tu-01-01-2026-len-he-thong-co-so-du-lieu-ve-duoc-186-111475-article.html",
+     "date": "2026-08-14",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 44,
+   "summary": "Treating doctors may open a patient's VNeID health book, which carries visit summaries, test values and drugs from other facilities. The full chart from another hospital needs that hospital's consent, and cross-facility reuse of test results is still a draft.",
+   "detail": [
+    "Ministry of Health guidance of 30 September 2026 says medical staff may retrieve a patient's VNeID health book for clinical work. Under Decision 31/QĐ-BYT the book carries each visit's diagnosis, clinical and lab values, drugs and procedures.",
+    "Law 15/2023 (Article 69(3)(b)) lets practitioners at another facility read and copy a record in treatment only with the holding facility's consent, not by default.",
+    "The same guidance says doctors may reuse a valid test if it is reachable through the insurance system or VNeID. A draft circular listing 441 tests and imaging studies for reuse across insured facilities was published for comment in August 2026 and is not yet in force."
+   ],
+   "sources": [
+    {
+     "title": "Luật Khám bệnh, chữa bệnh số 15/2023/QH15, toàn văn (Xây dựng chính sách, Cổng TTĐT Chính phủ)",
+     "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-15-2023-qh15-kham-benh-chua-benh-119231127164453959.htm",
+     "date": "2023-11-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Giảm xét nghiệm trùng lặp, đưa dịch vụ đến gần người dân (Báo Đầu tư)",
+     "url": "https://baodautu.vn/giam-xet-nghiem-trung-lap-dua-dich-vu-den-gan-nguoi-dan-d710899.html",
+     "date": "2026-10-01",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Bộ Y tế đề xuất hơn 400 xét nghiệm, điện quang có thể dùng lại khi chuyển viện khám, chữa bệnh BHYT (Bảo hiểm xã hội Việt Nam)",
+     "url": "https://baohiemxahoi.gov.vn/tintuc/Pages/cai-cach-thu-tuc-hanh-chinh.aspx?CateID=0&ItemID=27035",
+     "date": "2026-08-25",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sổ sức khỏe điện tử trên VNeID có thể thay sổ giấy (Báo Điện tử Chính phủ)",
+     "url": "https://baochinhphu.vn/so-suc-khoe-dien-tu-tren-vneid-co-the-thay-so-giay-102260108162952758.htm",
+     "date": "2026-01-08",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Patients may refuse biomedical research and trials need written consent and ethics approval. Archived records can be lent to researchers with only the hospital's approval, with no opt-out, so the score is capped at 50.",
+   "detail": [
+    "Law 15/2023 (Article 11) gives patients the right to accept or refuse biomedical research. Article 69(4)(b) lets students, researchers and practitioners borrow archived records for research with the facility's consent; the patient is not asked. Article 69(5) binds users to secrecy and the stated purpose.",
+    "Circular 50/2025 on clinical drug trials, in force 27 February 2026, requires a signed voluntary consent form and approval by institutional and national biomedical ethics councils.",
+    "Decree 102 (Article 10) lets non-state users use personal health data only with the consent of the data unit and the person. PDP fines apply to misuse.",
+    "Score: base 40, plus 3 each for ethics councils, statutory secrecy, misuse penalties and a partial consent route, capped at 50. No public register of research uses was found."
+   ],
+   "sources": [
+    {
+     "title": "Luật Khám bệnh, chữa bệnh số 15/2023/QH15, toàn văn (Xây dựng chính sách, Cổng TTĐT Chính phủ)",
+     "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-15-2023-qh15-kham-benh-chua-benh-119231127164453959.htm",
+     "date": "2023-11-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Thông tư 50/2025/TT-BYT quy định về thử thuốc trên lâm sàng (LuatVietnam)",
+     "url": "https://luatvietnam.vn/y-te/thong-tu-50-2025-tt-byt-quy-dinh-thu-thuoc-tren-lam-sang-hieu-luc-tu-27-02-2026-422988-d1.html",
+     "date": "2025-12-31",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Decree 102/2025/ND-CP on health data management, English text (LuatVietnam)",
+     "url": "https://english.luatvietnam.vn/y-te/decree-102-2025-nd-cp-health-data-management-400071-d1.html",
+     "date": "2025-05-13",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "The AI Law in force since 1 March 2026 requires human oversight and risk review on significant changes for high-risk systems. But health AI already in use has until 1 September 2027, and a summary of the high-risk list shows only robotic surgery for health.",
+   "detail": [
+    "Law 134/2025 on AI (Article 14) requires high-risk providers to keep risk management under review when a system changes significantly, govern training data, keep logs and design for human oversight and intervention. Decree 142/2026, in force 1 May 2026, adds conformity re-assessment after significant changes.",
+    "Article 35 gives health AI systems already operating before 1 March 2026 18 months to comply, so their obligations bite from 1 September 2027. New high-risk systems are bound now.",
+    "Decision 33/2026/QĐ-TTg, in force 15 August 2026, lists high-risk systems. In LuatVietnam's summary of the list, the only health entry is AI-controlled robotic surgery; the annex itself was not opened.",
+    "In December 2025 the Ministry of Health said rules on testing, licensing and monitoring health AI were still to come. Binding law exists but does not yet reach most clinical AI, so the score is at the top of the guidance band."
+   ],
+   "sources": [
+    {
+     "title": "Luật Trí tuệ nhân tạo 2025, số 134/2025/QH15 (LuatVietnam)",
+     "url": "https://luatvietnam.vn/khoa-hoc/luat-tri-tue-nhan-tao-2025-so-134-2025-qh15-422299-d1.html",
+     "date": "2025-12-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Các điểm mới quan trọng của nghị định hướng dẫn Luật Trí tuệ nhân tạo (Atsumi & Sakai)",
+     "url": "https://www.aplawjapan.com/en/newsletter/20260528-2",
+     "date": "2026-05-28",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao từ 15/8/2026 (LuatVietnam)",
+     "url": "https://luatvietnam.vn/tin-van-ban-moi/danh-muc-he-thong-tri-tue-nhan-tao-co-rui-ro-cao-tu-15-8-2026-186-110045-article.html",
+     "date": "2026-07-02",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Bộ Y tế chuẩn bị ban hành quy định về AI trong y tế (Người Lao Động)",
+     "url": "https://tuoitre.vn/nld/bo-y-te-chuan-bi-ban-hanh-quy-dinh-ve-ai-trong-y-te-196251211145240185.htm",
+     "date": "2025-12-11",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "77% of hospitals run EMRs and 99.5% of facilities link to social insurance claims, which feed VNeID. Pharmacy and lab links are still being built; research links were not found.",
+ "laws": [
+  {
+   "name": "Law on Medical Examination and Treatment (15/2023/QH15)",
+   "level": "National",
+   "year": "2023",
+   "what": "Right to read and copy archived records; right to refuse research; confidentiality of records.",
+   "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-15-2023-qh15-kham-benh-chua-benh-119231127164453959.htm"
+  },
+  {
+   "name": "Law on Personal Data Protection (91/2025/QH15)",
+   "level": "National",
+   "year": "2025",
+   "what": "Health data needs consent; data trading banned; 72-hour breach notice; in force 1 January 2026.",
+   "url": "https://luatvietnam.vn/dan-su/luat-bao-ve-du-lieu-ca-nhan-2025-so-91-2025-qh15-405135-d1.html"
+  },
+  {
+   "name": "Decree 356/2025/ND-CP",
+   "level": "National",
+   "year": "2025",
+   "what": "Lists health as sensitive data; sets 10-day deadline to provide personal data.",
+   "url": "https://luatvietnam.vn/dan-su/nghi-dinh-356-2025-nd-cp-quy-dinh-chi-tiet-luat-bao-ve-du-lieu-ca-nhan-422896-d1.html"
+  },
+  {
+   "name": "Decree 102/2025/ND-CP on health data management",
+   "level": "National",
+   "year": "2025",
+   "what": "Creates National Health Database; facilities must link data to VNeID; state may override consent.",
+   "url": "https://english.luatvietnam.vn/y-te/decree-102-2025-nd-cp-health-data-management-400071-d1.html"
+  },
+  {
+   "name": "Decree 330/2026/ND-CP",
+   "level": "National",
+   "year": "2026",
+   "what": "Administrative penalties for cybersecurity and personal data protection violations.",
+   "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219266&classid=1&typegroupid=4"
+  },
+  {
+   "name": "Law on Artificial Intelligence (134/2025/QH15)",
+   "level": "National",
+   "year": "2025",
+   "what": "Risk-based AI rules with human oversight; health AI already operating has until 1 September 2027.",
+   "url": "https://luatvietnam.vn/khoa-hoc/luat-tri-tue-nhan-tao-2025-so-134-2025-qh15-422299-d1.html"
+  },
+  {
+   "name": "Circular 50/2025/TT-BYT on clinical drug trials",
+   "level": "National",
+   "year": "2025",
+   "what": "Written voluntary consent and ethics council approval for drug trials; in force 27 February 2026.",
+   "url": "https://luatvietnam.vn/y-te/thong-tu-50-2025-tt-byt-quy-dinh-thu-thuoc-tren-lam-sang-hieu-luc-tu-27-02-2026-422988-d1.html"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-08",
+   "headline": "VNeID health book data gains the legal force of paper records",
+   "source": "Báo Điện tử Chính phủ",
+   "url": "https://baochinhphu.vn/so-suc-khoe-dien-tu-tren-vneid-co-the-thay-so-giay-102260108162952758.htm",
+   "why": "Patients can download each visit as a PDF and skip paper documents."
+  },
+  {
+   "date": "2026-05-25",
+   "headline": "Police cyber unit reports hack of patient imaging data at Viet Duc Hospital",
+   "source": "Thanh Niên",
+   "url": "https://thanhnien.vn/canh-bao-ro-ri-du-lieu-y-te-do-hacker-185260524204547959.htm",
+   "why": "Shows digitised records are already targets as hospitals go paperless."
+  },
+  {
+   "date": "2026-08-22",
+   "headline": "Government issues penalty decree for personal data protection violations",
+   "source": "Báo Điện tử Chính phủ",
+   "url": "https://baochinhphu.vn/muc-xu-phat-vi-pham-hanh-chinh-doi-voi-hanh-vi-vi-pham-ve-bao-ve-du-lieu-ca-nhan-102260822154959691.htm",
+   "why": "Gives the 2026 data law penalties regulators can apply to hospitals and apps."
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "Over 75% of hospitals use electronic records ahead of 2027 paper ban",
+   "source": "Báo Đầu tư",
+   "url": "https://baodautu.vn/hon-75-benh-vien-trien-khai-benh-an-dien-tu-tien-toi-bo-benh-an-giay-tu-nam-2027-d701953.html",
+   "why": "Most hospital data will be digital, but quality and links still lag."
+  },
+  {
+   "date": "2026-09-21",
+   "headline": "More than 34 million people now have a VNeID electronic health book",
+   "source": "VOV",
+   "url": "https://vov.gov.vn/hon-34-trieu-nguoi-da-co-so-suc-khoe-dien-tu-tren-vneid-mobiledtnew-1165910",
+   "why": "About a third of residents can see their health history in one app."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

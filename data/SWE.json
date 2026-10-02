@@ -1,0 +1,398 @@
+{
+  "iso3": "SWE",
+  "name": "Sweden",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Swedes read nearly all their record in 1177 and must consent before another provider looks, but registers have no opt-out and consent may soon go.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 77,
+      "summary": "Every region shows records in 1177, and the Commission found all 13 data types it checks available in all 21 regions, with images only on request. About 8 million people have logged in, but 1177 offers reading and paper copies, not a download.",
+      "detail": [
+        "Patients have a legal right to read and copy their record. Public providers release records under the Freedom of the Press Act and the Secrecy Act; private providers must do so as soon as possible under chapter 8, section 2 of the Patient Data Act. GDPR adds a one month deadline and a free first copy.",
+        "1177 journal shows visit notes, vaccinations, referrals, diagnoses, dental records, medicines and test results to everyone aged 16 and over. All regions take part, plus some municipalities and publicly funded private providers. Inera says each provider decides what is shown, so the amount varies.",
+        "The European Commission scored Sweden 86% for 2025, up from 78% in 2024, against an EU average of 87%. All 13 data types are available in every region; medical images must be requested. Municipal care notes are not shown, and about 10% of private providers, those outside public contracts, often do not share.",
+        "Use is wide. Inera reported about 8 million people had logged in at some time by February 2025, with about 7.2 million logins a month. Access for guardians and authorised persons is weak: the Commission scored Sweden 63% here, against an EU average of 84%.",
+        "1177 says the journal is a window that fetches data from care systems at each login. Items not shown must be requested from the clinic on paper, and a copy may carry a fee. The pages we read describe no download or export feature."
+      ],
+      "sources": [
+        {
+          "title": "Patientdatalag (2008:355) (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "1177 journal (Inera)",
+          "url": "https://www.inera.se/tjanster/journalen/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2026 Digital Decade eHealth Indicator Study, Annex: Country Factsheets (European Commission)",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/53637948-66ce-11f1-9b18-01aa75ed71a1/language-en",
+          "date": "2026-06-15",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Öppen info: 1177 journal, Statistik och användning (Inera)",
+          "url": "https://inera.atlassian.net/wiki/spaces/OIJ/pages/442106604",
+          "date": "2025-03-04",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 72,
+      "summary": "Another provider may read shared records only with the patient's consent, patients can object and have data blocked at once, and some regions show the access log in 1177. A June 2026 proposal would drop the consent rule from July 2027; it is not yet law.",
+      "detail": [
+        "Under the 2022 Act on coordinated care documentation, a provider may read records that another provider has made available only if there is a current patient relationship, the data matter for care, and the patient consents. If the patient objects to sharing, the data must be blocked at once.",
+        "Inside one provider, the Patient Data Act lets a patient block notes from one clinic so other clinics cannot read them. A block can be lifted with consent, or without it when the patient cannot consent and needs essential care. 1177 says some regions let patients set blocks online.",
+        "Providers must log every access and check logs regularly, and must tell patients on request who has accessed their data. 1177 says patients can see when and from which clinic their record was read; depending on region, the log is in 1177 or must be requested.",
+        "On 18 June 2026 the government sent out a proposal to remove the consent requirement, so providers could read other providers' data unless the patient objects. Comments close on 19 October 2026 and the laws would start on 1 July 2027. Today's consent rule still applies."
+      ],
+      "sources": [
+        {
+          "title": "Lag (2022:913) om sammanhållen vård- och omsorgsdokumentation (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2022913-om-sammanhallen-vard-och_sfs-2022-913/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Patientdatalag (2008:355) (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Din journal (1177)",
+          "url": "https://www.1177.se/sa-fungerar-varden/sa-skyddas-och-hanteras-dina-uppgifter/din-journal/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ett första steg i genomförandet av en nationell digital infrastruktur på hälsodataområdet, S2026/01360 (Regeringen)",
+          "url": "https://www.regeringen.se/rattsliga-dokument/departementsserien-och-promemorior/2026/06/ett-forsta-steg-i-genomforandet-av-en-nationell-digital-infrastruktur-pa-halsodataomradet/",
+          "date": "2026-06-18",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 64,
+      "summary": "IMY can fine public health bodies up to SEK 10 million and fined pharmacy chain Apoteket SEK 37 million in 2024. But fines on five hospitals and regions were overturned in court in 2022, and police can get some patient data.",
+      "detail": [
+        "GDPR and the 2018 Data Protection Act apply. Unlike Finland and Denmark, Sweden lets the regulator IMY fine public authorities, up to SEK 5 million or SEK 10 million depending on the breach. Health records are covered by secrecy, and staff may read them only when they take part in the patient's care.",
+        "Enforcement in health is mixed. In 2022 an appeals court overturned IMY fines of SEK 2.5 to 10 million on Sahlgrenska, Karolinska, Capio S:t Göran and two regions, saying IMY had not proved its case. In August 2024 IMY fined Apoteket SEK 37 million and Apohem SEK 8 million over the Meta pixel.",
+        "In September 2026 IMY fined supplier Miljödata SEK 1.8 million after a 2025 breach hit 2.2 million people, including sick leave and rehabilitation data. This is health-adjacent HR data, not patient records. IMY is also reviewing a region and two municipalities, and in May 2026 opened an inspection of AI transcription in Region Gävleborg.",
+        "State access exceptions exist. 1177 says the care inspectorate, the social insurance agency and social services can get record data without consent. On 26 June 2026 the Supreme Administrative Court ordered Karolinska to give police the phone number of an undocumented patient; the ruling is final."
+      ],
+      "sources": [
+        {
+          "title": "Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Regioner och sjukhus slipper att betala miljoner i sanktionsavgifter (Läkartidningen)",
+          "url": "https://lakartidningen.se/nyheter/regioner-och-sjukhus-slipper-att-betala-miljoner-i-sanktionsavgifter/",
+          "date": "2022-05-17",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Sanktionsavgifter mot Apoteket och Apohem för överföring av personuppgifter till Meta (IMY)",
+          "url": "https://www.imy.se/nyheter/sanktionsavgifter-mot-apoteket-och-apohem-for-overforing-av-personuppgifter-till-meta/",
+          "date": "2024-08-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Dom: Sjukhus tvingas lämna ut uppgifter om papperslös (Dagens Samhälle)",
+          "url": "https://www.dagenssamhalle.se/styrning-och-beslut/juridik/dom-sjukhus-tvingas-lamna-ut-uppgifter-om-papperslos/",
+          "date": "2026-07-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 60,
+      "summary": "The Patient Data Act limits care records to a closed list of care, quality and statistics purposes, and IMY fined Apoteket SEK 37 million for leaking customer health data to Meta. No Swedish ban on selling health data or using it for marketing beyond GDPR was found.",
+      "detail": [
+        "Chapter 2, section 4 of the Patient Data Act lists the purposes for which care data may be used: care, patient administration, quality work, planning and statistics. Marketing is not among them. But section 3 lets processing outside the act go ahead with explicit consent, unless another rule bars it.",
+        "Quality registers may be used only for quality, statistics, research and set disclosures, under chapter 7, section 6. National health data registers may be used only for statistics, follow-up and research, and Socialstyrelsen says their data carry absolute secrecy, the strongest in Swedish law.",
+        "The Apoteket and Apohem case shows the gap in consumer health. Their websites sent data on purchases of over-the-counter medicines, self-tests and treatments for sexually transmitted infections to Meta for advertising. Prescription medicines were not included. IMY's fines were SEK 37 million and SEK 8 million.",
+        "We found no Swedish rule beyond GDPR that bans the sale of health data, data brokers or the use of health app data for advertising."
+      ],
+      "sources": [
+        {
+          "title": "Patientdatalag (2008:355) (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lag (1998:543) om hälsodataregister (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1998543-om-halsodataregister_sfs-1998-543/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Sekretessprövning hos Socialstyrelsen (Socialstyrelsen)",
+          "url": "https://bestalladata.socialstyrelsen.se/data-for-forskning/sekretessprovning/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Sanktionsavgifter mot Apoteket och Apohem för överföring av personuppgifter till Meta (IMY)",
+          "url": "https://www.imy.se/nyheter/sanktionsavgifter-mot-apoteket-och-apohem-for-overforing-av-personuppgifter-till-meta/",
+          "date": "2024-08-30",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 66,
+      "summary": "Sweden has no single national record: regions run their own systems, joined by the NPÖ viewer that every region and municipality uses. The National Medicines List links all pharmacies, but four regions, including Stockholm, Skåne and Västra Götaland, are connected only to read it, or still connecting.",
+      "detail": [
+        "Care is run by 21 regions, the municipalities and private providers, each with its own record system. NPÖ, the national patient overview, lets staff see records held by other providers. Inera says all regions and municipalities use NPÖ to read, and many also make their own data visible, but reading needs the patient's consent.",
+        "All e-prescriptions go to the National Medicines List at the eHealth Agency, which every pharmacy in Sweden can read. All actors had to connect by 1 December 2025, with full connection for care by 1 September 2028. The agency tracker shows 17 of 21 regions fully connected; Gotland, Stockholm, Skåne and Västra Götaland are connected, or connecting, for reading only.",
+        "Public health and research data are joined by law. All care providers must report to national health data registers, which the register holder may link for statistics and research. Swedish health care is tax-funded, and no insurance claims layer feeding the record was found.",
+        "The government wants a state-led national digital infrastructure. A January 2026 inquiry, SOU 2026:6, set out the roles, and a June 2026 proposal adds a national register of each patient's providers from July 2027. In May 2026 four agencies were told to prepare for EHDS, whose patient summary and e-prescription exchange starts in March 2029."
+      ],
+      "sources": [
+        {
+          "title": "NPÖ, Nationell patientöversikt (Inera)",
+          "url": "https://www.inera.se/tjanster/nationell-patientoversikt-npo/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Följ anslutningen till Nationella läkemedelslistan (E-hälsomyndigheten)",
+          "url": "https://www.ehalsomyndigheten.se/verksamhet/nationella-lakemedelslistan/folj-anslutningen-till-nationella-lakemedelslistan/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2026 Digital Decade eHealth Indicator Study, Annex: Country Factsheets (European Commission)",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/53637948-66ce-11f1-9b18-01aa75ed71a1/language-en",
+          "date": "2026-06-15",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Ett första steg i genomförandet av en nationell digital infrastruktur på hälsodataområdet, S2026/01360 (Regeringen)",
+          "url": "https://www.regeringen.se/rattsliga-dokument/departementsserien-och-promemorior/2026/06/ett-forsta-steg-i-genomforandet-av-en-nationell-digital-infrastruktur-pa-halsodataomradet/",
+          "date": "2026-06-18",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 64,
+      "summary": "A clinician at another provider can see records through NPÖ and the national medicines list, but only with a care relationship and the patient's active consent. An emergency rule covers patients who cannot consent, and what NPÖ shows varies by provider.",
+      "detail": [
+        "Under the 2022 Act, a provider may read another provider's records only for a current patient, when the data matter for care and the patient consents. Children who cannot consent are an exception. Inera's NPÖ service builds in checks for these three conditions.",
+        "If a patient lacks the capacity to consent, other than briefly, a clinician may read the data needed for necessary care when the patient's views have been clarified as far as possible and there is no reason to think they would object. If life or health is at serious risk, a clinician may learn which provider has blocked data.",
+        "Every region and municipality reads through NPÖ, but each provider chooses what to show. All care and pharmacy staff with the right access can see a patient's prescribed and dispensed medicines in the National Medicines List, where patient consent and blocks are also being introduced.",
+        "The government says the current consent rule does not fully meet providers' need for information. Its June 2026 proposal would let clinicians read shared data unless the patient objects."
+      ],
+      "sources": [
+        {
+          "title": "Lag (2022:913) om sammanhållen vård- och omsorgsdokumentation (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2022913-om-sammanhallen-vard-och_sfs-2022-913/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NPÖ, Nationell patientöversikt (Inera)",
+          "url": "https://www.inera.se/tjanster/nationell-patientoversikt-npo/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Samtycken och spärrar (E-hälsomyndigheten)",
+          "url": "https://www.ehalsomyndigheten.se/verksamhet/nationella-lakemedelslistan/samtycken-och-sparrar/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ett första steg i genomförandet av en nationell digital infrastruktur på hälsodataområdet, S2026/01360 (Regeringen)",
+          "url": "https://www.regeringen.se/rattsliga-dokument/departementsserien-och-promemorior/2026/06/ett-forsta-steg-i-genomforandet-av-en-nationell-digital-infrastruktur-pa-halsodataomradet/",
+          "date": "2026-06-18",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "All providers must report to national health registers, which are used for research without consent or a general opt-out, under ethics approval and absolute secrecy. Quality registers are the exception: a person can object and have their data erased.",
+      "detail": [
+        "The Health Data Registers Act makes every care provider report to registers kept by a central agency, for statistics, follow-up and research. The law gives no right to object.",
+        "Socialstyrelsen releases register data for research only after a secrecy review, and only with an approved application under the 2003 Ethical Review Act, which covers research on sensitive personal data. Its registers carry absolute secrecy.",
+        "Chapter 7, section 2 of the Patient Data Act says data may not be kept in a national or regional quality register if the person objects, and must be erased if they object later. People must be told of this right before data are recorded.",
+        "No public register of uses or specific re-identification penalty was verified. Sweden is preparing its EHDS system for secondary use: the eHealth Agency reports on it by 30 April 2027, and EHDS secondary-use rules start to apply from March 2029."
+      ],
+      "sources": [
+        {
+          "title": "Lag (1998:543) om hälsodataregister (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1998543-om-halsodataregister_sfs-1998-543/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Sekretessprövning hos Socialstyrelsen (Socialstyrelsen)",
+          "url": "https://bestalladata.socialstyrelsen.se/data-for-forskning/sekretessprovning/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lag (2003:460) om etikprövning av forskning som avser människor (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Patientdatalag (2008:355) (Sveriges riksdag)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI is governed by EU device law and the AI Act, whose duties for AI in medical devices now start 2 August 2028. Sweden has named AI Act authorities and issued guidance, but no binding national clinical-AI rules were verified.",
+      "detail": [
+        "AI with a medical purpose is a medical device under EU device rules. The Digital Omnibus on AI, Regulation (EU) 2026/1744, moved AI Act high-risk duties for AI in regulated products such as medical devices to 2 August 2028.",
+        "Sweden has no supplementary AI law yet. An inquiry reported on 6 October 2025, and until the end of 2026 PTS and other agencies serve as AI Act authorities by government assignment. IMY was named market surveillance authority for several AI uses in June 2026. Naming authorities is not a national addition under our anchors.",
+        "The Medical Products Agency updated its guidance on AI in Swedish health care in April 2026, adding generative AI risks and how the AI Act fits device law. It is guidance, not binding rules.",
+        "Oversight is active in practice. In May 2026 IMY opened an inspection of AI transcription in Region Gävleborg's primary care, including how errors are fixed and how the region avoids unintended model changes."
+      ],
+      "sources": [
+        {
+          "title": "Digital Omnibus on AI has been published (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+          "date": "2026-07-24",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "AI-förordningen (PTS)",
+          "url": "https://pts.se/ai/ai-forordningen/",
+          "date": "2026-07-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ny version av Läkemedelsverkets AI-vägledning till sjukvården (Läkemedelsverket, via TT)",
+          "url": "https://via.tt.se/pressmeddelande/4319887/ny-version-av-lakemedelsverkets-ai-vagledning-till-sjukvarden?publisherId=3235477&lang=sv",
+          "date": "2026-04-08",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Granskning av Region Gävleborgs användning av AI-transkribering i primärvården (IMY)",
+          "url": "https://www.imy.se/nyheter/granskning-av-region-gavleborgs-anvandning-av-ai-transkribering-i-primarvarden/",
+          "date": "2026-05-07",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "connected",
+    "research": "connected"
+  },
+  "journeyNote": "Regional record systems are joined by the consent-based NPÖ viewer. All pharmacies use the National Medicines List, but four regions only read it. Registers are complete by law. Tax-funded care has no claims layer we could find.",
+  "laws": [
+    {
+      "name": "Patient Data Act (Patientdatalag 2008:355)",
+      "level": "National",
+      "year": "2008",
+      "what": "Record duties, closed purpose list, blocks within a provider, access logs, quality register opt-out.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355/"
+    },
+    {
+      "name": "Act on coordinated care and social care documentation (2022:913)",
+      "level": "National",
+      "year": "2022",
+      "what": "Sharing between providers: patient may object; reading another provider's data needs consent.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2022913-om-sammanhallen-vard-och_sfs-2022-913/"
+    },
+    {
+      "name": "Data Protection Act (2018:218)",
+      "level": "National",
+      "year": "2018",
+      "what": "Supplements GDPR; lets IMY fine public authorities up to SEK 10 million.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218/"
+    },
+    {
+      "name": "Health Data Registers Act (1998:543)",
+      "level": "National",
+      "year": "1998",
+      "what": "Mandatory reporting to national health registers for statistics, follow-up and research.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1998543-om-halsodataregister_sfs-1998-543/"
+    },
+    {
+      "name": "Ethical Review Act (2003:460)",
+      "level": "National",
+      "year": "2003",
+      "what": "Research on sensitive personal data needs ethics approval.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460/"
+    },
+    {
+      "name": "Regulation (EU) 2025/327 (European Health Data Space)",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Patient access, restriction and opt-out rights; exchange and secondary use from March 2029 and 2031.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "level": "Supranational",
+      "year": "2026",
+      "what": "Delays AI Act high-risk duties for AI in medical devices to 2 August 2028.",
+      "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-22",
+      "headline": "IMY fines Miljödata SEK 1.8 million after leak hit 2.2 million people",
+      "source": "IMY",
+      "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-miljodata-for-bristande-sakerhet/",
+      "why": "Sick leave and rehabilitation data on a large share of Swedes reached the dark web."
+    },
+    {
+      "date": "2026-07-10",
+      "headline": "Top court orders Karolinska to give police an undocumented patient's phone number",
+      "source": "Dagens Samhälle",
+      "url": "https://www.dagenssamhalle.se/styrning-och-beslut/juridik/dom-sjukhus-tvingas-lamna-ut-uppgifter-om-papperslos/",
+      "why": "A final ruling that care secrecy can give way to police needs."
+    },
+    {
+      "date": "2026-06-18",
+      "headline": "Government proposes removing consent before providers read each other's records",
+      "source": "Regeringen",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/06/forslag-om-nationell-digital-infrastruktur-och-nationell-vardformedling-remitteras/",
+      "why": "Patients would move from giving consent to having to object."
+    },
+    {
+      "date": "2026-05-07",
+      "headline": "IMY opens on-site inspection of AI transcription in Region Gävleborg",
+      "source": "IMY",
+      "url": "https://www.imy.se/nyheter/granskning-av-region-gavleborgs-anvandning-av-ai-transkribering-i-primarvarden/",
+      "why": "First regulator check of AI scribes recording patient visits in Swedish primary care."
+    },
+    {
+      "date": "2026-05-05",
+      "headline": "Four agencies told to prepare Sweden for the EU health data space",
+      "source": "Regeringen",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/05/fyra-myndigheter-forbereder-sverige-for-eus-nya-halsodataforordning-ehds/",
+      "why": "Sets who will enforce patients' new EHDS access rights."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

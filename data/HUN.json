@@ -1,0 +1,352 @@
+{
+ "iso3": "HUN",
+ "name": "Hungary",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Hungary's EESZT links every GP, hospital and pharmacy, and patients can block doctors and read an access log, though very few use those controls.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 72,
+   "summary": "Through the EESZT portal and the EgészségAblak app, patients can see documents from their care, prescriptions and referrals, and the EU scored Hungary 85.98 on record access in 2024. Medical images are not yet shown to citizens, so the score stays inside the portal band.",
+   "detail": [
+    "The Health Act gives every patient the right to know what is in their medical documentation, and refers patients to the GDPR for their data rights.",
+    "After logging in with Ügyfélkapu and a social security (TAJ) number, the EESZT portal shows every document created during the person's care, plus all prescriptions, referrals and the eProfil summary.",
+    "The EgészségAblak app had 4.4 million downloads by November 2025, with 17 million reports appearing in the system each month. Downloads are not the same as active users.",
+    "The European Commission scored Hungary 85.98 for access to e-health records in 2024, above the EU average of 82.7, and asked Hungary to make medical images available to citizens."
+   ],
+   "sources": [
+    {
+     "title": "Lakosság (EESZT Információs portál)",
+     "url": "https://e-egeszsegugy.gov.hu/en/lakossagi-szolgaltatasok",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "1997. évi CLIV. törvény az egészségügyről, 24. § (Jogtár)",
+     "url": "https://net.jogtar.hu/jogszabaly?docid=99700154.tv",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "2025 Country Report Hungary, SWD(2025) 294 final, Part 13/27 (European Commission)",
+     "url": "https://ec.europa.eu/newsroom/dae/redirection/document/116912",
+     "date": "2025-06-16",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Több millióan használják már az EgészségAblakot (Világgazdaság)",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2025/11/e-egeszsegugy-magyarorszag-egeszsegablak-eeszt-rekord",
+     "date": "2025-11-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 72,
+   "summary": "Patients can open their record to all, block whole specialties, block a single doctor or hospital, or block everyone, and they can read a log of every query. Only about 0.6 percent of people have changed the default.",
+   "detail": [
+    "By default only the GP and treating doctors see EESZT data, and pharmacists see only prescriptions. Psychiatric, addiction, sexually transmitted infection and HIV/AIDS documents are visible only to doctors in that specialty.",
+    "Patients can choose a simple setting by specialty, a detailed setting by doctor, hospital, document type and source, or a full block. Open e-prescriptions and valid referrals cannot be blocked.",
+    "The access log shows the time, the doctor or pharmacist, the institution, the documents involved and whether the setting allowed access. Patients can also get an email when a doctor uploads something.",
+    "Data upload itself continues; the controls govern who can see it. A blogger's freedom of information request found about 65,000 people (0.607 percent) had made a setting by 2025."
+   ],
+   "sources": [
+    {
+     "title": "Önrendelkezés (EESZT Információs portál)",
+     "url": "https://e-egeszsegugy.gov.hu/en/onrendelkezes",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Önrendelkezés: GYIK (EESZT Információs portál)",
+     "url": "https://e-egeszsegugy.gov.hu/en/onrendelkezes-gyik",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Az önrendelkezési beállítások típusai az EESZT-ben (Tisztességes Adatkezelés)",
+     "url": "https://www.tisztessegesadatkezeles.org/2025/08/az-onrendelkezesi-beallitasok-tipusai-az-eeszt-ben/",
+     "date": "2025-08-09",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 62,
+   "summary": "A dedicated health data act and the GDPR apply, and the regulator NAIH has fined providers that withheld records, including HUF 10 million in a 2024 case. We found no major Hungarian health breach reported in the last 12 months.",
+   "detail": [
+    "The 1997 Health Data Act (Eüak) sets the purposes for which health data may be processed and is the legal base for EESZT self-determination. The Health Act points to the GDPR for patient data rights.",
+    "EESZT says the system is audited by NAIH. Only doctors with a medical seal number can open health data, after multi-factor login; administrative staff get no access.",
+    "In a 2022 decision NAIH fined a gynaecologist HUF 600,000 for failing to answer a patient's request for her pregnancy records.",
+    "A law firm's review of NAIH's 2024 report describes a HUF 10 million fine on a private provider that refused records, claiming they were only in EESZT.",
+    "The Health Data Act also lists police, tax and criminal investigation bodies that may request health data. For some police and criminal requests, the treating doctor must hand over data without prosecutor or court approval."
+   ],
+   "sources": [
+    {
+     "title": "NAIH-4137-8/2022: döntés egészségügyi dokumentáció másolatának kiadásáról (NAIH)",
+     "url": "https://www.naih.hu/hatarozatok-vegzesek?download=570%3Aegeszsegugyi-dokumentacio-masolatanak-kiadasa",
+     "date": "2022",
+     "publisherClass": "official"
+    },
+    {
+     "title": "1997. évi XLVII. törvény (Eüak) (Jogtár)",
+     "url": "https://net.jogtar.hu/jogszabaly?docid=99700047.tv",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Önrendelkezés: GYIK (EESZT Információs portál)",
+     "url": "https://e-egeszsegugy.gov.hu/en/onrendelkezes-gyik",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Analysis of the NAIH 2024 Cases with Fines (DMP)",
+     "url": "https://dmp.hu/en/data-protection/analysis-of-the-naih-2024-cases-with-fines/",
+     "date": "2025-04-22",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 55,
+   "summary": "The 2023 national data asset law lets public health data be reused by outside users, for a fee, once pseudonymised or anonymised in a secure environment. The EU health data space will ban marketing uses of reused data from 2029.",
+   "detail": [
+    "Eüak Chapter III/D treats data held by providers, EESZT and the health insurer as national data assets that can be reused under the 2023 Nahtv law.",
+    "Users can be organisations or natural persons. The Nahtv sets fees for data services, and the EESZT operator anonymises or pseudonymises the data to the sector body's parameters.",
+    "We found no Hungarian ban on selling de-identified health data and no specific rule on consumer health apps.",
+    "Under the EHDS, reused health data may not be used for marketing or decisions that harm individuals."
+   ],
+   "sources": [
+    {
+     "title": "2023. évi CI. törvény a nemzeti adatvagyon hasznosításáról (Jogtár)",
+     "url": "https://net.jogtar.hu/jogszabaly?docid=a2300101.tv",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "1997. évi XLVII. törvény (Eüak), 35/W. § (Jogtár)",
+     "url": "https://net.jogtar.hu/jogszabaly?docid=99700047.tv",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "European Health Data Space Regulation (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 78,
+   "summary": "Since November 2017 every GP service, outpatient clinic, hospital and pharmacy has been on EESZT, and private doctors joined from 2020. About 19 million e-prescriptions and 17 million reports appear in it each month.",
+   "detail": [
+    "GPs, outpatient and inpatient providers and all pharmacies joined on 1 November 2017; the ambulance service followed by 2018 and all licensed private medical and dental providers by 1 January 2020.",
+    "The health insurer loaded data on insured care and dispensed medicines since November 2012 into the EESZT event catalogue by July 2020.",
+    "From 1 July 2026 health visitor and school health records must be uploaded within one hour."
+   ],
+   "sources": [
+    {
+     "title": "Lakosság (EESZT Információs portál)",
+     "url": "https://e-egeszsegugy.gov.hu/en/lakossagi-szolgaltatasok",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "1997. évi XLVII. törvény (Eüak), 36/A. § (Jogtár)",
+     "url": "https://net.jogtar.hu/jogszabaly?docid=99700047.tv",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Bővül az EESZT-ben rögzítendő adatok köre (Jogkövető)",
+     "url": "https://jogkoveto.hu/tudastar/bovul-az-eeszt-ben-rogzitendo-adatok-kore",
+     "date": "2026-07-22",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Több millióan használják már az EgészségAblakot (Világgazdaság)",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2025/11/e-egeszsegugy-magyarorszag-egeszsegablak-eeszt-rekord",
+     "date": "2025-11-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 76,
+   "summary": "Any new GP or specialist treating a patient becomes a treating doctor in EESZT and can see everything except the most sensitive categories. In an emergency, doctors can override a patient's blocks, and each override is logged.",
+   "detail": [
+    "A treating doctor can query documents by TAJ number from any connected provider, public or private.",
+    "Sensitive categories stay with doctors of that specialty unless the patient widens access. Patients can also give one doctor a 24-hour permission online or in writing.",
+    "In urgent need, defined in law as immediate danger to life or of serious harm, the doctor can see data despite blocks. eProfil items the patient refused to upload are never in the system."
+   ],
+   "sources": [
+    {
+     "title": "Önrendelkezés: GYIK (EESZT Információs portál)",
+     "url": "https://e-egeszsegugy.gov.hu/en/onrendelkezes-gyik",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Önrendelkezés (EESZT Információs portál)",
+     "url": "https://e-egeszsegugy.gov.hu/en/onrendelkezes",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "1997. évi XLVII. törvény (Eüak), 3. § (Jogtár)",
+     "url": "https://net.jogtar.hu/jogszabaly?docid=99700047.tv",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 47,
+   "summary": "Health data can be reused through the national data asset system without individual consent, and we found no general opt-out. Safeguards include a permit body, a secure processing environment and pseudonymisation, and Hungary has already named its EHDS access body in law.",
+   "detail": [
+    "Eüak 35/W lets the sector body approve reuse of data held by providers, EESZT and the health insurer. Analysis must happen in a secure processing environment.",
+    "The same section makes this body Hungary's EHDS digital health authority, health data access body and national contact point for secondary use.",
+    "For research of national strategic importance, EESZT data passes to the researcher in pseudonymised form only with the participant's consent.",
+    "The EHDS will add a simple, reversible opt-out from secondary use, with rules applying from March 2029."
+   ],
+   "sources": [
+    {
+     "title": "1997. évi XLVII. törvény (Eüak), 21/A. § and 35/W. § (Jogtár)",
+     "url": "https://net.jogtar.hu/jogszabaly?docid=99700047.tv",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "European Health Data Space Regulation (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 54,
+   "summary": "Act LXXV of 2025, Hungary's first AI law, took effect mostly on 1 December 2025 and sets up AI notifying and market surveillance authorities, an AI Council and a sandbox. We found no national rule written for clinical AI.",
+   "detail": [
+    "Parliament passed the act on 21 October 2025 to carry out the EU AI Act in Hungary.",
+    "The government names the notifying authority and the market surveillance authority by decree; the market surveillance authority runs the AI regulatory sandbox.",
+    "A Hungarian AI Council, led by the government commissioner for AI, will issue guidelines. We found no binding health-specific AI guidance."
+   ],
+   "sources": [
+    {
+     "title": "2025. évi LXXV. törvény az EU MI-rendelet végrehajtásáról (Jogtár)",
+     "url": "https://net.jogtar.hu/jogszabaly?docid=a2500075.tv",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Az EU mesterséges intelligencia rendeletének végrehajtása Magyarországon (GDPR blog)",
+     "url": "https://gdpr.blog.hu/2025/11/05/az_eu_mesterseges_intelligencia_rendeletenek_vegrehajtasa_magyarorszagon",
+     "date": "2025-11-05",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Mesterséges intelligencia: ilyen törvény még nem volt Magyarországon (Világgazdaság)",
+     "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2025/11/mesterseges-intelligencia-torveny-magyarorszag-kormany",
+     "date": "2025-11-01",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "connected",
+  "labs": "connected",
+  "pharmacy": "connected",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "EESZT has linked GPs, hospitals, outpatient clinics and all pharmacies since 2017, with private providers since 2020. Claims history was loaded in 2020. School health joins in 2026. Research reuse runs through the data asset system.",
+ "laws": [
+  {
+   "name": "Act CLIV of 1997 on Health (Eütv.)",
+   "level": "National",
+   "year": "1997",
+   "what": "Patient right to know the contents of their medical documentation; discharge and outpatient reports on completion.",
+   "url": "https://net.jogtar.hu/jogszabaly?docid=99700154.tv"
+  },
+  {
+   "name": "Act XLVII of 1997 on Health Data (Eüak.)",
+   "level": "National",
+   "year": "1997",
+   "what": "Legal base for EESZT, digital self-determination, emergency access, and health data asset reuse.",
+   "url": "https://net.jogtar.hu/jogszabaly?docid=99700047.tv"
+  },
+  {
+   "name": "EMMI Decree 39/2016 on EESZT detailed rules",
+   "level": "National",
+   "year": "2016",
+   "what": "What providers must upload to EESZT and when; school health added from July 2026.",
+   "url": "https://net.jogtar.hu/jogszabaly?docid=a1600039.emm"
+  },
+  {
+   "name": "Act CI of 2023 on the National Data Asset System (Nahtv.)",
+   "level": "National",
+   "year": "2023",
+   "what": "Fee-based reuse of public data, including health data; implements Data Governance Act and EHDS.",
+   "url": "https://net.jogtar.hu/jogszabaly?docid=a2300101.tv"
+  },
+  {
+   "name": "Act LXXV of 2025 implementing the EU AI Act",
+   "level": "National",
+   "year": "2025",
+   "what": "Creates AI authorities, an AI Council and a regulatory sandbox; mostly in force 1 December 2025.",
+   "url": "https://net.jogtar.hu/jogszabaly?docid=a2500075.tv"
+  },
+  {
+   "name": "European Health Data Space Regulation (EU) 2025/327",
+   "level": "Supranational",
+   "year": "2025",
+   "what": "Free access, restriction and access-log rights, opt-out from secondary use; key parts apply from 2029.",
+   "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-01",
+   "headline": "Hungary adopts its first AI law, creating national AI authorities",
+   "source": "Világgazdaság",
+   "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2025/11/mesterseges-intelligencia-torveny-magyarorszag-kormany",
+   "why": "Gives patients national bodies that oversee AI systems, including in care."
+  },
+  {
+   "date": "2025-11-28",
+   "headline": "EgészségAblak app reaches 4.4 million downloads",
+   "source": "Világgazdaság",
+   "url": "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2025/11/e-egeszsegugy-magyarorszag-egeszsegablak-eeszt-rekord",
+   "why": "Shows how many people can reach their records and bookings by phone."
+  },
+  {
+   "date": "2025-12-24",
+   "headline": "Decree orders automatic EESZT appointment reminders from March 2026",
+   "source": "Pénzcentrum",
+   "url": "https://www.penzcentrum.hu/egeszseg/20251224/itt-van-mi-valtozik-2026-ban-az-eeszt-ben-nagyon-fontos-modositas-keszul-rengeteg-magyart-erint-1190916",
+   "why": "Patients get SMS or email notices about booked care, using their EESZT data."
+  },
+  {
+   "date": "2026-07-22",
+   "headline": "School health and health visitor records must now go into EESZT",
+   "source": "Jogkövető",
+   "url": "https://jogkoveto.hu/tudastar/bovul-az-eeszt-ben-rogzitendo-adatok-kore",
+   "why": "Children's school checkups become part of the shared national record."
+  },
+  {
+   "date": "2026-09-30",
+   "headline": "HUF 4.4 billion health digitalisation project closes with portal and app upgrades",
+   "source": "ICT Global",
+   "url": "https://ictglobal.hu/kormanyzati-informatika/digitalis-igazolas-okosabb-eeszt-elektronikus-lazlap-lezarult-az-egeszsegugy-44-milliardos-digitalizacios-projektje/",
+   "why": "Renewed patient portal and electronic hospital charts widen what EESZT holds."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

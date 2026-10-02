@@ -1,0 +1,367 @@
+{
+  "iso3": "ITA",
+  "name": "Italy",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Italians can hide documents and read who opened their regional record, but fewer than half let doctors see it.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 68,
+      "summary": "Law 24/2017 obliges providers to release records within seven days, and every regional FSE shows lab, discharge and ER reports. Italy scored 84.1 on the EU record-access indicator (EU 82.7), but the full hospital chart is online in only 6 of 21 regions.",
+      "detail": [
+        "Article 4 of Law 24/2017 requires the medical director of any public or private facility to supply the available records within seven days of a request, preferably electronically, with additions within 30 days. GDPR's one-month deadline and free first copy also apply.",
+        "Each region's FSE is open to residents with digital identity. Under the 2023 FSE decree, the patient can see all documents and the log of operations, through the regional or national FSE portal.",
+        "In March 2026 lab reports, discharge letters, ER reports and SSN prescriptions were available in all 21 regional FSEs, the patient summary in 18 and the full inpatient chart (cartella clinica) in 6 (Ministry of Health monitoring).",
+        "Use is modest. From March to May 2026, 26.5% of people with a new document opened their FSE, from 1.2% in Basilicata to 64.1% in Veneto."
+      ],
+      "sources": [
+        {
+          "title": "Legge 8 marzo 2017, n. 24 (Gelli-Bianco), art. 4 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2017/03/17/17G00041/sg",
+          "date": "2017-03-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 7 settembre 2023, Fascicolo sanitario elettronico 2.0 (Gazzetta Ufficiale n. 249)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2023/10/24/23A05829/sg",
+          "date": "2023-10-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "I numeri del Fascicolo: utilizzo e documenti del FSE (Ministero della Salute monitoring site; consent data to 31 Aug 2026)",
+          "url": "https://monitopen.fse.salute.gov.it/usage",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Italy 2025 Digital Decade country report (Council of the EU, ST 10407/25 ADD 16)",
+          "url": "https://data.consilium.europa.eu/doc/document/ST-10407-2025-ADD-16/en/pdf",
+          "date": "2025-06-18",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "control": {
+      "score": 72,
+      "summary": "Clinicians may consult the FSE only after the patient gives explicit, revocable consent, and patients can hide any document online and read the access log, both available in all 21 regions. Documents still flow into the FSE automatically without consent.",
+      "detail": [
+        "The 2023 FSE decree (art. 8) requires free, specific and explicit consent before third parties consult the FSE, given separately for care, prevention and international prophylaxis. Revoking it disables consultation.",
+        "Patients may mask any document at the visit or later, and online masking takes effect immediately (art. 9). Clinicians cannot tell a document was hidden. Records on HIV, abortion, sexual violence, drug use and anonymous birth are visible only to the patient unless they agree.",
+        "Every upload, masking and consultation is logged with date, time, category of user and purpose, and patients can read the log (art. 21). Notifications of operations are on by default (art. 22). The access log and masking were live in all 21 regions in March 2026; notifications in 18.",
+        "The FSE is fed automatically without consent since 2020 (Garante). In an emergency with an incapable patient, staff can open an unconsented FSE, but never masked documents (art. 20). Only 43.5% of residents had given consent by 31 August 2026."
+      ],
+      "sources": [
+        {
+          "title": "Decreto 7 settembre 2023, Fascicolo sanitario elettronico 2.0 (Gazzetta Ufficiale n. 249)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2023/10/24/23A05829/sg",
+          "date": "2023-10-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Fascicolo sanitario elettronico (FSE): FAQ (Garante Privacy)",
+          "url": "https://www.garanteprivacy.it/temi/fse",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "I numeri del Fascicolo: utilizzo e documenti del FSE (Ministero della Salute monitoring site; consent data to 31 Aug 2026)",
+          "url": "https://monitopen.fse.salute.gov.it/usage",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 56,
+      "summary": "Italian law bans publishing health data, makes harmful misuse a crime, and the Garante fines hospitals for snooping. But cyberattacks on health bodies doubled to 57 in 2024, and by January 2026 the Garante's board was under criminal investigation.",
+      "detail": [
+        "The Privacy Code (art. 2-septies) lets health data be processed only under safeguard measures set by the Garante and bans their dissemination. Article 167 punishes unlawful processing of health data that harms the person, for profit or to cause damage, with one to three years in prison.",
+        "In 2025 the Garante adopted 506 corrective and sanction measures and collected over 37 million euros. It received 2,415 breach notices, 514 of them public-sector, mainly municipalities, schools and health bodies, and found problems with hospital dossiers and abusive access.",
+        "In September 2026 it fined the Udine university health authority 24,000 euros because colleagues opened a nurse-patient's dossier to check COVID status, with no access limits or alerts configured.",
+        "Il Sole 24 Ore, citing the national cybersecurity agency ACN, reports 27 attacks on health bodies in 2023 and 57 in 2024. By January 2026 Rome prosecutors were investigating the Garante's members for embezzlement and corruption, and one member resigned."
+      ],
+      "sources": [
+        {
+          "title": "Codice in materia di protezione dei dati personali, testo coordinato V 12.0 (Garante Privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Codice+in+materia+di+protezione+dei+dati+personali+%28Testo+coordinato%29",
+          "date": "2026-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Relazione sull'attività 2025, sintesi per la stampa (Garante Privacy)",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10266612",
+          "date": "2026-07-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Newsletter n. 551 dell'11 settembre 2026: Azienda sanitaria di Udine sanzionata per 24mila euro (Garante Privacy)",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10294220",
+          "date": "2026-09-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Si dimette Guido Scorza, componente del Garante della Privacy (Rainews)",
+          "url": "https://www.rainews.it/articoli/2026/01/si-dimette-guido-scorza-componente-del-garante-della-privacy-3ce8bda7-3ced-4e6d-8b94-ce4fb7de8298.html",
+          "date": "2026-01-18",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 60,
+      "summary": "Italian law bans publishing health data and bars insurers and banks from asking about cancer cured over ten years earlier. No ban on selling health data beyond GDPR was found, and Law 132/2025 lets private firms in public research projects reuse de-identified data without consent.",
+      "detail": [
+        "Article 2-septies of the Privacy Code says genetic, biometric and health data may not be disseminated, and the criminal penalty in article 167 covers misuse for profit.",
+        "Law 193/2023 forbids banks, insurers and other contracting parties from requesting information on cancer whose treatment ended more than ten years before without relapse (five years if it began before age 21), and from using it if they hold it.",
+        "Article 8 of Law 132/2025 declares AI research on health data by public and non-profit bodies, IRCCS hospitals, and private health firms in projects with them, of significant public interest. Secondary use of data without direct identifiers is always authorised, with only a general notice on the controller's website.",
+        "No national ban on sale of health data, health advertising or consumer health apps beyond GDPR was verified."
+      ],
+      "sources": [
+        {
+          "title": "Codice in materia di protezione dei dati personali, testo coordinato V 12.0 (Garante Privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Codice+in+materia+di+protezione+dei+dati+personali+%28Testo+coordinato%29",
+          "date": "2026-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Legge 7 dicembre 2023, n. 193, diritto all'oblio oncologico (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2023/12/18/23G00206/sg",
+          "date": "2023-12-18",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Legge 23 settembre 2025, n. 132, disposizioni in materia di intelligenza artificiale (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/SG",
+          "date": "2025-09-25",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 66,
+      "summary": "Hospitals, labs and GPs feed the regional FSEs at near full rates, 98.7% of lab, radiology, pathology, discharge and ER events in June 2026, and e-prescriptions run on one national system. The national health data ecosystem (EDS) that should link it all is not yet live.",
+      "detail": [
+        "The FSE indicator compares indexed documents with services delivered for discharge letters, ER reports and lab, radiology and pathology reports: 98.7% nationally at 30 June 2026, lowest 95.7% (Ministry of Health monitoring). 95.2% of GPs and paediatricians uploaded at least once by December 2025.",
+        "Public, accredited and authorised private providers must upload each service within five days (DL 179/2012 art. 12, as quoted by the Corte dei conti). In Sardinia only about 90 private accredited facilities fed the FSE at 30 April 2026.",
+        "E-prescriptions get a national number from the central Tessera Sanitaria system, which links prescribers, pharmacies and outpatient providers in real time (MEF).",
+        "The Corte dei conti found Sardinia's work slowed by national components not yet complete, the EDS Gateway and the EDS, and by GPs not yet producing patient summaries. It does not expect completion before 30 June 2027."
+      ],
+      "sources": [
+        {
+          "title": "I numeri del Fascicolo: utilizzo e documenti del FSE (Ministero della Salute monitoring site; consent data to 31 Aug 2026)",
+          "url": "https://monitopen.fse.salute.gov.it/usage",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Adozione e utilizzo da parte della Regione Sardegna del FSE, relazione (Corte dei conti, Sezione di controllo Sardegna, delibera 373/2026)",
+          "url": "https://cmsras.regione.sardegna.it/api/assets/redazionaleras/9c56d81c-9a7b-47da-8a02-857485a05120/allegato-delibera-373-2026-pnrr-marcato.pdf?version=0",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ricetta elettronica: come funziona (Sistema Tessera Sanitaria, MEF)",
+          "url": "https://sistemats1.sanita.finanze.it/portale/ricetta-elettronica-come-funziona",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Fascicolo sanitario elettronico (FSE): FAQ (Garante Privacy)",
+          "url": "https://www.garanteprivacy.it/temi/fse",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 50,
+      "summary": "Treating doctors, nurses and pharmacists can read the FSE only if the patient has consented, and nationally 43.5% had by August 2026. Consent ranges from 3.8% in Calabria to 90.3% in Trento, so access depends heavily on region.",
+      "detail": [
+        "The 2023 decree lets the GP, any doctor currently treating the patient (after declaring so), nurses, midwives and pharmacists consult the FSE within their profiles, once consent is given (art. 15).",
+        "Consent at 31 August 2026 was 88.1% in Emilia-Romagna, 80.3% in Veneto and 69.5% in Lombardy, but 5.5% in Campania, 4.4% in Abruzzo and 11.8% in Lazio (Ministry of Health monitoring).",
+        "89.7% of specialist doctors in public health authorities were enabled to consult the FSE in May 2026, from 44.2% in Calabria to 100% in several regions.",
+        "Without consent, staff may open the FSE only in an emergency with an incapable patient at grave risk, starting with the patient summary; masked documents stay hidden."
+      ],
+      "sources": [
+        {
+          "title": "Decreto 7 settembre 2023, Fascicolo sanitario elettronico 2.0 (Gazzetta Ufficiale n. 249)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2023/10/24/23A05829/sg",
+          "date": "2023-10-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "I numeri del Fascicolo: utilizzo e documenti del FSE (Ministero della Salute monitoring site; consent data to 31 Aug 2026)",
+          "url": "https://monitopen.fse.salute.gov.it/usage",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Health data can be used for research without consent when a law or regulation provides for it or informing people is impossible, and there is no general opt-out. Ethics review and Garante notification, criminal penalties and FSE masking give three safeguard classes, at the band cap.",
+      "detail": [
+        "Privacy Code article 110 waives consent for medical research based on law or regulation with a published impact assessment, or where informing people is impossible, with a favourable opinion from the territorial ethics committee.",
+        "Law 132/2025 always authorises secondary use of de-identified data for health AI research, but processing must be notified to the Garante and may start only after 30 days without a block (art. 8(5)).",
+        "Harmful unlawful processing of health data carries one to three years in prison (Privacy Code art. 167). Documents a patient masks in the FSE stay out of the national data ecosystem (Garante), a partial opt-out.",
+        "For research the ecosystem will give only anonymised extracts to the ministry, AGENAS and regions (Garante). The EHDS opt-out from secondary use applies from March 2029. A public register of research uses was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Codice in materia di protezione dei dati personali, testo coordinato V 12.0 (Garante Privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Codice+in+materia+di+protezione+dei+dati+personali+%28Testo+coordinato%29",
+          "date": "2026-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Legge 23 settembre 2025, n. 132, disposizioni in materia di intelligenza artificiale (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/SG",
+          "date": "2025-09-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Fascicolo sanitario elettronico (FSE): FAQ (Garante Privacy)",
+          "url": "https://www.garanteprivacy.it/temi/fse",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "European Health Data Space Regulation (EHDS) (European Commission, DG SANTE)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 54,
+      "summary": "Italy's AI law, in force since 10 October 2025, gives patients a right to be told when AI is used and keeps every clinical decision with the doctor. That is one national addition to EU law; the follow-up ministerial decree was not verified.",
+      "detail": [
+        "Article 7 of Law 132/2025 says health AI may not select or condition access to care on discriminatory criteria, patients must be informed, the decision rests with the doctor, and systems and data must be reliable and periodically checked.",
+        "Article 10 tasks AGENAS, as national digital health agency, with an AI platform giving non-binding suggestions to GPs. In November 2025 AGENAS asked regions to enrol 1,500 primary care doctors for a trial running January to December 2026 (Panorama della Sanità).",
+        "AgID and ACN are designated AI Act authorities (art. 20), a role EU law requires. Article 9 required a health ministry decree on research data within 120 days; its adoption was not verified.",
+        "Under the EU Digital Omnibus (Regulation 2026/1744), AI Act duties for high-risk AI built into products under EU product-safety law apply from 2 August 2028."
+      ],
+      "sources": [
+        {
+          "title": "Legge 23 settembre 2025, n. 132, disposizioni in materia di intelligenza artificiale (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/SG",
+          "date": "2025-09-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Assistenza primaria: al via la sperimentazione nazionale della Piattaforma di Intelligenza Artificiale (Panorama della Sanità)",
+          "url": "https://panoramadellasanita.it/site/assistenza-primaria-al-via-la-sperimentazione-nazionale-della-piattaforma-di-intelligenza-artificiale/",
+          "date": "2025-11-17",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Digital Omnibus on AI has been published (Regulation (EU) 2026/1744) (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+          "date": "2026-07-24",
+          "publisherClass": "law_firm"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "Hospitals, labs and ER feed regional FSEs at 98.7%, and e-prescriptions run nationally on Tessera Sanitaria. Patient summaries lag, private providers are still joining, and the national data ecosystem is unfinished.",
+  "laws": [
+    {
+      "name": "Legge 8 marzo 2017, n. 24 (Gelli-Bianco), art. 4",
+      "level": "National",
+      "year": "2017",
+      "what": "Facilities must supply the patient's records within seven days, additions within 30 days.",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2017/03/17/17G00041/sg"
+    },
+    {
+      "name": "Decreto-legge 18 ottobre 2012, n. 179, art. 12, as amended by DL 19 maggio 2020, n. 34, art. 11",
+      "level": "National",
+      "year": "2012",
+      "what": "Creates the FSE; since 2020 it is fed continuously by all treating professionals.",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2020/05/19/20G00052/sg"
+    },
+    {
+      "name": "Decreto 7 settembre 2023, Fascicolo sanitario elettronico 2.0",
+      "level": "National",
+      "year": "2023",
+      "what": "Consent to consultation, masking, access log, notifications and emergency access rules for the FSE.",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2023/10/24/23A05829/sg"
+    },
+    {
+      "name": "Decreto legislativo 30 giugno 2003, n. 196 (Codice privacy)",
+      "level": "National",
+      "year": "2003",
+      "what": "Health data safeguards, ban on dissemination, research rules (art. 110), criminal penalties (art. 167).",
+      "url": "https://www.garanteprivacy.it/documents/10160/0/Codice+in+materia+di+protezione+dei+dati+personali+%28Testo+coordinato%29"
+    },
+    {
+      "name": "Legge 23 settembre 2025, n. 132 (AI law)",
+      "level": "National",
+      "year": "2025",
+      "what": "Right to know about AI in care; doctor decides; consent-free de-identified data for AI research.",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/SG"
+    },
+    {
+      "name": "Legge 7 dicembre 2023, n. 193 (oblio oncologico)",
+      "level": "National",
+      "year": "2023",
+      "what": "Banks and insurers may not ask about cancer cured over ten years ago.",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2023/12/18/23G00206/sg"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Access, restriction and access-log rights; secondary-use opt-out; key parts apply from March 2029.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-11-17",
+      "headline": "AGENAS recruits 1,500 GPs for a 2026 trial of its AI platform",
+      "source": "Panorama della Sanità",
+      "url": "https://panoramadellasanita.it/site/assistenza-primaria-al-via-la-sperimentazione-nazionale-della-piattaforma-di-intelligenza-artificiale/",
+      "why": "A state AI assistant will suggest diagnoses and care paths to family doctors."
+    },
+    {
+      "date": "2026-01-18",
+      "headline": "Garante board member resigns as prosecutors investigate the whole board",
+      "source": "Rainews",
+      "url": "https://www.rainews.it/articoli/2026/01/si-dimette-guido-scorza-componente-del-garante-della-privacy-3ce8bda7-3ced-4e6d-8b94-ce4fb7de8298.html",
+      "why": "The authority that polices health data faces questions over its own conduct."
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Gimbe: no region offers all FSE document types; consent at 44%",
+      "source": "Rainews",
+      "url": "https://www.rainews.it/articoli/2026/03/fascicolo-sanitario-elettronico-cosa-cambia-da-oggi-per-medici-e-pazienti-8fb41024-a405-4a53-b44c-86d040d2f866.html",
+      "why": "What a patient's record holds, and who can read it, still depends on the region."
+    },
+    {
+      "date": "2026-07-21",
+      "headline": "Cyberattacks on Italian health authorities and hospitals keep rising",
+      "source": "Il Sole 24 Ore",
+      "url": "https://www.ilsole24ore.com/art/boom-cyber-attacchi-ad-asl-e-ospedali-dati-cittadini-rischio-e-sistemi-tilt-AJnHbDQ",
+      "why": "Attacks can expose records and erase test histories patients rely on."
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "Garante fines Udine health authority over staff snooping in a dossier",
+      "source": "Garante Privacy",
+      "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10294220",
+      "why": "Only staff treating a patient may open their hospital record."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

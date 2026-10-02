@@ -1,0 +1,393 @@
+{
+ "iso3": "CHN",
+ "name": "China",
+ "region": "Asia",
+ "controlModel": "State",
+ "headline": "Over 9,000 public hospitals feed provincial data platforms, but patients can copy only listed parts of their chart and cannot see who looked.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "The Civil Code lets patients read and copy listed record types, and the 2013 rules list what hospitals may copy, leaving out progress notes, with a fee and no fixed deadline. Public health files are opening to residents county by county, a target for 2026.",
+   "detail": [
+    "Civil Code Article 1225 says hospitals must 'promptly' provide admission notes, orders, test reports, operation and anaesthesia records, pathology and nursing records when a patient asks to read or copy them. PIPL Article 45 adds a general right to read and copy personal information.",
+    "The 2013 Medical Record Management Rules (Article 19) list what a hospital may copy, from temperature charts to imaging. Progress notes and case discussions are not on the list. Copies are made with the patient present and may carry a cost fee (Article 23).",
+    "Records are kept at least 15 years for outpatients and 30 years for inpatients (Article 29). There is no national portal for hospital charts.",
+    "The July 2026 national public health notice targets opening resident electronic health files to individuals in essentially every county in 2026. These files are summaries of primary and public health care, not the full hospital chart. The share of counties already open was not verified.",
+    "Score follows the statutory-right rule: base 45, minus 5 each for the fee, no fixed deadline and limited scope, plus 5 because the official 2026 notice documents a resident health file portal. No wide-use figure was found, so no further credit."
+   ],
+   "sources": [
+    {
+     "title": "Civil Code of the People's Republic of China (Xinhua text on Ministry of National Defense site)",
+     "url": "http://www.mod.gov.cn/gfbw/qwfb/yw_214049/4866121.html",
+     "date": "2020-06-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Medical Record Management Rules for Medical Institutions (2013), full text (Tongji University School of Medicine)",
+     "url": "https://med.tongji.edu.cn/info/1607/11324.htm",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Notice on 2026 basic public health services (NHC and three agencies, Shenzhen Health Commission copy)",
+     "url": "https://wjw.sz.gov.cn/xxgk/zcfggfxwj/mybh_5/content/post_12991931.html",
+     "date": "2026-07-28",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Personal Information Protection Law of the People's Republic of China (Cyberspace Administration of China)",
+     "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+     "date": "2021-08-20",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "PIPL needs separate consent for health data and lets people withdraw it, but statutory duties and public health emergencies need no consent. Hospitals feed provincial platforms by default, with no national opt-out and no patient-visible access log found.",
+   "detail": [
+    "PIPL Article 28 makes medical health data sensitive and Article 29 requires separate consent. Article 15 lets people withdraw consent. Article 13 removes the consent need for statutory duties, public health emergencies and other cases set by law.",
+    "Data flows into regional health platforms as part of state infrastructure. Health News reported 9,125 public hospitals at level two or above connected to regional platforms in May 2026.",
+    "Shenzhen is an exception: its 2023 health data measures let another institution view a person's electronic record only with separate consent, for one visit or all visits, revocable at any time.",
+    "Shenzhen requires access logs to be kept three years, and the 2026 national measures require logs to be audited. A log that patients themselves can read was not found.",
+    "Score sits near the top of the 20 to 35 band for the consent rights in law and Shenzhen's working choice."
+   ],
+   "sources": [
+    {
+     "title": "Personal Information Protection Law of the People's Republic of China (Cyberspace Administration of China)",
+     "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+     "date": "2021-08-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Shenzhen Health Data Management Measures (Shenzhen Health Commission)",
+     "url": "https://wjw.sz.gov.cn/xxgk/zcfggfxwj/mybh_5/content/post_11009298.html",
+     "date": "2023-11-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "China's health services: digital intelligence (Health News, reposted by WFCMS)",
+     "url": "https://www.wfcms.org/show/22/8567.html",
+     "date": "2026-05-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Measures on Data Security and Personal Information Protection in Medical and Health Institutions (Trial), full text (Digital Elite reprint)",
+     "url": "https://www.digitalelite.cn/h-nd-10024.html",
+     "date": "2026-04-21",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "A February 2026 measure by the NHC, police and cyberspace agencies (Yicai) sets health-sector data rules, and an April 2026 campaign targets hospitals that let strangers look up records. Oversight sits with government departments, not an independent authority, and state access is broad.",
+   "detail": [
+    "The 2026 Measures on Data Security and Personal Information Protection in Medical and Health Institutions (Trial) ban illegal buying, selling or disclosure of personal information, require identity checks and authorisation rules for record lookups, and require important data to be stored in China.",
+    "The same measures require police and state security background checks for key staff handling core data. PIPL Article 66 sets fines up to 50 million yuan or 5% of annual turnover.",
+    "The April 2026 CAC campaign lists health failures, including weak identity checks that let unrelated people query others' records.",
+    "In May 2026 the Supreme People's Court published a case in which a hospital booking contractor took 2,878,070 patient records; the company was fined 300,000 yuan and staff jailed up to 5.5 years."
+   ],
+   "sources": [
+    {
+     "title": "Measures on Data Security and Personal Information Protection in Medical and Health Institutions (Trial), full text (Digital Elite reprint)",
+     "url": "https://www.digitalelite.cn/h-nd-10024.html",
+     "date": "2026-04-21",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "CAC, MIIT and MPS announcement on the 2026 personal information protection campaigns",
+     "url": "https://www.cac.gov.cn/2026-04/02/c_1776867645836849.htm",
+     "date": "2026-04-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Supreme People's Court typical cases on crimes infringing citizens' personal information (Xinhua)",
+     "url": "https://www.news.cn/legal/20260508/6d75070dddf44834adfbe5734b20af3e/c.html",
+     "date": "2026-05-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Medical data security enters a year of special governance (Yicai)",
+     "url": "https://www.yicai.com/news/103232118.html",
+     "date": "2026-06-16",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 38,
+   "summary": "PIPL needs separate consent before data goes to another company, and selling personal data is a crime. Yet Shanghai now opens anonymised hospital data to insurers for product design without individual consent, and national policy pushes clinical data authorised operation.",
+   "detail": [
+    "PIPL Article 23 requires separate consent and disclosure of the recipient before data passes to another handler. Article 24 requires an opt-out from personalised marketing based on automated decisions.",
+    "The 2026 health data measures forbid illegal buying and selling of patient data. A 14-agency 2026 plan, reported by Yicai, orders an end to data profiteering and targets kickback sales disguised as research.",
+    "Yicai reported in September 2026 that Shanghai routes anonymised hospital data to insurers through a city big data centre after ethics review, treating individual consent as impractical. Insurers have built recurrence products this way.",
+    "The October 2025 AI-plus-healthcare opinion calls for a clinical data authorised operation system and a negative list for data security."
+   ],
+   "sources": [
+    {
+     "title": "Personal Information Protection Law of the People's Republic of China (Cyberspace Administration of China)",
+     "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+     "date": "2021-08-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Shanghai opens hospital data for 'pre-existing condition' insurance products (Yicai via Tencent News)",
+     "url": "https://news.qq.com/rain/a/20260920A0C4MZ00",
+     "date": "2026-09-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Medical data security enters a year of special governance (Yicai)",
+     "url": "https://www.yicai.com/news/103232118.html",
+     "date": "2026-06-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Implementation opinion on promoting and regulating AI plus healthcare, Guo Wei Ban Gui Hua Fa [2025] No. 30 (MOFCOM law database)",
+     "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=104035",
+     "date": "2025-10-20",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 60,
+   "summary": "Health News reported 9,125 public hospitals linked to regional platforms and 8,069 sharing test results across institutions in 2026. One national insurance platform covers 1.36 billion people, but the record is joined by province, not as one national chart.",
+   "detail": [
+    "In May 2026 Health News reported that the national health information platform links with provincial platforms and 44 NHC-managed hospitals, and that 28 provinces have built physical provincial platforms.",
+    "A data zone shared by five agencies across health care, insurance and medicines exchanges 148 data items. Twenty-eight provinces run imaging clouds with over 430 million retrievals.",
+    "The national medical insurance platform went live in all 31 provinces by May 2022, with an e-prescription circulation centre. Hubei ordered externally filled prescriptions for special drugs (from January 2025), chronic disease drugs (July) and outpatient-pool drugs (November) onto it, ending paper for them.",
+    "In September 2026 the NHC director said 98% of prefecture-level cities mutually recognise over 300 test items."
+   ],
+   "sources": [
+    {
+     "title": "Hubei Medical Insurance Bureau notice on regulating externally dispensed insurance prescriptions (Wuhan Medical Insurance Bureau copy)",
+     "url": "https://ybj.wuhan.gov.cn/zwgk_52/zcfgyjd/qtzdgkwj/202502/t20250225_2539139.shtml",
+     "date": "2024-12-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "China's health services: digital intelligence (Health News, reposted by WFCMS)",
+     "url": "https://www.wfcms.org/show/22/8567.html",
+     "date": "2026-05-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "National unified medical insurance information platform fully built, covering 1.36 billion insured (Xinhua)",
+     "url": "http://www.news.cn/2022-05/16/c_1128655718.htm",
+     "date": "2022-05-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "NHC director: 98% of prefecture cities recognise over 300 test results (Beijing News via Tencent)",
+     "url": "https://news.qq.com/rain/a/20260914A08U5D00",
+     "date": "2026-09-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 50,
+   "summary": "Doctors in 8,069 public hospitals can retrieve test results from other institutions, and the national goal is cross-region result sharing. Full cross-provider charts are visible to clinicians only in some regions, such as Chongqing.",
+   "detail": [
+    "Health News reported in May 2026 that 8,069 public hospitals at level two or above retrieve test results across institutions, which supports mutual recognition.",
+    "Chongqing lets doctors in over 20,000 facilities pull results across institutions with one click under authorisation, with 19.34 million lookups reported.",
+    "The AI-plus-healthcare opinion asks for cross-region and cross-institution recognition and sharing of test results.",
+    "Shenzhen lets a clinician view another institution's record only with the patient's separate consent, except in emergencies."
+   ],
+   "sources": [
+    {
+     "title": "Implementation opinion on promoting and regulating AI plus healthcare, Guo Wei Ban Gui Hua Fa [2025] No. 30 (MOFCOM law database)",
+     "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=104035",
+     "date": "2025-10-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Shenzhen Health Data Management Measures (Shenzhen Health Commission)",
+     "url": "https://wjw.sz.gov.cn/xxgk/zcfggfxwj/mybh_5/content/post_11009298.html",
+     "date": "2023-11-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "China's health services: digital intelligence (Health News, reposted by WFCMS)",
+     "url": "https://www.wfcms.org/show/22/8567.html",
+     "date": "2026-05-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Research on identifiable people needs informed consent and ethics review, but anonymised data is exempt from review and Shanghai waived individual consent for insurer use. Credit goes to ethics committees, a secure processing zone and criminal penalties.",
+   "detail": [
+    "The 2023 ethics review measures (Article 33) require signed informed consent, and Article 36 says the form must state whether data will be shared or reused.",
+    "Article 32 exempts research using anonymised data from ethics review when it causes no harm and involves no sensitive data or commercial interest.",
+    "In Shanghai each data request goes to a hospital-group ethics committee, and the data stays in a secure zone at the city big data centre.",
+    "Yicai reported that only about 30% of surveyed hospitals de-identify sensitive research data. There is no general opt-out and no public register of uses."
+   ],
+   "sources": [
+    {
+     "title": "Measures for Ethical Review of Life Science and Medical Research Involving Humans, Guo Wei Ke Jiao Fa [2023] No. 4 (Peking University Health Science Center copy)",
+     "url": "https://research.bjmu.edu.cn/llwyh/llwyh_fgwj/98685712020c4ae1a670bfe0adbfa905.htm",
+     "date": "2023-02-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Shanghai opens hospital data for 'pre-existing condition' insurance products (Yicai via Tencent News)",
+     "url": "https://news.qq.com/rain/a/20260920A0C4MZ00",
+     "date": "2026-09-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Medical data security enters a year of special governance (Yicai)",
+     "url": "https://www.yicai.com/news/103232118.html",
+     "date": "2026-06-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Supreme People's Court typical cases on crimes infringing citizens' personal information (Xinhua)",
+     "url": "https://www.news.cn/legal/20260508/6d75070dddf44834adfbe5734b20af3e/c.html",
+     "date": "2026-05-08",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "ai": {
+   "score": 62,
+   "summary": "AI medical devices are registered under the NMPA's AI device guideline that locks algorithms and needs re-registration for updates that affect safety or effectiveness. Internet hospitals may not let AI write prescriptions or stand in for the doctor.",
+   "detail": [
+    "China Pharmaceutical News reported in April 2026 that the current AI device guideline requires self-learning to be switched off in clinical use. Any update affecting safety or effectiveness counts as a major change needing re-registration.",
+    "A September 2026 draft revision repeats this rule and splits updates into algorithm-driven and data-driven changes, judged against the same test set.",
+    "The 2022 Internet Diagnosis and Treatment Supervision Rules ban AI-generated prescriptions and AI software standing in for the doctor.",
+    "The October 2025 AI-plus-healthcare opinion calls for model filing, evaluation and 'penetrating' supervision of quality, privacy and data security."
+   ],
+   "sources": [
+    {
+     "title": "Consultation on the AI Medical Device Registration Review Guideline (2026 revision draft) (CMDE Yangtze River Delta branch)",
+     "url": "https://www.ydcmdei.org.cn/article/975",
+     "date": "2026-09-14",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Internet diagnosis and treatment supervision rules issued (Health News, Ankang Health Commission)",
+     "url": "https://wjw.ankang.gov.cn/Content-2416375.html",
+     "date": "2022-06-17",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Implementation opinion on promoting and regulating AI plus healthcare, Guo Wei Ban Gui Hua Fa [2025] No. 30 (MOFCOM law database)",
+     "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=104035",
+     "date": "2025-10-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sandbox regulation for autonomous surgical robots: China vs abroad (China Pharmaceutical News)",
+     "url": "https://bk.cnpharm.com/zgyyb/2026/04/30/app_324606.html",
+     "date": "2026-04-30",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "9,125 public hospitals feed regional platforms and 98% of cities recognise 300+ test results. Claims run on one national platform. Records join by province, and primary care files are still opening to residents.",
+ "laws": [
+  {
+   "name": "Personal Information Protection Law",
+   "level": "National",
+   "year": "2021",
+   "what": "Health data is sensitive and needs separate consent; no consent needed for statutory duties.",
+   "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm"
+  },
+  {
+   "name": "Civil Code (Articles 1034, 1225, 1226)",
+   "level": "National",
+   "year": "2020",
+   "what": "Patients may read and copy listed records; hospitals must keep patient information confidential.",
+   "url": "http://www.mod.gov.cn/gfbw/qwfb/yw_214049/4866121.html"
+  },
+  {
+   "name": "Medical Record Management Rules for Medical Institutions",
+   "level": "National",
+   "year": "2013",
+   "what": "Lists copyable record parts, allows a cost fee, sets 15 and 30 year retention.",
+   "url": "https://med.tongji.edu.cn/info/1607/11324.htm"
+  },
+  {
+   "name": "Measures on Data Security and Personal Information Protection in Medical and Health Institutions (Trial)",
+   "level": "National",
+   "year": "2026",
+   "what": "Health-sector rules on data grading, record lookup authorisation, local storage and penalties.",
+   "url": "https://www.digitalelite.cn/h-nd-10024.html"
+  },
+  {
+   "name": "Measures for Ethical Review of Life Science and Medical Research Involving Humans",
+   "level": "National",
+   "year": "2023",
+   "what": "Informed consent and ethics review; anonymised data research exempt from review.",
+   "url": "https://research.bjmu.edu.cn/llwyh/llwyh_fgwj/98685712020c4ae1a670bfe0adbfa905.htm"
+  },
+  {
+   "name": "Internet Diagnosis and Treatment Supervision Rules (Trial)",
+   "level": "National",
+   "year": "2022",
+   "what": "Bans AI-generated prescriptions and AI replacing the doctor in online care.",
+   "url": "https://wjw.ankang.gov.cn/Content-2416375.html"
+  },
+  {
+   "name": "Shenzhen Health Data Management Measures",
+   "level": "Regional",
+   "year": "2023",
+   "what": "Other institutions may view a person's record only with separate, revocable consent.",
+   "url": "https://wjw.sz.gov.cn/xxgk/zcfggfxwj/mybh_5/content/post_11009298.html"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-09-20",
+   "headline": "Shanghai opens anonymised hospital data to insurers without individual consent",
+   "source": "Yicai via Tencent News",
+   "url": "https://news.qq.com/rain/a/20260920A0C4MZ00",
+   "why": "Patient data now shapes insurance products that may price or exclude people with illness."
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "Health chief says 98% of cities share over 300 test results",
+   "source": "Beijing News via Tencent News",
+   "url": "https://news.qq.com/rain/a/20260914A08U5D00",
+   "why": "Patients repeat fewer tests when they move between hospitals."
+  },
+  {
+   "date": "2026-06-16",
+   "headline": "Regulators make 2026 a year of medical data security enforcement",
+   "source": "Yicai",
+   "url": "https://www.yicai.com/news/103232118.html",
+   "why": "A survey shows most hospitals still lack de-identification for research data."
+  },
+  {
+   "date": "2026-05-08",
+   "headline": "Supreme court publishes case of contractor taking 2.9 million patient records",
+   "source": "Xinhua",
+   "url": "https://www.news.cn/legal/20260508/6d75070dddf44834adfbe5734b20af3e/c.html",
+   "why": "Shows hospital IT vendors are a real leak path and can face prison."
+  },
+  {
+   "date": "2025-10-28",
+   "headline": "Amended Cybersecurity Law adds AI rules and higher fines from 2026",
+   "source": "Xinhua",
+   "url": "https://www.news.cn/politics/20251028/b3400522666a4b3f8c844b9fa6c31131/c.html",
+   "why": "Raises penalties for security failures that expose patient data."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

@@ -1,0 +1,383 @@
+{
+  "iso3": "EST",
+  "name": "Estonia",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Every provider must feed one national record that patients can read, log-check and close, but police and security services can query it without consent.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 80,
+      "summary": "The Health Portal shows documents, prescriptions, invoices and access logs, kept without time limit, and 60% of people aged 16 to 74 read records online in 2024 (EU 28%). Export was not verified, so the score sits in the lower half of its band.",
+      "detail": [
+        "The Health Services Organisation Act (TTKS) section 59³(1) says the patient has access to their own data in the health information system. A provider may delay first viewing by up to six months, through a health worker, to protect the patient's life or health.",
+        "The government regulation on the system lists what the portal shows: documents sent by providers, prescriptions, insurance and family doctor data, treatment invoices, referrals, appointments and processing logs. The Act keeps data without time limit and medical images for 30 years (dental images 15).",
+        "The Health Portal lets people save or print data with name and ID code for an insurer. A machine-readable download was not verified.",
+        "Eurostat reports that 59.8% of people aged 16 to 74 accessed personal health records online in 2024, against an EU average of 27.7%. Cases a doctor has not closed and sent to the system do not appear in the portal."
+      ],
+      "sources": [
+        {
+          "title": "Tervishoiuteenuste korraldamise seadus (Health Services Organisation Act), consolidated text from 01.10.2026, sections 59¹ to 59³",
+          "url": "https://www.riigiteataja.ee/akt/130062026132",
+          "date": "2026-06-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tervise infosüsteemi põhimäärus (Government Regulation No. 138 on the health information system), sections 16 to 21",
+          "url": "https://www.riigiteataja.ee/akt/128032026002",
+          "date": "2026-03-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Kontaktid ja korduma kippuvad küsimused (Terviseportaal)",
+          "url": "https://www.terviseportaal.ee/kontaktid-ja-kkk",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Individuals, internet activities: accessing personal health records online (Eurostat dataset isoc_ci_ac_i, 2024)",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ac_i/default/table",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "control": {
+      "score": 68,
+      "summary": "Patients can close their whole record or single documents in the portal and read a logbook of who viewed each document. Uploads need no consent, prescription views are not in the portal log, and police can obtain data for criminal proceedings without consent.",
+      "detail": [
+        "Uploading is mandatory: TTKS section 59²(1) obliges every provider to send data, and section 4¹(1) lets providers process it without consent for care. Section 59³(3) gives the patient the right to forbid providers' access.",
+        "In the portal a person can close the whole history with one button or close single documents, and can name representatives with full, view-only or prescription rights. Closing also hides time-critical data, and TEHIK warns the patient then bears responsibility for any drop in care quality.",
+        "Every document view leaves a log entry shown in the portal logbook. Views of prescriptions are not yet in that logbook; they appear on eesti.ee. Doctors still see prescriptions from the Health Insurance Fund's prescription centre.",
+        "Section 59³(7) allows release without consent for research, statistics and criminal or court proceedings. In September 2026 the Medical Association demanded a court order for such access; the minister said a bill is being drafted."
+      ],
+      "sources": [
+        {
+          "title": "Tervishoiuteenuste korraldamise seadus, consolidated text from 01.10.2026, sections 4¹(1), 59²(1), 59³",
+          "url": "https://www.riigiteataja.ee/akt/130062026132",
+          "date": "2026-06-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Terviseportaali KKK (TEHIK)",
+          "url": "https://www.tehik.ee/terviseportaali-kkk",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tervishoid, KKK (Andmekaitse Inspektsioon)",
+          "url": "https://www.aki.ee/isikuandmed/kkk/tervishoid",
+          "date": "2026-03-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Social minister butts heads with doctors over doctor-patient confidentiality (ERR News)",
+          "url": "https://news.err.ee/1610151619/social-minister-butts-heads-with-doctors-over-doctor-patient-confidentiality",
+          "date": "2026-09-30",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 55,
+      "summary": "The regulator's EUR 3 million fine over a pharmacy loyalty breach was upheld in court in September 2026. Against that, the security service queried health data on about 13,000 people in 13 months, and a dental IT breach touched over 300 providers.",
+      "detail": [
+        "The Data Protection Inspectorate (AKI) fined Allium UPI, which runs the Apotheka loyalty scheme, EUR 3 million in 2025 for weak security over customer data including health data. Harju County Court upheld the fine on 2 September 2026; appeal to the Supreme Court is open.",
+        "An internal review published in August 2026 found the Internal Security Service queried health data on about 13,000 people in 13 months. Police made 2,139 queries in 2026, 135 not confirmed correct or flagged for further review, and stopped using prescription purchases to locate people.",
+        "In September 2026 police detained a suspect after illegal downloads from Innovaatik, a dental-care IT supplier. Data from more than 300 providers was affected, including ID codes and health data; prosecutors said the data was recovered.",
+        "The law itself is strict on paper: logs of every view are kept 30 years, and AKI treats health data as special-category data needing a GDPR Article 9 basis."
+      ],
+      "sources": [
+        {
+          "title": "Allium UPI-le määratud 3 miljoni euro suurune trahv oli kohtu hinnangul põhjendatud (Andmekaitse Inspektsioon)",
+          "url": "https://www.aki.ee/uudised/allium-upi-le-maaratud-3-miljoni-euro-suurune-trahv-oli-kohtu-hinnangul-pohjendatud",
+          "date": "2026-09-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Estonian police and ISS say most health data queries are lawful (ERR News)",
+          "url": "https://news.err.ee/1610104594/estonian-police-and-iss-say-most-health-data-queries-are-lawful",
+          "date": "2026-08-07",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Patient health data leaked from dentists' information system (ERR News)",
+          "url": "https://news.err.ee/1610127079/patient-health-data-leaked-from-dentists-information-system",
+          "date": "2026-09-03",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Tervise infosüsteemi põhimäärus (Government Regulation No. 138), section 8",
+          "url": "https://www.riigiteataja.ee/akt/128032026002",
+          "date": "2026-03-28",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 58,
+      "summary": "From 1 October 2026 the state may charge EUR 58 an hour to release health system data for research, development and innovation, inside a secure environment. Insurers may not seek genetic data, but no Estonian ban on selling health data beyond GDPR was found.",
+      "detail": [
+        "TTKS section 59³(9) to (15), in force 1 October 2026, lets TEHIK charge for data used for research, including development, innovation and statistics. TEHIK's price list sets EUR 58 an hour, and processing must happen in a secure environment.",
+        "TEHIK publishes every data release. The 2025 list includes aggregate statistics for MSD and Novartis, such as HPV vaccination counts and lab test volumes, alongside university studies.",
+        "The 2026 Human Genes Research Act bars insurers from requiring or collecting DNA data, and genetic traits may not affect premiums. The biobank may license its intellectual property for a fee.",
+        "Outside the health system, GDPR is the main limit. The Apotheka case showed loyalty-scheme purchase data, including health data, sitting with a retailer; the court upheld the EUR 3 million fine."
+      ],
+      "sources": [
+        {
+          "title": "Andmepäringud: miks, kellele ja mis tingimustel? (TEHIK Teabekeskus)",
+          "url": "https://teabekeskus.tehik.ee/et/andmeparing",
+          "date": "2026-04-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2025 andmeväljastused (TEHIK Teabekeskus)",
+          "url": "https://teabekeskus.tehik.ee/et/andmeparing/2025",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Inimgeeniuuringute seadus (Human Genes Research Act), adopted 25.02.2026",
+          "url": "https://www.riigiteataja.ee/akt/117032026001",
+          "date": "2026-03-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tervishoiuteenuste korraldamise seadus, consolidated text from 01.10.2026, section 59³(9) to (15)",
+          "url": "https://www.riigiteataja.ee/akt/130062026132",
+          "date": "2026-06-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 80,
+      "summary": "One national system receives mandatory uploads from every provider and serves waiting lists, medical images and state registries. The National Audit Office found in December 2025 that 79% of discharge summaries still arrive in an outdated format and some are never sent.",
+      "detail": [
+        "TTKS section 59²(1) obliges providers to send data on care, waiting lists, medical images and registry reporting. The same system serves health statistics and the state disease registries.",
+        "Estonia sends e-prescriptions and patient summaries to other countries through MyHealth@EU, and its pharmacists can dispense foreign e-prescriptions. An EU-funded project running to November 2027 is fixing incomplete allergy data in the patient summary.",
+        "The National Audit Office (December 2025) found documentation uneven and incomplete: some providers send no discharge summaries or send them late, many think paid private services need not be reported, and 79% of 2024 summaries used an outdated format.",
+        "OECD reports that Estonia is an EU leader in digital health, but that comprehensive linking across health datasets is not yet feasible, which limits monitoring and research."
+      ],
+      "sources": [
+        {
+          "title": "Tervishoiuteenuste korraldamise seadus, consolidated text from 01.10.2026, sections 59¹ and 59²",
+          "url": "https://www.riigiteataja.ee/akt/130062026132",
+          "date": "2026-06-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Terviseandmete õigsuse, täpsuse ja ajakohasuse tagamine (Riigikontroll audit)",
+          "url": "https://www.riigikontroll.ee/auditiaruanded/terviseandmete-oigsuse-tapsuse-ja-ajakohasuse-tagamine",
+          "date": "2025-12-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Cross-border data exchange (TEHIK)",
+          "url": "https://www.tehik.ee/en/cross-border-data-exchange",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Estonia: Country Health Profile 2025 (OECD and European Observatory)",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/estonia_8621837c/0eb3b75b-en.pdf",
+          "date": "2025-12",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 75,
+      "summary": "Any treating provider may read the national record without consent unless the patient has closed it, and a national dashboard pulls tests and visits from many providers. Gaps in what providers send limit what clinicians actually see.",
+      "detail": [
+        "TTKS sections 4¹(1) and 59³(2) give providers access to data in the health information system for care and its planning. Students past year four, occupational therapists, optometrists, radiology technicians and genetic counsellors also get defined access.",
+        "TEHIK's Health Management Dashboard, launched in 2023, brings together examinations, lab tests and appointments across providers. In June 2026 TEHIK planned a four-year upgrade worth up to EUR 7 million, saying it does not mean open access to patient data.",
+        "A patient's closure hides documents and time-critical data from all doctors. Prescription data from the Health Insurance Fund's prescription centre stays visible.",
+        "The National Audit Office says late, missing or hard-to-read discharge summaries threaten continuity of care, even though direct treatment errors are rare."
+      ],
+      "sources": [
+        {
+          "title": "Tervishoiuteenuste korraldamise seadus, consolidated text from 01.10.2026, sections 4¹(1), 59³",
+          "url": "https://www.riigiteataja.ee/akt/130062026132",
+          "date": "2026-06-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Estonia plans 7 million upgrade to centralized health specialist dashboard (ERR News)",
+          "url": "https://news.err.ee/1610059153/estonia-plans-7-million-upgrade-to-centralized-health-specialist-dashboard",
+          "date": "2026-06-19",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Terviseportaali KKK (TEHIK)",
+          "url": "https://www.tehik.ee/terviseportaali-kkk",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Terviseandmete õigsuse, täpsuse ja ajakohasuse tagamine (Riigikontroll audit)",
+          "url": "https://www.riigikontroll.ee/auditiaruanded/terviseandmete-oigsuse-tapsuse-ja-ajakohasuse-tagamine",
+          "date": "2025-12-05",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Health system data can be used for research without consent and with no general opt-out, mainly in pseudonymised form after ethics committee review. Safeguards are documented: a secure processing environment, a public list of data releases, and opt-in consent for the biobank.",
+      "detail": [
+        "The Personal Data Protection Act section 6 allows research without consent, preferably pseudonymised. Identifiable use needs an overriding public interest, and for special-category data an ethics committee checks the conditions first. TTKS section 59⁴ gives the ethics committee that role for health system data.",
+        "From 1 October 2026 TTKS section 59³(10) and (11) favour processing in a secure environment and require linkage with other data to happen separately.",
+        "The government regulation lets a person block providers' access, but lists no opt-out from research use. TEHIK publishes each year's data releases, naming the requester and purpose.",
+        "Biobank donation is opt-in. The 2026 Human Genes Research Act requires written consent and lets donors demand destruction of the data that links samples to them."
+      ],
+      "sources": [
+        {
+          "title": "Isikuandmete kaitse seadus (Personal Data Protection Act), consolidated text from 01.10.2026, section 6",
+          "url": "https://www.riigiteataja.ee/akt/130062026052",
+          "date": "2026-06-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tervishoiuteenuste korraldamise seadus, consolidated text from 01.10.2026, sections 59³ and 59⁴",
+          "url": "https://www.riigiteataja.ee/akt/130062026132",
+          "date": "2026-06-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Inimgeeniuuringute seadus (Human Genes Research Act), sections 18 and 20",
+          "url": "https://www.riigiteataja.ee/akt/117032026001",
+          "date": "2026-03-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "2025 andmeväljastused (TEHIK Teabekeskus)",
+          "url": "https://teabekeskus.tehik.ee/et/andmeparing/2025",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device law and the AI Act, whose duties for AI built into products such as medical devices now start 2 August 2028. The data regulator has warned clinicians about ChatGPT and scribes, but that guidance is not binding.",
+      "detail": [
+        "The consumer and technical regulator (TTJA) says it will become the AI Act market surveillance body. Its page states that Regulation (EU) 2026/1744 took effect on 27 July 2026 and moved duties for high-risk AI in products to 2 August 2028.",
+        "In May 2026 AKI wrote to a provider using ChatGPT to record and summarise consultations. It said a paid business licence alone does not make health data processing lawful, and warned about transfers outside the EU and model training.",
+        "AKI has also published a reply on AI-based documentation software in care, tagged as health and AI guidance. No Estonian law, health-AI authority or binding clinical AI rule was found, so the EU-only score applies."
+      ],
+      "sources": [
+        {
+          "title": "Tehisintellektisüsteemid (Tarbijakaitse ja Tehnilise Järelevalve Amet)",
+          "url": "https://ttja.ee/ariklient/ohutus/tooted-teenused/tehisintellektisusteemid",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tähelepanu juhtimine: üldotstarbelise tehisintellekti kasutamine tervishoius (Andmekaitse Inspektsioon)",
+          "url": "https://www.aki.ee/sites/default/files/documents/2026-06/Tahelepanu%20juhtimine.%20%C3%9Cldotstarbelise%20tehisintellekti%20kasutamine%20tervishoius_0.pdf",
+          "date": "2026-05-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Seisukohad (Andmekaitse Inspektsioon decisions and opinions list)",
+          "url": "https://www.aki.ee/kiirelt-katte/aki-otsused/seisukohad",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "All providers must upload to one national system that also feeds prescriptions, bookings and registries. The audit office finds late, missing and outdated-format documents. Research access is permit-based, logged publicly, and paid from October 2026.",
+  "laws": [
+    {
+      "name": "Health Services Organisation Act (Tervishoiuteenuste korraldamise seadus)",
+      "level": "National",
+      "year": "2001",
+      "what": "Mandatory uploads to the national record, patient access and right to block providers, consent exceptions, research fees.",
+      "url": "https://www.riigiteataja.ee/akt/130062026132"
+    },
+    {
+      "name": "Government Regulation No. 138, Statute of the Health Information System",
+      "level": "National",
+      "year": "2016",
+      "what": "Portal contents, closing records, representatives, 30-year logs and the patient's view of access logs.",
+      "url": "https://www.riigiteataja.ee/akt/128032026002"
+    },
+    {
+      "name": "Personal Data Protection Act (Isikuandmete kaitse seadus)",
+      "level": "National",
+      "year": "2018",
+      "what": "Applies GDPR; section 6 allows research without consent, mainly pseudonymised, with ethics committee checks.",
+      "url": "https://www.riigiteataja.ee/akt/130062026052"
+    },
+    {
+      "name": "Human Genes Research Act (Inimgeeniuuringute seadus)",
+      "level": "National",
+      "year": "2026",
+      "what": "Opt-in biobank consent, donor rights, and a ban on insurers using genetic data.",
+      "url": "https://www.riigiteataja.ee/akt/117032026001"
+    },
+    {
+      "name": "Regulation (EU) 2025/327 (European Health Data Space)",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Access, restriction and access-log rights, and a secondary-use opt-out; main parts apply from March 2029.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "Regulation (EU) 2024/1689 (AI Act), as amended by Regulation (EU) 2026/1744",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "Risk-based AI rules; high-risk duties for AI in products such as medical devices from 2 August 2028.",
+      "url": "https://ttja.ee/ariklient/ohutus/tooted-teenused/tehisintellektisusteemid"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-30",
+      "headline": "Doctors demand court orders before state agencies read patient records",
+      "source": "ERR News",
+      "url": "https://news.err.ee/1610151619/social-minister-butts-heads-with-doctors-over-doctor-patient-confidentiality",
+      "why": "A bill on police access to the national record is being drafted."
+    },
+    {
+      "date": "2026-09-03",
+      "headline": "Dental IT supplier breach exposes health data from over 300 providers",
+      "source": "ERR News",
+      "url": "https://news.err.ee/1610127079/patient-health-data-leaked-from-dentists-information-system",
+      "why": "Shows provider-side systems, not just the state record, hold sensitive patient data."
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Court upholds EUR 3 million fine over Apotheka loyalty data breach",
+      "source": "Andmekaitse Inspektsioon",
+      "url": "https://www.aki.ee/uudised/allium-upi-le-maaratud-3-miljoni-euro-suurune-trahv-oli-kohtu-hinnangul-pohjendatud",
+      "why": "Tests whether companies holding health purchase data face real penalties."
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "Review finds security service queried health data on 13,000 people",
+      "source": "ERR News",
+      "url": "https://news.err.ee/1610104594/estonian-police-and-iss-say-most-health-data-queries-are-lawful",
+      "why": "Police also stopped using prescription purchases to locate people."
+    },
+    {
+      "date": "2026-06-19",
+      "headline": "TEHIK plans EUR 7 million upgrade of clinicians' national health dashboard",
+      "source": "ERR News",
+      "url": "https://news.err.ee/1610059153/estonia-plans-7-million-upgrade-to-centralized-health-specialist-dashboard",
+      "why": "Shapes how much of a patient's record any treating clinician sees."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

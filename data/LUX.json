@@ -1,0 +1,362 @@
+{
+  "iso3": "LUX",
+  "name": "Luxembourg",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Every insured person gets a shared record with an access log and blocking tools, but few patients activate it and the EU says access lags.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 64,
+      "summary": "The 2014 patient rights law gives a right to a full copy within 15 working days, and a national shared record holds lab, imaging and discharge reports. Patients activate only about 3,257 accounts a month, and the EU rates record access as lagging.",
+      "detail": [
+        "Article 16 of the law of 24 July 2014 gives the patient access to the patient file and all health information. A copy, on paper or digital, must be supplied within 15 working days, and the fee cannot exceed the cost of copying and sending.",
+        "Providers must keep the file for at least ten years after care ends (Article 15).",
+        "The Agence eSanté creates a shared care record (DSP) automatically for everyone insured. It holds lab reports, imaging reports, hospital discharge letters and care summaries (Guichet.lu, May 2026).",
+        "By end 2025 the DSP held 18.3 million documents in 1.2 million open records. Patients activated 3,257 accounts a month on average and opened 166,394 documents a month (Le Quotidien, July 2026).",
+        "The European Commission's 2026 country report says eHealth is below the EU average and electronic record access is lagging."
+      ],
+      "sources": [
+        {
+          "title": "Loi du 24 juillet 2014 relative aux droits et obligations du patient (Journal officiel)",
+          "url": "https://data.legilux.public.lu/file/eli-etat-leg-loi-2014-07-24-n2-jo-fr-html.html",
+          "date": "2014-07-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Activation du compte eSanté pour accéder au Dossier de Soins Partagé (Guichet.lu)",
+          "url": "https://guichet.public.lu/fr/citoyens/sante/droits-devoirs-patient/droits-devoirs-patient/dsp.html",
+          "date": "2026-05-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Luxembourg's 2026 Digital Decade Country Report (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/factpages/luxembourgs-2026-digital-decade-country-report",
+          "date": "2026-08-28",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Santé numérique : l'année de l'accélération pour l'Agence eSanté (Le Quotidien)",
+          "url": "https://lequotidien.lu/politique-societe/sante-numerique-lannee-de-lacceleration-pour-lagence-esante/",
+          "date": "2026-07-07",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 70,
+      "summary": "The patient can oppose sharing at any time, close the record, block named professionals or mask data, and see a log of every access. The record is created by default, and the referring doctor cannot be blocked.",
+      "detail": [
+        "Article 60quater of the Social Security Code gives a right to see the record, a right to know who accessed it, and a right to oppose sharing at any time.",
+        "The Grand-Ducal Regulation of 6 December 2019 sets a default access matrix by profession. Patients can set a professional to a private level (blocked) or a restricted level (some data masked) (Article 6).",
+        "Every access and action is traced and kept, and the patient can consult the access history (Article 8).",
+        "The record is opened automatically on affiliation, so the default is opt-out. Patients can deny access to any professional except their referring doctor (Guichet.lu).",
+        "Since 1 December 2025 patients can activate their account through MyGuichet.lu and name a trusted helper to manage it (Ministry of Health)."
+      ],
+      "sources": [
+        {
+          "title": "Règlement grand-ducal du 6 décembre 2019, dossier de soins partagé (Journal officiel)",
+          "url": "https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/2019/12/06/a909/jo/fr/html/eli-etat-leg-rgd-2019-12-06-a909-jo-fr-html.html",
+          "date": "2019-12-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Code de la sécurité sociale, Art. 60quater (SECU)",
+          "url": "https://www.secu.lu/assurance-maladie/livre-i/chapitre-v-relations-avec-les-prestataires-de-soins/art-60quater/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Activation du compte eSanté pour accéder au Dossier de Soins Partagé (Guichet.lu)",
+          "url": "https://guichet.public.lu/fr/citoyens/sante/droits-devoirs-patient/droits-devoirs-patient/dsp.html",
+          "date": "2026-05-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Accès facile au Dossier de soins partagé via MyGuichet.lu (Ministère de la Santé et de la Sécurité sociale)",
+          "url": "https://m3s.gouvernement.lu/fr/actualites.gouvernement2024%2Bfr%2Bactualites%2Btoutes_actualites%2Bcommuniques%2B2025%2B12-decembre%2B01-dsp-myguichet.html",
+          "date": "2025-12-01",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 54,
+      "summary": "Luxembourg applies the GDPR through its law of 1 August 2018, but the regulator's published decisions we reviewed show no health-sector case. An August 2026 attack on an IT provider cut at least 80 medical practices off from patient files.",
+      "detail": [
+        "Health data is a special category under the GDPR. The law of 1 August 2018 organises the national regulator (CNPD) and lets it fine controllers, but not the State or municipalities.",
+        "The CNPD's published decisions cover video surveillance, registers and data officers. None of those we reviewed involve a hospital, doctor, lab or insurer, so this score rests on the general law.",
+        "On 22 August 2026 a cyberattack hit BMS Engineering, which hosts eMed software for doctors. At least 80 practices lost access to records for days, and a leak was not ruled out (L'essentiel, Reporter.lu).",
+        "Whether the breach was notified to the CNPD was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Loi du 1er août 2018 portant organisation de la CNPD (Journal officiel)",
+          "url": "https://data.legilux.public.lu/file/eli-etat-leg-loi-2018-08-01-a686-jo-fr-html.html",
+          "date": "2018-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Décisions (CNPD)",
+          "url": "https://cnpd.public.lu/fr/decisions-sanctions.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Au Luxembourg: 80 cabinets médicaux auraient été touchés par une cyberattaque (L'essentiel)",
+          "url": "https://www.lessentiel.lu/fr/story/au-luxembourg-80-cabinets-medicaux-auraient-ete-touches-par-une-cyberattaque-103629329",
+          "date": "2026-09-07",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Exclusif: Une cyberattaque qui fait paniquer les médecins (Reporter.lu)",
+          "url": "https://www.reporter.lu/fr/exclusif-sante-digitale-une-cyberattaque-qui-fait-paniquer-les-medecins/",
+          "date": "2026-09-07",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 54,
+      "summary": "National law bans processing genetic data for employment and insurance purposes, and only anonymised shared-record data may leave care for statistics. No Luxembourg ban on selling health data or on health advertising was verified, so the score stays low in its band.",
+      "detail": [
+        "Article 66 of the law of 1 August 2018 prohibits processing genetic data to exercise an employer's or insurer's rights.",
+        "Shared-record access is limited to the referring doctor, the treating doctor and professionals taking part in care. Agencies may exchange only anonymised data for statistics or epidemiology (Article 60quater).",
+        "Rules on data brokers, consumer health apps and sale of de-identified data beyond the GDPR were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Loi du 1er août 2018 portant organisation de la CNPD (Journal officiel)",
+          "url": "https://data.legilux.public.lu/file/eli-etat-leg-loi-2018-08-01-a686-jo-fr-html.html",
+          "date": "2018-08-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Code de la sécurité sociale, Art. 60quater (SECU)",
+          "url": "https://www.secu.lu/assurance-maladie/livre-i/chapitre-v-relations-avec-les-prestataires-de-soins/art-60quater/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 54,
+      "summary": "One national record collects hospital, lab and imaging documents, and professionals must upload useful data. National e-prescription use was not verified, and the EU tells Luxembourg to speed up its record rollout.",
+      "detail": [
+        "The DSP is an interface, not a replacement for provider files. Professionals holding useful data must upload it within a reasonable time (Regulation of 6 December 2019).",
+        "It held 18.3 million documents by end 2025. The electronic vaccination booklet had 75,173 booklets and over 500,000 recorded vaccinations (Le Quotidien).",
+        "Nationwide e-prescription for medicines was not verified, so this score stays in the lower half of the mixed band.",
+        "Luxembourg exchanges patient summaries and e-prescriptions across EU borders. EHDS deadlines start March 2029, and a DigiSanté programme with 25 sub-projects began in October 2025."
+      ],
+      "sources": [
+        {
+          "title": "Règlement grand-ducal du 6 décembre 2019, dossier de soins partagé (Journal officiel)",
+          "url": "https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/2019/12/06/a909/jo/fr/html/eli-etat-leg-rgd-2019-12-06-a909-jo-fr-html.html",
+          "date": "2019-12-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Patient Information Notices: Luxembourg (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/digital-health-and-care/electronic-cross-border-health-services/patient-information-notices-luxembourg_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Luxembourg's 2026 Digital Decade Country Report (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/factpages/luxembourgs-2026-digital-decade-country-report",
+          "date": "2026-08-28",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Santé numérique : l'année de l'accélération pour l'Agence eSanté (Le Quotidien)",
+          "url": "https://lequotidien.lu/politique-societe/sante-numerique-lannee-de-lacceleration-pour-lagence-esante/",
+          "date": "2026-07-07",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 56,
+      "summary": "Treating professionals can open the shared record within a profession-based access matrix, unless the patient blocks them. Professionals opened only 34,129 documents a month in 2025, so clinical use is still small.",
+      "detail": [
+        "Access is limited to the referring doctor, treating doctor and professionals in the patient's care (Article 60quater). A default matrix sets what each profession may read and write.",
+        "In an emergency, professionals see essential data only if the patient granted them access (Agence eSanté). A separate break-glass rule was not found in the regulation.",
+        "Professional document views rose 92.4% to 34,129 a month, against 166,394 by patients (Le Quotidien, July 2026).",
+        "The August 2026 attack showed many practices depend on hosted software outside the DSP."
+      ],
+      "sources": [
+        {
+          "title": "Code de la sécurité sociale, Art. 60quater (SECU)",
+          "url": "https://www.secu.lu/assurance-maladie/livre-i/chapitre-v-relations-avec-les-prestataires-de-soins/art-60quater/",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "DSP (Dossier de Soins Partagé) (Agence eSanté)",
+          "url": "https://www.esante.lu/portal/en/e-sant-information/services-esante-pour-les-patients-406-574.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Santé numérique : l'année de l'accélération pour l'Agence eSanté (Le Quotidien)",
+          "url": "https://lequotidien.lu/politique-societe/sante-numerique-lannee-de-lacceleration-pour-lagence-esante/",
+          "date": "2026-07-07",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Trials need ministry approval after ethics committee review, and the data law requires pseudonymisation or similar safeguards for research. No general opt-out from secondary use exists yet, and the EHDS access body is still being prepared.",
+      "detail": [
+        "Under Article 27 of the hospitals law of 18 March 2018, research on people needs ministerial authorisation after advice from the Health Directorate and the national research ethics committee (CNER).",
+        "Articles 64 and 65 of the law of 1 August 2018 require anonymisation, pseudonymisation or functional separation for research and statistics.",
+        "LNDS runs HDAB-LU, a four-year project from January 2024 to build the future health data access body. LNDS says the body itself will be designated by a future EHDS law.",
+        "We found no individual opt-out from secondary use of health data."
+      ],
+      "sources": [
+        {
+          "title": "Statuts / Législation (Comité National d'Ethique de Recherche)",
+          "url": "https://cner.gouvernement.lu/fr/statuts-legislation.html",
+          "date": "2025-11-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Project HDAB-LU (LNDS)",
+          "url": "https://www.lnds.lu/hdab-lu/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Loi du 1er août 2018 portant organisation de la CNPD (Journal officiel)",
+          "url": "https://data.legilux.public.lu/file/eli-etat-leg-loi-2018-08-01-a686-jo-fr-html.html",
+          "date": "2018-08-01",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device law and the EU AI Act only. Bill 8476, which would name national AI Act authorities, was still in committee after a State Council opinion of 10 July 2026.",
+      "detail": [
+        "AI used as a medical device needs CE marking under the EU MDR and will face AI Act high-risk duties.",
+        "Bill 8476 was filed on 23 December 2024 to implement the AI Act. Parliament lists it as in committee, with no vote (Chambre des Députés).",
+        "The CNPD is set to take new AI Act tasks, but in January 2026 it described national governance as still being planned.",
+        "No national rules for AI in care were verified."
+      ],
+      "sources": [
+        {
+          "title": "Dossier parlementaire 8476 (Chambre des Députés)",
+          "url": "https://www.chd.lu/fr/dossier/8476",
+          "date": "2026-07-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "L'AI Act en action (CNPD)",
+          "url": "https://cnpd.public.lu/fr/actualites/national/2026/01/ai-act-in-action-cp-jan2026.html",
+          "date": "2026-01-20",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "The DSP gathers hospital discharge letters, lab and imaging reports. GP uploads and pharmacy e-prescription use were not verified. Vaccination booklets sit in eSanté; links to CNS claims were not verified.",
+  "laws": [
+    {
+      "name": "Loi du 24 juillet 2014 relative aux droits et obligations du patient",
+      "level": "National",
+      "year": "2014",
+      "what": "Right to a patient file and a copy within 15 working days, at copying cost; ten-year retention.",
+      "url": "https://data.legilux.public.lu/file/eli-etat-leg-loi-2014-07-24-n2-jo-fr-html.html"
+    },
+    {
+      "name": "Code de la sécurité sociale, Article 60quater (dossier de soins partagé)",
+      "level": "National",
+      "year": "2010",
+      "what": "Creates the shared record; rights to access, see who accessed, and oppose sharing at any time.",
+      "url": "https://www.secu.lu/assurance-maladie/livre-i/chapitre-v-relations-avec-les-prestataires-de-soins/art-60quater/"
+    },
+    {
+      "name": "Règlement grand-ducal du 6 décembre 2019 (dossier de soins partagé)",
+      "level": "National",
+      "year": "2019",
+      "what": "Access matrix, patient blocking and masking levels, full access logs, ten-year retention.",
+      "url": "https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/2019/12/06/a909/jo/fr/html/eli-etat-leg-rgd-2019-12-06-a909-jo-fr-html.html"
+    },
+    {
+      "name": "Loi du 1er août 2018 portant organisation de la CNPD",
+      "level": "National",
+      "year": "2018",
+      "what": "Implements the GDPR, sets up the CNPD, research safeguards, bans genetic data use in employment and insurance.",
+      "url": "https://data.legilux.public.lu/file/eli-etat-leg-loi-2018-08-01-a686-jo-fr-html.html"
+    },
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "Health data is a special category; access right, breach notification, fines up to 4% of turnover.",
+      "url": "https://commission.europa.eu/law/law-topic/data-protection/legal-framework-eu-data-protection_en"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Patient summaries and e-prescriptions exchanged from March 2029, images, labs, discharge reports from 2031; secondary use rules.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "EU AI Act (EU) 2024/1689, amended by the 2026 AI Omnibus",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "Risk-based AI rules; high-risk duties for AI in medical devices apply from 2 August 2028.",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-01",
+      "headline": "Patients can now activate shared health record online through MyGuichet.lu",
+      "source": "Ministère de la Santé et de la Sécurité sociale",
+      "url": "https://m3s.gouvernement.lu/fr/actualites.gouvernement2024%2Bfr%2Bactualites%2Btoutes_actualites%2Bcommuniques%2B2025%2B12-decembre%2B01-dsp-myguichet.html",
+      "why": "Removes the wait for a posted code, a barrier to reading one's own record."
+    },
+    {
+      "date": "2026-01-20",
+      "headline": "Data regulator prepares for new AI Act supervision duties",
+      "source": "CNPD",
+      "url": "https://cnpd.public.lu/fr/actualites/national/2026/01/ai-act-in-action-cp-jan2026.html",
+      "why": "Shows who may oversee AI systems, including in care, once the law passes."
+    },
+    {
+      "date": "2026-07-07",
+      "headline": "eSanté report shows shared record use rising but still modest",
+      "source": "Le Quotidien",
+      "url": "https://lequotidien.lu/politique-societe/sante-numerique-lannee-de-lacceleration-pour-lagence-esante/",
+      "why": "Patients and doctors open more documents, yet activations stay near 3,000 a month."
+    },
+    {
+      "date": "2026-08-28",
+      "headline": "EU report says Luxembourg lags on electronic health record access",
+      "source": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/factpages/luxembourgs-2026-digital-decade-country-report",
+      "why": "Official benchmark puts Luxembourg below the EU average on eHealth."
+    },
+    {
+      "date": "2026-09-07",
+      "headline": "Cyberattack on IT provider hits at least 80 medical practices",
+      "source": "L'essentiel",
+      "url": "https://www.lessentiel.lu/fr/story/au-luxembourg-80-cabinets-medicaux-auraient-ete-touches-par-une-cyberattaque-103629329",
+      "why": "Doctors lost access to records for days and patient data may have leaked."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

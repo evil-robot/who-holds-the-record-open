@@ -1,0 +1,384 @@
+{
+  "iso3": "TWN",
+  "name": "Taiwan",
+  "region": "Asia",
+  "controlModel": "Shared",
+  "headline": "Taiwan's single insurer offers every insured person three years of claims-based records online, with 12.48 million registered users, but full charts stay in each hospital.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 68,
+      "summary": "The Medical Care Act gives a right to a copy of the record, and My Health Bank shows three years of visits, medicines, lab results and imaging reports to 12.48 million registered users. Copies cost the patient, and Liberty Times reported only 1 to 3 million regular users.",
+      "detail": [
+        "Article 71 of the Medical Care Act says a facility must give the patient a copy of the record on request, with a Chinese summary when needed, and may not delay or refuse without reason. The patient pays the cost. The Act sets no deadline in days, though the privacy law's 15-day reply rule also applies.",
+        "My Health Bank, built by the NHIA in September 2014, shows the last three years of Western, Chinese medicine and dental visits, inpatient stays, surgery, medicines, allergies, lab results, imaging or pathology reports and discharge summaries. It also links vaccination records, organ donation and hospice wishes, and cancer screening results.",
+        "The NHIA said on 28 March 2026 that registered users passed 12.48 million and queries passed 600 million. The same day Liberty Times reported about 1 to 3 million regular users, after a surge during the pandemic.",
+        "Because the portal is built from claims, it does not carry full clinical notes or records older than three years. Those still come from each hospital, on paper or disc, at the patient's cost."
+      ],
+      "sources": [
+        {
+          "title": "Medical Care Act, full text (Laws & Regulations Database)",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020021",
+          "date": "2026-09-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Use My Health Bank to care for your father (MOHW)",
+          "url": "https://www.mohw.gov.tw/cp-3797-43159-1.html",
+          "date": "2018-08-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "My Health Bank queries pass 600 million at NHI's 31st anniversary (NHIA)",
+          "url": "https://www.nhi.gov.tw/ch/cp-19750-2913e-3255-1.html",
+          "date": "2026-03-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "My Health Bank passes 600 million uses; to shift toward daily health behaviour (Liberty Times)",
+          "url": "https://health.ltn.com.tw/article/breakingnews/5385491",
+          "date": "2026-03-28",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 52,
+      "summary": "A person can set an NHI card password that stops all contracted doctors and pharmacists from viewing their MediCloud data, and a separate opt-out covers research use. The block is a single switch that must be set in person at an NHIA or district office.",
+      "detail": [
+        "The NHIA says anyone can set an NHI card password at its offices or local district offices. Once set, clinicians cannot query the person's MediCloud records. Providers may not force the patient to reveal the password or refuse care because of it.",
+        "The NHIA warns that the choice trades privacy against safety, since the doctor then loses the cross-provider view. The control is a single switch. There is no option to hide one visit, one test or one provider.",
+        "Since August 2025 the NHIA has also let people stop research and other secondary use of their NHI data, by app or at a counter, choosing among four data types. The NHI Data Management Act put this right in law. It does not cover claims processing or internal NHIA work.",
+        "MediCloud queries need three cards: the facility's security module, the clinician's card and the patient's NHI card. Whether patients can see a list of who viewed their MediCloud record was not verified in this review."
+      ],
+      "sources": [
+        {
+          "title": "NHI MediCloud: how does it help my care? Card password option (NHIA medical quality portal)",
+          "url": "https://med.nhi.gov.tw/ihqe0000/pepM1825_1.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Can I keep some test results from doctors? MediCloud FAQ 22 (NHIA)",
+          "url": "https://www.nhi.gov.tw/ch/cp-7638-9581a-2727-1.html",
+          "date": "2023-11-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Request to stop use of NHI data beyond its specified purpose (NHIA)",
+          "url": "https://www.nhi.gov.tw/ch/np-4049-1.html",
+          "date": "2025-08-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Health Insurance Data Management Act, full text (Laws & Regulations Database)",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0060042",
+          "date": "2025-12-19",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 50,
+      "summary": "Medical records are a special category under the Personal Data Protection Act, but the independent commission named in the law still does not exist, and sector ministries enforce with fines of NT$50,000 to 500,000. Ransomware attacks in 2025 exposed about 16.6 million patient records.",
+      "detail": [
+        "Article 6 of the Personal Data Protection Act bars collecting or using medical, genetic and health check data except in listed cases, such as written consent or a legal duty. People may ask to see, copy, correct or delete their data, and requests must be answered within 15 days, extendable once.",
+        "The law in force only requires telling the person after a breach caused by a violation. A November 2025 amendment adds reporting duties and new fines for failing to report, but the Personal Data Protection Commission says its start date will be set later by the Executive Yuan.",
+        "The Commission was legally due by 12 August 2025, after a 2022 Constitutional Court ruling on the NHI database. As of August 2026, its organic act had sat in the legislature for over 300 days, so enforcement stays split across ministries.",
+        "Prosecutors said in June 2026 that attacks on Mackay Memorial Hospital, Changhua Christian Hospital and a company in early 2025 leaked about 16.6 million patient records, and charged two men for buying Mackay records to resell. The Medical Care Act was last amended on 23 September 2026."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Act, version in force (amended 31 May 2023), Laws & Regulations Database",
+          "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=I0050021",
+          "date": "2023-05-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "PDPA amendment promulgated 11 November 2025; start date to be set by the Executive Yuan (PDPC Preparatory Office)",
+          "url": "https://www.pdpc.gov.tw/News_Content/20/1010/",
+          "date": "2025-11-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Which government bodies are being stalled? PDPC organic act frozen over 300 days (Watchout)",
+          "url": "https://watchout.tw/reports/DMubi9rCnYi0TRNXD2ZA",
+          "date": "2026-08-05",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Two charged for buying Mackay and Changhua Christian patient data from hackers (Mirror Media)",
+          "url": "https://www.mirrormedia.mg/story/20260615edi016",
+          "date": "2026-06-15",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 62,
+      "summary": "The NHI Data Management Act bars secondary use of insurance data for commercial profit and limits applicants to government, hospitals, universities and research bodies. Hospital records and consumer apps outside the NHI database fall back on the general privacy law and its small fines.",
+      "detail": [
+        "Article 8 limits secondary use of NHI data to care quality, health equity, public health, welfare, research and statutory duties, and says applications may not be for commercial profit. Article 9 limits applicants to public bodies and domestic hospitals, research institutes and universities.",
+        "Article 15 requires a share of any industry profit earned within 15 years from approved research to be paid into the NHI fund. Unapproved use draws a fine of NT$2 million to 10 million and a one-year ban.",
+        "Outside the NHI database, the Personal Data Protection Act needs written consent for health data, and firms must stop marketing when a person objects. Fines for misusing health data run NT$50,000 to 500,000.",
+        "Taiwan has no EU adequacy decision, so EU organisations need other safeguards to send personal data, including health data, to Taiwan."
+      ],
+      "sources": [
+        {
+          "title": "National Health Insurance Data Management Act, full text (Laws & Regulations Database)",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0060042",
+          "date": "2025-12-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Personal Data Protection Act, version in force (amended 31 May 2023), Laws & Regulations Database",
+          "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=I0050021",
+          "date": "2023-05-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "journey": {
+      "score": 72,
+      "summary": "One insurer contracts with about 93% of providers, including every hospital, and NHI MediCloud pools 13 types of data plus CT and MRI images from all of them. Full hospital charts are only now being linked through FHIR, with clinics due in 2028.",
+      "detail": [
+        "The NHIA says it contracts with about 93% of medical institutions: 100% of hospitals, 92.6% of primary clinics and 79.3% of pharmacies. Claims flow to one payer, which feeds MediCloud.",
+        "MediCloud holds Western and Chinese medicines, tests and results, surgery, dental care, drug allergies, controlled drugs, clotting factor drugs, rehabilitation, discharge summaries, special materials and CDC vaccination records. Since 2018 CT, MRI, ultrasound, endoscopy and X-ray images can be shared.",
+        "MOHW plans to link full electronic records through FHIR: medical centres in 2026, regional and district hospitals in 2027, and health stations and clinics in 2028. It relies on insurance payment incentives rather than penalties.",
+        "E-prescriptions are early. By mid-October 2025, 282 facilities had passed the NHIA's technical review, and National Taiwan University Hospital issued its first in January 2026."
+      ],
+      "sources": [
+        {
+          "title": "Taiwan Can Help: NHI's contribution in COVID-19 (NHIA)",
+          "url": "https://www.nhi.gov.tw/en/np-47-2.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Introduction to NHI MediCloud (NHIA)",
+          "url": "https://www.nhi.gov.tw/ch/np-2722-1.html",
+          "date": "2026-03-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "MOHW pushes FHIR, 'no penalties first', aims to link all medical centres this year (Storm Media)",
+          "url": "https://www.storm.mg/article/11120658",
+          "date": "2026-04-13",
+          "publisherClass": "news"
+        },
+        {
+          "title": "RxNorm Taiwan 2025, part 3: Taiwan's e-prescription plan (MOHW AI centres)",
+          "url": "https://aicenter.mohw.gov.tw/AC/cp-7200-85622-208.html",
+          "date": "2026-02-23",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 78,
+      "summary": "Any contracted doctor or pharmacist can see a patient's medicines, results, discharge summaries and images from other providers through MediCloud once the patient's card is inserted. Results and images go back only 12 months, and full notes from other hospitals are not yet shared.",
+      "detail": [
+        "A MediCloud query needs the facility's security card, the clinician's card and the patient's NHI card. It returns test results and medical images from the last 12 months, plus recent medicines and other records.",
+        "Since 2018 the system warns about duplicate prescriptions across hospitals, drug interactions and drug allergies. Clinics can view CT and MRI images taken at large hospitals, which saves patients NT$200 to 600 per disc.",
+        "Hospitals that want to download a patient's records in bulk before a visit need the patient's written consent and must delete the data after the visit.",
+        "Full charts are not shared across hospitals yet. MOHW said in April 2026 that from May, referred patients at linked medical centres would no longer need to carry discs. An emergency rule for patients who have set a card password was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Does viewing test results need the patient's signed consent? MediCloud FAQ 15 (NHIA)",
+          "url": "https://www.nhi.gov.tw/ch/cp-7631-ccbac-2727-1.html",
+          "date": "2026-06-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Can my 10 years of hospital tests be viewed elsewhere? MediCloud FAQ 10 (NHIA)",
+          "url": "https://www.nhi.gov.tw/ch/cp-7626-18210-2727-1.html",
+          "date": "2026-06-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Introduction to NHI MediCloud (NHIA)",
+          "url": "https://www.nhi.gov.tw/ch/np-2722-1.html",
+          "date": "2026-03-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Electronic record integration from May; no discs needed across hospitals (PTS)",
+          "url": "https://news.pts.org.tw/article/803567",
+          "date": "2026-04-14",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 66,
+      "summary": "Researchers keep access to near-national insurance data, but since August 2026 the law lets anyone opt out of all or part of it, with public lists of approved projects. By September 2026, 24,511 people, about 1 in 1,000, had opted out.",
+      "detail": [
+        "The NHI Data Management Act took effect on 10 August 2026. Anyone who did not opt out in the first 30 days is deemed to consent, but can opt out later. Opt-out is not retroactive and does not bind government bodies with a statutory duty to obtain data.",
+        "Review committees must be at least half experts, civic groups and independent members. Data are pseudonymised, used in secure sites, and results must not identify anyone. Approved case lists and result reports must be published.",
+        "The NHIA lets people choose among four data types and two kinds of user. MOHW told a hearing on 16 September 2026 that 24,511 people had opted out, and said cancer registry, screening, death and electronic record data still need their own rules and consistent standards.",
+        "For studies on people, the Human Subjects Research Act requires ethics committee approval and informed consent that can be withdrawn at any time, unless the authority has exempted a study type."
+      ],
+      "sources": [
+        {
+          "title": "National Health Insurance Data Management Act, full text (Laws & Regulations Database)",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0060042",
+          "date": "2025-12-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Request to stop use of NHI data beyond its specified purpose (NHIA)",
+          "url": "https://www.nhi.gov.tw/ch/np-4049-1.html",
+          "date": "2025-08-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "MOHW: nearly 25,000 apply to opt out of NHI data secondary use (CNA)",
+          "url": "https://www.cna.com.tw/news/ahel/202609160155.aspx",
+          "date": "2026-09-16",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Human Subjects Research Act, full text (Laws & Regulations Database)",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020176",
+          "date": "2019-01-02",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 58,
+      "summary": "Clinical AI software is a medical device that needs TFDA approval, and changes to listed items need approval too. The AI-specific change plan route (2024) and machine learning principles (2026) are guidance, not law, so Taiwan sits low in the device-regulation band.",
+      "detail": [
+        "The Medical Devices Act (2020) counts software as a medical device, requires registration before manufacture or import, and requires approval for changes to designated registration items.",
+        "TFDA issued AI and machine learning device software review guidance in September 2020, a predetermined change control plan guide in September 2024, and good machine learning practice principles in June 2026, covering product design, software quality, training and test data, clinical evaluation and post-market monitoring. All are issued as administrative guidance.",
+        "MOHW's generative AI guideline for medical institutions (29 May 2026) says qualified clinicians make the final decision, patients should be told, and recording stops if a patient refuses.",
+        "The AI Basic Act (14 January 2026) sets seven principles, including human oversight and transparency, and requires warnings on AI that ministries and the digital ministry deem high risk."
+      ],
+      "sources": [
+        {
+          "title": "Medical Devices Act, full text (Laws & Regulations Database)",
+          "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030106",
+          "date": "2020-01-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Notice: predetermined change control plan guide for AI/ML medical device software (TFDA)",
+          "url": "https://www.fda.gov.tw/TC/siteListContent.aspx?sid=11652&id=47477",
+          "date": "2024-09-25",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Notice: good machine learning practice for AI medical devices (TFDA)",
+          "url": "https://www.fda.gov.tw/TC/siteListContent.aspx?id=50868&sid=310",
+          "date": "2026-06-08",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Guideline on generative AI in medical institutions (MOHW)",
+          "url": "https://www.mohw.gov.tw/dl-100614-c7d35394-0a6b-448e-9d90-295294596d98.html",
+          "date": "2026-05-29",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "partial",
+    "claims": "connected",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "One insurer and MediCloud link clinics, hospitals, lab results, images, pharmacists and CDC vaccinations. Full hospital charts are being joined by FHIR through 2028, e-prescriptions are early, and research runs under the 2026 opt-out law.",
+  "laws": [
+    {
+      "name": "National Health Insurance Data Management Act",
+      "level": "National",
+      "year": "2025",
+      "what": "Opt-out from secondary use, no commercial-profit use, fines up to NT$10 million; in force 10 August 2026.",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0060042"
+    },
+    {
+      "name": "Personal Data Protection Act",
+      "level": "National",
+      "year": "1995",
+      "what": "Health data special category; rights to copy and delete; 2025 amendment creating breach reporting not yet in force.",
+      "url": "https://law.moj.gov.tw/LawClass/LawOldVer.aspx?pcode=I0050021"
+    },
+    {
+      "name": "Medical Care Act",
+      "level": "National",
+      "year": "1986",
+      "what": "Patients may get a copy of their record at their own cost; privacy duties; last amended September 2026.",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020021"
+    },
+    {
+      "name": "Human Subjects Research Act",
+      "level": "National",
+      "year": "2011",
+      "what": "Ethics committee approval and withdrawable informed consent for research on people.",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020176"
+    },
+    {
+      "name": "Medical Devices Act",
+      "level": "National",
+      "year": "2020",
+      "what": "Software is a medical device; registration and approval of designated changes required.",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030106"
+    },
+    {
+      "name": "Artificial Intelligence Basic Act",
+      "level": "National",
+      "year": "2026",
+      "what": "Seven AI principles including human oversight; warnings required on AI deemed high risk.",
+      "url": "https://www.president.gov.tw/File/Doc/d961e5b2-f8c4-424b-8993-4a52702ae8c7"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-16",
+      "headline": "About 24,500 people opt out of NHI data secondary use",
+      "source": "Central News Agency",
+      "url": "https://www.cna.com.tw/news/ahel/202609160155.aspx",
+      "why": "Shows how few people have used the new right to keep data out of research."
+    },
+    {
+      "date": "2026-08-10",
+      "headline": "NHI data law takes effect with opt-out and NT$10 million fines",
+      "source": "Liberty Times",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5534212",
+      "why": "Gives every insured person a legal right to stop research use of their records."
+    },
+    {
+      "date": "2026-06-15",
+      "headline": "Two charged for buying hacked hospital patient records to resell",
+      "source": "Mirror Media",
+      "url": "https://www.mirrormedia.mg/story/20260615edi016",
+      "why": "About 16.6 million patient records leaked from hospital ransomware attacks in 2025."
+    },
+    {
+      "date": "2026-05-31",
+      "headline": "Ministry's online record request platform drew only two hospitals in three years",
+      "source": "Mirror Media",
+      "url": "https://www.mirrormedia.mg/story/20260530-165inv-214708",
+      "why": "Getting a full electronic copy still means going hospital by hospital."
+    },
+    {
+      "date": "2026-04-14",
+      "headline": "Ministry starts FHIR record linking so referred patients need no discs",
+      "source": "Public Television Service",
+      "url": "https://news.pts.org.tw/article/803567",
+      "why": "Full charts could follow patients between hospitals, with clinics joining by 2028."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

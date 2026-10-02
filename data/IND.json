@@ -1,0 +1,372 @@
+{
+  "iso3": "IND",
+  "name": "India",
+  "region": "Asia",
+  "controlModel": "Shared",
+  "headline": "India built an opt-in consent exchange linking 110 crore records, but the records are thin and its privacy law and regulator are not yet working.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 55,
+      "summary": "A binding medical ethics regulation makes doctors issue records within 72 hours, and 96.43 crore ABHA accounts can view 110 crore linked records (August 2026). Linked records average about one per account, and the DPDP access right only gives a summary and starts in May 2027.",
+      "detail": [
+        "Regulation 1.3.2 of the Code of Medical Ethics Regulations, 2002 says a request for medical records by the patient or an authorised attendant must be acknowledged and documents issued within 72 hours. Indoor records must be kept for only 3 years from the start of treatment (regulation 1.3.1).",
+        "Section 11 of the DPDP Act, 2023 gives a right to a summary of personal data processed and a list of who it was shared with, not a full copy. The commencement notice (G.S.R. 843(E)) brings section 11 into force 18 months after 13 November 2025, so around May 2027.",
+        "For private bodies, the 2011 SPDI Rules list medical records and history as sensitive data and let people review the information they provided and have errors corrected. These Rules stay in force until the DPDP repeal of section 43A also commences in May 2027.",
+        "A PIB fact sheet counts 96.43 crore ABHA numbers and over 110 crore linked records as of 12 August 2026, about one record per account. Machine-readable export of a full record was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Code of Medical Ethics Regulations, 2002 (NMC)",
+          "url": "https://nmc.org.in/page/rules-regulations-rules-regulations-of-erstwhile-mci-code-of-medical-ethics-regulations-2002",
+          "date": "2002",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "The Digital Personal Data Protection Act, 2023 (Gazette text, MeitY)",
+          "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
+          "date": "2023-08-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "G.S.R. 843(E): commencement dates of the DPDP Act (MeitY)",
+          "url": "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+          "date": "2025-11-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Affordable and Accessible Healthcare for All (PIB fact sheet)",
+          "url": "https://www.pib.gov.in/FactsheetDetails.aspx?id=150834&ModuleId=16&reg=%203&lang=1",
+          "date": "2026-08-12",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 50,
+      "summary": "ABDM shares records between providers only on the patient's revocable, time-bound consent, an opt-in choice that is live nationwide. Policy lets patients see their consents, but a log of each access was not verified, so the cell sits mid-band (40 to 55), level with Thailand.",
+      "detail": [
+        "The government says facilities can see a patient's earlier records only after taking consent, through the patient's 'revocable, time-bound consent', and that there is no central server: data stays with the hospital, lab or insurer that created it.",
+        "The Health Data Management Policy says consent given through a Health ID must be 'accessible by the data principal through his/her Health ID' (clause 15.5) and that consent managers keep consent logs for audit (11.2). The policy calls itself a guidance document, not a statute. A working per-access log in the app was not verified.",
+        "The policy says joining is voluntary, with a right to opt out and delete the Health ID (16.1, 16.2). In January 2026 Rajasthan made ABHA a prerequisite for registration at government medical college hospitals. A mandatory ID is not mandatory sharing: PIB says records are linked automatically but shared only with consent.",
+        "DPDP consent duties (section 6) and consent manager rules commence only in November 2026 and May 2027, so today the controls rest on ABDM's design and policy."
+      ],
+      "sources": [
+        {
+          "title": "Ayushman Bharat Digital Mission: India's Digital Health Backbone (PIB)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202676912801.pdf",
+          "date": "2026-07-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Digital Health Mission: Health Data Management Policy (archived copy of abdm.gov.in PDF)",
+          "url": "https://web.archive.org/web/2025id_/https://abdm.gov.in/strapicms/uploads/health_management_policy_bac9429a79.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "ABHA ID now mandatory for OPD, emergency registration (Times of India)",
+          "url": "https://timesofindia.indiatimes.com/city/jaipur/abha-id-now-mandatory-for-opd-emergency-registration/articleshow/127727998.cms",
+          "date": "2026-01-29",
+          "publisherClass": "news"
+        },
+        {
+          "title": "G.S.R. 843(E): commencement dates of the DPDP Act (MeitY)",
+          "url": "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+          "date": "2025-11-13",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 35,
+      "summary": "India's new data law does not make health data a special category, and its duties and penalties of up to Rs 250 crore start only in May 2027. The Data Protection Board had no chair or members in September 2026, while hospital leaks continued.",
+      "detail": [
+        "Until May 2027 the binding health-data rule for private bodies is the 2011 SPDI Rules: medical records are sensitive data, and disclosure to third parties needs prior permission (rule 6). These Rules do not cover government hospitals.",
+        "The DPDP Act sets breach notice to the Board and each affected person (section 8(6)) and penalties up to Rs 250 crore. Section 17(2)(a) lets the government exempt any state agency it notifies on security or public order grounds. Health gets no special category.",
+        "The Act's Board provisions came into force on 13 November 2025 (G.S.R. 843(E)). A search committee sought nominations in May and June 2026, and LiveLaw reported on 10 September 2026 that no chair or members had been appointed.",
+        "A Kerala hospital lost over 800 GB of patient and treatment data to a ransomware group, reported in March and offered on the dark web (June 2026). STAR Hospitals in Hyderabad filed a police complaint over leaked patient data in August 2026.",
+        "India is not on the European Commission's list of adequacy decisions, and DPDP Rule 15 allows transfers abroad subject to government orders. The Board vacancy is reported by LiveLaw (see news)."
+      ],
+      "sources": [
+        {
+          "title": "IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011",
+          "url": "https://prsindia.org/files/bills_acts/bills_parliament/2011/IT_Rules_2011.pdf",
+          "date": "2011-04-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "The Digital Personal Data Protection Act, 2023 (Gazette text, MeitY)",
+          "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
+          "date": "2023-08-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Hackers target Ernakulam hospital, steal 800GB data (New Indian Express)",
+          "url": "https://www.newindianexpress.com/states/kerala/2026/Jun/10/hackers-target-ernakulam-hospital-steal-800gb-data",
+          "date": "2026-06-10",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 35,
+      "summary": "No Indian law bans selling health data or using it for advertising. Private bodies need prior permission to disclose medical records under 2011 rules, and the DPDP ban on targeted ads at children starts only in May 2027.",
+      "detail": [
+        "SPDI rule 6 requires prior permission before a company discloses sensitive data, including medical records, to a third party, unless a contract or law allows it. The Rules are made under section 43A of the IT Act.",
+        "The DPDP Act limits processing to consented purposes and bars tracking, behavioural monitoring and targeted advertising directed at children (section 9(3)). These duties start around May 2027. Nothing in the Act or Rules bans selling health data or names health data brokers.",
+        "The Health Data Management Policy lets data fiduciaries share anonymised or de-identified aggregate data for research, policy and 'the development and promotion of diagnostic solutions', subject to an approval procedure.",
+        "A STAR Hospitals police complaint (August 2026) lists vendors receiving patient data for analytics, feedback and WhatsApp lab reports, showing routine sharing of patient data with outside companies."
+      ],
+      "sources": [
+        {
+          "title": "IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011",
+          "url": "https://prsindia.org/files/bills_acts/bills_parliament/2011/IT_Rules_2011.pdf",
+          "date": "2011-04-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "The Digital Personal Data Protection Act, 2023 (Gazette text, MeitY)",
+          "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
+          "date": "2023-08-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "National Digital Health Mission: Health Data Management Policy (archived copy of abdm.gov.in PDF)",
+          "url": "https://web.archive.org/web/2025id_/https://abdm.gov.in/strapicms/uploads/health_management_policy_bac9429a79.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "STAR Hospitals alleges patient data was leaked, FIR registered (The South First)",
+          "url": "https://thesouthfirst.com/health/hyderabads-star-hospitals-alleges-confidential-patient-data-was-leaked-published-online-fir-registered/",
+          "date": "2026-08-03",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 45,
+      "summary": "ABDM gives India national registries, a consent exchange and a claims exchange, with 5.47 lakh facilities registered and 110 crore records linked by August 2026. Hospitals lead, while labs and pharmacies trail far behind, and records are linked rather than merged.",
+      "detail": [
+        "ABDM's building blocks are the ABHA number, the professionals and facilities registries, the Health Information Exchange and Consent Manager, the Unified Health Interface and the National Health Claims Exchange (NHCX), according to PIB.",
+        "By 12 August 2026, 5.47 lakh facilities and over 10.50 lakh professionals were registered. Linked records doubled from 50 crore in February 2025 to 100 crore in May 2026, with more than 450 public and private software products integrated.",
+        "Incentive payouts to 18 June 2026 show the gap: over Rs 107 crore to hospitals against Rs 2.95 crore to diagnostics, labs and pharmacies. Scan and Share issued 23.21 crore registration tokens.",
+        "PIB says ABHA links records across hospitals, labs, insurers and national health programmes with consent. Public health also runs on separate national platforms such as U-WIN for vaccination (11.87 crore children registered by March 2026) and eSanjeevani telemedicine (over 49 crore consultations). How fully they feed the ABHA record was not verified."
+      ],
+      "sources": [
+        {
+          "title": "100 crore health records linked with ABHA under ABDM (PIB)",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2264241&reg=3&lang=1",
+          "date": "2026-05-22",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ayushman Bharat Digital Mission: India's Digital Health Backbone (PIB)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202676912801.pdf",
+          "date": "2026-07-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Affordable and Accessible Healthcare for All (PIB fact sheet)",
+          "url": "https://www.pib.gov.in/FactsheetDetails.aspx?id=150834&ModuleId=16&reg=%203&lang=1",
+          "date": "2026-08-12",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 35,
+      "summary": "A treating doctor can pull earlier ABHA-linked records only after the patient consents to each request. With about one linked record per account and no verified break-glass access, most clinicians still rely on what the patient brings.",
+      "detail": [
+        "PIB says facilities using ABDM software can access a patient's previous records digitally after taking consent, and that NHCX lets providers see a patient's treatment history with consent.",
+        "For patients who cannot consent, the Health Data Management Policy relies on a nominee or family member named in advance (clause 13), not a clinician override. A break-glass emergency rule was not verified. The DPDP Act's medical emergency ground (section 7(f)) starts only in May 2027.",
+        "Linked records average roughly one per ABHA account (110 crore records, 96.43 crore accounts), so the history a clinician can retrieve is usually thin. The new eSushrut@Clinic system had 2,200 facilities onboarded but only 1,633 records by July 2026."
+      ],
+      "sources": [
+        {
+          "title": "Ayushman Bharat Digital Mission: India's Digital Health Backbone (PIB)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202676912801.pdf",
+          "date": "2026-07-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Digital Health Mission: Health Data Management Policy (archived copy of abdm.gov.in PDF)",
+          "url": "https://web.archive.org/web/2025id_/https://abdm.gov.in/strapicms/uploads/health_management_policy_bac9429a79.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Affordable and Accessible Healthcare for All (PIB fact sheet)",
+          "url": "https://www.pib.gov.in/FactsheetDetails.aspx?id=150834&ModuleId=16&reg=%203&lang=1",
+          "date": "2026-08-12",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Research on anonymised or registry data can proceed without individual consent and there is no general opt-out, but an ethics committee must approve any consent waiver. Clinical trials need written informed consent, with video recording for vulnerable participants.",
+      "detail": [
+        "The DPDP Act and Rule 16 exempt research, archiving and statistical processing from the whole Act if no decision is taken about an individual and Second Schedule standards are met. No individual opt-out from this use exists.",
+        "ICMR's 2017 national guidelines let an ethics committee waive consent for minimal-risk work, including retrospective studies on de-identified data and research on anonymised samples or data (Box 5.2).",
+        "The Health Data Management Policy requires an approval procedure for access to anonymised ABDM data and bars recipients from re-identifying anyone (clause 29.3), though no penalty is attached. PIB calls ABDM data 'a goldmine for public health research'.",
+        "The New Drugs and Clinical Trials Rules, 2019 require freely given, informed, written consent in all trials and an audio-video recording of consent for vulnerable subjects in some trials.",
+        "PIB says the BODH platform, launched in February 2026, lets developers train AI models on-site without accessing raw patient data. No public register of research uses was verified."
+      ],
+      "sources": [
+        {
+          "title": "The Digital Personal Data Protection Act, 2023 (Gazette text, MeitY)",
+          "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
+          "date": "2023-08-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "ICMR National Ethical Guidelines for Biomedical and Health Research Involving Human Participants, 2017",
+          "url": "https://ethics.ncdirindia.org/asset/pdf/ICMR_National_Ethical_Guidelines.pdf",
+          "date": "2017",
+          "publisherClass": "official"
+        },
+        {
+          "title": "New Drugs and Clinical Trials Rules, 2019 (CDSCO)",
+          "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/new_DC_rules/NEW%20DRUGS%20ANDctrS%20RULE,%202019.pdf",
+          "date": "2019-03-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ayushman Bharat Digital Mission: India's Digital Health Backbone (PIB)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202676912801.pdf",
+          "date": "2026-07-06",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 55,
+      "summary": "AI medical software is a device under the binding Medical Devices Rules, 2017, and CDSCO's final July 2026 guidance adds change approval and drift monitoring. A binding human oversight rule was not verified, so the cell sits at the band floor.",
+      "detail": [
+        "CDSCO's Guidance Document on Medical Device Software (CDSCO/MD/GD/MDSW/01/2026) explains how the Medical Devices Rules, 2017 apply to software in a device, standalone software, mobile apps and AI/ML tools. Pharmabiz reported its release as final on 23 July 2026, replacing the October 2025 draft.",
+        "Manufacturers must monitor deployed software for performance degradation and algorithm drift. Changes that affect safety, intended purpose or risk need validation and regulatory approval, and an Algorithm Change Protocol can pre-specify planned model updates.",
+        "The guidance says it is for awareness and that the statute governs. In February 2026 the government launched SAHI, a health AI strategy giving guidance on ethics and safety, and BODH, a federated benchmarking platform. Neither is binding law."
+      ],
+      "sources": [
+        {
+          "title": "Guidance Document on Medical Device Software, CDSCO/MD/GD/MDSW/01/2026",
+          "url": "https://cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/Guidance-document-on-Medical-Device-Software-under-MDR-2017.pdf",
+          "date": "2026-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "CDSCO releases final guidance document on Medical Device Software (Pharmabiz)",
+          "url": "https://www.pharmabiz.com/NewsDetails.aspx?aid=187330&sid=1",
+          "date": "2026-07-23",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Ayushman Bharat Digital Mission: India's Digital Health Backbone (PIB)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202676912801.pdf",
+          "date": "2026-07-06",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "ABDM links records by consent across 5.47 lakh registered facilities and runs a claims exchange. Hospitals lead; labs and pharmacies trail. Vaccination and telemedicine platforms are national, but their links to ABHA and research use were not verified.",
+  "laws": [
+    {
+      "name": "Digital Personal Data Protection Act, 2023",
+      "level": "National",
+      "year": "2023",
+      "what": "General data law: consent, summary access, breach notice, Rs 250 crore penalties; main duties start May 2027.",
+      "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf"
+    },
+    {
+      "name": "Digital Personal Data Protection Rules, 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Notified 13 Nov 2025; consent managers from Nov 2026, most duties from May 2027; research exemption standards.",
+      "url": "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf"
+    },
+    {
+      "name": "IT (Reasonable Security Practices and Sensitive Personal Data) Rules, 2011",
+      "level": "National",
+      "year": "2011",
+      "what": "Medical records are sensitive data; prior permission for disclosure; binds companies until May 2027.",
+      "url": "https://prsindia.org/files/bills_acts/bills_parliament/2011/IT_Rules_2011.pdf"
+    },
+    {
+      "name": "Code of Medical Ethics Regulations, 2002",
+      "level": "National",
+      "year": "2002",
+      "what": "Doctors must issue medical records within 72 hours of a patient request.",
+      "url": "https://nmc.org.in/page/rules-regulations-rules-regulations-of-erstwhile-mci-code-of-medical-ethics-regulations-2002"
+    },
+    {
+      "name": "New Drugs and Clinical Trials Rules, 2019",
+      "level": "National",
+      "year": "2019",
+      "what": "Written informed consent for all trials; audio-video consent recording for vulnerable subjects.",
+      "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2022/new_DC_rules/NEW%20DRUGS%20ANDctrS%20RULE,%202019.pdf"
+    },
+    {
+      "name": "Medical Devices Rules, 2017 (CDSCO software guidance, 2026)",
+      "level": "National",
+      "year": "2017",
+      "what": "Software and AI/ML medical devices licensed by risk class; change approval and drift monitoring.",
+      "url": "https://cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/Guidance-document-on-Medical-Device-Software-under-MDR-2017.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07-23",
+      "headline": "CDSCO issues final guidance on regulating medical device software, including AI",
+      "source": "Pharmabiz",
+      "url": "https://www.pharmabiz.com/NewsDetails.aspx?aid=187330&sid=1",
+      "why": "Sets how AI tools used in care are licensed, changed and monitored."
+    },
+    {
+      "date": "2026-09-10",
+      "headline": "Data Protection Board still has no members as May 2027 duties near",
+      "source": "LiveLaw",
+      "url": "https://www.livelaw.in/lawschool/articles/compliance-without-court-what-dpdpa-board-vacancy-means-may2027-549463",
+      "why": "Patients have no working regulator to hear data complaints yet."
+    },
+    {
+      "date": "2026-06-10",
+      "headline": "Hackers steal over 800 GB of patient data from Ernakulam hospital",
+      "source": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/states/kerala/2026/Jun/10/hackers-target-ernakulam-hospital-steal-800gb-data",
+      "why": "Treatment records were offered for sale on the dark web."
+    },
+    {
+      "date": "2026-05-22",
+      "headline": "ABDM passes 100 crore health records linked to ABHA accounts",
+      "source": "PIB",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2264241&reg=3&lang=1",
+      "why": "More care history is reachable by consent across providers."
+    },
+    {
+      "date": "2026-01-29",
+      "headline": "Rajasthan makes ABHA ID mandatory for hospital registration at medical colleges",
+      "source": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/jaipur/abha-id-now-mandatory-for-opd-emergency-registration/articleshow/127727998.cms",
+      "why": "Tests ABDM's promise that joining the health ID system is voluntary."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

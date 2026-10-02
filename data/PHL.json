@@ -1,0 +1,359 @@
+{
+ "iso3": "PHL",
+ "name": "Philippines",
+ "region": "Asia",
+ "controlModel": "Institutional",
+ "headline": "Filipino patients have strong privacy rights on paper, but records stay hospital by hospital and a shared exchange is still a pilot.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "The Data Privacy Act gives a right of access and a structured electronic copy, but no fixed deadline is in force and one city hospital's rules release only parts of the record. Base 45, +5 structured copy, -5 no fixed deadline, -5 limited scope = 40.",
+   "detail": [
+    "Section 16(c) of the Data Privacy Act of 2012 (RA 10173) gives reasonable access, on demand, to the contents of processed personal data, its sources and its recipients. Section 18 gives a right to a copy in an electronic, structured and commonly used format.",
+    "A National Privacy Commission draft circular on data subject rights (September 2026) would set a 30-day deadline and limit copy fees to actual costs. It lists discharge summaries, lab results, diagnoses and prescriptions as covered. It is still a draft, so no deadline binds today.",
+    "Practice is narrower than the law. A city-run hospital in Cagayan de Oro lets patients view the record only with staff present, excludes psychiatric notes, and releases only certain parts on written request. A DOH medical center promises a copy except records restricted by law.",
+    "No national portal shows a patient's medical record. The UHC Act requires electronic health records, but a patient-facing view was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Republic Act No. 10173, Data Privacy Act of 2012 (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "NPC Draft Circular on Data Subject Rights (for public consultation)",
+     "url": "https://privacy.gov.ph/wp-content/uploads/2026/09/For-Publication-DPCJ-18Sep2026-Draft-Circular-Data-Subjects-Rights.pdf",
+     "date": "2026-09-18",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Patients Rights and Safety: The right to the medical record (J.R. Borja General Hospital, Cagayan de Oro)",
+     "url": "https://jrbgh.cagayandeoro.gov.ph/index.php/patients-visitors/patients-safety",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Patient's Rights (Adela Serra Ty Memorial Medical Center, DOH)",
+     "url": "https://astmmc.doh.gov.ph/patients-rights/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 40,
+   "summary": "By law a patient can ask any provider who received their data and when it was last accessed (RA 10173 Section 16(c)), but only on request; practice was not verified. UHC Act Section 31 makes every provider send health data to PhilHealth, with no consent step.",
+   "detail": [
+    "Health records are sensitive personal information. Section 13 bans processing except with specific consent or listed exceptions, including medical treatment by a practitioner, processing provided for by law, and legal claims.",
+    "Section 16(c) lets the patient demand the names of recipients, the reasons for disclosure, and the date the data was last accessed and modified. That is an access record on request, not a log the patient can open. How often hospitals honour such requests was not verified.",
+    "DOH Administrative Order 2020-0030 requires a consent form at admission, and limits record access to the attending provider. It also orders providers to give the DOH unimpeded access during outbreaks and emergencies.",
+    "Section 31 of the Universal Health Care Act (RA 11223) requires all public and private health entities to submit administrative, public health, medical, pharmaceutical and financing data to PhilHealth, which copies it to the DOH. The law gives no consent step and no opt-out."
+   ],
+   "sources": [
+    {
+     "title": "Republic Act No. 10173, Data Privacy Act of 2012 (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "DOH Administrative Order No. 2020-0030: Data Privacy Guidelines on the Processing of Health Information (UP Law copy)",
+     "url": "https://law.upd.edu.ph/wp-content/uploads/2020/07/DOH-AO-No-2020-0030.pdf",
+     "date": "2020-07-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Republic Act No. 11223, Universal Health Care Act (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2019/ra_11223_2019.html",
+     "date": "2019",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "The law is strict, with an independent regulator, 72-hour breach notice and up to 6 years in prison for misusing health data. But the 2023 PhilHealth breach exposed records of 42 million people, and in September 2026 a GenSan hospital reportedly admitted a ransomware breach (not verified).",
+   "detail": [
+    "RA 10173 creates the National Privacy Commission (NPC) as an independent body attached to the ICT department. Unauthorized processing of sensitive data carries 3 to 6 years in prison and PHP 500,000 to 4 million in fines (Section 25).",
+    "The NPC requires controllers to notify both the Commission and affected people within 72 hours of learning of a breach, through its online notification system.",
+    "In July 2024 the NPC told Congress that the September 2023 PhilHealth breach affected 42 million people, including patient medical records. Asked whether those people had been told of the breach, PhilHealth's chief operating officer answered no.",
+    "MindaNews reported that on 25 September 2026 General Santos Doctors Hospital admitted a data breach after the Rhysida group claimed 2.44 terabytes, including medical, pathology and dialysis records (not verified: the page did not open on 2 October 2026)."
+   ],
+   "sources": [
+    {
+     "title": "Republic Act No. 10173, Data Privacy Act of 2012 (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Breach Reporting (National Privacy Commission)",
+     "url": "https://privacy.gov.ph/pips-and-pics/breach-reporting/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "2023 PhilHealth data breach affected 42M individuals, NPC (GMA News)",
+     "url": "https://www.gmanetwork.com/news/topstories/nation/912661/2023-philhealth-data-breach-affected-42m-individuals-official/story/",
+     "date": "2024-07-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "GenSan hospital admits 'data breach' after ransomware group's claims (MindaNews)",
+     "url": "https://mindanews.com/top-stories/2026/09/gensan-hospital-admits-data-breach-after-ransomware-groups-claims/",
+     "date": "2026-09-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Health data cannot be processed on legitimate interest, so marketing with it needs specific consent, and disclosing it without consent carries 3 to 5 years in prison. There is no rule on de-identified data sales or data brokers.",
+   "detail": [
+    "Section 13 of RA 10173 lists the only lawful grounds for processing sensitive data such as health records. Commercial marketing is not one of them, so it needs specific prior consent.",
+    "NPC Circular 2023-04 bars bundling consent for extra processing with a service, and makes consent withdrawal absolute when marketing rests on consent.",
+    "Disclosing sensitive data to a third party without consent carries 3 to 5 years in prison and up to PHP 2 million (Section 32). Penalties reach their maximum when 100 or more people are affected (Section 35).",
+    "No specific rule on selling de-identified health data, on data brokers, or on consumer health apps outside the clinic was found."
+   ],
+   "sources": [
+    {
+     "title": "Republic Act No. 10173, Data Privacy Act of 2012 (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "NPC Circular No. 2023-04: Guidelines on Consent",
+     "url": "https://privacy.gov.ph/wp-content/uploads/2023/11/NPC-Circular-No.-2023-04_Guidelines-on-Consent_07Nov2023.pdf",
+     "date": "2023-11-07",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 32,
+   "summary": "Claims and primary care data flow to PhilHealth: eClaims 3.0 became mandatory on 1 July 2026 and YAKAP clinics must use certified EMRs. A provider-to-provider exchange exists only as a pilot, with a first eReferral prototype due in January 2027.",
+   "detail": [
+    "Section 36 of the UHC Act requires every provider and insurer to keep electronic health records and an electronic prescription log. Section 31 sends administrative, medical, pharmaceutical and financing data to PhilHealth. PhilHealth names its National Health Data Repository as the integration target for YAKAP clinic records.",
+    "PhilHealth made eClaims 3.0 mandatory for all accredited facilities from 1 July 2026. YAKAP primary care clinics must move to a PhilHealth-certified EMR, with the old eKonsulta system kept open until 31 December 2026.",
+    "There is no working provider-to-provider exchange. In a June 2026 test in Aklan, 11 of 13 EMR teams exchanged synthetic referrals using draft national standards. The province plans an eReferral prototype in January 2027.",
+    "A March 2026 presidential order created a group to run PhilHealth's digital transformation under the 2025 E-Governance Act."
+   ],
+   "sources": [
+    {
+     "title": "Republic Act No. 11223, Universal Health Care Act (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2019/ra_11223_2019.html",
+     "date": "2019",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "PhilHealth Advisory No. 2026-0040: Final deadline to migrate to eClaims 3.0",
+     "url": "https://www.philhealth.gov.ph/advisories/2026/PA2026-0040.pdf",
+     "date": "2026-07-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "PhilHealth Advisory No. 2026-0038: YAKAP digitalization requirements",
+     "url": "https://www.philhealth.gov.ph/advisories/2026/PA2026-0038.pdf",
+     "date": "2026-06-30",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Philippine EMR systems achieve live health data exchange at June 2026 FHIR Connectathon in Aklan (UP Manila)",
+     "url": "https://www.upm.edu.ph/cpt_news/philippine-emr-systems-achieve-live-health-data-exchange-at-june-2026-fhir-connectathon-in-aklan/",
+     "date": "2026-07-03",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 27,
+   "summary": "A treating doctor can use records without separate consent, but only those held in their own facility. No cross-provider clinical view was verified, and the first eReferral prototype starts in one Aklan town in January 2027.",
+   "detail": [
+    "Section 13(e) of RA 10173 allows processing for medical treatment by a practitioner or institution, so the law does not block clinician access.",
+    "DOH Administrative Order 2020-0030 limits access to the provider directly attending the patient, with a signed consent form. Records stay with the facility that created them.",
+    "In a June 2026 test, receiving facilities could open a full referral package before the patient arrived, using synthetic data. The standards used are drafts not yet meant for production. The Aklan exchange plans an eReferral prototype in Ibajay in January 2027, then a phased provincial rollout."
+   ],
+   "sources": [
+    {
+     "title": "Republic Act No. 10173, Data Privacy Act of 2012 (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "DOH Administrative Order No. 2020-0030: Data Privacy Guidelines on the Processing of Health Information (UP Law copy)",
+     "url": "https://law.upd.edu.ph/wp-content/uploads/2020/07/DOH-AO-No-2020-0030.pdf",
+     "date": "2020-07-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Philippine EMR systems achieve live health data exchange at June 2026 FHIR Connectathon in Aklan (UP Manila)",
+     "url": "https://www.upm.edu.ph/cpt_news/philippine-emr-systems-achieve-live-health-data-exchange-at-june-2026-fhir-connectathon-in-aklan/",
+     "date": "2026-07-03",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Research data falls largely outside the Data Privacy Act with no opt-out, though it must be held under strict confidentiality and a statutory ethics board oversees 114 accredited ethics committees. Base 40, +3 ethics body, +3 statutory confidentiality = 46.",
+   "detail": [
+    "Section 4(d) of RA 10173 excludes personal information processed for research from the Act. Section 19 suspends data subject rights for scientific and statistical research, provided the data is kept under strict confidentiality and used only for the declared purpose.",
+    "UHC Act Section 31 sends health data submitted to PhilHealth on to the DOH for research and policy. There is no individual consent or opt-out for this.",
+    "The Philippine National Health Research System Act (RA 10532, 2013) gives the Philippine Health Research Ethics Board power to set ethics guidelines and monitor ethics committees. Its register lists 114 accredited committees.",
+    "DOH AO 2020-0030 requires research on health information to follow the national ethics guidelines. No public register of data uses was found."
+   ],
+   "sources": [
+    {
+     "title": "Republic Act No. 10173, Data Privacy Act of 2012 (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+     "date": "2012",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Republic Act No. 10532, Philippine National Health Research System Act of 2013 (Supreme Court E-Library)",
+     "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/55630",
+     "date": "2013-05-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "PHREB Accredited RECs (Philippine Health Research Ethics Board)",
+     "url": "https://ethics-accreditation.healthresearch.ph/accredited-rec/0/0",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Republic Act No. 11223, Universal Health Care Act (Lawphil)",
+     "url": "https://lawphil.net/statutes/repacts/ra2019/ra_11223_2019.html",
+     "date": "2019",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 42,
+   "summary": "Medical software falls under the FDA's 2018 device rules, but the rules written for AI software are still a draft, revised for consultation in August 2026. The privacy regulator's 2024 AI advisory requires human intervention in automated decisions.",
+   "detail": [
+    "The FDA's draft circular on medical device software builds on Administrative Order 2018-0002, the ASEAN-harmonized device rules. It defines an AI medical device and sets risk classes. Comments on the first draft closed on 20 July 2025.",
+    "A consultancy reports that a revised draft went to public consultation on 27 August 2026. It adds risk factors such as autonomy, whether the algorithm keeps learning after release, and explainability. It excludes clinical decision support that a clinician can check independently.",
+    "NPC Advisory 2024-04 applies the Data Privacy Act to AI systems that process personal data. It requires transparency and meaningful human intervention where automated decisions pose significant risk.",
+    "No binding change-control rule for AI medical devices was found."
+   ],
+   "sources": [
+    {
+     "title": "Draft for Comments: Guidelines on the Regulation of Medical Device Software (FDA Philippines)",
+     "url": "https://www.fda.gov.ph/draft-for-comments-guidelines-on-the-regulation-of-medical-device-software-mdsw-by-the-food-and-drug-administration-fda/",
+     "date": "2025-05-21",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Philippines new medical device software regulation draft (Asia Actual, updated after the August 2026 consultation)",
+     "url": "https://asiaactual.com/blog/philippines-medical-device-software-regulation/",
+     "date": "2025-05-23",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "NPC Advisory No. 2024-04: Guidelines on the application of the DPA to artificial intelligence systems processing personal data",
+     "url": "https://privacy.gov.ph/wp-content/uploads/2025/02/Advisory-2024.12.19-Guidelines-on-Artificial-Intelligence-w-SGD.pdf",
+     "date": "2024-12-19",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "Claims and YAKAP primary care data flow to PhilHealth and its repository. Hospitals and labs do not share records with each other; the e-prescription log is mandated but not verified as built. Exchange is a pilot in Aklan.",
+ "laws": [
+  {
+   "name": "Data Privacy Act of 2012 (RA 10173)",
+   "level": "National",
+   "year": "2012",
+   "what": "Health is sensitive data; access and portability rights; independent NPC; prison terms for misuse.",
+   "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+  },
+  {
+   "name": "Universal Health Care Act (RA 11223)",
+   "level": "National",
+   "year": "2019",
+   "what": "Mandates EHRs and e-prescription logs; all health entities must submit data to PhilHealth.",
+   "url": "https://lawphil.net/statutes/repacts/ra2019/ra_11223_2019.html"
+  },
+  {
+   "name": "E-Governance Act (RA 12254)",
+   "level": "National",
+   "year": "2025",
+   "what": "Orders a national, interoperable Philippine Digital Health System as part of government digitization.",
+   "url": "https://lawphil.net/statutes/repacts/ra2025/ra_12254_2025.html"
+  },
+  {
+   "name": "Philippine National Health Research System Act (RA 10532)",
+   "level": "National",
+   "year": "2013",
+   "what": "Gives the health research ethics board power over ethics guidelines and committees.",
+   "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/55630"
+  },
+  {
+   "name": "DOH Administrative Order 2020-0030",
+   "level": "National",
+   "year": "2020",
+   "what": "Health data privacy rules: admission consent form, provider-only access, outbreak access for DOH.",
+   "url": "https://law.upd.edu.ph/wp-content/uploads/2020/07/DOH-AO-No-2020-0030.pdf"
+  },
+  {
+   "name": "NPC Circular 2023-04 on Consent",
+   "level": "National",
+   "year": "2023",
+   "what": "Unbundled, withdrawable consent; consent needed for high-impact direct marketing.",
+   "url": "https://privacy.gov.ph/wp-content/uploads/2023/11/NPC-Circular-No.-2023-04_Guidelines-on-Consent_07Nov2023.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-09-25",
+   "headline": "GenSan hospital admits data breach after ransomware group leaks patient files",
+   "source": "MindaNews",
+   "url": "https://mindanews.com/top-stories/2026/09/gensan-hospital-admits-data-breach-after-ransomware-groups-claims/",
+   "why": "Medical, pathology and dialysis records were reportedly posted for public download (not verified: page did not open on 2 October 2026)."
+  },
+  {
+   "date": "2026-09-18",
+   "headline": "Privacy regulator drafts 30-day deadline and fee limits for data requests",
+   "source": "National Privacy Commission",
+   "url": "https://privacy.gov.ph/wp-content/uploads/2026/09/For-Publication-DPCJ-18Sep2026-Draft-Circular-Data-Subjects-Rights.pdf",
+   "why": "Would give patients a fixed deadline and cheaper copies of their health records."
+  },
+  {
+   "date": "2026-07-03",
+   "headline": "Eleven EMR systems exchange test referrals ahead of Aklan health exchange pilot",
+   "source": "University of the Philippines Manila",
+   "url": "https://www.upm.edu.ph/cpt_news/philippine-emr-systems-achieve-live-health-data-exchange-at-june-2026-fhir-connectathon-in-aklan/",
+   "why": "First step toward records that follow patients between facilities."
+  },
+  {
+   "date": "2026-03-06",
+   "headline": "President creates group to steer PhilHealth digital transformation",
+   "source": "Supreme Court E-Library (Administrative Order No. 42)",
+   "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/6/101285",
+   "why": "Puts claims, eligibility and member data systems under one roadmap with privacy standards."
+  },
+  {
+   "date": "2025-12-23",
+   "headline": "PhilHealth orders primary care clinics onto certified electronic medical records",
+   "source": "PhilHealth",
+   "url": "https://www.philhealth.gov.ph/advisories/2025/PA2025-0077.pdf",
+   "why": "YAKAP patients' primary care records move to electronic systems that report to PhilHealth."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

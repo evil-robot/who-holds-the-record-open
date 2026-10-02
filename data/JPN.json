@@ -1,0 +1,382 @@
+{
+  "iso3": "JPN",
+  "name": "Japan",
+  "region": "Asia",
+  "controlModel": "Shared",
+  "headline": "Japanese patients see five years of claims-based records online and choose at each visit what doctors see, but full charts stay with each provider.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 62,
+      "summary": "The privacy law gives a right to a copy, electronic on request, and Mynaportal shows five years of claims-based treatment and medicine data. The law sets no fixed deadline and allows fees, so full charts still come provider by provider.",
+      "detail": [
+        "Under APPI Art. 33, a patient can demand disclosure of their data, including as an electronic record. The provider must answer 'without delay', not within a set number of days. Art. 38 lets providers charge fees within a range reasonable against actual cost.",
+        "An MHLW notice (July 2018) says fees may include staff time and that requiring a doctor to attend is improper. Its survey of 87 university and advanced hospitals found 16% charged 5,000 yen or more for one black-and-white page.",
+        "Mynaportal shows up to five years of treatment and medicine data. Treatment data comes from electronic claims filed since June 2022, and medicine data from care since September 2021. It is drawn from claims, not doctors' notes, test results or images.",
+        "Reach is wide. About 104.18 million My Number cards were held at end of July 2026, and 91% of holders had registered them as insurance cards (Digital Agency)."
+      ],
+      "sources": [
+        {
+          "title": "Act on the Protection of Personal Information (Act No. 57 of 2003), e-Gov law text",
+          "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "On the guideline for providing medical information: disclosure costs (MHLW notice)",
+          "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc3511&dataType=1&pageNo=1",
+          "date": "2018-07-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "How many years of treatment and medicine data can be viewed? (Mynaportal FAQ 4902)",
+          "url": "https://faq.myna.go.jp/faq/show/4902?category_id=107&site_domain=default",
+          "date": "2026-05-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Agency at five years (Digital Agency)",
+          "url": "https://www.digital.go.jp/policies/report-2026",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 62,
+      "summary": "At each visit the patient chooses, item by item, whether the clinic may see past treatment, medicine and checkup data, and Mynaportal lists who received it. Hospital viewing without consent in emergencies, even for conscious patients, keeps the score low in its band.",
+      "detail": [
+        "At the card reader the patient picks which data to share (past treatment and medicine, checkups). The Digital Agency says providers see only what the patient agreed to.",
+        "Mynaportal's provision history shows when medical information went to providers and insurers, for up to seven years. MHLW says patients can also see which hospitals viewed their data in emergencies.",
+        "Since December 2024, hospitals may view claims-based data without consent when needed to protect life or body, including for conscious patients.",
+        "Secondary use runs on other rules: the NDB claims database needs no consent, and certified research operators work on opt-out. A September 2026 Cabinet Office panel deck set out the EU EHDS rights to restrict access and see access logs as reference material."
+      ],
+      "sources": [
+        {
+          "title": "Using the My Number card as a health insurance card (Digital Agency)",
+          "url": "https://www.digital.go.jp/policies/mynumber/insurance-card",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Medical insurance information provision history (Mynaportal)",
+          "url": "https://myna.go.jp/medical-info-sharing-histories",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Emergency medical information viewing: overview for hospitals (MHLW)",
+          "url": "https://www.mhlw.go.jp/content/10200000/001243478.pdf",
+          "date": "2026-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Reference materials, 16th meeting of the review panel on use of medical information (Cabinet Office)",
+          "url": "https://www8.cao.go.jp/iryou/studygloup/20260911/pdf/s-2.pdf",
+          "date": "2026-09-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 58,
+      "summary": "Medical history is 'special care-required' data, breaches must be reported, and the commission is independent by law. Most sensitive-data leaks come from hospitals and pharmacies, and the regulator cannot impose administrative fines until the 2026 surcharge takes effect.",
+      "detail": [
+        "APPI Art. 2(3) lists medical history as special care-required data. Art. 26 makes serious breaches reportable to the PPC and to the person. Art. 133 says PPC members exercise their powers independently. Corporate criminal fines reach 100 million yen (Art. 184).",
+        "The PPC handled 4,623 breach reports in Q3 of FY2025. It says most leaks involving special care-required data came from records handed to the wrong person at hospitals and pharmacies.",
+        "In February 2026 ransomware hit nurse-call servers at Nippon Medical School Musashi Kosugi Hospital, exposing names, addresses and patient IDs of about 10,000 patients.",
+        "The July 2026 amendment adds a surcharge equal to profit from serious violations, with 1,000 people as the baseline. It takes effect within two years. Japan holds an EU adequacy decision, and the European Commission published its first review in April 2023."
+      ],
+      "sources": [
+        {
+          "title": "Act on the Protection of Personal Information (Act No. 57 of 2003), e-Gov law text",
+          "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Handling of breach reports, FY2025 Q3 (PPC)",
+          "url": "https://www.ppc.go.jp/files/pdf/260311quarter-report_roueihoukoku.pdf",
+          "date": "2026-03-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Report on personal data leak from cyberattack, 2nd report (Nippon Medical School Musashi Kosugi Hospital)",
+          "url": "https://www.nms.ac.jp/kosugi-h/news/_28832.html",
+          "date": "2026-02-14",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 50,
+      "summary": "Health data cannot go to third parties by opt-out, but certified operators and the NDB supply processed data to drug makers and other firms. In August 2026 the regulator warned about municipal claims data reaching pharma marketing and insurance underwriting.",
+      "detail": [
+        "APPI Art. 27(2) bars the opt-out route for special care-required data, so sharing medical history normally needs consent or a legal exception.",
+        "Certified operators provide processed medical data to researchers and pharmaceutical and device companies. By July 2025 they held data on about 5.12 million people from 158 cooperating institutions.",
+        "The PPC found a firm turned municipal claims and dispensing data into anonymised data and passed it to drug makers and insurers. Contracts allowed marketing strategy, new insurance products and underwriting. The PPC said this raised possible problems under the APPI.",
+        "The 2026 amendment lets firms share personal data, health data included, without consent for statistics, including AI development. Recipients must publish who shares, sign a written agreement and use it for nothing else."
+      ],
+      "sources": [
+        {
+          "title": "Act on the Protection of Personal Information (Act No. 57 of 2003), e-Gov law text",
+          "url": "https://laws.e-gov.go.jp/law/415AC0000000057",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Material 4, 1st meeting of the review panel on use of medical information (Cabinet Office)",
+          "url": "https://www8.cao.go.jp/iryou/studygloup/20250903/pdf/s-4.pdf",
+          "date": "2025-09-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Caution on use of claims data held by local governments (PPC)",
+          "url": "https://www.ppc.go.jp/files/pdf/260819_02_houdou.pdf",
+          "date": "2026-08-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Overview of the Act amending the APPI (PPC)",
+          "url": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf",
+          "date": "2026-07-17",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 48,
+      "summary": "Claims-based records reach providers through the My Number card, used in 68.15% of visits in April 2026, and 90.5% of pharmacies handle e-prescriptions. Only 29.5% of clinics and 20.9% of hospitals issue them, and the national EHR sharing service was still in model trials.",
+      "detail": [
+        "MHLW counted 170.2 million patient visits in April 2026, with the My Number card used in 68.15%. MHLW's table for that month counts 90.5 million treatment-data items and 33.0 million medicine-data items obtained by providers.",
+        "By June 2026 e-prescription uptake was 41.3% overall: 90.5% of pharmacies, 29.5% of clinics, 20.9% of hospitals and 10.7% of dental clinics.",
+        "The EHR Information Sharing Service will share referral letters, discharge summaries, checkups, diagnoses, allergies, infections and 43 test items. GemMed reported in December 2025 that it ran as a model in 9 regions and 22 institutions, aiming for national use around winter FY2026.",
+        "The Medical Care Act amendment (December 2025) puts the service in law and requires the government to reach about 100% EHR adoption by 31 December 2030. The Cabinet Office notes about 45% of clinics have no EHR."
+      ],
+      "sources": [
+        {
+          "title": "Smooth use of the My Number insurance card, Medical Insurance Subcommittee material 3 (MHLW)",
+          "url": "https://www.mhlw.go.jp/content/12401000/001712851.pdf",
+          "date": "2026-06-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Progress of electronic prescriptions, Medical Insurance Subcommittee material 4 (MHLW)",
+          "url": "https://www.mhlw.go.jp/content/12401000/001742903.pdf",
+          "date": "2026-08-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "EHR Information Sharing Service overview v2.1 (MHLW)",
+          "url": "https://www.mhlw.go.jp/content/10800000/001457777.pdf",
+          "date": "2026-07-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Report on passage of the Act amending the Medical Care Act (MHLW)",
+          "url": "https://www.mhlw.go.jp/content/10801000/001606327.pdf",
+          "date": "2025-12-08",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 52,
+      "summary": "With consent, providers can see up to five years of claims-based treatment, surgery and medicine data, and hospitals can see it without consent in emergencies. Notes, results and images from other providers are not yet shared nationally.",
+      "detail": [
+        "Through the online eligibility system, clinicians see treatment, surgery and medicine data drawn from up to five years of electronic claims, once the patient consents. MHLW says doctors' SOAP notes and working memos are not included.",
+        "Hospitals can open an emergency summary plus the usual claims-based view when a patient cannot consent and it is needed to protect life or body. This began in December 2024.",
+        "Cross-provider clinical documents depend on the EHR sharing service. Its stored data is kept for at most five years unless a doctor flags it for longer, which the Cabinet Office panel says limits use for long-term conditions."
+      ],
+      "sources": [
+        {
+          "title": "Provision of treatment information including surgery in online eligibility checks (MHLW)",
+          "url": "https://www.mhlw.go.jp/content/10200000/000992343.pdf",
+          "date": "2025-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Emergency medical information viewing: overview for hospitals (MHLW)",
+          "url": "https://www.mhlw.go.jp/content/10200000/001243478.pdf",
+          "date": "2026-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Reference materials, 16th meeting of the review panel on use of medical information (Cabinet Office)",
+          "url": "https://www8.cao.go.jp/iryou/studygloup/20260911/pdf/s-2.pdf",
+          "date": "2026-09-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "The NDB claims database is shared with researchers and companies without consent or opt-out, while certified operators use an opt-out. Expert review, secure cloud analysis and criminal penalties for misuse put Japan at the cap of its band.",
+      "detail": [
+        "Since October 2020 the law has allowed NDB claims data to go to a wide range of users, including private firms. MHLW reviews requests and checks results before publication. A cloud analysis platform (HIC) is available.",
+        "Under the 2017 Act, hospitals may pass data to certified operators if they notify patients in advance and stop on request (Art. 52). Re-identifying anonymised data is prohibited (Art. 19, 30), and leaking it can bring prison terms.",
+        "The Clinical Trials Act requires informed consent before a specified clinical trial (Art. 9). The 2026 APPI amendment names medical providers as academic research bodies, widening research exceptions to consent."
+      ],
+      "sources": [
+        {
+          "title": "Use of the NDB claims database: third-party provision (MHLW)",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/reseputo/index.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Act on Anonymized and Pseudonymized Medical Data for Medical R&D (Act No. 28 of 2017), e-Gov law text",
+          "url": "https://laws.e-gov.go.jp/law/429AC0000000028",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Clinical Trials Act (Act No. 16 of 2017), e-Gov law text",
+          "url": "https://laws.e-gov.go.jp/law/429AC0000000016",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Overview of the Act amending the APPI (PPC)",
+          "url": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf",
+          "date": "2026-07-17",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 60,
+      "summary": "AI software for diagnosis or treatment is regulated as a medical device, and a change-plan route (IDATEN) has covered post-market updates since September 2020. MHLW holds the doctor responsible for AI-assisted decisions, but there is no framework for generative AI.",
+      "detail": [
+        "Under the PMD Act, software for diagnosis, treatment or prevention is a device at Class II and above, reviewed for clinical utility, performance and safety.",
+        "PMDA says IDATEN, in force since September 2020, lets makers get a planned future improvement approved in advance, and expects it to be used for AI that changes after release.",
+        "A December 2018 MHLW notice says the doctor is the one diagnosing when AI support is used and bears final responsibility.",
+        "The AI Promotion Act took full effect in September 2025. It relies on existing law and guidance rather than new binding rules. A June 2026 review says generative AI raises unresolved issues for device review."
+      ],
+      "sources": [
+        {
+          "title": "Regulation and approval of medical AI as SaMD in Japan (Global Health & Medicine)",
+          "url": "https://www.jstage.jst.go.jp/article/ghm/8/3/8_2026.01052/_article",
+          "date": "2026-06-30",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Review of medical devices using machine learning (PMDA)",
+          "url": "https://www.pmda.go.jp/files/000265866.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Use of AI diagnostic support programs and Article 17 of the Medical Practitioners Act (MHLW notice)",
+          "url": "https://www.pmda.go.jp/files/000227450.pdf",
+          "date": "2018-12-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Full enforcement of the AI Promotion Act (Government of Japan, Highlighting Japan)",
+          "url": "https://www.gov-online.go.jp/hlj/ja/november_2025/november_2025-08.html",
+          "date": "2025-11",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "connected",
+    "publicHealth": "unknown",
+    "research": "partial"
+  },
+  "journeyNote": "Claims-based data reaches hospitals, clinics and pharmacies through the online eligibility system. E-prescriptions reach most pharmacies but few clinics, the EHR sharing service is in model trials, and research flows through the NDB and certified operators.",
+  "laws": [
+    {
+      "name": "Act on the Protection of Personal Information (APPI)",
+      "level": "National",
+      "year": "2003",
+      "what": "Medical history is special care-required data; consent for sharing, breach reports, right to an electronic copy.",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+    },
+    {
+      "name": "Act amending the APPI (2026)",
+      "level": "National",
+      "year": "2026",
+      "what": "Consent-free sharing for statistics and AI development; profit-based surcharges; in force within two years.",
+      "url": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf"
+    },
+    {
+      "name": "Act on Anonymized and Pseudonymized Medical Data for Medical R&D",
+      "level": "National",
+      "year": "2017",
+      "what": "Hospitals pass data to certified operators after notice, stopping on request; re-identification prohibited.",
+      "url": "https://laws.e-gov.go.jp/law/429AC0000000028"
+    },
+    {
+      "name": "Act amending the Medical Care Act and related laws (2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "Puts EHR sharing in law, targets about 100% EHR adoption by 2030, opens pseudonymised public databases.",
+      "url": "https://www.mhlw.go.jp/content/10801000/001606327.pdf"
+    },
+    {
+      "name": "Clinical Trials Act",
+      "level": "National",
+      "year": "2017",
+      "what": "Specified clinical trials need prior explanation and informed consent from participants.",
+      "url": "https://laws.e-gov.go.jp/law/429AC0000000016"
+    },
+    {
+      "name": "AI Promotion Act",
+      "level": "National",
+      "year": "2025",
+      "what": "Sets up a national AI strategy and basic plan; relies on existing law rather than binding AI rules.",
+      "url": "https://laws.e-gov.go.jp/law/507AC0000000053"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07-11",
+      "headline": "Diet passes privacy amendment letting firms share medical history for AI without consent",
+      "source": "Yomiuri Shimbun",
+      "url": "https://www.yomiuri.co.jp/politics/20260711-GYT1T00091/",
+      "why": "Health data could feed AI development without the patient's agreement."
+    },
+    {
+      "date": "2026-08-20",
+      "headline": "Regulator flags municipal claims data reaching drug makers and insurers",
+      "source": "Med IT Tech",
+      "url": "https://medit.tech/ppi-notice-20260819/",
+      "why": "Residents' medical and prescription data was used commercially outside local control."
+    },
+    {
+      "date": "2026-02-13",
+      "headline": "Ransomware at Kawasaki hospital exposes data of about 10,000 patients",
+      "source": "Nippon TV News",
+      "url": "https://news.ntv.co.jp/category/society/37ed621a2b8a4678bcf6f76308c7c02d",
+      "why": "Shows hospital systems remain exposed through remote maintenance links."
+    },
+    {
+      "date": "2026-04-24",
+      "headline": "Nara city hospital halts emergency and outpatient care after suspected cyberattack",
+      "source": "Nikkei Medical",
+      "url": "https://medical.nikkeibp.co.jp/leaf/mem/pub/hotnews/int/202604/592992.html",
+      "why": "Attacks on hospital records can stop care, not only leak data."
+    },
+    {
+      "date": "2025-12-11",
+      "headline": "National EHR sharing service targets nationwide launch around winter FY2026",
+      "source": "GemMed",
+      "url": "https://gemmed.ghc-j.com/?p=71681",
+      "why": "Would let clinicians and patients see diagnoses, allergies and results across providers."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

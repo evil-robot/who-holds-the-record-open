@@ -1,0 +1,390 @@
+{
+  "iso3": "NOR",
+  "name": "Norway",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Norwegians control a national core record with opt-out, blocks and a lookup log, but full notes rarely follow them between GP, hospital and municipality.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 68,
+      "summary": "Norway has a statutory right to see and copy the whole record, and Helsenorge logged 104.7 million logins in 2025. But GP records are not on Helsenorge, and the Commission found imaging reports and images are not online at all.",
+      "detail": [
+        "Section 5-1 of the Patient and User Rights Act gives a right to see the record and, on request, a copy (GDPR Article 15). Refusal is allowed only to prevent danger to life or serious harm, or where access is clearly inadvisable for people close to the patient. GDPR adds a one month deadline and a free first copy.",
+        "Helsenorge's Pasientjournal service shows documents from selected hospitals in Helse Nord, Vest and Sør-Øst, plus Oslo's emergency services. Hospitals in Central Norway do not show records there; they use their own portal, HelsaMi. GP records are not available on Helsenorge, so patients must ask their GP for a copy.",
+        "The European Commission gave Norway an eHealth maturity score of 91% for 2025, the same as 2024, against an EU average of 87%. Norway scores 74% on data categories and 38% on results and reports. Twelve of 13 data types reach citizens, but imaging reports and images do not.",
+        "Use is heavy. Helsedirektoratet counted 104.7 million logins in 2025, about 8.7 million a month. Patients must be 16 or older to see their hospital record online, and parents of children aged 12 to 16 must ask the hospital for a copy."
+      ],
+      "sources": [
+        {
+          "title": "Lov om pasient- og brukerrettigheter (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/1999-07-02-63/KAPITTEL_5",
+          "date": "2026-06-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Om Pasientjournal (Helsenorge)",
+          "url": "https://www.helsenorge.no/pasientjournal/om/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2026 Digital Decade eHealth Indicator Study, Annex: Country Factsheets (European Commission)",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/53637948-66ce-11f1-9b18-01aa75ed71a1/language-en",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Antall innlogginger på Helsenorge (Helsedirektoratet)",
+          "url": "https://www.helsedirektoratet.no/statistikk/nasjonal-digitaliseringsmonitor/antall-innlogginger-pa-helsenorge--selvbetjeningslosninger",
+          "date": "2026-04-28",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 74,
+      "summary": "Patients can opt out of the national Kjernejournal, block all or some items, block named staff even in emergencies, and read a log of who looked. A 2026 law adds a right to see which data were shared, while widening direct access between providers.",
+      "detail": [
+        "The Patient Records Act lets anyone opt out of Kjernejournal. Norsk helsenett says the data are deleted after 30 days and the choice can be reversed within that window. Clinicians may see the record only with consent, unless regulation makes an exception.",
+        "Patients can block the whole record or single items such as documents or lab results. Blocks can be opened without consent in acute danger to life, but a block on a named health worker cannot be opened even then. Patients can see on Helsenorge who has viewed their data.",
+        "Section 5-3 of the Patient and User Rights Act and section 17 of the Patient Records Act give a right to object to sharing from other care records. Sharing may still happen where weighty reasons support it.",
+        "From 1 July 2026, new section 22 a requires every disclosure to be documented, in a log or the record, with who received it, why, when and which data, and gives the patient a right to see the log. The same act lets providers give direct access between organisations."
+      ],
+      "sources": [
+        {
+          "title": "Kjernejournal: spørsmål og svar (Norsk helsenett)",
+          "url": "https://www.nhn.no/tjenester/kjernejournal/sporsmal-og-svar",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lov om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/2014-06-20-42",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lov om pasient- og brukerrettigheter (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/1999-07-02-63/KAPITTEL_5",
+          "date": "2026-06-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (Lovdata)",
+          "url": "https://lovdata.no/dokument/LTI/lov/2026-01-23-1",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 62,
+      "summary": "GDPR applies through the EEA, and the regulator found major gaps in the Helseplattformen record system in December 2025 after many breach reports. Health enforcement is mostly orders and reprimands: in 2025 an online pharmacy and a doctor service got reprimands for tracking pixels.",
+      "detail": [
+        "GDPR and the 2018 Personal Data Act apply, and the Health Registry Act lets Datatilsynet fine breaches under GDPR Article 83. The Act adds a duty of secrecy, and section 30 a of the Health Registry Act makes unlawful acquisition of health data a crime with up to three years in prison for serious cases.",
+        "Datatilsynet audited Helseplattformen after many breach reports. On 2 December 2025 it reported significant gaps in governance and responsibility, and technical defects, and gave notice of an order to correct them. It will follow up access control, logging and incident handling. Helseplattformen AS had until 6 January 2026 to respond before a final decision.",
+        "In June 2025 Datatilsynet found six websites sharing visitor data through tracking pixels, including an online pharmacy, a doctor service and a disease information site. It reprimanded them and fined a municipal children's helpline NOK 250,000.",
+        "Snooping cases are found and pursued. In January 2026 a patient spotted that a nurse had opened 21 unrelated documents in their record; the hospital confirmed the access was unlawful and the county governor opened a case."
+      ],
+      "sources": [
+        {
+          "title": "Varsel om pålegg om retting til Helseplattformen AS (Datatilsynet)",
+          "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/varsel-om-palegg-til-helseplattformen-as/",
+          "date": "2025-12-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ulovlig deling av personopplysninger gjennom sporingspiksler hos seks nettsteder (Datatilsynet)",
+          "url": "https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/avgjorelser-fra-datatilsynet/2025/ulovlig-deling-av-personopplysninger-gjennom-sporingspiksler-hos-seks-nettsteder/",
+          "date": "2025-06-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lov om helseregistre og behandling av helseopplysninger (helseregisterloven) (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/2014-06-20-43",
+          "date": "2025-12-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Statsforvalteren åpner tilsyn etter snoking i pasientjournal ved Helgelandssykehuset (Dagens Medisin/NTB)",
+          "url": "https://www.dagensmedisin.no/arbeidsliv-helgelandssykehuset-pasientjournal/statsforvalteren-apner-tilsyn-etter-snoking-i-pasientjournal-ved-helgelandssykehuset/726961",
+          "date": "2026-01-12",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 64,
+      "summary": "The Health Registry Act bars registry data from going to employers, insurers or prosecutors even with the person's consent, and a 2026 law limits what insurers can get from records. We found no Norwegian ban on selling health data beyond GDPR.",
+      "detail": [
+        "Section 19 d of the Health Registry Act says registry health data cannot be made available to prosecutors, or for employer or insurance use, even if the person consents.",
+        "From 1 July 2026 the amended Health Personnel Act says an insurance company shall not get information that the patient could be denied access to under the access rules.",
+        "Datatilsynet's June 2025 pixel cases found an online pharmacy, a doctor service and a disease information site sharing visitor data with third parties without legal basis. The three health sites got reprimands, not fines (a children's helpline was fined), and the regulator warned future reactions could be much stricter.",
+        "Registry data are released only on application, for a stated purpose with a GDPR legal basis. We found no rule beyond GDPR that bans selling health data or using it for marketing."
+      ],
+      "sources": [
+        {
+          "title": "Lov om helseregistre og behandling av helseopplysninger (helseregisterloven) (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/2014-06-20-43",
+          "date": "2025-12-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lov om helsepersonell (helsepersonelloven) (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/1999-07-02-64",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (Lovdata)",
+          "url": "https://lovdata.no/dokument/LTI/lov/2026-01-23-1",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ulovlig deling av personopplysninger gjennom sporingspiksler hos seks nettsteder (Datatilsynet)",
+          "url": "https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/avgjorelser-fra-datatilsynet/2025/ulovlig-deling-av-personopplysninger-gjennom-sporingspiksler-hos-seks-nettsteder/",
+          "date": "2025-06-12",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 66,
+      "summary": "Kjernejournal is available in all hospitals and 90% of GP offices, and about 93% of prescriptions are electronic. But the shared medication list only began national rollout in 2026, Central Norway has not started it, and GP records do not feed the core record.",
+      "detail": [
+        "Every resident with a Norwegian ID number gets a Kjernejournal. It is available at all hospitals and 90% of GP offices, and links to the national vaccine register. Data from GP records do not flow into it automatically.",
+        "About 93% of prescriptions are electronic, with around 27 million e-prescriptions a year to the national prescription database.",
+        "The shared medication list started national rollout to GPs and hospitals in 2026 in every region except Central Norway, which is still preparing. Trials in home care and nursing homes are at an early stage.",
+        "The EU health data space regulation (EHDS) is marked EEA-relevant and is under assessment for the EEA Agreement, so its access and exchange duties do not yet bind Norway. EU draft rules for MyHealth@EU cross-border exchange were out for consultation in April 2026."
+      ],
+      "sources": [
+        {
+          "title": "Kjernejournal: spørsmål og svar (Norsk helsenett)",
+          "url": "https://www.nhn.no/tjenester/kjernejournal/sporsmal-og-svar",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Om e-resept (Norsk helsenett)",
+          "url": "https://www.nhn.no/tjenester/e-resept/om-e-resept",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Plan og status for innføring av pasientens legemiddelliste (Helsedirektoratet)",
+          "url": "https://www.helsedirektoratet.no/digitalisering-og-e-helse/pasientens-legemiddelliste/plan-for-utproving",
+          "date": "2026-09-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Det europeiske helsedataområdet: høring av gjennomføringsregelverk (Stortinget EU/EØS-nytt)",
+          "url": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/EU-EOS-informasjon/EU-EOS-nytt/2026/eueos-nytt---16.-april-2026/det-europeiske-helsedataomradet--horing-av-gjennomforingsregelverk/",
+          "date": "2026-04-16",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 68,
+      "summary": "Any clinician with a work need can open Kjernejournal at every hospital and most GP offices, with an emergency override for blocks. Full notes from other providers stay hard to reach, since GP records are not shared and document sharing is early.",
+      "detail": [
+        "Only health workers with a documented work need may open Kjernejournal, which shows medicines, vaccines and critical information. Blocked items need the patient's consent, except in acute danger to life.",
+        "From 1 July 2026 the Health Personnel Act allows information relevant and necessary for care to be shared with other clinicians, including by direct access between organisations.",
+        "In practice clinicians see few full notes from elsewhere. In 2026 the goal is for 50% of GPs and 40% of out-of-hours clinics to read hospital documents. National lab result sharing is still in trial.",
+        "Hospital discharge summaries must be sent to the patient's regular GP and the referring clinician, under section 26 of the amended Health Personnel Act."
+      ],
+      "sources": [
+        {
+          "title": "Kjernejournal: spørsmål og svar (Norsk helsenett)",
+          "url": "https://www.nhn.no/tjenester/kjernejournal/sporsmal-og-svar",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lov om helsepersonell (helsepersonelloven) (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/1999-07-02-64",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Pasientens journaldokumenter: status og ambisjoner for innføring (Helsedirektoratet)",
+          "url": "https://www.helsedirektoratet.no/digitalisering-og-e-helse/pasientens-journaldokumenter-pjd/status-og-ambisjoner-for-innforing",
+          "date": "2026-03-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Pasientens prøvesvar (Norsk helsenett)",
+          "url": "https://www.nhn.no/tjenester/pasientens-provesvar",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Central health registries are used for research without consent or a general opt-out, inside permits, secrecy rules and criminal penalties. Some registries allow a partial opt-out, and the Health Data Service delivered data to 513 applicants and projects in 2025.",
+      "detail": [
+        "The Health Research Act makes consent the main rule for medical research, unless another law says otherwise. Central registries under section 11 of the Health Registry Act hold identifiable data without consent, and the law gives no general right to object.",
+        "Safeguards are set in law: a duty of secrecy, data release only for a stated purpose, a ten year record of who received data, encryption of identifiers in central registries, and criminal penalties for unlawful acquisition. The Health Research Act also requires a public list of research projects.",
+        "Partial opt-outs exist. In the municipal patient register (KPR), people can stop some data being recorded and stop release with their ID number, but cannot block linkage with other registries.",
+        "FHI's Health Data Service made 523 decisions and delivered data to 513 applicants in 2025, with delivery now taking 3 to 6 months. Amendments to the Health Research Act take effect on 1 November 2026."
+      ],
+      "sources": [
+        {
+          "title": "Lov om helseregistre og behandling av helseopplysninger (helseregisterloven) (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/2014-06-20-43",
+          "date": "2025-12-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lov om medisinsk og helsefaglig forskning (helseforskningsloven) (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/2008-06-20-44",
+          "date": "2025-06-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Reservasjonsrett i Kommunalt pasient- og brukerregister (FHI)",
+          "url": "https://www.fhi.no/he/kpr/reservasjonsrett-i-kpr/",
+          "date": "2024-03-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kortere behandlingstid og økt utlevering av helsedata i 2025 (FHI)",
+          "url": "https://www.fhi.no/nyheter/2026/kortere-behandlingstid-og-okt-utlevering-av-data-i-2025/",
+          "date": "2026-01-23",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device rules applied through the 2020 Medical Devices Act, but the EU AI Act is not yet part of the EEA Agreement. A Norwegian AI bill is planned for spring 2027, and health agencies offer guidance, not binding rules.",
+      "detail": [
+        "The Medical Devices Act of 2020 implements the EU device regulations, which cover AI software with a medical purpose.",
+        "Nkom says the AI Act has not yet been incorporated into the EEA Agreement or Norwegian law. The government will consult again on its AI bill after the EU's Digital Omnibus changes, aiming to put it to Parliament in spring 2027.",
+        "Helsedirektoratet runs a cross-agency AI guidance service with lawyers from the medicines agency and the health supervisor, publishes AI rules of thumb and reports on large language models. These are guidance, not binding rules, so they add nothing above the EU-law base under our anchors."
+      ],
+      "sources": [
+        {
+          "title": "Lov om medisinsk utstyr (Lovdata)",
+          "url": "https://lovdata.no/dokument/NL/lov/2020-05-07-37",
+          "date": "2026-06-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Nye krav til KI-merking i EU: hva betyr dette for Norge? (Nkom)",
+          "url": "https://nkom.no/ki/regulering/nye-krav-til-ki-merking-i-eu--hva-betyr-dette-for-norge",
+          "date": "2026-08-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kunstig intelligens (Helsedirektoratet)",
+          "url": "https://www.helsedirektoratet.no/digitalisering-og-e-helse/kunstig-intelligens",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "Kjernejournal, e-prescriptions and the vaccine register work nationwide, and co-payments for exemption cards are registered automatically. GP notes are not shared, lab sharing is in trial, and Central Norway runs its own Helseplattformen system.",
+  "laws": [
+    {
+      "name": "Patient and User Rights Act (pasient- og brukerrettighetsloven)",
+      "level": "National",
+      "year": "1999",
+      "what": "Right to see and copy the whole record (section 5-1); right to object to sharing (section 5-3).",
+      "url": "https://lovdata.no/dokument/NL/lov/1999-07-02-63/KAPITTEL_5"
+    },
+    {
+      "name": "Patient Records Act (pasientjournalloven)",
+      "level": "National",
+      "year": "2014",
+      "what": "Basis for Kjernejournal with opt-out (sections 13, 17); disclosure log patients can see (section 22 a).",
+      "url": "https://lovdata.no/dokument/NL/lov/2014-06-20-42"
+    },
+    {
+      "name": "Health Registry Act (helseregisterloven)",
+      "level": "National",
+      "year": "2014",
+      "what": "Central registries without consent; 30 or 60 working day release deadlines; no data to employers or insurers.",
+      "url": "https://lovdata.no/dokument/NL/lov/2014-06-20-43"
+    },
+    {
+      "name": "Act of 23 January 2026 no. 1 on secrecy and sharing of patient data",
+      "level": "National",
+      "year": "2026",
+      "what": "From 1 July 2026, widens direct access between providers and requires logs of shared data.",
+      "url": "https://lovdata.no/dokument/LTI/lov/2026-01-23-1"
+    },
+    {
+      "name": "Health Research Act (helseforskningsloven)",
+      "level": "National",
+      "year": "2008",
+      "what": "Consent as main rule for health research; public list of projects; amendments in force 1 November 2026.",
+      "url": "https://lovdata.no/dokument/NL/lov/2008-06-20-44"
+    },
+    {
+      "name": "Medical Devices Act (lov om medisinsk utstyr)",
+      "level": "National",
+      "year": "2020",
+      "what": "Applies the EU device regulations (MDR, IVDR) in Norway, covering medical AI software.",
+      "url": "https://lovdata.no/dokument/NL/lov/2020-05-07-37"
+    },
+    {
+      "name": "General Data Protection Regulation (via EEA Agreement)",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "Health data as special category; access rights; fines enforced by Datatilsynet.",
+      "url": "https://lovdata.no/dokument/NL/lov/2018-06-15-38"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-08-10",
+      "headline": "Norway plans new AI bill consultation, with Parliament vote aimed for spring 2027",
+      "source": "Nkom",
+      "url": "https://nkom.no/ki/regulering/nye-krav-til-ki-merking-i-eu--hva-betyr-dette-for-norge",
+      "why": "EU AI Act duties for clinical AI do not yet bind Norwegian providers."
+    },
+    {
+      "date": "2026-05-29",
+      "headline": "Parliament asks for a limited, independent Helseplattformen analysis to draw lessons",
+      "source": "Stortinget",
+      "url": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Nyhetsarkiv/Hva-skjer-nyheter/2025-2026/vedtak-uke-22/",
+      "why": "Lessons from Central Norway's troubled record system should shape future record projects."
+    },
+    {
+      "date": "2026-01-23",
+      "headline": "Health Data Service delivered data to 513 applicants in 2025, record high",
+      "source": "Folkehelseinstituttet (FHI)",
+      "url": "https://www.fhi.no/nyheter/2026/kortere-behandlingstid-og-okt-utlevering-av-data-i-2025/",
+      "why": "More registry data reach researchers, without individual consent from patients."
+    },
+    {
+      "date": "2026-01-12",
+      "headline": "Patient discovers nurse opened unrelated record documents; county governor opens case",
+      "source": "Dagens Medisin (NTB)",
+      "url": "https://www.dagensmedisin.no/arbeidsliv-helgelandssykehuset-pasientjournal/statsforvalteren-apner-tilsyn-etter-snoking-i-pasientjournal-ved-helgelandssykehuset/726961",
+      "why": "Shows access logs let patients catch snooping, and that cases are pursued."
+    },
+    {
+      "date": "2025-12-02",
+      "headline": "Data regulator finds significant gaps in Helseplattformen, warns of correction order",
+      "source": "Datatilsynet",
+      "url": "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/varsel-om-palegg-til-helseplattformen-as/",
+      "why": "Access control and logging flaws touch records of patients across Central Norway."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

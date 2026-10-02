@@ -1,0 +1,391 @@
+{
+ "iso3": "DEU",
+ "name": "Germany",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "About 73 million Germans have an opt-out ePA with an access log and blocking options, but only 5.1 million have the ID to open it.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 64,
+   "summary": "Since 6 February 2026 the BGB gives a free first copy of the complete treatment record, including electronic copies, and insurers have created about 73 million ePAs. Only 5.1 million people had the GesundheitsID needed to read theirs.",
+   "detail": [
+    "§ 630g BGB grants inspection of the complete record without delay, electronic copies, and a free first copy. The Berlin medical chamber says the February 2026 change aligned it with GDPR Art. 15(3) and covers outside findings, letters and the doctor's own notes.",
+    "Statutory insurers had created about 73 million ePAs by April 2026, holding more than 100 million documents, just over half findings and reports (gematik).",
+    "Reading the ePA needs an insurer app and a GesundheitsID. gematik counted 5.1 million registered IDs. A BfDI survey found more than four in ten insured people wrongly think the ePA only exists after they register.",
+    "The ePA holds documents uploaded since 2025, not the older chart. Private insurers may offer an ePA but are not obliged to (PKV-Verband), so privately insured people may have no national record at all."
+   ],
+   "sources": [
+    {
+     "title": "§ 630g BGB Einsichtnahme in die Behandlungsakte (gesetze-im-internet.de)",
+     "url": "https://www.gesetze-im-internet.de/bgb/__630g.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Merkblatt: Einsichtnahme in ärztliche Behandlungsunterlagen (Ärztekammer Berlin)",
+     "url": "https://www.aekb.de/fileadmin/migration/pdf/25_Merkblatt_Einsichtsrechte_in_Patientenunterlagen.pdf",
+     "date": "2026-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ein Jahr ePA für alle: mehr als 100 Millionen hinterlegte Dokumente (gematik)",
+     "url": "https://www.gematik.de/newsroom/news-detail/ein-jahr-epa-fuer-alle-mehr-als-100-millionen-hinterlegte-dokumente-verbessern-behandlung-und-versorgung-in-deutschland",
+     "date": "2026-04-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Elektronische Patientenakte: Datenschutz stärkt Vertrauen und Nutzung (BfDI Datenbarometer)",
+     "url": "https://www.bfdi.bund.de/SharedDocs/Pressemitteilungen/DE/2025/18_Datenbarometer-ePA.html",
+     "date": "2025-12-18",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 66,
+   "summary": "Patients can object to the whole ePA, to single uses, or to named facilities, hide documents, change access periods and read an access log. Hiding is all-or-nothing: a document cannot be hidden from one practice only.",
+   "detail": [
+    "§ 353 SGB V lets people object to the ePA as a whole, to single uses such as e-prescription data, or to access by named providers, either in the app or through the insurer's ombudsman office.",
+    "§ 342 SGB V requires insurers to show patients the access log in clear, accessible form in the app.",
+    "Default access after a card is read is 90 days for practices and 3 days for pharmacies, adjustable in the app. Hidden documents are invisible to all clinicians, and only the medication list can be hidden from single facilities (gesund.bund.de).",
+    "Opt-out rates were 4 to 10 percent by insurer in October 2025 (zm-online). Only about a third of insured people knew they could remove documents (BfDI, December 2025)."
+   ],
+   "sources": [
+    {
+     "title": "§ 353 SGB V Erklärung des Widerspruchs; Erteilung der Einwilligung",
+     "url": "https://www.gesetze-im-internet.de/sgb_5/__353.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "§ 342 SGB V Angebot und Nutzung der elektronischen Patientenakte",
+     "url": "https://www.gesetze-im-internet.de/sgb_5/__342.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Wie verwalte ich meine ePA? (gesund.bund.de, BMG)",
+     "url": "https://gesund.bund.de/wie-verwalte-ich-meine-epa",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Seit dem freiwilligen ePA-Start stagniert die Zahl der Widersprüche (zm-online)",
+     "url": "https://www.zm-online.de/news/detail/seit-dem-freiwilligen-epa-start-stagniert-die-zahl-der-widersprueche",
+     "date": "2025-10-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 58,
+   "summary": "Strong law and an active federal regulator sit beside real failures: an April 2026 attack on billing firm Unimed exposed patient data at many university hospitals, and researchers say ePA identity checks remain weak.",
+   "detail": [
+    "Health data is special-category data under the GDPR, and the GDNG adds prison terms of up to three years for misusing research health data for gain.",
+    "The BfDI received 11,824 submissions in 2025, up about 36 percent, ran 80 on-site inspections and examined insurer risk alerts under § 25b SGB V in its ReguLab sandbox. We found no large German health-data fine in the period.",
+    "The Unimed attack in mid-April 2026 took master data of about 54,000 Freiburg patients, with diagnosis-revealing billing data in about 900 cases; Cologne reported about 30,000 records (heise).",
+    "At 39C3 in December 2025, researcher Bianca Kastl said the core weakness of the ePA is still its identity and authentication processes (heise)."
+   ],
+   "sources": [
+    {
+     "title": "Datenschutzaufsicht 2025: BfDI stellt 34. Tätigkeitsbericht vor (BfDI)",
+     "url": "https://www.bfdi.bund.de/SharedDocs/Pressemitteilungen/DE/2026/06_TB34.html",
+     "date": "2026-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cyberangriff auf Abrechnungsdienstleister betrifft viele Kliniken (heise online)",
+     "url": "https://www.heise.de/news/Patientendaten-betroffen-Cyberangriff-auf-Abrechnungsdienstleister-von-Kliniken-11304982.html",
+     "date": "2026-05-22",
+     "publisherClass": "news"
+    },
+    {
+     "title": "39C3: Ein Jahr elektronische Patientenakte, hat sich die Lage verbessert? (heise online)",
+     "url": "https://www.heise.de/news/39C3-Ein-Jahr-elektronische-Patientenakte-hat-sich-die-Lage-verbessert-11126272.html",
+     "date": "2025-12-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "§ 9 GDNG Strafvorschriften (gesetze-im-internet.de)",
+     "url": "https://www.gesetze-im-internet.de/gdng/__9.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 70,
+   "summary": "German law bans using research health data for marketing, advertising or insurance decisions and punishes misuse for gain with up to three years in prison. Companies may still apply for pseudonymised data when the purpose qualifies.",
+   "detail": [
+    "§ 303e SGB V forbids using FDZ data for insurance contract decisions, decisions against a person, harmful products such as tobacco, and market research, advertising or sales of medicines and devices.",
+    "Access depends on purpose, not on who applies: any natural or legal person under the GDPR may apply, so firms can use the data for allowed purposes.",
+    "Reimbursed health apps (DiGA) may process data only with consent and only for a closed list of purposes (§ 4 DiGAV). Insurer risk scans under § 25b SGB V may not pass data to third parties.",
+    "Consumer health apps outside DiGA rely on the GDPR alone; no stricter national rule was found."
+   ],
+   "sources": [
+    {
+     "title": "§ 303e SGB V Datenverarbeitung (Forschungsdatenzentrum)",
+     "url": "https://www.gesetze-im-internet.de/sgb_5/__303e.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "§ 9 GDNG Strafvorschriften (gesetze-im-internet.de)",
+     "url": "https://www.gesetze-im-internet.de/gdng/__9.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "§ 4 DiGAV Anforderungen an Datenschutz und Datensicherheit",
+     "url": "https://www.gesetze-im-internet.de/digav/__4.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "§ 25b SGB V Datengestützte Erkennung individueller Gesundheitsrisiken",
+     "url": "https://www.gesetze-im-internet.de/sgb_5/__25b.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 66,
+   "summary": "Practices, pharmacies and hospitals share one telematics network, e-prescriptions passed one billion in October 2025, and ePA use is mandatory for providers since 1 October 2025. Hospitals still lag behind practices.",
+   "detail": [
+    "The e-prescription has been mandatory nationwide since early 2024 and passed one billion redeemed on 17 October 2025 (gematik). The medication list was opened more than 21 million times a week by April 2026.",
+    "Up to 93,000 medical and dental practices used the ePA weekly by April 2026. Weekly hospital uploads rose from about 2,000 in October 2025 to more than 90,000 (gematik).",
+    "In February 2026 the Süddeutsche Zeitung reported that only about half of hospitals had opened at least one ePA in the previous week (see news). The health ministry confirms all providers must use the ePA since 1 October 2025.",
+    "Public health reporting runs on a separate system, DEMIS, which all health offices and most labs and hospitals use (RKI). Claims data of all statutory insured already flows to the FDZ."
+   ],
+   "sources": [
+    {
+     "title": "Ein Jahr ePA für alle: mehr als 100 Millionen hinterlegte Dokumente (gematik)",
+     "url": "https://www.gematik.de/newsroom/news-detail/ein-jahr-epa-fuer-alle-mehr-als-100-millionen-hinterlegte-dokumente-verbessern-behandlung-und-versorgung-in-deutschland",
+     "date": "2026-04-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Eine Milliarde eingelöste E-Rezepte (gematik)",
+     "url": "https://www.gematik.de/newsroom/news-detail/eine-milliarde-eingeloeste-e-rezepte",
+     "date": "2025-10-17",
+     "publisherClass": "official"
+    },
+    {
+     "title": "ePA für alle (Bundesministerium für Gesundheit)",
+     "url": "https://www.bundesgesundheitsministerium.de/themen/digitalisierung/elektronische-patientenakte/epa-fuer-alle",
+     "date": "2026-03-04",
+     "publisherClass": "official"
+    },
+    {
+     "title": "DEMIS: Deutsches Elektronisches Melde- und Informationssystem (RKI)",
+     "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Meldewesen/DEMIS/demis-node.html",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 62,
+   "summary": "Reading the patient's card gives a practice 90 days of access to the whole unhidden ePA, but doctors are not required to look and the record only holds documents uploaded since 2025.",
+   "detail": [
+    "Practices have default access to all ePA content in a treatment context, proven by reading the health card (KBV).",
+    "The KBV says doctors need not check the ePA routinely, and must upload only documents they created in the current treatment that exist electronically.",
+    "Patients can hide documents, and clinicians cannot see that something is hidden (gesund.bund.de), so the picture may be incomplete.",
+    "Hospital use was patchy in early 2026, which limits what emergency and inpatient teams can see (SZ, gematik)."
+   ],
+   "sources": [
+    {
+     "title": "Elektronische Patientenakte (KBV)",
+     "url": "https://www.kbv.de/praxis/digitalisierung/anwendungen/elektronische-patientenakte",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Wie verwalte ich meine ePA? (gesund.bund.de, BMG)",
+     "url": "https://gesund.bund.de/wie-verwalte-ich-meine-epa",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ein Jahr ePA für alle: mehr als 100 Millionen hinterlegte Dokumente (gematik)",
+     "url": "https://www.gematik.de/newsroom/news-detail/ein-jahr-epa-fuer-alle-mehr-als-100-millionen-hinterlegte-dokumente-verbessern-behandlung-und-versorgung-in-deutschland",
+     "date": "2026-04-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Kliniken fremdeln mit der elektronischen Patientenakte (Süddeutsche Zeitung)",
+     "url": "https://www.sueddeutsche.de/bayern/nuernberg-kliniken-patientenakte-erler-epa-li.3391093",
+     "date": "2026-02-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "The only research flow running today, claims data of all statutory insured to the FDZ, has no opt-out, which a lawsuit challenges. An opt-out for ePA data exists in law but its transfers only start in mid-December 2026.",
+   "detail": [
+    "§ 363 SGB V sends pseudonymised ePA data to the FDZ unless the person objects; the objection can be limited to purposes, is logged, and data already sent is deleted except for projects already using it.",
+    "The FDZ says transfers begin in stages from mid-December 2026 with the electronic medication list. The KBV gives an October 2026 test and January 2027 rollout; we use the FDZ date.",
+    "Claims data flows with no right to object. The GFF lawsuit, filed in 2022, resumed in 2026 and asks for an unconditional opt-out (netzpolitik).",
+    "Safeguards include a secure processing room, a public register of applications (53 applications by February 2026, PZ) and criminal penalties. We score the live no-opt-out regime: 40 plus safeguards, capped at 50.",
+    "Under the EU EHDS, secondary-use rules start to apply for most data categories in March 2029, when Germany's FDZ and access body must work within the EU permit system (European Commission)."
+   ],
+   "sources": [
+    {
+     "title": "§ 363 SGB V Verarbeitung von Daten der ePA zu Forschungszwecken",
+     "url": "https://www.gesetze-im-internet.de/sgb_5/__363.html",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Daten aus der elektronischen Patientenakte (FDZ Gesundheit, BfArM)",
+     "url": "https://www.forschungsdatenzentrum-gesundheit.de/infoportal/datensatz-des-fdz-gesundheit/daten-aus-der-epa",
+     "date": "2026-09-30",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Klage gegen zentrale Speicherung von Gesundheitsdaten geht weiter (netzpolitik.org)",
+     "url": "https://netzpolitik.org/2026/gesellschaft-fuer-freiheitsrechte-klage-gegen-zentrale-speicherung-von-gesundheitsdaten-geht-weiter/",
+     "date": "2026-02-25",
+     "publisherClass": "news"
+    },
+    {
+     "title": "European Health Data Space Regulation (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "Clinical AI is governed by EU device law and the AI Act, whose duties for AI in medical devices now start 2 August 2028. Germany's KI-MIG of July 2026 mainly designates authorities, which earns no national credit.",
+   "detail": [
+    "AI used as a medical device needs EU MDR conformity. The Digital Omnibus on AI, Regulation (EU) 2026/1744, moved high-risk duties for AI in products under EU sector law to 2 August 2028 (Mayer Brown).",
+    "The KI-MIG, in force 29 July 2026, makes the Federal Network Agency the default market surveillance authority, leaves product AI with existing device regulators and sets up an AI sandbox.",
+    "§ 303e SGB V allows FDZ data to be used to train and test health AI. No binding German rule on clinical AI use was verified."
+   ],
+   "sources": [
+    {
+     "title": "KI-Marktüberwachungs- und Innovationsförderungsgesetz (KI-MIG)",
+     "url": "https://www.gesetze-im-internet.de/ki-mig/BJNR0DF0B0026.html",
+     "date": "2026-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digital Omnibus on AI, Regulation (EU) 2026/1744 (AI Act Explorer)",
+     "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/",
+     "date": "2026-07",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "EU AI Act News: Digital Omnibus on AI (Mayer Brown)",
+     "url": "https://www.mayerbrown.com/en/insights/publications/2026/07/eu-ai-act-news-digital-omnibus-on-ai-new-guidance-on-risk-classification-gpai-and-transparency-obligations",
+     "date": "2026-07-30",
+     "publisherClass": "law_firm"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "Practices and pharmacies run on ePA and e-prescription. Hospitals were still connecting in 2026. Labs report infections through DEMIS; lab reports reach the ePA mostly via practices. Claims reach the FDZ; ePA research data starts December 2026.",
+ "laws": [
+  {
+   "name": "Bürgerliches Gesetzbuch § 630g (as amended 2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "Right to inspect the complete treatment record, electronic copies, free first copy since 6 February 2026.",
+   "url": "https://www.gesetze-im-internet.de/bgb/__630g.html"
+  },
+  {
+   "name": "SGB V ePA provisions §§ 337-363 (Digital-Gesetz)",
+   "level": "National",
+   "year": "2025",
+   "what": "Opt-out ePA created early 2025; objections per use or provider, access log, research opt-out.",
+   "url": "https://www.gesetze-im-internet.de/sgb_5/__353.html"
+  },
+  {
+   "name": "Gesundheitsdatennutzungsgesetz (GDNG)",
+   "level": "National",
+   "year": "2024",
+   "what": "Secrecy duty for research health data users; up to three years prison for misuse for gain.",
+   "url": "https://www.gesetze-im-internet.de/gdng/"
+  },
+  {
+   "name": "Digitale Gesundheitsanwendungen-Verordnung (DiGAV)",
+   "level": "National",
+   "year": "2020",
+   "what": "Reimbursed health apps process data only with consent and for a closed list of purposes.",
+   "url": "https://www.gesetze-im-internet.de/digav/__4.html"
+  },
+  {
+   "name": "KI-Marktüberwachungs- und Innovationsförderungsgesetz (KI-MIG)",
+   "level": "National",
+   "year": "2026",
+   "what": "Implements the EU AI Act in Germany; names supervisory authorities and sets up an AI sandbox.",
+   "url": "https://www.gesetze-im-internet.de/ki-mig/BJNR0DF0B0026.html"
+  },
+  {
+   "name": "European Health Data Space Regulation (EU) 2025/327",
+   "level": "Supranational",
+   "year": "2025",
+   "what": "Patient summaries and e-prescriptions exchange from March 2029; secondary-use rules apply from 2029.",
+   "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+  },
+  {
+   "name": "EU AI Act (EU) 2024/1689, amended by (EU) 2026/1744",
+   "level": "Supranational",
+   "year": "2024",
+   "what": "Risk rules for AI; duties for AI in medical devices apply from 2 August 2028.",
+   "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-30",
+   "headline": "Security researcher says ePA identity checks remain its core weakness",
+   "source": "heise online",
+   "url": "https://www.heise.de/news/39C3-Ein-Jahr-elektronische-Patientenakte-hat-sich-die-Lage-verbessert-11126272.html",
+   "why": "Weak identity checks put records of most insured people at risk."
+  },
+  {
+   "date": "2026-02-22",
+   "headline": "Many hospitals still upload little or nothing to the ePA",
+   "source": "Süddeutsche Zeitung",
+   "url": "https://www.sueddeutsche.de/bayern/nuernberg-kliniken-patientenakte-erler-epa-li.3391093",
+   "why": "Discharge letters missing from the ePA leave gaps for the next doctor."
+  },
+  {
+   "date": "2026-02-25",
+   "headline": "Lawsuit against central storage of all insured people's claims data resumes",
+   "source": "netzpolitik.org",
+   "url": "https://netzpolitik.org/2026/gesellschaft-fuer-freiheitsrechte-klage-gegen-zentrale-speicherung-von-gesundheitsdaten-geht-weiter/",
+   "why": "A win could give everyone the right to keep claims data out of research."
+  },
+  {
+   "date": "2026-03-19",
+   "headline": "Doctors must now hand over the first copy of the record free",
+   "source": "Medical Tribune",
+   "url": "https://www.medical-tribune.de/praxis/management/behandlungsakte-erste-kopie-ist-kostenlos-auszuhaendigen",
+   "why": "Patients no longer pay for their first copy, paper or electronic."
+  },
+  {
+   "date": "2026-05-22",
+   "headline": "Attack on hospital billing firm Unimed exposes tens of thousands of patients",
+   "source": "heise online",
+   "url": "https://www.heise.de/news/Patientendaten-betroffen-Cyberangriff-auf-Abrechnungsdienstleister-von-Kliniken-11304982.html",
+   "why": "Billing records can reveal diagnoses of private and self-paying patients."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

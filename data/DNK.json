@@ -1,0 +1,370 @@
+{
+  "iso3": "DNK",
+  "name": "Denmark",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Danes see hospital records, labs and medicines on sundhed.dk and can block lookups, but GP notes are only now arriving and registers have no opt-out.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 78,
+      "summary": "The Commission gave Denmark a 98% eHealth maturity score for 2025, and over 3 million Danes use sundhed.dk or MinSundhed each year. GP notes are only starting to appear, and the full hospital record still needs an access request.",
+      "detail": [
+        "The Health Act gives every patient a right of access to their records. A request must be handled within 7 working days, in the form the patient asks for, including electronic copies. Notes written before 1 January 2010 can be restricted.",
+        "Sundhed.dk shows visits to the doctor, lab results, prescribed medicines and e-journals from public hospitals. The ministry says the whole hospital record still needs a formal access request. The MinSundhed app has 36 million visits a year and 3.6 million installs.",
+        "The EU 2026 eHealth study gives Denmark a composite maturity score of 98%, one of four countries at 95% or more. Medical images remain hard to share, with storage and bandwidth limits cited.",
+        "GP journal notes are shared on sundhed.dk for the first clinics only by the end of 2026, per MedCom. A June 2025 law lets providers withhold staff names from access requests for safety. Machine-readable export was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Adgang til egen sundhedsjournal (Indenrigs- og Sundhedsministeriet)",
+          "url": "https://www.ism.dk/sundhed/patientrettigheder/adgang-til-egen-sundhedsjournal",
+          "date": "2024-09-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Bekendtgørelse af sundhedsloven, LBK nr. 275 af 12. marts 2025 (Retsinformation)",
+          "url": "https://www.retsinformation.dk/eli/lta/2025/275",
+          "date": "2025-03-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "2026 Digital Decade eHealth Indicator Study, final report (European Commission)",
+          "url": "https://data.europa.eu/doi/10.2759/1486195",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Millioner har deres sundhedsdata i lommen: Danskerne har taget MinSundhed-appen til sig (sundhed.dk via Ritzau)",
+          "url": "https://via.ritzau.dk/pressemeddelelse/14744026/millioner-har-deres-sundhedsdata-i-lommen-danskerne-har-taget-minsundhed-appen-til-sig?publisherId=10524793&lang=da",
+          "date": "2026-01-08",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 70,
+      "summary": "Patients can refuse lookups by named staff, units or time periods, and can block access on sundhed.dk. A log on sundhed.dk shows who looked, but treatment lookups need no consent and refusals give way to overriding interests.",
+      "detail": [
+        "Under section 42 a of the Health Act, staff may look up data without consent when needed for current treatment. Outside treatment, consent is needed. The patient may refuse lookups, orally or in writing, and the refusal goes in the record.",
+        "The Patient Complaints Authority says a patient can refuse lookups by named staff, by a given unit, or for a given time period. Patients can also mark data private or block access on sundhed.dk.",
+        "Region Sjælland confirms every resident can see in the sundhed.dk log which staff opened their data. Lookups appear with a time of 00:00, so the exact time is not shown.",
+        "Refusals do not apply to lookups made under the value-weighing rule for overriding interests. Patients cannot refuse use for accreditation or central authority follow-up."
+      ],
+      "sources": [
+        {
+          "title": "Bekendtgørelse af sundhedsloven, LBK nr. 275 af 12. marts 2025 (Retsinformation)",
+          "url": "https://www.retsinformation.dk/eli/lta/2025/275",
+          "date": "2025-03-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Opslag i patientjournalen, praksissammenfatning (Styrelsen for Patientklager)",
+          "url": "https://www.stpk.dk/viden/praksissammenfatninger/opslag-i-patientjournalen/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Din journal: spørgsmål og svar om opslag i patientjournaler (Region Sjælland)",
+          "url": "https://www.regionsjaelland.dk/sundhed/digitale-loesninger/din-journal",
+          "date": "2025-04-22",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 62,
+      "summary": "GDPR applies, but the Data Protection Agency cannot fine and must go through police and courts. A court fined Region Syddanmark DKK 500,000 in March 2026, and a 2025 research platform error exposed data on about 260,000 people to regional staff.",
+      "detail": [
+        "Datatilsynet can report controllers to the police and recommend a fine. Unlike most EU regulators, it cannot issue fines itself. Courts decide, and public bodies are expected to pay lower fines.",
+        "On 23 March 2026 the Western High Court fined Region Syddanmark DKK 500,000 over a 2020 breach in a child and adolescent psychiatry questionnaire database. The region was acquitted in a second case.",
+        "In March 2025 Region Midtjylland said a set-up error on its research collaboration platform affected about 260,000 people. 335 staff viewed data for reasons the region could not readily explain.",
+        "In September 2026 Radar reported that two regions shared 105,257 patient messages, not anonymised, in an AI project. Experts called it unlawful; the regions reject the criticism."
+      ],
+      "sources": [
+        {
+          "title": "Bødesager (Datatilsynet)",
+          "url": "https://www.datatilsynet.dk/afgoerelser/boedesager",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Region Syddanmark frikendt i en sag og idømt bøde i en anden sag om brud på GDPR-reglerne (Region Syddanmark)",
+          "url": "https://regionsyddanmark.dk/om-region-syddanmark/presse-og-nyheder/nyhedsarkiv/2026/marts-2026/region-syddanmark-frikendt-i-en-sag-og-idomt-bode-i-en-anden-sag-om-brud-pa-gdpr-reglerne",
+          "date": "2026-03-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Stort antal borgere får besked om databrud (Region Midtjylland via Ritzau)",
+          "url": "https://via.ritzau.dk/pressemeddelelse/14290783/stort-antal-borgere-far-besked-om-databrud?publisherId=13561276&lang=da",
+          "date": "2025-03-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "AI har haft adgang til over 100.000 beskeder med fortrolig data om danske patienter (Radar/Ingeniøren)",
+          "url": "https://radar.dk/artikel/ai-har-haft-adgang-til-over-100000-beskeder-med-fortrolig-data-om-danske-patienter-de-overtraeder",
+          "date": "2026-09-29",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 58,
+      "summary": "Disclosure of record data for non-treatment purposes needs consent, normally written, and register access is limited to authorised research environments. A 2025 law creates one entry point to research data. No Danish ban on selling health data or marketing use beyond GDPR was found.",
+      "detail": [
+        "Section 43 of the Health Act lets staff disclose health data for other purposes than treatment with the patient's consent, which section 44 requires in writing unless circumstances justify otherwise. Exceptions cover legal duties, supervision and overriding interests.",
+        "Register data on the Health Data Authority's research servers goes only to authorised, established Danish research or analysis environments. The authority can sanction an environment if users break the rules.",
+        "Law 717 of June 2025 sets up Ét Kontaktpunkt, a single entry to health data for research and innovation, and obliges data holders to release data on request. The minister sets its start date, which was not verified.",
+        "The EHDS will forbid secondary use for marketing, with most rules applying from March 2029. We found no Danish ban on selling health data beyond GDPR."
+      ],
+      "sources": [
+        {
+          "title": "Bekendtgørelse af sundhedsloven, LBK nr. 275 af 12. marts 2025 (Retsinformation)",
+          "url": "https://www.retsinformation.dk/eli/lta/2025/275",
+          "date": "2025-03-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lov nr. 717 af 20. juni 2025 om ændring af sundhedsloven m.fl. (Retsinformation)",
+          "url": "https://www.retsinformation.dk/eli/lta/2025/717",
+          "date": "2025-06-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ansøg om autorisation til Forskermaskinen (Sundhedsdatastyrelsen)",
+          "url": "https://sundhedsdatastyrelsen.dk/data-og-registre/forskerservice/ansoeg-om-data/autorisation-til-forskermaskinen",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "journey": {
+      "score": 82,
+      "summary": "The Shared Medication Record links GPs, hospitals, home care and pharmacies, and all doctors must use it. GP journal notes and in-clinic lab results are still being connected, and EU cross-border exchange was not yet live.",
+      "detail": [
+        "All doctors must use the Shared Medication Record. Hospitals update it at admission and discharge, and GP, hospital, home care and pharmacy systems read and write to it through integrations. Ended prescriptions stay visible for 2 years.",
+        "MedCom says GP diagnosis cards have been visible on sundhed.dk since spring 2025. Journal notes from GPs reach the first clinics by end 2026, and in-clinic lab results by the end of the first quarter of 2027.",
+        "The EU 2026 eHealth study rates Denmark at 98% for 2025, one of four trendsetter countries. Denmark cites storage, bandwidth and interoperability limits for sharing medical images.",
+        "Denmark is building MyHealth@EU links for ePrescriptions and patient summaries. The Health Data Authority writes of when Denmark goes live, so cross-border exchange was not yet running."
+      ],
+      "sources": [
+        {
+          "title": "Baggrund for Fælles Medicinkort (Sundhedsdatastyrelsen)",
+          "url": "https://sundhedsdatastyrelsen.dk/digitale-loesninger/faelles-medicinkort/baggrund-og-organisering/baggrund-for-fmk",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Opkobling af almen praksis, Sundhedsjournalen (MedCom)",
+          "url": "https://medcom.dk/projekter/basisaktiviteter/sundhedsjournalen/opkobling-af-almen-praksis/",
+          "date": "2026-07-13",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2026 Digital Decade eHealth Indicator Study, final report (European Commission)",
+          "url": "https://data.europa.eu/doi/10.2759/1486195",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "MyHealth@EU (Danish Health Data Authority)",
+          "url": "https://english.sundhedsdatastyrelsen.dk/health-data-and-registers/european-health-data-space/myhealth@eu",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 78,
+      "summary": "Treating clinicians can look up hospital e-journals, labs and the medication record across providers without asking, within the Health Act's treatment rule. GP notes will reach hospital clinicians only after patients get them, and patient refusals limit lookups.",
+      "detail": [
+        "Section 42 a lets clinicians look up data in electronic systems when needed for current treatment, and without consent where overriding interests require it, for example patient safety.",
+        "Through sundhed.dk, clinicians treating a patient see hospital e-journals, lab results and the Shared Medication Record. All doctors must keep the medication record current.",
+        "Under the 2025 GP agreement, patients get GP notes first. Hospital doctors get them later through the national health record, and clinics can mark notes not to share.",
+        "A patient's refusal blocks routine lookups, though the value-weighing rule can override it. Some care may then proceed on a limited basis."
+      ],
+      "sources": [
+        {
+          "title": "Bekendtgørelse af sundhedsloven, LBK nr. 275 af 12. marts 2025 (Retsinformation)",
+          "url": "https://www.retsinformation.dk/eli/lta/2025/275",
+          "date": "2025-03-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Opslag i patientjournalen, praksissammenfatning (Styrelsen for Patientklager)",
+          "url": "https://www.stpk.dk/viden/praksissammenfatninger/opslag-i-patientjournalen/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Baggrund for Fælles Medicinkort (Sundhedsdatastyrelsen)",
+          "url": "https://sundhedsdatastyrelsen.dk/digitale-loesninger/faelles-medicinkort/baggrund-og-organisering/baggrund-for-fmk",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "PLO'rientering 2/2026: status på deling af journalnotater (Praktiserende Lægers Organisation)",
+          "url": "https://laeger.dk/foreninger/plo/plorientering/plorientering-22026",
+          "date": "2026-01-30",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Register research runs without individual consent and with no general opt-out, inside ethics approval and a secure server for authorised teams. The only personal opt-out covers tissue samples and genetic data.",
+      "detail": [
+        "Section 46 of the Health Act allows record data to go to researchers for a specific project approved under the research ethics laws, or approved by a regional council for projects of significant public interest.",
+        "The Health Data Authority's research servers are a secure environment. Only authorised environments get access, and the authority can sanction them for breaking the rules.",
+        "People can register in the Tissue Use Register so their samples and genetic data are used only for their own care. No matching opt-out for register data exists. We found no public register of approved projects, so that safeguard earns nothing.",
+        "EHDS will give a simple opt-out from secondary use, with most rules applying from March 2029."
+      ],
+      "sources": [
+        {
+          "title": "Bekendtgørelse af sundhedsloven, LBK nr. 275 af 12. marts 2025 (Retsinformation)",
+          "url": "https://www.retsinformation.dk/eli/lta/2025/275",
+          "date": "2025-03-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Brug af data til forskning (Sundhedsdatastyrelsen)",
+          "url": "https://sundhedsdatastyrelsen.dk/borger/om-sundhedsdata/brug-til-forskning",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ansøg om autorisation til Forskermaskinen (Sundhedsdatastyrelsen)",
+          "url": "https://sundhedsdatastyrelsen.dk/data-og-registre/forskerservice/ansoeg-om-data/autorisation-til-forskermaskinen",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Brug af biologisk materiale og genetiske oplysninger (Sundhedsdatastyrelsen)",
+          "url": "https://sundhedsdatastyrelsen.dk/borger/selvbetjening-og-services/brug-af-vaevsproever",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device law and the AI Act, whose duties for AI in regulated products now start 2 August 2028. Denmark has named AI Act authorities and published patient safety guidance, but no binding national clinical-AI rules were verified.",
+      "detail": [
+        "The AI Omnibus moved high-risk duties to 2 December 2027 for Annex III systems and 2 August 2028 for Annex I products, the group that includes medical devices.",
+        "The Agency for Digital Government coordinates AI Act supervision. It says supervision of high-risk AI areas is still unresolved.",
+        "The Danish Patient Safety Authority says AI output is always decision support. Clinicians must make an independent judgement and keep human control. The Danish Medicines Agency supervises AI medical devices. This guidance restates existing duties, so it does not lift the score."
+      ],
+      "sources": [
+        {
+          "title": "AI Omnibus (Digitaliseringsstyrelsen)",
+          "url": "https://digst.dk/tilsyn/ai-forordningen/ai-omnibus/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tilsyn med AI-forordningen (Digitaliseringsstyrelsen)",
+          "url": "https://digst.dk/tilsyn/ai-forordningen/tilsyn-med-ai-forordningen/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital sundhedsfaglig behandling: ansvar og pligter (Styrelsen for Patientsikkerhed)",
+          "url": "https://stps.dk/sundhedsfaglig/ansvar-og-retningslinjer/sundhedsfaglig-vejledning/digital-sundhedsfaglig-behandling",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "connected",
+    "research": "connected"
+  },
+  "journeyNote": "Hospitals, labs, pharmacies and the medication record connect through sundhed.dk and national infrastructure. GP notes and in-clinic labs are still being linked. Claims are not a separate layer in the tax-funded system, so that is unknown.",
+  "laws": [
+    {
+      "name": "Danish Health Act (Sundhedsloven), LBK 275 of 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Right of access within 7 working days, treatment lookups, right to refuse lookups, research disclosure rules.",
+      "url": "https://www.retsinformation.dk/eli/lta/2025/275"
+    },
+    {
+      "name": "Act no. 717 of 20 June 2025 amending the Health Act",
+      "level": "National",
+      "year": "2025",
+      "what": "Lets providers withhold staff names from access requests; Ét Kontaktpunkt research data entry starts on a ministerial date.",
+      "url": "https://www.retsinformation.dk/eli/lta/2025/717"
+    },
+    {
+      "name": "L 44 (2025-26) amending the Health Act, adopted 16 December 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Moves Health Data Authority tasks to Digital Sundhed Danmark; lets pharmacy staff look up prescriptions.",
+      "url": "https://www.folketingstidende.dk/samling/20251/lovforslag/L44/20251_L44_som_vedtaget.pdf"
+    },
+    {
+      "name": "Regulation (EU) 2025/327 (European Health Data Space)",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Free access, restriction rights, access logs and secondary-use opt-out; key parts apply from March 2029.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "EU AI Act as amended by the AI Omnibus",
+      "level": "Supranational",
+      "year": "2026",
+      "what": "High-risk duties for AI in regulated products such as medical devices start 2 August 2028.",
+      "url": "https://digst.dk/tilsyn/ai-forordningen/ai-omnibus/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-29",
+      "headline": "Two regions shared 105,257 patient messages in an AI project",
+      "source": "Radar (Ingeniøren)",
+      "url": "https://radar.dk/artikel/ai-har-haft-adgang-til-over-100000-beskeder-med-fortrolig-data-om-danske-patienter-de-overtraeder",
+      "why": "Sensitive messages, including on children's psychiatric care, were shared without anonymisation."
+    },
+    {
+      "date": "2026-07-07",
+      "headline": "MinSP patient app passes 1.5 million users in eastern Denmark",
+      "source": "Region Østdanmark (Via Ritzau)",
+      "url": "https://via.ritzau.dk/pressemeddelelse/15035934/mere-end-hver-anden-borger-i-ostdanmark-bruger-nu-digital-indgang-til-sundhedsvaesenet?publisherId=13562843&lang=da",
+      "why": "More than half of residents now read their hospital record and results in an app."
+    },
+    {
+      "date": "2026-03-23",
+      "headline": "Appeals court fines Region Syddanmark DKK 500,000 for GDPR breach",
+      "source": "Region Syddanmark",
+      "url": "https://regionsyddanmark.dk/om-region-syddanmark/presse-og-nyheder/nyhedsarkiv/2026/marts-2026/region-syddanmark-frikendt-i-en-sag-og-idomt-bode-i-en-anden-sag-om-brud-pa-gdpr-reglerne",
+      "why": "Shows courts, not the regulator, fine public health bodies for data failures."
+    },
+    {
+      "date": "2026-01-08",
+      "headline": "MinSundhed app reaches 36 million visits a year",
+      "source": "sundhed.dk (Via Ritzau)",
+      "url": "https://via.ritzau.dk/pressemeddelelse/14744026/millioner-har-deres-sundhedsdata-i-lommen-danskerne-har-taget-minsundhed-appen-til-sig?publisherId=10524793&lang=da",
+      "why": "The national app now puts results, journals and medicines on most phones."
+    },
+    {
+      "date": "2025-11-21",
+      "headline": "Parents must request access each time to see a sick baby's records",
+      "source": "TV2 Nord",
+      "url": "https://www.tv2nord.dk/aalborg/49-gange-har-foraeldre-mattet-soge-aktindsigt-fordi-deres-lille-son-er-syg-ed858",
+      "why": "Digital parent access, legislated in 2023, is expected only in the second half of 2026."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

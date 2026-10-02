@@ -1,0 +1,52 @@
+{
+ "gho_doctors": {
+  "url": "https://ghoapi.azureedge.net/api/HWF_0001",
+  "name": "WHO Global Health Observatory (NHWA), indicator HWF_0001 Medical doctors (per 10,000)",
+  "retrieved": "2026-10-02",
+  "sha256": "3737a03194d3f7b87c07254418a9ee153c9a30d272b8e472b1f9ad4e91574f3a",
+  "bytes": 2302020
+ },
+ "gho_nurses": {
+  "url": "https://ghoapi.azureedge.net/api/HWF_0006",
+  "name": "WHO Global Health Observatory (NHWA), indicator HWF_0006 Nursing and midwifery personnel (per 10,000)",
+  "retrieved": "2026-10-02",
+  "sha256": "05ab52ff96cbea53eef43bb1b93971ed749125aea6a8c3abd1b52a08ef4d16be",
+  "bytes": 2248801
+ },
+ "ghed": {
+  "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+  "name": "WHO Global Health Expenditure Database (GHED)",
+  "retrieved": "2026-10-02",
+  "sha256": "8cf7c04ede53281ab9003353806b55329068a090d32a68e8df1766676a886b3c",
+  "bytes": 38924260,
+  "version_text": "https://apps.who.int/nha/database Last updated: December 12th, 2025 Note: Year 2023 added for December 2025 update. Data for 2024 are preliminary and subject to revision.  WHO Global Health Expenditure Database (GHED)"
+ },
+ "oecd_wait": {
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "name": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+  "retrieved": "2026-10-02",
+  "sha256": "3576b42270354a8c2bb7b5615a800ea405ec4ae978f9fa13b8cede7a52f07b11",
+  "bytes": 3676174
+ },
+ "oecd_prot": {
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "name": "OECD Health Statistics, Healthcare coverage (DSD_HEALTH_PROT@DF_HEALTH_PROT)",
+  "retrieved": "2026-10-02",
+  "sha256": "8c490b0e9ed1786e16e0b0a38d2061264a92467c0bfb542906017741df816ceb",
+  "bytes": 2353279
+ },
+ "wdi_oop": {
+  "url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.OOPC.CH.ZS?format=json&per_page=20000&date=2010:2024",
+  "name": "World Bank WDI SH.XPD.OOPC.CH.ZS (republishes GHED; used only as a parse cross-check)",
+  "retrieved": "2026-10-02",
+  "sha256": "67e18d6b165489db7316097756406a7d3ff85b4e6d5ec1400b9e1ec766d26f7a",
+  "bytes": 1002123
+ },
+ "wb_oecd": {
+  "url": "https://api.worldbank.org/v2/region/OED/country?format=json&per_page=100",
+  "name": "World Bank region OED (OECD members), used only to name the OECD peer set",
+  "retrieved": "2026-10-02",
+  "sha256": "c38a76e323f63e670e42559869a45b92cf07d47d6584f61018360e269dbc521e",
+  "bytes": 14101
+ }
+}

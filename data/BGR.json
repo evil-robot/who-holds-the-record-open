@@ -1,0 +1,340 @@
+{
+ "iso3": "BGR",
+ "name": "Bulgaria",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Bulgaria's national health information system records every visit, prescription and hospital stay, with consent rules and an access history, but few patients use it.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 62,
+   "summary": "The Health Act gives a right to copies, and the national record shows exams, referrals, lab results, vaccines, prescriptions and hospital stays. Use is low: about 500,000 records were reachable through the eZdrave app in February 2026, so the score sits low in its band.",
+   "detail": [
+    "Article 28b of the Health Act gives patients the right to their health information from the treating facility, including copies of medical documents.",
+    "Ordinance N-6 of 2022 gives every citizen free personal access to their electronic health record at his.bg, using a qualified electronic signature or eID.",
+    "The ministry says the record holds examinations, referrals, results, vaccines, prescriptions, blood donations and hospital stays. Since October 2024 providers must record every activity, whatever the funding source.",
+    "Information Services reported nearly 500,000 records reachable through eZdrave and over 300,000 active users in February 2026. Portal user numbers and a machine-readable export were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Закон за здравето (consolidated text, Health Act)",
+     "url": "https://asp.government.bg/uploaded/files/7032-zakon-za-zdraveto-28032025.pdf",
+     "date": "2025-04-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Наредба № Н-6 от 21 декември 2022 г. за функционирането на НЗИС (Държавен вестник)",
+     "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=182160",
+     "date": "2022-12-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Личните лекари вече имат достъп до електронните здравни досиета на пациентите си (МЗ)",
+     "url": "https://www.mh.government.bg/bg/novini/aktualno/4340",
+     "date": "2024-12-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Близо 500 000 граждани имат достъп до здравните си досиета чрез еЗдраве (БТА)",
+     "url": "https://www.bta.bg/bg/news/bulgaria/1065556-blizo-500-000-grazhdani-imat-dostap-do-zdravnite-si-dosieta-chrez-mobilnoto-pril",
+     "date": "2026-02-17",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 62,
+   "summary": "Access by providers, the health fund and insurers needs the patient's express written consent, which can be limited and withdrawn, and patients can check an access history in the app. The patient's own GP has standing access.",
+   "detail": [
+    "Since October 2024 the Health Act says providers, the health fund, insurers and state bodies may see a citizen's record only after express written consent.",
+    "Ordinance N-6 lets patients give consent online, by SMS code or on paper, limit it to certain records or providers, and withdraw it at any time. Providers then lose access.",
+    "The system logs date, time, action and IP address. The his.bg site says patients can check what their GP opened under History of Actions.",
+    "Uploading is mandatory. GPs have unlimited access and specialists 30 days after an exam, so the default favours the care team."
+   ],
+   "sources": [
+    {
+     "title": "Наредба № Н-6 от 21 декември 2022 г. за функционирането на НЗИС (Държавен вестник)",
+     "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=182160",
+     "date": "2022-12-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Здравните досиета на близо 15 000 пациенти са били прегледани от личните им лекари за месец (НЗИС)",
+     "url": "https://his.bg/bg/news/89",
+     "date": "2025-01-23",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Закон за здравето (consolidated text, Health Act)",
+     "url": "https://asp.government.bg/uploaded/files/7032-zakon-za-zdraveto-28032025.pdf",
+     "date": "2025-04-09",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 55,
+   "summary": "GDPR applies and the data protection commission (CPDP) watches the health sector, which drew 23 complaints in 2025. Fines are small: in 2025 they ranged from BGN 500 to BGN 100,000.",
+   "detail": [
+    "The CPDP's 2025 report counts 23 health-sector complaints, up from 14 in 2023 and 22 in 2024, and says the sector is under special watch.",
+    "Complaints concern health status shared with third parties and personal data misused to report exams and hospital stays that never happened.",
+    "Fines and sanctions imposed in 2025 ranged from BGN 500 to BGN 100,000 across all sectors.",
+    "In December 2023 a ransomware attack on the Haskovo oncology hospital postponed radiotherapy. No major health data breach in 2025 or 2026 was verified."
+   ],
+   "sources": [
+    {
+     "title": "Годишен отчет на КЗЛД за 2025 г.",
+     "url": "https://cpdp.bg/wp-content/uploads/2026/04/corrected-Annual-report_2025_CPDP-12.03.2026-%D1%84%D0%B8%D0%BD%D0%B0%D0%BB.pdf",
+     "date": "2026-03-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Хакерска атака спря работата на онкоболницата в Хасково (Утро Русе)",
+     "url": "https://utroruse.com/article/987626/",
+     "date": "2023-12-18",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Data protection in the EU (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "GDPR limits commercial use of health data, but the Health Act names licensed health insurers among those who may access the national record, with the patient's written consent. No Bulgaria-specific ban on selling health data was verified.",
+   "detail": [
+    "Article 28d of the Health Act lists licensed insurers alongside providers and the health fund as parties with access to the national system.",
+    "Since October 2024 that access needs the patient's express written consent. Ordinance N-6 limits insurers to records tied to a specific claim.",
+    "Article 28 of the Health Act also allows disclosure to insurers. No national rule on health apps or data brokers was verified."
+   ],
+   "sources": [
+    {
+     "title": "Закон за здравето (consolidated text, Health Act)",
+     "url": "https://asp.government.bg/uploaded/files/7032-zakon-za-zdraveto-28032025.pdf",
+     "date": "2025-04-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Наредба № Н-6 от 21 декември 2022 г. за функционирането на НЗИС (Държавен вестник)",
+     "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=182160",
+     "date": "2022-12-24",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 70,
+   "summary": "Every provider, public or private, must send a signed electronic record of each activity to the national system. In January to July 2025 it logged nearly 29 million e-exams, and it links prescriptions, labs, hospitals and the health fund.",
+   "detail": [
+    "Since October 2024 the Health Act requires an electronic record for every activity, regardless of insurance status or who pays, sent to the national system with a qualified signature.",
+    "Information Services reported nearly 29 million e-exams in January to July 2025 and 389 connected hospitals. Since launch in late 2020 the system holds over 75 million lab results and nearly 7.2 million hospitalisation records.",
+    "The system includes registries kept by the ministry, the health fund and insurers. Online recording of hospital care and links to a national imaging platform were announced for 2026.",
+    "Cross-border exchange through MyHealth@EU was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Закон за здравето (consolidated text, Health Act)",
+     "url": "https://asp.government.bg/uploaded/files/7032-zakon-za-zdraveto-28032025.pdf",
+     "date": "2025-04-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Близо 29 млн. е-прегледа регистрирани в НЗИС от началото на 2025 г. (zdrave.net)",
+     "url": "https://www.zdrave.net/%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8/%D0%91%D0%BB%D0%B8%D0%B7%D0%BE-29-%D0%BC%D0%BB%D0%BD.-%D0%B5-%D0%BF%D1%80%D0%B5%D0%B3%D0%BB%D0%B5%D0%B4%D0%B0-%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%B0%D0%BD%D0%B8-%D0%B2-%D0%9D%D0%97%D0%98%D0%A1-%D0%BE%D1%82-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE%D1%82%D0%BE-%D0%BD%D0%B0-2025-%D0%B3.,-%D0%BD%D0%B0%D0%B4-%D0%BF%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8%D0%BD%D0%B0%D1%82%D0%B0-%D1%81%D0%B0-%D0%BF%D1%80%D0%B8-%D0%B4%D0%B6%D0%B8%D0%BF%D0%B8%D1%82%D0%B0/n34757",
+     "date": "2025-07-25",
+     "publisherClass": "news"
+    },
+    {
+     "title": "План за развитие (НЗИС)",
+     "url": "https://his.bg/bg/info/roadmap",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Спешното пациентско досие влиза в Е-здраве (zdrave.to)",
+     "url": "https://zdrave.to/saveti-ot-spetsialisti/speshnoto-pacientsko-dosie-vliza-v-e-zdrave",
+     "date": "2026-08-04",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 62,
+   "summary": "Since December 2024 about 4,000 GPs can see their patients' full national record, specialists get 30 days after an exam, and emergency staff can see key data without consent. Ordinance N-6 ties routine access to the patient's consent rules.",
+   "detail": [
+    "The ministry said in December 2024 that around 4,000 GPs can see exams, referrals, results, vaccines, prescriptions and hospital stays for their patients.",
+    "Ordinance N-6 gives specialists access for 30 days after an exam and hospital staff during a stay plus 30 days. It ties this access to the patient's consent rules.",
+    "In an emergency, clinicians can see blood type, allergies and medications without consent and must declare the need. The patient is notified.",
+    "A fuller emergency summary and access to actual images, not just reports, were announced in 2026 but not verified as live."
+   ],
+   "sources": [
+    {
+     "title": "Личните лекари вече имат достъп до електронните здравни досиета на пациентите си (МЗ)",
+     "url": "https://www.mh.government.bg/bg/novini/aktualno/4340",
+     "date": "2024-12-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Наредба № Н-6 от 21 декември 2022 г. за функционирането на НЗИС (Държавен вестник)",
+     "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=182160",
+     "date": "2022-12-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Спешното пациентско досие влиза в Е-здраве (zdrave.to)",
+     "url": "https://zdrave.to/saveti-ot-spetsialisti/speshnoto-pacientsko-dosie-vliza-v-e-zdrave",
+     "date": "2026-08-04",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 44,
+   "summary": "The Health Act allows health data to be used for statistics and research once identifying data are removed, with no individual consent or opt-out. A public transparency register was not verified; the EU EHDS adds an opt-out from 2029.",
+   "detail": [
+    "Article 28 of the Health Act permits disclosure for medical statistics and research after data identifying the patient are erased.",
+    "Ordinance N-6 says data exchanged from the national system for science and statistics are anonymised, and records of the dead are kept 50 years and then anonymised.",
+    "No general opt-out, permit body or transparency register for Bulgarian health data was verified.",
+    "The EHDS gives a simple, reversible opt-out from secondary use, applying from March 2029."
+   ],
+   "sources": [
+    {
+     "title": "Закон за здравето (consolidated text, Health Act)",
+     "url": "https://asp.government.bg/uploaded/files/7032-zakon-za-zdraveto-28032025.pdf",
+     "date": "2025-04-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Наредба № Н-6 от 21 декември 2022 г. за функционирането на НЗИС (Държавен вестник)",
+     "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=182160",
+     "date": "2022-12-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "European Health Data Space Regulation (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "Clinical AI falls under EU device law and the AI Act, whose duties for AI in medical devices apply from 2 August 2028. Bulgaria has no national AI law in force; a draft bill reached parliament in September 2026.",
+   "detail": [
+    "In January 2026 it was still unclear which Bulgarian bodies would supervise high-risk AI, and penalties were not set.",
+    "Seven bodies, including the data protection commission, were named to protect fundamental rights under the AI Act.",
+    "A group of MPs tabled a draft Law on the Use and Development of AI in September 2026. Its main measures cover AI in public administration, deepfakes and fines. Any clinical care rules were not verified.",
+    "No Bulgaria-specific clinical AI rules were verified."
+   ],
+   "sources": [
+    {
+     "title": "AI Act: regulatory framework for AI (European Commission)",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "България все още няма надзор над високорисковите системи с изкуствен интелект (Дебати)",
+     "url": "https://debati.bg/zakonodatelen-akt-za-izkustveniya-intelekt-balgariya-vse-osthe-nyama-nadzor-nad-visokoriskovite-sistemi/",
+     "date": "2026-01-09",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Нов Закон за използването и развитието на изкуствения интелект (novini247)",
+     "url": "https://novini247.com/novini/nov-zakon-za-izpolzvaneto-i-razvitieto-na-izkustveniya-intelekt-e_11238882.html",
+     "date": "2026-09-26",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "connected",
+  "labs": "connected",
+  "pharmacy": "connected",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "All providers must record every activity in the national system, which links e-exams, prescriptions, labs, hospital stays and the health fund. Imaging and online hospital recording are 2026 plans. Research gets anonymised extracts only.",
+ "laws": [
+  {
+   "name": "General Data Protection Regulation (EU) 2016/679",
+   "level": "Supranational",
+   "year": "2016",
+   "what": "EU-wide data protection law, in force since 24 May 2016 and applying since 25 May 2018.",
+   "url": "https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en"
+  },
+  {
+   "name": "Health Act (Закон за здравето)",
+   "level": "National",
+   "year": "2004",
+   "what": "Right to copies; creates the national health information system; consent needed for third-party access since 2024.",
+   "url": "https://asp.government.bg/uploaded/files/7032-zakon-za-zdraveto-28032025.pdf"
+  },
+  {
+   "name": "Ordinance N-6 of 21 December 2022 on the National Health Information System",
+   "level": "National",
+   "year": "2022",
+   "what": "Sets patient access, consent and withdrawal, access logging, emergency access and anonymised reuse.",
+   "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=182160"
+  },
+  {
+   "name": "European Health Data Space Regulation (EU) 2025/327",
+   "level": "Supranational",
+   "year": "2025",
+   "what": "Access and restriction rights, opt-out from secondary use; main rules apply from March 2029.",
+   "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+  },
+  {
+   "name": "AI Act (EU) 2024/1689",
+   "level": "Supranational",
+   "year": "2024",
+   "what": "Risk-based AI rules; duties for AI in medical devices apply from 2 August 2028.",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-09",
+   "headline": "Bulgaria still has no named supervisor for high-risk AI systems",
+   "source": "Debati.bg",
+   "url": "https://debati.bg/zakonodatelen-akt-za-izkustveniya-intelekt-balgariya-vse-osthe-nyama-nadzor-nad-visokoriskovite-sistemi/",
+   "why": "Medical AI used on patients has no national watchdog yet."
+  },
+  {
+   "date": "2026-02-17",
+   "headline": "Nearly 500,000 health records now reachable through the eZdrave app",
+   "source": "BTA",
+   "url": "https://www.bta.bg/bg/news/bulgaria/1065556-blizo-500-000-grazhdani-imat-dostap-do-zdravnite-si-dosieta-chrez-mobilnoto-pril",
+   "why": "Shows how few patients yet open their own national record."
+  },
+  {
+   "date": "2026-04-08",
+   "headline": "Health ministry finalises first telemedicine ordinance, with records in the national system",
+   "source": "Podbalkan News",
+   "url": "https://www.pbnovini.com/balgariya/2026/zdraveopazvaneto-vliza-v-digitalna-era-kak-shte-raboti-telemeditsinata-u-nas/",
+   "why": "Remote consultations will appear in the patient's electronic record."
+  },
+  {
+   "date": "2026-08-04",
+   "headline": "Emergency patient summary and full imaging planned for the national e-health system",
+   "source": "Zdrave.to",
+   "url": "https://zdrave.to/saveti-ot-spetsialisti/speshnoto-pacientsko-dosie-vliza-v-e-zdrave",
+   "why": "Emergency doctors, including elsewhere in the EU, could see key data."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "Patients can flag care billed in their name but never received",
+   "source": "Novini247",
+   "url": "https://novini247.com/novini/kakvi-meditsinski-deynosti-sa-otcheteni-na-nashe-ime-imame-li_11246953.html",
+   "why": "Gives patients a tool against fraudulent use of their records."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

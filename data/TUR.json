@@ -1,0 +1,371 @@
+{
+ "iso3": "TUR",
+ "name": "Turkey",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "e-Nabız gives nearly every Turk one national record with an access log and SMS-code consent, but the state holds the data centrally.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 74,
+   "summary": "The Patient Rights Regulation gives a right to examine the file and take a copy, and the national e-Nabız portal shows labs, imaging, prescriptions, diagnoses and reports. The minister said it served over 79 million citizens in 2025.",
+   "detail": [
+    "Article 16 of the 1998 Patient Rights Regulation lets a patient, directly or through a representative, examine the file and records about their health and take a copy. Article 17 gives a right to have wrong or incomplete records corrected.",
+    "e-Nabız, launched in 2015, shows diagnoses, reports, test results and medical images. Lab results can be saved as a PDF, and records can be shared with chosen people for a time limit the patient sets.",
+    "Health Minister Kemal Memişoğlu said on 28 December 2025 that e-Nabız served over 79 million citizens in 2025. The number of active monthly users was not verified.",
+    "Whether e-Nabız shows full clinical notes, and whether it offers machine-readable export, was not verified, so the score is held in the part-of-record portal band (60 to 75), near its top because images and near-universal reach are verified."
+   ],
+   "sources": [
+    {
+     "title": "Hasta Hakları Yönetmeliği (mevzuat.gov.tr)",
+     "url": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=4847&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5",
+     "date": "1998-08-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "e-Nabız Yardım (Sağlık Bakanlığı)",
+     "url": "https://enabiz.gov.tr/Yardim/Index",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Bakan Memişoğlu'ndan sağlıkta dijital dönüşüm çalışmalarına ilişkin paylaşım (Hürriyet)",
+     "url": "https://www.hurriyet.com.tr/gundem/bakan-memisoglundan-saglikta-dijital-donusum-calismalarina-iliskin-paylasim-43070060",
+     "date": "2025-12-28",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Milyonlarca kişiyi ilgilendiren güncelleme: e-Nabız yenilendi (Ekonomim)",
+     "url": "https://www.ekonomim.com/gundem/milyonlarca-kisiyi-ilgilendiren-guncelleme-e-nabiz-yenilendi-haberi-825172",
+     "date": "2025-06-18",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 62,
+   "summary": "Patients can see every access to their e-Nabız account by date and time, and can require an SMS code before most doctors see their past data. Family, emergency and inpatient doctors keep access, and records held by the ministry cannot be deleted.",
+   "detail": [
+    "The e-Nabız help page says users can list every profile that accessed their account, with date and time, and filter by date range.",
+    "A setting called \"Hiçbir hekim verilerimi görmesin\" (no doctor may see my data) means a doctor needs the patient's SMS code or a one-time password to open the record.",
+    "Since the 3 December 2025 amendment, a doctor sees past data only with a code sent to the patient's phone. The family doctor, treating doctors and emergency or inpatient doctors keep access without a code; the code step is bypassed for people in detention.",
+    "The e-Nabız page says data cannot be fully deleted from central systems; users can only restrict visibility. Closing an account deletes past sensor data such as blood pressure and steps."
+   ],
+   "sources": [
+    {
+     "title": "e-Nabız Yardım (Sağlık Bakanlığı)",
+     "url": "https://enabiz.gov.tr/Yardim/Index",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "e-Nabız (Sağlık Bakanlığı)",
+     "url": "https://enabiz.gov.tr/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Kişisel Sağlık Verileri Hakkında Yönetmelik (Resmî Gazete)",
+     "url": "https://www.resmigazete.gov.tr/eskiler/2019/06/20190621-3.htm",
+     "date": "2019-06-21",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kişisel Sağlık Verileri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik (Resmî Gazete 33096)",
+     "url": "https://www.resmigazete.gov.tr/eskiler/2025/12/20251203-2.htm",
+     "date": "2025-12-03",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 50,
+   "summary": "Law 6698 (KVKK) treats health data as special-category data, and the regulator has fined clinics for snooping in e-Nabız. The European Commission's 2025 report says the law is not adequate and enforcement has serious gaps.",
+   "detail": [
+    "KVKK Article 6 lists health data as special-category data. The 2024 amendment (Law 7499) allows processing with explicit consent, or by people bound by secrecy for diagnosis, treatment and health planning.",
+    "Article 12 requires breaches to be reported to the person and the Board as soon as possible. The 2016 text set fines of 15,000 to 1,000,000 TL for security failures; current revalued amounts were not verified.",
+    "The Board fined a private medical center 200,000 TL in 2023 after staff opened a patient's e-Nabız data without need (decision 2023/695).",
+    "The Commission's 4 November 2025 report says the law does not fully match EU rules, with serious gaps in enforcement and accountability, especially for law enforcement agencies.",
+    "The ministry's director general of health information systems said in October 2025 that a person's record is decrypted and passed to an authority on a court order or official letter, using two staff keys."
+   ],
+   "sources": [
+    {
+     "title": "Kişisel Verilerin Korunması Kanunu No. 6698 (mevzuat.gov.tr)",
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf",
+     "date": "2016-04-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "KVKK Board decision 2023/695: unlawful access to e-Nabız by a private medical center",
+     "url": "https://www.kvkk.gov.tr/Icerik/7754/2023-695",
+     "date": "2023-05-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Türkiye 2025 Report, SWD(2025) 756 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/4bb4ddd1-4f20-4ee0-92db-926996ec8dd1_en?filename=t%C3%BCrkiye-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Sağlık Verilerinin Güvenli Olarak Toplanması ve Paylaşımı Çalıştayı raporu (TÜSEB, İTÜ)",
+     "url": "https://bm.itu.edu.tr/docs/librariesprovider92/default-document-library/svg-rapor.pdf?sfvrsn=1cb04587_2",
+     "date": "2025-10",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 55,
+   "summary": "Health data needs explicit consent or a legal basis, and the regulator ruled that even consent cannot let a private hospital use patient data for advertising. No Turkish rule on selling de-identified health data was verified.",
+   "detail": [
+    "Under KVKK Article 6, special-category data may be processed only on listed grounds, starting with explicit consent.",
+    "In decision 2023/787 the Board fined a private hospital 250,000 TL and ordered deletion of patient data and images used for promotion. It held that sector rules ban demand-creating advertising by private hospitals, even with consent.",
+    "The 2019 health data regulation contains no explicit ban on commercial use. Rules on data brokers, consumer health apps and sale of anonymised data were not verified."
+   ],
+   "sources": [
+    {
+     "title": "KVKK Board decision 2023/787: hospital advertising using patient health data",
+     "url": "https://www.kvkk.gov.tr/Icerik/7692/2023-787",
+     "date": "2023-05-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Kişisel Verilerin Korunması Kanunu No. 6698 (mevzuat.gov.tr)",
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf",
+     "date": "2016-04-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kişisel Sağlık Verileri Hakkında Yönetmelik (Resmî Gazete)",
+     "url": "https://www.resmigazete.gov.tr/eskiler/2019/06/20190621-3.htm",
+     "date": "2019-06-21",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 80,
+   "summary": "Since 2019 the social security fund (SGK) will not pay for a service unless the provider has sent it to e-Nabız, which ties public and private hospitals to one record. A central teleradiology archive stores images nationwide.",
+   "detail": [
+    "A ministry notice says that if service data is not sent to e-Nabız, SGK's Medula billing system will not accept the service.",
+    "At an October 2025 workshop, Dr. Özgür Sezer, the ministry's director general of health information systems, said Medula and e-Nabız were fully integrated in April 2019, and that a closed health network links about 3,000 sites, including private hospitals.",
+    "The ministry's director general told the workshop that the teleradiology system stores images centrally, and that doctors drop 33 percent of MR and CT requests after seeing earlier scans.",
+    "e-Nabız also links e-prescriptions; since 2025 patients can show a QR code at the pharmacy. Research and public health linkage beyond ministry systems was not verified."
+   ],
+   "sources": [
+    {
+     "title": "e-Nabız SGK (Medula) veri doğrulaması hk. (Sağlık Bakanlığı)",
+     "url": "https://e-saglik.gov.tr/TR,53387/e-nabiz-sgk-medula-veri-dogrulamasi-hk.html",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sağlık Verilerinin Güvenli Olarak Toplanması ve Paylaşımı Çalıştayı raporu (TÜSEB, İTÜ)",
+     "url": "https://bm.itu.edu.tr/docs/librariesprovider92/default-document-library/svg-rapor.pdf?sfvrsn=1cb04587_2",
+     "date": "2025-10",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Milyonlarca kişiyi ilgilendiren güncelleme: e-Nabız yenilendi (Ekonomim)",
+     "url": "https://www.ekonomim.com/gundem/milyonlarca-kisiyi-ilgilendiren-guncelleme-e-nabiz-yenilendi-haberi-825172",
+     "date": "2025-06-18",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 64,
+   "summary": "The family doctor sees the record without limit, and emergency and inpatient doctors see it until discharge. Other access to past records needs the patient's phone code, so the score stays in the mixed band despite a broad shared record.",
+   "detail": [
+    "Article 6 of the 2019 regulation limits staff access to what the care requires. Family doctors have unlimited access, and emergency department doctors have access for the episode of care.",
+    "After the December 2025 amendment, doctors at a facility can see data of a patient admitted through the emergency department until discharge. Past records otherwise need a phone code from the patient.",
+    "Because almost all services must reach e-Nabız for payment, the shared record is broad. Regulator decisions in 2021 and 2023 show staff sometimes open records without need."
+   ],
+   "sources": [
+    {
+     "title": "Kişisel Sağlık Verileri Hakkında Yönetmelik (Resmî Gazete)",
+     "url": "https://www.resmigazete.gov.tr/eskiler/2019/06/20190621-3.htm",
+     "date": "2019-06-21",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kişisel Sağlık Verileri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik (Resmî Gazete 33096)",
+     "url": "https://www.resmigazete.gov.tr/eskiler/2025/12/20251203-2.htm",
+     "date": "2025-12-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kişisel Sağlık Verileri Hakkında Yönetmelik'te yapılan son değişiklikler (Acar Ergönen)",
+     "url": "https://acarergonen.av.tr/tr/yayinlar/duyurular/kisisel-saglik-verileri-hakkinda-yonetmelik-te-yapilan-son-degisiklikler",
+     "date": "2025-12-24",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "KVKK Board decision 2021/962: hospital doctor accessed e-Nabız without consent",
+     "url": "https://www.kvkk.gov.tr/Icerik/7074/-Ilgili-kisinin-talebi-ya-da-rizasi-olmaksizin-ozel-bir-hastane-calisani-hekim-tarafindan-e-nabiz-sistemine-erisim-saglanmasi-hakkinda-Kisisel-Verileri-Koruma-Kurulunun-21-09-2021-tarihli-ve-2021-962-sayili-Karari",
+     "date": "2021-09-21",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 44,
+   "summary": "The health data regulation allows research on anonymised data without consent, and on identifiable data if safeguards exist. No general opt-out or public register was verified, though drug trials need written consent and ethics approval.",
+   "detail": [
+    "Article 16 of the 2019 regulation lets anonymised health data be used for scientific work, and non-anonymised data if technical and administrative measures protect privacy.",
+    "No individual opt-out from research use and no public transparency register were verified.",
+    "The 2023 clinical trials regulation requires written informed consent (Article 21), lets volunteers leave at any time (Article 20), and requires ethics committee and agency approval before a trial starts (Article 11).",
+    "Turkey is an EU candidate, not a member, so the European Health Data Space opt-out does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Kişisel Sağlık Verileri Hakkında Yönetmelik (Resmî Gazete)",
+     "url": "https://www.resmigazete.gov.tr/eskiler/2019/06/20190621-3.htm",
+     "date": "2019-06-21",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Beşeri Tıbbi Ürünlerin Klinik Araştırmaları Hakkında Yönetmelik (Resmî Gazete)",
+     "url": "https://www.resmigazete.gov.tr/eskiler/2023/05/20230527-5.htm",
+     "date": "2023-05-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Türkiye 2025 Report, SWD(2025) 756 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/4bb4ddd1-4f20-4ee0-92db-926996ec8dd1_en?filename=t%C3%BCrkiye-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "Medical AI software falls under Turkey's 2021 Medical Device Regulation, which mirrors EU MDR 2017/745. Turkey has no AI law yet; an AI Action Plan for 2026 to 2030 was published in August 2026.",
+   "detail": [
+    "The agency TİTCK says its Medical Device and IVD regulations of 2 June 2021 are harmonised with EU 2017/745 and 2017/746, and it publishes MDCG guidance on software and on the MDR and AI Act link.",
+    "The Commission's 2025 report says Turkey should keep aligning with the EU AI Act, including an enforcement structure.",
+    "Circular 2026/9 (Official Gazette, 18 August 2026) set the 2026 to 2030 AI Action Plan, coordinated by the industry ministry. A parliamentary commission proposed a Turkish AI Law and authority in 2026. No health-specific AI rule was verified.",
+    "AI-specific change control and human oversight rules for medical software were not verified, so the score is held at 50, the level the anchors give a device-regulation-only regime with no verified national clinical-AI rules."
+   ],
+   "sources": [
+    {
+     "title": "Tıbbi Cihaz Mevzuatı (TİTCK)",
+     "url": "https://www.titck.gov.tr/faaliyetalanlari/tibbicihaz/tibbi-cihaz-mevzuati",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Türkiye 2025 Report, SWD(2025) 756 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/4bb4ddd1-4f20-4ee0-92db-926996ec8dd1_en?filename=t%C3%BCrkiye-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Türkiye Yapay Zeka Eylem Planı Genelgesi Resmi Gazete'de (Memurlar.net)",
+     "url": "https://www.memurlar.net/haber/1175670/turkiye-yapay-zeka-eylem-plani-genelgesi-resmi-gazete-de.html",
+     "date": "2026-08-18",
+     "publisherClass": "news"
+    },
+    {
+     "title": "TBMM'nin Yapay Zekâ Komisyonu raporuna ilişkin TMMOB görüşü (BMO)",
+     "url": "https://www.bmo.org.tr/2026/04/01/tbmmnin-yapay-zeka-komisyonu-raporuna-iliskin-tmmob-gorusu/",
+     "date": "2026-03-30",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "connected",
+  "labs": "connected",
+  "pharmacy": "connected",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "SGK will not pay for services missing from e-Nabız, so public and private providers feed one ministry record, with central imaging and e-prescriptions. Public health and research linkage was only partly verified.",
+ "laws": [
+  {
+   "name": "Law No. 6698 on the Protection of Personal Data (KVKK)",
+   "level": "National",
+   "year": "2016",
+   "what": "Health is special-category data; access rights; breach notice; amended 2024 by Law 7499.",
+   "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf"
+  },
+  {
+   "name": "Regulation on Personal Health Data (Kişisel Sağlık Verileri Hakkında Yönetmelik)",
+   "level": "National",
+   "year": "2019",
+   "what": "Sets who may access e-Nabız data, privacy settings, and research use of anonymised data.",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2019/06/20190621-3.htm"
+  },
+  {
+   "name": "Amendment to the Regulation on Personal Health Data (Official Gazette 33096)",
+   "level": "National",
+   "year": "2025",
+   "what": "Past data needs a patient phone code; lists doctors who keep access without one.",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2025/12/20251203-2.htm"
+  },
+  {
+   "name": "Patient Rights Regulation (Hasta Hakları Yönetmeliği)",
+   "level": "National",
+   "year": "1998",
+   "what": "Right to examine and copy one's health records and ask for corrections.",
+   "url": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=4847&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
+  },
+  {
+   "name": "Medical Device Regulation (Tıbbi Cihaz Yönetmeliği)",
+   "level": "National",
+   "year": "2021",
+   "what": "Harmonised with EU MDR 2017/745; covers medical device software including AI.",
+   "url": "https://www.titck.gov.tr/faaliyetalanlari/tibbicihaz/tibbi-cihaz-mevzuati"
+  },
+  {
+   "name": "Regulation on Clinical Trials of Human Medicinal Products",
+   "level": "National",
+   "year": "2023",
+   "what": "Written informed consent, withdrawal at any time, ethics and agency approval.",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2023/05/20230527-5.htm"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-03",
+   "headline": "Amended health data regulation requires patient code for past records",
+   "source": "Yeni Şafak",
+   "url": "https://www.yenisafak.com/hayat/saglik-verilerine-erisimde-yeni-yonetmelik-resmi-gazetede-e-nabiz-guvenlik-ayarlarini-nasil-yapmali-verilerinizi-kimler-ne-kadar-sureyle-goruntuleyebilir-4775071",
+   "why": "Gives patients a per-visit say over which doctors see their history."
+  },
+  {
+   "date": "2025-12-28",
+   "headline": "Health minister says e-Nabız served over 79 million citizens in 2025",
+   "source": "Hürriyet",
+   "url": "https://www.hurriyet.com.tr/gundem/bakan-memisoglundan-saglikta-dijital-donusum-calismalarina-iliskin-paylasim-43070060",
+   "why": "Shows the national record reaches almost the whole population."
+  },
+  {
+   "date": "2026-03-10",
+   "headline": "e-Nabız adds a tool showing which pharmacies stock a prescribed drug",
+   "source": "Cumhuriyet",
+   "url": "https://www.cumhuriyet.com.tr/turkiye/e-nabiz-a-yeni-ozellik-tek-tek-eczane-dolasma-derdi-bitiyor-2485570",
+   "why": "Uses prescription data in the national record to save patients pharmacy trips."
+  },
+  {
+   "date": "2026-08-18",
+   "headline": "Presidential circular publishes AI Action Plan for 2026 to 2030",
+   "source": "Memurlar.net",
+   "url": "https://www.memurlar.net/haber/1175670/turkiye-yapay-zeka-eylem-plani-genelgesi-resmi-gazete-de.html",
+   "why": "Sets national AI policy, but adds no binding clinical AI rules yet."
+  },
+  {
+   "date": "2026-09-10",
+   "headline": "Regulator posts ransomware breach notice for a health services company",
+   "source": "Memurlar.net",
+   "url": "https://www.memurlar.net/haber/1177705/kvkk-dan-6-sirket-icin-veri-ihlali-duyurusu.html",
+   "why": "Affected people and data types were still unknown when notified."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

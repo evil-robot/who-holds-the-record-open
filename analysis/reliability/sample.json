@@ -1,0 +1,1315 @@
+{
+ "seed": 20261002,
+ "frame": {
+  "countries": 65,
+  "cells": 520,
+  "regions": {
+   "Africa": 5,
+   "Americas": 8,
+   "Asia": 10,
+   "Europe": 36,
+   "Middle East": 4,
+   "Oceania": 2
+  }
+ },
+ "region_alloc": {
+  "Africa": 5,
+  "Americas": 8,
+  "Asia": 10,
+  "Europe": 35,
+  "Middle East": 4,
+  "Oceania": 2
+ },
+ "grid": {
+  "access": {
+   "Africa": 0,
+   "Americas": 1,
+   "Asia": 1,
+   "Europe": 4,
+   "Middle East": 1,
+   "Oceania": 1
+  },
+  "control": {
+   "Africa": 1,
+   "Americas": 1,
+   "Asia": 1,
+   "Europe": 4,
+   "Middle East": 1,
+   "Oceania": 0
+  },
+  "privacy": {
+   "Africa": 0,
+   "Americas": 1,
+   "Asia": 2,
+   "Europe": 5,
+   "Middle East": 0,
+   "Oceania": 0
+  },
+  "commercial": {
+   "Africa": 1,
+   "Americas": 1,
+   "Asia": 1,
+   "Europe": 5,
+   "Middle East": 0,
+   "Oceania": 0
+  },
+  "journey": {
+   "Africa": 1,
+   "Americas": 1,
+   "Asia": 1,
+   "Europe": 4,
+   "Middle East": 1,
+   "Oceania": 0
+  },
+  "clinical": {
+   "Africa": 1,
+   "Americas": 1,
+   "Asia": 2,
+   "Europe": 4,
+   "Middle East": 0,
+   "Oceania": 0
+  },
+  "research": {
+   "Africa": 1,
+   "Americas": 1,
+   "Asia": 1,
+   "Europe": 5,
+   "Middle East": 0,
+   "Oceania": 0
+  },
+  "ai": {
+   "Africa": 0,
+   "Americas": 1,
+   "Asia": 1,
+   "Europe": 4,
+   "Middle East": 1,
+   "Oceania": 1
+  }
+ },
+ "cells": [
+  {
+   "cell_id": "BRA.access",
+   "iso3": "BRA",
+   "name": "Brazil",
+   "region": "Americas",
+   "category": "access",
+   "urls": [
+    "https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital/perguntas-e-respostas/cidadao",
+    "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+    "https://www.band.com.br/saude/profissionais-do-sus-terao-acesso-a-prontuario-eletronico-unificado-de-pacientes"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "VNM.access",
+   "iso3": "VNM",
+   "name": "Vietnam",
+   "region": "Asia",
+   "category": "access",
+   "urls": [
+    "https://english.luatvietnam.vn/law-on-medical-examination-and-treatment-no-15-2023-qh15-242305-doc1.html",
+    "https://www.vietnam.vn/en/so-suc-khoe-dien-tu-tren-vneid-chinh-thuc-thay-the-so-giay",
+    "https://vietnamnews.vn/society/1778307/moh-promotes-preventive-care-through-integrated-electronic-health-records.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "PRT.access",
+   "iso3": "PRT",
+   "name": "Portugal",
+   "region": "Europe",
+   "category": "access",
+   "urls": [
+    "https://data.consilium.europa.eu/doc/document/ST-10407-2025-ADD-23/en/pdf",
+    "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/portugal_6d4acb43/56041c8e-en.pdf",
+    "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1660&tabela=leis&ficha=1&pagina=1",
+    "https://www.ers.pt/pt/utentes/perguntas-frequentes/faq/direito-de-acesso-a-informacao-de-saude-e-a-protecao-de-dados-pessoais/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ITA.access",
+   "iso3": "ITA",
+   "name": "Italy",
+   "region": "Europe",
+   "category": "access",
+   "urls": [
+    "https://www.aboutpharma.com/sanita-e-politica/fascicolo-sanitario-elettronico-2-0-obbligo-31-marzo-2026/",
+    "https://www.cria.it/blog/fse-2-obbligatorio-31-marzo-2026.html",
+    "https://salute.regione.emilia-romagna.it/notizie/regione/2026/luglio/da-martedi-7-luglio-online-la-nuova-versione-del-fascicolo-sanitario-elettronico-piu-semplice-e-immediata-con-la-novita-del-taccuino-personale-dove-poter-inserire-informazioni-relative-al-proprio-stato-di-salute",
+    "https://ca.news.yahoo.com/digital-health-across-europe-country-060207201.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SWE.access",
+   "iso3": "SWE",
+   "name": "Sweden",
+   "region": "Europe",
+   "category": "access",
+   "urls": [
+    "https://www.inera.se/tjanster/journalen/",
+    "https://www.skane.se/halsa-och-vard/regler-och-rattigheter-i-varden/din-journal/"
+   ],
+   "url_check": [
+    "ok",
+    "blocked_unverified"
+   ],
+   "allowed_redirects": [
+    "https://www.inera.se/tjanster/alla-tjanster-a-o/1177-journal/"
+   ]
+  },
+  {
+   "cell_id": "GRC.access",
+   "iso3": "GRC",
+   "name": "Greece",
+   "region": "Europe",
+   "category": "access",
+   "urls": [
+    "https://ehealthrecord.gov.gr/ehfy-overview-details",
+    "https://www.ehealthrecord.gov.gr/en/press-releases/%CE%B7%CE%BC-%CE%B5%CE%B7%CF%86%CF%85-golive",
+    "https://op.europa.eu/en/publication-detail/-/publication/bb5838fe-4742-11f0-85ba-01aa75ed71a1/language-en",
+    "https://health.ec.europa.eu/document/download/b9b4092c-b357-4ae3-8d82-d9a252e7e159_en?filename=2025_chp_gr_english.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "blocked_unverified",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ARE.access",
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "region": "Middle East",
+   "category": "access",
+   "urls": [
+    "https://www.doh.gov.ae/en/news/doh-launches-sahatna-the-revolutionary-all-in-one-healthcare-mobile-app",
+    "https://mohap.gov.ae/documents/20117/590019/Riayati_Confidentiality_and_data_privacy_policy_V1.2.pdf/114cf9a6-69d8-32a1-53e7-6ef447d1a7f8",
+    "https://docs.modulos.ai/frameworks/uae-pdpl",
+    "https://airtabat.com/index.php/2025/05/12/patient-data-privacy-safeguarding-nabidh-malaffi-data/"
+   ],
+   "url_check": [
+    "ok",
+    "error",
+    "ok",
+    "error"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AUS.access",
+   "iso3": "AUS",
+   "name": "Australia",
+   "region": "Oceania",
+   "category": "access",
+   "urls": [
+    "https://www.legislation.gov.au/F2025L01569/asmade/text",
+    "https://www.legislation.gov.au/C2012A00063/latest/text"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NGA.control",
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "region": "Africa",
+   "category": "control",
+   "urls": [
+    "https://faolex.fao.org/docs/pdf/nig162642.pdf",
+    "https://www.jurist.org/news/2026/06/hrw-us-to-exchange-health-aid-for-access-to-surveillance-data-in-seven-african-countries/"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MEX.control",
+   "iso3": "MEX",
+   "name": "Mexico",
+   "region": "Americas",
+   "category": "control",
+   "urls": [
+    "https://consultorsalud.com.mx/decreto-servicio-universal-de-salud-mexico/",
+    "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+    "https://sidof.segob.gob.mx/notas/5785257"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "JPN.control",
+   "iso3": "JPN",
+   "name": "Japan",
+   "region": "Asia",
+   "category": "control",
+   "urls": [
+    "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf",
+    "https://www.ppc.go.jp/news/press/2026/260717/",
+    "https://www.cio.com/article/4098568/%E3%82%AA%E3%83%97%E3%83%88%E3%82%A4%E3%83%B3%E3%81%8B%E3%82%89%E3%82%AA%E3%83%97%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88%E3%81%B8%E2%80%95%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%8C%BB%E7%99%82%E5%9F%BA%E7%9B%A4.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LTU.control",
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "region": "Europe",
+   "category": "control",
+   "urls": [
+    "https://pacientas.esveikata.lt/help/pages/perzireti-esi-irasa.html",
+    "https://ec.europa.eu/health/system/files/2016-11/laws_lithuania_en_0.pdf",
+    "https://www.15min.lt/verslas/naujiena/bendroves/siurbiami-ne-tik-registru-centro-duomenys-jusu-sveikatos-duomenis-gali-perskaityti-ir-valytoja-663-2698800"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://health.ec.europa.eu/system/files/2016-11/laws_lithuania_en_0.pdf"
+   ]
+  },
+  {
+   "cell_id": "ITA.control",
+   "iso3": "ITA",
+   "name": "Italy",
+   "region": "Europe",
+   "category": "control",
+   "urls": [
+    "https://www.garanteprivacy.it/temi/fse"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SWE.control",
+   "iso3": "SWE",
+   "name": "Sweden",
+   "region": "Europe",
+   "category": "control",
+   "urls": [
+    "https://lagen.nu/2022:913",
+    "https://www.1177.se/hitta-vard/kontaktkort/Sparra-journal-och-begar-loggutdrag/",
+    "https://www.regeringen.se/pressmeddelanden/2026/06/forslag-om-nationell-digital-infrastruktur-och-nationell-vardformedling-remitteras/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://www.1177.se/hitta-vard/kontaktkort/Sparra-journal-och-begar-loggutdrag-Region-Orebro-lan/"
+   ]
+  },
+  {
+   "cell_id": "ESP.control",
+   "iso3": "ESP",
+   "name": "Spain",
+   "region": "Europe",
+   "category": "control",
+   "urls": [
+    "https://www.sanidad.gob.es/profesionales/hcdsns/Preguntas_frecuentes.htm"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ARE.control",
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "region": "Middle East",
+   "category": "control",
+   "urls": [
+    "https://mohap.gov.ae/documents/20117/590019/Riayati_Confidentiality_and_data_privacy_policy_V1.2.pdf/114cf9a6-69d8-32a1-53e7-6ef447d1a7f8",
+    "https://www.zavis.ai/guides/nabidh-ehr-integration-dubai-clinics",
+    "https://felixhappich.com/dubai/healthcare/nabidh/"
+   ],
+   "url_check": [
+    "error",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MEX.privacy",
+   "iso3": "MEX",
+   "name": "Mexico",
+   "region": "Americas",
+   "category": "privacy",
+   "urls": [
+    "https://www.hlc.com/es/publications/mexicos-new-federal-data-protection-law-what-it-means-for-companies",
+    "https://www.informador.mx/mexico/Hackeo-masivo-expone-informacion-de-usuarios-del-SAT-y-pacientes-del-IMSS-20260102-0023.html",
+    "https://www.elimparcial.com/mexico/2026/02/11/tras-hackeo-al-morena-sat-e-imss-se-filtran-datos-de-mas-de-36-millones-de-mexicanos/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "THA.privacy",
+   "iso3": "THA",
+   "name": "Thailand",
+   "region": "Asia",
+   "category": "privacy",
+   "urls": [
+    "https://practiceguides.chambers.com/practice-guides/data-protection-privacy-2026/thailand/trends-and-developments",
+    "https://www.thaipbsworld.com/social-media/hospital-fined-bt1.2m-over-data-breach-after-medical-records-used-as-snack-bags",
+    "https://www.tilleke.com/insights/key-takeaways-from-thailands-data-privacy-day-2026/",
+    "https://www.thaipbsworld.com/world/about-10000-patients-data-hacked-not-millions-says-thailands-digital-ministry"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "IDN.privacy",
+   "iso3": "IDN",
+   "name": "Indonesia",
+   "region": "Asia",
+   "category": "privacy",
+   "urls": [
+    "https://www.dlapiperdataprotection.com/?t=law&c=ID",
+    "https://www.ahp.id/clientalert/AHPClientUpdate-11March2026.pdf",
+    "https://www.hlc.com/en/publications/indonesias-personal-data-protection-law-implementing-regulation-arrives-quietly",
+    "https://en.antaranews.com/news/195925/ministry-to-issue-decision-on-bpjs-data-leak-soon"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "FIN.privacy",
+   "iso3": "FIN",
+   "name": "Finland",
+   "region": "Europe",
+   "category": "privacy",
+   "urls": [
+    "https://www.kanta.fi/en/data-protection-and-privacy",
+    "https://www.kanta.fi/en/system-developers/privacy-policy-for-the-mykanta-application",
+    "https://en.wikipedia.org/wiki/Vastaamo_data_breach"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "FRA.privacy",
+   "iso3": "FRA",
+   "name": "France",
+   "region": "Europe",
+   "category": "privacy",
+   "urls": [
+    "https://www.cnil.fr/fr/sanction-hopital-prive-loire",
+    "https://www.franceinfo.fr/sante/enquete-francetv-une-fuite-massive-de-donnees-medicales-inquiete-en-france_7831823.html",
+    "https://www.maddyness.com/2026/04/23/health-data-hub-scaleway-remplace-enfin-microsoft/",
+    "https://www.cio-online.com/actualites/lire-le-health-data-hub-sort-d-azure-pour-basculer-fin-2026-vers-un-cloud-secnumcloud-16830.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NOR.privacy",
+   "iso3": "NOR",
+   "name": "Norway",
+   "region": "Europe",
+   "category": "privacy",
+   "urls": [
+    "https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2025/varsel-om-palegg-til-helseplattformen-as/",
+    "https://lovdata.no/artikkel/statsrad_23__januar_2026/5384",
+    "https://www.helsedirektoratet.no/om-oss/om-nettstedet/personvernerklaering/nar-behandler-vi-personopplysninger/helseregistre"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ALB.privacy",
+   "iso3": "ALB",
+   "name": "Albania",
+   "region": "Europe",
+   "category": "privacy",
+   "urls": [
+    "https://idp.al/wp-content/uploads/2025/07/ligj-2024-12-19-124.pdf",
+    "https://enlargement.ec.europa.eu/document/download/fe9138b7-90fe-4277-a12c-3a03f6d1957f_en?filename=albania-report-2025.pdf",
+    "https://rtsh.al/900-ankesa-per-cenim-te-te-dhenave-personale-ligji-i-ri-ka-shtrenguar-masat/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "HRV.privacy",
+   "iso3": "HRV",
+   "name": "Croatia",
+   "region": "Europe",
+   "category": "privacy",
+   "urls": [
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_05_42_805.html",
+    "https://azop.hr/izdane-nove-upravne-novcane-kazne-u-ukupnom-iznosu-od-270-700-eura/",
+    "https://azop.hr/sedam-novih-upravnih-novcanih-kazni-u-iznosu-od-169-000-eura/",
+    "https://faktograf.hr/2024/07/08/kbc-zagreb-je-kontaktirao-azop-ali-pacijente-i-dalje-nije-obavijestio-o-mogucoj-kradi-podataka/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NGA.commercial",
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "region": "Africa",
+   "category": "commercial",
+   "urls": [
+    "https://www.recordinglaw.com/world-laws/world-data-privacy-laws/nigeria-data-privacy-laws/",
+    "https://www.techhiveadvisory.africa/insights/review-of-nigerias-digital-health-services-bill-2025",
+    "https://www.premiumtimesng.com/news/headlines/873350-exclusive-inside-nigerias-deal-to-write-off-32-8-million-fine-against-meta.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "CRI.commercial",
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "region": "Americas",
+   "category": "commercial",
+   "urls": [
+    "https://micitt.go.cr/sites/default/files/marco_juridico_legal/08.%20Ley%20n.%C2%B0%208968%20Ley%20de%20Protecci%C3%B3n%20de%20la%20Persona%20frente%20al%20tratamiento%20de%20sus%20datos%20personales..pdf",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=85915&param2=111286&param3=1&param4="
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "JPN.commercial",
+   "iso3": "JPN",
+   "name": "Japan",
+   "region": "Asia",
+   "category": "commercial",
+   "urls": [
+    "https://www8.cao.go.jp/iryou/studygloup/20250903/pdf/s-4.pdf",
+    "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LTU.commercial",
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "region": "Europe",
+   "category": "commercial",
+   "urls": [
+    "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/72c77a52626411ecb2fe9975f8a9e52e/asr"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ITA.commercial",
+   "iso3": "ITA",
+   "name": "Italy",
+   "region": "Europe",
+   "category": "commercial",
+   "urls": [
+    "https://portale.fnomceo.it/wp-content/uploads/2025/09/legge-132.25-.pdf"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "PRT.commercial",
+   "iso3": "PRT",
+   "name": "Portugal",
+   "region": "Europe",
+   "category": "commercial",
+   "urls": [
+    "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1660&tabela=leis&ficha=1&pagina=1",
+    "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3478&tabela=leis"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TUR.commercial",
+   "iso3": "TUR",
+   "name": "Turkey",
+   "region": "Europe",
+   "category": "commercial",
+   "urls": [
+    "https://www.kvkk.gov.tr/Icerik/7692/2023-787",
+    "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf",
+    "https://www.resmigazete.gov.tr/eskiler/2019/06/20190621-3.htm"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AUT.commercial",
+   "iso3": "AUT",
+   "name": "Austria",
+   "region": "Europe",
+   "category": "commercial",
+   "urls": [
+    "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+    "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+    "https://www.gesundheitswirtschaft.at/publikation/67-jg-2026-2/ehds-daten-fuer-die-forschung/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NGA.journey",
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "region": "Africa",
+   "category": "journey",
+   "urls": [
+    "https://insidebusinessafricang.com/2026/06/19/federal-govt-expands-electronic-medical-records-deployment-across-health-facilities/",
+    "https://www.digitalhealth.gov.ng/",
+    "https://www.arise.tv/nhia-enrolment-surpasses-23-million-as-agency-expands-financial-protection-for-nigerians/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "CRI.journey",
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "region": "Americas",
+   "category": "journey",
+   "urls": [
+    "https://archivos.juridicas.unam.mx/www/bjv/libros/13/6338/1.pdf",
+    "https://www.ministeriodesalud.go.cr/index.php/prensa/67-noticias-2026/2406-iafa-avanza-en-implementacion-del-edus-para-mejorar-la-atencion-en-salud-a-nivel-nacional",
+    "https://www.nacion.com/opinion/editorial/editorial-el-edus-necesita-atencion-urgente-de-la/IPGZZZCK4BEV5ERMQCBXCB2UJA/story/",
+    "https://www.infobae.com/costa-rica/2026/09/15/costa-rica-lleva-el-expediente-digital-unico-en-salud-a-dos-carceles-y-prepara-su-expansion-a-21-centros-mas/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TWN.journey",
+   "iso3": "TWN",
+   "name": "Taiwan",
+   "region": "Asia",
+   "category": "journey",
+   "urls": [
+    "https://link.springer.com/chapter/10.1007/978-3-031-05160-9_6",
+    "https://link.springer.com/chapter/10.1007/978-3-031-05160-9_1"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "PRT.journey",
+   "iso3": "PRT",
+   "name": "Portugal",
+   "region": "Europe",
+   "category": "journey",
+   "urls": [
+    "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/portugal_6d4acb43/56041c8e-en.pdf",
+    "https://www.acss.min-saude.pt/wp-content/uploads/2016/12/Manual-de-Utilizador-RSE-PCPMACNO_VF.pdf",
+    "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3197&tabela=leis&ficha=1"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "DNK.journey",
+   "iso3": "DNK",
+   "name": "Denmark",
+   "region": "Europe",
+   "category": "journey",
+   "urls": [
+    "https://healthcaredenmark.dk/national-strongholds/digitalization/collection-and-sharing-of-health-data/",
+    "https://healthsystemsfacts.org/denmark-health-system-facts/denmark-health-information-and-communication-technologies/",
+    "https://english.sundhedsdatastyrelsen.dk/about-us/digital-health-denmark"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "HRV.journey",
+   "iso3": "HRV",
+   "name": "Croatia",
+   "region": "Europe",
+   "category": "journey",
+   "urls": [
+    "https://www.hlk.hr/EasyEdit/UserFiles/propisi/zakon-o-podacima-i-informacijama-u-zdravstvu-nn-14-2019.pdf",
+    "https://www.integratedcare4people.org/practices/327/developing-an-integrated-e-health-system-in-croatia-to-drive-care-improvements/",
+    "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/updates/hspm/croatia-2022/introduction-of-electronic-health-records-in-hospitals",
+    "https://www.glas-slavonije.hr/novosti/hrvatska/2026/08/13/rok-za-prikljucivanje-produljen-nalazi-privatnih-lijecnika-tek-od-1-sijecnja-iduce-godine-u-cezih-u-779594/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AUT.journey",
+   "iso3": "AUT",
+   "name": "Austria",
+   "region": "Europe",
+   "category": "journey",
+   "urls": [
+    "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/e-befund.html",
+    "https://hashtagpraxis.com/2025/12/pflicht-zur-elga-anbindung-fuer-wahlaerztinnen-ab-2026-diese-aenderungen-kommen-auf-ordinationen-zu/",
+    "https://www.elga.gv.at/news/",
+    "https://www.meinbezirk.at/c-gesundheit/diagnosecodierung-bei-hausaerzten-startet-mit-testphase_a7868852"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://www.elga.gv.at/news/elga-news/"
+   ]
+  },
+  {
+   "cell_id": "ARE.journey",
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "region": "Middle East",
+   "category": "journey",
+   "urls": [
+    "https://www.intelligentcio.com/me/2025/08/19/malaffi-reaches-3-5-billion-clinical-records-setting-a-new-standard-for-healthcare-innovation-in-abu-dhabi/",
+    "https://economymiddleeast.com/news/dubai-health-authority-enabling-a-future-ready-health-sector-interview/",
+    "https://www.zavis.ai/guides/nabidh-ehr-integration-dubai-clinics",
+    "https://www.malaffi.ae/media-center/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "RWA.clinical",
+   "iso3": "RWA",
+   "name": "Rwanda",
+   "region": "Africa",
+   "category": "clinical",
+   "urls": [
+    "https://www.newtimes.co.rw/article/37520/news/bill-gates-in-rwanda-to-explore-health-ai-progress/amp",
+    "https://toppingafrica.com/rwanda-launches-ai-driven-e-ubuzima-e-banguka-apps-to-transform-healthcare"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://www.newtimes.co.rw/article/37520/news/technology/bill-gates-in-rwanda-to-explore-health-ai-progress/amp"
+   ]
+  },
+  {
+   "cell_id": "USA.clinical",
+   "iso3": "USA",
+   "name": "United States",
+   "region": "Americas",
+   "category": "clinical",
+   "urls": [
+    "https://www.ncbi.nlm.nih.gov/books/NBK606033/",
+    "https://www.hklaw.com/en/insights/publications/2026/02/the-wait-is-over-information-blocking-enforcement-is-officially-here",
+    "https://www.aha.org/news/headline/2026-06-26-hhs-announces-new-tefca-oversight-efforts-growth-records-exchanged",
+    "https://surescripts.com/why-surescripts/our-impact/annual-impact-report"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TWN.clinical",
+   "iso3": "TWN",
+   "name": "Taiwan",
+   "region": "Asia",
+   "category": "clinical",
+   "urls": [
+    "https://link.springer.com/chapter/10.1007/978-3-031-05160-9_6"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "IND.clinical",
+   "iso3": "IND",
+   "name": "India",
+   "region": "Asia",
+   "category": "clinical",
+   "urls": [
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2264241&reg=3&lang=1",
+    "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202676912801.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NLD.clinical",
+   "iso3": "NLD",
+   "name": "Netherlands",
+   "region": "Europe",
+   "category": "clinical",
+   "urls": [
+    "https://www.mitz-toestemming.nl/kennis-en-ondersteuning/vragen-antwoorden"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "GBR.clinical",
+   "iso3": "GBR",
+   "name": "United Kingdom",
+   "region": "Europe",
+   "category": "clinical",
+   "urls": [
+    "https://www.gov.uk/government/publications/health-bill-single-patient-record-fact-sheet/health-bill-single-patient-record-fact-sheet"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "EST.clinical",
+   "iso3": "EST",
+   "name": "Estonia",
+   "region": "Europe",
+   "category": "clinical",
+   "urls": [
+    "https://news.err.ee/1610059153/estonia-plans-7-million-upgrade-to-centralized-health-specialist-dashboard",
+    "https://health.ec.europa.eu/system/files/2016-11/laws_estonia_en_0.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BGR.clinical",
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "region": "Europe",
+   "category": "clinical",
+   "urls": [
+    "https://www.mh.government.bg/bg/novini/aktualno/4340",
+    "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=182160",
+    "https://zdrave.to/saveti-ot-spetsialisti/speshnoto-pacientsko-dosie-vliza-v-e-zdrave"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NGA.research",
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "region": "Africa",
+   "category": "research",
+   "urls": [
+    "https://faolex.fao.org/docs/pdf/nig162642.pdf"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BRA.research",
+   "iso3": "BRA",
+   "name": "Brazil",
+   "region": "Americas",
+   "category": "research",
+   "urls": [
+    "https://www.daniel.com.br/pt/client-alert/decreto-no-12-651-2025-regulamenta-a-lei-n-o-14-874-2024-sobre-pesquisa-com-seres-humanos/",
+    "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "JPN.research",
+   "iso3": "JPN",
+   "name": "Japan",
+   "region": "Asia",
+   "category": "research",
+   "urls": [
+    "https://www8.cao.go.jp/iryou/studygloup/20250903/pdf/s-4.pdf",
+    "https://www.cio.com/article/4098568/%E3%82%AA%E3%83%97%E3%83%88%E3%82%A4%E3%83%B3%E3%81%8B%E3%82%89%E3%82%AA%E3%83%97%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88%E3%81%B8%E2%80%95%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%8C%BB%E7%99%82%E5%9F%BA%E7%9B%A4.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BEL.research",
+   "iso3": "BEL",
+   "name": "Belgium",
+   "region": "Europe",
+   "category": "research",
+   "urls": [
+    "https://www.hlc.com/en/publications/creation-of-a-health-data-agency-in-belgium-a-key-agency-for-the-future-european-health-data-space",
+    "https://www.medi-sphere.be/fr/actualites/e-health/dmi-comment-le-passage-au-bihr-impactera-la-pratique-medicale.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LUX.research",
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "region": "Europe",
+   "category": "research",
+   "urls": [
+    "https://cner.gouvernement.lu/fr/statuts-legislation.html",
+    "https://www.lnds.lu/hdab-lu/",
+    "https://data.legilux.public.lu/file/eli-etat-leg-loi-2018-08-01-a686-jo-fr-html.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/08/01/a686/jo/fr/html/eli-etat-leg-loi-2018-08-01-a686-jo-fr-html.html"
+   ]
+  },
+  {
+   "cell_id": "SVK.research",
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "region": "Europe",
+   "category": "research",
+   "urls": [
+    "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2013/153/",
+    "https://www.nczisk.sk/Documents/download/vyrocna_sprava_NCZI_2025.pdf",
+    "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BGR.research",
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "region": "Europe",
+   "category": "research",
+   "urls": [
+    "https://asp.government.bg/uploaded/files/7032-zakon-za-zdraveto-28032025.pdf",
+    "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=182160",
+    "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AUT.research",
+   "iso3": "AUT",
+   "name": "Austria",
+   "region": "Europe",
+   "category": "research",
+   "urls": [
+    "https://digioneer.pro/registerdaten-amdc-frist-forschung/",
+    "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MEX.ai",
+   "iso3": "MEX",
+   "name": "Mexico",
+   "region": "Americas",
+   "category": "ai",
+   "urls": [
+    "https://recmedia.mx/2026/07/22/ia-en-la-medicina-hospitales-mexico/",
+    "https://www.infobae.com/mexico/2026/05/26/ya-hay-fecha-oficial-para-el-servicio-universal-de-salud-el-sistema-que-te-permitira-atenderte-en-el-imss-o-el-issste-sin-importar-tu-afiliacion/"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "VNM.ai",
+   "iso3": "VNM",
+   "name": "Vietnam",
+   "region": "Asia",
+   "category": "ai",
+   "urls": [
+    "https://www.allenandgledhill.com/vn/vn/perspectives/articles/32668/vnkh-vietnam-s-new-law-on-artificial-intelligence-risk-based-regulatory-framework-in-force-1-march-2026"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ISL.ai",
+   "iso3": "ISL",
+   "name": "Iceland",
+   "region": "Europe",
+   "category": "ai",
+   "urls": [
+    "https://www.althingi.is/lagas/nuna/2020132.html",
+    "https://www.visir.is/g/20262939826d/bodar-fyrstu-login-og-reglurnar-gagnvart-gervigreind"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LTU.ai",
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "region": "Europe",
+   "category": "ai",
+   "urls": [
+    "https://ai-act-service-desk.ec.europa.eu/en/national-resources",
+    "https://www.cyberlawwatch.com/2026/07/31/eu-digital-omnibus-on-ai-enters-into-force/"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LVA.ai",
+   "iso3": "LVA",
+   "name": "Latvia",
+   "region": "Europe",
+   "category": "ai",
+   "urls": [
+    "https://www.varam.gov.lv/lv/jaunums/latvija-sper-soli-preti-drosam-un-atbildigam-maksligajam-intelektam-valdiba-izskata-mi-akta-ieviesanas-planu",
+    "https://www.varam.gov.lv/lv/maksliga-intelekta-mi-akts"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ALB.ai",
+   "iso3": "ALB",
+   "name": "Albania",
+   "region": "Europe",
+   "category": "ai",
+   "urls": [
+    "https://enlargement.ec.europa.eu/document/download/fe9138b7-90fe-4277-a12c-3a03f6d1957f_en?filename=albania-report-2025.pdf",
+    "https://rtsh.al/projektligji-i-ri-percakton-rregulla-te-rrepta-per-pajisjet-mjekesore-diagnostikuese-in-vitro/",
+    "https://rtsh.al/rama-1-mld-euro-per-shendetesine-15-mln-euro-ekstra-per-pacientet-e-onkologjikut-2026-viti-i-ai-ne-mjekesi/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ARE.ai",
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "region": "Middle East",
+   "category": "ai",
+   "urls": [
+    "https://www.doh.gov.ae/-/media/Feature/Resources/Standards/2025/Responsible-AI-Standard-V1.ashx",
+    "https://www.ibanet.org/ai-healthcare-regulation-uae"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AUS.ai",
+   "iso3": "AUS",
+   "name": "Australia",
+   "region": "Oceania",
+   "category": "ai",
+   "urls": [
+    "https://www.legislation.gov.au/F2020L01598/asmade/text",
+    "https://www.legislation.gov.au/F2026L01167/asmade/text",
+    "https://www.oaic.gov.au/news/media-centre"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  }
+ ],
+ "repeat_cells": [
+  "ALB.privacy",
+  "CRI.commercial",
+  "FRA.privacy",
+  "HRV.journey",
+  "ISL.ai",
+  "NOR.privacy"
+ ],
+ "pilot": {
+  "cell_id": "UKR.journey",
+  "iso3": "UKR",
+  "name": "Ukraine",
+  "region": "Europe",
+  "category": "journey",
+  "urls": [
+   "https://ehealth.gov.ua/2026/03/13/reyestr-patsiyentiv-esoz-nalichuye-ponad-34-5-miljony-aktyvnyh-zapysiv-yaki-mozhlyvosti-dostupni-dlya-patsiyenta/",
+   "https://ehealth.gov.ua/2026/05/14/v-esoz-stvoreno-ponad-111-miljoniv-e-retseptiv/",
+   "https://ehealth.gov.ua/2024/02/29/hto-maye-dostup-do-danyh-patsiyenta-v-esoz/",
+   "https://lb.ua/health/2026/04/23/734385_oprilyudnili_perelik_medichnih.html"
+  ],
+  "allowed_redirects": []
+ },
+ "batches": [
+  [
+   "BGR.clinical",
+   "ALB.privacy",
+   "NOR.privacy",
+   "AUS.ai",
+   "MEX.control",
+   "GRC.access",
+   "ARE.control",
+   "IND.clinical",
+   "CRI.journey",
+   "AUT.commercial"
+  ],
+  [
+   "LTU.commercial",
+   "AUT.research",
+   "ALB.privacy#r",
+   "NOR.privacy#r",
+   "NGA.research",
+   "ARE.ai",
+   "RWA.clinical",
+   "HRV.journey#r",
+   "JPN.commercial",
+   "PRT.journey"
+  ],
+  [
+   "JPN.research",
+   "USA.clinical",
+   "LTU.control",
+   "PRT.commercial",
+   "ITA.access",
+   "HRV.privacy",
+   "SWE.control",
+   "TWN.clinical",
+   "MEX.privacy",
+   "NGA.journey"
+  ],
+  [
+   "NGA.control",
+   "PRT.access",
+   "ISL.ai#r",
+   "HRV.journey",
+   "BGR.research",
+   "BEL.research",
+   "SVK.research",
+   "ITA.control",
+   "MEX.ai",
+   "AUS.access"
+  ],
+  [
+   "ARE.access",
+   "LTU.ai",
+   "FRA.privacy#r",
+   "BRA.research",
+   "VNM.ai",
+   "AUT.journey",
+   "EST.clinical",
+   "NGA.commercial",
+   "FIN.privacy",
+   "ALB.ai"
+  ],
+  [
+   "LVA.ai",
+   "VNM.access",
+   "CRI.commercial#r",
+   "ISL.ai",
+   "GBR.clinical",
+   "TWN.journey",
+   "SWE.access",
+   "JPN.control",
+   "ITA.commercial",
+   "LUX.research"
+  ],
+  [
+   "TUR.commercial",
+   "THA.privacy",
+   "DNK.journey",
+   "NLD.clinical",
+   "FRA.privacy",
+   "ARE.journey",
+   "CRI.commercial",
+   "ESP.control",
+   "BRA.access",
+   "IDN.privacy"
+  ]
+ ]
+}

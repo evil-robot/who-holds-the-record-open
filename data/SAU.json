@@ -1,0 +1,371 @@
+{
+ "iso3": "SAU",
+ "name": "Saudi Arabia",
+ "region": "Middle East",
+ "controlModel": "State",
+ "headline": "A national record links over 30 million people and Sehhaty shows much of it, but patients have no working say over sharing.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 64,
+   "summary": "The PDPL gives a right to a copy in a common electronic format within 30 days, and Sehhaty passed 31 million users in 2025. How much of the full chart it displays was not verified, so the cell sits low in its band.",
+   "detail": [
+    "Article 4 of the Personal Data Protection Law (PDPL) gives a right to access personal data and to obtain it in a readable, clear form. The implementing regulation says controllers must act within 30 days, extendable by 30 more with notice, and hand over a copy in a commonly used electronic format. No fee rule was found.",
+    "Article 9 lets controllers set periods for access and restrict it to protect the person or, for public bodies, for security, another law or judicial needs.",
+    "Sehhaty is the Ministry's unified platform. Its privacy policy lists visits and referrals, allergies, vital signs, operations, laboratory and radiology tests, clinical notes and summaries, medication and vaccination as health record data drawn from nphies and the National Health Information Center.",
+    "The Ministry's 2025 report says Sehhaty passed 31 million beneficiaries. Whether Sehhaty shows every visit from every provider, or offers a full export, was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law, Royal Decree M/19 as amended by M/148 (SDAIA Data Governance Platform, Arabic)",
+     "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Implementing Regulation of the Personal Data Protection Law (Umm Al-Qura official gazette, Arabic)",
+     "url": "https://www.uqn.gov.sa/details?p=23595",
+     "date": "2023-09-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sehhaty Privacy Policy, issue 3.26 (Sehhaty platform, Ministry of Health)",
+     "url": "https://sehhaty.sa/pages/privacy-policy-en.html",
+     "date": "2025-07-23",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health Sector Transformation Program 2025 report highlights (Ministry of Health news, Arabic)",
+     "url": "https://www.moh.gov.sa/ministry/mediacenter/news/pages/news-2026-06-20-001.aspx",
+     "date": "2026-06-20",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 32,
+   "summary": "Data flows into the national record by default and no live opt-out was found, so a 2015 policy's opt-out earns nothing. The cell sits at 32, above Egypt's 25, because the PDPL regulation gives that policy force and consent-withdrawal rights exist on paper.",
+   "detail": [
+    "The IS0303 exchange policy says health information may be shared unless the patient opts out. The request goes to an authorised organisation, which approves it and counsels on clinical risk. Patients may opt back in. No working opt-out route was found on nphies, Sehhaty or Ministry pages: not verified.",
+    "The same policy lets a patient ask for a report of electronic disclosures showing date, recipient and discloser, and says patients should be told of break-the-glass access. Whether this is offered in practice was not verified.",
+    "The PDPL implementing regulation (Article 26) makes controllers adopt Ministry of Health, Saudi Health Council and insurance council requirements for health data, which is what gives these policies force.",
+    "Sehhaty keeps a log of access to personal data for the Administration or competent authorities' auditing, not for the user. Its 'withdraw consent on reviewing your health record' option concerns the app showing the record to the user, not sharing between providers."
+   ],
+   "sources": [
+    {
+     "title": "IS0303 Saudi Health Information Exchange Policies v1.0 (Ministry of Health, National eHealth Strategy and Change Management Office)",
+     "url": "https://www.moh.gov.sa/en/Ministry/ehealthstd/Documents/eHealth%20Standards%20Files/Policies/IS0303%20Saudi%20Health%20Information%20Exchange%20Policies%20v1.0.pdf",
+     "date": "2015-02-22",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sehhaty Privacy Policy, issue 3.26 (Sehhaty platform, Ministry of Health)",
+     "url": "https://sehhaty.sa/pages/privacy-policy-en.html",
+     "date": "2025-07-23",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Implementing Regulation of the Personal Data Protection Law (Umm Al-Qura official gazette, Arabic)",
+     "url": "https://www.uqn.gov.sa/details?p=23595",
+     "date": "2023-09-07",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 50,
+   "summary": "The PDPL treats health data as sensitive, demands 72-hour breach notice and allows prison for harmful disclosure. But the regulator reports to the Prime Minister, administrative fines reach only private bodies, and no health-sector enforcement decision was found.",
+   "detail": [
+    "Article 23 limits access to health data, including medical files, to the fewest staff needed. Disclosing sensitive data to harm someone or for gain carries up to two years in prison and a SAR 3 million fine (Article 35).",
+    "Article 36 fines of up to SAR 5 million apply to private natural or legal persons. Public bodies, including the Ministry of Health, which operates Sehhaty, are not named. Public entities may also process without consent for security or judicial needs (Articles 6 and 10).",
+    "Breaches harming people must be reported to the regulator within 72 hours. In June 2026 SDAIA committees issued fines and warnings for marketing without consent, slow responses to data requests and late breach notice. Entities and amounts were not published.",
+    "SDAIA is linked directly to the Prime Minister and also runs national AI. Saudi Arabia is not on the European Commission's adequacy list, so EU-to-Saudi health data transfers need GDPR safeguards. No major Saudi health breach in the period was found."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law, Royal Decree M/19 as amended by M/148 (SDAIA Data Governance Platform, Arabic)",
+     "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "SDAIA: penalties on entities that violated the Personal Data Protection Law (Okaz, Arabic)",
+     "url": "https://www.okaz.com.sa/local/na/2254837",
+     "date": "2026-06-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "About SDAIA (Saudi Data and AI Authority, Arabic)",
+     "url": "https://sdaia.gov.sa/ar/SDAIA/about/Pages/About.aspx",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 54,
+   "summary": "The PDPL bars using sensitive data, including health data, for marketing, and SDAIA fined firms in 2026 for marketing without consent. Sehhaty may share data with partners and use masked data for innovation, and no rule on selling de-identified data was found.",
+   "detail": [
+    "Article 26 allows marketing use of personal data only with consent and excludes sensitive data entirely. Article 25 requires consent and an easy, free way to stop promotional messages.",
+    "The IS0303 exchange policy says market studies using exchange data shall not be permitted without a court order, and any use without a declared purpose is barred.",
+    "SDAIA's June 2026 decisions named direct marketing without explicit consent among the main violations punished.",
+    "Sehhaty's privacy policy lets it disclose data to partners and contractors and to invite users to screening for new products, and to use data in masked form for innovation and research. No rule on health data brokers, de-identified data sales or consumer health apps outside health law was found."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law, Royal Decree M/19 as amended by M/148 (SDAIA Data Governance Platform, Arabic)",
+     "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "IS0303 Saudi Health Information Exchange Policies v1.0 (Ministry of Health, National eHealth Strategy and Change Management Office)",
+     "url": "https://www.moh.gov.sa/en/Ministry/ehealthstd/Documents/eHealth%20Standards%20Files/Policies/IS0303%20Saudi%20Health%20Information%20Exchange%20Policies%20v1.0.pdf",
+     "date": "2015-02-22",
+     "publisherClass": "official"
+    },
+    {
+     "title": "SDAIA: penalties on entities that violated the Personal Data Protection Law (Okaz, Arabic)",
+     "url": "https://www.okaz.com.sa/local/na/2254837",
+     "date": "2026-06-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Sehhaty Privacy Policy, issue 3.26 (Sehhaty platform, Ministry of Health)",
+     "url": "https://sehhaty.sa/pages/privacy-policy-en.html",
+     "date": "2025-07-23",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 70,
+   "summary": "The Ministry of Health reported over 30 million people linked to the nphies unified record in 2024 and 40 million e-prescriptions through Wasfaty. The Saudi Health Council reported 33 million and 1.1 billion data exchanges in 2025, but completeness by facility was not verified.",
+   "detail": [
+    "nphies links providers and insurers. Its own page lists insurance services from 2020, then a patient portal, provider portal, image viewer, exam history and confidential documents in 2021, and a health data warehouse in 2023.",
+    "The Ministry's 2024 report says over 30 million people were linked to the unified record, and Wasfaty issued over 40 million prescriptions to over 14 million people.",
+    "Al Watan reported in July 2026 that the Saudi Health Council's 2025 report counts 33 million unified record beneficiaries and over 1.1 billion health data exchanges, with 6,873 facilities issuing e-sick leave.",
+    "Seha Virtual Hospital links 241 facilities. How many facilities send labs, imaging and notes, rather than claims only, was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Health system achievements in 2024 (Ministry of Health news, Arabic)",
+     "url": "https://www.moh.gov.sa/ministry/mediacenter/news/pages/news-2025-01-26-001.aspx",
+     "date": "2025-01-26",
+     "publisherClass": "official"
+    },
+    {
+     "title": "nphies home page with platform phases (nphies, Internet Archive copy of 10 Jul 2025, Arabic)",
+     "url": "https://web.archive.org/web/20250710005755/https://nphies.sa/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "1.1 billion transactions support health transformation: Saudi Health Council 2025 report (Al Watan, Arabic)",
+     "url": "https://www.alwatan.com.sa/article/1183044",
+     "date": "2026-07-15",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Health Sector Transformation Program 2025 report highlights (Ministry of Health news, Arabic)",
+     "url": "https://www.moh.gov.sa/ministry/mediacenter/news/pages/news-2026-06-20-001.aspx",
+     "date": "2026-06-20",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 54,
+   "summary": "Clinicians with a treatment relationship can open the unified record, with role-based limits and break-the-glass access, and nphies offers a provider portal and image viewer. No figures on point-of-care use were found, so the cell stays in the mixed band.",
+   "detail": [
+    "IS0303 restricts clinical information to care professionals defined by licensed role codes and requires every user to hold a healthcare role. Opt-out status is checked before access.",
+    "Sensitive records and opted-out patients can be opened only by breaking the glass, which triggers notice to the security and privacy officer and after-the-fact review.",
+    "Sehhaty's policy says health data is sealed and opened only by those authorised to break the seal, such as the treating practitioner.",
+    "nphies lists a provider portal, image viewer and exam history. How often clinicians use it at the bedside was not verified."
+   ],
+   "sources": [
+    {
+     "title": "IS0303 Saudi Health Information Exchange Policies v1.0 (Ministry of Health, National eHealth Strategy and Change Management Office)",
+     "url": "https://www.moh.gov.sa/en/Ministry/ehealthstd/Documents/eHealth%20Standards%20Files/Policies/IS0303%20Saudi%20Health%20Information%20Exchange%20Policies%20v1.0.pdf",
+     "date": "2015-02-22",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sehhaty Privacy Policy, issue 3.26 (Sehhaty platform, Ministry of Health)",
+     "url": "https://sehhaty.sa/pages/privacy-policy-en.html",
+     "date": "2025-07-23",
+     "publisherClass": "official"
+    },
+    {
+     "title": "nphies home page with platform phases (nphies, Internet Archive copy of 10 Jul 2025, Arabic)",
+     "url": "https://web.archive.org/web/20250710005755/https://nphies.sa/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Research may use health data without consent only if identity is removed, and ethics committees approve uses of exchange data case by case. There is no research opt-out and no public register, so two safeguards (ethics review, penalties for misuse) lift a base of 40.",
+   "detail": [
+    "PDPL Article 27 allows research without consent where the data do not identify the person or where another law requires it. The option of removing identifiers during processing does not apply to sensitive data.",
+    "IS0303 allows research use of exchange data only with approval from a designated ethics committee, which may demand consent or de-identification and must follow the bioethics regulation.",
+    "The bioethics regulation requires informed consent for research on people, lets local committees exempt studies of non-identifiable recorded data from follow-up, and sends violations to a penalties committee.",
+    "Sehhaty may use masked data for research without asking. No general opt-out or public register of data uses was found."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law, Royal Decree M/19 as amended by M/148 (SDAIA Data Governance Platform, Arabic)",
+     "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "IS0303 Saudi Health Information Exchange Policies v1.0 (Ministry of Health, National eHealth Strategy and Change Management Office)",
+     "url": "https://www.moh.gov.sa/en/Ministry/ehealthstd/Documents/eHealth%20Standards%20Files/Policies/IS0303%20Saudi%20Health%20Information%20Exchange%20Policies%20v1.0.pdf",
+     "date": "2015-02-22",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Implementing Regulation of the Law of Ethics of Research on Living Creatures, 3rd edition (National Committee of Bioethics; copy hosted by Prince Sattam bin Abdulaziz University, Arabic)",
+     "url": "https://www.psau.edu.sa/drgs//sitesuploads/drgs/2025-10/%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D8%A3%D8%AE%D9%84%D8%A7%D9%82%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D8%AE%D9%84%D9%88%D9%82%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D9%8A%D8%A9.pdf",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sehhaty Privacy Policy, issue 3.26 (Sehhaty platform, Ministry of Health)",
+     "url": "https://sehhaty.sa/pages/privacy-policy-en.html",
+     "date": "2025-07-23",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 58,
+   "summary": "SFDA treats AI software as a medical device and its MDS-G010 guidance requires clinical validation, post-market monitoring and change notice. G010 is guidance, the binding change rule was seen only as quoted in it, and SDAIA's AI ethics rules carry no penalties.",
+   "detail": [
+    "MDS-G010 requires analytical and clinical validation on independent datasets from several centres, bias checks, human factors review and continuous post-market monitoring. It refers to human oversight in design.",
+    "G010 quotes SFDA's marketing authorisation requirements (MDS-REQ 1): significant changes must be reported within 10 days and others within 30, with a change control procedure. MDS-REQ 1 itself was not opened.",
+    "MDS-G27 of August 2025 sets when apps, telemedicine, wearables and AI tools count as medical devices. In June 2026 SFDA authorised an AI app that reads vital signs from a face video after reviewing clinical evidence.",
+    "SDAIA's AI Ethics Principles call for human oversight in high-risk decisions and SDAIA monitors compliance, but no penalty was found."
+   ],
+   "sources": [
+    {
+     "title": "MDS-G010 Guidance on AI and Machine Learning based Medical Devices (Saudi Food and Drug Authority)",
+     "url": "https://www.sfda.gov.sa/sites/default/files/2023-01/MDS-G010ML.pdf",
+     "date": "2022-11-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MDS-G27 Guidance on Digital Health Products (Saudi Food and Drug Authority)",
+     "url": "https://sfda.gov.sa/sites/default/files/2026-08/MDS-G027_0.pdf",
+     "date": "2025-08-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "SFDA grants marketing authorization for AI-powered medical app (Arab News, via SPA)",
+     "url": "https://www.arabnews.com/node/2648143/saudi-arabia",
+     "date": "2026-06-22",
+     "publisherClass": "news"
+    },
+    {
+     "title": "AI Ethics Principles (SDAIA)",
+     "url": "https://sdaia.gov.sa/en/SDAIA/about/Documents/ai-principles.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "nphies carries insurance claims and a unified record for over 30 million people, and Wasfaty runs e-prescriptions. How fully primary care, hospitals and labs feed clinical data into it was not verified.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Law (Royal Decree M/19, amended by M/148)",
+   "level": "National",
+   "year": "2021",
+   "what": "Health data is sensitive; access and copy rights; marketing ban for sensitive data; prison and fines.",
+   "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL"
+  },
+  {
+   "name": "Implementing Regulation of the Personal Data Protection Law",
+   "level": "National",
+   "year": "2023",
+   "what": "30-day request deadline, electronic copies, 72-hour breach notice, extra health data controls.",
+   "url": "https://www.uqn.gov.sa/details?p=23595"
+  },
+  {
+   "name": "IS0303 Saudi Health Information Exchange Policies",
+   "level": "National",
+   "year": "2015",
+   "what": "Opt-out sharing model, disclosure reports, break-the-glass, ethics approval for research, bans market studies.",
+   "url": "https://www.moh.gov.sa/en/Ministry/ehealthstd/Documents/eHealth%20Standards%20Files/Policies/IS0303%20Saudi%20Health%20Information%20Exchange%20Policies%20v1.0.pdf"
+  },
+  {
+   "name": "Implementing Regulation of the Law of Ethics of Research on Living Creatures (3rd edition)",
+   "level": "National",
+   "year": "2022",
+   "what": "Informed consent, local ethics committees, exemptions for non-identifiable data, penalties committee.",
+   "url": "https://www.psau.edu.sa/drgs//sitesuploads/drgs/2025-10/%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%20%D9%84%D9%86%D8%B8%D8%A7%D9%85%20%D8%A3%D8%AE%D9%84%D8%A7%D9%82%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%85%D8%AE%D9%84%D9%88%D9%82%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AD%D9%8A%D8%A9.pdf"
+  },
+  {
+   "name": "SFDA MDS-G010 Guidance on AI/ML based Medical Devices",
+   "level": "National",
+   "year": "2022",
+   "what": "Clinical validation, post-market monitoring and change notification for AI medical devices.",
+   "url": "https://www.sfda.gov.sa/sites/default/files/2023-01/MDS-G010ML.pdf"
+  },
+  {
+   "name": "SFDA MDS-G27 Guidance on Digital Health Products",
+   "level": "National",
+   "year": "2025",
+   "what": "Defines when apps, telemedicine, wearables and AI tools are regulated medical devices.",
+   "url": "https://sfda.gov.sa/sites/default/files/2026-08/MDS-G027_0.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-06-22",
+   "headline": "SFDA authorises AI app that reads vital signs from a face video",
+   "source": "Arab News (via SPA)",
+   "url": "https://www.arabnews.com/node/2648143/saudi-arabia",
+   "why": "Clinical AI apps reach patients only after SFDA reviews clinical evidence."
+  },
+  {
+   "date": "2026-06-20",
+   "headline": "Health ministry's 2025 report counts over 31 million Sehhaty beneficiaries",
+   "source": "Ministry of Health",
+   "url": "https://www.moh.gov.sa/ministry/mediacenter/news/pages/news-2026-06-20-001.aspx",
+   "why": "Most residents can now reach part of their record on a phone."
+  },
+  {
+   "date": "2026-06-30",
+   "headline": "SDAIA fines and warns entities for marketing without consent and late breach notice",
+   "source": "Okaz",
+   "url": "https://www.okaz.com.sa/local/na/2254837",
+   "why": "Shows the privacy law is enforced, though offenders and amounts stay unnamed."
+  },
+  {
+   "date": "2026-07-15",
+   "headline": "Health Council report counts 33 million people in the unified record",
+   "source": "Al Watan",
+   "url": "https://www.alwatan.com.sa/article/1183044",
+   "why": "Nearly every resident's data now sits in one national exchange by default."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

@@ -1,0 +1,392 @@
+{
+  "iso3": "GBR",
+  "name": "United Kingdom",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "In England, 39 million are registered on the NHS App and can opt out of the Summary Care Record, but not the Palantir-built data platform.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 66,
+      "summary": "UK GDPR gives a free copy of the record within one month, and 39.1 million people are registered on the NHS App. But the app shows only new GP record entries, not historic or hospital records; a single patient record is promised from 2028.",
+      "detail": [
+        "The ICO says that in general a provider cannot charge a fee for a subject access request for health information, unless the request is manifestly unfounded or excessive. UK GDPR sets one month to respond; the ICO says this can be extended by two months if a health professional must be consulted.",
+        "NHS England Digital counted 39,061,451 registered NHS App users at the end of August 2026, and 28.7 million distinct users logged in over the 12 months to 31 August 2026.",
+        "Since a 2023 contract change, every GP practice in England must give online access to new (prospective) record entries, including hospital letters sent to the practice. Historic data is excluded, and practices can redact entries that could cause serious harm.",
+        "The government's Health Bill fact sheet (19 May 2026) sets an ambition that all patients see a core set of data in the NHS App from 2028 and the full record by 2030. The Bill was still before Parliament in September 2026.",
+        "This review covers England. Scotland, Wales and Northern Ireland run separate NHS systems that we did not research or score."
+      ],
+      "sources": [
+        {
+          "title": "Right of access: health information (ICO)",
+          "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/health-information/",
+          "date": "2025-12-08",
+          "publisherClass": "official"
+        },
+        {
+          "title": "NHS App Management Information, August 2026 (NHS England Digital)",
+          "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-app-statistics/august-2026",
+          "date": "2026-09-25",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Online access to new GP health record information (NHS England)",
+          "url": "https://www.england.nhs.uk/long-read/online-access-to-new-gp-health-record-information/",
+          "date": "2023-11-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Bill: single patient record fact sheet (GOV.UK, DHSC)",
+          "url": "https://www.gov.uk/government/publications/health-bill-single-patient-record-fact-sheet/health-bill-single-patient-record-fact-sheet",
+          "date": "2026-05-19",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 52,
+      "summary": "Patients can opt out of the national Summary Care Record, and staff must ask permission before viewing it outside emergencies. But there is no opt-out from the Palantir-built Federated Data Platform, and access logs are available only by formal request.",
+      "detail": [
+        "NHS England Digital says a patient can opt out of having a Summary Care Record, or of sharing its additional information, by telling the GP practice. Staff will ask permission to view it except in an emergency.",
+        "For regional shared care records, patients have a legal right to object, but the objection is considered locally, case by case (NHS IG framework, May 2026). An audit trail records who viewed what.",
+        "A patient can see who looked at their Summary Care Record only by making a subject access request. We found no national screen in the NHS App that lists who accessed the record.",
+        "The NHS website states the national data opt-out does not apply to the Federated Data Platform because data is processed for direct care. A health minister confirmed this in June 2026 (The Register).",
+        "The class is Shared because the Summary Care Record opt-out and permission-to-view rule are live for the general population, even though the newer platforms offer no individual choice."
+      ],
+      "sources": [
+        {
+          "title": "Summary Care Records (SCR): information for patients (NHS England Digital)",
+          "url": "https://digital.nhs.uk/services/summary-care-records-scr/summary-care-records-scr-information-for-patients",
+          "date": "2025-05-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Information Governance Framework: Shared Care Records (NHS England Digital)",
+          "url": "https://digital.nhs.uk/data-and-information/information-governance/guidance/information-governance-framework-shared-care-records",
+          "date": "2026-05-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Opt out of sharing your health records (NHS website)",
+          "url": "https://www.nhs.uk/using-the-nhs/about-the-nhs/opt-out-of-sharing-your-health-records/",
+          "date": "2024-06-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "NHS patients can't opt out of Palantir's data platform, but their hospital can (The Register)",
+          "url": "https://www.theregister.com/databases/2026/06/13/nhs-patients-cant-opt-out-of-palantirs-data-platform-but-their-hospital-can/5254766",
+          "date": "2026-06-13",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 56,
+      "summary": "Health data is protected by UK GDPR and an active regulator that fined an NHS IT supplier 3.07 million pounds. But NHS England admitted its platform impact assessment was wrong, and UK Biobank data on 500,000 people was offered for sale in April 2026.",
+      "detail": [
+        "The ICO fined Advanced Computer Software Group 3.07 million pounds in March 2025 over a 2022 ransomware attack that put data on 79,404 people at risk and disrupted NHS 111.",
+        "The National Data Guardian found that some external contractor staff could see identifiable data in the platform's national tenant, contrary to the impact assessment. NHS England called this an error and apologised (statement updated 28 July 2026).",
+        "De-identified UK Biobank data on all 500,000 participants was listed for sale on Alibaba after a legitimate download by accredited researchers, a minister told MPs (BBC, 23 April 2026).",
+        "The UK is outside the EU, so the EHDS does not apply. The European Commission renewed its UK adequacy decisions on 19 December 2025, so EU data can keep flowing to the UK (ICO)."
+      ],
+      "sources": [
+        {
+          "title": "Advanced Computer Software Group Limited, monetary penalty (ICO)",
+          "url": "https://ico.org.uk/action-weve-taken/enforcement/2025/03/advanced-computer-software-group-limited/",
+          "date": "2025-03-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Data Guardian statement on NHS Federated Data Platform data access (GOV.UK)",
+          "url": "https://www.gov.uk/government/news/national-data-guardian-statement-on-nhs-federated-data-platform-data-access-in-response-to-the-not-with-my-nhs-data-campaign",
+          "date": "2026-06-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "UK Biobank health data listed for sale in China, government confirms (BBC News)",
+          "url": "https://www.bbc.co.uk/news/articles/cpvxgl3n138o",
+          "date": "2026-04-23",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Receiving personal information from the EEA: UK adequacy (ICO)",
+          "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/receiving-personal-information-from-the-eea/",
+          "date": "2026-01-15",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 60,
+      "summary": "The law lets NHS England release patient data only for health care or the promotion of health, and NHS policy bars disclosure for marketing or insurance without explicit consent. A private US firm built the national data platform under a contract worth up to 330 million pounds.",
+      "detail": [
+        "Section 261(1A) of the Health and Social Care Act 2012 says NHS England may disseminate collected information only for purposes connected with health care, adult social care or the promotion of health.",
+        "NHS England's opt-out guidance says confidential patient information must never be disclosed for marketing or insurance purposes without explicit consent. The NHS website says the NHS never sells patient data.",
+        "The Federated Data Platform contract was awarded to Palantir in November 2023 and is worth up to 330 million pounds over seven years. A Commons committee urged ministers in June 2026 to use the February 2027 break clause (BMJ).",
+        "We did not research rules for consumer health apps or data brokers outside the NHS, which fall under general UK GDPR."
+      ],
+      "sources": [
+        {
+          "title": "Health and Social Care Act 2012, section 261 (legislation.gov.uk)",
+          "url": "https://www.legislation.gov.uk/ukpga/2012/7/section/261",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Understanding the national data opt-out (NHS England Digital)",
+          "url": "https://digital.nhs.uk/services/national-data-opt-out/understanding-the-national-data-opt-out",
+          "date": "2023-05-16",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Opt out of sharing your health records (NHS website)",
+          "url": "https://www.nhs.uk/using-the-nhs/about-the-nhs/opt-out-of-sharing-your-health-records/",
+          "date": "2024-06-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Palantir should not have significant role in NHS and other public services, say MPs (BMJ)",
+          "url": "https://www.bmj.com/content/393/bmj-2026-035692",
+          "date": "2026-06-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 62,
+      "summary": "Over 95% of prescriptions in England are electronic, and a national Summary Care Record is drawn from GP records at 98% of practices. Hospitals connect through regional shared care records that, the government says, do not link nationally.",
+      "detail": [
+        "The Electronic Prescription Service produces over 95% of all prescriptions in England and now extends to acute, community and mental health trusts (NHS England Digital, September 2026).",
+        "About 58 million patients have a Summary Care Record with additional information, synchronised from the GP record whenever it changes.",
+        "Shared care records work at regional level only and do not connect nationally or give patients direct access, the government's fact sheet says. It targets improved clinician access to records for at least 80% of patients by March 2027.",
+        "142 NHS trusts were live on the Federated Data Platform at the end of August 2026, and 170 had signed up, mainly for operational uses such as waiting lists (NHS England)."
+      ],
+      "sources": [
+        {
+          "title": "Electronic Prescription Service (NHS England Digital)",
+          "url": "https://digital.nhs.uk/services/electronic-prescription-service",
+          "date": "2026-09-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Summary Care Record (SCR) service page (NHS England Digital)",
+          "url": "https://digital.nhs.uk/services/summary-care-records-scr",
+          "date": "2026-08-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Bill: single patient record fact sheet (GOV.UK, DHSC)",
+          "url": "https://www.gov.uk/government/publications/health-bill-single-patient-record-fact-sheet/health-bill-single-patient-record-fact-sheet",
+          "date": "2026-05-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "NHS Federated Data Platform uptake and benefits (NHS England)",
+          "url": "https://www.england.nhs.uk/digitaltechnology/nhs-federated-data-platform/solution-exchange/fdp-uptake-and-benefits/",
+          "date": "2026-09-25",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 60,
+      "summary": "Any authorised clinician in England can view the national Summary Care Record of medicines and allergies, used by about 129,000 staff a month. A fuller cross-provider view depends on which regional shared care record covers the patient.",
+      "detail": [
+        "The Summary Care Record is available to authorised staff in direct care, including doctors, nurses, paramedics and pharmacists, and has been live since 2010 (NHS England Digital).",
+        "It is a summary: current medication, allergies and bad reactions, plus additional information such as long-term conditions for most patients.",
+        "Shared care records let clinicians see integrated records across local services, but functionality varies across the country (The King's Fund, August 2026).",
+        "The Health Bill would let regulations lift the common law duty of confidentiality to run a national single patient record for direct care, with providers remaining data controllers (The King's Fund)."
+      ],
+      "sources": [
+        {
+          "title": "Summary Care Record (SCR) service page (NHS England Digital)",
+          "url": "https://digital.nhs.uk/services/summary-care-records-scr",
+          "date": "2026-08-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Summary Care Records (SCR): information for patients (NHS England Digital)",
+          "url": "https://digital.nhs.uk/services/summary-care-records-scr/summary-care-records-scr-information-for-patients",
+          "date": "2025-05-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "The single patient record explained (The King's Fund)",
+          "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/the-single-patient-record-explained-what-could-it-mean-for-patients-and-the-health-and-care-system",
+          "date": "2026-08-04",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Health Bill: single patient record fact sheet (GOV.UK, DHSC)",
+          "url": "https://www.gov.uk/government/publications/health-bill-single-patient-record-fact-sheet/health-bill-single-patient-record-fact-sheet",
+          "date": "2026-05-19",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 64,
+      "summary": "Patients can block use of their confidential data for research and planning through the national data opt-out, used by 5.69% in July 2026. Exemptions cover public health, legal duties and data NHS England is directed to collect.",
+      "detail": [
+        "The national data opt-out applies when confidential patient information is disclosed under Confidentiality Advisory Group (section 251) approval. It does not apply to anonymised data, public health, legal requirements or collections under section 259 of the 2012 Act (NHS England Digital).",
+        "A separate Type 1 opt-out stops a GP practice sharing data for research and planning, though NHS England can still collect hospital data (NHS website).",
+        "The Lords Library reports a 5.69% opt-out rate in July 2026, citing the NHS England dashboard. A Health Data Research Service, funded with 500 million pounds from government and 100 million from Wellcome, is due to launch first elements by end of 2026.",
+        "New clinical trials regulations in force from 28 April 2026 make trial registration and publication of summary results a legal requirement for the first time (MHRA and HRA)."
+      ],
+      "sources": [
+        {
+          "title": "Understanding the national data opt-out (NHS England Digital)",
+          "url": "https://digital.nhs.uk/services/national-data-opt-out/understanding-the-national-data-opt-out",
+          "date": "2023-05-16",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Opt out of sharing your health records (NHS website)",
+          "url": "https://www.nhs.uk/using-the-nhs/about-the-nhs/opt-out-of-sharing-your-health-records/",
+          "date": "2024-06-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Using patient data for research: challenges and policy developments (House of Lords Library)",
+          "url": "https://lordslibrary.parliament.uk/using-patient-data-for-research-challenges-and-policy-developments/",
+          "date": "2026-08-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Launch of clinical trial reforms (MHRA and HRA, GOV.UK)",
+          "url": "https://www.gov.uk/government/news/launch-of-clinical-trial-reforms",
+          "date": "2026-04-27",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 55,
+      "summary": "AI medical devices fall under the UK Medical Devices Regulations 2002, with new post-market surveillance duties in force since June 2025. Change control plans rest on 2023 guiding principles, and the national AI commission asked the MHRA to clarify them.",
+      "detail": [
+        "The post-market surveillance regulations (S.I. 2024/1368), made 16 December 2024, came into force six months later and add a new Part 4A to the 2002 Regulations.",
+        "Predetermined change control plans are covered by five guiding principles issued jointly by the MHRA, FDA and Health Canada in October 2023, guidance rather than binding rules.",
+        "The National Commission into the Regulation of AI in Healthcare (10 September 2026) made 44 recommendations, including clarity on change control plans, version control of deployed AI, and telling patients when AI is used in their care, with an opt-out where possible.",
+        "The MHRA's AI Airlock sandbox tested seven products in phase 2 and has 1.2 million pounds a year for 2026 to 2029."
+      ],
+      "sources": [
+        {
+          "title": "Medical Devices (Post-market Surveillance Requirements) (Amendment) (Great Britain) Regulations 2024, S.I. 2024/1368",
+          "url": "https://www.legislation.gov.uk/uksi/2024/1368/made",
+          "date": "2024-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Predetermined change control plans for machine learning-enabled medical devices: guiding principles (MHRA, FDA, Health Canada)",
+          "url": "https://www.gov.uk/government/publications/predetermined-change-control-plans-for-machine-learning-enabled-medical-devices-guiding-principles/predetermined-change-control-plans-for-machine-learning-enabled-medical-devices-guiding-principles",
+          "date": "2023-10-24",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Commission into the Regulation of AI in Healthcare: recommendations for a future regulatory framework (GOV.UK)",
+          "url": "https://www.gov.uk/government/publications/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework",
+          "date": "2026-09-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Advancing AI regulation in healthcare: insights from AI Airlock phase 2 (MHRA MedRegs blog)",
+          "url": "https://medregs.blog.gov.uk/2026/06/09/advancing-ai-regulation-in-healthcare-insights-from-ai-airlock-phase-2/",
+          "date": "2026-06-09",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "England only. GP records feed the Summary Care Record and NHS App; over 95% of prescriptions are electronic. Hospitals link through regional shared care records and the Federated Data Platform. No claims layer; single patient record planned for 2028.",
+  "laws": [
+    {
+      "name": "UK GDPR and Data Protection Act 2018",
+      "level": "National",
+      "year": "2018",
+      "what": "Health is special category data; free access copy, usually within one month; ICO enforcement.",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/health-information/"
+    },
+    {
+      "name": "Data (Use and Access) Act 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Amends UK data protection, replaces the ICO with an Information Commission, sets binding health IT standards (s.121).",
+      "url": "https://www.legislation.gov.uk/ukpga/2025/18/contents"
+    },
+    {
+      "name": "Health and Social Care Act 2012, s.261",
+      "level": "National",
+      "year": "2012",
+      "what": "NHS England may release collected data only for health care, social care or promotion of health.",
+      "url": "https://www.legislation.gov.uk/ukpga/2012/7/section/261"
+    },
+    {
+      "name": "Health Service (Control of Patient Information) Regulations 2002 (NHS Act 2006, s.251)",
+      "level": "National",
+      "year": "2002",
+      "what": "Lets confidential patient data be used without consent on CAG approval; national opt-out then applies.",
+      "url": "https://www.legislation.gov.uk/uksi/2002/1438/contents/made"
+    },
+    {
+      "name": "Medical Devices Regulations 2002, as amended by S.I. 2024/1368",
+      "level": "National",
+      "year": "2024",
+      "what": "Device rules covering AI software; post-market surveillance duties in force from June 2025.",
+      "url": "https://www.legislation.gov.uk/uksi/2024/1368/made"
+    },
+    {
+      "name": "Health Bill (single patient record), before Parliament",
+      "level": "National",
+      "year": "2026",
+      "what": "Would create a national single patient record viewable in the NHS App; no new opt-out.",
+      "url": "https://www.gov.uk/government/publications/health-bill-single-patient-record-fact-sheet/health-bill-single-patient-record-fact-sheet"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-04-23",
+      "headline": "UK Biobank data on 500,000 volunteers listed for sale online",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cpvxgl3n138o",
+      "why": "Shows research data can leak through approved researchers, not only hackers."
+    },
+    {
+      "date": "2026-06-04",
+      "headline": "MPs urge government to end Palantir's NHS data platform contract",
+      "source": "BMJ",
+      "url": "https://www.bmj.com/content/393/bmj-2026-035692",
+      "why": "Decides who runs the platform holding operational patient data after February 2027."
+    },
+    {
+      "date": "2026-06-13",
+      "headline": "Minister confirms patients cannot opt out of Federated Data Platform",
+      "source": "The Register",
+      "url": "https://www.theregister.com/databases/2026/06/13/nhs-patients-cant-opt-out-of-palantirs-data-platform-but-their-hospital-can/5254766",
+      "why": "Patient choice covers research and planning, not the platform used for care."
+    },
+    {
+      "date": "2026-06-17",
+      "headline": "Former health worker cautioned for trying to sell Princess of Wales's records",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c8r2gmn48v8o",
+      "why": "Shows insiders misusing records; the ICO judged a caution proportionate."
+    },
+    {
+      "date": "2026-09-10",
+      "headline": "National commission publishes 44 recommendations on regulating healthcare AI",
+      "source": "GOV.UK (MHRA)",
+      "url": "https://www.gov.uk/government/publications/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework",
+      "why": "Proposes patients be told when AI is used in their care."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

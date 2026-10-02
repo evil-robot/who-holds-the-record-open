@@ -1,0 +1,373 @@
+{
+  "iso3": "FRA",
+  "name": "France",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Nearly everyone has an opt-out Mon espace santé with blocking and an access history, but only a third use it and vendors leak.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 70,
+      "summary": "French law gives a free right to the whole record within 8 days, and Mon espace santé exists for about 97% of people by default. It holds documents providers deposit, not the full chart, and only 33.6% of accounts are activated.",
+      "detail": [
+        "The Public Health Code (R1111-1 to R1111-7) lets a patient see or get a copy of their health information directly or through a chosen doctor. Copies come within 8 days, at the earliest after 48 hours, or within 2 months for information older than 5 years. Consultation is free (Service-Public.fr).",
+        "Refusals can be taken to the hospital users' commission, then the CADA and the administrative court for public hospitals, or to CNIL for private clinics, and to the medical council for private doctors.",
+        "Mon espace santé opens automatically 6 weeks after the Assurance maladie letter unless the person objects. About 97% of the population has a profile, 33.6% of accounts are activated and about 2.5 million people log in each month (ARS Nouvelle-Aquitaine, February 2026).",
+        "Providers deposited more than 420 million documents in 2025, 40% more than in 2024. A list fixed by order (arrêté of 26 April 2022) obliges deposit of lab reports, discharge documents, prescriptions, operative reports and letters, so the space is a document store, not the provider's full file.",
+        "We score in the 60 to 75 band (statutory right plus a national portal showing part of the record). Activation by a third of people keeps it out of the higher band."
+      ],
+      "sources": [
+        {
+          "title": "Accès au dossier médical (Service-Public.fr, vérifié le 28 février 2025)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12210",
+          "date": "2025-02-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mon espace santé (Service-Public.fr, vérifié le 31 décembre 2025)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10872",
+          "date": "2025-12-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "En 2026, Mon espace santé amorce un nouveau virage (ARS Nouvelle-Aquitaine, communiqué)",
+          "url": "https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-en-2026-mon-espace-sante-amorce-un-nouveau-virage-pour-devenir-loutil-central",
+          "date": "2026-02-06",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 68,
+      "summary": "Mon espace santé is opt-out, but inside it patients can block named professionals, hide documents, get a notification when a professional connects and read an activity history. Emergency staff can open the record unless the patient objected.",
+      "detail": [
+        "A person can refuse creation within 6 weeks, close the space at any time and reopen it later; archived data returns (Service-Public.fr).",
+        "Users can block access for named health professionals and hide chosen documents, which then become invisible to professionals reading the shared record (DMP). All settings can be changed at any time.",
+        "The patient receives a notification when a professional connects, and an activity history shows who consulted the data. The state, the Assurance maladie, insurers, mutuals and employers have no access (ARS Centre-Val de Loire).",
+        "In an emergency, health professionals and the SAMU regulating doctor can open the DMP unless the person objected. A minor can ask that some data be kept from parents.",
+        "Opt-out, a patient-visible log and granular blocking place France in the 60 to 80 band. Hidden documents vanish for all professionals, not one, as in Germany (66); connection alerts add one step, so 68."
+      ],
+      "sources": [
+        {
+          "title": "Mon espace santé (Service-Public.fr, vérifié le 31 décembre 2025)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10872",
+          "date": "2025-12-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mon Espace Santé, le service public numérique (ARS Centre-Val de Loire)",
+          "url": "https://www.centre-val-de-loire.ars.sante.fr/mon-espace-sante-le-service-public-numerique-pour-faciliter-les-echanges-entre-patient-et-3",
+          "date": "2026-09-09",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 58,
+      "summary": "CNIL enforces in health, with a 5 million euro fine on IQVIA and a 500,000 euro fine on a private hospital in 2026. But a software attack may have exposed data of about 15 million patients, about 164,000 with sensitive data (not necessarily health data).",
+      "detail": [
+        "In September 2026 CNIL fined Hôpital privé de la Loire 500,000 euros. An attacker reached the patient record system in summer 2025 and accessed data of 524,867 patients and 202,246 trusted persons; there was no VPN or multi-factor login for external users and no real-time detection (CNIL).",
+        "In February 2026 the health minister said about 15 million people could be affected by an attack on Cegedim's MLM software for doctors, about 164,000 with sensitive data, not necessarily health data. Cegedim said 1,500 of 3,800 user doctors were hit and structured medical records stayed intact (Caducée).",
+        "French law requires health data hosts to be certified or approved and bans selling identifying health data, with criminal penalties (Public Health Code L1111-8).",
+        "The national research platform (Health Data Hub) has been on Microsoft Azure since 2019. In April 2026 it chose Scaleway, with migration expected late 2026 or early 2027; Le Monde Informatique reports Scaleway does not yet hold the ANSSI SecNumCloud label.",
+        "We score on health-sector evidence: active fines offset by large breaches at a vendor and a hospital."
+      ],
+      "sources": [
+        {
+          "title": "Violation de données en matière de santé : sanction de 500 000 euros à l'encontre de l'Hôpital privé de la Loire (CNIL)",
+          "url": "https://www.cnil.fr/fr/sanction-hopital-prive-loire",
+          "date": "2026-09-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Cegedim : l'État acte l'ampleur de la fuite (Caducée.net)",
+          "url": "https://www.caducee.net/actualite-medicale/16822/cegedim-l-etat-acte-l-ampleur-de-la-fuite-et-precise-le-risque-donnees-sensibles-pour-164-000-personnes.html",
+          "date": "2026-02-28",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Code de la santé publique, article L1111-8 (copy of the official text, Espace éthique Hauts-de-France)",
+          "url": "https://www.ethique-hdf.fr/fileadmin/user_upload/Article_L1111-8_CSP_-_Hebergement_des_donnees_de_sante_a_caractere_personnel.pdf",
+          "date": "2017-01-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Scaleway devient l'hébergeur du Health Data Hub (Le Monde Informatique)",
+          "url": "https://www.lemondeinformatique.fr/actualites/lire-scaleway-devient-l-hebergeur-du-health-data-hub-99998.html",
+          "date": "2026-04-23",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 66,
+      "summary": "French law bans selling identifying health data even with consent, and bars using the national claims database to promote health products or price insurance. Yet IQVIA built warehouses on tens of millions of people from pharmacy data customers were not told about.",
+      "detail": [
+        "Article L1111-8 VII of the Public Health Code bans any paid transfer of directly or indirectly identifying health data, even with the person's agreement, under criminal penalty.",
+        "The law forbids use of SNDS data to promote health products, to exclude insurance cover or to change premiums. Private bodies need CNIL authorisation for research access (CNIL).",
+        "In May 2026 CNIL fined IQVIA 5 million euros. Its LRX warehouse drew on about 14,000 pharmacies; none of four inspected told customers, pharmacy software sent data even when customers refused, and CNIL held the data pseudonymous, not anonymous.",
+        "CNIL processed 539 health authorisation files in 2025. Apps listed in the Mon espace santé catalogue must meet state criteria; other consumer apps fall under general GDPR rules.",
+        "Strong statutory bans, but a licensed commercial data market that failed patients in practice, keeps the score below peers with fewer violations."
+      ],
+      "sources": [
+        {
+          "title": "Code de la santé publique, article L1111-8 (copy of the official text, Espace éthique Hauts-de-France)",
+          "url": "https://www.ethique-hdf.fr/fileadmin/user_upload/Article_L1111-8_CSP_-_Hebergement_des_donnees_de_sante_a_caractere_personnel.pdf",
+          "date": "2017-01-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "SNDS : Système national des données de santé (CNIL)",
+          "url": "https://www.cnil.fr/fr/snds-systeme-national-des-donnees-de-sante",
+          "date": "2017-03-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Données de santé : sanction de 5 millions d'euros à l'encontre de la société IQVIA (CNIL)",
+          "url": "https://www.cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia",
+          "date": "2026-05-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mon Espace Santé, le service public numérique (ARS Centre-Val de Loire)",
+          "url": "https://www.centre-val-de-loire.ars.sante.fr/mon-espace-sante-le-service-public-numerique-pour-faciliter-les-echanges-entre-patient-et-3",
+          "date": "2026-09-09",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 72,
+      "summary": "The SNDS links insurance claims, hospital stays, causes of death and disability data nationally, and providers must deposit key documents in Mon espace santé. Feeding is high but uneven, and software for reading the record is being upgraded.",
+      "detail": [
+        "The SNDS joins the claims base (SNIIRAM), hospital activity (PMSI), causes of death (CepiDC) and disability data, under pseudonyms (CNIL).",
+        "Professionals must deposit lab reports, an annual GP summary, discharge documents, prescriptions, operative reports, imaging requests and letters in the DMP, which also holds dossier pharmaceutique medication data (Service-Public.fr).",
+        "Providers deposited more than 420 million documents in 2025. In Nouvelle-Aquitaine 90% of health establishments and 68.5% of private professionals feed it (ARS, regional figures).",
+        "A second Ségur wave will first cover primary care, imaging and hospitals so that clinician software can use the record with less input. Since September 2025 one listed app can send glucose data into Mon espace santé.",
+        "Primary care and claims are well connected; hospitals, labs and pharmacy are partly linked through documents rather than live data."
+      ],
+      "sources": [
+        {
+          "title": "SNDS : Système national des données de santé (CNIL)",
+          "url": "https://www.cnil.fr/fr/snds-systeme-national-des-donnees-de-sante",
+          "date": "2017-03-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mon espace santé (Service-Public.fr, vérifié le 31 décembre 2025)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10872",
+          "date": "2025-12-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "En 2026, Mon espace santé amorce un nouveau virage (ARS Nouvelle-Aquitaine, communiqué)",
+          "url": "https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-en-2026-mon-espace-sante-amorce-un-nouveau-virage-pour-devenir-loutil-central",
+          "date": "2026-02-06",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 62,
+      "summary": "Treating professionals the patient has not blocked can read the shared record, and emergency access applies unless refused. About 70,000 professionals, 38,000 of them private doctors, consult records each month, and software ease of use is still poor.",
+      "detail": [
+        "Patients, authorised professionals and the care team can read the DMP. Professionals the patient blocked and documents the patient hid are out of view (Service-Public.fr).",
+        "In an emergency, professionals and the SAMU regulating doctor can open the DMP unless the patient objected.",
+        "Each month about 70,000 health professionals, including 38,000 private doctors, connect to consult patient records. The Assurance maladie and ministry note strong demand for better ergonomics (ARS Nouvelle-Aquitaine, February 2026).",
+        "The record is a set of deposited documents, so what a clinician sees depends on what other providers uploaded. The second Ségur wave aims to fix navigation inside practice software."
+      ],
+      "sources": [
+        {
+          "title": "Mon espace santé (Service-Public.fr, vérifié le 31 décembre 2025)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10872",
+          "date": "2025-12-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "En 2026, Mon espace santé amorce un nouveau virage (ARS Nouvelle-Aquitaine, communiqué)",
+          "url": "https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-en-2026-mon-espace-sante-amorce-un-nouveau-virage-pour-devenir-loutil-central",
+          "date": "2026-02-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mon Espace Santé, le service public numérique (ARS Centre-Val de Loire)",
+          "url": "https://www.centre-val-de-loire.ars.sante.fr/mon-espace-sante-le-service-public-numerique-pour-faciliter-les-echanges-entre-patient-et-3",
+          "date": "2026-09-09",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 60,
+      "summary": "People can object to research use of their SNDS data, private users need CNIL authorisation and every project is listed publicly. The opt-out is exercised by writing to one's insurance fund and does not cover state public health missions.",
+      "detail": [
+        "Anyone can object to use of their SNDS data for research, but not to processing needed for state missions such as epidemic monitoring (CNIL). The right is exercised with the director of the person's health insurance fund (snds.gouv.fr).",
+        "SNDS data carries no names, social security numbers or addresses; each person gets an irreversible pseudonym code. Data is kept 19 years plus the collection year, then archived for 10 years (CNIL page dated 2017).",
+        "The Plateforme des données de santé publishes a public register of projects, listing thousands of studies by aim and medical field.",
+        "The 2025 national strategy tasks the platform with building a national form for citizens to exercise SNDS rights, which shows the current route is not simple. Under the EU EHDS, secondary-use rules and a simple, reversible opt-out apply for most data from March 2029 (European Commission).",
+        "A general opt-out exists, so France sits in the 55 to 70 band; the clumsy route keeps it in the lower half."
+      ],
+      "sources": [
+        {
+          "title": "SNDS : Système national des données de santé (CNIL)",
+          "url": "https://www.cnil.fr/fr/snds-systeme-national-des-donnees-de-sante",
+          "date": "2017-03-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Protection de la donnée (snds.gouv.fr)",
+          "url": "https://www.snds.gouv.fr/SNDS/Protection-de-la-donnee",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tous les projets, répertoire public (Plateforme des données de santé)",
+          "url": "https://www.health-data-hub.fr/projets",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Publication de la stratégie nationale sur l'intelligence artificielle et les données de santé (Health Data Hub)",
+          "url": "https://www.health-data-hub.fr/actualites/publication-de-la-strategie-nationale-sur-lintelligence-artificielle-et-les-donnees-de",
+          "date": "2025-11-27",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 54,
+      "summary": "Clinical AI falls under EU device law and the AI Act, plus HAS hospital certification criteria on AI risk since September 2025. A 2021 law requires patients be told when AI devices are used, but its implementing order was not found.",
+      "detail": [
+        "Base 50 for EU law (MDR, AI Act). Regulation (EU) 2026/1744 moved obligations for high-risk AI embedded in products under EU harmonised product law to 2 August 2028 (Cuatrecasas).",
+        "HAS's sixth hospital certification cycle, in force since 1 September 2025, adds requirements on risks linked to digital tools and AI. We credit this as binding national guidance: +4.",
+        "Article L4001-3 of the Public Health Code (2021) says a professional using a medical device with an algorithm trained on massive data must ensure the patient is informed, and designers must ensure explicability. Its part IV requires a ministerial order defining the devices; we did not find it, so no credit.",
+        "HAS published a generative AI guide in October 2025, and a HAS and CNIL draft guide on AI in care was under consultation until 16 April 2026. These are guidance only."
+      ],
+      "sources": [
+        {
+          "title": "Digital Omnibus on AI has been published (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+          "date": "2026-07-24",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "Certification des établissements de santé : lancement officiel du 6e cycle (HAS)",
+          "url": "https://www.has-sante.fr/jcms/p_3643724/fr/certification-des-etablissements-de-sante-lancement-officiel-du-6e-cycle-au-1er-septembre-2025",
+          "date": "2025-09-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Principaux textes réglementant l'intelligence artificielle (Conseil national de l'Ordre des médecins)",
+          "url": "https://www.conseil-national.medecin.fr/medecin/exercice/principaux-textes-reglementant-lintelligence-artificielle",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Guide HAS/CNIL, bon usage des systèmes d'IA en contexte de soins (AP-HP, Direction des affaires juridiques)",
+          "url": "https://affairesjuridiques.aphp.fr/textes/guide-has-cnil-accompagner-le-bon-usage-des-systemes-dintelligence-artificielle-en-contexte-de-soins-fevrier-2026/",
+          "date": "2026-02-18",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "connected",
+    "publicHealth": "connected",
+    "research": "connected"
+  },
+  "journeyNote": "Mon espace santé and the SNDS give France a national spine for documents and claims. Hospitals, labs and pharmacy link through deposited documents, and clinician software is mid-upgrade.",
+  "laws": [
+    {
+      "name": "Code de la santé publique, L1110-4 and R1111-1 to R1111-7",
+      "level": "National",
+      "year": "2004",
+      "what": "Medical secrecy and free patient access to health information within 8 days, 2 months if older.",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12210"
+    },
+    {
+      "name": "Code de la santé publique, article L1111-8 (health data hosting)",
+      "level": "National",
+      "year": "2017",
+      "what": "Certified hosting of health data; bans paid transfer of identifying health data, even with consent.",
+      "url": "https://www.ethique-hdf.fr/fileadmin/user_upload/Article_L1111-8_CSP_-_Hebergement_des_donnees_de_sante_a_caractere_personnel.pdf"
+    },
+    {
+      "name": "Loi de modernisation de notre système de santé (SNDS)",
+      "level": "National",
+      "year": "2016",
+      "what": "Created the SNDS; bans product promotion and insurance pricing uses; research opt-out.",
+      "url": "https://www.cnil.fr/fr/snds-systeme-national-des-donnees-de-sante"
+    },
+    {
+      "name": "Code de la santé publique, article L4001-3 (bioethics law)",
+      "level": "National",
+      "year": "2021",
+      "what": "Patients informed when AI-based medical devices are used; designers must ensure explicability.",
+      "url": "https://www.conseil-national.medecin.fr/medecin/exercice/principaux-textes-reglementant-lintelligence-artificielle"
+    },
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "Health data is a special category (Art. 9); access right, breach notification, large fines.",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Access logs, restriction rights and secondary-use opt-out; key parts apply from March 2029.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "AI Act (EU) 2024/1689, amended by (EU) 2026/1744",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "Risk rules for AI; high-risk AI in regulated products applies from 2 August 2028.",
+      "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-30",
+      "headline": "HAS publishes first guide on using generative AI in health care",
+      "source": "Haute Autorité de santé",
+      "url": "https://www.has-sante.fr/jcms/p_3703069/fr/l-ia-generative-en-sante-oui-avec-un-usage-responsable",
+      "why": "Sets expectations for supervised, transparent AI use with patients."
+    },
+    {
+      "date": "2026-02-28",
+      "headline": "Minister says software attack may affect 15 million patients",
+      "source": "Caducée.net",
+      "url": "https://www.caducee.net/actualite-medicale/16822/cegedim-l-etat-acte-l-ampleur-de-la-fuite-et-precise-le-risque-donnees-sensibles-pour-164-000-personnes.html",
+      "why": "Shows practice software vendors are a weak point for patient data."
+    },
+    {
+      "date": "2026-04-23",
+      "headline": "National health data platform picks Scaleway to replace Microsoft Azure",
+      "source": "Plateforme des données de santé",
+      "url": "https://www.health-data-hub.fr/actualites/la-plateforme-des-donnees-de-sante-engage-sa-migration-vers-un-cloud-souverain-avec",
+      "why": "Moves the national claims database copy to a French host from late 2026."
+    },
+    {
+      "date": "2026-05-28",
+      "headline": "CNIL fines IQVIA 5 million euros over health data warehouses",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia",
+      "why": "Pharmacy customers were not told their data fed a commercial warehouse."
+    },
+    {
+      "date": "2026-09-03",
+      "headline": "CNIL fines private hospital 500,000 euros after patient record breach",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/sanction-hopital-prive-loire",
+      "why": "Missing basic security exposed 524,867 patients and their trusted persons."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

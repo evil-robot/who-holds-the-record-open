@@ -1,0 +1,380 @@
+{
+  "iso3": "MEX",
+  "name": "Mexico",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Mexican law gives patients a free copy of their data, but records stay inside each institution until cross-institution sharing, decreed in April 2026, begins.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 55,
+      "summary": "Both data laws make access free with a 20-day answer deadline, and the IMSS app shows 36 months of visits, prescriptions and labs. Score: base 45, +5 free with a deadline, +5 official portal; only 493,144 of 54 million eligible had enrolled by October 2025.",
+      "detail": [
+        "Article 44 of the public-sector data law (LGPDPPSO) makes access requests free, with charges only for reproduction, and free for up to 20 pages. Article 45 sets a 20-day answer deadline, extendable once by 10 days, then 15 days to deliver. Article 51 adds a copy in a structured electronic format.",
+        "For private clinics, Article 34 of the LFPDPPP makes access free except reproduction costs, and Article 31 sets a 20-day answer and 15 days to deliver.",
+        "NOM-004 says the record belongs to the institution that creates it, while the patient holds rights over the information. Under point 5.6 a clinical summary must be requested in writing.",
+        "IMSS says its Cedula Digital de Salud lets more than 54 million people with an IMSS electronic record see 36 months of visits, prescriptions and lab studies. By 24 October 2025, 493,144 had enrolled.",
+        "There is no national portal yet. The April 2026 decree promises a national app with access to the electronic record, but sets no start date for it."
+      ],
+      "sources": [
+        {
+          "title": "Ley General de Proteccion de Datos Personales en Posesion de Sujetos Obligados (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPDPPSO.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley Federal de Proteccion de Datos Personales en Posesion de los Particulares (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NOM-004-SSA3-2012, Del expediente clinico (DOF)",
+          "url": "https://dof.gob.mx/nota_detalle.php?codigo=5272787&fecha=15/10/2012",
+          "date": "2012-10-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "IMSS Boletin 542/2025: Cedula Digital de Salud",
+          "url": "https://www.imss.gob.mx/sites/all/statics/i2f_news/IMSS.%20Boletin.%20542.pdf",
+          "date": "2025-10-24",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 35,
+      "summary": "Mexico's public-sector law lets providers use health data for care without consent, and the private-sector law lets them share it for treatment without consent. No opt-out or patient-visible log exists; scored at the band top because no cross-institution sharing is live.",
+      "detail": [
+        "LGPDPPSO Article 16 VII lifts the consent requirement for data needed for prevention, diagnosis or health care. Article 16 II also allows transfers between public bodies for compatible purposes without consent.",
+        "For private providers, LFPDPPP Article 8 requires express written consent for sensitive data. Article 9 VI waives it for care only while the patient cannot consent, but Article 36 II lets providers transfer data for diagnosis or treatment without consent.",
+        "Article 8 of the April 2026 decree says authorised staff of SUS institutions may view history, diagnoses, treatments, labs, imaging and vaccines. It gives the patient no choice over who sees it.",
+        "NOM-024 defines an audit record of user activity in health information systems and asks systems to control consents. Neither text gives the patient a view of that log."
+      ],
+      "sources": [
+        {
+          "title": "Decreto por el que se crea el Servicio Universal de Salud (DOF, 17 abril 2026)",
+          "url": "https://sidof.segob.gob.mx/notas/5785257",
+          "date": "2026-04-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley General de Proteccion de Datos Personales en Posesion de Sujetos Obligados (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPDPPSO.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley Federal de Proteccion de Datos Personales en Posesion de los Particulares (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NOM-024-SSA3-2012, Sistemas de informacion de registro electronico para la salud (DOF)",
+          "url": "https://dof.gob.mx/nota_detalle.php?codigo=5280847&fecha=30/11/2012",
+          "date": "2012-11-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 40,
+      "summary": "Health data are sensitive under both 2025 laws, with breach notice and fines, but the independent INAI was abolished and oversight moved to a ministry. A leak of 20 million IMSS pensioner records with medical conditions surfaced in September 2025, Infobae reported.",
+      "detail": [
+        "Both 2025 laws define health status and genetic data as sensitive. Their transitional articles transfer the INAI's functions to the Secretaria Anticorrupcion y Buen Gobierno (SABG), a ministry, not an independent regulator.",
+        "Private firms face fines up to 320,000 UMA, which can be doubled for sensitive data (LFPDPPP Article 59). Against public bodies the ministry can impose only coercive fines of 150 to 1,500 UMA to enforce its rulings (LGPDPPSO Article 122).",
+        "Both laws require telling people about breaches that significantly affect their rights (LGPDPPSO Article 34, LFPDPPP Article 19). Public bodies must also keep a breach log (Article 33).",
+        "Infobae reported in October 2025 that data on 20 million IMSS pensioners, including medical conditions and blood type, were sold online. IMSS called it a possible leak, not a hack.",
+        "In late January 2026 the Chronus group leaked 2.3 terabytes from agencies including IMSS, IMSS-Bienestar and the Health Ministry, El Universal reported. A consultancy it cited said medical data and a 1.8 terabyte roll of the health protection system (Seguro Popular) were exposed."
+      ],
+      "sources": [
+        {
+          "title": "Ley General de Proteccion de Datos Personales en Posesion de Sujetos Obligados (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPDPPSO.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley Federal de Proteccion de Datos Personales en Posesion de los Particulares (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Filtracion de 20 millones de datos de pensionados del IMSS (Infobae)",
+          "url": "https://www.infobae.com/mexico/2025/10/08/filtracion-de-20-millones-de-datos-de-pensionados-del-imss-primer-gran-reto-de-la-nueva-unidad-de-proteccion-de-datos/",
+          "date": "2025-10-08",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Ciberataque a SAT, IMSS y Morena expone datos de 36 millones (El Universal via Yahoo)",
+          "url": "https://es-us.finanzas.yahoo.com/noticias/ciberataque-sat-imss-morena-expone-201520425.html",
+          "date": "2026-02-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "Private use of health data needs express written consent, and misuse of sensitive data for profit carries doubled prison terms. No health-specific ban on selling data or ad targeting was found.",
+      "detail": [
+        "LFPDPPP Article 8 requires express written consent for sensitive data, by signature or an authentication mechanism, and bars databases of sensitive data without a legitimate purpose.",
+        "Transfers to third parties need the person's acceptance in the privacy notice, except listed cases such as care, group companies or contracts (Articles 35 and 36). The group-company exception is broad.",
+        "Articles 62 to 64 set prison terms for profiting from breaches or deception, doubled for sensitive data. Article 26 lets people object to automated processing that predicts their health status without human input.",
+        "The SABG's July 2026 FAN ID fine shows it will enforce the written-consent rule for sensitive data. No case about health apps, pharmacies or data brokers was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley Federal de Proteccion de Datos Personales en Posesion de los Particulares (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Primeros criterios publicos de la SABG tras el caso FAN ID (Ritch Mueller)",
+          "url": "https://www.ritch.com.mx/prensa/alerta-para-clientes-primeros-criterios-publicos-de-la-sabg-en-materia-de-proteccion-de-datos-personales-tras-la-resolucion-del-caso-fan-id",
+          "date": "2026-07-29",
+          "publisherClass": "law_firm"
+        }
+      ]
+    },
+    "journey": {
+      "score": 38,
+      "summary": "IMSS keeps an electronic record for 54 million people, but each public institution runs its own system and no national exchange is live. The April 2026 decree orders a shared record; service sharing starts in January 2027, with labs and imaging from July 2027.",
+      "detail": [
+        "LGS Article 109 Bis has since 2012 required the Health Ministry to set interoperability rules, and NOM-024 sets the standards for certified record systems. A January 2026 reform added a digital health chapter (Articles 71 Bis to 71 Octies).",
+        "The decree makes the SUS a mandatory coordination scheme for federal institutions. Phase one from 1 January 2027 covers emergencies, vaccination and primary care; phase two from 1 July 2027 adds lab and imaging studies.",
+        "In August 2026 the Health Ministry and IMSS signed an agreement to share clinical information, but national interoperability was still in development, ConsultorSalud reported.",
+        "El Imparcial reported in June 2026 that integration will be gradual because digital maturity differs widely between IMSS and other public units."
+      ],
+      "sources": [
+        {
+          "title": "Decreto por el que se crea el Servicio Universal de Salud (DOF, 17 abril 2026)",
+          "url": "https://sidof.segob.gob.mx/notas/5785257",
+          "date": "2026-04-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley General de Salud, texto vigente con reforma de salud digital del 15 enero 2026 (Camara de Diputados)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf",
+          "date": "2026-01-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NOM-024-SSA3-2012, Sistemas de informacion de registro electronico para la salud (DOF)",
+          "url": "https://dof.gob.mx/nota_detalle.php?codigo=5280847&fecha=30/11/2012",
+          "date": "2012-11-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Salud e IMSS firman convenio para la interoperabilidad del expediente clinico electronico (ConsultorSalud)",
+          "url": "https://consultorsalud.com.mx/expediente-clinico-electronico-salud-imss/",
+          "date": "2026-08-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 35,
+      "summary": "Today a doctor at one public institution cannot open a patient's record from another. The April 2026 decree already authorises staff of all public institutions to view history, diagnoses, labs, imaging and vaccines, but the exchange is not built; phases start in 2027.",
+      "detail": [
+        "The decree's preamble says the electronic record is meant to let authorised staff consult the patient's history in real time and avoid repeated tests.",
+        "Article 8 lists what staff will see: history, diagnoses, treatments, lab and imaging studies and vaccines. Service starts in phases from 1 January 2027.",
+        "The Health Ministry and IMSS signed a data-sharing agreement only in August 2026, and the Hospital de la Mujer was just starting its electronic record.",
+        "Private providers sit outside the SUS. Emergency access without consent is allowed by LGPDPPSO Article 16 VI."
+      ],
+      "sources": [
+        {
+          "title": "Decreto por el que se crea el Servicio Universal de Salud (DOF, 17 abril 2026)",
+          "url": "https://sidof.segob.gob.mx/notas/5785257",
+          "date": "2026-04-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Salud e IMSS firman convenio para la interoperabilidad del expediente clinico electronico (ConsultorSalud)",
+          "url": "https://consultorsalud.com.mx/expediente-clinico-electronico-salud-imss/",
+          "date": "2026-08-10",
+          "publisherClass": "news"
+        },
+        {
+          "title": "El IMSS planea IA en su expediente clinico e interoperabilidad con ISSSTE e IMSS-Bienestar para 2027 (El Imparcial)",
+          "url": "https://www.elimparcial.com/mexico/2026/06/04/el-imss-planea-aplicar-inteligencia-artificial-en-su-expediente-clinico-electronico-mientras-desarrolla-la-interoperabilidad-total-de-datos-de-salud-con-el-issste-e-imss-bienestar-para-inicios-de-2027/",
+          "date": "2026-06-04",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Ley General de Proteccion de Datos Personales en Posesion de Sujetos Obligados (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPDPPSO.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Research on people needs written informed consent and ethics committee approval, and record review is classed as no-risk research, not consent-free. De-identified data can be used without consent, with no opt-out or public register.",
+      "detail": [
+        "LGS Article 100 IV requires the written informed consent of the research subject. Reglamento Article 14 requires consent and favourable opinions from research and ethics committees.",
+        "Article 17 classes review of clinical records as research without risk. The former waiver clause, Article 23, was repealed on 2 April 2014, and Article 16 protects the subject's privacy.",
+        "Both data laws exempt data that have been dissociated (de-identified) from consent, with no general opt-out or public register of uses found. Score: base 40, +3 each for ethics committees, record secrecy, misuse penalties and a consent route, capped at 50."
+      ],
+      "sources": [
+        {
+          "title": "Ley General de Salud, texto vigente con reforma de salud digital del 15 enero 2026 (Camara de Diputados)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf",
+          "date": "2026-01-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Reglamento de la Ley General de Salud en Materia de Investigacion para la Salud (Camara de Diputados)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/regley/Reg_LGS_MIS.pdf",
+          "date": "2014-04-02",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley General de Proteccion de Datos Personales en Posesion de Sujetos Obligados (Camara de Diputados, texto vigente)",
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPDPPSO.pdf",
+          "date": "2025-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NOM-004-SSA3-2012, Del expediente clinico (DOF)",
+          "url": "https://dof.gob.mx/nota_detalle.php?codigo=5272787&fecha=15/10/2012",
+          "date": "2012-10-15",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 38,
+      "summary": "COFEPRIS registers software as a medical device with lifecycle, clinical evidence and cybersecurity files, but its own guide says the General Health Law does not yet recognise such software. No AI-specific change control rule or AI law exists.",
+      "detail": [
+        "The December 2023 COFEPRIS guide adds a checklist for software as a medical device in classes I to III, requiring lifecycle summaries, validation, clinical evidence and cybersecurity controls.",
+        "The guide notes the category appears in the pharmacopoeia supplement but not yet in the General Health Law. No rule on algorithm changes or human oversight was found.",
+        "El Economista reported that by July 2026 Mexico had no general AI law; the Senate commission's draft was not yet a bill and needs constitutional reform first.",
+        "IMSS plans an AI assistant inside its electronic record, El Imparcial reported in June 2026."
+      ],
+      "sources": [
+        {
+          "title": "COFEPRIS: Guia para la obtencion del Registro Sanitario de Dispositivos Medicos",
+          "url": "https://www.gob.mx/cofepris/documentos/guia-para-la-obtencion-del-registro-sanitario-de-dispositivos-medicos",
+          "date": "2023-12-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mexico regula la inteligencia artificial por sectores mientras aplaza la ley general (El Economista)",
+          "url": "https://www.eleconomista.com.mx/tecnologia/mexico-regula-inteligencia-artificial-sectores-aplaza-ley-general-20260723-824716.html",
+          "date": "2026-07-23",
+          "publisherClass": "news"
+        },
+        {
+          "title": "El IMSS planea IA en su expediente clinico e interoperabilidad con ISSSTE e IMSS-Bienestar para 2027 (El Imparcial)",
+          "url": "https://www.elimparcial.com/mexico/2026/06/04/el-imss-planea-aplicar-inteligencia-artificial-en-su-expediente-clinico-electronico-mientras-desarrolla-la-interoperabilidad-total-de-datos-de-salud-con-el-issste-e-imss-bienestar-para-inicios-de-2027/",
+          "date": "2026-06-04",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "IMSS links visits, prescriptions and labs inside its own system for 54 million people; ISSSTE, IMSS-Bienestar, state services and private providers keep separate records. Cross-institution sharing starts in 2027. The 32 states also have their own public-sector data laws.",
+  "laws": [
+    {
+      "name": "Ley General de Proteccion de Datos Personales en Posesion de Sujetos Obligados",
+      "level": "National",
+      "year": "2025",
+      "what": "Public bodies: health data sensitive, free access in 20 days, care exempt from consent; INAI replaced by a ministry.",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPDPPSO.pdf"
+    },
+    {
+      "name": "Ley Federal de Proteccion de Datos Personales en Posesion de los Particulares",
+      "level": "National",
+      "year": "2025",
+      "what": "Private sector: express written consent for health data, fines can double and prison for sensitive data misuse.",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf"
+    },
+    {
+      "name": "Ley General de Salud (reforma de salud digital)",
+      "level": "National",
+      "year": "2026",
+      "what": "Adds digital health and telehealth chapter; research needs written informed consent; record interoperability rules.",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf"
+    },
+    {
+      "name": "Decreto por el que se crea el Servicio Universal de Salud",
+      "level": "National",
+      "year": "2026",
+      "what": "CURP-linked health credential and shared electronic record across public institutions, phased from January 2027.",
+      "url": "https://sidof.segob.gob.mx/notas/5785257"
+    },
+    {
+      "name": "NOM-004-SSA3-2012, Del expediente clinico",
+      "level": "National",
+      "year": "2012",
+      "what": "Record content and five-year retention; institution owns the record, patient holds rights over the information.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5272787&fecha=15/10/2012"
+    },
+    {
+      "name": "NOM-024-SSA3-2012, Sistemas de informacion de registro electronico para la salud",
+      "level": "National",
+      "year": "2012",
+      "what": "Standards, audit records, export and consent controls for certified electronic health record systems.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5280847&fecha=30/11/2012"
+    },
+    {
+      "name": "Ley de Proteccion de Datos Personales en Posesion de Sujetos Obligados de la Ciudad de Mexico",
+      "level": "State/Provincial",
+      "year": "2026",
+      "what": "Mexico City public-body data law; health data sensitive; oversight under the city comptroller's office.",
+      "url": "https://iecm.mx/www/marconormativo/docs/Ley_proteccion_DDPP_2026.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-08",
+      "headline": "Data on 20 million IMSS pensioners, including medical conditions, sold online",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/mexico/2025/10/08/filtracion-de-20-millones-de-datos-de-pensionados-del-imss-primer-gran-reto-de-la-nueva-unidad-de-proteccion-de-datos/",
+      "why": "Shows health data in the largest public insurer are exposed before records are pooled."
+    },
+    {
+      "date": "2026-02-10",
+      "headline": "Chronus leak of 2.3 terabytes hits IMSS, Health Ministry and other agencies",
+      "source": "El Universal",
+      "url": "https://es-us.finanzas.yahoo.com/noticias/ciberataque-sat-imss-morena-expone-201520425.html",
+      "why": "Points to weak cybersecurity across the institutions that will share the new record."
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "Mexico still lacks a general AI law as Senate draft stalls",
+      "source": "El Economista",
+      "url": "https://www.eleconomista.com.mx/tecnologia/mexico-regula-inteligencia-artificial-sectores-aplaza-ley-general-20260723-824716.html",
+      "why": "Clinical AI tools reach patients without an AI-specific legal framework."
+    },
+    {
+      "date": "2026-08-10",
+      "headline": "Health Ministry and IMSS sign agreement to share electronic clinical records",
+      "source": "ConsultorSalud",
+      "url": "https://consultorsalud.com.mx/expediente-clinico-electronico-salud-imss/",
+      "why": "First formal step toward records that follow patients between public institutions."
+    },
+    {
+      "date": "2026-08-25",
+      "headline": "Universal Health Service credential reaches 3.2 million older and disabled people",
+      "source": "Chilango",
+      "url": "https://www.chilango.com/noticias/avanza-credencializacion-del-servicio-universal-de-salud-asi-es-el-tramite/",
+      "why": "The credential is the key that will link each person to the shared record."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

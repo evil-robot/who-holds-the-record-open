@@ -1,0 +1,327 @@
+{
+  "iso3": "MLT",
+  "name": "Malta",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Malta's myHealth portal shows most public-sector records online, but private clinics, hospitals and prescribers are still largely outside the national record.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 72,
+      "summary": "Malta scored 93.71 on the EU's 2024 record-access indicator against an EU average of 82.7. myHealth shows public hospital summaries, labs, imaging reports, prescriptions and vaccines, but the Commission found no private-sector data and no mobile app.",
+      "detail": [
+        "The European Commission's 2025 country report scored Malta 93.71 on access to e-health records in 2024, up 6.5% on the year. All 13 data categories studied are available to citizens within 24 hours.",
+        "myHealth, run by the Ministry for Health, shows Government hospital case summaries, appointments, Pharmacy of Your Choice (POYC) prescriptions and dispensing, vaccinations, and lab and imaging reports. Labs and images appear when a linked doctor releases them, or after 3 days.",
+        "The gaps are scope and channel. The Commission's 2025 report found no private provider category sufficiently connected, and no mobile app. Login needs a Government e-ID.",
+        "The 2030 strategy says more than 200,000 residents have used myHealth and plans a personal health record where users upload their own records. Export in machine-readable form was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Digital Decade 2025 country report, Malta (European Commission, Council doc 10407/25 ADD 51)",
+          "url": "https://data.consilium.europa.eu/doc/document/ST-10407-2025-ADD-51/en/pdf",
+          "date": "2025-06-16",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "myHealth (Ministry for Health, archived 1 Aug 2026)",
+          "url": "https://web.archive.org/web/20260801073650/https://health.gov.mt/public-facing-services/myhealth/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Health and Health Data Strategy 2030 (Ministry for Health and Active Ageing)",
+          "url": "https://web.archive.org/web/20260727061320/https://health.gov.mt/wp-content/uploads/2025/11/Digital-Health-Health-Data-Strategy-Document.pdf",
+          "date": "2025-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 50,
+      "summary": "Patients choose which doctors can see their myHealth data and can remove a link at any time, and they set cross-border consent country by country. No patient-visible access log was found; the 2030 strategy only promises a way to see who contributes to records.",
+      "detail": [
+        "Patients send link requests to doctors in myHealth. Removing the link means the doctor 'will no longer be able to see any of your data' (myHealth user guide).",
+        "The cross-border consent tab lets a patient allow emergency transfer of a summary to any EU or EFTA country, all except some, or none.",
+        "myHealth keeps an audit trail 'for security and management purposes', but we found no screen where patients see it. The strategy says users 'will' be able to monitor who contributes to their records.",
+        "Access inside Government hospital and clinic systems does not depend on the myHealth link. Whether patients can opt out of that internal sharing was not verified."
+      ],
+      "sources": [
+        {
+          "title": "myHealth User Guide for Patients v2.2 (Information Management Unit)",
+          "url": "https://web.archive.org/web/20250712071632/https://health.gov.mt/wp-content/uploads/2024/10/myHealth-User-Guide-for-Patients-v.2.2-19Aug19.pdf",
+          "date": "2019-08-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "myHealth: About, disclaimer and privacy policy (archived 1 Aug 2026)",
+          "url": "https://web.archive.org/web/20260801073639/https://myhealth.gov.mt/home/about",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Health and Health Data Strategy 2030 (Ministry for Health and Active Ageing)",
+          "url": "https://web.archive.org/web/20260727061320/https://health.gov.mt/wp-content/uploads/2025/11/Digital-Health-Health-Data-Strategy-Document.pdf",
+          "date": "2025-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 62,
+      "summary": "GDPR and the Data Protection Act (Cap. 586) apply, and the IDPC has acted on health cases, including a EUR 20,000 fine on a private clinic in April 2025. No major Maltese health-system breach was found for 2025 to 2026.",
+      "detail": [
+        "Health data is a special category under the GDPR. Malta's Data Protection Act, Cap. 586, has been in force since 28 May 2018 (Legislation Malta).",
+        "In April 2025 the IDPC fined a private clinic EUR 20,000. It had not corrected a patient's address; she said her health data reached third parties as a result. It also had no Data Protection Officer.",
+        "The IDPC decisions list includes an order for an insurer to cut excessive medical questions from its health policy and claim forms, plus several unauthorised health-data disclosures.",
+        "We searched for 2025 to 2026 hospital breaches and found none; this is absence of evidence, not proof."
+      ],
+      "sources": [
+        {
+          "title": "The Commissioner imposed an administrative fine of EUR 20,000 on a private clinic (IDPC)",
+          "url": "https://idpc.org.mt/news-latest/the-commissioner-imposed-an-administrative-fine-of-e20000-on-a-private-clinic/",
+          "date": "2025-04-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Decisions (Information and Data Protection Commissioner)",
+          "url": "https://idpc.org.mt/decisions/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Protection Act, Cap. 586 (Legislation Malta)",
+          "url": "https://legislation.mt/eli/cap/586/eng",
+          "date": "2023-09-19",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 58,
+      "summary": "Malta's health secondary-use regulations list permitted purposes and require GDPR consent for anything else, which limits resale. There is no specific ban on selling health data or on health-based advertising.",
+      "detail": [
+        "S.L. 528.10 (2019) lists seven permitted secondary uses, such as service management, statistics, health threats and research. Regulation 5 says any other purpose needs the data subject's consent under the GDPR.",
+        "The myHealth privacy policy says personal data 'will not be passed on to third parties'.",
+        "The IDPC ordered an insurer to minimise the medical information it requests, showing some oversight of insurers.",
+        "Consumer health apps outside the public system fall only under general GDPR rules. No Malta-specific law on data brokers was found."
+      ],
+      "sources": [
+        {
+          "title": "S.L. 528.10 Processing of Personal Data (Secondary Processing) (Health Sector) Regulations",
+          "url": "https://legislation.mt/eli/sl/528.10/eng",
+          "date": "2019-10-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "myHealth: About, disclaimer and privacy policy (archived 1 Aug 2026)",
+          "url": "https://web.archive.org/web/20260801073639/https://myhealth.gov.mt/home/about",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Decisions (Information and Data Protection Commissioner)",
+          "url": "https://idpc.org.mt/decisions/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 60,
+      "summary": "Public hospitals, health centres, public nursing homes and POYC pharmacy data flow to one portal. Private hospitals and private GPs are not connected, and most private-sector prescribing is still on paper.",
+      "detail": [
+        "In 2024 public primary care and public geriatric nursing homes began supplying data. The Commission calls the absence of private providers 'the main gap' in Malta's e-health maturity.",
+        "The 2030 strategy says 'most prescribing in the private sector is still paper based'. ePrescription exists for POYC medicines; a national platform for all prescriptions is planned.",
+        "A National Electronic Health Records platform is meant to exchange allergies, conditions, procedures, medications, labs, imaging and vaccines between public and private providers. Migration of existing data is an early action.",
+        "Doctors use myHealth forms to notify infectious diseases and vaccinations."
+      ],
+      "sources": [
+        {
+          "title": "Digital Decade 2025 country report, Malta (European Commission, Council doc 10407/25 ADD 51)",
+          "url": "https://data.consilium.europa.eu/doc/document/ST-10407-2025-ADD-51/en/pdf",
+          "date": "2025-06-16",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Digital Health and Health Data Strategy 2030 (Ministry for Health and Active Ageing)",
+          "url": "https://web.archive.org/web/20260727061320/https://health.gov.mt/wp-content/uploads/2025/11/Digital-Health-Health-Data-Strategy-Document.pdf",
+          "date": "2025-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 56,
+      "summary": "A family doctor the patient has linked in myHealth can see Government hospital summaries, labs, imaging and prescriptions. Records held by private hospitals and clinics are not shared, so the view is public-sector only.",
+      "detail": [
+        "myHealth lets users link with one or more doctors and give them online access to their records. A paper consent form exists for patients who do not go online.",
+        "Lab and imaging reports reach the patient after release by a linked doctor, so the linked doctor sees them first.",
+        "The strategy plans to widen the consent model to health professionals other than doctors and to more public and private providers.",
+        "Emergency summaries can cross borders under the patient's cross-border consent setting."
+      ],
+      "sources": [
+        {
+          "title": "myHealth (Ministry for Health, archived 1 Aug 2026)",
+          "url": "https://web.archive.org/web/20260801073650/https://health.gov.mt/public-facing-services/myhealth/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Health and Health Data Strategy 2030 (Ministry for Health and Active Ageing)",
+          "url": "https://web.archive.org/web/20260727061320/https://health.gov.mt/wp-content/uploads/2025/11/Digital-Health-Health-Data-Strategy-Document.pdf",
+          "date": "2025-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "myHealth User Guide for Patients v2.2 (Information Management Unit)",
+          "url": "https://web.archive.org/web/20250712071632/https://health.gov.mt/wp-content/uploads/2024/10/myHealth-User-Guide-for-Patients-v.2.2-19Aug19.pdf",
+          "date": "2019-08-19",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 48,
+      "summary": "Research use of health records needs public interest, ethics approval and prior IDPC authorisation, with pseudonymised data where possible. There is no individual consent or general opt-out.",
+      "detail": [
+        "S.L. 528.10 regulation 4 allows research use where it is in the public interest. If anonymised data cannot be used, it needs approval by the Health Ethics Committee or a recognised ethics committee, plus prior authorisation from the Commissioner.",
+        "The data must be pseudonymised where possible and anonymised once identifiable data is no longer needed.",
+        "The Directorate for Health Information and Research has been designated as Malta's Health Data Access Body under the EHDS, to issue data permits. The EHDS gives people an opt-out from secondary use; most rules apply from March 2029."
+      ],
+      "sources": [
+        {
+          "title": "S.L. 528.10 Processing of Personal Data (Secondary Processing) (Health Sector) Regulations",
+          "url": "https://legislation.mt/eli/sl/528.10/eng",
+          "date": "2019-10-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Health and Health Data Strategy 2030 (Ministry for Health and Active Ageing)",
+          "url": "https://web.archive.org/web/20260727061320/https://health.gov.mt/wp-content/uploads/2025/11/Digital-Health-Health-Data-Strategy-Document.pdf",
+          "date": "2025-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "European Health Data Space Regulation (EHDS) (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI is governed by EU device law and the AI Act. Malta added L.N. 226 of 2025, naming the MDIA as lead AI market surveillance authority with fines up to EUR 350,000 or 1% of turnover.",
+      "detail": [
+        "L.N. 226 of 2025 (Gazette of 10 October 2025) designates the Malta Digital Innovation Authority as market surveillance authority and single point of contact, and the sole authority for the national AI sandbox.",
+        "It sets administrative penalties of up to EUR 350,000 per infringement, or 1% of worldwide turnover, plus a daily penalty of EUR 12,000.",
+        "No health-specific AI rules were found. The strategy expects first uses in medical imaging and symptom triage. AI Act duties for AI in medical devices now apply from 2 August 2028."
+      ],
+      "sources": [
+        {
+          "title": "L.N. 226 of 2025, Artificial Intelligence Regulations, 2025 (Legislation Malta)",
+          "url": "https://legislation.mt/eli/ln/2025/226/eng",
+          "date": "2025-10-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Health and Health Data Strategy 2030 (Ministry for Health and Active Ageing)",
+          "url": "https://web.archive.org/web/20260727061320/https://health.gov.mt/wp-content/uploads/2025/11/Digital-Health-Health-Data-Strategy-Document.pdf",
+          "date": "2025-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Omnibus on AI has been published (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+          "date": "2026-07",
+          "publisherClass": "law_firm"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "Public hospitals, health centres, public nursing homes, labs and POYC pharmacy data reach myHealth. Private hospitals, private GPs and most private prescriptions are outside it. A national EHR platform and a Health Data Access Body are being built.",
+  "laws": [
+    {
+      "name": "Data Protection Act (Cap. 586)",
+      "level": "National",
+      "year": "2018",
+      "what": "Malta's GDPR implementing law; the IDPC supervises and decides complaints.",
+      "url": "https://legislation.mt/eli/cap/586/eng"
+    },
+    {
+      "name": "Processing of Personal Data (Secondary Processing) (Health Sector) Regulations (S.L. 528.10)",
+      "level": "National",
+      "year": "2019",
+      "what": "Lists permitted secondary uses; research needs ethics approval and IDPC authorisation; other uses need consent.",
+      "url": "https://legislation.mt/eli/sl/528.10/eng"
+    },
+    {
+      "name": "Artificial Intelligence Regulations, 2025 (L.N. 226 of 2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "Names MDIA as AI Act market surveillance authority; fines up to EUR 350,000 or 1% of turnover.",
+      "url": "https://legislation.mt/eli/ln/2025/226/eng"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Patient access, access logs, restriction rights and secondary-use opt-out, applying mainly from March 2029 and 2031.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+    },
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "Health data is a special category; right of access, breach notification, fines up to 4% of turnover.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    },
+    {
+      "name": "EU AI Act (EU) 2024/1689, amended by (EU) 2026/1744",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "Risk rules for AI; obligations for AI in medical devices now apply from 2 August 2028.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-10",
+      "headline": "Malta publishes AI regulations naming MDIA as AI Act enforcer",
+      "source": "Legislation Malta",
+      "url": "https://legislation.mt/eli/ln/2025/226/eng",
+      "why": "Creates the national body and fines that will police high-risk AI, including in health."
+    },
+    {
+      "date": "2025-11-14",
+      "headline": "Prime Minister sets plan to make Malta a MedTech and digital health hub",
+      "source": "Italpress",
+      "url": "https://www.italpress.com/malta-sets-sights-on-becoming-europes-medtech-and-digital-health-hub/",
+      "why": "Signals more commercial and AI use of health data, which raises consent questions."
+    },
+    {
+      "date": "2025-11-21",
+      "headline": "Malta launches first Digital Health and Health Data Strategy for consultation",
+      "source": "The Malta Independent",
+      "url": "https://web.archive.org/web/20251230065014/https://www.independent.com.mt/articles/2025-11-21/local-news/Malta-launches-first-Digital-Health-and-Health-Data-Strategy-6736284992",
+      "why": "Plans to bring private providers, ePrescriptions and a national EHR into patients' view."
+    },
+    {
+      "date": "2026-09-24",
+      "headline": "Health Minister Ian Borg discusses clinical AI with Mayo Clinic",
+      "source": "The Malta Independent",
+      "url": "https://web.archive.org/web/20260926035032/https://www.independent.com.mt/articles/2026-09-24/local-news/AI-digital-health-discussed-as-Malta-explores-cooperation-with-Mayo-Clinic-6736293167",
+      "why": "Possible AI and care partnerships could involve sharing Maltese patient data."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

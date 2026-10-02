@@ -1,0 +1,26 @@
+{
+ "note": "Coverage floors for analysis/strain (countries with a value, of 64). Set 1 Oct 2026 from the first build. Raise when coverage rises; lower only with a written reason in METHOD.md, never to turn a red test green.",
+ "floors": {
+  "doctorsPer10k": 62,
+  "nursesMidwivesPer10k": 62,
+  "vhiShareCHE": 60,
+  "oopShareCHE": 63,
+  "privateDomesticShareCHE": 63,
+  "vhiPlusOopShareCHE": 60,
+  "vhiPopulationPct": 36,
+  "duplicateVhiPopulationPct": 18,
+  "waitMedianDays_hip": 18,
+  "waitMedianDays_knee": 18,
+  "waitMedianDays_cataract": 18
+ },
+ "recordSplitKnownFloor": {
+  "known": 24
+ },
+ "rebaselines": [
+  {
+   "date": "2026-10-01",
+   "what": "recordSplitKnownFloor 25 -> 24",
+   "why": "India reclassified partial -> unknown on review: its quote names software integrations, which the rule excludes. A correction, not a coverage loss."
+  }
+ ]
+}

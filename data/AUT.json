@@ -1,0 +1,390 @@
+{
+ "iso3": "AUT",
+ "name": "Austria",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Austria's opt-out ELGA record gives strong controls and a full access log, but holds reports and medicines, not complete charts, and few use it.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 63,
+   "summary": "Patients have a statutory right to see their records and get a free first copy, and the ELGA portal shows discharge letters, lab and radiology reports and 18 months of medicines. Images, GP notes and documents from before 2016 are missing, and uptake is low.",
+   "detail": [
+    "Section 51 of the Medical Practitioners Act obliges doctors to let patients inspect their records and to give a first copy free. The federal hospitals act (KAKuG § 10) makes hospitals grant inspection and copies under GDPR Article 15(3).",
+    "With ID Austria, patients can view, download and print ELGA documents: discharge letters, lab and radiology reports, outpatient reports and the e-medication list. Medication data are deleted after 18 months, and hospital documents are only there from 2016.",
+    "The official portal does not show images. Die Presse reported in February 2026 that one hospital group's app was the first to display X-ray and MRI images; ELGA GmbH says portal viewing and download are still planned.",
+    "No official figure on portal use was found. The Kronen Zeitung reported in May 2025 that fewer than 100,000 people use ELGA. People without ID Austria can view records at regional ELGA ombudsman offices."
+   ],
+   "sources": [
+    {
+     "title": "Ärztegesetz 1998 § 51 Dokumentationspflicht und Auskunftserteilung (RIS)",
+     "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011138&Paragraf=51",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ELGA-Portal FAQ (ELGA GmbH)",
+     "url": "https://www.elga.gv.at/faq/elga-portal/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Mit einer App die eigenen Befunde und Röntgenbilder sehen (Die Presse)",
+     "url": "https://www.diepresse.com/20620100/mit-einer-app-die-eigenen-befunde-und-roentgenbilder-sehen",
+     "date": "2026-02-24",
+     "publisherClass": "news"
+    },
+    {
+     "title": "ELGA soll aus Dornröschenschlaf erwachen (Kronen Zeitung)",
+     "url": "https://www.krone.at/3791556",
+     "date": "2025-05-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 72,
+   "summary": "Everyone is in ELGA unless they opt out, fully or for e-reports or e-medication, and patients can hide or delete single documents, block a provider and read a full access log. There is no opt-out from the e-vaccination record or e-prescriptions.",
+   "detail": [
+    "GTelG 2012 § 15 lets anyone object to ELGA at any time, generally or for single data types, online or by post. A full opt-out deletes all stored ELGA data, and it can be reversed, though deleted data are not restored.",
+    "§ 16 lets patients hide, unhide or delete documents and medication entries, shorten access periods, and object to a single document at the point of care. Doctors must tell patients about this right for HIV, mental illness, genetic data and abortions.",
+    "Setting a provider's access to 0 days blocks it; access can also be extended up to 365 days. The log shows who viewed which documents and when, including ombudsman staff.",
+    "Limits: the e-vaccination record and e-prescriptions have no opt-out. The Court of Audit noted that a point-of-care objection is recorded only at that provider, so a lab may not know of it. Teenagers from 14 manage their own ELGA."
+   ],
+   "sources": [
+    {
+     "title": "Gesundheitstelematikgesetz 2012, consolidated text (RIS)",
+     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008120",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ELGA-Portal FAQ (ELGA GmbH)",
+     "url": "https://www.elga.gv.at/faq/elga-portal/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "ELGA: Login und Teilnahme gestalten (Gesundheitsportal)",
+     "url": "https://www.gesundheit.gv.at/gesundheitsleistungen/elga/elga-login-teilnahme.html",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Elektronische Gesundheitsakte ELGA und ELGA GmbH, Bericht 2024/32 (Rechnungshof)",
+     "url": "https://www.rechnungshof.gv.at/rh/home/home/2024_32_ELGA.pdf",
+     "date": "2024-10-31",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 63,
+   "summary": "ELGA data may be used only for treatment, insurers and employers are barred by law, and unauthorised access carries fines up to EUR 10,000. But Austrian law forbids GDPR fines on public bodies and bodies acting under a legal mandate, and the regulator reports fewer staff.",
+   "detail": [
+    "GTelG § 14 limits personal use of ELGA data to treating providers and to patients exercising their rights; any other demand for or access to ELGA data is prohibited unless a law allows it. Insurers, employers, authorities and medical assessors are excluded by law and technically.",
+    "GTelG § 25 sets administrative fines up to EUR 10,000 for unauthorised processing by providers or support staff. Under § 30(5) of the Data Protection Act, no fines can be imposed on authorities and public bodies.",
+    "The DSB acts in health cases. In February 2026 it banned live video surveillance of four operating theatres in a private hospital. In October 2025 a court upheld its finding that a hospital was liable when its security manager passed a patient's data to police.",
+    "The DSB head wrote in 2026 that complaints rose in 2025 while staff numbers fell. We found no major Austrian health-data breach in the October 2025 to September 2026 window."
+   ],
+   "sources": [
+    {
+     "title": "Gesundheitstelematikgesetz 2012, consolidated text (RIS)",
+     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008120",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Datenschutzgesetz, consolidated text (RIS)",
+     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Newsletter der Datenschutzbehörde Nr. 1/2026 (DSB)",
+     "url": "https://dsb.gv.at/sites/site0344/media/downloads/nl0126bf.pdf",
+     "date": "2026",
+     "publisherClass": "official"
+    },
+    {
+     "title": "DSB Bescheid 2025-0.745.017, video surveillance in operating theatres (RIS)",
+     "url": "https://ris.bka.gv.at/Dokumente/Dsk/DSBT_20260225_2025_0_745_017_00/DSBT_20260225_2025_0_745_017_00.pdf",
+     "date": "2026-02-25",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 66,
+   "summary": "Austrian law bars insurers and employers from using genetic test results, restricts how private insurers gather health data, and bans demands for ELGA data. No Austrian rule specific to health data brokers or consumer health apps was found.",
+   "detail": [
+    "Gentechnikgesetz § 67 forbids employers and insurers to collect, request, accept or use genetic test results of workers, job seekers or insurance applicants, with a narrow exception for one test type for insurers.",
+    "Under VersVG § 11a, private insurers may process health data only where essential, and may gather it only by asking the person, from documents the person supplies, or from third parties with case-by-case explicit consent.",
+    "GTelG § 14(3) prohibits requesting, accessing or processing ELGA data unless EU or national law provides for it, which shuts out commercial requests.",
+    "Health apps and data brokers outside ELGA rely on the GDPR alone. The EU health data space will ban secondary use for advertising or marketing, as summarised by Haslinger / Nagele; main parts apply from March 2029."
+   ],
+   "sources": [
+    {
+     "title": "Gentechnikgesetz § 67 (RIS)",
+     "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010826&Paragraf=67",
+     "date": "2017-01-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Versicherungsvertragsgesetz § 11a (RIS)",
+     "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001979&Artikel=&Paragraf=11a&Anlage=&Uebergangsrecht=",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Gesundheitstelematikgesetz 2012, consolidated text (RIS)",
+     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008120",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Der EHDS: Neue Regeln für Gesundheitsdaten (Haslinger / Nagele)",
+     "url": "https://www.haslinger-nagele.com/der-ehds-neue-regeln-fuer-gesundheitsdaten-ueberblick-und-ausblick/",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 68,
+   "summary": "Public hospitals, care homes, pharmacies and contracted doctors use ELGA, e-prescriptions replaced paper prescriptions, and outpatient labs and radiology must upload since July 2025. Specialist reports are not due until 2030 and there is no patient summary yet.",
+   "detail": [
+    "A 2025 regulation set storage duties: outpatient lab and radiology reports with images from 1 July 2025; hospital lab and radiology reports from 1 January 2026; pathology from 2028; other specialist reports from 2030.",
+    "Section 49(7) of the Medical Practitioners Act requires doctors in private practice to use the e-card system, ELGA and the e-vaccination record by 1 January 2026.",
+    "The e-prescription has fully replaced the paper insurance prescription. Since 25 February 2026, Austrian e-prescriptions can be filled in other EU countries, starting with Czechia, after a one-time opt-in.",
+    "Gaps remain. The Court of Audit found that at end-2023 mainly hospital doctors wrote e-reports. ORF reported in November 2025 that GPs do not produce reports. A diagnosis list and patient summary still need legal rules, per ELGA's managing director."
+   ],
+   "sources": [
+    {
+     "title": "Radiologie- und Laborbefunde ab Juli in der ELGA verfügbar (Sozialministerium)",
+     "url": "https://www.sozialministerium.gv.at/Services/Aktuelles/Archiv-2025/ELGA-befunde.html",
+     "date": "2025-01-28",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ärztegesetz 1998 § 49 (RIS)",
+     "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011138&Paragraf=49",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ELGA-News: EU-Rezept, e-Impfpass, e-Bilddaten (ELGA GmbH)",
+     "url": "https://www.elga.gv.at/news/",
+     "date": "2026-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Patient Summary soll Versorgung erleichtern (medianet)",
+     "url": "https://medianet.at/news/health-economy/patient-summary-soll-versorgung-erleichtern-76589.html",
+     "date": "2026-09-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 66,
+   "summary": "Once a patient's e-card is read, doctors, hospitals and care homes can open ELGA for 90 days, and pharmacies and ambulance services see the medication list for 28 days. They see reports and medicines, not other providers' full charts.",
+   "detail": [
+    "Access starts when the patient is identified at the provider. Doctors, hospitals and care homes get 90 days; pharmacies, rescue services and the 1450 health line get 28 days, and pharmacies see only e-medication.",
+    "Within a provider, only staff involved in the person's care may open ELGA (GTelG § 14). Patients' hidden documents stay invisible to clinicians.",
+    "Image sharing is growing: by February 2026 more than half of publicly funded hospitals and about a quarter of outpatient radiology institutes retrieved images through ELGA, with up to 18,000 images a month.",
+    "Clinicians do not get a diagnosis list or patient summary. Since 1 July 2026 office doctors must code at least one ICD-10 diagnosis per visit, but it is stored locally, not yet shared through ELGA."
+   ],
+   "sources": [
+    {
+     "title": "Allgemeines zu ELGA (oesterreich.gv.at, Sozialministerium)",
+     "url": "https://www.oesterreich.gv.at/de/themen/gesundheit/elektronisches-gesundheitssystem/elga_elektronische_gesundheitsakte/Seite.3110001",
+     "date": "2026-08-26",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Gesundheitstelematikgesetz 2012, consolidated text (RIS)",
+     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008120",
+     "date": "2026-10-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ELGA-News: EU-Rezept, e-Impfpass, e-Bilddaten (ELGA GmbH)",
+     "url": "https://www.elga.gv.at/news/",
+     "date": "2026-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Patient Summary soll Versorgung erleichtern (medianet)",
+     "url": "https://medianet.at/news/health-economy/patient-summary-soll-versorgung-erleichtern-76589.html",
+     "date": "2026-09-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Registers are opened for research by decree, without consent or a general opt-out, through a secure Statistik Austria data centre with accredited institutions and a public project list. ELGA data are barred from research, and the health ministry has not opened its registers.",
+   "detail": [
+    "The Research Organisation Act lets ministries release federal registers for research by decree. The AMDC at Statistik Austria opened on 1 July 2022 as a virtual safe centre funded by the science ministry.",
+    "Only accredited research institutions can apply. Statistik Austria reviews each project, a contract is required, and it publishes a list of current and completed projects, including some cancer and health survey studies.",
+    "The government aimed to connect all federal registers by 1 July 2026. On 19 May 2026 the Chancellor said only the education, science and mobility ministries had released registers.",
+    "GTelG § 14 limits personal use of ELGA data to care, so ELGA does not feed research. The EU health data space will add a simple opt-out from secondary use."
+   ],
+   "sources": [
+    {
+     "title": "Anfragebeantwortung 4833/AB zu Registerdaten im AMDC (Bundeskanzler)",
+     "url": "https://www.parlament.gv.at/dokument/XXVIII/AB/4833/imfname_1758088.pdf",
+     "date": "2026-05-19",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Austrian Micro Data Center (Statistik Austria)",
+     "url": "https://www.statistik.at/services/tools/datenzugang/center-wissenschaft/austrian-micro-data-center-amdc",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Registerforschung (Wissenschaftsministerium BMFWF)",
+     "url": "https://www.bmfwf.gv.at/forschung/forschung-oesterreich/strategische-ausrichtung-beratende-gremien/leitthemen/registerforschung.html",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "European Health Data Space Regulation (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "Clinical AI in Austria falls under EU device law and the EU AI Act only. No national clinical-AI rule was found, and the data protection authority wrote in 2026 that Austria had not yet named its AI Act market surveillance authorities.",
+   "detail": [
+    "The AI Act entered into force on 1 August 2024. After the AI Omnibus, rules for high-risk AI in regulated products such as medical devices apply from 2 August 2028, per the European Commission.",
+    "Austria has an AI service desk at the telecoms regulator RTR and an AI advisory board, per Digital Austria. These support the EU rules rather than add clinical duties.",
+    "The DSB head wrote in 2026 that Austria was late in implementing the AI Act and that the DSB cannot take on market surveillance without more staff."
+   ],
+   "sources": [
+    {
+     "title": "AI Act: regulatory framework for AI (European Commission)",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "KI-Verordnung (Digital Austria, Bundeskanzleramt)",
+     "url": "https://www.digitalaustria.gv.at/themen/kuenstliche-intelligenz/ai-act.html",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Newsletter der Datenschutzbehörde Nr. 1/2026 (DSB)",
+     "url": "https://dsb.gv.at/sites/site0344/media/downloads/nl0126bf.pdf",
+     "date": "2026",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "connected",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Public hospitals, pharmacies and e-prescriptions are linked through ELGA and the e-card system; labs and radiology must upload since 2025 and private doctors from 2026. Specialist reports follow by 2030. ELGA data do not reach research.",
+ "laws": [
+  {
+   "name": "Gesundheitstelematikgesetz 2012 (GTelG 2012)",
+   "level": "National",
+   "year": "2012",
+   "what": "ELGA legal base: opt-out, document hiding, access log, ban on non-care use, fines up to EUR 10,000.",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008120"
+  },
+  {
+   "name": "Datenschutzgesetz (DSG)",
+   "level": "National",
+   "year": "2018",
+   "what": "Austrian GDPR companion law; research rules in § 7; no fines on public bodies under § 30(5).",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597"
+  },
+  {
+   "name": "Ärztegesetz 1998, §§ 49 and 51",
+   "level": "National",
+   "year": "1998",
+   "what": "Doctors must give a free first copy of records and use ELGA by 1 January 2026.",
+   "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011138&Paragraf=51"
+  },
+  {
+   "name": "Krankenanstalten- und Kuranstaltengesetz (KAKuG) § 10, with state hospital acts",
+   "level": "National",
+   "year": "2018",
+   "what": "Federal framework: states must make hospitals keep records 30 years and grant patients inspection and copies.",
+   "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010285&Paragraf=10"
+  },
+  {
+   "name": "Wiener Krankenanstaltengesetz 1987, § 17a",
+   "level": "State/Provincial",
+   "year": "1987",
+   "what": "Vienna patient rights in hospitals, including inspection and a copy of the record against cost.",
+   "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000282&Paragraf=17a"
+  },
+  {
+   "name": "Gentechnikgesetz § 67",
+   "level": "National",
+   "year": "1994",
+   "what": "Bars employers and insurers from requesting or using genetic test results.",
+   "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010826&Paragraf=67"
+  },
+  {
+   "name": "European Health Data Space Regulation (EU) 2025/327",
+   "level": "Supranational",
+   "year": "2025",
+   "what": "Patient access and control rights, opt-out from secondary use; key parts apply from March 2029.",
+   "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-21",
+   "headline": "Upper Austria's audit office urges faster ELGA rollout and a fax replacement",
+   "source": "ORF Oberösterreich",
+   "url": "https://ooe.orf.at/stories/3326732/",
+   "why": "Shows providers still missing from ELGA and patchy data exchange between care settings."
+  },
+  {
+   "date": "2026-02-24",
+   "headline": "Hospital group app first to show patients their ELGA images",
+   "source": "Die Presse",
+   "url": "https://www.diepresse.com/20620100/mit-einer-app-die-eigenen-befunde-und-roentgenbilder-sehen",
+   "why": "Patients still cannot see their scans in the official ELGA portal."
+  },
+  {
+   "date": "2026-04-21",
+   "headline": "Survivorship passport for childhood cancer survivors launched inside ELGA",
+   "source": "Kurier",
+   "url": "https://kurier.at/wissen/gesundheit/krebs-kind-kinderkrebs-elga-survivorship-passport-st-anna-kinderspital/403152557",
+   "why": "Long-term follow-up data travel with survivors to any future doctor."
+  },
+  {
+   "date": "2026-07-01",
+   "headline": "State reform plans new e-health agency to expand ELGA into full patient record",
+   "source": "MeinBezirk",
+   "url": "https://www.meinbezirk.at/c-politik/das-aendert-sich-fuer-patientinnen-und-patienten_a8773983",
+   "why": "Could move ELGA from reports toward a complete record; laws still to be drafted."
+  },
+  {
+   "date": "2026-09-07",
+   "headline": "Doctors must code diagnoses since July; patient summary still needs legal rules",
+   "source": "medianet",
+   "url": "https://medianet.at/news/health-economy/patient-summary-soll-versorgung-erleichtern-76589.html",
+   "why": "Coded diagnoses are the base for a shared diagnosis list clinicians lack today."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

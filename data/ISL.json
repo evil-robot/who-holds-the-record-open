@@ -1,0 +1,314 @@
+{
+  "iso3": "ISL",
+  "name": "Iceland",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Iceland's records are linked across nearly all public care and patients can block sharing, but the Heilsuvera portal shows only part of the record.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 62,
+      "summary": "The Medical Records Act gives a right to a copy of the whole record, clarified by a 2025 amendment. Heilsuvera shows prescriptions, vaccinations and dates of hospital and clinic visits, but not clinical notes or lab results.",
+      "detail": [
+        "Article 14 of the Medical Records Act (55/2009) says a patient or representative may receive a copy of their own record in whole or in part, from the provider that holds it.",
+        "An amendment passed on 19 November 2025 removed doubt about this right; parts take effect on 1 December 2026. Refusals can be appealed to the Directorate of Health. The patient pays copying costs, the minister sets a fee schedule, and prepayment is allowed above 10,000 kr. island.is says requests must be met without undue delay, with no fixed deadline.",
+        "Heilsuvera's Mínar síður shows active prescriptions and three years of pharmacy dispensings, vaccinations, a list of admission and visit dates without detail, maternity records, bookings and messages. Heilsuvera's privacy policy says the goal is for users to see all their digital records eventually; clinical notes and lab results were not listed.",
+        "Parents and guardians can use Mínar síður for their children up to age 16."
+      ],
+      "sources": [
+        {
+          "title": "Lög um sjúkraskrár nr. 55/2009 (Alþingi)",
+          "url": "https://www.althingi.is/lagas/nuna/2009055.html",
+          "date": "2026-09-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Breytingar á lögum um sjúkraskrár samþykktar á Alþingi (Stjórnarráðið)",
+          "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2025/11/21/Breytingar-a-logum-um-sjukraskrar-samthykktar-a-Althingi/",
+          "date": "2025-11-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Persónuverndarstefna Heilsuveru",
+          "url": "https://www.heilsuvera.is/personuverndarstefna/",
+          "date": "2025-06-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Aðgangur að sjúkraskrá (island.is)",
+          "url": "https://island.is/sjukraskra",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 55,
+      "summary": "Patients can ban sharing through linked record systems, for a whole provider, a department or a named party, and have a legal right to learn who looked at their record. Bans need a signed form, and the access log comes on request only.",
+      "detail": [
+        "Article 19 of the Medical Records Act lets a patient ban sharing of their information through linked digital record systems. The ban can cover all data held by one provider, data from named departments where technically possible, or access by named providers.",
+        "The ban is made in writing, with a health worker confirming the patient understands the possible effect on care. Article 21 gives the same choices inside shared record systems, including a ban on named parties. Under Article 13, information the patient deems especially sensitive is limited to staff who need it.",
+        "Article 14 gives a right to learn from the provider who accessed the record, including through linked systems, where, when and why. Heilsuvera's privacy policy says showing lookups in linked records and the medication database is still being worked on.",
+        "Sharing is the default. The patient must act to restrict it."
+      ],
+      "sources": [
+        {
+          "title": "Lög um sjúkraskrár nr. 55/2009 (Alþingi)",
+          "url": "https://www.althingi.is/lagas/nuna/2009055.html",
+          "date": "2026-09-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Access to health records: FAQ (island.is)",
+          "url": "https://island.is/en/access-to-health-records/faq-health-records",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Persónuverndarstefna Heilsuveru",
+          "url": "https://www.heilsuvera.is/personuverndarstefna/",
+          "date": "2025-06-03",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 62,
+      "summary": "GDPR applies through the EEA and Act 90/2018, and the regulator has fined health bodies. In 2023 it fined the Directorate of Health 12 million kr after a Heilsuvera flaw left messages and maternity attachments open to other logged-in users.",
+      "detail": [
+        "Act 90/2018 gives GDPR legal force in Iceland and treats health data as sensitive. Fines reach 2.4 billion kr or 4% of global turnover. Persónuvernd is independent and its decisions cannot be appealed to other agencies.",
+        "In June 2023 Persónuvernd fined the Directorate of Health 12 million kr. Logged-in users could reach other people's messages and maternity attachments by changing web addresses. The Directorate's worst-case estimate was 205,407 attachments linked to 41,390 people; two users were shown to have viewed nine documents.",
+        "In February 2025 it fined the Capital Region primary care service 5 million kr for giving 12 outside bodies, including a football federation and a jobs agency, access to its shared record system without legal basis.",
+        "The Medical Records Act sets fines or up to three years in prison for serious breaches."
+      ],
+      "sources": [
+        {
+          "title": "Sekt vegna öryggisveikleika í Heilsuveru (Persónuvernd)",
+          "url": "https://island.is/s/personuvernd/urskurdir-akvardanir-og-alit/sekt-vegna-oryggisveikleika-i-heilsuveru",
+          "date": "2023-06-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Sekt á hendur Heilsugæslu höfuðborgarsvæðisins (Persónuvernd)",
+          "url": "https://island.is/s/personuvernd/urskurdir-akvardanir-og-alit/sekt-a-hendur-heilsugaeslu-hofudborgarsvaedisins-vegna-vinnslu-personuupplysinga-i-sameiginlegu-sjukraskrarkerfi",
+          "date": "2025-02-17",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lög um persónuvernd og vinnslu persónuupplýsinga nr. 90/2018 (Alþingi)",
+          "url": "https://www.althingi.is/lagas/nuna/2018090.html",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 58,
+      "summary": "The Medical Records Act bars any access to records without a legal basis, which shuts out insurers and employers by default. No Iceland-specific ban on selling health data or using it for marketing beyond GDPR was verified.",
+      "detail": [
+        "Article 12 of the Medical Records Act says access to medical records is prohibited unless the law allows it. The Act gives access to treating staff and to health authorities handling complaints, not to insurers or employers.",
+        "The 2025 regulator fine against the Capital Region primary care service shows outside bodies did get record access in practice before it was stopped.",
+        "We did not find an Icelandic rule that bans sale of health data, de-identified data sales, or health apps outside health law, beyond GDPR."
+      ],
+      "sources": [
+        {
+          "title": "Lög um sjúkraskrár nr. 55/2009 (Alþingi)",
+          "url": "https://www.althingi.is/lagas/nuna/2009055.html",
+          "date": "2026-09-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Sekt á hendur Heilsugæslu höfuðborgarsvæðisins (Persónuvernd)",
+          "url": "https://island.is/s/personuvernd/urskurdir-akvardanir-og-alit/sekt-a-hendur-heilsugaeslu-hofudborgarsvaedisins-vegna-vinnslu-personuupplysinga-i-sameiginlegu-sjukraskrarkerfi",
+          "date": "2025-02-17",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 76,
+      "summary": "A 2019 Nordic Council of Ministers report says all hospitals and primary care clinics share records over the national HealthNet, and every pharmacy is linked for e-prescriptions. Some private providers still keep non-digital records until a December 2026 deadline.",
+      "detail": [
+        "The 2019 Nordic Council of Ministers report says all hospitals, primary care clinics and a majority of private specialist clinics and nursing homes have interconnected records, run over the HealthNet (Hekla) owned by the Directorate of Health.",
+        "The same report says all pharmacies connect to HealthNet for e-prescriptions, and coded data flows in real time to national health registries.",
+        "The 2025 amendment requires every provider to keep records digitally by 1 December 2026, because some still used personal software without proper security.",
+        "Cross-border sharing of a patient summary and e-prescriptions with other European countries was in final testing in November 2025. Links to insurance claims data were not verified."
+      ],
+      "sources": [
+        {
+          "title": "eHealth standardisation in the Nordic countries (TemaNord 2019:537)",
+          "url": "https://norden.diva-portal.org/smash/get/diva2:1340369/FULLTEXT01.pdf",
+          "date": "2019",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Breytingar á lögum um sjúkraskrár samþykktar á Alþingi (Stjórnarráðið)",
+          "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2025/11/21/Breytingar-a-logum-um-sjukraskrar-samthykktar-a-Althingi/",
+          "date": "2025-11-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Heilbrigðisþjónusta yfir landamæri (island.is)",
+          "url": "https://island.is/heilbrigdisthjonusta-yfir-landamaeri",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 74,
+      "summary": "Treating staff can reach records at other providers through linked systems unless the patient has banned it, and every doctor can see all prescriptions and dispensings. Patients can pre-authorise sharing of key data for emergency care elsewhere in the EEA.",
+      "detail": [
+        "Article 13 of the Medical Records Act gives access to health workers involved in the patient's care who need the information. Article 18 lets providers give staff elsewhere direct access through linked digital systems, unless the patient has banned it.",
+        "Article 7.a lets a patient authorise in advance that key data (diagnoses, medicines, allergies, vaccinations) be shared for emergency care in another EEA country when they cannot consent. A domestic emergency override was not verified.",
+        "The Directorate of Health says all prescriptions and dispensings in the national medication database are open to every doctor, whoever prescribed them.",
+        "Patient bans and non-digital private records still leave gaps until the December 2026 deadline."
+      ],
+      "sources": [
+        {
+          "title": "Lög um sjúkraskrár nr. 55/2009 (Alþingi)",
+          "url": "https://www.althingi.is/lagas/nuna/2009055.html",
+          "date": "2026-09-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Aðgangur að lyfjagagnagrunni (island.is)",
+          "url": "https://island.is/adgangur-ad-lyfjagagnagrunni",
+          "date": "2026-09-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Research on health records can proceed without individual consent once an ethics committee approves, and each research look into a record is logged in it. Patients can bar identifiable storage in research health-data collections, but no general opt-out from record research was found.",
+      "detail": [
+        "The Health Research Act (44/2014) requires written informed consent to take part in research. Articles 26 and 27 let the National Bioethics Committee or a health research ethics committee approve access to health data, with no individual consent required.",
+        "Each time a medical record is opened for research, this must be noted in the record. Persónuvernd can audit research data handling. Breaches carry fines or up to three years in prison.",
+        "An opt-out register kept by the Directorate of Health since 2001 covers only biosamples taken for care, and needs a signed paper form. Article 17.a of the Medical Records Act lets a patient bar identifiable storage of record data in a research health-data collection. How this works in practice was not verified.",
+        "Act 34/2025 lets the Directorate use de-identified registry data for research, planning and quality work."
+      ],
+      "sources": [
+        {
+          "title": "Lög um vísindarannsóknir á heilbrigðissviði nr. 44/2014 (Alþingi)",
+          "url": "https://www.althingi.is/lagas/nuna/2014044.html",
+          "date": "2026-09-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Lífsýni (island.is)",
+          "url": "https://island.is/lifsyni",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lög nr. 34/2025 um breytingu á lögum um landlækni og lýðheilsu og lögum um sjúkraskrár",
+          "url": "https://www.althingi.is/altext/stjt/2025.034.html",
+          "date": "2025-06-19",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "EU medical device rules apply through Act 132/2020, but the EU AI Act is not yet law in Iceland. The minister said on 27 September 2026 that a consultation on adopting it would open this autumn.",
+      "detail": [
+        "Act 132/2020 gives the EU Medical Device Regulation and IVD Regulation legal force in Iceland from 26 May 2021, with the Icelandic Medicines Agency as competent authority. AI software that is a medical device falls under these rules.",
+        "Iceland has not adopted the EU AI Act, which it must take in through the EEA Agreement. The culture and innovation minister said a consultation and bill would follow in autumn and winter 2026.",
+        "We found no binding national rules or authority for clinical AI. The score sits below the EU baseline of 50 because the AI Act does not yet apply."
+      ],
+      "sources": [
+        {
+          "title": "Lög um lækningatæki nr. 132/2020 (Alþingi)",
+          "url": "https://www.althingi.is/lagas/nuna/2020132.html",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Boðar fyrstu lögin og reglurnar gagnvart gervigreind (Vísir)",
+          "url": "https://www.visir.is/g/20262939826d/bodar-fyrstu-login-og-reglurnar-gagnvart-gervigreind",
+          "date": "2026-09-27",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "unknown",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "Hospitals and primary care share records over the national HealthNet and all pharmacies take e-prescriptions (2019 Nordic report). Some private providers go digital only by December 2026. Labs and claims links were not verified.",
+  "laws": [
+    {
+      "name": "Medical Records Act (lög um sjúkraskrár) no. 55/2009",
+      "level": "National",
+      "year": "2009",
+      "what": "Right to a copy, who-accessed information, bans on linked sharing, research storage ban, penalties.",
+      "url": "https://www.althingi.is/lagas/nuna/2009055.html"
+    },
+    {
+      "name": "Act no. 81/2025 amending the Medical Records Act",
+      "level": "National",
+      "year": "2025",
+      "what": "Clarifies right to copies, sets copy fees and appeals, requires digital records by 1 December 2026.",
+      "url": "https://www.althingi.is/altext/stjt/2025.081.html"
+    },
+    {
+      "name": "Act no. 34/2025 on health registries and quality registries",
+      "level": "National",
+      "year": "2025",
+      "what": "Sets Directorate of Health registries and quality registries; de-identified data for research and planning.",
+      "url": "https://www.althingi.is/altext/stjt/2025.034.html"
+    },
+    {
+      "name": "Data Protection Act no. 90/2018 (GDPR via EEA)",
+      "level": "National",
+      "year": "2018",
+      "what": "Gives GDPR force in Iceland; health data sensitive; independent regulator Persónuvernd.",
+      "url": "https://www.althingi.is/lagas/nuna/2018090.html"
+    },
+    {
+      "name": "Health Research Act (lög um vísindarannsóknir á heilbrigðissviði) no. 44/2014",
+      "level": "National",
+      "year": "2014",
+      "what": "Consent rules for health research; ethics committee may approve record use without consent.",
+      "url": "https://www.althingi.is/lagas/nuna/2014044.html"
+    },
+    {
+      "name": "Medical Devices Act (lög um lækningatæki) no. 132/2020",
+      "level": "National",
+      "year": "2020",
+      "what": "Gives EU MDR and IVDR legal force in Iceland from 26 May 2021.",
+      "url": "https://www.althingi.is/lagas/nuna/2020132.html"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-27",
+      "headline": "Minister plans consultation this autumn on adopting the EU AI Act",
+      "source": "Vísir",
+      "url": "https://www.visir.is/g/20262939826d/bodar-fyrstu-login-og-reglurnar-gagnvart-gervigreind",
+      "why": "Clinical AI in Iceland has no AI Act rules until this law passes."
+    },
+    {
+      "date": "2025-11-21",
+      "headline": "Parliament passes medical records changes on copies, fees and digital records",
+      "source": "Stjórnarráðið (Government of Iceland)",
+      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2025/11/21/Breytingar-a-logum-um-sjukraskrar-samthykktar-a-Althingi/",
+      "why": "Patients get a clear right to copies at cost, and every provider must go digital."
+    },
+    {
+      "date": "2025-11-15",
+      "headline": "Cross-border e-prescriptions and patient summaries delayed, now in final testing",
+      "source": "DV",
+      "url": "https://www.dv.is/frettir/2025/11/15/islendingar-erlendis-bida-sumir-ofvaeni-eftir-rafraenum-lyfjaavisunum-milli-landa/",
+      "why": "Icelanders abroad wait to share records and fill prescriptions in other European countries."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

@@ -1,0 +1,379 @@
+{
+ "iso3": "LIE",
+ "name": "Liechtenstein",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Every insured person has an opt-out eGD with access logs and patient-unlocked doctor access, but active use is unproven and EU health-data rules lag.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 64,
+   "summary": "By law every insured person has an eGD they can read in full, holding letters, reports, labs, imaging findings and medicines since 2023. Older records and full charts stay with each doctor, and no official figure on active use was found.",
+   "detail": [
+    "Since January 2023 every person with compulsory health insurance has an electronic health dossier (eGD) unless they object. EGDG Art. 7 gives the participant a right to read all data in it.",
+    "Providers must store referral and physician letters, discharge reports, lab findings, imaging findings and medications (EGDG Art. 5). The government said in March 2026 that the eGD is available to more than 45,000 insured people.",
+    "Outside the eGD, the Doctors Act (Art. 14) obliges doctors to explain their records on request and send the patient a copy. GDPR access rights also apply through the EEA.",
+    "A smartphone app launched on 25 September 2026. The opt-in initiative's authors wrote in April 2026, citing a Vaterland report, that only about 5 percent of eGDs are actively used; no official usage figure was verified."
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über das elektronische Gesundheitsdossier (EGDG), Fassung 01.02.2026",
+     "url": "https://www.gesetze.li/konso/pdf/2021213000?version=4",
+     "date": "2026-02-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Weiterentwicklung des elektronischen Gesundheitsdossiers (Regierung des Fürstentums Liechtenstein)",
+     "url": "https://www.regierung.li/medienportal-medium/16182/234283/0/medienmitteilung",
+     "date": "2026-03-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Gesetz über die Ärzte (Ärztegesetz), Fassung 01.01.2026",
+     "url": "https://www.gesetze.li/konso/pdf/2003239000?version=14",
+     "date": "2026-01-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "eGD: Akzeptanz-Problem (lie:zeit)",
+     "url": "https://www.lie-zeit.li/2026/04/egd-akzeptanz-problem/",
+     "date": "2026-04-19",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 74,
+   "summary": "Patients can opt out at any time, hide or delete single documents, see an access log, and must unlock each provider before access. The opt-out is all or nothing: it deletes the whole dossier.",
+   "detail": [
+    "EGDG Art. 6 lets anyone object at any time, online or in writing; all stored data is then deleted and refusal may not limit access to care. By 28 May 2023, 977 people (about 2.4 percent of insured) had opted out.",
+    "Participants can hide or delete their own documents and get information on log data (EGDG Art. 7). Accesses are logged and logs are kept for three years (Art. 15).",
+    "Providers can only see the dossier after the patient unlocks it, by eID or written consent at the visit, or by naming trusted providers in the portal (EGDV Art. 5).",
+    "An initiative to switch to opt-in was rejected in a referendum on 21 January 2024 with about 54 percent voting no, on a 67.9 percent turnout."
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über das elektronische Gesundheitsdossier (EGDG), Fassung 01.02.2026",
+     "url": "https://www.gesetze.li/konso/pdf/2021213000?version=4",
+     "date": "2026-02-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Verordnung über das elektronische Gesundheitsdossier (EGDV), Fassung 01.03.2024",
+     "url": "https://www.gesetze.li/konso/pdf/2022365000?version=2",
+     "date": "2024-03-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kleine Anfrage Elektronisches Gesundheitsdossier (eGD) (Landtag)",
+     "url": "https://www.landtag.li/printkleineanfrage/25139/?t=638267490026099788",
+     "date": "2023-06-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Volksabstimmungen zu den beiden Energievorlagen und dem E-Gesundheitsdossier vom 21. Januar 2024 (Liechtenstein-Institut)",
+     "url": "https://s3.eu-central-1.amazonaws.com/ext-linst-c5-web-liechtenstein-institut.li-2019/4717/0800/9706/LI_Aktuell_2024_1_Energie_eGD_final.pdf",
+     "date": "2024",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 62,
+   "summary": "The GDPR applies through the EEA, and the eGD law adds fines up to CHF 50,000 for unlawful access. The regulator reports rising complaints and limited capacity, and has issued only one recent fine, not health-related.",
+   "detail": [
+    "The GDPR has applied in Liechtenstein since 20 July 2018 through EEA Joint Committee Decision 154/2018.",
+    "The EGDG punishes unlawful eGD access or security failures with fines up to CHF 50,000, or CHF 20,000 if negligent (Art. 16). The platform must hold a GDPR Art. 42 certificate or an equivalent recognised by the Data Protection Office (Art. 15).",
+    "In 2025 the Data Protection Office received 77 complaints (about 50 percent more than 2024) and 77 breach notifications. It imposed one fine of CHF 31,000 for unlawful marketing, not yet final, and said its capacity is limited.",
+    "eGD data is stored in data centres in Switzerland. Researchers reported web vulnerabilities in the platform in 2023; the vendor confirmed some and changed exposed passwords."
+   ],
+   "sources": [
+    {
+     "title": "EEA-Lex factsheet: Regulation (EU) 2016/679 (EFTA)",
+     "url": "https://www.efta.int/eea-lex/32016r0679",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Gesetz über das elektronische Gesundheitsdossier (EGDG), Fassung 01.02.2026",
+     "url": "https://www.gesetze.li/konso/pdf/2021213000?version=4",
+     "date": "2026-02-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Tätigkeitsbericht 2025 (Datenschutzstelle Liechtenstein)",
+     "url": "https://www.datenschutzstelle.li/aktuelles/taetigkeitsbericht-2025",
+     "date": "2026-09-04",
+     "publisherClass": "official"
+    },
+    {
+     "title": "IT-Sicherheit beim elektronischen Gesundheitsdossier im Fürstentum Liechtenstein (Pentagrid)",
+     "url": "https://www.pentagrid.ch/en/blog/it-sicherheit-beim-elektronischen-gesundheitsdossier-im-fuerstentum-liechtenstein/",
+     "date": "2023-09-14",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 54,
+   "summary": "GDPR rules on health data apply through the EEA, and eGD data may only be used for the law's care purposes. The EU health data space bans on advertising and insurance uses do not yet apply, as it is not in the EEA Agreement.",
+   "detail": [
+    "Health data is special-category data under the GDPR, in force in Liechtenstein through the EEA since July 2018. Consumer apps outside the eGD rely on the GDPR alone.",
+    "EGDG Art. 4 allows eGD processing only by authorised persons and only for the purposes set in the law.",
+    "The EHDS Regulation (EU) 2025/327 is marked EEA-relevant but is still under scrutiny by Iceland, Liechtenstein and Norway, with no Joint Committee Decision. Its limits on commercial reuse do not yet apply.",
+    "A Liechtenstein ban on selling health data or on health data brokers was not verified."
+   ],
+   "sources": [
+    {
+     "title": "EEA-Lex factsheet: Regulation (EU) 2016/679 (EFTA)",
+     "url": "https://www.efta.int/eea-lex/32016r0679",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "EEA-Lex factsheet: Regulation (EU) 2025/327, European Health Data Space (EFTA)",
+     "url": "https://www.efta.int/eea-lex/32025r0327",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Gesetz über das elektronische Gesundheitsdossier (EGDG), Fassung 01.02.2026",
+     "url": "https://www.gesetze.li/konso/pdf/2021213000?version=4",
+     "date": "2026-02-01",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 54,
+   "summary": "Since July 2023 the hospital, doctors, pharmacists, dentists and care homes must upload key documents within 90 days, and Swiss hospitals began uploading in 2026. Actual upload compliance and links to claims and public health were not verified.",
+   "detail": [
+    "EGD providers include the national hospital, the elderly and nursing care service, doctors, pharmacists, chiropractors and dentists (EGDG Art. 2). Upload of the required documents has been mandatory since 1 July 2023, with fines for failure.",
+    "Documents must be stored within 90 days of collection (EGDV Art. 10). Since March 2024 the Office of Health may count documents stored per provider per month to check compliance; no results were found.",
+    "Art. 11 on foreign providers took effect on 1 February 2026. Graubünden Cantonal Hospital was first, and HOCH Health Ostschweiz (including Spital Grabs) followed in April 2026, with patient consent.",
+    "Links to insurance claims, e-prescription and public health reporting were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Gesetz über das elektronische Gesundheitsdossier (EGDG), Fassung 01.02.2026",
+     "url": "https://www.gesetze.li/konso/pdf/2021213000?version=4",
+     "date": "2026-02-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Verordnung über das elektronische Gesundheitsdossier (EGDV), Fassung 01.03.2024",
+     "url": "https://www.gesetze.li/konso/pdf/2022365000?version=2",
+     "date": "2024-03-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Weiterentwicklung des elektronischen Gesundheitsdossiers (Regierung des Fürstentums Liechtenstein)",
+     "url": "https://www.regierung.li/medienportal-medium/16182/234283/0/medienmitteilung",
+     "date": "2026-03-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Anbindung an das elektronische Gesundheitsdossier (eGD) des Fürstentums Liechtenstein (HOCH Health Ostschweiz)",
+     "url": "https://www.h-och.ch/ueber-uns/news/anbindung-an-das-elektronische-gesundheitsdossier-e-gd-des-fuerstentums-liechtenstein-2026-04-14/",
+     "date": "2026-04-14",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 63,
+   "summary": "Once a patient unlocks access, treating doctors see all eGD documents for 28 days, trusted providers for 365 days, and pharmacists see medicines for 24 hours. The dossier holds key documents, not full charts.",
+   "detail": [
+    "Doctors, the hospital, care homes, dentists and chiropractors can see all eGD health data; pharmacists see prescription and non-prescription medication data only (EGDV Art. 6).",
+    "Access windows start when the patient unlocks access: 28 days for treating providers, 365 days for trusted providers named by the patient, 24 hours for pharmacists.",
+    "The rules contain no separate emergency access article. If a provider without authorisation opens a dossier, the patient is notified in the dossier immediately (EGDV Art. 11).",
+    "Content is limited to the five mandatory document types plus anything a provider adds voluntarily."
+   ],
+   "sources": [
+    {
+     "title": "Verordnung über das elektronische Gesundheitsdossier (EGDV), Fassung 01.03.2024",
+     "url": "https://www.gesetze.li/konso/pdf/2022365000?version=2",
+     "date": "2024-03-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Gesetz über das elektronische Gesundheitsdossier (EGDG), Fassung 01.02.2026",
+     "url": "https://www.gesetze.li/konso/pdf/2021213000?version=4",
+     "date": "2026-02-01",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 42,
+   "summary": "eGD data may only be used for the law's care purposes, so it is not a research source, and ethics review runs through the Zurich cantonal ethics committee. A Liechtenstein human research law and any general opt-out were not verified.",
+   "detail": [
+    "EGDG Art. 4 limits eGD processing to the purposes set in the law, which centre on treatment and care quality. Research use is not among the listed access rights.",
+    "Swiss federal reporting on human research lists the Zurich cantonal ethics committee as covering the cantons of Zurich, Glarus, Graubünden and Schaffhausen and the Principality of Liechtenstein.",
+    "The EHDS rules on secondary use, including an opt-out, are not yet part of the EEA Agreement.",
+    "A 2024 agreement between the Office of Health and Swissmedic covers the Swiss Human Research Act for medical device studies. A general Liechtenstein law on research with people, and the rules for registry research, were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Summary Report of the Coordination Office for Human Research (Kofam) 2021 (FOPH / swissethics)",
+     "url": "https://swissethics.ch/assets/swissethics/jahresberichte/bag_jahresbericht_2021_a4_en.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Gesetz über das elektronische Gesundheitsdossier (EGDG), Fassung 01.02.2026",
+     "url": "https://www.gesetze.li/konso/pdf/2021213000?version=4",
+     "date": "2026-02-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "EEA-Lex factsheet: Regulation (EU) 2025/327, European Health Data Space (EFTA)",
+     "url": "https://www.efta.int/eea-lex/32025r0327",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Verwaltungsvereinbarung Amt für Gesundheit und Swissmedic (LGBl. 2024 Nr. 74)",
+     "url": "https://gesetze.li/konso/html/2024074000?search_loc=&search_text=&version=1",
+     "date": "2024-02-27",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "The EU medical device regulation has applied through the EEA since June 2020, but the EU AI Act is not yet in the EEA Agreement. A government legal expert hopes it is adopted in the course of 2027, and no national clinical AI rules were verified.",
+   "detail": [
+    "Regulation (EU) 2017/745 on medical devices was incorporated by EEA Joint Committee Decision 288/2019 and entered into force in the EEA on 12 June 2020.",
+    "Through the customs treaty, Swiss therapeutic products law also applies, and a 2024 agreement sets out cooperation between the Office of Health and Swissmedic on medical devices.",
+    "The AI Act is still under EEA scrutiny. In July 2026 the Office for Digital Innovation said no date could be named but hoped for adoption during 2027; it plans an implementing law and named authorities.",
+    "No national rule specific to AI in clinical care was verified."
+   ],
+   "sources": [
+    {
+     "title": "EEA-Lex factsheet: Regulation (EU) 2017/745 (EFTA)",
+     "url": "https://www.efta.int/eea-lex/32017r0745",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "EEA-Lex factsheet: Regulation (EU) 2024/1689, AI Act (EFTA)",
+     "url": "https://www.efta.int/eea-lex/32024r1689",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Verwaltungsvereinbarung Amt für Gesundheit und Swissmedic (LGBl. 2024 Nr. 74)",
+     "url": "https://gesetze.li/konso/html/2024074000?search_loc=&search_text=&version=1",
+     "date": "2024-02-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Der AI-Act ist gestaffelt anwendbar (digital-liechtenstein.li)",
+     "url": "https://digital-liechtenstein.li/der-ai-act-ist-gestaffelt-anwendbar/",
+     "date": "2026-07-27",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "unknown",
+  "research": "siloed"
+ },
+ "journeyNote": "Hospital, doctors and pharmacists must by law upload key documents, including lab findings, to the eGD, and Swiss hospitals joined in 2026. Upload compliance, e-prescription, claims and public health links were not verified. eGD data is barred from research.",
+ "laws": [
+  {
+   "name": "Gesetz über das elektronische Gesundheitsdossier (EGDG)",
+   "level": "National",
+   "year": "2021",
+   "what": "Opt-out eGD for all insured; read, hide, delete rights; mandatory uploads; access logs; fines up to CHF 50,000.",
+   "url": "https://www.gesetze.li/konso/pdf/2021213000?version=4"
+  },
+  {
+   "name": "Verordnung über das elektronische Gesundheitsdossier (EGDV)",
+   "level": "National",
+   "year": "2022",
+   "what": "Patient unlock of provider access; 28-day, 365-day and 24-hour windows; notice of unauthorised access.",
+   "url": "https://www.gesetze.li/konso/pdf/2022365000?version=2"
+  },
+  {
+   "name": "Gesetz über die Ärzte (Ärztegesetz), Art. 14",
+   "level": "National",
+   "year": "2003",
+   "what": "Doctors must keep records ten years and give patients information and a copy on request.",
+   "url": "https://www.gesetze.li/konso/pdf/2003239000?version=14"
+  },
+  {
+   "name": "General Data Protection Regulation (EU) 2016/679",
+   "level": "Supranational",
+   "year": "2016",
+   "what": "Applies in Liechtenstein through the EEA since 20 July 2018; health is special-category data.",
+   "url": "https://www.efta.int/eea-lex/32016r0679"
+  },
+  {
+   "name": "Medical Device Regulation (EU) 2017/745",
+   "level": "Supranational",
+   "year": "2017",
+   "what": "Covers medical device software including AI; in force in the EEA since 12 June 2020.",
+   "url": "https://www.efta.int/eea-lex/32017r0745"
+  },
+  {
+   "name": "European Health Data Space Regulation (EU) 2025/327",
+   "level": "Supranational",
+   "year": "2025",
+   "what": "Under EEA scrutiny; no Joint Committee Decision, so not yet applicable in Liechtenstein.",
+   "url": "https://www.efta.int/eea-lex/32025r0327"
+  },
+  {
+   "name": "EU Artificial Intelligence Act (EU) 2024/1689",
+   "level": "Supranational",
+   "year": "2024",
+   "what": "Under EEA scrutiny; not yet applicable in Liechtenstein; implementing law planned.",
+   "url": "https://www.efta.int/eea-lex/32024r1689"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-03-03",
+   "headline": "Foreign hospitals can now upload documents directly into Liechtenstein eGDs",
+   "source": "Regierung des Fürstentums Liechtenstein",
+   "url": "https://www.regierung.li/medienportal-medium/16182/234283/0/medienmitteilung",
+   "why": "Care received in Switzerland can now reach the patient's own record, with consent."
+  },
+  {
+   "date": "2026-04-14",
+   "headline": "Spital Grabs and HOCH Health Ostschweiz connect to the Liechtenstein eGD",
+   "source": "HOCH Health Ostschweiz",
+   "url": "https://www.h-och.ch/ueber-uns/news/anbindung-an-das-elektronische-gesundheitsdossier-e-gd-des-fuerstentums-liechtenstein-2026-04-14/",
+   "why": "A nearby regional hospital group used by Liechtenstein patients now feeds the dossier."
+  },
+  {
+   "date": "2026-04-19",
+   "headline": "Initiative authors, citing Vaterland, say about 5 percent of eGDs are used",
+   "source": "lie:zeit",
+   "url": "https://www.lie-zeit.li/2026/04/egd-akzeptanz-problem/",
+   "why": "Raises the question of whether an opt-out record is used by the people it serves."
+  },
+  {
+   "date": "2026-09-04",
+   "headline": "Data Protection Office reports 50 percent more complaints in 2025",
+   "source": "Datenschutzstelle Liechtenstein",
+   "url": "https://www.datenschutzstelle.li/aktuelles/taetigkeitsbericht-2025",
+   "why": "Rising caseload with limited staff can slow enforcement of patients' data rights."
+  },
+  {
+   "date": "2026-09-25",
+   "headline": "Government launches smartphone app for the electronic health dossier",
+   "source": "Fürstentum Liechtenstein (Presseportal)",
+   "url": "https://www.presseportal.ch/de/pm/100000148/100942549",
+   "why": "Patients can read their eGD on a phone and get alerts when new documents arrive."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

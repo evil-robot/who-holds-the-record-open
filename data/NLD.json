@@ -1,0 +1,391 @@
+{
+  "iso3": "NLD",
+  "name": "Netherlands",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Dutch records move between providers only with the patient's explicit opt-in, but few people use their copy apps and an EHDS opt-out is planned.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 55,
+      "summary": "Dutch law gives a copy of the whole file and free electronic access, and about 93% of GPs connect to certified apps. Only 571,000 people fetched records that way in 2024, and the EU scores Dutch record access 69.35 against an 86.51 average.",
+      "detail": [
+        "Article 7:456 of the Civil Code (WGBO) gives the patient access to and a copy of the data in the file, limited only to protect another person's privacy. The provider must keep the file for 20 years after the last change (art. 7:454).",
+        "Article 15d of the Wabvpz requires providers to give access and copies electronically on request, free of charge. Pharmacists must show medication data electronically on request, at dispensing. GDPR one-month deadlines also apply.",
+        "There is no government portal. Patients use apps with the MedMij label (PGOs). MedMij says 4,388 providers exchanged data with these apps in December 2024, including 93% of GPs and 83% of medical specialist institutions. Users fetched records 1.6 million times in 2024.",
+        "The Commission's 2026 report scores Dutch access 69.35, up from 65.18 but below the EU's 86.51. It notes no national overview of which hospitals share data and that legal guardians cannot yet get access in practice.",
+        "MedMij is a national label for private apps, not a government portal, so the no-portal rule applies: base 45, +5 free copy with a fixed deadline, +5 apps documented officially. No +10: 93% of GPs are connected, but 571,000 users in 2024 is not wide use."
+      ],
+      "sources": [
+        {
+          "title": "Burgerlijk Wetboek Boek 7, art. 7:454-7:458 (WGBO), geldende versie (wetten.overheid.nl)",
+          "url": "https://wetten.overheid.nl/BWBR0005290/2026-01-01/0",
+          "date": "2026-01-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Wet aanvullende bepalingen verwerking persoonsgegevens in de zorg (Wabvpz), art. 15a-15f (wetten.overheid.nl)",
+          "url": "https://wetten.overheid.nl/BWBR0023864/2025-07-05/0",
+          "date": "2025-07-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Decade 2026 country report, the Netherlands, SWD(2026) 155 (European Commission)",
+          "url": "https://ec.europa.eu/newsroom/dae/redirection/document/128656",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Ruim half miljoen Nederlanders haalden in 2024 via MedMij gegevens op (Stichting MedMij)",
+          "url": "https://medmij.nl/media/ruim-half-miljoen-nederlanders-haalden-in-2024-via-medmij-gegevens-op/",
+          "date": "2025-02-13",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 72,
+      "summary": "Under the Wabvpz a provider may share data through an exchange system only with the patient's explicit consent, and patients can see on Volgjezorg who viewed their data via the national switch point. Consent is split across several systems, and the government plans an EHDS opt-out.",
+      "detail": [
+        "Article 15a of the Wabvpz says a provider may make data available through an electronic exchange system only if the patient has expressly consented. Article 15e lets the patient ask for a copy showing who made data available and who viewed it, with dates.",
+        "Mitz is the national consent service, free for patients and providers, reached with DigiD. On MijnMitz a patient can consent for all providers, for one provider such as the GP, or for a group such as all pharmacies, or refuse all. A treatment relationship is still required.",
+        "For the national switch point (LSP), Volgjezorg shows which data types were shared, which providers viewed them and when, with optional alerts. Mitz is not mandatory for providers, so consent may still be recorded in providers' own systems.",
+        "On 20 January 2026 the health minister confirmed the plan to use the optional EHDS opt-out for primary use (letter cited under research). Data would then be available unless the patient restricts it, a reversal of today's consent rule. The law must apply by 26 March 2029."
+      ],
+      "sources": [
+        {
+          "title": "Wet aanvullende bepalingen verwerking persoonsgegevens in de zorg (Wabvpz), art. 15a-15f (wetten.overheid.nl)",
+          "url": "https://wetten.overheid.nl/BWBR0023864/2025-07-05/0",
+          "date": "2025-07-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Vragen & antwoorden (Mitz, Stichting GVvZ / VZVZ)",
+          "url": "https://www.mitz-toestemming.nl/kennis-en-ondersteuning/vragen-antwoorden",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Volgjezorg: grip op je medische gegevens (VZVZ)",
+          "url": "https://www.volgjezorg.nl/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "MijnMitz: toestemmingskeuzes voor het delen van medische gegevens (Mitz)",
+          "url": "https://www.mijnmitz.nl",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 52,
+      "summary": "The 2025 hack of lab Clinical Diagnostics exposed data of up to 850,000 people, and the health inspectorate found the lab had not met the required NEN 7510 security norm but cannot fine it. Health and welfare filed over 6,800 breach reports in 2024.",
+      "detail": [
+        "In July 2025 attackers reached the systems of Clinical Diagnostics, which tested samples for the cervical cancer screening programme. The lab said 850,000 people were affected; data included names, addresses, birth dates, citizen service numbers and possibly test results (NOS).",
+        "In May 2026 the inspectorate IGJ found the lab breached the Wabvpz duty to meet NEN 7510, both at the time of the hack and at a December 2025 visit. There had been no independent audit. The IGJ cannot impose penalties under the Wabvpz; the data protection authority AP can under the GDPR.",
+        "The AP said health and welfare organisations sent it over 6,800 breach reports in 2024, the most of any sector. It announced spot checks of hospitals and GP posts in December 2025 and opened an investigation into the lab hack.",
+        "The AP's health enforcement record includes a 440,000 euro fine on Amsterdam hospital OLVG in 2021 for weak controls on staff access to records. No AP fine over the lab hack had been published by the research date."
+      ],
+      "sources": [
+        {
+          "title": "Clinical Diagnostics voldeed niet aan wettelijke norm voor informatiebeveiliging (IGJ)",
+          "url": "https://www.igj.nl/actueel/nieuws/2026/05/13/clinical-diagnostics-voldeed-niet-aan-wettelijke-norm-voor-informatiebeveiliging",
+          "date": "2026-05-13",
+          "publisherClass": "official"
+        },
+        {
+          "title": "AP gaat databeveiliging in de zorg controleren (Autoriteit Persoonsgegevens)",
+          "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-gaat-databeveiliging-in-de-zorg-controleren",
+          "date": "2025-12-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Boete OLVG (Autoriteit Persoonsgegevens)",
+          "url": "https://www.autoriteitpersoonsgegevens.nl/documenten/boete-olvg",
+          "date": "2021-02-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Hackers laboratorium hadden toegang tot gegevens 850.000 mensen (NOS)",
+          "url": "https://nos.nl/artikel/2580363-hackers-laboratorium-hadden-toegang-tot-gegevens-850-000-mensen",
+          "date": "2025-08-29",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 62,
+      "summary": "Dutch law bars health insurers, company doctors and insurance doctors from the electronic exchange systems, and limits genetic questions in insurance medical checks. Certified patient apps are contractually barred from selling data, and the EHDS bans marketing use of research data from 2029.",
+      "detail": [
+        "Article 15f of the Wabvpz says a health insurer has no access to electronic exchange systems. Doctors working as company doctor, insurance doctor or examining doctor may not access these systems or process data from them.",
+        "Article 5 of the Medical Examinations Act (Wmk) bans questions about hereditary disease and genetic tests when the insurance sought stays below a set amount (the vragengrens).",
+        "MedMij says apps with its label may not view or sell users' medical data; this rests on the participant agreement each supplier signs. Health apps outside this label rely on the GDPR. A Dutch statutory ban on selling health data beyond the GDPR was not verified.",
+        "From 2029 the EHDS forbids using health data accessed for secondary use for marketing or for decisions that harm individuals (European Commission)."
+      ],
+      "sources": [
+        {
+          "title": "Wet aanvullende bepalingen verwerking persoonsgegevens in de zorg (Wabvpz), art. 15a-15f (wetten.overheid.nl)",
+          "url": "https://wetten.overheid.nl/BWBR0023864/2025-07-05/0",
+          "date": "2025-07-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Wet op de medische keuringen, art. 5 (wetten.overheid.nl)",
+          "url": "https://wetten.overheid.nl/BWBR0008819/2025-01-01/0",
+          "date": "2025-01-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Veelgestelde vragen van zorggebruikers (Stichting MedMij)",
+          "url": "https://medmij.nl/zorggebruikers/vragen-van-zorggebruikers/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "European Health Data Space Regulation (EHDS) (European Commission, DG SANTE)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "journey": {
+      "score": 60,
+      "summary": "The national switch point carries more than a billion messages a year, mainly between GPs and pharmacies, and the Wegiz can make set data flows electronic by law. The Commission still calls Dutch health digitalisation fragmented, with no overview of which hospitals share data.",
+      "detail": [
+        "The LSP, run since 2012 by providers' association VZVZ, holds no medical data. It links source systems, with patient consent. VZVZ says it is used mainly in GP care and pharmacy and handles over a billion messages a year.",
+        "In 2025 the LSP was certified as a Twiin node for the basic care data set, widening reach to hospitals and clinics, and was readied for national medication transfer. Wider rollout depends on other parties.",
+        "The Wegiz applies from 1 July 2023. It is a framework law: each data flow, such as GP prescriptions to pharmacies, becomes mandatory only once named in a decree, with standards and certified software.",
+        "Patient copies run over a separate network, MedMij. The EHDS requires patient summaries and e-prescriptions to flow from March 2029, and images, lab results and discharge reports from March 2031."
+      ],
+      "sources": [
+        {
+          "title": "Jaarterugblik AORTA-LSP 2025 (VZVZ)",
+          "url": "https://www.vzvz.nl/nieuws/jaarterugblik-aorta-lsp-2025",
+          "date": "2026-02-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Wegiz: uitleg over de wet (Data voor gezondheid, ministerie van VWS)",
+          "url": "https://www.datavoorgezondheid.nl/onderwerpen/w/wegiz/uitleg-over-de-wet",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Decade 2026 country report, the Netherlands, SWD(2026) 155 (European Commission)",
+          "url": "https://ec.europa.eu/newsroom/dae/redirection/document/128656",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "European Health Data Space Regulation (EHDS) (European Commission, DG SANTE)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 58,
+      "summary": "A treating clinician can see GP and pharmacy data through the national switch point once the patient has consented, and pharmacists say most patients do. What is shared is limited by professional rules, such as six months of dispensed medication.",
+      "detail": [
+        "The Civil Code lets data flow without separate consent only to those directly involved in the treatment (art. 7:457). Sharing with other providers through an exchange system needs explicit consent under the Wabvpz.",
+        "Pharmacies share dispensed active medication of the last six months, plus allergies and intolerances, which other connected pharmacists, GPs and specialists can query. The KNMP says practice shows most patients consent.",
+        "Mitz says a yes does not open the whole record and a treatment relationship is required. In an emergency a GP post can record 72-hour consent if the patient agrees on the spot.",
+        "Mitz, which is voluntary, had close to 500 connected providers in November 2025. No national figure for the share of residents with a recorded consent was found."
+      ],
+      "sources": [
+        {
+          "title": "Burgerlijk Wetboek Boek 7, art. 7:454-7:458 (WGBO), geldende versie (wetten.overheid.nl)",
+          "url": "https://wetten.overheid.nl/BWBR0005290/2026-01-01/0",
+          "date": "2026-01-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Vragen & antwoorden (Mitz, Stichting GVvZ / VZVZ)",
+          "url": "https://www.mitz-toestemming.nl/kennis-en-ondersteuning/vragen-antwoorden",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Landelijk Schakelpunt (LSP), dossier medicatieoverdracht (KNMP)",
+          "url": "https://www.knmp.nl/dossiers/medicatieoverdracht/landelijk-schakelpunt-lsp",
+          "date": "2026-07-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mijlpaal: 1 miljoen bezoekers op MijnMitz.nl (VZVZ)",
+          "url": "https://www.vzvz.nl/nieuws/mijlpaal-1-miljoen-bezoekers-op-mijnmitznl",
+          "date": "2025-11-21",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 57,
+      "summary": "Records may go to health research without consent only when asking is not feasible or data are de-identified, and never if the patient has expressly objected. Objection is made at each provider, with no national register.",
+      "detail": [
+        "Article 7:458 of the Civil Code allows disclosure for statistics or health research without consent only if asking is not reasonably possible with privacy safeguards, or data are given in a form that prevents identification. The research must serve a general interest and need the data.",
+        "The patient must not have expressly objected, and each disclosure must be noted in the file. This works as a statutory opt-out, but it is lodged provider by provider.",
+        "Nivel's primary care registry shows the rule in use: data are pseudonymised at source through a trusted third party, no names or birth dates are collected, and patients who object through their clinician are excluded.",
+        "The Wet GIS bill (consultation from 27 May 2026) creates a Health Data Authority to issue EHDS data permits. The AP will oversee citizens' EHDS rights, including the secondary-use opt-out, worked out in a later bill."
+      ],
+      "sources": [
+        {
+          "title": "Burgerlijk Wetboek Boek 7, art. 7:454-7:458 (WGBO), geldende versie (wetten.overheid.nl)",
+          "url": "https://wetten.overheid.nl/BWBR0005290/2026-01-01/0",
+          "date": "2026-01-01",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Privacybescherming Nivel Zorgregistraties Eerste Lijn (Nivel)",
+          "url": "https://www.nivel.nl/nl/panels-en-registraties/nivel-zorgregistraties-eerste-lijn/deelnemen-en-deelnemers/privacybescherming",
+          "date": "undated",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Internetconsultatie Wet op het Gezondheidsinformatiestelsel gestart (Data voor gezondheid, ministerie van VWS)",
+          "url": "https://www.datavoorgezondheid.nl/actueel/nieuws/2026/06/09/internetconsultatie-wet-op-het-gezondheidsinformatiestelsel-gestart",
+          "date": "2026-06-09",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kamerbrief over de implementatie van de EHDS, Kamerstuk 27 529 nr. 356 (Minister van VWS)",
+          "url": "https://www.tweedekamer.nl/downloads/document?id=2026D02216",
+          "date": "2026-01-20",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device law and the AI Act, whose duties for AI in medical devices now start 2 August 2028. Dutch national guidance on AI in care is voluntary, so no national credit is given.",
+      "detail": [
+        "AI used as a medical device must meet the EU device rules. The Digital Omnibus on AI, Regulation (EU) 2026/1744, entered into force on 27 July 2026 and set 2 August 2028 for high-risk AI under Annex I, which covers medical devices.",
+        "The Dutch Guideline on quality of AI in care (Leidraad kwaliteit AI in de zorg) is a voluntary tool from a 2019-2021 programme. A 2025 study for the health ministry found half of users want it improved, and it lacks AI Act and large language model content.",
+        "The ministry asked AIC4NL and UMC Utrecht to draft a generative AI guideline, expected in the first half of 2026; its publication was not verified. The Commission notes a healthcare-specific AI strategy alongside the 2019 national AI plan."
+      ],
+      "sources": [
+        {
+          "title": "Leidraad kwaliteit AI in de zorg nader onderzocht (Data voor gezondheid, ministerie van VWS)",
+          "url": "https://www.datavoorgezondheid.nl/actueel/nieuws/2025/09/08/leidraad-kwaliteit-ai-in-de-zorg-nader-onderzocht",
+          "date": "2025-09-08",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Digital Omnibus on AI, Regulation (EU) 2026/1744, text and dates (AI Act Explorer, artificialintelligenceact.eu)",
+          "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Digital Decade 2026 country report, the Netherlands, SWD(2026) 155 (European Commission)",
+          "url": "https://ec.europa.eu/newsroom/dae/redirection/document/128656",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "connected",
+    "claims": "siloed",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "GPs and pharmacies share via the LSP with patient consent; pharmacy counts as connected though limited to six months. Hospitals are joining through Twiin and Mitz. Insurers are barred from exchange systems by law. Lab result exchange was not verified.",
+  "laws": [
+    {
+      "name": "Burgerlijk Wetboek Boek 7, afdeling 5 (WGBO)",
+      "level": "National",
+      "year": "1994",
+      "what": "Right to access and copy the file, 20-year retention, secrecy, research without consent unless the patient objects.",
+      "url": "https://wetten.overheid.nl/BWBR0005290/2026-01-01/0"
+    },
+    {
+      "name": "Wet aanvullende bepalingen verwerking persoonsgegevens in de zorg (Wabvpz)",
+      "level": "National",
+      "year": "2008",
+      "what": "Explicit consent for electronic exchange, free electronic copies, access log on request, insurers barred.",
+      "url": "https://wetten.overheid.nl/BWBR0023864/2025-07-05/0"
+    },
+    {
+      "name": "Wet elektronische gegevensuitwisseling in de zorg (Wegiz)",
+      "level": "National",
+      "year": "2023",
+      "what": "Framework law making named data flows electronic and standardised, with certified software.",
+      "url": "https://www.datavoorgezondheid.nl/onderwerpen/w/wegiz/uitleg-over-de-wet"
+    },
+    {
+      "name": "Wet op de medische keuringen (Wmk)",
+      "level": "National",
+      "year": "1997",
+      "what": "Bans genetic and hereditary disease questions in insurance medical checks below a set amount.",
+      "url": "https://wetten.overheid.nl/BWBR0008819/2025-01-01/0"
+    },
+    {
+      "name": "Wet op het Gezondheidsinformatiestelsel (Wet GIS), bill",
+      "level": "National",
+      "year": "2026",
+      "what": "First EHDS implementing law; creates the Health Data Authority. In consultation from 27 May 2026.",
+      "url": "https://www.datavoorgezondheid.nl/actueel/nieuws/2026/06/09/internetconsultatie-wet-op-het-gezondheidsinformatiestelsel-gestart"
+    },
+    {
+      "name": "Regulation (EU) 2025/327, European Health Data Space",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Access, restriction and secondary-use opt-out rights; key parts apply from March 2029 and 2031.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "Regulation (EU) 2026/1744, Digital Omnibus on AI",
+      "level": "Supranational",
+      "year": "2026",
+      "what": "Sets 2 August 2028 for AI Act duties on high-risk AI in products such as medical devices.",
+      "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-21",
+      "headline": "Hacked screening lab resumes work as women's group files liability claim",
+      "source": "PONT Data & Privacy",
+      "url": "https://privacy-web.nl/nieuws/na-grote-datahack-mag-clinical-diagnostics-weer-gegevens-bevolkingsonderzoek-verwerken/",
+      "why": "Victims of the largest Dutch medical data leak may seek collective damages."
+    },
+    {
+      "date": "2026-07-14",
+      "headline": "Doctors' federation KNMG warns EHDS opt-out shift touches medical secrecy",
+      "source": "iBestuur",
+      "url": "https://ibestuur.nl/digitale-weerbaarheid/digitale-veiligheid/knmg-uit-zorgen-over-regels-uitwisseling-gezondheidsdata",
+      "why": "Patients could lose the explicit opt-in that now governs record sharing."
+    },
+    {
+      "date": "2026-06-09",
+      "headline": "Government opens consultation on first EHDS law and Health Data Authority",
+      "source": "Data voor gezondheid (VWS)",
+      "url": "https://www.datavoorgezondheid.nl/actueel/nieuws/2026/06/09/internetconsultatie-wet-op-het-gezondheidsinformatiestelsel-gestart",
+      "why": "Decides who grants research access to records and who polices opt-outs."
+    },
+    {
+      "date": "2026-05-13",
+      "headline": "Inspectorate finds hacked lab missed the legal security norm",
+      "source": "Inspectie Gezondheidszorg en Jeugd",
+      "url": "https://www.igj.nl/actueel/nieuws/2026/05/13/clinical-diagnostics-voldeed-niet-aan-wettelijke-norm-voor-informatiebeveiliging",
+      "why": "Shows the health inspectorate cannot fine providers that break security rules."
+    },
+    {
+      "date": "2025-12-03",
+      "headline": "Data protection authority starts spot checks of health providers' security",
+      "source": "Autoriteit Persoonsgegevens",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-gaat-databeveiliging-in-de-zorg-controleren",
+      "why": "Health had over 6,800 breach reports in 2024, the most of any sector."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

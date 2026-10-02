@@ -1,0 +1,155 @@
+{
+  "iso3": "LVA",
+  "name": "Latvia",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "The E-veselība record, with an access log and patient bans, covers prescriptions, labs and discharges, but staff snooping persists and the portal is being rebuilt.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 64,
+      "summary": "The free national E-veselība portal shows prescriptions, referrals, discharge summaries and lab results (from 2024), and the law gives one free copy within three working days. Export and full history depth were not verified, so the score sits in the lower half of its band.",
+      "detail": [
+        "Article 9 of the Patient Rights Law gives patients the right to see their medical documents and to receive extracts or copies within three working days. One copy is free; further copies follow the provider's price list. Patients can ask for corrections.",
+        "The national portal, eveseliba.gov.lv, shows e-prescriptions, referrals, the patient card with discharge summaries and outpatient notes, sick-leave certificates, vaccinations and lab results. Lab results are listed from 2024.",
+        "The Latvian Digital Health Centre (LDVC) says 4.7 million lab reports were available free to residents in 2025. The OECD and European Commission report that 40% of Latvians accessed personal health records online in 2024, against an EU average of 28%.",
+        "A rebuilt citizen portal was due in test mode by April 2026, with full use in the second half of 2026. A machine-readable export and how many years of older records appear were not verified."
+      ],
+      "sources": [
+        {"title": "Pacientu tiesību likums (Patient Rights Law), Article 9", "url": "https://likumi.lv/ta/id/203008-pacientu-tiesibu-likums", "date": "2009-12-17", "publisherClass": "legal_text"},
+        {"title": "Kādi dati pieejami E-veselības sistēmā, un kas tiem var piekļūt? (LV portāls)", "url": "https://lvportals.lv/skaidrojumi/388343-kadi-dati-pieejami-e-veselibas-sistema-un-kas-tiem-var-pieklut-2026", "date": "2026-04-17", "publisherClass": "official"},
+        {"title": "Latvijas Digitālās veselības centrs: pirmajā darbības gadā paveikts būtisks darbs", "url": "https://ldvc.lv/latvijas-digitalas-veselibas-centrs-pirmaja-darbibas-gada-paveikts-butisks-darbs-digitalas-veselibas-attistiba/", "date": "2026-02-02", "publisherClass": "official"},
+        {"title": "State of Health in the EU: Latvia Country Health Profile 2025 (OECD and European Commission)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/latvia_49bcb16d/acdd6b03-en.pdf", "date": "2025-12", "publisherClass": "intergov"}
+      ]
+    },
+    "control": {
+      "score": 62,
+      "summary": "Patients can see an audit log of who opened their record, ban all access or block chosen providers and data, and delegate access. Records are open to treating staff by default, and repeated snooping cases keep the score in the lower half of the band.",
+      "detail": [
+        "Cabinet Regulation No. 134 lets a patient deny all health facilities access to all their data, or restrict chosen institutions or professionals from chosen data. LV portāls warns that blocking access may force doctors to repeat tests.",
+        "The system logs every authenticated user action and access attempt with a time and user ID. Patients read this in the portal's audit section for any period they choose.",
+        "Patients can delegate the same rights they hold to another person. Sharing is on by default: providers upload records and treating staff can see them without a fresh consent.",
+        "In January 2024 the Data State Inspectorate (DVI) said it had 30 complaints in a year about staff viewing records without reason. Its head said access to everyone's data does not mean staff may look at it."
+      ],
+      "sources": [
+        {"title": "Noteikumi par vienoto veselības nozares elektronisko informācijas sistēmu (Cabinet Regulation No. 134)", "url": "https://likumi.lv/ta/id/264943", "date": "2014-03-11", "publisherClass": "legal_text"},
+        {"title": "Kādi dati pieejami E-veselības sistēmā, un kas tiem var piekļūt? (LV portāls)", "url": "https://lvportals.lv/skaidrojumi/388343-kadi-dati-pieejami-e-veselibas-sistema-un-kas-tiem-var-pieklut-2026", "date": "2026-04-17", "publisherClass": "official"},
+        {"title": "Doctor raises alarm over unauthorized patient data access (LSM)", "url": "https://eng.lsm.lv/article/society/health/29.01.2024-doctor-raises-alarm-over-unauthorized-patient-data-access.a540705/", "date": "2024-01-29", "publisherClass": "news"}
+      ]
+    },
+    "privacy": {
+      "score": 58,
+      "summary": "Patient data may be disclosed only with written consent or under listed exceptions, and an independent regulator oversees GDPR. Health-sector enforcement is mild: staff snooping in E-veselība drew mostly warnings in 2025 and one EUR 250 fine.",
+      "detail": [
+        "Article 10 of the Patient Rights Law protects patient data, including after death. Courts, prosecutors and police can obtain it, but only by written request with a reason and the written permission of the facility head.",
+        "The Personal Data Processing Law of 2018 names the Data State Inspectorate as the GDPR regulator and states that it is independent. Health data is special-category data under GDPR.",
+        "The DVI's 2025 report found staff used E-veselība to view relatives' and colleagues' records. Most cases ended in corrective measures and warnings; one drew a EUR 250 fine. Total fines across all sectors in 2025 were EUR 326,400.",
+        "In late June 2026 a construction crew cut two fibre cables and pharmacies could not dispense e-prescriptions for hours. CERT.LV said a cable break should not halt medicine dispensing."
+      ],
+      "sources": [
+        {"title": "Pacientu tiesību likums (Patient Rights Law), Article 10", "url": "https://likumi.lv/ta/id/203008-pacientu-tiesibu-likums", "date": "2009-12-17", "publisherClass": "legal_text"},
+        {"title": "Fizisko personu datu apstrādes likums (Personal Data Processing Law)", "url": "https://likumi.lv/ta/id/300099-fizisko-personu-datu-apstrades-likums", "date": "2018-06-21", "publisherClass": "legal_text"},
+        {"title": "E-veselības dati skatīti bez iemesla: DVI atklāj pārkāpumus Latvijā (BNN)", "url": "https://bnn.lv/e-veselibas-dati-skatiti-bez-iemesla-dvi-atklaj-parkapumus-latvija/", "date": "2026-03-20", "publisherClass": "news"},
+        {"title": "Damaged cable leaves patients without meds in Latvia (LSM)", "url": "https://eng.lsm.lv/article/society/health/30.06.2026-damaged-cable-leaves-patients-without-meds-in-latvia.a653205/", "date": "2026-06-30", "publisherClass": "news"}
+      ]
+    },
+    "commercial": {
+      "score": 55,
+      "summary": "Providers may release patient data only with written consent or under a closed legal list, and research access is permit-based. No Latvia-specific ban on selling health data or on health apps beyond GDPR was verified.",
+      "detail": [
+        "The Patient Rights Law lists who may receive patient data without consent: other providers, regulators, courts, insurers for claims and some state bodies. Marketing and data brokers are not on the list.",
+        "Research use of identifiable records needs a permit from the Centre for Disease Prevention and Control, and permits are published. This limits quiet commercial reuse of provider records.",
+        "No Latvian rule on health data sales, health advertising or consumer health apps beyond GDPR was verified. Data held by apps, retailers or loyalty schemes outside the health system falls under general GDPR only."
+      ],
+      "sources": [
+        {"title": "Pacientu tiesību likums (Patient Rights Law), Article 10", "url": "https://likumi.lv/ta/id/203008-pacientu-tiesibu-likums", "date": "2009-12-17", "publisherClass": "legal_text"},
+        {"title": "Kārtība, kādā atļauj izmantot pacienta datus konkrētā pētījumā (Cabinet Regulation No. 446)", "url": "https://likumi.lv/ta/id/275747-kartiba-kada-atlauj-izmantot-pacienta-datus-konkreta-petijuma", "date": "2015-08-04", "publisherClass": "legal_text"}
+      ]
+    },
+    "journey": {
+      "score": 70,
+      "summary": "Prescriptions, lab reports, imaging, discharge summaries and referrals flow into one national system: in August 2026 pharmacies filled about 1.1 million e-prescriptions and 30 paper ones. Low ICT investment and a fragile network link hold the score down.",
+      "detail": [
+        "Cabinet Regulation No. 134 requires providers to upload outpatient records and discharge summaries within five working days and lab results at once.",
+        "LDVC usage data for August 2026 shows 1,435,327 e-prescriptions written, 444,299 lab reports, 115,033 imaging studies and 40,997 discharge summaries submitted. The structured patient summary (diagnoses, allergies) was created for only 36 patients that month.",
+        "Electronic referrals became mandatory on 5 May 2026, after about 60% were already digital. A single booking system was planned for the second half of 2026.",
+        "The OECD and Commission report Latvia invested about EUR 0.4 million per 100,000 people in health ICT in 2022, against an EU average of EUR 2.3 million."
+      ],
+      "sources": [
+        {"title": "E-veselības un e-vakcinācijas lietojuma pārskats, 2026 augusts (LDVC)", "url": "https://ldvc.lv/wp-content/uploads/2026/09/EVES_EVAK_2026_augusts.pdf", "date": "2026-09", "publisherClass": "official"},
+        {"title": "Noteikumi par vienoto veselības nozares elektronisko informācijas sistēmu (Cabinet Regulation No. 134)", "url": "https://likumi.lv/ta/id/264943", "date": "2014-03-11", "publisherClass": "legal_text"},
+        {"title": "Digital referrals now mandatory in Latvia's healthcare system (LSM)", "url": "https://eng.lsm.lv/article/society/health/05.05.2026-digital-referrals-now-mandatory-in-latvias-healthcare-system.a645708/", "date": "2026-05-05", "publisherClass": "news"},
+        {"title": "State of Health in the EU: Latvia Country Health Profile 2025 (OECD and European Commission)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/latvia_49bcb16d/acdd6b03-en.pdf", "date": "2025-12", "publisherClass": "intergov"}
+      ]
+    },
+    "clinical": {
+      "score": 66,
+      "summary": "Treating staff can see nearly all of a patient's national record, apart from psychiatric and addiction data that only specially authorised staff can open. The structured patient summary is rarely filled in, and patient bans can hide data.",
+      "detail": [
+        "LV portāls says providers see almost all patient information in E-veselība: documents, test results and prescriptions. Records with psychiatric or narcological diagnoses are open only to specially authorised staff.",
+        "Regulation No. 134 sets these limits through contracts for psychiatric and narcological data. A patient's full or partial ban also removes data from the clinician's view.",
+        "The basic patient summary of diagnoses and allergies is thin. LDVC data shows it was created for only 36 patients in August 2026.",
+        "Across borders, LSM reports clinicians in seven EU countries can read Latvian patients' basic health data. Cross-border lab exchange is planned from April 2027."
+      ],
+      "sources": [
+        {"title": "Kādi dati pieejami E-veselības sistēmā, un kas tiem var piekļūt? (LV portāls)", "url": "https://lvportals.lv/skaidrojumi/388343-kadi-dati-pieejami-e-veselibas-sistema-un-kas-tiem-var-pieklut-2026", "date": "2026-04-17", "publisherClass": "official"},
+        {"title": "Noteikumi par vienoto veselības nozares elektronisko informācijas sistēmu (Cabinet Regulation No. 134)", "url": "https://likumi.lv/ta/id/264943", "date": "2014-03-11", "publisherClass": "legal_text"},
+        {"title": "E-veselības un e-vakcinācijas lietojuma pārskats, 2026 augusts (LDVC)", "url": "https://ldvc.lv/wp-content/uploads/2026/09/EVES_EVAK_2026_augusts.pdf", "date": "2026-09", "publisherClass": "official"},
+        {"title": "Latvia will start exchanging laboratory data with other EU states (LSM)", "url": "https://eng.lsm.lv/article/society/health/04.06.2026-latvia-will-start-exchanging-laboratory-data-with-other-eu-states.a650077/", "date": "2026-06-04", "publisherClass": "news"}
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "Identifiable records can be used for research without consent if a state permit is granted and the patient has not filed a written ban. The ban is filed with each provider, not as one general opt-out, so the score tops the no-opt-out band.",
+      "detail": [
+        "Article 10 of the Patient Rights Law allows research on anonymised data or with written consent. Without consent, research needs public interest, a state permit, no prior written ban by the patient, and a benefit that justifies the privacy intrusion.",
+        "Cabinet Regulation No. 446 makes the Centre for Disease Prevention and Control the permit body. It publishes each permit holder, study title, facilities and validity within five working days.",
+        "To refuse, a patient files a written ban with the facility that holds the data. A single national opt-out in E-veselība was not verified. The EHDS will add a simple, reversible opt-out from 2029."
+      ],
+      "sources": [
+        {"title": "Pacientu tiesību likums (Patient Rights Law), Article 10(7) to 10(9)", "url": "https://likumi.lv/ta/id/203008-pacientu-tiesibu-likums", "date": "2009-12-17", "publisherClass": "legal_text"},
+        {"title": "Kārtība, kādā atļauj izmantot pacienta datus konkrētā pētījumā (Cabinet Regulation No. 446)", "url": "https://likumi.lv/ta/id/275747-kartiba-kada-atlauj-izmantot-pacienta-datus-konkreta-petijuma", "date": "2015-08-04", "publisherClass": "legal_text"},
+        {"title": "European Health Data Space Regulation (European Commission)", "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en", "date": "2026-07-08", "publisherClass": "intergov"}
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI falls under EU device law and the EU AI Act, which Latvia applies through administrative measures with no national AI Act law. No Latvia-specific clinical AI rules or guidance were verified.",
+      "detail": [
+        "AI used as a medical device is regulated by EU device law. The EU AI Act (Regulation 2024/1689) adds duties for high-risk systems.",
+        "In February 2025 the government reviewed an AI Act implementation plan. It splits market surveillance across agencies, including the Health Inspectorate and the Data State Inspectorate.",
+        "The ministry's AI Act page, updated in September 2026, mentions no national implementing law. No national guidance on AI in clinical care, including generative AI, was verified."
+      ],
+      "sources": [
+        {"title": "Latvija sper soli pretī drošam un atbildīgam mākslīgajam intelektam (VARAM)", "url": "https://www.varam.gov.lv/lv/jaunums/latvija-sper-soli-preti-drosam-un-atbildigam-maksligajam-intelektam-valdiba-izskata-mi-akta-ieviesanas-planu", "date": "2025-02-25", "publisherClass": "official"},
+        {"title": "Mākslīgā intelekta (MI) akts (VARAM)", "url": "https://www.varam.gov.lv/lv/maksliga-intelekta-mi-akts", "date": "2026-09-29", "publisherClass": "official"}
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "Providers must upload visits, discharges and labs to E-veselība; nearly all prescriptions and all referrals are electronic. Paid-service data goes to the National Health Service, and the disease control centre exchanges registry data with it. Research needs a permit.",
+  "laws": [
+    {"name": "Patient Rights Law (Pacientu tiesību likums)", "level": "National", "year": "2009", "what": "Right to see and copy records, written consent for disclosure, research rules with a written ban right.", "url": "https://likumi.lv/ta/id/203008-pacientu-tiesibu-likums"},
+    {"name": "Cabinet Regulation No. 134 on the unified health sector information system", "level": "National", "year": "2014", "what": "Runs E-veselība: upload deadlines, access logs, patient full or partial access bans, retention periods.", "url": "https://likumi.lv/ta/id/264943"},
+    {"name": "Cabinet Regulation No. 446 on permits to use patient data in research", "level": "National", "year": "2015", "what": "Disease control centre grants research permits and publishes each permit within five working days.", "url": "https://likumi.lv/ta/id/275747-kartiba-kada-atlauj-izmantot-pacienta-datus-konkreta-petijuma"},
+    {"name": "Personal Data Processing Law (Fizisko personu datu apstrādes likums)", "level": "National", "year": "2018", "what": "Applies GDPR in Latvia and names the independent Data State Inspectorate as regulator.", "url": "https://likumi.lv/ta/id/300099-fizisko-personu-datu-apstrades-likums"},
+    {"name": "Regulation (EU) 2025/327 (European Health Data Space)", "level": "Supranational", "year": "2025", "what": "Cross-border record access and a secondary-use opt-out; main duties apply from March 2029 and 2031.", "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"},
+    {"name": "Regulation (EU) 2024/1689 (AI Act)", "level": "Supranational", "year": "2024", "what": "Risk-based AI rules, including high-risk duties; Latvia applies it through designated agencies.", "url": "https://www.varam.gov.lv/lv/maksliga-intelekta-mi-akts"}
+  ],
+  "news": [
+    {"date": "2026-06-30", "headline": "Cut fibre cables stop pharmacies dispensing e-prescriptions for hours", "source": "LSM", "url": "https://eng.lsm.lv/article/society/health/30.06.2026-damaged-cable-leaves-patients-without-meds-in-latvia.a653205/", "why": "With almost no paper prescriptions left, a network failure means patients go without medicine."},
+    {"date": "2026-06-04", "headline": "Latvia plans cross-border exchange of lab results from April 2027", "source": "LSM", "url": "https://eng.lsm.lv/article/society/health/04.06.2026-latvia-will-start-exchanging-laboratory-data-with-other-eu-states.a650077/", "why": "Doctors elsewhere in the EU could see a Latvian patient's test results and avoid repeat tests."},
+    {"date": "2026-05-05", "headline": "Electronic referrals become mandatory across Latvian health care", "source": "LSM", "url": "https://eng.lsm.lv/article/society/health/05.05.2026-digital-referrals-now-mandatory-in-latvias-healthcare-system.a645708/", "why": "Referrals now sit in the national record, and patients must manage one booking at a time."},
+    {"date": "2026-03-20", "headline": "Regulator finds staff viewing relatives' and colleagues' e-health records", "source": "BNN", "url": "https://bnn.lv/e-veselibas-dati-skatiti-bez-iemesla-dvi-atklaj-parkapumus-latvija/", "why": "Snooping drew mostly warnings and one EUR 250 fine, a weak deterrent."},
+    {"date": "2025-11-05", "headline": "Family doctors object as Latvia pushes electronic referrals", "source": "LSM", "url": "https://eng.lsm.lv/article/society/health/05.11.2025-latvia-still-tries-to-switch-to-electronic-prescriptions-referrals.a621198/", "why": "Doctors question system reliability during outages, which affects whether care can continue."}
+  ],
+  "asOf": "2026-10-01"
+}

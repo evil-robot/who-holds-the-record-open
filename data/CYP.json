@@ -1,0 +1,351 @@
+{
+  "iso3": "CYP",
+  "name": "Cyprus",
+  "region": "Europe",
+  "controlModel": "State",
+  "headline": "Cyprus wrote strong patient controls into its 2019 eHealth law, but the national record those controls govern is not due until 2029.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 64,
+      "summary": "The eHealth law and GDPR give a right to see and copy the record, and the GeSY portal shows prescriptions, referrals, diagnoses and visits. The Commission's 2025 eHealth indicator study scored Cyprus 75% for 2024, against an EU average of 83%.",
+      "detail": [
+        "Section 24 of the Electronic Health Law 59(I)/2019 gives each record holder the right to access and receive their health data electronically, plus all GDPR rights (CyLaw).",
+        "The GeSY beneficiary portal shows diagnoses, lab tests, visits, prescriptions, referrals, allergies and vaccinations for people registered with a personal doctor (Offsite, 2023).",
+        "The European Commission's 2026 country report says records are reachable through an online portal but the national mobile app is still under development.",
+        "The Commission's 2025 eHealth indicator study scored Cyprus 75% for 2024 (EU average 83%). It found 12 of 13 data types available, including imaging reports and late discharge reports; only medical images were missing. No mobile app existed."
+      ],
+      "sources": [
+        {
+          "title": "Electronic Health Law of 2019, 59(I)/2019, consolidated with 176(I)/2025 (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2019_1_59/full.html",
+          "date": "2019-04-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "2025 Digital Decade eHealth indicator study, annex: country factsheets (European Commission)",
+          "url": "https://data.europa.eu/doi/10.2759/8383998",
+          "date": "2025-06-16",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Cyprus's 2026 Digital Decade Country Report (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/factpages/cypruss-2026-digital-decade-country-report",
+          "date": "2026-08-24",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "GeSY on your screen: everything you need to know (Offsite, via ink.com)",
+          "url": "https://ink.com/articles/545626/gesy-stin-othoni-soy-ola-osa-prepei-na-xereis",
+          "date": "2023-11-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 46,
+      "summary": "The GeSY portal shows patients which health professionals viewed their history. Opt-out, data locking and per-provider permissions are in the 2019 law, but they belong to a national record bank that is not yet built.",
+      "detail": [
+        "Section 20 lets anyone object to having an electronic record, and section 24 lets holders set access levels per provider and lock data (CyLaw).",
+        "Section 25 says a provider may access the record only with the holder's authorisation, and section 32 requires every access to be logged with date, time and user ID.",
+        "Those rights attach to the Single eHealth Records Bank. A 2026 paper calls the eHealth4U system the only prototype of the national record (Digital Health).",
+        "In GeSY today, the portal's access log lists GeSY professionals who previewed a patient's history or profile (Ygeia Press, 2023). A way to hide data in GeSY was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Electronic Health Law of 2019, 59(I)/2019, consolidated with 176(I)/2025 (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2019_1_59/full.html",
+          "date": "2019-04-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "eHealth4U: a pathway from the Cyprus eHealth law to a citizen-centred national EHR prototype (Digital Health)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13133457/",
+          "date": "2026-04-27",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "GeSY: how we stay informed about our medical data (Ygeia Press)",
+          "url": "https://ygeia-press.com/%CE%B3%CE%B5%CF%83%CF%85%CF%80%CF%89%CF%82-%CE%B5%CE%BD%CE%B7%CE%BC%CE%B5%CF%81%CF%89%CE%BD%CF%8C%CE%BC%CE%B1%CF%83%CF%84%CE%B5-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CE%B9%CE%B1%CF%84%CF%81%CE%B9%CE%BA/",
+          "date": "2023-11-07",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 58,
+      "summary": "GDPR and Law 125(I)/2018 apply, and the regulator has acted in health. The state hospital operator OKYpY was fined 46,500 euros over 13 losses of medical files or emergency department records, but fines on public bodies are capped at 200,000 euros.",
+      "detail": [
+        "Law 125(I)/2018 bans processing genetic and biometric data for health and life insurance (section 9) and caps fines on public bodies for non-profit activities at 200,000 euros (section 32) (CyLaw).",
+        "The Commissioner's 2024 annual report recorded fines totalling 46,500 euros on OKYpY over 13 incidents of lost medical files or emergency department documents (Dialogos, September 2025).",
+        "The eHealth law requires the national record bank to be stored in Cyprus with an encrypted copy at least 20 kilometres away (section 30)."
+      ],
+      "sources": [
+        {
+          "title": "Law 125(I)/2018 on the protection of natural persons with regard to personal data (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html",
+          "date": "2018-07-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Electronic Health Law of 2019, 59(I)/2019, consolidated with 176(I)/2025 (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2019_1_59/full.html",
+          "date": "2019-04-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Commissioner's report: spam complaints, surveillance and fines on OKYpY (Dialogos)",
+          "url": "https://dialogos.com.cy/ekthesi-epitropoy-parapona-gia-spam-kyklomata-parakoloythisis-kai-prostima-ston-okypy/",
+          "date": "2025-09-26",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 54,
+      "summary": "Genetic and biometric data cannot be used for health or life insurance, and the eHealth law needs each citizen's consent before record data goes into anonymised databases. The same law expects the state to earn revenue from sharing those databases with third parties.",
+      "detail": [
+        "Section 9 of Law 125(I)/2018 prohibits genetic and biometric data processing for health and life insurance (CyLaw).",
+        "Section 30 of the eHealth law allows extraction into anonymised databases only with each citizen's consent.",
+        "Section 31 sends revenue from supplying anonymised databases to third parties to the state treasury, with part to the eHealth Authority.",
+        "No specific Cypriot rules on health data brokers, health advertising or consumer health apps were verified."
+      ],
+      "sources": [
+        {
+          "title": "Law 125(I)/2018 on the protection of natural persons with regard to personal data (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html",
+          "date": "2018-07-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Electronic Health Law of 2019, 59(I)/2019, consolidated with 176(I)/2025 (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2019_1_59/full.html",
+          "date": "2019-04-19",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 58,
+      "summary": "GeSY's IT system links personal doctors, referrals, labs, pharmacies, hospitals and claims, and MyHealth@EU patient summaries and e-prescriptions went live in 2025. The integrated national record has a 21.1 million euro budget with full operation planned for December 2029.",
+      "detail": [
+        "The Health Insurance Organisation calls its IT system the backbone of GeSY, linking personal doctors, specialists, labs, pharmacies, hospitals and claims through a provider portal (HIO).",
+        "A 2026 paper says the system built for GeSY serves providers and beneficiaries mainly for reimbursement, and a national record remains deficient (Digital Health).",
+        "Cyprus activated MyHealth@EU patient summary and e-prescription services in May 2025 and plans lab results, imaging and discharge reports next (National eHealth Authority).",
+        "The integrated record (OHFYP) budget is 21.11 million euros over 84 months, with full operation in December 2029 (Politis, September 2026)."
+      ],
+      "sources": [
+        {
+          "title": "Launch of MyHealth@EU cross-border eHealth services (National eHealth Authority)",
+          "url": "https://neha.org.cy/enarksi-ilektronikwn-diasinoriakwn/",
+          "date": "2025-05-16",
+          "publisherClass": "official"
+        },
+        {
+          "title": "GHS Information Technology System (Health Insurance Organisation)",
+          "url": "https://www.gesy.org.cy/sites/Sites?d=Desktop&locale=el_GR&lookuphost=%2Fel-gr%2F&lookuppage=hioinformationtechnologysystemghs",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "eHealth4U: a pathway from the Cyprus eHealth law to a citizen-centred national EHR prototype (Digital Health)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13133457/",
+          "date": "2026-04-27",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "All your health history on one screen: when the digital record comes to Cyprus (Politis)",
+          "url": "https://www.politis.com.cy/cyprus/igeia/1033942/telos-ston-fakelo-me-ta-khartia-olo-to-istoriko-ighias-se-mia-othoni-pote-erkhetai-o-psifiakos-fakelos-stin-kypro",
+          "date": "2026-09-18",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 55,
+      "summary": "GeSY professionals can preview a patient's GeSY history, and every view is logged. The Commission found public and private hospitals supplying data to the national access service, but a full national record is not yet built.",
+      "detail": [
+        "The portal access log records GeSY professionals who previewed a patient's medical history or profile, which shows clinicians can view it (Ygeia Press, 2023).",
+        "The Commission's 2025 study found 8 of 11 provider types supplying data, including public and private hospitals, and noted that doctors can access a citizen's health data (European Commission).",
+        "The 2019 law allows provider access only with patient authorisation, but the national bank that would apply this is not operating (CyLaw, Digital Health).",
+        "Cross-border lab, imaging and discharge report exchange through MyHealth@EU is a planned second phase (National eHealth Authority)."
+      ],
+      "sources": [
+        {
+          "title": "GeSY: how we stay informed about our medical data (Ygeia Press)",
+          "url": "https://ygeia-press.com/%CE%B3%CE%B5%CF%83%CF%85%CF%80%CF%89%CF%82-%CE%B5%CE%BD%CE%B7%CE%BC%CE%B5%CF%81%CF%89%CE%BD%CF%8C%CE%BC%CE%B1%CF%83%CF%84%CE%B5-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B1-%CE%B9%CE%B1%CF%84%CF%81%CE%B9%CE%BA/",
+          "date": "2023-11-07",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Electronic Health Law of 2019, 59(I)/2019, consolidated with 176(I)/2025 (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2019_1_59/full.html",
+          "date": "2019-04-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Launch of MyHealth@EU cross-border eHealth services (National eHealth Authority)",
+          "url": "https://neha.org.cy/enarksi-ilektronikwn-diasinoriakwn/",
+          "date": "2025-05-16",
+          "publisherClass": "official"
+        },
+        {
+          "title": "2025 Digital Decade eHealth indicator study, annex: country factsheets (European Commission)",
+          "url": "https://data.europa.eu/doi/10.2759/8383998",
+          "date": "2025-06-16",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "research": {
+      "score": 45,
+      "summary": "On paper, record data can enter anonymised research databases only with each citizen's consent. That rule applies to a bank not yet built, and no general research opt-out for GeSY data was verified.",
+      "detail": [
+        "Section 30 of the eHealth law requires citizen consent before data leaves the Single Bank for anonymised databases (CyLaw).",
+        "The National Bioethics Committee, set up by Law 150(I)/2001, runs ethical review of biomedical research and sets review fees.",
+        "Cyprus expects to join HealthData@EU, the EHDS secondary-use network, in 2027 (CBN, April 2026)."
+      ],
+      "sources": [
+        {
+          "title": "Electronic Health Law of 2019, 59(I)/2019, consolidated with 176(I)/2025 (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2019_1_59/full.html",
+          "date": "2019-04-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Bioethics (Establishment and Operation of National Committee) Law 150(I)/2001 (CyLaw)",
+          "url": "http://www.cylaw.org/nomoi/enop/non-ind/2001_1_150/full.html",
+          "date": "2001",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Reliable health data and AI the basis of a new era, e-Health Authority head says (CBN)",
+          "url": "https://www.cbn.com.cy/article/128614/reliable-health-data-and-ai-the-basis-of-a-new-era-e-health-authority-head-says",
+          "date": "2026-04-30",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "Clinical AI is governed by EU device law and the EU AI Act, whose medical device duties now start 2 August 2028. Cyprus has named AI Act authorities, but no national clinical AI rules were verified.",
+      "detail": [
+        "The Commissioner of Communications is Cyprus's AI Act notifying authority, market surveillance authority and single point of contact (European Commission AI Act Service Desk).",
+        "Regulation (EU) 2026/1744 moved AI Act duties for AI inside regulated products such as medical devices to 2 August 2028 (Cuatrecasas).",
+        "The eHealth Authority president spoke on responsible AI at EHDS-AI Connect 2026 in Limassol in April 2026, which is not binding guidance (CBN)."
+      ],
+      "sources": [
+        {
+          "title": "AI Act Service Desk: national resources (European Commission)",
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/national-resources",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Digital Omnibus on AI has been published, Regulation (EU) 2026/1744 (Cuatrecasas)",
+          "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published",
+          "date": "2026-07-24",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "Reliable health data and AI the basis of a new era, e-Health Authority head says (CBN)",
+          "url": "https://www.cbn.com.cy/article/128614/reliable-health-data-and-ai-the-basis-of-a-new-era-e-health-authority-head-says",
+          "date": "2026-04-30",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "unknown",
+    "research": "siloed"
+  },
+  "journeyNote": "GeSY links personal doctors, labs, prescriptions and claims, and hospitals supply data to the patient portal. Discharge reports arrive late and medical images are not shared. The integrated national record is due December 2029.",
+  "laws": [
+    {
+      "name": "Electronic Health Law of 2019, 59(I)/2019 (amended 176(I)/2025)",
+      "level": "National",
+      "year": "2019",
+      "what": "National eHealth Authority, single record bank, opt-out, per-provider permissions, data locking and access logging.",
+      "url": "http://www.cylaw.org/nomoi/enop/non-ind/2019_1_59/full.html"
+    },
+    {
+      "name": "Law 125(I)/2018 on processing of personal data",
+      "level": "National",
+      "year": "2018",
+      "what": "Implements GDPR; bans genetic and biometric data use for insurance; caps public body fines at 200,000 euros.",
+      "url": "http://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html"
+    },
+    {
+      "name": "Bioethics (Establishment and Operation of National Committee) Law 150(I)/2001",
+      "level": "National",
+      "year": "2001",
+      "what": "Creates the National Bioethics Committee that reviews biomedical research ethics.",
+      "url": "http://www.cylaw.org/nomoi/enop/non-ind/2001_1_150/full.html"
+    },
+    {
+      "name": "European Health Data Space Regulation (EU) 2025/327",
+      "level": "Supranational",
+      "year": "2025",
+      "what": "Patient summaries and e-prescriptions exchange from March 2029; images, labs, discharge reports from March 2031.",
+      "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+    },
+    {
+      "name": "General Data Protection Regulation (EU) 2016/679",
+      "level": "Supranational",
+      "year": "2016",
+      "what": "EU data protection rules applying since 25 May 2018, including the right of access to personal data.",
+      "url": "https://commission.europa.eu/law/law-topic/data-protection/legal-framework-eu-data-protection_en"
+    },
+    {
+      "name": "EU AI Act (EU) 2024/1689, amended by (EU) 2026/1744",
+      "level": "Supranational",
+      "year": "2024",
+      "what": "Risk rules for AI; obligations for AI in medical devices now apply from 2 August 2028.",
+      "url": "https://www.cuatrecasas.com/en/global/intellectual-property/art/digital-omnibus-ai-has-been-published"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-02-24",
+      "headline": "EU study places Cyprus below EU average on online record access",
+      "source": "Euronews",
+      "url": "https://ca.news.yahoo.com/digital-health-across-europe-country-060207201.html",
+      "why": "Cypriot patients see less of their record online than most Europeans."
+    },
+    {
+      "date": "2026-04-01",
+      "headline": "Cyprus eHealth Authority awards contract for national myHealth@CY app",
+      "source": "Healthdaily",
+      "url": "https://healthdaily.gr/2026/04/01/kypros-apokta-ethniki-efarmogi-psifiakis-ygeias/",
+      "why": "Over 1.3 million people are to get one app for their health data."
+    },
+    {
+      "date": "2026-04-30",
+      "headline": "eHealth Authority head sets out app, record and HealthData@EU timeline",
+      "source": "CBN",
+      "url": "https://www.cbn.com.cy/article/128614/reliable-health-data-and-ai-the-basis-of-a-new-era-e-health-authority-head-says",
+      "why": "App planned for November 2026 and research data network for 2027."
+    },
+    {
+      "date": "2026-08-24",
+      "headline": "Commission urges Cyprus to speed up mobile e-health services",
+      "source": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/factpages/cypruss-2026-digital-decade-country-report",
+      "why": "The EU sees the missing app as a gap in patient access."
+    },
+    {
+      "date": "2026-09-18",
+      "headline": "Integrated national health record budgeted at 21.1 million euros, due 2029",
+      "source": "Politis",
+      "url": "https://www.politis.com.cy/cyprus/igeia/1033942/telos-ston-fakelo-me-ta-khartia-olo-to-istoriko-ighias-se-mia-othoni-pote-erkhetai-o-psifiakos-fakelos-stin-kypro",
+      "why": "The record that the 2019 consent rules govern is still years away."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

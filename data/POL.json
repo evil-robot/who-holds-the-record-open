@@ -1,0 +1,383 @@
+{
+ "iso3": "POL",
+ "name": "Poland",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Over 20 million Poles can see prescriptions, visits and documents in a national patient account and control specialist access, but 2026 vendor leaks hit millions.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 70,
+   "summary": "The law gives a right to records and a free first copy, and the national patient account (IKP) shows prescriptions, referrals, visit history, NFZ payments and uploaded documents to 53% of citizens. An EC study finds lab results, discharge reports and images only partly available.",
+   "detail": [
+    "Articles 26 to 28 of the 2008 Patient Rights Act require providers to give patients their records for inspection, as extracts or copies, electronically or on a data carrier. The first copy in the requested scope is free; later copies carry capped fees. GDPR deadlines also apply.",
+    "Every person with a PESEL number has an IKP. It lists e-prescriptions, dosing, visit history including privately paid care, what the NFZ paid, referrals, sick notes, vaccinations, and electronic documents such as test results and discharge summaries, but only if the doctor or facility has put them in the system.",
+    "Centrum e-Zdrowia reports that over 20 million people have activated the IKP, which it puts at 53% of citizens, 52% of adults and 29% of people over 60. Parents can also open the accounts of 4 million children.",
+    "The European Commission's 2026 eHealth study gives Poland a 92% composite score but puts it among countries where most data is available yet not timely. Laboratory results score 38%, hospital discharge reports 50% and medical images 0%."
+   ],
+   "sources": [
+    {
+     "title": "Ustawa o prawach pacjenta i Rzeczniku Praw Pacjenta, tekst jednolity Dz.U. 2024 poz. 581 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2024/581/text.pdf",
+     "date": "2024-04-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "O IKP (pacjent.gov.pl, Ministerstwo Zdrowia i NFZ)",
+     "url": "https://pacjent.gov.pl/internetowe-konto-pacjenta",
+     "date": "2019-09-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Czy Twoi pacjenci korzystaja z IKP? (ezdrowie.gov.pl, Centrum e-Zdrowia)",
+     "url": "https://www.ezdrowie.gov.pl/portal/artykul/czy-twoi-pacjenci-korzystaja-z-ikp-ulatwia-to-prace-lekarzom",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "2026 Digital Decade eHealth Indicator Study, final report (European Commission)",
+     "url": "https://op.europa.eu/en/publication-detail/-/publication/7de84d62-66d1-11f1-9b18-01aa75ed71a1/language-en",
+     "date": "2026-06-15",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "control": {
+   "score": 55,
+   "summary": "Outside a few groups named in law, a clinician can see a patient's records only with consent given in the IKP or mojeIKP, limited in scope and time and revocable. Patients cannot block their family doctor, the record's author or emergency staff.",
+   "detail": [
+    "Article 35 of the health information system act lets these people see records without consent: the clinician who wrote them, staff of the same provider, the patient's primary care doctor, nurse and midwife, oncology and cardiology network clinicians, and any clinician when life is at risk.",
+    "Everyone else needs the patient's consent, which must state its time and subject scope. In the IKP or mojeIKP a patient can grant access to a named professional, a facility or a pharmacy, choose all or selected documents or a date range, and withdraw or change it at any time.",
+    "The ministry's patient site says emergency access lasts 24 hours and that patients have no duty to share data with private clinics. A refusal of consent does not bind the NFZ when it settles or audits care.",
+    "Providers must keep a list of every disclosure of records. In 2023 the ministry said patients could ask Centrum e-Zdrowia who viewed their data and promised a self-service tool. A live access log inside the IKP was not verified, so it earns no credit here."
+   ],
+   "sources": [
+    {
+     "title": "Ustawa o systemie informacji w ochronie zdrowia, tekst jednolity Dz.U. 2026 poz. 208 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/208/text.pdf",
+     "date": "2026-02-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Twoje dane medyczne to Twoja wlasnosc (pacjent.gov.pl)",
+     "url": "https://pacjent.gov.pl/aktualnosc/twoje-dane-medyczne-twoja-wlasnosc",
+     "date": "2025-03-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "O IKP (pacjent.gov.pl, Ministerstwo Zdrowia i NFZ)",
+     "url": "https://pacjent.gov.pl/internetowe-konto-pacjenta",
+     "date": "2019-09-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Kto ogladal nasze dane medyczne? Nocne wizyty na koncie pacjenta (Gazeta Prawna)",
+     "url": "https://www.gazetaprawna.pl/biznes/zdrowie/artykuly/11153064,kto-ogladal-nasze-dane-medyczne-nocne-wizyty-na-koncie-pacjenta.html",
+     "date": "2023-09-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 46,
+   "summary": "Health data has special GDPR protection and the regulator is active, but UODO says the 2026 leak at software firm MyDr affects 19 million people, and a second attack on Medyc software may reach 5 million. Fines on public bodies are capped at 100,000 zloty.",
+   "detail": [
+    "In August 2026 UODO opened an inspection of MyDr, a firm that processes patient data for medical facilities. UODO puts the MyDr leak at 19 million people and on 16 September called it the largest recent leak of patients' personal data.",
+    "By 17 September UODO had over 50 complaints and over 2,000 breach notifications from data controllers. On 16 September it ordered extra inspections of health sector bodies through the end of 2026.",
+    "On 25 September 2026 UODO announced an inspection of Qbusoft, maker of Medyc software, after a leak media said could cover five million people. The digital affairs minister said Qbusoft had not reported the incident to CERT Polska or the health CSIRT.",
+    "Enforcement against health providers exists but fines are modest, such as 40,000 zloty for clinic chain Gyncentrum in October 2025 for not reporting a breach. Under Article 102 of the 2018 Data Protection Act, fines on public finance sector units are capped at 100,000 zloty."
+   ],
+   "sources": [
+    {
+     "title": "Po nowym wycieku danych medycznych PUODO zapowiada kontrole (UODO)",
+     "url": "https://uodo.gov.pl/pl/138/4585",
+     "date": "2026-09-25",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Dodatkowe kontrole UODO w podmiotach sektora ochrony zdrowia (UODO)",
+     "url": "https://uodo.gov.pl/pl/138/4570",
+     "date": "2026-09-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Niepowiadomienie o blednym wyslaniu dokumentu: kara 40 tys. zl dla Gyncentrum (UODO)",
+     "url": "https://uodo.gov.pl/pl/138/3933",
+     "date": "2025-10-27",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ustawa o ochronie danych osobowych, tekst jednolity Dz.U. 2019 poz. 1781 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2019/1781/text.pdf",
+     "date": "2019-08-30",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 54,
+   "summary": "Only the GDPR's general rules limit commercial use of health data, and no Polish ban on selling or advertising with it was found. In September 2026 UODO asked the pharmacy inspector whether data-sharing modules in over 4,000 pharmacies sent patient data to drug wholesalers.",
+   "detail": [
+    "Commercial use of health data needs an Article 9 GDPR exception, usually explicit consent. We found no Polish law that bans the sale of de-identified health data or regulates consumer health apps or data brokers; a search of the Pharmaceutical Law text found no such clause.",
+    "On 21 September 2026 UOKiK fined drug wholesalers, led by Neuca and Farmacol, over 900 million zloty (Polska Grupa Farmaceutyczna escaped a fine through leniency). In return for discounts and marketing support, their pharmacy partner programs gave them data on pharmacy purchases, which they shared to avoid price competition.",
+    "UODO then wrote to the Chief Pharmaceutical Inspector. It noted that pharmacy systems hold PESEL numbers and prescription histories and asked whether these modules sent patient data to wholesalers. This is an open inquiry, not a finding.",
+    "From 2029 the EU health data space will forbid using health data for marketing or for decisions that harm individuals."
+   ],
+   "sources": [
+    {
+     "title": "Pismo Prezesa UODO do Glownego Inspektora Farmaceutycznego, DKN.5101.480.2026 (UODO)",
+     "url": "https://uodo.gov.pl/pl/file/8051",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ponad 900 milionow zlotych kar dla hurtowni farmaceutycznych (UOKiK)",
+     "url": "https://uokik.gov.pl/mniej-konkurencji-za-to-wiecej-do-zaplaty-za-leki-w-aptece-ponad-900-milionow-zlotych-kar-dla-hurtowni-farmaceutycznych",
+     "date": "2026-09-21",
+     "publisherClass": "official"
+    },
+    {
+     "title": "European Health Data Space Regulation (EHDS) (European Commission)",
+     "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "journey": {
+   "score": 70,
+   "summary": "One national platform, P1, links e-prescriptions, e-referrals, medical events and NFZ claims, and the EC counts nearly all provider types as connected. Some document types still arrive late or not at all, and central booking is being made compulsory specialty by specialty.",
+   "detail": [
+    "The health information system act obliges every provider to keep electronic records, report each medical event to the central system (SIM, known as P1), and post e-prescriptions and e-referrals in real time. NFZ claims data feeds the same patient view.",
+    "By 1 October 2025 the system held 2.8 billion e-prescriptions, nearly 298 million e-referrals and 1.42 billion medical events.",
+    "The EC 2026 study scores provider connection at 100% for Poland, apart from geriatric nursing homes, where visiting doctors upload data. Lab results, discharge reports and medical images still lag in availability or timeliness.",
+    "Central e-registration is already compulsory for cardiology visits, mammography and HPV tests, and eight more specialties joined on 1 August 2026. After six months the NFZ will pay only for those visits booked through it."
+   ],
+   "sources": [
+    {
+     "title": "Ustawa o systemie informacji w ochronie zdrowia, tekst jednolity Dz.U. 2026 poz. 208 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/208/text.pdf",
+     "date": "2026-02-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Czy Twoi pacjenci korzystaja z IKP? (ezdrowie.gov.pl, Centrum e-Zdrowia)",
+     "url": "https://www.ezdrowie.gov.pl/portal/artykul/czy-twoi-pacjenci-korzystaja-z-ikp-ulatwia-to-prace-lekarzom",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "2026 Digital Decade eHealth Indicator Study, final report (European Commission)",
+     "url": "https://op.europa.eu/en/publication-detail/-/publication/7de84d62-66d1-11f1-9b18-01aa75ed71a1/language-en",
+     "date": "2026-06-15",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Od 1 sierpnia centralna e-rejestracja rozszerza sie o kolejne swiadczenia (ezdrowie.gov.pl)",
+     "url": "https://www.ezdrowie.gov.pl/portal/artykul/od-1-sierpnia-centralna-e-rejestracja-rozszerza-sie-o-kolejne-swiadczenia",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 60,
+   "summary": "Family doctors, the record's author, the same facility, cancer and cardiac network teams and emergency staff can see the shared record without asking. Other specialists need the patient's consent, and lab and discharge documents are only partly in the system.",
+   "detail": [
+    "Article 35 of the health information system act sets the default access groups. A specialist at another provider must get the patient's consent in the IKP or in mojeIKP. A consent code sent by SMS during the visit was not verified.",
+    "When life is at risk, any medical worker such as a paramedic or emergency doctor gets 24 hours of access to the patient's history, according to the ministry's patient site.",
+    "Shared documents include test descriptions, lab results, specialist notes, discharge summaries and emergency department records, but only once the facility sends them. The EC study rates Polish lab results at 38% and discharge reports at 50%, so the record is often incomplete."
+   ],
+   "sources": [
+    {
+     "title": "Ustawa o systemie informacji w ochronie zdrowia, tekst jednolity Dz.U. 2026 poz. 208 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/208/text.pdf",
+     "date": "2026-02-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Twoje dane medyczne to Twoja wlasnosc (pacjent.gov.pl)",
+     "url": "https://pacjent.gov.pl/aktualnosc/twoje-dane-medyczne-twoja-wlasnosc",
+     "date": "2025-03-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Twoja dokumentacja medyczna w mojeIKP (pacjent.gov.pl)",
+     "url": "https://pacjent.gov.pl/aktualnosc/twoja-dokumentacja-medyczna-w-mojeikp",
+     "date": "2026-03-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "2026 Digital Decade eHealth Indicator Study, final report (European Commission)",
+     "url": "https://op.europa.eu/en/publication-detail/-/publication/7de84d62-66d1-11f1-9b18-01aa75ed71a1/language-en",
+     "date": "2026-06-15",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Records and registry data may go to researchers only in a form that cannot identify the patient, with no consent and no opt-out. UODO says national law lacks adequate rules for research use, and Poland has not yet set up the EU health data access body.",
+   "detail": [
+    "Article 26(4) of the Patient Rights Act lets providers give records to universities and research institutes for science without names or other identifying data. Article 19(7) of the health information system act allows registry data to be shared for research and statistics only in non-identifiable form.",
+    "On 1 September 2025 UODO told the health and science ministers that national law lacks adequate and proportionate rules for research use of medical records, and asked them to review the law and legislate.",
+    "Ethical review exists: the 2023 clinical trials act places the national bioethics committee at the Medical Research Agency. No public register of data uses and no individual opt-out were found.",
+    "A March 2026 ministry presentation plans laws creating the EU health data space bodies, including a health data access body, by March 2027. The EHDS opt-out from secondary use applies from 2029."
+   ],
+   "sources": [
+    {
+     "title": "Ustawa o systemie informacji w ochronie zdrowia, tekst jednolity Dz.U. 2026 poz. 208 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/208/text.pdf",
+     "date": "2026-02-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Wystapienie Prezesa UODO do Ministra Zdrowia i Ministra Nauki, DPNT.413.39.2025 (UODO)",
+     "url": "https://uodo.gov.pl/pl/file/6426",
+     "date": "2025-09-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Wdrozenie EHDS w Polsce i rola Ministerstwa Zdrowia (MZ Departament e-Zdrowia, via UODO)",
+     "url": "https://uodo.gov.pl/pl/file/7458",
+     "date": "2026-03-25",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ustawa o badaniach klinicznych produktow leczniczych stosowanych u ludzi, Dz.U. 2023 poz. 605 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2023/605/text.pdf",
+     "date": "2023-03-09",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 54,
+   "summary": "Clinical AI falls under EU device law and the AI Act, and Poland's AI Systems Act of 2026 mainly names the regulator. One verified national addition: since January 2025 the medical ethics code lets doctors use AI only with patient consent and certified tools.",
+   "detail": [
+    "The Act of 3 July 2026 on artificial intelligence systems took effect on 11 August 2026. It makes a new Commission for AI Development and Security the market surveillance authority, runs complaints and regulatory sandboxes, and links it to the medical devices office. Naming authorities earns no national credit under our rules.",
+    "Article 12 of the Code of Medical Ethics, adopted by the national congress of physicians on 18 May 2024 and in force since 1 January 2025, allows AI in diagnosis or treatment only if the patient is told, gives informed consent, the tool is certified for medical use and the doctor makes the final decision.",
+    "Article 53 of the Act on Chambers of Physicians makes doctors professionally liable for breaching medical ethics rules, so the code binds. The panel set Poland at 50 on 1 October 2026 before this was weighed; we add 4 points for binding national guidance."
+   ],
+   "sources": [
+    {
+     "title": "Ustawa z dnia 3 lipca 2026 r. o systemach sztucznej inteligencji, Dz.U. 2026 poz. 1003 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1003/text.pdf",
+     "date": "2026-07-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Nowelizacja Kodeksu Etyki Lekarskiej, tekst z art. 12 (Naczelna Izba Lekarska)",
+     "url": "https://nil.org.pl/izba/krajowy-zjazd-lekarzy/nadzwyczajny-xvi-krajowy-zjazd-lekarzy/8487-nowelizacja-kodeksu-etyki-lekarskiej-kamien-milowy-dla-srodowiska-lekarskiego",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ustawa o izbach lekarskich, tekst jednolity Dz.U. 2021 poz. 1342 (Sejm ELI)",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2021/1342/text.pdf",
+     "date": "2021-06-25",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "connected",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "P1 links prescriptions, referrals, medical events and NFZ claims across all provider types. Lab results and discharge reports arrive incompletely, images are not shared, and research access is limited to anonymised extracts with no national access body yet.",
+ "laws": [
+  {
+   "name": "Act on Patient Rights and the Patient Rights Ombudsman",
+   "level": "National",
+   "year": "2008",
+   "what": "Right to records in paper or electronic form; free first copy; research use only without identifying data.",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2024/581/text.pdf"
+  },
+  {
+   "name": "Act on the Health Care Information System",
+   "level": "National",
+   "year": "2011",
+   "what": "Creates P1 and the IKP; mandatory electronic records; sets who may access records without consent.",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/208/text.pdf"
+  },
+  {
+   "name": "Act on Personal Data Protection",
+   "level": "National",
+   "year": "2018",
+   "what": "Polish GDPR implementing act; caps fines on public finance sector units at 100,000 zloty.",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2019/1781/text.pdf"
+  },
+  {
+   "name": "Act on Clinical Trials of Medicinal Products for Human Use",
+   "level": "National",
+   "year": "2023",
+   "what": "Sets trial ethics review, with the national bioethics committee at the Medical Research Agency.",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2023/605/text.pdf"
+  },
+  {
+   "name": "Act on Artificial Intelligence Systems",
+   "level": "National",
+   "year": "2026",
+   "what": "Names the national AI Act regulator, sets complaints, sandboxes and fines; in force 11 August 2026.",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1003/text.pdf"
+  },
+  {
+   "name": "General Data Protection Regulation (EU) 2016/679",
+   "level": "Supranational",
+   "year": "2016",
+   "what": "Health is special-category data; right of access within one month; fines up to 4% of turnover.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+  },
+  {
+   "name": "European Health Data Space Regulation (EU) 2025/327",
+   "level": "Supranational",
+   "year": "2025",
+   "what": "Access, restriction and secondary-use opt-out rights; bans marketing use; key parts apply from 2029.",
+   "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10",
+   "headline": "Patient account reaches over 20 million users, over half of citizens",
+   "source": "Centrum e-Zdrowia",
+   "url": "https://www.ezdrowie.gov.pl/portal/artykul/czy-twoi-pacjenci-korzystaja-z-ikp-ulatwia-to-prace-lekarzom",
+   "why": "Most Poles can now see their prescriptions, visits and documents online."
+  },
+  {
+   "date": "2026-07-24",
+   "headline": "mojeIKP app reaches 5 million users after a million joined in six months",
+   "source": "Termedia (Menedzer Zdrowia)",
+   "url": "https://www.termedia.pl/mz/mojeIKP-ma-5-mln-uzytkownikow-Milion-nowych-osob-w-pol-roku,68325.html",
+   "why": "Mobile access to records and consent controls is spreading fast."
+  },
+  {
+   "date": "2026-08-13",
+   "headline": "Data regulator inspects MyDr after leak of patient health data",
+   "source": "UODO",
+   "url": "https://uodo.gov.pl/pl/138/4540",
+   "why": "A single software vendor's breach may touch about 12,000 healthcare providers."
+  },
+  {
+   "date": "2026-09-25",
+   "headline": "Regulator to inspect Medyc software maker after second medical data leak",
+   "source": "UODO",
+   "url": "https://uodo.gov.pl/pl/138/4585",
+   "why": "Shows weak security at private vendors that hold clinic records."
+  },
+  {
+   "date": "2026-09-30",
+   "headline": "Data regulator asks whether pharmacy systems sent patient data to wholesalers",
+   "source": "Alert Medyczny",
+   "url": "https://alertmedyczny.pl/po-karach-uokik-za-ponad-904-mln-zl-jest-interwencja-uodo-chodzi-o-dane-pacjentow-aptek/",
+   "why": "Prescription histories may have flowed to commercial firms without patients knowing."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

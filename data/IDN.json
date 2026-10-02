@@ -1,0 +1,364 @@
+{
+ "iso3": "IDN",
+ "name": "Indonesia",
+ "region": "Asia",
+ "controlModel": "State",
+ "headline": "Indonesia's laws give patients rights to their records, but the ministry holds the data by default and the privacy regulator still does not exist.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 55,
+   "summary": "The Health Law and the PDP Law give patients a right to their record data, with access due within 3 x 24 hours. SATUSEHAT Mobile shows a medical summary, not the full chart, and how widely it works was not verified.",
+   "detail": [
+    "Law 17/2023 on Health (Articles 276 and 297) gives every patient the right to access the information in their medical record, while the record document belongs to the facility. Article 351 adds rights to access, correct and move health data to another provider. Regulation 24/2022 (Article 26) says the content of the record belongs to the patient.",
+    "The PDP Law (27/2022, Articles 7 and 32) gives a right to a copy and requires access within 3 x 24 hours, including the trail of how the data was processed. Its elucidation of Article 7 says the copy is free, except where a cost is genuinely needed.",
+    "Under SATUSEHAT RME, launched 1 September 2026, patients with a verified SATUSEHAT Mobile profile can open a medical summary (Resume Medis) after a visit to a facility where RME is live. The ministry announced this inside the SATUSEHAT RME launch, which is starting in stages at a number of facilities.",
+    "Score: base 45 for a statutory right without a full national portal, plus 5 for a free copy with a fixed 3 x 24 hour deadline and 5 for an officially documented app. Whether Resume Medis works at every integrated facility and how many use it was not verified, so the national portal band (60 to 75) is not credited."
+   ],
+   "sources": [
+    {
+     "title": "Undang-Undang 17 Tahun 2023 tentang Kesehatan, annotated text (Mahkamah Konstitusi, Anotasi 2025)",
+     "url": "https://s.mkri.id/public/content/infoumum/undang/pdf/Anotasi_180_ANOTASI%20UU%2017%20TAHUN%202023.pdf",
+     "date": "2025",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Undang-Undang 27 Tahun 2022 tentang Pelindungan Data Pribadi (BPK JDIH)",
+     "url": "https://peraturan.bpk.go.id/Download/224884/UU%20Nomor%2027%20Tahun%202022.pdf",
+     "date": "2022-10-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kemenkes Luncurkan SATUSEHAT RME, Rekam Medis Pasien Terintegrasi Secara Nasional",
+     "url": "https://www.kemkes.go.id/id/kemenkes-luncurkan-satusehat-rme-rekam-medis-pasien-terintegrasi-secara-nasional",
+     "date": "2026-09-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Kemenkes Pastikan SatuSehat RME Bisa Diakses dalam Kondisi Darurat (Beritasatu)",
+     "url": "https://www.beritasatu.com/lifestyle/3023896/kemenkes-pastikan-satusehat-rme-bisa-diakses-dalam-kondisi-darurat",
+     "date": "2026-09-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 42,
+   "summary": "Every facility must open its electronic records to the health ministry, with no patient choice. A 6-digit consent code and a patient-visible access history arrived with SATUSEHAT RME, which is starting in stages at a few named facilities.",
+   "detail": [
+    "Regulation 24/2022 (Article 28) requires facilities to open all electronic record content to the Ministry of Health, which may store and use it. Law 17/2023 (Article 345) requires every health information system to integrate with the national system. Neither text gives patients an opt-out.",
+    "Under SATUSEHAT RME, launched 1 September 2026, a clinician needs a 6-digit code from the patient's app in non-emergency care. In emergencies staff can use an override, and the patient can see that access later in the app. Rollout is staged at a number of facilities; the ministry named two hospitals, in Makassar and Jakarta.",
+    "For everyone else, the law provides a log on request: the PDP Law (Article 32) gives access to the processing trail, and Law 17/2023 (Article 349) requires operators to record processing history. Whether patients can obtain such a log in practice was not verified, so the score sits in the lower half of the 40 to 55 band.",
+    "Records can also be opened without consent for law enforcement, outbreaks, limited research and public safety (Government Regulation 28/2024, Article 783). Insurance disclosure rests on a general consent signed at registration (Article 783(10))."
+   ],
+   "sources": [
+    {
+     "title": "Peraturan Menteri Kesehatan 24 Tahun 2022 tentang Rekam Medis",
+     "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1662611251_882318.pdf",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kemenkes Luncurkan SATUSEHAT RME, Rekam Medis Pasien Terintegrasi Secara Nasional",
+     "url": "https://www.kemkes.go.id/id/kemenkes-luncurkan-satusehat-rme-rekam-medis-pasien-terintegrasi-secara-nasional",
+     "date": "2026-09-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Undang-Undang 27 Tahun 2022 tentang Pelindungan Data Pribadi (BPK JDIH)",
+     "url": "https://peraturan.bpk.go.id/Download/224884/UU%20Nomor%2027%20Tahun%202022.pdf",
+     "date": "2022-10-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Peraturan Pemerintah 28 Tahun 2024, pelaksanaan UU Kesehatan (JDIH Kemenkes)",
+     "url": "https://jdih.kemkes.go.id/storage/documents/pdfs/2024pp028.pdf",
+     "date": "2024-07-26",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 38,
+   "summary": "Health data is specific personal data with 3 x 24 hour breach notice and fines up to 2% of revenue. But the data protection agency still does not exist nearly four years after the law, and the implementing regulation starts only in January 2027.",
+   "detail": [
+    "The PDP Law (27/2022) lists health data as specific personal data (Article 4), requires breach notice to the person and the agency within 3 x 24 hours (Article 46), and allows fines of up to 2% of annual revenue (Article 57). Unlawful use of another person's data carries up to 5 years in prison (Article 67).",
+    "The agency the law requires (Article 58) has not been formed. In a Constitutional Court case on 27 July 2026, the government said the draft presidential regulation went to the President on 20 May 2026 and that Komdigi's Directorate General of Digital Space Supervision fills the role meanwhile.",
+    "Government Regulation 33/2026 was enacted on 16 July 2026 and takes effect six months later. Law 17/2023 requires health data to be processed in Indonesia, with processing abroad allowed under other rules (Article 346), and transfers abroad need central government permission (Article 349). Indonesia has no EU adequacy decision, so the EU treats transfers there as needing extra safeguards.",
+    "In May 2021, data said to cover 279 million BPJS Kesehatan members was offered on a hacker forum; the ministry examined a 100,002-record sample. In February 2026 a patient was still seeking accountability from a Makassar police hospital over the alleged spread of her forensic exam photos in August 2025; the hospital apologized and opened an internal investigation."
+   ],
+   "sources": [
+    {
+     "title": "Undang-Undang 27 Tahun 2022 tentang Pelindungan Data Pribadi (BPK JDIH)",
+     "url": "https://peraturan.bpk.go.id/Download/224884/UU%20Nomor%2027%20Tahun%202022.pdf",
+     "date": "2022-10-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Dua Tahun UU PDP Tanpa Lembaga Pengawas, Pemerintah Bantah Ada Kekosongan Hukum (Hukumonline)",
+     "url": "https://www.hukumonline.com/berita/a/dua-tahun-uu-pdp-tanpa-lembaga-pengawas--pemerintah-bantah-ada-kekosongan-hukum-lt6a69d92f6fce4/",
+     "date": "2026-07-29",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ministry to issue decision on BPJS data leak soon (ANTARA)",
+     "url": "https://en.antaranews.com/news/195925/ministry-to-issue-decision-on-bpjs-data-leak-soon",
+     "date": "2021",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "Health data needs explicit consent or another legal basis, and the Health Law limits national health system data to care, public health, development and policy. No specific ban on selling health data was found, and no regulator enforces the PDP Law yet.",
+   "detail": [
+    "Law 17/2023 (Article 351) says processing individual health data needs the owner's consent or another legal basis under the PDP Law. Article 349 lists the permitted uses of national health information system data as individual health, public health, health development and policy making. Commercial use is not on that list.",
+    "The PDP Law makes it a crime to unlawfully collect, disclose or use another person's data for gain, with up to 5 years in prison or fines up to Rp5 billion (Articles 65 and 67). It has no rule aimed at health data brokers, ad targeting or de-identified data sales.",
+    "Biobanks must keep specimens and related data inside Indonesia (Law 17/2023, Article 339). Article 57 gives the power to impose administrative fines to the data protection agency, which has not been formed; the government says a Komdigi directorate general acts in the interim."
+   ],
+   "sources": [
+    {
+     "title": "Undang-Undang 17 Tahun 2023 tentang Kesehatan, annotated text (Mahkamah Konstitusi, Anotasi 2025)",
+     "url": "https://s.mkri.id/public/content/infoumum/undang/pdf/Anotasi_180_ANOTASI%20UU%2017%20TAHUN%202023.pdf",
+     "date": "2025",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Undang-Undang 27 Tahun 2022 tentang Pelindungan Data Pribadi (BPK JDIH)",
+     "url": "https://peraturan.bpk.go.id/Download/224884/UU%20Nomor%2027%20Tahun%202022.pdf",
+     "date": "2022-10-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Dua Tahun UU PDP Tanpa Lembaga Pengawas, Pemerintah Bantah Ada Kekosongan Hukum (Hukumonline)",
+     "url": "https://www.hukumonline.com/berita/a/dua-tahun-uu-pdp-tanpa-lembaga-pengawas--pemerintah-bantah-ada-kekosongan-hukum-lt6a69d92f6fce4/",
+     "date": "2026-07-29",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 57,
+   "summary": "By 31 July 2026, 42,337 health facilities were integrated with SATUSEHAT, the national interoperability platform. Many hospitals still send incomplete data, and the person-based record and the claims link are only starting.",
+   "detail": [
+    "Law 17/2023 and Government Regulation 28/2024 (Article 781) require every facility to keep electronic records integrated with the national health information system. Regulation 24/2022 (Article 24) requires referral transfers to run through the ministry's interoperability platform.",
+    "The ministry reports 42,337 facilities integrated as of 31 July 2026. In October 2025, 3,138 of 3,239 hospitals had electronic records, but 495 of them lacked the six core modules (registration, emergency, outpatient, inpatient, support services and pharmacy).",
+    "In March 2026, news reports say, the ministry sanctioned 1,306 hospitals for incomplete integration of modules such as diagnoses, prescriptions, dispensing, lab specimens and imaging. On 30 July 2026 five agencies signed a joint circular to use SATUSEHAT records in national insurance (JKN) claims.",
+    "Free screening (CKG) reached 73.8 million people by 31 July 2026, with results delivered through SATUSEHAT Mobile. Tuberculosis reporting is linked to BPJS e-claims but still matched to SATUSEHAT manually."
+   ],
+   "sources": [
+    {
+     "title": "Kemenkes RI Raih Penghargaan Nasional dan Global Sekaligus untuk SATUSEHAT",
+     "url": "https://kemkes.go.id/id/kemenkes-ri-raih-penghargaan-nasional-dan-global-sekaligus-untuk-satusehat",
+     "date": "2026-09-24",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Wajib Integrasi Satu Sehat, Kemenkes Desak Percepatan RME di Fasyankes (BKPK Kemenkes)",
+     "url": "https://www.badankebijakan.kemkes.go.id/wajib-integrasi-satu-sehat-kemenkes-desak-percepatan-rme-di-fasyankes/",
+     "date": "2025-10-28",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Dukcapil Perkuat Validasi Identitas, Dukung Integrasi Rekam Medis Elektronik dengan SATUSEHAT",
+     "url": "https://dukcapil.kemendagri.go.id/blog/read/dukcapil-perkuat-validasi-identitas-dukung-integrasi-rekam-medis-elektronik-dengan-satusehat",
+     "date": "2026-08-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Peraturan Pemerintah 28 Tahun 2024, pelaksanaan UU Kesehatan (JDIH Kemenkes)",
+     "url": "https://jdih.kemkes.go.id/storage/documents/pdfs/2024pp028.pdf",
+     "date": "2024-07-26",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 40,
+   "summary": "Under SATUSEHAT RME, launched 1 September 2026, a clinician can open a patient's cross-facility record with the patient's code, but rollout is staged and only two hospitals were named. Elsewhere data moves between facilities through referral transfers on the national platform.",
+   "detail": [
+    "SATUSEHAT RME lets a treating clinician see diagnoses, lab results, medicines, procedures, vital signs and radiology from other facilities once the patient shares a 6-digit code. An emergency route opens the record when the patient cannot consent.",
+    "The RME view is being introduced in stages at a number of facilities; the ministry named RSUP Dr. Wahidin Sudirohusodo in Makassar and RS PON in Jakarta. The ministry says it will extend to all facilities integrated with SATUSEHAT, with no date given.",
+    "Regulation 24/2022 (Article 24) already requires record content to travel with referrals through the national platform, and Article 26 requires a summary at discharge. How often clinicians outside the launch hospitals see records from other providers was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Kemenkes Luncurkan SATUSEHAT RME, Rekam Medis Pasien Terintegrasi Secara Nasional",
+     "url": "https://www.kemkes.go.id/id/kemenkes-luncurkan-satusehat-rme-rekam-medis-pasien-terintegrasi-secara-nasional",
+     "date": "2026-09-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Kemenkes Pastikan SatuSehat RME Bisa Diakses dalam Kondisi Darurat (Beritasatu)",
+     "url": "https://www.beritasatu.com/lifestyle/3023896/kemenkes-pastikan-satusehat-rme-bisa-diakses-dalam-kondisi-darurat",
+     "date": "2026-09-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Peraturan Menteri Kesehatan 24 Tahun 2022 tentang Rekam Medis",
+     "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1662611251_882318.pdf",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Records can be opened for research without consent if identity is withheld and the Minister approves, and there is no general opt-out. Ethics committee approval is required, and biomedical specimens and linked data need donor consent.",
+   "detail": [
+    "Regulation 24/2022 (Articles 35 and 36) lets records be opened for education and research without consent, without revealing identity, after the Minister approves. Law 17/2023 (Article 4) allows confidentiality to yield to research only in a limited way, and Article 28 of the regulation lets the ministry use all electronic record content for science and policy.",
+    "Research with human subjects needs the subject's consent and ethics approval (Law 17/2023, Article 335). Storing and using clinical specimens and linked data needs patient or donor consent, except for untraceable or aggregate data (Article 338).",
+    "Health research ethics committees (KEPK) must be accredited by the ministry under Regulation 75/2020. PP 33/2026 (Article 154) adds criteria for research exemptions, such as noncommercial purpose, from 16 January 2027.",
+    "Score: base 40 plus 3 each for an ethics and permit route, statutory confidentiality (identity withheld) and a partial consent route: 40 + 3 x 3 = 49. No public register of uses and no general opt-out were found."
+   ],
+   "sources": [
+    {
+     "title": "Peraturan Menteri Kesehatan 24 Tahun 2022 tentang Rekam Medis",
+     "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1662611251_882318.pdf",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Undang-Undang 17 Tahun 2023 tentang Kesehatan, annotated text (Mahkamah Konstitusi, Anotasi 2025)",
+     "url": "https://s.mkri.id/public/content/infoumum/undang/pdf/Anotasi_180_ANOTASI%20UU%2017%20TAHUN%202023.pdf",
+     "date": "2025",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Komite Etik Penelitian dan Pengembangan Kesehatan Nasional (KEPPKN, Kemenkes)",
+     "url": "https://kepkn.kemkes.go.id/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 56,
+   "summary": "A health ministry decree in force since 7 September 2026 covers AI medical devices, requiring change control for self-learning models, rollback, hallucination controls for generative models and local validation. It is new, and human oversight is a documentation item, not a mandate.",
+   "detail": [
+    "Ministerial Decree HK.01.07/MENKES/951/2026 sets marketing authorization rules for software as a medical device, software in a device and AI-enabled devices. It took effect on the day it was signed, 7 September 2026.",
+    "Makers of continuously learning devices must submit how model changes are controlled, how anomalies are detected, how to roll back to a prior version, and how real-world data is managed to limit bias. Devices using generative models or LLMs must describe output controls and hallucination mitigation.",
+    "Imported AI devices of medium to high risk used for diagnosis, screening or clinical decisions need local clinical validation in Indonesia. Where a device needs human intervention, the workflow must be described; ethics principles include transparency and non-discrimination.",
+    "Two presidential regulations on a national AI roadmap and AI ethics were still unsigned in July 2026. A June 2026 ministry conference worked on ethics review and consent standards for AI health research. Score sits in the lower half of the 55 to 70 band because the decree is new."
+   ],
+   "sources": [
+    {
+     "title": "Keputusan Menteri Kesehatan HK.01.07/MENKES/951/2026, Pedoman Izin Edar Alat Kesehatan Berbasis Perangkat Lunak",
+     "url": "https://jdih.kemkes.go.id/storage/documents/pdfs/2026kepmenkes951.pdf",
+     "date": "2026-09-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kemenkes Dorong Pengembangan Ekosistem AI Kesehatan yang Aman, Adil, dan Bertanggung Jawab",
+     "url": "https://keslan.kemkes.go.id/read/3798/kemenkes-dorong-pengembangan-ekosistem-ai-kesehatan-yang-aman-adil-dan-bertanggung-jawab",
+     "date": "2026-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "AFTECH Akui Masih Tunggu Dua Perpres AI untuk Perkuat Tata Kelola Digital (Investortrust)",
+     "url": "https://investortrust.id/national/109712/aftech-akui-masih-tunggu-dua-perpres-ai-untuk-perkuat-tata-kelola-digital",
+     "date": "2026-07-16",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "42,337 facilities feed SATUSEHAT, but many hospitals send incomplete modules. JKN claims are being linked from July 2026, and the ministry may reuse record content for science and policy.",
+ "laws": [
+  {
+   "name": "Law 17/2023 on Health",
+   "level": "National",
+   "year": "2023",
+   "what": "Patient access to record information; consent for health data processing; data portability; local processing of health data.",
+   "url": "https://s.mkri.id/public/content/infoumum/undang/pdf/Anotasi_180_ANOTASI%20UU%2017%20TAHUN%202023.pdf"
+  },
+  {
+   "name": "Law 27/2022 on Personal Data Protection",
+   "level": "National",
+   "year": "2022",
+   "what": "Health is specific data; access within 3 x 24 hours; breach notice; fines up to 2% of revenue.",
+   "url": "https://peraturan.bpk.go.id/Download/224884/UU%20Nomor%2027%20Tahun%202022.pdf"
+  },
+  {
+   "name": "Government Regulation 28/2024 (Health Law implementing rules)",
+   "level": "National",
+   "year": "2024",
+   "what": "Electronic records mandatory and integrated nationally; rules for opening records with and without consent.",
+   "url": "https://jdih.kemkes.go.id/storage/documents/pdfs/2024pp028.pdf"
+  },
+  {
+   "name": "Government Regulation 33/2026 (PDP Law implementing rules)",
+   "level": "National",
+   "year": "2026",
+   "what": "Detailed consent, correction and research exemption rules; enacted 16 July 2026, in force January 2027.",
+   "url": "https://static.banyumaskab.go.id/website/file/peraturan_pemerintah_no._33_tahun_2026_100926115902.pdf"
+  },
+  {
+   "name": "Minister of Health Regulation 24/2022 on Medical Records",
+   "level": "National",
+   "year": "2022",
+   "what": "Record content belongs to patient; facilities must open records to ministry; referral transfers via national platform.",
+   "url": "https://keslan.kemkes.go.id/unduhan/fileunduhan_1662611251_882318.pdf"
+  },
+  {
+   "name": "Minister of Health Decree HK.01.07/MENKES/951/2026",
+   "level": "National",
+   "year": "2026",
+   "what": "Marketing authorization for software and AI medical devices, including change control and local validation.",
+   "url": "https://jdih.kemkes.go.id/storage/documents/pdfs/2026kepmenkes951.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-09-01",
+   "headline": "Health ministry launches SATUSEHAT RME, a person-based national medical record",
+   "source": "Ministry of Health (Kemenkes)",
+   "url": "https://www.kemkes.go.id/id/kemenkes-luncurkan-satusehat-rme-rekam-medis-pasien-terintegrasi-secara-nasional",
+   "why": "Patients approve clinician access with a 6-digit code, but rollout is staged, starting at a few named hospitals."
+  },
+  {
+   "date": "2026-08-01",
+   "headline": "Five agencies sign circular tying electronic records to national insurance claims",
+   "source": "Ditjen Dukcapil, Ministry of Home Affairs",
+   "url": "https://dukcapil.kemendagri.go.id/blog/read/dukcapil-perkuat-validasi-identitas-dukung-integrasi-rekam-medis-elektronik-dengan-satusehat",
+   "why": "Clinical records will feed JKN claims checks, widening who reads patient data."
+  },
+  {
+   "date": "2026-07-29",
+   "headline": "Government defends missing data protection agency at Constitutional Court",
+   "source": "Hukumonline",
+   "url": "https://www.hukumonline.com/berita/a/dua-tahun-uu-pdp-tanpa-lembaga-pengawas--pemerintah-bantah-ada-kekosongan-hukum-lt6a69d92f6fce4/",
+   "why": "Without the agency, patients have no independent regulator to hear data complaints."
+  },
+  {
+   "date": "2026-04-07",
+   "headline": "Health ministry sanctions 1,306 hospitals over incomplete SATUSEHAT integration",
+   "source": "KBK.News",
+   "url": "https://kbk.news/1-306-rumah-sakit-kena-sanksi-integrasi-satusehat-jadi-sorotan-serius/",
+   "why": "Shows many hospitals still do not send full records to the national exchange."
+  },
+  {
+   "date": "2026-02-17",
+   "headline": "Patient seeks accountability over alleged leak of forensic exam photos from police hospital",
+   "source": "Kompas.com",
+   "url": "https://www.kompas.com/tren/read/2026/02/17/103000165/dugaan-bocornya-foto-visum-selebgram-makassar-di-rs-bhayangkara-ini-dasar?page=all",
+   "why": "A test of whether confidentiality duties lead to accountability for health data leaks."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

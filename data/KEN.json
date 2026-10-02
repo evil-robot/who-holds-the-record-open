@@ -1,0 +1,381 @@
+{
+ "iso3": "KEN",
+ "name": "Kenya",
+ "region": "Africa",
+ "controlModel": "Shared",
+ "headline": "Kenya's rules promise patients a national record with alerts, logs and consent, but the live system is young, claims-driven and leaky.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 55,
+   "summary": "The 2021 data protection rules make a copy free and due within 7 days, and the Digital Health Agency runs a national portal, Afyangu, showing visits, prescriptions and results. No official figure shows most people use it, so the cell stops at 55.",
+   "detail": [
+    "Section 26 of the Data Protection Act 2019 gives a right of access, and section 38 a right to a machine-readable copy. Regulation 9 of the 2021 General Regulations says a controller must answer within seven days, free of charge, and in electronic form when asked electronically.",
+    "Section 36 of the Digital Health Act 2023 adds a right to examine and receive a copy of personal health information, by written request to the facility or health data bank. Regulation 18 of the 2025 health information rules says patients may see and share their Shared Health Record through the patient portal.",
+    "The Digital Health Agency says Afyangu draws on the national Shared Health Record: medicines, conditions, observations, lab results and diagnostic reports. Its own counter lists 1.2 million encounters and 64,000 diagnostic reports, a small share of national care.",
+    "The Afyangu app shows 500,000+ downloads on Google Play. A December 2025 feature said three million Kenyans use the platform; that figure is not verified by an official source. Scored as statutory right plus free, fixed deadline plus an officially documented portal (45 + 5 + 5)."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection (General) Regulations 2021, Legal Notice 263 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2021/263/eng@2022-01-14",
+     "date": "2022-01-14",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digital Health Act No. 15 of 2023 (Digital Health Agency copy)",
+     "url": "https://nhts.dha.go.ke/api/file-download/?filename=Digital%20Health%20Act%2015%20of%202023.pdf",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digital Health (Health Information Management Procedures) Regulations 2025, Legal Notice 76 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/76/eng@2025-04-11",
+     "date": "2025-04-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Shared Health Record (Digital Health Agency)",
+     "url": "https://p360-preauth-lookup.dha.go.ke/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 44,
+   "summary": "Every visit is copied to a national Shared Health Record, but the rules require client authorisation, an alert on each look-up and an access log. A May 2026 fake entry posted with no alert shows these controls are not yet reliable.",
+   "detail": [
+    "Regulation 19 of the Data Exchange Regulations 2025 requires every encounter to be uploaded to the Shared Health Record within 24 hours. There is no opt-out from this upload. Section 31 of the Digital Health Act lets a patient withdraw consent to use or disclosure by notifying the provider.",
+    "Regulation 13 of the health information rules bars access unless authorised by the client or the data controller. Regulation 19(3) of the Data Exchange Regulations says certified systems must send the client an electronic alert when the record is accessed and keep a log of every user and retrieval.",
+    "The Digital Health Agency lists consent management in the Afyangu app. A patient quoted in a December 2025 feature said she gave consent before a hospital pulled her records. Whether alerts and consent prompts work for everyone was not verified.",
+    "In May 2026 a Nairobi member found a Garissa dispensary visit, diagnosis and prescriptions in his record for a day he was at work, with no one-time password before the entry (one arrived after). The Agency said access is protected by authentication and consent. Score sits in the lower half of the 40 to 55 band."
+   ],
+   "sources": [
+    {
+     "title": "Digital Health (Data Exchange Component) Regulations 2025, Legal Notice 77 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/77/eng@2025-04-11",
+     "date": "2025-04-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digital Health (Health Information Management Procedures) Regulations 2025, Legal Notice 76 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/76/eng@2025-04-11",
+     "date": "2025-04-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Afyangu app listing by the Digital Health Agency (Google Play)",
+     "url": "https://play.google.com/store/apps/details?id=ke.go.dha.afyangu&hl=en",
+     "date": "2026-09-09",
+     "publisherClass": "official"
+    },
+    {
+     "title": "SHA patient data safety questioned after Nairobi man's records show treatment in Garissa (Citizen Digital)",
+     "url": "https://citizen.digital/article/sha-patient-data-safety-questioned-after-nairobi-mans-records-show-treatment-in-garissa-n382392",
+     "date": "2026-05-09",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 55,
+   "summary": "Health is sensitive data, the Digital Health Act adds offences up to 15 years in prison, and the Data Commissioner ordered a hospital to pay KES 525,000 in March 2026. An official posting a family's SHA claims in August 2026 shows weak internal controls.",
+   "detail": [
+    "The Data Protection Act lists health status and genetic data as sensitive. Controllers must tell the Data Commissioner within 72 hours of a risky breach. Administrative fines are capped at KES 5 million or 1% of turnover, whichever is lower. Health providers must also report breaches to the Digital Health Agency within 48 hours.",
+    "Section 35 of the Digital Health Act makes tampering, theft or unauthorised sharing of health data an offence, with fines up to KES 1 million or up to 15 years in prison. Regulation 26 of the 2021 General Regulations requires processing for primary or secondary health care to run on a server in Kenya or keep a serving copy there.",
+    "On 16 March 2026 the Commissioner found that St. Luke Orthopaedic and Trauma Hospital in Eldoret disclosed a patient's health data without consent and failed to secure it, and ordered KES 525,000 in compensation.",
+    "In August 2026 a government digital strategist posted a critic's relatives' hospital admissions and SHA bills on X. The Kenya-US health framework, paused by the High Court in December 2025 over health data transfer, was allowed to proceed in May 2026; a full ruling is due 30 October 2026. Kenya has no EU adequacy decision."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act No. 24 of 2019 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31",
+     "date": "2022-12-31",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ODPC determination, Merceline v St. Luke Orthopaedic and Trauma Hospital",
+     "url": "https://www.odpc.go.ke/wp-content/uploads/2026/04/MERCELINE-VS-ST.-LUKE.pdf",
+     "date": "2026-03-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Govt cleared to proceed with Kenya-US Health Cooperation Framework (Kenyans.co.ke)",
+     "url": "https://www.kenyans.co.ke/news/123350-govt-cleared-proceed-ksh322-billion-kenya-us-health-cooperation-framework",
+     "date": "2026-05-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 52,
+   "summary": "Commercial use of personal data needs express consent, sensitive data is left out of the direct-marketing permission, and disclosing health data for market research is an offence. Nothing specific covers health apps, data brokers or sale of de-identified data.",
+   "detail": [
+    "Section 37 of the Data Protection Act bars commercial use of personal data without express consent or a written-law basis, and asks controllers to anonymise where possible. Regulation 15 of the 2021 Regulations permits direct marketing only for personal data other than sensitive data. Commercial use without consent is an offence (regulation 15(4)): up to KES 20,000 or six months.",
+    "Section 38(2) of the Digital Health Act bars disclosure of health data bank records for market research. Regulation 24 of the 2025 health information rules makes such disclosure an offence.",
+    "The Data Commissioner's December 2023 health guidance says patient data should not be used for marketing without explicit consent. No rule was found on consumer health apps, data brokers or sale of anonymised health data, so the cell stays in the mixed band."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act No. 24 of 2019 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31",
+     "date": "2022-12-31",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection (General) Regulations 2021, Legal Notice 263 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2021/263/eng@2022-01-14",
+     "date": "2022-01-14",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digital Health (Health Information Management Procedures) Regulations 2025, Legal Notice 76 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/76/eng@2025-04-11",
+     "date": "2025-04-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ODPC Guidance Note on the Processing of Health Data",
+     "url": "https://www.odpc.go.ke/wp-content/uploads/2024/02/ODPC-Guidance-Note-on-Processing-of-Health-Data.pdf",
+     "date": "2023-12",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 45,
+   "summary": "Kenya has a live national Shared Health Record built on FHIR and, from mid-2026, requires every SHA-contracted facility to use a certified system linked to it. Volumes are still small: the Agency counts 1.2 million encounters and 4.5 million claims.",
+   "detail": [
+    "The Digital Health Act sets up a Comprehensive Integrated Health Information System with a client registry, facility and health worker registries, an interoperability layer and shared health records. The 2025 Data Exchange Regulations make the client registry the single identifier and require insurers' claims systems to use it.",
+    "The Digital Health Agency's Shared Health Record page lists 10 million observations, 4.5 million claims, 1.7 million prescriptions, 1.2 million encounters and 64,000 diagnostic reports. The page is undated, so these counts carry no date.",
+    "In June 2026 SHA made a Digital Health Agency certified HMIS a condition of contracting for 2026/28. Level 4 public hospitals moved claims to Taifa Care HMIS from midnight on 29 June 2026. How many facilities were connected by 1 October 2026 was not verified.",
+    "The record is driven by insurance claims. Lab results and prescriptions are present but thin. Public health reporting and research links to the Shared Health Record were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Digital Health (Data Exchange Component) Regulations 2025, Legal Notice 77 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/77/eng@2025-04-11",
+     "date": "2025-04-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Shared Health Record (Digital Health Agency)",
+     "url": "https://p360-preauth-lookup.dha.go.ke/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "SHA makes accredited HMIS mandatory for all healthcare providers (Kenyans.co.ke)",
+     "url": "https://www.kenyans.co.ke/news/124812-sha-makes-accredited-hmis-mandatory-all-healthcare-providers",
+     "date": "2026-06-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "SHA rolls out Taifa Care HMIS for Level 4 public hospitals (The Star)",
+     "url": "https://www.the-star.co.ke/news/2026-07-01-sha-shifts-level-4-public-hospitals-to-taifa-care-hmis",
+     "date": "2026-07-01",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 42,
+   "summary": "The rules make certified systems query and update the Shared Health Record at every encounter and allow logged emergency access, so a clinician can in principle see care from other facilities. Coverage is still small and largely claims-driven.",
+   "detail": [
+    "Regulation 19 of the Data Exchange Regulations requires every certified system to query and update the Shared Health Record for each client encounter and upload it within 24 hours, or within seven days if offline.",
+    "Regulation 23 of the health information rules allows access for emergency treatment through multi-factor authentication, with an auditable log. Section 24 of the Digital Health Act allows disclosure without consent in emergencies.",
+    "A December 2025 feature quoted a patient whose doctor retrieved her records from Afyangu after she consented. With 1.2 million encounters on the national counter, most clinical history still sits in each facility's own system. Share of clinicians who use the record at the bedside was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Digital Health (Data Exchange Component) Regulations 2025, Legal Notice 77 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/77/eng@2025-04-11",
+     "date": "2025-04-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digital Health (Health Information Management Procedures) Regulations 2025, Legal Notice 76 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/76/eng@2025-04-11",
+     "date": "2025-04-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digital Health Act No. 15 of 2023 (Digital Health Agency copy)",
+     "url": "https://nhts.dha.go.ke/api/file-download/?filename=Digital%20Health%20Act%2015%20of%202023.pdf",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digitising Care: How Kenya's Afya Yangu platform is shaping the road to UHC (Talk Africa)",
+     "url": "https://www.talkafrica.co.ke/digitising-care-how-kenyas-afya-yangu-platform-is-shaping-the-road-to-universal-health-coverage/",
+     "date": "2025-12-04",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "There is no general research opt-out, but identifiable data from the national system needs the person's written consent plus ethics board, NACOSTI licence and ministerial approval. Four safeguard classes put the cell at the 50 cap.",
+   "detail": [
+    "Section 53 of the Data Protection Act treats research use as compatible with the original purpose if results are not published in identifiable form. The Data Commissioner's 2025 research guidance says this exemption is not blanket and makes pseudonymisation the default before sharing.",
+    "Regulation 17 of the health information rules says requests for identifiable data need a data sharing agreement and the person's written consent. Research requests need an Institutional Review Board approval, a NACOSTI licence and approval from the Cabinet Secretary or county health executive.",
+    "The Agency must decide within 30 days. Fees run from KES 500 for undergraduates to KES 30,000 for independent researchers, or 1% of an institution's research budget. Section 35 of the Digital Health Act punishes misuse. No public register of approved uses was found."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act No. 24 of 2019 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31",
+     "date": "2022-12-31",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digital Health (Health Information Management Procedures) Regulations 2025, Legal Notice 76 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/76/eng@2025-04-11",
+     "date": "2025-04-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ODPC Guidance Notes: Processing for Research Purposes",
+     "url": "https://www.odpc.go.ke/wp-content/uploads/2025/11/ODPC-%E2%80%93-GUIDANCE-NOTES-Processing-for-Research-Purpose.pdf",
+     "date": "2025",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 48,
+   "summary": "The Pharmacy and Poisons Board's February 2026 medical device software guideline sets rules for AI devices, including control of continuous learning and rollback. It is guidance, not statute, and one report calls it a draft, so it scores at the top of the guidance band.",
+   "detail": [
+    "The guideline, Revision 0 dated February 2026, is issued under section 3A of the Pharmacy and Poisons Act. It covers software as a medical device and requires risk management, clinical validation, version control and post-market surveillance.",
+    "For AI devices that keep learning after deployment, the maker should define the learning process and its controls, monitor performance, and plan for rollback to an earlier validated version. The guideline names the user's capacity for human oversight as a risk factor.",
+    "The document carries no draft marking, but Health Business described it in April 2026 as draft guidance. Its effective date was not verified. The Artificial Intelligence Bill 2026 (Senate Bill No. 4) was at second reading in August 2026 and is not law.",
+    "Section 35 of the Data Protection Act gives a right not to be subject to solely automated decisions with significant effects, with a right to ask for human reconsideration."
+   ],
+   "sources": [
+    {
+     "title": "Guideline on Regulation of Medical Device Software in Kenya (Pharmacy and Poisons Board, Revision 0)",
+     "url": "https://web.pharmacyboardkenya.org/download/guideline-on-regulation-of-medical-device-software-in-kenya-mdsw/",
+     "date": "2026-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Kenya tightens oversight of medical device software (Health Business)",
+     "url": "https://healthbusiness.co.ke/10137/kenya-tightens-oversight-of-medical-device-software/",
+     "date": "2026-04-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The Artificial Intelligence Bill, Senate Bill No. 4 of 2026 (Mzalendo Bill Tracker)",
+     "url": "https://mzalendo.com/legislative-trends/bills/senate/560/",
+     "date": "2026-08-10",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Data Protection Act No. 24 of 2019 (Kenya Law)",
+     "url": "https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31",
+     "date": "2022-12-31",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "connected",
+  "publicHealth": "unknown",
+  "research": "unknown"
+ },
+ "journeyNote": "SHA claims drive the national Shared Health Record. Certified HMIS became a contracting condition in June 2026. Labs and prescriptions appear in small numbers; public health and research links were not verified.",
+ "laws": [
+  {
+   "name": "Data Protection Act No. 24 of 2019",
+   "level": "National",
+   "year": "2019",
+   "what": "Health is sensitive data; access and portability rights; 72-hour breach notice; express consent for commercial use.",
+   "url": "https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31"
+  },
+  {
+   "name": "Data Protection (General) Regulations 2021",
+   "level": "National",
+   "year": "2021",
+   "what": "Free access within 7 days; no direct marketing with sensitive data; health care processing kept in Kenya.",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2021/263/eng@2022-01-14"
+  },
+  {
+   "name": "Digital Health Act No. 15 of 2023",
+   "level": "National",
+   "year": "2023",
+   "what": "Creates Digital Health Agency and integrated system; right to a copy; consent withdrawal; offences up to 15 years.",
+   "url": "https://nhts.dha.go.ke/api/file-download/?filename=Digital%20Health%20Act%2015%20of%202023.pdf"
+  },
+  {
+   "name": "Digital Health (Health Information Management Procedures) Regulations 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "48-hour breach notice; patient portal access; written consent for identifiable data; research approvals and fees.",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/76/eng@2025-04-11"
+  },
+  {
+   "name": "Digital Health (Data Exchange Component) Regulations 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Client registry and Shared Health Record; 24-hour upload; access alerts and logs; insurer claims links.",
+   "url": "https://new.kenyalaw.org/akn/ke/act/ln/2025/77/eng@2025-04-11"
+  },
+  {
+   "name": "Guideline on Regulation of Medical Device Software in Kenya (PPB)",
+   "level": "National",
+   "year": "2026",
+   "what": "Regulator guidance for software and AI devices, including continuous-learning controls and rollback.",
+   "url": "https://web.pharmacyboardkenya.org/download/guideline-on-regulation-of-medical-device-software-in-kenya-mdsw/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-11",
+   "headline": "High Court suspends health data sharing under Kenya-US health aid deal",
+   "source": "BBC News",
+   "url": "https://www.bbc.com/news/articles/ce91degnelko",
+   "why": "Paused transfer of patients' medical and epidemiological data abroad pending a privacy challenge."
+  },
+  {
+   "date": "2026-04-16",
+   "headline": "Data Commissioner orders Eldoret hospital to pay KES 525,000 over health data",
+   "source": "KBC",
+   "url": "https://www.kbc.co.ke/eldoret-hospital-to-pay-client-ksh-525000-for-data-misuse/",
+   "why": "Shows patients can win compensation when a hospital mishandles their results."
+  },
+  {
+   "date": "2026-05-09",
+   "headline": "Nairobi man finds fake Garissa treatment entries in his SHA record",
+   "source": "Citizen Digital",
+   "url": "https://citizen.digital/article/sha-patient-data-safety-questioned-after-nairobi-mans-records-show-treatment-in-garissa-n382392",
+   "why": "Suggests records can be written without the patient's one-time password or alert."
+  },
+  {
+   "date": "2026-06-30",
+   "headline": "SHA makes certified health information systems mandatory for contracted providers",
+   "source": "Kenyans.co.ke",
+   "url": "https://www.kenyans.co.ke/news/124812-sha-makes-accredited-hmis-mandatory-all-healthcare-providers",
+   "why": "Pushes every SHA facility onto systems linked to the national record."
+  },
+  {
+   "date": "2026-08-24",
+   "headline": "Government strategist posts critic's relatives' SHA hospital bills online",
+   "source": "Citizen Digital",
+   "url": "https://citizen.digital/article/dennis-itumbi-sparks-outrage-over-alleged-medical-data-breach-in-online-defense-of-sha-n388889",
+   "why": "Raises questions about who inside government can read patients' claims data."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

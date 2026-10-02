@@ -1,0 +1,327 @@
+{
+  "iso3": "DOM",
+  "name": "Dominican Republic",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Dominican patients have a legal right to their data but no national record or portal; a single digital record is still in pilots.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 40,
+      "summary": "Ley 172-13 gives a right to obtain one's data within five business days, but there is no national patient portal and copy fees were not verified. The health law does not name a right to a chart copy, so the score sits below the 45 base.",
+      "detail": [
+        "Ley 172-13, Article 10, gives every person the right to request and obtain their personal data held in public or private databases. The holder must answer within five business days of a personal request or a bailiff's notice.",
+        "If the deadline passes, the person can go to a court of first instance (habeas data). The law names no administrative regulator for health records, so enforcement depends on courts.",
+        "Ley 42-01, Article 28, gives patients the right to a written record of their care and to information about diagnosis and treatment. It does not spell out a right to a copy of the chart.",
+        "Whether providers charge for copies was not verified. The planned single record was still a pilot in December 2025 (Diario Libre), and no patient app or portal was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley No. 172-13 sobre Proteccion de Datos Personales (Superintendencia de Bancos)",
+          "url": "https://www.sb.gob.do/media/4i1ploou/ley17213.pdf",
+          "date": "2013-12-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley General de Salud No. 42-01 (FAOLEX copy)",
+          "url": "https://faolex.fao.org/docs/pdf/dom75084.pdf",
+          "date": "2001-03-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "La transformacion digital en salud apunta a una atencion mas justa y oportuna (Diario Libre)",
+          "url": "https://www.diariolibre.com/actualidad/salud/2025/12/15/transformacion-digital-en-salud-apunta-a-una-atencion-mas-justa/3378335",
+          "date": "2025-12-15",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Health data needs express written consent under Ley 172-13, but the law lets hospitals and clinicians process it for care without that consent. No opt-out from sharing and no patient-visible access log were found.",
+      "detail": [
+        "Ley 172-13, Article 76, says health data may be processed only with the person's express written consent. Articles 70 and 78 let public and private health centres and professionals process it for diagnosis, care and service management, under professional secrecy.",
+        "Article 27 drops the consent requirement for state functions, data exchanged between state bodies, and health data needed for public health or epidemiological studies if identities are dissociated.",
+        "Ley 42-01, Article 28(e), makes the patient's file confidential, but allows disclosure with consent, in the collective interest, by court order or by special law.",
+        "The planned SNS network would let a doctor see the record with the patient's ID, an access code and express authorisation (Acento, May 2026). That is a plan, not in force."
+      ],
+      "sources": [
+        {
+          "title": "Ley No. 172-13 sobre Proteccion de Datos Personales (Superintendencia de Bancos)",
+          "url": "https://www.sb.gob.do/media/4i1ploou/ley17213.pdf",
+          "date": "2013-12-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley General de Salud No. 42-01 (FAOLEX copy)",
+          "url": "https://faolex.fao.org/docs/pdf/dom75084.pdf",
+          "date": "2001-03-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "SNS e INDOTEL disenan red digital que conectara todos los hospitales publicos (Acento)",
+          "url": "https://acento.com.do/actualidad/sns-e-indotel-disenan-red-digital-que-conectara-todos-los-hospitales-publicos-9686606.html",
+          "date": "2026-05-26",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 35,
+      "summary": "Ley 172-13 treats health data as sensitive and sets prison terms of six months to two years for violations, but it creates no data protection authority outside credit bureaus. In 2024 the Health Ministry confirmed theft of over 8,000 vaccination files.",
+      "detail": [
+        "Ley 172-13 defines health data as sensitive (Article 6) and bans files of sensitive data without free, informed consent (Article 75). Article 88 punishes violations with six months to two years in prison and fines of 100 to 150 minimum salaries.",
+        "The only control body the law creates is the Superintendencia de Bancos, and only for credit information companies (Article 29). No independent regulator for health or general data exists, and no breach notification duty was found.",
+        "In April 2024 the Ministry of Public Health confirmed theft of more than 8,000 files on COVID-19 vaccine recipients, with names, phones and addresses, through malware on computers without updated antivirus.",
+        "The new Penal Code (Ley 74-25), in force since 3 August 2026, punishes disclosure of secrets by those who hold them, such as doctors with clinical files (Diario Salud).",
+        "Ley 53-07 on high-tech crimes punishes unauthorised access to a computer system, with one to three years in prison when confidential data is revealed (Article 6)."
+      ],
+      "sources": [
+        {
+          "title": "Ley No. 172-13 sobre Proteccion de Datos Personales (Superintendencia de Bancos)",
+          "url": "https://www.sb.gob.do/media/4i1ploou/ley17213.pdf",
+          "date": "2013-12-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Piratas informaticos intervienen el sistema del Ministerio de Salud Publica y roban ocho mil archivos de vacunados (INS)",
+          "url": "https://internewsservice.com/2024/04/14/r-dominicana-piratas-informaticos-intervienen-el-sistema-del-ministerio-de-salud-publica-y-le-roban-ocho-mil-archivos-de-vacunados-contra-covid-19/",
+          "date": "2024-04-14",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Salud y el nuevo Codigo Penal: lo que el sector debe saber en su primer dia de vigencia (Diario Salud)",
+          "url": "https://diariosalud.do/salud-y-el-nuevo-codigo-penal-lo-que-el-sector-debe-saber-en-su-primer-dia-de-vigencia/",
+          "date": "2026-08-03",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Ley No. 53-07 sobre Crimenes y Delitos de Alta Tecnologia (OAS copy)",
+          "url": "https://www.oas.org/juridico/PDFs/repdom_ley5307.pdf",
+          "date": "2007-04-23",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 42,
+      "summary": "Health data cannot be processed or transferred without express written consent, and marketing lists may hold only biographical data. Profiling for advertising is allowed with consent, and no regulator or enforcement record on health data sales was found.",
+      "detail": [
+        "Ley 172-13, Article 76, requires express written consent to process health data. Article 28 allows transfer of personal data only for legitimate purposes and with prior consent.",
+        "Article 27(3) waives consent for marketing lists, but only for names, ID numbers and other biographical data. Article 71 allows consumer profiling for advertising when data is public, supplied by the person or collected with consent, and the person may ask to be removed.",
+        "No rules on consumer health apps or data brokers, and no sanctions for selling health data, were found. With no regulator outside credit bureaus, enforcement rests on courts."
+      ],
+      "sources": [
+        {
+          "title": "Ley No. 172-13 sobre Proteccion de Datos Personales (Superintendencia de Bancos)",
+          "url": "https://www.sb.gob.do/media/4i1ploou/ley17213.pdf",
+          "date": "2013-12-15",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 30,
+      "summary": "The Ministry of Health's single patient record was still a pilot in December 2025, and in May 2026 records still did not travel between public hospitals. A network linking all public centres and insurers (ARS) has no published timeline.",
+      "detail": [
+        "The National Digital Health Strategy 2024-2028, launched in August 2024, lists a single record (expediente unico), telemedicine and process digitisation as goals.",
+        "A three-month single-record pilot was set for four Santo Domingo hospitals in August 2024 (Diario Libre). In December 2025 the minister said it was still a pilot, with telemedicine and e-prescription also planned.",
+        "In May 2026 the SNS and INDOTEL were designing a network to link all public centres, ARS insurers and other platforms. Acento reported no timeline or budget, and that patients usually repeat tests at a new hospital.",
+        "In August 2026 the country completed all test cases at a 20-country regional digital health exercise held at the PH4H 2026 conference in Panama, a step toward the Expediente Electronico Unico de Salud."
+      ],
+      "sources": [
+        {
+          "title": "Gobierno impulsa el uso de tecnologias sanitarias con la Estrategia Nacional de Salud Digital (Ministerio de Salud Publica)",
+          "url": "https://msp.gob.do/web/?p=18569",
+          "date": "2024-08-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Cuatro hospitales participaran en piloto expediente unico (Diario Libre)",
+          "url": "https://www.diariolibre.com/actualidad/salud/2024/08/21/cuatro-hospitales-participaran-en-piloto-expediente-unico/2825045",
+          "date": "2024-08-21",
+          "publisherClass": "news"
+        },
+        {
+          "title": "SNS e INDOTEL disenan red digital que conectara todos los hospitales publicos (Acento)",
+          "url": "https://acento.com.do/actualidad/sns-e-indotel-disenan-red-digital-que-conectara-todos-los-hospitales-publicos-9686606.html",
+          "date": "2026-05-26",
+          "publisherClass": "news"
+        },
+        {
+          "title": "La Republica Dominicana queda entre los primeros lugares en la Conectaton Regional de Salud Digital (Presidencia)",
+          "url": "https://presidencia.gob.do/noticias/la-republica-dominicana-queda-entre-los-primeros-lugares-en-la-conectaton-regional-de",
+          "date": "2026-08-07",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 28,
+      "summary": "A clinician generally cannot see what another public hospital recorded; the government's stated goal is consented, real-time access across the public network. The Expediente Electronico Unico de Salud is still being prepared.",
+      "detail": [
+        "Acento reported in May 2026 that a patient who goes to a different hospital must, in most cases, repeat tests because records do not travel with them.",
+        "The SNS plan would let the treating doctor see past referrals, imaging, lab results and visits anywhere in the public network, using the patient's ID, an access code and express authorisation.",
+        "The Presidency said in August 2026 that interoperability tests prepare the single record so authorised staff can reach clinical data wherever it was generated. Private sector links and emergency access rules were not verified."
+      ],
+      "sources": [
+        {
+          "title": "SNS e INDOTEL disenan red digital que conectara todos los hospitales publicos (Acento)",
+          "url": "https://acento.com.do/actualidad/sns-e-indotel-disenan-red-digital-que-conectara-todos-los-hospitales-publicos-9686606.html",
+          "date": "2026-05-26",
+          "publisherClass": "news"
+        },
+        {
+          "title": "La Republica Dominicana queda entre los primeros lugares en la Conectaton Regional de Salud Digital (Presidencia)",
+          "url": "https://presidencia.gob.do/noticias/la-republica-dominicana-queda-entre-los-primeros-lugares-en-la-conectaton-regional-de",
+          "date": "2026-08-07",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Ley 172-13 waives consent for epidemiological use of dissociated health data, and no general opt-out was found. Three safeguards (CONABIOS ethics review, express consent for biomedical research under the new Penal Code, criminal penalties for misuse) put it near the 50 cap.",
+      "detail": [
+        "Ley 172-13, Article 27(8), waives consent for health data used for public health, emergencies or epidemiological studies, if identities are protected by dissociation. Article 72 excludes research data that cannot be tied to a person.",
+        "The National Bioethics Council (CONABIOS), created in 2004, evaluates and follows up interventional research. By October 2024 it had approved 787 of 823 protocols submitted.",
+        "The new Penal Code (Ley 74-25) punishes biomedical research done without the participant's express, revocable consent (Diario Salud, August 2026).",
+        "No public register of secondary uses of health data was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley No. 172-13 sobre Proteccion de Datos Personales (Superintendencia de Bancos)",
+          "url": "https://www.sb.gob.do/media/4i1ploou/ley17213.pdf",
+          "date": "2013-12-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Conabios aprobo 787 protocolos de investigacion (CONABIOS)",
+          "url": "https://conabios.gob.do/2024/10/24/conabios-aprobo-787-protocolos-de-investigacion/",
+          "date": "2024-10-24",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Salud y el nuevo Codigo Penal: lo que el sector debe saber en su primer dia de vigencia (Diario Salud)",
+          "url": "https://diariosalud.do/salud-y-el-nuevo-codigo-penal-lo-que-el-sector-debe-saber-en-su-primer-dia-de-vigencia/",
+          "date": "2026-08-03",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 25,
+      "summary": "The country has a 2023 National AI Strategy but no binding rules for clinical AI. In September 2026 a Senate committee agreed to merge two general AI bills, which are not yet law.",
+      "detail": [
+        "The National Artificial Intelligence Strategy (ENIA, 2023) names health as a priority sector and covers governance and ethics, but it is policy, not binding regulation.",
+        "On 15 September 2026 the Senate's science committee agreed to merge two AI bills into one framework law covering all sectors. It is not yet law.",
+        "DIGEMAPS registers health products under Ley 42-01 and Decreto 246-06. No AI or software-specific device rules, change control or human oversight duties were found (not verified in detail)."
+      ],
+      "sources": [
+        {
+          "title": "Estrategia Nacional de Inteligencia Artificial de la Republica Dominicana (Agenda Digital)",
+          "url": "https://agendadigital.gob.do/wp-content/uploads/2023/10/Final_ENIA-Estrategia-Nacional-de-Inteligencia-Artificial-de-la-Republica-Dominicana-.pdf",
+          "date": "2023-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Comision de senadores acuerda fusionar proyectos de ley que buscan regular el uso de la Inteligencia Artificial (Senado)",
+          "url": "https://www.senadord.gob.do/comision-de-senadores-acuerda-fusionar-proyectos-de-ley-que-buscan-regular-el-uso-de-la-inteligencia-artificial/",
+          "date": "2026-09-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Registro Sanitario de Productos Sanitarios (DIGEMAPS)",
+          "url": "https://digemaps.gob.do/servicios/registro-sanitario-de-productos-sanitarios/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "siloed",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Records mostly stay with each hospital; a single record was piloted in four public hospitals. Linking public centres with ARS insurers is planned without a timeline. E-prescription is a stated goal, not verified in use.",
+  "laws": [
+    {
+      "name": "Ley 172-13 (proteccion integral de los datos personales)",
+      "level": "National",
+      "year": "2013",
+      "what": "Access within five business days, health data sensitive, express written consent, prison and fines for violations.",
+      "url": "https://www.sb.gob.do/media/4i1ploou/ley17213.pdf"
+    },
+    {
+      "name": "Ley 42-01 (Ley General de Salud)",
+      "level": "National",
+      "year": "2001",
+      "what": "Patient rights: confidential file, written record of care, informed consent to treatment.",
+      "url": "https://faolex.fao.org/docs/pdf/dom75084.pdf"
+    },
+    {
+      "name": "Ley 53-07 (crimenes y delitos de alta tecnologia)",
+      "level": "National",
+      "year": "2007",
+      "what": "Criminalises unauthorised system access; higher penalties when confidential data is revealed.",
+      "url": "https://www.oas.org/juridico/PDFs/repdom_ley5307.pdf"
+    },
+    {
+      "name": "Ley 74-25 (Codigo Penal)",
+      "level": "National",
+      "year": "2025",
+      "what": "In force August 2026; punishes disclosure of professional secrets and research without express consent.",
+      "url": "https://diariosalud.do/salud-y-el-nuevo-codigo-penal-lo-que-el-sector-debe-saber-en-su-primer-dia-de-vigencia/"
+    },
+    {
+      "name": "Decreto 246-06 (reglamento de medicamentos y productos sanitarios)",
+      "level": "National",
+      "year": "2006",
+      "what": "Legal basis for DIGEMAPS registration of health products; no AI-specific rules found.",
+      "url": "https://digemaps.gob.do/servicios/registro-sanitario-de-productos-sanitarios/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-15",
+      "headline": "Senate committee merges two bills into one general AI law",
+      "source": "Senado de la Republica Dominicana",
+      "url": "https://www.senadord.gob.do/comision-de-senadores-acuerda-fusionar-proyectos-de-ley-que-buscan-regular-el-uso-de-la-inteligencia-artificial/",
+      "why": "Health AI has no binding rules today; this bill would be the first."
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "Dominican team passes all tests at regional digital health interoperability exercise",
+      "source": "Presidencia de la Republica",
+      "url": "https://presidencia.gob.do/noticias/la-republica-dominicana-queda-entre-los-primeros-lugares-en-la-conectaton-regional-de",
+      "why": "Shows technical readiness for a single record that patients do not yet have."
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "New Penal Code takes effect with medical secrecy and research consent offences",
+      "source": "Diario Salud",
+      "url": "https://diariosalud.do/salud-y-el-nuevo-codigo-penal-lo-que-el-sector-debe-saber-en-su-primer-dia-de-vigencia/",
+      "why": "Adds criminal penalties for leaking clinical files or researching without consent."
+    },
+    {
+      "date": "2026-05-26",
+      "headline": "SNS and INDOTEL design network to link every public hospital record",
+      "source": "Acento",
+      "url": "https://acento.com.do/actualidad/sns-e-indotel-disenan-red-digital-que-conectara-todos-los-hospitales-publicos-9686606.html",
+      "why": "Would end repeat tests and require patient authorisation, but has no timeline."
+    },
+    {
+      "date": "2025-12-15",
+      "headline": "Health minister says single patient record remains in pilot stage",
+      "source": "El Dia",
+      "url": "https://eldia.com.do/rd-avanza-hacia-digitalizacion-del-sistema-de-salud/",
+      "why": "Patients still cannot rely on one record across providers."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

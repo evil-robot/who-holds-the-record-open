@@ -1,0 +1,324 @@
+{
+  "iso3": "TUV",
+  "name": "Tuvalu",
+  "region": "Oceania",
+  "controlModel": "State",
+  "headline": "Tuvalu has no data protection law, no regulator and no right to your record; its one hospital runs a closed, poorly maintained system.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 20,
+      "summary": "No law gives patients a right to see or copy their health record: Tuvalu has no data protection act, and its Constitution protects only against searches of person and property. There is no patient portal.",
+      "detail": [
+        "Section 21 of the Constitution of Tuvalu Act 2023 protects against search of a person or property and entry onto property without consent. It says nothing about personal information or access to records.",
+        "The National Cyber Security Index (updated 19 May 2026) scores Tuvalu 0 of 4 on personal data protection: no data protection law and no supervisory authority.",
+        "The Health Professionals Act 2016 sets up registration and complaints for health workers. It contains no patient right of access to records.",
+        "We found no patient portal. With no enforceable right, Tuvalu sits in the 15 to 35 band, near its lower end."
+      ],
+      "sources": [
+        {
+          "title": "The Constitution of Tuvalu Act 2023 (FAOLEX copy)",
+          "url": "https://faolex.fao.org/docs/pdf/tuv127524.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tuvalu, National Cyber Security Index (e-Governance Academy)",
+          "url": "https://ncsi.ega.ee/country/tv/",
+          "date": "2026-05-19",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Health Professionals Act (2022 Revised Edition), Tuvalu Legislation Online",
+          "url": "https://tuvalu-legislation.tv/cms/images/LEGISLATION/PRINCIPAL/2016/2016-0004/2016-0004_2.pdf",
+          "date": "2016",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "control": {
+      "score": 25,
+      "summary": "Patients have no legal say over who sees their records. A new Tamanu record at the Maternal and Child Health clinic lets clinicians at different facilities open the same record; we found no opt-out or patient-visible access log.",
+      "detail": [
+        "Tuvalu has no general consent or data protection law. The Health Professionals Act 2016 contains no confidentiality or consent rule for patient information.",
+        "The Australian High Commission says the Maternal and Child Health clinic now uses the Tamanu record. It holds diagnoses, treatments, vaccinations and antenatal visits, and clinicians across facilities can access the same record.",
+        "We found no patient opt-out, granular choice or access log the patient can see. Sharing is decided by the Ministry, which places Tuvalu in the 20 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Tuvalu's Maternal and Child Health clinic has a new digital health platform (Australian High Commission Tuvalu)",
+          "url": "https://www.facebook.com/AusHCfnfu/photos/tuvalus-maternal-and-child-health-clinic-has-a-new-digital-health-platform-the-t/1381003020741966/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Professionals Act (2022 Revised Edition), Tuvalu Legislation Online",
+          "url": "https://tuvalu-legislation.tv/cms/images/LEGISLATION/PRINCIPAL/2016/2016-0004/2016-0004_2.pdf",
+          "date": "2016",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tuvalu, National Cyber Security Index (e-Governance Academy)",
+          "url": "https://ncsi.ega.ee/country/tv/",
+          "date": "2026-05-19",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 22,
+      "summary": "Tuvalu has no data protection law, no regulator and no breach notification duty, and no health confidentiality statute was found. The Constitution protects only against searches, not the use of personal information.",
+      "detail": [
+        "Section 21 of the 2023 Constitution covers search of the person, search of property and entry onto property. It does not protect personal or health information.",
+        "The National Cyber Security Index records no personal data protection law and no data protection authority in Tuvalu as of May 2026.",
+        "We found no confidentiality duty in the Health Professionals Act 2016. A 2022 study said apps like WhatsApp may suit health communication but noted this raises privacy and security concerns.",
+        "No health data breach was found. Tuvalu is not in the EU, so GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "The Constitution of Tuvalu Act 2023 (FAOLEX copy)",
+          "url": "https://faolex.fao.org/docs/pdf/tuv127524.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tuvalu, National Cyber Security Index (e-Governance Academy)",
+          "url": "https://ncsi.ega.ee/country/tv/",
+          "date": "2026-05-19",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "The impact of digital communication and data exchange on primary health service delivery in a small island developing state setting (PLOS Digital Health, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9931309/",
+          "date": "2022-10-07",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 15,
+      "summary": "No law limits the sale, sharing or marketing use of health data, and no regulator oversees data brokers or health apps. A vendor review says the 2024 National ICT Policy only calls for future data protection and consumer laws (policy text not verified).",
+      "detail": [
+        "With no data protection law and no supervisory authority, nothing in Tuvalu law stops a company from selling or reusing health data.",
+        "A June 2026 review by Levellers says the 2024 National ICT Policy calls for future data protection, electronic transactions and consumer protection laws. We could not open the policy itself.",
+        "We found no consumer health app rules and no case of health data sale in Tuvalu."
+      ],
+      "sources": [
+        {
+          "title": "Tuvalu, National Cyber Security Index (e-Governance Academy)",
+          "url": "https://ncsi.ega.ee/country/tv/",
+          "date": "2026-05-19",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "AI regulation in Tuvalu: current approach (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-tuvalu",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "journey": {
+      "score": 24,
+      "summary": "Princess Margaret Hospital runs its own information system on a closed network, and most other records stay on paper. The World Bank said in September 2026 that a plan to fix or replace the hospital system was still pending.",
+      "detail": [
+        "A 2022 study found records mostly paper-based and kept at each facility. The hospital system runs on a closed internal network that other sites cannot reach.",
+        "A 2025 JMIR study counted an electronic record in 1 of 11 Tuvalu facilities (9.1%).",
+        "The World Bank's September 2026 report keeps its 2022 baseline: a hospital system that does not fully work across departments and is not well maintained. Its review is still pending. A plan to adapt or replace it is targeted for December 2027; the digital health strategy consultancy was at contract award.",
+        "The Tamanu record now runs at the Maternal and Child Health clinic. Use at other sites was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Implementation Status and Results Report: Tuvalu Health System Strengthening Project (P175170), Seq 9 (World Bank)",
+          "url": "https://documents1.worldbank.org/curated/en/099092426221038392/pdf/P175170-3a07fa71-ced3-4424-8deb-45c2eea95e0b.pdf",
+          "date": "2026-09-25",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "The impact of digital communication and data exchange on primary health service delivery in a small island developing state setting (PLOS Digital Health, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9931309/",
+          "date": "2022-10-07",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Tuvalu's Maternal and Child Health clinic has a new digital health platform (Australian High Commission Tuvalu)",
+          "url": "https://www.facebook.com/AusHCfnfu/photos/tuvalus-maternal-and-child-health-clinic-has-a-new-digital-health-platform-the-t/1381003020741966/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 25,
+      "summary": "Outside the hospital and the maternal clinic, clinicians work from paper and share information ad hoc over satellite links. The World Bank's baseline says the hospital system does not fully work across hospital departments, and its review is still pending.",
+      "detail": [
+        "Princess Margaret Hospital is the only hospital. A 2022 study found its electronic system unavailable to other sites, so outer-island clinics rely on paper and ad-hoc calls over VSAT satellite links.",
+        "The World Bank's September 2026 report keeps its 2022 baseline for the hospital system: not working fully across hospital departments, designed for a large tertiary facility and not well maintained. A review was still at early consultation.",
+        "At the Maternal and Child Health clinic, Tamanu holds diagnoses, treatments and antenatal visits that clinicians across facilities can open."
+      ],
+      "sources": [
+        {
+          "title": "The impact of digital communication and data exchange on primary health service delivery in a small island developing state setting (PLOS Digital Health, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9931309/",
+          "date": "2022-10-07",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Implementation Status and Results Report: Tuvalu Health System Strengthening Project (P175170), Seq 9 (World Bank)",
+          "url": "https://documents1.worldbank.org/curated/en/099092426221038392/pdf/P175170-3a07fa71-ced3-4424-8deb-45c2eea95e0b.pdf",
+          "date": "2026-09-25",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Tuvalu's Maternal and Child Health clinic has a new digital health platform (Australian High Commission Tuvalu)",
+          "url": "https://www.facebook.com/AusHCfnfu/photos/tuvalus-maternal-and-child-health-clinic-has-a-new-digital-health-platform-the-t/1381003020741966/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "Ethics review is required but Tuvalu has no research ethics committee, and research laws are still in progress. The Civil Registration Act 2025 lets the Registrar release named records for health research only if public benefit outweighs privacy.",
+      "detail": [
+        "A December 2025 Lancet Regional Health review lists Tuvalu with 3 to 4 research submissions a year, ethics review required, laws and national oversight in progress, and no ethics committee (other mechanisms in place).",
+        "Section 81 of the Civil Registration Act 2025 allows registry searches for health research. Where named records are sought, the Registrar must judge that public benefit outweighs the effect on privacy.",
+        "No consent or opt-out rule for secondary use of health records was found. Base 40, plus 3 for the review and permit gate."
+      ],
+      "sources": [
+        {
+          "title": "The Pacific Way: advancing ethical research governance in the Pacific islands (Lancet Regional Health Western Pacific, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12756169/",
+          "date": "2025-12-11",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Civil Registration Act (Act 7 of 2025), Tuvalu Legislation Online",
+          "url": "https://tuvalu-legislation.tv/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0007/2025-0007_1.pdf",
+          "date": "2025",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 25,
+      "summary": "No AI law or health AI guidance exists, yet SPC reports a partnership for AI-assisted digitisation of medical records. The Pharmacy and Therapeutic Products Act 2016 covers device software only by relying on approvals from regulators the Ministry recognises.",
+      "detail": [
+        "The Pharmacy and Therapeutic Products Act 2016 defines medical devices to include software needed for them to work. Section 10 bars supply unless a regulator recognised by the Ministry of Health has approved the product.",
+        "This is reliance on another regulator's approval. We found no AI-specific change control, transparency or human oversight duty.",
+        "SPC reported in January 2026 that its Tonga peer programme helped Tuvalu partner with Que.Ai on AI-assisted digitisation of medical records. A review dated June 2026 found no AI rules in Tuvalu. This fits the 15 to 30 band."
+      ],
+      "sources": [
+        {
+          "title": "Pharmacy and Therapeutic Products Act 2016 (2022 Revised Edition), Tuvalu Legislation Online",
+          "url": "https://tuvalu-legislation.tv/cms/images/LEGISLATION/PRINCIPAL/2016/2016-0006/2016-0006_2.pdf",
+          "date": "2016",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Health: Peer learning as a tool for change to strengthen Health Information Systems in Tuvalu (Pacific Community)",
+          "url": "https://www.spc.int/updates/blog/2026/01/digital-health-peer-learning-as-a-tool-for-change-to-strengthen-health",
+          "date": "2026-01-29",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "AI regulation in Tuvalu: current approach (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-tuvalu",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "The hospital system runs on a closed network; a replacement plan is due December 2027. Tamanu runs at the Maternal and Child Health clinic. Outer-island clinics are mostly paper-based. Lab, pharmacy and public health links were not verified.",
+  "laws": [
+    {
+      "name": "Constitution of Tuvalu Act 2023, section 21",
+      "level": "National",
+      "year": "2023",
+      "what": "Protects against search of person or property and entry without consent; no protection for personal information.",
+      "url": "https://faolex.fao.org/docs/pdf/tuv127524.pdf"
+    },
+    {
+      "name": "Health Professionals Act 2016",
+      "level": "National",
+      "year": "2016",
+      "what": "Registration Board, registration, complaints and inquiries for health professionals; no patient records or confidentiality rules.",
+      "url": "https://tuvalu-legislation.tv/cms/images/LEGISLATION/PRINCIPAL/2016/2016-0004/2016-0004_2.pdf"
+    },
+    {
+      "name": "Pharmacy and Therapeutic Products Act 2016",
+      "level": "National",
+      "year": "2016",
+      "what": "Medicines and medical devices, including device software, must be approved by a regulator the Ministry recognises.",
+      "url": "https://tuvalu-legislation.tv/cms/images/LEGISLATION/PRINCIPAL/2016/2016-0006/2016-0006_2.pdf"
+    },
+    {
+      "name": "Civil Registration Act 2025 (Act 7 of 2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "Births and deaths registry; section 81 allows health research access with a public benefit versus privacy test.",
+      "url": "https://tuvalu-legislation.tv/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0007/2025-0007_1.pdf"
+    },
+    {
+      "name": "Public Health Act (1926)",
+      "level": "National",
+      "year": "1926",
+      "what": "Lets the Minister make regulations on sanitation and infectious diseases; says nothing about health records.",
+      "url": "https://tuvalu-legislation.tv/cms/images/LEGISLATION/PRINCIPAL/1926/1926-0008/1926-0008_2.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-11-19",
+      "headline": "Carnegie: donor deadlines drove Tuvalu cabinet to approve health digital overhaul",
+      "source": "Carnegie Endowment for International Peace",
+      "url": "https://carnegieendowment.org/india/research/2025/11/the-state-of-digital-transformation-in-pacific-island-countries",
+      "why": "Health records are being digitised on donor timelines, with no data protection law in place."
+    },
+    {
+      "date": "2025-12-04",
+      "headline": "Undersea cable goes live; planned digital ID to support e-health services",
+      "source": "Devpolicy Blog",
+      "url": "https://devpolicy.org/the-tuvalu-vaka-cable-building-connectivity-and-a-digital-nation-20251204/",
+      "why": "Faster links and a planned digital ID could make online health records possible."
+    },
+    {
+      "date": "2026-01-29",
+      "headline": "Tonga mentors Tuvalu on digital health strategy and AI-assisted record digitisation",
+      "source": "Pacific Community (SPC)",
+      "url": "https://www.spc.int/updates/blog/2026/01/digital-health-peer-learning-as-a-tool-for-change-to-strengthen-health",
+      "why": "Paper records may be digitised with AI tools before any rules govern them."
+    },
+    {
+      "date": "2026-07-22",
+      "headline": "Tuvalu joins Pacific bootcamp on health data interoperability standards",
+      "source": "World Bank",
+      "url": "https://www.worldbank.org/en/programs/multi-donor-trust-fund-for-integrating-externally-financed-health-programs/brief/digital-health-academy-launches-in-the-pacific",
+      "why": "Shared standards are a first step to records that follow patients between facilities."
+    },
+    {
+      "date": "2026-09-25",
+      "headline": "World Bank: plan to fix hospital information system still pending",
+      "source": "World Bank",
+      "url": "https://documents1.worldbank.org/curated/en/099092426221038392/pdf/P175170-3a07fa71-ced3-4424-8deb-45c2eea95e0b.pdf",
+      "why": "Patients at the only hospital depend on a system that does not work across departments."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

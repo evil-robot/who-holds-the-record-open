@@ -1,0 +1,366 @@
+{
+  "iso3": "ARM",
+  "name": "Armenia",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Armenia's single national e-health system lets patients approve, block and audit each doctor's access, but many state bodies can see records without consent.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 62,
+      "summary": "The law gives patients a right to see and copy their medical files, and the ArMed portal shows diagnoses, services and tests entered by clinics. How complete the portal is for privately paid care was not verified.",
+      "detail": [
+        "Article 14 of the 1996 Law on Medical Assistance gives every patient the right to see their medical files, including electronic ones, or get copies under the Freedom of Information Law procedure.",
+        "The 2015 personal data law requires a data holder to let the person see their data free of charge, within five days of a written request.",
+        "Article 8 of the medical law gives each patient an electronic access window in the e-health system. The ArMed operator says 2.9 million citizens have a personal medical card, opened with an ID card PIN or the app.",
+        "The operator says the portal shows diagnoses, services, and lab and instrumental tests as entered by clinics. An undated operator page says only state-funded visits were shown at that stage, so current coverage is not verified. Score sits in the lower half of the 60 to 75 band."
+      ],
+      "sources": [
+        {
+          "title": "Law on Medical Assistance and Service of the Population (HO-42, 1996), Arts. 8 and 14",
+          "url": "http://www.irtek.am/views/act.aspx?aid=1398",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law on Protection of Personal Data (2015), Art. 15",
+          "url": "https://www.arlis.am/hy/acts/229131",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "ArMed: For the patient (personal page features)",
+          "url": "https://corporate.armed.am/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "ArMed: About the system",
+          "url": "https://corporate.armed.am/about-system",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 70,
+      "summary": "Since 31 December 2025 a doctor sees a patient's wider history only after the patient approves the request in the ArMed site or app, choosing full history, a summary or listed diagnoses. Consent can be revoked, and patients see every viewing.",
+      "detail": [
+        "Order N 40-N, rewritten by Order N 159-N in force from 31 December 2025, lets a senior health worker see without consent only the cases they treat or treated. Other history needs the patient's consent, which lasts until the case closes.",
+        "The patient chooses the scope: full history, a summary (allergies, vaccinations, blood group, chronic conditions, surgeries) or a list of diagnoses the patient allows. Consent is given in the system or the mobile app and can be revoked at any time.",
+        "Every viewing of the patient's data is logged, and the patient can see these entries in the personal page or the app, the order says.",
+        "Article 11 of the medical law still lets medical secrets go without consent to many bodies, including the insurance fund, military commissariats, police in set cases, investigators and courts. How often patients use the controls was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Minister of Health Order N 40-N on viewing patient data in the e-health system (2021, rewritten by Order N 159-N, December 2025)",
+          "url": "https://www.arlis.am/hy/acts/219158",
+          "date": "2025-12-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law on Medical Assistance and Service of the Population (HO-42, 1996), Art. 11",
+          "url": "http://www.irtek.am/views/act.aspx?aid=1398",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "ArMed: Data protection and security",
+          "url": "https://corporate.armed.am/for-patient/data-protection",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 50,
+      "summary": "Health data is a special category that needs consent under the 2015 data law, and leaks must be announced and reported to police and the regulator. Fines of 50,000 to 500,000 dram are low, and no health-sector enforcement was found.",
+      "detail": [
+        "The Law on Protection of Personal Data lists health as special category data and bans its processing without consent unless a law provides for it.",
+        "After a leak from an electronic system, the data holder must announce it publicly and inform the police and the data protection authority. The law says the authority acts independently, though the government sets its structure.",
+        "A law firm guide reports fines of 50,000 to 500,000 dram. A December 2025 amendment moved security rules for information systems to another autonomous body. No health-sector decision or major health breach was found.",
+        "ArMed data is stored in a data centre in Armenia, the operator says."
+      ],
+      "sources": [
+        {
+          "title": "Law on Protection of Personal Data (2015), Arts. 3, 12, 21, 24",
+          "url": "https://www.arlis.am/hy/acts/229131",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law HO-447-N amending the Law on Protection of Personal Data",
+          "url": "https://www.arlis.am/hy/acts/218679",
+          "date": "2025-12-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Your Guide to Personal Data Protection in Armenia (MB Legal)",
+          "url": "https://mblegal.am/your-guide-to-personal-data-protection-in-armenia/",
+          "date": "undated",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "ArMed: General rules on use and data privacy, v1.05",
+          "url": "https://corporate.armed.am/privacy-policy",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 50,
+      "summary": "By law the de-identified ArMed database belongs to the state, and the private concession operator says it cannot transfer or sell it. No specific ban on health data brokers or health ads was found.",
+      "detail": [
+        "Article 8 of the medical law makes the de-identified information in the e-health database the property of the Republic of Armenia, managed as the government decides.",
+        "A private company, the National E-Health Operator, runs the system under a concession. It says it cannot transfer or sell the database, and that it and the ministry cannot see personal data.",
+        "Outside care, health data needs the person's consent under the 2015 data law.",
+        "No Armenian rule on data brokers, health advertising or consumer health apps was verified."
+      ],
+      "sources": [
+        {
+          "title": "Law on Medical Assistance and Service of the Population (HO-42, 1996), Art. 8",
+          "url": "http://www.irtek.am/views/act.aspx?aid=1398",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "ArMed: Clarification on ArMed functions",
+          "url": "https://corporate.armed.am/news/472-%D5%BA%D5%A1%D6%80%D5%A6%D5%A1%D5%A2%D5%A1%D5%B6%D5%B8%D6%82%D5%B4%D5%9D-%D5%A1%D6%80%D5%B4%D5%A5%D5%A4-%D5%AB-%D5%A3%D5%B8%D6%80%D5%AE%D5%A1%D5%BC%D5%B8%D6%82%D5%B5%D5%A9%D5%B6%D5%A5%D6%80%D5%AB-%D5%B4%D5%A1%D5%BD%D5%AB%D5%B6-4",
+          "date": "2026-08-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "ArMed: General rules on use and data privacy, v1.05",
+          "url": "https://corporate.armed.am/privacy-policy",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Law on Protection of Personal Data (2015), Art. 12",
+          "url": "https://www.arlis.am/hy/acts/229131",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 62,
+      "summary": "One national system, ArMed, carries clinical, administrative and payment data, and the government says births and vaccinations are fully digital and prescriptions and sick notes run digitally. Lab results were still being digitised in January 2026.",
+      "detail": [
+        "Article 8 of the medical law sets one database for all participants and requires licensed providers to enter visits, diagnoses and prescriptions when they happen.",
+        "In January 2026 the health minister reported fully digital birth registration and vaccination, digital sick notes, and on average 807,732 prescriptions written and 720,217 dispensed in the last quarter. Lab digitisation was under way.",
+        "Universal health insurance started on 1 January 2026 for about 1,006,000 people in its first groups, with its own electronic register.",
+        "The national disease control centre can view reportable disease data in the system under Order N 40-N."
+      ],
+      "sources": [
+        {
+          "title": "Nikol Pashinyan reviews Ministry of Health report (Prime Minister's Office)",
+          "url": "https://www.primeminister.am/ru/press-release/item/2026/01/05/Nikol-Pashinyan-report-Ministry-Health/",
+          "date": "2026-01-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Universal health insurance enters into force from 1 January 2026 (Prime Minister's Office)",
+          "url": "https://www.primeminister.am/hy/press-release/item/2025/12/25/Cabinet-meeting/",
+          "date": "2025-12-25",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Law on Medical Assistance and Service of the Population (HO-42, 1996), Art. 8",
+          "url": "http://www.irtek.am/views/act.aspx?aid=1398",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Minister of Health Order N 40-N on viewing patient data in the e-health system (2021, rewritten by Order N 159-N, December 2025)",
+          "url": "https://www.arlis.am/hy/acts/219158",
+          "date": "2025-12-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 48,
+      "summary": "A doctor sees the cases they treated, and other history only once the patient approves a request in the system. In an emergency only summary data shows, and only if the patient has switched emergency access on.",
+      "detail": [
+        "Under Order N 40-N as rewritten in December 2025, a doctor without consent sees a 'no permission' message and can send the patient a viewing request or choose the emergency option.",
+        "Emergency access shows only summary data, such as allergies, blood group and chronic conditions. If the patient has not allowed it, the emergency option does not appear to the doctor.",
+        "Mid-level health workers see only the data they entered themselves.",
+        "The record is only as complete as what clinics enter, and lab results were still being digitised in January 2026."
+      ],
+      "sources": [
+        {
+          "title": "Minister of Health Order N 40-N on viewing patient data in the e-health system (2021, rewritten by Order N 159-N, December 2025)",
+          "url": "https://www.arlis.am/hy/acts/219158",
+          "date": "2025-12-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Nikol Pashinyan reviews Ministry of Health report (Prime Minister's Office)",
+          "url": "https://www.primeminister.am/ru/press-release/item/2026/01/05/Nikol-Pashinyan-report-Ministry-Health/",
+          "date": "2026-01-05",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Researchers may use de-identified records freely and identifiable ones without consent only under the data law's research rules. No opt-out exists, and a January 2026 paper says Armenia has no biobanking law.",
+      "detail": [
+        "Article 11 says de-identified data is not a medical secret and may be used by researchers. Article 12 requires providers to mask identity before records go to scientists.",
+        "Where masking defeats the research purpose, identifiable records may be processed without consent under Article 23 of the data law, but published only with the patient's consent. Breaches carry liability.",
+        "Device trials need ministry permission and a positive ethics committee opinion. A January 2026 Frontiers paper says Armenia lacks specific biobanking law.",
+        "Armenia is not an EU member, so the EHDS opt-out from secondary use does not apply. Parliament adopted a law starting an EU accession process in March 2025."
+      ],
+      "sources": [
+        {
+          "title": "Law on Medical Assistance and Service of the Population (HO-42, 1996), Arts. 11, 12",
+          "url": "http://www.irtek.am/views/act.aspx?aid=1398",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Development of biobanking infrastructure in Armenia (Frontiers in Public Health)",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1749588/full",
+          "date": "2026-01-13",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Joint statement on Armenia's EU accession law (European Parliament)",
+          "url": "https://www.europarl.europa.eu/delegations/en/joint-statement-on-the-adoption-by-the-n/product-details/20250326DPU39920",
+          "date": "2025-03-26",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "Medical devices, including software, fall under Eurasian Economic Union rules adopted into Armenian law in 2022. No rule on AI change control, transparency or human oversight in care was found.",
+      "detail": [
+        "A July 2022 amendment to the medical law says medical devices in Armenia are regulated by the EAEU treaty, the EAEU device agreement and Eurasian Economic Commission decisions.",
+        "The medical law requires the ministry to be told at least 10 days before clinical trials of software medical devices start.",
+        "In December 2024 the commission adopted new guidance on device registration dossiers. AI-specific rules on change control or human oversight were not verified.",
+        "No national clinical AI law or health AI authority was found."
+      ],
+      "sources": [
+        {
+          "title": "Law amending the Law on Medical Assistance (medical devices chapter), 6 July 2022",
+          "url": "https://www.arlis.am/hy/acts/166215",
+          "date": "2022-07-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law on Medical Assistance and Service of the Population (HO-42, 1996), Art. on clinical trials of medical devices",
+          "url": "http://www.irtek.am/views/act.aspx?aid=1398",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "EAEU adopts recommendations on medical device registration (Eurasian Economic Commission)",
+          "url": "https://eec.eaeunion.org/hy/news/prinyaty-rekomendatsii-po-registratsii-meditsinskikh-izdeliy-v-eaes-/",
+          "date": "2024-12-23",
+          "publisherClass": "intergov"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "connected",
+    "publicHealth": "connected",
+    "research": "siloed"
+  },
+  "journeyNote": "ArMed links clinics, e-prescriptions, vaccination, births, sick notes and insurance payments. Hospital completeness depends on entry, labs were still being digitised in January 2026, and no research access route was verified.",
+  "laws": [
+    {
+      "name": "Law on Medical Assistance and Service of the Population (HO-42)",
+      "level": "National",
+      "year": "1996",
+      "what": "Patient right to files and copies, medical secrecy, e-health system rules, research use of records.",
+      "url": "http://www.irtek.am/views/act.aspx?aid=1398"
+    },
+    {
+      "name": "Law on Protection of Personal Data (HO-49-N)",
+      "level": "National",
+      "year": "2015",
+      "what": "Health is special category data needing consent; free access in five days; leak reporting.",
+      "url": "https://www.arlis.am/hy/acts/229131"
+    },
+    {
+      "name": "Minister of Health Order N 40-N",
+      "level": "National",
+      "year": "2021",
+      "what": "Doctors see wider history only with patient consent in the app; emergency shows summary only; access log.",
+      "url": "https://www.arlis.am/hy/acts/219158"
+    },
+    {
+      "name": "Law on Universal Health Insurance",
+      "level": "National",
+      "year": "2025",
+      "what": "Creates insurance fund and electronic register; first groups covered from 1 January 2026.",
+      "url": "https://www.arlis.am/hy/acts/230432"
+    },
+    {
+      "name": "Law HO-447-N amending the personal data law",
+      "level": "National",
+      "year": "2025",
+      "what": "Moves security rules for information systems to an autonomous body.",
+      "url": "https://www.arlis.am/hy/acts/218679"
+    },
+    {
+      "name": "Law amending the medical law on medical devices",
+      "level": "National",
+      "year": "2022",
+      "what": "Medical devices, including software, regulated under EAEU treaty and commission decisions.",
+      "url": "https://www.arlis.am/hy/acts/166215"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-25",
+      "headline": "Government says universal health insurance starts 1 January 2026",
+      "source": "Prime Minister's Office",
+      "url": "https://www.primeminister.am/hy/press-release/item/2025/12/25/Cabinet-meeting/",
+      "why": "About 1,006,000 people enter a new insurer with its own electronic register."
+    },
+    {
+      "date": "2025-12-30",
+      "headline": "Health ministry rewrites rules on who may view e-health records",
+      "source": "ARLIS (Ministry of Health order N 159-N)",
+      "url": "https://www.arlis.am/hy/acts/219147",
+      "why": "Consent moves into the app, emergency views shrink to summary data, own-case access needs no consent."
+    },
+    {
+      "date": "2026-01-05",
+      "headline": "Health minister reports digital prescriptions, vaccination and births, labs next",
+      "source": "Prime Minister's Office",
+      "url": "https://www.primeminister.am/ru/press-release/item/2026/01/05/Nikol-Pashinyan-report-Ministry-Health/",
+      "why": "Shows how much of the care journey now flows through ArMed."
+    },
+    {
+      "date": "2026-01-13",
+      "headline": "Researchers say Armenia has no specific law governing biobanks",
+      "source": "Frontiers in Public Health",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1749588/full",
+      "why": "Consent and ownership of samples rest on general laws, leaving donors uncertain."
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "E-health operator says it cannot sell or transfer the national health database",
+      "source": "National E-Health Operator (ArMed)",
+      "url": "https://corporate.armed.am/news/472-%D5%BA%D5%A1%D6%80%D5%A6%D5%A1%D5%A2%D5%A1%D5%B6%D5%B8%D6%82%D5%B4%D5%9D-%D5%A1%D6%80%D5%B4%D5%A5%D5%A4-%D5%AB-%D5%A3%D5%B8%D6%80%D5%AE%D5%A1%D5%BC%D5%B8%D6%82%D5%B5%D5%A9%D5%B6%D5%A5%D6%80%D5%AB-%D5%B4%D5%A1%D5%BD%D5%AB%D5%B6-4",
+      "why": "Answers press claims about ownership and sale of patients' records."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

@@ -1,0 +1,322 @@
+{
+  "iso3": "KNA",
+  "name": "Saint Kitts and Nevis",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Saint Kitts and Nevis began rolling out a national digital health record in 2026, but its 2018 data protection law has never come into force.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 30,
+      "summary": "The Data Protection Act 2018 would give a right to a copy within 30 days for a fee, but it awaits a commencement order, so no right is enforceable. The Ministry's new system promises access through a patient portal; patient use was not verified.",
+      "detail": [
+        "Sections 14 and 15 of the Data Protection Act 2018 say a public or private body must answer a written request, with the prescribed fee, within 30 days. The deadline can be extended by up to 30 more days.",
+        "The Act comes into force only on a day fixed by ministerial order. The UWI Data Protection Office said in February 2025 that no commencement order had been published, and the Ministry of Health's NDHIS privacy policy says the Act still awaits one.",
+        "The NDHIS privacy policy says the Ministry applies the Act's rights anyway: access can be requested through the Patient Portal or in writing, with a reply within 30 days. This is a policy promise, not a legal right.",
+        "The Act would let health data be withheld where access is likely to cause serious harm to the patient or another person (section 21). How many patients can log in to the portal was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act, 2018 (No. 5 of 2018), Saint Christopher and Nevis (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/en/entity/obcyhbt2e4",
+          "date": "2018-06-07",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NDHIS Privacy Policy (Ministry of Health, St. Kitts and Nevis)",
+          "url": "https://ndhis.gov.kn/privacy-policy",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "External Resources: Data Protection Laws, St Kitts and Nevis (UWI Data Protection Office)",
+          "url": "https://www.uwi.edu/data-protection/resources-external-skn",
+          "date": "undated",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "With the Data Protection Act not in force, patients have no legal say over who sees their health records. The NDHIS website says patients can see who opened their record, but whether that works in practice was not verified.",
+      "detail": [
+        "Section 20 of the 2018 Act, once in force, would require explicit consent for health data. It would also let a healthcare professional process health data for medical purposes without that consent.",
+        "The NDHIS website says every access to patient data is logged and that patients can see who accessed their records and when. It lists a Consent and Privacy section in the patient portal. Neither feature was verified in use.",
+        "No opt-out from record sharing was found. The Ministry of Health is the data user, and the system is designed to pull up a registered patient's whole record for staff."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act, 2018 (No. 5 of 2018), Saint Christopher and Nevis (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/en/entity/obcyhbt2e4",
+          "date": "2018-06-07",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NDHIS: National Digital Health Information System (Ministry of Health, St. Kitts and Nevis)",
+          "url": "https://ndhis.gov.kn/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Digital Health Information System Deployed at JNF General Hospital (St Kitts Nevis Observer, from SKNIS)",
+          "url": "https://www.thestkittsnevisobserver.com/national-digital-health-information-system-deployed-at-jnf-general-hospital/",
+          "date": "2026-08-14",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 32,
+      "summary": "Health data would be sensitive under the 2018 Act, with fines up to EC$200,000 or two years in prison, but the Act is not in force. Its future regulator, the Information Commissioner, sits under the FOI Act, fully in force since November 2023, but has no data protection powers yet.",
+      "detail": [
+        "The 2018 Act defines sensitive personal data to include physical or mental health. Processing it in breach of section 20 would be an offence with a fine up to EC$200,000, up to two years in prison, or both.",
+        "The Act names the Information Commissioner appointed under the Freedom of Information Act as its regulator. The Attorney General said in July 2024 that the FOI Act was fully implemented in November 2023 and that the Ombudsman could also serve as Commissioner.",
+        "The Electronic Crimes Act 2009 makes unauthorised access to computer data and systems an offence. No health data breach and no enforcement decision on health data were found.",
+        "The NDHIS privacy policy promises encryption, audit logging of all access and defined breach notification procedures. These are Ministry commitments, not legal duties."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act, 2018 (No. 5 of 2018), Saint Christopher and Nevis (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/en/entity/obcyhbt2e4",
+          "date": "2018-06-07",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "St. Kitts and Nevis Enhances Transparency with Passage of Freedom of Information (Amendment) Bill, 2024 (SKNIS)",
+          "url": "https://www.sknis.gov.kn/2024/07/05/st-kitts-and-nevis-enhances-transparency-with-passage-of-freedom-of-information-amendment-bill-2024/",
+          "date": "2024-07-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Electronic Crimes Act, Act 27 of 2009, revised edition (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/en/entity/ay7zmnel9xk",
+          "date": "2009-11-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NDHIS Privacy Policy (Ministry of Health, St. Kitts and Nevis)",
+          "url": "https://ndhis.gov.kn/privacy-policy",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 28,
+      "summary": "No law in force stops health data being sold or used for marketing. The Ministry's NDHIS policy says it will never sell health information for marketing, a promise that binds only the public system.",
+      "detail": [
+        "The 2018 Act, once in force, would require consent for most processing and explicit consent for health data. It has not started, so it limits no one today.",
+        "The NDHIS privacy policy says the Ministry will never sell, rent or trade personal health information for marketing or commercial purposes. The NDHIS terms of use bar system users from using health information for commercial or marketing gain.",
+        "Private insurers and pharmacies can apply to connect to NDHIS. No rules on health apps, data brokers or de-identified data sales were found."
+      ],
+      "sources": [
+        {
+          "title": "NDHIS Privacy Policy (Ministry of Health, St. Kitts and Nevis)",
+          "url": "https://ndhis.gov.kn/privacy-policy",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "NDHIS Terms of Use (Ministry of Health, St. Kitts and Nevis)",
+          "url": "https://ndhis.gov.kn/terms",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Protection Act, 2018 (No. 5 of 2018), Saint Christopher and Nevis (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/en/entity/obcyhbt2e4",
+          "date": "2018-06-07",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 32,
+      "summary": "A national health network links health centres and hospitals on St Kitts, and the new national record went live at the main hospital in August 2026. Labs, pharmacy, billing and Nevis are planned but not yet shown to be connected.",
+      "detail": [
+        "In June 2024 the government launched a high-speed ICT network for the public health system, funded by the NTRC's Universal Service Fund. In May 2026 officials said this network connects health centres and hospitals throughout St Kitts.",
+        "On 29 May 2026 the NTRC signed a contract with the St. Kitts and Nevis Robotics Association to build the National Digital Health Information System, with a first payment of EC$1,680,000.",
+        "In August 2026 the Ministry said NDHIS was deployed at the JNF General Hospital. The Ministry says it integrates health records, billing, pharmacy, laboratory and X-ray data; links to clinics and Nevis are the long-term vision.",
+        "The NDHIS website lists portals for labs, pharmacies and insurers. Their live use was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Government Partners with Local Innovators to Launch National Digital Health Information System (SKNIS)",
+          "url": "https://www.sknis.gov.kn/2026/05/29/government-partners-with-local-innovators-to-launch-national-digital-health-information-system/",
+          "date": "2026-05-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "St. Kitts Health Services ICT Project Symbolises Government's Strategic Step Towards Modernising Health Services Through Digitisation (SKNIS)",
+          "url": "https://www.sknis.gov.kn/2024/06/05/st-kitts-health-services-ict-project-symbolises-governments-strategic-step-towards-modernising-health-services-through-digitisation/",
+          "date": "2024-06-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Digital Health Information System Deployed at JNF General Hospital (St Kitts Nevis Observer, from SKNIS)",
+          "url": "https://www.thestkittsnevisobserver.com/national-digital-health-information-system-deployed-at-jnf-general-hospital/",
+          "date": "2026-08-14",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 25,
+      "summary": "Clinicians at the JNF General Hospital began using the national record in August 2026; it is designed to flag allergies and past visits. Records from government clinics, private doctors and Nevis are not yet linked.",
+      "detail": [
+        "A Ministry official said in August 2026 that once a patient is registered, staff can pull up the patient's information at once. The system will flag allergies and previous presentations. The Ministry of Education gave the hospital 50 laptops and 20 tablets for the rollout.",
+        "Links to the emergency room, inpatient and outpatient services, government clinics and Nevis facilities are described as the long-term vision, not a working service.",
+        "In June 2026 nursing services set up a Nursing Informatics Advisory Committee to oversee the nursing side of the rollout."
+      ],
+      "sources": [
+        {
+          "title": "National Digital Health Information System Deployed at JNF General Hospital (St Kitts Nevis Observer, from SKNIS)",
+          "url": "https://www.thestkittsnevisobserver.com/national-digital-health-information-system-deployed-at-jnf-general-hospital/",
+          "date": "2026-08-14",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Government Partners with Local Innovators to Launch National Digital Health Information System (SKNIS)",
+          "url": "https://www.sknis.gov.kn/2026/05/29/government-partners-with-local-innovators-to-launch-national-digital-health-information-system/",
+          "date": "2026-05-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "New Committee Positions Nursing Services as the Designated Clinical Authority for Nursing-Specific Aspects of the Federation's HIS/EHR Transformation (St Kitts Nevis Observer)",
+          "url": "https://www.thestkittsnevisobserver.com/new-committee-positions-nursing-services-as-the-designated-clinical-authority-for-nursing-specific-aspects-of-the-federations-historic-his-ehr-transformation-2/",
+          "date": "2026-06-25",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "No law in force governs research use of health records, and there is no opt-out. One safeguard counts: the Ministry of Health's Interim Ethics Review Committee, set up by the Chief Medical Officer and still approving studies in recent years.",
+      "detail": [
+        "In August 2017 the Ministry of Health said no agency had approved a herpes vaccine trial run on the island in 2016. It said the Chief Medical Officer had convened an Interim Ethics Review Committee to vet all medical research protocols.",
+        "A study published in August 2025 reports approval by this committee (code IERC-2022-09-058) and written informed consent from participants.",
+        "The 2018 Act, if started, would exempt research and statistics from its consent rules as long as results do not identify anyone. No register of research uses and no clinical trials law were found."
+      ],
+      "sources": [
+        {
+          "title": "Ministry of Health releases statement concerning investigation of clinical trials (St Kitts Nevis Observer)",
+          "url": "https://www.thestkittsnevisobserver.com/ministry-of-health-releases-statement-concerning-investigation-of-clinical-trials/",
+          "date": "2017-08-30",
+          "publisherClass": "news"
+        },
+        {
+          "title": "The metabolic chronic disease prevention program in Saint Kitts and Nevis: a dietary recall study (Frontiers in Nutrition, via PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12370524/",
+          "date": "2025-08-08",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Data Protection Act, 2018 (No. 5 of 2018), Saint Christopher and Nevis (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/en/entity/obcyhbt2e4",
+          "date": "2018-06-07",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "Saint Kitts and Nevis has no AI law, national AI strategy or device rules for clinical AI. The NDHIS website says its AI features are advisory only, but that is a system policy, not regulation.",
+      "detail": [
+        "A 2024 ECLAC review of AI readiness found no national AI strategy for Saint Kitts and Nevis. It ranked the country 106th in a 2023 government AI readiness index.",
+        "A Cullen International benchmark of 13 Caribbean countries, including Saint Kitts and Nevis, found in September 2026 that none had adopted an AI-specific regulatory framework.",
+        "The NDHIS privacy policy says AI-assisted features are advisory and clinical decisions stay with qualified professionals. No medical device regulator or software-as-a-device rule was found."
+      ],
+      "sources": [
+        {
+          "title": "Artificial intelligence readiness in the Caribbean: an exploratory review (ECLAC Studies and Perspectives No. 131)",
+          "url": "https://caribbean.un.org/en/download/185262/295561",
+          "date": "2024",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Artificial intelligence regulation and policy are at an early stage in the Caribbean (Cullen International)",
+          "url": "https://www.cullen-international.com/news/2026/09/Artificial-intelligence-regulation-and-policy-are-at-an-early-stage-in-the-Caribbean.html",
+          "date": "2026-09-30",
+          "publisherClass": "news"
+        },
+        {
+          "title": "NDHIS Privacy Policy (Ministry of Health, St. Kitts and Nevis)",
+          "url": "https://ndhis.gov.kn/privacy-policy",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "NDHIS is live at the JNF General Hospital; clinics, labs, pharmacy, billing and Nevis are planned. A health network links St Kitts facilities. Not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Data Protection Act, 2018 (No. 5 of 2018)",
+      "level": "National",
+      "year": "2018",
+      "what": "Access within 30 days for a fee; health is sensitive data; not in force, awaits commencement order.",
+      "url": "https://database.cyberpolicyportal.org/en/entity/obcyhbt2e4"
+    },
+    {
+      "name": "Freedom of Information Act, 2018 (No. 6 of 2018), amended 2023 and 2024",
+      "level": "National",
+      "year": "2018",
+      "what": "Creates the Information Commissioner, who would also enforce the Data Protection Act.",
+      "url": "https://observatoriop10.cepal.org/en/instrument/freedom-information-act-no-6-2018"
+    },
+    {
+      "name": "Electronic Crimes Act (Act 27 of 2009)",
+      "level": "National",
+      "year": "2009",
+      "what": "Makes unauthorised access to, interception of and interference with computer data offences.",
+      "url": "https://database.cyberpolicyportal.org/en/entity/ay7zmnel9xk"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-05-29",
+      "headline": "Government signs contract with local robotics group to build national health record",
+      "source": "SKNIS",
+      "url": "https://www.sknis.gov.kn/2026/05/29/government-partners-with-local-innovators-to-launch-national-digital-health-information-system/",
+      "why": "Promises patients greater access to their own records, with no data law yet in force."
+    },
+    {
+      "date": "2026-06-25",
+      "headline": "Nursing committee formed to oversee the national health record rollout",
+      "source": "St Kitts Nevis Observer",
+      "url": "https://www.thestkittsnevisobserver.com/new-committee-positions-nursing-services-as-the-designated-clinical-authority-for-nursing-specific-aspects-of-the-federations-historic-his-ehr-transformation-2/",
+      "why": "Clinicians gain a formal role in how patient data is recorded and protected."
+    },
+    {
+      "date": "2026-08-14",
+      "headline": "National digital health system goes live at JNF General Hospital",
+      "source": "St Kitts Nevis Observer",
+      "url": "https://www.thestkittsnevisobserver.com/national-digital-health-information-system-deployed-at-jnf-general-hospital/",
+      "why": "Hospital staff can now pull up a registered patient's record at once."
+    },
+    {
+      "date": "2026-08-17",
+      "headline": "PAHO helps start data entry for a national health workforce database",
+      "source": "PAHO/WHO",
+      "url": "https://www.paho.org/en/news/17-8-2026-saint-kitts-and-nevis-advances-health-workforce-planning-rollout-centralised-health",
+      "why": "Shows the Ministry building DHIS2 health data systems alongside the patient record."
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Benchmark finds no Caribbean country has an AI-specific regulatory framework",
+      "source": "Cullen International",
+      "url": "https://www.cullen-international.com/news/2026/09/Artificial-intelligence-regulation-and-policy-are-at-an-early-stage-in-the-Caribbean.html",
+      "why": "AI tools in the new health system face no national AI rules."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

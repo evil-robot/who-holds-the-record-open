@@ -1,0 +1,285 @@
+{
+  "iso3": "TON",
+  "name": "Tonga",
+  "region": "Oceania",
+  "controlModel": "State",
+  "headline": "Tonga runs one national health record in every facility and passed a health privacy law in 2025, but the Ministry enforces it on itself.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "Section 57 of the Personal Health Information Protection Act 2025 gives a right to see and copy one's record, including in electronic form, with a reply due within 30 days. There is no patient portal, and custodians may charge cost-recovery fees.",
+      "detail": [
+        "The Act, assented on 16 December 2025, gives every person a right of access to their record held by a health information custodian. A written request must be answered within 30 days, extendable by 30 more days with written notice. Urgent requests can be answered sooner.",
+        "The right covers an electronic format meeting requirements set by Regulations. Fees may not exceed the prescribed amount or reasonable cost recovery. Whether those Regulations have been made was not verified.",
+        "The Ministry's NHIS page in Tongan tells patients they can get a copy and ask for corrections by calling the Ministry's chief executive. No online patient portal was found.",
+        "Anchor arithmetic: base 45, plus 5 for the fixed deadline and electronic format, minus 5 for permitted fees."
+      ],
+      "sources": [
+        {
+          "title": "Personal Health Information Protection Act 2025 (Act 31 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0046/PersonalHealthInformationProtectionAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Fakamatala ki he Mo'uilelei Fakafo'ituitui (Tonga NHIS, Ministry of Health)",
+          "url": "https://www.tonga-nhis.org/fakamatala-ki-he-mouilelei-fakafoituitui/",
+          "date": "2021-11-05",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 42,
+      "summary": "The 2025 Act lets patients revoke consent, tell custodians not to share, and flag sensitive information, but sharing for care runs on implied consent inside the Ministry's NHIS. Access is logged, yet no right for patients to see the log was found.",
+      "detail": [
+        "Consent may be implied for sharing among custodians for care, and must be express for disclosure to non-custodians or for non-care purposes (section 20). Consent can be revoked at any time (section 21).",
+        "Section 42 bars sharing for care without consent if the person has expressly told the custodian not to. Under section 55, patients can mark information as sensitive, and HIV, mental health, pregnancy and genetic data get extra steps before disclosure.",
+        "Sections 10 and 68 require electronic audit logs of every view. The NHIS FAQ says the Ministry monitors and audits each access, and staff see records only while giving care. A patient right to see the log was not found.",
+        "Whether the NHIS records patients' express instructions in practice was not verified, so the score sits in the lower half of the 40 to 55 band."
+      ],
+      "sources": [
+        {
+          "title": "Personal Health Information Protection Act 2025 (Act 31 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0046/PersonalHealthInformationProtectionAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NHIS Frequently Asked Questions (Tonga NHIS, Ministry of Health)",
+          "url": "https://www.tonga-nhis.org/wp-content/uploads/2022/01/FAQ-Eng-final.pdf",
+          "date": "2022-01",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 45,
+      "summary": "The health privacy Act sets breach notice and fines up to T$200,000 or 7 years in prison, but complaints go to the Ministry's own chief executive. The general Privacy Act 2025 awaits commencement, and a June 2025 ransomware attack shut the national health system.",
+      "detail": [
+        "The Personal Health Information Protection Act requires custodians to tell patients of theft, loss or unauthorised use (section 14). Wilful breaches can bring fines up to T$200,000 or 7 years for people, and T$1,000,000 for organisations (section 89).",
+        "Enforcement sits with the health Chief Executive Officer, with appeals to the Minister and then the Supreme Court. The Act also lets the Ministry give NHIS data to police in suspicious death investigations (section 72).",
+        "The Privacy Act 2025 creates a Privacy Commission, but comes into force only when Cabinet proclaims it. A Tongan law firm reported no proclamation as of 21 August 2026. Tonga is not in the EU, so GDPR and the EHDS do not apply.",
+        "In June 2025 ransomware encrypted the NHIS and staff went to paper. In March 2026 Australia, New Zealand and Tonga attributed it to an INC Ransom affiliate whose infrastructure was used to steal data. No enforcement action was found."
+      ],
+      "sources": [
+        {
+          "title": "Personal Health Information Protection Act 2025 (Act 31 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0046/PersonalHealthInformationProtectionAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Privacy Act 2025 (Act 34 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0052/PrivacyAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tonga's Privacy Act 2025: What It Means for You (Semper Fidelis Pacific Law & Advisory)",
+          "url": "https://semperfidelis.legal/articles/tonga-s-privacy-act-2025-what-it-means-for-you",
+          "date": "2026-08-21",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "Health ministry's information system hit by ransomware attack (Talanoa o Tonga)",
+          "url": "https://talanoaotonga.to/health-ministrys-information-system-hit-by-ransomware-attack/",
+          "date": "2025-06-19",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "Section 35 of the 2025 health Act bans using health records for marketing or market research without express consent. The ban covers health custodians only; health apps and other firms wait on the Privacy Act, which is not yet in force.",
+      "detail": [
+        "Health information custodians may not collect, use or disclose personal health information for marketing or market research unless the person expressly consents (section 35). People who receive records from a custodian may use them only for the purpose of the disclosure (section 53).",
+        "Disclosure outside Tonga needs consent or a listed ground, such as care or payment (section 54).",
+        "The Privacy Act 2025 treats health data as sensitive and gives a right to stop direct marketing within 30 days, but it awaits Cabinet proclamation. No rule on data brokers or health apps in force was found."
+      ],
+      "sources": [
+        {
+          "title": "Personal Health Information Protection Act 2025 (Act 31 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0046/PersonalHealthInformationProtectionAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Privacy Act 2025 (Act 34 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0052/PrivacyAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 58,
+      "summary": "The government's FY2027 budget says the National Health Information System now runs in all health facilities. It links hospital, health centre, pharmacy, laboratory and radiology systems, though a ransomware attack took it offline for about a month in 2025.",
+      "detail": [
+        "The NHIS is one central system at Vaiola Hospital, reached from 4 hospitals, 14 health centres and over 15 maternal clinics. Hospitals use outpatient, inpatient, pharmacy, laboratory, radiology, vaccination and billing modules (Pacific Community, 2023).",
+        "Integration with mSupply pharmacy (September 2022), radiology PACS (October 2022) and lab analysers (February 2023) was reported. DHIS2 and cancer registry links were planned for 2023; their completion was not verified.",
+        "A 2025 JMIR study counted an electronic record in 25 of 32 Tongan facilities (78%). The July 2026 budget statement says NHIS is rolled out to all facilities.",
+        "The June 2025 ransomware attack forced paper records until the Minister said the system was fully restored in mid July 2025."
+      ],
+      "sources": [
+        {
+          "title": "Budget Statement Financial Year 2027 (Ministry of Finance)",
+          "url": "https://finance.gov.to/sites/default/files/2026-07/Budget%20Statement%20FY2027_Final_Website.pdf",
+          "date": "2026-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tonga's experience in implementing national digital health (Pacific Community, PHIN)",
+          "url": "https://php.spc.int/sites/default/files/p-related-files/2023-03/2023%20PHIN%20Agenda%2013%20ID%203.3%20Tonga%20experience%20in%20implementing%20national%20digital%20health%20intervention%2028%20April%202023.pdf",
+          "date": "2023-04-28",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Tonga's health system 'fully restored' after cyber attack with Australia's help (RNZ)",
+          "url": "https://www.rnz.co.nz/news/pacific/567275/tonga-s-health-system-fully-restored-after-cyber-attack-with-australia-s-help",
+          "date": "2025-07-18",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 60,
+      "summary": "Because NHIS is one central record reached from every public facility, a treating clinician can open the same chart in any island hospital or health centre. Access is role based and limited to the time of care.",
+      "detail": [
+        "The Pacific Community paper describes NHIS as centralised at the national referral hospital and reached by fibre and microwave links from all other facilities.",
+        "The NHIS FAQ says staff see only what their role needs, providers may open a record only while giving care, and the record locks at discharge. Some care groups, such as infectious disease patients, can be locked to outside users.",
+        "Section 71 of the 2025 Act allows NHIS-based medication interaction alerts. Whether private clinics or overseas referral hospitals can see NHIS records was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Tonga's experience in implementing national digital health (Pacific Community, PHIN)",
+          "url": "https://php.spc.int/sites/default/files/p-related-files/2023-03/2023%20PHIN%20Agenda%2013%20ID%203.3%20Tonga%20experience%20in%20implementing%20national%20digital%20health%20intervention%2028%20April%202023.pdf",
+          "date": "2023-04-28",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "NHIS Frequently Asked Questions (Tonga NHIS, Ministry of Health)",
+          "url": "https://www.tonga-nhis.org/wp-content/uploads/2022/01/FAQ-Eng-final.pdf",
+          "date": "2022-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Personal Health Information Protection Act 2025 (Act 31 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0046/PersonalHealthInformationProtectionAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Custodians may release identifiable records to researchers without consent once the National Health Ethics Committee approves a plan and the researcher signs an agreement. There is no opt-out, but re-identifying de-identified data is an offence.",
+      "detail": [
+        "Section 48 lets a custodian disclose records to a researcher who submits a plan approved by the research ethics board, defined as the Ministry's National Health Ethics Committee. The board weighs whether consent would be impractical and whether safeguards exist.",
+        "Section 13 bars re-identifying de-identified data, and wilful breach is an offence under section 89.",
+        "No general opt-out or public register of uses was found. Clinical trial consent rules were not verified. Base 40, plus 3 for the ethics body and 3 for the re-identification penalty."
+      ],
+      "sources": [
+        {
+          "title": "Personal Health Information Protection Act 2025 (Act 31 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0046/PersonalHealthInformationProtectionAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Garvan research team explores genetic health collaboration for Tonga (Talanoa o Tonga)",
+          "url": "https://talanoaotonga.to/garvan-research-team-explores-genetic-health-collaboration-for-tonga/",
+          "date": "2026-09-15",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "No rules for clinical AI or AI medical devices were found. The Privacy Act 2025 adds a right not to face decisions made solely by automated processing, but it is not yet in force.",
+      "detail": [
+        "No national AI law, health AI guidance or medical device regulation covering AI software was found.",
+        "Section 44 of the Privacy Act 2025 gives a right not to be subject to a decision based solely on automated processing with legal or similar effects. It awaits Cabinet proclamation.",
+        "Tonga took part in a November 2025 parliamentary AI conference in Kuala Lumpur, which urged review of privacy and data laws. With nothing in force, Tonga sits in the 15 to 30 band."
+      ],
+      "sources": [
+        {
+          "title": "Privacy Act 2025 (Act 34 of 2025), Attorney General's Office",
+          "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0052/PrivacyAct2025_1.pdf",
+          "date": "2025-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Artificial Intelligence Conference: The Role of Parliament in Shaping the Future of AI (Legislative Assembly of Tonga)",
+          "url": "https://parliament.gov.to/en/media-centre/latest-news/artificial-intelligence-conference-the-role-of-parliament-in-shaping-the-future-of-ai-kuala-lumpu-malaysia-28-30-november-2025",
+          "date": "2025-12-01",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "One central NHIS serves all public hospitals, health centres and maternal clinics, with pharmacy, lab and radiology systems integrated by 2023. DHIS2 and cancer registry links were planned but not verified. No insurance claims system was found.",
+  "laws": [
+    {
+      "name": "Personal Health Information Protection Act 2025 (Act 31 of 2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "Consent, access within 30 days, audit logs, breach notice, marketing ban, research rules and NHIS governance.",
+      "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0046/PersonalHealthInformationProtectionAct2025_1.pdf"
+    },
+    {
+      "name": "Privacy Act 2025 (Act 34 of 2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "General data protection law and Privacy Commission; health is sensitive data; awaits Cabinet commencement proclamation.",
+      "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0052/PrivacyAct2025_1.pdf"
+    },
+    {
+      "name": "Civil Registration and Digital Identification Act 2025 (Act 33 of 2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "Upgraded civil registration, a digital ID database and unique identifier numbers; births notified to the Ministry of Health.",
+      "url": "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0051/CivilRegistrationandDigitalIdentificationAct2025_1.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-01-06",
+      "headline": "Privacy Act and health information protection law gazetted with 2025 reforms",
+      "source": "Tonga Independent News",
+      "url": "https://tongaindependent.com/major-governance-reforms-come-into-force-as-2025-laws-are-gazetted/",
+      "why": "Gives Tongans statutory rights to see, correct and control use of their medical records."
+    },
+    {
+      "date": "2026-03-07",
+      "headline": "Australia, New Zealand and Tonga attribute health ministry ransomware attack",
+      "source": "Tonga Independent News",
+      "url": "https://tongaindependent.com/analysis-cyber-attack-on-tonga-health-system-traced-as-australia-and-new-zealand-deepen-digital-security-partnership/",
+      "why": "Confirms attackers used infrastructure to steal data from the national health system."
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Garvan Institute and Tongan officials discuss genetic health research collaboration",
+      "source": "Talanoa o Tonga",
+      "url": "https://talanoaotonga.to/garvan-research-team-explores-genetic-health-collaboration-for-tonga/",
+      "why": "Genetic research would test the new Act's consent and ethics rules."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

@@ -1,0 +1,317 @@
+{
+ "iso3": "MKD",
+ "name": "North Macedonia",
+ "region": "Europe",
+ "controlModel": "State",
+ "headline": "North Macedonia has run one national e-health system since 2013, but the state controls it, patients see only part, and auditors found weak security.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 60,
+   "summary": "Patients have a legal right to see their medical file, and the national Moe Zdravje app shows referrals, prescriptions and vaccinations. Copies cost the real price, usage was not verified, and the minister says full record access comes with an upgrade planned for 2028 to 2029.",
+   "detail": [
+    "Article 22 of the Law on Protection of Patients' Rights gives a right to know a medical file exists, to inspect it, and to ask for explanations. Copies or extracts are at the patient's own cost, in the real amount. No deadline for providers was found in that law.",
+    "The 2020 Law on Personal Data Protection (Article 19) adds a general right of access, answered within one month and free of charge.",
+    "The official Moe Zdravje app and web portal, opened with a national eID, shows past and current visits, referrals, prescriptions and vaccinations. The Ministry's App Store listing also names specialist reports, discharge letters and lab reports.",
+    "On 21 September 2026 the health minister said record access will come through an upgraded Moe Zdravje, beyond the appointments and e-prescriptions available today. How many people use the app was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Закон за заштита на правата на пациентите, редакциски пречистен текст (LKM copy)",
+     "url": "https://www.lkm.org.mk/upload/documents/stari/2012/zakon%20za%20zastita%20na%20pravata%20na%20pacientite.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Мое здравје: Вашиот дигитален партнер за здравствени услуги (Управа за електронско здравство)",
+     "url": "https://e-health.gov.mk/moe-zdravje/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Moe Zdravje, App Store listing (seller: Ministry of Health)",
+     "url": "https://apps.apple.com/us/app/moe-zdravje/id1585980981",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Промовирана Стратегијата за дигитално здравство (Точка)",
+     "url": "https://tocka.com.mk/vesti/571557/pacientite-nema-da-setaat-po-salteri-site-snimki-pregledi-i-terapii-na-uvid-kaj-lekarot-promovirana-strategijata-za-digitalno-zdravstvo",
+     "date": "2026-09-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The national record opens to any doctor during an exam, with no patient opt-out and no access history the patient can see. The Ministry and the Health Insurance Fund manage the data, and the 2026 strategy only plans a consent tool and access log.",
+   "detail": [
+    "The 2013 amendment to the Law on Records in Health says the Ministry of Health and the Health Insurance Fund hold and manage the data in the national system. The minister sets by rule how the data is kept and made available.",
+    "The e-health directorate says the electronic record is open to all doctors only during an exam, and patients see only their own record through Moe Zdravje.",
+    "The Patients' Rights law allows disclosure without consent when needed for treatment in another institution. No opt-out from sharing was found.",
+    "The Digital Health Strategy 2026 to 2030 promises that patients will see who opened their data and give or withdraw consent, set by a future law. The State Audit Office found no controls for tracking user activity."
+   ],
+   "sources": [
+    {
+     "title": "Закон за изменување и дополнување на Законот за евиденциите во областа на здравството, Службен весник 164/2013",
+     "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-zdravstvo-file-2qaz.pdf",
+     "date": "2013-11-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Мој Термин, Национален систем за електронски евиденции во здравството (Управа за електронско здравство)",
+     "url": "https://e-health.gov.mk/moj-termin/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Промовирана Стратегијата за дигитално здравство (Точка)",
+     "url": "https://tocka.com.mk/vesti/571557/pacientite-nema-da-setaat-po-salteri-site-snimki-pregledi-i-terapii-na-uvid-kaj-lekarot-promovirana-strategijata-za-digitalno-zdravstvo",
+     "date": "2026-09-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "„Мој Термин“ без континуирано одржување речиси 38% од времето, соопштение (Државен завод за ревизија)",
+     "url": "https://dzr.mk/mk/260930-moj-termin-bez-kontinuirano-odrzhuvane-rechisi-38-od-vremeto-so-seriozni-rizici-za",
+     "date": "2026-10-01",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 42,
+   "summary": "The 2020 law requires breach notice within 72 hours and allows fines up to 4% of turnover, but enforcement is weak. In October 2026 state auditors found no controls on user access in the national health system, and the EU says breaches are rising.",
+   "detail": [
+    "The Law on Personal Data Protection (42/2020) treats health data as a special category, requires breach notice to the agency within 72 hours (Article 37), and sets fines up to 4% of annual income (Article 111).",
+    "The European Commission's 2025 report says the framework is insufficient, full GDPR alignment is pending, the data protection agency has had no director since January 2025, and breaches are increasingly frequent, some unreported.",
+    "The State Audit Office reported on 1 October 2026 that Moj Termin lacks procedures for managing user access, monitoring activity and protecting sensitive data. It says the data protection agency confirmed a high risk of unauthorised access.",
+    "North Macedonia is an EU candidate. GDPR, the EHDS and the AI Act do not apply until accession, when most of the 2020 law stops applying."
+   ],
+   "sources": [
+    {
+     "title": "Закон за заштита на личните податоци, консолидиран текст мај 2025 (Општина Гази Баба copy)",
+     "url": "https://gazibaba.gov.mk/wp-content/uploads/2025/05/zakon-za-zastita-na-lichnite-podatoci-_-konsolidirana-verzija-maj-2025.pdf",
+     "date": "2025-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "North Macedonia 2025 Report, SWD(2025) 753 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/267b368e-6b55-4a42-bb72-6395593de4da_en?filename=north-macedonia-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "„Мој Термин“ без континуирано одржување речиси 38% од времето, соопштение (Државен завод за ревизија)",
+     "url": "https://dzr.mk/mk/260930-moj-termin-bez-kontinuirano-odrzhuvane-rechisi-38-od-vremeto-so-seriozni-rizici-za",
+     "date": "2026-10-01",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 48,
+   "summary": "Any direct marketing, including profiling, needs the person's prior explicit consent under the 2020 data protection law. No ban on selling health data was found, and auditors flagged private patient portals with look-alike names working outside the national system.",
+   "detail": [
+    "Article 96 of the Law on Personal Data Protection allows processing for direct marketing, including related profiling, only with the person's prior explicit consent. Health data is a special category.",
+    "No law banning the sale of health data, rules for data brokers, or rules for consumer health apps was found.",
+    "The State Audit Office found private portals, including moE-zdravje, Moj lekar and moi doktori, giving access to medical data from some private providers outside the national system. It warned that similar names can confuse patients about which system is official."
+   ],
+   "sources": [
+    {
+     "title": "Закон за заштита на личните податоци, консолидиран текст мај 2025 (Општина Гази Баба copy)",
+     "url": "https://gazibaba.gov.mk/wp-content/uploads/2025/05/zakon-za-zastita-na-lichnite-podatoci-_-konsolidirana-verzija-maj-2025.pdf",
+     "date": "2025-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "„Мој Термин“ без континуирано одржување речиси 38% од времето, соопштение (Државен завод за ревизија)",
+     "url": "https://dzr.mk/mk/260930-moj-termin-bez-kontinuirano-odrzhuvane-rechisi-38-od-vremeto-so-seriozni-rizici-za",
+     "date": "2026-10-01",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 52,
+   "summary": "Moj Termin has linked e-referrals, e-prescriptions and appointments across all levels of care for more than ten years. The EU and the minister both say it does not exchange data with the Health Insurance Fund or public health registers.",
+   "detail": [
+    "Since the 2013 amendment, the national system holds medical data, e-referrals, e-prescriptions and appointment bookings. The e-health directorate says it links primary, secondary and tertiary care.",
+    "The European Commission's 2025 report says the system is not yet interoperable with Health Insurance Fund data. In September 2026 the minister said Moj Termin, the Fund and public health registers do not exchange data.",
+    "The State Audit Office found that Skopje's 8 September general hospital does not record surgeries in Moj Termin.",
+    "The Digital Health Strategy 2026 to 2030, funded by the EU's IPA III, sets laws and standards in 2026 to 2027 and main rollout in 2028 to 2029."
+   ],
+   "sources": [
+    {
+     "title": "Закон за изменување и дополнување на Законот за евиденциите во областа на здравството, Службен весник 164/2013",
+     "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-zdravstvo-file-2qaz.pdf",
+     "date": "2013-11-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Мој Термин, Национален систем за електронски евиденции во здравството (Управа за електронско здравство)",
+     "url": "https://e-health.gov.mk/moj-termin/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "North Macedonia 2025 Report, SWD(2025) 753 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/267b368e-6b55-4a42-bb72-6395593de4da_en?filename=north-macedonia-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Промовирана Стратегијата за дигитално здравство (Точка)",
+     "url": "https://tocka.com.mk/vesti/571557/pacientite-nema-da-setaat-po-salteri-site-snimki-pregledi-i-terapii-na-uvid-kaj-lekarot-promovirana-strategijata-za-digitalno-zdravstvo",
+     "date": "2026-09-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 50,
+   "summary": "Any treating doctor can open the national electronic record during an exam. The minister says private lab results, imaging from other hospitals and some prescriptions are often missing when the doctor decides, so the view is partial.",
+   "detail": [
+    "The e-health directorate says the electronic health record is open to all doctors for the duration of an exam, giving access to the patient's medical history.",
+    "In September 2026 the minister said patients carry their history from counter to counter. Results from private labs, imaging done in another hospital and therapy prescribed outside the referral chain are often not in front of the doctor.",
+    "Emergency access rules for the national record were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Мој Термин, Национален систем за електронски евиденции во здравството (Управа за електронско здравство)",
+     "url": "https://e-health.gov.mk/moj-termin/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Промовирана Стратегијата за дигитално здравство (Точка)",
+     "url": "https://tocka.com.mk/vesti/571557/pacientite-nema-da-setaat-po-salteri-site-snimki-pregledi-i-terapii-na-uvid-kaj-lekarot-promovirana-strategijata-za-digitalno-zdravstvo",
+     "date": "2026-09-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Health data can be disclosed for research only if the patient cannot be identified, with no consent or opt-out for that reuse. Two safeguard classes count, statutory secrecy and fines, and research on patients needs written consent and ethics approval.",
+   "detail": [
+    "Article 25 of the Patients' Rights law allows patient data to be used for historical, scientific, research or teaching purposes without consent, provided the patient's identity cannot be revealed. Disclosed data stays under professional secrecy rules.",
+    "Article 86 of the data protection law requires safeguards such as data minimisation and pseudonymisation for research. Fines reach 4% of annual income.",
+    "Research on a patient needs written, dated consent (Article 17) and approval by the ethics committee of the medical, pharmaceutical or dental chamber (Article 19). No opt-out, public register of data uses or EHDS-style access body was found."
+   ],
+   "sources": [
+    {
+     "title": "Закон за заштита на правата на пациентите, редакциски пречистен текст (LKM copy)",
+     "url": "https://www.lkm.org.mk/upload/documents/stari/2012/zakon%20za%20zastita%20na%20pravata%20na%20pacientite.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Закон за заштита на личните податоци, консолидиран текст мај 2025 (Општина Гази Баба copy)",
+     "url": "https://gazibaba.gov.mk/wp-content/uploads/2025/05/zakon-za-zastita-na-lichnite-podatoci-_-konsolidirana-verzija-maj-2025.pdf",
+     "date": "2025-05",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "No rules for clinical AI were found, and the European Commission says medical device law is only partly aligned with EU rules. A national AI strategy is promised by the end of 2026, with a law on AI use under consideration.",
+   "detail": [
+    "The European Commission's 2025 report says medical device rules remain partially aligned with the EU acquis and invites the country to fully align with the AI Act. Rules on AI software change control were not verified.",
+    "On 17 September 2026 the minister for digital transformation said a national AI strategy should be adopted by the end of the year and a law on AI use is being considered.",
+    "A June 2026 column by the then health minister said AI tools in the national record would support, not replace, the doctor. This is a stated intent, not a rule."
+   ],
+   "sources": [
+    {
+     "title": "North Macedonia 2025 Report, SWD(2025) 753 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/267b368e-6b55-4a42-bb72-6395593de4da_en?filename=north-macedonia-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Андоновски: До крајот на годината очекуваме национална стратегија за вештачка интелигенција (Нова Македонија)",
+     "url": "https://novamakedonija.com.mk/makedonija/andonovski-do-krajot-na-godinata-ochekuvame-nacionalna-strategija-za-veshtachka-inteligencija/",
+     "date": "2026-09-17",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Здравство што го враќа пациентот во центарот на вниманието, колумна на Азир Алиу (Плусинфо)",
+     "url": "https://plusinfo.mk/zdravstvo-shto-go-vra-a-pacientot-vo-centarot-na-vnimanieto/",
+     "date": "2026-06-01",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "siloed",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Moj Termin links referrals, prescriptions and bookings nationally. It does not exchange data with the Health Insurance Fund or public health registers; private labs and some hospital surgeries sit outside it. Research links not verified.",
+ "laws": [
+  {
+   "name": "Law on Protection of Patients' Rights",
+   "level": "National",
+   "year": "2008",
+   "what": "Right to inspect the medical file and buy copies; confidentiality; written consent and ethics approval for research.",
+   "url": "https://www.lkm.org.mk/upload/documents/stari/2012/zakon%20za%20zastita%20na%20pravata%20na%20pacientite.pdf"
+  },
+  {
+   "name": "Law on Personal Data Protection (42/2020)",
+   "level": "National",
+   "year": "2020",
+   "what": "GDPR-style law: health as special category, 72-hour breach notice, fines up to 4% of income.",
+   "url": "https://gazibaba.gov.mk/wp-content/uploads/2025/05/zakon-za-zastita-na-lichnite-podatoci-_-konsolidirana-verzija-maj-2025.pdf"
+  },
+  {
+   "name": "Law amending the Law on Records in Health (164/2013)",
+   "level": "National",
+   "year": "2013",
+   "what": "Creates the national electronic health records system, managed by the Ministry and Health Insurance Fund.",
+   "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-zdravstvo-file-2qaz.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-04-28",
+   "headline": "Moj Termin adds health records for people without identity documents",
+   "source": "Government of North Macedonia",
+   "url": "https://vlada.mk/mk-MK/odnosi-so-javnost/soopstenija/aliu-vo-mojtermin-e-aktiven-nov-modul-za-evidentiranje-zdravstveni-uslugi-na-lica-bez-licni-dokumenti",
+   "why": "Stateless people can now have an electronic health record and continuity of care."
+  },
+  {
+   "date": "2026-06-01",
+   "headline": "Health minister says planned portal will show who accessed patient data",
+   "source": "Plusinfo",
+   "url": "https://plusinfo.mk/zdravstvo-shto-go-vra-a-pacientot-vo-centarot-na-vnimanieto/",
+   "why": "An access log and consent management would give patients real control they lack today."
+  },
+  {
+   "date": "2026-06-13",
+   "headline": "Ministry promotes Moe Zdravje app for viewing personal health records",
+   "source": "Fokus",
+   "url": "https://fokus.mk/ministerstvoto-za-zdravstvo-so-mobilna-i-veb-aplikatsija-moe-zdravje/",
+   "why": "Patients can check referrals and past services online with an eID."
+  },
+  {
+   "date": "2026-09-17",
+   "headline": "Digital transformation minister expects national AI strategy by year end",
+   "source": "Nova Makedonija",
+   "url": "https://novamakedonija.com.mk/makedonija/andonovski-do-krajot-na-godinata-ochekuvame-nacionalna-strategija-za-veshtachka-inteligencija/",
+   "why": "Clinical AI has no national rules yet; a strategy and law could set them."
+  },
+  {
+   "date": "2026-09-21",
+   "headline": "Government presents Digital Health Strategy 2026 to 2030 aligned with EHDS",
+   "source": "Tocka",
+   "url": "https://tocka.com.mk/vesti/571557/pacientite-nema-da-setaat-po-salteri-site-snimki-pregledi-i-terapii-na-uvid-kaj-lekarot-promovirana-strategijata-za-digitalno-zdravstvo",
+   "why": "Promises full record access, access logs and consent rights, mostly from 2028."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

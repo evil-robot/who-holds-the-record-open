@@ -1,0 +1,155 @@
+{
+  "iso3": "BRB",
+  "name": "Barbados",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Barbados has a GDPR-style privacy law, but health is not legally sensitive, the main hospital charges $375 per record copy, and no portal is live.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "The Data Protection Act 2019 promises a free copy within one month, in electronic form if asked electronically. In practice the Queen Elizabeth Hospital lists a $375 fee for a copy of its records, and its promised patient app was not yet live.",
+      "detail": [
+        "Section 10 of the Data Protection Act 2019 gives a right to a copy of personal data. The first copy is free; more copies can carry a reasonable fee. Section 21 sets a one-month deadline, extendable by two months for complex requests. The Act lists health records as accessible records.",
+        "The Queen Elizabeth Hospital (QEH), the main public hospital, lists a fee of $375 for Barbadian nationals and $500 for non-nationals to access a copy of patient health records. It says medical reports take about three months.",
+        "Section 32 lets the Minister exempt or modify access rights for health data by order. No such order was found.",
+        "In July 2026 QEH said a patient app and a web portal would show appointments, prescriptions and some medical information. They were described as coming soon, with no launch date. Score: base 45, plus 5 for a free statutory copy with a fixed deadline, minus 5 for the hospital fee."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2019-29 (Barbados), full text", "url": "https://www.privacylaws.com/media/4517/data-protection-act-2019-29.pdf", "date": "2019", "publisherClass": "legal_text"},
+        {"title": "Medical Records Department (Queen Elizabeth Hospital)", "url": "https://www.qehconnect.com/services/medical-records-department/", "date": "undated", "publisherClass": "official"},
+        {"title": "QEH to introduce patient app, portal under digital health rollout (Barbados Today)", "url": "https://barbadostoday.bb/2026/07/01/qeh-to-introduce-patient-app-portal-under-digital-health-rollout/", "date": "2026-07-01", "publisherClass": "news"}
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Health data is not on the Act's sensitive list, and even sensitive data may be processed for care or public functions without consent. No opt-out from record sharing and no patient-visible access log were found as the hospital moves to one digital system.",
+      "detail": [
+        "The Act's list of sensitive personal data covers genetic and biometric data, sexual life, finances and criminal records, but not health in general. The Data Protection Commissioner confirmed this at an October 2025 healthcare seminar.",
+        "Even for sensitive data, section 9 allows processing without consent for medical purposes by a health care professional, or for any function of a public authority.",
+        "Patients can ask to restrict processing (section 13) or to stop processing likely to cause damage or distress (section 16). These are general rights, not a sharing opt-out.",
+        "QEH requires a signed patient authorisation before releasing records. Its planned app is meant to give patients more control, but no granular consent or access log was described."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2019-29 (Barbados), full text", "url": "https://www.privacylaws.com/media/4517/data-protection-act-2019-29.pdf", "date": "2019", "publisherClass": "legal_text"},
+        {"title": "Healthcare data protection in Barbados: Seminar signals shift from education to enforcement (Barbados Today)", "url": "https://barbadostoday.bb/2025/10/28/healthcare-data-protection-in-barbados-seminar-signals-shift-from-education-to-enforcement/", "date": "2025-10-28", "publisherClass": "news"},
+        {"title": "Medical Records Department (Queen Elizabeth Hospital)", "url": "https://www.qehconnect.com/services/medical-records-department/", "date": "undated", "publisherClass": "official"}
+      ]
+    },
+    "privacy": {
+      "score": 44,
+      "summary": "The 2019 Act has 72-hour breach notice and penalties up to $500,000 or three years in prison. But health data lacks sensitive status, the Commissioner is a public officer inside a ministry, and no enforcement decision was published after the 2022 hospital cyberattack.",
+      "detail": [
+        "Section 63 requires notice to the Commissioner within 72 hours of a risky breach, and section 64 requires telling affected people when the risk is high. Breaking the processing principles can bring a fine of $500,000, three years in prison, or both. Administrative penalties are capped at $50,000.",
+        "Section 70 makes the Data Protection Commissioner a public officer. The office sits under the Ministry of Industry, Innovation, Science and Technology, so it is not structurally independent.",
+        "A December 2022 cyber incident at QEH disrupted services and put patient data at risk. No published investigation or enforcement decision by the Commissioner was found.",
+        "Sections 30 and 31 exempt data used for national security, crime and tax from some rules. Health-sector evidence (no sensitive status for health, no published action after the QEH breach) puts the score just below the 45 to 66 general-law band."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2019-29 (Barbados), full text", "url": "https://www.privacylaws.com/media/4517/data-protection-act-2019-29.pdf", "date": "2019", "publisherClass": "legal_text"},
+        {"title": "Data Protection Commission (Government of Barbados)", "url": "https://www.gov.bb/General/data-protection-commissioner", "date": "undated", "publisherClass": "official"},
+        {"title": "QEH warns of delays following cyber security incident (CBC)", "url": "https://www.cbc.bb/news/local-news/qeh-warns-of-delays-following-cyber-security-incident/", "date": "2022-12-13", "publisherClass": "news"},
+        {"title": "Barbados' Data Protection Watchdog Has Real Teeth on Paper. Why Hasn't It Bitten? (Niel Harper)", "url": "https://nielharper.com/2026/08/19/barbados-data-protection-watchdog-has-real-teeth-on-paper-why-hasnt-it-bitten/", "date": "2026-08-19", "publisherClass": "blog_vendor"}
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "People can stop direct marketing with 21 days' written notice, and data must be used only for its stated purpose. Because health is not sensitive data, selling it does not need explicit consent, and no rules on health apps or data brokers were found.",
+      "detail": [
+        "Section 17 lets anyone require a controller to stop using their data for direct marketing at the end of 21 days. The High Court can enforce the notice.",
+        "Section 4 requires data to be collected for specific purposes and not processed in ways incompatible with them.",
+        "Health data falls outside the sensitive list, so the stricter section 9 consent rule does not cover its sale or marketing use. Only the general lawfulness tests apply.",
+        "No rules aimed at consumer health apps, data brokers or sale of de-identified health data were found, and no enforcement case was found."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2019-29 (Barbados), full text", "url": "https://www.privacylaws.com/media/4517/data-protection-act-2019-29.pdf", "date": "2019", "publisherClass": "legal_text"},
+        {"title": "Healthcare data protection in Barbados: Seminar signals shift from education to enforcement (Barbados Today)", "url": "https://barbadostoday.bb/2025/10/28/healthcare-data-protection-in-barbados-seminar-signals-shift-from-education-to-enforcement/", "date": "2025-10-28", "publisherClass": "news"}
+      ]
+    },
+    "journey": {
+      "score": 35,
+      "summary": "Polyclinics run an electronic record and public pharmacies prescribe electronically, but a 2022 PAHO-backed assessment found limited links between the hospital, polyclinics, labs and pharmacies. QEH is rolling out a new hospital system, and a system to connect all levels is still being planned.",
+      "detail": [
+        "In September 2026 the health ministry said a 2022 assessment found a fragmented health information system with limited integration between QEH, polyclinics, labs and pharmacies. PAHO presented the assessment to stakeholders in July 2025.",
+        "The ministry said polyclinics operate an electronic medical record, public pharmacies do electronic prescribing, and the public health laboratory is improving links between results and patient records.",
+        "QEH is implementing a new health information system. About 75,000 patient files were available electronically by June 2026.",
+        "The digital part of the Health Services Resilience Programme was under public consultation in 2026. PAHO reports surveillance data moving from Excel to DHIS2."
+      ],
+      "sources": [
+        {"title": "Barbados advances information systems for health with stakeholder engagement (PAHO)", "url": "https://www.paho.org/en/news/23-7-2025-barbados-advances-information-systems-health-stakeholder-engagement", "date": "2025-07-23", "publisherClass": "intergov"},
+        {"title": "Barbados advances digital health transformation through Public Health Datathon (PAHO)", "url": "https://www.paho.org/en/news/7-7-2026-barbados-advances-digital-health-transformation-through-public-health-datathon", "date": "2026-07-07", "publisherClass": "intergov"},
+        {"title": "QEH Highlights Progress on Strategic Plan Initiatives (Queen Elizabeth Hospital)", "url": "https://www.qehconnect.com/qeh-highlights-progress-on-strategic-plan-initiatives/", "date": "2026-06-02", "publisherClass": "official"},
+        {"title": "Health Ministry targets gaps in health system (Barbados Today)", "url": "https://barbadostoday.bb/2026/09/06/health-ministry-targets-gaps-in-health-system/", "date": "2026-09-06", "publisherClass": "news"}
+      ]
+    },
+    "clinical": {
+      "score": 30,
+      "summary": "In May 2026 the QEH chief executive said emergency staff do not yet have immediate access to patients' records. The new hospital system is rolling out, but links to polyclinics and private doctors are plans, not a working service.",
+      "detail": [
+        "In May 2026 QEH chief executive Neil Clark said the accident and emergency team will get immediate access to medical records once the new system is in, and that they do not have it now.",
+        "QEH says its health information system is meant to give clinicians faster access to information. In June 2026 it reported about 75,000 patient files available electronically.",
+        "QEH has said private doctors may get access once verified as the treating physician. No live link with polyclinics or private practices was verified.",
+        "Section 9 of the Data Protection Act allows processing for medical purposes by health care professionals, so the legal basis for clinical sharing exists."
+      ],
+      "sources": [
+        {"title": "QEH Highlights Progress on Strategic Plan Initiatives (Queen Elizabeth Hospital)", "url": "https://www.qehconnect.com/qeh-highlights-progress-on-strategic-plan-initiatives/", "date": "2026-06-02", "publisherClass": "official"},
+        {"title": "QEH digital records rollout 'set for July' (Barbados Today)", "url": "https://barbadostoday.bb/2026/05/06/qeh-digital-records-rollout-set-for-july/", "date": "2026-05-06", "publisherClass": "news"},
+        {"title": "QEH begins transition to digital medical records (Barbados Today)", "url": "https://barbadostoday.bb/2025/10/07/qeh-begins-transition-to-digital-medical-records/", "date": "2025-10-07", "publisherClass": "news"}
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "The 2019 Act treats research use as compatible with the original purpose and exempts it from access rights when results do not identify anyone. There is no opt-out, but a joint UWI and health ministry ethics board reviews research.",
+      "detail": [
+        "Section 35 says processing only for research is not incompatible with the original purpose, lets the data be kept indefinitely, and exempts it from the access right if results do not identify people. It must not support decisions about individuals or cause substantial distress.",
+        "Section 9 lists medical research as a medical purpose, so health professionals can process sensitive data for it without consent.",
+        "The Institutional Review Board at UWI Cave Hill also serves the Ministry of Health, with ministry and community members.",
+        "The Medical Products Act passed in 2026 requires National Ethics Committee clearance and a register of clinical trials. No opt-out and no register of data uses were found. Score: base 40 plus 3 for the ethics body."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2019-29 (Barbados), full text", "url": "https://www.privacylaws.com/media/4517/data-protection-act-2019-29.pdf", "date": "2019", "publisherClass": "legal_text"},
+        {"title": "About - Research Ethics (University of the West Indies at Cave Hill)", "url": "https://www.cavehill.uwi.edu/researchethics/about/", "date": "undated", "publisherClass": "academic"},
+        {"title": "Barbados Medical Products Bill, 2026 (Parliament of Barbados)", "url": "https://www.barbadosparliament.com/uploads/bill_resolution/8a80652f25b3721b34f2ace09a89a9e6.pdf", "date": "2026-04-10", "publisherClass": "legal_text"}
+      ]
+    },
+    "ai": {
+      "score": 28,
+      "summary": "No law or guidance on clinical AI was found. Parliament passed a Medical Products Authority bill in 2026 that covers medical devices, but it does not mention software or AI and the authority is not yet operating.",
+      "detail": [
+        "The Barbados Medical Products Bill, 2026 creates a Medical Products Authority. Section 50 sets device rules on risk class, pre-market review, quality management and post-market vigilance, and lets the Authority rely on IMDRF members. PAHO reported its passage in July 2026.",
+        "The bill defines a medical device as an instrument, apparatus or contrivance. It does not mention software or AI. Whether it covers AI software was not verified.",
+        "Section 18 of the Data Protection Act gives a right not to be subject to solely automated decisions with significant effects.",
+        "Barbados will host a UN AI scientific panel meeting in November 2026, but no national AI strategy was found."
+      ],
+      "sources": [
+        {"title": "Barbados Medical Products Bill, 2026 (Parliament of Barbados)", "url": "https://www.barbadosparliament.com/uploads/bill_resolution/8a80652f25b3721b34f2ace09a89a9e6.pdf", "date": "2026-04-10", "publisherClass": "legal_text"},
+        {"title": "Barbados approves the creation of the Barbados Medical Products Authority with support of PAHO (PAHO)", "url": "https://www.paho.org/en/news/1-7-2026-barbados-approves-creation-barbados-medical-products-authority-support-paho", "date": "2026-07-01", "publisherClass": "intergov"},
+        {"title": "Data Protection Act, 2019-29 (Barbados), full text", "url": "https://www.privacylaws.com/media/4517/data-protection-act-2019-29.pdf", "date": "2019", "publisherClass": "legal_text"},
+        {"title": "Barbados to host UN AI panel as global concern over safeguards grows (Barbados Today)", "url": "https://barbadostoday.bb/2026/09/25/barbados-to-host-un-ai-panel-as-global-concern-over-safeguards-grows/", "date": "2026-09-25", "publisherClass": "news"}
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Polyclinics, pharmacies and QEH each have digital systems, but links between them are limited. Claims flows were not researched. Surveillance is moving to DHIS2. Not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {"name": "Data Protection Act, 2019-29", "level": "National", "year": "2019", "what": "Free copy within one month, 72-hour breach notice; health is not listed as sensitive data.", "url": "https://www.privacylaws.com/media/4517/data-protection-act-2019-29.pdf"},
+    {"name": "Barbados Medical Products Act, 2026 (passed as a bill; commencement not verified)", "level": "National", "year": "2026", "what": "Creates a Medical Products Authority, device rules, ethics clearance and a register of clinical trials.", "url": "https://www.barbadosparliament.com/uploads/bill_resolution/8a80652f25b3721b34f2ace09a89a9e6.pdf"},
+    {"name": "Health Services Act, Cap. 44", "level": "National", "year": "1969", "what": "Health ministry's public health powers; regulations cover surveillance and investigation of notifiable diseases.", "url": "https://www.health.gov.bb/Legislation"}
+  ],
+  "news": [
+    {"date": "2025-10-07", "headline": "Main hospital says patients will soon see their records on their phones", "source": "Barbados Today", "url": "https://barbadostoday.bb/2025/10/07/qeh-begins-transition-to-digital-medical-records/", "why": "First promise of direct patient access to hospital records in Barbados."},
+    {"date": "2025-10-28", "headline": "Data Commissioner tells health sector that health data is not legally sensitive", "source": "Barbados Today", "url": "https://barbadostoday.bb/2025/10/28/healthcare-data-protection-in-barbados-seminar-signals-shift-from-education-to-enforcement/", "why": "Medical records get weaker legal protection than under GDPR-style laws elsewhere."},
+    {"date": "2026-07-01", "headline": "Hospital plans patient app and portal as new information system goes live", "source": "Barbados Today", "url": "https://barbadostoday.bb/2026/07/01/qeh-to-introduce-patient-app-portal-under-digital-health-rollout/", "why": "Patients would see records and prescriptions, but rollout caused pharmacy delays."},
+    {"date": "2026-07-01", "headline": "Parliament passes bill creating a national medical products regulator", "source": "PAHO", "url": "https://www.paho.org/en/news/1-7-2026-barbados-approves-creation-barbados-medical-products-authority-support-paho", "why": "First national regulator for medical devices, a possible base for health AI rules."},
+    {"date": "2026-09-06", "headline": "Health ministry says assessment found fragmented, poorly linked health records", "source": "Barbados Today", "url": "https://barbadostoday.bb/2026/09/06/health-ministry-targets-gaps-in-health-system/", "why": "Patient records do not follow people between hospital, polyclinics, labs and pharmacies."}
+  ],
+  "asOf": "2026-10-01"
+}

@@ -9,26 +9,29 @@ const BOILERPLATE = [
   'SuperTruth: Data truth is AI truth.',
 ];
 
-function buildPressKit({ C, N, ranked, bandOf, rankLabel, BANDS, bandCount, modelCount, median, top, storyTotal, asOf, SITE, esc, notFull, nSplit, VERSION, YEAR }) {
+function buildPressKit({ C, N, ranked, bandOf, rankLabel, BANDS, bandCount, modelCount, median, top, storyTotal, asOf, SITE, esc, notFull, nSplit, VERSION, YEAR, leadGroup = [], soleLead = false, likely = () => '' }) {
   const lowest = ranked[ranked.length - 1].overall;
   const last = ranked.filter(d => d.overall === lowest).map(d => d.name).sort();
   const lastTxt = last.length > 1 ? `${last.slice(0, -1).join(', ')} and ${last.at(-1)} share last place at ${lowest}` : `${last[0]} is last at ${lowest}`;
+  const jn = xs => xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`;
+  // DECISION_RULES.md rule 2: name a sole leader only if it is first in 95% of main-model draws.
+  const leadTxt = soleLead ? `${top.name} leads at ${top.overall} of 100.` : leadGroup.length > 1 ? `The highest scores are ${jn(leadGroup.map(d => `${d.name} (${d.overall})`))}; allowing for scoring error, any of them could rank first.` : `${top.name} scores highest at ${top.overall} of 100.`;
   const facts = [
     `In none of the ${N} countries we rated does the person hold the keys to their own health record. Control sits with the state or providers: ${modelCount.Shared} Shared, ${modelCount.Institutional} Institutional, ${modelCount.State} State.`,
-    `${top.name} scores highest at ${top.overall} of 100. The median is ${median}. No country reaches the Leading band (85 and up).`,
-    `By band: ${bandCount.Strong} Strong, ${bandCount.Mixed} Mixed, ${bandCount.Weak} Weak. ${lastTxt}.`,
+    `${leadTxt} The median is ${median}. No country reaches the Leading band (85 and up).`,
+    `By band: ${bandCount.Strong} Strong, ${bandCount.Mixed} Mixed, ${bandCount.Weak} Weak${bandCount.Poor ? `, ${bandCount.Poor} Poor` : ''}. ${lastTxt}.`,
     `In ${notFull} of the ${nSplit} countries we could check, the public health record does not fully reach private care.`,
     `${storyTotal} published accounts of real record problems, from regulators, courts and the news, sit beside the scores without changing them.`,
     `Every score cites the public pages it rests on. Data and scores are open under CC BY 4.0.`,
   ];
-  const lede = `In none of the ${N} countries scored in ${String(asOf).slice(0, 4)} does the person hold the keys to their own health record; ${top.name} leads at ${top.overall} of 100.`;
-  const top10 = ranked.slice(0, 10).map(d => `<tr><td class="n">${rankLabel(d.rank)}</td><td>${esc(d.name)}</td><td class="n">${d.overall}</td><td>${bandOf(d.overall).n}</td></tr>`).join('');
+  const lede = `In none of the ${N} countries scored in ${String(asOf).slice(0, 4)} does the person hold the keys to their own health record; ${soleLead ? `${top.name} leads at ${top.overall} of 100` : leadGroup.length > 1 ? `${jn(leadGroup.map(d => d.name))} have the highest scores` : `${top.name} scores highest at ${top.overall} of 100`}.`;
+  const top10 = ranked.slice(0, 10).map(d => `<tr><td class="n">${rankLabel(d.rank)}</td><td class="n">${likely(d.iso3)}</td><td>${esc(d.name)}</td><td class="n">${d.overall}</td><td>${bandOf(d.overall).n}</td></tr>`).join('');
   const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Press kit: Who Holds the Record | SuperTruth</title>
 <meta name="description" content="Press kit for Who Holds the Record, SuperTruth's open index of health record rights in ${N} countries: key findings, images, data, method and contact.">
 <link rel="canonical" href="${SITE}press-kit/"><link rel="icon" href="../assets/supertruth-icon.svg">
-<meta property="og:title" content="Press kit: Who Holds the Record"><meta property="og:description" content="${esc(lede)}"><meta property="og:type" content="website">
-<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: 'Press kit: Who Holds the Record', url: `${SITE}press-kit/`, description: lede, dateModified: asOf, isPartOf: { '@type': 'WebSite', name: 'Who Holds the Record', url: SITE }, datePublished: '2026-10-02', author: require('./brief.js').AUTHORS, publisher: { '@type': 'Organization', name: 'SuperTruth Inc.', url: 'https://supertruth.ai', telephone: '+1-215-918-4140' } }).replace(/</g, '\\u003c')}</script><meta property="og:image" content="${SITE}assets/og.png"><meta property="og:url" content="${SITE}press-kit/"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="Press kit: Who Holds the Record"><meta property="og:site_name" content="SuperTruth"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Who Holds the Record by SuperTruth: health record rights in ${N} countries"><meta property="og:description" content="${esc(lede)}"><meta property="og:type" content="website">
+<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: 'Press kit: Who Holds the Record', url: `${SITE}press-kit/`, description: lede, dateModified: asOf, isPartOf: { '@type': 'WebSite', name: 'Who Holds the Record', url: SITE }, datePublished: '2026-10-02', author: require('./brief.js').AUTHORS, publisher: { '@type': 'Organization', name: 'SuperTruth', url: 'https://supertruth.ai', telephone: '+1-215-918-4140' } }).replace(/</g, '\\u003c')}</script><meta property="og:image" content="${SITE}assets/og.png"><meta property="og:url" content="${SITE}press-kit/"><meta name="twitter:card" content="summary_large_image">
 <style>
 @font-face{font-family:Inter;font-weight:100 900;src:url(../assets/fonts/inter-latin.woff2) format("woff2")}
 @font-face{font-family:"JetBrains Mono";font-weight:100 800;src:url(../assets/fonts/jetbrains-mono-latin.woff2) format("woff2")}
@@ -55,11 +58,11 @@ a{color:#0F766E}
 <p>An open index by SuperTruth that scores countries from 0 to 100 on one question: can a person see, control and share their own health record? Data as of ${asOf}, version ${VERSION}.</p>
 <h2>Key findings</h2><ul class="facts">${facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul>
 <p>Scores move in steps of about 5 points, so read ranks as ranges. The full method, the audit of our own scores and every source are public.</p>
-<h2>Top 10</h2><table><thead><tr><th>Rank</th><th>Country</th><th>Score</th><th>Band</th></tr></thead><tbody>${top10}</tbody></table>
+<h2>Top 10</h2><table><thead><tr><th>Rank</th><th>Likely range</th><th>Country</th><th>Score</th><th>Band</th></tr></thead><tbody>${top10}</tbody></table>
 <p><a href="../#ranking">Full ranking</a> · <a href="../#strain">Strain and split</a> · <a href="../#stories">What people report</a></p>
-<h2>Images</h2><p>Free to use with credit to SuperTruth.</p>
+<h2>Images</h2><p>Free to use with credit to SuperTruth. Every country has a share card at /assets/og/ISO3.png (for example <a href="../assets/og/FIN.png">/assets/og/FIN.png</a>).</p>
 <div class="assets"><figure><a href="../assets/og.png" download><img src="../assets/og.png" alt="Who Holds the Record share image: the globe and the headline finding"></a><figcaption>Share image, 1200 by 630</figcaption></figure>
-${['CAN', 'USA', 'GBR', 'DEU', 'FRA', 'NLD'].filter(i => C.some(d => d.iso3 === i)).map(i => { const d = C.find(x => x.iso3 === i); return `<figure><a href="../assets/og/${i}.png" download><img src="../assets/og/${i}.png" alt="${esc(d.name)}: ${d.overall} of 100"></a><figcaption>${esc(d.name)}, ${d.overall}/100 (every country has one: /assets/og/ISO3.png)</figcaption></figure>`; }).join('')}</div>
+${['CAN', 'USA', 'GBR', 'DEU', 'FRA', 'NLD'].filter(i => C.some(d => d.iso3 === i)).map(i => { const d = C.find(x => x.iso3 === i); return `<figure><a href="../assets/og/${i}.png" download><img src="../assets/og/${i}.png" alt="${esc(d.name)}: ${d.overall} of 100"></a><figcaption>${esc(d.name)}, ${d.overall}/100</figcaption></figure>`; }).join('')}</div>
 <h2>Data</h2><p><a href="../data/who-holds-the-record-scores.csv" download>Scores (CSV)</a> · <a href="../data/who-holds-the-record-sources.csv" download>Sources (CSV)</a> · <a href="../data/who-holds-the-record.json" download>Everything (JSON)</a> · one-page brief for every country at <a href="../brief/CAN/">/brief/ISO3/</a></p>
 <h2>Method in brief</h2>
 <p>Each country gets a score from 0 to 100 in eight weighted categories: access to the full record (20%), control and consent (20%), privacy and security (15%), connected care (15%), protection from commercial use (10%), clinician access (10%), research consent (5%) and clinical AI governance (5%). Research agents built on Anthropic's Claude did the research in each country's language, opening every cited source; a second agent cross-checked each country; the authors reviewed the results. We audited our own scores, published every change, tested how stable the ranking is, and ran a blind re-scoring.</p>

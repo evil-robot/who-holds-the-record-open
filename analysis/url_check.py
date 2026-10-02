@@ -3,7 +3,7 @@ Polite: max 6 concurrent requests overall, max 1 per host at a time, 20s timeout
 HEAD first; falls back to a streamed GET (body not read past headers) when HEAD
 is refused (400/403/405/406/429/501) or errors, since many servers mishandle HEAD.
 Writes analysis/url_check.csv: one row per (country, section, field, url)."""
-import asyncio, csv, glob, json, collections, datetime, os
+import asyncio, csv, glob, json, collections, datetime
 from urllib.parse import urlparse
 import httpx
 
@@ -11,7 +11,7 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 HDR = {"User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/pdf,*/*;q=0.8",
        "Accept-Language": "en-US,en;q=0.8"}
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = __import__("os").path.dirname(__import__("os").path.dirname(__import__("os").path.abspath(__file__)))
 
 refs = []
 for f in sorted(glob.glob(f"{ROOT}/data/*.json")):
@@ -83,3 +83,6 @@ with open(f"{ROOT}/analysis/url_check.csv", "w", newline="") as fh:
         w.writerow([iso, sec, fld, u, x["outcome"], x["head_status"], x["get_status"],
                     x["final_url"], x["error"], cnt[u], checked])
 print(len(refs), "refs", len(uniq), "unique", collections.Counter(v["outcome"] for v in results.values()))
+
+# record the data hash this check ran on (DECISION_RULES.md)
+import sys as _s; _s.path.insert(0, f"{ROOT}/scripts"); from datahash import write_sidecar; write_sidecar(f"{ROOT}/analysis/url_check.csv", {"script": __file__.split("/")[-1]})

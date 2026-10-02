@@ -1,0 +1,354 @@
+{
+ "iso3": "BHS",
+ "name": "Bahamas",
+ "region": "Americas",
+ "controlModel": "Institutional",
+ "headline": "Bahamians can ask each provider for a copy of their record under a 2003 law, but public clinics were still moving off paper in 2026.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "The 2003 Data Protection Act gives a right to a copy within 40 days, but the Minister may set a fee and no national portal with the full record was verified. NHI's patient portal for its own providers offsets the fee.",
+   "detail": [
+    "Section 8 of the Data Protection (Privacy of Personal Information) Act 2003 lets a person who makes a written request get a copy of their data within 40 days. Section 8(3) lets the Minister set a fee, and section 30 lets regulations modify access for health data.",
+    "The National Health Insurance Authority (NHIA) privacy policy says beneficiaries may see or get a copy of their personal health information by contacting its Privacy Officer.",
+    "NHIA says its Patient Portal and Healow app let patients of NHI providers see up-to-date medical records. How many people use it was not verified.",
+    "A government site called the Bahamas National Patient Portal exists, but it is login-only, and what records it shows was not verified. The 2026 to 2030 National Health Strategy says patient portals exist but remain fragmented."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection (Privacy of Personal Information) Act, 2003 (Lex Bahamas copy)",
+     "url": "https://www.lexbahamas.com/Data%20Protection%202003.pdf",
+     "date": "2003-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "NHIA Privacy Policy (NHI Bahamas)",
+     "url": "https://www.nhibahamas.gov.bs/privacy/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Patient Portal and Healow App (NHI Bahamas)",
+     "url": "https://www.nhibahamas.gov.bs/patient-portal/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The Bahamas National Health Strategy (2026 to 2030) (Ministry of Health and Wellness)",
+     "url": "https://cdn.bahamas.gov.bs/tenant/tenantministryofhealth/documents/BHSHealthStrategy-20260331091916.pdf",
+     "date": "2026-03-31",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 35,
+   "summary": "The 2003 law has no consent rules, and no opt-out or patient-visible access log was found. NHI says a patient can consent to have their record shared with a new provider, which puts this at the top of the lowest band.",
+   "detail": [
+    "The 2003 Act treats physical and mental health as sensitive data but sets no conditions for consent. Enrolment in NHI requires consent to NHIA's use of personal data for programme purposes.",
+    "NHIA says that if a patient changes provider, they can consent to have their information shared through the EHR. Its EHR keeps audit trails, but whether patients can see who opened their record was not verified.",
+    "The National Health Insurance Act 2025 (section 52) bars NHIA from sharing a beneficiary's medical history without consent, with exceptions for courts and anonymised data. Its commencement date was not verified.",
+    "The Data Protection Act 2025 would require consent for health data processing (section 36), but it is not yet in force."
+   ],
+   "sources": [
+    {
+     "title": "Electronic Health Record (EHR) for Providers (NHI Bahamas)",
+     "url": "https://www.nhibahamas.gov.bs/ehr/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "NHIA Privacy Policy (NHI Bahamas)",
+     "url": "https://www.nhibahamas.gov.bs/privacy/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Health Insurance Act, 2025 (Official Gazette)",
+     "url": "http://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0067/2025-0067.pdf",
+     "date": "2025-08-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection Bill, 2025 (Office of the Data Protection Commissioner)",
+     "url": "https://cdn.bahamas.gov.bs/tenant/tenantdataprotection/documents/Data-Protection-Bill-2025-20251222135142.pdf",
+     "date": "2025-12-22",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "No health-sector enforcement was found, so this is scored on the general law, at the bottom of the band. The 2003 Act in force has no breach notice duty and fines up to $100,000; the 2025 replacement Parliament passed was still not in force in August 2026.",
+   "detail": [
+    "The 2003 Act is the law in force. It sets fines up to $2,000 on summary conviction or $100,000 on information (section 29). No duty to report data breaches was found in its text.",
+    "The Data Protection Act 2025 adds 72-hour breach notice to the Commissioner, a right to compensation and an appeal tribunal. In August 2026 The Tribune reported it was still listed as not yet in force.",
+    "The Commissioner said only 20 to 25 breaches were reported so far in 2026, likely far fewer than occurred. No health data breach or health-sector fine was verified.",
+    "The Bahamas is not on the EU list of adequate countries. GDPR, the EHDS and the EU AI Act do not apply."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection (Privacy of Personal Information) Act, 2003 (Lex Bahamas copy)",
+     "url": "https://www.lexbahamas.com/Data%20Protection%202003.pdf",
+     "date": "2003-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection Bill, 2025 (Office of the Data Protection Commissioner)",
+     "url": "https://cdn.bahamas.gov.bs/tenant/tenantdataprotection/documents/Data-Protection-Bill-2025-20251222135142.pdf",
+     "date": "2025-12-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data breaches underreported as public bypasses regulator (The Tribune)",
+     "url": "https://www.tribune242.com/news/2026/aug/21/data-breaches-underreported-as-public-bypasses-regulator/",
+     "date": "2026-08-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "The 2003 Act bars using data in ways incompatible with the purpose it was collected for, and lets a person stop direct marketing, but needs no prior consent. Opt-in marketing consent is in the 2025 Act, not yet in force.",
+   "detail": [
+    "Section 11 of the 2003 Act requires a data controller to stop using a person's data for direct marketing within 40 days of a written request. It does not require consent first. Section 6 bars use or disclosure incompatible with the purpose of collection.",
+    "The Data Protection Act 2025 (section 37) bans direct marketing without consent. Selling personal data obtained unlawfully would carry fines up to $100,000 or five years in prison.",
+    "The NHI Act 2025 makes it an offence to disclose NHI data without authorisation. No rules for data brokers or consumer health apps were found."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection (Privacy of Personal Information) Act, 2003 (Lex Bahamas copy)",
+     "url": "https://www.lexbahamas.com/Data%20Protection%202003.pdf",
+     "date": "2003-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection Bill, 2025 (Office of the Data Protection Commissioner)",
+     "url": "https://cdn.bahamas.gov.bs/tenant/tenantdataprotection/documents/Data-Protection-Bill-2025-20251222135142.pdf",
+     "date": "2025-12-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Insurance Act, 2025 (Official Gazette)",
+     "url": "http://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0067/2025-0067.pdf",
+     "date": "2025-08-28",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 35,
+   "summary": "The government's own 2026 to 2030 strategy says records, portals and telehealth exist but are fragmented, public clinics often use paper, and there are no interoperability standards. NHI providers share one EHR, and a public clinic EMR was still spreading from two pilot clinics in 2026.",
+   "detail": [
+    "NHIA providers use an eClinicalWorks EHR across its network. NHI had over 160,000 beneficiaries, 87 facilities and 140 providers in October 2023, per the health minister.",
+    "BahamasEMR+, based on OpenEMR, launched at the Gambier and Adelaide clinics in February 2025. The minister promised national rollout by end of 2025; by July 2026 it had spread to other public health clinics. Full rollout was not verified.",
+    "The 2021 assessment cited in the strategy found hospitals had patient, lab and imaging systems, but no electronic disease reporting.",
+    "A 2025 pharmacy bill would allow e-prescriptions. Whether it is in force was not verified."
+   ],
+   "sources": [
+    {
+     "title": "The Bahamas National Health Strategy (2026 to 2030) (Ministry of Health and Wellness)",
+     "url": "https://cdn.bahamas.gov.bs/tenant/tenantministryofhealth/documents/BHSHealthStrategy-20260331091916.pdf",
+     "date": "2026-03-31",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Health Insurance Authority Making Steady Progress Towards Universal Health Coverage (Bahamas Information Services)",
+     "url": "http://www.bahamas.gov.bs/news-press-release/national-health-insurance-authority-making-steady-progress-towards-universal-health-coverage",
+     "date": "2023-10-26",
+     "publisherClass": "official"
+    },
+    {
+     "title": "BahamasEMR+ (BEMR): One Year and Counting (ZNS Bahamas)",
+     "url": "https://znsbahamas.com/bahamasemr-bemr-one-year-and-counting/",
+     "date": "2026-07-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Prime Minister Philip Davis's Contribution to the Debate on the Compendium of Health Bills (Bahamas Information Services)",
+     "url": "http://www.bahamas.gov.bs/news-press-release/prime-minister-philip-davis-s-contribution-to-the-debate-on-the-compendium-of-health-bills",
+     "date": "2025-07-30",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 30,
+   "summary": "No shared record lets a treating clinician see care from other providers across the public and private systems. Clinicians see records only inside their own network, such as NHI's EHR or the public clinics' BahamasEMR+.",
+   "detail": [
+    "NHIA says its EHR can share information with other providers and that only staff directly involved in care may open it. It works within the NHI network.",
+    "BahamasEMR+ staff at pilot clinics said it made patient data easier to find, and that recordkeeping worked in Nassau and the Family Islands. It covers public health clinics.",
+    "The 2026 to 2030 strategy says the health system lacks integration and plans a national platform linking NHIA and public clinics. Emergency access rules across providers were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Electronic Health Record (EHR) for Providers (NHI Bahamas)",
+     "url": "https://www.nhibahamas.gov.bs/ehr/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "BahamasEMR+ (BEMR): One Year and Counting (ZNS Bahamas)",
+     "url": "https://znsbahamas.com/bahamasemr-bemr-one-year-and-counting/",
+     "date": "2026-07-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The Bahamas National Health Strategy (2026 to 2030) (Ministry of Health and Wellness)",
+     "url": "https://cdn.bahamas.gov.bs/tenant/tenantministryofhealth/documents/BHSHealthStrategy-20260331091916.pdf",
+     "date": "2026-03-31",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Research data under the 2003 Act needs no consent and has no opt-out, and is exempt from the access right. Two safeguard classes count: an ethics committee for regenerative therapy research, and criminal penalties for disclosing NHI data.",
+   "detail": [
+    "The 2003 Act lets research and statistics data be kept indefinitely (section 6) and exempts it from the access right if results do not identify anyone (section 9). It has no consent or opt-out rule for research.",
+    "The Longevity and Regenerative Therapies Act 2024 creates a national ethics review committee that approves regenerative therapies and their research.",
+    "The NHI Act 2025 makes unauthorised disclosure of NHI data an offence. The 2025 data protection law adds research rules but is not in force. The strategy says the research policy is only a draft."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection (Privacy of Personal Information) Act, 2003 (Lex Bahamas copy)",
+     "url": "https://www.lexbahamas.com/Data%20Protection%202003.pdf",
+     "date": "2003-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Longevity and Regenerative Therapies Act, 2024 (Official Gazette)",
+     "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2024/2024-0051/2024-0051_1.pdf",
+     "date": "2024-07-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Insurance Act, 2025 (Official Gazette)",
+     "url": "http://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0067/2025-0067.pdf",
+     "date": "2025-08-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Bahamas National Health Strategy (2026 to 2030) (Ministry of Health and Wellness)",
+     "url": "https://cdn.bahamas.gov.bs/tenant/tenantministryofhealth/documents/BHSHealthStrategy-20260331091916.pdf",
+     "date": "2026-03-31",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "No rules for AI in care, and no medical device regulation covering AI software, were found. In June 2026 the government said a national AI committee would draft the country's first AI law and a permanent AI authority.",
+   "detail": [
+    "On 15 June 2026 the Minister of Innovation said a national AI committee would help draft the first AI legislation, which would create a permanent AI Authority. No draft or timetable was published.",
+    "The 2026 to 2030 health strategy plans to work with PAHO to assess responsible use of AI. It sets no binding rules.",
+    "In February 2026 PAHO's Director praised advances in health information systems, including the use of AI. No national regulator or approval route for AI medical devices was found."
+   ],
+   "sources": [
+    {
+     "title": "Innovation Ministry to Establish a National AI Committee to Draft the Country's First AI Legislation (Bahamas Information Services)",
+     "url": "http://www.bahamas.gov.bs/news-press-release/innovation-ministry-to-establish-a-national-ai-committee-to-draft-the-country-s-first-ai-legislation",
+     "date": "2026-06-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The Bahamas National Health Strategy (2026 to 2030) (Ministry of Health and Wellness)",
+     "url": "https://cdn.bahamas.gov.bs/tenant/tenantministryofhealth/documents/BHSHealthStrategy-20260331091916.pdf",
+     "date": "2026-03-31",
+     "publisherClass": "official"
+    },
+    {
+     "title": "PAHO/WHO and The Bahamas sign first Country Cooperation Strategy (PAHO)",
+     "url": "https://www.paho.org/en/news/17-2-2026-pahowho-and-bahamas-sign-first-country-cooperation-strategy-paho-director-meets",
+     "date": "2026-02-17",
+     "publisherClass": "intergov"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "partial",
+  "pharmacy": "unknown",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "NHI providers use one EHR and must file claims electronically. Public clinics are moving to BahamasEMR+. Hospitals run separate systems, with no interoperability standards. E-prescription and research links not verified.",
+ "laws": [
+  {
+   "name": "Data Protection (Privacy of Personal Information) Act, 2003 (Ch. 324A)",
+   "level": "National",
+   "year": "2003",
+   "what": "Law in force: health is sensitive data, copy within 40 days, fines up to $100,000.",
+   "url": "https://www.lexbahamas.com/Data%20Protection%202003.pdf"
+  },
+  {
+   "name": "Data Protection Act, 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Passed replacement: consent for health data, 72-hour breach notice, marketing consent. Not yet in force.",
+   "url": "https://cdn.bahamas.gov.bs/tenant/tenantdataprotection/documents/Data-Protection-Bill-2025-20251222135142.pdf"
+  },
+  {
+   "name": "National Health Insurance Act, 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Providers must record care in NHIA's EHR; medical history shared only with consent; confidentiality offences.",
+   "url": "http://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0067/2025-0067.pdf"
+  },
+  {
+   "name": "Longevity and Regenerative Therapies Act, 2024",
+   "level": "National",
+   "year": "2024",
+   "what": "Creates a board and an ethics review committee that approves regenerative therapies and research.",
+   "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2024/2024-0051/2024-0051_1.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-07",
+   "headline": "Health minister promises national electronic medical records in public clinics by end of 2025",
+   "source": "The Tribune",
+   "url": "https://www.tribune242.com/news/2025/oct/07/darville-bahamas-electronic-medical-records-will-be-rolled-out-by-years-end/",
+   "why": "One record per patient across public clinics and hospitals would end paper files."
+  },
+  {
+   "date": "2025-11-11",
+   "headline": "MPs debate data protection bill, reported passed by the lower house",
+   "source": "Biometric Update",
+   "url": "https://www.biometricupdate.com/202511/bahamas-mps-examine-new-data-protection-bill-with-novelties",
+   "why": "The bill gives patients stronger rights over health records once in force."
+  },
+  {
+   "date": "2026-06-16",
+   "headline": "Government to set up AI committee to draft first AI law",
+   "source": "Bahamas Information Services",
+   "url": "http://www.bahamas.gov.bs/news-press-release/innovation-ministry-to-establish-a-national-ai-committee-to-draft-the-country-s-first-ai-legislation",
+   "why": "Clinical AI has no rules today; a future AI authority could set them."
+  },
+  {
+   "date": "2026-07-02",
+   "headline": "Public clinic EMR marks first year, with nurses reporting gaps",
+   "source": "ZNS Bahamas",
+   "url": "https://znsbahamas.com/bahamasemr-bemr-one-year-and-counting/",
+   "why": "Shows the public clinic record is still spreading beyond its pilot sites."
+  },
+  {
+   "date": "2026-08-21",
+   "headline": "Commissioner says breaches are underreported; new data law still not in force",
+   "source": "The Tribune",
+   "url": "https://www.tribune242.com/news/2026/aug/21/data-breaches-underreported-as-public-bypasses-regulator/",
+   "why": "Patients still rely on the 2003 law, with no breach notice duty."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,353 @@
+{
+ "iso3": "OMN",
+ "name": "Oman",
+ "region": "Middle East",
+ "controlModel": "State",
+ "headline": "Oman links every Ministry of Health record by civil number and shows it in the Shifa app, but patients get no opt-out.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "The Ministry of Health's Shifa app shows medical records, history, medicines, tests and vaccinations from all ministry facilities. The data law's free copy right may not reach state hospitals (not verified), and an official report costs 3 to 5 rials.",
+   "detail": [
+    "Shifa lists personal data, medical records, medical history, medicines, tests, immunizations, vital signs and referrals among its services. Al Roya reported in 2023 that it shows all data recorded in the Shifa 3 Plus system used in all ministry hospitals and health centres.",
+    "Only 172,279 people had registered by April 2023, per the ministry's e-health director. A current user figure was not verified, so we do not treat Shifa as used by most residents.",
+    "The Personal Data Protection Law gives a right to a copy (Article 11). The regulation makes requests free with a 45-day reply. But Article 3 exempts state bodies acting within their legal powers, so whether this covers ministry hospitals is not verified.",
+    "A formal medical report from a ministry hospital costs 3 rials for citizens and 5 for residents. It takes 15 days and requires at least two visits, the last within 6 months."
+   ],
+   "sources": [
+    {
+     "title": "تطبيق شفاء (وزارة الصحة)",
+     "url": "https://www.moh.gov.om/ar/%D8%A3%D8%AE%D8%B1%D9%89/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%B4%D9%81%D8%A7%D8%A1/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "172.2 ألف مسجل في تطبيق شفاء يستفيدون من 16 خدمة (الرؤية)",
+     "url": "https://alroya.om/post/321167/",
+     "date": "2023-04-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Royal Decree 6/2022 Issuing the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2022/rd20220006/",
+     "date": "2022-02-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Get Medical Report (Gov.om, Ministry of Health)",
+     "url": "https://gov.om/en/w/get-a-medical-report",
+     "date": "2026-09-13",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Al Shifa links every ministry record to the civil number by default, and we found no opt-out and no patient-visible access log. The data law requires explicit consent, but state bodies acting within their legal powers are exempt.",
+   "detail": [
+    "By 2015 the ministry reported that Al Shifa, the national electronic health record, had linked all patient files across ministry facilities through the unified civil number.",
+    "The Personal Data Protection Law requires explicit consent and lets people withdraw it (Articles 10 and 11). Article 3 exempts state bodies acting within their legal powers, and the 2026 amendment kept that exemption.",
+    "Shifa protects the profile with a password. A patient opt-out from sharing, or a log of who opened the record, was not verified on any official page."
+   ],
+   "sources": [
+    {
+     "title": "NEHR Linked All Patient's Files in All Different Health Institutions (Ministry of Health)",
+     "url": "https://moh.gov.om/en/media-center/news/nehr-linked-all-patient-s-files-in-all-different-health-institutions/",
+     "date": "2015-05-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Royal Decree 6/2022 Issuing the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2022/rd20220006/",
+     "date": "2022-02-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Royal Decree 68/2026 Amending Some Provisions of the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2026/rd20260068/",
+     "date": "2026-09-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "تطبيق شفاء (وزارة الصحة)",
+     "url": "https://www.moh.gov.om/ar/%D8%A3%D8%AE%D8%B1%D9%89/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%B4%D9%81%D8%A7%D8%A1/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 50,
+   "summary": "Health data may be processed only with a ministry permit, breaches must be reported within 72 hours, and fines reach 20,000 rials. The regulator is a ministry, state bodies are exempt, and no health-sector enforcement was found.",
+   "detail": [
+    "Article 5 of the 2022 law bans processing health, genetic and biometric data without a permit from the Ministry of Transport, Communications and IT. Violations carry fines of 15,000 to 20,000 rials.",
+    "The 2024 executive regulation requires breach notice to the ministry within 72 hours, according to Dentons. Transfers abroad need explicit consent and an adequacy assessment.",
+    "The 2026 amendment widened the health data definition to cover data about health care received and requires erasure once the purpose ends.",
+    "We found no health-sector decisions or published health data breaches, so this score rests on the general law. The regulator is a ministry, not an independent authority."
+   ],
+   "sources": [
+    {
+     "title": "Royal Decree 6/2022 Issuing the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2022/rd20220006/",
+     "date": "2022-02-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Executive Regulations on the Oman Personal Data Protection Law (Dentons)",
+     "url": "https://www.dentons.com/en/insights/articles/2024/march/20/executive-regulations-on-the-oman-personal-data-protection-law",
+     "date": "2024-03-20",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Royal Decree 68/2026 Amending Some Provisions of the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2026/rd20260068/",
+     "date": "2026-09-03",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "The data law requires explicit consent before any marketing message and a permit before anyone processes health data. No rule on selling de-identified health data, data brokers or consumer health apps was found.",
+   "detail": [
+    "Article 22, as amended in 2026, requires the data subject's explicit consent before sending advertising or marketing material. The regulation adds that sending must stop on request.",
+    "The permit rule for health data (Article 5) applies to private companies, and breaking it carries the law's top fine band of 15,000 to 20,000 rials.",
+    "Data that cannot identify a person falls outside the consent rules for research. No ban on sale of de-identified health data, and no rule for health apps, was verified."
+   ],
+   "sources": [
+    {
+     "title": "Royal Decree 6/2022 Issuing the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2022/rd20220006/",
+     "date": "2022-02-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Royal Decree 68/2026 Amending Some Provisions of the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2026/rd20260068/",
+     "date": "2026-09-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Executive Regulations on the Oman Personal Data Protection Law (Dentons)",
+     "url": "https://www.dentons.com/en/insights/articles/2024/march/20/executive-regulations-on-the-oman-personal-data-protection-law",
+     "date": "2024-03-20",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 58,
+   "summary": "Al Shifa connects every Ministry of Health hospital and clinic through the civil number, and in 2025 the ministry reported work to link 65 percent of facilities to imaging or Shifa systems. Private and university hospitals are only starting to join.",
+   "detail": [
+    "Since 2015 Al Shifa has linked all patient files in ministry facilities. Shifa 3+ upgrades in 2025 covered primary care programmes, clinic and pharmacy automation, the Omani drug guide and chronic disease registries.",
+    "In 2025 the ministry reported work to link 65 percent of facilities to PACS or Shifa, with a 90 percent target. Integration with some private facilities through the FHIR standard had started.",
+    "The health minister told the Shura Council in April 2026 that Shifa will become a separate government entity to unify data, including the private sector and the university hospital.",
+    "Private insurance claims run through the Dhamani platform, which processed 3.3 million claims by May 2026. The Financial Services Authority counted 650,000 people with health insurance."
+   ],
+   "sources": [
+    {
+     "title": "NEHR Linked All Patient's Files in All Different Health Institutions (Ministry of Health)",
+     "url": "https://moh.gov.om/en/media-center/news/nehr-linked-all-patient-s-files-in-all-different-health-institutions/",
+     "date": "2015-05-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "الصحة: التوسع في أتمتة الخدمات وإطلاق عيادات افتراضية جديدة (جريدة عمان)",
+     "url": "https://www.omandaily.om/%D8%B9%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%8A%D9%88%D9%85/na/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%B9-%D9%81%D9%8A-%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%88%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
+     "date": "2026-03-14",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Shifa app to be integrated with the private sector (Oman Observer)",
+     "url": "https://www.omanobserver.om/article/1188565/oman/health/shifa-app-to-be-integrated-with-the-private-sector",
+     "date": "2026-04-26",
+     "publisherClass": "news"
+    },
+    {
+     "title": "منصة ضماني تنجز أكثر من 11.2 مليون معاملة إلكترونية (وكالة الأنباء العمانية)",
+     "url": "https://www.omannews.gov.om/topics/ar/7/show/467294",
+     "date": "2026-05-06",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 56,
+   "summary": "Clinicians can view patient data and follow cases across any Ministry of Health facility through Shifa. Records held by private hospitals and the university hospital were not yet linked as of April 2026.",
+   "detail": [
+    "The Shifa system lets medical staff view patient data, follow the patient's condition in any ministry facility and read medical reports.",
+    "The minister said in April 2026 that the university hospital and private sector would be linked, which means clinicians there cannot yet see the shared record.",
+    "Emergency access rules and any restriction of sensitive records inside Shifa were not verified."
+   ],
+   "sources": [
+    {
+     "title": "تطبيق شفاء.. منصة لتسهيل الوصول للخدمات الصحية (Gov.om)",
+     "url": "https://gov.om/w/shifa-app-a-platform-to-facilitate-access-to-healthcare-services",
+     "date": "2025-02-23",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Shifa app to be integrated with the private sector (Oman Observer)",
+     "url": "https://www.omanobserver.om/article/1188565/oman/health/shifa-app-to-be-integrated-with-the-private-sector",
+     "date": "2026-04-26",
+     "publisherClass": "news"
+    },
+    {
+     "title": "NEHR Linked All Patient's Files in All Different Health Institutions (Ministry of Health)",
+     "url": "https://moh.gov.om/en/media-center/news/nehr-linked-all-patient-s-files-in-all-different-health-institutions/",
+     "date": "2015-05-11",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Researchers may use personal data without consent if published results cannot identify anyone, and ministry studies need approval from a central research committee. Patients may refuse to join a study, but there is no opt-out from secondary use.",
+   "detail": [
+    "Article 3 of the data law, kept in the 2026 amendment, excludes research by authorised bodies from the law if published results carry no reference to the person.",
+    "Ministry of Health research needs approval from a ministry research committee, with ethical permission requested through an online system at the National Center for Health Research.",
+    "The national patient rights document gives the right to accept or refuse research and to withdraw without affecting care. Misuse of health data without a permit carries fines of 15,000 to 20,000 rials."
+   ],
+   "sources": [
+    {
+     "title": "Royal Decree 68/2026 Amending Some Provisions of the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2026/rd20260068/",
+     "date": "2026-09-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Center for Health Research (Ministry of Health)",
+     "url": "https://moh.gov.om/en/hospitals-directorates/directorates-and-centers-at-hq/national-center-for-health-research/",
+     "date": "2026-06-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Document of Patient Rights and Responsibilities (Ministry of Health)",
+     "url": "https://moh.gov.om/media/hjxfqpoj/d8b62e21-161e-03b9-0517-6e57c065b8c1.pdf",
+     "date": "2018-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Royal Decree 6/2022 Issuing the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2022/rd20220006/",
+     "date": "2022-02-09",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 42,
+   "summary": "Oman has a general national AI policy from 2025 and, since September 2026, a legal right to object to automated decisions with human review. We found no rules for AI medical devices or for AI used in care.",
+   "detail": [
+    "The ministry responsible for IT published a public policy on safe and ethical use of AI systems on 1 April 2025. It is general, not health-specific.",
+    "The 2026 amendment to the data law requires safeguards for automated processing and lets people object to automated decisions, which must then be reviewed by a human.",
+    "Circular 161/2025 began registration of high-risk medical devices. A vendor summary says files include software validation; AI-specific change control was not verified."
+   ],
+   "sources": [
+    {
+     "title": "السياسة العامة للاستخدام الآمن والأخلاقي لأنظمة الذكاء الاصطناعي (وزارة النقل والاتصالات وتقنية المعلومات)",
+     "url": "https://mtcit.gov.om/ar/3/8/73/291",
+     "date": "2025-04-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Royal Decree 68/2026 Amending Some Provisions of the Personal Data Protection Law (Decree translation)",
+     "url": "https://decree.om/2026/rd20260068/",
+     "date": "2026-09-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Cir.No.161 of 2025, Registration of High Risk Medical Devices (MOH Drug Safety Center)",
+     "url": "https://moh.gov.om/en/ministry/drug-safety-center-circulars/cirno161-of-2025-regarding-commencement-of-registration-of-high-risk-medical-devices-supplies-manufacturers-their-products/",
+     "date": "2025-07-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Oman MOH Medical Device Registration: Circular 161/2025 (Elendi Labs)",
+     "url": "https://elendilabs.com/en/articles/omn-moh-high-risk-medical-device-registration-circular-161-2025",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Al Shifa links all ministry clinics, hospitals, labs and pharmacies. Private and university hospitals are only starting to connect. Private insurance claims run separately through Dhamani; 650,000 people held health insurance in 2026.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Law (Royal Decree 6/2022)",
+   "level": "National",
+   "year": "2022",
+   "what": "Explicit consent, rights to a copy and erasure, ministry permit for health data, breach notice, fines.",
+   "url": "https://decree.om/2022/rd20220006/"
+  },
+  {
+   "name": "Executive Regulation of the PDPL (Ministerial Decision 34/2024)",
+   "level": "National",
+   "year": "2024",
+   "what": "Free requests answered within 45 days, 72-hour breach notice, permit procedure, transfer conditions.",
+   "url": "https://www.dentons.com/en/insights/articles/2024/march/20/executive-regulations-on-the-oman-personal-data-protection-law"
+  },
+  {
+   "name": "PDPL amendments (Royal Decree 68/2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "Wider health data definition, right to object to automated decisions, erasure duty, new consent exceptions.",
+   "url": "https://decree.om/2026/rd20260068/"
+  },
+  {
+   "name": "MOH Drug Safety Center Circular 161/2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Starts mandatory registration of high-risk medical device manufacturers and products.",
+   "url": "https://moh.gov.om/en/ministry/drug-safety-center-circulars/cirno161-of-2025-regarding-commencement-of-registration-of-high-risk-medical-devices-supplies-manufacturers-their-products/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-09-10",
+   "headline": "Ministry details amendments to the Personal Data Protection Law",
+   "source": "Al Shabiba",
+   "url": "https://shabiba.com/a/210387",
+   "why": "New erasure duty and automated-processing rules apply to health data controllers."
+  },
+  {
+   "date": "2026-05-06",
+   "headline": "Dhamani insurance platform passes 3.3 million processed claims",
+   "source": "Oman News Agency",
+   "url": "https://www.omannews.gov.om/topics/ar/7/show/467294",
+   "why": "Insured patients' claims build a unified medical record held outside the public system."
+  },
+  {
+   "date": "2026-04-26",
+   "headline": "Health minister says Shifa will unify data with private hospitals",
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/article/1188565/oman/health/shifa-app-to-be-integrated-with-the-private-sector",
+   "why": "Patients treated privately could get one record; consent rules for this were not stated."
+  },
+  {
+   "date": "2026-03-14",
+   "headline": "Ministry reports Shifa upgrades, FHIR links and AI eye screening",
+   "source": "Oman Daily",
+   "url": "https://www.omandaily.om/%D8%B9%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%8A%D9%88%D9%85/na/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%B9-%D9%81%D9%8A-%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%88%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
+   "why": "Over 25,000 diabetic patients were screened with AI, with no clinical-AI rules found."
+  },
+  {
+   "date": "2025-10-08",
+   "headline": "Oman launches UNESCO-backed rights-based AI governance initiative",
+   "source": "Oman Observer (ONA)",
+   "url": "https://www.omanobserver.om/article/1177793/oman/community/oman-launches-initiative-for-ethical-ai-governance",
+   "why": "National AI rules are still being prepared, including for public services like health."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

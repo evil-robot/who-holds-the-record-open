@@ -33,7 +33,7 @@ const AUTHORS = [
 ];
 const later = (a, b) => (String(a) > String(b) ? String(a) : String(b));
 
-function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS, esc, asOf, SITE, theN, MODEL_DESC, NOINDEX, NAME }) {
+function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS, esc, asOf, SITE, theN, MODEL_DESC, NOINDEX, NAME, likely = () => '' }) {
   const med = xs => { const s = [...xs].sort((a, b) => a - b), m = (s.length - 1) / 2; return Math.round((s[Math.floor(m)] + s[Math.ceil(m)]) / 2); };
   const eu = C.filter(d => EU27.has(d.iso3));
   const euMed = Object.fromEntries(CATS.map(c => [c.k, med(eu.map(d => d.categories[c.k].score))]));
@@ -59,19 +59,19 @@ function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS
     const b = bandOf(d.overall), nextBand = BANDS.find(x => x.lo > d.overall);
     const laws = (d.laws || []).slice(0, 3).map(l => `<li>${esc(l.name)}${l.year ? ` (${esc(String(l.year))})` : ''}: ${esc(l.what || '')}</li>`).join('');
     const stories = (d.stories || []).slice(0, 2).map(s => `<li><span class="y">${esc(s.date)} · ${esc(s.source)}</span> ${esc(s.headline)}</li>`).join('');
-    const dti = d.dti && !d.dti.provisional ? `${d.dti.dti} · ${d.dti.tier}` : 'pending';
+    const dti = d.dti && !d.dti.provisional ? `${d.dti.dti} · ${d.dti.tierLabel}` : 'pending';
     // Computed lede: every figure comes from the country file and the index, with the data year.
     const yr = String(d.asOf || asOf).slice(0, 4), tn = theN(d), url = `${SITE}brief/${d.iso3}/`;
     const gaps = CATS.map(c => ({ c, v: d.categories[c.k].score, m: DIST[c.k].med, g: d.categories[c.k].score - DIST[c.k].med }));
     const best = [...gaps].sort((a, b) => b.g - a.g)[0], worst = [...gaps].sort((a, b) => a.g - b.g)[0];
     const gapTxt = (x, long) => `${lcn(x.c)} (${x.v}, ${long ? `against a median of ${x.m} across ${N} countries` : `median ${x.m}`})`;
     // Answer passage: self-contained and quotable (about 50 words); the detail passage carries strongest and weakest rights.
-    const lede = `In ${yr}, ${tn} scores ${d.overall} of 100 on a person's right to see, control and share their own health record: rank ${rankLabel(d.rank)} of ${N} countries, in the ${b.n} band (${b.lo} to ${b.hi}). Who holds the keys: ${d.controlModel}. Source: ${NAME}, SuperTruth, data as of ${d.asOf || asOf}.`;
+    const lede = `In ${yr}, ${tn} scores ${d.overall} of 100 on a person's right to see, control and share their own health record: rank ${rankLabel(d.rank)} of ${N} countries${likely(d.iso3) ? ` (likely range ${likely(d.iso3)})` : ''}, in the ${b.n} band (${b.lo} to ${b.hi}). Who holds the keys: ${d.controlModel}. Source: ${NAME}, SuperTruth, data as of ${d.asOf || asOf}.`;
     const detail = `${MODEL_DESC[d.controlModel] || ''} ` +
       `${best.g > 0 ? `Its strongest right against the other countries is ${gapTxt(best, true)}` : `No right sits above the ${N}-country median; the closest is ${gapTxt(best, true)}`}; ${worst.g < 0 ? `its weakest is ${gapTxt(worst)}.` : `no right falls below the median, and the closest to it is ${gapTxt(worst)}.`}`;
     const srcs = []; const seen = new Set();
     for (const c of CATS) for (const x of (d.categories[c.k].sources || [])) if (x.url && !seen.has(x.url)) { seen.add(x.url); srcs.push({ ...x, cat: c.n }); }
-    const quote = `In ${yr}, ${tn} scored ${d.overall} of 100 on a person's right to see, control and share their own health record, rank ${rankLabel(d.rank)} of ${N} countries (${b.n}; who holds the keys: ${d.controlModel}). Source: ${NAME}, SuperTruth, data as of ${d.asOf || asOf}, ${url}`;
+    const quote = `In ${yr}, ${tn} scored ${d.overall} of 100 on a person's right to see, control and share their own health record, rank ${rankLabel(d.rank)} of ${N} countries${likely(d.iso3) ? ` (likely range ${likely(d.iso3)})` : ''} (${b.n}; who holds the keys: ${d.controlModel}). Source: ${NAME}, SuperTruth, data as of ${d.asOf || asOf}, ${url}`;
     d._quote = quote; d._lede = lede; d._detail = detail;
     const i = ordered.findIndex(x => x.iso3 === d.iso3);
     const nbrs = [ordered[i - 1], ordered[i + 1]].filter(Boolean).filter(x => !peers.some(p => p.iso3 === x.iso3));
@@ -87,11 +87,10 @@ function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS
         isPartOf: { "@type": "Dataset", name: NAME, url: SITE }, license: "https://creativecommons.org/licenses/by/4.0/", isAccessibleForFree: true },
       { "@type": "BreadcrumbList", itemListElement: [
         { "@type": "ListItem", position: 1, name: NAME, item: SITE },
-        { "@type": "ListItem", position: 2, name: "Ranking", item: `${SITE}#ranking` },
-        { "@type": "ListItem", position: 3, name: d.name, item: url }] }] };
+        { "@type": "ListItem", position: 2, name: d.name, item: url }] }] };
     const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc((title + ' | SuperTruth').length > 60 ? title : title + ' | SuperTruth')}</title>${NOINDEX ? '<meta name="robots" content="noindex,nofollow">' : ''}
-<meta name="description" content="${esc(Cap(tn))} scores ${d.overall} of 100 on a person's right to see, control and share their own health record (${yr}; rank ${rankLabel(d.rank)} of ${N}, ${b.n}). ${esc(d.headline)}">
+<meta name="description" content="${esc(Cap(tn))} scores ${d.overall} of 100 on health record rights (${yr}; rank ${rankLabel(d.rank)} of ${N}, ${b.n}). Who holds the keys: ${d.controlModel}. Every source cited.">
 <meta property="og:type" content="article"><meta property="og:site_name" content="SuperTruth"><meta property="og:title" content="Who holds the health record in ${esc(tn)}? ${d.overall}/100"><meta property="og:description" content="${esc(d.headline)}">
 <meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}assets/og/${d.iso3}.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(d.name)}: ${d.overall} of 100, rank ${rankLabel(d.rank)} of ${N}, ${b.n}. Who Holds the Record by SuperTruth."><meta name="twitter:card" content="summary_large_image">
 <meta property="article:published_time" content="${PUBLISHED}"><meta property="article:modified_time" content="${later(lastmod[d.iso3], PUBLISHED)}">
@@ -100,7 +99,7 @@ function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS
 <style>
 @font-face{font-family:Inter;font-weight:100 900;src:url(../../assets/fonts/inter-latin.woff2) format("woff2")}
 @font-face{font-family:"JetBrains Mono";font-weight:100 800;src:url(../../assets/fonts/jetbrains-mono-latin.woff2) format("woff2")}
-@page{size:A4;margin:10mm}
+@page{margin:8mm}
 *{box-sizing:border-box}body{margin:0;font:400 11.5px/1.4 Inter,system-ui,sans-serif;color:#111827;background:#fff}
 .page{max-width:780px;margin:0 auto;padding:24px}
 .top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #E5E7EB;padding-bottom:10px}
@@ -128,14 +127,15 @@ blockquote{margin:4px 0;padding-left:8px;border-left:2px solid #E5E7EB;color:#37
 .srcs{font-size:12px;columns:2;column-gap:24px}.srcs li{break-inside:avoid}.srcs a{color:#0F766E;word-break:break-word}
 .cmp{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;padding:0}.cmp a,.foot a,.contact a{color:#0F766E}
 @media screen{body{font-size:13px}.top .t,.key,.foot,.contact,th .w,.y,td.pv{font-size:12px}.f span{font-size:12px}}
-@media print{.print,.noprint{display:none}.page{padding:0;zoom:.88}}
-@media(max-width:640px){.facts{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}dl{grid-template-columns:1fr}}
+@media print{.print,.noprint{display:none}.page{padding:0;zoom:.74}h2{margin:6px 0 2px}p{margin:3px 0}.answer,.lead{margin:3px 0}.facts{margin:6px 0 8px}.contact{margin-top:8px;padding:6px 10px}.foot{margin-top:8px;padding-top:4px}}
+.tw{max-width:100%}
+@media(max-width:640px){.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}th{white-space:normal}.facts{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}dl{grid-template-columns:1fr}}
 </style><script src="../../assets/analytics.js" defer></script></head><body><button class="print" onclick="window.print()">Print or save as PDF</button><div class="page">
 <div class="top"><a href="../../"><img src="../../assets/supertruth-logo-dark.svg" alt="Who Holds the Record by SuperTruth: back to the index" width="109" height="20"></a><span class="t">${esc(NAME)} · country brief · data as of ${d.asOf || asOf}</span></div>
 <nav class="crumbs noprint" aria-label="Breadcrumb"><a href="../../">${esc(NAME)}</a> › <a href="../../#ranking">Ranking</a> › <span aria-current="page">${esc(d.name)}</span></nav>
 <h1>Who holds the health record in ${esc(tn)}?</h1>
 <p class="answer">${esc(lede)}</p>
-<p class="lead">${esc(detail)}</p>
+<p class="lead noprint">${esc(detail)}</p>
 <p class="lead">${esc(d.headline)}</p>
 <p class="y">Published <time datetime="${PUBLISHED}">${LONGDATE(PUBLISHED)}</time> · updated <time datetime="${later(lastmod[d.iso3], PUBLISHED)}">${LONGDATE(later(lastmod[d.iso3], PUBLISHED))}</time> · data as of ${d.asOf || asOf}${/^low$/i.test(d.confidence || '') ? ' · confidence in this score is low: the public evidence is thin' : ''} · research tool, not legal advice</p>
 <div class="facts">
@@ -153,8 +153,8 @@ blockquote{margin:4px 0;padding-left:8px;border-left:2px solid #E5E7EB;color:#37
 <p>Control and consent scores ${d.categories.control.score} of 100 in ${esc(tn)}, against a median of ${DIST.control.med} across ${N} countries. ${esc(d.categories.control.summary)}</p>
 </div></div>
 <h2>Eight rights, against ${peers.map(p => esc(p.name)).join(', ')} and the EU</h2>
-<table><tbody>${rows}</tbody></table>
-<p class="key">Black dot: ${esc(d.name)}. Hollow dots: ${peers.map(p => esc(p.name)).join(', ')} (scores on the right, same order). Grey line: median of all ${N} countries. Dashed teal line: EU median. Overall: ${esc(d.name)} ${d.overall}, EU median ${euOverall}. Scores move in steps of about 5; gaps of 4 or less are ties.</p>
+<div class="tw"><table><tbody>${rows}</tbody></table></div>
+<p class="key">Black dot: ${esc(d.name)}. Hollow dots: ${peers.map(p => esc(p.name)).join(', ')} (scores on the right, same order). Grey line: median of all ${N} countries. Dashed teal line: EU median. Overall: ${esc(d.name)} ${d.overall}, EU median ${euOverall}. Scores move in steps of about 5; read the rank with its likely range.</p>
 <div class="two"><div>
 <h2>What would ${esc(tn)} need to change to score higher?</h2>
 <p>${nextBand ? `${esc(Cap(tn))} sits in ${b.n} (${b.lo} to ${b.hi}); ${nextBand.n} starts at ${nextBand.lo}.` : ''} The two rights furthest below the ${N}-country median, weighted, are ${weakest.map(c => `${lcn(c)} (${d.categories[c.k].score}, median ${DIST[c.k].med})`).join(' and ')}. The published rubric reads:</p>
@@ -163,6 +163,7 @@ blockquote{margin:4px 0;padding-left:8px;border-left:2px solid #E5E7EB;color:#37
 </div><div>
 <h2>Strain and split <span class="y">context, not scored</span></h2>
 <dl><dt>Doctors per 10,000</dt><dd>${val(I.doctorsPer10k)}</dd><dt>Nurses and midwives per 10,000</dt><dd>${val(I.nursesMidwivesPer10k)}</dd><dt>Private insurance + out-of-pocket</dt><dd>${val(I.vhiPlusOopShareCHE, '%')}</dd><dt>Record reaches private care?</dt><dd>${rs.class === 'unknown' ? '<span class="unk">unknown</span>' : esc(rs.class)}</dd></dl>
+${I.compulsoryPrivateInsuranceShareCHE && I.compulsoryPrivateInsuranceShareCHE.value >= 1 ? `<p class="key">Compulsory private insurance, counted separately: ${(+I.compulsoryPrivateInsuranceShareCHE.value).toFixed(1)}% of health spending (${I.compulsoryPrivateInsuranceShareCHE.year}).</p>` : ''}
 ${rs.quote ? `<blockquote>"${esc(rs.quote)}"</blockquote>` : ''}
 <h2>Published stories</h2><ul>${stories || '<li class="unk">none published in the last two years</li>'}</ul>
 </div></div>
@@ -172,7 +173,7 @@ ${rs.quote ? `<blockquote>"${esc(rs.quote)}"</blockquote>` : ''}
 <h2>Cite this brief</h2>
 <p class="quote">${esc(quote)}</p>
 <h2 id="sources">Sources for ${esc(tn)} (${srcs.length})</h2>
-<ul class="srcs">${srcs.map(x => `<li><a href="${esc(x.url)}" rel="nofollow noopener">${esc(x.title || x.url)}</a> <span class="y">${esc(x.cat)}${x.date && !/n\.?d|not verified/i.test(x.date) ? ` · ${esc(x.date)}` : ''}</span></li>`).join('')}</ul>
+<ul class="srcs">${srcs.map(x => `<li><a href="${esc(x.url)}" rel="noopener">${esc(x.title || x.url)}</a> <span class="y">${esc(x.cat)}${x.date && !/n\.?d|not verified/i.test(x.date) ? ` · ${esc(x.date)}` : ''}</span></li>`).join('')}</ul>
 </div>
 <div class="contact"><img src="../../assets/supertruth-icon.svg" alt="" width="22" height="22"><div><b>SuperTruth Inc.</b> · 24 S. 24th St., Philadelphia, PA 19103, USA · <a href="tel:+12159184140" style="color:inherit;text-decoration:none">+1 215 918 4140</a> · supertruth.ai<br>Questions, corrections or a briefing: supertruth.ai/on-the-record#contact · Full index: <a href="../../">whoholds.supertruth.ai</a></div></div>
 <div class="foot">OECD: Organisation for Economic Co-operation and Development (38 mostly high-income countries). DTI: SuperTruth&#39;s Data Trust Index, grading the evidence behind each score. Everything here comes from public information: laws, government and regulator pages, court decisions, published news, WHO, OECD and World Bank data. Full sources: <a href="#sources">${url}#sources</a>. SuperTruth built this index and sells health data verification products; no one paid to be included. Research tool, not legal advice. Text and scores CC BY 4.0.</div>

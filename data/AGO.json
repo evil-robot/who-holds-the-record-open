@@ -1,0 +1,300 @@
+{
+ "iso3": "AGO",
+ "name": "Angola",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Angola has a strict 2011 data law with an active regulator, but no national health record, patient portal or record-sharing choices.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Article 26 of the 2011 data law gives a free right to learn what data is held, but health data is seen only through a doctor the patient chooses. There is no fixed deadline and no national patient portal.",
+   "detail": [
+    "Article 26 of Lei 22/11 lets a person obtain, 'without restrictions, delays or excessive costs', confirmation of processing, the purposes, recipients and the specific data held. The law sets 60 working days for corrections, but we found no fixed deadline for access.",
+    "Article 26(7) says access to health, sex life and genetic data is exercised through a doctor chosen by the patient or their legal representative. That intermediary rule limits direct access to one's own record.",
+    "The 1992 health basis law (Lei 21-B/92, art. 13) gives users a right to be informed about their condition and treatment options. It does not set a right to a copy of the clinical file.",
+    "We found no national or provider patient portal. Score: base 45, minus 5 for no deadline, minus 5 for the doctor-only route."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 22/11, de 17 de Junho, Lei da Protecção de Dados Pessoais (Diário da República I Série n.º 114), arts. 5, 9, 13, 14, 18, 19, 24, 26-28, 30-34, 38, 44, 51, 55",
+     "url": "https://apd.ao/fotos/frontend_1/editor2/110617_lei_22-11_de_17_junho-proteccao_dados_pessoais.pdf",
+     "date": "2011-06-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 21-B/92, Lei de Bases do Sistema Nacional de Saúde, arts. 12 and 13 (Angolex)",
+     "url": "https://angolex.com/paginas/leis/lei-de-bases-do-sistema-nacional-de-saude-21bb-92a.html",
+     "date": "1992-08-28",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data needs written consent or regulator authorisation, but care, diagnosis and health service management are exempt. We found no opt-out from record sharing and no patient-visible access log.",
+   "detail": [
+    "Article 14 of Lei 22/11 treats health and genetic data as sensitive. Processing needs express written consent and/or authorisation by the Agência de Protecção de Dados (APD).",
+    "Article 14(2) allows processing without consent for preventive medicine, diagnosis, agreed care, management and statistics of health services, and emergencies. Processing must be done by a registered health professional bound by secrecy.",
+    "Article 27 gives a general right to object on serious grounds. Article 24 requires APD authorisation to interconnect databases. We found no tool that lets a patient refuse sharing or see who opened a record."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 22/11, de 17 de Junho, Lei da Protecção de Dados Pessoais (Diário da República I Série n.º 114), arts. 5, 9, 13, 14, 18, 19, 24, 26-28, 30-34, 38, 44, 51, 55",
+     "url": "https://apd.ao/fotos/frontend_1/editor2/110617_lei_22-11_de_17_junho-proteccao_dados_pessoais.pdf",
+     "date": "2011-06-17",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 52,
+   "summary": "No health-sector enforcement was found, so this is scored on the general law: health is sensitive data and the regulator has fined 15 firms about USD 2.5 million since 2022. The 2011 text has no breach notification duty.",
+   "detail": [
+    "Breaching the health data rules in article 14 carries fines of USD 75,000 to 150,000 under article 51, tripled for companies. Article 55 doubles prison terms for offences involving sensitive data.",
+    "Expansão reported in July 2026 that APD has fined 15 companies about USD 2.5 million since 2022, including fines for sending data to clouds abroad without authorisation. The APD site lists 2026 deliberations. We found no case against a hospital or clinic.",
+    "We found no breach notification duty in the 2011 text. A 2025 draft revision adds notice to APD within 72 hours. Three of APD's seven board members are named by the President.",
+    "Transfers abroad need APD notice or authorisation. Angola is not on the EU adequacy list, and the European Health Data Space does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 22/11, de 17 de Junho, Lei da Protecção de Dados Pessoais (Diário da República I Série n.º 114), arts. 5, 9, 13, 14, 18, 19, 24, 26-28, 30-34, 38, 44, 51, 55",
+     "url": "https://apd.ao/fotos/frontend_1/editor2/110617_lei_22-11_de_17_junho-proteccao_dados_pessoais.pdf",
+     "date": "2011-06-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Agência de Protecção de Dados, home page (deliberations on contravention cases, 2026)",
+     "url": "https://apd.ao/ao/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Agência de Protecção de Dados já aplicou multas de 2,5 milhões USD desde 2022 (Expansão)",
+     "url": "https://expansao.co.ao/empresas/detalhe/agencia-de-proteccao-de-dados-ja-aplicou-multas-de-25-milhoes-usd-desde-2022-73575.html",
+     "date": "2026-07-29",
+     "publisherClass": "news"
+    },
+    {
+     "title": "European Commission, Adequacy decisions",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "Reuse of data for incompatible purposes is banned without consent, and electronic marketing needs prior express consent. We found no rules aimed at health apps, data brokers or sale of de-identified health data.",
+   "detail": [
+    "Article 9(2) of Lei 22/11 bars processing for purposes incompatible with the original one, unless the person consents or the data is anonymised for historical or statistical use.",
+    "Article 19 requires prior express consent for electronic marketing messages, with exceptions such as past customers offered a refusal. Article 18 gives a free opt-out from postal marketing. Health data still needs consent or APD authorisation under article 14.",
+    "Fines for breaking the marketing articles run from USD 65,000 to 130,000 under article 51. We found no provisions on consumer health apps, brokers or trading in de-identified health data."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 22/11, de 17 de Junho, Lei da Protecção de Dados Pessoais (Diário da República I Série n.º 114), arts. 5, 9, 13, 14, 18, 19, 24, 26-28, 30-34, 38, 44, 51, 55",
+     "url": "https://apd.ao/fotos/frontend_1/editor2/110617_lei_22-11_de_17_junho-proteccao_dados_pessoais.pdf",
+     "date": "2011-06-17",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 22,
+   "summary": "The health ministry runs DHIS2 as its national health data platform for aggregate reporting, plus a telemedicine network. We found no national patient record, and electronic records in public hospitals are not verified at scale.",
+   "detail": [
+    "In July 2026 the health minister described DHIS2 as the main national platform for health data management, a national telemedicine network, and an emergency operations centre (COESP) tracking epidemics in real time.",
+    "In January 2026 the ministry signed a memorandum with Huawei that includes 'progressive digitisation' of hospitals and health units nationwide. That wording suggests most units are not yet digital.",
+    "A July 2026 literature review found that electronic records in public hospitals face weak infrastructure, high costs, staff resistance and few specific public policies. National coverage figures were not verified.",
+    "A 2024 WHO assessment found gaps in key health information. We found no national e-prescription, lab exchange or insurance claims link."
+   ],
+   "sources": [
+    {
+     "title": "MINSA, Angola afirma-se como referência africana na aplicação da inteligência artificial e da telemedicina",
+     "url": "https://minsa.gov.ao/web/noticias/angola-afirma-se-como-referencia-africana-na-aplicacao-da-inteligencia-artificial-e-da-telemedicina-para-transformar-a-saude",
+     "date": "2026-07-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MINSA, Angola e Huawei assinam Memorando de Entendimento para o reforço da Saúde Digital",
+     "url": "https://minsa.gov.ao/web/noticias/angola-e-huawei-assinam-memorando-de-entendimento-para-o-reforco-da-saude-digital",
+     "date": "2026-01-26",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Desafios e perspectivas da implementação do prontuário eletrônico em hospitais públicos angolanos (Revista FT, v.30 n.160)",
+     "url": "https://www.revistaft.com/ft/article/view/1778",
+     "date": "2026-07-15",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "WHO Africa, Angola desenvolve Plano Estratégico do Sistema de Informação Sanitária",
+     "url": "https://www.afro.who.int/pt/countries/angola/news/angola-desenvolve-plano-estrategico-do-sistema-de-informacao-sanitaria",
+     "date": "2024-03-05",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "The 1992 health law asks care levels to share relevant clinical information confidentially, but we found no system that lets a clinician see a patient's record from other providers. Telemedicine links specialists for consultations, not record access.",
+   "detail": [
+    "Article 12(4) of Lei 21-B/92 calls for close links between care levels and 'reciprocal and confidential circulation' of relevant clinical information about patients.",
+    "The ministry describes a national telemedicine network linked to institutions in Portugal, Italy, Brazil, India, the United States and South Africa. That supports remote consultations; it is not a shared record.",
+    "Lei 22/11 lets health professionals process data without consent for care and emergencies. Cross-provider record access in practice is not verified."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 21-B/92, Lei de Bases do Sistema Nacional de Saúde, arts. 12 and 13 (Angolex)",
+     "url": "https://angolex.com/paginas/leis/lei-de-bases-do-sistema-nacional-de-saude-21bb-92a.html",
+     "date": "1992-08-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "MINSA, Angola afirma-se como referência africana na aplicação da inteligência artificial e da telemedicina",
+     "url": "https://minsa.gov.ao/web/noticias/angola-afirma-se-como-referencia-africana-na-aplicacao-da-inteligencia-artificial-e-da-telemedicina-para-transformar-a-saude",
+     "date": "2026-07-15",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Lei 7/25 requires written informed consent and ethics approval for research on people, with trial registration. Reuse of health records still allows regulator authorisation instead of consent, and there is no opt-out.",
+   "detail": [
+    "Lei 7/25 (in force on publication, July 2025) requires free, informed written consent, a right to withdraw at any time, approval by the national bioethics committee (CNBIS), and registration of every trial protocol in a public database.",
+    "Article 16 of Lei 7/25 requires anonymity and confidentiality, with APD supervising compliance with the data protection law.",
+    "For records reuse, article 14 of Lei 22/11 allows consent and/or APD authorisation. Safeguards: ethics body, statutory secrecy, penalties, a public APD register of processing, and a consent route. Base 40 plus safeguards, capped at 50."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 7/25, Lei sobre a Investigação Biomédica e Clínica (Angolex)",
+     "url": "https://angolex.com/paginas/leis/lei-sobre-investigacao-biomedica-e-clinica-7a-25a.html",
+     "date": "2025-07-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 22/11, de 17 de Junho, Lei da Protecção de Dados Pessoais (Diário da República I Série n.º 114), arts. 5, 9, 13, 14, 18, 19, 24, 26-28, 30-34, 38, 44, 51, 55",
+     "url": "https://apd.ao/fotos/frontend_1/editor2/110617_lei_22-11_de_17_junho-proteccao_dados_pessoais.pdf",
+     "date": "2011-06-17",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 28,
+   "summary": "No clinical AI rules are in force: a draft AI law that would require registration of critical AI, including health uses, was in public consultation from September 2025. We found no device rules for AI software.",
+   "detail": [
+    "Expansão reported in November 2025 that the AI bill from the telecoms ministry (MINTTICS) treats failure to register critical AI used in areas such as health and education as a serious offence. The bill's fines for companies reach 1.5 billion kwanzas.",
+    "The 2025 draft revision of the data protection law adds a chapter on processing by AI systems, with banned uses and rights for affected people. Neither draft was in force when checked.",
+    "In July 2026 the health minister said Angola will use AI to support clinical decisions. We found no medicines regulator (ARMED) rules on AI or software as a medical device."
+   ],
+   "sources": [
+    {
+     "title": "Lei sobre Inteligência Artificial prevê multas de até 1.500 milhões Kz e prisão até 12 anos (Expansão)",
+     "url": "https://expansao.co.ao/angola/detalhe/lei-sobre-inteligencia-artificial-preve-multas-de-ate-1500-milhoes-kz-e-prisao-ate-12-anos-68260.html",
+     "date": "2025-11-19",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Agência de Protecção de Dados, Projecto de Revisão da Lei n.º 22/11 (versão consulta pública)",
+     "url": "https://www.consultapublica.gov.ao/public/uploads/docs/Projecto%20de%20Revis%C3%A3o%20da%20Lei%20de%20Protec%C3%A7%C3%A3o%20de%20Dados%20-%20Vers%C3%A3o%20Consulta%20P%C3%BAblica.pdf",
+     "date": "2025-03-17",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MINSA, Angola afirma-se como referência africana na aplicação da inteligência artificial e da telemedicina",
+     "url": "https://minsa.gov.ao/web/noticias/angola-afirma-se-como-referencia-africana-na-aplicacao-da-inteligencia-artificial-e-da-telemedicina-para-transformar-a-saude",
+     "date": "2026-07-15",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "unknown",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 carries aggregate reports and COESP tracks epidemics. Hospital records are mostly being digitised now. National e-prescription, lab exchange and claims links were not found; coverage figures were not verified.",
+ "laws": [
+  {
+   "name": "Lei n.º 22/11, Lei da Protecção de Dados Pessoais",
+   "level": "National",
+   "year": "2011",
+   "what": "Health is sensitive data; consent or APD authorisation; access via chosen doctor; fines to USD 150,000, tripled for companies.",
+   "url": "https://apd.ao/fotos/frontend_1/editor2/110617_lei_22-11_de_17_junho-proteccao_dados_pessoais.pdf"
+  },
+  {
+   "name": "Lei n.º 21-B/92, Lei de Bases do Sistema Nacional de Saúde",
+   "level": "National",
+   "year": "1992",
+   "what": "Patient rights to confidentiality and information; asks care levels to share clinical information confidentially.",
+   "url": "https://angolex.com/paginas/leis/lei-de-bases-do-sistema-nacional-de-saude-21bb-92a.html"
+  },
+  {
+   "name": "Lei n.º 7/25, Lei sobre a Investigação Biomédica e Clínica",
+   "level": "National",
+   "year": "2025",
+   "what": "Written informed consent, CNBIS ethics approval, ARMED trial authorisation, public trial registration.",
+   "url": "https://angolex.com/paginas/leis/lei-sobre-investigacao-biomedica-e-clinica-7a-25a.html"
+  },
+  {
+   "name": "Nova Lei de Bases do Sistema Nacional de Saúde (approved by parliament)",
+   "level": "National",
+   "year": "2026",
+   "what": "Approved 13 August 2026 with 30% co-payment; publication and data provisions not verified.",
+   "url": "https://www.novojornal.co.ao/politica/detalhe/nova-lei-de-bases-da-saude-altera-principio-de-gratuitidade-universal-em-vigor-ha-34-anos-73941.html"
+  },
+  {
+   "name": "Projecto de Revisão da Lei n.º 22/11 (draft, not in force)",
+   "level": "National",
+   "year": "2025",
+   "what": "Draft adds 72-hour breach notice, portability and AI processing rules; consultation closed April 2025.",
+   "url": "https://www.consultapublica.gov.ao/consulta/100021"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-19",
+   "headline": "Draft AI law would make unregistered critical AI, including health, an offence",
+   "source": "Expansão",
+   "url": "https://expansao.co.ao/angola/detalhe/lei-sobre-inteligencia-artificial-preve-multas-de-ate-1500-milhoes-kz-e-prisao-ate-12-anos-68260.html",
+   "why": "First sign of binding rules for AI used in patient care."
+  },
+  {
+   "date": "2026-01-26",
+   "headline": "Health ministry signs digital health memorandum with Huawei",
+   "source": "Ministério da Saúde",
+   "url": "https://minsa.gov.ao/web/noticias/angola-e-huawei-assinam-memorando-de-entendimento-para-o-reforco-da-saude-digital",
+   "why": "Plans hospital digitisation and AI, with no published patient data terms."
+  },
+  {
+   "date": "2026-07-15",
+   "headline": "Health minister presents DHIS2, telemedicine and AI plans at WHO conference",
+   "source": "Ministério da Saúde",
+   "url": "https://minsa.gov.ao/web/noticias/angola-afirma-se-como-referencia-africana-na-aplicacao-da-inteligencia-artificial-e-da-telemedicina-para-transformar-a-saude",
+   "why": "Shows the state's digital priorities are reporting and telemedicine, not patient records."
+  },
+  {
+   "date": "2026-07-29",
+   "headline": "Data regulator has fined 15 companies about USD 2.5 million since 2022",
+   "source": "Expansão",
+   "url": "https://expansao.co.ao/empresas/detalhe/agencia-de-proteccao-de-dados-ja-aplicou-multas-de-25-milhoes-usd-desde-2022-73575.html",
+   "why": "Enforcement is real, though no health provider has been fined yet."
+  },
+  {
+   "date": "2026-08-14",
+   "headline": "Parliament passes new health basis law with 30% co-payment",
+   "source": "Novo Jornal",
+   "url": "https://www.novojornal.co.ao/politica/detalhe/nova-lei-de-bases-da-saude-altera-principio-de-gratuitidade-universal-em-vigor-ha-34-anos-73941.html",
+   "why": "Replaces the 1992 law that holds patient confidentiality and information rights."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

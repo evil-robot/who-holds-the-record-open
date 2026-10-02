@@ -1,0 +1,362 @@
+{
+ "iso3": "SLE",
+ "name": "Sierra Leone",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Sierra Leone has no data protection law yet, so patient rights rest on a health ministry policy while most clinics still keep paper records.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 32,
+   "summary": "No health law gives patients a right to a copy of their record. The Right to Access Information Act 2013 lets anyone request information from public bodies within 15 working days, but whether hospitals honour it for medical records is not verified.",
+   "detail": [
+    "The Right to Access Information Act 2013 gives every person a right to information held by a public authority, including bodies financed by government. Disclosure to the person the information is about is not an unreasonable disclosure of personal information under section 21.",
+    "The Act sets a 15 working day deadline. A public authority may charge a cost-based fee, and regulations may waive it for personal information. Whether such regulations exist, and whether public hospitals apply the Act to medical records, is not verified.",
+    "The Ministry of Health's 2021 Health Information System Policy says a patient 'shall have access rights to relevant health-related data collected about them'. It is a policy, not a law, and sets no deadline or format.",
+    "There is no patient portal. Most records are held on paper at each facility."
+   ],
+   "sources": [
+    {
+     "title": "The Right to Access Information Act, 2013",
+     "url": "https://www.sierra-leone.org/Laws/2013-02.pdf",
+     "date": "2013-10-31",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sierra Leone Health Information System (HIS) Policy, Ministry of Health and Sanitation",
+     "url": "https://mohs.gov.sl/download/50/policy-documents/17808/his_policy_15-11-2021_final-3.pdf",
+     "date": "2021-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministry of Health, Request for Expressions of Interest: phased implementation of an EMR system (MoH/IHPAU/SRHR/CQS/01/2025)",
+     "url": "https://mohs.gov.sl/jobs/hiring-of-a-consulting-firm-to-develop-customize-deploy-manage-and-maintain-an-electronic-medical-records-system/",
+     "date": "2025-12-18",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The Minister of Health Unveils New Starlink Internet Connectivity for 300 Healthcare Facilities",
+     "url": "https://mohs.gov.sl/the-minister-of-health-unveils-new-starlink-internet-connectivity-for-300-healthcare-facilities/",
+     "date": "2026-07-27",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 25,
+   "summary": "The 2007 HIV Act requires written consent to disclose an HIV test result, and a 2021 ministry policy asks for written consent before sharing with third parties. There is no opt-out or access log, and the data terms of a December 2025 US health MOU are unpublished.",
+   "detail": [
+    "Section 18 of the Prevention and Control of HIV and AIDS Act 2007 bars disclosing HIV test results without the person's written consent. Exceptions include staff treating the person, research authorised by the Minister and courts.",
+    "The 2021 HIS Policy says personal health data 'are owned by the individual' and that sharing with third parties needs written consent. It is ministry policy, not a law, and no enforcement was found.",
+    "Sierra Leone signed a five-year, US$129 million health MOU with the United States on 22 December 2025. The Ministry says it protects data sovereignty, but the text is not public, so its data-sharing terms are not verified.",
+    "We found no patient-facing sharing settings, opt-out or access log anywhere in the system."
+   ],
+   "sources": [
+    {
+     "title": "The Prevention and Control of HIV and AIDS Act, 2007",
+     "url": "https://www.sierra-leone.org/Laws/2007-8p.pdf",
+     "date": "2007",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sierra Leone Health Information System (HIS) Policy, Ministry of Health and Sanitation",
+     "url": "https://mohs.gov.sl/download/50/policy-documents/17808/his_policy_15-11-2021_final-3.pdf",
+     "date": "2021-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sierra Leone and the United States Sign Landmark Agreement (Ministry of Health)",
+     "url": "https://mohs.gov.sl/sierra-leone-and-the-united-states-sign-landmark-agreement/",
+     "date": "2025-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Why Sierra Leone Must Publish the Full US Health MOU (Sierra Eye)",
+     "url": "https://www.sierraeyemagazine.com/why-sierra-leone-must-publish-the-full-us-health-mou/",
+     "date": "2025-12-27",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 28,
+   "summary": "Sierra Leone has no data protection law and no regulator. Cabinet approved a policy and a Data Protection and Right to Access Information bill in April 2026, but it was not enacted by July 2026; the main health rule is the 2007 HIV Act's confidentiality duty.",
+   "detail": [
+    "The HIV Act 2007 says HIV test results are confidential and may be released only to the tested person (section 15), and disclosure to others needs written consent (section 18). Neither section is made an offence, unlike breaches of the testing and research rules, so no penalty for disclosure was verified.",
+    "In April 2026 Cabinet approved a National Data Protection Policy and a new law that would turn the Right to Access Information Commission into a data protection authority with investigative and enforcement powers. In July 2026 lawmakers were still pledging to pass the bill.",
+    "Data Protection Africa records no data protection law, no breach notification duty and no limits on cross-border transfers. We found no health data breach case or enforcement decision.",
+    "Sierra Leone is outside the EU, so the GDPR and the European Health Data Space do not apply."
+   ],
+   "sources": [
+    {
+     "title": "The Prevention and Control of HIV and AIDS Act, 2007",
+     "url": "https://www.sierra-leone.org/Laws/2007-8p.pdf",
+     "date": "2007",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Cabinet Approves First Ever Data Protection Policy, Paving Way for New Data Law (Right to Access Information Commission)",
+     "url": "https://raic.gov.sl/index.php/all-categories-list/press-release/cabinet-approves-first-ever-data-protection-policy-paving-way-for-new-data-law",
+     "date": "2026-04-30",
+     "publisherClass": "official"
+    },
+    {
+     "title": "CHRDI Engages Lawmakers on Data Protection and Privacy Bill (Sierraloaded)",
+     "url": "https://sierraloaded.sl/news/chrdi-lawmakers-data-protection-privacy-bill/",
+     "date": "2026-07-03",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Sierra Leone Fact Sheet (Data Protection Africa, ALT Advisory)",
+     "url": "https://dataprotection.africa/sierra-leone/",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 22,
+   "summary": "No law limits selling health data or using it for marketing, because Sierra Leone has no data protection law. The 2007 HIV Act only stops insurers and lenders from forcing an HIV test or status disclosure.",
+   "detail": [
+    "Section 27 of the HIV Act 2007 says no person may be compelled to take an HIV test or disclose their status just to get credit or insurance.",
+    "Data Protection Africa records no rules on collecting or processing personal data in Sierra Leone. We found no rules on health apps, data brokers or sales of de-identified data.",
+    "Officials say the pending Data Protection and Right to Access Information Bill will cover health information held by banks, phone companies and government. Its final commercial rules are not verified."
+   ],
+   "sources": [
+    {
+     "title": "The Prevention and Control of HIV and AIDS Act, 2007",
+     "url": "https://www.sierra-leone.org/Laws/2007-8p.pdf",
+     "date": "2007",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sierra Leone Fact Sheet (Data Protection Africa, ALT Advisory)",
+     "url": "https://dataprotection.africa/sierra-leone/",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Government Finalizes Sierra Leone's Data Protection and Right to Access Information Bill (Sierraloaded)",
+     "url": "https://sierraloaded.sl/news/government-data-protection-information-bill/",
+     "date": "2025-11-09",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 24,
+   "summary": "Disease surveillance has run electronically in every government facility since 2019, but patient records are mostly paper. The Ministry sought a firm in December 2025 to roll out OpenMRS to 300 facilities and added Starlink internet to 300 facilities in July 2026.",
+   "detail": [
+    "WHO says Sierra Leone moved disease surveillance reporting from paper to a web platform in all 14 districts and every government facility by June 2019.",
+    "The December 2025 tender funds the first phase of an EMR in 250 primary units and 50 hospitals, integrated with registries and other systems. Earlier EMRs were pilots, such as Connaught Hospital in 2023.",
+    "In July 2026 the Health Minister said Starlink links for 300 facilities would speed the move from paper records to a digital system.",
+    "Less than 1% of people were covered by any social health protection scheme in 2025, so there is no national claims record."
+   ],
+   "sources": [
+    {
+     "title": "Sierra Leone leads the way in Africa with fully functional electronic disease surveillance system (WHO Africa)",
+     "url": "https://www.afro.who.int/countries/sierra-leone/news/sierra-leone-leads-way-africa-fully-functional-electronic-disease-surveillance-system",
+     "date": "2019-06-06",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Ministry of Health, Request for Expressions of Interest: phased implementation of an EMR system (MoH/IHPAU/SRHR/CQS/01/2025)",
+     "url": "https://mohs.gov.sl/jobs/hiring-of-a-consulting-firm-to-develop-customize-deploy-manage-and-maintain-an-electronic-medical-records-system/",
+     "date": "2025-12-18",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The Minister of Health Unveils New Starlink Internet Connectivity for 300 Healthcare Facilities",
+     "url": "https://mohs.gov.sl/the-minister-of-health-unveils-new-starlink-internet-connectivity-for-300-healthcare-facilities/",
+     "date": "2026-07-27",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sierra Leone moves closer to Universal Health Coverage with high-level engagement on draft SLAUHC Bill (WHO Africa)",
+     "url": "https://www.afro.who.int/countries/sierra-leone/news/sierra-leone-moves-closer-universal-health-coverage-high-level-engagement-draft-slauhc-bill",
+     "date": "2025-07-17",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 17,
+   "summary": "A clinician usually sees only the paper file at their own facility. EMR pilots exist, such as Connaught Hospital from 2023, and a 300-facility rollout was at tender stage in December 2025, with no published go-live figures.",
+   "detail": [
+    "The Connaught Hospital pilot aimed for 'one patient file that can be updated' and to remove multiple records across facilities. Doctors at the launch raised privacy and security concerns.",
+    "The 2025 tender plans a customised OpenMRS across hub and spoke facilities. How many sites are live is not verified.",
+    "The HIV Act 2007 allows staff approved by the Minister who directly treat or counsel a person to receive their HIV information."
+   ],
+   "sources": [
+    {
+     "title": "EMR system to improve health care delivery in Sierra Leone (Ministry of Health)",
+     "url": "https://mohs.gov.sl/emr-system-to-improve-health-care-delivery-in-sierra-leone/",
+     "date": "2023-10-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministry of Health, Request for Expressions of Interest: phased implementation of an EMR system (MoH/IHPAU/SRHR/CQS/01/2025)",
+     "url": "https://mohs.gov.sl/jobs/hiring-of-a-consulting-firm-to-develop-customize-deploy-manage-and-maintain-an-electronic-medical-records-system/",
+     "date": "2025-12-18",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The Prevention and Control of HIV and AIDS Act, 2007",
+     "url": "https://www.sierra-leone.org/Laws/2007-8p.pdf",
+     "date": "2007",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "All clinical trials need review by the national ethics committee, and HIV research needs written informed consent by law. No rule on reusing records for research was found, so two safeguards lift the base of 40 to 46.",
+   "detail": [
+    "The Pharmacy Board's 2024 Good Clinical Practice Guidelines say all clinical trials must undergo review by the Sierra Leone Ethics and Scientific Review Committee. They require freely given informed consent and protection of records that identify participants.",
+    "Section 32 of the HIV Act 2007 bans HIV-related biomedical research on a person or their tissue without written informed consent.",
+    "The 2021 HIS Policy requires ethics clearance for health research and written ministry permission to access protected raw health data. There is no general opt-out from secondary use."
+   ],
+   "sources": [
+    {
+     "title": "Pharmacy Board of Sierra Leone, Good Clinical Practice Guidelines (PBSL/GL/039)",
+     "url": "https://pharmacyboard.gov.sl/admin/gallery/878704f4f830e1c8c383578755c47d08.pdf",
+     "date": "2024-05-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The Prevention and Control of HIV and AIDS Act, 2007",
+     "url": "https://www.sierra-leone.org/Laws/2007-8p.pdf",
+     "date": "2007",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sierra Leone Health Information System (HIS) Policy, Ministry of Health and Sanitation",
+     "url": "https://mohs.gov.sl/download/50/policy-documents/17808/his_policy_15-11-2021_final-3.pdf",
+     "date": "2021-12",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 22,
+   "summary": "Sierra Leone has no AI law or clinical AI rules, and its first National AI Strategy was still being drafted in May 2026. The Pharmacy Board's device guideline treats software changes as variations needing approval, but says nothing about AI.",
+   "detail": [
+    "The Pharmacy Board's Guidelines for Registration of Medical Devices (2024, under the Pharmacy and Drugs Act 2001) list changes to a device's software among significant changes that need a variation application.",
+    "In May 2026 the communications ministry and the World Bank held consultations on a draft AI readiness report for the first National AI Strategy.",
+    "A June 2026 review by Levellers found no dedicated AI law in force, with AI covered only by general laws such as the Cyber Security and Crime Act 2021."
+   ],
+   "sources": [
+    {
+     "title": "Pharmacy Board of Sierra Leone, Guidelines for Registration of Medical Device (PBSL/GL/027)",
+     "url": "https://pharmacyboard.gov.sl/admin/gallery/7dde9aa38a7472e7243433f0c2d4ff07.pdf",
+     "date": "2024-05-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MoCTI, with the World Bank Group, is developing Sierra Leone's first-ever National AI Strategy",
+     "url": "https://mocti.gov.sl/the-ministry-of-communication-technology-and-innovation-mocti-in-collaboration-with-the-world-bank-group-is-developing-sierra-leones-first-ever-national-ai-strategy/",
+     "date": "2026-05-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "AI regulation in Sierra Leone explained (Levellers)",
+     "url": "https://www.levellers.ai/what-is/ai-regulation-sierra-leone",
+     "date": "2026-06-08",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "partial",
+  "claims": "siloed",
+  "publicHealth": "connected",
+  "research": "siloed"
+ },
+ "journeyNote": "Electronic surveillance reporting covers every government facility, and DHIS2 and an LMIS are in use. Patient records are mostly paper. A 300-facility OpenMRS rollout was tendered in December 2025, and under 1% of people have health insurance.",
+ "laws": [
+  {
+   "name": "Right to Access Information Act, 2013",
+   "level": "National",
+   "year": "2013",
+   "what": "Right to information held by public bodies within 15 working days; cost-based fees allowed.",
+   "url": "https://www.sierra-leone.org/Laws/2013-02.pdf"
+  },
+  {
+   "name": "Prevention and Control of HIV and AIDS Act, 2007",
+   "level": "National",
+   "year": "2007",
+   "what": "Confidential HIV results, written consent for disclosure and research, no forced testing for insurance.",
+   "url": "https://www.sierra-leone.org/Laws/2007-8p.pdf"
+  },
+  {
+   "name": "Data Protection and Right to Access Information Bill, 2025 (pending)",
+   "level": "National",
+   "year": "2025",
+   "what": "First data protection law; one authority for privacy and information access. Approved by Cabinet, not enacted.",
+   "url": "https://raic.gov.sl/index.php/all-categories-list/press-release/cabinet-approves-first-ever-data-protection-policy-paving-way-for-new-data-law"
+  },
+  {
+   "name": "Public Health Act, 2022",
+   "level": "National",
+   "year": "2022",
+   "what": "Replaces the 1960 Act; sets up the National Public Health Agency and disease control powers.",
+   "url": "https://sierralii.gov.sl/akn/sl/act/2023/17/eng@2023-05-12"
+  },
+  {
+   "name": "Pharmacy and Drugs Act, 2001 (medical device guidelines under section 44)",
+   "level": "National",
+   "year": "2001",
+   "what": "Pharmacy Board registers medical devices; software changes need a variation application.",
+   "url": "https://pharmacyboard.gov.sl/admin/gallery/7dde9aa38a7472e7243433f0c2d4ff07.pdf"
+  },
+  {
+   "name": "ECOWAS Supplementary Act A/SA.1/01/10 on Personal Data Protection",
+   "level": "Supranational",
+   "year": "2010",
+   "what": "Health data is sensitive; member states must adopt a law and a data protection authority.",
+   "url": "https://www.statewatch.org/media/documents/news/2013/mar/ecowas-dp-act.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-09",
+   "headline": "Government completes national validation of data protection and information access bill",
+   "source": "Sierraloaded",
+   "url": "https://sierraloaded.sl/news/government-data-protection-information-bill/",
+   "why": "The bill would give patients their first legal privacy rights, covering health information."
+  },
+  {
+   "date": "2025-12-27",
+   "headline": "Magazine urges government to publish full text of US health MOU",
+   "source": "Sierra Eye",
+   "url": "https://www.sierraeyemagazine.com/why-sierra-leone-must-publish-the-full-us-health-mou/",
+   "why": "Patients cannot see what the deal says about sharing their medical data."
+  },
+  {
+   "date": "2026-04-21",
+   "headline": "Cabinet approves first National Data Protection Policy and new data law plan",
+   "source": "Sierraloaded",
+   "url": "https://sierraloaded.sl/news/government-national-data-protection-policy/",
+   "why": "A single authority would enforce data protection over public and private bodies."
+  },
+  {
+   "date": "2026-06-23",
+   "headline": "Health Travel Portal launched with digital declarations and vaccination records",
+   "source": "Dubawa",
+   "url": "https://dubawa.org/sierra-leone-launches-health-travel-portal-a-digital-shield-against-disease-outbreaks/",
+   "why": "Travellers' health data is now collected digitally at borders without a data protection law."
+  },
+  {
+   "date": "2026-07-27",
+   "headline": "Health Ministry unveils Starlink internet for 300 government health facilities",
+   "source": "Ministry of Health",
+   "url": "https://mohs.gov.sl/the-minister-of-health-unveils-new-starlink-internet-connectivity-for-300-healthcare-facilities/",
+   "why": "Connectivity is a precondition for moving patient records off paper."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

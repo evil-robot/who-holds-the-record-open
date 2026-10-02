@@ -1,0 +1,336 @@
+{
+ "iso3": "UGA",
+ "name": "Uganda",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "A 2019 data law bans selling personal data, but records stay locked in each hospital and the Ministry, not the patient, owns them.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "The 2019 Act lets a patient confirm what a provider holds, get a description and learn who received it, within 30 days and with no listed fee. The right to a full copy rests on a 2009 Ministry charter, and there is no national portal.",
+   "detail": [
+    "Under section 24 of the Data Protection and Privacy Act 2019, a person who proves their identity can ask a controller to confirm it holds their data, describe it, and name the third parties who had access. The controller must comply within thirty days. The 2021 Regulations add a seven-day deadline to give a decision.",
+    "The fee schedule in the 2021 Regulations lists only registration fees and copies of register entries. It does not list a fee for a subject access request. Whether hospitals charge for record copies in practice was not verified.",
+    "The Act's wording covers a description of the data, not a full copy. The copy right comes from Article 16 of the Ministry of Health Patients' Charter of 2009, a policy document, which says a patient may obtain medical information including a copy of their medical records.",
+    "There is no national patient portal. The Ministry said in June 2025 that work is underway on patient self-service portal modules for its hospital EMRs."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection and Privacy Act, 2019 (Act 9 of 2019), signed text",
+     "url": "https://ict.go.ug/site/documents/Data-Protection-and-Privacy-Act-2019.pdf",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection and Privacy Regulations, 2021 (S.I. No. 21 of 2021)",
+     "url": "https://pmlawhub.com/wp-content/uploads/2025/12/Data-Protection-and-Privacy-Regulations-SI-No-21-of-2021-Uganda-1.pdf",
+     "date": "2021-03-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ministry of Health, Patients' Charter",
+     "url": "https://cphl.go.ug/uploads/library/1782711708338-1c560da2c811.pdf",
+     "date": "2009-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Electronic Medical Records Rollout Transforms Patient Care and Data Management (Ministry of Health)",
+     "url": "https://health.go.ug/electronic-medical-records-rollout-transforms-patient-care-and-data-management",
+     "date": "2025-06-13",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "The 2019 Act requires consent but lets providers process data for medical purposes without it, and the right to object does not cover those cases. A 2025 health deal gives the US government logins to nine national health systems for seven years.",
+   "detail": [
+    "Section 7 of the 2019 Act bars processing without prior consent, but section 7(2)(d) allows it for medical purposes. The right to object in section 7(3) does not apply to processing under section 7(2). Section 9 treats health status and medical records as special data that may be processed with free consent, among other grounds.",
+    "The 2009 Patients' Charter says health information may be disclosed only with informed consent, except where law or a court requires it. It allows disclosure for treatment by another health worker and for public health. Article 17 makes the Ministry of Health the legal owner and custodian of medical records.",
+    "ProPublica reported in June 2026 that the US-Uganda data agreement gives the US direct, real-time access to nine national health data systems for seven years, including the EMR system. The agreement calls for aggregated data with identifiers removed.",
+    "Section 24(1)(c) gives a right to learn which third parties had access, on request. We found no patient-facing access log, opt-out or granular consent settings in use."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection and Privacy Act, 2019 (Act 9 of 2019), signed text",
+     "url": "https://ict.go.ug/site/documents/Data-Protection-and-Privacy-Act-2019.pdf",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ministry of Health, Patients' Charter",
+     "url": "https://cphl.go.ug/uploads/library/1782711708338-1c560da2c811.pdf",
+     "date": "2009-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "U.S. demands to access Africans' data raise privacy, sovereignty concerns (ProPublica)",
+     "url": "https://www.propublica.org/article/trump-state-department-africa-uganda-aid-medical-data-privacy",
+     "date": "2026-06-17",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Health status and medical records are special data under the 2019 Act, selling personal data is a crime, and breaches must be reported to the regulator immediately. In April 2026 the Ministry ordered all hospitals to appoint data protection officers, a sign compliance lagged.",
+   "detail": [
+    "Section 9 restricts processing of health status and medical records. Section 23 requires immediate breach notice to the Authority, which decides whether patients must be told. Unlawful disclosure carries up to 240 currency points or ten years in prison. A corporate fine of up to 2 percent of turnover (section 38) is tied to sections 31 and 32, not disclosure.",
+    "The Personal Data Protection Office must not be under the direction or control of any person or authority (section 5(3)). In July 2025 it found Google in breach of registration and cross-border transfer rules and gave it 30 days to comply.",
+    "In April 2026 the Ministry of Health ordered hospitals and district health offices to appoint a data protection officer and register with the PDPO within 60 days, citing gaps in patient data management.",
+    "Section 19 allows transfers abroad only to countries with equivalent protection or with consent. Uganda has no EU adequacy decision, and the EU's EHDS does not apply. We found no published health-sector breach decision by the PDPO."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection and Privacy Act, 2019 (Act 9 of 2019), signed text",
+     "url": "https://ict.go.ug/site/documents/Data-Protection-and-Privacy-Act-2019.pdf",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ugandan Regulator Finds Google in Breach of Country's Data Protection Law (CIPESA)",
+     "url": "https://cipesa.org/2025/07/ugandan-regulator-finds-google-in-breach-of-countrys-data-protection-law-orders-local-registration/",
+     "date": "2025-07-21",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Uganda: Health Facilities Ordered to Comply with Data Protection Law (Africa Data Protection)",
+     "url": "https://www.africadataprotection.org/en/actualites/Uganda-Health-Facilities-Ordered-to-Comply-with-Data-Protection-Law.html",
+     "date": "2026-04-28",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "Section 37 of the 2019 Act makes selling or offering to sell anyone's personal data a crime punishable by up to ten years in prison. People can stop direct marketing, but may also agree to let a company use their data for payment.",
+   "detail": [
+    "Section 37 bans selling or offering for sale personal data of any person, with a fine of up to 245 currency points, up to ten years in prison, or both.",
+    "Section 26 lets a person stop processing of their data for direct marketing by written notice. The controller must answer within fourteen days. Section 26(3) allows a person to agree to the use of their data for pecuniary benefits.",
+    "We found no health-specific ban on advertising, data brokers or consumer health apps. ProPublica reported experts' concern that the US data deal lacks standard limits on use, raising a risk of commercialization without consent. No prosecution under section 37 was verified."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection and Privacy Act, 2019 (Act 9 of 2019), signed text",
+     "url": "https://ict.go.ug/site/documents/Data-Protection-and-Privacy-Act-2019.pdf",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "U.S. demands to access Africans' data raise privacy, sovereignty concerns (ProPublica)",
+     "url": "https://www.propublica.org/article/trump-state-department-africa-uganda-aid-medical-data-privacy",
+     "date": "2026-06-17",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 35,
+   "summary": "The Ministry reports EMRs in 92 percent of targeted hospitals, but the targets are referral and general hospitals plus only seven lower-level health centres. Records stay inside each hospital, with no universal health ID or cross-provider exchange.",
+   "detail": [
+    "The Ministry of Health said in June 2025 that EMR coverage stood at 92 percent of targeted hospitals: four national referral hospitals, all regional referral hospitals, 47 general hospitals, 5 Health Centre IVs and 2 Health Centre IIIs. Within those hospitals, EMRs cover outpatient, maternal and child health, pharmacy and laboratory units.",
+    "Records do not follow the patient between facilities. A 2026 policy analysis lists separate patient identifiers, no universal health identifier and no automatic flow of records. The national DHIS2 platform imports lab and vaccine data for aggregate reporting, not individual records.",
+    "In March 2026 the US handed the Ministry over $100 million of digital health infrastructure, including 725 servers and network equipment for more than 1,300 sites. The status of a national health insurance claims system was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Electronic Medical Records Rollout Transforms Patient Care and Data Management (Ministry of Health)",
+     "url": "https://health.go.ug/electronic-medical-records-rollout-transforms-patient-care-and-data-management",
+     "date": "2025-06-13",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Reforming Uganda's digital health data systems: a policy analysis (Digital Health, via PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12816509/",
+     "date": "2026-01-19",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "United States Government Transfers Over $100 Million in National Digital Health Infrastructure to Uganda (U.S. Embassy Uganda)",
+     "url": "https://ug.usembassy.gov/press-release-united-states-government-transfers-over-100-million-in-national-digital-health-infrastructure-to-uganda/",
+     "date": "2026-03-31",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 25,
+   "summary": "A treating clinician sees only the record held by their own facility. Jinja Regional Referral Hospital said in June 2026 that EMR data is restricted to the hospital and referrals to Mulago are still handled on paper.",
+   "detail": [
+    "Jinja Regional Referral Hospital launched EMRs in June 2026. A senior consultant said access to patient information is restricted to Jinja Hospital and the hospital cannot yet share records electronically, so referrals are still manual.",
+    "The 2009 Patients' Charter allows a facility to pass medical information to another health worker for the patient's treatment, so sharing for care is permitted on paper. We found no emergency access rule or national clinician viewer.",
+    "The Ministry's June 2025 account of EMRs says data is shared in real time and reports are faster. It does not describe a clinician opening a patient's record held by another provider."
+   ],
+   "sources": [
+    {
+     "title": "Jinja Hospital rolls out electronic medical records to end paper queues (Monitor)",
+     "url": "https://www.monitor.co.ug/uganda/news/national/jinja-hospital-rolls-out-electronic-medical-records-to-end-paper-queues-5491432",
+     "date": "2026-06-10",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ministry of Health, Patients' Charter",
+     "url": "https://cphl.go.ug/uploads/library/1782711708338-1c560da2c811.pdf",
+     "date": "2009-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Electronic Medical Records Rollout Transforms Patient Care and Data Management (Ministry of Health)",
+     "url": "https://health.go.ug/electronic-medical-records-rollout-transforms-patient-care-and-data-management",
+     "date": "2025-06-13",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Researchers using routine patient records ask an ethics committee for a waiver of consent, and there is no general opt-out. The 2025 national guidelines require ethics review and UNCST registration, and misuse of personal data is a crime under the 2019 Act.",
+   "detail": [
+    "The September 2025 UNCST national guidelines say studies using data from clients' records may proceed on a research ethics committee waiver of consent. A waiver is allowed where risk is minimal, the study is impracticable without it, or the data are de-identified.",
+    "All research needs ethics committee approval and final registration with UNCST. Research data must be stored and backed up on a local server in Uganda. AI research needs clearance from the national data protection body.",
+    "The guidelines offer tiered and broad consent for new samples, and participants may withdraw linked samples. Unlawful disclosure of personal data carries up to ten years in prison under section 35 of the 2019 Act. We found no public register of data uses."
+   ],
+   "sources": [
+    {
+     "title": "National Guidelines for Research Involving Humans as Research Participants (UNCST)",
+     "url": "https://www.uncst.go.ug/files/downloads/NATIONAL%20GUIDELINES%20FOR%20RESEARCH%20INVOLVING%20HUMANS%20AS%20RESEARCH%20PARTICPANTS%202025.pdf",
+     "date": "2025-09",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Data Protection and Privacy Act, 2019 (Act 9 of 2019), signed text",
+     "url": "https://ict.go.ug/site/documents/Data-Protection-and-Privacy-Act-2019.pdf",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "Uganda has no AI law and no verified rule for clinical AI, and UNESCO noted in 2026 the absence of binding ways to monitor AI harm in health. The Health Minister said in September 2026 the government plans to bring AI into care.",
+   "detail": [
+    "UNESCO reported in June 2026 that Uganda lacks an AI-specific legal framework and that the 2019 Act does not address algorithmic transparency. A National AI and Emerging Technologies Strategy is being finalised.",
+    "The National Drug Authority regulates medical devices, but we could not open its pages, so any rule on software or AI as a medical device was not verified. A 2025 legal analysis notes the Ministry's digital health policy was still unapproved.",
+    "In August 2025 a Ministry workshop discussed two draft regulations on telemedicine and AI. Section 27 of the 2019 Act gives a right to ask that significant decisions not rest solely on automated processing."
+   ],
+   "sources": [
+    {
+     "title": "Uganda Convenes National Stakeholders Dialogue to Strengthen Ethical AI Governance (UNESCO)",
+     "url": "https://www.unesco.org/en/articles/uganda-convenes-national-stakeholders-dialogue-strengthen-ethical-ai-governance",
+     "date": "2026-06",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Regulation of artificial intelligence in Uganda's healthcare (Int J Equity Health, via PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12125812/",
+     "date": "2025-05-30",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Uganda moves to regulate digital health, protect patient data (Monitor)",
+     "url": "https://www.monitor.co.ug/uganda/news/national/uganda-moves-to-regulate-digital-health-protect-patient-data-5143412",
+     "date": "2025-08-04",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Govt plans to integrate AI into healthcare, Baryomunsi says (Monitor)",
+     "url": "https://www.monitor.co.ug/uganda/news/national/govt-plans-to-integrate-ai-into-healthcare-baryomunsi-says-5580078",
+     "date": "2026-09-01",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Hospital EMRs link lab and pharmacy units inside each facility only. DHIS2 carries aggregate public health and lab data nationally. Only 7 lower-level facilities had EMRs in 2025. Insurance claims status not verified.",
+ "laws": [
+  {
+   "name": "Data Protection and Privacy Act, 2019",
+   "level": "National",
+   "year": "2019",
+   "what": "Health is special data; access within 30 days; immediate breach notice; sale of personal data is a crime.",
+   "url": "https://ict.go.ug/site/documents/Data-Protection-and-Privacy-Act-2019.pdf"
+  },
+  {
+   "name": "Data Protection and Privacy Regulations, 2021",
+   "level": "National",
+   "year": "2021",
+   "what": "Seven-day decision on access requests, breach notice forms, registration of controllers and fees.",
+   "url": "https://pmlawhub.com/wp-content/uploads/2025/12/Data-Protection-and-Privacy-Regulations-SI-No-21-of-2021-Uganda-1.pdf"
+  },
+  {
+   "name": "Patients' Charter (Ministry of Health)",
+   "level": "National",
+   "year": "2009",
+   "what": "Policy: right to a copy of medical records; disclosure only with consent; Ministry owns records.",
+   "url": "https://cphl.go.ug/uploads/library/1782711708338-1c560da2c811.pdf"
+  },
+  {
+   "name": "National Guidelines for Research Involving Humans as Research Participants",
+   "level": "National",
+   "year": "2025",
+   "what": "Ethics review and UNCST registration; consent waivers for record studies; in-country data storage.",
+   "url": "https://www.uncst.go.ug/files/downloads/NATIONAL%20GUIDELINES%20FOR%20RESEARCH%20INVOLVING%20HUMANS%20AS%20RESEARCH%20PARTICPANTS%202025.pdf"
+  },
+  {
+   "name": "National Drug Policy and Authority Act",
+   "level": "National",
+   "year": "not verified",
+   "what": "Creates the National Drug Authority, which licenses and registers medical devices.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12125812/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-03-31",
+   "headline": "US hands Uganda's Ministry of Health over $100 million in digital health systems",
+   "source": "U.S. Embassy Uganda",
+   "url": "https://ug.usembassy.gov/press-release-united-states-government-transfers-over-100-million-in-national-digital-health-infrastructure-to-uganda/",
+   "why": "The Ministry now fully owns the platforms that hold patient and program data."
+  },
+  {
+   "date": "2026-04-28",
+   "headline": "Ministry orders hospitals to appoint data protection officers within 60 days",
+   "source": "Africa Data Protection",
+   "url": "https://www.africadataprotection.org/en/actualites/Uganda-Health-Facilities-Ordered-to-Comply-with-Data-Protection-Law.html",
+   "why": "Pushes facilities holding patient records to comply with the 2019 data law."
+  },
+  {
+   "date": "2026-06-10",
+   "headline": "Jinja hospital starts electronic records but cannot share them on referral",
+   "source": "Monitor",
+   "url": "https://www.monitor.co.ug/uganda/news/national/jinja-hospital-rolls-out-electronic-medical-records-to-end-paper-queues-5491432",
+   "why": "Shows records stay inside one hospital even after digitization."
+  },
+  {
+   "date": "2026-06-17",
+   "headline": "US-Uganda data deal grants seven years of access to national health systems",
+   "source": "ProPublica",
+   "url": "https://www.propublica.org/article/trump-state-department-africa-uganda-aid-medical-data-privacy",
+   "why": "Patients' records sit in systems a foreign government can log into."
+  },
+  {
+   "date": "2026-09-01",
+   "headline": "Health minister says government plans to bring AI into healthcare",
+   "source": "Monitor",
+   "url": "https://www.monitor.co.ug/uganda/news/national/govt-plans-to-integrate-ai-into-healthcare-baryomunsi-says-5580078",
+   "why": "AI may reach clinics before any clinical AI rules exist."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

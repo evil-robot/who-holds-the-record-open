@@ -1,0 +1,357 @@
+{
+  "iso3": "UZB",
+  "name": "Uzbekistan",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Uzbeks can open their e-medical card in the state DMED app, but the law promises only extracts and records flow without patient choice.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 60,
+      "summary": "The 1996 health law gives a right to information and to extracts from medical records, not a full copy. Since April 2026 a Health Ministry order lets patients view and download their e-medical card, case history and e-prescriptions in the state DMED app.",
+      "detail": [
+        "Article 25 of Law 265-I On Protection of Citizens' Health gives every citizen the right to information about their health, test results, diagnosis and treatment. On request the patient receives extracts from medical documents. We found no deadline or format for these extracts in the law.",
+        "A Health Ministry instruction registered on 19 January 2026 (No. 3758, in force 20 April 2026) says patients can view and download their data, electronic medical card, case history and e-prescriptions through the DMED mobile app.",
+        "The DMED operator reports 32 million patients and 81 million medical records in its single database. The app shows over 1 million downloads on Google Play. How many people actually open their record, and how complete it is, was not verified.",
+        "We place Uzbekistan at the bottom of the 60 to 75 band: a national app exists, but the legal right covers extracts rather than the whole record."
+      ],
+      "sources": [
+        {
+          "title": "Law 265-I On Protection of Citizens' Health, current text (Lex.uz)",
+          "url": "https://lex.uz/ru/docs/41329",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry order, reg. No. 3758: instruction on e-polyclinic, e-hospital, e-medical card and e-prescription modules (Lex.uz)",
+          "url": "https://lex.uz/docs/8007015",
+          "date": "2026-01-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "DMED, single digital health operator: platform figures",
+          "url": "https://dmed.uz/uz",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "DMED app listing, Google Play (UZINFOCOM)",
+          "url": "https://play.google.com/store/apps/details?id=uz.uzinfocom.dmed&hl=en",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Health data moves between clinics through the state e-health system with no patient opt-out found. A December 2025 amendment added the social protection agency to the bodies that can get medical-secret data without consent.",
+      "detail": [
+        "The Personal Data Law (ZRU-547, Article 25) treats health data as special and needs written consent, but allows processing without it for diagnosis and treatment by medical staff, for state security, courts and law enforcement, and for state statistics if de-identified.",
+        "Article 45 of the health law lets medical-secret data go without consent to investigators, prosecutors and courts, in epidemics, and since Law ZRU-1102 of 17 December 2025, to the National Agency for Social Protection to assess need for social help.",
+        "The 2026 e-health instruction gives doctors, nurses, pharmacists and registrars access to patient data in the modules. It sets no patient consent step, opt-out or patient-visible access log. We found none elsewhere (not verified).",
+        "Article 24 of the health law lets a patient choose who may be told about their health, and Article 23 of the data law requires notice within three days when data goes to a third party, except for state bodies."
+      ],
+      "sources": [
+        {
+          "title": "Law ZRU-547 On Personal Data, current text (Lex.uz, Ministry of Justice)",
+          "url": "https://lex.uz/ru/docs/4396428",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law 265-I On Protection of Citizens' Health, current text (Lex.uz)",
+          "url": "https://lex.uz/ru/docs/41329",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry order, reg. No. 3758: instruction on e-polyclinic, e-hospital, e-medical card and e-prescription modules (Lex.uz)",
+          "url": "https://lex.uz/docs/8007015",
+          "date": "2026-01-19",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 38,
+      "summary": "Health data is special category data, but the regulator sits under the Cabinet of Ministers and the fine for an official is 50 base calculation units. A January 2026 attack on three state bodies leaked data, and its scale is disputed.",
+      "detail": [
+        "Law ZRU-547 (2019) makes physical and mental health data special personal data and bans processing except listed cases. The authorised body is the State Personalisation Centre under the Cabinet of Ministers, not an independent authority.",
+        "Article 46-2 of the Administrative Code fines officials 50 base units and citizens 7 for unlawful processing. Since January 2026, unlawful processing with AI costs 50 to 100 base units. We found no breach notification duty in the data law (not verified).",
+        "Since Law ZRU-1125 of 26 March 2026, only biometric, genetic and telecom-user data must be stored in Uzbekistan. Other data may go abroad to adequate countries or under approved contract terms. The EU has no adequacy decision for Uzbekistan, so EU transfers need other safeguards.",
+        "After attacks on three state bodies in late January 2026, a hacker claimed 15 million records, including medical data at the social protection agency. Analysts verified only records on 15,874 health workers there, and the digital minister said about 60,000 unique data items spread."
+      ],
+      "sources": [
+        {
+          "title": "Law ZRU-547 On Personal Data, current text (Lex.uz, Ministry of Justice)",
+          "url": "https://lex.uz/ru/docs/4396428",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Code of Administrative Responsibility, Article 46-2 (Lex.uz)",
+          "url": "https://lex.uz/ru/docs/97661",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "'We moved too fast': cybersecurity approach to tighten after data leak (Gazeta.uz)",
+          "url": "https://www.gazeta.uz/ru/2026/02/19/cybersecurity/",
+          "date": "2026-02-19",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "Selling or marketing with health data needs the person's written consent under the Personal Data Law, and third-party transfers must be notified within three days. We found no specific rule on health data brokers, de-identified data sales or health apps.",
+      "detail": [
+        "Article 25 of ZRU-547 allows special data processing only in listed cases. Marketing and resale are not among them, so written consent, including electronic, is required.",
+        "Article 28 bars operators and anyone with access from disclosing personal data without consent. Article 23 requires written notice to the person within three days of a transfer to a third party.",
+        "De-identified data use is allowed for state statistics. We found no health-specific limits on selling de-identified data, on data brokers, or on consumer health apps outside health law (not verified). Leaked data from state systems was offered for sale on dark web forums in February 2026."
+      ],
+      "sources": [
+        {
+          "title": "Law ZRU-547 On Personal Data, current text (Lex.uz, Ministry of Justice)",
+          "url": "https://lex.uz/ru/docs/4396428",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Personal data leak in Uzbekistan: which state sites were hacked (Spot.uz)",
+          "url": "https://www.spot.uz/ru/2026/02/10/data-leak/",
+          "date": "2026-02-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 55,
+      "summary": "Cabinet Resolution 570 makes real-time connection to the Health Ministry e-health system a licence condition for all medical and pharmacy organisations, starting in Tashkent and 15 districts on 10 December 2025 and nationwide by end 2026. Rollout is still under way.",
+      "detail": [
+        "Resolution 570 of 8 September 2025 lists four modules: e-polyclinic, e-hospital, e-medical card and e-prescription. All state and private medical and pharmacy organisations must connect and exchange set data in real time as a licence condition.",
+        "The 2026 instruction says diagnoses, lab and imaging results, e-prescriptions and outpatient and inpatient records entered in the e-medical card pass automatically to the other modules.",
+        "The DMED operator lists 2,592 polyclinics, 448 hospitals, 1,424 pharmacies and 7 million lab tests on the platform. In May 2026 the Health Ministry said e-prescriptions were fully in place in the pilot organisations and would extend to all prescription drugs in Tashkent and the 15 pilot districts.",
+        "Links to insurance claims, public health surveillance and research were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Cabinet of Ministers Resolution No. 570 on accelerating digitalisation of health care (Lex.uz)",
+          "url": "https://lex.uz/uz/docs/7723519",
+          "date": "2025-09-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry order, reg. No. 3758: instruction on e-polyclinic, e-hospital, e-medical card and e-prescription modules (Lex.uz)",
+          "url": "https://lex.uz/docs/8007015",
+          "date": "2026-01-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "DMED, single digital health operator: platform figures",
+          "url": "https://dmed.uz/uz",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "E-prescription system is not being cancelled, it will expand (Gazeta.uz)",
+          "url": "https://www.gazeta.uz/ru/2026/05/01/e-receipt/",
+          "date": "2026-05-01",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 52,
+      "summary": "Doctors, nurses and pharmacists in connected facilities can open a patient's data in the national e-medical card module, which collects records from other providers. Coverage is still growing toward all regions by end 2026.",
+      "detail": [
+        "Under the 2026 instruction, module users have the right to access patient data, enter and update it, and send it on electronically. They log in through the OneID state identity system or a digital signature.",
+        "Records entered at any connected facility, including diagnoses, test results and treatment notes, flow into the single e-medical card in real time.",
+        "Resolution 570 extends mandatory connection to all regions only by the end of 2026, so a doctor outside connected areas or in an unconnected private clinic may not see the full record. Emergency access rules were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Health Ministry order, reg. No. 3758: instruction on e-polyclinic, e-hospital, e-medical card and e-prescription modules (Lex.uz)",
+          "url": "https://lex.uz/docs/8007015",
+          "date": "2026-01-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Cabinet of Ministers Resolution No. 570 on accelerating digitalisation of health care (Lex.uz)",
+          "url": "https://lex.uz/uz/docs/7723519",
+          "date": "2025-09-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "DMED, single digital health operator: platform figures",
+          "url": "https://dmed.uz/uz",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Drug trials need written participant consent and approval from a Health Ministry ethics committee under a regulation in force since 26 February 2026. Secondary use of health data for statistics needs no consent if de-identified, and no opt-out was found.",
+      "detail": [
+        "Health Ministry regulation No. 3745 (in force 26 February 2026) says trial subjects take part only on written consent on a set form, with a legal representative's consent for minors. No trial may start without a positive ethics review.",
+        "The ethics committee is approved by the Health Ministry and includes medical, research, university, media and civil society members. It meets at least monthly.",
+        "The data law allows state statistics bodies and other state bodies to use special data for statistics if de-identified, without consent. We found no public register of data uses or a general opt-out. Score: base 40 plus two safeguards (ethics body, statutory medical secrecy)."
+      ],
+      "sources": [
+        {
+          "title": "Health Ministry order, reg. No. 3745: regulation on clinical trials of medicines (Lex.uz)",
+          "url": "https://lex.uz/uz/docs/-7974648",
+          "date": "2026-01-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law ZRU-547 On Personal Data, current text (Lex.uz, Ministry of Justice)",
+          "url": "https://lex.uz/ru/docs/4396428",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law 265-I On Protection of Citizens' Health, current text (Lex.uz)",
+          "url": "https://lex.uz/ru/docs/41329",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 45,
+      "summary": "Binding ethics rules in force since 17 June 2026 bar relying only on AI for diagnosis, treatment choice or medical image analysis. We found no AI-specific medical device rules with change control, so this sits in the guidance band.",
+      "detail": [
+        "Law ZRU-1115 (21 January 2026) amended the Law on Informatization: AI systems must not harm life or health, and legally significant decisions on rights cannot rest solely on AI output. It added fines for unlawful processing of personal data with AI.",
+        "Digital Technologies Ministry order No. 3787 (registered 14 March 2026) sets ethics rules. In health care, including diagnosis, treatment choice, medical image analysis and patient data management, decisions must not rely only on AI conclusions.",
+        "The President's office said in December 2025 that five AI projects run in medicine, including stroke and breast cancer detection. Registration rules for AI as a medical device with change control were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Law ZRU-1115 amending laws to regulate the use of artificial intelligence (Lex.uz)",
+          "url": "https://lex.uz/ru/docs/8011377",
+          "date": "2026-01-21",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Technologies Ministry order, reg. No. 3787: ethics rules for AI-based solutions (Lex.uz)",
+          "url": "https://lex.uz/uz/docs/-8083233",
+          "date": "2026-03-14",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Use of AI in economic sectors and the social sphere will expand (President of Uzbekistan)",
+          "url": "https://president.uz/ru/lists/view/8721",
+          "date": "2025-12-01",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "Four state e-health modules link polyclinics, hospitals, labs and pharmacies in real time. Connection became a licence condition from December 2025 in pilot areas and is due nationwide by end 2026. Claims and public health links were not verified.",
+  "laws": [
+    {
+      "name": "Law ZRU-547 On Personal Data",
+      "level": "National",
+      "year": "2019",
+      "what": "Health data is special data; written consent, Cabinet-run regulator, localisation of biometric and genetic data.",
+      "url": "https://lex.uz/ru/docs/4396428"
+    },
+    {
+      "name": "Law 265-I On Protection of Citizens' Health",
+      "level": "National",
+      "year": "1996",
+      "what": "Patient rights, right to health information and record extracts, medical secrecy and its exceptions.",
+      "url": "https://lex.uz/ru/docs/41329"
+    },
+    {
+      "name": "Cabinet of Ministers Resolution No. 570 on digitalisation of health care",
+      "level": "National",
+      "year": "2025",
+      "what": "Mandatory real-time e-health connection for all medical and pharmacy organisations; e-prescription rules.",
+      "url": "https://lex.uz/uz/docs/7723519"
+    },
+    {
+      "name": "Health Ministry instruction on e-health modules (reg. No. 3758)",
+      "level": "National",
+      "year": "2026",
+      "what": "Rules for e-polyclinic, e-hospital, e-medical card, e-prescription; patient view and download via DMED.",
+      "url": "https://lex.uz/docs/8007015"
+    },
+    {
+      "name": "Health Ministry regulation on clinical trials (reg. No. 3745)",
+      "level": "National",
+      "year": "2026",
+      "what": "Written consent of trial subjects and mandatory ethics committee review before any trial.",
+      "url": "https://lex.uz/uz/docs/-7974648"
+    },
+    {
+      "name": "Law ZRU-1115 on artificial intelligence",
+      "level": "National",
+      "year": "2026",
+      "what": "AI must not harm health; no rights decisions solely on AI; fines for unlawful AI data processing.",
+      "url": "https://lex.uz/ru/docs/8011377"
+    },
+    {
+      "name": "Ethics rules for AI-based solutions (reg. No. 3787)",
+      "level": "National",
+      "year": "2026",
+      "what": "Health decisions such as diagnosis and treatment must not rely only on AI conclusions.",
+      "url": "https://lex.uz/uz/docs/-8083233"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-01-21",
+      "headline": "New law bars rights decisions based solely on AI and fines misuse",
+      "source": "Spot.uz",
+      "url": "https://www.spot.uz/ru/2026/01/21/ai-amendments/",
+      "why": "Sets a human-oversight rule and fines of 50 to 100 base units for unlawful AI data use."
+    },
+    {
+      "date": "2026-01-23",
+      "headline": "Health Ministry approves rules for e-medical cards and e-prescriptions",
+      "source": "Daryo",
+      "url": "https://daryo.uz/2026/01/23/ozbekistonda-elektron-tibbiy-karta-va-retseptlar-bilan-ishlash-qoidalari-tasdiqlandi/",
+      "why": "Patients gain a stated route to view and download their record in the DMED app."
+    },
+    {
+      "date": "2026-02-10",
+      "headline": "Analysts confirm part of leaked data from state systems is genuine",
+      "source": "Spot.uz",
+      "url": "https://www.spot.uz/ru/2026/02/10/data-leak/",
+      "why": "The seller claimed medical data at the social protection agency; analysts verified records on 15,874 health workers."
+    },
+    {
+      "date": "2026-02-19",
+      "headline": "Digital minister says security lagged digitalisation after January cyberattacks",
+      "source": "Gazeta.uz",
+      "url": "https://www.gazeta.uz/ru/2026/02/19/cybersecurity/",
+      "why": "Official admission that state digital services outpaced their cyber protection."
+    },
+    {
+      "date": "2026-05-01",
+      "headline": "Health Ministry says e-prescriptions stay and will cover all prescription drugs in pilot areas",
+      "source": "Gazeta.uz",
+      "url": "https://www.gazeta.uz/ru/2026/05/01/e-receipt/",
+      "why": "Confirms the e-prescription link between doctors and pharmacies is permanent and expanding."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

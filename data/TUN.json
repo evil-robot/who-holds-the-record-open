@@ -1,0 +1,338 @@
+{
+ "iso3": "TUN",
+ "name": "Tunisia",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Patients won a legal right to a full record copy in 2024, but records stay mostly on paper and the national portal is not live.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Law 2024-32 gives patients the right to a complete copy of their medical record, but sets no deadline or fee rule. The 2004 data law's free copy within one month does not apply to public health establishments, and no national portal is live.",
+   "detail": [
+    "Article 17 of Law 2024-32 (19 June 2024) gives the patient, a guardian or an heir the right to access the medical record and obtain a complete copy, and to bring a doctor of their choice to explain it, under the rules in force. No implementing text was found.",
+    "The 2004 data law (Article 40) gives a free copy within one month, with appeal to the data protection authority (INPDP). But Articles 53 and 56 say this access right cannot be exercised against public bodies, including public health establishments.",
+    "The ministry says every citizen will have a national health identifier by the end of 2026; over 15,000 had been issued by June 2026.",
+    "The Sahetna.tn portal, meant to show each person their record, was in its final setup phase in July 2026. Its public launch was not verified by 1 October 2026."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2024-32 du 19 juin 2024 relative aux droits des bénéficiaires des services de santé et à la responsabilité médicale (JORT n° 75)",
+     "url": "https://www.jurisitetunisie.com/download_jort.php?f=L2024_0032-F2024_075.pdf",
+     "date": "2024-06-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi organique n° 2004-63 du 27 juillet 2004 sur la protection des données à caractère personnel (INS)",
+     "url": "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf",
+     "date": "2004-07-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Dossier médical électronique : ce qui va changer pour les Tunisiens (La Presse)",
+     "url": "https://www.lapresse.tn/2026/06/22/dossier-medical-electronique-ce-qui-va-changer-pour-les-tunisiens/",
+     "date": "2026-06-22",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Numérisation de la santé : le ministère s'apprête à lancer le portail d'accès unique Sahetna.tn (La Presse)",
+     "url": "https://www.lapresse.tn/2026/07/21/numerisation-de-la-sante-le-ministere-sapprete-a-lancer-le-portail-dacces-unique-sahetna-tn/",
+     "date": "2026-07-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 35,
+   "summary": "Health data needs consent under the 2004 law, but the law also allows processing without consent for legal duties, public health, care and research. No opt-out, granular choice or patient-visible access log exists for the new national identifier.",
+   "detail": [
+    "Article 62 of the 2004 law allows health data processing with consent, or without it when the law requires it, for public health, for the person's own care, or for health research.",
+    "Only doctors or people bound by professional secrecy may process health data. Doctors need INPDP authorisation to pass it to other persons or institutions (Article 63).",
+    "Article 42 gives a right to object only for valid, legitimate and serious reasons, and not where processing is required by law.",
+    "Coverage of the national health identifier rollout describes linking records and checking personal data, with no patient consent choice or access log mentioned."
+   ],
+   "sources": [
+    {
+     "title": "Loi organique n° 2004-63 du 27 juillet 2004 sur la protection des données à caractère personnel (INS)",
+     "url": "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf",
+     "date": "2004-07-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Santé en Tunisie : un dossier médical unique pour chaque patient à Kébili (Tunisie Numérique)",
+     "url": "https://www.tunisienumerique.com/sante-en-tunisie-un-dossier-medical-unique-pour-chaque-patient-a-kebili/",
+     "date": "2026-07-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Numérisation de la santé : le ministère s'apprête à lancer le portail d'accès unique Sahetna.tn (La Presse)",
+     "url": "https://www.lapresse.tn/2026/07/21/numerisation-de-la-sante-le-ministere-sapprete-a-lancer-le-portail-dacces-unique-sahetna-tn/",
+     "date": "2026-07-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data has its own chapter in the 2004 law, with two years in prison for unlawful processing by unauthorised staff, and Tunisia joined Council of Europe Convention 108 in 2017. But the law has no breach notification duty and gives public bodies wide exemptions.",
+   "detail": [
+    "The 2004 law treats health as sensitive data, limits processing to secrecy-bound staff, and lets the INPDP ban disclosure. Breaking Article 63 brings two years in prison and a 10,000 dinar fine (Article 87).",
+    "The law contains no duty to report data breaches. Public security bodies are exempt from consent and objection rules (Articles 53 and 54).",
+    "Tunisia ratified Convention 108 and its Protocol 181 in May 2017. A 132-article bill to replace the 2004 law, with portability and the right to be forgotten, was still in parliamentary committee in February 2026.",
+    "No INPDP enforcement decision on health data and no major Tunisian health data breach in the last year were found. Tunisia has no EU adequacy decision, and the EU health data space (EHDS) does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Loi organique n° 2004-63 du 27 juillet 2004 sur la protection des données à caractère personnel (INS)",
+     "url": "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf",
+     "date": "2004-07-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret présidentiel n° 2017-75 du 30 mai 2017 ratifiant l'adhésion à la Convention 108 et au Protocole 181 (Legislation-securite.tn)",
+     "url": "https://legislation-securite.tn/latest-laws/decret-presidentiel-n-2017-75-du-30-mai-2017-portant-ratification-de-ladhesion-de-la-republique-tunisienne-a-la-convention-n-108-du-conseil-de-leurope-pour-la-protection-des-pe/",
+     "date": "2017-05-30",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Éclairages sur le projet de loi lié à la protection des données personnelles (African Manager)",
+     "url": "https://africanmanager.com/eclairages-sur-le-projet-de-loi-lie-a-la-protection-des-donnees-personnelles/",
+     "date": "2026-02-26",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Data protection adequacy for non-EU countries (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 44,
+   "summary": "The 2004 law bans using personal data for advertising without express, specific consent and lets people block transfers to third parties for advertising. It punishes passing on data for profit, but has no rules on data brokers, health apps or de-identified data sales, as in Morocco.",
+   "detail": [
+    "Article 30 forbids processing personal data for advertising unless the person gives express and specific consent. Article 42 lets a person object to their data being given to third parties for advertising, which stops processing at once.",
+    "Article 17 bans making a service conditional on consent to use data for other purposes. Communicating data to make a profit carries one year in prison and a 5,000 dinar fine (Article 89).",
+    "No rules on health data brokers, consumer health apps or sale of de-identified data were found. Enforcement in this area was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Loi organique n° 2004-63 du 27 juillet 2004 sur la protection des données à caractère personnel (INS)",
+     "url": "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf",
+     "date": "2004-07-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "La protection des données personnelles comme révélateur de l'État de droit en Tunisie (Village de la Justice)",
+     "url": "https://www.village-justice.com/articles/protection-des-donnees-personnelles-comme-revelateur-etat-droit-tunisie,56084.html",
+     "date": "2026-02-06",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "A World Bank review found Tunisia's health system 'largely paper-based': in emergency care only 32% of regional hospitals had a fully used electronic record, and district hospitals and primary care centres have none. A national health identifier is being rolled out to link records.",
+   "detail": [
+    "In emergency care at university hospitals, half have fully used electronic records and half only partly use them. In regional hospitals, 32% are fully operational, 52% partly used and 16% have none (World Bank, April 2025).",
+    "The project aims to bring information systems to 1,100 primary care centres by May 2030. The April 2026 progress report still shows zero.",
+    "A national teleradiology network links 38 facilities and read over 86,000 scans in under a year, according to the health minister.",
+    "An e-pharmacie system for tracking medicine use was being set up in March 2026. National e-prescription and links to insurance claims were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Tunisia Health System Strengthening Project (P507209), Appraisal Project Information Document (World Bank)",
+     "url": "https://documents.worldbank.org/curated/en/099040225000532312/pdf/P507209-7bb7c459-f516-4ffe-a638-bc2583cfd224.pdf",
+     "date": "2025-04-02",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Implementation Status and Results Report, P507209, Seq. 2 (World Bank)",
+     "url": "https://documents.worldbank.org/curated/en/099042826020528732/pdf/P507209-77ad182b-71d9-4e2b-95d4-0b52e0ce7070.pdf",
+     "date": "2026-04-28",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Santé numérique : la Tunisie mise sur l'intelligence artificielle pour transformer son système de soins (L'Economiste Maghrébin)",
+     "url": "https://www.leconomistemaghrebin.com/2026/07/21/sante-numerique-la-tunisie-mise-sur-lintelligence-artificielle-pour-transformer-son-systeme-de-soins/",
+     "date": "2026-07-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "وزارة الصحة تشرع في تركيز منظومة e-pharmacie لترشيد استهلاك الأدوية وتتبعها (Diwan FM)",
+     "url": "https://diwanfm.net/news/%D9%88%D8%B7%D9%86%D9%8A%D8%A9/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%AA%D8%B4%D8%B1%D8%B9-%D9%81%D9%8A-%D8%AA%D8%B1%D9%83%D9%8A%D8%B2-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%22e-pharmacie%22-%D9%84%D8%AA%D8%B1%D8%B4%D9%8A%D8%AF-%D8%A7%D8%B3%D8%AA%D9%87%D9%84%D8%A7%D9%83-%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D9%88%D8%AA%D8%AA%D8%A8%D8%B9%D9%87%D8%A7",
+     "date": "2026-03-19",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 28,
+   "summary": "There is no national exchange letting a treating clinician see records from other providers. Emergency services still use paper reports that do not link to hospital records, and the identifier meant to connect files was still being rolled out in 2026.",
+   "detail": [
+    "The World Bank found that the SAMU emergency services rely on paper reports and do not link to hospital electronic records.",
+    "The national health identifier is meant to let facilities exchange medical data and to unify each patient's file. Kébili region began adopting it in July 2026.",
+    "Teleradiology now lets remote radiologists read scans for 38 facilities around the clock."
+   ],
+   "sources": [
+    {
+     "title": "Tunisia Health System Strengthening Project (P507209), Appraisal Project Information Document (World Bank)",
+     "url": "https://documents.worldbank.org/curated/en/099040225000532312/pdf/P507209-7bb7c459-f516-4ffe-a638-bc2583cfd224.pdf",
+     "date": "2025-04-02",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Santé en Tunisie : un dossier médical unique pour chaque patient à Kébili (Tunisie Numérique)",
+     "url": "https://www.tunisienumerique.com/sante-en-tunisie-un-dossier-medical-unique-pour-chaque-patient-a-kebili/",
+     "date": "2026-07-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Santé numérique : la Tunisie mise sur l'intelligence artificielle pour transformer son système de soins (L'Economiste Maghrébin)",
+     "url": "https://www.leconomistemaghrebin.com/2026/07/21/sante-numerique-la-tunisie-mise-sur-lintelligence-artificielle-pour-transformer-son-systeme-de-soins/",
+     "date": "2026-07-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Health data may be used for research without consent under the 2004 law, with no general opt-out. Safeguards include ethics committees for trials, secrecy and de-identification duties, and prison terms for publishing research data without consent.",
+   "detail": [
+    "Article 62 lets health data be processed without consent for public health research and scientific research in health.",
+    "Research data must not identify people where the research allows (Article 67) and may be published only with written consent or to present results (Article 68). Breaking Article 68 carries two years in prison (Article 87).",
+    "Drug trials follow Decree 90-1401 of 1990, with 2015 orders setting up committees for the protection of persons and a model informed consent form.",
+    "No public register of research uses of health data was found."
+   ],
+   "sources": [
+    {
+     "title": "Loi organique n° 2004-63 du 27 juillet 2004 sur la protection des données à caractère personnel (INS)",
+     "url": "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf",
+     "date": "2004-07-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Essai clinique : réglementation (Direction de la Pharmacie et du Médicament)",
+     "url": "https://dpm.tn/essai-clinique-reglementation",
+     "date": "2017-09-07",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 27,
+   "summary": "Tunisia has no binding rules for clinical AI. A national AI strategy names digital health a priority and the ministry says doctors keep the final decision, but legal frameworks for AI are still being drafted.",
+   "detail": [
+    "The communications minister said in May 2026 that legal and regulatory frameworks for responsible AI are being drafted.",
+    "In July 2026 the health minister announced a Centre of Excellence for AI in health and a chest X-ray AI model to be deployed in over 300 primary care centres. No regulatory clearance for it was verified.",
+    "The medicines agency ANMPS, created by Law 2023-2, authorises health products. No AI or software-specific rule was found."
+   ],
+   "sources": [
+    {
+     "title": "Tunisie : la stratégie nationale de l'IA mise sur la santé, l'agriculture et la souveraineté numérique (WMC)",
+     "url": "https://www.webmanagercenter.com/2026/05/25/567341/tunisie-la-strategie-nationale-de-lia-mise-sur-la-sante-lagriculture-et-la-souverainete-numerique/",
+     "date": "2026-05-25",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Santé numérique : la Tunisie mise sur l'intelligence artificielle pour transformer son système de soins (L'Economiste Maghrébin)",
+     "url": "https://www.leconomistemaghrebin.com/2026/07/21/sante-numerique-la-tunisie-mise-sur-lintelligence-artificielle-pour-transformer-son-systeme-de-soins/",
+     "date": "2026-07-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Loi n° 2023-2 du 12 juillet 2023 portant création de l'Agence nationale du médicament et des produits de santé (9anoun, JORT 2023-072)",
+     "url": "https://9anoun.tn/fr/kb/jorts/jort-2023-072-cb77f/loi-ndeg-2023-2-du-12-juillet-2023-portant-creation-de-lagence-nationale-du-medicament-et-des-produits-de-sante-2",
+     "date": "2023-07-12",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Electronic records exist in many university and regional hospitals, but not in district hospitals or primary care centres. A national health identifier and teleradiology link some sites. Claims and e-prescription links were not verified.",
+ "laws": [
+  {
+   "name": "Loi organique n° 2004-63 sur la protection des données à caractère personnel",
+   "level": "National",
+   "year": "2004",
+   "what": "Health is sensitive; processing by secrecy-bound staff; access and objection rights; INPDP regulator; criminal penalties.",
+   "url": "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf"
+  },
+  {
+   "name": "Loi n° 2024-32 relative aux droits des bénéficiaires des services de santé et à la responsabilité médicale",
+   "level": "National",
+   "year": "2024",
+   "what": "Informed written consent for treatment; privacy of record data; right to a complete copy of the record.",
+   "url": "https://www.jurisitetunisie.com/download_jort.php?f=L2024_0032-F2024_075.pdf"
+  },
+  {
+   "name": "Loi organique n° 2017-42 and Décret présidentiel n° 2017-75 (Convention 108 and Protocol 181)",
+   "level": "Supranational",
+   "year": "2017",
+   "what": "Tunisia joins the Council of Europe data protection convention and its supervisory authority protocol.",
+   "url": "https://legislation-securite.tn/latest-laws/decret-presidentiel-n-2017-75-du-30-mai-2017-portant-ratification-de-ladhesion-de-la-republique-tunisienne-a-la-convention-n-108-du-conseil-de-leurope-pour-la-protection-des-pe/"
+  },
+  {
+   "name": "Décret n° 90-1401 on medical or scientific experimentation of medicines",
+   "level": "National",
+   "year": "1990",
+   "what": "Rules for drug trials, with 2015 orders on protection committees and an informed consent form.",
+   "url": "https://dpm.tn/essai-clinique-reglementation"
+  },
+  {
+   "name": "Loi n° 2023-2 portant création de l'Agence nationale du médicament et des produits de santé",
+   "level": "National",
+   "year": "2023",
+   "what": "Creates ANMPS to authorise, suspend and oversee medicines and health products.",
+   "url": "https://9anoun.tn/fr/kb/jorts/jort-2023-072-cb77f/loi-ndeg-2023-2-du-12-juillet-2023-portant-creation-de-lagence-nationale-du-medicament-et-des-produits-de-sante-2"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-02-26",
+   "headline": "Parliament committee hears 132-article bill to replace 2004 data law",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/eclairages-sur-le-projet-de-loi-lie-a-la-protection-des-donnees-personnelles/",
+   "why": "Would add portability and stronger rights over health data, if adopted."
+  },
+  {
+   "date": "2026-06-22",
+   "headline": "Minister promises every citizen a national health identifier by end of 2026",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/06/22/dossier-medical-electronique-ce-qui-va-changer-pour-les-tunisiens/",
+   "why": "The identifier is the key to a single record patients could view online."
+  },
+  {
+   "date": "2026-07-16",
+   "headline": "Kébili health facilities start linking patient files to national health identifier",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/sante-en-tunisie-un-dossier-medical-unique-pour-chaque-patient-a-kebili/",
+   "why": "Records begin to follow patients between facilities; consent choices not described."
+  },
+  {
+   "date": "2026-07-21",
+   "headline": "Health minister announces AI centre and chest X-ray model for 300 clinics",
+   "source": "L'Economiste Maghrébin",
+   "url": "https://www.leconomistemaghrebin.com/2026/07/21/sante-numerique-la-tunisie-mise-sur-lintelligence-artificielle-pour-transformer-son-systeme-de-soins/",
+   "why": "Clinical AI may reach patients before any national AI rules exist."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "Tunisia to adopt national digital health pact with WHO and other partners",
+   "source": "Webdo",
+   "url": "https://www.webdo.tn/fr/actualite/national/sante-numerique-la-tunisie-sapprete-a-adopter-un-pacte-national/404690/",
+   "why": "Sets priorities for telemedicine, interoperability and AI in public care."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

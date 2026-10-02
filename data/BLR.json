@@ -1,0 +1,351 @@
+{
+  "iso3": "BLR",
+  "name": "Belarus",
+  "region": "Europe",
+  "controlModel": "State",
+  "headline": "Belarusians can keep their records out of the new state health system, but police and security bodies can obtain medical secrets without consent.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 50,
+      "summary": "The Health Care Law lets patients read their records and get free extracts within 5 days, but not a copy of the whole record. A national patient portal opened in test mode in June 2026, and just over 2.2 million electronic cards existed in April.",
+      "detail": [
+        "Article 41 of Law No. 2435-XII on Health Care gives patients the right to read the medical documents a clinic holds about their health and visits. Article 46 obliges clinics to issue extracts, certificates and other documents on the patient's request.",
+        "A clinic's administrative procedure page (item 7.9) says an extract (copy) from medical documents is free and issued within 5 days. The law grants a right to read records and to extracts, not to a copy of the whole record.",
+        "The Health Ministry names medportal.gov.by as the official portal for the patient's personal cabinet. dev.by reported on 25 June 2026 that it shows visits, diagnoses, test results and vaccinations, may be incomplete, and runs in test mode.",
+        "In April 2026 the ministry told BelTA that 2.2 million electronic medical cards had been formed and that past history had been digitised for about 7% of residents. Portal user numbers were not found.",
+        "Scoring: statutory right with no full national portal, base 45, plus 5 for a free extract with a fixed deadline, minus 5 for limited scope (extracts, not the whole record), plus 5 for an officially documented portal."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 2435-XII on Health Care, consolidated text (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=v19302435",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Procedure 7.9: issuing an extract from medical documents (Mogilev City Polyclinic No. 8)",
+          "url": "https://mogcp.by/one-window/ap-clinic8/item/341-procedure7-9?tmpl=component&print=1",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Centralized Health Information System (Ministry of Health)",
+          "url": "https://minzdrav.gov.by/ru/dlya-spetsialistov/elektronnoe-zdravookhranenie/tsentralizovannaya-informatsionnaya-sistema-zdravookhraneniya/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Belarus launches medical portal with personal patient cabinet (dev.by)",
+          "url": "https://devby.io/news/v-belarusi-zapustili-medportal-s-lichnym-kabinetom-patsientov",
+          "date": "2026-06-25",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 45,
+      "summary": "Patients have a legal right to refuse having medical secrets entered into the central health system, made on a written form at their clinic. Otherwise records flow without consent, and no access log that patients can view was found.",
+      "detail": [
+        "Article 41 of the Health Care Law gives the patient the right to refuse entry of medical-secret information into the Centralized Health Information System (CISZ). The refusal does not cover reports that clinics must send to law enforcement.",
+        "Article 37-6 says medical workers collect and process CISZ data without the patient's consent, except where the patient has refused. Health Ministry Resolution No. 74 (2021) sets the written consent, withdrawal and refusal forms, filed at the clinic where the patient is registered.",
+        "Even after a refusal, Resolution 74 lets the system owner keep processing de-identified data for statistics. Adult patients may also name people who may, or may not, be told about their health (Article 46).",
+        "The system operator told BelTA in July 2026 that every medical worker's action in CISZ leaves a digital trace. We found no feature letting patients see that log, so this sits in the 40 to 55 band (opt-out, no visible log)."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 2435-XII on Health Care, consolidated text (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=v19302435",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry Resolution No. 74 of 7 June 2021 on consent and refusal forms",
+          "url": "https://minzdrav.gov.by/upload/lcfiles/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%9C%D0%97_2021_74.pdf",
+          "date": "2021-06-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "How patients and doctors can protect their data in electronic medical cards (BelTA)",
+          "url": "https://belta.by/society/view/kak-patsientu-i-vrachu-obezopasit-svoi-dannye-pri-rabote-s-elektronnymi-medkartami-rasskazala-790108-2026/",
+          "date": "2026-07-07",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 35,
+      "summary": "Health data is a special category under the 2021 Personal Data Law, and breaches must be reported within 3 working days. The regulator was founded by the President's Operational-Analytical Center, and police, courts and operational-search bodies can get medical secrets without consent.",
+      "detail": [
+        "Law No. 99-Z (2021) lists health data as special personal data. Processing without consent is banned except listed cases, including medical care by staff bound by medical secrecy, criminal and administrative proceedings, operational-search work and national security.",
+        "Operators must tell the regulator about breaches immediately and no later than 3 working days after learning of them. Criminal Code Article 203-1 punishes unlawful collection or sharing of personal data that causes substantial harm.",
+        "The National Personal Data Protection Center was set up by Presidential Decree No. 422 (2021). Its founder is the Operational-Analytical Center under the President. It can inspect, order fixes and stop processing; its staff described typical health-sector violations in December 2025.",
+        "Article 46 of the Health Care Law lets prosecutors, courts, operational-search bodies and others obtain medical secrets without consent. Clinics must report to police, unasked, when harm may come from unlawful acts."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 99-Z on Personal Data Protection (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=H12100099",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "About the Center (National Personal Data Protection Center)",
+          "url": "https://cpd.by/o-centre/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Typical violations in processing personal data in health care (ilex)",
+          "url": "https://ilex.by/news/tipichnye-narusheniya-pri-obrabotke-personalnyh-dannyh-v-sfere-zdravoohraneniya/",
+          "date": "2026-03-02",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "Law No. 2435-XII on Health Care, consolidated text (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=v19302435",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "Using health data outside care generally needs the person's consent under Law 99-Z, and the regulator says the de-identified data basis cannot be used for advertising. No specific ban on selling health data and no published health-data enforcement case were found.",
+      "detail": [
+        "Article 8 of Law 99-Z bans processing of special data, including health, without consent unless a listed exception applies. Marketing is not among the exceptions.",
+        "The regulator's guidance says the legal basis for processing de-identified data cannot be used to attract attention to an advertised product or promote it. That guidance covers ordinary personal data, not special categories.",
+        "The central record is a state system owned by the Health Ministry and run by a state agency. We found no law that specifically bans selling health data or regulates consumer health apps, and no reported case of health-data sales in Belarus."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 99-Z on Personal Data Protection (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=H12100099",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Legal bases for processing (National Personal Data Protection Center)",
+          "url": "https://cpd.by/zachita-personalnyh-dannyh/operatoru/pravovye-osnovanija-obrabotki/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 55,
+      "summary": "One state system, CISZ, is meant to link every clinic and pharmacy, and e-prescriptions have been national since 2020, with almost 13 million written in 2025. In April 2026 only 456 health organisations could use the integrated electronic card.",
+      "detail": [
+        "The Health Care Law makes CISZ the state system for the electronic medical card, a single electronic archive and health registries. The Health Ministry owns it; Resolution No. 9 of 11 February 2026 made the Digital Transformation Agency its operator.",
+        "In November 2025 the ministry said 60 pilot organisations were on the system, and a Beltelecom speaker said about 80% of organisations were connected. Planned parts include one lab results system for public and private labs, an imaging archive and queue management.",
+        "BelTA reported in April 2026 that e-prescriptions cover all health organisations, the state pharmacy chain and about 1,500 private pharmacies. Paper prescriptions still exist alongside them.",
+        "Health care is tax-funded, so there is no insurance claims link. Private clinics are still being brought in; the ministry proposed making connection a licence condition. A Western contractor left the project after EU sanctions, DW reported."
+      ],
+      "sources": [
+        {
+          "title": "On the start of trial operation of the Centralized Health Information System (Ministry of Health)",
+          "url": "https://minzdrav.gov.by/ru/sobytiya/o-nachale-opytnoy-ekspluatatsii-tsentralizovannoy-informatsionnoy-sistemy-zdravookhraneniya/",
+          "date": "2025-11-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Centralized Health Information System (Digital Transformation Agency)",
+          "url": "https://agdt.by/zdravoohranenie/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "The e-prescription system: how it is being rolled out (BelTA)",
+          "url": "https://belta.by/society/view/sistema-elektronnyh-retseptov-kak-segodnja-ona-vnedrjaetsja-i-pokazyvaet-sebja-775465-2026/",
+          "date": "2026-04-14",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Belarus to get electronic prescriptions and sick notes (DW)",
+          "url": "https://www.dw.com/ru/v-belarusi-zapustat-sistemu-elektronnogo-zdravoohranenia/a-72018910",
+          "date": "2025-03-24",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 50,
+      "summary": "The law lets medical workers process CISZ records without consent, and the ministry says one integrated card will be visible to any treating clinic. By April 2026 just over 2.2 million cards existed and older history was digitised for about 7% of residents.",
+      "detail": [
+        "Article 37-6 lets medical workers process CISZ information without consent unless the patient refused. Article 46 also lets clinics send medical secrets to other state health organisations to organise care.",
+        "The ministry said in November 2025 that the integrated card would give a medical worker the patient's history wherever the patient lives, and that lab results would be visible to the treating doctor in any facility.",
+        "In April 2026, 456 organisations could work with the card and the system logged about 8 million requests for patient data a day. Only 19 key items of past history are being digitised, so older records stay on paper."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 2435-XII on Health Care, consolidated text (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=v19302435",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "On the start of trial operation of the Centralized Health Information System (Ministry of Health)",
+          "url": "https://minzdrav.gov.by/ru/sobytiya/o-nachale-opytnoy-ekspluatatsii-tsentralizovannoy-informatsionnoy-sistemy-zdravookhraneniya/",
+          "date": "2025-11-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "More than 2.2 million electronic medical cards formed in Belarus (BelTA)",
+          "url": "https://belta.by/society/view/v-belarusi-sformirovano-bolee-22-mln-elektronnyh-meditsinskih-kart-775373-2026/",
+          "date": "2026-04-14",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Trial participants must give written consent and can stop at any time, and using a patient's health information in scientific literature needs consent. De-identified CISZ data can be used without consent, and a refusal does not stop it.",
+      "detail": [
+        "Article 40 of the Health Care Law requires voluntary, written consent for medical device trials and stops a trial on the participant's request. Drug trials follow medicines law and Eurasian Economic Union rules.",
+        "Article 46 allows use of a patient's health information in teaching and scientific literature only with consent. Law 99-Z allows processing of de-identified personal data for research without consent.",
+        "Resolution 74 lets the system keep de-identified data after a patient refuses. An AI decision-support tool tested in Minsk is trained on archived medical data; no consent step was described. Belarus is outside the EU, so the EHDS opt-out does not apply.",
+        "Scoring: base 40, plus 3 each for statutory secrecy with ministry-set de-identification, a criminal misuse penalty (Article 203-1) and a partial consent route. No research permit body or public register of uses was found."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 2435-XII on Health Care, consolidated text (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=v19302435",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 99-Z on Personal Data Protection (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=H12100099",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry Resolution No. 74 of 7 June 2021 on consent and refusal forms",
+          "url": "https://minzdrav.gov.by/upload/lcfiles/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%9C%D0%97_2021_74.pdf",
+          "date": "2021-06-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mobile 'doctor call' service and AI in polyclinics (News.by)",
+          "url": "https://news.by/news/tekhnologii/mobilniy-servis-vyzov-vracha-ii-v-rabote-poliklinik-kak-tekhnologii-vliyayut-na-rabotu-medikov",
+          "date": "2026-08-12",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "The Health Care Law counts special software as part of a medical device, but Belarus has no law that directly regulates AI. An AI decision-support tool is in test use in Minsk polyclinics, with the doctor making the final decision.",
+      "detail": [
+        "The Health Care Law defines medical devices to include special software intended for medical purposes, so diagnostic software falls under device rules. AI-specific registration, change control or monitoring rules were not found.",
+        "A National Academy of Sciences official said in July 2026 that Belarus has no legislative act that directly regulates AI. His institute wrote a CIS model AI law, adopted by the CIS Inter-Parliamentary Assembly on 18 April 2025.",
+        "News.by reported in August 2026 that an AI decision-support module, built on archived medical data and retrained over time, is being tested with home-visit doctors in Minsk. The doctor makes the final decision."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 2435-XII on Health Care, consolidated text (National Legal Internet Portal)",
+          "url": "https://pravo.by/webnpa/text.asp?RN=v19302435",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Belarusian scientists work on AI regulation (National Legal Internet Portal)",
+          "url": "https://pravo.by/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/94223/",
+          "date": "2026-07-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mobile 'doctor call' service and AI in polyclinics (News.by)",
+          "url": "https://news.by/news/tekhnologii/mobilniy-servis-vyzov-vracha-ii-v-rabote-poliklinik-kak-tekhnologii-vliyayut-na-rabotu-medikov",
+          "date": "2026-08-12",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "connected",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "CISZ links 456 state organisations in trial use (April 2026) and e-prescriptions are national. Lab and imaging archives are being built, care is tax-funded with no claims system, and no research route was found. The EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Law No. 2435-XII on Health Care",
+      "level": "National",
+      "year": "1993",
+      "what": "Right to read records and get extracts; medical secrecy and exceptions; CISZ and the right to refuse entry.",
+      "url": "https://pravo.by/webnpa/text.asp?RN=v19302435"
+    },
+    {
+      "name": "Law No. 99-Z on Personal Data Protection",
+      "level": "National",
+      "year": "2021",
+      "what": "Health data is special; consent needed except listed cases; breaches reported to regulator within 3 working days.",
+      "url": "https://pravo.by/webnpa/text.asp?RN=H12100099"
+    },
+    {
+      "name": "Presidential Decree No. 422 on improving personal data protection",
+      "level": "National",
+      "year": "2021",
+      "what": "Creates the National Personal Data Protection Center with inspection and order powers.",
+      "url": "https://president.gov.by/ru/documents/ukaz-no-422-ot-28-oktyabrya-2021-g"
+    },
+    {
+      "name": "Health Ministry Resolution No. 74 on consent and refusal forms",
+      "level": "National",
+      "year": "2021",
+      "what": "Forms for consent, withdrawal and refusal of entry into electronic records and CISZ.",
+      "url": "https://minzdrav.gov.by/upload/lcfiles/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%9C%D0%97_2021_74.pdf"
+    },
+    {
+      "name": "Criminal Code Article 203-1 (unlawful acts with personal data)",
+      "level": "National",
+      "year": "2021",
+      "what": "Criminal liability for unlawful collection or sharing of personal data causing substantial harm.",
+      "url": "https://pravo.by/novosti/novosti-pravo-by/2021/june/65098/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-08-12",
+      "headline": "AI decision-support tool tested with home-visit doctors in Minsk",
+      "source": "News.by",
+      "url": "https://news.by/news/tekhnologii/mobilniy-servis-vyzov-vracha-ii-v-rabote-poliklinik-kak-tekhnologii-vliyayut-na-rabotu-medikov",
+      "why": "The tool learns from archived patient records; no consent step was described."
+    },
+    {
+      "date": "2026-07-07",
+      "headline": "Health system operator warns of fake portal sites and says staff access is logged",
+      "source": "BelTA",
+      "url": "https://belta.by/society/view/kak-patsientu-i-vrachu-obezopasit-svoi-dannye-pri-rabote-s-elektronnymi-medkartami-rasskazala-790108-2026/",
+      "why": "Doctor actions leave a trace; no way for patients to view that log was found."
+    },
+    {
+      "date": "2026-06-25",
+      "headline": "National medical portal opens in test mode with patient record view",
+      "source": "dev.by",
+      "url": "https://devby.io/news/v-belarusi-zapustili-medportal-s-lichnym-kabinetom-patsientov",
+      "why": "First national view of one's own record; the ministry says it may be incomplete."
+    },
+    {
+      "date": "2026-04-14",
+      "headline": "Ministry reports 2.2 million electronic medical cards created",
+      "source": "BelTA",
+      "url": "https://belta.by/society/view/v-belarusi-sformirovano-bolee-22-mln-elektronnyh-meditsinskih-kart-775373-2026/",
+      "why": "Shows most residents do not yet have a central electronic card."
+    },
+    {
+      "date": "2025-11-12",
+      "headline": "Central health information system enters trial with 60 pilot organisations",
+      "source": "Ministry of Health of Belarus",
+      "url": "https://minzdrav.gov.by/ru/sobytiya/o-nachale-opytnoy-ekspluatatsii-tsentralizovannoy-informatsionnoy-sistemy-zdravookhraneniya/",
+      "why": "Starts a single state record that clinicians anywhere can open."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

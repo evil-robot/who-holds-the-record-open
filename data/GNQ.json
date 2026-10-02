@@ -1,0 +1,312 @@
+{
+ "iso3": "GNQ",
+ "name": "Equatorial Guinea",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Equatorial Guinea passed a data law in 2016 but never set up its regulator, and patient records remain on paper in each facility.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Law 1/2016 gives a free right to a copy of your personal data, but sets no deadline for answering. There is no patient portal, and the regulator meant to hear complaints has not been set up, so 40.",
+   "detail": [
+    "Article 13(a) of Law 1/2016 lets a person request and obtain, free of charge, a copy of their data under processing, its origin and who it was shared with. The text frames this right within a twelve-month period.",
+    "The law sets a 15-day deadline only for correction and deletion (Article 13(d)). We found no deadline for answering an access request.",
+    "Article 14 lets police and tax files refuse access. A refused person must first complain to the controller, then to the Órgano Rector de Protección de Datos Personales. Data protection trackers report that this body has not been set up. Courts remain open (Article 16), and the Minister of Telecommunications holds the power to sanction (Article 35).",
+    "We found no health law giving a specific right to the clinical record (not verified), and no portal or app that shows patients their records."
+   ],
+   "sources": [
+    {
+     "title": "Ley Núm. 1/2016, de fecha 22 de julio, de Protección de Datos Personales (Ministerio de Función Pública)",
+     "url": "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf",
+     "date": "2016-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Equatorial Guinea data protection factsheet (Data Protection Africa, ALT Advisory)",
+     "url": "https://dataprotection.africa/equatorial-guinea/",
+     "date": "2022-06-24",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "Health data needs express written consent under Law 1/2016, but care, public health and transfers between state bodies are exempt. There is no shared record, no opt-out and no access log a patient can see.",
+   "detail": [
+    "Article 10(4) of Law 1/2016 says health data may be collected or processed only with the person's express written consent. Article 10(6) lifts that for prevention, diagnosis, care and health service management by a professional bound by secrecy.",
+    "Consent can be revoked only 'when there is justified cause' (Article 10(2)), and revocation is not retroactive.",
+    "Article 12(2) allows disclosure without consent to courts and prosecutors, where public health is affected, or between state bodies for statistical and scientific purposes. Article 21 lets public bodies share data with each other without consent.",
+    "No national shared record exists, so there is no setting to change and no access log to read."
+   ],
+   "sources": [
+    {
+     "title": "Ley Núm. 1/2016, de fecha 22 de julio, de Protección de Datos Personales (Ministerio de Función Pública)",
+     "url": "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf",
+     "date": "2016-07-22",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data needs written consent and misuse is a very serious offence, but fines top out at 15 million CFA francs and no breach notice is required. With no health cases and no working regulator found, this scores the general law at its floor, 45.",
+   "detail": [
+    "Article 41(d) of Law 1/2016 makes processing health data without express written consent a very serious offence. Article 42 sets fines of 5,000,001 to 15,000,000 CFA francs, plus seizure, closure or a ban. Article 11 requires security measures, but we found no duty to report breaches.",
+    "Article 35 gives the power to sanction to the Minister of Telecommunications and New Technologies, with appeal to the Council of Ministers. The Órgano Rector is staffed by civil servants and is to be created by decree.",
+    "Data Protection Africa (2022) and Africa Data Protection report no operating authority. We found no creating decree, so its absence is not verified from an official source. We found no enforcement decision or health data breach.",
+    "Law 7/2024 on cybercrime adds prison terms of five to eight years for wrongly obtaining sensitive data, including health data. Equatorial Guinea is outside the EU, so the EHDS does not apply. Transfers abroad need regulator approval, except for medical care."
+   ],
+   "sources": [
+    {
+     "title": "Ley Núm. 1/2016, de fecha 22 de julio, de Protección de Datos Personales (Ministerio de Función Pública)",
+     "url": "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf",
+     "date": "2016-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ley Núm. 7/2024 por la que se regula el uso de las redes sociales, delitos informáticos y ciberdelincuencia (texto publicado por el PDGE)",
+     "url": "https://www.pdge-guineaecuatorial.com/ley-no-7-2024-por-la-que-se-regula-el-uso-de-las-redes-sociales-delitos-informaticos-y-ciberdelincuencia/",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Equatorial Guinea data protection factsheet (Data Protection Africa, ALT Advisory)",
+     "url": "https://dataprotection.africa/equatorial-guinea/",
+     "date": "2022-06-24",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Equatorial Guinea: data protection law (Africa Data Protection)",
+     "url": "https://www.africadataprotection.org/en/pays/guinee-equatoriale.html",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Marketing firms may use only public sources or data people agreed to give, and anyone can opt out of advertising for free within five days. Selling health data without consent can bring prison under Law 7/2024, but no enforcement was found.",
+   "detail": [
+    "Article 24 of Law 1/2016 limits advertising, distance selling and commercial prospecting to data from public sources or data given with consent. People may object at any time, and their data must then be deleted free of charge.",
+    "Article 22(2) gives a free right to be removed from advertising lists, to be granted within five days.",
+    "Article 46 of Law 7/2024 sets three to six years in prison for revealing or passing on personal data obtained by digital means without consent, four to eight years where done for profit, more for sensitive data. These are general rules. We found no rules on health apps, data brokers or de-identified data, and no published case."
+   ],
+   "sources": [
+    {
+     "title": "Ley Núm. 1/2016, de fecha 22 de julio, de Protección de Datos Personales (Ministerio de Función Pública)",
+     "url": "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf",
+     "date": "2016-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ley Núm. 7/2024 por la que se regula el uso de las redes sociales, delitos informáticos y ciberdelincuencia (texto publicado por el PDGE)",
+     "url": "https://www.pdge-guineaecuatorial.com/ley-no-7-2024-por-la-que-se-regula-el-uso-de-las-redes-sociales-delitos-informaticos-y-ciberdelincuencia/",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 18,
+   "summary": "Facilities record data on paper sheets that ministry staff copy into spreadsheets. A DHIS2 reporting pilot ran in two districts in June 2025, and the universal health insurance plan was 46.3% through its roadmap in February 2026.",
+   "detail": [
+    "EHAS, which works with the ministry, says facility data have been collected by hand on paper forms, then moved into spreadsheets for monthly reports. Since 2022 a DHIS2 system funded by Spanish aid (AECID) has been built to automate this. It collects aggregate figures, not patient records.",
+    "The DHIS2 pilot ran in June 2025 in Baney and Añisok districts and trained 104 health workers. National rollout was planned for 2026; whether it happened was not verified.",
+    "The government says the universal health insurance roadmap was 46.3% complete in February 2026, with WHO health economists advising. It is not yet running.",
+    "In February 2026 the government ordered the social security institute (INSESO) to focus on insurance and studied moving its hospitals to the health ministry."
+   ],
+   "sources": [
+    {
+     "title": "Un Sistema de Información Sanitaria para Guinea Ecuatorial (Fundación EHAS)",
+     "url": "https://ehas.org/que-hacemos/sis/sis-guinea-ecuatorial/",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Finaliza con éxito la prueba piloto de la plataforma DHIS2 en Baney y Añisok (Guinea Salud)",
+     "url": "https://guineasalud.com/finaliza-con-exito-la-prueba-piloto-de-la-plataforma-dhis2-en-baney-y-anisok/",
+     "date": "2025-11-25",
+     "publisherClass": "news"
+    },
+    {
+     "title": "El Comité Multisectorial del Seguro Médico Universal refuerza su hoja de ruta con el respaldo de la OMS (Oficina de Información y Prensa de Guinea Ecuatorial)",
+     "url": "https://www.guineaecuatorialpress.com/noticias/el_comite_multisectorial_del_seguro_medico_universal_refuerza_su_hoja_de_ruta_con_el_respaldo_de_la_oms",
+     "date": "2026-02-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "El Gobierno impulsa cambios en INSESO para garantizar una atención sanitaria digna y universal (PDGE)",
+     "url": "https://www.pdge-guineaecuatorial.com/el-gobierno-impulsa-cambios-en-inseso-para-garantizar-una-atencion-sanitaria-digna-y-universal/",
+     "date": "2026-02-12",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 15,
+   "summary": "Law 1/2016 lets health professionals process data for care without consent, but there is no electronic record they can open across facilities. A clinician sees only the paper file held where the patient is treated.",
+   "detail": [
+    "Article 10(6) of Law 1/2016 allows health data processing for diagnosis and care by a professional bound by secrecy. Article 10(7) allows it to protect a person's vital interest when they cannot consent.",
+    "The national information system being built on DHIS2 collects aggregate reports from facilities, not individual patient histories.",
+    "In March 2026 a ministry delegation studied Madrid's primary care information systems and tools for continuity of care. We found no plan or date for an electronic patient record in Equatorial Guinea."
+   ],
+   "sources": [
+    {
+     "title": "Ley Núm. 1/2016, de fecha 22 de julio, de Protección de Datos Personales (Ministerio de Función Pública)",
+     "url": "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf",
+     "date": "2016-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Un Sistema de Información Sanitaria para Guinea Ecuatorial (Fundación EHAS)",
+     "url": "https://ehas.org/que-hacemos/sis/sis-guinea-ecuatorial/",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "La Comunidad de Madrid recibe a una delegación de Guinea Ecuatorial para compartir su modelo organizativo, sistemas de información y estrategia de cronicidad en Atención Primaria (Comunidad de Madrid)",
+     "url": "https://www.comunidad.madrid/noticias/2026/03/26/comunidad-madrid-recibe-delegacion-guinea-ecuatorial-compartir-su-modelo-organizativo-sistemas-informacion-estrategia-cronicidad",
+     "date": "2026-03-26",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "State bodies may share personal data for statistical and scientific purposes without consent, and there is no opt-out. A national ethics committee set up by decree in 2014, a statutory secrecy duty and penalties for misuse put this at 49.",
+   "detail": [
+    "Article 12(2) of Law 1/2016 allows data to pass between state bodies for statistical and scientific purposes without consent. Article 21(1) allows reuse for historical, statistical or scientific purposes. There is no general opt-out.",
+    "Decree 124/2014 created the National Ethics Committee (CENGE) to review research on humans and its ethical effects on participants' rights. It began work in October 2014 and received training in good clinical practice in 2019. Its current activity was not verified.",
+    "Article 12(1) binds everyone who handles personal data to secrecy. Unlawful disclosure is an offence under Articles 40 and 41, and Law 7/2024 adds prison terms. We found no public register of research uses and no research consent law."
+   ],
+   "sources": [
+    {
+     "title": "Ley Núm. 1/2016, de fecha 22 de julio, de Protección de Datos Personales (Ministerio de Función Pública)",
+     "url": "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf",
+     "date": "2016-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Comienzan los trabajos del nuevo Comité Ético Nacional (Oficina de Información y Prensa de Guinea Ecuatorial)",
+     "url": "https://www.guineaecuatorialpress.com/noticias/comienzan_los_trabajos_del_nuevo_comite_etico_nacional_",
+     "date": "2014-10-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "El Comité Ético Nacional recibe formación sobre legislación en bioética (Oficina de Información y Prensa de Guinea Ecuatorial)",
+     "url": "https://www.guineaecuatorialpress.com/index.php/noticias/el_comite_etico_nacional_recibe_formacion_sobre_legislacion_en_bioetica",
+     "date": "2019-10-24",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 18,
+   "summary": "We found no rules for AI in clinical care. The 2003 medicines law defines medical products as physical materials such as gauze and syringes, with no mention of software, while the ministry runs a pilot AI health chatbot.",
+   "detail": [
+    "Article 2 of Law 3/2003 on medicines defines medical products as materials used in practice, such as cotton, gauze, syringes and inhalers. It does not cover software or AI.",
+    "In June 2025 the health ministry launched 'Guinea Salud', an AI chatbot built with MCD Global Health. In its pilot phase it gives information on vaccines, HIV, medical evacuation and licensing of clinics and pharmacies.",
+    "We found no rules on validation, transparency or human oversight for this or any clinical AI. Article 13(b) of Law 1/2016 lets people challenge decisions based on automated assessment of their conduct."
+   ],
+   "sources": [
+    {
+     "title": "Ley del Medicamento 3/2003 de 18 de noviembre (Compendio de leyes de Guinea Ecuatorial, FAOLEX)",
+     "url": "https://faolex.fao.org/docs/pdf/eqg199517.pdf",
+     "date": "2003-11-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sanidad lanza \"Guinea Salud\", primer asistente digital con IA en Guinea Ecuatorial (Guinea Salud)",
+     "url": "https://guineasalud.com/sanidad-lanza-guinea-salud-primer-asistente-digital-con-ia-en-guinea-ecuatorial/",
+     "date": "2025-06-06",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ley Núm. 1/2016, de fecha 22 de julio, de Protección de Datos Personales (Ministerio de Función Pública)",
+     "url": "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf",
+     "date": "2016-07-22",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "siloed",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Facilities keep paper records and send aggregate reports up by hand. DHIS2 was piloted in two districts in 2025. Universal health insurance is still being designed. Electronic labs and prescriptions were not verified.",
+ "laws": [
+  {
+   "name": "Law 1/2016 on Personal Data Protection",
+   "level": "National",
+   "year": "2016",
+   "what": "Health data needs written consent; free access to a copy; fines up to 15 million CFA francs.",
+   "url": "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf"
+  },
+  {
+   "name": "Law 7/2024 on social networks, computer crime and cybercrime",
+   "level": "National",
+   "year": "2024",
+   "what": "Prison terms for wrongly obtaining or disclosing personal data, heavier for sensitive data such as health.",
+   "url": "https://www.pdge-guineaecuatorial.com/ley-no-7-2024-por-la-que-se-regula-el-uso-de-las-redes-sociales-delitos-informaticos-y-ciberdelincuencia/"
+  },
+  {
+   "name": "Law 3/2003 on Medicines",
+   "level": "National",
+   "year": "2003",
+   "what": "Regulates medicines, pharmacies and medical products; medical products defined as physical materials only.",
+   "url": "https://faolex.fao.org/docs/pdf/eqg199517.pdf"
+  },
+  {
+   "name": "Decree 124/2014 creating the National Ethics Committee (CENGE)",
+   "level": "National",
+   "year": "2014",
+   "what": "Sets up a national committee to review the ethics of research involving people.",
+   "url": "https://www.guineaecuatorialpress.com/noticias/comienzan_los_trabajos_del_nuevo_comite_etico_nacional_"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-25",
+   "headline": "Health ministry completes DHIS2 pilot in two districts, plans national rollout in 2026",
+   "source": "Guinea Salud",
+   "url": "https://guineasalud.com/finaliza-con-exito-la-prueba-piloto-de-la-plataforma-dhis2-en-baney-y-anisok/",
+   "why": "Digital reporting is the first step away from paper, though it carries totals, not patient records."
+  },
+  {
+   "date": "2026-02-12",
+   "headline": "Government orders social security institute to focus on insurance, not running hospitals",
+   "source": "PDGE",
+   "url": "https://www.pdge-guineaecuatorial.com/el-gobierno-impulsa-cambios-en-inseso-para-garantizar-una-atencion-sanitaria-digna-y-universal/",
+   "why": "Who runs hospitals and pays claims decides where patient records will sit."
+  },
+  {
+   "date": "2026-02-20",
+   "headline": "WHO health economists join committee designing universal health insurance",
+   "source": "Oficina de Información y Prensa de Guinea Ecuatorial",
+   "url": "https://www.guineaecuatorialpress.com/noticias/el_comite_multisectorial_del_seguro_medico_universal_refuerza_su_hoja_de_ruta_con_el_respaldo_de_la_oms",
+   "why": "A national insurer would need to register every patient, creating the country's first population health database."
+  },
+  {
+   "date": "2026-03-26",
+   "headline": "Health officials study Madrid's primary care information systems",
+   "source": "Comunidad de Madrid",
+   "url": "https://www.comunidad.madrid/noticias/2026/03/26/comunidad-madrid-recibe-delegacion-guinea-ecuatorial-compartir-su-modelo-organizativo-sistemas-informacion-estrategia-cronicidad",
+   "why": "Shows interest in records that follow chronic patients, which the country does not yet have."
+  },
+  {
+   "date": "2026-07-01",
+   "headline": "Government reminds public that the 2024 cybercrime and social media law is in force",
+   "source": "Oficina de Información y Prensa de Guinea Ecuatorial",
+   "url": "https://www.guineaecuatorialpress.com/noticias/el_gobierno_recuerda_la_plena_vigencia_de_la_ley_que_regula_el_uso_de_las_redes_sociales_los_delitos_informaticos_y_la_ciber_delincuencia",
+   "why": "The law punishes leaking health data; the government notice also targets content aimed at institutions and authorities."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,337 @@
+{
+ "iso3": "ERI",
+ "name": "Eritrea",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Eritrea has no data protection law and mostly paper records; doctors face prison for revealing secrets, but patients have no verified right to their records.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 18,
+   "summary": "We found no legal right for a patient to see or copy their medical record: the 2015 Civil Code's medical contract chapter is silent on records, and any such rule in other health proclamations is not verified. There is no patient portal.",
+   "detail": [
+    "The 2015 Civil Code sets out medical and hospital contracts (Articles 2332 to 2345) covering fees and liability, but gives no right to see or copy a record.",
+    "Eritrea has no data protection law, so there is no general right of access to personal data either.",
+    "The 1997 Constitution promises a right to privacy, but it was ratified and never came into effect.",
+    "Studies describe patient histories kept on paper clinical cards in facilities."
+   ],
+   "sources": [
+    {
+     "title": "Civil Code of the State of Eritrea 2015 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/eri211041.pdf",
+     "date": "2015-05-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Eritrea data protection fact sheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/eritrea/",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Introduction to Eritrean Legal System and Research (GlobaLex, NYU Law)",
+     "url": "https://www.nyulawglobal.org/globalex/eritrea1.html",
+     "date": "2023-07",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Prescribed medicines among pregnant women attending health facilities in Eritrea (Frontiers in Pharmacology)",
+     "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1806253/full",
+     "date": "2026-07-21",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "control": {
+   "score": 22,
+   "summary": "The Civil Code lets a person refuse treatment and stop a professional revealing what they confided. Beyond that, no consent choices, opt-out or access log for health records were found, and data runs to a ministry system.",
+   "detail": [
+    "Civil Code Article 20 lets a person refuse a medical examination or treatment, except compulsory vaccination and similar public-interest measures.",
+    "Article 23 says a person who confided facts to a professional may ensure they are not revealed.",
+    "The Penal Code allows disclosure when the person expressly authorises it, or when a law, court or other competent authority orders it.",
+    "There is no data protection law, so no rules on consent to processing or sharing exist."
+   ],
+   "sources": [
+    {
+     "title": "Civil Code of the State of Eritrea 2015 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/eri211041.pdf",
+     "date": "2015-05-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Penal Code of the State of Eritrea 2015 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/eri210565.pdf",
+     "date": "2015-05-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Eritrea data protection fact sheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/eritrea/",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 25,
+   "summary": "A medical professional who discloses a patient's secret commits a crime carrying one to three years in prison under the 2015 Penal Code. But Eritrea has no data protection law, no regulator and no breach rules.",
+   "detail": [
+    "Penal Code Article 145 punishes disclosure of professional secrets by medical professionals with one to three years. Negligent disclosure carries six to twelve months or a fine of 20,001 to 50,000 Nakfa.",
+    "Disclosure ordered by a law, court or other competent authority is not an offence, a wide state exception.",
+    "Unauthorised use of a computer is an offence, aggravated for public institutions.",
+    "No data protection authority exists, and Law Lab Africa found no enforcement as of September 2026.",
+    "Eritrea has no EU adequacy decision, so EU data sent there needs GDPR transfer safeguards."
+   ],
+   "sources": [
+    {
+     "title": "Penal Code of the State of Eritrea 2015 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/eri210565.pdf",
+     "date": "2015-05-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection in Eritrea: law, regulator, enforcement (Law Lab Africa)",
+     "url": "https://research.lawlab.africa/eritrea/",
+     "date": "2026-09-28",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Eritrea data protection fact sheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/eritrea/",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 25,
+   "summary": "No law limits selling health data or using it for marketing, because Eritrea has no data protection law. The only protection found is the Penal Code's secrecy offence, with a heavier sentence for disclosure for gain.",
+   "detail": [
+    "Penal Code Article 146 sets three to five years for breach of confidence committed for monetary or other gain. Its cross-reference reads Article 139, which appears to mean Article 145 (not verified).",
+    "The Civil Code bars selling a person's image without consent, but nothing covers health data sales, brokers or apps.",
+    "No rules on de-identified data sales were found."
+   ],
+   "sources": [
+    {
+     "title": "Penal Code of the State of Eritrea 2015 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/eri210565.pdf",
+     "date": "2015-05-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Civil Code of the State of Eritrea 2015 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/eri211041.pdf",
+     "date": "2015-05-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Eritrea data protection fact sheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/eritrea/",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "journey": {
+   "score": 20,
+   "summary": "The Ministry of Health collects aggregate facility reports through DHIS2, which connected 342 facilities in 2018, mostly offline. Patient records do not follow people between clinics, hospitals and pharmacies.",
+   "detail": [
+    "The 2010 National Health Policy plans an automated health data repository at central and zoba (regional) levels.",
+    "In 2018 the Ministry of Information reported DHIS2 in 342 facilities, including Orotta Referral Hospital, working offline because of limited internet.",
+    "A 2024 DHIS2 conference abstract says a tracker module was added for patient-level data. Its reach is not verified.",
+    "About 20 percent of people used the internet in late 2025, which limits linked records."
+   ],
+   "sources": [
+    {
+     "title": "National Health Policy, Ministry of Health, Eritrea (copy hosted by African Child Policy Forum)",
+     "url": "https://clr.africanchildforum.org/policy%20per%20country/eritrea/eritrea_health_2010_en.pdf",
+     "date": "2010-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "DHIS2: Improving Data Management and Health in Eritrea (Shabait, Ministry of Information)",
+     "url": "https://shabait.com/2018/11/07/dhis2-improving-data-management-and-health-in-eritrea/",
+     "date": "2018-11-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Overcoming Connectivity Barriers: The Role of DHIS2 in Enhancing Health Data Management in Eritrea (DHIS2 Community)",
+     "url": "https://community.dhis2.org/t/overcoming-connectivity-barriers-the-role-of-dhis2-platform-in-enhancing-health-data-management-in-eritrea/57621",
+     "date": "2024-03-13",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Prescribed medicines among pregnant women attending health facilities in Eritrea (Frontiers in Pharmacology)",
+     "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1806253/full",
+     "date": "2026-07-21",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 15,
+   "summary": "A treating doctor cannot see records held by other facilities, because no shared record or exchange exists. A 2018 Ministry of Information report quoted an IT technician calling nationwide connected hospital wards a future goal.",
+   "detail": [
+    "Records are kept at each facility; a 2026 study abstracted medical histories from paper clinical cards.",
+    "DHIS2 carries aggregate statistics for planning, not clinical records for treatment.",
+    "No emergency access or cross-provider viewing rules were found."
+   ],
+   "sources": [
+    {
+     "title": "DHIS2: Improving Data Management and Health in Eritrea (Shabait, Ministry of Information)",
+     "url": "https://shabait.com/2018/11/07/dhis2-improving-data-management-and-health-in-eritrea/",
+     "date": "2018-11-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Prescribed medicines among pregnant women attending health facilities in Eritrea (Frontiers in Pharmacology)",
+     "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1806253/full",
+     "date": "2026-07-21",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "National Health Policy, Ministry of Health, Eritrea (copy hosted by African Child Policy Forum)",
+     "url": "https://clr.africanchildforum.org/policy%20per%20country/eritrea/eritrea_health_2010_en.pdf",
+     "date": "2010-03",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 43,
+   "summary": "No law sets consent or opt-out rules for reusing health data, and data reuse rules are not verified. One safeguard counts: the Ministry of Health's Research Ethics and Protocol Review Committee approves studies, which report written consent.",
+   "detail": [
+    "The 2010 National Health Policy commits to strict observance of ethical principles in research.",
+    "A July 2026 study reports approval by the ministry committee and written informed consent from each participant.",
+    "A 2016 review of national ethics guidance across Sub-Saharan Africa found none for Eritrea on collecting or reusing biological samples.",
+    "No opt-out or public register of secondary uses was found."
+   ],
+   "sources": [
+    {
+     "title": "National Health Policy, Ministry of Health, Eritrea (copy hosted by African Child Policy Forum)",
+     "url": "https://clr.africanchildforum.org/policy%20per%20country/eritrea/eritrea_health_2010_en.pdf",
+     "date": "2010-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Prescribed medicines among pregnant women attending health facilities in Eritrea (Frontiers in Pharmacology)",
+     "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1806253/full",
+     "date": "2026-07-21",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "National ethics guidance in Sub-Saharan Africa on the collection and use of human biological specimens: a systematic review (BMC Med Ethics, PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5075204/",
+     "date": "2016-10",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 18,
+   "summary": "We found no rules for AI in clinical care: no AI law, no AI strategy and no regulator. A 2019 medical device registration guideline exists, but no AI or software rules were found.",
+   "detail": [
+    "The Ministry of Health and WHO built a medical devices registration guideline in 2019 for the National Medicines and Food Administration.",
+    "The African Union's medicines programme says Eritrea has no National Health Act, only proclamations on drugs and private practice.",
+    "A June 2026 legal tracker found no AI law, AI strategy or AI regulator."
+   ],
+   "sources": [
+    {
+     "title": "Eritrea: Consensus Building Workshop on Medical Devices Registration Guideline (WHO Africa)",
+     "url": "https://www.afro.who.int/fr/node/11544?country=29&name=Eritrea",
+     "date": "2019-07-31",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Eritrea country page (AUDA-NEPAD African Medicines Regulatory Harmonisation)",
+     "url": "https://amrh.nepad.org/amrh-countries/eritrea",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "AI Regulation in Eritrea: Law and Status (Levellers.ai)",
+     "url": "https://www.levellers.ai/what-is/ai-regulation-eritrea",
+     "date": "2026-06-08",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Facilities send aggregate counts to the ministry's DHIS2 system, mostly offline. Patient records are on paper and stay with each facility. No insurance claims system or e-prescription was found.",
+ "laws": [
+  {
+   "name": "Penal Code of the State of Eritrea",
+   "level": "National",
+   "year": "2015",
+   "what": "Article 145: medical professionals revealing secrets face one to three years; computer misuse is an offence.",
+   "url": "https://faolex.fao.org/docs/pdf/eri210565.pdf"
+  },
+  {
+   "name": "Civil Code of the State of Eritrea",
+   "level": "National",
+   "year": "2015",
+   "what": "Right to refuse treatment, professional secrecy (Article 23), image rights, medical contract rules.",
+   "url": "https://faolex.fao.org/docs/pdf/eri211041.pdf"
+  },
+  {
+   "name": "Constitution of Eritrea (ratified, not in force)",
+   "level": "National",
+   "year": "1997",
+   "what": "Article 18 right to privacy; ratified in 1997 but never brought into effect.",
+   "url": "https://www.constituteproject.org/constitution/Eritrea_1997"
+  },
+  {
+   "name": "National Health Policy",
+   "level": "National",
+   "year": "2010",
+   "what": "Plans an automated central and regional health data repository and ethical research.",
+   "url": "https://clr.africanchildforum.org/policy%20per%20country/eritrea/eritrea_health_2010_en.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11",
+   "headline": "About one in five Eritreans used the internet in late 2025",
+   "source": "DataReportal",
+   "url": "https://datareportal.com/reports/digital-2026-eritrea",
+   "why": "Low connectivity keeps records on paper and limits any patient portal."
+  },
+  {
+   "date": "2026-06-17",
+   "headline": "WHO Africa director praises free primary care, discusses digitalising health",
+   "source": "Shabait (Ministry of Information)",
+   "url": "https://shabait.com/2026/06/17/eritrea-a-model-of-a-primary-health-care-system/",
+   "why": "Signals plans to digitise health data, with no privacy law in place."
+  },
+  {
+   "date": "2026-07-17",
+   "headline": "National Health Laboratory builds genomic sequencing capacity with WHO support",
+   "source": "WHO Africa",
+   "url": "https://www.afro.who.int/countries/eritrea/news/genomic-sequencing-strengthens-public-health-eritrea",
+   "why": "Pathogen sequencing guides treatment, while rules on genetic data are absent."
+  },
+  {
+   "date": "2026-08-20",
+   "headline": "Health ministry tells regional meeting it welcomes digital health innovation",
+   "source": "Shabait (Ministry of Information)",
+   "url": "https://shabait.com/2026/08/20/statement-of-the-ministry-of-health-of-the-state-of-eritrea-at-fourth-regional-ministerial-steering-committee-resco/",
+   "why": "Digital health is on the agenda, but patient rights rules are not."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,324 @@
+{
+ "iso3": "CIV",
+ "name": "Côte d'Ivoire",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Côte d'Ivoire's state patient record now follows millions of people between public facilities, but patients get no portal, opt-out or access log.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Law 2019-678 lets a patient obtain the contents of the hospital file through a doctor of their choice, and Law 2013-450 gives a general right to a copy. No deadline is set, summaries can be charged for, and no patient portal shows the record.",
+   "detail": [
+    "Article 10 of Law 2019-678 on hospital reform says the patient or a legal representative can obtain the information in the medical file through the doctor of their choice. On discharge, the patient can ask for a sealed summary of the stay, diagnosis, treatment and prescriptions.",
+    "Article 29 of Law 2013-450 gives anyone the right to obtain their personal data and its origin from a controller. We found no response deadline in the law. A controller may refuse requests that are clearly abusive.",
+    "The medical code published by the Ordre des médecins says patients may access their records without hindrance, but that a doctor may charge for a summary, report or certificate.",
+    "The ministry's Santé CI platform offers online appointments and payment, according to KOACI. We found no portal where patients can read or download their own record."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2019-678 du 23 juillet 2019 portant réforme hospitalière (patrimoine.gouv.ci)",
+     "url": "https://patrimoine.gouv.ci/doc/loi/2019-678%20loi%20r%C3%A9forme%20hospitali%C3%A8re%20(1)%20(1).pdf",
+     "date": "2019-07-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel (UNODC SHERLOC copy of official text)",
+     "url": "https://sherloc.unodc.org/cld/uploads/res/document/civ/loi-no-2013-450-relative-a-la-protection-des-donnees-a-caractere-personnel_html/06192013_loi_donne_es_personnelles.pdf",
+     "date": "2013-06-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Mes droits & devoirs professionnels (Ordre National des Médecins de Côte d'Ivoire)",
+     "url": "https://ordremedecins.ci/mes-droits-devoirs-professionnels/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Numérisation du système de santé, Abidjan devient la capitale africaine de l'innovation médicale (KOACI)",
+     "url": "https://www.koaci.com/article/2026/07/10/cote-divoire/sante/cote-divoire-numerisation-du-systeme-de-sante-abidjan-devient-la-capitale-africaine-de-linnovation-medicale_198464.html",
+     "date": "2026-07-10",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Law 2013-450 requires express prior consent, but public-interest and legal-duty exceptions cover state systems. The state record links each patient by a unique code across connected facilities, and we found no opt-out or patient-visible access log.",
+   "detail": [
+    "Article 14 of Law 2013-450 makes processing lawful only with the person's express prior consent, unless the controller is authorised and the processing is needed for a legal duty, a public-interest mission, a contract or the person's own interests.",
+    "Article 30 lets a person object for legitimate reasons, except where a law expressly provides for the processing.",
+    "Under the national Dossier Patient Informatisé, each patient gets a ticket with a unique code that follows them through the national network, and staff at another equipped facility see their history (Sika Finance, September 2026).",
+    "Article 41 requires controllers to be able to trace who accessed data and when, but we found no way for patients to see that log or to opt out of sharing."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel (UNODC SHERLOC copy of official text)",
+     "url": "https://sherloc.unodc.org/cld/uploads/res/document/civ/loi-no-2013-450-relative-a-la-protection-des-donnees-a-caractere-personnel_html/06192013_loi_donne_es_personnelles.pdf",
+     "date": "2013-06-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Côte d'Ivoire / Santé : Le dossier patient informatisé interconnecte 258 hôpitaux (Sika Finance)",
+     "url": "https://www.sikafinance.com/marches/cote-divoire-sante-le-dossier-patient-informatise-interconnecte-258-hopitaux_64481",
+     "date": "2026-09-24",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Présentation du Dossier Patient Informatisé (DPI) (DISD, Ministère de la Santé)",
+     "url": "https://disd.ci/presentation-du-dossier-patient-informatise-dpi/",
+     "date": "2024-08-19",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "We found no health-sector enforcement, so this scores the general law. Law 2013-450 needs ARTCI's prior approval for medical data and sets prison terms, but first-offence administrative fines are capped at 10 million CFA francs and we found no breach notification duty.",
+   "detail": [
+    "Article 7 of Law 2013-450 requires the Authority's prior authorisation before processing genetic or medical data, research on them, or transfers abroad. Article 21 bans processing health data, with 10 to 20 years in prison and fines of 20 to 40 million CFA francs, outside listed exceptions.",
+    "ARTCI, the telecom regulator, holds the data protection role (Article 46). Its fines are capped at 10 million CFA francs, rising to 100 million or 5% of turnover for repeat breaches (Article 51). We found no breach notification duty in the law.",
+    "Enforcement found is soft: formal notices to loan apps in August 2023 that went unanswered, and a national compliance census announced in March 2026.",
+    "The ministry says DPI data is hosted only in the state's Tier III national datacenter. Côte d'Ivoire is not in the EU or EEA, so GDPR and the EHDS do not apply."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel (UNODC SHERLOC copy of official text)",
+     "url": "https://sherloc.unodc.org/cld/uploads/res/document/civ/loi-no-2013-450-relative-a-la-protection-des-donnees-a-caractere-personnel_html/06192013_loi_donne_es_personnelles.pdf",
+     "date": "2013-06-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Communiqué relatif au recensement et à l'évaluation de conformité des entités traitant des données à caractère personnel (ARTCI)",
+     "url": "https://www.autoritedeprotection.ci/communique-relatif-au-recensement-et-a-levaluation-de-conformite-des-entites-publiques-et-privees-traitant-des-donnees-a-caractere-personnel/",
+     "date": "2026-03-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Côte d'Ivoire : mises en demeure de l'ARTCI à l'encontre d'applications de prêt en ligne (Africa Data Protection)",
+     "url": "https://blog.africadataprotection.org/blog/2024/01/31/mises-en-demeure-de-lartci-a-lencontre-dapplications-de-pret-en-ligne/",
+     "date": "2024-01-31",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Forum Club Santé 2026 : La DISD fixe le cap de l'Intelligence Artificielle en Côte d'Ivoire (DISD)",
+     "url": "https://disd.ci/forum-club-sante-2026-la-disd-fixe-le-cap-de-lintelligence-artificielle-en-cote-divoire/",
+     "date": "2026-07-02",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Direct marketing using personal data without prior consent is a crime carrying one to five years in prison, and people can object free of charge. We found no explicit ban on selling health data or rules for consumer health apps.",
+   "detail": [
+    "Article 22 of Law 2013-450 bans direct marketing to a person who has not given prior consent, with one to five years in prison and fines of 1 to 10 million CFA francs.",
+    "Article 30 gives a free right to object to marketing use, and to be told before data is first passed to third parties for marketing.",
+    "Health data falls under the Article 21 ban on sensitive data and needs ARTCI authorisation under Article 7. We found no specific clause on sale of de-identified data, data brokers or health apps."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel (UNODC SHERLOC copy of official text)",
+     "url": "https://sherloc.unodc.org/cld/uploads/res/document/civ/loi-no-2013-450-relative-a-la-protection-des-donnees-a-caractere-personnel_html/06192013_loi_donne_es_personnelles.pdf",
+     "date": "2013-06-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lois (Autorité de protection des données, ARTCI)",
+     "url": "https://www.autoritedeprotection.ci/lois/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 38,
+   "summary": "A state-run hospital information system and shared patient record are spreading across public facilities, with one patient code nationwide. Official coverage figures conflict (203, 258, 405 or 541 facilities), and private-sector links are still a stated gap.",
+   "detail": [
+    "The DISD says the DPI, started in 2021 with World Bank support, runs in 13 health regions, links 258 facilities and follows more than 7.3 million patients (September 2026).",
+    "In July 2026 the DISD cited more than 541 facilities and 2 million records, while a ministry official cited 390 facilities on the hospital system and 203 on the DPI, with over 10 million records. The DISD site counter shows 405. We could not reconcile these figures (not verified).",
+    "The ministry named interoperability between public and private systems and rural connectivity as open challenges.",
+    "Law 2019-678 requires all public health facilities to send health data regularly under the national health information policy. The CMU insurer reports 22.7 million people enrolled (December 2025); its link to the clinical record was not verified."
+   ],
+   "sources": [
+    {
+     "title": "La DISD dévoile l'impact national du Dossier Patient Informatisé (DPI) (DISD)",
+     "url": "https://disd.ci/jpo-2026-les-delegations-officielles-saluent-les-performances-du-dpi/",
+     "date": "2026-09-21",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Forum Club Santé 2026 : La DISD fixe le cap de l'Intelligence Artificielle en Côte d'Ivoire (DISD)",
+     "url": "https://disd.ci/forum-club-sante-2026-la-disd-fixe-le-cap-de-lintelligence-artificielle-en-cote-divoire/",
+     "date": "2026-07-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Numérisation du système de santé, Abidjan devient la capitale africaine de l'innovation médicale (KOACI)",
+     "url": "https://www.koaci.com/article/2026/07/10/cote-divoire/sante/cote-divoire-numerisation-du-systeme-de-sante-abidjan-devient-la-capitale-africaine-de-linnovation-medicale_198464.html",
+     "date": "2026-07-10",
+     "publisherClass": "news"
+    },
+    {
+     "title": "La CNAM annonce 22,7 millions de personnes enrôlées à la CMU à la date du 02 décembre (CNAM)",
+     "url": "https://ipscnam.ci/la-cnam-annonce-227-millions-de-personnes-enrolees-a-la-cmu-a-la-date-du-02-decembre/",
+     "date": "2025-12-12",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 36,
+   "summary": "In facilities on the shared record, a clinician can open a patient's earlier visits and treatments from another equipped site. That covers public facilities in the network only, and private providers are not yet linked.",
+   "detail": [
+    "The DISD says the DPI lets a patient be handled digitally from admission and makes their medical information available securely across all connected facilities.",
+    "At the Bélé urban health centre in Boundiali, staff check children's earlier results before prescribing, and a patient arriving at another equipped facility has their history shown at once (Sika Finance).",
+    "Law 2019-678 requires a hospital receiving a referred patient to send the referring doctor a summary of the file. Outside the network, records move by paper summary or at the patient's request."
+   ],
+   "sources": [
+    {
+     "title": "Présentation du Dossier Patient Informatisé (DPI) (DISD, Ministère de la Santé)",
+     "url": "https://disd.ci/presentation-du-dossier-patient-informatise-dpi/",
+     "date": "2024-08-19",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Côte d'Ivoire / Santé : Le dossier patient informatisé interconnecte 258 hôpitaux (Sika Finance)",
+     "url": "https://www.sikafinance.com/marches/cote-divoire-sante-le-dossier-patient-informatise-interconnecte-258-hopitaux_64481",
+     "date": "2026-09-24",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Loi n° 2019-678 du 23 juillet 2019 portant réforme hospitalière (patrimoine.gouv.ci)",
+     "url": "https://patrimoine.gouv.ci/doc/loi/2019-678%20loi%20r%C3%A9forme%20hospitali%C3%A8re%20(1)%20(1).pdf",
+     "date": "2019-07-23",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Clinical trials need written, free and informed consent, a national ethics committee opinion and AIRP approval. Medical research data needs ARTCI authorisation, but we found no general opt-out from secondary use of records.",
+   "detail": [
+    "Decree 2020-407 bars any clinical trial without free and informed consent, defined as written, dated and signed. Participants must be told they can refuse or withdraw at any time without penalty.",
+    "No trial may start without AIRP authorisation after an opinion from the national ethics committee. Observational studies need a favourable ethics committee opinion.",
+    "Law 2013-450 requires ARTCI's prior authorisation for processing medical data and scientific research on it, and for statistical or scientific public-interest uses. We found no general opt-out or public register of research uses of DPI data.",
+    "Score follows the anchor: base 40, plus 3 each for a permit body (ARTCI and the ethics committee), a misuse penalty (Article 21) and a consent route (trials). We found no public register of uses."
+   ],
+   "sources": [
+    {
+     "title": "Décret n° 2020-407 du 22 avril 2020 portant réglementation des essais cliniques (droitci.info)",
+     "url": "https://www.droitci.info/files/810.04.20-Decret-du-22-avril-2020_Essais-cliniques--2022_09_27-06_08_23-UTC-.pdf",
+     "date": "2020-04-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel (UNODC SHERLOC copy of official text)",
+     "url": "https://sherloc.unodc.org/cld/uploads/res/document/civ/loi-no-2013-450-relative-a-la-protection-des-donnees-a-caractere-personnel_html/06192013_loi_donne_es_personnelles.pdf",
+     "date": "2013-06-19",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "Côte d'Ivoire is building a national AI strategy with health as a priority sector, but we found no clinical AI rules. Device rules exist and count software as a medical device, with no AI-specific change control or oversight.",
+   "detail": [
+    "The 2020 clinical trials decree defines a medical device to include software, and AIRP authorises device trials. We found no AIRP guidance on AI or machine learning in devices.",
+    "In July 2026 the DISD said AI needs large structured data and pointed to the DPI as its base, with a 2026-2030 digital health strategic plan. It set out no binding AI rules.",
+    "At the Impact IA conference in September 2026 the government named health as one of five priority sectors and planned to sign a national AI policy declaration. Its content was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Décret n° 2020-407 du 22 avril 2020 portant réglementation des essais cliniques (droitci.info)",
+     "url": "https://www.droitci.info/files/810.04.20-Decret-du-22-avril-2020_Essais-cliniques--2022_09_27-06_08_23-UTC-.pdf",
+     "date": "2020-04-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Forum Club Santé 2026 : La DISD fixe le cap de l'Intelligence Artificielle en Côte d'Ivoire (DISD)",
+     "url": "https://disd.ci/forum-club-sante-2026-la-disd-fixe-le-cap-de-lintelligence-artificielle-en-cote-divoire/",
+     "date": "2026-07-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Impact IA 2026 : le pays accélère le passage de la vision à l'action (allAfrica)",
+     "url": "https://fr.allafrica.com/stories/202609110364.html",
+     "date": "2026-09-11",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "The state DPI links public hospitals and health centres in 13 regions by one patient code. Labs, pharmacies and private providers are not shown as linked, and the CMU insurance link to records is not verified.",
+ "laws": [
+  {
+   "name": "Law No. 2013-450 on the protection of personal data",
+   "level": "National",
+   "year": "2013",
+   "what": "Express consent, ARTCI authorisation for medical data, access and objection rights, prison terms for sensitive-data misuse.",
+   "url": "https://sherloc.unodc.org/cld/uploads/res/document/civ/loi-no-2013-450-relative-a-la-protection-des-donnees-a-caractere-personnel_html/06192013_loi_donne_es_personnelles.pdf"
+  },
+  {
+   "name": "Law No. 2019-678 on hospital reform",
+   "level": "National",
+   "year": "2019",
+   "what": "Right to a medical file, access via a doctor of choice, discharge summary, hospital information system.",
+   "url": "https://patrimoine.gouv.ci/doc/loi/2019-678%20loi%20r%C3%A9forme%20hospitali%C3%A8re%20(1)%20(1).pdf"
+  },
+  {
+   "name": "Decree No. 2020-407 regulating clinical trials",
+   "level": "National",
+   "year": "2020",
+   "what": "Written informed consent, right to withdraw, ethics committee opinion and AIRP authorisation for trials.",
+   "url": "https://www.droitci.info/files/810.04.20-Decret-du-22-avril-2020_Essais-cliniques--2022_09_27-06_08_23-UTC-.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-04-28",
+   "headline": "Health ministry calls local hosting of medical data a public choice",
+   "source": "Agence Ivoirienne de Presse",
+   "url": "https://www.aip.ci/cote-divoire-aip-sante-numerique-intech-sante-et-medical-expo-fusionnent-pour-faire-dabidjan-le-hub-regional-de-la-sante-interconnectee/",
+   "why": "Signals that patient data will stay on Ivorian soil under state control."
+  },
+  {
+   "date": "2026-07-10",
+   "headline": "Ministry says patient record runs in 203 facilities with 10 million files",
+   "source": "KOACI",
+   "url": "https://www.koaci.com/article/2026/07/10/cote-divoire/sante/cote-divoire-numerisation-du-systeme-de-sante-abidjan-devient-la-capitale-africaine-de-linnovation-medicale_198464.html",
+   "why": "Shows scale of digitised records, and that public-private interoperability is still missing."
+  },
+  {
+   "date": "2026-08-31",
+   "headline": "Telemedicine grows as doctors' order urges a vigilant approach",
+   "source": "Fraternité Matin",
+   "url": "https://www.fratmat.info/article/2644212/societe/telemedecinehopital-sans-murs-un-clic-pour-se-soigner-dossier",
+   "why": "Remote care platforms collect health data under the 2013 data law."
+  },
+  {
+   "date": "2026-09-11",
+   "headline": "National AI conference names health among five priority sectors",
+   "source": "allAfrica",
+   "url": "https://fr.allafrica.com/stories/202609110364.html",
+   "why": "Health AI is coming before any clinical AI rules exist."
+  },
+  {
+   "date": "2026-09-24",
+   "headline": "State patient record links 258 facilities and 7.3 million patients",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-sante-le-dossier-patient-informatise-interconnecte-258-hopitaux_64481",
+   "why": "Clinicians in linked sites can now see a patient's history."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

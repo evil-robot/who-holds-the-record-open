@@ -1,0 +1,350 @@
+{
+  "iso3": "PLW",
+  "name": "Palau",
+  "region": "Oceania",
+  "controlModel": "State",
+  "headline": "Palau's national hospital keeps one electronic record, but patients lack a copy right or sharing choices, and a 2025 breach leaked medical data.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 35,
+      "summary": "Citizens have a constitutional right to examine any government document, and the Open Government Act sets a 10-day deadline. Whether this covers a patient's own hospital file is not verified, and the Privacy Act has no access right.",
+      "detail": [
+        "Article IV, section 12 of the Constitution says a citizen has the right to examine any government document. It does not mention medical records, and it covers citizens only.",
+        "The Open Government Act 2014 makes public records available within 10 days at the requester's reasonable cost. It exempts medical files whose release would be a clearly unwarranted invasion of personal privacy. Whether a patient can use it to get their own file was not verified.",
+        "Rakuten's March 2026 review of the Privacy Act (Title 6) found no individual participation provision, meaning no right to see one's data.",
+        "No patient portal was found. Belau National Hospital lists a Medical Records Department, but no request procedure or fee rule was found. A general right with no verified health procedure sits at the top of the 15 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Constitution of the Republic of Palau 1981 (rev. 1992) (Constitute Project)",
+          "url": "https://www.constituteproject.org/constitution/Palau_1992",
+          "date": "1992",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Open Government Act, RPPL No. 9-32 (RTI Rating copy of the PacLII text)",
+          "url": "https://www.rti-rating.org/wp-content/uploads/2018/09/Palau.Open-Government.2014.pdf",
+          "date": "2014",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Palau: personal information protection regime (Rakuten Group cross-border transfer notice)",
+          "url": "https://corp.rakuten.co.jp/privacy/assets/pdf/trf_palau.pdf",
+          "date": "2026-03-25",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "No opt-out, granular choice or patient-visible access log was found, and the government has called the Ministry the owner of medical records. The Healthcare Fund needs written consent, valid one year, to release a member's medical information.",
+      "detail": [
+        "The Privacy Act bars a national agency from using personal information for a new purpose without consent. The exceptions include law enforcement, serious public health threats, directly related purposes, unpublished research and court orders.",
+        "Healthcare Fund regulations require express written consent, valid for no more than one year, before personal medical information is released. Release for the Fund's own operations, such as payments with the Ministry of Health, needs no consent.",
+        "In a 2023 court filing the government called the Ministry 'the owner of the medical records'. No opt-out from sharing in Tamanu and no patient access log were found. This places Palau in the 20 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Digital Residency Program Cyber Security Regulation, quoting the Privacy Act, 6 PNCA 205-206 (Palau Government)",
+          "url": "https://www.palaugov.pw/wp-content/uploads/Digital-Residency-Program-Cyber-Security-Regulation.pdf",
+          "date": "2023-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Healthcare Fund (HF) Regulations (Republic of Palau Healthcare Fund)",
+          "url": "http://rophcf.pw/download/documents/hcf_regulations/hcf_regulations.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Gov't seeks permanent order stopping Uludong and TBN from publishing patient information (Island Times)",
+          "url": "https://islandtimes.org/govt-seeks-permanent-order-stopping-uludong-and-tbn-from-publishing-patient-information/",
+          "date": "2023-09-22",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 32,
+      "summary": "The Privacy Act binds only national agencies and there is no regulator. A February 2025 ransomware attack exposed hospital billing records with diagnoses, and the July 2026 Cybersecurity Act orders a breach process that must require agencies to notify victims.",
+      "detail": [
+        "The Privacy Act requires agencies to protect personal information from loss and misuse and not keep it longer than needed. Rakuten notes that legislative and judicial bodies are excluded. No data protection authority exists.",
+        "In February 2025 the Qilin group stole Ministry of Health files. The Ministry said billing summaries for Belau National Hospital patients from 2018 to 2022, with diagnoses and procedures, were likely exposed. In July 2026 officials said the leaked records were fuelling scams.",
+        "RPPL 12-8, signed 21 July 2026, tells the new Bureau of Cybersecurity to set up a breach reporting process that must require agencies to notify affected people. Staff who misuse personal data face civil penalties of up to $10,000, or prison of up to 5 years where they intend fraud or harm.",
+        "Fund staff who leak medical information face up to 12 months in prison or a $1,000 fine. Palau is not in the EU, so GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Digital Residency Program Cyber Security Regulation, quoting the Privacy Act, 6 PNCA 205-206 (Palau Government)",
+          "url": "https://www.palaugov.pw/wp-content/uploads/Digital-Residency-Program-Cyber-Security-Regulation.pdf",
+          "date": "2023-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Palau health ministry on the mend after Qilin ransomware attack (The Record)",
+          "url": "https://therecord.media/palau-health-ministry-ransomware-recover",
+          "date": "2025-03-03",
+          "publisherClass": "news"
+        },
+        {
+          "title": "RPPL No. 12-8, Palau Cybersecurity Act (Olbiil Era Kelulau, signed copy)",
+          "url": "https://palauoek.org/wp-content/uploads/2026/07/RPPL-No.-12-8.pdf",
+          "date": "2026-07-21",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Title 41 PNCA, National Healthcare Financing Act (Palau Social Security Administration copy)",
+          "url": "https://ropssa.pw/download/ss_laws/pnca_title_41_palau_law.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 18,
+      "summary": "No law limiting the sale of health data, its marketing use, data brokers or health apps was found. The Privacy Act and the 2026 Cybersecurity Act bind government agencies, so private clinics and app makers sit largely outside them.",
+      "detail": [
+        "The Privacy Act duties are framed around a government 'agency that maintains personal information'. Rakuten's 2026 review found no comprehensive personal data law covering the private sector.",
+        "RPPL 12-8 defines an agency as the national government's executive branch. Its data protection duties and penalties attach to agency staff.",
+        "No rule on de-identified data sales, consumer health apps or brokers was found, and no enforcement case on commercial use of health data was found."
+      ],
+      "sources": [
+        {
+          "title": "Digital Residency Program Cyber Security Regulation, quoting the Privacy Act, 6 PNCA 205-206 (Palau Government)",
+          "url": "https://www.palaugov.pw/wp-content/uploads/Digital-Residency-Program-Cyber-Security-Regulation.pdf",
+          "date": "2023-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Palau: personal information protection regime (Rakuten Group cross-border transfer notice)",
+          "url": "https://corp.rakuten.co.jp/privacy/assets/pdf/trf_palau.pdf",
+          "date": "2026-03-25",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "RPPL No. 12-8, Palau Cybersecurity Act (Olbiil Era Kelulau, signed copy)",
+          "url": "https://palauoek.org/wp-content/uploads/2026/07/RPPL-No.-12-8.pdf",
+          "date": "2026-07-21",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 38,
+      "summary": "Since December 2022 Belau National Hospital has run the Tamanu record, linked to the lab by FHIR since 2024, plus pharmacy and surveillance tools. A 2025 study found an electronic record in 1 of 9 facilities, and the new national EHR's go-live is not verified.",
+      "detail": [
+        "Project Olangch launched Tamanu, mSupply (pharmacy) and Tupaia (surveillance) at Belau National Hospital on 17 December 2022, replacing paper records.",
+        "In June 2024 lab orders in Tamanu began flowing automatically to the SENAITE lab system, with results returned to Tamanu. The vendor counted 1,092 tests in the first week.",
+        "The JMIR study, with Palau's data checked by a local health ICT lead, counted 9 facilities and found an electronic record in 1 (11.1%). Primary care sits largely outside it.",
+        "A CDC-funded national EHR project moved its launch from December 2025 to the first half of 2026. Whether it is live was not verified. No link between Healthcare Fund claims and Tamanu was found."
+      ],
+      "sources": [
+        {
+          "title": "Launching digital health software in Palau (BES International)",
+          "url": "https://www.bes.au/launching-digital-health-software-in-palau/",
+          "date": "2023-02-03",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Tamanu integration with SENAITE goes live in Palau using FHIR (BES International)",
+          "url": "https://www.bes.au/tamanu-integration-with-senaite-goes-live-using-fhir/",
+          "date": "2024-06-25",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "How Palau is advancing its data modernization infrastructure and capacity through partnership (ASTHO)",
+          "url": "https://www.astho.org/communications/blog/2026/how-palau-is-advancing-data-modernization-infrastructure-through-partnership/",
+          "date": "2026-03-18",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 40,
+      "summary": "Clinicians at Belau National Hospital see a patient's history and lab results in Tamanu at the bedside. Community health centres and private clinics were not verified as connected, and only 1 of 9 facilities had an electronic record.",
+      "detail": [
+        "The vendor says Tamanu gives hospital staff medical history, data capture and decision support at the bedside. Lab results return to Tamanu automatically.",
+        "In November 2025 the FSM health department studied what it called Palau's mature Tamanu deployment, including workflows and data security policies.",
+        "Since January 2025, referrals to Shin Kong Hospital in Taiwan share images and records through encrypted authorization rather than CDs and paper.",
+        "No consent or emergency-access rules for clinicians were found."
+      ],
+      "sources": [
+        {
+          "title": "Launching digital health software in Palau (BES International)",
+          "url": "https://www.bes.au/launching-digital-health-software-in-palau/",
+          "date": "2023-02-03",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "FSM Health ICT team conducts reverse site visit to Palau Ministry of Health and Human Services (FSM Department of Health and Social Affairs)",
+          "url": "https://hsa.gov.fm/fsm-health-ict-team-conducts-successful-reverse-site-visit-to-palau-ministry-of-health-and-human-services/",
+          "date": "2025-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Taiwan-Palau Smart Hospital Project enhances healthcare with AI-driven solutions (Island Times)",
+          "url": "https://islandtimes.org/taiwan-palau-smart-hospital-project-enhances-healthcare-with-ai-driven-solutions/",
+          "date": "2025-01-17",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "A statutory Institutional Review Board must approve research on people, informed consent is required and violations carry fines of up to $10,000. No opt-out or public register for research use of health records was found.",
+      "detail": [
+        "RPPL 10-27 (2018) puts the Board in Title 34. It reviews all scientific research using human subjects, can issue cease and desist orders and must keep a repository of approved projects.",
+        "Research without Board approval or without informed consent is a violation, with a fine of up to $10,000 per offense.",
+        "The law's definition covers tests, treatments and monitoring, so review of existing records may fall outside it. The Privacy Act allows reuse for research only if unpublished and not identifying. Base 40, plus 3 each for the ethics body, penalties and consent for trials."
+      ],
+      "sources": [
+        {
+          "title": "RPPL No. 10-27, Institutional Review Board for research on human subjects, with signing statement (Office of the President)",
+          "url": "https://www.palaugov.pw/wp-content/uploads/2018/08/RPPL-No.-10-27-re.-To-Establish-an-Institutional-Review-Board.pdf",
+          "date": "2018-08-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Residency Program Cyber Security Regulation, quoting the Privacy Act, 6 PNCA 205-206 (Palau Government)",
+          "url": "https://www.palaugov.pw/wp-content/uploads/Digital-Residency-Program-Cyber-Security-Regulation.pdf",
+          "date": "2023-03",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "No law, guidance or device rule for clinical AI was found, though Belau National Hospital uses AI software to screen for diabetic eye disease. An April 2026 executive order created a technology office whose remit the President said includes AI.",
+      "detail": [
+        "In January 2025 the hospital began using VeriSee DR, AI software that analyses retinal images for diabetic retinopathy, under a Taiwan partnership.",
+        "Levellers.ai reported in June 2026 that Palau has no AI law, strategy or regulator. No regulation of medical devices or AI software was found.",
+        "Executive Order 500 created the Office of Applied Technology and Strategy. The order text was not opened. With nothing verified, Palau falls in the 15 to 30 band for non-EU countries."
+      ],
+      "sources": [
+        {
+          "title": "Taiwan-Palau Smart Hospital Project enhances healthcare with AI-driven solutions (Island Times)",
+          "url": "https://islandtimes.org/taiwan-palau-smart-hospital-project-enhances-healthcare-with-ai-driven-solutions/",
+          "date": "2025-01-17",
+          "publisherClass": "news"
+        },
+        {
+          "title": "AI Regulation in Palau (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-palau",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Palau is stepping up its digital defences (PINA)",
+          "url": "https://pina.com.fj/2026/04/13/palau-is-stepping-up-its-digital-defences/",
+          "date": "2026-04-13",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Belau National Hospital runs Tamanu with FHIR lab results, mSupply pharmacy and Tupaia surveillance. Only 1 of 9 facilities had an EHR; claims links were not found. Not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Constitution of the Republic of Palau, Article IV sections 4 and 12",
+      "level": "National",
+      "year": "1981",
+      "what": "Security of person and papers against search; citizens may examine any government document.",
+      "url": "https://www.constituteproject.org/constitution/Palau_1992"
+    },
+    {
+      "name": "Privacy Act, 6 PNCA 201-206",
+      "level": "National",
+      "year": "not verified",
+      "what": "National agencies must secure personal information, limit retention and reuse; no access right or regulator.",
+      "url": "https://www.palaugov.pw/wp-content/uploads/Digital-Residency-Program-Cyber-Security-Regulation.pdf"
+    },
+    {
+      "name": "Open Government Act, RPPL No. 9-32",
+      "level": "National",
+      "year": "2014",
+      "what": "Public records available within 10 days; medical files exempt where release invades privacy.",
+      "url": "https://www.rti-rating.org/wp-content/uploads/2018/09/Palau.Open-Government.2014.pdf"
+    },
+    {
+      "name": "National Healthcare Financing Act, RPPL 8-14 (41 PNCA 960)",
+      "level": "National",
+      "year": "2010",
+      "what": "Healthcare Fund; medical information released only with consent or listed exceptions; $1,000 fine for leaks.",
+      "url": "https://ropssa.pw/download/ss_laws/pnca_title_41_palau_law.pdf"
+    },
+    {
+      "name": "RPPL No. 10-27, Institutional Review Board (34 PNC chapter 4)",
+      "level": "National",
+      "year": "2018",
+      "what": "Board approval and informed consent for human subjects research; fines up to $10,000.",
+      "url": "https://www.palaugov.pw/wp-content/uploads/2018/08/RPPL-No.-10-27-re.-To-Establish-an-Institutional-Review-Board.pdf"
+    },
+    {
+      "name": "RPPL No. 12-8, Palau Cybersecurity Act",
+      "level": "National",
+      "year": "2026",
+      "what": "Bureau of Cybersecurity; breach process must require agencies to notify victims; up to $10,000 civil penalty per breach.",
+      "url": "https://palauoek.org/wp-content/uploads/2026/07/RPPL-No.-12-8.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-21",
+      "headline": "Senate unanimously passes Palau's first comprehensive cybersecurity bill",
+      "source": "Island Times",
+      "url": "https://islandtimes.org/palau-senate-passes-nations-first-comprehensive-cybersecurity-bill/",
+      "why": "First step toward breach notice and penalties covering government-held health records."
+    },
+    {
+      "date": "2025-11",
+      "headline": "Micronesia's health ICT team studies Palau's Tamanu record before its own rollout",
+      "source": "FSM Department of Health and Social Affairs",
+      "url": "https://hsa.gov.fm/fsm-health-ict-team-conducts-successful-reverse-site-visit-to-palau-ministry-of-health-and-human-services/",
+      "why": "Shows Palau's hospital record is a working model in the region."
+    },
+    {
+      "date": "2026-03-20",
+      "headline": "Health ministry delays new national EHR launch to first half of 2026",
+      "source": "Island Times",
+      "url": "https://islandtimes.org/palau-builds-modern-health-data-system-amid-capacity-challenges/",
+      "why": "A national record could reach beyond the hospital, but staffing limits slow it."
+    },
+    {
+      "date": "2026-07-03",
+      "headline": "Officials say leaked health ministry records are fuelling scams and phishing",
+      "source": "Island Times",
+      "url": "https://islandtimes.org/palau-prepares-for-stronger-cyber-defences-private-firm-funds-proof-of-concept/",
+      "why": "Patients' leaked medical data is still being used against them."
+    },
+    {
+      "date": "2026-07-28",
+      "headline": "President signs Cybersecurity Act, RPPL 12-8, into law",
+      "source": "Island Times",
+      "url": "https://islandtimes.org/palau-extends-interim-ship-registry-contract-through-cybersecurity-act-rider/",
+      "why": "Agencies holding health data will have to notify people after a breach, once the Bureau sets the process."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

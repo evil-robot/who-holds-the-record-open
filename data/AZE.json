@@ -1,0 +1,358 @@
+{
+ "iso3": "AZE",
+ "name": "Azerbaijan",
+ "region": "Asia",
+ "controlModel": "State",
+ "headline": "Azerbaijanis can download labs, scans and discharge summaries on the state mygov portal, but no patient control over who sees the health record was verified.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 60,
+   "summary": "The 1997 public health law gives a right to see medical documents and get copies on request, and the mygov portal shows lab results, scan reports, prescriptions and discharge summaries as PDFs. How many people use its health section was not verified.",
+   "detail": [
+    "Article 25 of Law 360-IQ lets every citizen see the medical documents about their health directly, consult other specialists about them, and receive copies on request.",
+    "The Law on Personal Data (Article 12) says the data owner must give a person their data free of charge and answer within 7 working days, extendable by 7 more if a third party must be asked.",
+    "Through mygov's \"Tibb məlumatlarım\" section, people can view and download lab results, results of MRI, CT, ultrasound, ECG and EEG tests done in state facilities, e-prescriptions, referrals, sick-leave records and discharge summaries listing history, results, diagnoses and treatment. Since January 2026 parents can see children's lab results.",
+    "How many people use mygov's health section was not verified. Full clinical notes and machine-readable export were not verified either, so the score sits at the bottom of the part-of-record portal band (60 to 75)."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 360-IQ on Protection of Public Health (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/4/f_4078.html",
+     "date": "1997-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 998-IIIQ on Personal Data (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/19/f_19675.html",
+     "date": "2010-05-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Three more medical records added to mygov: e-prescriptions, diagnostic test results, referrals (Xeberler.az)",
+     "url": "https://xeberler.az/new/details/daha-3-tibbi-melumat-%E2%80%9Cmygov%E2%80%9D-platformasina-inteqrasiya-olunub--35919.htm",
+     "date": "2025-07-23",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Citizens' discharge summaries added to mygov (Xeberler.az)",
+     "url": "https://xeberler.az/new/details/vetendaslarin-xestelik-tarixcesi-%E2%80%9Cmygov%E2%80%9Da-daxil-edilib--36102.htm",
+     "date": "2025-08-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 40,
+   "summary": "mygov lets people grant and revoke consent for companies to pull their data and shows every request. No opt-out or patient-visible access log for the clinical record itself was verified, so the score sits at the bottom of the 40 to 55 band.",
+   "detail": [
+    "IDDA said in December 2025 that companies connected to mygov cannot get a citizen's data without consent, that only the citizen can give, change or cancel consent, and that citizens get a notice and can see the history of every data request.",
+    "The Law on Personal Data (Article 13) requires written consent, including through the e-government system, before data passes to third parties, and lets people withdraw it. State bodies acting on their duties are exempt (Article 13.2.2).",
+    "The 2006 Electronic Health Card rules let only staff authorised by a facility's head enter the system. The software records each operation, but no rule gives the patient a view of that log.",
+    "Whether the mygov request log covers health data, and any way to stop clinicians or the ministry seeing the record, were not verified."
+   ],
+   "sources": [
+    {
+     "title": "mygov processes personal data only with citizens' consent and the law (IDDA)",
+     "url": "https://idda.az/az/xeberler/mygov-platformasinda-vetendaslarin-ferdi-melumatlari-yalniz-onlarin-raziligina-ve-qanunvericiliye-esasen-emal-olunur",
+     "date": "2025-12-27",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Law No. 998-IIIQ on Personal Data (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/19/f_19675.html",
+     "date": "2010-05-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Cabinet Decision No. 143: Rules for the Electronic Health Card system (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/12/f_12294.html",
+     "date": "2006-06-12",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 40,
+   "summary": "Health data is special-category data under the 2010 Law on Personal Data, but fines are 300 to 500 manat, a ministry supervises, and no breach-notice duty exists. Investigators, prosecutors and courts can obtain medical secrets without consent.",
+   "detail": [
+    "Article 2.1.6 of the Law on Personal Data lists data on health as special-category data. Article 9.7 allows processing only where the law makes it mandatory, with written consent, or to protect life and health.",
+    "Article 53 of Law 360-IQ makes the fact of seeking care, the diagnosis and exam results a medical secret. It may be disclosed without consent on request of investigators, prosecutors or a court, and for military call-up.",
+    "Article 375 of the 2015 Administrative Offences Code fines failures to protect personal data 300 to 500 manat. No breach-notification article was found in the data law. Decree 361 (2010) splits supervision among several ministries and security services, not an independent authority.",
+    "No health-sector enforcement decisions or health data breaches were found. A new data protection draft law was announced in October 2025 and had not been verified as adopted. Azerbaijan is not in the EU, so GDPR does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 998-IIIQ on Personal Data (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/19/f_19675.html",
+     "date": "2010-05-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 360-IQ on Protection of Public Health (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/4/f_4078.html",
+     "date": "1997-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Code of Administrative Offences, Article 375 (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/0/c_c_24.html",
+     "date": "2015-12-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Presidential Decree No. 361 on implementing the Law on Personal Data (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/21/c_f_21035.html",
+     "date": "2010-12-13",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Passing health data to third parties needs written consent, and mygov blocks connected companies without it. But the data law also lets personal data in public and corporate systems be provided to third parties for a fee, and no ban on selling health data was found.",
+   "detail": [
+    "Under Article 13.1 of the Law on Personal Data, any transfer to third parties needs the person's written consent, which can be withdrawn. Special-category data such as health has the narrower grounds of Article 9.7.",
+    "Article 9.10 says personal data in general-use and corporate information systems may be provided to third parties on a paid basis, under rules set by the government.",
+    "Law 360-IQ (Article 37) bans promoting prescription medicines in the mass media. Rules on data brokers, consumer health apps and sale of de-identified health data were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 998-IIIQ on Personal Data (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/19/f_19675.html",
+     "date": "2010-05-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "mygov processes personal data only with citizens' consent and the law (IDDA)",
+     "url": "https://idda.az/az/xeberler/mygov-platformasinda-vetendaslarin-ferdi-melumatlari-yalniz-onlarin-raziligina-ve-qanunvericiliye-esasen-emal-olunur",
+     "date": "2025-12-27",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Law No. 360-IQ on Protection of Public Health (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/4/f_4078.html",
+     "date": "1997-06-26",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 60,
+   "summary": "The Unified Health Information System has moved to the Government Cloud, e-sick leave is nationwide, and a unified discharge-summary registry feeds benefit and insurance processes. The FHIR-based Medical Digital Twin System links over 20 digital tools, but private facilities are joining in phases.",
+   "detail": [
+    "The ministry said on 3 June 2026 that the Medical Digital Twin System (TRƏS) is built on FHIR, integrates more than 20 digital solutions, and that migration of the Unified Health Information System to the Government Cloud is complete.",
+    "The same release says paper sick-leave certificates have ended nationwide and a unified registry of electronic discharge summaries is now used in social benefit payments and insurance.",
+    "In July 2026 Baku Health Center moved over 3.5 million archived records into TRƏS and now sends new data in real time. The ministry is connecting other state and private facilities in phases.",
+    "The e-prescription platform has run since 1 May 2024; the ministry urges, rather than requires, its use. Research linkage was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Ministry of Health presents the Medical Digital Twin System (Ministry of Health)",
+     "url": "https://sehiyye.gov.az/en/media/xeberler-ve-yenilikler/s-hiyy-nazirliyi-v-t-ndas-saglamligina-r-q-msal-qaygi-tibbi-r-q-msal-kiz-sisteminin-t-qdimatini-kecirib/",
+     "date": "2026-06-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministry's Medical Digital Twin System expands to Baku Health Center (Xeberler.az)",
+     "url": "https://xeberler.az/new/details/sehiyye-nazirliyinin-yaratdigi-tibbi-reqemsal-ekiz-sistemi-genislenir--39760.htm",
+     "date": "2026-07-23",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Information on the Electronic Prescription system (Ministry of Health)",
+     "url": "https://sehiyye.gov.az/media/xeberler-ve-yenilikler/elektron-resept-t-tbiqi-il-bagli-m-lumat/",
+     "date": "2024-05-24",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 50,
+   "summary": "TRƏS is meant to make data from state and private facilities available to treating doctors, but only some facilities had joined by July 2026. Access is limited to staff a facility head authorises, and secrets may be shared without consent when the patient cannot speak.",
+   "detail": [
+    "The ministry says TRƏS ends repeat tests and visits. Reports of the Baku Health Center link say it gives doctors current data formed in state and private facilities to support clinical decisions.",
+    "The 2006 Electronic Health Card rules allow access only by staff given permission by the facility's management.",
+    "Article 53 of Law 360-IQ allows disclosure of medical secrets without consent to examine and treat a patient who cannot explain their condition.",
+    "How many facilities and doctors use TRƏS today was not verified, so the score stays in the lower half of the mixed band."
+   ],
+   "sources": [
+    {
+     "title": "Ministry of Health presents the Medical Digital Twin System (Ministry of Health)",
+     "url": "https://sehiyye.gov.az/en/media/xeberler-ve-yenilikler/s-hiyy-nazirliyi-v-t-ndas-saglamligina-r-q-msal-qaygi-tibbi-r-q-msal-kiz-sisteminin-t-qdimatini-kecirib/",
+     "date": "2026-06-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministry's Medical Digital Twin System expands to Baku Health Center (Xeberler.az)",
+     "url": "https://xeberler.az/new/details/sehiyye-nazirliyinin-yaratdigi-tibbi-reqemsal-ekiz-sistemi-genislenir--39760.htm",
+     "date": "2026-07-23",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Cabinet Decision No. 143: Rules for the Electronic Health Card system (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/12/f_12294.html",
+     "date": "2006-06-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 360-IQ on Protection of Public Health (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/4/f_4078.html",
+     "date": "1997-06-26",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Anonymised data may be used for science without consent, and no ethics body, register or opt-out was verified. Medical secrecy and a consent route for identifiable data add two safeguards to the base of 40, and biomedical research on people needs informed consent.",
+   "detail": [
+    "Article 37 of Law 360-IQ says a person may be part of biomedical research only with consent, after being told the aims, side effects, risks and duration, and may withdraw at any stage.",
+    "Article 53 lets medical secrets be passed on for scientific research or publication with the consent of the person or their legal representative.",
+    "Article 9.6.3 of the Law on Personal Data allows processing for scientific and statistical research when the data is anonymised.",
+    "No national ethics committee, permit body or public register of data uses was verified. Azerbaijan is not an EU member or candidate, so the European Health Data Space does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 360-IQ on Protection of Public Health (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/4/f_4078.html",
+     "date": "1997-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 998-IIIQ on Personal Data (e-qanun.az)",
+     "url": "https://frameworks.e-qanun.az/19/f_19675.html",
+     "date": "2010-05-11",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "Azerbaijan has an AI Strategy for 2025 to 2028 and a 2026 digital action plan, but neither is binding. No regulation of AI medical software, change control or human-oversight rule for clinical AI was verified.",
+   "detail": [
+    "The AI Strategy, approved by presidential order on 19 March 2025, plans a legal base for responsible and ethical AI, rules on personal data risks in AI systems, and standards, with health named as a priority sector.",
+    "The 2026 to 2028 digital action plan sets a DPIA method for AI systems and a temporary legal exemptions regime for pilot areas, including health, due by December 2026.",
+    "AI Policy Tracker records no binding AI instrument for Azerbaijan. The ministry plans to use TRƏS data with AI to forecast public health trends. Device rules for AI medical software were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Artificial Intelligence Strategy of the Republic of Azerbaijan for 2025 to 2028 (president.az)",
+     "url": "https://static.president.az/upload/Files/2025/03/19/5a0fb1886a7316cb1b95458f366c1bd6_3415396.pdf",
+     "date": "2025-03-19",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Action Plan for Accelerating Digital Development 2026 to 2028 (president.az)",
+     "url": "https://static.president.az/upload/Files/2026/02/27/1619d20b92c1f18cf27603a1d0dab4fe_1178651.pdf",
+     "date": "2026-02-27",
+     "publisherClass": "official"
+    },
+    {
+     "title": "AI regulation in Azerbaijan (AI Policy Tracker)",
+     "url": "https://aipolicytracker.org/jurisdictions/azerbaijan",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Ministry of Health presents the Medical Digital Twin System (Ministry of Health)",
+     "url": "https://sehiyye.gov.az/en/media/xeberler-ve-yenilikler/s-hiyy-nazirliyi-v-t-ndas-saglamligina-r-q-msal-qaygi-tibbi-r-q-msal-kiz-sisteminin-t-qdimatini-kecirib/",
+     "date": "2026-06-03",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "A ministry health information system, e-sick leave, a discharge-summary registry used by insurance, and FHIR-based TRƏS link state care. Private facilities join in phases and e-prescribing is urged, not required.",
+ "laws": [
+  {
+   "name": "Law No. 360-IQ on Protection of Public Health",
+   "level": "National",
+   "year": "1997",
+   "what": "Right to see and copy medical documents; medical secrecy and its exceptions; consent for biomedical research.",
+   "url": "https://frameworks.e-qanun.az/4/f_4078.html"
+  },
+  {
+   "name": "Law No. 998-IIIQ on Personal Data",
+   "level": "National",
+   "year": "2010",
+   "what": "Health is special-category data; free access within 7 working days; written consent for transfers.",
+   "url": "https://frameworks.e-qanun.az/19/f_19675.html"
+  },
+  {
+   "name": "Cabinet Decision No. 143 on the Electronic Health Card system",
+   "level": "National",
+   "year": "2006",
+   "what": "Central health-card registry at the ministry; access only by staff a facility head authorises.",
+   "url": "https://frameworks.e-qanun.az/12/f_12294.html"
+  },
+  {
+   "name": "Code of Administrative Offences, Article 375",
+   "level": "National",
+   "year": "2015",
+   "what": "Fines of 300 to 500 manat for breaching personal data law.",
+   "url": "https://frameworks.e-qanun.az/0/c_c_24.html"
+  },
+  {
+   "name": "Artificial Intelligence Strategy for 2025 to 2028",
+   "level": "National",
+   "year": "2025",
+   "what": "Non-binding plan for an ethical AI legal base, data protection rules and standards.",
+   "url": "https://static.president.az/upload/Files/2025/03/19/5a0fb1886a7316cb1b95458f366c1bd6_3415396.pdf"
+  },
+  {
+   "name": "Action Plan for Accelerating Digital Development 2026 to 2028",
+   "level": "National",
+   "year": "2026",
+   "what": "All state services via mygov; AI DPIA method; AI exemptions regime for health pilots.",
+   "url": "https://static.president.az/upload/Files/2026/02/27/1619d20b92c1f18cf27603a1d0dab4fe_1178651.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-09",
+   "headline": "Electronic Security Service prepares a new personal data protection draft law",
+   "source": "Marja.az",
+   "url": "https://marja.az/130917/ferdi-melumatlarin-muhafizesi-haqqinda-yeni-qanun-layihesi-hazirlanib",
+   "why": "Could replace the 2010 law that sets today's weak fines and oversight."
+  },
+  {
+   "date": "2025-12-27",
+   "headline": "mygov says companies cannot pull citizen data without revocable digital consent",
+   "source": "IDDA",
+   "url": "https://idda.az/az/xeberler/mygov-platformasinda-vetendaslarin-ferdi-melumatlari-yalniz-onlarin-raziligina-ve-qanunvericiliye-esasen-emal-olunur",
+   "why": "Gives people a visible request history and veto over company data pulls."
+  },
+  {
+   "date": "2026-01-07",
+   "headline": "Parents can download children's lab results through mygov",
+   "source": "Xeberler.az",
+   "url": "https://xeberler.az/new/details/valideynler-ovladlarinin-laborator-analiz-neticelerine-mygovda-baxa-bilecekler--37862.htm",
+   "why": "Extends portal access to minors' records without a clinic visit."
+  },
+  {
+   "date": "2026-05-13",
+   "headline": "TƏBİB closes e-Tabib app and moves its health services into mygov",
+   "source": "Report.az",
+   "url": "https://report.az/sehiyye-xeberler/e-tabib-mobil-tetbiqi-mygov-a-tam-inteqrasiya-olunaraq-fealiyyetini-dayandirib",
+   "why": "Puts patient health records into one state portal."
+  },
+  {
+   "date": "2026-07-23",
+   "headline": "Baku Health Center moves 3.5 million records into the Medical Digital Twin System",
+   "source": "Xeberler.az",
+   "url": "https://xeberler.az/new/details/sehiyye-nazirliyinin-yaratdigi-tibbi-reqemsal-ekiz-sistemi-genislenir--39760.htm",
+   "why": "Shows the national record growing one facility at a time."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

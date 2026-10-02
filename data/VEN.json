@@ -1,0 +1,369 @@
+{
+  "iso3": "VEN",
+  "name": "Venezuela",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "Venezuela tied a national digital health record to the Sistema Patria in 2025, with no data protection law and patients entitled only to a summary.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 35,
+      "summary": "The 1998 Ley Organica de Salud gives patients a written, certified summary of their record on demand, not a full copy. The doctors' ethics code bars patients from examining the record directly, and patient access to the new national platform is not verified.",
+      "detail": [
+        "Article 69(6) of the Ley Organica de Salud gives every patient a written medical history and, when the patient demands it or moves to another facility, a written and certified summary of it.",
+        "The Codigo de Deontologia Medica (1985 text) says the doctor must never allow the patient or relatives to examine the clinical record directly. Copies go to a doctor the patient authorises (Articles 176 and 177). Whether a later revision changed this was not verified.",
+        "Article 28 of the Constitution gives a general right to see data about oneself in official or private records, enforced through the courts (habeas data). No deadline or fee rule for health record requests was found.",
+        "The science ministry says patients will be able to view their history on the national digital record from their devices. Whether this works for patients was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Ley Organica de Salud 1998, articulo 69 (Justia Venezuela)",
+          "url": "https://venezuela.justia.com/federales/leyes-organicas/ley-organica-de-salud/gdoc/",
+          "date": "1998-11-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Codigo de Deontologia Medica, Federacion Medica Venezolana (Justia Venezuela)",
+          "url": "https://docs.venezuela.justia.com/federales/codigos/codigo-de-deontologia-medica.pdf",
+          "date": "1985-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Constitucion de la Republica Bolivariana de Venezuela, articulos 28 y 60 (OEA)",
+          "url": "https://www.oas.org/dil/esp/constitucion_venezuela.pdf",
+          "date": "1999-12-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Gobierno Bolivariano activa plataforma de datos para acceso a la Historia Clinica Digital (Mincyt)",
+          "url": "https://mincyt.gob.ve/gobierno-bolivariano-activa-plataforma-de-datos-para-acceso-a-la-historia-clinica-digital-en-venezuela/",
+          "date": "2025-11-28",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 22,
+      "summary": "The national digital clinical record launched in November 2025 is centralised and tied to the Sistema Patria, and no opt-out, consent switch or access log for patients was found. With no data protection law, the state decides who sees the data.",
+      "detail": [
+        "The science ministry describes the platform as a centralised electronic register that unifies consultations, diagnoses and treatments of public health service users, and also as a tool for medical research.",
+        "At the launch, then president Nicolas Maduro said the record would be linked to the Sistema Patria and that, with single clinical records, \"we will be able to easily access\" the pathologies, treatments and diagnoses of all citizens.",
+        "The 1985 ethics code says patients must be told about data systems built from their records and must authorise release outside the institution (Articles 135 and 136). This is a professional code, and no enforcement was found.",
+        "No consent rule, opt-out or patient-visible access log for the national platform was found in sources opened."
+      ],
+      "sources": [
+        {
+          "title": "Gobierno Bolivariano activa plataforma de datos para acceso a la Historia Clinica Digital (Mincyt)",
+          "url": "https://mincyt.gob.ve/gobierno-bolivariano-activa-plataforma-de-datos-para-acceso-a-la-historia-clinica-digital-en-venezuela/",
+          "date": "2025-11-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Venezuela implementa sistema nacional de historia clinica digital (Radio Miraflores)",
+          "url": "https://radiomiraflores.net.ve/innovacion-venezuela-implementa-sistema-nacional-de-historia-clinica-digital/",
+          "date": "2025-11-26",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Activan Plataforma para Historia Clinica Digital en Venezuela (Ciudad CCS)",
+          "url": "https://www.ciudadccs.info/publicacion/38014-0",
+          "date": "2025-11-26",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Codigo de Deontologia Medica, Federacion Medica Venezolana (Justia Venezuela)",
+          "url": "https://docs.venezuela.justia.com/federales/codigos/codigo-de-deontologia-medica.pdf",
+          "date": "1985-03-20",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 25,
+      "summary": "Venezuela has no data protection law and no data regulator; privacy rests on Article 60 of the Constitution and criminal penalties in the 2001 cybercrime law. TalCual counted at least 11 data leaks since 2024 and found no sanctions for leaks.",
+      "detail": [
+        "Article 60 of the Constitution protects private life, intimacy and confidentiality, and says a law will limit the use of computing to protect them. Article 69(7) of the Ley Organica de Salud gives patients confidential treatment of their medical information.",
+        "The 2001 Ley Especial contra los Delitos Informaticos punishes taking or using another person's personal data in a computer system without consent with two to six years in prison (Article 20).",
+        "An April 2025 news report said the National Assembly passed a data protection law with a supervising superintendency. No official text was found (not verified). A lawyer quoted by TalCual in April 2026 says there is a binding Supreme Court ruling but no specific law.",
+        "TalCual reports leaks at Seniat, Metro de Caracas, Conviasa and PDVSA, among others. Experts say the law treats the breached institution as the victim and that the state itself is the main source of leaked data. No health breach was found."
+      ],
+      "sources": [
+        {
+          "title": "Constitucion de la Republica Bolivariana de Venezuela, articulos 28 y 60 (OEA)",
+          "url": "https://www.oas.org/dil/esp/constitucion_venezuela.pdf",
+          "date": "1999-12-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley Especial contra los Delitos Informaticos, articulos 20 a 22 (OEA)",
+          "url": "https://www.oas.org/juridico/spanish/mesicic3_ven_anexo18.pdf",
+          "date": "2001-10-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Filtraciones de datos crecen en el pais sin controles ni consecuencias claras (TalCual)",
+          "url": "https://talcualdigital.com/a-fondo/filtraciones-de-datos-crecen-en-el-pais-sin-controles-ni-consecuencias-claras/",
+          "date": "2026-04-27",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Aprobada nueva Ley de Proteccion de Datos Personales en Venezuela (Noticias 24 horas)",
+          "url": "https://www.noticias24hrs.com.ve/aprobada-nueva-ley-de-proteccion-de-datos-personales-en-venezuela/",
+          "date": "2025-04-08",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 30,
+      "summary": "No rule limits the sale of health data, health-based advertising or data brokers. The only protection found is the 2001 cybercrime law, which raises prison terms when personal data obtained unlawfully is disclosed or ceded for profit.",
+      "detail": [
+        "Article 22 of the cybercrime law punishes revealing or ceding personal data obtained by unlawful access with two to six years in prison, raised by a third to a half when done for profit.",
+        "The 1985 ethics code says medical data banks should be available only to the medical profession and should not be linked to other central data banks (Article 134). It binds doctors, not companies.",
+        "No law on health apps, marketing use of health data, data brokers or de-identified data sales was found. Venezuela is not on the EU adequacy list, so EU firms need extra safeguards to send data there; the European Health Data Space does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Ley Especial contra los Delitos Informaticos, articulos 20 a 22 (OEA)",
+          "url": "https://www.oas.org/juridico/spanish/mesicic3_ven_anexo18.pdf",
+          "date": "2001-10-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Codigo de Deontologia Medica, Federacion Medica Venezolana (Justia Venezuela)",
+          "url": "https://docs.venezuela.justia.com/federales/codigos/codigo-de-deontologia-medica.pdf",
+          "date": "1985-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "journey": {
+      "score": 25,
+      "summary": "The government activated a national digital clinical record platform in November 2025, but no coverage figures were published (not verified). In August 2026 the acting president ordered the digital record model rolled out to all public hospitals, so most are not yet linked.",
+      "detail": [
+        "The science ministry says the platform, coordinated by the health ministry, will store the complete history of patients who use public health services and connect data from different systems. No figures on patients, facilities or records were found.",
+        "In March 2025 the Hospital Universitario de Caracas was described as a pilot smart hospital, with the plan that all the country's hospitals would be connected in the future.",
+        "On 20 August 2026 acting president Delcy Rodriguez ordered the digital record used at the children's cardiology hospital since 2011 to be applied to the rest of the country's hospitals.",
+        "A software vendor writes that most private clinics still keep paper records and that Venezuela has no national patient health identifier. Labs, pharmacy and claims links were not found."
+      ],
+      "sources": [
+        {
+          "title": "Gobierno Bolivariano activa plataforma de datos para acceso a la Historia Clinica Digital (Mincyt)",
+          "url": "https://mincyt.gob.ve/gobierno-bolivariano-activa-plataforma-de-datos-para-acceso-a-la-historia-clinica-digital-en-venezuela/",
+          "date": "2025-11-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ejecutivo Nacional entrego resonador magnetico con Inteligencia Artificial al Hospital Universitario de Caracas (MPPS)",
+          "url": "https://mpps.gob.ve/ejecutivo-nacional-entrego-resonador-magnetico-con-inteligencia-artificial-al-hospital-universitario-de-caracas/",
+          "date": "2025-03-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Historia clinica digital interconectada entre hospitales, ordena Delcy Rodriguez (Diario Vea)",
+          "url": "https://diariovea.com.ve/delcy-rodriguez-plantea-digitalizar-sistema-de-salud-publico/",
+          "date": "2026-08-20",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Historia clinica electronica en Venezuela: que es, como funciona y que sistemas existen en 2026 (Code by Melendez)",
+          "url": "https://codebymelendez.com/insights/historia-clinica-electronica-venezuela",
+          "date": "2026-05-06",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 22,
+      "summary": "Some hospitals keep digital records inside their own walls, but no working access across providers was verified. When a patient moves, the law relies on a certified written summary, and the ethics code requires the patient's consent before a doctor shares information.",
+      "detail": [
+        "The health ministry said in March 2025 that the Hospital Universitario de Caracas was linking its own services digitally, with links to other hospitals planned for the future.",
+        "Under Article 69(6) of the Ley Organica de Salud, a patient who continues treatment elsewhere receives a written, certified summary of the record.",
+        "The ethics code says a doctor must share information with a colleague for diagnosis or treatment, always with the patient's agreement (Article 176). The August 2026 order to interconnect hospital records shows clinicians cannot yet see records across the system."
+      ],
+      "sources": [
+        {
+          "title": "Ejecutivo Nacional entrego resonador magnetico con Inteligencia Artificial al Hospital Universitario de Caracas (MPPS)",
+          "url": "https://mpps.gob.ve/ejecutivo-nacional-entrego-resonador-magnetico-con-inteligencia-artificial-al-hospital-universitario-de-caracas/",
+          "date": "2025-03-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley Organica de Salud 1998, articulo 69 (Justia Venezuela)",
+          "url": "https://venezuela.justia.com/federales/leyes-organicas/ley-organica-de-salud/gdoc/",
+          "date": "1998-11-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Codigo de Deontologia Medica, Federacion Medica Venezolana (Justia Venezuela)",
+          "url": "https://docs.venezuela.justia.com/federales/codigos/codigo-de-deontologia-medica.pdf",
+          "date": "1985-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Historia clinica digital interconectada entre hospitales, ordena Delcy Rodriguez (Diario Vea)",
+          "url": "https://diariovea.com.ve/delcy-rodriguez-plantea-digitalizar-sistema-de-salud-publico/",
+          "date": "2026-08-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Patients may accept or refuse experimental research under the Ley Organica de Salud, but the ethics code lets doctors use hospital record archives for research with only the department head's approval. Two safeguards lift the base of 40: ethics committees and statutory confidentiality.",
+      "detail": [
+        "Article 69(2) of the Ley Organica de Salud gives patients the right to accept or refuse, after being informed, taking part in experimental research.",
+        "The 1985 ethics code requires free, informed consent for clinical research and review of protocols by institutional ethics committees (Articles 194, 196 and 203).",
+        "The same code lets a doctor use the institution's record archive for study or research, with approval from the department head, and leaves epidemiological research without individual consent to the health authorities (Articles 174, 175 and 202).",
+        "The ministry presents the new national record as a research tool. No consent terms, opt-out or public register of uses were found."
+      ],
+      "sources": [
+        {
+          "title": "Ley Organica de Salud 1998, articulo 69 (Justia Venezuela)",
+          "url": "https://venezuela.justia.com/federales/leyes-organicas/ley-organica-de-salud/gdoc/",
+          "date": "1998-11-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Codigo de Deontologia Medica, Federacion Medica Venezolana (Justia Venezuela)",
+          "url": "https://docs.venezuela.justia.com/federales/codigos/codigo-de-deontologia-medica.pdf",
+          "date": "1985-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Gobierno Bolivariano activa plataforma de datos para acceso a la Historia Clinica Digital (Mincyt)",
+          "url": "https://mincyt.gob.ve/gobierno-bolivariano-activa-plataforma-de-datos-para-acceso-a-la-historia-clinica-digital-en-venezuela/",
+          "date": "2025-11-28",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 35,
+      "summary": "The only national AI rule is a non-binding ethics code from the science ministry (February 2026) that names health as a critical use and keeps humans accountable. The AI bill still awaits a second debate, and device rules do not cover software.",
+      "detail": [
+        "The February 2026 code sets nine principles, asks for informed consent before AI systems collect personal data, names medical images as sensitive data and says final responsibility always rests with people. It sets no sanctions itself, only calling for future oversight mechanisms.",
+        "A consultancy reports that the AI bill passed its first debate in November 2024 and that the last official step found was a March 2026 announcement of its second debate.",
+        "The health regulator's 1999 rules require firms that make, import or sell medical materials and equipment to register, but do not mention software or AI.",
+        "In March 2025 the government installed an MRI scanner with built-in AI at the Hospital Universitario de Caracas, with no AI-specific oversight described."
+      ],
+      "sources": [
+        {
+          "title": "Codigo de Etica para el desarrollo y aplicacion responsable de la Inteligencia Artificial (Mincyt)",
+          "url": "https://mincyt.gob.ve/wp-content/uploads/2026/02/Codigo_de_Etica_de_Inteligencia_Artificial_de_la_Republica_Bolivariana-1.pdf",
+          "date": "2026-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "IA en Venezuela: las clausulas que la ley todavia no escribe (AGT Consultoria)",
+          "url": "https://www.agtconsultoria.com/blog/ia-en-venezuela-las-clausulas-que-la-ley-todavia-no-escribe/",
+          "date": "2026-09-15",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Resolucion 55 y DM-0010-99, registro sanitario de materiales y equipos medicos (SACS)",
+          "url": "https://www.sacs.gob.ve/site/wp-content/uploads/2022/10/Normativa_Registro_Sanitario_Equipos_Materiales.pdf",
+          "date": "1999-12-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ejecutivo Nacional entrego resonador magnetico con Inteligencia Artificial al Hospital Universitario de Caracas (MPPS)",
+          "url": "https://mpps.gob.ve/ejecutivo-nacional-entrego-resonador-magnetico-con-inteligencia-artificial-al-hospital-universitario-de-caracas/",
+          "date": "2025-03-11",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "unknown",
+    "hospital": "siloed",
+    "labs": "unknown",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "A national digital record platform was activated in November 2025, with no published coverage. Hospital records are digital only inside some hospitals; interconnection was ordered in August 2026. No lab, pharmacy or claims links were found.",
+  "laws": [
+    {
+      "name": "Constitucion de la Republica Bolivariana de Venezuela",
+      "level": "National",
+      "year": "1999",
+      "what": "Article 28 habeas data right to see and correct own data; Article 60 privacy and limits on computing.",
+      "url": "https://www.oas.org/dil/esp/constitucion_venezuela.pdf"
+    },
+    {
+      "name": "Ley Organica de Salud",
+      "level": "National",
+      "year": "1998",
+      "what": "Patient rights: certified record summary on demand, confidentiality, consent to experimental research.",
+      "url": "https://venezuela.justia.com/federales/leyes-organicas/ley-organica-de-salud/gdoc/"
+    },
+    {
+      "name": "Ley Especial contra los Delitos Informaticos",
+      "level": "National",
+      "year": "2001",
+      "what": "Two to six years in prison for using or disclosing personal data without consent.",
+      "url": "https://www.oas.org/juridico/spanish/mesicic3_ven_anexo18.pdf"
+    },
+    {
+      "name": "Ley de Infogobierno",
+      "level": "National",
+      "year": "2013",
+      "what": "Public bodies' use of IT must protect privacy and confidentiality, subject to a future data law.",
+      "url": "https://www.suscerte.gob.ve/wp-content/uploads/2024/02/GO-40274-Ley-de-Infogobierno.pdf"
+    },
+    {
+      "name": "Codigo de Deontologia Medica (Federacion Medica Venezolana)",
+      "level": "National",
+      "year": "1985",
+      "what": "Medical secrecy; patients may not examine records directly; research consent and ethics committees.",
+      "url": "https://docs.venezuela.justia.com/federales/codigos/codigo-de-deontologia-medica.pdf"
+    },
+    {
+      "name": "Resolucion 55 y DM-0010-99 (registro sanitario de materiales y equipos)",
+      "level": "National",
+      "year": "1999",
+      "what": "Firms making, importing or selling medical equipment must register; no software or AI rules.",
+      "url": "https://www.sacs.gob.ve/site/wp-content/uploads/2022/10/Normativa_Registro_Sanitario_Equipos_Materiales.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-11-26",
+      "headline": "Government launches national digital clinical record linked to the Sistema Patria",
+      "source": "Radio Miraflores",
+      "url": "https://radiomiraflores.net.ve/innovacion-venezuela-implementa-sistema-nacional-de-historia-clinica-digital/",
+      "why": "Diagnoses and treatments go into one state record with no data protection law."
+    },
+    {
+      "date": "2026-02-19",
+      "headline": "Science ministry issues the country's first code of ethics for AI",
+      "source": "Ciudad CCS",
+      "url": "https://www.ciudadccs.info/publicacion/40812-venezuela-establece-su-primer-marco-etico-para-la-ia",
+      "why": "Asks for consent and human accountability in AI, including health uses, but sets no sanctions."
+    },
+    {
+      "date": "2026-04-27",
+      "headline": "At least 11 data leaks since 2024, with no clear penalties",
+      "source": "TalCual",
+      "url": "https://talcualdigital.com/a-fondo/filtraciones-de-datos-crecen-en-el-pais-sin-controles-ni-consecuencias-claras/",
+      "why": "People whose data leaks have no real remedy under current law."
+    },
+    {
+      "date": "2026-08-20",
+      "headline": "Acting president orders interconnected digital records across public hospitals",
+      "source": "Diario Vea",
+      "url": "https://diariovea.com.ve/delcy-rodriguez-plantea-digitalizar-sistema-de-salud-publico/",
+      "why": "Shows most public hospitals still cannot share a patient's record."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

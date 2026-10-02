@@ -1,0 +1,346 @@
+{
+ "iso3": "GNB",
+ "name": "Guinea-Bissau",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Guinea-Bissau has no data protection law and keeps clinical records on paper, so patients have almost no legal or practical hold on their health data.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 20,
+   "summary": "No law gives patients a right to see or copy their medical record, and Guinea-Bissau has no data protection law. Clinical records in every health centre and hospital are kept on paper, so there is nothing to view online.",
+   "detail": [
+    "Article 44 of the Constitution protects intimate privacy and family life. It does not give a right to see or copy health records.",
+    "Guinea-Bissau has no data protection law, so there is no general right of access to personal data. The national digital strategy approved by Decree 10/2025 says a data protection bill had been submitted to parliament; its adoption was not verified.",
+    "A 2017 patients' charter drafted by a patient office, a human rights league and health bodies says patients should get their diagnosis and treatment in writing. It was written for a civil society guide, and we found no law that makes it binding.",
+    "The PNDS III health plan says clinical data in all health centres, regional hospitals and national referral hospitals is still recorded on paper. There is no patient portal.",
+    "Score: inside the 15 to 35 band for no enforceable right, level with Afghanistan and Dominica, which also have no data law and no portal."
+   ],
+   "sources": [
+    {
+     "title": "Constitution of Guinea-Bissau 1984 (rev. 1996), English text (Constitute Project)",
+     "url": "https://www.constituteproject.org/constitution/Guinea_Bissau_1996?lang=en",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Decreto n.º 10/2025, approving the Estratégia Nacional para a Transformação Digital (ENTD.GW) 2025-2030, Boletim Oficial n.º 12, 4.º Suplemento (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/gbs235634.pdf",
+     "date": "2025-03-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Plano Nacional de Desenvolvimento Sanitário III (PNDS III) 2023-2028 (MINSAP)",
+     "url": "https://convencaocidada.gw/assets/docs/anexos/a3849c8d-1055-4615-938f-6df2b7eb98f8_Plano_Nacional_de_Desenvolvimento_Sanit%C3%A1rio_(PNDS_III)__2023-2028.pdf",
+     "date": "2023-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Guia Sanitário do Setor Autónomo de Bissau, with the Decálogo dos Direitos e Deveres dos Utentes (Gabinete do Utente and Liga Guineense dos Direitos Humanos, EU-funded)",
+     "url": "https://ong-aida.org/wp-content/uploads/2023/04/GUIA-SANITARIA.pdf",
+     "date": "2017-11",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "control": {
+   "score": 20,
+   "summary": "There is no data law, so patients have no legal consent, objection or access-log rights over health data. Records sit on paper in each facility, and providers and programmes decide how data moves.",
+   "detail": [
+    "With no data protection law, nothing sets consent rules for using or sharing health data. The ECOWAS Supplementary Act of 2010 obliges member states to build a legal framework and a data protection authority, but Guinea-Bissau has neither.",
+    "The 2017 patients' charter says patients may consent before treatment and that staff must not reveal private health information unless a law or court requires it. It is not a statute.",
+    "No shared record exists, so there is no sharing setting, opt-out or access log. Disease programmes and partners each run their own data systems, which the PNDS III calls fragmented.",
+    "Score: bottom of the 20 to 35 band for no individual choice and no access log."
+   ],
+   "sources": [
+    {
+     "title": "Supplementary Act A/SA.1/01/10 on Personal Data Protection within ECOWAS",
+     "url": "https://www.statewatch.org/media/documents/news/2013/mar/ecowas-dp-act.pdf",
+     "date": "2010-02-16",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Guinea-Bissau Data Protection Factsheet (Data Protection Africa, ALT Advisory)",
+     "url": "https://dataprotection.africa/guinea-bissau/",
+     "date": "2022-05-25",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Plano Nacional de Desenvolvimento Sanitário III (PNDS III) 2023-2028 (MINSAP)",
+     "url": "https://convencaocidada.gw/assets/docs/anexos/a3849c8d-1055-4615-938f-6df2b7eb98f8_Plano_Nacional_de_Desenvolvimento_Sanit%C3%A1rio_(PNDS_III)__2023-2028.pdf",
+     "date": "2023-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Guia Sanitário do Setor Autónomo de Bissau, with the Decálogo dos Direitos e Deveres dos Utentes (Gabinete do Utente and Liga Guineense dos Direitos Humanos, EU-funded)",
+     "url": "https://ong-aida.org/wp-content/uploads/2023/04/GUIA-SANITARIA.pdf",
+     "date": "2017-11",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 22,
+   "summary": "Guinea-Bissau has no data protection law, no regulator and no breach notification duty. The main protection is a Penal Code crime of revealing a professional secret, punished by up to one year in prison or a fine, and only on complaint.",
+   "detail": [
+    "Article 142 of the 1993 Penal Code punishes anyone who reveals another's secret learned through their profession with up to one year in prison or a fine. Prosecution needs a complaint. Article 143 punishes publicly spreading facts about private life.",
+    "The World Bank found in 2023 that the country lacked data privacy and cybersecurity laws, though drafts existed. In May 2026 the Council of Ministers approved a data protection bill with changes. Its passage into law was not verified.",
+    "Guinea-Bissau has not ratified the AU Malabo Convention, the World Bank found. In May 2026 the transitional council said it plans to ratify it after passing a law on false information online.",
+    "Guinea-Bissau is outside the EU, so GDPR and the EHDS do not apply. No health data breach or enforcement case was found.",
+    "Score: no health-sector evidence and no general law, so below the general-law band, level with Eritrea and Micronesia."
+   ],
+   "sources": [
+    {
+     "title": "Código Penal, Decreto-Lei n.º 4/93 (compilation copy, FEC)",
+     "url": "https://fecongd.org/pdf/crianca/CodigoPenal.pdf",
+     "date": "1993-10-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Guinea Bissau: Digital Policy Dialogue, Engagement Note (World Bank, Report AUS0003328)",
+     "url": "https://documents1.worldbank.org/curated/en/099061523115010183/pdf/P179627-b7cacceb-3c50-4061-8f7e-c52e69bb90e7.pdf",
+     "date": "2023",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Guiné-Bissau anuncia início do Recenseamento Geral da População e Habitação para Junho (Forbes África Lusófona, Council of Ministers communiqué)",
+     "url": "https://forbesafricalusofona.com/guine-bissau-anuncia-inicio-do-recenseamento-geral-da-populacao-e-habitacao-para-junho/",
+     "date": "2026-05-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Guiné-Bissau: CNT aprova lei contra 'fake news' em ambiente de restrição política (e-Global)",
+     "url": "https://e-global.pt/noticias/lusofonia/guine-bissau/nova-lei-contra-desinformacao/",
+     "date": "2026-05-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 20,
+   "summary": "No law limits selling health data, marketing with it or reusing de-identified data, because there is no data protection law. We found no rules on health apps or data brokers and no enforcement.",
+   "detail": [
+    "The ECOWAS Supplementary Act treats health data as sensitive and bans processing it except in listed cases. It has not been written into national law, and no authority exists to apply it.",
+    "The national digital strategy says the absence of a data governance framework worsens problems in fragmented health data systems. It lists data protection law as a gap to fill.",
+    "The only legal limits are the Penal Code secrecy and private-life offences. They cover disclosure by people bound by secrecy, not the sale of data by companies.",
+    "Score: same band as Dominica (20) and Afghanistan (22), which also have no data law."
+   ],
+   "sources": [
+    {
+     "title": "Supplementary Act A/SA.1/01/10 on Personal Data Protection within ECOWAS",
+     "url": "https://www.statewatch.org/media/documents/news/2013/mar/ecowas-dp-act.pdf",
+     "date": "2010-02-16",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Decreto n.º 10/2025, approving the Estratégia Nacional para a Transformação Digital (ENTD.GW) 2025-2030, Boletim Oficial n.º 12, 4.º Suplemento (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/gbs235634.pdf",
+     "date": "2025-03-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Código Penal, Decreto-Lei n.º 4/93 (compilation copy, FEC)",
+     "url": "https://fecongd.org/pdf/crianca/CodigoPenal.pdf",
+     "date": "1993-10-13",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 20,
+   "summary": "DHIS2 has collected aggregate health statistics from all 11 health regions since 2011, but patient records are on paper and no hospital information system works. The health plan calls the information system fragmented, with partners' data not reaching the ministry.",
+   "detail": [
+    "The PNDS III says paper forms and reports from the health information system are typed into DHIS2 in the 11 health regions. DHIS2 has run since 2011 and gives aggregate statistics, not patient records.",
+    "The plan says no hospital information system is working. A pilot electronic record was proposed for paediatrics and maternity at the Simão Mendes national hospital. A private clinic, Madrugada, has used an electronic patient record since 2017.",
+    "DHIS2 also runs disease surveillance and Tracker registries for maternal and child health and immunisation, according to the DHIS2 project.",
+    "The plan notes civil registration data and UNICEF birth records are not passed to the health institute, and the ministry does not collect data from donors, NGOs or private clinics. We found no national health insurance claims system."
+   ],
+   "sources": [
+    {
+     "title": "Plano Nacional de Desenvolvimento Sanitário III (PNDS III) 2023-2028 (MINSAP)",
+     "url": "https://convencaocidada.gw/assets/docs/anexos/a3849c8d-1055-4615-938f-6df2b7eb98f8_Plano_Nacional_de_Desenvolvimento_Sanit%C3%A1rio_(PNDS_III)__2023-2028.pdf",
+     "date": "2023-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Guinea Bissau: DHIS2 Climate & Health country profile (DHIS2)",
+     "url": "https://dhis2.org/climate/country-profiles/guinea-bissau/",
+     "date": "2026-07",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Decreto n.º 31/2024, approving PNDS III, Boletim Oficial n.º 4 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/gbs235753.pdf",
+     "date": "2025-01-27",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 15,
+   "summary": "A treating clinician sees only the paper file their own facility holds. There is no shared record across providers, and a telemedicine centre at the national hospital was described as not working before a new one opened in 2025.",
+   "detail": [
+    "The PNDS III says clinical data stays on paper in all health centres, regional hospitals and national referral hospitals. Only some TB, malaria and HIV programmes record data electronically, and only for statistics.",
+    "The same plan lists the telemedicine unit at Simão Mendes as installed but not working. In August 2025 the then president opened a new telemedicine centre there for remote consultations, according to the state news agency.",
+    "WHO, the ITU and hospital staff drew up a digital health and telemedicine roadmap in 2022. Whether it was adopted was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Plano Nacional de Desenvolvimento Sanitário III (PNDS III) 2023-2028 (MINSAP)",
+     "url": "https://convencaocidada.gw/assets/docs/anexos/a3849c8d-1055-4615-938f-6df2b7eb98f8_Plano_Nacional_de_Desenvolvimento_Sanit%C3%A1rio_(PNDS_III)__2023-2028.pdf",
+     "date": "2023-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Inaugurado Centro de Telemedicina e Saúde no Hospital Nacional Simão Mendes (ANG)",
+     "url": "https://ang.gw/inaugurado-centro-de-telemedicina-e-saude-no-hospital-nacional-simao-mendes/",
+     "date": "2025-08-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Missão da OMS de apoio técnico aos programas de Saúde Digital do Ministério da Saúde Pública (WHO AFRO)",
+     "url": "https://www.afro.who.int/pt/countries/guinea-bissau/news/missao-da-oms-de-apoio-tecnico-aos-programas-de-saude-digital-do-ministerio-da-saude-publica",
+     "date": "2022-03-31",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "research": {
+   "score": 43,
+   "summary": "The CNEPS ethics committee reviews health research, but there is no research law and the draft ethics code was found weak on consent and data confidentiality. In January 2026 the health minister halted a US-funded newborn vaccine trial the committee had approved in November 2025.",
+   "detail": [
+    "The CNEPS says it reviews health research to protect participants' rights and their freedom to choose to take part. It accepts protocols by email.",
+    "An EU-funded November 2025 review found no biomedical research law. The CNEPS statute, its founding decree and an ethics code were still going through the law-making process, and consent and confidentiality rules in the draft code were scattered and thin.",
+    "In January 2026 the health minister said a Danish-led, US-funded hepatitis B trial on 14,000 newborns was suspended or cancelled. The committee had approved it in November 2025.",
+    "With no data law, nothing governs reuse of records. Score: base 40, plus 3 for the ethics body."
+   ],
+   "sources": [
+    {
+     "title": "National health research ethics committee of Guinea-Bissau (CNEPS) website",
+     "url": "https://bcawaethicsii.wixsite.com/cnepsgb",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "CT-Luso Deliverable 3.3, Recomendações legislativas (EU-funded project 101145790)",
+     "url": "https://ct-luso.com/pluginfile.php/672/mod_page/content/36/CT-Luso_Deliverable_3.3_Recomenda%C3%A7%C3%B5es_Legislativas_final_PT.pdf",
+     "date": "2025-11",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "'Suspended or Cancelled': Guinea-Bissau Health Minister Halts Controversial Hepatitis B Trial (Health Policy Watch)",
+     "url": "https://healthpolicy-watch.news/suspended-or-cancelled-guinea-bissau-health-minister-halts-controversial-hepatitis-trial/",
+     "date": "2026-01-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "ai": {
+   "score": 15,
+   "summary": "We found no rules for AI in clinical care and no regulation of medical software. The 2025 digital strategy says missing data protection rules limit safe and ethical use of AI.",
+   "detail": [
+    "We found no regulation of medical devices or software as a medical device. The PNDS III said the statute of the medicines regulator, ARFAME, was still awaiting government approval in 2023.",
+    "The national digital strategy approved by Decree 10/2025 says the lack of firm rules on data protection and transparency limits safe and ethical use of AI and big data in public and private sectors.",
+    "The only AI-related health work found is a predictive climate and disease modelling tool installed on a DHIS2 test system, not used in patient care."
+   ],
+   "sources": [
+    {
+     "title": "Decreto n.º 10/2025, approving the Estratégia Nacional para a Transformação Digital (ENTD.GW) 2025-2030, Boletim Oficial n.º 12, 4.º Suplemento (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/gbs235634.pdf",
+     "date": "2025-03-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Plano Nacional de Desenvolvimento Sanitário III (PNDS III) 2023-2028 (MINSAP)",
+     "url": "https://convencaocidada.gw/assets/docs/anexos/a3849c8d-1055-4615-938f-6df2b7eb98f8_Plano_Nacional_de_Desenvolvimento_Sanit%C3%A1rio_(PNDS_III)__2023-2028.pdf",
+     "date": "2023-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Guinea Bissau: DHIS2 Climate & Health country profile (DHIS2)",
+     "url": "https://dhis2.org/climate/country-profiles/guinea-bissau/",
+     "date": "2026-07",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Clinical records are on paper in every public facility. DHIS2 gathers aggregate data and runs surveillance and some Tracker registries. No hospital system, e-prescription or insurance claims link was found; partner and private data stay outside the ministry.",
+ "laws": [
+  {
+   "name": "Constitution of the Republic of Guinea-Bissau (1984, revised 1996), Article 44",
+   "level": "National",
+   "year": "1996",
+   "what": "Protects intimate privacy and family life; no specific right over health records.",
+   "url": "https://www.constituteproject.org/constitution/Guinea_Bissau_1996?lang=en"
+  },
+  {
+   "name": "Penal Code, Decree-Law 4/93, Articles 142 and 143",
+   "level": "National",
+   "year": "1993",
+   "what": "Revealing a professional secret: up to one year or a fine, on complaint. Bans publicising private life.",
+   "url": "https://fecongd.org/pdf/crianca/CodigoPenal.pdf"
+  },
+  {
+   "name": "ECOWAS Supplementary Act A/SA.1/01/10 on Personal Data Protection",
+   "level": "Supranational",
+   "year": "2010",
+   "what": "Health data is sensitive; states must adopt a law and a regulator. Not yet done nationally.",
+   "url": "https://www.statewatch.org/media/documents/news/2013/mar/ecowas-dp-act.pdf"
+  },
+  {
+   "name": "Decree 31/2024 approving the National Health Development Plan (PNDS III) 2023-2028",
+   "level": "National",
+   "year": "2024",
+   "what": "Health plan; records health information gaps and plans a health base law.",
+   "url": "https://faolex.fao.org/docs/pdf/gbs235753.pdf"
+  },
+  {
+   "name": "Decree 10/2025 approving the National Digital Transformation Strategy (ENTD.GW) 2025-2030",
+   "level": "National",
+   "year": "2025",
+   "what": "Lists a pending data protection bill and a health data programme with the public health institute.",
+   "url": "https://faolex.fao.org/docs/pdf/gbs235634.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-22",
+   "headline": "Health minister says US-funded newborn hepatitis B vaccine trial is suspended or cancelled",
+   "source": "Health Policy Watch",
+   "url": "https://healthpolicy-watch.news/suspended-or-cancelled-guinea-bissau-health-minister-halts-controversial-hepatitis-trial/",
+   "why": "Shows weak national control over research on babies, despite a prior ethics approval."
+  },
+  {
+   "date": "2026-02-11",
+   "headline": "WHO calls the Guinea-Bissau hepatitis B vaccine trial unethical",
+   "source": "Executive Digest",
+   "url": "https://executivedigest.sapo.pt/guine-bissau-oms-considera-antietico-estudo-de-vacinas-financiado-pelos-eua/",
+   "why": "Raises questions about who protects research participants when national rules are thin."
+  },
+  {
+   "date": "2026-05-22",
+   "headline": "Transitional council passes online false information law and plans Malabo Convention ratification",
+   "source": "e-Global",
+   "url": "https://e-global.pt/noticias/lusofonia/guine-bissau/nova-lei-contra-desinformacao/",
+   "why": "Digital laws are moving, but a data protection law is still missing."
+  },
+  {
+   "date": "2026-08-04",
+   "headline": "Transitional council condemns spread of intimate videos and urges stronger privacy law",
+   "source": "Jornal Tribuna de Macau",
+   "url": "https://jtm.com.mo/actual/conselho-de-transicao-condena-divulgacao-de-videos-intimos/",
+   "why": "Lawmakers admit current law does not protect privacy well enough."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

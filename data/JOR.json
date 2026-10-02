@@ -1,0 +1,349 @@
+{
+ "iso3": "JOR",
+ "name": "Jordan",
+ "region": "Middle East",
+ "controlModel": "State",
+ "headline": "Jordan's public hospitals and clinics share one electronic record, but patients see only part of it and have no say over sharing.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 50,
+   "summary": "The 2023 data law gives a free right to access and obtain one's data. The Hakeemi app shows public patients labs, radiology reports and medicines, but not notes or diagnoses; a reported World Bank count of 1 million users is not verified at source.",
+   "detail": [
+    "Article 4 of Personal Data Protection Law No. 24 of 2023 gives the right to access and obtain data held by a controller, and to move a copy to another controller. Using these rights may carry no financial or contractual consequences.",
+    "The law sets no deadline for answering a request. A 2025 regulation on data subject rights sets procedures, but its text was not opened, so a response deadline is not verified. Whether Article 4 reaches treatment records processed without consent under Article 6 is also not verified.",
+    "The Hakeemi app, for patients of Ministry of Health and Royal Medical Services sites, shows lab results, radiology reports, active medicines, allergies, vaccines and vital signs. Doctors' notes, past diagnoses and clinical summaries are still under study.",
+    "A World Bank report, as reported by Al Mamlaka, counted 1,004,316 users of these digital health services in June 2026. The report itself was not opened. Private hospital patients are outside Hakeemi."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law No. 24 of 2023 (official English version, Ministry of Digital Economy)",
+     "url": "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Health computing company: ongoing updates to Hakeemi and study of showing fuller medical history (Addustour)",
+     "url": "https://www.addustour.com/articles/1588406-%D8%A7%D9%84%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA-%D9%85%D8%AA%D9%88%D8%A7%D8%B5%D9%84%D8%A9-%D8%B9%D9%84%D9%89-%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D9%88%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%A5%D8%AA%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%B6%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%B9-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9",
+     "date": "2026-09-05",
+     "publisherClass": "news"
+    },
+    {
+     "title": "World Bank: over one million users of digital health services in Jordan (Al Mamlaka)",
+     "url": "https://almamlakatv.com/news/207311",
+     "date": "2026-08-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Cabinet approves Data Subject Rights Regulation 2025 (Jordan government portal)",
+     "url": "https://jordan.gov.jo/AR//NewsDetails/%D9%85%D8%AC%D9%84%D8%B3_%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1_%D9%8A%D9%82%D8%B1_%D9%86%D8%B8%D8%A7%D9%85_%D8%AA%D9%86%D8%B8%D9%8A%D9%85_%D8%AD%D9%82%D9%88%D9%82_%D8%A7%D9%84%D8%B4%D8%AE%D8%B5_%D8%A7%D9%84%D9%85%D8%B9%D9%86%D9%8A_2025_%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2_%D8%AD%D9%85%D8%A7%D9%8A%D8%A9_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA_%D9%88%D8%A7%D9%84%D8%AB%D9%82%D8%A9_%D8%A8%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A",
+     "date": "2025",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The data law demands explicit, written consent in general, but processing for diagnosis and care needs neither consent nor notice. Hakeem opens a patient's file at any connected site by national ID, and no opt-out or patient-visible access log was found.",
+   "detail": [
+    "Article 5 requires consent that is explicit, documented and specific to purpose and duration. Article 6 lists exceptions, including healthcare by a licensed professional, public bodies doing their legal tasks, research, statistics and national security.",
+    "Transfers between controllers need consent under Article 14, except between public authorities for their legal duties.",
+    "Hakeem lets users open a patient's electronic file from any facility using the national ID number, linked to the civil registry. No opt-out from this sharing and no access log the patient can see were found; both are not verified.",
+    "Medical secrets may be disclosed with the patient's consent, to a spouse, to prevent a crime, when required by law, or before the medical technical committee, under the 2018 liability law."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law No. 24 of 2023 (official English version, Ministry of Digital Economy)",
+     "url": "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Hakeem reaches 453 facilities and plans more than 570 in 2026 (Al Mamlaka)",
+     "url": "https://almamlakatv.com/news/190599",
+     "date": "2026-02-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Medical and Health Liability Law No. 25 of 2018 (Adaleh legal information centre)",
+     "url": "http://www.adaleh.info/Art.aspx?Typ=2&Id=1194",
+     "date": "2018",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is sensitive under the 2023 law, serious breaches must reach patients within 24 hours, and fines reach 3% of revenue. The regulator is a unit inside the digital economy ministry, its council includes two security agency members, and no health enforcement was found.",
+   "detail": [
+    "The law counts health, genetic and biometric data as sensitive, covers paper and electronic files, and requires a data protection officer for sensitive data. It took effect six months after publication, with one more year for existing processors to comply.",
+    "A serious breach must be reported to affected people within 24 hours and to the Unit within 72. Administrative fines run to 500 dinars a day, capped at 3% of annual revenue; criminal fines run from 1,000 to 10,000 dinars.",
+    "The Council is chaired by the minister and includes two representatives of security agencies. No health-sector decision or recent health breach was found, so this score rests on the general law.",
+    "Jordan is not on the EU adequacy list. Its law still lets medical data leave the country when needed for a patient's treatment, or for epidemics."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law No. 24 of 2023 (official English version, Ministry of Digital Economy)",
+     "url": "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Cabinet approves regulation on the Personal Data Protection Unit 2025 (Al Mamlaka)",
+     "url": "https://almamlakatv.com/news/184498",
+     "date": "2025-11-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Data may not be passed to another controller for marketing unless the person consents, and sensitive data needs explicit consent. No rules on health data brokers, consumer health apps or sales of de-identified data were found.",
+   "detail": [
+    "Article 14 bars transfers for marketing products or services without consent for that purpose, and makes recipients carry the same duties as the controller.",
+    "Controllers must keep records of each transfer, its purpose and the consent behind it.",
+    "The draft 2026 to 2030 digital health strategy lists using health big data to create economic value and investment partnerships as an opportunity, without stated limits on sale."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law No. 24 of 2023 (official English version, Ministry of Digital Economy)",
+     "url": "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Digital Health Strategy 2026-2030, public consultation draft (Tawasal government consultation portal)",
+     "url": "https://tawasal.gov.jo/Consultations/redirect/1485",
+     "date": "2026-06-15",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 45,
+   "summary": "The Hakeem electronic record runs in 482 Ministry of Health and Royal Medical Services sites, with all government hospitals and centres due by end 2026. The government's draft strategy says there is no unified national health record and weak interoperability.",
+   "detail": [
+    "Hakeem, launched in 2009 on the US VistA system, covered 51 government hospitals, 127 comprehensive and 260 primary health centres in early 2026, with more than 570 sites planned by end of 2026.",
+    "The draft 2026 to 2030 strategy lists among weaknesses a weak legal basis for health data exchange, no national coding standards, no unified national health record and a gap between public and private sector records.",
+    "Private insurance claims run on a separate system built by a sister company with the Central Bank and insurers. A health information exchange was described in May 2026 as coming soon.",
+    "Hakeem's chief executive said in May 2026 that it plans a wider move into the private sector from early 2027."
+   ],
+   "sources": [
+    {
+     "title": "Hakeem system expands to 482 health facilities (Petra, Jordan News Agency)",
+     "url": "https://petra.gov.jo/ar/news/%D8%AA%D9%88%D8%B3%D8%B9-%D9%85%D8%B8%D9%84%D8%A9-%D9%86%D8%B8%D8%A7%D9%85-%D8%AD%D9%83%D9%8A%D9%85-%D8%A5%D9%84%D9%89-482-%D9%85%D9%86%D8%B4%D8%A3%D8%A9-%D8%B5%D8%AD%D9%8A%D8%A9",
+     "date": "2026-07-07",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Hakeem reaches 453 facilities and plans more than 570 in 2026 (Al Mamlaka)",
+     "url": "https://almamlakatv.com/news/190599",
+     "date": "2026-02-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "National Digital Health Strategy 2026-2030, public consultation draft (Tawasal government consultation portal)",
+     "url": "https://tawasal.gov.jo/Consultations/redirect/1485",
+     "date": "2026-06-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Hakeem company plans to enter the private sector next year (Al Mamlaka)",
+     "url": "https://almamlakatv.com/news/200343",
+     "date": "2026-05-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 45,
+   "summary": "Clinicians in Hakeem sites can open a patient's file from any connected public facility by national ID, including surgical reports, medicines and history. Private sector clinicians cannot, as no national exchange is running yet.",
+   "detail": [
+    "The Hakeem file holds procedure and surgical reports, current medicines and drug sensitivities, medical and surgical history, and visit notes.",
+    "The 2018 liability law requires providers to document care in the patient's file and to share information with other clinicians treating the patient on request.",
+    "The draft strategy aims to encourage the private sector to join the national electronic record and to build a national framework for health information exchange."
+   ],
+   "sources": [
+    {
+     "title": "Hakeem reaches 453 facilities and plans more than 570 in 2026 (Al Mamlaka)",
+     "url": "https://almamlakatv.com/news/190599",
+     "date": "2026-02-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Medical and Health Liability Law No. 25 of 2018 (Adaleh legal information centre)",
+     "url": "http://www.adaleh.info/Art.aspx?Typ=2&Id=1194",
+     "date": "2018",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Digital Health Strategy 2026-2030, public consultation draft (Tawasal government consultation portal)",
+     "url": "https://tawasal.gov.jo/Consultations/redirect/1485",
+     "date": "2026-06-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Hakeem company plans to enter the private sector next year (Al Mamlaka)",
+     "url": "https://almamlakatv.com/news/200343",
+     "date": "2026-05-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 43,
+   "summary": "The 2023 data law allows processing for scientific research without consent or notice, if no decision is taken about a specific person. Drug trials fall under a 2011 law with ethics committees and a JFDA Clinical Studies Committee, and inspectors check informed consent.",
+   "detail": [
+    "Article 6 exempts research processing from consent and from informing the person. No general opt-out from research use was found.",
+    "Clinical Studies Law No. 2 of 2011 governs drug trials, with institutional review boards and a JFDA committee. A JFDA inspection guideline adopted in 2026 checks that informed consent was obtained before screening.",
+    "The draft digital health strategy plans to release anonymised health data to researchers, including for AI. No public register of data uses was found."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Law No. 24 of 2023 (official English version, Ministry of Digital Economy)",
+     "url": "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Guideline for GCP and GCLP inspection of clinical studies in Jordan (JFDA)",
+     "url": "https://www.jfda.jo/ebv4.0/root_storage/ar/eb_list_page/guideline_for_good_clinical_practice_(gcp)_and_good_clinical_laboratory_practice_(gclp)_inspection_of_clinical_studies_in_jordan-july2026.pdf",
+     "date": "2026-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Digital Health Strategy 2026-2030, public consultation draft (Tawasal government consultation portal)",
+     "url": "https://tawasal.gov.jo/Consultations/redirect/1485",
+     "date": "2026-06-15",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "No clinical AI rule from the medicines and devices regulator was found. A Cabinet-approved AI ethics charter binds government bodies to accountability, transparency and privacy, and the draft digital health strategy calls for AI in diagnosis.",
+   "detail": [
+    "The JFDA device definition includes software needed for a device's use, and registration relies on CE marking or FDA clearance, according to a vendor guide. No AI-specific change control rule was verified.",
+    "The national AI ethics charter was approved by Cabinet and circulated to all ministries and public bodies for compliance. It is not specific to health.",
+    "The 2026 to 2030 draft strategy plans AI for diagnosis and clinical decision support. Hakeem said in May 2026 it would add AI for reading radiology images."
+   ],
+   "sources": [
+    {
+     "title": "National Charter for AI Ethics approved by Cabinet (Ministry of Digital Economy)",
+     "url": "https://modee.gov.jo/Ar/NewsDetails/%D8%A7%D9%84%D9%85%D9%8A%D8%AB%D8%A7%D9%82_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A_%D9%84%D8%A7%D8%AE%D9%84%D8%A7%D9%82%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1_%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Digital Health Strategy 2026-2030, public consultation draft (Tawasal government consultation portal)",
+     "url": "https://tawasal.gov.jo/Consultations/redirect/1485",
+     "date": "2026-06-15",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Hakeem company plans to enter the private sector next year (Al Mamlaka)",
+     "url": "https://almamlakatv.com/news/200343",
+     "date": "2026-05-25",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Jordan JFDA medical device registration guide (MedDeviceGuide)",
+     "url": "https://meddeviceguide.com/blog/jordan-jfda-medical-device-registration-guide",
+     "date": "2026-05-18",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "siloed",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "One shared record links most public hospitals, health centres, labs and pharmacies under Hakeem. Private providers and insurance claims sit on separate systems, and a national exchange is planned, not running.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Law No. 24 of 2023",
+   "level": "National",
+   "year": "2023",
+   "what": "Health is sensitive data; consent rules with care and research exceptions; 24-hour breach notice to subjects.",
+   "url": "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf"
+  },
+  {
+   "name": "Data Subject Rights Regulation 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Procedures for consent, withdrawal, objections and complaints under the data law.",
+   "url": "https://jordan.gov.jo/AR//NewsDetails/%D9%85%D8%AC%D9%84%D8%B3_%D8%A7%D9%84%D9%88%D8%B2%D8%B1%D8%A7%D8%A1_%D9%8A%D9%82%D8%B1_%D9%86%D8%B8%D8%A7%D9%85_%D8%AA%D9%86%D8%B8%D9%8A%D9%85_%D8%AD%D9%82%D9%88%D9%82_%D8%A7%D9%84%D8%B4%D8%AE%D8%B5_%D8%A7%D9%84%D9%85%D8%B9%D9%86%D9%8A_2025_%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2_%D8%AD%D9%85%D8%A7%D9%8A%D8%A9_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA_%D9%88%D8%A7%D9%84%D8%AB%D9%82%D8%A9_%D8%A8%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A"
+  },
+  {
+   "name": "Personal Data Protection Unit Regulation 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Sets how the ministry unit receives complaints, investigates and monitors compliance.",
+   "url": "https://almamlakatv.com/news/184498"
+  },
+  {
+   "name": "Medical and Health Liability Law No. 25 of 2018",
+   "level": "National",
+   "year": "2018",
+   "what": "Duty to document care in the patient file and keep medical secrets, with listed exceptions.",
+   "url": "http://www.adaleh.info/Art.aspx?Typ=2&Id=1194"
+  },
+  {
+   "name": "Clinical Studies Law No. 2 of 2011",
+   "level": "National",
+   "year": "2011",
+   "what": "Governs drug trials: JFDA Clinical Studies Committee, site accreditation, ethics review and inspection.",
+   "url": "https://www.jfda.jo/ebv4.0/root_storage/ar/eb_list_page/guideline_for_good_clinical_practice_(gcp)_and_good_clinical_laboratory_practice_(gclp)_inspection_of_clinical_studies_in_jordan-july2026.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-30",
+   "headline": "Cabinet approves rules for the personal data protection unit",
+   "source": "Al Mamlaka",
+   "url": "https://almamlakatv.com/news/184498",
+   "why": "Sets how patient complaints about data misuse are received and investigated."
+  },
+  {
+   "date": "2026-02-13",
+   "headline": "Hakeem electronic record reaches 453 public facilities, targets 570 in 2026",
+   "source": "Al Mamlaka",
+   "url": "https://almamlakatv.com/news/190599",
+   "why": "More public patients get one record readable at any connected site."
+  },
+  {
+   "date": "2026-05-25",
+   "headline": "Hakeem plans private sector entry as a national data exchange nears",
+   "source": "Al Mamlaka",
+   "url": "https://almamlakatv.com/news/200343",
+   "why": "Could link private care to the public record; consent design not described."
+  },
+  {
+   "date": "2026-08-16",
+   "headline": "World Bank counts over one million users of digital health services",
+   "source": "Al Mamlaka",
+   "url": "https://almamlakatv.com/news/207311",
+   "why": "Shows how many patients can now see part of their record."
+  },
+  {
+   "date": "2026-09-05",
+   "headline": "Hakeemi app studies showing doctors' notes and past diagnoses to patients",
+   "source": "Addustour",
+   "url": "https://www.addustour.com/articles/1588406-%D8%A7%D9%84%D8%AD%D9%88%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA-%D9%85%D8%AA%D9%88%D8%A7%D8%B5%D9%84%D8%A9-%D8%B9%D9%84%D9%89-%D8%AD%D9%83%D9%8A%D9%85%D9%8A-%D9%88%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D8%A5%D8%AA%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%B6%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%B9-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9",
+   "why": "Would widen patients' view beyond labs, scans and medicines."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

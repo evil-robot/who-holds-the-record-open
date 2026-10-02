@@ -1,0 +1,326 @@
+{
+ "iso3": "TCD",
+ "name": "Chad",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A 2015 data law gives patients a right to their health data, but records are mostly on paper and stay inside each facility.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Articles 38, 39 and 41 of Law 007/PR/2015 give a right to see and copy your health data, directly or through a health professional. A copy can be charged at reproduction cost, a reply is due within one month, and there is no national portal.",
+   "detail": [
+    "Article 38 of Law 007/PR/2015 lets anyone ask a controller whether their data is processed, and to receive it with its origin, purposes and recipients. Article 39 gives a right to a copy, which the controller may charge for up to the cost of reproduction.",
+    "Article 41 gives a right to obtain one's health data either directly or through a health professional. Article 42 lets heirs of a deceased patient, or parents of a minor, use this right through a health professional they choose.",
+    "Article 84 punishes a controller who does not answer an Article 38 request within one month of receiving it, with 3 months to 1 year in prison or a fine. Article 43 lets a controller refuse requests that are clearly abusive.",
+    "The N'Djamena Renaissance university hospital says patients can ask in writing to read their file on site or get a paper copy. We found no national portal. Score: base 45, minus 5 for copy fees. The one-month deadline adds nothing because copies are not free."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°007/PR/2015 du 10 février 2015 portant protection des données à caractère personnel (texte officiel bilingue)",
+     "url": "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf",
+     "date": "2015-02-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Espace Patients / Droits et devoirs, Centre Hospitalier Universitaire de la Renaissance",
+     "url": "http://www.hopitalrenaissance-tchad.com/Patient7",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Le Tchad accélère sa transformation numérique du système de santé avec l'accompagnement technique de HISP (HISP Rwanda)",
+     "url": "https://hisprwanda.org/le-tchad-accelere-sa-transformation-numerique-du-systeme-de-sante/",
+     "date": "2026-04-17",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "Health data needs explicit written consent, but the law exempts care, diagnosis and health service management under a health professional's supervision. Patients have no opt-out from sharing and no access log they can see.",
+   "detail": [
+    "Article 16 of Law 007/PR/2015 bans processing of health data unless an exception applies. The first is explicit written consent, which can be withdrawn at any time at no cost.",
+    "Article 16(j) allows processing without consent for preventive medicine, diagnosis, care and health service management, if done under a health professional's supervision. Article 17 binds that professional and their staff to professional secrecy.",
+    "Article 20 requires health data to be processed under a unique patient identifier. Linking it to any other identifier needs express ANSICE authorisation.",
+    "Article 45 gives a right to object on legitimate grounds, but not where processing meets a legal obligation. We found no opt-out from sharing and no patient-visible access log, so the score stays in the 20 to 35 band."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°007/PR/2015 du 10 février 2015 portant protection des données à caractère personnel (texte officiel bilingue)",
+     "url": "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf",
+     "date": "2015-02-10",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is sensitive data under Law 007/PR/2015, breaches must be reported without delay, and violations carry up to one year in prison. We found no published enforcement, and the regulator's 2026 reform was presented by the Public Security minister.",
+   "detail": [
+    "Article 5 lists health among sensitive data. Article 52 requires prior ANSICE authorisation to process genetic and biometric data and data for health research. Article 61 requires controllers to notify ANSICE and the person of any security breach without delay.",
+    "Articles 82 to 84 punish violations, including unlawful processing of health data, with 3 months to 1 year in prison and fines of 1 to 10 million francs. Article 29 bars transfers outside CEMAC and ECCAS unless the country gives adequate protection.",
+    "Ordinance 001/PR/2026 reformed ANSICE, adding cybercrime, video surveillance and AI to its remit. The Public Security minister presented it to the Senate, where senators warned it must not be used to repress people. It was ratified in March 2026.",
+    "We found no ANSICE decision on a health provider and no health data breach report. In April 2026 the Senate passed a law on biometric data in judicial procedures. With no health-sector evidence and no enforcement record, we score at the floor of the general-law band."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°007/PR/2015 du 10 février 2015 portant protection des données à caractère personnel (texte officiel bilingue)",
+     "url": "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf",
+     "date": "2015-02-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Des réformes adoptées pour renforcer l'ANSICE (Agence Tchadienne de Presse et d'Edition)",
+     "url": "https://atpe.td/des-reformes-adoptees-pour-renforcer-lansice/",
+     "date": "2026-03-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Tchad : promulgation de la réforme de l'ANSICE (Alwihda Info)",
+     "url": "https://www.alwihdainfo.com/Tchad-promulgation-de-la-reforme-de-l-ANSICE_a148767.html",
+     "date": "2026-03-23",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Tchad : le SENAT valide la gestion sécurisée des données personnelles (Journal du Tchad)",
+     "url": "https://journaldutchad.com/tchad-le-senat-valide-la-gestion-securisee-des-donnees-personnelles/",
+     "date": "2026-04-29",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "People must be told before their data is first passed to third parties for marketing and can object for free. This is an opt-out, and we found no rules on health apps, data brokers or sales of de-identified data.",
+   "detail": [
+    "Article 45 of Law 007/PR/2015 says a person must be informed before their data is first disclosed to third parties, or used on their behalf, for prospecting. They must be expressly offered a free right to object.",
+    "Health data stays under the Article 16 ban, so commercial use needs explicit written consent unless another exception applies. Article 84 punishes processing of health data in breach of these articles with prison and fines.",
+    "We found no specific rule on selling health data, on data brokers or on consumer health apps, and no published enforcement on commercial use of health data. Marketing uses opt-out rather than prior consent, so this scores below Niger's opt-in regime."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°007/PR/2015 du 10 février 2015 portant protection des données à caractère personnel (texte officiel bilingue)",
+     "url": "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf",
+     "date": "2015-02-10",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 22,
+   "summary": "DHIS2 carries national aggregate reporting, with 96.4% of districts entering data directly by 2022. Patient records remain mostly paper; an electronic medical record was only presented to the ministry in April 2026.",
+   "detail": [
+    "The health ministry moved its health information system to DHIS2, with a national launch in 2022. DHIS2 reports that 96.4% of districts entered data directly at the end of the first year. Patient-level tracking was listed as a next step.",
+    "On 15 April 2026 HISP Rwanda presented an electronic medical record system to the ministry's secretary general. It aims to replace paper files and connect to DHIS2. We found no deployment figures.",
+    "Law 035/PR/2019 created universal health coverage, run by the CNAS fund created by Law 026/PR/2020. A July 2026 law firm note says contribution rates and real collection are still not settled. We found no claims data system."
+   ],
+   "sources": [
+    {
+     "title": "Chad transitions to DHIS2-based health information management (DHIS2)",
+     "url": "https://dhis2.org/chad-hmis-transition/",
+     "date": "2022-12-19",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Le Tchad accélère sa transformation numérique du système de santé avec l'accompagnement technique de HISP (HISP Rwanda)",
+     "url": "https://hisprwanda.org/le-tchad-accelere-sa-transformation-numerique-du-systeme-de-sante/",
+     "date": "2026-04-17",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Loi n°035/PR/2019 instituant la Couverture Santé Universelle au Tchad (P4H)",
+     "url": "https://p4h.world/app/uploads/2023/03/Loi20CMU_Tchad.x80726.pdf",
+     "date": "2019",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "CNAS au Tchad : ce que les textes imposent désormais aux employeurs (Cabinet Thomas Dingamgoto)",
+     "url": "https://thomasd-avocats.com/cnas-csu-tchad-obligations-employeurs/",
+     "date": "2026-07-01",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 17,
+   "summary": "The law lets health professionals process health data for care without consent, but we found no shared record across facilities. Clinicians see only the paper or local files of their own facility.",
+   "detail": [
+    "Article 16(j) of Law 007/PR/2015 allows processing of health data for diagnosis and care under a health professional's supervision. Article 16(c) allows it to protect vital interests when the person cannot consent.",
+    "The Renaissance university hospital says some consultation data is recorded on computer for administrative and medical management, unless the patient objects. We found no system that shares records between hospitals.",
+    "The electronic medical record presented in April 2026 aims to improve coordination between facilities, but it was at the presentation stage. We found no emergency access system across providers."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°007/PR/2015 du 10 février 2015 portant protection des données à caractère personnel (texte officiel bilingue)",
+     "url": "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf",
+     "date": "2015-02-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Espace Patients / Droits et devoirs, Centre Hospitalier Universitaire de la Renaissance",
+     "url": "http://www.hopitalrenaissance-tchad.com/Patient7",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Dossier médical électronique : le Tchad engage une transition vers la santé numérique (We Are Tech)",
+     "url": "https://www.wearetech.africa/fr/fils/actualites/tech/dossier-medical-electronique-le-tchad-engage-une-transition-vers-la-sante-numerique",
+     "date": "2026-04-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Health data can be used for scientific research without consent under conditions set by ANSICE, which must authorise health research processing in advance. Safeguards are the ANSICE permit, the national bioethics committee, professional secrecy and criminal penalties.",
+   "detail": [
+    "Article 16(h) of Law 007/PR/2015 lifts the ban on processing health data for historical, statistical or scientific research, under conditions ANSICE sets. We found no requirement for individual consent and no general opt-out.",
+    "Article 52 requires prior ANSICE authorisation for processing data for health research. Article 84 punishes processing of health data in breach of Articles 16 to 24 with prison and fines.",
+    "The National Bioethics Committee of Chad (CNBT) reviews research. A 2024 workshop shared its operating procedures and noted resource limits and slow reviews.",
+    "Score: base 40, plus 3 each for a permit and ethics route, statutory secrecy and misuse penalties. We found no public register of uses. Chad is not in the EU, so the European Health Data Space does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°007/PR/2015 du 10 février 2015 portant protection des données à caractère personnel (texte officiel bilingue)",
+     "url": "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf",
+     "date": "2015-02-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "SNECFA Project: CNBT Dissemination Workshop in Chad (CAMBIN)",
+     "url": "https://cambin.org/snecfa-project-cnbt-dissemination-workshop-in-chad/",
+     "date": "2024-12-19",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 22,
+   "summary": "We found no rules for AI in clinical care or AI as a medical device. Chad created an AI directorate in October 2025 and widened the data regulator's remit to AI in 2026, but those AI rules are not verified.",
+   "detail": [
+    "Decree 2690/PR/PM/MTENDA/2025 of 21 October 2025 created a Directorate General for Artificial Intelligence in the digital ministry. Its role in health is not stated.",
+    "Press reports say Ordinance 001/PR/2026 adds AI systems to ANSICE's regulatory remit. We could not find the ordinance text, so its AI rules are not verified.",
+    "The DGPML, the medicines regulator, lists approval and control of health products among its tasks. It does not mention software or AI. A national digital and AI strategy for 2026 to 2031 was still being tendered in August 2026."
+   ],
+   "sources": [
+    {
+     "title": "Tchad : création d'une Direction générale de l'Intelligence artificielle au ministère du Numérique (Tchadinfos)",
+     "url": "https://tchadinfos.com/2025/10/21/tchad-creation-dune-direction-generale-de-lintelligence-artificielle-au-ministere-du-numerique/",
+     "date": "2025-10-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Tchad : promulgation de la réforme de l'ANSICE (Alwihda Info)",
+     "url": "https://www.alwihdainfo.com/Tchad-promulgation-de-la-reforme-de-l-ANSICE_a148767.html",
+     "date": "2026-03-23",
+     "publisherClass": "news"
+    },
+    {
+     "title": "L'institution, Direction Générale de la Pharmacie, du Médicament et des Laboratoires (DGPML)",
+     "url": "https://dgpml.com/linstitution/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "TCHAD : Une stratégie nationale en préparation pour la transformation digitale et l'intelligence artificielle (Droit Médias Finance)",
+     "url": "https://www.droitmediasfinance.com/index.php/actualites/droit-tech-fintech/1375-tchad-une-strategie-nationale-en-preparation-pour-la-transformation-digitale-et-lintelligence-artiificielle",
+     "date": "2026-08-25",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "DHIS2 gathers aggregate reports from almost all districts. Patient files are mostly paper, an electronic medical record is only planned, and no claims system was verified for the CNAS health insurance fund.",
+ "laws": [
+  {
+   "name": "Loi n°007/PR/2015 portant protection des données à caractère personnel",
+   "level": "National",
+   "year": "2015",
+   "what": "Access, health data consent rules, research exemption, breach notice, transfer limits, penalties; ANSICE as regulator.",
+   "url": "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf"
+  },
+  {
+   "name": "Ordonnance n°001/PR/2026 portant réforme de l'ANSICE (ratified by Loi n°003/AN-SENAT/2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "Widens ANSICE powers to cybercrime, video surveillance, platforms and AI; strengthens investigation and sanctions.",
+   "url": "https://www.alwihdainfo.com/Tchad-promulgation-de-la-reforme-de-l-ANSICE_a148767.html"
+  },
+  {
+   "name": "Loi n°035/PR/2019 instituant la Couverture Santé Universelle",
+   "level": "National",
+   "year": "2019",
+   "what": "Creates universal health coverage based on national solidarity and pooled risk.",
+   "url": "https://p4h.world/app/uploads/2023/03/Loi20CMU_Tchad.x80726.pdf"
+  },
+  {
+   "name": "Loi n°026/PR/2020 portant création de la Caisse Nationale d'Assurance Santé",
+   "level": "National",
+   "year": "2020",
+   "what": "Creates the CNAS fund that enrols insured people and pays care under three schemes.",
+   "url": "https://thomasd-avocats.com/cnas-csu-tchad-obligations-employeurs/"
+  },
+  {
+   "name": "Loi portant encadrement des données biométriques dans les procédures judiciaires",
+   "level": "National",
+   "year": "2026",
+   "what": "Rules for collecting, using and destroying biometric data in judicial procedures; Senate adopted April 2026.",
+   "url": "https://journaldutchad.com/tchad-le-senat-valide-la-gestion-securisee-des-donnees-personnelles/"
+  },
+  {
+   "name": "Décret n°2690/PR/PM/MTENDA/2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Reorganises the digital ministry and creates a Directorate General for Artificial Intelligence.",
+   "url": "https://tchadinfos.com/2025/10/21/tchad-creation-dune-direction-generale-de-lintelligence-artificielle-au-ministere-du-numerique/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-21",
+   "headline": "Digital ministry creates a Directorate General for Artificial Intelligence",
+   "source": "Tchadinfos",
+   "url": "https://tchadinfos.com/2025/10/21/tchad-creation-dune-direction-generale-de-lintelligence-artificielle-au-ministere-du-numerique/",
+   "why": "First state body for AI; health AI rules could come from it."
+  },
+  {
+   "date": "2026-03-23",
+   "headline": "Reform of the data and cybersecurity regulator ANSICE promulgated",
+   "source": "Alwihda Info",
+   "url": "https://www.alwihdainfo.com/Tchad-promulgation-de-la-reforme-de-l-ANSICE_a148767.html",
+   "why": "The body that handles patients' data complaints gains wider security and AI powers."
+  },
+  {
+   "date": "2026-04-21",
+   "headline": "Electronic medical record system presented to health ministry with HISP Rwanda",
+   "source": "We Are Tech",
+   "url": "https://www.wearetech.africa/fr/fils/actualites/tech/dossier-medical-electronique-le-tchad-engage-une-transition-vers-la-sante-numerique",
+   "why": "Could replace paper files and let records follow patients between facilities."
+  },
+  {
+   "date": "2026-04-29",
+   "headline": "Senate adopts law on biometric data in judicial procedures",
+   "source": "Journal du Tchad",
+   "url": "https://journaldutchad.com/tchad-le-senat-valide-la-gestion-securisee-des-donnees-personnelles/",
+   "why": "Sets terms for state use of sensitive biometric data, a special category alongside health."
+  },
+  {
+   "date": "2026-08-10",
+   "headline": "Health minister calls telemedicine a pillar of health system modernisation",
+   "source": "Chari Info",
+   "url": "https://www.chariinfo.com/health/2527/",
+   "why": "Remote care for distant areas will create new patient data flows outside hospitals."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,329 @@
+{
+ "iso3": "KWT",
+ "name": "Kuwait",
+ "region": "Middle East",
+ "controlModel": "State",
+ "headline": "Kuwait's Salem app shows public-hospital results and prescriptions, but there is no general privacy law, no data regulator and no patient control over sharing.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 60,
+   "summary": "Law 70 of 2020 gives patients a right to a medical report and copies of results, and the ministry's Salem app shows records, prescriptions, lab and radiology results from public hospitals. How many people use Salem was not verified.",
+   "detail": [
+    "Article 28 of Law 70 of 2020 requires a file for every patient. Patients may request a detailed or summary report from the treating doctor in writing, and copies of reports, test results, treatments and invoices. Fees are set by ministerial decision, which we did not open.",
+    "Article 33 of the 2014 Electronic Transactions Law lets a person see personal data held in electronic systems, including health status, and obtain a formal extract.",
+    "The Ministry of Health launched Salem on 19 November 2025 to replace the earlier Kuwait Seha app. Users can review medical records, track prescriptions and see lab and radiology results. All public hospitals in the six governorates are included.",
+    "Salem user numbers, private-sector coverage and machine-readable export were not verified, so the score sits at the bottom of the part-of-record portal band (60 to 75), matching Azerbaijan."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 70 of 2020 on the Practice of Medicine and Patient Rights (Authority for Medical Responsibility)",
+     "url": "https://www.amr.gov.kw/law70-2020",
+     "date": "2020",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 20 of 2014 Concerning Electronic Transactions, English text (KDIPA)",
+     "url": "https://kdipa.gov.kw/wp-content/uploads/2022/08/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-20-%D9%84%D8%B3%D9%86%D8%A9-2014-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9.pdf",
+     "date": "2022-08",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Health ministry unveils 'Salem', a new app to replace 'Q8seha' (Kuwait Times)",
+     "url": "https://kuwaittimes.com/article/36022/kuwait/other-news/health-ministry-unveils-salem-a-new-app-to-replace-q8seha/",
+     "date": "2025-11-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "MoH launches 'Salem' app to expand secure access to healthcare services (Arab Times)",
+     "url": "https://www.arabtimesonline.com/news/moh-launches-salem-app-to-expand-secure-access-to-healthcare-services/",
+     "date": "2025-11-20",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Law 70 lets the care team, facility administration and family share patient information as needed without asking, and no opt-out or patient-visible access log was found. The 2014 e-transactions law requires consent for disclosure, with many exceptions.",
+   "detail": [
+    "Article 13 of Law 70 bans disclosure of patient secrets but allows it with written consent, to report or prevent a crime, and for information exchange within the medical team, facility administration and family where needed.",
+    "Article 32 of the Electronic Transactions Law bars public and private bodies from disclosing health data without the person's approval or a court order. Article 34 lets other bodies obtain registered data with the holding body's approval.",
+    "We found no opt-out from record sharing, no granular consent settings and no access log in Salem or elsewhere. Patients may refuse or withdraw consent to treatment under Article 30, but that covers care, not data."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 70 of 2020 on the Practice of Medicine and Patient Rights (Authority for Medical Responsibility)",
+     "url": "https://www.amr.gov.kw/law70-2020",
+     "date": "2020",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 20 of 2014 Concerning Electronic Transactions, English text (KDIPA)",
+     "url": "https://kdipa.gov.kw/wp-content/uploads/2022/08/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-20-%D9%84%D8%B3%D9%86%D8%A9-2014-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9.pdf",
+     "date": "2022-08",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 42,
+   "summary": "Patient secrecy is a crime to breach under Law 70, with up to five years in prison and fines up to KWD 10,000. Kuwait has no general data protection law and no data protection authority, and the 2024 privacy regulation covers only telecom licensees.",
+   "detail": [
+    "Article 70 of Law 70 punishes disclosure of a patient secret with up to five years in prison and a fine up to KWD 10,000, but prosecution starts only on the victim's or ministry undersecretary's request.",
+    "The Electronic Transactions Law sets purpose limits and security duties for electronic health data, with up to three years in prison and fines of KWD 5,000 to 20,000 (Article 37).",
+    "CITRA Decision 26 of 2024 adds consent and 24-hour breach notice, but only for CITRA licensees. DLA Piper reports no national data protection authority and no definition of sensitive data. Chambers notes the framework is domestic and not tied to the GDPR, so the EU and EHDS do not apply.",
+    "Health providers have no general breach-notice duty that we could verify."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 70 of 2020 on the Practice of Medicine and Patient Rights (Authority for Medical Responsibility)",
+     "url": "https://www.amr.gov.kw/law70-2020",
+     "date": "2020",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 20 of 2014 Concerning Electronic Transactions, English text (KDIPA)",
+     "url": "https://kdipa.gov.kw/wp-content/uploads/2022/08/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-20-%D9%84%D8%B3%D9%86%D8%A9-2014-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9.pdf",
+     "date": "2022-08",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Kuwait (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/?t=law&c=KW",
+     "date": "2025-02-04",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Data Protection and Privacy 2026: Kuwait (Chambers and Partners)",
+     "url": "https://practiceguides.chambers.com/practice-guides/comparison/1129/18510/29027-29028-29029-29030-29031",
+     "date": "2026-03-10",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "The e-transactions law bans using personal data beyond its collection purpose, but only criminal prosecution enforces it, with no data regulator. No rules on health data brokers, consumer health apps or sale of de-identified data were found.",
+   "detail": [
+    "Article 35 of the Electronic Transactions Law forbids collecting data without consent and using it for purposes other than the stated one. Breach is a crime under Article 37.",
+    "Article 15 of Law 70 bans advertising medical services, products or devices without ministry approval, and requires adverts to protect patient privacy. Article 21 requires written patient consent before images are used for publication.",
+    "We found no specific rule on health data brokers, wellness apps outside the health system, or selling de-identified data. The CITRA regulation reaches apps and websites only when run by CITRA licensees."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 20 of 2014 Concerning Electronic Transactions, English text (KDIPA)",
+     "url": "https://kdipa.gov.kw/wp-content/uploads/2022/08/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-20-%D9%84%D8%B3%D9%86%D8%A9-2014-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9.pdf",
+     "date": "2022-08",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 70 of 2020 on the Practice of Medicine and Patient Rights (Authority for Medical Responsibility)",
+     "url": "https://www.amr.gov.kw/law70-2020",
+     "date": "2020",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Kuwait (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/?t=law&c=KW",
+     "date": "2025-02-04",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 50,
+   "summary": "Salem brings more than 30 ministry systems and over 100 million records into one app, and primary care has used a national electronic record since 2000. Most public hospitals were not fully digital in 2024, and private-sector links were not verified.",
+   "detail": [
+    "A 2022 study says the ministry introduced a national electronic record in primary care and hospitals in 2000, and a 2013 eHealth strategy aimed at one health record per patient.",
+    "The US trade agency reported in 2024 that Al-Amiri was the only public hospital with a complete digital system, and that a Hospital Information Exchange linking hospitals to the National Center for Health Information was planned.",
+    "At Salem's launch in November 2025, officials said it unified more than 30 health systems and held 19 million prescriptions and over 18 million lab results.",
+    "On 1 October 2026 Al-Amiri reported reaching HIMSS EMRAM stage 6. Insurance claims exchange and private-hospital links were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Physicians' use of and satisfaction with EHRs in Kuwait's public health care (JMIR Medical Informatics)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9587489/",
+     "date": "2022-10-07",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Kuwait Healthcare Sector Digital Transformation (US International Trade Administration)",
+     "url": "https://www.trade.gov/market-intelligence/kuwait-healthcare-sector-digital-transformation",
+     "date": "2024-09-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health ministry unveils 'Salem', a new app to replace 'Q8seha' (Kuwait Times)",
+     "url": "https://kuwaittimes.com/article/36022/kuwait/other-news/health-ministry-unveils-salem-a-new-app-to-replace-q8seha/",
+     "date": "2025-11-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Al-Amiri Hospital reaches HIMSS EMRAM stage 6 (Al Jarida)",
+     "url": "https://www.aljarida.com/article/146207/amp",
+     "date": "2026-10-01",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 45,
+   "summary": "Law 70 allows information exchange inside the treating team, and ministry facilities share national primary care and hospital systems. Whether a clinician can open a patient's full record from other hospitals or private clinics was not verified.",
+   "detail": [
+    "Article 13 of Law 70 allows information to be exchanged among the medical team and facility administration as far as needed for their duties. Article 60 requires every facility to keep a written or electronic patient database.",
+    "In 2024 only one public hospital had a complete digital system, according to the US trade agency. Salem is described as linking with other government health systems, but clinician cross-hospital viewing was not verified.",
+    "No emergency or break-the-glass rule for shared record access was found."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 70 of 2020 on the Practice of Medicine and Patient Rights (Authority for Medical Responsibility)",
+     "url": "https://www.amr.gov.kw/law70-2020",
+     "date": "2020",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Kuwait Healthcare Sector Digital Transformation (US International Trade Administration)",
+     "url": "https://www.trade.gov/market-intelligence/kuwait-healthcare-sector-digital-transformation",
+     "date": "2024-09-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MoH launches 'Salem' app to expand secure access to healthcare services (Arab Times)",
+     "url": "https://www.arabtimesonline.com/news/moh-launches-salem-app-to-expand-secure-access-to-healthcare-services/",
+     "date": "2025-11-20",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Research on people needs prior written consent and a licence from a ministry-designated body under Law 70, backed by statutory secrecy and criminal penalties. Rules for research on existing records without consent were not verified, and there is no public register.",
+   "detail": [
+    "Article 32 of Law 70 bans research or experiments on the human body without prior, explicit written consent and a licence from the body the minister designates. Human cloning research is banned.",
+    "Article 21 requires written patient consent, stating purpose and limits, before medical images are used for research or publication.",
+    "Score: base 40 plus 3 each for a permit body (Article 32), statutory secrecy (Article 13), a disclosure penalty (Article 70) and a consent route (Articles 21 and 32), capped at 50. Chambers notes secondary use generally relies on consent under the e-transactions law."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 70 of 2020 on the Practice of Medicine and Patient Rights (Authority for Medical Responsibility)",
+     "url": "https://www.amr.gov.kw/law70-2020",
+     "date": "2020",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection and Privacy 2026: Kuwait (Chambers and Partners)",
+     "url": "https://practiceguides.chambers.com/practice-guides/comparison/1129/18510/29027-29028-29029-29030-29031",
+     "date": "2026-03-10",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "ai": {
+   "score": 42,
+   "summary": "An August 2026 ministry guide bans relying only on AI for diagnosis, treatment or dosing, and bans entering patient data into unapproved AI tools. It is guidance for ministry staff, and no AI medical device rules with change control were verified.",
+   "detail": [
+    "Administrative Decision 6189 of 2026 adopts a practical guide on AI language tools as a guidance framework for workers in Ministry of Health facilities. Private facilities are not named.",
+    "The guide sets three risk levels, bans AI-only final diagnosis, treatment, prescribing and triage, and bars patient-facing chatbots until a formal accreditation process exists.",
+    "Article 24 of Law 70 allows AI in care under ministry conditions. Specific rules for AI or software medical devices were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Administrative Decision 6189 of 2026 adopting the practical guide to AI language tools in health practice (Ministry of Health, via AMR)",
+     "url": "https://www.amr.gov.kw/uploads/topics/17888485867775.pdf",
+     "date": "2026-08",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MoH issues guide regulating AI use in healthcare (Kuwait Times)",
+     "url": "https://kuwaittimes.com/article/47977/kuwait/other-news/moh-issues-guide-regulating-ai-use-in-healthcare/",
+     "date": "2026-08-11",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Law No. 70 of 2020 on the Practice of Medicine and Patient Rights (Authority for Medical Responsibility)",
+     "url": "https://www.amr.gov.kw/law70-2020",
+     "date": "2020",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Ministry primary care and hospitals feed the Salem app, which shows prescriptions and lab and radiology results. Hospital digitization is uneven, and links to private providers, insurers and research were not verified.",
+ "laws": [
+  {
+   "name": "Law No. 70 of 2020 on the Practice of Medicine and Patient Rights",
+   "level": "National",
+   "year": "2020",
+   "what": "Patient file, right to reports and result copies, secrecy, research consent, AI use under ministry rules.",
+   "url": "https://www.amr.gov.kw/law70-2020"
+  },
+  {
+   "name": "Law No. 20 of 2014 on Electronic Transactions",
+   "level": "National",
+   "year": "2014",
+   "what": "Consent, purpose limits, access and correction for electronic personal data, including health status.",
+   "url": "https://kdipa.gov.kw/wp-content/uploads/2022/08/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-20-%D9%84%D8%B3%D9%86%D8%A9-2014-%D9%85%D8%AA%D8%B1%D8%AC%D9%85-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9.pdf"
+  },
+  {
+   "name": "CITRA Decision No. 26 of 2024 (Data Privacy Protection Regulation)",
+   "level": "National",
+   "year": "2024",
+   "what": "Consent, breach notice and transfer disclosure duties for CITRA-licensed service providers only.",
+   "url": "https://www.citra.gov.kw/sites/ar/Pages/DecisionsDetails.aspx?id=6"
+  },
+  {
+   "name": "Law No. 63 of 2015 on Combating Cyber Crimes",
+   "level": "National",
+   "year": "2015",
+   "what": "Penalties for illegal access to or disclosure of personal or government data.",
+   "url": "https://www.dlapiperdataprotection.com/?t=law&c=KW"
+  },
+  {
+   "name": "Ministry of Health Administrative Decision No. 6189 of 2026",
+   "level": "National",
+   "year": "2026",
+   "what": "Guide for AI language tools in health practice; bans AI-only clinical decisions and unapproved tools.",
+   "url": "https://www.amr.gov.kw/uploads/topics/17888485867775.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-20",
+   "headline": "Health ministry launches Salem app with records, prescriptions and test results",
+   "source": "Kuwait Times",
+   "url": "https://kuwaittimes.com/article/36022/kuwait/other-news/health-ministry-unveils-salem-a-new-app-to-replace-q8seha/",
+   "why": "Patients can see lab and radiology results and prescriptions from public hospitals on one app."
+  },
+  {
+   "date": "2026-05-21",
+   "headline": "Kuwait health undersecretary calls for AI governance and health data protection at WHA",
+   "source": "Kuwait Times",
+   "url": "https://kuwaittimes.com/article/44027/kuwait/other-news/kuwait-urges-ai-governance-in-the-healthcare-systems/",
+   "why": "Signals the ministry's intent to set AI and health data rules."
+  },
+  {
+   "date": "2026-08-05",
+   "headline": "Central Agency and Health Ministry discuss data linkage for stateless residents",
+   "source": "Nowab Q8",
+   "url": "https://nowabq8.com/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D8%A9/%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%88%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%8A%D9%86%D8%B3%D9%82%D8%A7%D9%86-%D8%A7%D9%84%D8%B1/",
+   "why": "The ministry and the stateless residents agency are working to link their data systems."
+  },
+  {
+   "date": "2026-08-11",
+   "headline": "Health ministry issues guide limiting AI language tools in clinical practice",
+   "source": "Kuwait Times",
+   "url": "https://kuwaittimes.com/article/47977/kuwait/other-news/moh-issues-guide-regulating-ai-use-in-healthcare/",
+   "why": "Bars AI-only diagnosis and putting patient data into unapproved tools."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,334 @@
+{
+ "iso3": "ETH",
+ "name": "Ethiopia",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Ethiopia passed a GDPR-style data law in 2024 and plans paperless hospitals by 2030, but patients have no portal and little control today.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "The 2024 data protection law gives a free right of access with no fixed deadline, but key directives were still pending in late 2025 and there is no patient portal. Score: base 45, minus 5 no deadline, plus 5 portability, minus 5 enforcement rules pending.",
+   "detail": [
+    "Article 25 of Personal Data Protection Proclamation No. 1321/2024 gives a data subject the right to obtain, on request, free of charge and without excessive delay, the personal data processed about them. Article 32 adds a right to receive data they provided in a structured, machine-readable format.",
+    "The law sets no fixed number of days for a reply. In November 2025 the Ethiopian Communications Authority, which enforces the law, said four supporting directives were still moving toward approval and its registration portal was only being rolled out.",
+    "Health Service Proclamation No. 1362/2024, published in the Gazette in May 2025, says every patient has the right to consent-based care and leaves the details of patient rights to a Council of Ministers regulation. Whether that regulation has been issued was not verified.",
+    "We found no national portal where patients can see their own record. The same proclamation bars taking personal health information out of a health institution unless a law permits it."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Proclamation No. 1321/2024 (English text)",
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/pr_1321_2024/en/txt",
+     "date": "2024-07-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Health Service Administration and Regulation Proclamation No. 1362/2024 (Federal Negarit Gazette No. 45)",
+     "url": "https://www.moh.gov.et/sites/default/files/2025-05/Proc_1362_Health_Service_Administration_and_Regulation_Proclamation.pdf",
+     "date": "2025-05-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ECA Launches Digital Portal to Enforce Data Protection (Addis Fortune)",
+     "url": "https://addisfortune.news/eca-launches-digital-portal-to-enforce-data-protection",
+     "date": "2025-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "Article 47 of Proclamation No. 1362/2024 lets records be used and shared for care, public health, research and legal purposes without asking the patient, and there is no opt-out or patient-visible access log. Scored 28, level with Nigeria, in the 20 to 35 band.",
+   "detail": [
+    "Article 47 of Proclamation No. 1362/2024 allows use, transfer or disclosure of health information for care, public health and safety, research or legal purposes. It does not require patient consent for these uses.",
+    "The data protection law requires written, purpose-specific consent for sensitive data such as health, but it exempts processing needed for medical treatment by a medical treatment institution and processing needed for the lawful, non-commercial objectives of public organizations.",
+    "Article 29 gives a general right to object in writing, which a controller can override on compelling legitimate grounds. This is not a health-system opt-out. We found no access log patients can see.",
+    "Planning for a multitenant national EMR in 2026 named consent and data ownership as open governance questions, so these rules are not yet set."
+   ],
+   "sources": [
+    {
+     "title": "Health Service Administration and Regulation Proclamation No. 1362/2024 (Federal Negarit Gazette No. 45)",
+     "url": "https://www.moh.gov.et/sites/default/files/2025-05/Proc_1362_Health_Service_Administration_and_Regulation_Proclamation.pdf",
+     "date": "2025-05-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Personal Data Protection Proclamation No. 1321/2024 (English text)",
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/pr_1321_2024/en/txt",
+     "date": "2024-07-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ethiopia advances digital health integration through multitenant EMR initiative (TechReviewAfrica)",
+     "url": "https://techreviewafrica.com/news/5063/ethiopia-advances-digital-health-integration-through-multitenant-emr-initiative",
+     "date": "2026-04-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 44,
+   "summary": "Health data is sensitive data under the 2024 law, with 72-hour breach notice and fines up to 4% of worldwide turnover. But the enforcer is the telecom regulator, directives were pending in late 2025, and we found no enforcement record.",
+   "detail": [
+    "Proclamation No. 1321/2024 lists physical or mental health and genetic data as sensitive personal data. Processing is prohibited unless an exception applies. Controllers must notify the Authority of a breach within 72 hours.",
+    "Offences carry prison terms and fines. When an offence involves sensitive data, an institution can be fined up to 4% of total worldwide turnover of the preceding year.",
+    "Health law adds duties: Proclamation No. 1362/2024 says health information must be used confidentially, and Regulation No. 299/2013 bars health professionals from disclosing patient information without written consent, a court order or legal permission.",
+    "The Authority is the Ethiopian Communications Authority, not a separate data protection body. We found no published health-sector decisions, fines or breach cases, so this score rests mainly on the law text."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Proclamation No. 1321/2024 (English text)",
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/pr_1321_2024/en/txt",
+     "date": "2024-07-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Health Service Administration and Regulation Proclamation No. 1362/2024 (Federal Negarit Gazette No. 45)",
+     "url": "https://www.moh.gov.et/sites/default/files/2025-05/Proc_1362_Health_Service_Administration_and_Regulation_Proclamation.pdf",
+     "date": "2025-05-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Food, Medicine and Health Care Administration and Control Council of Ministers Regulation No. 299/2013 (English text)",
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/re_299_2013/en/txt",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ethiopia advances digital governance with national workshop on new data protection law (TechReviewAfrica)",
+     "url": "https://techreviewafrica.com/news/3248/ethiopia-advances-digital-governance-with-national-workshop-on-new-data-protection-law",
+     "date": "2025-11-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "Selling or offering to sell personal data is a crime carrying five to ten years in prison, and people can object to direct marketing. A May 2026 directive also requires written consent from anyone in a health advertisement.",
+   "detail": [
+    "The data protection law punishes anyone who sells or offers to sell personal data, or re-identifies de-identified data, with serious imprisonment of five to ten years or fines of 200,000 to 600,000 birr.",
+    "Article 29 lets a person object to processing for direct marketing, including profiling linked to marketing.",
+    "The Ministry of Health's Directive No. 1134/2026 bans clinical treatment testimonials in health advertising and requires written consent from anyone appearing in an advertisement, with fines of 20,000 to 50,000 birr, according to The Reporter.",
+    "We found no specific rules for consumer health apps or data brokers, and enforcement of the data law had not started at scale."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Proclamation No. 1321/2024 (English text)",
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/pr_1321_2024/en/txt",
+     "date": "2024-07-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ministry Bans Patient Testimonials in Health Service Advertisements (The Reporter)",
+     "url": "https://www.thereporterethiopia.com/50740/",
+     "date": "2026-05-16",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "National reporting runs on DHIS2 and the eCHIS community app reaches over 4,000 health posts and centers, but hospital records sit in separate EMR systems. The State Minister says just over 50 facilities are fully paperless.",
+   "detail": [
+    "The Ministry of Health lists DHIS2, eCHIS, EMR, a pharmaceutical tracking system and a national health data dictionary among its digital systems. DHIS2 is used to collect and analyse health data.",
+    "The Ministry says eCHIS is implemented in over 4,000 health posts and health centers, with a digital family folder and a referral app linking health extension workers to health centers.",
+    "In June 2026 the State Minister of Health said more than 50 hospitals and health centers are paperless and the aim is to digitise over 80% of public facilities by 2030.",
+    "An April 2026 meeting on a multitenant EMR described current EMRs as fragmented with limited interoperability. Lab, pharmacy and insurance claims exchange at national scale was not verified."
+   ],
+   "sources": [
+    {
+     "title": "eCHIS (Ministry of Health)",
+     "url": "https://www.moh.gov.et/projects-3-col/echis",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Our Digital Health Systems (Ministry of Health)",
+     "url": "https://www.moh.gov.et/digital-health-systems",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ethiopia Advances Regional Medical Tourism Ambitions Through Tertiary Healthcare Expansion and AI Integration (FANA)",
+     "url": "https://www.fanamc.com/english/ethiopia-advances-regional-medical-tourism-ambitions-through-tertiary-healthcare-expansion-and-ai-integration/",
+     "date": "2026-06-05",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ethiopia advances digital health integration through multitenant EMR initiative (TechReviewAfrica)",
+     "url": "https://techreviewafrica.com/news/5063/ethiopia-advances-digital-health-integration-through-multitenant-emr-initiative",
+     "date": "2026-04-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 24,
+   "summary": "A clinician sees their own facility's chart, and eCHIS referrals link community workers to health centers. There is no verified shared record a doctor can open across hospitals; the Ministry describes centralised records as a 2030 goal.",
+   "detail": [
+    "The Ministry's eCHIS page describes a clinical referral app and electronic sharing of data between health posts and health centers. This covers community care, not hospitals.",
+    "In December 2025 the State Minister said that once the 2030 plan is fully implemented, patients will benefit from centralised records accessible across facilities. This describes a future system.",
+    "April 2026 stakeholders said fragmented EMRs and limited interoperability have held back progress. We found no emergency-access rule for cross-provider records."
+   ],
+   "sources": [
+    {
+     "title": "eCHIS (Ministry of Health)",
+     "url": "https://www.moh.gov.et/projects-3-col/echis",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ethiopia Targets Universal Hospital Digitalization by 2030: Ministry of Health (ENA)",
+     "url": "https://www.ena.et/web/eng/w/eng_8034652",
+     "date": "2025-12-31",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ethiopia advances digital health integration through multitenant EMR initiative (TechReviewAfrica)",
+     "url": "https://techreviewafrica.com/news/5063/ethiopia-advances-digital-health-integration-through-multitenant-emr-initiative",
+     "date": "2026-04-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Pseudonymised data may be used for research without consent and there is no opt-out, which sets a base of 40. Three safeguard classes (ethics approval, statutory confidentiality, re-identification penalties) add 9, for 49.",
+   "detail": [
+    "Article 54 of the data protection law lets personal data be processed without consent for scientific and historical research and official statistics in pseudonymised form. There is no general opt-out.",
+    "Proclamation No. 1362/2024 requires every health research proposal to be approved by the authorised body first, and bars research on a participant without informed consent. Regulation No. 299/2013 requires clinical trials to have an ethics committee permit, under a supervisory body set up by the Authority.",
+    "Regulation No. 299/2013 allows professionals to release patient information for research only in a form that does not identify the patient. Re-identifying de-identified data is a crime under the data law.",
+    "We found no public register of research uses of health records."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Proclamation No. 1321/2024 (English text)",
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/pr_1321_2024/en/txt",
+     "date": "2024-07-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Health Service Administration and Regulation Proclamation No. 1362/2024 (Federal Negarit Gazette No. 45)",
+     "url": "https://www.moh.gov.et/sites/default/files/2025-05/Proc_1362_Health_Service_Administration_and_Regulation_Proclamation.pdf",
+     "date": "2025-05-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Food, Medicine and Health Care Administration and Control Council of Ministers Regulation No. 299/2013 (English text)",
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/re_299_2013/en/txt",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 56,
+   "summary": "The Ethiopian Food and Drug Authority's AI medical device guideline took effect in June 2026, with change control and rollback rules for learning models. Same regime as Rwanda, but scored in the lower half because most of the text says should, not shall.",
+   "detail": [
+    "EFDA/GDL/094 version 2 was approved on 10 June 2026 and took effect on 20 June 2026. It applies the Food and Medicine Administration Proclamation No. 1112/2019, which places medical software under EFDA marketing authorisation.",
+    "For continuously learning AI, the application for registration must describe the learning process, controls and monitoring. Makers should be able to detect anomalies, roll back to an earlier version and trace outputs to training data.",
+    "The guideline asks for separate training and test datasets, management of bias and a description of any human-in-the-loop workflow. It does not set a general human-oversight mandate.",
+    "In June 2026 the State Minister said AI-based digital X-ray and diagnostic tools are being introduced in selected facilities."
+   ],
+   "sources": [
+    {
+     "title": "EFDA Guidelines for Software as Medical Device and Artificial Intelligence Based Medical Device (EFDA/GDL/094, v002)",
+     "url": "https://www.efda.gov.et/wp-content/uploads/2026/07/EFDA-GDL-094-Guidelines-for-Software-as-Medical-Devices.pdf",
+     "date": "2026-06-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ethiopia Advances Regional Medical Tourism Ambitions Through Tertiary Healthcare Expansion and AI Integration (FANA)",
+     "url": "https://www.fanamc.com/english/ethiopia-advances-regional-medical-tourism-ambitions-through-tertiary-healthcare-expansion-and-ai-integration/",
+     "date": "2026-06-05",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "DHIS2 carries national reporting and eCHIS links health posts to health centers. Hospital EMRs are fragmented; a multitenant national EMR is being planned. Lab, pharmacy and claims exchange was not verified.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Proclamation No. 1321/2024",
+   "level": "National",
+   "year": "2024",
+   "what": "Health is sensitive data; free access right; 72-hour breach notice; selling personal data is a crime.",
+   "url": "https://justice.gov.et/en/law/personal-data-protection-proclamation/"
+  },
+  {
+   "name": "Health Service Administration and Regulation Proclamation No. 1362/2024",
+   "level": "National",
+   "year": "2025",
+   "what": "Consent-based care, health research consent and approval, confidential health information; repeals Proclamation No. 661.",
+   "url": "https://www.moh.gov.et/sites/default/files/2025-05/Proc_1362_Health_Service_Administration_and_Regulation_Proclamation.pdf"
+  },
+  {
+   "name": "Council of Ministers Regulation No. 299/2013 (Food, Medicine and Health Care Administration)",
+   "level": "National",
+   "year": "2013",
+   "what": "Professional confidentiality and clinical trial ethics committees. Status after the 2025 proclamation not verified.",
+   "url": "https://www.metaappz.com/References/ethiopian_laws/federal/re_299_2013/en/txt"
+  },
+  {
+   "name": "EFDA Guidelines for Software as Medical Device and AI Based Medical Device (EFDA/GDL/094 v002)",
+   "level": "National",
+   "year": "2026",
+   "what": "Registration rules for medical software and AI, including continuous learning, rollback and dataset controls.",
+   "url": "https://www.efda.gov.et/wp-content/uploads/2026/07/EFDA-GDL-094-Guidelines-for-Software-as-Medical-Devices.pdf"
+  },
+  {
+   "name": "Directive on Production and Dissemination of Health Service Advertisement No. 1134/2026",
+   "level": "National",
+   "year": "2026",
+   "what": "Bans treatment testimonials in health ads; written consent needed from anyone appearing. Text not opened; per The Reporter.",
+   "url": "https://www.thereporterethiopia.com/50740/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11",
+   "headline": "Communications Authority rolls out registration portal for data controllers and processors",
+   "source": "Addis Fortune",
+   "url": "https://addisfortune.news/eca-launches-digital-portal-to-enforce-data-protection",
+   "why": "First practical step to enforce the 2024 law that covers patients' health data."
+  },
+  {
+   "date": "2025-12-31",
+   "headline": "Health ministry targets fully digital hospitals by 2030",
+   "source": "Ethiopian News Agency",
+   "url": "https://www.ena.et/web/eng/w/eng_8034652",
+   "why": "Promises centralised patient records across facilities, which do not exist yet."
+  },
+  {
+   "date": "2026-04-21",
+   "headline": "Ministry and partners plan shared multitenant EMR for public and private facilities",
+   "source": "TechReviewAfrica",
+   "url": "https://techreviewafrica.com/news/5063/ethiopia-advances-digital-health-integration-through-multitenant-emr-initiative",
+   "why": "Consent, data ownership and access rules for a unified record are still being decided."
+  },
+  {
+   "date": "2026-06-10",
+   "headline": "HRW reviews US health aid deals; Ethiopia's keeps domestic data protection",
+   "source": "JURIST",
+   "url": "https://www.jurist.org/news/2026/06/hrw-us-to-exchange-health-aid-for-access-to-surveillance-data-in-seven-african-countries/",
+   "why": "Ethiopia's preamble reserves personal data protection under its own law when sharing health data."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "Cabinet sends draft National Data Governance Proclamation to parliament",
+   "source": "Ecofin Agency",
+   "url": "https://www.ecofinagency.com/news-digital/2909-59314-ethiopia-advances-data-governance-bill-to-expand-digital-services-and-ai-research",
+   "why": "Would set rules for sharing and reusing government data, including for AI and research."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

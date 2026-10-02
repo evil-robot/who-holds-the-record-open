@@ -1,0 +1,336 @@
+{
+  "iso3": "BRN",
+  "name": "Brunei",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Brunei keeps one public health record for nearly everyone, but its new privacy law does not cover the Ministry of Health that holds it.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 35,
+      "summary": "Brunei's 2025 data protection order gives a right of access only against private providers, not the Ministry of Health, which holds most records. BruHealth shows lab and imaging results (63% of residents logged in weekly in 2022), so this sits at the band's top.",
+      "detail": [
+        "Section 18 of the Personal Data Protection Order 2025 lets a person ask an organisation for their personal data and for how it was used or disclosed in the past year. Section 3 says the Order's duties do not apply to any public agency, which includes every ministry.",
+        "Ministry of Health hospitals and health centres are therefore outside the statutory right. BruHealth's privacy statement says access requests are handled 'to the extent permitted under the Brunei law', through the 148 hotline. No fixed deadline or format was found.",
+        "BruHealth pulls data one way from Bru-HIMS, the national record. A 2022 journal paper counted 566,403 unique visitors to lab results and 335,320 to imaging results, with 63% of residents logging in weekly. Newer usage figures were not found.",
+        "Private hospitals now fall under the Order. Jerudong Park Medical Centre releases copies of records on a written form, usually within six weeks, and charges for repeat requests."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Order, 2025 (Gazette S 1/2025)",
+          "url": "https://pdp.aiti.gov.bn/media/tndpduml/s-1_2025-e.pdf",
+          "date": "2025-01-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "BruHealth Privacy Statement (Ministry of Health)",
+          "url": "https://www.healthinfo.gov.bn/user-center-app/#/user/privacy-clause",
+          "date": "2025-01-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Development and implementation of a national mobile health application (Journal of Global Health)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9767305/",
+          "date": "2022-12-21",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Accessing Medical Health Records (Jerudong Park Medical Centre)",
+          "url": "https://jpmcbrunei.com/accessing-medical-health-records/",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Bru-HIMS runs on a 'One Patient, One Record' model across government facilities, and no opt-out or patient-visible access log was found. BruHealth users can manage app permissions, but the ministry says some health data cannot be deleted.",
+      "detail": [
+        "Bru-HIMS has held records for government hospitals and health centres since 2012 under the motto 'One Patient, One Record'. No way for a patient to opt out of sharing, restrict who sees the record, or view an access log was found.",
+        "BruHealth's privacy statement lists who gets data: government agencies for public health, the providers a patient seeks care from, research investigators, and a research agency training epidemic models, the last two without identity. No consent step is described for these uses.",
+        "Users can revoke links to Apple Health or Health Connect and edit profile details. The statement warns that some data, especially health conditions and immigration information, may not be deletable because it is needed for public health.",
+        "For private providers, the 2025 Order lets a person withdraw consent on reasonable notice. That right does not reach ministry records."
+      ],
+      "sources": [
+        {
+          "title": "BruHealth Privacy Statement (Ministry of Health)",
+          "url": "https://www.healthinfo.gov.bn/user-center-app/#/user/privacy-clause",
+          "date": "2025-01-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Bru-HIMS upgrade will make patient records available to both gov't and private healthcare facilities (The Scoop)",
+          "url": "https://thescoop.co/2023/09/27/bru-hims-upgrade-will-make-patient-records-available-to-both-govt-and-private-healthcare-facilities/",
+          "date": "2023-09-27",
+          "publisherClass": "news"
+        },
+        {
+          "title": "PDPO overview for individuals (AITI)",
+          "url": "https://pdp.aiti.gov.bn/overview/individuals/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 40,
+      "summary": "The 2025 order brings 3-day breach notice and fines up to B$1 million or 10% of turnover, but only for private organisations. The Ministry of Health, which holds the national record, sits outside it, so this is scored below the general-law band.",
+      "detail": [
+        "Most of the Order took effect on 1 January 2026, with AITI as the regulator. Organisations must notify AITI within 3 days of assessing a breach as notifiable, then tell affected people. Penalties reach 10% of Brunei turnover above B$10 million, otherwise B$1 million.",
+        "DLA Piper notes the Order does not define sensitive personal data, so health data gets no extra protection. The firm says government agencies follow the Official Secrets Act, a Protective Security Manual and data-sharing guidelines instead.",
+        "Re-identifying anonymised data held by an organisation or public agency without permission is an offence, with a fine up to B$5,000, two years in prison, or both. It is one of the few provisions that reaches the public sector.",
+        "No health data breach and no AITI enforcement decision were found. BruHealth's Google Play data safety label, written by the developer, states 'Data isn't encrypted'."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Order, 2025 (Gazette S 1/2025)",
+          "url": "https://pdp.aiti.gov.bn/media/tndpduml/s-1_2025-e.pdf",
+          "date": "2025-01-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data protection laws in Brunei (DLA Piper)",
+          "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=BN",
+          "date": "2026-03-18",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "BruHealth listing and data safety label (Google Play, E-Government National Centre)",
+          "url": "https://play.google.com/store/apps/details?id=egnc.moh.bruhealth&hl=en",
+          "date": "2026-09-17",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "Private firms need consent to use personal data and to send marketing messages under the 2025 order, with no extra rule for health data. BruHealth's terms let the ministry use de-identified data 'for any purpose' and share aggregated data with third parties.",
+      "detail": [
+        "Under the Order, private organisations need consent, or a listed exception, to collect, use or disclose personal data. Section 9 requires consent before sending direct marketing messages to a Brunei phone number.",
+        "BruHealth says data from Apple Health is not used for marketing or advertising, nor passed to third parties for that. It also says the operator 'may aggregate and/or de-identify data' and use it 'for any purpose', and may disclose aggregated data to third parties.",
+        "The app uses 'targeting cookies' and may send push notifications matched to a user's medical history. A NetEase software kit verifies phone numbers as a data processor.",
+        "A January 2026 WEF article describes a heart disease partnership of the ministry, EVYD Technology and the Novartis Foundation, built on BruHealth. The WEF article says public authorities provide 'access to population data'. No rules on selling health data were found."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Order, 2025 (Gazette S 1/2025)",
+          "url": "https://pdp.aiti.gov.bn/media/tndpduml/s-1_2025-e.pdf",
+          "date": "2025-01-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "BruHealth Privacy Statement (Ministry of Health)",
+          "url": "https://www.healthinfo.gov.bn/user-center-app/#/user/privacy-clause",
+          "date": "2025-01-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "What Brunei's innovations can teach us about data-driven health systems (World Economic Forum)",
+          "url": "https://www.weforum.org/stories/health-and-healthcare-systems/what-bruneis-innovations-teach-data-driven-health-systems/",
+          "date": "2026-01",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 65,
+      "summary": "Bru-HIMS has linked government hospitals and health centres in one record since 2012, covering over 95% of residents (2022). Private hospitals are not connected, and the upgrade to add them, due April 2025, only pilots at RIPAS Hospital from October 2026.",
+      "detail": [
+        "The Scoop reported in 2023 that Bru-HIMS held 750,000 patient records available only to government hospitals and health centres. A 2022 journal paper says it covers more than 95% of residents, and BruHealth draws lab, imaging and prescription data from it.",
+        "Bru-HIMS 2.0, contracted to Dynamik Technologies in September 2023, was meant to open records to private facilities by April 2025. A ministry tender closing in March 2026 sought trainers to prepare RIPAS Hospital, the first site, for go-live.",
+        "The health minister told the Legislative Council in March 2026 that the RIPAS pilot is set for October 2026. No insurance claims link was found."
+      ],
+      "sources": [
+        {
+          "title": "Bru-HIMS upgrade will make patient records available to both gov't and private healthcare facilities (The Scoop)",
+          "url": "https://thescoop.co/2023/09/27/bru-hims-upgrade-will-make-patient-records-available-to-both-govt-and-private-healthcare-facilities/",
+          "date": "2023-09-27",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Tender KK/30/2026/HTD: support trainers for Bru-HIMS 2.0 end user training (Ministry of Health)",
+          "url": "https://moh.gov.bn/wp-content/uploads/2026/02/KK-30-2026-HTD.pdf",
+          "date": "2026-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "MoH proposes B$646M budget to boost sustainable healthcare (The Scoop)",
+          "url": "https://thescoop.co/2026/03/17/moh-proposes-b646m-budget-to-boost-sustainable-healthcare/",
+          "date": "2026-03-17",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Development and implementation of a national mobile health application (Journal of Global Health)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9767305/",
+          "date": "2022-12-21",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 62,
+      "summary": "Clinicians in any government hospital or health centre work in the same Bru-HIMS record. Doctors at private hospitals cannot see it until Bru-HIMS 2.0 rolls out, and no consent or emergency-access rules were found.",
+      "detail": [
+        "Because Bru-HIMS is one system across government facilities, a doctor at a health centre and a specialist at RIPAS Hospital work from the same record. With coverage above 95% of residents, most patients have one.",
+        "The 2023 announcement said private facilities would get access through Bru-HIMS 2.0, along with clinical decision support and on-the-spot access on ward rounds. The first go-live is at RIPAS Hospital, and no date for private hospitals was found.",
+        "No published rules were found on who inside a facility may open a record, on emergency access, or on audits of clinician access."
+      ],
+      "sources": [
+        {
+          "title": "Bru-HIMS upgrade will make patient records available to both gov't and private healthcare facilities (The Scoop)",
+          "url": "https://thescoop.co/2023/09/27/bru-hims-upgrade-will-make-patient-records-available-to-both-govt-and-private-healthcare-facilities/",
+          "date": "2023-09-27",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Tender KK/30/2026/HTD: support trainers for Bru-HIMS 2.0 end user training (Ministry of Health)",
+          "url": "https://moh.gov.bn/wp-content/uploads/2026/02/KK-30-2026-HTD.pdf",
+          "date": "2026-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Development and implementation of a national mobile health application (Journal of Global Health)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9767305/",
+          "date": "2022-12-21",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Records research needs ethics approval, but de-identified data is used without consent or opt-out, and BruHealth shares it with research investigators. Two safeguard classes count, the ministry ethics committee and a re-identification offence, giving 46.",
+      "detail": [
+        "The Medical and Health Research Ethics Committee, set up on 10 May 2008, reviews all human health research in Brunei by ministry and outside researchers. It no longer grants retrospective approval.",
+        "Its 2024 criteria allow expedited review for research using records collected for treatment, or clinical notes only. They require written patient consent for case reports but set no opt-out for record-based studies.",
+        "BruHealth's privacy statement says data goes to 'medical study investigators without disclosing your identity' and to a research agency to train epidemic models. No opt-out is offered.",
+        "The 2025 Order makes unauthorised re-identification of anonymised data an offence. For private organisations it allows research use without consent under conditions, including that results are not used to make decisions about the person."
+      ],
+      "sources": [
+        {
+          "title": "Biomedical Research & Ethics Unit (Ministry of Health)",
+          "url": "https://moh.gov.bn/about-us/biomedical-research-ethics-unit/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "MHREC Submission Criteria and Review Process (Ministry of Health)",
+          "url": "http://moh.gov.bn/wp-content/uploads/2024/11/MHREC-Submission-Criteria-and-review-process-June-24.pdf",
+          "date": "2024-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "BruHealth Privacy Statement (Ministry of Health)",
+          "url": "https://www.healthinfo.gov.bn/user-center-app/#/user/privacy-clause",
+          "date": "2025-01-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Personal Data Protection Order, 2025 (Gazette S 1/2025)",
+          "url": "https://pdp.aiti.gov.bn/media/tndpduml/s-1_2025-e.pdf",
+          "date": "2025-01-08",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 30,
+      "summary": "Brunei has no rules for clinical AI, and no device regulation covering software was found. AITI's 2025 AI Governance and Ethics guide is guidance, not law, and covers all sectors, which keeps this at the top of the lowest band.",
+      "detail": [
+        "AITI published the Guide on AI Governance and Ethics in April 2025 after a July 2024 consultation. It sets principles including transparency, data governance, human centricity and accountability, and applies to any sector.",
+        "OECD.AI notes the Ministry of Health sat on the 24-member working group, and that the guide sorts human oversight into in-the-loop, out-of-the-loop and over-the-loop. It is guidance, not law.",
+        "The Medicines Order 2007 regulates medicinal products. No law or guidance on registering medical device or AI software was found on ministry pages.",
+        "AI already reaches patients. A January 2026 WEF article says BruHealth's health index gives 'AI-informed', personalised guidance."
+      ],
+      "sources": [
+        {
+          "title": "Guide on Artificial Intelligence Governance and Ethics for Brunei Darussalam (AITI)",
+          "url": "https://www.aiti.gov.bn/news/2025/guide-on-artificial-intelligence-governance-and-ethics-for-brunei-darussalam/",
+          "date": "2025-04-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Guide on AI Governance and Ethics for Brunei Darussalam (OECD.AI Policy Navigator)",
+          "url": "https://oecd.ai/en/dashboards/policy-initiatives/guide-on-artificial-intelligence-ai-governance-and-ethics-for-brunei-darussalam",
+          "date": "2026-04-29",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Pharmacy Services (Ministry of Health)",
+          "url": "https://moh.gov.bn/services/pharmary-services/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "What Brunei's innovations can teach us about data-driven health systems (World Economic Forum)",
+          "url": "https://www.weforum.org/stories/health-and-healthcare-systems/what-bruneis-innovations-teach-data-driven-health-systems/",
+          "date": "2026-01",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "Government hospitals, health centres and labs share Bru-HIMS, and BruHealth shows patients labs, imaging and prescriptions. Private hospitals and clinics are not linked until Bru-HIMS 2.0, piloting October 2026. No claims link was found.",
+  "laws": [
+    {
+      "name": "Personal Data Protection Order, 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Private-sector privacy law: access, consent, 3-day breach notice, fines up to 10%; excludes public agencies.",
+      "url": "https://pdp.aiti.gov.bn/media/tndpduml/s-1_2025-e.pdf"
+    },
+    {
+      "name": "Medicines Order, 2007",
+      "level": "National",
+      "year": "2007",
+      "what": "Regulates medicinal products through the Medicines Control Authority; no software or AI device rules found.",
+      "url": "https://moh.gov.bn/services/pharmary-services/"
+    },
+    {
+      "name": "Guide on AI Governance and Ethics for Brunei Darussalam",
+      "level": "National",
+      "year": "2025",
+      "what": "Non-statutory, sector-agnostic AI principles, including transparency, human oversight and accountability.",
+      "url": "https://www.aiti.gov.bn/news/2025/guide-on-artificial-intelligence-governance-and-ethics-for-brunei-darussalam/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-01",
+      "headline": "Brunei plans AI-informed heart disease prevention on BruHealth with private partners",
+      "source": "World Economic Forum",
+      "url": "https://www.weforum.org/stories/health-and-healthcare-systems/what-bruneis-innovations-teach-data-driven-health-systems/",
+      "why": "Population health data flows to a technology partner, and no patient opt-out is described."
+    },
+    {
+      "date": "2026-01-28",
+      "headline": "Brunei holds first data protection conference as new privacy law takes effect",
+      "source": "Asia News Network (Borneo Bulletin)",
+      "url": "https://asianews.network/brunei-enters-transformative-era-for-its-digital-landscape/",
+      "why": "Private clinic patients gain access and breach rights; ministry records stay outside the law."
+    },
+    {
+      "date": "2026-03-17",
+      "headline": "Health minister sets October 2026 pilot for Bru-HIMS 2.0 at RIPAS",
+      "source": "The Scoop",
+      "url": "https://thescoop.co/2026/03/17/moh-proposes-b646m-budget-to-boost-sustainable-healthcare/",
+      "why": "The upgrade meant to open the national record to private hospitals runs over a year late."
+    },
+    {
+      "date": "2026-08-24",
+      "headline": "Panel with AITI weighs how Brunei's privacy law shapes digital innovation",
+      "source": "Tech For Good Institute",
+      "url": "https://techforgoodinstitute.org/events/event-highlights/trust-as-infrastructure-lessons-from-brunei-on-data-protection-and-innovation/",
+      "why": "Shows the regulator's 2026 focus on guidance and adoption; no enforcement cases were cited."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

@@ -1,0 +1,282 @@
+{
+  "iso3": "CUB",
+  "name": "Cuba",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "Cuba's new health law grants unlimited access to one's clinical record, but a national digital record is still a project and state exceptions are broad.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "The Public Health Law regulation (Decreto 133/2025) lets people access their clinical record without limits, and Ley 149 sets a 5 plus 10 working day deadline for data requests. No patient portal was found, and whether copies are free was not verified.",
+      "detail": [
+        "Article 176 of Decreto 133/2025 says people can access without limits the information in their clinical record and obtain certified information from the facility, on terms a specific rule still to be issued will set. Article 177 limits full access to the patient and treating staff.",
+        "Ley 149/2022 gives a right of access to personal data. The data holder must decide within 5 working days and act within 10, extendable once. Access can be given by simple copies, electronic documents or display.",
+        "Ley 149, Article 28, lets holders refuse access for reasons of general welfare, public order, defence and national security, or 'others that significantly merit it'.",
+        "No national portal or patient app was found. Whether copies carry a fee was not verified, and the specific access rule under Article 176 was not found."
+      ],
+      "sources": [
+        {
+          "title": "Gaceta Oficial No. 9 Ordinaria 2026: Ley 165/2023 Ley de la Salud Publica and Decreto 133/2025 Reglamento",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o9.pdf",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Gaceta Oficial No. 90 Ordinaria 2022: Ley 149/2022 De Proteccion de Datos Personales",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2022-o90_0.pdf",
+          "date": "2022-08-25",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Ley 149 requires express consent for health data but exempts prevention, diagnosis and urgent care, and also anything justified by public order, defence or national security. No access log or opt-out for patients was found.",
+      "detail": [
+        "Ley 149, Article 16, bans processing sensitive data, including health and genetic data, without express, free and informed consent. Article 17 allows processing without consent for prevention, diagnosis or urgent care, by law, by court or prosecutor order, and for public order, defence and national security.",
+        "The Public Health Law (Ley 165, Article 16(j)) gives people the right to state their will on use of their health data in care, teaching and research. No mechanism for doing so was found.",
+        "Ley 149 allows objection only where processing may cause harm or significantly affect rights. Ministries of the Armed Forces and Interior apply the law 'according to the characteristics of their bodies'.",
+        "No patient-visible access log and no way to block staff access were found."
+      ],
+      "sources": [
+        {
+          "title": "Gaceta Oficial No. 90 Ordinaria 2022: Ley 149/2022 De Proteccion de Datos Personales",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2022-o90_0.pdf",
+          "date": "2022-08-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Gaceta Oficial No. 9 Ordinaria 2026: Ley 165/2023 Ley de la Salud Publica and Decreto 133/2025 Reglamento",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o9.pdf",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 33,
+      "summary": "Ley 149 treats health data as sensitive and requires breach reporting, but the top fine is 20,000 pesos and the Ministry of Justice, not an independent regulator, oversees compliance. Security exceptions are broad, and no enforcement record was found.",
+      "detail": [
+        "Ley 149, Article 15, lists present or future health status, genetic data and diagnostic test results as sensitive. Article 48 requires data holders to report cybersecurity incidents to the competent authority.",
+        "Sanctions (Article 56) are a warning, a fine of up to 20,000 pesos, a database suspension of up to 5 days, or closure. The Ministry of Justice controls compliance; fines are imposed by officials each state body authorises (Article 56.4).",
+        "Decreto 133/2025 (Article 175) declares the clinical record inviolable and makes facilities responsible for preventing arbitrary access. Ley 165 requires MINSAP rules on personal data protection.",
+        "Data can be transferred inside Cuba for defence and national security (Article 63). No health data breach reports or sanctions were found (not verified)."
+      ],
+      "sources": [
+        {
+          "title": "Gaceta Oficial No. 90 Ordinaria 2022: Ley 149/2022 De Proteccion de Datos Personales",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2022-o90_0.pdf",
+          "date": "2022-08-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Gaceta Oficial No. 9 Ordinaria 2026: Ley 165/2023 Ley de la Salud Publica and Decreto 133/2025 Reglamento",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o9.pdf",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "Ley 149 requires express consent before any party processes health data, and Resolucion 58/2022 says anonymised data may be shared for research only without commercial interest. No rules on health apps or data brokers and no enforcement were found.",
+      "detail": [
+        "Ley 149 applies to public and private holders alike. Sensitive data, including health data, needs express, free and informed consent, and people cannot be forced to provide it (Article 16).",
+        "Resolucion 58/2022 of the Ministry of Communications, Article 9, allows anonymised electronic data to be used for academic, research or social purposes under contract, and says the exchange is made without commercial interest.",
+        "The same resolution requires online services to warn users about cookies and tracking, including by third parties.",
+        "No rules aimed at consumer health apps, data brokers or advertising with health data, and no sanctions, were found."
+      ],
+      "sources": [
+        {
+          "title": "Gaceta Oficial No. 90 Ordinaria 2022: Ley 149/2022 and Resolucion 58/2022 (Ministerio de Comunicaciones)",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2022-o90_0.pdf",
+          "date": "2022-08-25",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 25,
+      "summary": "The health minister said in February 2026 that digital transformation across all levels of care 'will not be immediate' because Cuba lacks the resources and technology. In January 2026, 98 institutions had digitised modules, and a digital clinical record was still a goal.",
+      "detail": [
+        "Ley 165 (Article 36) tells MINSAP to implement digital health in all services. The minister told Cubadebate in February 2026 that this needs resources and technology Cuba does not have now.",
+        "Presidencia reported in January 2026 that 98 institutions have digitised modules under the project 'Por una salud digital'. At the Manuel Fajardo hospital, Galen Clinicas handles admissions and statistics; reaching an electronic clinical record is 'the goal'.",
+        "PAHO reported in October 2025 progress on an electronic nominal vaccination register and a digital clinical record project. National coverage figures were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Visito Diaz-Canel otro centro de Salud inmerso en la transformacion digital (Presidencia)",
+          "url": "https://www.presidencia.gob.cu/es/noticias/visito-diaz-canel-otro-centro-de-salud-inmerso-en-la-transformacion-digital/",
+          "date": "2026-01-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mision de la OPS en Cuba para impulsar la transformacion digital en salud (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/23-10-2025-mision-ops-cuba-para-impulsar-transformacion-digital-salud",
+          "date": "2025-10-23",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Nueva Ley de Salud Publica en Cuba: Una apuesta a largo plazo (Cubadebate)",
+          "url": "http://www.cubadebate.cu/especiales/2026/02/20/nueva-ley-de-salud-publica-en-cuba-una-apuesta-a-largo-plazo-para-seguir-protegiendo-la-vida/",
+          "date": "2026-02-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 25,
+      "summary": "The law gives treating staff full access to the record, but each facility keeps its own record, and only a digital record would be unique across the system. With digital records still limited, clinicians elsewhere usually cannot see it.",
+      "detail": [
+        "Decreto 133/2025, Article 177, gives full access to the clinical record to the patient and to the staff involved in their care.",
+        "Article 175(b) says the clinical record is unique in each care facility, identified by the personal ID number. Only when the record is digital is it unique across the whole system.",
+        "Digital records exist only in some institutions (98 had digitised modules in January 2026). How records follow a patient referred between polyclinic and hospital was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Gaceta Oficial No. 9 Ordinaria 2026: Ley 165/2023 Ley de la Salud Publica and Decreto 133/2025 Reglamento",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o9.pdf",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Visito Diaz-Canel otro centro de Salud inmerso en la transformacion digital (Presidencia)",
+          "url": "https://www.presidencia.gob.cu/es/noticias/visito-diaz-canel-otro-centro-de-salud-inmerso-en-la-transformacion-digital/",
+          "date": "2026-01-30",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "De-identified data may be used without consent and no working opt-out was found. Three safeguards lift the score: ethics committees with a national research ethics commission, Ley 149 sanctions, and express consent for identified health data.",
+      "detail": [
+        "Ley 165, Article 185, says trials on people must be voluntary and consented. A National Commission for Research Ethics, named by the health minister, oversees research. Decreto 133 requires each institution to run research ethics committees.",
+        "Ley 149, Article 17(f), allows processing without consent after de-identification. Resolucion 58/2022 allows anonymised data for research under contract, without commercial interest.",
+        "Ley 165, Article 16(j), gives a right to state one's will on research use of health data; no mechanism was found. Cuba is outside the EU, so the EHDS does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Gaceta Oficial No. 9 Ordinaria 2026: Ley 165/2023 Ley de la Salud Publica and Decreto 133/2025 Reglamento",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o9.pdf",
+          "date": "2026-01-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Gaceta Oficial No. 90 Ordinaria 2022: Ley 149/2022 and Resolucion 58/2022",
+          "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2022-o90_0.pdf",
+          "date": "2022-08-25",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "The regulator CECMED's 2025 rule E 130-25 requires registration of medical software, with risk classes and regression-tested changes, but never mentions AI. The 2024 national AI strategy promises rules, so this scores like Bhutan and Belarus at 40.",
+      "detail": [
+        "CECMED Resolucion 45/2025 approved Regulation E 130-25 on registering software as a medical device. It uses IMDRF risk categories and IEC 62304, and requires cybersecurity across the life cycle, regression tests and a summary of changes for updates.",
+        "The regulation contains no AI or machine learning provisions, and binding human oversight rules for clinical AI were not found.",
+        "The 2024 AI strategy sets a goal of rules making AI explainable, traceable and data-protective, naming health. In February 2026 officials presented AI cardiology research and said AI does not replace the specialist."
+      ],
+      "sources": [
+        {
+          "title": "CECMED Resolucion 45/2025, Regulacion E 130-25 Requisitos para el Registro Sanitario del Software de Uso Medico",
+          "url": "https://www.cecmed.cu/file/13820/download?token=blr-FIzU",
+          "date": "2025-05-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Politica para la Transformacion Digital, Agenda Digital Cubana y Estrategia de Inteligencia Artificial (Fiscalia General)",
+          "url": "https://www.fgr.gob.cu/politica-para-la-transformacion-digital-agenda-digital-cubana-y-estrategia-de-inteligencia",
+          "date": "2024-06-13",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Avanza Cuba en el uso de la Inteligencia Artificial para enfermedades cardiovasculares (Presidencia)",
+          "url": "https://www.presidencia.gob.cu/es/noticias/avanza-cuba-en-el-uso-de-la-inteligencia-artificial-para-la-prediccion-y-tratamiento-de-enfermedades-cardiovasculares-audio/",
+          "date": "2026-02-03",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Records are kept per facility; 98 institutions had digitised modules in January 2026 and a digital record is still a project. Care is state-run, so no claims flow was assessed. The EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Ley 149/2022 De Proteccion de Datos Personales",
+      "level": "National",
+      "year": "2022",
+      "what": "Health data sensitive; express consent with care and security exceptions; access in 5 plus 10 days; fines to 20,000 pesos.",
+      "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2022-o90_0.pdf"
+    },
+    {
+      "name": "Resolucion 58/2022 (Ministerio de Comunicaciones), Reglamento para la Seguridad y Proteccion de los Datos Personales en Soporte Electronico",
+      "level": "National",
+      "year": "2022",
+      "what": "Electronic data security; anonymised data for research only without commercial interest.",
+      "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2022-o90_0.pdf"
+    },
+    {
+      "name": "Ley 165/2023 Ley de la Salud Publica",
+      "level": "National",
+      "year": "2023",
+      "what": "Published January 2026; patient rights, informed consent, research ethics, trial consent, digital health mandate.",
+      "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o9.pdf"
+    },
+    {
+      "name": "Decreto 133/2025 Reglamento de la Ley 165",
+      "level": "National",
+      "year": "2025",
+      "what": "Clinical record rules: unlimited patient access, inviolability, record unique per facility, ethics committees.",
+      "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o9.pdf"
+    },
+    {
+      "name": "CECMED Resolucion 45/2025, Regulacion E 130-25 (software de uso medico)",
+      "level": "National",
+      "year": "2025",
+      "what": "Registration of medical software: risk classes, cybersecurity, regression tests and change summaries.",
+      "url": "https://www.cecmed.cu/file/13820/download?token=blr-FIzU"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-02-20",
+      "headline": "Health minister says full digital health rollout lacks resources and technology",
+      "source": "Cubadebate",
+      "url": "http://www.cubadebate.cu/especiales/2026/02/20/nueva-ley-de-salud-publica-en-cuba-una-apuesta-a-largo-plazo-para-seguir-protegiendo-la-vida/",
+      "why": "Patients should not expect a connected digital record soon."
+    },
+    {
+      "date": "2026-02-03",
+      "headline": "Cuban team presents early results of AI cardiology prediction project",
+      "source": "Presidencia de Cuba",
+      "url": "https://www.presidencia.gob.cu/es/noticias/avanza-cuba-en-el-uso-de-la-inteligencia-artificial-para-la-prediccion-y-tratamiento-de-enfermedades-cardiovasculares-audio/",
+      "why": "Patient data feeds AI research while no AI-specific clinical rules exist."
+    },
+    {
+      "date": "2026-01-30",
+      "headline": "Presidency says 98 health institutions have digitised modules",
+      "source": "Presidencia de Cuba",
+      "url": "https://www.presidencia.gob.cu/es/noticias/visito-diaz-canel-otro-centro-de-salud-inmerso-en-la-transformacion-digital/",
+      "why": "Shows how far digital records reach; an electronic clinical record is still a goal."
+    },
+    {
+      "date": "2025-10-23",
+      "headline": "PAHO mission reviews Cuba's digital clinical record and vaccination register",
+      "source": "OPS/OMS",
+      "url": "https://www.paho.org/es/noticias/23-10-2025-mision-ops-cuba-para-impulsar-transformacion-digital-salud",
+      "why": "International support may shape how patient records are digitised."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

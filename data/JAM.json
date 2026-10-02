@@ -1,0 +1,333 @@
+{
+  "iso3": "JAM",
+  "name": "Jamaica",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Jamaica's data law took effect in December 2023, but many public records are still paper and eCare does not yet reach every public facility.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 40,
+      "summary": "The Data Protection Act, 2020 (section 6) gives a right to a copy within 30 days, but on payment of a prescribed fee, which one ministry agency lists as J$100 per page. There is no national patient portal.",
+      "detail": [
+        "Section 6 of the Data Protection Act, 2020 lets a person learn, free of charge, whether their data is processed. A copy of the data itself requires the prescribed fee. The controller must answer within 30 days of receiving both request and fee.",
+        "The OIC says the Data Protection Regulations 2024 set a standard request form (Form 2). NEPA, a government agency, lists the prescribed copy fee as J$100 per page. The regulation text itself was not opened.",
+        "The Patients Charter, as described by the Health Minister in June 2026, includes a right to view or obtain copies of medical history and results.",
+        "No national patient portal was found. The eCare contract entitles Jamaica to a patient-centric mobile app (JIS, August 2026), but no launch was found."
+      ],
+      "sources": [
+        {
+          "title": "The Data Protection Act, 2020 (Houses of Parliament)",
+          "url": "https://japarliament.gov.jm/attachments/article/339/The%20Data%20Protection%20Act,%202020.pdf",
+          "date": "2020",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data Subjects Entitled to Know How Personal Information is Used (JIS)",
+          "url": "https://jis.gov.jm/data-subjects-entitled-to-know-how-personal-information-is-used/",
+          "date": "2026-01-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health System Rests on Clearly Defined Patient Rights and Duties, Minister (JIS)",
+          "url": "https://jis.gov.jm/health-system-rests-on-clearly-defined-patient-rights-and-duties-minister/",
+          "date": "2026-06-17",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Protection (NEPA)",
+          "url": "https://www.nepa.gov.jm/data-protection",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Health data may be processed without consent when needed for medical purposes by a health professional, and no opt-out from eCare sharing or patient-visible access log was found. The patient's main levers are general rights to object and correct.",
+      "detail": [
+        "Health is sensitive personal data under the Act. Section 24 allows processing with written consent, but also without it when necessary for medical purposes and done by a health professional or someone with an equal duty of confidentiality.",
+        "Section 11 lets a person demand, in writing, that a controller stop or not begin processing, on stated grounds such as substantial and unwarranted damage or distress, or incomplete or irrelevant data. Section 13 gives a right to have errors corrected.",
+        "eCare is built on 'one patient, one record' and shares records among authorised providers in the public system. No way for patients to block sharing, and no access log shown to patients, was found.",
+        "Section 64 voids contract terms that force a person to hand over their own health record, for example to an employer or insurer."
+      ],
+      "sources": [
+        {
+          "title": "The Data Protection Act, 2020 (Houses of Parliament)",
+          "url": "https://japarliament.gov.jm/attachments/article/339/The%20Data%20Protection%20Act,%202020.pdf",
+          "date": "2020",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "EHR System Has Improved Efficiency at May Pen Hospital, Senior Medical Officer (JIS)",
+          "url": "https://jis.gov.jm/ehr-system-has-improved-efficiency-at-may-pen-hospital-senior-medical-officer/",
+          "date": "2026-08-10",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 48,
+      "summary": "The Act requires breach reports to the Commissioner within 72 hours and allows company fines up to 4 percent of worldwide turnover. In 2026 the National Health Fund confirmed a breach, with its data posted on a third-party site.",
+      "detail": [
+        "The Act took effect on 1 December 2023 with a grace period for registration. It covers public bodies and health providers, and the National Health Fund is named as a health professional body.",
+        "Section 21 makes it an offence to breach the data standards, with Parish Court fines up to J$2 million or two years in prison. Section 68 allows fines up to 4 percent of a company's annual gross worldwide turnover. Breaches go to the Commissioner within 72 hours.",
+        "In June 2026 the NHF received a hacker group's claim of access to medication and prescription benefit data. By July 2026 NHF confirmed its data had been posted on a third-party site and that it reported the incident to the OIC.",
+        "No OIC enforcement decision on a health case was found."
+      ],
+      "sources": [
+        {
+          "title": "The Data Protection Act, 2020 (Houses of Parliament)",
+          "url": "https://japarliament.gov.jm/attachments/article/339/The%20Data%20Protection%20Act,%202020.pdf",
+          "date": "2020",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data Protection Act Takes Effect Today (JIS)",
+          "url": "https://jis.gov.jm/data-protection-act-takes-effect-today/",
+          "date": "2023-12-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Update on Cybersecurity Incident at the NHF (National Health Fund)",
+          "url": "https://www.nhf.org.jm/news/update-on-cybersecurity-incident-at-the-nhf/",
+          "date": "2026-07-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Hackers claim they have Jamaicans' medical records (Jamaica Star)",
+          "url": "https://jamaica-star.com/article/news/20260610/hackers-claim-they-have-jamaicans-medical-records",
+          "date": "2026-06-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 50,
+      "summary": "Direct marketing needs consent or an existing customer link with a chance to object, and sensitive health data needs written consent outside listed purposes. No rules aimed at health apps or data brokers, and no enforcement on health data sales, were found.",
+      "detail": [
+        "Section 10 bars processing personal data for direct marketing unless the person consents or is an existing customer who was given a free chance to object.",
+        "Outside medical purposes and other listed conditions, section 24 requires written consent to process health data, so selling identifiable health data without consent would breach the Act.",
+        "Section 64 voids contract terms that require a person to supply their health record to another party.",
+        "No sector rules for consumer health apps, data brokers or de-identified data sales, and no OIC decisions on these, were found."
+      ],
+      "sources": [
+        {
+          "title": "The Data Protection Act, 2020 (Houses of Parliament)",
+          "url": "https://japarliament.gov.jm/attachments/article/339/The%20Data%20Protection%20Act,%202020.pdf",
+          "date": "2020",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 30,
+      "summary": "eCare launched at May Pen Hospital in January 2024, and by August 2026 'scores' of public institutions had access. In January 2026 western hospitals were drying hurricane-soaked paper files, and a regional director called record keeping 25 to 30 years behind.",
+      "detail": [
+        "Cabinet awarded the eCare contract to Phoenix Partnership (Leeds) Limited in November 2022, with a first rollout to 13 facilities in St Catherine, Clarendon and St Ann: three hospitals (Spanish Town, May Pen, St Ann's Bay) and ten health centres. In August 2026 JIS said scores of public institutions now have access.",
+        "By October 2024, just over 90 of 105 targeted health centres and hospitals were networked, but eCare was fully operational only at May Pen and Spanish Town hospitals.",
+        "After Hurricane Melissa (late 2025), some records at Falmouth Hospital were lost for good, and patients may need repeat X-rays and lab work.",
+        "An electronic immunisation registry is in pilot at 18 sites. The programme is co-funded by the IDB and an EU grant; the EU's EHDS does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Contract Approved for Electronic Health Record Management System (JIS)",
+          "url": "https://jis.gov.jm/contract-approved-for-electronic-health-record-management-system/",
+          "date": "2022-11-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "EHR System Has Improved Efficiency at May Pen Hospital, Senior Medical Officer (JIS)",
+          "url": "https://jis.gov.jm/ehr-system-has-improved-efficiency-at-may-pen-hospital-senior-medical-officer/",
+          "date": "2026-08-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Building a smarter, more resilient immunization system for Jamaica (PAHO)",
+          "url": "https://www.paho.org/en/news/17-12-2025-building-smarter-more-resilient-immunization-system-jamaica",
+          "date": "2025-12-17",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Medical records mess (Jamaica Observer)",
+          "url": "https://www.jamaicaobserver.com/2026/01/19/medical-records-mess/",
+          "date": "2026-01-19",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 30,
+      "summary": "Where eCare runs, clinicians see history, medicines and allergies on screen, as the minister described at Spanish Town Hospital, plus imaging at participating sites. Many public sites and all private providers still rely on paper or separate systems.",
+      "detail": [
+        "In October 2024 the Health Minister said that at Spanish Town Hospital a patient's entire record, including treatment and medication history and allergies, comes up when their name is entered.",
+        "The 2022 contract provides for clinicians to view X-rays and CT scans on computers and tablets at participating facilities. In August 2026 the minister said doctors at May Pen Hospital see histories and medications without searching for files, and its senior medical officer said access to histories is faster.",
+        "No link to private hospitals or practices was found. Emergency access rules for clinicians outside eCare sites were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Contract Approved for Electronic Health Record Management System (JIS)",
+          "url": "https://jis.gov.jm/contract-approved-for-electronic-health-record-management-system/",
+          "date": "2022-11-23",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Significant Number of Medical Facilities Now Linked to the Electronic Health Records System (JIS)",
+          "url": "https://jis.gov.jm/significant-number-of-medical-facilities-now-linked-to-the-electronic-health-records-system/",
+          "date": "2024-11-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "EHR System Has Improved Efficiency at May Pen Hospital, Senior Medical Officer (JIS)",
+          "url": "https://jis.gov.jm/ehr-system-has-improved-efficiency-at-may-pen-hospital-senior-medical-officer/",
+          "date": "2026-08-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Clicking into better care, May Pen Hospital sees gains from electronic health records system (Gleaner)",
+          "url": "http://jamaica-gleaner.com/article/news/20260810/clicking-better-care-may-pen-hospital-sees-gains-electronic-health-records",
+          "date": "2026-08-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Section 37 of the Data Protection Act allows research reuse of personal data without consent if not used for decisions about individuals. Ministry guidelines add ethics panel review and patient consent for identifiable record research, but there is no opt-out or register of uses.",
+      "detail": [
+        "Section 37 treats research reuse as compatible with the original purpose, lets research data be kept indefinitely, and exempts it from the access right when results do not identify anyone.",
+        "Identifiable data may be disclosed for research only if needed, and not used to contact people to take part (section 37(6)). Section 61 makes knowingly or recklessly obtaining or disclosing personal data without the controller's consent an offence.",
+        "Ministry of Health and Wellness guidelines require local Institutional Ethics Panel approval before research starts, with referral to the ministry's Ethics and Medico-legal Affairs Panel. Research on medical records needs facility approval, and the patient's informed consent where the data identifies them.",
+        "These guidelines are policy, not statute, and conflict with the wider freedom in section 37. No clinical trials law or public register of data uses was found."
+      ],
+      "sources": [
+        {
+          "title": "The Data Protection Act, 2020 (Houses of Parliament)",
+          "url": "https://japarliament.gov.jm/attachments/article/339/The%20Data%20Protection%20Act,%202020.pdf",
+          "date": "2020",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Guidelines for the Conduct of Research on Human Subjects (Ministry of Health and Wellness)",
+          "url": "https://www.moh.gov.jm/guidelines/guidelines-for-the-conduct-of-research-on-human-subjects/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 25,
+      "summary": "Medical devices are registered under the Food and Drugs Act, 1964, with no AI-specific rules found. In February 2026 the health ministry set up an advisory AI-TECH Council of Experts, but no binding guidance has followed.",
+      "detail": [
+        "The Ministry of Health and Wellness registers medical devices under the Food and Drugs Act, 1964. No rules on AI or software as a medical device, change control or human oversight were found.",
+        "The AI-TECH Council of Experts, chaired by Professor Rubin Pillay, met first on 10 February 2026 to advise on responsible AI use in screening, radiology, homecare and surveillance.",
+        "AI-enabled imaging is already in private use: an imaging and MRI centre on Half-Way Tree Road, St Andrew, opened in 2026 with AI-enabled diagnostic imaging technology."
+      ],
+      "sources": [
+        {
+          "title": "Registration of Medical Devices (Jamaica Trade Information Portal)",
+          "url": "https://www.jamaicatradeportal.gov.jm/en-gb/search-form/view/98",
+          "date": "2019-02-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health ministry launches committees on ageing policy, AI (Gleaner)",
+          "url": "http://jamaica-gleaner.com/article/news/20260212/health-ministry-launches-committees-ageing-policy-ai",
+          "date": "2026-02-12",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Tufton hails AI-powered imaging centre (Gleaner)",
+          "url": "http://jamaica-gleaner.com/article/news/20260801/tufton-hails-ai-powered-imaging-centre",
+          "date": "2026-08-01",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "eCare began in three hospitals and ten health centres in three parishes, with imaging, and now reaches scores of public sites. Private providers remain separate. NHF holds drug benefit data apart from eCare. An immunisation registry is in pilot.",
+  "laws": [
+    {
+      "name": "Data Protection Act, 2020",
+      "level": "National",
+      "year": "2020",
+      "what": "Health data sensitive; access right; 72-hour breach reports; fines up to 4 percent of turnover; in force December 2023.",
+      "url": "https://japarliament.gov.jm/attachments/article/339/The%20Data%20Protection%20Act,%202020.pdf"
+    },
+    {
+      "name": "Data Protection Regulations, 2024",
+      "level": "National",
+      "year": "2024",
+      "what": "Prescribed forms and fees for access requests, including Form 2 (text not opened).",
+      "url": "https://jis.gov.jm/data-subjects-entitled-to-know-how-personal-information-is-used/"
+    },
+    {
+      "name": "Food and Drugs Act, 1964",
+      "level": "National",
+      "year": "1964",
+      "what": "Basis for registration of drugs and medical devices by the Ministry of Health and Wellness.",
+      "url": "https://www.jamaicatradeportal.gov.jm/en-gb/search-form/view/98"
+    },
+    {
+      "name": "Patients Charter (Ministry of Health and Wellness)",
+      "level": "National",
+      "year": "undated",
+      "what": "Ministry policy charter, not statute: informed consent, confidentiality, and access to view or copy records.",
+      "url": "https://jis.gov.jm/health-system-rests-on-clearly-defined-patient-rights-and-duties-minister/"
+    },
+    {
+      "name": "Guidelines for the Conduct of Research on Human Subjects (Ministry of Health and Wellness)",
+      "level": "National",
+      "year": "undated",
+      "what": "Policy guidelines: ethics panel approval; consent for identifiable medical record research.",
+      "url": "https://www.moh.gov.jm/guidelines/guidelines-for-the-conduct-of-research-on-human-subjects/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07-03",
+      "headline": "National Health Fund confirms its data was posted on a third-party site",
+      "source": "National Health Fund",
+      "url": "https://www.nhf.org.jm/news/update-on-cybersecurity-incident-at-the-nhf/",
+      "why": "NHF has not yet said which records were posted; it will notify affected beneficiaries and customers."
+    },
+    {
+      "date": "2026-04-18",
+      "headline": "Health ministry signs software contract for electronic immunisation registry",
+      "source": "Jamaica Gleaner",
+      "url": "http://jamaica-gleaner.com/article/world-news/20260418/contract-signed-electronic-immunisation-registry-software",
+      "why": "Vaccination records move off paper at 18 pilot sites, including one private facility."
+    },
+    {
+      "date": "2026-02-12",
+      "headline": "Health ministry forms an expert council on AI in healthcare",
+      "source": "Jamaica Gleaner",
+      "url": "http://jamaica-gleaner.com/article/news/20260212/health-ministry-launches-committees-ageing-policy-ai",
+      "why": "First national body advising on clinical AI use; it has no rule-making power."
+    },
+    {
+      "date": "2026-01-19",
+      "headline": "Hurricane Melissa destroys paper patient records at western hospitals",
+      "source": "Jamaica Observer",
+      "url": "https://www.jamaicaobserver.com/2026/01/19/medical-records-mess/",
+      "why": "Some histories are lost for good, and patients may need repeat tests."
+    },
+    {
+      "date": "2025-12-17",
+      "headline": "PAHO hands over servers for Jamaica's electronic immunisation registry pilot",
+      "source": "PAHO",
+      "url": "https://www.paho.org/en/news/17-12-2025-building-smarter-more-resilient-immunization-system-jamaica",
+      "why": "Vaccination data will be backed up in two data centres instead of on paper."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

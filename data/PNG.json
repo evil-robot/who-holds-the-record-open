@@ -1,0 +1,341 @@
+{
+  "iso3": "PNG",
+  "name": "Papua New Guinea",
+  "region": "Oceania",
+  "controlModel": "Institutional",
+  "headline": "Papua New Guinea has no data protection law in force, no patient portal, and electronic records in 4 of 3,234 health facilities.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 30,
+      "summary": "Section 51 of the Constitution gives citizens reasonable access to official documents, but no law sets a procedure, and the Right to Information Policy was only validated in June 2026. No health-specific right to a copy and no patient portal were verified.",
+      "detail": [
+        "Section 51(1) of the Constitution gives every citizen, other than dual citizens, a right of reasonable access to official documents. It is subject to listed exceptions, including the maintenance of personal privacy.",
+        "No access to information law gives this right a procedure. The Department of ICT and Transparency International PNG validated a draft Right to Information Policy on 11 June 2026. It still needs National Executive Council endorsement before a law is drafted.",
+        "No law setting a fee, deadline or format for a copy of a medical record was verified. A 2025 study found an electronic record in only 4 of 3,234 facilities, so most records are on paper.",
+        "Under the anchors this is a general right with no verified procedure, limited to citizens and official documents, so the score sits in the upper half of the 15 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Constitution of the Independent State of Papua New Guinea 1975 (rev. 2016), Constitute Project copy",
+          "url": "https://www.constituteproject.org/constitution/Papua_New_Guinea_2016.pdf?lang=en",
+          "date": "2016",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "DICT, TIPNG Validates Right to Information Policy (Department of ICT)",
+          "url": "https://www.ict.gov.pg/dict-tipng-validates-right-to-information-policy/",
+          "date": "2026-06-22",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "control": {
+      "score": 28,
+      "summary": "The Health Department decides who can use health data: access to the national eNHIS database is granted by health officials and, for partners, by the Health Secretary under an MOU. Only HIV information has a statutory consent rule for disclosure.",
+      "detail": [
+        "Section 18 of the HIV/AIDS Management and Prevention Act 2003 requires health workers, researchers and others to prevent disclosure of a person's HIV status. Disclosure is allowed with the person's consent, by court order, in non-identifying statistical form, or as a law authorises.",
+        "For other health data there is no general consent law. The Department of Health's 2023 data procedures say partners and institutions may get eNHIS access with the Health Secretary's approval and a signed MOU.",
+        "We found no opt-out, granular choice or patient-visible access log. That places PNG in the 20 to 35 band, with the HIV consent rule keeping it above the bottom."
+      ],
+      "sources": [
+        {
+          "title": "HIV/AIDS Management and Prevention Act 2003 (copy hosted by KELIN)",
+          "url": "https://kelinkenya.org/wp-content/uploads/2010/10/HIV-law-Papua-new-Guinea.pdf",
+          "date": "2003",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Standard Operating Procedures for Management of Data from Routine Health Information Systems (National Department of Health)",
+          "url": "https://www.health.gov.pg/pdf/SOPdm_2024.pdf",
+          "date": "2023",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 30,
+      "summary": "PNG has no data protection law, no regulator and no breach notification duty in force; Section 49 of the Constitution and the HIV Act are the main protections. A Data Governance and Data Protection Bill 2026 went to public consultation in August 2026.",
+      "detail": [
+        "Section 49 of the Constitution gives a right to reasonable privacy in private and family life, communications and personal papers, which a law may regulate or restrict.",
+        "Health-specific protection is narrow. Under the HIV/AIDS Management and Prevention Act, unlawful disclosure of HIV information is an offence, with fines up to K5,000 or three years' prison for a person and K10,000 for a corporation.",
+        "The draft Bill covers access, correction, erasure, portability, breach notification and AI. Biometric Update reports fines up to K1 million, with NICTA acting as regulator at first. Whether it was tabled in the September 2026 sitting was not verified.",
+        "No major health data breach was verified. PNG is not in the EU, so GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Constitution of the Independent State of Papua New Guinea 1975 (rev. 2016), Constitute Project copy",
+          "url": "https://www.constituteproject.org/constitution/Papua_New_Guinea_2016.pdf?lang=en",
+          "date": "2016",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "HIV/AIDS Management and Prevention Act 2003 (copy hosted by KELIN)",
+          "url": "https://kelinkenya.org/wp-content/uploads/2010/10/HIV-law-Papua-new-Guinea.pdf",
+          "date": "2003",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Draft Data Governance and Data Protection Bill 2026, public consultation portal (Department of ICT)",
+          "url": "https://www.ict.gov.pg/data-governance-and-data-protection-bill-2026/",
+          "date": "2026-08-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Papua New Guinea seeks feedback on digital ID, data protection laws (Biometric Update)",
+          "url": "https://www.biometricupdate.com/202608/papua-new-guinea-seeks-feedback-on-digital-id-data-protection-laws",
+          "date": "2026-08-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 20,
+      "summary": "No law in force limits the sale or marketing use of health data, and no regulator oversees data brokers or health apps. The 2026 draft Bill would add limits on selling biometric data, but it is not law.",
+      "detail": [
+        "The Department of ICT's 2024 policy statement says that without proper regulation, data breaches, privacy violations and misuse of data pose risks to individuals. The policy is not binding law.",
+        "Biometric Update reports that the draft Bill gives biometric data heightened protection, with strict limits on its sale and sharing. No equivalent health data rule was verified in the Bill text, which could not be opened.",
+        "No consumer or competition authority action on health data was found."
+      ],
+      "sources": [
+        {
+          "title": "National Data Governance and Data Protection Policy 2024 (Department of ICT)",
+          "url": "https://www.ict.gov.pg/ndgdpp/",
+          "date": "2024",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Draft Data Governance and Data Protection Bill 2026, public consultation portal (Department of ICT)",
+          "url": "https://www.ict.gov.pg/data-governance-and-data-protection-bill-2026/",
+          "date": "2026-08-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Papua New Guinea seeks feedback on digital ID, data protection laws (Biometric Update)",
+          "url": "https://www.biometricupdate.com/202608/papua-new-guinea-seeks-feedback-on-digital-id-data-protection-laws",
+          "date": "2026-08-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 20,
+      "summary": "By mid-2022 the national eNHIS took monthly aggregate reports from over 89% of facilities, but patient records are not linked across care. A 2025 study found an electronic record in 4 of 3,234 facilities (0.1%).",
+      "detail": [
+        "The Department of Health's 2023 procedures say eNHIS reached over 89% of facilities in 20 of 22 provinces by mid-2022. It mostly carries aggregate counts; HIV and TB modules with patient-level data run in selected provinces. Private facilities do not report into it.",
+        "Medicines run on the separate mSupply system, used on phones at 110 facilities and on desktops at 38, with paper elsewhere.",
+        "A National Digital Health Strategy 2025 to 2030 and ICT Policy 2024 to 2030 launched in June 2025 to tackle fragmentation. In March 2026 a US-funded project met on scaling DHIS2, which tracks HIV patients."
+      ],
+      "sources": [
+        {
+          "title": "Standard Operating Procedures for Management of Data from Routine Health Information Systems (National Department of Health)",
+          "url": "https://www.health.gov.pg/pdf/SOPdm_2024.pdf",
+          "date": "2023",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "PNG's ICT Officers Unite to Drive Digital Health Transformation (WHO Papua New Guinea)",
+          "url": "https://www.who.int/papuanewguinea/news/detail/13-10-2025-png-s-ict-officers-unite-to-drive-digital-health-transformation",
+          "date": "2025-10-13",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "U.S.-Funded Initiatives Strengthen Papua New Guinea's Digital Health and HIV Response (U.S. Embassy)",
+          "url": "https://pg.usembassy.gov/u-s-funded-initiatives-strengthen-papua-new-guineas-digital-health-and-hiv-response/",
+          "date": "2026-03-30",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 15,
+      "summary": "With electronic records in 4 of 3,234 facilities, a treating clinician almost never sees a patient's record from another provider. The national systems report aggregate data, not clinical histories.",
+      "detail": [
+        "The 2025 environmental scan of 14 Pacific countries found an electronic record in 4 of PNG's 3,234 facilities (0.1%), against 2.5% across the region.",
+        "The Department of Health's procedures describe eNHIS and the discharge system as reporting tools built on registers and monthly forms. The orthotic and prosthetic program runs 3 electronic medical records of its own.",
+        "In September 2026 a Port Moresby General Hospital pathology registrar described a roadmap for digitising the hospital's pathology services. No shared clinical record or emergency access rule was verified."
+      ],
+      "sources": [
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Standard Operating Procedures for Management of Data from Routine Health Information Systems (National Department of Health)",
+          "url": "https://www.health.gov.pg/pdf/SOPdm_2024.pdf",
+          "date": "2023",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Strengthening Papua New Guinea's Health System in the Era of Artificial Intelligence (PNG Medical Blog)",
+          "url": "https://pngmedicalblog.com/2026/09/06/strengthening-papua-new-guineas-health-system-in-the-era-of-artificial-intelligence/",
+          "date": "2026-09-06",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "The national Medical Research Advisory Committee gives final ethics approval for health research, and the HIV Act makes approval mandatory for HIV research. There is no general consent or opt-out rule for secondary use of health records.",
+      "detail": [
+        "Section 30 of the HIV/AIDS Management and Prevention Act bars HIV research without approval of the National AIDS Council or its committee. Section 18 lets HIV information be released when it is statistical or non-identifying.",
+        "The PNG Institute of Medical Research's review board checks consent forms against Good Clinical Practice and forwards studies to the national Medical Research Advisory Committee. The National Health Research Agenda 2025 to 2030 names that committee as the central coordinating body.",
+        "Researchers get eNHIS data by written request and approval, not patient consent. Base 40, plus 3 for the ethics body."
+      ],
+      "sources": [
+        {
+          "title": "HIV/AIDS Management and Prevention Act 2003 (copy hosted by KELIN)",
+          "url": "https://kelinkenya.org/wp-content/uploads/2010/10/HIV-law-Papua-new-Guinea.pdf",
+          "date": "2003",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Institutional Review Board (PNG Institute of Medical Research)",
+          "url": "https://www.pngimr.org.pg/about/institutional-review-board/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Lessons from developing the Papua New Guinea National Health Research Agenda 2025-2030 (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13015753/",
+          "date": "2026-03-17",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Standard Operating Procedures for Management of Data from Routine Health Information Systems (National Department of Health)",
+          "url": "https://www.health.gov.pg/pdf/SOPdm_2024.pdf",
+          "date": "2023",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "No rules for clinical AI are in force. A national AI strategy and the draft data protection Bill's risk-based AI rules were both still out for consultation in 2026.",
+      "detail": [
+        "The Department of ICT is consulting on a National Sovereign AI and Digital Transformation Strategy, which asks who should regulate AI and how.",
+        "The draft Data Governance and Data Protection Bill 2026 proposes an interim framework covering prohibited practices, high-risk systems, impact assessment, bias testing and human oversight. It is not law.",
+        "An April 2026 PNG National Research Institute paper on the AI Summit 2026 says PNG is still developing policies on AI and data protection. Regulation of AI as a medical device was not verified. That puts PNG in the 15 to 30 band."
+      ],
+      "sources": [
+        {
+          "title": "National Sovereign AI and Digital Transformation Strategy, consultation page (Department of ICT)",
+          "url": "https://www.ict.gov.pg/national-ai-bx-strategy/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Draft Data Governance and Data Protection Bill 2026, public consultation portal (Department of ICT)",
+          "url": "https://www.ict.gov.pg/data-governance-and-data-protection-bill-2026/",
+          "date": "2026-08-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Opportunities and challenges for AI adoption in Papua New Guinea: insights from AI Summit 2026 (PNG National Research Institute)",
+          "url": "https://pngnri.org/images/Publications/Spotlight_Vol_19_Issue_3-Opportunities_and_challenges_for_AI_adoption_in_Papua_New_Guinea-_Insights_from_AI_Summit_2026.pdf",
+          "date": "2026-04",
+          "publisherClass": "academic"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "siloed",
+    "labs": "siloed",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "eNHIS takes aggregate reports from most public facilities, with HIV and TB patient modules in some provinces. Pharmacy runs on separate mSupply. Electronic records exist in 4 of 3,234 facilities. A national insurance claims system was not verified.",
+  "laws": [
+    {
+      "name": "Constitution of the Independent State of Papua New Guinea, sections 49 and 51",
+      "level": "National",
+      "year": "1975",
+      "what": "Right to reasonable privacy; citizens' right of reasonable access to official documents, with no implementing law.",
+      "url": "https://www.constituteproject.org/constitution/Papua_New_Guinea_2016.pdf?lang=en"
+    },
+    {
+      "name": "HIV/AIDS Management and Prevention Act 2003",
+      "level": "National",
+      "year": "2003",
+      "what": "Informed consent for HIV testing, confidentiality of HIV information with penalties, approval required for HIV research.",
+      "url": "https://kelinkenya.org/wp-content/uploads/2010/10/HIV-law-Papua-new-Guinea.pdf"
+    },
+    {
+      "name": "Digital Government Act 2022",
+      "level": "National",
+      "year": "2022",
+      "what": "Framework for whole-of-government digital services and infrastructure; not a personal data protection law.",
+      "url": "https://www.ict.gov.pg/digital-government-act-2022/"
+    },
+    {
+      "name": "National Data Governance and Data Protection Policy 2024",
+      "level": "National",
+      "year": "2024",
+      "what": "Policy published by the Department of ICT, not law; basis for the 2026 data protection Bill.",
+      "url": "https://www.ict.gov.pg/ndgdpp/"
+    },
+    {
+      "name": "Data Governance and Data Protection Bill 2026 (draft)",
+      "level": "National",
+      "year": "2026",
+      "what": "Draft under consultation: data rights, breach notification, AI safeguards, NICTA as interim regulator. Not in force.",
+      "url": "https://www.ict.gov.pg/data-governance-and-data-protection-bill-2026/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-13",
+      "headline": "Provincial health ICT officers meet to put digital health strategy into practice",
+      "source": "WHO Papua New Guinea",
+      "url": "https://www.who.int/papuanewguinea/news/detail/13-10-2025-png-s-ict-officers-unite-to-drive-digital-health-transformation",
+      "why": "Shows the strategy to join up fragmented health systems is only starting."
+    },
+    {
+      "date": "2026-02-10",
+      "headline": "PNG leaders push AI adoption, including in hospitals, amid data concerns",
+      "source": "ABC Pacific",
+      "url": "https://www.abc.net.au/pacific/programs/politok/politok/106323094",
+      "why": "AI in care is being promoted before any rules for it exist."
+    },
+    {
+      "date": "2026-03-30",
+      "headline": "US-funded project meets health leaders on scaling DHIS2 for HIV tracking",
+      "source": "U.S. Embassy Papua New Guinea",
+      "url": "https://pg.usembassy.gov/u-s-funded-initiatives-strengthen-papua-new-guineas-digital-health-and-hiv-response/",
+      "why": "Patient-level HIV data is moving into a digital system without a data protection law."
+    },
+    {
+      "date": "2026-06-22",
+      "headline": "Government and Transparency International validate draft Right to Information Policy",
+      "source": "Department of ICT",
+      "url": "https://www.ict.gov.pg/dict-tipng-validates-right-to-information-policy/",
+      "why": "A future access law could give patients a procedure to get public records."
+    },
+    {
+      "date": "2026-08-06",
+      "headline": "Public consultation opens on data protection, cybersecurity and digital credential Bills",
+      "source": "Department of ICT",
+      "url": "https://www.ict.gov.pg/public-consultation-opens-on-priority-digital-legislation/",
+      "why": "First proposed law giving people rights over their personal data, including health records."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

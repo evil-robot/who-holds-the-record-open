@@ -1,0 +1,330 @@
+{
+  "iso3": "GTM",
+  "name": "Guatemala",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Guatemala has no general data law; patients can request what the state holds on them, but records stay split between MSPAS, IGSS and private clinics.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 40,
+      "summary": "The Constitution and the 2008 access law let people get what state bodies, including IGSS, hold on them within 10 working days, paying only reproduction costs. Score is the 45 base minus 5 because private clinics are not covered, with no patient portal.",
+      "detail": [
+        "Article 31 of the Constitution gives every person the right to know what is held about them in state archives and registers, and to have it corrected and updated.",
+        "Decreto 57-2008, Article 33, says only the data subject or a legal representative can request their personal data, and the body must deliver it within 10 working days in an understandable format. Article 18 allows charging only reproduction costs.",
+        "The law binds public bodies and lists IGSS by name. No statute giving a right to a copy of a clinical record held by a private provider was found. The Health Code (Article 6) grants privacy and professional secrecy, not a copy.",
+        "The IGSS Afiliados app offers general member information only. How often clinical record requests are granted in practice was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Constitucion Politica de la Republica de Guatemala (OAS copy)",
+          "url": "https://www.oas.org/dil/esp/Constitucion_Guatemala.pdf",
+          "date": "1985",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 57-2008, Ley de Acceso a la Informacion Publica (OAS copy)",
+          "url": "https://www.oas.org/juridico/pdfs/mesicic4_gtm_acceso.pdf",
+          "date": "2008",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 90-97, Codigo de Salud (MSPAS)",
+          "url": "https://medicamentos.mspas.gob.gt/index.php/legislacion-vigente/decretos?download=292%3Acodigo-de-salud",
+          "date": "1997",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "IGSS Afiliados, Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.igssgt.AfiliadosProd.Android&hl=es_GT",
+          "date": "2024-05-30",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "control": {
+      "score": 28,
+      "summary": "State bodies may pass personal data between themselves without consent, and no opt-out or patient-visible access log was found. IGSS logs every change to its electronic record, but gives the patient no way to see that log.",
+      "detail": [
+        "Decreto 57-2008, Article 31, bars public bodies from spreading or selling personal data without the person's express written consent. Article 32 removes that need when data moves between state bodies for their own functions, on court order, or for anonymised statistics and science.",
+        "IGSS Acuerdo 03/2026 requires every change to the electronic medical record to record date, time, the person responsible and the reason, keeping the earlier version.",
+        "No rule letting a patient see who opened their record, block staff access or opt out of sharing was found. Records are controlled by the institution that holds them."
+      ],
+      "sources": [
+        {
+          "title": "Decreto 57-2008, Ley de Acceso a la Informacion Publica (OAS copy)",
+          "url": "https://www.oas.org/juridico/pdfs/mesicic4_gtm_acceso.pdf",
+          "date": "2008",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Acuerdo 03/2026 de Gerencia IGSS, reformas al Acuerdo 15/2018 (Expediente Medico Electronico)",
+          "url": "https://www.igssgt.org/wp-content/uploads/2026/09/Acuerdo-03-2026-de-Gerencia-IGSS.pdf",
+          "date": "2026-02-20",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 30,
+      "summary": "Health data is legally sensitive and only the person may see it, but Guatemala has no general data law, no dedicated data protection authority and no breach notification duty. A 2026 wave of attacks on state systems reached the National Health Laboratory.",
+      "detail": [
+        "Decreto 57-2008 defines physical and mental health status as sensitive data, classifies it as confidential, and bars databases of sensitive data except for an institution's own service. It applies to public bodies. Its oversight body is the Human Rights Ombudsman (PDH).",
+        "Altering or destroying personal data in public files carries five to eight years in prison (Article 65). No breach notification rule was found.",
+        "MSPAS confirmed an attack on the National Health Laboratory that began on 9 March 2026, which the lab director blamed on ransomware or a trojan. MSPAS said it was contained, with no evidence that patient data was accessed. A June 2026 claim that MSPAS databases were stolen and offered for sale was not confirmed.",
+        "Bill 6464, a general data protection law, was still in committee in July 2026."
+      ],
+      "sources": [
+        {
+          "title": "Decreto 57-2008, Ley de Acceso a la Informacion Publica (OAS copy)",
+          "url": "https://www.oas.org/juridico/pdfs/mesicic4_gtm_acceso.pdf",
+          "date": "2008",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Salud confirma ataque cibernetico en Laboratorio Nacional (La Hora)",
+          "url": "https://lahora.gt/nacionales/kjordan/2026/04/14/salud-confirma-ataque-cibernetico-en-laboratorio-nacional-pero-asegura-que-fue-contenido-sin-que-datos-sensibles-fuera-robados/",
+          "date": "2026-04-14",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Ministerio de Salud reacciona ante supuesta amenaza cibernetica en su base de datos (La Hora)",
+          "url": "https://lahora.gt/nacionales/hloarca/2026/06/24/ministerio-de-alud-reacciona-ante-supuesta-amenaza-cibernetica-en-su-base-de-datos/",
+          "date": "2026-06-24",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Comision de Asuntos de Seguridad analiza Iniciativa de Ley de Proteccion de Datos Personales (Emisoras Unidas)",
+          "url": "https://emisorasunidas.com/nacional/2026/07/16/comision-de-asuntos-de-seguridad-analiza-iniciativa-de-ley-de-proteccion-de-datos-personales/",
+          "date": "2026-07-16",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 35,
+      "summary": "Selling sensitive data held by public bodies is banned, and selling protected personal data without written consent carries five to eight years in prison. Private clinics, apps and data brokers fall outside any data law.",
+      "detail": [
+        "Decreto 57-2008, Article 31, expressly prohibits the sale of sensitive personal data by any means. Article 64 punishes selling or distributing personal data protected by the law without written consent with five to eight years in prison and fines of Q50,000 to Q100,000.",
+        "These rules cover data held by public bodies. No law governs how private hospitals, laboratories, insurers or consumer health apps use or sell health data.",
+        "In July 2026 the deputy leading bill 6464 said anyone can trade Guatemalans' information and that the bill aims to stop the sale of personal data."
+      ],
+      "sources": [
+        {
+          "title": "Decreto 57-2008, Ley de Acceso a la Informacion Publica (OAS copy)",
+          "url": "https://www.oas.org/juridico/pdfs/mesicic4_gtm_acceso.pdf",
+          "date": "2008",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Comision de Asuntos de Seguridad analiza Iniciativa de Ley de Proteccion de Datos Personales (Emisoras Unidas)",
+          "url": "https://emisorasunidas.com/nacional/2026/07/16/comision-de-asuntos-de-seguridad-analiza-iniciativa-de-ley-de-proteccion-de-datos-personales/",
+          "date": "2026-07-16",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 30,
+      "summary": "IGSS has rolled out its electronic record unit by unit since 2018, and by February 2026 rollout was still incomplete. MSPAS said in 2024 it had no central patient register, only islands of information.",
+      "detail": [
+        "IGSS approved its electronic medical record in Acuerdo 15/2018. Acuerdo 03/2026 says rollout is progressive, paper is allowed until a unit is switched over, and the electronic record then becomes the only valid clinical record.",
+        "IGSS reported new units adopting the digital record, such as San Benito, Peten, in June 2026.",
+        "In April 2024 MSPAS began training staff on a planned clinical record system covering visits, history, labs and dispensed medicines. Its official said there was no centralised patient register. Current coverage was not verified.",
+        "No exchange linking MSPAS, IGSS and private providers was found."
+      ],
+      "sources": [
+        {
+          "title": "Acuerdo 03/2026 de Gerencia IGSS, reformas al Acuerdo 15/2018 (Expediente Medico Electronico)",
+          "url": "https://www.igssgt.org/wp-content/uploads/2026/09/Acuerdo-03-2026-de-Gerencia-IGSS.pdf",
+          "date": "2026-02-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "La Sala Anexa de San Benito, Peten, ahora es Consultorio, y ha modernizado su atencion (IGSS)",
+          "url": "https://www.igssgt.org/noticias/2026/06/05/la-sala-anexa-de-san-benito-peten-ahora-es-consultorio-y-ha-modernizado-su-atencion/",
+          "date": "2026-06-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Avanza implementacion de Registro Medico Electronico (IGSS)",
+          "url": "https://www.igssgt.org/noticias/2023/02/04/avanza-implementacion-de-registro-medico-electronico/",
+          "date": "2023-02-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Expediente clinico electronico, la nueva herramienta para la atencion medica de los guatemaltecos (AGN)",
+          "url": "https://agn.gt/expediente-clinico-electronico-la-nueva-herramienta-para-la-atencion-medica-de-los-guatemaltecos/",
+          "date": "2024-04-12",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 28,
+      "summary": "An IGSS clinician can see the electronic record inside IGSS units that have switched over. No route was found for MSPAS, IGSS and private clinicians to see each other's records.",
+      "detail": [
+        "IGSS's 2023 rollout aimed to record the history of members, dependants and pensioners electronically across its units, starting in the south of the country.",
+        "MSPAS described its 2024 system as letting staff record a patient's history in any of its facilities, but how many facilities use it was not verified.",
+        "MSPAS and IGSS run separate systems, and no emergency access rule across institutions was found."
+      ],
+      "sources": [
+        {
+          "title": "Avanza implementacion de Registro Medico Electronico (IGSS)",
+          "url": "https://www.igssgt.org/noticias/2023/02/04/avanza-implementacion-de-registro-medico-electronico/",
+          "date": "2023-02-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Expediente clinico electronico, la nueva herramienta para la atencion medica de los guatemaltecos (AGN)",
+          "url": "https://agn.gt/expediente-clinico-electronico-la-nueva-herramienta-para-la-atencion-medica-de-los-guatemaltecos/",
+          "date": "2024-04-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Acuerdo 03/2026 de Gerencia IGSS, reformas al Acuerdo 15/2018 (Expediente Medico Electronico)",
+          "url": "https://www.igssgt.org/wp-content/uploads/2026/09/Acuerdo-03-2026-de-Gerencia-IGSS.pdf",
+          "date": "2026-02-20",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Clinical trials need free, written informed consent and ethics committee approval under Acuerdo Ministerial 82-2019. Personal data can be used for science without consent only after it is made unlinkable, and there is no opt-out.",
+      "detail": [
+        "Acuerdo Ministerial 82-2019 requires informed consent given freely, in a signed document, before anyone joins a trial, with the right to withdraw at any time. Protocols need approval by a research ethics committee registered with the MSPAS regulator.",
+        "Decreto 57-2008, Article 32, waives consent for statistical or scientific use only after a procedure that stops the data being linked to the person.",
+        "The trials rule is a ministerial agreement, not a statute. No public register of research uses and no opt-out were found. Score: base 40, plus 3 each for accredited ethics committees and anonymisation before scientific use."
+      ],
+      "sources": [
+        {
+          "title": "Acuerdo Ministerial 82-2019, Normativa para la regulacion de ensayos clinicos en humanos (MSPAS)",
+          "url": "https://medicamentos.mspas.gob.gt/phocadownload/Acuerdo%20Ministerial%2082-2019.pdf",
+          "date": "2019-03-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 57-2008, Ley de Acceso a la Informacion Publica (OAS copy)",
+          "url": "https://www.oas.org/juridico/pdfs/mesicic4_gtm_acceso.pdf",
+          "date": "2008",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 22,
+      "summary": "Medical devices need MSPAS sanitary registration, but no rule for AI or software as a medical device was found. A national AI strategy was still being drafted with UNDP and EU funding in July 2026.",
+      "detail": [
+        "MSPAS's pharmaceutical regulator issues sanitary registration certificates for medical devices, and the official procedures catalogue lists a Q100 fee and 20 working days for new filings. No provision on AI, software change control or human oversight was found.",
+        "MINGOB reported in July 2026 that the Executive's AI strategy was being co-created with UNDP, funded by the European Union through the Joint SDG Fund. It sets guidelines, not binding duties.",
+        "A June 2026 vendor review found no AI law, no approved AI bill and no AI regulator."
+      ],
+      "sources": [
+        {
+          "title": "Solicitud de Inscripcion Sanitaria de Dispositivos Medicos, DRCPFA (Catalogo de Tramites)",
+          "url": "https://tramites.gob.gt/servicio/3362/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Avanza proceso de construccion de la Estrategia de Inteligencia Artificial del Organismo Ejecutivo (MINGOB)",
+          "url": "https://mingob.gob.gt/avanza-proceso-de-construccion-de-la-estrategia-de-inteligencia-artificial-del-organismo-ejecutivo/",
+          "date": "2026-07-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Que es la regulacion de IA en Guatemala (Levellers)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-guatemala-es",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "siloed"
+  },
+  "journeyNote": "MSPAS and IGSS each run their own electronic record, both partly rolled out. IGSS is insurer and provider, so no separate claims flow was assessed. Private care is not connected. The EU's EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Constitucion Politica de la Republica, Articulo 31",
+      "level": "National",
+      "year": "1985",
+      "what": "Right to know, correct and update what state archives and registers hold about you.",
+      "url": "https://www.oas.org/dil/esp/Constitucion_Guatemala.pdf"
+    },
+    {
+      "name": "Decreto 57-2008, Ley de Acceso a la Informacion Publica",
+      "level": "National",
+      "year": "2008",
+      "what": "Habeas data for public bodies; health data sensitive; ban and prison terms for selling personal data.",
+      "url": "https://www.oas.org/juridico/pdfs/mesicic4_gtm_acceso.pdf"
+    },
+    {
+      "name": "Decreto 90-97, Codigo de Salud",
+      "level": "National",
+      "year": "1997",
+      "what": "Right to privacy and professional secrecy in health; national health information system.",
+      "url": "https://medicamentos.mspas.gob.gt/index.php/legislacion-vigente/decretos?download=292%3Acodigo-de-salud"
+    },
+    {
+      "name": "Acuerdo Ministerial 82-2019 (ensayos clinicos en humanos)",
+      "level": "National",
+      "year": "2019",
+      "what": "Written informed consent and ethics committee approval for clinical trials.",
+      "url": "https://medicamentos.mspas.gob.gt/phocadownload/Acuerdo%20Ministerial%2082-2019.pdf"
+    },
+    {
+      "name": "IGSS Acuerdo de Gerencia 15/2018, reformed by Acuerdo 03/2026",
+      "level": "National",
+      "year": "2026",
+      "what": "Progressive IGSS electronic medical record; change log; becomes the only valid record per unit.",
+      "url": "https://www.igssgt.org/wp-content/uploads/2026/09/Acuerdo-03-2026-de-Gerencia-IGSS.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07-16",
+      "headline": "Congress committee reviews data protection bill 6464 with prison penalties",
+      "source": "Emisoras Unidas",
+      "url": "https://emisorasunidas.com/nacional/2026/07/16/comision-de-asuntos-de-seguridad-analiza-iniciativa-de-ley-de-proteccion-de-datos-personales/",
+      "why": "Guatemala still has no general data law covering private clinics and apps."
+    },
+    {
+      "date": "2026-07-03",
+      "headline": "Government drafts executive branch AI strategy with UNDP and EU funding",
+      "source": "Ministerio de Gobernacion",
+      "url": "https://mingob.gob.gt/avanza-proceso-de-construccion-de-la-estrategia-de-inteligencia-artificial-del-organismo-ejecutivo/",
+      "why": "No binding AI rules exist yet for public services, including health."
+    },
+    {
+      "date": "2026-06-24",
+      "headline": "Hacker claims sale of MSPAS databases; ministry finds no evidence so far",
+      "source": "La Hora",
+      "url": "https://lahora.gt/nacionales/hloarca/2026/06/24/ministerio-de-alud-reacciona-ante-supuesta-amenaza-cibernetica-en-su-base-de-datos/",
+      "why": "Claimed data included chronic disease patient records; no breach notice duty applies."
+    },
+    {
+      "date": "2026-04-14",
+      "headline": "Ransomware hit the National Health Laboratory; ministry says patient data safe",
+      "source": "La Hora",
+      "url": "https://lahora.gt/nacionales/kjordan/2026/04/14/salud-confirma-ataque-cibernetico-en-laboratorio-nacional-pero-asegura-que-fue-contenido-sin-que-datos-sensibles-fuera-robados/",
+      "why": "Part of a 2026 wave of attacks on state systems holding personal data."
+    },
+    {
+      "date": "2026-05-01",
+      "headline": "Hacker claims theft of health records from the statistics institute portal",
+      "source": "La Hora",
+      "url": "https://lahora.gt/nacionales/hloarca/2026/05/01/otro-ciberataque-reportan-posible-vulneracion-de-registros-sanitarios-en-el-portal-web-del-ine/",
+      "why": "Unconfirmed claim; COVID-19 related health records and personal data were allegedly exfiltrated."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

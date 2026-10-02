@@ -1,0 +1,334 @@
+{
+ "iso3": "ZWE",
+ "name": "Zimbabwe",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Zimbabwe has written health-data consent and confidentiality into law, but patients have no verified portal, no access log and a record system built for clinics.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Section 14 of the Cyber and Data Protection Act 2021 gives a right to access personal information, but sets no deadline or format. No patient portal was verified, so patients ask each provider.",
+   "detail": [
+    "The Cyber and Data Protection Act 2021 gives every data subject a right to access personal information held by a controller, and rights to object, correct and delete false data. The Act text we read sets no deadline, fee rule or machine-readable format for that request.",
+    "The Medical Services Amendment Act 2026 adds duties to tell patients their health status and treatment options, and to give a discharge report on leaving hospital. It does not create a right to a full copy of the record.",
+    "The national Impilo record is a clinician system. No patient-facing portal showing a person's own record was verified. Score follows the anchor: statutory right, no national portal, minus 5 for no fixed deadline."
+   ],
+   "sources": [
+    {
+     "title": "Cyber and Data Protection Act, Act No. 5 of 2021 (POTRAZ copy)",
+     "url": "https://www.potraz.gov.zw/wp-content/uploads/2022/02/Data-Protection-Act-5-of-2021.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Medical Services Amendment Act, Act No. 3 of 2026 (Veritas)",
+     "url": "https://www.veritaszim.net/sites/veritas_d/files/Medical%20Services%20Amendment%2C%20Act%20No.%203%20of%202026.pdf",
+     "date": "2026-07-07",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "control": {
+   "score": 32,
+   "summary": "The 2021 Act requires written, revocable consent for health data, but care under a health professional is exempt, and the 2026 amendment lets providers share records with each other in the patient's interest. No access log or opt-out was found.",
+   "detail": [
+    "Section 12 of the Cyber and Data Protection Act bans processing of health data without written consent, which can be withdrawn at any time free of charge. Ten exceptions follow, including public health, research and care under a health professional's supervision.",
+    "Under the Medical Services Amendment Act 2026, health information is confidential and disclosure needs written consent, a court order or a serious public health threat. But a provider may share records with another provider for a legitimate purpose in the patient's interest.",
+    "We found no patient-facing access log, no opt-out from record sharing and no granular consent settings. The Ministry runs the national record, so day-to-day control sits with the state and providers."
+   ],
+   "sources": [
+    {
+     "title": "Cyber and Data Protection Act, Act No. 5 of 2021 (POTRAZ copy)",
+     "url": "https://www.potraz.gov.zw/wp-content/uploads/2022/02/Data-Protection-Act-5-of-2021.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Medical Services Amendment Act, Act No. 3 of 2026 (Veritas)",
+     "url": "https://www.veritaszim.net/sites/veritas_d/files/Medical%20Services%20Amendment%2C%20Act%20No.%203%20of%202026.pdf",
+     "date": "2026-07-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Public Health Act [Chapter 15:17], No. 11 of 2018 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/zim190656.pdf",
+     "date": "2018-08-31",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Health data is sensitive under the 2021 Act, breaches go to POTRAZ within 24 hours, and the 2026 amendment criminalises unauthorised access to patient records. Enforcement only began with inspections from 1 September 2026, and no health-sector decisions were found.",
+   "detail": [
+    "The Act names health information as sensitive data. Controllers must notify POTRAZ, the telecoms regulator acting as Data Protection Authority, within 24 hours of a security breach. Breaching key duties carries a fine up to level 11, up to seven years in prison, or both.",
+    "Section 6(2) says the Authority is not subject to anyone's direction when exercising these functions. SI 155 of 2024 requires data controllers to hold a licence and appoint a data protection officer.",
+    "The Medical Services Amendment Act 2026 makes it an offence to falsify, copy without authority or gain unauthorised access to a patient record. The Public Health Act 2018 already made disclosure without consent an offence.",
+    "POTRAZ compliance inspections were scheduled to start 1 September 2026, per Bulawayo24. We found no published POTRAZ decision on a health breach, so the score sits in the general-law band, lowered for a short enforcement record."
+   ],
+   "sources": [
+    {
+     "title": "Cyber and Data Protection Act, Act No. 5 of 2021 (POTRAZ copy)",
+     "url": "https://www.potraz.gov.zw/wp-content/uploads/2022/02/Data-Protection-Act-5-of-2021.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "SI 155 of 2024, Cyber and Data Protection (Licensing of Data Controllers and Appointment of Data Protection Officers) Regulations (Veritas)",
+     "url": "https://www.veritaszim.net/node/7187",
+     "date": "2024-09-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Medical Services Amendment Act, Act No. 3 of 2026 (Veritas)",
+     "url": "https://www.veritaszim.net/sites/veritas_d/files/Medical%20Services%20Amendment%2C%20Act%20No.%203%20of%202026.pdf",
+     "date": "2026-07-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Potraz data licence fees spark backlash over cost burden (Bulawayo24)",
+     "url": "https://bulawayo24.com/index-id-news-sc-national-byo-266617.html",
+     "date": "2026-07-30",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "The Act gives a free right to object to direct marketing and needs written consent for health data, but has no rules on health apps, data brokers or sale of de-identified data. The government rejected a US aid deal partly over commercial use of samples.",
+   "detail": [
+    "Data subjects must be told of their right to object, free of charge, to use of their data for direct marketing. DLA Piper notes electronic marketing is otherwise not addressed by the Act or regulations.",
+    "We found no specific limits on selling de-identified health data, on consumer health apps, or on data brokers.",
+    "In February 2026 the government said it rejected a 367 million US dollar health deal because the US sought biological samples and data for research and commercial gain without guaranteed access to resulting products."
+   ],
+   "sources": [
+    {
+     "title": "Cyber and Data Protection Act, Act No. 5 of 2021 (POTRAZ copy)",
+     "url": "https://www.potraz.gov.zw/wp-content/uploads/2022/02/Data-Protection-Act-5-of-2021.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Zimbabwe (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/?c=ZW&t=law",
+     "date": "2026-03-20",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Zimbabwe rejects 'lopsided' US health aid deal over data concerns (BBC)",
+     "url": "https://www.bbc.com/news/articles/cwy6nd3664no",
+     "date": "2026-02-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 32,
+   "summary": "The Ministry's Impilo electronic record runs in hundreds of public clinics, but a 2025 study reports weak links to other software, and there is no national health insurance claims system. National coverage figures could not be verified.",
+   "detail": [
+    "The National Health Strategy 2021-2025 commits to deploying the Impilo electronic health record and linking the logistics system to it and to DHIS2. A May 2025 DHIS2 community post puts Impilo in over 700 facilities, covering HIV testing, ART and maternal and child health.",
+    "A 2025 evaluation of ten Harare and Bulawayo facilities found Impilo integrated primary care services but struggled with interoperability with other software and lacked data aggregation servers.",
+    "In Matabeleland South, a November 2025 study found 110 of 153 facilities fully functional on the system, with mine, border and uniformed forces clinics excluded. The national facility count was not verified.",
+    "There is no national insurance claims thread. In July 2026 the Health Minister said progress was being made toward a National Healthcare Provision Programme, formerly National Health Insurance."
+   ],
+   "sources": [
+    {
+     "title": "National Health Strategy 2021-2025 (Ministry of Health and Child Care, FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/zim225019.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Integration and Interoperability of Impilo EHR with DHIS2 (DHIS2 Community)",
+     "url": "https://community.dhis2.org/t/integration-and-interoperability-of-impilo-electronic-health-record-ehr-system-with-dhis2/64859",
+     "date": "2025-05-06",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Electronic Health Record Systems in Limited Resource Settings: An Evaluation of the Impilo Platform (Mugauri and Chimsimbe)",
+     "url": "https://ideas.repec.org/a/prg/jnlaip/v2025y2025i3id265p393-407.html",
+     "date": "2025",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Evaluating EHR (Impilo) Coverage in Matabeleland South (IJRSI)",
+     "url": "https://rsisinternational.org/journals/ijrsi/uploads/vol12-iss15-pg2476-2481-202511_pdf.pdf",
+     "date": "2025-11",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 28,
+   "summary": "The law lets a clinician examine records for treatment with consent and share them with other providers in the patient's interest. No cross-facility record view at the point of care was verified.",
+   "detail": [
+    "The Medical Services Amendment Act 2026 allows a provider to examine a patient's records for treatment with consent, and to disclose them to another provider where that serves the patient.",
+    "Impilo holds patient-level data inside each facility using it. The 2025 evaluation reported interoperability problems, and we found no evidence that a clinician can open a patient's record from another facility. This was not verified either way.",
+    "In Matabeleland South, mine, border post and uniformed forces clinics were excluded from the rollout, so their records stay in separate systems."
+   ],
+   "sources": [
+    {
+     "title": "Medical Services Amendment Act, Act No. 3 of 2026 (Veritas)",
+     "url": "https://www.veritaszim.net/sites/veritas_d/files/Medical%20Services%20Amendment%2C%20Act%20No.%203%20of%202026.pdf",
+     "date": "2026-07-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Electronic Health Record Systems in Limited Resource Settings: An Evaluation of the Impilo Platform (Mugauri and Chimsimbe)",
+     "url": "https://ideas.repec.org/a/prg/jnlaip/v2025y2025i3id265p393-407.html",
+     "date": "2025",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Evaluating EHR (Impilo) Coverage in Matabeleland South (IJRSI)",
+     "url": "https://rsisinternational.org/journals/ijrsi/uploads/vol12-iss15-pg2476-2481-202511_pdf.pdf",
+     "date": "2025-11",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "All health research needs Medical Research Council of Zimbabwe approval, and using identifiable records needs the patient's, the institution's and an ethics committee's authorisation. De-identified data is exempt and there is no opt-out register.",
+   "detail": [
+    "The Public Health Act 2018 and the Medical Services Amendment Act 2026 let a practitioner use records for research only with authorisation of the patient, the head of the institution and the ethics committee. If no identity is revealed, no authorisation is needed.",
+    "The Cyber and Data Protection Act exempts scientific research from the written consent rule for health data, and keeps health professionals under a duty of professional secrecy.",
+    "ClinRegs says all health research must be approved by the Medical Research Council of Zimbabwe. Exporting biospecimens needs Research Council of Zimbabwe clearance. Score: base 40 plus ethics body, secrecy, a misuse offence (Public Health Act section 40) and a consent route, capped at 50."
+   ],
+   "sources": [
+    {
+     "title": "Public Health Act [Chapter 15:17], No. 11 of 2018 (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/zim190656.pdf",
+     "date": "2018-08-31",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Medical Services Amendment Act, Act No. 3 of 2026 (Veritas)",
+     "url": "https://www.veritaszim.net/sites/veritas_d/files/Medical%20Services%20Amendment%2C%20Act%20No.%203%20of%202026.pdf",
+     "date": "2026-07-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "MRCZ Submission Requirements (Medical Research Council of Zimbabwe)",
+     "url": "https://mrcz.org.zw/submission-requirements/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "ClinRegs: Clinical Research Regulation for Zimbabwe (US NIH/NIAID)",
+     "url": "https://clinregs.niaid.nih.gov/country/zimbabwe",
+     "date": "2025-11-12",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 28,
+   "summary": "Zimbabwe launched a National AI Strategy 2026-2030 in March 2026 that names predictive healthcare, but no MCAZ rule for AI or software as a medical device was verified. The 2021 Act gives a right not to face solely automated decisions.",
+   "detail": [
+    "The AI strategy, launched by President Mnangagwa in March 2026, plans flagship AI projects including predictive healthcare. The President called for a legal and ethical framework for AI. It is a strategy, not a binding clinical rule.",
+    "The Medicines Control Authority of Zimbabwe medical devices page lists no guideline on software or AI devices. Section 25 of the Cyber and Data Protection Act gives a right not to be subject to a decision based solely on automated processing, unless consented or set by law.",
+    "No final or draft clinical-AI rule was found. The score sits at the top of the anchor band for no rules, reflecting the strategy and the automated-decision right."
+   ],
+   "sources": [
+    {
+     "title": "Zimbabwe Unveils 2026-2030 AI Strategy (United Nations Zimbabwe)",
+     "url": "https://zimbabwe.un.org/en/311859-zimbabwe-unveils-2026%E2%80%932030-ai-strategy-advance-inclusive-digital-transformation",
+     "date": "2026-03-14",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Medical Devices Guidelines and Regulations Docs (MCAZ)",
+     "url": "https://www.mcaz.co.zw/documents/medical-devices-docs/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cyber and Data Protection Act, Act No. 5 of 2021 (POTRAZ copy)",
+     "url": "https://www.potraz.gov.zw/wp-content/uploads/2022/02/Data-Protection-Act-5-of-2021.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "siloed",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Impilo links public primary care with DHIS2 reporting, but lab and pharmacy exchange at scale was not verified, and no national insurance claims system exists yet.",
+ "laws": [
+  {
+   "name": "Cyber and Data Protection Act, No. 5 of 2021",
+   "level": "National",
+   "year": "2021",
+   "what": "Health data needs written, revocable consent; access right; 24-hour breach notice; POTRAZ is the authority.",
+   "url": "https://www.potraz.gov.zw/wp-content/uploads/2022/02/Data-Protection-Act-5-of-2021.pdf"
+  },
+  {
+   "name": "SI 155 of 2024, Licensing of Data Controllers and Appointment of DPOs Regulations",
+   "level": "National",
+   "year": "2024",
+   "what": "Data controllers must be licensed by POTRAZ and appoint data protection officers.",
+   "url": "https://www.veritaszim.net/node/7187"
+  },
+  {
+   "name": "Public Health Act [Chapter 15:17], No. 11 of 2018",
+   "level": "National",
+   "year": "2018",
+   "what": "Patient information is confidential; record use for treatment or research needs authorisation.",
+   "url": "https://faolex.fao.org/docs/pdf/zim190656.pdf"
+  },
+  {
+   "name": "Medical Services Amendment Act, No. 3 of 2026",
+   "level": "National",
+   "year": "2026",
+   "what": "Informed consent, confidentiality, record protection offences, discharge reports, and Permanent Secretary sanctions.",
+   "url": "https://www.veritaszim.net/sites/veritas_d/files/Medical%20Services%20Amendment%2C%20Act%20No.%203%20of%202026.pdf"
+  },
+  {
+   "name": "Zimbabwe National Artificial Intelligence Strategy 2026-2030",
+   "level": "National",
+   "year": "2026",
+   "what": "Non-binding plan with flagship AI projects, including predictive healthcare.",
+   "url": "https://zimbabwe.un.org/en/311859-zimbabwe-unveils-2026%E2%80%932030-ai-strategy-advance-inclusive-digital-transformation"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-02-25",
+   "headline": "Zimbabwe rejects 367 million dollar US health deal over data and samples",
+   "source": "BBC",
+   "url": "https://www.bbc.com/news/articles/cwy6nd3664no",
+   "why": "Government refused to share patients' samples and data without guaranteed benefits."
+  },
+  {
+   "date": "2026-07-09",
+   "headline": "Health ministry launches National Health Strategy 2026-2030",
+   "source": "Health Times",
+   "url": "https://healthtimes.co.zw/zimbabwe-launches-national-health-strategy-2026-2030/",
+   "why": "Sets the plan for health financing and the delayed national insurance programme."
+  },
+  {
+   "date": "2026-07-30",
+   "headline": "POTRAZ data controller licence fees draw criticism before inspections start",
+   "source": "Bulawayo24",
+   "url": "https://bulawayo24.com/index-id-news-sc-national-byo-266617.html",
+   "why": "Clinics holding health data face licensing and inspections from 1 September 2026."
+  },
+  {
+   "date": "2026-09-23",
+   "headline": "US to end all health funding in Zimbabwe after rejected deal",
+   "source": "allAfrica",
+   "url": "https://allafrica.com/view/group/main/main/id/00098219.html",
+   "why": "Ends more than 20 years of US health programme funding at the end of September."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

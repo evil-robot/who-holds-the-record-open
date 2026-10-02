@@ -1,0 +1,362 @@
+{
+ "iso3": "PAK",
+ "name": "Pakistan",
+ "region": "Asia",
+ "controlModel": "Institutional",
+ "headline": "Pakistan has no data protection law, mostly paper records and no patient portal, so patients rely on doctors' ethics rules to protect records.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 25,
+   "summary": "Pakistan has no data protection law giving a right to a copy of one's record; the 2023 bill was withdrawn in a Senate committee. An older doctors' ethics code allows copies or summaries, with no deadline; the 2026 code's wording was not verified, and there is no portal.",
+   "detail": [
+    "The Pakistan Medical and Dental Council (PMDC) Code of Ethics says a patient 'is entitled to obtain copies or summaries of their medical records'. It sets no deadline, fee rule or format. The version we opened predates the code revised in 2026; what the new code says on copies was not verified.",
+    "The Personal Data Protection Bill, 2023 was withdrawn from a Senate committee after it was neither passed nor rejected.",
+    "A draft National Data Governance Policy (June 2026) would give citizens a right to know what data government bodies hold about them. It covers federal public bodies only and was still a draft.",
+    "No national or provincial patient portal was found. A May 2026 journal viewpoint says patients carry clinical notes and records themselves on paper."
+   ],
+   "sources": [
+    {
+     "title": "PMDC Code of Ethics of Practice for Medical and Dental Practitioners (pre-2026 version, university mirror)",
+     "url": "https://fjmu.edu.pk/wp-content/uploads/2022/10/PMDC-Code-of-ethic.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Personal Data Protection Bill, 2023: bill summary (Senate of Pakistan)",
+     "url": "https://www.senate.gov.pk/en/billsummary.php?bid=1182",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Data Governance Policy (Pakistan Digital Authority)",
+     "url": "https://pda.gov.pk/press-details.php?id=data-governance-policy",
+     "date": "2026-06-30",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Towards Connected Care: Why Pakistan Needs Integrated Electronic Health Records (JCPSP)",
+     "url": "https://jcpsp.pk/article-detail/ptowards-connected-care-why-pakistan-needs-integrated-electronic-health-recordsorp",
+     "date": "2026-05",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "control": {
+   "score": 25,
+   "summary": "The only consent rule is in the doctors' ethics code: records must not be handed to anyone without the patient's consent. There is no opt-out, no access log and no digital consent tool, and providers decide in practice.",
+   "detail": [
+    "The PMDC code bars handing a patient's medical record to any person without consent, but allows disclosure to the Council or law enforcement agencies and where law requires notification.",
+    "In January 2026 Punjab ordered bodycams for nurses, ward boys, guards and pharmacy staff in hospitals. The Pakistan Medical Association said the order violates patients' privacy and confidentiality.",
+    "In March 2026 the PMDC issued notices over the filming of patients in a Lahore operating theatre, calling recording without consent a serious ethics breach.",
+    "No law or system lets a patient see who opened their record or block sharing."
+   ],
+   "sources": [
+    {
+     "title": "PMDC Code of Ethics of Practice for Medical and Dental Practitioners (pre-2026 version, university mirror)",
+     "url": "https://fjmu.edu.pk/wp-content/uploads/2022/10/PMDC-Code-of-ethic.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Officials, healthcare workforce decry mandatory bodycam order for Punjab hospital staff (Dawn)",
+     "url": "https://www.dawn.com/news/1966378",
+     "date": "2026-01-12",
+     "publisherClass": "news"
+    },
+    {
+     "title": "PM&DC seeks explanation over alleged filming of patients in operation theatre (PM&DC press release)",
+     "url": "https://pmdc.pk/Documents/press/Press%20Release30-03-2026.pdf",
+     "date": "2026-03-30",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 28,
+   "summary": "Pakistan has no general or health data protection law, so health records rely on a criminal cyber law and professional confidentiality rules. Pakistan is not on the EU adequacy list, and the EU's EHDS does not apply.",
+   "detail": [
+    "The Prevention of Electronic Crimes Act, 2016 (PECA) punishes unauthorised access to information systems and the unauthorised sale or use of identity information, the latter with up to three years in prison or a fine up to five million rupees.",
+    "The Punjab and Islamabad healthcare regulation acts bar inspectors from disclosing what they see in medical records, but set no patient privacy rights or breach notice.",
+    "There is no independent data protection authority. The draft government data policy would require breach notice to the Pakistan Digital Authority, but only for federal public bodies.",
+    "A digital engineering firm co-founder told the Express Tribune in August 2026 that institutions run under varying privacy policies. No major Pakistani health data breach in the last 12 months was verified."
+   ],
+   "sources": [
+    {
+     "title": "Prevention of Electronic Crimes Act, 2016 (National Assembly)",
+     "url": "https://www.na.gov.pk/uploads/documents/1470910659_707.pdf",
+     "date": "2016",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "IT ministry unveils draft data governance policy (Dawn)",
+     "url": "https://www.dawn.com/news/2011804",
+     "date": "2026-06-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Gaps drive AI push at private hospitals (Express Tribune)",
+     "url": "https://tribune.com.pk/story/2623568/gaps-drive-ai-push-at-private-hospitals",
+     "date": "2026-08-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 27,
+   "summary": "No law limits selling health data, marketing with it or health apps. Only PECA's ban on selling identity information and a 2026 research rule against selling health research data apply.",
+   "detail": [
+    "PECA, 2016 makes it an offence to obtain, sell or transmit another person's identity information without authorisation.",
+    "The National Bioethics Committee framework (July 2026) treats selling health research data or sharing genomic data for unauthorised commercial gain as a severe violation, referred to the FIA cyber crime wing.",
+    "No rules on health data brokers, de-identified data sales or consumer health apps were found. The Express Tribune reported that, lacking a local framework, organisations look to HIPAA and GDPR as privacy baselines."
+   ],
+   "sources": [
+    {
+     "title": "Prevention of Electronic Crimes Act, 2016 (National Assembly)",
+     "url": "https://www.na.gov.pk/uploads/documents/1470910659_707.pdf",
+     "date": "2016",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Regulatory framework for violations of NBC-HRI data sharing approval requirements (Health Research Institute, NIH)",
+     "url": "https://www.nih.org.pk/wp-content/uploads/2026/07/regulatory-framework-for-violations-of-nbc-hri-data-sharing-approval-requirements.pdf",
+     "date": "2026-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Gaps drive AI push at private hospitals (Express Tribune)",
+     "url": "https://tribune.com.pk/story/2623568/gaps-drive-ai-push-at-private-hospitals",
+     "date": "2026-08-13",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 24,
+   "summary": "Care records are mostly on paper and stay with each provider; a national unified medical record was only named as a priority in August 2026. The national insurance scheme, run through State Life with NADRA under contract, is the one wider thread.",
+   "detail": [
+    "A May 2026 viewpoint in the Journal of the College of Physicians and Surgeons Pakistan calls the system 'largely fragmented and paper-based'.",
+    "In August 2026 the health minister and the Pakistan Digital Authority listed 'Developing Unified Medical Records for citizens nationwide' and stronger referral systems as priorities.",
+    "The Sehat Sahulat programme restarted in January 2026 for over 10 million residents of Islamabad, AJK and Gilgit-Baltistan, with contracts for State Life and NADRA extended.",
+    "The Digital Nation Pakistan Act, 2025 requires a health sectoral plan and a government Data Exchange Layer. No live health record exchange was verified."
+   ],
+   "sources": [
+    {
+     "title": "Towards Connected Care: Why Pakistan Needs Integrated Electronic Health Records (JCPSP)",
+     "url": "https://jcpsp.pk/article-detail/ptowards-connected-care-why-pakistan-needs-integrated-electronic-health-recordsorp",
+     "date": "2026-05",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Pakistan's Health Sector Sets Its Digital Priorities (Pakistan Digital Authority)",
+     "url": "https://pda.gov.pk/press-details.php?id=pakistan-s-health-sector-sets-its-digita",
+     "date": "2026-08-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Islamabad, AJK, GB residents to get back health insurance from Jan 16 (Dawn)",
+     "url": "https://www.dawn.com/news/1966599",
+     "date": "2026-01-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "E-Health implementation in Pakistan: challenges, opportunities, and the path forward (Frontiers in Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13167984/",
+     "date": "2026-04-29",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "Treating doctors usually see only their own facility's notes and what the patient brings on paper. Pakistan lacks a unified electronic record across hospitals, a digital engineering firm co-founder told the Express Tribune in August 2026.",
+   "detail": [
+    "A 2026 journal viewpoint says that without electronic records, information for complex patients sits in silos and patients carry their own notes on paper.",
+    "The national ID card gives a reliable unique identifier for adults, but technical and policy standards for sharing are missing, according to the same Express Tribune report.",
+    "A unified medical record is a stated priority of the health ministry and the Pakistan Digital Authority, not a working service."
+   ],
+   "sources": [
+    {
+     "title": "Towards Connected Care: Why Pakistan Needs Integrated Electronic Health Records (JCPSP)",
+     "url": "https://jcpsp.pk/article-detail/ptowards-connected-care-why-pakistan-needs-integrated-electronic-health-recordsorp",
+     "date": "2026-05",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Gaps drive AI push at private hospitals (Express Tribune)",
+     "url": "https://tribune.com.pk/story/2623568/gaps-drive-ai-push-at-private-hospitals",
+     "date": "2026-08-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Pakistan's Health Sector Sets Its Digital Priorities (Pakistan Digital Authority)",
+     "url": "https://pda.gov.pk/press-details.php?id=pakistan-s-health-sector-sets-its-digita",
+     "date": "2026-08-20",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 45,
+   "summary": "Health research needs ethics approval and informed consent, and a July 2026 national framework bars sharing research data without National Bioethics Committee approval. There is no rule on secondary use of routine care records and no opt-out.",
+   "detail": [
+    "The National Bioethics Committee calls itself the sole statutory body for health research ethics and says no health research, data collection or sharing may happen without its approval.",
+    "Its 2026 framework penalises sharing beyond the scope of consent, failing to anonymise, missing data use agreements and hiding breaches, with fines up to PKR 1,000,000 and blacklisting.",
+    "The PMDC code requires that research subjects take part willingly after being informed and give consent. How these rules are enforced in practice was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Regulatory framework for violations of NBC-HRI data sharing approval requirements (Health Research Institute, NIH)",
+     "url": "https://www.nih.org.pk/wp-content/uploads/2026/07/regulatory-framework-for-violations-of-nbc-hri-data-sharing-approval-requirements.pdf",
+     "date": "2026-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "PMDC Code of Ethics of Practice for Medical and Dental Practitioners (pre-2026 version, university mirror)",
+     "url": "https://fjmu.edu.pk/wp-content/uploads/2022/10/PMDC-Code-of-ethic.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "PM&DC enforces patient safety code of ethics (The News)",
+     "url": "https://www.thenews.pk/print/1402412-pm-dc-enforces-patient-safety-code-of-ethics",
+     "date": "2026-03-03",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "ai": {
+   "score": 22,
+   "summary": "The National AI Policy 2025 is a non-binding strategy that names medical record digitisation and telemedicine as health priorities. No binding rule for clinical AI, and no AI-specific device rule from the drug regulator, was verified.",
+   "detail": [
+    "The Federal Cabinet adopted the National AI Policy on 30 July 2025. It plans an AI Council and sector roadmaps; a tracker records it as non-binding.",
+    "The Drug Regulatory Authority of Pakistan classes devices A to D. Whether its rules cover AI software, change control or human oversight was not verified; its website could not be opened.",
+    "In June 2026 a Pakistan Center for Digital Health was set up, under the health ministry's patronage, through an agreement between Digital Health Pakistan and the Health Services Academy."
+   ],
+   "sources": [
+    {
+     "title": "National Artificial Intelligence Policy 2025 (Ministry of IT and Telecommunication)",
+     "url": "https://moitt.gov.pk/SiteImage/Policies/National%20AI%20Policy.pdf",
+     "date": "2025-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Artificial Intelligence Policy 2025 (AI Policy Tracker)",
+     "url": "https://aipolicytracker.org/policies/pakistan-national-artificial-intelligence-policy-2025",
+     "date": "2026-09-11",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Pakistan DRAP: Medical Device Regulator Guide (Pure Global)",
+     "url": "https://www.pureglobal.com/glossary/pakistan-drap",
+     "date": "2026-07-24",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "National Centre for Digital Health established to drive telemedicine, AI and health innovation (The News)",
+     "url": "https://www.thenews.pk/print/1420485-national-centre-for-digital-health-established-to-drive-telemedicine-ai-and-health-innovation",
+     "date": "2026-06-14",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "partial",
+  "publicHealth": "unknown",
+  "research": "siloed"
+ },
+ "journeyNote": "Records stay on paper or inside each facility. Sehat Sahulat insurance runs through State Life, with NADRA under contract. A unified medical record is a 2026 priority, not yet built.",
+ "laws": [
+  {
+   "name": "Prevention of Electronic Crimes Act, 2016",
+   "level": "National",
+   "year": "2016",
+   "what": "Cybercrime law: unauthorised access and sale of identity information are offences; no data subject rights.",
+   "url": "https://www.na.gov.pk/uploads/documents/1470910659_707.pdf"
+  },
+  {
+   "name": "Digital Nation Pakistan Act, 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Creates digital commission and authority; requires a health sectoral plan and a Data Exchange Layer.",
+   "url": "https://www.pda.gov.pk/downloads/Digital-Nation-Pakistan-Act-1-of-2025.pdf"
+  },
+  {
+   "name": "PMDC Code of Ethics of Practice for Medical and Dental Practitioners",
+   "level": "National",
+   "year": "undated",
+   "what": "Patients may get copies or summaries of records; records not handed over without consent.",
+   "url": "https://fjmu.edu.pk/wp-content/uploads/2022/10/PMDC-Code-of-ethic.pdf"
+  },
+  {
+   "name": "Islamabad Healthcare Regulation Act, 2018",
+   "level": "Regional",
+   "year": "2018",
+   "what": "Licenses Islamabad health facilities; inspectors may not disclose medical record contents.",
+   "url": "https://ihra.gov.pk/wp-content/uploads/2021/07/IHRA-Act-2018.pdf"
+  },
+  {
+   "name": "Punjab Healthcare Commission Act 2010",
+   "level": "State/Provincial",
+   "year": "2010",
+   "what": "Regulates Punjab health facilities; may make regulations on patient records; inspectors bound to secrecy.",
+   "url": "https://os.phc.org.pk/downloads/PHC_Final_Act.pdf"
+  },
+  {
+   "name": "NBC-HRI regulatory framework on health research data sharing",
+   "level": "National",
+   "year": "2026",
+   "what": "No health research data sharing without National Bioethics Committee approval; tiered penalties.",
+   "url": "https://www.nih.org.pk/wp-content/uploads/2026/07/regulatory-framework-for-violations-of-nbc-hri-data-sharing-approval-requirements.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-12",
+   "headline": "Punjab orders hospital staff bodycams; doctors warn of patient privacy harm",
+   "source": "Dawn",
+   "url": "https://www.dawn.com/news/1966378",
+   "why": "Footage of wards and treatment could expose patients with no consent rules."
+  },
+  {
+   "date": "2026-03-03",
+   "headline": "Medical council enforces revised code of ethics covering confidentiality and records",
+   "source": "The News",
+   "url": "https://www.thenews.pk/print/1402412-pm-dc-enforces-patient-safety-code-of-ethics",
+   "why": "The ethics code is patients' main source of record and confidentiality rights."
+  },
+  {
+   "date": "2026-06-30",
+   "headline": "IT ministry publishes draft data governance policy for federal bodies",
+   "source": "Dawn",
+   "url": "https://www.dawn.com/news/2011804",
+   "why": "Would let citizens see who in government accessed their data; private hospitals not covered."
+  },
+  {
+   "date": "2026-08-13",
+   "headline": "Private hospitals push AI despite no unified records or privacy law",
+   "source": "Express Tribune",
+   "url": "https://tribune.com.pk/story/2623568/gaps-drive-ai-push-at-private-hospitals",
+   "why": "Patient data flows into AI tools under each hospital's own privacy policy."
+  },
+  {
+   "date": "2026-08-20",
+   "headline": "Health ministry and digital authority name unified medical records a priority",
+   "source": "Pakistan Digital Authority",
+   "url": "https://pda.gov.pk/press-details.php?id=pakistan-s-health-sector-sets-its-digita",
+   "why": "A national record could end paper files, but no consent design is published."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

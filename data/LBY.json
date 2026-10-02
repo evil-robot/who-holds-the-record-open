@@ -1,0 +1,345 @@
+{
+ "iso3": "LBY",
+ "name": "Libya",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Libya has no data protection law and mostly paper records; a 1986 law protects medical secrets, but patients have no verified right to their file.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 20,
+   "summary": "No Libyan law we opened gives patients a right to see or copy their medical record, and Libya has no data protection law. Records are still mostly on paper, and no patient portal was found.",
+   "detail": [
+    "The Medical Responsibility Law (No. 17 of 1986) makes doctors record a patient's condition and medical history, but it gives the patient no right to see or copy that record.",
+    "The e-Transactions Law (No. 6 of 2022) gives a right to access and update personal data, but Article 77 places that duty on certification service providers, not hospitals or clinics.",
+    "Libya has no general data protection law and no data protection authority, according to DLA Piper and a governance tracker researched in August 2026.",
+    "A 2026 study at Ajdabiya's central teaching hospital says Libyan health facilities still rely largely on paper records, and electronic records are used only to a limited extent. We found no national or hospital patient portal."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 17 of 1986 on Medical Responsibility (Law Society of Libya)",
+     "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-17-%D9%84%D8%B3%D9%86%D8%A9-1986-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A/",
+     "date": "1986",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 6 of 2022 on Electronic Transactions (Law Society of Libya)",
+     "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-6-%D9%84%D8%B3%D9%86%D8%A9-2022-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83/",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Libya (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=LY",
+     "date": "2024-01-18",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Physicians' perceptions of the expected impact of electronic medical records: Ajdabiya case study (Fezzan University Scientific Journal)",
+     "url": "https://fezzanu.edu.ly/fusj/index.php/FUAJ/article/download/831/547",
+     "date": "2026-07-20",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "control": {
+   "score": 22,
+   "summary": "Patients have no legal tools to decide who sees their health record: no opt-out, no granular consent and no access log. The main protection is a 1986 duty on medical staff to keep patient secrets.",
+   "detail": [
+    "Article 13 of the Medical Responsibility Law bars disclosing patient secrets learned through practice, except to judicial bodies under the law. Article 6 bars treating a patient without consent, with exceptions for incapacity and public safety.",
+    "The e-Transactions Law (Articles 73 and 75) requires explicit consent before public bodies or certification service providers collect, use or disclose personal data. Law firm Eltumi says its reach over private firms is unclear.",
+    "No executive regulation for the e-Transactions Law had been published when Eltumi reviewed it in December 2023, and we found none since.",
+    "With records mostly on paper and held by each facility, control sits with institutions. We found no patient-facing consent or access log anywhere in the health system."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 17 of 1986 on Medical Responsibility (Law Society of Libya)",
+     "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-17-%D9%84%D8%B3%D9%86%D8%A9-1986-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A/",
+     "date": "1986",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 6 of 2022 on Electronic Transactions (Law Society of Libya)",
+     "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-6-%D9%84%D8%B3%D9%86%D8%A9-2022-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83/",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection under Libya's e-Transactions Law (Eltumi & Partners)",
+     "url": "https://eltumipartners.com/2023/12/data-protection-under-libya-e-transactions-law/",
+     "date": "2023-12-14",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 25,
+   "summary": "Libya has no data protection law, no data regulator and no breach notice rule. Health data relies on medical secrecy in the 1986 law and a 2022 cybercrime law that punishes altering or hiding medical results.",
+   "detail": [
+    "The 2011 Constitutional Declaration protects private life (Article 12) and private communications (Article 13). No statute turns this into health-data rules, and Libya has not joined the Malabo Convention or Convention 108.",
+    "The Cybercrime Law (No. 5 of 2022) punishes destroying, altering or concealing medical tests, diagnoses or treatment results by electronic means with prison (Article 40). Article 7 lets the national information security authority monitor and block online content.",
+    "NISSA, the national information security authority, publishes data policies, but DLA Piper says they bind only the public sector. There is no data protection authority.",
+    "Libya is not in the EU, so GDPR and the European Health Data Space do not apply, and it has no EU adequacy decision. No health data breach in the last 12 months was found."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 5 of 2022 on Combating Cybercrimes (Law Society of Libya)",
+     "url": "https://lawsociety.ly/en/legislation/law-no-5-of-2022-regarding-combating-cybercrimes/",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Libya data protection fact sheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/libya/",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Libya (Governance Atlas)",
+     "url": "https://atlas.ayoadeabel.tech/countries/libya",
+     "date": "2026-08",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Data protection laws in Libya (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=LY",
+     "date": "2024-01-18",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 25,
+   "summary": "No Libyan law limits selling health data or using it for marketing, because there is no data protection law. The 1986 law only bars medical staff from exploiting a patient's need for their own gain.",
+   "detail": [
+    "Article 4 of the Medical Responsibility Law bars anyone in a medical profession from exploiting a patient's need to benefit themselves or others. It does not mention data.",
+    "Article 73 of the e-Transactions Law bars using collected personal data for any other purpose without the person's explicit consent. It is addressed to public bodies and certification service providers, and its reach over private companies is unclear.",
+    "We found no rules on health data brokers, de-identified data sales or consumer health apps. Only banks face a dedicated data regime, under Central Bank Circular No. 18 of 2025."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 17 of 1986 on Medical Responsibility (Law Society of Libya)",
+     "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-17-%D9%84%D8%B3%D9%86%D8%A9-1986-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A/",
+     "date": "1986",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 6 of 2022 on Electronic Transactions (Law Society of Libya)",
+     "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-6-%D9%84%D8%B3%D9%86%D8%A9-2022-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83/",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Libya (Governance Atlas)",
+     "url": "https://atlas.ayoadeabel.tech/countries/libya",
+     "date": "2026-08",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "journey": {
+   "score": 18,
+   "summary": "The Ministry of Health's information centre runs DHIS2 for aggregate facility statistics, but patient records do not follow people between clinics, hospitals, labs and pharmacies. A 2026 study says paper records still dominate.",
+   "detail": [
+    "The Health Information and Documentation Centre, set up in 2006, runs DHIS2 as the national platform for routine facility statistics and surveys. It reports figures, not individual patient records.",
+    "A 2026 study at Ajdabiya's central teaching hospital says health information systems are not used routinely at national or local level, and records have limited interoperability between facilities.",
+    "In May 2026 the ministry and WHO signed a 2026 to 2027 framework that lists digital health transformation as a priority. A national school health and nutrition e-system, with referral tracking, is due to launch under a 2026 to 2030 strategy.",
+    "We found no national electronic health record, health information exchange or e-prescription service in operation."
+   ],
+   "sources": [
+    {
+     "title": "Health Information and Documentation Centre (Ministry of Health)",
+     "url": "https://moh.gov.ly/pages/centers-offices/health-info-center",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "WHO and Libya's Ministry of Health sign Strategic Collaboration Framework (WHO EMRO)",
+     "url": "https://www.emro.who.int/lby/libya-news/who-and-libyas-ministry-of-health-sign-strategic-collaboration-framework-to-strengthen-the-national-health-system.html",
+     "date": "2026-05-05",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Libya launches two national initiatives to transform community and school health (United Nations Libya)",
+     "url": "https://libya.un.org/en/316616-libya-launches-two-national-initiatives-transform-community-and-school-health",
+     "date": "2026-06-03",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Physicians' perceptions of the expected impact of electronic medical records: Ajdabiya case study (Fezzan University Scientific Journal)",
+     "url": "https://fezzanu.edu.ly/fusj/index.php/FUAJ/article/download/831/547",
+     "date": "2026-07-20",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 17,
+   "summary": "The 1986 law obliges a doctor to share what they know about a patient with other treating doctors on request, but there is no shared record. A clinician mostly sees only the paper file their own facility holds.",
+   "detail": [
+    "Article 5 of the Medical Responsibility Law requires doctors to cooperate with other doctors treating the patient and to provide information about the patient's condition and treatment whenever asked.",
+    "In practice this means calls or paper copies. No shared record or exchange between providers was found.",
+    "The 2026 Ajdabiya study lists slow procedures, hard access to medical files and limited sharing between departments and facilities as results of paper-based records."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 17 of 1986 on Medical Responsibility (Law Society of Libya)",
+     "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-17-%D9%84%D8%B3%D9%86%D8%A9-1986-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A/",
+     "date": "1986",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Physicians' perceptions of the expected impact of electronic medical records: Ajdabiya case study (Fezzan University Scientific Journal)",
+     "url": "https://fezzanu.edu.ly/fusj/index.php/FUAJ/article/download/831/547",
+     "date": "2026-07-20",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "No law sets consent or opt-out rules for reusing health records in research. Two safeguards count: a national bioethics committee set up in 2016, and a 1990 law that jails misuse of personal data collected for state studies.",
+   "detail": [
+    "Article 15 of the Medical Responsibility Law bans scientific experiments on a living person without their consent and outside accepted scientific practice. This covers trials, not reuse of records.",
+    "Law No. 4 of 1990 limits personal data in the national information system to economic and social studies and bars publishing it in an identifiable way. Misuse can bring six months to a year in prison, fines of LYD 1,000 to 2,000, or both.",
+    "Sebha University says a National Committee for Biosafety and Bioethics was created in 2016. Universities run their own research ethics committees. How the national committee reviews health data studies was not found.",
+    "We found no public register of data uses and no patient opt-out from research."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 4 of 1990 on the National System for Information and Documentation (DCAF Libya legal database)",
+     "url": "https://security-legislation.ly/ar/latest-laws/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-4-%D9%84%D8%B3%D9%86%D8%A9-1990-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D9%84/",
+     "date": "1990",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 17 of 1986 on Medical Responsibility (Law Society of Libya)",
+     "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-17-%D9%84%D8%B3%D9%86%D8%A9-1986-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A/",
+     "date": "1986",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Research ethics committee (Sebha University)",
+     "url": "https://sebhau.edu.ly/research-ethics-committee/",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "In June 2026 the Prime Minister adopted a national AI Ethics Charter saying AI should support, not replace, human decisions in health. It is a voluntary reference, like Egypt's 2023 charter, and no rules for AI medical devices or software were found.",
+   "detail": [
+    "On 1 June 2026 the Government of National Unity launched the National AI Strategy 2026 to 2030 and adopted the Charter. The Charter names health as a sensitive sector where AI must support human decisions.",
+    "OECD.AI lists health among the strategy's priority sectors for pilots. It says the strategy notes there is no unified national AI body and proposes a National AI Authority.",
+    "In March 2026 the health ministry approved a 2026 medical products registration regulation. Ean Libya's account of it does not mention software or AI.",
+    "The Charter is a national reference with no binding rules, regulator or device rules behind it. That is the no-rules band, so the score matches Egypt (25), which also has a voluntary charter and strategy."
+   ],
+   "sources": [
+    {
+     "title": "Dbaiba adopts AI Ethics Charter and launches National AI Strategy 2026 to 2030 (Libyan News Agency)",
+     "url": "https://lana.gov.ly/post.php?lang=en&id=358532",
+     "date": "2026-06-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Artificial Intelligence Strategy of Libya 2025 to 2030 (OECD.AI)",
+     "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-of-libya-2025-2030",
+     "date": "2026-04-23",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Health ministry approves medical products registration regulation (Ean Libya)",
+     "url": "https://www.eanlibya.com/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%AA%D8%B9%D8%AA%D9%85%D8%AF-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7/",
+     "date": "2026-03-04",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "DHIS2 gathers aggregate facility statistics for the ministry, but patient records stay on paper in each facility. No national record, exchange or e-prescription service was found; a school health e-system is planned.",
+ "laws": [
+  {
+   "name": "Constitutional Declaration of 2011, Articles 12 and 13",
+   "level": "National",
+   "year": "2011",
+   "what": "Protects private life and the confidentiality of correspondence and communications.",
+   "url": "https://dataprotection.africa/libya/"
+  },
+  {
+   "name": "Health Law No. 106 of 1973",
+   "level": "National",
+   "year": "1973",
+   "what": "Licenses health facilities, pharmacies and medical professions; we found no patient record access clause.",
+   "url": "https://security-legislation.ly/ar/latest-laws/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-106-%D9%84%D8%B3%D9%86%D8%A9-1973-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84/"
+  },
+  {
+   "name": "Medical Responsibility Law No. 17 of 1986",
+   "level": "National",
+   "year": "1986",
+   "what": "Medical secrecy, treatment consent, record-keeping duty, consent for experiments on people.",
+   "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-17-%D9%84%D8%B3%D9%86%D8%A9-1986-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A/"
+  },
+  {
+   "name": "Law No. 4 of 1990 on the National System for Information and Documentation",
+   "level": "National",
+   "year": "1990",
+   "what": "Personal data collected for state studies stays confidential; misuse brings prison and fines.",
+   "url": "https://security-legislation.ly/ar/latest-laws/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-4-%D9%84%D8%B3%D9%86%D8%A9-1990-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D9%84/"
+  },
+  {
+   "name": "Law No. 5 of 2022 on Combating Cybercrimes",
+   "level": "National",
+   "year": "2022",
+   "what": "Punishes unlawful access and electronic tampering with medical results; allows state content monitoring.",
+   "url": "https://lawsociety.ly/en/legislation/law-no-5-of-2022-regarding-combating-cybercrimes/"
+  },
+  {
+   "name": "Law No. 6 of 2022 on Electronic Transactions",
+   "level": "National",
+   "year": "2022",
+   "what": "Consent, notice and access duties for personal data, mainly binding certification service providers.",
+   "url": "https://lawsociety.ly/legislation/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-6-%D9%84%D8%B3%D9%86%D8%A9-2022-%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-03-04",
+   "headline": "Health ministry approves 2026 regulation for registering medical products",
+   "source": "Ean Libya",
+   "url": "https://www.eanlibya.com/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%AA%D8%B9%D8%AA%D9%85%D8%AF-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7/",
+   "why": "The new rules cover medicines and pricing, with no reported rules for medical software or AI."
+  },
+  {
+   "date": "2026-05-05",
+   "headline": "WHO and health ministry sign 2026 to 2027 framework including digital health",
+   "source": "WHO EMRO",
+   "url": "https://www.emro.who.int/lby/libya-news/who-and-libyas-ministry-of-health-sign-strategic-collaboration-framework-to-strengthen-the-national-health-system.html",
+   "why": "Digital health is now a stated priority, but no patient record system is yet in place."
+  },
+  {
+   "date": "2026-06-01",
+   "headline": "Prime Minister adopts AI Ethics Charter and launches 2026 to 2030 AI strategy",
+   "source": "Libyan News Agency (LANA)",
+   "url": "https://lana.gov.ly/post.php?lang=en&id=358532",
+   "why": "The charter says AI must support, not replace, human decisions in health care."
+  },
+  {
+   "date": "2026-06-03",
+   "headline": "School health strategy to bring electronic tracking and referral of student health",
+   "source": "United Nations Libya",
+   "url": "https://libya.un.org/en/316616-libya-launches-two-national-initiatives-transform-community-and-school-health",
+   "why": "Children's health data will be recorded digitally, with no data protection law in force."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

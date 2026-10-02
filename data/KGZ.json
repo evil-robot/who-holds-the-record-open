@@ -1,0 +1,326 @@
+{
+  "iso3": "KGZ",
+  "name": "Kyrgyzstan",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Kyrgyz patients see visits, hospital stays and lab results in the Tunduk app, but clinics must send data to the state with no opt-out found.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 60,
+      "summary": "Since February 2026 the Digital Code gives access to all a person's digital data within 7 working days, a copy only if the holder chooses. The Tunduk app shows visits, hospital stays and lab results, but private care is missing and usage was not verified.",
+      "detail": [
+        "The 2024 Health Law (Article 68) gives patients a right to information about their health, including test results, diagnosis and treatment. It does not set out a right to a copy of the medical record.",
+        "The Digital Code (Article 73), in force since February 2026, lets a person ask for access to all digital data a record owner holds about them. The owner must answer within 7 working days and may choose to give a full copy instead.",
+        "The Health Ministry's digital health profile in the Tunduk app shows the assigned clinic, insurance status, primary care visits, hospital stays, lab results, vaccinations and sick notes. It holds data from 2018 to 2019 onward and opens with an electronic signature.",
+        "Visits to private doctors and private labs are not shown yet, and no export of the record was found. How many people use the profile was not verified, so the score sits at the bottom of the portal band."
+      ],
+      "sources": [
+        {
+          "title": "Digital Code of the Kyrgyz Republic No. 178, Article 73 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+          "date": "2025-07-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 14 on Health Protection of Citizens, Article 68 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/4-5260/edition/23422/ru",
+          "date": "2024-01-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital health profile: how to see all your medical information (24.kg)",
+          "url": "https://24.kg/obschestvo/291005_tsifrovoy_profil_zdorovya_kak_uznat_vsyu_meditsinskuyu_informatsiyu_osebe/",
+          "date": "2025-10-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 35,
+      "summary": "The Health Law ties consent for electronic records to consent to treatment, and clinics must send data to the state system. We found no opt-out and no access log patients can see, though only the family doctor can open the digital card.",
+      "detail": [
+        "Article 45 of the 2024 Health Law says electronic medical records are built during care, based on the patient's informed consent to receive care. Clinics, the ministry, the insurance fund and research bodies may access the data with consent, only as far as needed.",
+        "The same article obliges health organisations to transmit data in the form and volume set by the Cabinet. Article 84 of the Digital Code gives a general right to object to some processing, but we found no rule letting a patient refuse this transfer.",
+        "The Health Ministry told 24.kg that only the patient's family doctor can see the digital patient card. Patients can report wrong entries through the Tunduk app.",
+        "The Digital Code lets a person ask who has access to their data, but we found no patient-visible log of who opened a health record. This places Kyrgyzstan at the top of the lowest control band."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 14 on Health Protection of Citizens, Article 45 Digital health (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/4-5260/edition/23422/ru",
+          "date": "2024-01-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Code of the Kyrgyz Republic No. 178, Article 73 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+          "date": "2025-07-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital health profile: how to see all your medical information (24.kg)",
+          "url": "https://24.kg/obschestvo/291005_tsifrovoy_profil_zdorovya_kak_uznat_vsyu_meditsinskuyu_informatsiyu_osebe/",
+          "date": "2025-10-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 42,
+      "summary": "Health data is a special category under the 2025 Digital Code, and incidents must be reported to the regulator within 72 hours. Fines approved by parliament in September 2026 top out at 140,000 som, and investigators, prosecutors and courts can obtain medical secrets without consent.",
+      "detail": [
+        "Article 80 of the Digital Code bans processing health data except in listed cases, such as care by staff bound by medical secrecy, public health, national security and de-identified research. Article 63 requires incident reports to the regulator within 72 hours.",
+        "The State Agency for Personal Data Protection sits under the Cabinet of Ministers. The Code says the regulator must be independent of those it supervises. Its deputy director told parliament in March 2026 that no leak had been officially recorded since 2022.",
+        "In July 2026 the agency and WHO adapted a cybersecurity and data protection assessment tool for health organisations and began pilot assessments.",
+        "Parliament approved higher fines on 16 September 2026: 80,000 som for a legal entity breaching special-category data rules, 140,000 som if repeated. Article 169 of the Health Law lets inquiry bodies, investigators, prosecutors and courts get medical secrets without consent."
+      ],
+      "sources": [
+        {
+          "title": "Digital Code of the Kyrgyz Republic No. 178, Articles 63, 80 and 90 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+          "date": "2025-07-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Kyrgyzstan adopts WHO standards to strengthen data protection in health care (State Agency for Personal Data Protection)",
+          "url": "https://dpa.gov.kg/Home/GetNewsContent?id=5a89780e1d3447e79fefffe8da25008b",
+          "date": "2026-07-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Parliament approves fines of up to 140,000 som for personal data leaks (Kaktus.media)",
+          "url": "https://kaktus.media/doc/553364_parlament_odobril_vvedenie_shtrafov_do_140_tys._somov_za_ytechky_personalnyh_dannyh.html",
+          "date": "2026-09-16",
+          "publisherClass": "news"
+        },
+        {
+          "title": "State agency: there is no full guarantee against personal data leaks (24.kg)",
+          "url": "https://24.kg/vlast/366112_gosagentstvo_polnoy_garantii_otnbsputechek_personalnyih_dannyih_nenbspsuschestvuet/",
+          "date": "2026-03-16",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "The Digital Code bans processing health data outside listed cases and says bundled or unclear consent is void. Health app providers may pass data on only with a legal basis, and only de-identified when relying on legitimate interest, but no ban on selling health data was found.",
+      "detail": [
+        "Article 79 of the Digital Code says consent is void if the request is not separated from other requests or is written in complex language. Article 80 limits health data processing to listed cases, one of which is a contract the person is party to.",
+        "Article 124 covers digital wellbeing services, such as health apps. A provider may use data for other services or pass it to others only with a legal basis. If that basis is legitimate interest, the data must be de-identified.",
+        "Sending advertising through a telecom service needs the user's prior consent. We found no specific ban on selling health data or using it for marketing, and no enforcement case involving health data."
+      ],
+      "sources": [
+        {
+          "title": "Digital Code of the Kyrgyz Republic No. 178, Articles 79, 80 and 124 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+          "date": "2025-07-31",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 55,
+      "summary": "A Cabinet-approved unified medical information system links digital outpatient and hospital cards, labs, immunisation and disease surveillance. The Sanarip Clinic system covers every public primary care facility and over half of hospitals, but private providers sit outside and systems still exchange data poorly.",
+      "detail": [
+        "Cabinet Decree 640 of October 2024 set up the unified medical information system. It joins the digital patient card (outpatient and hospital cards, sick notes, online booking), a lab system, an immunisation system, an epidemiology platform and birth and death certificates.",
+        "The head of the ministry's e-health centre reported in March 2026 that Sanarip Clinic covers 100% of primary care facilities and over half of hospitals, with all hospitals due by December 2026. The lab system logged over 3.5 million tests in 2025.",
+        "Electronic prescriptions exist for subsidised medicines paid by the Mandatory Health Insurance Fund. In the first quarter of 2024 family doctors wrote 424,700 of them. A national medicines platform was created in September 2026.",
+        "An AKIpress opinion piece by Mirbek Kuduretov (May 2026) says the more than 20 health systems mostly work in isolation, without one data exchange standard. Kyrgyzstan is not in the EU, so the European Health Data Space does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Regulation on the unified medical information system, Cabinet Decree No. 640 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/7-34550/edition/20096/ru",
+          "date": "2024-10-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Medicine in digital: results of healthcare digitalisation in Kyrgyzstan for 2025 (Open.kg)",
+          "url": "https://open.kg/en/news/health/86381-medicina-v-cifre-itogi-cifrovizacii-zdravoohranenija-v-kyrgyzstane-za-2025-god.html",
+          "date": "2026-03-30",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Over 400,000 electronic prescriptions for subsidised medicines in three months of 2024 (Mandatory Health Insurance Fund)",
+          "url": "https://foms.kg/ru/blog/270-Bolieie-400-tysiach-eliektronnykh-rietsieptov-na-lghotnyie-liekarstva-vypisano-ghrazhdanam-za-tri-miesiatsa-2024-ghoda.html",
+          "date": "2024-04-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health care needs its own Tunduk: why medical digital systems still do not understand each other (AKIpress opinion)",
+          "url": "https://mnenie.akipress.org/unews/un_post:46903/",
+          "date": "2026-05-02",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 40,
+      "summary": "The digital patient card is visible only to the patient's family doctor, according to the Health Ministry, and system access is set by each user's role. Specialists and private doctors cannot see a full history across providers.",
+      "detail": [
+        "Decree 640 says each user's access to the unified system depends on their job role, such as doctor, nurse or registry clerk. The Health Ministry told 24.kg in October 2025 that the digital patient card is available only to the patient's family doctor.",
+        "Article 169 of the Health Law allows medical secrets to be shared without consent to examine and treat a person who cannot express their will. Sharing with other clinicians otherwise needs the patient's consent.",
+        "Private clinic visits and private lab results do not appear in the state record. An AKIpress opinion piece says a doctor still cannot see a patient's full history because systems are not linked."
+      ],
+      "sources": [
+        {
+          "title": "Regulation on the unified medical information system, Cabinet Decree No. 640 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/7-34550/edition/20096/ru",
+          "date": "2024-10-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 14 on Health Protection of Citizens, Article 169 Medical secrecy (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/4-5260/edition/23422/ru",
+          "date": "2024-01-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital health profile: how to see all your medical information (24.kg)",
+          "url": "https://24.kg/obschestvo/291005_tsifrovoy_profil_zdorovya_kak_uznat_vsyu_meditsinskuyu_informatsiyu_osebe/",
+          "date": "2025-10-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "The Health Law requires written consent to take part in research or to use a person's medical information for science, plus a positive ethics review. Data for analysis and research is otherwise used in de-identified form, without consent or an opt-out.",
+      "detail": [
+        "Article 44 of the Health Law requires written consent, on paper or with an electronic signature, to join a biomedical study or to use a person's samples and medical information for science. Participants can withdraw at any stage.",
+        "A positive opinion from an ethics body is mandatory, and the health ministry keeps a register of written consents. Interventional trials of medicines and devices need the regulator's permission.",
+        "Article 45 says medical data for analytics, statistics and research is used in de-identified form. The Digital Code also allows special-category data for research once de-identified. We found no opt-out and no re-identification penalty."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 14 on Health Protection of Citizens, Articles 44 and 45 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/4-5260/edition/23422/ru",
+          "date": "2024-01-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Code of the Kyrgyz Republic No. 178, Article 80 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+          "date": "2025-07-31",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 55,
+      "summary": "The Digital Code makes owners assess every AI system's risk at design and after any change, and users of high-risk AI must keep effective human control. Whether the Cabinet has issued the detailed high-risk requirements was not verified.",
+      "detail": [
+        "Article 193 of the Digital Code requires every AI system's owner to assess its risk at design, before use, and after any unplanned change. Results must be published in plain language.",
+        "High-risk AI needs risk management, technical documentation, logs and a signed declaration of conformity before use (Articles 194 and 195). Users must keep effective control and suspend the system if harm is likely (Article 196). AI in health apps counts as high risk (Article 126).",
+        "The 2023 Law on Circulation of Medical Devices covers special software, sorts devices by risk class and requires manufacturers to report changes. The Cabinet rules for high-risk AI and any registered AI medical devices were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Digital Code of the Kyrgyz Republic No. 178, Articles 126 and 193 to 196 (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+          "date": "2025-07-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 216 on Circulation of Medical Devices (Ministry of Justice database)",
+          "url": "https://cbd.minjust.gov.kg/4-5241/edition/40637/ru",
+          "date": "2023-12-29",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "connected",
+    "research": "unknown"
+  },
+  "journeyNote": "Sanarip Clinic covers all public primary care and over half of hospitals; e-prescriptions cover subsidised drugs only. Private providers are outside. Kyrgyzstan is not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Law No. 14 on Health Protection of Citizens",
+      "level": "National",
+      "year": "2024",
+      "what": "Patient right to health information, consent for e-records, research consent, medical secrecy and its exceptions.",
+      "url": "https://cbd.minjust.gov.kg/4-5260/edition/23422/ru"
+    },
+    {
+      "name": "Digital Code of the Kyrgyz Republic (No. 178)",
+      "level": "National",
+      "year": "2025",
+      "what": "Personal data rules, health as special category, 72-hour incident notice, high-risk AI duties.",
+      "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru"
+    },
+    {
+      "name": "Law No. 179 on Bringing the Digital Code into Force",
+      "level": "National",
+      "year": "2025",
+      "what": "Starts the Digital Code six months after publication and repeals the 2008 personal information law.",
+      "url": "https://cbd.minjust.gov.kg/4-5604/edition/35394/ru"
+    },
+    {
+      "name": "Cabinet Decree No. 640 on the Unified Medical Information System",
+      "level": "National",
+      "year": "2024",
+      "what": "Sets up the national health system of patient cards, labs, immunisation and epidemiology, with role-based access.",
+      "url": "https://cbd.minjust.gov.kg/7-34550/edition/20096/ru"
+    },
+    {
+      "name": "Law No. 216 on Circulation of Medical Devices",
+      "level": "National",
+      "year": "2023",
+      "what": "Registration and risk classes for medical devices, including special software; manufacturers report changes.",
+      "url": "https://cbd.minjust.gov.kg/4-5241/edition/40637/ru"
+    },
+    {
+      "name": "Cabinet Decree No. 609 on the Unified State Digital Platform for Medicines and Medical Devices",
+      "level": "National",
+      "year": "2026",
+      "what": "Creates a national digital platform for centralised supply of medicines, run by Kyrgyzpharmacia.",
+      "url": "https://base.spinform.ru/show_doc.fwx?rgn=177980"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-16",
+      "headline": "Parliament approves higher fines for personal data breaches, including health data",
+      "source": "Kaktus.media",
+      "url": "https://kaktus.media/doc/553364_parlament_odobril_vvedenie_shtrafov_do_140_tys._somov_za_ytechky_personalnyh_dannyh.html",
+      "why": "Breaches of special-category data such as health records would cost firms up to 140,000 som."
+    },
+    {
+      "date": "2026-08-20",
+      "headline": "Tunduk app vaccination certificate now covers all recorded vaccinations",
+      "source": "24.kg",
+      "url": "https://24.kg/english/385949_Digital_vaccination_certificate_now_available_in_Tunduk_for_all_vaccinations/",
+      "why": "Patients and parents can see and share their full vaccination record without visiting a clinic."
+    },
+    {
+      "date": "2026-06-16",
+      "headline": "Mandatory worker medical exams move to electronic records from 1 September",
+      "source": "24.kg",
+      "url": "https://24.kg/english/378136_Paper_medical_records_to_be_converted_to_digital_format_starting_September_1/",
+      "why": "Exam and test results for food, trade, education and health workers go into state systems."
+    },
+    {
+      "date": "2026-03-30",
+      "headline": "E-health centre says Sanarip Clinic covers all primary care and half of hospitals",
+      "source": "Open.kg",
+      "url": "https://open.kg/en/news/health/86381-medicina-v-cifre-itogi-cifrovizacii-zdravoohranenija-v-kyrgyzstane-za-2025-god.html",
+      "why": "Shows how far the electronic record reaches and that hospitals are not yet fully covered."
+    },
+    {
+      "date": "2025-10-20",
+      "headline": "Health ministry explains the digital health profile patients can view in Tunduk",
+      "source": "24.kg",
+      "url": "https://24.kg/obschestvo/291005_tsifrovoy_profil_zdorovya_kak_uznat_vsyu_meditsinskuyu_informatsiyu_osebe/",
+      "why": "Patients can see visits, hospital stays and lab results, and report wrong entries online."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

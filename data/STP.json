@@ -1,0 +1,289 @@
+{
+ "iso3": "STP",
+ "name": "Sao Tome and Principe",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Sao Tome and Principe has a 2016 data law and an elected regulator, but clinical records are still kept mostly on paper.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "The 2016 data law gives a right to obtain your data in intelligible form without excessive delay or cost, but health data must be seen through a doctor you choose. There is no patient portal, and records are mostly on paper.",
+   "detail": [
+    "Article 11(1) of Lei 03/2016 lets a person obtain their data from the controller, in intelligible form, freely, at reasonable intervals and without excessive delay or cost. No fixed number of days is set.",
+    "Article 11(5) says access to health data, including genetic data, is exercised through a doctor chosen by the person. This adds a step between patients and their own file.",
+    "The 2018 Health Base Law (Lei 09/2018), Article 17, gives users a right to confidentiality and to be informed about their condition and treatment options. It does not set a right to a copy of the clinical record.",
+    "We found no national or provider portal. Two Portuguese doctors who worked in Sao Tome in October 2022 report that clinical records were still kept on paper.",
+    "Score: base 45 for a statutory right with no portal, minus 5 for no fixed deadline and minus 5 for the doctor-only route to health data."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 03/2016, Protecção de Dados Pessoais, Diário da República n.º 39 (DataGuidance copy)",
+     "url": "https://www.dataguidance.com/sites/default/files/STP%20-%20Lei%20n.%C2%BA%2003_2016%20-%20Lei%20de%20Garantia%20e%20Protec%C3%A7%C3%A3o%20dos%20Dados%20Pessoais%20d....pdf",
+     "date": "2016-05-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 09/2018, Lei Base de Saúde, Diário da República n.º 74 (Ministério da Saúde copy)",
+     "url": "https://minsaude.st/wp-content/uploads/2023/10/Dr-n.o-74_Lei-de-Base-da-Saude-Lei-n.o-9.2018.pdf",
+     "date": "2018-06-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Cuidados de Saúde Primários em São Tomé: Relato de Prática (Ordem dos Médicos, Tribuna)",
+     "url": "https://ordemdosmedicos.pt/comunicacao/publicacoes/tribuna/cuidados-de-saude-primarios-em-sao-tome-relato-de-pratica-42951",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "Health data may be used for care without consent if a professional bound by secrecy handles it and the regulator is notified. There is no shared record, so patients have no sharing setting, opt-out or access log.",
+   "detail": [
+    "Article 7(1) of Lei 03/2016 bans processing health data. Article 7(2) allows it with express consent, under a law, or with ANPDP authorisation for an important public interest.",
+    "Article 7(4) allows health data processing for prevention, diagnosis, care and health service management by a professional bound by secrecy, if notified to the ANPDP and secured.",
+    "Article 12(1) gives a right to object only for weighty and legitimate reasons tied to the person's situation. We found no clause on withdrawing consent and no data portability right.",
+    "Article 9 requires ANPDP authorisation to interconnect files unless a law provides for it. With records mostly on paper, no patient-facing control over sharing was found."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 03/2016, Protecção de Dados Pessoais, Diário da República n.º 39 (DataGuidance copy)",
+     "url": "https://www.dataguidance.com/sites/default/files/STP%20-%20Lei%20n.%C2%BA%2003_2016%20-%20Lei%20de%20Garantia%20e%20Protec%C3%A7%C3%A3o%20dos%20Dados%20Pessoais%20d....pdf",
+     "date": "2016-05-10",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is a special category and the ANPDP is elected by two-thirds of parliament. With no health-sector cases found, this scores the general law, held at the band floor by no breach notice duty and no published enforcement.",
+   "detail": [
+    "Article 16 of Lei 03/2016 requires extra security for sensitive data, including access control and logs of who entered data. Article 16(3) requires health and sex-life data to be kept logically separate.",
+    "Article 32 sets fines of 45 to 90 million dobras for breaching the sensitive-data rules. Article 36 makes some misuse a crime, with penalties doubled for sensitive data. We found no duty to report breaches.",
+    "Lei 07/2017 makes the ANPDP an independent body of three members elected by two-thirds of deputies present, for five-year terms. It hears complaints under Article 19.",
+    "We found no ANPDP decision, fine or annual report. Its website loads no readable content. Sao Tome is outside the EU, so GDPR and the EHDS do not apply. Article 19 allows transfers abroad only where protection is adequate."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 03/2016, Protecção de Dados Pessoais, Diário da República n.º 39 (DataGuidance copy)",
+     "url": "https://www.dataguidance.com/sites/default/files/STP%20-%20Lei%20n.%C2%BA%2003_2016%20-%20Lei%20de%20Garantia%20e%20Protec%C3%A7%C3%A3o%20dos%20Dados%20Pessoais%20d....pdf",
+     "date": "2016-05-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 7/2017, Organização e Funcionamento da Agência Nacional de Protecção de Dados Pessoais, Diário da República n.º 40 (RIPD copy)",
+     "url": "https://www.redipd.org/sites/default/files/2020-03/lei-7-2017-organizacao-e-funcionamento-da-ANPDP.pdf",
+     "date": "2017-04-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "CNPD recebeu a Agência Nacional de Proteção de Dados Pessoais de São Tomé e Príncipe (CNPD Portugal)",
+     "url": "https://www.cnpd.pt/comunicacao-publica/noticias/cnpd-recebeu-a-agencia-nacional-de-protecao-de-dados-pessoais-de-sao-tome-e-principe/",
+     "date": "2025-06-23",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 43,
+   "summary": "Using health data for business needs express consent under the sensitive-data ban, and people can refuse direct marketing free of charge. We found no rule on health apps, data brokers or de-identified data, and no enforcement.",
+   "detail": [
+    "Under Article 7 of Lei 03/2016, a company has no general basis to use health data for its own commercial ends. Express consent, a law or ANPDP authorisation is needed.",
+    "Article 12(2) lets people object free of charge to direct marketing, and to be told before their data is first passed to third parties for marketing.",
+    "Article 13 limits decisions based only on automated processing that assess a person's character or behaviour.",
+    "These are general rules. Article 25(5) says the ANPDP publishes its opinions and authorisations in an annual report, but we found none online, and no decision on health data sales or apps."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 03/2016, Protecção de Dados Pessoais, Diário da República n.º 39 (DataGuidance copy)",
+     "url": "https://www.dataguidance.com/sites/default/files/STP%20-%20Lei%20n.%C2%BA%2003_2016%20-%20Lei%20de%20Garantia%20e%20Protec%C3%A7%C3%A3o%20dos%20Dados%20Pessoais%20d....pdf",
+     "date": "2016-05-10",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 22,
+   "summary": "DHIS2 collects aggregate and some individual programme data, and mSupply tracks medicine stocks, but WHO describes fragmented systems and weak data. A medical record program was starting in 2022; whether it is in use now was not verified.",
+   "detail": [
+    "The health ministry launched DHIS2 in December 2019 and a DHIS2 Tracker in October 2020. Its page describes forms, national data storage and aggregate reports, not a patient record.",
+    "WHO's 2023-2027 cooperation strategy names mSupply for national medicine stocks and DHIS2 for disease data. It lists poor governance, fragmented systems, weak digital infrastructure and poor paper data as problems.",
+    "Two Portuguese doctors report that in October 2022 records, test requests and prescriptions were on paper, and a medical record program was just starting. Its current coverage was not verified.",
+    "WHO reported in 2026 that 25 data clerks were trained in digital tools for vaccination records during African Vaccination Week."
+   ],
+   "sources": [
+    {
+     "title": "Sistema de Informação da Saúde (Ministério da Saúde)",
+     "url": "https://minsaude.st/sis/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Estratégia de Cooperação com o País 2023-2027, São Tomé e Príncipe (WHO, Ministério da Saúde copy)",
+     "url": "https://minsaude.st/wp-content/uploads/2023/08/Estrategia-de-cooperacao-com-o-pais-2023%E2%80%932027-Sao-Tome-and-Principe_compressed.pdf",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Cuidados de Saúde Primários em São Tomé: Relato de Prática (Ordem dos Médicos, Tribuna)",
+     "url": "https://ordemdosmedicos.pt/comunicacao/publicacoes/tribuna/cuidados-de-saude-primarios-em-sao-tome-relato-de-pratica-42951",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "OMS São Tomé e Príncipe Boletim Informativo do 2º Trimestre, Abril a Junho 2026 (WHO AFRO)",
+     "url": "https://www.afro.who.int/sites/default/files/2026-09/Newsletter%20OMS%20Q2%202026%20PT_0.pdf",
+     "date": "2026-09",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 17,
+   "summary": "The 2018 Health Base Law calls for confidential flow of clinical information between levels of care, but records are mostly paper and no shared record was found. A clinician in another facility depends on paper notes or the patient.",
+   "detail": [
+    "Articles 15(2) and 16(2) of Lei 09/2018 call for links between levels of care that guarantee the reciprocal and confidential flow of relevant clinical information on users.",
+    "Article 7(4) of the data law allows health professionals bound by secrecy to process health data for care.",
+    "The doctors' report on October 2022 says clinical records and prescriptions in Sao Tome were on paper, with each note stamped by the health post and the doctor. No cross-facility electronic record was found."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 09/2018, Lei Base de Saúde, Diário da República n.º 74 (Ministério da Saúde copy)",
+     "url": "https://minsaude.st/wp-content/uploads/2023/10/Dr-n.o-74_Lei-de-Base-da-Saude-Lei-n.o-9.2018.pdf",
+     "date": "2018-06-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Cuidados de Saúde Primários em São Tomé: Relato de Prática (Ordem dos Médicos, Tribuna)",
+     "url": "https://ordemdosmedicos.pt/comunicacao/publicacoes/tribuna/cuidados-de-saude-primarios-em-sao-tome-relato-de-pratica-42951",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "research": {
+   "score": 45,
+   "summary": "The health ministry set up an ethics commission for research, and drug trials need the patient's consent by law. There is no research opt-out or public register of uses, and the commission's legal basis was not verified, so 45.",
+   "detail": [
+    "WHO's 2023-2027 strategy says the ministry created a Commission of Ethics for Scientific Research to review all research in the country. It says most research comes from foreign institutions and plans to strengthen the commission.",
+    "Article 25 of Lei 09/2018 requires drug trials to run under medical direction, under rules in a separate law, and with the patient's consent.",
+    "Under Lei 03/2016, the ANPDP may allow longer storage for scientific purposes (Article 5(2)). Article 18 imposes professional secrecy, and Article 36 doubles criminal penalties for misuse of sensitive data.",
+    "Score: base 40, plus 3 each for the ethics body, statutory secrecy, misuse penalties and a consent route, capped at 50. The commission's founding text was not found, so the score is held in the lower half of the band, at 45."
+   ],
+   "sources": [
+    {
+     "title": "Estratégia de Cooperação com o País 2023-2027, São Tomé e Príncipe (WHO, Ministério da Saúde copy)",
+     "url": "https://minsaude.st/wp-content/uploads/2023/08/Estrategia-de-cooperacao-com-o-pais-2023%E2%80%932027-Sao-Tome-and-Principe_compressed.pdf",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Lei n.º 09/2018, Lei Base de Saúde, Diário da República n.º 74 (Ministério da Saúde copy)",
+     "url": "https://minsaude.st/wp-content/uploads/2023/10/Dr-n.o-74_Lei-de-Base-da-Saude-Lei-n.o-9.2018.pdf",
+     "date": "2018-06-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 03/2016, Protecção de Dados Pessoais, Diário da República n.º 39 (DataGuidance copy)",
+     "url": "https://www.dataguidance.com/sites/default/files/STP%20-%20Lei%20n.%C2%BA%2003_2016%20-%20Lei%20de%20Garantia%20e%20Protec%C3%A7%C3%A3o%20dos%20Dados%20Pessoais%20d....pdf",
+     "date": "2016-05-10",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 18,
+   "summary": "No rule on AI in health care was found. The Health Base Law names a medicines authority covering devices but sets no software or AI rules, and AI work so far is a 2024 ethics readiness study and civil service training.",
+   "detail": [
+    "Lei 09/2018 defines a Medicines Authority responsible for producing, inspecting, importing and selling medicines and medical devices. It leaves pharmaceutical activity to a separate law, which we did not find.",
+    "In January 2024 a pilot project began to assess the country's AI readiness and ethics, including whether rules exist, Téla Nón reported.",
+    "In April 2026 UNDP ran a two-day training for public officials on digitalisation and AI, covering ethics, governance and data protection. No health-AI rules were reported."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 09/2018, Lei Base de Saúde, Diário da República n.º 74 (Ministério da Saúde copy)",
+     "url": "https://minsaude.st/wp-content/uploads/2023/10/Dr-n.o-74_Lei-de-Base-da-Saude-Lei-n.o-9.2018.pdf",
+     "date": "2018-06-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lançado o projeto-piloto sobre a Ética da inteligência Artificial em STP (Téla Nón)",
+     "url": "https://www.telanon.info/sociedade/2024/01/29/43143/lancado-o-projeto-piloto-sobre-a-etica-da-inteligencia-artificial-em-stp/",
+     "date": "2024-01-29",
+     "publisherClass": "news"
+    },
+    {
+     "title": "PNUD inicia capacitação em Digitalização e Inteligência Artificial para a Administração Pública em STP (RSTP)",
+     "url": "https://rstp.st/2026/04/22/pnud-inicia-capacitacao-em-digitalizacao-e-inteligencia-artificial-para-a-administracao-publica-em-stp/",
+     "date": "2026-04-22",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "unknown",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Primary care notes, test requests and prescriptions were on paper in 2022. DHIS2 carries programme and surveillance data, and mSupply tracks medicine stocks. Hospital records and insurance claims links were not verified.",
+ "laws": [
+  {
+   "name": "Lei 03/2016, Protecção de Dados Pessoais",
+   "level": "National",
+   "year": "2016",
+   "what": "Health data is sensitive; access copy via a chosen doctor for health data; ANPDP notification; fines and crimes.",
+   "url": "https://www.dataguidance.com/sites/default/files/STP%20-%20Lei%20n.%C2%BA%2003_2016%20-%20Lei%20de%20Garantia%20e%20Protec%C3%A7%C3%A3o%20dos%20Dados%20Pessoais%20d....pdf"
+  },
+  {
+   "name": "Lei 07/2017, Organisation and Functioning of the ANPDP",
+   "level": "National",
+   "year": "2017",
+   "what": "ANPDP is independent, with three members elected by two-thirds of deputies for five-year terms.",
+   "url": "https://www.redipd.org/sites/default/files/2020-03/lei-7-2017-organizacao-e-funcionamento-da-ANPDP.pdf"
+  },
+  {
+   "name": "Lei 09/2018, Lei Base de Saúde",
+   "level": "National",
+   "year": "2018",
+   "what": "Users' right to confidentiality and information; confidential flow of clinical information; consent for drug trials.",
+   "url": "https://minsaude.st/wp-content/uploads/2023/10/Dr-n.o-74_Lei-de-Base-da-Saude-Lei-n.o-9.2018.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-04-22",
+   "headline": "UNDP trains public officials on digitalisation, AI and data protection",
+   "source": "RSTP",
+   "url": "https://rstp.st/2026/04/22/pnud-inicia-capacitacao-em-digitalizacao-e-inteligencia-artificial-para-a-administracao-publica-em-stp/",
+   "why": "Builds state skills for AI and data rules, though nothing yet covers health AI."
+  },
+  {
+   "date": "2026-05-15",
+   "headline": "Portugal extends Saúde para Todos health project, raising funding to 6.1 million euros",
+   "source": "Notícias ao Minuto (Lusa)",
+   "url": "https://www.noticiasaominuto.com/mundo/2990425/governo-prolonga-apoio-a-saude-em-sao-tome-por-mais-um-ano",
+   "why": "Funds the national health service, but no records or data component was reported."
+  },
+  {
+   "date": "2026-05-28",
+   "headline": "Macau to sign data protection cooperation agreements with Sao Tome and Cape Verde",
+   "source": "Forbes África Lusófona",
+   "url": "https://forbesafricalusofona.com/macau-aproxima-se-de-cabo-verde-e-sao-tome-para-cooperacao-em-privacidade-e-governacao-de-dados/",
+   "why": "Shows the ANPDP building regulatory links, though no health case was reported."
+  },
+  {
+   "date": "2026-09",
+   "headline": "WHO says vaccination records went digital during 2026 African Vaccination Week",
+   "source": "WHO AFRO",
+   "url": "https://www.afro.who.int/sites/default/files/2026-09/Newsletter%20OMS%20Q2%202026%20PT_0.pdf",
+   "why": "Real-time vaccination data helps find children who missed doses."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

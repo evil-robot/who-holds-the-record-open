@@ -1,0 +1,354 @@
+{
+ "iso3": "MMR",
+ "name": "Myanmar",
+ "region": "Asia",
+ "controlModel": "State",
+ "headline": "Myanmar has no data protection law or patient record rights, records stay in each facility, and the state can demand health information.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 18,
+   "summary": "No law we found gives patients a right to see or copy their medical record, and there is no patient portal. The 2007 private health care law only makes private hospitals and clinics keep a systematic medical record.",
+   "detail": [
+    "The Law Relating to Private Health Care Services (SPDC Law No. 5/2007) requires private hospitals, clinics and maternity homes to maintain a systematic medical record. It sets duties on confidentiality and referral, but no duty to show the record to the patient or give a copy.",
+    "The 2021 amendment to the Electronic Transactions Law added rules on managing personal information. Section 27-a covers storage, disclosure, purpose and deletion. It gives no right of access, correction or copy to the person the data is about.",
+    "DLA Piper reports that Myanmar has no general data protection law and no data protection authority. A 2026 PLOS Digital Health study says the national health information system planned for 2017 to 2021 effectively halted after the 2021 coup.",
+    "We found no national or provider portal for patients. Under the anchors, no enforceable right scores 15 to 35; with no partial right at all, Myanmar sits near the bottom, below Laos (25), which has an electronic data access right."
+   ],
+   "sources": [
+    {
+     "title": "Measures relating to the Private Health Care Services Law (Myanmar Services Trade portal)",
+     "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Private%20Health%20Care%20Services%20Law",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Measures relating to the Electronic Transactions Law (Myanmar Services Trade portal)",
+     "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Electronic%20Transactions%20Law",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Data protection laws in Myanmar (DLA Piper, Tilleke & Gibbins)",
+     "url": "https://www.dlapiperdataprotection.com/?t=law&c=MM",
+     "date": "2026-02-11",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Privacy concerns regarding personal health information in Myanmar: a cross-sectional survey (PLOS Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13020815/",
+     "date": "2026-03-26",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "control": {
+   "score": 24,
+   "summary": "The Electronic Transactions Law bars disclosing personal information without the owner's permission, but exempts security, investigations and 'stability of state sovereignty'. Private providers must hand over health information on official request, and there is no opt-out or access log.",
+   "detail": [
+    "Section 27-a of the amended Electronic Transactions Law says the person managing personal information must not let others scrutinise, disclose, distribute or copy it without the owner's permission, except under an existing law. Data collected for a limited time must be destroyed afterwards.",
+    "ZICO Law notes that Section 27-c exempts cybersecurity, cybercrime and any investigation on stability of state sovereignty, public order or national security. None of these terms is defined.",
+    "Section 25(l) of the private health care law makes providers keep a patient's health matters confidential except on official request of a government department. The patient's consent is not required for that disclosure.",
+    "We found no way for patients to opt out of sharing, set choices or see who opened their record. Records held by default with state access place Myanmar in the 20 to 35 band, slightly below Laos (28)."
+   ],
+   "sources": [
+    {
+     "title": "Measures relating to the Electronic Transactions Law (Myanmar Services Trade portal)",
+     "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Electronic%20Transactions%20Law",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Finally Personal Data Protection In Myanmar? A Closer Look Into The Law Amending The Electronic Transactions Law (ZICO Law via Conventus Law)",
+     "url": "https://conventuslaw.com/report/finally-personal-data-protection-in-myanmar-a/",
+     "date": "2021-08-25",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Measures relating to the Private Health Care Services Law (Myanmar Services Trade portal)",
+     "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Private%20Health%20Care%20Services%20Law",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 22,
+   "summary": "Myanmar has no data protection law, regulator or general breach notification duty, and DLA Piper found no enforcement by February 2026. Safeguards against searches and interception were suspended in 2021, and the 2025 Cybersecurity Law makes platforms keep user data for three years.",
+   "detail": [
+    "Health-sector protection is limited to Section 25(l) of the private health care law, which requires confidentiality except on official request. DLA Piper reports no definition of sensitive data, no data protection authority, and no enforcement so far as at 11 February 2026.",
+    "On 13 February 2021 the military government suspended Sections 5, 7 and 8 of the 2017 Law Protecting the Privacy and Security of Citizens. Section 8 covered search, seizure and interception of telecommunications without a warrant.",
+    "The Cybersecurity Law (Law No. 1/2025), in force 30 July 2025, lists health information infrastructure as critical. Section 33 makes digital platforms keep users' personal information and usage records for 3 years; Section 34 makes them hand it over on a written request from an authorised body.",
+    "Only licensed cybersecurity service providers must report incidents; health infrastructure operators file a yearly cybersecurity report, and patients get no notice. Myanmar is not in the EU and has no EU adequacy decision, so the GDPR and the European Health Data Space do not apply. With documented state access to personal data, Myanmar scores in the Poor band."
+   ],
+   "sources": [
+    {
+     "title": "Data protection laws in Myanmar (DLA Piper, Tilleke & Gibbins)",
+     "url": "https://www.dlapiperdataprotection.com/?t=law&c=MM",
+     "date": "2026-02-11",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Myanmar Amends Legislation on the Privacy and Security of Citizens amid State of Emergency (Tilleke & Gibbins)",
+     "url": "https://www.tilleke.com/insights/myanmar-amends-legislation-on-the-privacy-and-security-of-citizens-amid-state-of-emergency/",
+     "date": "2021-02-23",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Cybersecurity Law, State Administration Council Law No. 1/2025 (unofficial English translation, Lincoln Legal Services)",
+     "url": "https://www.lincolnmyanmar.com/wp-content/uploads/2025/01/Cybersecurity-Law.pdf",
+     "date": "2025-01-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Adequacy decisions, European Commission",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 28,
+   "summary": "Disclosing personal information without the owner's permission is barred under the Electronic Transactions Law, and the Cybersecurity Law punishes selling data with dishonest intent. No rule addresses health data sales, data brokers, de-identified data or health apps, and no enforcement was found.",
+   "detail": [
+    "Section 27-a of the Electronic Transactions Law bars disclosure, distribution or copying of personal information without the owner's permission, and bars using it for purposes outside the original objective. ZICO Law reports that breaches carry 1 to 3 years in prison.",
+    "Section 36(b) of the Cybersecurity Law treats selling, moving or copying information with dishonest intent and without permission as cyber abuse. Section 66 sets 6 months to 2 years in prison or a fine of MMK 1 to 10 million.",
+    "DLA Piper reports no specific electronic marketing law; marketing falls under the Competition Law (2015), the Consumer Protection Law (2019) and 2023 e-commerce rules. We found no health-specific rule on selling patient data or on consumer health apps.",
+    "The 2026 amendment to the private health care law bans false or misleading advertising by providers, but says nothing on data. With general rules and no enforcement, Myanmar sits below Laos (35)."
+   ],
+   "sources": [
+    {
+     "title": "Measures relating to the Electronic Transactions Law (Myanmar Services Trade portal)",
+     "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Electronic%20Transactions%20Law",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Finally Personal Data Protection In Myanmar? A Closer Look Into The Law Amending The Electronic Transactions Law (ZICO Law via Conventus Law)",
+     "url": "https://conventuslaw.com/report/finally-personal-data-protection-in-myanmar-a/",
+     "date": "2021-08-25",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Myanmar Cybersecurity Law Takes Effect (Tilleke & Gibbins)",
+     "url": "https://www.tilleke.com/insights/myanmar-cybersecurity-law-takes-effect/",
+     "date": "2025-08-01",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Data protection laws in Myanmar (DLA Piper, Tilleke & Gibbins)",
+     "url": "https://www.dlapiperdataprotection.com/?t=law&c=MM",
+     "date": "2026-02-11",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 20,
+   "summary": "The health ministry has used DHIS2 for aggregate reporting since 2013, and TB, HIV and malaria data were merged into it in early 2021. Patient records are not linked across facilities, and the national information system plan stalled after the coup.",
+   "detail": [
+    "WHO Myanmar reports that the Health Management Information System unit has used DHIS2 since 2013 for aggregate programme data. The TB programme moved onto it in 2019 with over 600 reporting units, and HIV, TB and malaria data were integrated into the HMIS in early 2021.",
+    "WHO describes DHIS2 as a tool for aggregate health programme data, not individual patient records. A 2026 PLOS Digital Health study says the national health information system planned for 2017 to 2021 effectively halted after the coup, while private-sector EMR projects continue.",
+    "A 2026 BMJ Global Health study found that junta shutdowns of mobile and internet services in Sagaing Region severely hampered healthcare coordination and data reporting, and removed telehealth options in rural areas.",
+    "Whether public facilities still report fully through DHIS2 since 2021 was not verified. We found no linked records for labs, pharmacy or insurance."
+   ],
+   "sources": [
+    {
+     "title": "Electronic Data Management at National TB Programme operational in 2019 following DHIS-2 roll out (WHO Myanmar)",
+     "url": "https://www.who.int/myanmar/our-work/electronic-data-management-at-national-tb-programme-operational-in-2019-following-dhis-2-roll-out",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Privacy concerns regarding personal health information in Myanmar: a cross-sectional survey (PLOS Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13020815/",
+     "date": "2026-03-26",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Newly emerged resistance healthcare systems in northwest Myanmar's Sagaing Region post-military coup (BMJ Global Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059961/",
+     "date": "2026-01-08",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 15,
+   "summary": "A treating clinician cannot look up a patient's record held by another provider, because no shared record or exchange exists. The private health care law only requires hospitals and clinics to keep their own records and run a referral system.",
+   "detail": [
+    "The private health care law requires private hospitals and clinics to maintain a systematic medical record and a patient referral system. It does not require records to be shared with other providers.",
+    "Section 25(f) asks providers to refer patients in time to the relevant specialist, department or hospital. No rule says the record must travel with the patient.",
+    "The national health information system plan stalled after 2021, according to a 2026 PLOS Digital Health study. We found no emergency access rules, because there is no shared record to access.",
+    "No cross-provider access matches Afghanistan's score (15) and sits below Laos (20), where the law at least requires a copy of the treatment record to follow a referred patient."
+   ],
+   "sources": [
+    {
+     "title": "Measures relating to the Private Health Care Services Law (Myanmar Services Trade portal)",
+     "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Private%20Health%20Care%20Services%20Law",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Privacy concerns regarding personal health information in Myanmar: a cross-sectional survey (PLOS Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13020815/",
+     "date": "2026-03-26",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "research": {
+   "score": 43,
+   "summary": "Private providers need Ministry of Health permission for research on patients, and the Department of Medical Research has run an ethics committee since 1980. Rules on reusing routine health data were not verified, which keeps the score in the lower half of its band.",
+   "detail": [
+    "Section 25(m) of the private health care law requires providers to obtain Ministry of Health permission to do research using patients.",
+    "The Department of Medical Research's first ethics committee was founded in 1980 and reviews about 100 to 150 proposals a year. A 2020 assessment of 15 institutional committees gave a mean score of 112.6 out of 200, below the 137.4 average from other countries.",
+    "The department lists promoting ethical conduct through standardised ethics review committees among its aims. We found no law on consent for secondary use, no research opt-out and no public register of data uses.",
+    "Under the anchors the base of 40 rises 3 for the ethics and permit body. The private-only secrecy duty earns no credit, and unverified secondary-use rules hold the score below Laos (45)."
+   ],
+   "sources": [
+    {
+     "title": "Measures relating to the Private Health Care Services Law (Myanmar Services Trade portal)",
+     "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Private%20Health%20Care%20Services%20Law",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "About DMR, Department of Medical Research, Ministry of Health",
+     "url": "https://www.dmr.gov.mm/about.php",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Assessing Research Ethics Committees in Myanmar (Asian Bioethics Review)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7747290/",
+     "date": "2020-03-17",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "Myanmar has no AI law and no rules for clinical AI. Medical devices are registered with the FDA using the ASEAN directive's risk classes, which count software as a device, but no AI-specific duties exist.",
+   "detail": [
+    "The ASEAN Medical Device Directive (2015), signed by Myanmar, defines medical devices to include software, and lists software upgrades among field safety corrective actions.",
+    "ElendiLabs reports that Myanmar has no standalone medical device act. The FDA applies the directive's Class A to D risk classes under the Public Health Law 1972 and takes applications through an online portal. This was not verified on an official FDA page.",
+    "Levellers.ai reports that Myanmar is drafting a national AI strategy and policy, with no AI law in force as of 2026. We found no rule on training data, model change, transparency or human oversight for clinical AI.",
+    "With no AI-specific rule, Myanmar falls in the 15 to 30 band. General device registration that covers software lifts it above Afghanistan (15), and below Laos (35), whose law names AI devices as high risk."
+   ],
+   "sources": [
+    {
+     "title": "ASEAN Medical Device Directive (ASEAN Secretariat)",
+     "url": "https://asean.org/wp-content/uploads/2016/06/22.-September-2015-ASEAN-Medical-Device-Directive.pdf",
+     "date": "2015-09",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Myanmar FDA Medical Device Registration: e-Submission and AMDD Class Guide (ElendiLabs)",
+     "url": "https://elendilabs.com/en/articles/mmr-fda-esubmission-medical-device-registration-amdd",
+     "date": "2026-06-30",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "AI regulation in Myanmar, overview of law and policy (Levellers.ai)",
+     "url": "https://www.levellers.ai/what-is/ai-regulation-myanmar",
+     "date": "2026-06-08",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 carries aggregate reporting, with TB, HIV and malaria merged in 2021. Patient records stay in each facility; the national plan stalled after the coup, and post-2021 reporting coverage, claims and research links were not verified.",
+ "laws": [
+  {
+   "name": "Law Relating to Private Health Care Services (SPDC Law No. 5/2007)",
+   "level": "National",
+   "year": "2007",
+   "what": "Private providers keep systematic records and patient confidentiality, except on official request; research on patients needs ministry permission.",
+   "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Private%20Health%20Care%20Services%20Law"
+  },
+  {
+   "name": "Law Amending the Private Health Care Services Law (Law No. 7/2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "Adds training schools and outpatient surgery as licensed businesses; bans false or misleading provider advertising.",
+   "url": "https://www.dfdl.com/insights/legal-and-tax-updates/myanmar-2026-amendment-to-the-private-health-care-services-law/"
+  },
+  {
+   "name": "Electronic Transactions Law, as amended 2021",
+   "level": "National",
+   "year": "2004",
+   "what": "2021 chapter on personal information: no disclosure without permission, broad security exemptions, 1 to 3 years' prison.",
+   "url": "https://servicetrade.gov.mm/service/measures/Measures%20relating%20to%20the%20Electronic%20Transactions%20Law"
+  },
+  {
+   "name": "Cybersecurity Law (SAC Law No. 1/2025)",
+   "level": "National",
+   "year": "2025",
+   "what": "Health is critical information infrastructure; platforms keep user data 3 years and hand it over on request.",
+   "url": "https://www.lincolnmyanmar.com/wp-content/uploads/2025/01/Cybersecurity-Law.pdf"
+  },
+  {
+   "name": "Law Protecting the Privacy and Security of Citizens",
+   "level": "National",
+   "year": "2017",
+   "what": "Privacy safeguards on searches, detention and interception; Sections 5, 7 and 8 suspended in February 2021.",
+   "url": "https://www.tilleke.com/insights/myanmar-amends-legislation-on-the-privacy-and-security-of-citizens-amid-state-of-emergency/"
+  },
+  {
+   "name": "ASEAN Medical Device Directive",
+   "level": "Supranational",
+   "year": "2015",
+   "what": "Regional device rules; defines medical devices to include software; risk classes A to D.",
+   "url": "https://asean.org/wp-content/uploads/2016/06/22.-September-2015-ASEAN-Medical-Device-Directive.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-08",
+   "headline": "Study finds junta internet shutdowns hamper health data reporting in Sagaing",
+   "source": "BMJ Global Health",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059961/",
+   "why": "Shutdowns cut telehealth and reporting, so records and care stay local and fragmented."
+  },
+  {
+   "date": "2026-02-26",
+   "headline": "Defence and security council amends private health care law, adds advertising ban",
+   "source": "DFDL",
+   "url": "https://www.dfdl.com/insights/legal-and-tax-updates/myanmar-2026-amendment-to-the-private-health-care-services-law/",
+   "why": "The health law changed in 2026 but added no patient record or data rights."
+  },
+  {
+   "date": "2026-03-26",
+   "headline": "Survey finds 78% of Myanmar respondents highly concerned about health information privacy",
+   "source": "PLOS Digital Health",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13020815/",
+   "why": "Patients worry most about not knowing how their health data will be used."
+  },
+  {
+   "date": "2026-04-09",
+   "headline": "Telenor sued in Norway for sharing Myanmar customer data with the military",
+   "source": "ICLG News",
+   "url": "https://iclg.com/news/23750-telecoms-giant-shared-user-data-with-myanmar-military-class-action-alleges/",
+   "why": "Shows how personal data held by companies in Myanmar reaches the military."
+  },
+  {
+   "date": "2026-06-29",
+   "headline": "AYA Bank confirms customer data exposure after LAPSUS$ claims 120GB theft",
+   "source": "teiss",
+   "url": "https://www.teiss.co.uk/news/lapsus-targeted-myanmars-aya-bank-stole-120gb-of-banking-data-17726",
+   "why": "A major breach with no general duty to notify affected people."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

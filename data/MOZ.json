@@ -1,0 +1,333 @@
+{
+ "iso3": "MOZ",
+ "name": "Mozambique",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Mozambique has no data protection law yet, so patients rely on a 2007 charter and a 2017 e-commerce law while most records stay paper.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Article 63 of the 2017 Electronic Transactions Law lets a person learn what electronic data a controller holds, against a fee and within a 'reasonable period'. The 2007 Patient Charter says patients may know what is in their clinical file, but there is no national portal.",
+   "detail": [
+    "Article 63(6) of Lei n.º 3/2017 gives a right to confirmation that a controller holds one's data and to be told that data 'within a reasonable period, on payment of a fee'. It covers electronic data only. Most clinical files are still on paper.",
+    "Item 10 of the Patient Charter (Resolução n.º 73/2007) says a patient has the right to know the data recorded in their clinical file. Data may be withheld if disclosure would harm the patient or reveals third parties. The charter does not mention a copy, fees or deadlines.",
+    "We found no national patient portal. A general data protection bill with a right of access was approved by the Council of Ministers on 3 March 2026 but was not yet law in August 2026.",
+    "Lei n.º 3/2026 on the health system reportedly covers user rights, but we could not open its text; not verified. Score: base 45 for a right with no portal, minus 5 for the fee and minus 5 for no fixed deadline. The charter extends the right to paper files."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 3/2017, Lei de Transacções Electrónicas, Capítulo IX (arts. 63 a 65) and arts. 67 to 68 (Boletim da República, I Série, n.º 5)",
+     "url": "https://www.cedsif.gov.mz/cedsifportal/wp-content/uploads/2022/04/Lei-de-Transac%C3%A7%C3%B5es-Electr%C3%B3nicas.pdf",
+     "date": "2017-01-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Resolução n.º 73/2007, Carta dos Direitos e Deveres do Doente (Boletim da República, I Série, n.º 50, reproduced as Annex II by CIP)",
+     "url": "https://cipmoz.org/wp-content/uploads/2018/08/361_CIP-spinformacao_2015_06_pt.pdf",
+     "date": "2007-12-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "INTIC, Proposta de Lei de Protecção de Dados Pessoais segue para debate na Assembleia da República",
+     "url": "https://intic.gov.mz/proposta-de-lei-de-proteccao-de-dados-pessoais-segue-para-debate-na-assembleia-da-republica/",
+     "date": "2026-03-05",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "The Patient Charter requires consent for medical acts and HIV status may not be disclosed without consent. We found no opt-out from record sharing and no patient-visible access log.",
+   "detail": [
+    "Item 8 of the Patient Charter requires consent before any medical act or research participation. Item 9 says health information is confidential but may be used with consent, or when the law so determines.",
+    "Lei n.º 19/2014 bans disclosure of a person's HIV status to third parties without consent, with fines in minimum wages.",
+    "Article 64 of the Electronic Transactions Law bars moving personal data between files of different institutions except where a law or court allows it. This limits sharing but gives the patient no active choice. Article 63(6)(d) lets a person object to their electronic data, but removal depends on the controller accepting; it is not an opt-out from sharing.",
+    "We found no tool that lets a patient see who opened their record and no opt-out from sharing inside the national systems."
+   ],
+   "sources": [
+    {
+     "title": "Resolução n.º 73/2007, Carta dos Direitos e Deveres do Doente (Boletim da República, I Série, n.º 50, reproduced as Annex II by CIP)",
+     "url": "https://cipmoz.org/wp-content/uploads/2018/08/361_CIP-spinformacao_2015_06_pt.pdf",
+     "date": "2007-12-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 19/2014, Lei de Protecção da Pessoa, do Trabalhador e do Candidato a Emprego Vivendo com HIV e SIDA",
+     "url": "https://www.wlsa.org.mz/wp-content/uploads/2014/11/NovaLeiHIV_SIDA.pdf",
+     "date": "2014-08-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 3/2017, Lei de Transacções Electrónicas, Capítulo IX (arts. 63 a 65) and arts. 67 to 68 (Boletim da República, I Série, n.º 5)",
+     "url": "https://www.cedsif.gov.mz/cedsifportal/wp-content/uploads/2022/04/Lei-de-Transac%C3%A7%C3%B5es-Electr%C3%B3nicas.pdf",
+     "date": "2017-01-09",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 38,
+   "summary": "There is no general data protection law or independent regulator yet; the 2017 Electronic Transactions Law sets fines of 30 to 90 minimum wages for data protection breaches. HIV status has its own confidentiality penalties, and no health-sector enforcement was found.",
+   "detail": [
+    "DLA Piper (February 2026) says Mozambique has no specific data protection law. Article 63 of Lei n.º 3/2017 requires purpose limits and security; article 68 sets fines of 30 to 90 minimum wages for breaching data protection duties. Articles 63 and 65 exempt processing for public security and national defence.",
+    "The 2026 bill would create a National Personal Data Protection Authority and require breach notification. In August 2026 INTIC said the bill was still being prepared for Parliament and that its first inspections found many entities ignoring the 2017 law.",
+    "In health, Lei n.º 19/2014 (article 67) fines anyone who reveals HIV status held in records 30 minimum wages plus equal compensation. The Patient Charter makes clinical data confidential. Cybersecurity and cybercrime laws were promulgated on 12 June 2026. We found no regulator decision about a health provider.",
+    "Mozambique is not on the EU adequacy list, and the European Health Data Space does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 3/2017, Lei de Transacções Electrónicas, Capítulo IX (arts. 63 a 65) and arts. 67 to 68 (Boletim da República, I Série, n.º 5)",
+     "url": "https://www.cedsif.gov.mz/cedsifportal/wp-content/uploads/2022/04/Lei-de-Transac%C3%A7%C3%B5es-Electr%C3%B3nicas.pdf",
+     "date": "2017-01-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 19/2014, Lei de Protecção da Pessoa, do Trabalhador e do Candidato a Emprego Vivendo com HIV e SIDA",
+     "url": "https://www.wlsa.org.mz/wp-content/uploads/2014/11/NovaLeiHIV_SIDA.pdf",
+     "date": "2014-08-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Mozambique (DLA Piper), last modified 17 February 2026",
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=MZ",
+     "date": "2026-02-17",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "INTIC apela ao reforço da fiscalização e responsabilização na protecção de dados (Diário Económico)",
+     "url": "https://www.diarioeconomico.co.mz/2026/08/25/desenvolvimento-2/intic-apela-ao-reforco-da-fiscalizacao-e-responsabilizacao-na-proteccao-de-dados/",
+     "date": "2026-08-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 35,
+   "summary": "The 2017 law limits use of electronic personal data to the purpose stated at collection and makes unsolicited commercial messages an offence once a person objects. We found no rules on selling health data, data brokers or health apps.",
+   "detail": [
+    "Article 63 of Lei n.º 3/2017 says the purpose of collection must be stated beforehand and later use is limited to that purpose. Article 67(i) makes it an offence to keep sending commercial messages to a person who said they do not want them.",
+    "Article 64 bars accessing databases to learn third parties' personal data.",
+    "We found no provision aimed at the sale of health data, de-identified data markets, data brokers or consumer health apps. The pending bill would require consent that is free, specific, informed and unequivocal, but it is not law."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 3/2017, Lei de Transacções Electrónicas, Capítulo IX (arts. 63 a 65) and arts. 67 to 68 (Boletim da República, I Série, n.º 5)",
+     "url": "https://www.cedsif.gov.mz/cedsifportal/wp-content/uploads/2022/04/Lei-de-Transac%C3%A7%C3%B5es-Electr%C3%B3nicas.pdf",
+     "date": "2017-01-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "INTIC, Proposta de Lei de Protecção de Dados Pessoais segue para debate na Assembleia da República",
+     "url": "https://intic.gov.mz/proposta-de-lei-de-proteccao-de-dados-pessoais-segue-para-debate-na-assembleia-da-republica/",
+     "date": "2026-03-05",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "Electronic records exist mainly inside the HIV programme, with SESP reported at over 670 facilities, while the ministry admits its systems do not talk to each other. Only a few hospitals run general electronic records; the exact number is not verified.",
+   "detail": [
+    "MISAU's SIS-MA collects aggregate data and, through the SIS-U module, individual hospital records on admissions, deaths, discharges, TB and cancer. SIVE handles disease surveillance.",
+    "C-Saúde, which supports the ministry, says the HIV record system SESP runs at over 670 facilities, the iDMED pharmacy system at over 370 pharmacies, and a DISA lab link sends viral load and other results to SESP. These will move to a new ministry EMR, SIS-RME.",
+    "In April 2026 the planning director said 'there are systems that do not communicate with each other'. AIM reported World Bank funding of about $40 million to digitise 63 of roughly 1,900 facilities. Exact current coverage not verified.",
+    "AIM reported pilots at Hospital Geral de Mavalane, with Quelimane and Beira next, and plans for about 800 more facilities under a memorandum with the United States."
+   ],
+   "sources": [
+    {
+     "title": "MISAU, SISMA (Sistema de Informação para Saúde em Monitoria e Avaliação) home page",
+     "url": "https://sisma.misau.gov.mz/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "C-Saúde, Health Information Systems (SIS-RME, SESP, iDMED, DISA Lab interoperability)",
+     "url": "https://csaude.org.mz/health-information-systems/",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "MISAU aponta desafios na integração digital do sistema de saúde (AIM)",
+     "url": "https://aimnews.org/2026/04/15/misau-aponta-desafios-na-integracao-digital-do-sistema-de-saude/",
+     "date": "2026-04-15",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Moçambique garante 40 milhões de dólares para digitalização da saúde (AIM)",
+     "url": "https://aimnews.org/2026/04/15/mocambique-garante-40-milhoes-de-dolares-para-digitalizacao-da-saude/",
+     "date": "2026-04-15",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 25,
+   "summary": "A clinician in an HIV clinic using SESP can see that programme's history and linked lab results, but no shared record spans providers. The Patient Charter expects patients to carry diagnostic documents between services.",
+   "detail": [
+    "Item 5 of the Patient Charter says services should ensure the patient is accompanied by the diagnostic and treatment elements needed to continue care. In practice that means paper documents.",
+    "SESP and its lab link cover HIV, TB and related services. We found no national record a hospital clinician can open for a patient treated elsewhere.",
+    "In April 2026 the ministry's planning director named a pilot at Hospital Geral de Mavalane as under way and described home consultations by telemedicine as a goal. We found no rules on emergency access to electronic records."
+   ],
+   "sources": [
+    {
+     "title": "Resolução n.º 73/2007, Carta dos Direitos e Deveres do Doente (Boletim da República, I Série, n.º 50, reproduced as Annex II by CIP)",
+     "url": "https://cipmoz.org/wp-content/uploads/2018/08/361_CIP-spinformacao_2015_06_pt.pdf",
+     "date": "2007-12-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "C-Saúde, Health Information Systems (SIS-RME, SESP, iDMED, DISA Lab interoperability)",
+     "url": "https://csaude.org.mz/health-information-systems/",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Moçambique garante 40 milhões de dólares para digitalização da saúde (AIM)",
+     "url": "https://aimnews.org/2026/04/15/mocambique-garante-40-milhoes-de-dolares-para-digitalizacao-da-saude/",
+     "date": "2026-04-15",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Health research needs ethics approval from a committee accredited by the national bioethics committee, CNBS, and research registration. Health system data may be reused under an approved protocol with anonymisation, without individual consent or an opt-out.",
+   "detail": [
+    "Decreto n.º 53/2024 regulates Lei n.º 6/2023 on human health research. Article 9 requires ethics approval by a CNBS-accredited committee, ANARME authorisation for clinical trials, and registration of the study.",
+    "Article 26 lets researchers use health information system data if a protocol describes anonymisation, confidentiality and safeguards against misuse. It does not require consent from the people in the data.",
+    "Item 8 of the Patient Charter gives a right to refuse participation in research. We found no evidence that the research register is public.",
+    "Score: base 40, plus 3 for the ethics and permit system and plus 3 for statutory secrecy (the protocol must set anonymisation and confidentiality safeguards). The charter right to refuse research covers participation, not reuse of record data, so it earns nothing."
+   ],
+   "sources": [
+    {
+     "title": "Decreto n.º 53/2024, Regulamento da Lei de Investigação em Saúde Humana (Boletim da República, I Série, n.º 139)",
+     "url": "https://faolex.fao.org/docs/pdf/moz228472.pdf",
+     "date": "2024-07-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Resolução n.º 73/2007, Carta dos Direitos e Deveres do Doente (Boletim da República, I Série, n.º 50, reproduced as Annex II by CIP)",
+     "url": "https://cipmoz.org/wp-content/uploads/2018/08/361_CIP-spinformacao_2015_06_pt.pdf",
+     "date": "2007-12-18",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 38,
+   "summary": "ANARME's device manual classifies medical decision software by risk, but has no AI-specific rules on change control or human oversight. A National AI Commission created in March 2026 will set ethical principles.",
+   "detail": [
+    "ANARME's market authorisation manual for medical devices uses IMDRF-based rules. Its Rule 11 classifies decision-support software, and its examples include an image analysis algorithm for pathology. The text does not mention artificial intelligence. Section 6.2 requires approval of device changes, but nothing is specific to learning software.",
+    "Forbes África Lusófona reported on 13 March 2026 that the Council of Ministers created a National AI Commission to set ethical principles and assess AI risks, citing an INTIC statement.",
+    "We found no binding rules for clinical AI. Score sits in the 35 to 50 band for guidance only, low because the guidance is not AI-specific, and below Brazil (40), which has software device rules and an AI draft."
+   ],
+   "sources": [
+    {
+     "title": "ANARME, Manual de Autorização de Introdução no Mercado de Dispositivos Médicos e Dispositivos de Diagnóstico In-Vitro (ANARME.MAM.DVAM.002, versão 00)",
+     "url": "https://anarme.gov.mz/download/manual-de-autorizacao-de-introducao-no-mercado-de-dispositivos-medicos-e-dispositivos-medicos-de-diagnostico-in-vitro/",
+     "date": "2024-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Moçambique cria Comissão Nacional de Inteligência Artificial para orientar economia digital (Forbes África Lusófona)",
+     "url": "https://forbesafricalusofona.com/mocambique-cria-comissao-nacional-de-inteligencia-artificial-para-orientar-economia-digital/",
+     "date": "2026-03-13",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "connected",
+  "research": "partial"
+ },
+ "journeyNote": "Public health reporting runs nationally on SIS-MA. HIV records, pharmacy and lab results link through SESP, iDMED and DISA, but general hospital records are in pilot and the ministry says systems do not communicate.",
+ "laws": [
+  {
+   "name": "Lei n.º 3/2017, Lei de Transacções Electrónicas",
+   "level": "National",
+   "year": "2017",
+   "what": "Chapter IX protects electronic personal data: purpose limits, access for a fee, fines of 30 to 90 minimum wages.",
+   "url": "https://www.cedsif.gov.mz/cedsifportal/wp-content/uploads/2022/04/Lei-de-Transac%C3%A7%C3%B5es-Electr%C3%B3nicas.pdf"
+  },
+  {
+   "name": "Resolução n.º 73/2007, Carta dos Direitos e Deveres do Doente",
+   "level": "National",
+   "year": "2007",
+   "what": "Patient rights to consent, confidentiality and to know the data in one's clinical file.",
+   "url": "https://cipmoz.org/wp-content/uploads/2018/08/361_CIP-spinformacao_2015_06_pt.pdf"
+  },
+  {
+   "name": "Lei n.º 19/2014, protection of people living with HIV and AIDS",
+   "level": "National",
+   "year": "2014",
+   "what": "Bans disclosing HIV status without consent; testing needs informed consent; fines in minimum wages.",
+   "url": "https://www.wlsa.org.mz/wp-content/uploads/2014/11/NovaLeiHIV_SIDA.pdf"
+  },
+  {
+   "name": "Lei n.º 6/2023 and Decreto n.º 53/2024, human health research",
+   "level": "National",
+   "year": "2024",
+   "what": "Ethics approval, research registration and protocol rules for reusing health system data.",
+   "url": "https://faolex.fao.org/docs/pdf/moz228472.pdf"
+  },
+  {
+   "name": "Lei n.º 3/2026, regime jurídico do Sistema Nacional de Saúde (SINS)",
+   "level": "National",
+   "year": "2026",
+   "what": "Sets the legal regime of the National Health System; gazetted 21 January 2026. Data provisions not verified.",
+   "url": "https://www.inm.gov.mz/pt-br/content/sum%C3%A1rio-suplemento-n%C2%BA-1-de-210126-pag-34-1-17-br-n%C2%BA-13-boletim-da-rep%C3%BAblica-i-serie-p%C3%A1g-1"
+  },
+  {
+   "name": "Proposta de Lei de Protecção de Dados Pessoais (bill)",
+   "level": "National",
+   "year": "2026",
+   "what": "Approved by Council of Ministers 3 March 2026; consent, access rights, breach notice. Not yet law.",
+   "url": "https://intic.gov.mz/proposta-de-lei-de-proteccao-de-dados-pessoais-segue-para-debate-na-assembleia-da-republica/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-03-05",
+   "headline": "Cabinet approves personal data protection bill and sends it to Parliament",
+   "source": "INTIC",
+   "url": "https://intic.gov.mz/proposta-de-lei-de-proteccao-de-dados-pessoais-segue-para-debate-na-assembleia-da-republica/",
+   "why": "Would give patients rights of access, erasure and breach notice for the first time."
+  },
+  {
+   "date": "2026-04-15",
+   "headline": "Ministry secures about $40 million to digitise 63 health facilities",
+   "source": "AIM",
+   "url": "https://aimnews.org/2026/04/15/mocambique-garante-40-milhoes-de-dolares-para-digitalizacao-da-saude/",
+   "why": "Electronic records reach a small share of the roughly 1,900 facilities."
+  },
+  {
+   "date": "2026-04-17",
+   "headline": "Data protection bill would create an independent national data authority",
+   "source": "Carta de Moçambique",
+   "url": "https://cartamz.com/destaque/50359/mocambique-tera-uma-autoridade-de-proteccao-de-dados-pessoais/",
+   "why": "Patients would gain a regulator able to audit and sanction health data handlers."
+  },
+  {
+   "date": "2026-06-12",
+   "headline": "President signs cybersecurity and cybercrime laws with fines up to 160 minimum wages",
+   "source": "Lusa via Correio da Manhã Canadá",
+   "url": "https://www.correiodamanhacanada.com/presidente-mocambicano-promulga-leis-dos-crimes-e-seguranca-cibernetica/",
+   "why": "Sets security duties for networks that hold health records."
+  },
+  {
+   "date": "2026-08-25",
+   "headline": "Regulator says many entities ignore existing data rules; bill still pending",
+   "source": "Diário Económico",
+   "url": "https://www.diarioeconomico.co.mz/2026/08/25/desenvolvimento-2/intic-apela-ao-reforco-da-fiscalizacao-e-responsabilizacao-na-proteccao-de-dados/",
+   "why": "Shows current protections for patient data are weakly enforced."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

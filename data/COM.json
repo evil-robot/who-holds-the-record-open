@@ -1,0 +1,330 @@
+{
+ "iso3": "COM",
+ "name": "Comoros",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Comoros has had a data protection law since 2014, but no working regulator was found, and health records stay on paper or in separate systems.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Article 219 of the 2011 Public Health Code gives patients the right to the information in their file. The 2014 data law adds a copy, but for a fee, through a doctor for medical data, with no deadline and no portal, so 35.",
+   "detail": [
+    "Article 219 of Law 11-001/AU, the Public Health Code, says a patient can ask for the information in their file and professional secrecy cannot be opposed to them. For minors, the information goes to the legal representative.",
+    "The 2014 data protection law (Law 14-029/AU) adds a right to a copy (Articles 13 and 14), for a flat fee to be set by the data commission. Article 18 says medical information reaches the person only through a doctor they name.",
+    "Neither law sets a deadline for answering. The commission that should set fees and hear complaints was not found to be operating (not verified).",
+    "We found no national portal or app where patients can see their health record. A digital vaccination card and citizen portal were being tested in June 2026 before national rollout."
+   ],
+   "sources": [
+    {
+     "title": "Loi N°11-001/AU portant Code de la Santé Publique (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/com239753.pdf",
+     "date": "2011-03-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi du 26 juin 2014 portant protection des données à caractère personnel (Ministère de la Justice)",
+     "url": "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-26-juin-2014-portant-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2014-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Les Comores renforcent leur écosystème numérique pour la vaccination, la surveillance épidémiologique et l'utilisation des données (HISP Rwanda)",
+     "url": "https://hisprwanda.org/les-comores-renforcent-leur-ecosysteme-numerique-pour-la-vaccination-la-surveillance-epidemiologique-et-lutilisation-des-donnees/",
+     "date": "2026-06-17",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The 2014 law requires express consent for health data, but it exempts treatment and health research, and there is no opt-out from sharing and no access log for patients. National health data were hosted in Rwanda before a local server room opened in 2023.",
+   "detail": [
+    "Article 6 of Law 14-029/AU bans processing health data without express consent. Article 7 lifts the ban for individual medical follow-up, for saving a life and for health research.",
+    "Article 6 also allows exceptions for public interest on the proposal or approval of the data commission. Article 10 lets a person object to processing, but only for legitimate reasons.",
+    "We found no way for a patient to block sharing between providers or to see who opened their file.",
+    "La Gazette des Comores reported that national health data used to be hosted abroad, in Rwanda, and that the Ministry's health statistics directorate has had its own server room since 2023. It ties this work to the World Bank funded VACCIN project."
+   ],
+   "sources": [
+    {
+     "title": "Loi du 26 juin 2014 portant protection des données à caractère personnel (Ministère de la Justice)",
+     "url": "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-26-juin-2014-portant-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2014-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Des actions concrètes pour le projet VACCIN (La Gazette des Comores)",
+     "url": "https://www.lagazettedescomores.com/sant%C3%A9/des-actions-concr%C3%A8tes-pour-le-projet-vaccin-.html",
+     "date": "2025-12-29",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is a protected category, its processing needs the commission's prior approval, and offences carry 5 to 10 years in prison. With no breach notice duty and no working commission found (not verified), it sits at the floor of the general-law band, 45.",
+   "detail": [
+    "Law 14-029/AU creates an independent Commission nationale de l'informatique et des libertés (Article 19). Processing health data needs its prior authorisation (Article 43). If it does not answer within two months, approval is assumed (Article 44).",
+    "Article 65 punishes offences, including disclosure to unauthorised third parties, with 5 to 10 years in prison and fines of 10 to 35 million francs. Fines from the commission cannot be applied to the State (Article 55).",
+    "We found no duty to report breaches. Africa Data Protection lists no supervisory authority. A March 2026 Islamic Development Bank notice plans support for a national data protection authority.",
+    "The 2021 cybersecurity law (Law 21-012/AU) adds offences for misuse of personal data. Comoros is not in the EU, so the GDPR and EHDS do not apply."
+   ],
+   "sources": [
+    {
+     "title": "Loi du 26 juin 2014 portant protection des données à caractère personnel (Ministère de la Justice)",
+     "url": "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-26-juin-2014-portant-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2014-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret N°22-003/PR portant promulgation de la loi N°21-012/AU relative à la Cyber Sécurité et à la Lutte contre la Cybercriminalité (ANCS)",
+     "url": "https://ancs.gouv.km/wp-content/uploads/2024/02/DEC-N%C2%B022-003-promul-loi-N%C2%B021-012-AU-relative-a-la-Cyber-Securite-et-a-la-Lutte-contre-la-CYbercrimunalite-en-Union-des-Comores.pdf",
+     "date": "2022-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Comores: loi de protection des données (Africa Data Protection)",
+     "url": "https://www.africadataprotection.org/pays/comores.html",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Projet de Modernisation de l'Administration Publique Comorienne par le biais de l'E-Gouvernement, avis général de passation des marchés (Banque Islamique de Développement)",
+     "url": "https://www.isdb.org/project-procurement/fr/appels-doffres/2026/gpn/projet-de-modernisation-de-ladministration-publique-comorienne-par-le-bais",
+     "date": "2026-03-12",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "People can refuse, free and without giving a reason, the use of their data for commercial marketing, and marketing messages must carry an unsubscribe link. No rules were found on selling health data, de-identified data or health apps.",
+   "detail": [
+    "Article 11 of Law 14-029/AU gives a right to object, free of charge and without a reason, to the use of personal data for commercial, charitable or political marketing.",
+    "Article 90 of the 2021 cybersecurity law requires an unsubscribe link in unsolicited electronic messages built on personal data. Breaking this rule costs 500,000 to 2 million francs.",
+    "Article 214 of the Public Health Code binds practitioners to professional secrecy. We found no rules on data brokers, consumer health apps or the sale of anonymised health data, and no enforcement."
+   ],
+   "sources": [
+    {
+     "title": "Loi du 26 juin 2014 portant protection des données à caractère personnel (Ministère de la Justice)",
+     "url": "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-26-juin-2014-portant-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2014-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret N°22-003/PR portant promulgation de la loi N°21-012/AU relative à la Cyber Sécurité et à la Lutte contre la Cybercriminalité (ANCS)",
+     "url": "https://ancs.gouv.km/wp-content/uploads/2024/02/DEC-N%C2%B022-003-promul-loi-N%C2%B021-012-AU-relative-a-la-Cyber-Securite-et-a-la-Lutte-contre-la-CYbercrimunalite-en-Union-des-Comores.pdf",
+     "date": "2022-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi N°11-001/AU portant Code de la Santé Publique (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/com239753.pdf",
+     "date": "2011-03-26",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 25,
+   "summary": "DHIS2 collects national health statistics and the medicines supply system now links to it, but we found no hospital or clinic record system shared across facilities. The new national health insurance runs claims on openIMIS in a pilot covering 68 contracted facilities.",
+   "detail": [
+    "Comoros adopted DHIS2 for its health information system, according to a 2019 WHO and Gavi mission. World Bank funding later linked the eLMIS medicines logistics system to DHIS2 and gave 26 facilities fast internet, La Gazette reported in December 2025.",
+    "The national health insurance (AMG) pilot started on 14 December 2025 in seven districts. AFD reported 68 contracted facilities, including public facilities, pharmacies and labs. La Gazette reported in September 2025 that openIMIS software would let providers be reimbursed faster.",
+    "We found no electronic patient record used across hospitals or primary care."
+   ],
+   "sources": [
+    {
+     "title": "Mission conjointe OMS-GAVI pour relancer le processus d'amélioration de la gestion des données du système d'information sanitaire aux Comores (WHO Africa)",
+     "url": "https://www.afro.who.int/fr/countries/comoros/news/mission-conjointe-oms-gavi-pour-relancer-le-processus-damelioration-de-la-gestion-des-donnees-du",
+     "date": "2019-04-30",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Comores : lancement de la phase pilote de l'Assurance maladie généralisée à Mohéli (AFD)",
+     "url": "https://www.afd.fr/fr/actualites/comores-phase-pilote-assurance-maladie-generalisee",
+     "date": "2025-12-18",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Des actions concrètes pour le projet VACCIN (La Gazette des Comores)",
+     "url": "https://www.lagazettedescomores.com/sant%C3%A9/des-actions-concr%C3%A8tes-pour-le-projet-vaccin-.html",
+     "date": "2025-12-29",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Assurance Maladie Généralisée : le numérique au service des hôpitaux comoriens (La Gazette des Comores)",
+     "url": "https://lagazettedescomores.com/sant%C3%A9/assurance-maladie-g%C3%A9n%C3%A9ralis%C3%A9e-le-num%C3%A9rique-au-service-des-h%C3%B4pitaux-comoriens-.html",
+     "date": "2025-09-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 15,
+   "summary": "A treating clinician sees only the file held where the patient is treated, and there is no shared record across providers. The only transfer rule we found sends tuberculosis and leprosy files to the new doctor through the health authorities.",
+   "detail": [
+    "Article 83 of the Public Health Code says a tuberculosis or leprosy patient who moves must tell their doctor, who sends the file to the new doctor through the local health authorities. We found no general rule for sharing records between providers.",
+    "We found no national electronic record or exchange that a clinician can open at the point of care, including in emergencies.",
+    "openIMIS terminals given to 14 facilities in 2025 support insurance management and patient follow-up for the AMG. They are not a clinical record."
+   ],
+   "sources": [
+    {
+     "title": "Loi N°11-001/AU portant Code de la Santé Publique (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/com239753.pdf",
+     "date": "2011-03-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Assurance Maladie Généralisée : le numérique au service des hôpitaux comoriens (La Gazette des Comores)",
+     "url": "https://lagazettedescomores.com/sant%C3%A9/assurance-maladie-g%C3%A9n%C3%A9ralis%C3%A9e-le-num%C3%A9rique-au-service-des-h%C3%B4pitaux-comoriens-.html",
+     "date": "2025-09-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Health research is exempt from the consent rule for sensitive data, and there is no general opt-out. A national ethics committee approved its first study in 2022 and the law sets criminal penalties for misuse, so the score sits just under the band cap of 50.",
+   "detail": [
+    "Article 7 of Law 14-029/AU lets health research process health data without the express consent otherwise required. Article 53 allows reuse for other purposes only with the person's express consent or the commission's authorisation.",
+    "The Comité national d'éthique pour les sciences de la vie et de la santé, provisionally appointed in April 2022, approved a leprosy prevention study in May 2022. Its later work is not verified.",
+    "Article 453 of the Public Health Code requires notice to the hospital director and pharmacist before a drug trial, and bars trials without the patient's knowledge. Article 65 of the data law punishes misuse with prison terms.",
+    "We found no public register of research uses of health data."
+   ],
+   "sources": [
+    {
+     "title": "Loi du 26 juin 2014 portant protection des données à caractère personnel (Ministère de la Justice)",
+     "url": "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-26-juin-2014-portant-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2014-06-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lutte contre la lèpre : le Comité national d'éthique donne avis favorable au protocole Be-People (Al-watwan)",
+     "url": "https://alwatwan.net/societe/lutte-contre-la-l%C3%A8pre-i-le-comit%C3%A9-national-d%E2%80%99%C3%A9thique-donne-avis-favorable-au-protocole-be-people.html",
+     "date": "2022-05-09",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Loi N°11-001/AU portant Code de la Santé Publique (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/com239753.pdf",
+     "date": "2011-03-26",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 20,
+   "summary": "Comoros has no rules for clinical AI and no national AI strategy. The Public Health Code counts software as a medical device, but manufacturers certify conformity themselves and nothing addresses AI.",
+   "detail": [
+    "Article 396 of the Public Health Code includes software in the definition of a medical device. Article 397 lets the manufacturer certify conformity, under the health ministry's control. Article 399 requires serious incidents to be reported.",
+    "The medicines agency ANAMEV, created by decree 17-011/PR, lists medical devices in its remit. We found no guidance on software or AI as a medical device.",
+    "UNESCO began an AI readiness assessment for Comoros in late 2025. Al-watwan reported that it found no national AI strategy, no AI law and no independent AI ethics body."
+   ],
+   "sources": [
+    {
+     "title": "Loi N°11-001/AU portant Code de la Santé Publique (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/com239753.pdf",
+     "date": "2011-03-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ANAMEV: à propos de l'agence",
+     "url": "https://anamev.org/a-propos.php",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Appel à manifestation d'intérêt: expert(e) national(e) Iles des Comores pour l'évaluation de l'état de préparation à l'IA (UNESCO)",
+     "url": "https://www.unesco.org/fr/articles/appel-manifestation-dinteret-experte-nationale-iles-des-comores-pour-soutenir-la-mise-en-oeuvre-de",
+     "date": "2025-10-09",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Intelligence artificielle : le diagnostic Ram 2.0 révèle les défis des Comores (Al-watwan)",
+     "url": "https://alwatwan.net/societe/intelligence-artificielle-i-le-diagnostic-ram-2.0-r%C3%A9v%C3%A8le-les-d%C3%A9fis-des-comores.html",
+     "date": "2026-10-02",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "partial",
+  "publicHealth": "connected",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 gathers national health statistics, and the eLMIS medicines supply system links to it. AMG insurance claims run on openIMIS in a pilot in seven districts. No shared patient record links clinics, hospitals, labs or pharmacies.",
+ "laws": [
+  {
+   "name": "Loi N°14-029/AU portant protection des données à caractère personnel",
+   "level": "National",
+   "year": "2014",
+   "what": "Health data needs express consent, with exceptions for treatment and research; creates a data commission; penalties up to 10 years.",
+   "url": "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-26-juin-2014-portant-protection-des-donnees-a-caractere-personnel.pdf"
+  },
+  {
+   "name": "Loi N°11-001/AU portant Code de la Santé Publique",
+   "level": "National",
+   "year": "2011",
+   "what": "Patient right to the information in their file, medical secrecy, device rules covering software, trial safeguards.",
+   "url": "https://faolex.fao.org/docs/pdf/com239753.pdf"
+  },
+  {
+   "name": "Loi N°21-012/AU relative à la Cyber Sécurité et à la Lutte contre la Cybercriminalité",
+   "level": "National",
+   "year": "2021",
+   "what": "Cybersecurity law with offences for misuse of personal data and an unsubscribe rule for marketing messages.",
+   "url": "https://ancs.gouv.km/wp-content/uploads/2024/02/DEC-N%C2%B022-003-promul-loi-N%C2%B021-012-AU-relative-a-la-Cyber-Securite-et-a-la-Lutte-contre-la-CYbercrimunalite-en-Union-des-Comores.pdf"
+  },
+  {
+   "name": "Décret 17-011/PR portant création de l'ANAMEV",
+   "level": "National",
+   "year": "2017",
+   "what": "Creates the national agency for medicines, medical devices, clinical trial review and medical evacuations.",
+   "url": "https://anamev.org/a-propos.php"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-03",
+   "headline": "First national vaccination campaign run with real-time digital data collection",
+   "source": "WHO Regional Office for Africa",
+   "url": "https://www.afro.who.int/fr/countries/comoros/news/aux-comores-linnovation-numerique-transforme-les-campagnes-de-vaccination",
+   "why": "Shows health data moving from paper to digital tools, with new data protection needs."
+  },
+  {
+   "date": "2025-12-18",
+   "headline": "National health insurance pilot launches in seven districts",
+   "source": "AFD",
+   "url": "https://www.afd.fr/fr/actualites/comores-phase-pilote-assurance-maladie-generalisee",
+   "why": "The pilot covers about 318,000 people, whose care claims the new insurer will hold."
+  },
+  {
+   "date": "2025-12-29",
+   "headline": "Health data brought home from Rwanda to a national server room",
+   "source": "La Gazette des Comores",
+   "url": "https://www.lagazettedescomores.com/sant%C3%A9/des-actions-concr%C3%A8tes-pour-le-projet-vaccin-.html",
+   "why": "Where national health data is hosted decides which laws and authorities protect it."
+  },
+  {
+   "date": "2026-06-17",
+   "headline": "Ministry tests electronic vaccination registry and citizen portal before national rollout",
+   "source": "HISP Rwanda",
+   "url": "https://hisprwanda.org/les-comores-renforcent-leur-ecosysteme-numerique-pour-la-vaccination-la-surveillance-epidemiologique-et-lutilisation-des-donnees/",
+   "why": "A citizen portal and digital vaccination card would be the first patient-facing health tools."
+  },
+  {
+   "date": "2026-09-18",
+   "headline": "UNDP and digital agency launch national digital readiness assessment",
+   "source": "We Are Tech Africa",
+   "url": "https://www.wearetech.africa/fr/fils/actualites/tech/transformation-numerique-les-comores-passent-a-l-evaluation",
+   "why": "The review covers regulation as data protection work under the PADEC project goes on."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

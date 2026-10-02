@@ -53,36 +53,35 @@ EDGE_BAND = 1.0                # sensitivity report: values within this of a cut
 # Each entry: (class, field, verbatim quote). build checks the quote is a substring of that field.
 RECORD_SPLIT = {
     "BGR": ("connected", "categories.journey.summary", "Every provider, public or private, must send a signed electronic record of each activity to the national system."),
-    "FIN": ("connected", "journeyNote", "Kanta joins public and private providers, pharmacies and prescriptions nationally, with consent governing cross-provider views."),
-    "FRA": ("connected", "categories.journey.summary", "About 150,000 private practitioners and 3,800 institutions feed the shared record"),
     "GRC": ("connected", "categories.journey.summary", "National e-prescription and e-referral, run by IDIKA since 2010, feed one record for public and private care."),
     "HUN": ("connected", "journeyNote", "EESZT has linked GPs, hospitals, outpatient clinics and all pharmacies since 2017, with private providers since 2020."),
-    "POL": ("connected", "categories.journey.detail[0]", "Every doctor, dentist and hospital must report medical events to the national system, whether care is public or private."),
+    "POL": ("connected", "categories.access.detail[1]", "visit history including privately paid care"),
     "TUR": ("connected", "journeyNote", "SGK will not pay for services missing from e-Nabız, so public and private providers feed one ministry record"),
-    "ARG": ("partial", "categories.journey.detail[0]", "creates a federal program to progressively set up a single electronic record system and an interoperability framework across public, private and social security sectors."),
-    "AUT": ("partial", "categories.journey.summary", "Hospitals, pharmacies, labs and radiology now feed ELGA, and private doctors must connect from 2026."),
-    "BRA": ("partial", "categories.journey.summary", "Private sector integration and small hospitals still lag."),
-    "CHL": ("partial", "journeyNote", "Public network tools exist; private links are uneven."),
+    "AUT": ("partial", "journeyNote", "labs and radiology must upload since 2025 and private doctors from 2026. Specialist reports follow by 2030."),
+    "BRA": ("partial", "categories.clinical.detail[3]", "Private hospital data and full notes are not yet part of the shared view in the sources opened."),
     "CRI": ("partial", "categories.journey.summary", "Private hospitals and clinics are not connected beyond the patient's share code."),
     "CYP": ("partial", "categories.clinical.summary", "The Commission found public and private hospitals supplying data to the national access service, but a full national record is not yet built."),
+    "FIN": ("partial", "categories.journey.summary", "All public health care, all pharmacies and two thirds of private health firms use Kanta"),
+    "FRA": ("partial", "categories.journey.detail[2]", "In Nouvelle-Aquitaine 90% of health establishments and 68.5% of private professionals feed it"),
     "HRV": ("partial", "journeyNote", "private clinics join only in 2027."),
     "ISL": ("partial", "categories.journey.summary", "Some private providers still keep non-digital records until a December 2026 deadline."),
-    "ITA": ("partial", "categories.journey.detail[2]", "Emilia-Romagna now shows reports from out-of-region care and is adding private provider documents"),
+    "ITA": ("partial", "categories.journey.detail[1]", "In Sardinia only about 90 private accredited facilities fed the FSE at 30 April 2026."),
     "PRT": ("partial", "categories.clinical.summary", "Data held only by private providers is often missing."),
-    "SGP": ("partial", "categories.clinical.detail[2]", "Coverage gaps remain until mandatory contribution starts in early 2027, mainly in private primary care."),
-    "SWE": ("partial", "categories.access.detail[0]", "All Swedish regions take part, along with some municipalities and private providers."),
-    "THA": ("partial", "categories.journey.detail[0]", "passed 400 public and private facilities by August 2024."),
-    "MEX": ("split", "journeyNote", "Each institution (IMSS, ISSSTE, IMSS-Bienestar, private) keeps its own record today."),
+    "SGP": ("partial", "categories.journey.summary", "Three of nine private hospitals, many specialists, labs and dental clinics were still outside."),
+    "SWE": ("partial", "categories.access.detail[2]", "about 10% of private providers, those outside public contracts, often do not share."),
+    "CHL": ("split", "categories.journey.detail[2]", "The Clinic reported that public and private systems remain far from interoperable."),
+    "MEX": ("split", "journeyNote", "ISSSTE, IMSS-Bienestar, state services and private providers keep separate records."),
     "MLT": ("split", "journeyNote", "Private hospitals, private GPs and most private prescriptions are outside it."),
     "RUS": ("split", "categories.journey.detail[3]", "Only about 2% of private clinics sent data in 2025"),
-    "ZAF": ("split", "journeyNote", "Public and private care run separate systems."),
+    "ZAF": ("split", "categories.clinical.summary", "no shared record exists across hospitals or between public and private care."),
 }
 # Unknown with a reason worth recording (file speaks to the question but does not answer it).
 UNKNOWN_NOTES = {
-    "CAN": ("journeyNote", "only 35% of physicians share data outside their practice", "The file documents fragmentation across provinces and practices, not a public/private split."),
-    "GHA": ("categories.clinical.summary", "private facilities were not shown to be connected", "Not shown is not the same as not connected."),
-    "IND": ("categories.journey.detail[1]", "450+ public and private solutions integrated.", "These are software integrations, not private care providers; the file does not say whether private providers connect."),
-    "RWA": ("categories.clinical.detail[1]", "We did not verify whether private clinics or pharmacies are connected", "Not verified."),
+    "CAN": ("journeyNote", "only 52% of providers share outside their workplace", "The file documents fragmentation across provinces and practices, not a public/private split."),
+    "GHA": ("categories.clinical.detail[2]", "We found no rule on emergency access or on clinician access to records held by private providers.", "About clinician read access, not whether private providers feed the record; no rule found is not an answer."),
+    "IND": ("categories.journey.detail[1]", "more than 450 public and private software products integrated.", "These are software integrations, not private care providers; the file does not say whether private providers connect."),
+    "RWA": ("categories.clinical.detail[2]", "We found no rules on emergency access or on private clinics joining e-Ubuzima.", "No rule found; the file does not say whether private clinics feed e-Ubuzima."),
+    "THA": ("categories.journey.detail[1]", "plus about 8,500 clinics and pharmacies", "The file does not say whether these clinics are public or private."),
 }
 
 
@@ -293,21 +292,21 @@ def build():
 
     merge_research(out)
 
-    # ------------------------------------------------ cut-offs over the 64, then flags
+    # ------------------------------------------------ cut-offs over the OECD members, then flags
+    # Reference group: the OECD members (JAS, 2 Oct 2026), so cut-offs stay fixed as countries are added.
     def vals(name):
-        return np.array([o["indicators"][name]["value"] for o in out.values() if o["indicators"][name]["value"] is not None], dtype=float)
+        return np.array([o["indicators"][name]["value"] for o in out.values() if o["oecdMember"] and o["indicators"][name]["value"] is not None], dtype=float)
 
     cut = {"doctorsPer10k_Q1": float(np.percentile(vals("doctorsPer10k"), 25)),
            "nursesMidwivesPer10k_Q1": float(np.percentile(vals("nursesMidwivesPer10k"), 25)),
            "vhiPlusOopShareCHE_Q3": float(np.percentile(vals("vhiPlusOopShareCHE"), 75)),
-           "n": {k: int(len(vals(k))) for k in ("doctorsPer10k", "nursesMidwivesPer10k", "vhiPlusOopShareCHE")}}
+           "reference": "OECD members", "n": {k: int(len(vals(k))) for k in ("doctorsPer10k", "nursesMidwivesPer10k", "vhiPlusOopShareCHE")}}
     for iso, o in out.items():
         I = o["indicators"]
         doc, nur = I["doctorsPer10k"]["value"], I["nursesMidwivesPer10k"]["value"]
         lows = [doc is not None and doc < cut["doctorsPer10k_Q1"], nur is not None and nur < cut["nursesMidwivesPer10k_Q1"]]
         wf = True if any(lows) else (False if doc is not None and nur is not None else None)
-        s = I["vhiPlusOopShareCHE"]["value"]
-        ps = None if s is None else s > cut["vhiPlusOopShareCHE_Q3"]
+        ps, ps_basis = private_spend_flag(I, cut["vhiPlusOopShareCHE_Q3"])
         waits = [I[f"waitMedianDays_{k}"]["value"] for k in WAIT_FLAG_PROCS if I[f"waitMedianDays_{k}"]["value"] is not None]
         lw = None if not waits else max(waits) > WAIT_THRESHOLD_DAYS
         cls = o["recordSplit"]["class"]
@@ -317,6 +316,8 @@ def build():
         flags = {"workforceLow": wf, "privateSpendHigh": ps, "longWaits": lw, "recordSplit": sp,
                  "doctorsLow": dl, "nursesLow": nl}   # doctorsLow/nursesLow are the parts of workforceLow, not counted
         o["flags"] = flags
+        if ps_basis: o["privateSpendBasis"] = ps_basis
+        else: o.pop("privateSpendBasis", None)
         four = [flags[k] for k in FLAG_KEYS]
         o["flagCount"] = {"true": sum(v is True for v in four), "false": sum(v is False for v in four),
                           "unknown": sum(v is None for v in four)}
@@ -350,16 +351,31 @@ def build():
     return result
 
 
-PHRASE = {"workforceLow": "doctors or nurses per person in the bottom quarter of the 64 countries",
-          "privateSpendHigh": "private insurance plus out-of-pocket spending in the top quarter of the 64",
+PHRASE = {"workforceLow": "doctors or nurses per person in the bottom quarter of OECD members",
+          "privateSpendHigh": "private insurance plus out-of-pocket spending in the top quarter of OECD members",
           "longWaits": "a median wait over 90 days for hip or knee replacement",
           "recordSplit": "a public record that does not reach private providers"}
 UNK = {"workforceLow": "workforce", "privateSpendHigh": "private spending", "longWaits": "waits", "recordSplit": "whether the record reaches private providers"}
 
 
+def _stale(x):
+    return x.get("value") is not None and x.get("retrieved") and x.get("year") is not None and int(x["retrieved"][:4]) - x["year"] > STALE_YEARS
+
+
+def private_spend_flag(I, cutoff):
+    """Private insurance plus out-of-pocket above the OECD upper quartile. When the combined figure is missing or stale
+    but out-of-pocket alone (a lower bound of the combined share) is recent and already above the cut-off, the flag is
+    true on that basis. Returns (flag, basis)."""
+    s, oop = I["vhiPlusOopShareCHE"], I["oopShareCHE"]
+    if (s["value"] is None or _stale(s)) and oop["value"] is not None and not _stale(oop) and oop["value"] > cutoff:
+        return True, "OOP alone already above the cut-off"
+    return (None if s["value"] is None else s["value"] > cutoff), None
+
+
 def reading(o, cut):
     f = o["flags"]
-    on = [PHRASE[k] for k in FLAG_KEYS if f[k] is True]
+    on = [("out-of-pocket spending alone above the top quarter of OECD members for private insurance plus out-of-pocket"
+           if k == "privateSpendHigh" and o.get("privateSpendBasis") else PHRASE[k]) for k in FLAG_KEYS if f[k] is True]
     unk = [UNK[k] for k in FLAG_KEYS if f[k] is None]
     head = (f"{o['name']} carries {len(on)} of 4 flags" + (f" ({'; '.join(on)})" if on else "")) if on else f"{o['name']} carries no flags"
     tail = f"; not measured: {', '.join(unk)}." if unk else "; all four were measured."
@@ -457,8 +473,7 @@ def validate(result, countries):
         nl = None if nur is None else nur < cut["nursesMidwivesPer10k_Q1"]
         if f.get("doctorsLow") is not dl or f.get("nursesLow") is not nl:
             errs.append(f"{iso}: doctorsLow/nursesLow {f.get('doctorsLow')}/{f.get('nursesLow')} do not follow the values ({dl}/{nl})")
-        sv = I["vhiPlusOopShareCHE"]["value"]
-        ps = None if sv is None else sv > cut["vhiPlusOopShareCHE_Q3"]
+        ps, _ = private_spend_flag(I, cut["vhiPlusOopShareCHE_Q3"])
         if f["privateSpendHigh"] is not ps:
             errs.append(f"{iso}: privateSpendHigh {f['privateSpendHigh']} does not follow the values ({ps})")
         waits = [I[f"waitMedianDays_{k}"]["value"] for k in WAIT_FLAG_PROCS if I[f"waitMedianDays_{k}"]["value"] is not None]
@@ -466,8 +481,10 @@ def validate(result, countries):
         if f["longWaits"] is not lw:
             errs.append(f"{iso}: longWaits {f['longWaits']} does not follow the values ({lw})")
     cut = result["meta"]["cutoffs"]
+    if cut.get("reference") != "OECD members":
+        errs.append("cut-offs must be computed over the OECD members (reference group)")
     for name, ck, q in (("doctorsPer10k", "doctorsPer10k_Q1", 25), ("nursesMidwivesPer10k", "nursesMidwivesPer10k_Q1", 25), ("vhiPlusOopShareCHE", "vhiPlusOopShareCHE_Q3", 75)):
-        v = [o["indicators"][name]["value"] for o in C.values() if o["indicators"][name]["value"] is not None]
+        v = [o["indicators"][name]["value"] for o in C.values() if o["oecdMember"] and o["indicators"][name]["value"] is not None]
         if v and abs(float(np.percentile(v, q)) - cut[ck]) > 0.01:
             errs.append(f"cut-off {ck} {cut[ck]} is not the {q}th percentile of the values ({float(np.percentile(v, q)):.2f})")
     if errs:
@@ -494,6 +511,8 @@ if __name__ == "__main__":
     res = build()
     n, bad = cross_check(res)
     res["meta"]["wdiParseCheck"] = {"pairs": n, "disagreeOver1pt": bad}
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(HERE)), "scripts")); from datahash import data_sha256
+    res["meta"]["dataSha256"] = data_sha256(os.path.dirname(os.path.dirname(HERE)))  # DECISION_RULES.md
     json.dump(res, open(os.path.join(HERE, "strain.json"), "w"), indent=1, ensure_ascii=False)
     C = res["countries"]
     print("cutoffs", res["meta"]["cutoffs"], "| GHED last final year", res["meta"]["ghedLastFinalYear"])

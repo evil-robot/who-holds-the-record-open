@@ -1,0 +1,333 @@
+{
+ "iso3": "MWI",
+ "name": "Malawi",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Malawi's 2024 data law gives a 30-day right to a copy, but most patients still carry their record in a paper health passport.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 50,
+   "summary": "Section 19 of the Data Protection Act 2024 gives a right to a copy of your data in electronic form within 30 days, free where practicable. There is no patient portal, and most people hold their own record in a paper health passport.",
+   "detail": [
+    "Section 19 lets a person confirm whether a controller processes their data and get a copy on demand, in a commonly used electronic format, within thirty days, and where practicable at no cost. Section 20 adds a right to a machine-readable copy when processing rests on consent or contract.",
+    "Section 26 lets these rights be restricted for public health, national security, crime and regulatory work. The regulator's site lists a complaints service. The score starts at 45 and adds 5 for the fixed deadline and electronic format.",
+    "We found no national patient portal. The Ministry of Health says patients carry hard-copy health passport books, and a digital system meant to replace them was only in pilot in September 2026. That gives practical access to part of the record but does not change the band."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2024 (Act No. 3 of 2024), Malawi Data Protection Authority download",
+     "url": "https://www.dpa.mw/download/data-protection-act-2024/",
+     "date": "2024-02-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Malawi Data Protection Authority (home page, complaints service)",
+     "url": "https://www.dpa.mw/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Digital health records system in pilot phase (The Nation)",
+     "url": "https://mwnation.com/digital-health-records-system-in-pilot-phase/",
+     "date": "2026-09-04",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data may be processed without consent for public health or the public interest, and the new shared record gives no sharing choice or access log. HIV status is the exception: providers need written consent to disclose it beyond the treating team, with narrow exceptions.",
+   "detail": [
+    "Health status is sensitive data under the Data Protection Act 2024. Section 16 allows its processing with consent, but also without consent in the interest of public health, for the public interest, or for research and statistics.",
+    "The HIV and AIDS (Prevention and Management) Act 2018, section 10, bars a health provider from disclosing HIV status without written consent, except to a provider treating the person, for non-identifying epidemiological studies, or on a court order.",
+    "The Ministry says MaHIS will store each patient's record on a server linked to facilities nationwide, open to authorised health workers. We found no opt-out, consent setting or patient-visible access log for it.",
+    "In January 2026 Malawi signed a five-year health agreement with the United States. Malawi24 reported that the government had not explained what health data would be shared or how it would be protected."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2024 (Act No. 3 of 2024), Malawi Data Protection Authority download",
+     "url": "https://www.dpa.mw/download/data-protection-act-2024/",
+     "date": "2024-02-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "HIV and AIDS (Prevention and Management) Act, 2018 (Act No. 9 of 2018)",
+     "url": "https://policyvault.africa/wp-content/uploads/policy/MWI12.pdf",
+     "date": "2018-02-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "U.S. and Malawi Sign Five-Year Health MOU (U.S. Embassy Lilongwe)",
+     "url": "https://mw.usembassy.gov/u-s-and-malawi-sign-five-year-health-mou/",
+     "date": "2026-01-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Malawi barters Malawians health data for US to lift visa restrictions? (Malawi24)",
+     "url": "https://malawi24.com/2026/01/16/is-malawi-trading-health-data-for-visa-relief-with-the-us/",
+     "date": "2026-01-16",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 50,
+   "summary": "The 2024 Act treats health as sensitive, requires breach notice within 72 hours and lets the regulator impose penalties up to K20 million. We found no health-sector enforcement, and a 2024 study reports repeated ransomware attacks on health systems, so this sits low in the general-law band.",
+   "detail": [
+    "Section 36 requires controllers to tell the regulator of a breach within seventy-two hours, and section 37 requires telling affected people when the risk is high. Under section 45 the regulator can order compensation and fines up to K20 million; ignoring an order can bring K50 million for a company.",
+    "The Malawi Communications Regulatory Authority (MACRA) is the designated Data Protection Authority, and section 4 says it acts independently. In 2026 it ran enforcement training for practitioners and consulted on draft registration rules. We found no health-sector decision.",
+    "The HIV Act makes unlawful disclosure of HIV status a crime, with a K5 million fine and five years in prison. A 2024 paper by system designers says staff share log-ins and ransomware attacks have hit DHIS2 and the national EMR repeatedly.",
+    "Malawi is outside the EU, so the GDPR and the European Health Data Space do not apply. The EU and Germany co-funded MACRA's September 2026 data protection training."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2024 (Act No. 3 of 2024), Malawi Data Protection Authority download",
+     "url": "https://www.dpa.mw/download/data-protection-act-2024/",
+     "date": "2024-02-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Malawi Builds Capacity to Implement Data Protection Act (Malawi Data Protection Authority)",
+     "url": "https://www.dpa.mw/malawi-builds-capacity-to-implement-data-protection-act/",
+     "date": "2026-09-22",
+     "publisherClass": "official"
+    },
+    {
+     "title": "HIV and AIDS (Prevention and Management) Act, 2018 (Act No. 9 of 2018)",
+     "url": "https://policyvault.africa/wp-content/uploads/policy/MWI12.pdf",
+     "date": "2018-02-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Design of a Trustworthy Cloud-Native National Digital Health Information Infrastructure for Secure Data Management and Use (Oxford Open Digital Health, PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11932406/",
+     "date": "2024-11-03",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "Anyone can object to direct marketing under section 24, and health data needs consent or another listed ground. We found no rules on selling health data, data brokers, health apps or de-identified data.",
+   "detail": [
+    "Section 24(3) of the Data Protection Act 2024 lets a person object to processing for direct marketing. Section 16 limits sensitive data, including health status, to consent or a listed ground, and none of the grounds is commercial.",
+    "Section 25 gives a right not to be subject to decisions made solely by automated processing, including profiling, that have legal or similarly significant effects.",
+    "We found no provision on selling health data, data brokers, consumer health apps or de-identified data, and no enforcement in this area."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2024 (Act No. 3 of 2024), Malawi Data Protection Authority download",
+     "url": "https://www.dpa.mw/download/data-protection-act-2024/",
+     "date": "2024-02-02",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 40,
+   "summary": "A national EMR runs in 758 HIV treatment clinics and links to the lab system, and DHIS2 carries national reporting. The MaHIS record meant to link all facilities was only in pilot at one central hospital and selected health centres in September 2026.",
+   "detail": [
+    "EGPAF, which builds the system with the Ministry and US CDC funding, says the EMR is deployed in 758 ART clinics: 254 point-of-care and 504 e-Mastercard sites. It is linked to the national laboratory system, so clinicians see HIV results in real time.",
+    "PATH reported in 2023 that over 700 facilities ran an outpatient EMR on local servers, and that a patient ID service could read national ID cards but was not yet joined to the national ID system.",
+    "WHO put Malawi's health information system maturity at 54.7% in May 2026. The Ministry hopes most facilities will be digitised within about a year. Malawi has no national health insurance claims system that we could find."
+   ],
+   "sources": [
+    {
+     "title": "Health Information Systems in Malawi (Elizabeth Glaser Pediatric AIDS Foundation)",
+     "url": "https://pedaids.org/resource/health-information-systems-malawi/",
+     "date": "2024-08",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "MALAWI Health Data Ecosystem Mapping (PATH, Digital Innovation in Pandemic Control)",
+     "url": "https://media.path.org/documents/MALAWIREPORTecosystemmapping-.pdf",
+     "date": "2023-10",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Malawi strengthens alignment under the health data collaborative (WHO Regional Office for Africa)",
+     "url": "https://www.afro.who.int/countries/malawi/news/malawi-strengthens-alignment-under-health-data-collaborative",
+     "date": "2026-05-22",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Digital health records system in pilot phase (The Nation)",
+     "url": "https://mwnation.com/digital-health-records-system-in-pilot-phase/",
+     "date": "2026-09-04",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 30,
+   "summary": "Clinicians at HIV clinics can see a shared HIV and TB history, and the HIV Act lets them share status with the treating team. Most other patients' history travels only in the paper passport they carry, and MaHIS is still a pilot.",
+   "detail": [
+    "EGPAF says the upgraded EMR gives a shared and more complete history of HIV and TB patients. Section 10(1)(b) of the HIV Act allows HIV status to go to a provider directly treating the person when it is relevant to clinical decisions.",
+    "The Ministry's digital health director told The Nation that lost or forgotten passport books leave health workers without the patient's history. MaHIS is meant to let authorised workers at any public facility open the record.",
+    "A 2024 paper says access control is weak in practice, with health workers sometimes sharing log-ins to the EMR."
+   ],
+   "sources": [
+    {
+     "title": "HIV and AIDS (Prevention and Management) Act, 2018 (Act No. 9 of 2018)",
+     "url": "https://policyvault.africa/wp-content/uploads/policy/MWI12.pdf",
+     "date": "2018-02-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Health Information Systems in Malawi (Elizabeth Glaser Pediatric AIDS Foundation)",
+     "url": "https://pedaids.org/resource/health-information-systems-malawi/",
+     "date": "2024-08",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Digital health records system in pilot phase (The Nation)",
+     "url": "https://mwnation.com/digital-health-records-system-in-pilot-phase/",
+     "date": "2026-09-04",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Design of a Trustworthy Cloud-Native National Digital Health Information Infrastructure for Secure Data Management and Use (Oxford Open Digital Health, PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11932406/",
+     "date": "2024-11-03",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "The 2024 Act lets health data be used for research without consent and gives no general opt-out. National ethics review, HIV confidentiality rules and criminal penalties put it at the top of the no-opt-out band.",
+   "detail": [
+    "Section 16(1)(g) of the Data Protection Act 2024 allows sensitive data to be processed for research or statistics without consent, and section 9(4) treats research reuse as compatible with the original purpose. Section 12(3) asks for pseudonymised storage where appropriate.",
+    "The National Health Sciences Research Committee approves studies, and its approval is needed before genetic material leaves Malawi. The HIV Act allows HIV data in epidemiological studies only when the person cannot be identified.",
+    "We found no public register of research uses. That gives base 40, plus 3 each for ethics review, statutory confidentiality and penalties."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2024 (Act No. 3 of 2024), Malawi Data Protection Authority download",
+     "url": "https://www.dpa.mw/download/data-protection-act-2024/",
+     "date": "2024-02-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "DS-I Africa Law: Cross-Border Sharing of Data, Malawi country guide (datalaw.africa)",
+     "url": "https://www.datalaw.africa/wp-content/uploads/2024/09/Malawi_country-guide_30-Sept.pdf",
+     "date": "2024-07",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "HIV and AIDS (Prevention and Management) Act, 2018 (Act No. 9 of 2018)",
+     "url": "https://policyvault.africa/wp-content/uploads/policy/MWI12.pdf",
+     "date": "2018-02-09",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "Malawi has no rules for AI in clinical care. The medicines regulator covers medical devices but lists no software or AI guidance, and an AI Bill and national AI strategy were still being drafted in August 2026.",
+   "detail": [
+    "The Pharmacy and Medicines Regulatory Authority Act 2019 brings medical devices under the regulator, but its published guidelines cover medicines and pharmacies only. We found no guidance on software as a medical device or machine learning.",
+    "The ICT minister said in August 2026 that the government is finalising a National AI Strategy and an AI Bill. Neither is health-specific, and we found neither published.",
+    "Section 25 of the Data Protection Act gives a right not to be subject to decisions based solely on automated processing, with exceptions for consent, contract or written law."
+   ],
+   "sources": [
+    {
+     "title": "Guidelines (Pharmacy and Medicines Regulatory Authority)",
+     "url": "https://www.pmra.mw/guidelines/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The PMRA Act, 2019 (Pharmacy and Medicines Regulatory Authority)",
+     "url": "https://www.pmra.mw/the-act/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Malawi drafts AI bill to govern public sector tech (ITWeb Africa)",
+     "url": "https://itweb.africa/article/malawi-drafts-ai-bill-to-govern-public-sector-tech/PmxVE7KEOnpqQY85",
+     "date": "2026-08-06",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Data Protection Act, 2024 (Act No. 3 of 2024), Malawi Data Protection Authority download",
+     "url": "https://www.dpa.mw/download/data-protection-act-2024/",
+     "date": "2024-02-02",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "The national EMR covers 758 HIV clinics and links to the lab system. DHIS2 carries reporting. MaHIS, meant to link all public facilities, was in pilot in 2026. No claims system or e-prescription link was found.",
+ "laws": [
+  {
+   "name": "Data Protection Act, 2024 (Act No. 3 of 2024)",
+   "level": "National",
+   "year": "2024",
+   "what": "Health is sensitive data; 30-day right to a copy; 72-hour breach notice; MACRA is the regulator.",
+   "url": "https://www.dpa.mw/download/data-protection-act-2024/"
+  },
+  {
+   "name": "HIV and AIDS (Prevention and Management) Act, 2018 (Act No. 9 of 2018)",
+   "level": "National",
+   "year": "2018",
+   "what": "HIV status confidential; disclosure needs written consent except treating providers, anonymous studies, court orders.",
+   "url": "https://policyvault.africa/wp-content/uploads/policy/MWI12.pdf"
+  },
+  {
+   "name": "Pharmacy and Medicines Regulatory Authority Act, 2019 (Act No. 9 of 2019)",
+   "level": "National",
+   "year": "2019",
+   "what": "Creates the regulator for medicines and medical devices; no AI or software rules found.",
+   "url": "https://www.pmra.mw/the-act/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-19",
+   "headline": "Experts warn US health funding deal could expose Malawians' medical data",
+   "source": "Nyasa Times",
+   "url": "https://www.nyasatimes.com/malawi-faces-tough-choices-in-740-million-health-deal-with-the-us/",
+   "why": "Lawyers and health experts said sharing HIV and TB records without consent could breach constitutional privacy."
+  },
+  {
+   "date": "2026-01-16",
+   "headline": "Government yet to explain data sharing under new US health agreement",
+   "source": "Malawi24",
+   "url": "https://malawi24.com/2026/01/16/is-malawi-trading-health-data-for-visa-relief-with-the-us/",
+   "why": "Patients do not know what health data may go to the US or under what protections."
+  },
+  {
+   "date": "2026-07-14",
+   "headline": "MACRA consults on draft data protection registration regulations",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/07/14/macra-consults-stakeholders-on-new-data-protection-regulations/",
+   "why": "Registration would put large data holders under closer regulator oversight."
+  },
+  {
+   "date": "2026-08-06",
+   "headline": "Government finalising national AI strategy and drafting an AI Bill",
+   "source": "ITWeb Africa",
+   "url": "https://itweb.africa/article/malawi-drafts-ai-bill-to-govern-public-sector-tech/PmxVE7KEOnpqQY85",
+   "why": "It would be the first legal framework for AI, including AI used by public health services."
+  },
+  {
+   "date": "2026-09-04",
+   "headline": "Ministry pilots MaHIS digital records to replace paper health passports",
+   "source": "The Nation",
+   "url": "https://mwnation.com/digital-health-records-system-in-pilot-phase/",
+   "why": "Records would follow patients across facilities, with no consent or access-log controls described."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,311 @@
+{
+  "iso3": "HND",
+  "name": "Honduras",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Honduras has no data protection law and, per its health minister, the law still requires paper records, so each hospital keeps its own file.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 40,
+      "summary": "The Constitution gives a free, fast right to see your own data, and public bodies must answer in 10 days, but there is no national patient portal. A right to a copy of the clinical record was not verified, so the score sits low.",
+      "detail": [
+        "Article 182 of the Constitution says everyone may access information about themselves held in public or private databases, quickly and at no cost, and may correct it. Only the Constitutional Chamber of the Supreme Court hears habeas data claims.",
+        "The 2006 Transparency Law (Decreto 170-2006), Article 24, says access to personal data proceeds only by court order or at the request of the person concerned or their representatives.",
+        "Transparency Law Article 21 says requests to public bodies must be decided in 10 days, extendable once. Private clinics are reached only through the constitutional habeas data action. No health-specific law giving a right to a copy of the clinical record was verified.",
+        "No national patient portal was found. A digital vaccination card and PDF certificate became available to citizens in May 2026 (DPL News)."
+      ],
+      "sources": [
+        {
+          "title": "Constitucion de la Republica de Honduras (OAS copy)",
+          "url": "https://www.oas.org/dil/esp/constitucion_de_honduras.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley de Transparencia y Acceso a la Informacion Publica, Decreto 170-2006 (TSC)",
+          "url": "https://www.tsc.gob.hn/web/leyes/Ley_de_Transparencia.pdf",
+          "date": "2006",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Honduras implementa carnet de vacunacion digital (DPL News)",
+          "url": "https://dplnews.com/honduras-implementa-carnet-de-vacunacion-digital-como-conseguirlo-paso-a-paso/",
+          "date": "2026-05-15",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Patients have no tools to choose who sees their record or to view an access log. Protection rests on medical secrecy in the doctors' ethics code and a Transparency Law rule that personal data goes only to the person or a court.",
+      "detail": [
+        "The Colegio Medico de Honduras ethics code (Article 14) says information learned in care must not be shared without the patient's prior consent, except for harm to the patient or others. Article 18 says medical IT systems must not compromise privacy without consent.",
+        "Transparency Law Article 24 limits access to personal data to the person concerned, their representatives or a court order.",
+        "No opt-out, consent register or patient-visible access log was found for any public or private health record system."
+      ],
+      "sources": [
+        {
+          "title": "Codigo de Etica del Colegio Medico de Honduras (BVS Honduras)",
+          "url": "https://www.bvs.hn/Honduras/Postgrados/27_reglamento_codigo_etica.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley de Transparencia y Acceso a la Informacion Publica, Decreto 170-2006 (TSC)",
+          "url": "https://www.tsc.gob.hn/web/leyes/Ley_de_Transparencia.pdf",
+          "date": "2006",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 28,
+      "summary": "Honduras has no general data protection law and no data protection authority, so the score sits below the general-law band. Health status is confidential personal data under the 2006 Transparency Law, which binds public bodies only.",
+      "detail": [
+        "The Transparency Law lists physical or mental health status among confidential personal data. Public bodies that disclose personal data outside the law face fines of half to 50 monthly minimum wages, imposed by the IAIP.",
+        "A March 2026 LexLatin review says Honduras has no specific data protection rules and relies on the Constitution and access to information law.",
+        "The IAIP sent a draft personal data law to Congress in June 2025 (El Heraldo). A deputy presented another bill in April 2026. Neither was enacted by the research date.",
+        "No health-sector enforcement decision or health data breach was found in sources opened."
+      ],
+      "sources": [
+        {
+          "title": "Ley de Transparencia y Acceso a la Informacion Publica, Decreto 170-2006 (TSC)",
+          "url": "https://www.tsc.gob.hn/web/leyes/Ley_de_Transparencia.pdf",
+          "date": "2006",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Proteccion de datos en Centroamerica: como gestionar la diversa regulacion regional (LexLatin)",
+          "url": "https://lexlatin.com/opinion/proteccion-datos-centroamerica-gestionar-regulacion-diversa",
+          "date": "2026-03-04",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "IAIP da a conocer beneficios de la Ley de Proteccion de Datos Personales (El Heraldo)",
+          "url": "https://www.elheraldo.hn/honduras/iaip-destaca-beneficios-honduras-ley-proteccion-datos-personales-BP26294115",
+          "date": "2025-06-18",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 25,
+      "summary": "Public bodies may not sell or pass on confidential personal data, but no law limits private companies, apps or data brokers. A September 2026 investigation found a state digital wallet's first terms let user data pass to a buyer in a merger.",
+      "detail": [
+        "Transparency Law Article 27 makes it an administrative infraction to copy, disclose or sell reserved information, or for public bodies to transmit personal data outside the cases the law allows. Article 25 bars forcing anyone to hand over data that could lead to discrimination.",
+        "These rules do not reach private clinics, insurers, pharmacies or health apps, because no general data protection law exists.",
+        "Contracorriente reported that terms of use for the BIEN state digital wallet initially said user data could be transferred as part of a merger."
+      ],
+      "sources": [
+        {
+          "title": "Ley de Transparencia y Acceso a la Informacion Publica, Decreto 170-2006 (TSC)",
+          "url": "https://www.tsc.gob.hn/web/leyes/Ley_de_Transparencia.pdf",
+          "date": "2006",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Honduras Digital: BIEN y ALERTA-HN sin controles de datos (Contracorriente)",
+          "url": "https://contracorriente.red/2026/09/14/el-gobierno-de-xiomara-castro-contrato-la-billetera-electronica-con-empresa-vinculada-a-contratacion-investigada-por-irregularidades/",
+          "date": "2026-09-14",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 25,
+      "summary": "A national integrated electronic record has been planned since 2024 with PAHO support, but in October 2025 the health minister said current law still requires physical records. Digital records exist inside single institutions such as Hospital Escuela.",
+      "detail": [
+        "PAHO reported a July 2024 joint mission to implement a single electronic clinical record, starting with a pilot in prioritised health regions, with IDB and CDC support.",
+        "On 18 October 2025 Health Minister Carla Paredes told Congress the digital record was developed and ready, but the current law obliges the ministry to keep the physical record. She asked for a Telemedicine Law and a Digital Medical Record Law.",
+        "Whether either law has been passed since then was not verified.",
+        "Hospital Escuela had over 5 million electronic patient records in 2022, covering outpatient, admissions, pharmacy, emergency and lab work inside that hospital. A national digital vaccine registry started on 1 August 2026."
+      ],
+      "sources": [
+        {
+          "title": "Mision conjunta para fortalecer la transformacion digital en salud (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/2-7-2024-mision-conjunta-para-fortalecer-transformacion-digital-salud",
+          "date": "2024-07-02",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "CN escucha propuestas de la Sesal orientadas a modernizar el sistema sanitario (Canal 8)",
+          "url": "https://cn8.spe.gob.hn/nacional/cn-escucha-propuestas-de-la-sesal-orientadas-a-modernizar-el-sistema-sanitario/",
+          "date": "2025-10-18",
+          "publisherClass": "news"
+        },
+        {
+          "title": "En linea 5 millones de expedientes electronicos en el Hospital Escuela (La Prensa)",
+          "url": "https://www.laprensa.hn/honduras/linea-5-millones-expedientes-electronicos-hospital-escuela-HX8505810",
+          "date": "2022-06-05",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Sistema de salud iniciara el registro digital de vacunas a partir del 1 de agosto (DPL News)",
+          "url": "https://dplnews.com/honduras-sistema-de-salud-iniciara-el-registro-digital-de-vacunas-a-partir-del-1-de-agosto/",
+          "date": "2026-06-22",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 20,
+      "summary": "A clinician generally sees only the file held by their own facility, often on paper. The shared record that would link hospitals and health centres in all 298 municipalities is still awaiting a law.",
+      "detail": [
+        "The health minister said in October 2025 that the planned digital record would link hospitals and medical centres nationwide, but that the law still requires a physical record.",
+        "Hospital Escuela's electronic record covers care inside that hospital. No source described access from other facilities.",
+        "PAHO describes the national single electronic record as a pilot in prioritised health regions. Emergency access rules for clinicians were not found."
+      ],
+      "sources": [
+        {
+          "title": "CN escucha propuestas de la Sesal orientadas a modernizar el sistema sanitario (Canal 8)",
+          "url": "https://cn8.spe.gob.hn/nacional/cn-escucha-propuestas-de-la-sesal-orientadas-a-modernizar-el-sistema-sanitario/",
+          "date": "2025-10-18",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Mision conjunta para fortalecer la transformacion digital en salud (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/2-7-2024-mision-conjunta-para-fortalecer-transformacion-digital-salud",
+          "date": "2024-07-02",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "En linea 5 millones de expedientes electronicos en el Hospital Escuela (La Prensa)",
+          "url": "https://www.laprensa.hn/honduras/linea-5-millones-expedientes-electronicos-hospital-escuela-HX8505810",
+          "date": "2022-06-05",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "Clinical trials need ARSA authorisation, a registered ethics committee and approved informed consent. No rules on secondary use of health records, and no opt-out, were found, so the score is the no-consent base plus one safeguard.",
+      "detail": [
+        "ARSA Acuerdo 041-2020 (La Gaceta, 4 November 2020) sets up registration of scientific ethics committees and requires an informed consent document approved by the committee before a trial is authorised.",
+        "The Colegio Medico ethics code (Article 12) requires ethics committee approval and individual consent for health research.",
+        "No law or rule on reuse of records or registries for research was found. With no general data protection law, de-identification and re-identification rules do not exist."
+      ],
+      "sources": [
+        {
+          "title": "ARSA Acuerdo No. 041-2020, ensayos clinicos (La Gaceta)",
+          "url": "https://arsa.gob.hn/wp-content/uploads/2022/01/AcuerdoNo.041-2020-EnsayosClinicos.pdf",
+          "date": "2020-11-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Codigo de Etica del Colegio Medico de Honduras (BVS Honduras)",
+          "url": "https://www.bvs.hn/Honduras/Postgrados/27_reglamento_codigo_etica.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 30,
+      "summary": "ARSA's 2023 medical device regulation counts software as a medical device, with risk classification and vigilance, but has no AI-specific or change-control rules. A June 2026 review found no AI law, bill or regulator.",
+      "detail": [
+        "Acuerdo 0631-ARSA-2023 defines medical devices to include software (Article 25), and requires risk classification reports and good vigilance practices. No provisions on AI, machine learning or algorithm updates were found.",
+        "Levellers reported that as of June 2026 Honduras had no law, bill or regulator dedicated to AI.",
+        "In October 2025 the health minister linked the digital record law to moving toward AI in public health. No clinical AI guidance was found."
+      ],
+      "sources": [
+        {
+          "title": "Acuerdo 0631-ARSA-2023, Reglamento para el Control Sanitario de Dispositivos Medicos (ARSA)",
+          "url": "https://arsateca.arsa.hn/wp-content/uploads/2025/03/REGLAMENTO-DM_PDF_compressed.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Regulacion de la IA en Honduras: que existe en 2026 (Levellers)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-honduras-es",
+          "date": "2026-09-07",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "CN escucha propuestas de la Sesal orientadas a modernizar el sistema sanitario (Canal 8)",
+          "url": "https://cn8.spe.gob.hn/nacional/cn-escucha-propuestas-de-la-sesal-orientadas-a-modernizar-el-sistema-sanitario/",
+          "date": "2025-10-18",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "siloed",
+    "labs": "siloed",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Records stay inside each facility, many on paper. Hospital Escuela and other institutions run their own systems. A national digital vaccine registry began in August 2026; the integrated national record awaits a law.",
+  "laws": [
+    {
+      "name": "Constitucion de la Republica, Articulo 182 (Habeas Data)",
+      "level": "National",
+      "year": "2003",
+      "what": "Free, fast right to access and correct data about oneself in public or private databases.",
+      "url": "https://www.oas.org/dil/esp/constitucion_de_honduras.pdf"
+    },
+    {
+      "name": "Ley de Transparencia y Acceso a la Informacion Publica (Decreto 170-2006)",
+      "level": "National",
+      "year": "2006",
+      "what": "Health status is confidential personal data; public bodies fined for unlawful disclosure.",
+      "url": "https://www.tsc.gob.hn/web/leyes/Ley_de_Transparencia.pdf"
+    },
+    {
+      "name": "ARSA Acuerdo No. 041-2020 (ensayos clinicos)",
+      "level": "National",
+      "year": "2020",
+      "what": "Trial authorisation, ethics committee registration and committee-approved informed consent.",
+      "url": "https://arsa.gob.hn/wp-content/uploads/2022/01/AcuerdoNo.041-2020-EnsayosClinicos.pdf"
+    },
+    {
+      "name": "Acuerdo 0631-ARSA-2023, Reglamento para el Control Sanitario de Dispositivos Medicos",
+      "level": "National",
+      "year": "2023",
+      "what": "Medical device rules covering software, with risk classification and vigilance.",
+      "url": "https://arsateca.arsa.hn/wp-content/uploads/2025/03/REGLAMENTO-DM_PDF_compressed.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-18",
+      "headline": "Health minister asks Congress for telemedicine and digital medical record laws",
+      "source": "Canal 8",
+      "url": "https://cn8.spe.gob.hn/nacional/cn-escucha-propuestas-de-la-sesal-orientadas-a-modernizar-el-sistema-sanitario/",
+      "why": "Current law still requires paper records, blocking a shared digital file."
+    },
+    {
+      "date": "2026-04-28",
+      "headline": "Deputy Kritza Perez presents a personal data protection bill",
+      "source": "El Heraldo",
+      "url": "https://www.elheraldo.hn/videos/pais/kritza-perez-impulsa-ley-para-proteger-los-datos-personales-en-honduras-PI30385921",
+      "why": "Honduras still has no law protecting health data held by private firms."
+    },
+    {
+      "date": "2026-05-15",
+      "headline": "Honduras launches digital vaccination card with official PDF certificate",
+      "source": "DPL News",
+      "url": "https://dplnews.com/honduras-implementa-carnet-de-vacunacion-digital-como-conseguirlo-paso-a-paso/",
+      "why": "Citizens can download their vaccination record as an official PDF."
+    },
+    {
+      "date": "2026-06-22",
+      "headline": "Health system to record all vaccinations digitally from 1 August",
+      "source": "DPL News",
+      "url": "https://dplnews.com/honduras-sistema-de-salud-iniciara-el-registro-digital-de-vacunas-a-partir-del-1-de-agosto/",
+      "why": "Creates a national digital health register before privacy rules exist."
+    },
+    {
+      "date": "2026-09-14",
+      "headline": "State digital wallet collects biometric data without a data protection law",
+      "source": "Contracorriente",
+      "url": "https://contracorriente.red/2026/09/14/el-gobierno-de-xiomara-castro-contrato-la-billetera-electronica-con-empresa-vinculada-a-contratacion-investigada-por-irregularidades/",
+      "why": "Shows state data projects proceed with no legal privacy safeguards."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

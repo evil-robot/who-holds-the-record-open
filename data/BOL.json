@@ -1,0 +1,350 @@
+{
+  "iso3": "BOL",
+  "name": "Bolivia",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Bolivian patients can ask for a copy of their record, but with no data protection law or shared record, the hospital holds the keys.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 40,
+      "summary": "A 2008 Health Ministry norm says patients may not be refused access to their record and may get a certified paper or digital copy, but it sets no deadline and asks patients not in hospital for a notarised request. No national patient portal exists.",
+      "detail": [
+        "Article 23 of the Norma Tecnica para el Manejo del Expediente Clinico (Ministerial Resolution 0090 of 2008) says it is neither ethical nor lawful to stop a patient seeing their record. The director must hand over a magnetic copy or signed photocopy of every page, depending on what the facility can do.",
+        "The request goes in writing to the facility director, or by notarised request if the patient is not in hospital. Article 26 adds that no information leaves without the director's approval. No deadline for the copy is set; missing reports must be produced within 7 working days.",
+        "Ley 3131 of 2005 places the record under the facility's custody for the doctor's exclusive use. Article 130 of the Constitution lets anyone blocked from knowing data held about them go to court.",
+        "No national portal or app showing the record was found. A university health dean said in 2023 that patients often cannot reach their own history at hospital. How often facilities honour copy requests was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Norma Tecnica para el Manejo del Expediente Clinico, Resolucion Ministerial 0090 (Ministerio de Salud y Deportes)",
+          "url": "https://minsalud.gob.bo/images/Documentacion/redes_salud/NORMA%20TECNICA%20PARA%20EL%20MANEJO%20DEL%20EXPEDIENTE%20CLINICO.pdf",
+          "date": "2008-02-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley 3131 del Ejercicio Profesional Medico (Ministerio de Salud y Deportes)",
+          "url": "https://www.minsalud.gob.bo/images/Documentacion/normativa/Ley%203131%20Ejercicio%20Mdico.pdf",
+          "date": "2005-08-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Constitucion Politica del Estado de Bolivia (OAS copy)",
+          "url": "https://www.oas.org/dil/esp/constitucion_bolivia.pdf",
+          "date": "2009-02-07",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Expediente clinico: propiedad del paciente o de la institucion de salud? (Unifranz)",
+          "url": "https://unifranz.edu.bo/blog/expediente-clinico-propiedad-del-paciente-o-de-la-institucion-de-salud/",
+          "date": "2023-05-23",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "control": {
+      "score": 28,
+      "summary": "Ley 3131 makes medical secrecy a patient right, and the 2008 norm requires the patient's written authorisation before clinical details go to third parties. There is no opt-out, no patient-visible access log, and the facility, not the patient, controls the record.",
+      "detail": [
+        "Article 13 of Ley 3131 lists confidentiality, medical secrecy and respect for privacy as patient rights. Article 17 lets doctors break secrecy with the patient's express consent, for forensic work, notifiable diseases, imminent community risk, or where a law allows it.",
+        "Article 27 of the 2008 norm says clinical information requested by third parties needs prior written authorisation from the patient or their legal representative, and goes through the treating doctor.",
+        "Article 10 of Ley 3131 makes the record a document under facility custody for the doctor's exclusive use. The SEDES La Paz rules of 2024 limit archive access to authorised staff.",
+        "No rule letting patients choose who sees their record, opt out of sharing, or see who opened it was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley 3131 del Ejercicio Profesional Medico (Ministerio de Salud y Deportes)",
+          "url": "https://www.minsalud.gob.bo/images/Documentacion/normativa/Ley%203131%20Ejercicio%20Mdico.pdf",
+          "date": "2005-08-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Norma Tecnica para el Manejo del Expediente Clinico, Resolucion Ministerial 0090 (Ministerio de Salud y Deportes)",
+          "url": "https://minsalud.gob.bo/images/Documentacion/redes_salud/NORMA%20TECNICA%20PARA%20EL%20MANEJO%20DEL%20EXPEDIENTE%20CLINICO.pdf",
+          "date": "2008-02-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Reglamento del Manejo del Expediente Clinico para Primer Nivel de Atencion (SEDES La Paz)",
+          "url": "https://www.sedeslapaz.gob.bo/wp-content/uploads/2024/10/REGLAMENTO-DEL-MANEJO-DEL-EXPEDIENTE-CLII%C2%81NICO-PARA-EL-PRIMER-NIVEL-DE-ATENCIOI%C2%81N.pdf",
+          "date": "2024-10",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 25,
+      "summary": "Bolivia has no general data protection law, no data protection authority and, the Health Ministry says, no duty to report breaches publicly. Protection rests on the Constitution and medical secrecy in Ley 3131; a deputy asked in May 2026 to revive a data protection bill.",
+      "detail": [
+        "Article 21 of the Constitution protects privacy, and Article 130 offers a court action to know, correct or delete data. AGETIC, the e-government agency, lists only scattered rules: penal code articles on data misuse, a telecoms decree and the digital citizenship law.",
+        "A Health Ministry article says that with no law requiring breaches to be reported publicly, most incidents at clinics and health insurers are handled in business secrecy. It warns that online lab-result portals often lack basic protection.",
+        "AGETIC's draft law would create a data protection authority. A deputy asked on 22 May 2026 to revive data protection bill 605/2024-2025, filed as PL-538/25. Red Uno reported it still pending in May 2026.",
+        "With no general data law to score, this cell sits below the general-law band of 45 to 66 and below Argentina's 40."
+      ],
+      "sources": [
+        {
+          "title": "Ciberseguridad en el Sector Salud (Ministerio de Salud y Deportes)",
+          "url": "https://www.minsalud.gob.bo/9215-ciberseguridad-en-el-sector-salud",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Anteproyecto de Ley de Proteccion de Datos Personales, presentacion (AGETIC)",
+          "url": "https://agetic.gob.bo/sites/default/files/2025-06/DATOS-PERSONALES-PRESENTACION-ANTEPROYECTO-DE-LEY-2024-firmado.pdf",
+          "date": "2024",
+          "publisherClass": "official"
+        },
+        {
+          "title": "PL-538/25, solicitud de reposicion del Proyecto de Ley 605/2024-2025 de Proteccion de Datos Personales (Camara de Diputados)",
+          "url": "https://diputados.gob.bo/wp-content/uploads/2026/07/PL-538-2025-2026.pdf",
+          "date": "2026-05-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Educacion digital y proteccion de datos son claves para fortalecer la privacidad (Red Uno)",
+          "url": "https://www.reduno.com.bo/educacion-e-innovacion/educacion-digital-y-proteccion-de-datos-son-claves-para-fortalecer-la-privacidad-2026527151735",
+          "date": "2026-05-27",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 25,
+      "summary": "No Bolivian rule found bars selling health data, using it for marketing, or brokering it. Medical secrecy binds doctors, but apps, brokers and advertisers face no health-data law, and the bill that would regulate marketing use is not law.",
+      "detail": [
+        "Ley 3131 binds doctors to secrecy even after they stop treating a patient. It does not address resale, data brokers or advertising.",
+        "AGETIC's draft data protection law would set new duties for firms that use personal data for advertising or marketing, and would create a supervising authority. A deputy asked in May 2026 to revive data protection bill 605/2024-2025; none is in force.",
+        "No rule on consumer health apps, de-identified data sales or health-targeted advertising was found in the sources opened."
+      ],
+      "sources": [
+        {
+          "title": "Anteproyecto de Ley de Proteccion de Datos Personales, presentacion (AGETIC)",
+          "url": "https://agetic.gob.bo/sites/default/files/2025-06/DATOS-PERSONALES-PRESENTACION-ANTEPROYECTO-DE-LEY-2024-firmado.pdf",
+          "date": "2024",
+          "publisherClass": "official"
+        },
+        {
+          "title": "PL-538/25, solicitud de reposicion del Proyecto de Ley 605/2024-2025 de Proteccion de Datos Personales (Camara de Diputados)",
+          "url": "https://diputados.gob.bo/wp-content/uploads/2026/07/PL-538-2025-2026.pdf",
+          "date": "2026-05-22",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 3131 del Ejercicio Profesional Medico (Ministerio de Salud y Deportes)",
+          "url": "https://www.minsalud.gob.bo/images/Documentacion/normativa/Ley%203131%20Ejercicio%20Mdico.pdf",
+          "date": "2005-08-08",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 25,
+      "summary": "The Ministry's SUIS digital platform links appointments, referrals and hospital beds in 336 facilities across six departments, not a shared clinical record. A single electronic record is a goal of the 2026-2030 health plan.",
+      "detail": [
+        "Between December 2025 and July 2026 the Ministry rolled out its Plataforma Digital para Mejorar el Acceso a la Salud in La Paz, Cochabamba, Santa Cruz, Chuquisaca, Oruro and Tarija. It covers 289 primary centres, 23 second-level and 24 third-level hospitals.",
+        "The platform has three parts: appointment booking, a register of referrals and counter-referrals, and a daily hospital bed register. It issued 673,803 digital appointment slots and processed 29,628 referrals. Beni and Pando come next.",
+        "The Plan Nacional de Salud 2026-2030 lists a single electronic clinical record and telemedicine as its digital pillar, with stronger control over departmental health services and social security funds to cut fragmentation.",
+        "Primary care records may be kept on paper or computer (SOAPS) under the SEDES La Paz rules. National e-prescription, lab or claims links were not found."
+      ],
+      "sources": [
+        {
+          "title": "Ministerio de Salud consolida transformacion digital del sistema (Ministerio de Salud y Deportes)",
+          "url": "https://www.minsalud.gob.bo/9344-ministerio-de-salud-consolida-transformacion-digital-del-sistema",
+          "date": "2026-08-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ministerio presenta Plan de Salud 2026-2030 (Ministerio de Salud y Deportes)",
+          "url": "https://minsalud.gob.bo/9131-ministerio-presenta-plan-de-salud-2026-2030",
+          "date": "2026-04-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Reglamento del Manejo del Expediente Clinico para Primer Nivel de Atencion (SEDES La Paz)",
+          "url": "https://www.sedeslapaz.gob.bo/wp-content/uploads/2024/10/REGLAMENTO-DEL-MANEJO-DEL-EXPEDIENTE-CLII%C2%81NICO-PARA-EL-PRIMER-NIVEL-DE-ATENCIOI%C2%81N.pdf",
+          "date": "2024-10",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 22,
+      "summary": "Doctors in another facility usually see only the referral form that travels with the patient. The SUIS platform tracks referrals between 336 facilities, but no national system lets clinicians view a patient's full record across providers.",
+      "detail": [
+        "Under the SEDES La Paz rules, a referral form is filled in triplicate: one copy goes to the patient, one to the referral committee, and the original stays in the record at the sending facility.",
+        "The SUIS referral register processed 29,628 referrals by August 2026, 89 percent for specialist outpatient visits and 6 percent for emergencies. It records the referral, not the full clinical history.",
+        "The 2026-2030 health plan aims for a single electronic record. No emergency-access rule for cross-provider viewing was found, because no such viewing system exists yet."
+      ],
+      "sources": [
+        {
+          "title": "Ministerio de Salud consolida transformacion digital del sistema (Ministerio de Salud y Deportes)",
+          "url": "https://www.minsalud.gob.bo/9344-ministerio-de-salud-consolida-transformacion-digital-del-sistema",
+          "date": "2026-08-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Reglamento del Manejo del Expediente Clinico para Primer Nivel de Atencion (SEDES La Paz)",
+          "url": "https://www.sedeslapaz.gob.bo/wp-content/uploads/2024/10/REGLAMENTO-DEL-MANEJO-DEL-EXPEDIENTE-CLII%C2%81NICO-PARA-EL-PRIMER-NIVEL-DE-ATENCIOI%C2%81N.pdf",
+          "date": "2024-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ministerio presenta Plan de Salud 2026-2030 (Ministerio de Salud y Deportes)",
+          "url": "https://minsalud.gob.bo/9131-ministerio-presenta-plan-de-salud-2026-2030",
+          "date": "2026-04-29",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "The Constitution bans scientific experiments without consent, Ley 3131 lets patients refuse research, and AGEMED inspects trials against a 2004 norm requiring ethics committee approval. No rules on reusing records for research were found.",
+      "detail": [
+        "Article 44 of the Constitution says no one may be subjected to scientific experiments without consent. Article 13 of Ley 3131 gives patients the right to refuse to take part in research or medical teaching, except where the law provides.",
+        "AGEMED's 2024 good clinical practice inspection manual applies the Norma para Estudios Clinicos (Ministerial Resolution 0834 of 2004). It requires free informed consent from each subject and approval of consent forms by an ethics committee and AGEMED.",
+        "No rule governing secondary use of health records, no opt-out and no public register of data uses were found. Score: base 40 plus 3 for a documented ethics and permit route."
+      ],
+      "sources": [
+        {
+          "title": "Constitucion Politica del Estado de Bolivia (OAS copy)",
+          "url": "https://www.oas.org/dil/esp/constitucion_bolivia.pdf",
+          "date": "2009-02-07",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 3131 del Ejercicio Profesional Medico (Ministerio de Salud y Deportes)",
+          "url": "https://www.minsalud.gob.bo/images/Documentacion/normativa/Ley%203131%20Ejercicio%20Mdico.pdf",
+          "date": "2005-08-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Manual de Inspeccion de Buenas Practicas Clinicas para Medicamentos y Dispositivos Medicos (AGEMED)",
+          "url": "https://www.agemed.gob.bo/normas_consulta/NORMA-2024-02.pdf",
+          "date": "2024",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "Bolivia has no AI law in force and no clinical-AI rules. AGEMED's 2025 diagnostic device manual leaves standalone software outside its scope, and two general AI bills await the Chamber of Deputies.",
+      "detail": [
+        "AGEMED's 2025 manual for in vitro diagnostic devices puts software that runs a device in the device's risk class. Standalone software is treated as software as a medical device and left outside the manual. A separate rule for such software was not found (not verified).",
+        "The Senate approved bill 178/2024-2025 on the promotion and use of AI in October 2025 and sent it to the Chamber of Deputies.",
+        "Bill PL-288/25, filed in February 2026, would regulate the development and use of AI systems with ethics, privacy and human rights principles. Neither bill has health-specific rules in the parts read."
+      ],
+      "sources": [
+        {
+          "title": "Manual de Registro Sanitario de Dispositivos Medicos de Diagnostico In Vitro, Circular 22-2025 (AGEMED)",
+          "url": "https://www.agemed.gob.bo/circulares/2025/CIRCULAR-22-2025.pdf",
+          "date": "2025",
+          "publisherClass": "official"
+        },
+        {
+          "title": "PL-288/25, Proyecto de Ley que regula el desarrollo, la implementacion y utilizacion de los sistemas de inteligencia artificial (Camara de Diputados)",
+          "url": "https://diputados.gob.bo/wp-content/uploads/2026/03/PL-288-2025-2026.pdf",
+          "date": "2026-02-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Senado aprueba proyecto de ley para regular el uso de inteligencia artificial en Bolivia (Correo del Sur)",
+          "url": "https://correodelsur.com/politica/20251023/senado-aprueba-proyecto-de-ley-para-regular-el-uso-de-inteligencia-artificial-en-bolivia.html",
+          "date": "2025-10-23",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "siloed"
+  },
+  "journeyNote": "SUIS links appointments, referrals and bed data in 336 facilities in six departments. No shared clinical record, national e-prescription or lab exchange was found; a single electronic record is planned for 2026-2030.",
+  "laws": [
+    {
+      "name": "Constitucion Politica del Estado",
+      "level": "National",
+      "year": "2009",
+      "what": "Right to privacy; court action to know or correct data; no experiments without consent.",
+      "url": "https://www.oas.org/dil/esp/constitucion_bolivia.pdf"
+    },
+    {
+      "name": "Ley 3131 del Ejercicio Profesional Medico",
+      "level": "National",
+      "year": "2005",
+      "what": "Patient rights to confidentiality and secrecy; record held by facility for the doctor's use.",
+      "url": "https://www.minsalud.gob.bo/images/Documentacion/normativa/Ley%203131%20Ejercicio%20Mdico.pdf"
+    },
+    {
+      "name": "Decreto Supremo 28562 (Reglamento a la Ley 3131)",
+      "level": "National",
+      "year": "2005",
+      "what": "Defines the medical record and its contents; requires display of patient rights.",
+      "url": "https://www.lexivox.org/norms/BO-DS-28562.html"
+    },
+    {
+      "name": "Norma Tecnica para el Manejo del Expediente Clinico (RM 0090)",
+      "level": "National",
+      "year": "2008",
+      "what": "Patient access to a certified record copy; written consent for third-party disclosure.",
+      "url": "https://minsalud.gob.bo/images/Documentacion/redes_salud/NORMA%20TECNICA%20PARA%20EL%20MANEJO%20DEL%20EXPEDIENTE%20CLINICO.pdf"
+    },
+    {
+      "name": "Norma para Estudios Clinicos (RM 0834)",
+      "level": "National",
+      "year": "2004",
+      "what": "Trials follow ICH good clinical practice with informed consent and ethics committee review.",
+      "url": "https://www.agemed.gob.bo/normas_consulta/NORMA-2024-02.pdf"
+    },
+    {
+      "name": "Reglamento del Manejo del Expediente Clinico para Primer Nivel (SEDES La Paz)",
+      "level": "Regional",
+      "year": "2024",
+      "what": "Archive access limited to authorised staff; records kept 10 years in active archive.",
+      "url": "https://www.sedeslapaz.gob.bo/wp-content/uploads/2024/10/REGLAMENTO-DEL-MANEJO-DEL-EXPEDIENTE-CLII%C2%81NICO-PARA-EL-PRIMER-NIVEL-DE-ATENCIOI%C2%81N.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-12",
+      "headline": "Presidential candidate Paz pledges universal health card and digital clinical history",
+      "source": "Unitel",
+      "url": "https://unitel.bo/noticias/asi-decidimos/rodrigo-paz-propone-seguro-universal-de-salud-con-tarjeta-unica-y-cobertura-preventiva-en-bolivia-HH17674751",
+      "why": "Set a goal of one record per citizen linked to labs and pharmacies."
+    },
+    {
+      "date": "2025-10-23",
+      "headline": "Senate approves AI bill and sends it to the Chamber of Deputies",
+      "source": "Correo del Sur",
+      "url": "https://correodelsur.com/politica/20251023/senado-aprueba-proyecto-de-ley-para-regular-el-uso-de-inteligencia-artificial-en-bolivia.html",
+      "why": "First step toward any AI rules, though none cover clinical use yet."
+    },
+    {
+      "date": "2026-04-29",
+      "headline": "Health Ministry launches 2026-2030 plan built on a single electronic record",
+      "source": "ABI",
+      "url": "https://abi.bo/presentan-plan-nacional-de-salud-2026-2030-con-enfasis-en-digitalizacion-y-atencion/",
+      "why": "A shared record would let a patient's history follow them between facilities."
+    },
+    {
+      "date": "2026-05-27",
+      "headline": "Data protection bill still pending as experts urge privacy education",
+      "source": "Red Uno",
+      "url": "https://www.reduno.com.bo/educacion-e-innovacion/educacion-digital-y-proteccion-de-datos-son-claves-para-fortalecer-la-privacidad-2026527151735",
+      "why": "Without the law, health data has no regulator or breach rules."
+    },
+    {
+      "date": "2026-08-06",
+      "headline": "Ministry's digital booking and referral platform reaches 336 facilities",
+      "source": "Ministerio de Salud y Deportes",
+      "url": "https://www.minsalud.gob.bo/9344-ministerio-de-salud-consolida-transformacion-digital-del-sistema",
+      "why": "Ends overnight queues for slots, but does not share clinical records."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

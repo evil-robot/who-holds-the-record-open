@@ -1,0 +1,342 @@
+{
+ "iso3": "BIH",
+ "name": "Bosnia and Herzegovina",
+ "region": "Europe",
+ "controlModel": "Institutional",
+ "headline": "Bosnians gained GDPR-style data rights in October 2025, but health records are split between two entities, ten cantons and Brcko, with no countrywide e-health.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 50,
+   "summary": "The 2025 data law gives a free first copy within 30 days, but Republika Srpska's health law still charges for copies. Official portals exist only in RS and Tuzla Canton, with user numbers not verified, so the score is 45, +5 free copy, +5 portals, -5 fee.",
+   "detail": [
+    "The Law on Personal Data Protection (Official Gazette 12/25) applies from 4 October 2025. Article 17 gives a right to access and a free first copy, with a fee allowed for more copies; Article 14 sets a 30-day deadline, extendable by 60 days.",
+    "In the Federation, the patients' rights law (Articles 33 and 34) gives a right to inspect the medical record and to a transcript on written request. In Republika Srpska, the Health Care Law gives access and a copy, but the patient pays the cost of the copy.",
+    "Since 1 July 2026 the RS health fund's Moje zdravstvo app shows the electronic record (findings, test results, referrals) and treatment costs. Login details must be collected in person at a fund office, and data appear only as far as institutions enter them.",
+    "In the Federation, portals are cantonal. Tuzla Canton runs a patient portal with lab results, radiology findings and referrals. Coverage in other cantons and user numbers for any portal were not verified, so the portals earn +5 for official documentation, not the +10 for proven wide use."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti licnih podataka (Sl. glasnik BiH 12/25), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/bih/novi-zakon-o-zastiti-licnih-podataka.html",
+     "date": "2025-02-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o zdravstvenoj zastiti Republike Srpske (Sl. glasnik RS 57/22, 62/25, 59/26), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-zastiti.html",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Aplikacija Moje zdravstvo omogucava uvid u zdravstveni karton i troskove lijecenja (FZO RS)",
+     "url": "https://zdravstvo-srpske.org/2026/06/30/aplikacija-moje-zdravstvo-omogucava-uvid-u-zdravstveni-karton-i-troskove-lijecenja/",
+     "date": "2026-06-30",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Pristupi svom zdravstvenom elektronskom kartonu (ZZO Tuzlanskog kantona)",
+     "url": "https://zzotk.ba/pristupi-svom-zdravstvenom-elektronskom-kartonu/",
+     "date": "2024-12-10",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 32,
+   "summary": "Records stay with institutions and, in Republika Srpska, IZIS limits access to staff treating the patient, which puts the score just above Albania's 30. No opt-out and no access log that patients can see was found in either entity.",
+   "detail": [
+    "The 2025 data law (Article 11) bans processing of health data except on listed grounds. One ground is diagnosis, treatment and management of health services under a special law, so routine care data needs no consent.",
+    "The Federation patients' rights law (Article 34) says record data may not be used for purposes unknown to the patient or without consent, except for health statistics. Disclosure to courts and other bodies without consent is allowed (Article 35).",
+    "In Republika Srpska, IZIS gives institutions access according to their role. The health fund says clinicians reach data through the patient's electronic health card or e-referrals and e-prescriptions, which ties access to a care contact.",
+    "No tool to opt out of sharing, set granular choices or see who opened the record was found. The data law gives rights to object (Article 23) and to portability (Article 22); how these work for health records was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti licnih podataka (Sl. glasnik BiH 12/25), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/bih/novi-zakon-o-zastiti-licnih-podataka.html",
+     "date": "2025-02-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o pravima, obavezama i odgovornostima pacijenata (Sl. novine FBiH 40/10), Federal Ministry of Health copy",
+     "url": "https://fmoh.gov.ba/uploads/files/Zakon_o_pravima_obavezama_i_odg_pacijenata_40-10.pdf",
+     "date": "2010",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o zdravstvenoj dokumentaciji i evidencijama u oblasti zdravstva (Sl. glasnik RS 57/22), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sta je IZIS? (FZO RS)",
+     "url": "https://zdravstvo-srpske.org/izis/sta-je-izis/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 52,
+   "summary": "The 2025 law is GDPR-based, with 72-hour breach notice and fines up to KM 40 million or 4% of turnover, and the agency has acted on health data. But public bodies cannot be fined, only their officials, and the EU says agency independence needs strengthening.",
+   "detail": [
+    "Health data is a special category under Article 11. Controllers must report breaches to the Agency within 72 hours (Article 35). Article 113 sets fines up to KM 40,000,000 or 4% of worldwide turnover for the most serious breaches.",
+    "Fines cannot be imposed on public and competent bodies (Article 113(10)), only on responsible officials (KM 5,000 to 70,000) and employees (KM 500 to 5,000). Public health institutions' exposure under this rule was not verified.",
+    "On 3 October 2025, under the old 2006 law, the Agency banned a state ministry from passing employees' medical findings and health assessments to other controllers without a legal basis, after a ministry sent a court a GP report showing a diagnosis field.",
+    "The European Commission's 2025 report says the law is in line with the EU acquis, but the Agency's resources must be used to full capacity and its independence strengthened. Entity and cantonal assemblies are not required to consult it."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti licnih podataka (Sl. glasnik BiH 12/25), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/bih/novi-zakon-o-zastiti-licnih-podataka.html",
+     "date": "2025-02-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "AZLP rjesenje UP1 03-1-37-2-275-4/25: health findings given to a third party",
+     "url": "https://azlp.ba/rjesenja/?id=4910",
+     "date": "2025-10-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Bosnia and Herzegovina 2025 Report, SWD(2025) 751 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/5d8fc547-f8f8-456f-84e3-b38998acfafd_en?filename=bosnia-and-herzegovina-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "Using health data needs explicit consent unless a legal ground applies, and people can object to direct marketing at any time. No specific ban on selling health data or rule for health apps was found.",
+   "detail": [
+    "Under Article 11 of the 2025 data law, explicit consent is one route to processing health data. Consent can be withdrawn at any time, and withdrawal must be as easy as giving it (Article 9).",
+    "Article 23 lets people object at any time to processing for direct marketing, including profiling; once they object, the data may no longer be used for that purpose.",
+    "The Federation patients' rights law makes record data an official secret and extends secrecy to people producing marketing materials for health institutions (Article 28).",
+    "No Bosnia-specific ban on selling de-identified health data, data broker rule or health app rule was found. The European Commission says the 2006 consumer protection law is not aligned with current EU rules."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti licnih podataka (Sl. glasnik BiH 12/25), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/bih/novi-zakon-o-zastiti-licnih-podataka.html",
+     "date": "2025-02-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o pravima, obavezama i odgovornostima pacijenata (Sl. novine FBiH 40/10), Federal Ministry of Health copy",
+     "url": "https://fmoh.gov.ba/uploads/files/Zakon_o_pravima_obavezama_i_odg_pacijenata_40-10.pdf",
+     "date": "2010",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Bosnia and Herzegovina 2025 Report, SWD(2025) 751 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/5d8fc547-f8f8-456f-84e3-b38998acfafd_en?filename=bosnia-and-herzegovina-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "journey": {
+   "score": 45,
+   "summary": "Republika Srpska links contracted providers through IZIS, with e-referrals, e-prescriptions and one electronic record. The Federation runs separate cantonal systems, and the EU found no countrywide health information strategy and no e-health progress in 2025.",
+   "detail": [
+    "The RS law on health documentation (Articles 39 to 42) makes IZIS carry the electronic record, a medical summary for every citizen, e-prescriptions, e-referrals and links to lab and radiology systems. Providers with their own systems must connect.",
+    "The RS health fund says every institution under contract with it exchanges data through IZIS, and patients collect medicines in pharmacies with only their e-card. Private providers without a fund contract were not verified as connected.",
+    "In the Federation, insurance and health information are run by cantons. Tuzla Canton runs an integrated system with a patient portal. Coverage in the other cantons, and any link between cantonal systems, was not verified.",
+    "The European Commission's 2025 report found no State-level health information strategy and no developments on e-health. It asks for State-level alignment on e-health and a coordination system across the country."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zdravstvenoj dokumentaciji i evidencijama u oblasti zdravstva (Sl. glasnik RS 57/22), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sta je IZIS? (FZO RS)",
+     "url": "https://zdravstvo-srpske.org/izis/sta-je-izis/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "E uputnica i e recept (FZO RS)",
+     "url": "https://zdravstvo-srpske.org/izis/sta-je-izis/e-uputnica-i-e-recept/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Bosnia and Herzegovina 2025 Report, SWD(2025) 751 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/5d8fc547-f8f8-456f-84e3-b38998acfafd_en?filename=bosnia-and-herzegovina-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 42,
+   "summary": "In Republika Srpska, doctors at any level, including emergency and hospital staff, can see the shared electronic record within their access rights. In the Federation, sharing depends on the canton, and no link between the entities was found.",
+   "detail": [
+    "The RS health fund says the electronic health record gathers data from all levels of care, and doctors in emergency services and hospitals can see allergies and current therapy within their access rights. Family doctors can see the full history.",
+    "The RS Health Care Law (Article 152) requires referral information to be exchanged through IZIS, with findings sent back to the referring doctor.",
+    "The Federation patients' rights law (Article 34) obliges the clinician in charge of further treatment to ask for and receive data from the patient's record. Electronic sharing between cantons, and between the Federation and Republika Srpska, was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Elektronski zdravstveni karton (FZO RS)",
+     "url": "https://zdravstvo-srpske.org/izis/sta-je-izis/elektronski-zdravstveni-karton/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zakon o zdravstvenoj zastiti Republike Srpske (Sl. glasnik RS 57/22, 62/25, 59/26), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-zastiti.html",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o pravima, obavezama i odgovornostima pacijenata (Sl. novine FBiH 40/10), Federal Ministry of Health copy",
+     "url": "https://fmoh.gov.ba/uploads/files/Zakon_o_pravima_obavezama_i_odg_pacijenata_40-10.pdf",
+     "date": "2010",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "The 2025 data law allows research use of health data under a special law with safeguards, with no general opt-out. Three safeguard classes count (statutory secrecy, fines up to KM 40 million, a Federation consent route), so the score is 40 plus 9.",
+   "detail": [
+    "Article 11 of the 2025 data law allows processing of health data for research or statistics when a special law provides safeguards. Article 56 requires data minimisation, pseudonymisation where possible, and only a special law may limit people's rights for research.",
+    "The Federation patients' rights law (Article 34) bars use of record data without consent, except for health statistics under the records laws. Article 38 requires written consent, which can be withdrawn, for medical research and clinical trials on patients.",
+    "Safeguards found: statutory secrecy of records in both entities (FBiH Article 28, RS Health Care Law Article 169), data law fines up to KM 40 million, and the Federation consent route. No public register of research uses was found. The EU EHDS does not apply, since Bosnia is a candidate, not a member."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti licnih podataka (Sl. glasnik BiH 12/25), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/bih/novi-zakon-o-zastiti-licnih-podataka.html",
+     "date": "2025-02-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o pravima, obavezama i odgovornostima pacijenata (Sl. novine FBiH 40/10), Federal Ministry of Health copy",
+     "url": "https://fmoh.gov.ba/uploads/files/Zakon_o_pravima_obavezama_i_odg_pacijenata_40-10.pdf",
+     "date": "2010",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o zdravstvenoj dokumentaciji i evidencijama u oblasti zdravstva (Sl. glasnik RS 57/22), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o zdravstvenoj zastiti Republike Srpske (Sl. glasnik RS 57/22, 62/25, 59/26), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-zastiti.html",
+     "date": "2022",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "No clinical AI rules or guidance were found. The 2008 medicines and devices law covers software as a medical device, but the EU found no progress on aligning device rules and asked Bosnia to align with the AI Act.",
+   "detail": [
+    "The Law on Medicines and Medical Devices (Official Gazette 58/08) defines a medical device to include software needed for its proper use, for diagnosis, prevention, monitoring or treatment. No AI-specific rule, change control or human oversight duty was found.",
+    "The European Commission's 2025 report found no progress on alignment with EU rules on medical devices and invited Bosnia to align with the Artificial Intelligence Act.",
+    "Hospitals are discussing AI: at a Mostar symposium in April 2026, speakers said AI should stay a tool with doctors keeping the key role in decisions. No national health-AI authority or guidance was found."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o lijekovima i medicinskim sredstvima (Sl. glasnik BiH 58/08), Paragraf copy",
+     "url": "https://www.paragraf.ba/propisi/bih/zakon-o-lijekovima-i-medicinskim-sredstvima.html",
+     "date": "2008",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Bosnia and Herzegovina 2025 Report, SWD(2025) 751 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/5d8fc547-f8f8-456f-84e3-b38998acfafd_en?filename=bosnia-and-herzegovina-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Simpozij u Mostaru: Umjetna inteligencija treba ostati alat, a lijecnici kljucni donositelji odluka (HIP)",
+     "url": "https://hip.ba/2026/04/10/simpozij-u-mostaru-umjetna-inteligencija-treba-ostati-alat-a-lijecnici-kljucni-donositelji-odluka/",
+     "date": "2026-04-10",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Republika Srpska links contracted providers, pharmacies and the health fund through IZIS. The Federation runs separate cantonal systems with uneven coverage, and no countrywide exchange exists. No research data service was found.",
+ "laws": [
+  {
+   "name": "Law on Personal Data Protection (Official Gazette of BiH 12/25)",
+   "level": "National",
+   "year": "2025",
+   "what": "GDPR-based law: health as special data, free access in 30 days, 72-hour breach notice, high fines.",
+   "url": "https://www.paragraf.ba/propisi/bih/novi-zakon-o-zastiti-licnih-podataka.html"
+  },
+  {
+   "name": "Law on Rights, Obligations and Responsibilities of Patients (FBiH 40/10)",
+   "level": "State/Provincial",
+   "year": "2010",
+   "what": "Federation patients' rights: record access and transcript, confidentiality, consent for research and trials.",
+   "url": "https://fmoh.gov.ba/uploads/files/Zakon_o_pravima_obavezama_i_odg_pacijenata_40-10.pdf"
+  },
+  {
+   "name": "Health Care Law of Republika Srpska (57/22)",
+   "level": "State/Provincial",
+   "year": "2022",
+   "what": "RS patient rights including record access, copies at patient cost, online record access; referrals via IZIS.",
+   "url": "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-zastiti.html"
+  },
+  {
+   "name": "Law on Health Documentation and Records in Health Care (RS 57/22)",
+   "level": "State/Provincial",
+   "year": "2022",
+   "what": "Sets up IZIS: electronic record, medical summary, e-prescription, e-referral; providers must connect.",
+   "url": "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html"
+  },
+  {
+   "name": "Law on Medicines and Medical Devices (Official Gazette of BiH 58/08)",
+   "level": "National",
+   "year": "2008",
+   "what": "Regulates medicines and medical devices, including software, through the national medicines agency.",
+   "url": "https://www.paragraf.ba/propisi/bih/zakon-o-lijekovima-i-medicinskim-sredstvima.html"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-07",
+   "headline": "New GDPR-aligned data protection law now in full application",
+   "source": "Standard Prva",
+   "url": "https://standardprva.ba/novost/ak-stevanovic-novi-zakon-o-zasititi-licnih-podataka-je-stupio-na-snagu-procitajte-sta-donosi",
+   "why": "Patients gained modern rights over health data, including free copies and breach notice."
+  },
+  {
+   "date": "2026-04-10",
+   "headline": "Mostar symposium says AI must stay a tool, doctors keep decisions",
+   "source": "HIP",
+   "url": "https://hip.ba/2026/04/10/simpozij-u-mostaru-umjetna-inteligencija-treba-ostati-alat-a-lijecnici-kljucni-donositelji-odluka/",
+   "why": "Hospitals are moving toward AI before any national rules for clinical AI exist."
+  },
+  {
+   "date": "2026-06-30",
+   "headline": "Republika Srpska health fund launches app showing electronic records and costs",
+   "source": "Euronews Bosnia and Herzegovina",
+   "url": "https://euronews.ba/bosna-i-hercegovina/drustvo/61058/fzo-rs-elektronski-zdravstveni-karton-od-sutra-i-na-mobilnom-telefonu",
+   "why": "RS residents can see findings, referrals and treatment costs online for the first time."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

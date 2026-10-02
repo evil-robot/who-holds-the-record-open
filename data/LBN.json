@@ -1,0 +1,340 @@
+{
+ "iso3": "LBN",
+ "name": "Lebanon",
+ "region": "Middle East",
+ "controlModel": "Institutional",
+ "headline": "Lebanese patients have a legal right to their paper file, but records stay inside each hospital, with no national record or data regulator.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Law 574 of 2004 gives patients the right to see their medical file and get copies, but at their own cost and with no deadline. There is no national portal; the health ministry app shows only a medication history.",
+   "detail": [
+    "Article 15 of Law 574 lets a patient, or a representative, read the objective health information in the file held by a doctor or hospital, on request to the director or doctor. Copies are made at the patient's expense.",
+    "Article 16 lists what a hospital file must hold: admission documents, exam and test results, anaesthesia sheet, operation reports, prescriptions, history, daily progress notes and the discharge report.",
+    "The medical ethics law, as amended in 2012, obliges doctors to give patients a copy of their clinic file on request and to keep files at least ten years.",
+    "Law 81 of 2018 sets a ten working day reply rule for data access, but its Article 104 sends medical files back to their own laws, which set no deadline. Copy fees under Law 81 are capped at copying cost.",
+    "The ministry app lets users follow their medication record in the MediTrack tracking system. How widely it is used was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 574 of 2004 on Patients' Rights and Informed Consent (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=256595",
+     "publisherClass": "legal_text",
+     "date": "2004-02-13"
+    },
+    {
+     "title": "Law No. 240 of 2012 amending the Medical Ethics Law No. 288 of 1994 (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=246457",
+     "publisherClass": "legal_text",
+     "date": "2012-10-25"
+    },
+    {
+     "title": "Law No. 81 of 2018 on Electronic Transactions and Personal Data (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=278573",
+     "publisherClass": "legal_text",
+     "date": "2018-10-18"
+    },
+    {
+     "title": "Ministry of Public Health launches the updated version of its mobile app",
+     "url": "https://www.moph.gov.lb/ar/view/86484/the-ministry-of-public-health-launches-the-updated-version-of-its-mobile-app",
+     "publisherClass": "official",
+     "date": "undated"
+    }
+   ]
+  },
+  "control": {
+   "score": 40,
+   "summary": "The ethics law bars any doctor from viewing a patient's file except at the patient's request, outside emergencies. Patients have no access log or sharing settings, and insurers' doctors, health authorities and courts have carve-outs.",
+   "detail": [
+    "Article 29 of the amended medical ethics law says no doctor may see a patient's file except at the patient's or representative's request, after informing the treating doctor, except in emergencies.",
+    "The same article lets treating doctors, researchers and insurer audit doctors see files within one institution, and lets judges, health authorities and the physicians' order obtain copies of files under complaint.",
+    "Law 574 requires prior consent for any medical act and limits data sent to insurers to what they need to check costs.",
+    "Law 81 lets people object to processing for legitimate reasons, but not where the law requires collection. No patient-visible access log or consent tool was found; how the patient-request rule works in practice was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 240 of 2012 amending the Medical Ethics Law No. 288 of 1994 (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=246457",
+     "publisherClass": "legal_text",
+     "date": "2012-10-25"
+    },
+    {
+     "title": "Law No. 574 of 2004 on Patients' Rights and Informed Consent (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=256595",
+     "publisherClass": "legal_text",
+     "date": "2004-02-13"
+    },
+    {
+     "title": "Law No. 81 of 2018 on Electronic Transactions and Personal Data (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=278573",
+     "publisherClass": "legal_text",
+     "date": "2018-10-18"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 32,
+   "summary": "Law 81 of 2018 bans processing health data except with consent, for care, or under a health minister licence, but public bodies are exempt from licensing. There is no data protection authority and no breach notification duty.",
+   "detail": [
+    "Article 91 of Law 81 forbids collecting data revealing health, genetic identity or sex life, unless the person consented, it is needed for diagnosis or treatment, it defends a legal right, or the Minister of Public Health licenses it.",
+    "Article 94 exempts public-law bodies, and any processing the person consented to, from declaration and licensing. The Ministry of Economy only keeps a public register of declared processing.",
+    "Penalties are fines of LBP 1 million to 30 million and three months to three years in prison. No enforcement in the health sector was verified.",
+    "In February 2022 the health ministry admitted an intrusion into its MOPH PASS travel platform that exposed personal data, according to a 2026 news report. Article 103 lets state security processing be withheld from the people concerned."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 81 of 2018 on Electronic Transactions and Personal Data (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=278573",
+     "publisherClass": "legal_text",
+     "date": "2018-10-18"
+    },
+    {
+     "title": "A database of Lebanese residents sold for 20 dollars (Libnanews)",
+     "url": "https://libnanews.com/une-base-de-donnees-des-libanais-vendue-20-dollars/",
+     "publisherClass": "news",
+     "date": "2026-09-30"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 35,
+   "summary": "Health data can only be processed commercially with explicit consent or a licence, and people may object to marketing use. There are no rules on data brokers, de-identified data sales or consumer health apps.",
+   "detail": [
+    "Law 81 lets any person object to processing of their data for commercial promotion, unless they consented or the law requires collection.",
+    "Because Article 94 waives declaration and licensing when the person consented, a consumer app that collects consent avoids the health minister licence.",
+    "Professional secrecy is a matter of public order under the medical ethics law, and a patient's release alone does not end the doctor's duty.",
+    "No rules on selling de-identified health data, data brokers or health app oversight were found. A 2026 report says vehicle registry data linking plates to names, phones and addresses was offered on Telegram for 20 dollars."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 81 of 2018 on Electronic Transactions and Personal Data (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=278573",
+     "publisherClass": "legal_text",
+     "date": "2018-10-18"
+    },
+    {
+     "title": "Law No. 240 of 2012 amending the Medical Ethics Law No. 288 of 1994 (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=246457",
+     "publisherClass": "legal_text",
+     "date": "2012-10-25"
+    },
+    {
+     "title": "A database of Lebanese residents sold for 20 dollars (Libnanews)",
+     "url": "https://libnanews.com/une-base-de-donnees-des-libanais-vendue-20-dollars/",
+     "publisherClass": "news",
+     "date": "2026-09-30"
+    }
+   ]
+  },
+  "journey": {
+   "score": 25,
+   "summary": "Lebanon has no national health record or exchange. Links exist mainly for medicines: MediTrack tracked about 140 subsidised drugs in 2023, tied to a Unique Health ID, and a 2025-2030 strategy aims to digitise the sector.",
+   "detail": [
+    "A 2013 ministry decision set up a National E-Health Program for health information systems, interoperability, e-prescription and telemedicine.",
+    "Patients need a Unique Health ID to get drugs tracked by MediTrack, about 140 subsidised cancer and chronic disease drugs in 2023, and doctors enter files on the Aman platform for ministry approval.",
+    "A 2022 ministry case study cites a survey in which 13 of 14 hospitals in North Lebanon had information systems, mostly not across all departments.",
+    "The 2025-2030 strategy was launched in September 2025 with UNICEF. At the launch, ministers cited a digital health ID and interoperability frameworks, and the technology minister called for a unified national health database."
+   ],
+   "sources": [
+    {
+     "title": "National E-Health Program (Ministry of Public Health)",
+     "url": "https://www.moph.gov.lb/ar/Pages/6/2651/national-e-health-program",
+     "publisherClass": "official",
+     "date": "undated"
+    },
+    {
+     "title": "How to obtain a Unique Health ID and register a medical file on the Aman program (Ministry of Public Health)",
+     "url": "https://www.moph.gov.lb/ar/Media/view/69229/steps-to-obtain-a-unique-health-id-enter-the-medical-record-into-aman-program-and-follow-up-through-",
+     "publisherClass": "official",
+     "date": "2023-03-13"
+    },
+    {
+     "title": "Case Study on the Digital Transformation of Health Systems in Lebanon (MoPH National E-Health Program)",
+     "url": "https://www.moph.gov.lb/userfiles/images/Programs%26Projects/E-Health%20National%20Program/Case%20Study%20on%20The%20Digital%20Transformation%20of%20Health%20Systems%20in%20Lebanon.pdf",
+     "publisherClass": "official",
+     "date": "2022-08"
+    },
+    {
+     "title": "Launch of the National Strategy for Digital Transformation in the Health Sector 2025-2030 (Ministry of Public Health)",
+     "url": "https://www.moph.gov.lb/ar/Media/view/80335/%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-2025-2030",
+     "publisherClass": "official",
+     "date": "2025-09-03"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 25,
+   "summary": "A treating clinician sees only the records held by their own hospital or clinic. Other doctors may view a file only at the patient's request, and no national system shares records across providers.",
+   "detail": [
+    "The medical ethics law keeps hospital files under each hospital's administration and lets other doctors view them only at the patient's request, except in emergencies.",
+    "Some large private hospitals run full electronic records, such as the American University of Beirut Medical Center on Epic, according to the ministry case study.",
+    "The ministry's Aman platform carries files only for patients seeking ministry-funded medicines. No cross-provider clinical record was found."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 240 of 2012 amending the Medical Ethics Law No. 288 of 1994 (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=246457",
+     "publisherClass": "legal_text",
+     "date": "2012-10-25"
+    },
+    {
+     "title": "Case Study on the Digital Transformation of Health Systems in Lebanon (MoPH National E-Health Program)",
+     "url": "https://www.moph.gov.lb/userfiles/images/Programs%26Projects/E-Health%20National%20Program/Case%20Study%20on%20The%20Digital%20Transformation%20of%20Health%20Systems%20in%20Lebanon.pdf",
+     "publisherClass": "official",
+     "date": "2022-08"
+    },
+    {
+     "title": "How to obtain a Unique Health ID and register a medical file on the Aman program (Ministry of Public Health)",
+     "url": "https://www.moph.gov.lb/ar/Media/view/69229/steps-to-obtain-a-unique-health-id-enter-the-medical-record-into-aman-program-and-follow-up-through-",
+     "publisherClass": "official",
+     "date": "2023-03-13"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Trials need written consent and approval by an accredited ethics committee. Records may be used for research without consent if names are not revealed, and there is no opt-out.",
+   "detail": [
+    "Law 574 says consent to care is not consent to research. Trial participation needs written consent and approval by an ethics committee of the physicians' order, a university hospital or the national bioethics committee.",
+    "Ministerial Decision 2286 of 2014 bans any trial or medical research on humans without an accredited ethics committee, with revocable consent and confidentiality.",
+    "The medical ethics law lets treating doctors, researchers and health authorities use medical files for science without consent, provided names are not revealed. No opt-out or public register of uses was found."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 574 of 2004 on Patients' Rights and Informed Consent (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=256595",
+     "publisherClass": "legal_text",
+     "date": "2004-02-13"
+    },
+    {
+     "title": "Minister of Public Health Decision No. 2286 of 2014 on accrediting ethics committees for clinical trials and research",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=239333",
+     "publisherClass": "legal_text",
+     "date": "2015-01-08"
+    },
+    {
+     "title": "Law No. 240 of 2012 amending the Medical Ethics Law No. 288 of 1994 (Lebanese University Legal Informatics Center)",
+     "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=246457",
+     "publisherClass": "legal_text",
+     "date": "2012-10-25"
+    }
+   ]
+  },
+  "ai": {
+   "score": 20,
+   "summary": "Lebanon has no law, device rule or binding guidance for AI in health care. A new technology and AI ministry plans AI and data protection laws, but none were in force.",
+   "detail": [
+    "A September 2026 academic review says national legal standards specific to health-care AI remain underdeveloped and that legal responsibility for AI needs clarifying.",
+    "The Ministry of Technology and AI's LEAP plan lists a national authority and new AI, cybersecurity and data protection laws as goals.",
+    "A bill to create the ministry went to parliament by Decree 1286 of 19 September 2025; Legal Agenda criticises its open-ended mandate.",
+    "The ministry also lists a National AI Framework, but its adoption status and any health rules were not verified. No medical device rule covering AI software was verified."
+   ],
+   "sources": [
+    {
+     "title": "Ten pillars for responsible and ethical AI adoption in Lebanon's health sector (Academia Public Health)",
+     "url": "https://doi.org/10.20935/AcadPHealth8560",
+     "publisherClass": "academic",
+     "date": "2026-09-30"
+    },
+    {
+     "title": "LEAP, Path to 2030 (Ministry of Technology and AI)",
+     "url": "https://www.mitai.gov.lb/initiatives-and-achievements",
+     "publisherClass": "official",
+     "date": "undated"
+    },
+    {
+     "title": "Ministry of Technology and AI: digital governance or a new centre of power? (Legal Agenda)",
+     "url": "https://legal-agenda.com/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7-%D9%88%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A/",
+     "publisherClass": "news",
+     "date": "2026-05-19"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "unknown",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "No national record exchange. MediTrack links subsidised drug dispensing to a Unique Health ID; hospitals keep their own systems. A 2025-2030 strategy plans integration. Lebanon is outside the EU, so the EHDS does not apply.",
+ "laws": [
+  {
+   "name": "Law No. 574 on Patients' Rights and Informed Consent",
+   "level": "National",
+   "year": "2004",
+   "what": "Right to information, consent, confidentiality and to read and copy the medical file at own cost.",
+   "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=256595"
+  },
+  {
+   "name": "Medical Ethics Law No. 288, amended by Law No. 240",
+   "level": "National",
+   "year": "1994/2012",
+   "what": "Professional secrecy as public order; file copies on request; ten-year retention; research use without names.",
+   "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=246457"
+  },
+  {
+   "name": "Law No. 81 on Electronic Transactions and Personal Data",
+   "level": "National",
+   "year": "2018",
+   "what": "Health data banned without consent, care need or health minister licence; access and correction rights; criminal fines.",
+   "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=278573"
+  },
+  {
+   "name": "Ministerial Decision No. 2286 on research ethics committees",
+   "level": "National",
+   "year": "2014",
+   "what": "No human trial or medical research without an accredited ethics committee and informed consent.",
+   "url": "http://77.42.251.205/LawView.aspx?opt=view&LawID=239333"
+  },
+  {
+   "name": "Ministerial Decision No. 1/227 creating the National E-Health Program",
+   "level": "National",
+   "year": "2013",
+   "what": "Creates a ministry e-health program for information systems, interoperability, e-prescription and privacy rules.",
+   "url": "https://www.moph.gov.lb/ar/Pages/6/2651/national-e-health-program"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-05-19",
+   "headline": "Legal Agenda criticises open-ended mandate of draft technology and AI ministry bill",
+   "source": "Legal Agenda",
+   "url": "https://legal-agenda.com/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7-%D9%88%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A/",
+   "why": "The body meant to write AI and data rules may start without clear limits."
+  },
+  {
+   "date": "2026-07-18",
+   "headline": "Health ministry signs deal with MECRA on clinical research and AI",
+   "source": "Elsiyasa",
+   "url": "https://elsiyasa.com/article/423255",
+   "why": "Patient data may feed AI research tools before AI rules exist."
+  },
+  {
+   "date": "2026-07-21",
+   "headline": "Health minister reviews Vision 2030 progress, citing digital health gains",
+   "source": "Sawt Beirut",
+   "url": "https://www.sawtbeirut.com/lebanon-news/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%85%D8%A7-%D8%AA%D8%AD%D9%82%D9%82-%D9%8A%D8%AB%D8%A8%D8%AA-%D8%A3%D9%86-%D8%A7%D9%84%D8%A5%D8%B5%D9%84%D8%A7%D8%AD-%D9%85%D9%85%D9%83%D9%86/",
+   "why": "Digital health is said to be advancing, but no record-sharing milestone was named."
+  },
+  {
+   "date": "2026-08-12",
+   "headline": "Ministers hold second consultation on national AI and digital strategy",
+   "source": "MTV Lebanon",
+   "url": "https://www.mtv.com.lb/news/1726735",
+   "why": "National data pools and AI plans will shape how health data is used."
+  },
+  {
+   "date": "2026-09-30",
+   "headline": "Lebanese vehicle registry data with names and phones offered on Telegram for 20 dollars",
+   "source": "Libnanews",
+   "url": "https://libnanews.com/une-base-de-donnees-des-libanais-vendue-20-dollars/",
+   "why": "Shows weak enforcement of the data law; the report recalls the 2022 health ministry platform breach."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

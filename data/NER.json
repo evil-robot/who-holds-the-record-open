@@ -1,0 +1,340 @@
+{
+ "iso3": "NER",
+ "name": "Niger",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A 2022 law gives detailed health data rights, but its regulator was abolished in June 2026 and most records stay inside each facility.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Article 69 of Law 2022-59 gives a right to see your data on site or get a copy, but the copy can be charged at reproduction cost and no deadline is set. There is no national patient portal.",
+   "detail": [
+    "Law 2022-59 of 16 December 2022, amended in 2023 and 2024, replaced the 2017 data law. Article 69 gives a direct right of access, by consultation on site or by copy, at the person's choice.",
+    "The controller may charge for the copy, up to the cost of reproduction. We found no fixed reply deadline for access requests. Article 76 adds a right to a copy in a structured, reusable electronic format.",
+    "Where access is impossible, Article 69 lets the HAPDP regulator exercise it for the person. The HAPDP was abolished on 8 June 2026, so this route has no body behind it that we could verify.",
+    "We found no national portal. The 2019-2023 e-health strategy said no national electronic patient record existed. Score: base 45, minus 5 for copy fees, minus 5 for no deadline."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2022-59 du 16 décembre 2022 relative à la protection des données à caractère personnel, version consolidée (HAPDP, avril 2026)",
+     "url": "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf",
+     "date": "2026-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Stratégie Nationale E-Santé 2019-2023, Ministère de la Santé Publique du Niger (WHO country planning repository)",
+     "url": "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/NER_Niger_National-eHealth-Strategy_2019-2023.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Niger: Plusieurs services rattachés ou sous tutelle de la Présidence, de la Primature et du SGG supprimés (ANP)",
+     "url": "https://anp.ne/niger-plusieurs-services-rattaches-ou-sous-tutelle-de-la-presidence-de-la-primature-et-du-secretariat-general-du-gouvernement-supprimes/",
+     "date": "2026-06-12",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 32,
+   "summary": "Health professionals may process health data for care without consent, so patients have no say over routine use. The law limits sharing to what care needs and bars insurers and employers, but there is no opt-out and no access log patients can see.",
+   "detail": [
+    "Article 42 of Law 2022-59 bans processing health data unless an exception applies, such as written consent. Article 43 allows processing for prevention, diagnosis, care and health service management by people bound by professional secrecy.",
+    "Article 44 limits sharing between health professionals to what is strictly needed for coordination or continuity of care, within each professional's authorisation. Article 45 says insurers and employers are not authorised recipients unless a law provides it.",
+    "Article 64 makes controllers keep a register of operations, including consultations of data. It must be shown to the HAPDP on request, not to the patient.",
+    "Article 72 gives a right to object on legitimate grounds, which a controller can override. We found no opt-out from sharing and no patient-visible access log, so the score stays in the 20 to 35 band."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2022-59 du 16 décembre 2022 relative à la protection des données à caractère personnel, version consolidée (HAPDP, avril 2026)",
+     "url": "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf",
+     "date": "2026-04",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 42,
+   "summary": "The 2022 law treats health data as sensitive, requires breach notice and local hosting of identifiable health data, and fines up to 100 million CFA francs. But the independent regulator was abolished in June 2026 and its duties moved to the Justice and Interior ministries.",
+   "detail": [
+    "Law 2022-59 lists health among sensitive data. Processing medical data needs prior HAPDP authorisation (Article 31). Article 47 requires health data that identifies people to be hosted on national territory.",
+    "Article 83 requires notifying the HAPDP of a data breach without delay, and telling affected people when the risk is high. Fines reach 100 million CFA francs, and for a repeat breach 200 million, or 5% of a company's turnover capped at 500 million. Unlawful processing of health data carries 3 months to 5 years in prison.",
+    "In July 2025 the HAPDP president reported four inspections in 2025, all of mobile operators. We found no inspection or sanction involving a health provider.",
+    "Decree 2026-310 of 8 June 2026 abolished the HAPDP and moved its missions to the Justice ministry and the Interior and Public Security ministry. How those ministries now handle authorisations and complaints is not verified, so this scores below the usual general-law band."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2022-59 du 16 décembre 2022 relative à la protection des données à caractère personnel, version consolidée (HAPDP, avril 2026)",
+     "url": "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf",
+     "date": "2026-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Niger: Plusieurs services rattachés ou sous tutelle de la Présidence, de la Primature et du SGG supprimés (ANP)",
+     "url": "https://anp.ne/niger-plusieurs-services-rattaches-ou-sous-tutelle-de-la-presidence-de-la-primature-et-du-secretariat-general-du-gouvernement-supprimes/",
+     "date": "2026-06-12",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Niger : Le président Tiani dissout 9 organismes d'État par décret (Journal du Niger)",
+     "url": "https://www.journalduniger.com/niger-reforme-etat-dissolution-neuf-organismes-publics-decret-tiani/",
+     "date": "2026-06-12",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Entretien avec le président de la Haute Autorité de Protection des Données à caractère Personnel (Le Sahel)",
+     "url": "https://www.lesahel.org/entretien-avec-le-president-de-la-haute-autorite-de-protection-des-donnees-a-caractere-personnel-hapdp/",
+     "date": "2025-07-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Any direct marketing using personal data needs prior consent, and insurers and employers may not receive health data unless a law allows it. We found no rules on health apps, data brokers or sales of de-identified data, and no enforcement case.",
+   "detail": [
+    "Article 51 of Law 2022-59 bans prospecting of any kind, by any channel, using the data of a person who has not consented in advance. Article 96 punishes it with 3 months to 3 years in prison and fines of 1 to 10 million CFA francs.",
+    "Article 45 says insurance companies and employers cannot be treated as authorised recipients of health data unless a law or regulation provides it, with safeguards.",
+    "Article 47 requires health data to be anonymised before sharing. We found no specific rule on selling health data, on data brokers or on consumer health apps, and no published enforcement on commercial use of health data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2022-59 du 16 décembre 2022 relative à la protection des données à caractère personnel, version consolidée (HAPDP, avril 2026)",
+     "url": "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf",
+     "date": "2026-04",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 27,
+   "summary": "DHIS2 carries national reporting, and in July 2026 the ministry showed a national interoperability layer that already feeds disease surveillance data into it. Patient records sit in separate facility systems, with OpenClinic in ten facilities in two regions.",
+   "detail": [
+    "The 2019-2023 e-health strategy says DHIS2 has been online since September 2016 for health data reporting. It found no national electronic patient record and no unique national identifier for each citizen.",
+    "In July 2026 the ministry validated a budgeted roadmap with 27 projects for its 2025-2029 e-health master plan. Officials said the national interoperability layer already works with several systems, moving notifiable disease data from the Estelab platform into DHIS2 automatically.",
+    "Enabel reported in January 2026 that OpenClinic runs in ten hospitals and health centres in Gaya, Gothèye, Dosso, Doutchi, Boboye and Dioundiou, holding patient files, billing, pharmacy and laboratory data.",
+    "We found no national health insurance claims system. Gaya district runs a departmental insurance scheme."
+   ],
+   "sources": [
+    {
+     "title": "Stratégie Nationale E-Santé 2019-2023, Ministère de la Santé Publique du Niger (WHO country planning repository)",
+     "url": "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/NER_Niger_National-eHealth-Strategy_2019-2023.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Santé numérique : Ouverture de l'atelier de validation de la feuille de route budgétisée du Schéma directeur national de la e-Santé 2025-2029 (ANP)",
+     "url": "https://anp.ne/sante-numerique-ouverture-de-latelier-de-validation-de-la-feuille-de-route-budgetisee-du-schema-directeur-national-de-la-e-sante-2025-2029/",
+     "date": "2026-07-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "La digitalisation des hôpitaux améliore les soins au Niger (Enabel)",
+     "url": "https://open.enabel.be/en/update/id/3490",
+     "date": "2026-01-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "District sanitaire de Gaya : Au rythme de la digitalisation et de l'assurance maladie (Le Sahel)",
+     "url": "https://www.lesahel.org/district-sanitaire-de-gaya-au-rythme-de-la-digitalisation-et-de-lassurance-maladie/",
+     "date": "2026-06-05",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 22,
+   "summary": "Clinicians in the few facilities running OpenClinic can open a patient's history inside that facility. We found no shared record across providers, and the law limits any sharing to what care strictly needs.",
+   "detail": [
+    "Enabel says OpenClinic centralises patient files, pharmacy and laboratory data in ten facilities in two regions. In Gaya, each patient gets a personal code that lets doctors see their medical history, with the server kept on site.",
+    "Article 44 of Law 2022-59 allows sharing between health professionals only as strictly needed for continuity of care. Article 43 allows processing without consent to protect vital interests when consent cannot be obtained.",
+    "We found no national shared record, no cross-provider emergency access system and no exchange of patient records between hospitals."
+   ],
+   "sources": [
+    {
+     "title": "La digitalisation des hôpitaux améliore les soins au Niger (Enabel)",
+     "url": "https://open.enabel.be/en/update/id/3490",
+     "date": "2026-01-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "District sanitaire de Gaya : Au rythme de la digitalisation et de l'assurance maladie (Le Sahel)",
+     "url": "https://www.lesahel.org/district-sanitaire-de-gaya-au-rythme-de-la-digitalisation-et-de-lassurance-maladie/",
+     "date": "2026-06-05",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Loi n°2022-59 du 16 décembre 2022 relative à la protection des données à caractère personnel, version consolidée (HAPDP, avril 2026)",
+     "url": "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf",
+     "date": "2026-04",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 60,
+   "summary": "Law 2022-59 allows research on health data only with the person's consent, after a binding CNERS ethics opinion, and requires anonymisation and local hosting. We found no public register of uses, and the regulator that authorised projects was abolished in June 2026.",
+   "detail": [
+    "Article 46 of Law 2022-59 says processing health data for medical research is allowed only if the person consented. People must be told about the research, data retention and their right to refuse or withdraw at any time.",
+    "Article 43 requires a binding opinion of the national health research ethics committee (CNERS), created by Decree 2016-644. Law 2022-34 also requires free, informed, written consent for health research on people.",
+    "Article 47 requires anonymisation before sharing and hosting of identifiable health data in Niger. Prior authorisation came from the HAPDP, abolished in June 2026.",
+    "Opt-in consent in law would place Niger in the 70 to 85 band, but we found no public register and practice was not verified, so 60. Niger is not in the EU, so the European Health Data Space does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2022-59 du 16 décembre 2022 relative à la protection des données à caractère personnel, version consolidée (HAPDP, avril 2026)",
+     "url": "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf",
+     "date": "2026-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret n°2016-644/PRN/MSP du 1er décembre 2016 portant création, missions, composition et fonctionnement du CNERS",
+     "url": "https://healthresearchwebafrica.org.za/?action=download&file=ethiccomittee.pdf",
+     "date": "2016-12-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n°2022-34 du 11 juillet 2022 déterminant les principes fondamentaux de la santé et de l'hygiène publique (FAOLEX)",
+     "url": "https://faolex.fao.org/docs/pdf/ner234465.pdf",
+     "date": "2022-07-11",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Niger: Plusieurs services rattachés ou sous tutelle de la Présidence, de la Primature et du SGG supprimés (ANP)",
+     "url": "https://anp.ne/niger-plusieurs-services-rattaches-ou-sous-tutelle-de-la-presidence-de-la-primature-et-du-secretariat-general-du-gouvernement-supprimes/",
+     "date": "2026-06-12",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "We found no rules for AI in clinical care or AI as a medical device. The 2022 data law makes AI developers declare to the regulator and requires telling people the criteria behind AI processing, but that regulator no longer exists.",
+   "detail": [
+    "Article 57 of Law 2022-59 says AI developers, manufacturers and providers operating from Niger must comply with the law and declare to the HAPDP. Article 52 bars decisions based solely on automated profiling and requires disclosing the criteria behind AI processing at collection.",
+    "A 2025 study of WAEMU medical device rules lists Niger's 2021 order regulating medical devices and a 2023 expert committee for product approval. It does not mention software or AI rules.",
+    "We found no national AI law and no clinical AI guidance. With the HAPDP abolished, it is not verified who now receives AI declarations."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2022-59 du 16 décembre 2022 relative à la protection des données à caractère personnel, version consolidée (HAPDP, avril 2026)",
+     "url": "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf",
+     "date": "2026-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Analyse du cadre légal et institutionnel des dispositifs médicaux dans les pays de l'UEMOA (JATPB)",
+     "url": "https://soapgi-jatpb.org/index.php/jatpb/article/download/215/46/1300",
+     "date": "2025-06-30",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Niger: Plusieurs services rattachés ou sous tutelle de la Présidence, de la Primature et du SGG supprimés (ANP)",
+     "url": "https://anp.ne/niger-plusieurs-services-rattaches-ou-sous-tutelle-de-la-presidence-de-la-primature-et-du-secretariat-general-du-gouvernement-supprimes/",
+     "date": "2026-06-12",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "DHIS2 gathers national reporting, and a new interoperability layer feeds surveillance data into it. OpenClinic runs in ten facilities without cross-facility exchange. No national claims system or unique patient identifier was verified.",
+ "laws": [
+  {
+   "name": "Loi n°2022-59 du 16 décembre 2022 relative à la protection des données à caractère personnel",
+   "level": "National",
+   "year": "2022",
+   "what": "Access, health data rules, research consent, local hosting, breach notice, AI declarations, fines.",
+   "url": "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf"
+  },
+  {
+   "name": "Loi n°2023-31 du 4 juillet 2023 modifiant la loi n°2022-59",
+   "level": "National",
+   "year": "2023",
+   "what": "Attached the HAPDP to the Presidency and set its membership at eleven.",
+   "url": "https://www.hapdp.ne/uploads/files/Loi%20N%C2%B0%202023-31%20Modifiant%20la%20Loi%20N%C2%B0%202022-59.pdf"
+  },
+  {
+   "name": "Ordonnance n°2024-29 du 24 juin 2024 modifiant la loi n°2022-59",
+   "level": "National",
+   "year": "2024",
+   "what": "Cut the HAPDP to ten members, two named by the head of the military government.",
+   "url": "https://www.hapdp.ne/uploads/files/ordonnace-2024-29-du-24-juin-2024.pdf"
+  },
+  {
+   "name": "Décret n°2026-310/PRN/PM du 8 juin 2026",
+   "level": "National",
+   "year": "2026",
+   "what": "Abolished the HAPDP and moved its missions to the Justice and Interior ministries.",
+   "url": "https://www.journalduniger.com/niger-reforme-etat-dissolution-neuf-organismes-publics-decret-tiani/"
+  },
+  {
+   "name": "Loi n°2022-34 du 11 juillet 2022 déterminant les principes fondamentaux de la santé et de l'hygiène publique",
+   "level": "National",
+   "year": "2022",
+   "what": "Informed consent to care and written consent for research on people.",
+   "url": "https://faolex.fao.org/docs/pdf/ner234465.pdf"
+  },
+  {
+   "name": "Décret n°2016-644/PRN/MSP portant création du CNERS",
+   "level": "National",
+   "year": "2016",
+   "what": "Creates the national health research ethics committee that reviews and validates protocols.",
+   "url": "https://healthresearchwebafrica.org.za/?action=download&file=ethiccomittee.pdf"
+  },
+  {
+   "name": "African Union Convention on Cyber Security and Personal Data Protection (Malabo)",
+   "level": "Supranational",
+   "year": "2014",
+   "what": "AU data protection and cybersecurity treaty; Niger's ratification reported in January 2022.",
+   "url": "https://www.ouestaf.com/cybersecurite-le-niger-ratifie-la-convention-de-lua/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-17",
+   "headline": "Broadband link planned for 330 health facilities, from national hospitals to clinics",
+   "source": "Le Sahel",
+   "url": "https://www.lesahel.org/sante-le-niger-connecte-ses-structures-de-sante-au-haut-debit/",
+   "why": "Connectivity is a precondition for electronic records and telemedicine outside the capital."
+  },
+  {
+   "date": "2026-01-20",
+   "headline": "OpenClinic hospital system now runs in ten facilities in two regions",
+   "source": "Enabel",
+   "url": "https://open.enabel.be/en/update/id/3490",
+   "why": "Patient files go digital in these facilities, but are not shared across providers."
+  },
+  {
+   "date": "2026-06-05",
+   "headline": "Gaya district hospital gives each patient a code to reach their history",
+   "source": "Le Sahel",
+   "url": "https://www.lesahel.org/district-sanitaire-de-gaya-au-rythme-de-la-digitalisation-et-de-lassurance-maladie/",
+   "why": "Shows a local digital record in use, stored on a server at the hospital."
+  },
+  {
+   "date": "2026-06-12",
+   "headline": "Government abolishes the data protection authority and hands its duties to ministries",
+   "source": "Agence Nigérienne de Presse",
+   "url": "https://anp.ne/niger-plusieurs-services-rattaches-ou-sous-tutelle-de-la-presidence-de-la-primature-et-du-secretariat-general-du-gouvernement-supprimes/",
+   "why": "Patients lose the independent body that took complaints and authorised health data use."
+  },
+  {
+   "date": "2026-07-08",
+   "headline": "Health ministry validates budgeted roadmap for its 2025-2029 e-health plan",
+   "source": "Agence Nigérienne de Presse",
+   "url": "https://anp.ne/sante-numerique-ouverture-de-latelier-de-validation-de-la-feuille-de-route-budgetisee-du-schema-directeur-national-de-la-e-sante-2025-2029/",
+   "why": "Sets 27 projects including hospital records, interoperability and cybersecurity."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

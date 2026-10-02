@@ -1,0 +1,324 @@
+{
+ "iso3": "SOM",
+ "name": "Somalia",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Somalia's 2023 data law gives patients a free copy of their data, but records stay in separate clinics and the regulator has no health cases.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Article 20 of the 2023 Data Protection Act gives a free copy in a common electronic format (+5), but only for reasonable purposes and with no fixed deadline (-5 each). There is no patient portal, so base 45 lands at 40.",
+   "detail": [
+    "Article 20 of the Data Protection Act (Law No. 005 of 2023) lets a person get confirmation, a copy of their data in a commonly used electronic format, correction and deletion. It must be given at no expense and without unreasonable delay.",
+    "The right applies only for reasonable purposes. A controller may charge a fee or refuse when a request is manifestly unfounded or excessive. The Act sets no fixed number of days to answer.",
+    "Health status is listed as sensitive personal data in Article 2. The two-year exemption for smaller controllers in Article 5 ran from entry into force, so it has now ended.",
+    "We found no national portal where patients can see their record. Electronic records in public clinics (RAAD) and the immunization register are used by staff, and we found no patient view. We found no enforcement decision on a health records request."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, Law No. 005 of 2023 (Ministry of Communications and Technology, full text)",
+     "url": "https://moct.gov.so/en/wp-content/uploads/2023/07/Somalia-Data-Protection-Act-2.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Somalia Data Protection Authority: home",
+     "url": "https://dpa.gov.so/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "Article 14 lets clinics process data for medical care without consent, and there is no shared record, opt-out or access log a patient can use. Consent can be withdrawn, but objection is limited to a few legal grounds.",
+   "detail": [
+    "Article 14(2)(g) allows processing for medical care or community welfare as a legal basis on its own. Consent is one basis among twelve, so treatment records need no patient consent.",
+    "Article 21 gives a right to withdraw consent, and it must be as easy as giving it. Article 22 allows objection only to processing based on public tasks, legitimate interests or data the person made public, and only for substantial unwarranted damage or distress.",
+    "In the Mogadishu electronic immunization register, mothers sign a consent form at registration. One mother told Hiiraan Online she did not know who else could see her son's record.",
+    "We found no national shared record, no opt-out and no access log open to patients."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, Law No. 005 of 2023 (Ministry of Communications and Technology, full text)",
+     "url": "https://moct.gov.so/en/wp-content/uploads/2023/07/Somalia-Data-Protection-Act-2.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Somalia expands Digital Public Infrastructure (DPI) for child immunization in Mogadishu",
+     "url": "https://www.hiiraan.com/national4/2026/Feb/204540/somalia_expands_digital_public_infrastructure_dpi_for_child_immunization_in_mogadishu_.aspx",
+     "date": "2026-02-27",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health is sensitive data, breaches must be reported within 72 hours and fines reach up to USD 1 million. With no health enforcement found and no formal notice after a 2025 e-visa breach, this scores the general law at 45.",
+   "detail": [
+    "Article 25 requires notice to the Authority within 72 hours and to affected people when risk is high. Article 37 allows penalties of up to USD 1 million (bracketed in the published text). The NHPC Act makes disseminating patient records without reason an offence, with fines up to USD 1,000.",
+    "The Authority is independent under Article 6, but must follow directions from the President and Cabinet on national security. The Act does not apply to authorities handling crime, national security or a national public health emergency (Article 5).",
+    "A Director General took office in December 2024 and the Council of Ministers approved regulations in January 2026. Their text was not downloadable, so any health rules are not verified.",
+    "Al Jazeera reported in December 2025 that no formal breach notice was issued after an e-visa breach. Somalia is outside the EU, so the EHDS does not apply; Article 30 limits transfers abroad to adequate protection."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, Law No. 005 of 2023 (Ministry of Communications and Technology, full text)",
+     "url": "https://moct.gov.so/en/wp-content/uploads/2023/07/Somalia-Data-Protection-Act-2.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Council of Ministries Approves Data Protection Act Regulations",
+     "url": "https://dpa.gov.so/news/council-of-ministries-approves-data-protection-act-regulations/",
+     "date": "2026-01-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Health Professionals Council Act Lr.31 (full text)",
+     "url": "https://nhpc.gov.so/documents/nhpc-act-lr31-2020.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "New Somalia e-visa security flaw puts passport details of thousands at risk",
+     "url": "https://www.aljazeera.com/news/2025/12/18/new-somalia-evisa-security-puts-passport-details-of-thousands-at-risk",
+     "date": "2025-12-18",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 35,
+   "summary": "The Data Protection Act has no ban on selling health data and no rule on health marketing. Health data can be processed on a legitimate interests basis, and we found no enforcement, so 35.",
+   "detail": [
+    "Health status is sensitive personal data, but the Act adds no extra conditions for it. Article 14(5) lets the Authority set measures for sensitive data by regulation, and we could not read the 2026 regulations.",
+    "Article 14(2)(j) allows processing for the legitimate interests of the controller or a third party unless the person's rights override them. Article 22 lets a person object to this only for substantial unwarranted damage or distress.",
+    "We found no rule on selling health data, data brokers, health apps or de-identified data. Article 37 lets the Authority order a controller to account for profits made from a violation."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, Law No. 005 of 2023 (Ministry of Communications and Technology, full text)",
+     "url": "https://moct.gov.so/en/wp-content/uploads/2023/07/Somalia-Data-Protection-Act-2.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "DHIS2 is the national reporting system, and the RAAD electronic record runs in about 111 public primary care clinics. The Ministry's own plan calls the health information system fragmented, and most hospitals are private.",
+   "detail": [
+    "The 2022 to 2026 Health Sector Strategic Plan says the health information environment is fragmented, with multiple systems working sub-optimally. It says most tertiary and secondary facilities are privately owned.",
+    "DHIS2 was introduced in all districts in 2017 for aggregate reporting. A 2026 conference abstract says the Ministry's RAAD record was deployed in 111 public primary care facilities in six states between 2023 and 2025.",
+    "An electronic immunization register on DHIS2 ran in 14 Banadir facilities in 2025. An EU-funded consortium system feeds DHIS2 from over 40 facilities.",
+    "The Ministry launched a National Master Health Facility List in August 2026 to support interoperability. We found no national exchange and no electronic insurance claims."
+   ],
+   "sources": [
+    {
+     "title": "Somalia Health Sector Strategic Plan 2022-2026 (HSSP III)",
+     "url": "https://moh.gov.so/so/wp-content/uploads/2022/11/Health-Sector-Strategy-Plan-III.pdf",
+     "date": "2022-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministry of Health Officially Launches the National Master Health Facility List (MHFL) in Mogadishu",
+     "url": "https://moh.gov.so/en/ministry-of-health-officially-launches-the-national-master-health-facility-list-mhfl/",
+     "date": "2026-08-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "A Standards-Based Approach to DHIS2 Integration (DHIS2 Annual Conference 2026 poster abstract)",
+     "url": "https://community.dhis2.org/t/a-standards-based-approach-to-dhis2-integration/72690",
+     "date": "2026-05-27",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Partnering for a Data-Driven Somali Health System",
+     "url": "https://caafimaad-plus.org/partnering-for-a-data-driven-somali-health-system/",
+     "date": "2026-04-14",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 24,
+   "summary": "A clinician sees what their own clinic holds, and RAAD covers only some public primary care clinics. Cross-facility lookup exists only inside pilot networks such as the immunization register.",
+   "detail": [
+    "RAAD, built on Bahmni and OpenMRS, supports registration, clinical notes, prescriptions and lab results in Somali public facilities. A 2026 study found about 70 public primary facilities using it. Whether RAAD records can be seen from another facility is not verified.",
+    "In the immunization register, staff at any participating facility can find a child's record by a unique ID. It covered 14 facilities.",
+    "The Ministry's plan says most hospitals are private. We found no shared record that a hospital doctor can open across providers, and no emergency access rule."
+   ],
+   "sources": [
+    {
+     "title": "Somalia Health Sector Strategic Plan 2022-2026 (HSSP III)",
+     "url": "https://moh.gov.so/so/wp-content/uploads/2022/11/Health-Sector-Strategy-Plan-III.pdf",
+     "date": "2022-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Electronic medical record-generated data use for decision-making among healthcare managers in Somali public health facilities (Frontiers in Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13328194/",
+     "date": "2026-06-19",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Somalia expands Digital Public Infrastructure (DPI) for child immunization in Mogadishu",
+     "url": "https://www.hiiraan.com/national4/2026/Feb/204540/somalia_expands_digital_public_infrastructure_dpi_for_child_immunization_in_mogadishu_.aspx",
+     "date": "2026-02-27",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "The Act allows processing for scientific research without consent and gives no opt-out. Two safeguards count, a Ministry review board and the NHPC Act offence for disseminating patient records, so 40 plus 6.",
+   "detail": [
+    "Article 14(2)(k) makes historical, statistical or scientific research a legal basis on its own. The Article 22 right to object does not cover it.",
+    "A December 2025 study reports approval from the Institutional Review Board of the Ministry of Health's Department of Policy and Planning. The National Institute of Health says its research division leads ethical frameworks and research governance.",
+    "The NHPC Act sets up a Medical Research Committee and fees for reviewing research protocols. It also makes disseminating patient records without reason an offence, with fines up to USD 1,000. We found no public register of data uses, no re-identification penalty and no trials consent law."
+   ],
+   "sources": [
+    {
+     "title": "Public Health Research (National Institute of Health, Somalia)",
+     "url": "https://nih.gov.so/public-health-research/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Data Protection Act, Law No. 005 of 2023 (Ministry of Communications and Technology, full text)",
+     "url": "https://moct.gov.so/en/wp-content/uploads/2023/07/Somalia-Data-Protection-Act-2.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Public and private health operators in Somalia 2025 (Tropical Medicine and Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12805703/",
+     "date": "2025-12-27",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "National Health Professionals Council Act Lr.31 (full text)",
+     "url": "https://nhpc.gov.so/documents/nhpc-act-lr31-2020.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 22,
+   "summary": "Somalia has no rules for AI in clinical care and no regulation of medical software. The only safeguard is Article 23 of the Data Protection Act, a right not to face decisions made solely by automated processing.",
+   "detail": [
+    "The medicines regulator was set up by ministerial decree on the basis of Law No. 9 of 1989 on human medicines and medical devices. Its online system, live since August 2026, handles licensing and product registration. We found no rules for AI or software as a medical device.",
+    "Article 23 bars decisions based solely on automated processing with legal or similar effects, unless allowed by contract, law or consent.",
+    "A second national AI summit in June 2026 discussed AI governance, including in healthcare. We found no AI law or policy."
+   ],
+   "sources": [
+    {
+     "title": "About Us (National Medicines Regulatory Authority)",
+     "url": "https://nmra.gov.so/about-us/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Update on the Medicines and Health Products Regulatory System in Somalia",
+     "url": "https://nmra.gov.so/somalia-strengthens-medicines-and-health-products-regulation-nmra-website-and-rims-now-live/",
+     "date": "2026-08-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Data Protection Act, Law No. 005 of 2023 (Ministry of Communications and Technology, full text)",
+     "url": "https://moct.gov.so/en/wp-content/uploads/2023/07/Somalia-Data-Protection-Act-2.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Somalia hosts Second National AI Summit to advance digital transformation and innovation",
+     "url": "https://techreviewafrica.com/news/5985/somalia-hosts-second-national-ai-summit-to-advance-digital-transformation-and-innovation",
+     "date": "2026-06-20",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 carries aggregate reports and disease surveillance. RAAD records run in some public primary clinics and pilot registers link a few dozen facilities. Mostly private hospitals are not linked, and electronic claims were not verified.",
+ "laws": [
+  {
+   "name": "Data Protection Act, Law No. 005 of 2023",
+   "level": "National",
+   "year": "2023",
+   "what": "Health is sensitive data; free copy, 72-hour breach notice, independent authority, penalties up to USD 1 million.",
+   "url": "https://moct.gov.so/en/wp-content/uploads/2023/07/Somalia-Data-Protection-Act-2.pdf"
+  },
+  {
+   "name": "Data Protection Act Regulations",
+   "level": "National",
+   "year": "2026",
+   "what": "Approved by the Council of Ministers in January 2026 to set procedures; text not available to read.",
+   "url": "https://dpa.gov.so/news/council-of-ministries-approves-data-protection-act-regulations/"
+  },
+  {
+   "name": "National Health Professionals Council Act Lr.31",
+   "level": "National",
+   "year": "2020",
+   "what": "Licenses professionals and facilities; disseminating patient records without reason is an offence.",
+   "url": "https://nhpc.gov.so/documents/nhpc-act-lr31-2020.pdf"
+  },
+  {
+   "name": "Law No. 9 of 1989 on human medicines and medical devices",
+   "level": "National",
+   "year": "1989",
+   "what": "Legal basis cited for the interim medicines regulator; no AI or software rules found.",
+   "url": "https://nmra.gov.so/about-us/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-18",
+   "headline": "E-visa site still exposes passport data weeks after breach",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2025/12/18/new-somalia-evisa-security-puts-passport-details-of-thousands-at-risk",
+   "why": "Shows the 72-hour breach notice rule untested on a state system holding personal data."
+  },
+  {
+   "date": "2026-01-05",
+   "headline": "Cabinet approves regulations under the Data Protection Act",
+   "source": "Somalia Data Protection Authority",
+   "url": "https://dpa.gov.so/news/council-of-ministries-approves-data-protection-act-regulations/",
+   "why": "Gives the regulator the procedures it needs to act on patient complaints."
+  },
+  {
+   "date": "2026-02-27",
+   "headline": "Electronic immunization register piloted in 14 Mogadishu clinics, paper still in use",
+   "source": "Hiiraan Online",
+   "url": "https://www.hiiraan.com/national4/2026/Feb/204540/somalia_expands_digital_public_infrastructure_dpi_for_child_immunization_in_mogadishu_.aspx",
+   "why": "Records follow children between participating clinics, but parents are not told who can view them."
+  },
+  {
+   "date": "2026-06-20",
+   "headline": "Second national AI summit discusses AI governance and healthcare use",
+   "source": "Tech Review Africa",
+   "url": "https://techreviewafrica.com/news/5985/somalia-hosts-second-national-ai-summit-to-advance-digital-transformation-and-innovation",
+   "why": "No AI rules exist yet to protect patients when AI is used in care."
+  },
+  {
+   "date": "2026-08-12",
+   "headline": "Ministry launches a national master list of health facilities",
+   "source": "Ministry of Health and Human Services",
+   "url": "https://moh.gov.so/en/ministry-of-health-officially-launches-the-national-master-health-facility-list-mhfl/",
+   "why": "A single facility registry is a first step toward linking patient records."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

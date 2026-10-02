@@ -82,6 +82,8 @@ def recency_w(src, cls, as_of):
 
 
 def grade(score):
+    # Tier from the grade as displayed (rounded), so a shown 90 is never labelled Gold (QA 2 Oct 2026).
+    score = round(score)
     return next(name for cut, name in TIERS if score >= cut)
 
 
@@ -99,7 +101,10 @@ def score_cell(cell, iso, k, as_of, classes, links, retest=RETEST, other_review=
     for s in srcs:
         # precedence: audit's listed domain > author's publisherClass > audit's catch-all "news" > weakest class
         r = classes.get((iso, k, s["url"]))
-        if r and listed(s["url"]): cls.append(r["publisher_class"]); cls_from.append("audit")
+        if r and (listed(s["url"]) or r.get("basis") in ("listed", "rule", "claim")):
+            # the audit (analysis/sources.py) ruled on this class: hand list, domain rule, or the recorded class accepted on a
+            # country-code or non-commercial domain after the cross-check (docs/DTI_EVIDENCE.md, 2 Oct 2026)
+            cls.append(r["publisher_class"]); cls_from.append("audit" if r.get("basis", "listed") == "listed" else "audit_" + r["basis"])
         elif s.get("publisherClass"): cls.append(s["publisherClass"]); cls_from.append("author")
         elif r: cls.append(r["publisher_class"]); cls_from.append("auditDefault")
         else: cls.append("blog_vendor"); cls_from.append("none")  # unclassified counts as weakest, never strongest
@@ -172,6 +177,8 @@ def main():
             "classesNotAudited": sum(v["classesNotAudited"] for v in out.values()),
             "classesAuditDefault": sum(v["classesAuditDefault"] for v in out.values()),
             "provisionalCountries": sorted(i for i, v in out.items() if v["provisional"])}
+    import sys as _s; _s.path.insert(0, os.path.join(ROOT, "scripts")); from datahash import data_sha256
+    meta["dataSha256"] = data_sha256(ROOT)  # DECISION_RULES.md
     json.dump({"meta": meta, "countries": out}, open(f"{ROOT}/analysis/dti/dti_evidence.json", "w"), indent=1)
     xs = sorted(out.items(), key=lambda kv: -kv[1]["dtiExact"])
     print(f"{len(out)} countries; unchecked links {meta['uncheckedLinks']}; classes not audited {meta['classesNotAudited']}; "

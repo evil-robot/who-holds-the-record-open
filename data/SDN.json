@@ -1,0 +1,377 @@
+{
+ "iso3": "SDN",
+ "name": "Sudan",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Sudan, at war since 2023, has no data protection law or patient right to a record copy; electronic records reached two sites in 2026.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 22,
+   "summary": "No Sudanese law we opened gives patients a right to a copy of their record, and the 2015 information law exempts medical records from disclosure. A 2011 rule obliging lab staff to give patients their results puts Sudan just above Libya (20).",
+   "detail": [
+    "The Right to Access Information Act 2015 lets any person request information from public bodies, with an answer due within two weeks. Article 12(e) exempts personal files and medical records, and the text has no exception for a patient asking for their own file.",
+    "The Medical Laboratory Practice Regulation 2011, issued by the National Council for Medical and Health Professions, requires lab practitioners to give patients their test results accurately (Article 28). It covers labs only.",
+    "Sudan has no data protection law, so there is no general right to access personal data, according to Data Protection Africa. Any Sudan Medical Council rule on giving patients their records was not verified.",
+    "We found no national patient portal. In July 2026 the Baladna government platform added online applications for health insurance cards, not access to records."
+   ],
+   "sources": [
+    {
+     "title": "Right to Access Information Act 2015 (Arabic text, CYRILLA)",
+     "url": "https://cyrilla.org/api/files/1732903956524pdhozzggxw.pdf",
+     "date": "2015",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Controls and regulations, including the Medical Laboratory Practice Regulation 2011 (National Council for Medical and Health Professions)",
+     "url": "https://sncmhp.gov.sd/controls-and-regulations/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sudan data protection factsheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/sudan/",
+     "date": "2022-05-24",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Baladna platform adds digital health services including health insurance and the medical commission (Sudan Akhbar, from SUNA)",
+     "url": "https://www.sudanakhbar.com/1820129",
+     "date": "2026-07-31",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 22,
+   "summary": "Patients have no legal tools to decide who sees their record: no consent rules for sharing, no opt-out and no access log. Protection rests on a professional secrecy duty and a constitutional privacy right.",
+   "detail": [
+    "Article 55 of the 2019 Constitutional Charter says no one's privacy may be violated, and private life and correspondence may not be interfered with, except in accordance with the law. No statute turns this into health data rules.",
+    "The 2011 lab regulation (Article 29) bars disclosing secrets learned through practice, except to report a criminal death, report a harmful or infectious disease, or obey a judicial order.",
+    "With no data protection law, there are no consent requirements for processing personal data, according to Data Protection Africa.",
+    "Freedom House scores state surveillance of internet activity at 1 of 6 for June 2024 to May 2025. We found no patient-facing consent tool or access log in any health system we checked."
+   ],
+   "sources": [
+    {
+     "title": "Sudan Constitutional Charter 2019 (Constitute Project, International IDEA translation)",
+     "url": "https://www.constituteproject.org/constitution/Sudan_2019?lang=en",
+     "date": "2019",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Controls and regulations, including the Medical Laboratory Practice Regulation 2011 (National Council for Medical and Health Professions)",
+     "url": "https://sncmhp.gov.sd/controls-and-regulations/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sudan data protection factsheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/sudan/",
+     "date": "2022-05-24",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Sudan: Freedom on the Net 2025 (Freedom House)",
+     "url": "https://freedomhouse.org/country/sudan/freedom-net/2025",
+     "date": "2025-11-12",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 20,
+   "summary": "Sudan has no data protection law, no data regulator and no breach notice rule, and it signed but has not ratified the AU Malabo Convention. Draft cybercrime amendments approved in October 2025 would allow warrantless digital searches, so it scores below Libya (25).",
+   "detail": [
+    "Data Protection Africa lists no data protection law, no data protection authority, no breach notification duty and no limits on cross-border transfers for Sudan.",
+    "The African Union treaty list of 8 July 2024 shows Sudan signed the Malabo Convention on 15 March 2023, with no ratification recorded.",
+    "On 13 October 2025 the Cabinet approved amendments to the Cybercrime Law. Skyline International says they give security forces powers to search devices, confiscate them and remove content without a warrant. We found no health-sector privacy decision or health data breach.",
+    "Sudan is not in the EU, so GDPR and the European Health Data Space do not apply. Sudan is not on the European Commission's list of countries with an adequacy decision."
+   ],
+   "sources": [
+    {
+     "title": "Sudan data protection factsheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/sudan/",
+     "date": "2022-05-24",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "List of countries that have signed, ratified or acceded to the AU Convention on Cyber Security and Personal Data Protection (African Union)",
+     "url": "https://au.int/sites/default/files/treaties/29560-sl-AFRICAN_UNION_CONVENTION_ON_CYBER_SECURITY_AND_PERSONAL_DATA_PROTECTION.pdf",
+     "date": "2024-07-08",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Sudan's draconian Cybercrime Law amendments pose grave threat to digital freedoms (Skyline International)",
+     "url": "https://skylineforhuman.org/en/news/details/875/sudans-draconian-cybercrime-law-amendments-pose-grave-threat-to-digital-freedoms",
+     "date": "2025-10-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 20,
+   "summary": "No Sudanese law limits selling health data or using it for marketing, because there is no data protection law. The only general shield is the constitutional privacy right in Article 55, which no statute applies to companies.",
+   "detail": [
+    "A 2026 Shendi University study finds personal data protection in Sudan fragmented, relying on general constitutional and civil provisions and scattered offences in the Cybercrime Law. It calls for a dedicated data protection law.",
+    "A July 2026 Sudan Center for Policy Studies paper says a data protection bill drafted in 2018 was never enacted. It says no law governs data localisation or cross-border transfer.",
+    "We found no rules on health data brokers, sales of de-identified data or consumer health apps."
+   ],
+   "sources": [
+    {
+     "title": "Sudan Constitutional Charter 2019 (Constitute Project, International IDEA translation)",
+     "url": "https://www.constituteproject.org/constitution/Sudan_2019?lang=en",
+     "date": "2019",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The legal framework for protecting privacy and personal data in the age of AI, in light of Sudan's Cybercrime Law (Shendi University Journal)",
+     "url": "https://journals.ush.edu.sd/law/2026/04/07/%D8%A7%D9%84%D8%A7%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9-%D9%88-%D8%A7%D9%84%D8%A8/",
+     "date": "2026-04-07",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "The privacy gap in Sudan: balancing digital transformation and data protection laws, part 1 (Sudan Center for Policy Studies)",
+     "url": "https://sudancps.com/2026/07/20/%D9%81%D8%AC%D9%88%D8%A9-%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9-%D8%A8%D9%8A%D9%86/",
+     "date": "2026-07-20",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Sudan data protection factsheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/sudan/",
+     "date": "2022-05-24",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 18,
+   "summary": "In May 2026 the health and digital ministries started a hospital system with electronic patient records at one Khartoum hospital and one Gedaref centre. No national record, exchange or e-prescription service in operation was found.",
+   "detail": [
+    "Sudafax reports that phase one of the health digitisation programme launched on 11 May 2026 at Al Nau hospital in Khartoum and the Gedaref hospital diagnostic centre. It is meant to expand to all states in phases.",
+    "The system has eight parts, including an electronic patient record, lab and pharmacy information systems, a health information system, disease surveillance and civil registration.",
+    "In March 2026 Khartoum State's health ministry announced an online hospital system with a medical number for each patient, run by the company Sudan Health, as part of rebuilding services after the war.",
+    "In February 2026 the federal health minister said many electronic systems had been restored. The digital ministry said it would link health systems to the Baladna platform, which now takes insurance card applications. The meeting also saw a Soba hospital system linked to civil registration and health insurance."
+   ],
+   "sources": [
+    {
+     "title": "Unified digital hospital management system launched to digitise Sudan's health sector (Sudafax)",
+     "url": "https://sudafax.com/559584/%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%86%D8%B8%D8%A7%D9%85-%D8%B1%D9%82%D9%85%D9%8A-%D9%85%D9%88%D8%AD%D8%AF-%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A%D8%A7",
+     "date": "2026-05-11",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Khartoum health ministry sets out plans to run state hospitals on an integrated electronic system (Sudan Akhbar, from SUNA)",
+     "url": "https://www.sudanakhbar.com/1759992",
+     "date": "2026-03-03",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Health ministry begins digital health transformation project with the digital ministry (Sudan Akhbar, from SUNA)",
+     "url": "https://www.sudanakhbar.com/1751910",
+     "date": "2026-02-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Baladna platform adds digital health services including health insurance and the medical commission (Sudan Akhbar, from SUNA)",
+     "url": "https://www.sudanakhbar.com/1820129",
+     "date": "2026-07-31",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 15,
+   "summary": "No shared record across providers was found, so a treating clinician mostly sees what their own facility holds. Electronic patient records started in May 2026 at two sites only.",
+   "detail": [
+    "The May 2026 hospital system includes an electronic patient record and an electronic medical record, but at launch it ran only at Al Nau hospital and the Gedaref diagnostic centre.",
+    "The 2011 lab regulation allows disclosure of patient secrets only for criminal deaths, harmful or infectious disease reports and court orders. We found no rule on sharing records between treating clinicians or on emergency access.",
+    "A February 2026 health ministry meeting heard a presentation on the challenges the ministry's digital infrastructure faced during the war."
+   ],
+   "sources": [
+    {
+     "title": "Unified digital hospital management system launched to digitise Sudan's health sector (Sudafax)",
+     "url": "https://sudafax.com/559584/%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%86%D8%B8%D8%A7%D9%85-%D8%B1%D9%82%D9%85%D9%8A-%D9%85%D9%88%D8%AD%D8%AF-%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A%D8%A7",
+     "date": "2026-05-11",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Controls and regulations, including the Medical Laboratory Practice Regulation 2011 (National Council for Medical and Health Professions)",
+     "url": "https://sncmhp.gov.sd/controls-and-regulations/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health ministry begins digital health transformation project with the digital ministry (Sudan Akhbar, from SUNA)",
+     "url": "https://www.sudanakhbar.com/1751910",
+     "date": "2026-02-08",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "No law sets consent or opt-out rules for reusing health records in research. Two safeguards count: a national health research ethics committee dating from a 2002 decree, and a 2011 rule requiring ethics approval and patient consent for lab research.",
+   "detail": [
+    "Ministerial Decree 11 of 2002 constituted national ethics committees, now the National Health Research Ethics Committee. It issued national guidelines for human subject protection in 2008, revised in 2017, according to a University of Bergen training module.",
+    "A 2007 decree let states, hospitals and research institutes form their own ethics committees under the national guidelines. The National Medicines and Poisons Board reviews medicinal clinical trials and lists a 2017 regulation on medical experiments on humans and animals.",
+    "Article 30 of the 2011 lab regulation requires ethics committee approval and the consent of the patient or guardian for research on a patient, except in critical cases.",
+    "We found no public register of data uses, no re-identification penalty and no opt-out from research use of records."
+   ],
+   "sources": [
+    {
+     "title": "The ethical review system in Sudan, module 2 (SNAC research ethics project, University of Bergen)",
+     "url": "https://snac-research-ethics.w.uib.no/files/2024/12/The-Ethical-review-System-in-Sudan-Module-2.pdf",
+     "date": "2024-12",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Controls and regulations, including the Medical Laboratory Practice Regulation 2011 (National Council for Medical and Health Professions)",
+     "url": "https://sncmhp.gov.sd/controls-and-regulations/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Regulations (National Medicines and Poisons Board)",
+     "url": "https://nmpb.gov.sd/regulation.php",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "A November 2025 decree created a Sudanese Data and AI Authority, but it had issued no binding rules by mid-2026. No rules for AI or software as a medical device were found, the no-rules band, matching Libya and Egypt (25).",
+   "detail": [
+    "Prime Minister Kamil Idris signed a decree on 5 November 2025 creating the Digital Transformation Authority, the Sudanese Data and AI Authority and the Sudanese Cybersecurity Authority under the digital ministry, Ecofin reports.",
+    "A July 2026 Sudan Center for Policy Studies paper says neither the data and AI authority nor the cybersecurity authority had issued binding rules by mid-2026.",
+    "The National Medicines and Poisons Board lists a 2017 regulation for registering pharmaceutical products, medical supplies and cosmetics. Its regulations page lists nothing on software or AI.",
+    "We found no health AI guidance, no national AI law and no rules on generative AI."
+   ],
+   "sources": [
+    {
+     "title": "Sudan establishes three digital authorities to advance e-government (Ecofin Agency)",
+     "url": "https://www.ecofinagency.com/news-digital/0711-50229-sudan-establishes-three-digital-authorities-to-advance-e-govt",
+     "date": "2025-11-07",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The privacy gap in Sudan: balancing digital transformation and data protection laws, part 1 (Sudan Center for Policy Studies)",
+     "url": "https://sudancps.com/2026/07/20/%D9%81%D8%AC%D9%88%D8%A9-%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9-%D8%A8%D9%8A%D9%86/",
+     "date": "2026-07-20",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Regulations (National Medicines and Poisons Board)",
+     "url": "https://nmpb.gov.sd/regulation.php",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "unknown",
+  "hospital": "partial",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "unknown",
+  "research": "unknown"
+ },
+ "journeyNote": "A hospital system with electronic patient, lab and pharmacy records began in May 2026 at two sites, with national rollout planned. No national record, exchange or e-prescription service was found; insurance cards can be applied for online.",
+ "laws": [
+  {
+   "name": "Constitutional Charter 2019, Article 55",
+   "level": "National",
+   "year": "2019",
+   "what": "Protects privacy, private and family life and correspondence, except as the law allows.",
+   "url": "https://www.constituteproject.org/constitution/Sudan_2019?lang=en"
+  },
+  {
+   "name": "Right to Access Information Act 2015",
+   "level": "National",
+   "year": "2015",
+   "what": "Right to request information from public bodies; Article 12(e) exempts personal and medical records.",
+   "url": "https://cyrilla.org/api/files/1732903956524pdhozzggxw.pdf"
+  },
+  {
+   "name": "Medicines and Poisons Act 2009",
+   "level": "National",
+   "year": "2009",
+   "what": "Medicines regulator law; medicinal clinical trials must be reviewed by the National Medicines and Poisons Board.",
+   "url": "https://nmpb.gov.sd/law.php"
+  },
+  {
+   "name": "Medical Laboratory Practice Regulation 2011",
+   "level": "National",
+   "year": "2011",
+   "what": "Lab staff must give patients results, keep secrets, and get ethics approval and consent for research.",
+   "url": "https://sncmhp.gov.sd/controls-and-regulations/"
+  },
+  {
+   "name": "Electronic Transactions Act 2007 (amended 2015)",
+   "level": "National",
+   "year": "2007",
+   "what": "Electronic transactions and certification; the only Act listed on the Cybersecurity Authority's laws page.",
+   "url": "https://sca.gov.sd/en/regulations"
+  },
+  {
+   "name": "Combating Cybercrimes Law 2018 (amended 2020; 2025 amendments approved by Cabinet)",
+   "level": "National",
+   "year": "2018",
+   "what": "Online offences; 2025 draft amendments would allow warrantless digital searches and content removal.",
+   "url": "https://skylineforhuman.org/en/news/details/875/sudans-draconian-cybercrime-law-amendments-pose-grave-threat-to-digital-freedoms"
+  },
+  {
+   "name": "AU Convention on Cyber Security and Personal Data Protection (Malabo)",
+   "level": "Supranational",
+   "year": "2014",
+   "what": "Regional data protection treaty; Sudan signed on 15 March 2023 and has not ratified.",
+   "url": "https://au.int/sites/default/files/treaties/29560-sl-AFRICAN_UNION_CONVENTION_ON_CYBER_SECURITY_AND_PERSONAL_DATA_PROTECTION.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-16",
+   "headline": "Cabinet approves cybercrime amendments allowing warrantless digital searches, rights group says",
+   "source": "Skyline International",
+   "url": "https://skylineforhuman.org/en/news/details/875/sudans-draconian-cybercrime-law-amendments-pose-grave-threat-to-digital-freedoms",
+   "why": "Searches without a judge's warrant remove a key check on state access to personal data."
+  },
+  {
+   "date": "2025-11-07",
+   "headline": "Prime Minister's decree creates data and AI, cybersecurity and digital authorities",
+   "source": "Ecofin Agency",
+   "url": "https://www.ecofinagency.com/news-digital/0711-50229-sudan-establishes-three-digital-authorities-to-advance-e-govt",
+   "why": "These bodies could later write data and AI rules, but none bind yet."
+  },
+  {
+   "date": "2026-05-11",
+   "headline": "Health and digital ministries launch hospital system with electronic patient records at two sites",
+   "source": "Sudafax",
+   "url": "https://sudafax.com/559584/%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%86%D8%B8%D8%A7%D9%85-%D8%B1%D9%82%D9%85%D9%8A-%D9%85%D9%88%D8%AD%D8%AF-%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A%D8%A7",
+   "why": "Patient records are going digital before any data protection law exists."
+  },
+  {
+   "date": "2026-05-29",
+   "headline": "Cybersecurity authority defends data protection on the new SUDAPASS digital ID",
+   "source": "Sudanese Cybersecurity Authority",
+   "url": "https://sca.gov.sd/en/news/sudan-Press-Statement-sudanese-cybersecurity-authority",
+   "why": "Citizens' identity data now sits on a national platform with no data protection law behind it."
+  },
+  {
+   "date": "2026-07-31",
+   "headline": "Baladna platform adds online health insurance card applications and medical commission services",
+   "source": "Sudan Akhbar (SUNA)",
+   "url": "https://www.sudanakhbar.com/1820129",
+   "why": "More health paperwork moves online, but patients still cannot see their records."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

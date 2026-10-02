@@ -1,0 +1,319 @@
+{
+ "iso3": "CAF",
+ "name": "Central African Republic",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A 2024 law gives patients a free copy of their data, but no working regulator was found and records stay on paper or donor systems.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Law 24.001 of January 2024 gives a free copy of your data, and health data can come directly or through a doctor you choose. There is no national portal, no fixed deadline beyond 'without delay', and no verified regulator.",
+   "detail": [
+    "Article 30 of Law 24.001 lets anyone obtain all data held about them, free of charge, on site or remotely. A copy must be given on request, and the request must be met without delay. No fixed number of days is set.",
+    "For health data, the person chooses to receive it directly or through a doctor they designate (Article 30). Controllers may refuse manifestly abusive requests, but must prove it (Article 31).",
+    "The 2019 national health policy says the health information system is barely computerised. We found no national patient portal or app, so getting a record means asking each facility.",
+    "Article 57 gave the digital economy ministry 12 months to set up the data agency. Whether it exists is not verified; the ministry acts in the meantime."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°24.001 portant protection des données à caractère personnel (signed text, ARCEP copy)",
+     "url": "https://www.arcep.cf/documents/textes/lois/Loi_24_001_portant_protection_des_donnes_a_caractere_personnel.PDF",
+     "date": "2024-01-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Politique Nationale de Santé 2019-2030 (Ministère de la Santé et de la Population)",
+     "url": "https://www.sante.gouv.cf/sites/default/files/2024-07/Politique%20Nationale%20Sant%C3%A9_2019-2030.pdf",
+     "date": "2019",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Review of the Central African Republic Data Protection Law (Tech Hive Advisory)",
+     "url": "https://www.techhiveadvisory.africa/insights/review-of-the-central-african-republic-data-protection-law",
+     "date": "2025-09-23",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The law requires express consent for health data and lets people object for a legitimate reason, but care providers may process health data without consent. There is no opt-out from record sharing and no access log a patient can see.",
+   "detail": [
+    "Article 13 says consent for sensitive data must be express and require an affirmative act, and can be withdrawn the same way it was given. Article 17 bans processing health data unless an exception applies.",
+    "Article 18 lets health professionals bound by professional secrecy process health data for prevention, diagnosis, care or managing health services. Treatment data therefore moves without separate consent.",
+    "Article 29 gives a right to object, at any time and free, for a legitimate reason. Article 20 says state security, defence and public safety processing runs without the person's consent.",
+    "We found no national record, no opt-out from sharing and no way for a patient to see who opened their file."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°24.001 portant protection des données à caractère personnel (signed text, ARCEP copy)",
+     "url": "https://www.arcep.cf/documents/textes/lois/Loi_24_001_portant_protection_des_donnes_a_caractere_personnel.PDF",
+     "date": "2024-01-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Politique Nationale de Santé 2019-2030 (Ministère de la Santé et de la Population)",
+     "url": "https://www.sante.gouv.cf/sites/default/files/2024-07/Politique%20Nationale%20Sant%C3%A9_2019-2030.pdf",
+     "date": "2019",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is a banned category under Law 24.001 unless an exception applies, with fines up to 5% of turnover and prison of up to 5 years. With no health-sector enforcement and no verified regulator, it sits at the bottom of the general-law band.",
+   "detail": [
+    "Article 17 lists health, genetic and biometric data as sensitive and bans processing them, with exceptions in Article 18. Every controller must name a data protection officer resident in the country (Articles 38 and 40).",
+    "The agency may warn, order processing to stop, or fine up to 5% of annual turnover (Articles 43 and 47). Criminal penalties reach 2 to 5 years and FCFA 1 to 10 million for unfair collection or diverting a file's purpose (Article 51).",
+    "The law defines a data breach, but we found no fixed notice deadline in the text. Transfers outside CEMAC and ECCAS need equivalent protection or a listed exception (Articles 24 to 27).",
+    "We found no health-sector decision or breach report. The EU's GDPR and EHDS do not apply to the Central African Republic."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°24.001 portant protection des données à caractère personnel (signed text, ARCEP copy)",
+     "url": "https://www.arcep.cf/documents/textes/lois/Loi_24_001_portant_protection_des_donnes_a_caractere_personnel.PDF",
+     "date": "2024-01-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lois et Ordonnances (ARCEP, list of digital laws with dates)",
+     "url": "https://www.arcep.cf/page.php?slug=lois-ordonnances",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Review of the Central African Republic Data Protection Law (Tech Hive Advisory)",
+     "url": "https://www.techhiveadvisory.africa/insights/review-of-the-central-african-republic-data-protection-law",
+     "date": "2025-09-23",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Central African Republic data protection fact sheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/central-african-republic/",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "Direct marketing by phone, SMS, email or social media needs the person's prior consent under Article 15 of Law 24.001. No rules were found on selling de-identified health data or on health apps, and no enforcement exists.",
+   "detail": [
+    "Article 15 requires prior consent before direct marketing using a person's contact details, and an unsubscribe route as simple as sign-up. Article 29 lets anyone object to marketing use without giving a reason.",
+    "Article 51 punishes anyone who diverts a data file from its original purpose with 2 to 5 years in prison and fines of FCFA 1 to 10 million.",
+    "We found no rules on data brokers, consumer health apps or sales of anonymised health data. With no working regulator verified, these protections are untested."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°24.001 portant protection des données à caractère personnel (signed text, ARCEP copy)",
+     "url": "https://www.arcep.cf/documents/textes/lois/Loi_24_001_portant_protection_des_donnes_a_caractere_personnel.PDF",
+     "date": "2024-01-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Review of the Central African Republic Data Protection Law (Tech Hive Advisory)",
+     "url": "https://www.techhiveadvisory.africa/insights/review-of-the-central-african-republic-data-protection-law",
+     "date": "2025-09-23",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 20,
+   "summary": "The Ministry's own 2022-2026 plan says the health information system is split into sub-systems with no interconnection or interoperability. DHIS2 collects aggregate data, but how many of the 35 districts use it is not verified.",
+   "detail": [
+    "The national health plan 2022-2026 lists fragmented sub-systems not interoperable with DHIS2, poor data quality and weak analysis at all levels. It sets a target of all health districts using DHIS2; current coverage is not verified.",
+    "A Ministry digital transformation unit planned a digital policy framework and case-based data for all programmes in 2024. Delivery of these plans is not verified.",
+    "A DHIS2 vaccination microplan ran in 76 facilities in three northern districts from September 2024 to October 2025. Before that, microplans used printed Excel files and hand-drawn maps.",
+    "A national health insurance fund (CNAM) was approved in October 2025, starting with formal-sector workers. No claims system was found."
+   ],
+   "sources": [
+    {
+     "title": "Plan National de Développement Sanitaire 2022-2026 (Ministère de la Santé et de la Population, P4H copy)",
+     "url": "https://p4h.world/app/uploads/2024/02/Plan-national-de-developpement-sanitaire-en-RCA-2022-2026-1.x23411.pdf",
+     "date": "2022",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Digital Transformation Unit, Ministry of Health and Population (CAR)",
+     "url": "https://www.digitaltransformationcar.org/",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Digitalisation du Microplan de Vaccination en République Centrafricaine (HISP Rwanda)",
+     "url": "https://hisprwanda.org/project/digitalisation-du-microplan-de-vaccination-en-republique-centrafricaine/",
+     "date": "2026-03-12",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Création de la Caisse nationale d'assurance maladie (Corbeau News Centrafrique)",
+     "url": "https://corbeaunews-centrafrique.org/creation-de-la-caisse-nationale-dassurance-maladie-touadera-comment-peut-on-creer-une-assurance-maladie-sans-dabord-evaluer-letat-du-systeme-de-sante/",
+     "date": "2026-01-19",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 15,
+   "summary": "There is no shared record, so a clinician sees only what the facility holds, mostly on paper. The 2019 national health policy says the system has no unified database, and MSF's telemedicine links only its own projects.",
+   "detail": [
+    "The 2019 national health policy describes a barely computerised information system with many sub-systems and no unified, reliable database.",
+    "We found no national rule or system that lets a clinician open a record from another facility, even in an emergency.",
+    "At Carnot hospital, MSF staff send X-rays and test results through a secure app to MSF specialists worldwide. This helps care inside MSF projects but is not a record other facilities can open."
+   ],
+   "sources": [
+    {
+     "title": "Politique Nationale de Santé 2019-2030 (Ministère de la Santé et de la Population)",
+     "url": "https://www.sante.gouv.cf/sites/default/files/2024-07/Politique%20Nationale%20Sant%C3%A9_2019-2030.pdf",
+     "date": "2019",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Plan National de Développement Sanitaire 2022-2026 (Ministère de la Santé et de la Population, P4H copy)",
+     "url": "https://p4h.world/app/uploads/2024/02/Plan-national-de-developpement-sanitaire-en-RCA-2022-2026-1.x23411.pdf",
+     "date": "2022",
+     "publisherClass": "official"
+    },
+    {
+     "title": "RCA : La télémédecine au service de l'hôpital de Carnot (MSF)",
+     "url": "https://www.msf.fr/actualites/republique-centrafricaine-un-reseau-mondial-de-professionnels-de-la-sante-connectes-par-la-telemedecine",
+     "date": "2026-08-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Law 24.001 lets patient data be reused for public-interest health research unless the person objected, and misuse of data carries prison terms. An ethics committee exists at the University of Bangui, but the 2019 health policy says clinical research has no legal framework.",
+   "detail": [
+    "Article 18 allows further processing of a patient's data for public-interest health research when the person has not objected. There is no general research opt-out register.",
+    "The Scientific Committee for Validation of Health Research Protocols and Results sits at the Faculty of Health Sciences, University of Bangui, according to Health Research Web.",
+    "The 2019 national health policy lists the organisation of clinical research among areas with no legal framework.",
+    "Article 51 punishes diverting a file from its purpose with up to 5 years in prison. We found no public register of research uses."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°24.001 portant protection des données à caractère personnel (signed text, ARCEP copy)",
+     "url": "https://www.arcep.cf/documents/textes/lois/Loi_24_001_portant_protection_des_donnes_a_caractere_personnel.PDF",
+     "date": "2024-01-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Central African Republic: ethics committees (Health Research Web, COHRED)",
+     "url": "https://healthresearchwebafrica.org.za/fr/der/central_african_republic/ethics_2116",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Politique Nationale de Santé 2019-2030 (Ministère de la Santé et de la Population)",
+     "url": "https://www.sante.gouv.cf/sites/default/files/2024-07/Politique%20Nationale%20Sant%C3%A9_2019-2030.pdf",
+     "date": "2019",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 20,
+   "summary": "We found no rules for clinical AI and no national AI law or health-AI guidance. MSF uses CAD4TB, an AI chest X-ray tool, at Batangafo hospital, where the doctor keeps the final say.",
+   "detail": [
+    "MSF installed CAD4TB at Batangafo hospital in 2024 with the health authorities. It flagged 90 of 203 tuberculosis cases found in the area in 2025.",
+    "MSF says the tool supports but does not replace diagnosis and the doctor has the last word. This is MSF practice, not a national rule.",
+    "Law 24.001 gives a right to information about the logic of automated decisions with legal effect (Article 30). We found no device rules for AI or medical software."
+   ],
+   "sources": [
+    {
+     "title": "Centrafrique : l'IA au service du dépistage de la tuberculose (MSF)",
+     "url": "https://www.msf.fr/actualites/republique-centrafricaine-l-ia-au-service-du-depistage-de-la-tuberculose",
+     "date": "2026-07-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Loi n°24.001 portant protection des données à caractère personnel (signed text, ARCEP copy)",
+     "url": "https://www.arcep.cf/documents/textes/lois/Loi_24_001_portant_protection_des_donnes_a_caractere_personnel.PDF",
+     "date": "2024-01-25",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 gathers aggregate public health data, but the Ministry says sub-systems do not interconnect. No shared patient record, e-prescription or claims system was found; the CNAM health insurance fund is only starting.",
+ "laws": [
+  {
+   "name": "Loi n°24.001 portant protection des données à caractère personnel",
+   "level": "National",
+   "year": "2024",
+   "what": "Health data sensitive, free access without delay, marketing opt-in, fines up to 5% of turnover, agency planned.",
+   "url": "https://www.arcep.cf/documents/textes/lois/Loi_24_001_portant_protection_des_donnes_a_caractere_personnel.PDF"
+  },
+  {
+   "name": "Loi n°24.002 relative à la cybersécurité et à la lutte contre la cybercriminalité",
+   "level": "National",
+   "year": "2024",
+   "what": "Legal framework for cybersecurity and offences committed with digital technology.",
+   "url": "https://www.arcep.cf/page.php?slug=lois-ordonnances"
+  },
+  {
+   "name": "Loi n°22.002 régissant les transactions électroniques",
+   "level": "National",
+   "year": "2022",
+   "what": "Rules for electronic transactions, digital exchanges and trust services.",
+   "url": "https://www.arcep.cf/page.php?slug=lois-ordonnances"
+  },
+  {
+   "name": "Loi n°89.003 fixant les principes généraux relatifs à la Santé Publique",
+   "level": "National",
+   "year": "1989",
+   "what": "The only general health law; the Ministry calls the health legal framework outdated and incomplete.",
+   "url": "https://www.sante.gouv.cf/sites/default/files/2024-07/Politique%20Nationale%20Sant%C3%A9_2019-2030.pdf"
+  },
+  {
+   "name": "Loi n°20.012 portant sur le médicament, les autres produits de santé et l'exercice de la pharmacie",
+   "level": "National",
+   "year": "2020",
+   "what": "Regulates medicines, other health products and pharmacy practice.",
+   "url": "https://p4h.world/app/uploads/2024/02/Plan-national-de-developpement-sanitaire-en-RCA-2022-2026-1.x23411.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-19",
+   "headline": "Government approves national health insurance fund, starting with formal-sector workers",
+   "source": "Corbeau News Centrafrique",
+   "url": "https://corbeaunews-centrafrique.org/creation-de-la-caisse-nationale-dassurance-maladie-touadera-comment-peut-on-creer-une-assurance-maladie-sans-dabord-evaluer-letat-du-systeme-de-sante/",
+   "why": "A national insurer would create the country's first large store of claims data on patients."
+  },
+  {
+   "date": "2026-03-12",
+   "headline": "Vaccination microplanning moved onto DHIS2 in 76 facilities across three districts",
+   "source": "HISP Rwanda",
+   "url": "https://hisprwanda.org/project/digitalisation-du-microplan-de-vaccination-en-republique-centrafricaine/",
+   "why": "Shows how health data is going digital, district by district, with partner money."
+  },
+  {
+   "date": "2026-07-20",
+   "headline": "MSF uses AI chest X-ray tool to detect tuberculosis at Batangafo",
+   "source": "Médecins Sans Frontières",
+   "url": "https://www.msf.fr/actualites/republique-centrafricaine-l-ia-au-service-du-depistage-de-la-tuberculose",
+   "why": "Clinical AI is in use with no national rules on its safety or oversight."
+  },
+  {
+   "date": "2026-08-07",
+   "headline": "MSF telemedicine sends Carnot patients' results to specialists abroad",
+   "source": "Médecins Sans Frontières",
+   "url": "https://www.msf.fr/actualites/republique-centrafricaine-un-reseau-mondial-de-professionnels-de-la-sante-connectes-par-la-telemedecine",
+   "why": "Patient files cross borders under NGO rules while the data agency is not verified."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

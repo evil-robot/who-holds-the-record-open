@@ -1,0 +1,367 @@
+{
+ "iso3": "MYS",
+ "name": "Malaysia",
+ "region": "Asia",
+ "controlModel": "Institutional",
+ "headline": "Malaysia is digitising public care toward one record per person, but its data law exempts the government hospitals most patients use.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "The PDPA right to a copy in 21 days (fee up to RM30) binds only private providers; government facilities issue a medical report, not the record. MySejahtera shows parts (base 45, minus 5 fee, minus 5 scope, plus 5 portal).",
+   "detail": [
+    "Section 3(1) of the Personal Data Protection Act 2010 says the Act does not apply to the Federal Government and State Governments. Ministry of Health hospitals and clinics are therefore outside it.",
+    "In the private sector, section 30 gives a right to a copy on payment of a prescribed fee, and section 31 sets a 21-day deadline. The private hospital code of practice lists a maximum fee of RM30 for a copy of sensitive data. Section 45 lets providers withhold health data likely to cause serious harm.",
+    "The ministry's medical records guideline says the information in the record belongs to the patient, but that facilities release it only as a medical report, not a copy of the actual record. Radiology images can be given for referrals.",
+    "The ministry's August 2026 consent guideline adds a right to request access in writing. MySejahtera shows vaccination certificates, screening and consultation records, a dental summary and blood donation records. Visit summaries as PDFs are planned."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act 2010 (Act 709), bilingual text (Department of Personal Data Protection)",
+     "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/UNDANG-UNDANG-MALAYSIA_AKTA_PERLINDUNGAN_DATA_PERIBADI_2010_709_MALAY_AND-ENG_V2022.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Garis Panduan Pengendalian dan Pengurusan Rekod Perubatan Pesakit di Fasiliti KKM (Ministry of Health)",
+     "url": "https://www.moh.gov.my/images/04-penerbitan/pekeliling/Garis%20Panduan%20Pengendalian%20dan%20Pengurusan%20Rekod%20Perubatan%20Pesakit%20di%20Fasiliti%20KKM.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Code of Practice for Private Hospitals in the Healthcare Industry, under PDPA s.23 (APHM, published by the PDP Department)",
+     "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/COP_KOD-AMALAN-UNTUK-HOSPITAL-SWASTA-DALAM-INDUSTRI-JAGAAN-KESIHATAN-APHM.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MySejahtera Application (Official Malaysia Government Website)",
+     "url": "https://www.malaysia.gov.my/en/categories/health/health-facilities-and-amenities/mysejahtera-application",
+     "date": "2026-03-16",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 45,
+   "summary": "Since August 2026 a ministry guideline lets patients withdraw consent, by written notice, for sharing their data with other health workers. Consent for care is implied, records are shared across government facilities, and a log patients can see was not verified.",
+   "detail": [
+    "The Ministry of Health circular of 10 August 2026 treats consent as implied when patients give health data for medical purposes. Non-medical uses need separate explicit consent.",
+    "Withdrawal is limited to listed cases, including promotion, clinical trials, exchange of data with other health workers and photographs. It cannot stop ongoing care or public health and disaster processing.",
+    "A ministry official said in June 2026 that records can currently be shared only within government facilities, and that a MySejahtera feature letting patients choose what to share with public and private doctors was still being tested.",
+    "The records guideline requires periodic audit trail checks on EMR access, but a log that patients themselves can read was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Surat Pekeliling KPK Bil. 21/2026: Garis Panduan Persetujuan Pemprosesan Data Kesihatan (Ministry of Health)",
+     "url": "https://www.moh.gov.my/images/04-penerbitan/pekeliling/SURAT%20PEKELILING%20KPK%20BIL.%2021_2026_PELAKSANAAN%20GARIS%20PANDUAN%20PERSETUJUAN%20PEMPROSESAN%20DATA%20KESIHATAN.pdf",
+     "date": "2026-08-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "App will enable patients to control sharing of medical info (The Star)",
+     "url": "https://www.thestar.com.my/news/nation/2026/06/27/app-will-enable-patients-to-control-sharing-of-medical-info",
+     "date": "2026-06-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Garis Panduan Pengendalian dan Pengurusan Rekod Perubatan Pesakit di Fasiliti KKM (Ministry of Health)",
+     "url": "https://www.moh.gov.my/images/04-penerbitan/pekeliling/Garis%20Panduan%20Pengendalian%20dan%20Pengurusan%20Rekod%20Perubatan%20Pesakit%20di%20Fasiliti%20KKM.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Health data is sensitive personal data under the PDPA, and 2024 amendments added breach notification and fines up to RM1 million. But the law does not cover federal or state government, which runs most hospitals, and no health-sector enforcement case was found.",
+   "detail": [
+    "The PDPA defines sensitive personal data to include physical or mental health. Section 40 allows processing only with explicit consent or listed conditions, including medical purposes by a healthcare professional.",
+    "Act A1727 added section 12B: controllers must notify the Commissioner as soon as practicable, and affected people without undue delay where significant harm is likely. Failing to notify carries a fine up to RM250,000. These provisions took effect on 1 June 2025.",
+    "Section 3(1) exempts federal and state governments, so public hospital data falls under ministry rules and the Official Secrets Act instead. The ministry is health sector lead under the Cyber Security Act 2024.",
+    "In June 2026 the ministry's website was hacked; it said patient records were not stored there. Malaysia has no EU adequacy decision, and the EHDS does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act 2010 (Act 709), bilingual text (Department of Personal Data Protection)",
+     "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/UNDANG-UNDANG-MALAYSIA_AKTA_PERLINDUNGAN_DATA_PERIBADI_2010_709_MALAY_AND-ENG_V2022.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Personal Data Protection (Amendment) Act 2024 [Act A1727] (Department of Personal Data Protection)",
+     "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/11/Akta-A1727-bm.pdf",
+     "date": "2024-10-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "P.U. (B) 522: Appointment of date of coming into operation, PDP (Amendment) Act 2024",
+     "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/12/PENETAPAN-TARIKH-PERMULAAN-KUAT-KUASA.pdf",
+     "date": "2024-12-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "No leakage of sensitive data in website hack, says health ministry (FMT)",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/06/30/no-leakage-of-sensitive-data-in-website-hack-says-health-ministry",
+     "date": "2026-06-30",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "Private providers need explicit consent to process health data and must stop direct marketing on request. A 2026 ministry guideline says a device company wanting EMR data must get each patient's explicit consent, but no ban on selling de-identified data was found.",
+   "detail": [
+    "Section 40 of the PDPA requires explicit consent for sensitive data unless a listed condition applies. Section 43 lets anyone require a data user to stop processing for direct marketing.",
+    "The private hospital code of practice advises hospitals to get clear consent before sending marketing material to patients.",
+    "The ministry's August 2026 guideline says commercial use of health data is subject to section 40. Its worked example requires a medical device company to obtain explicit consent from every patient before receiving EMR data for product development.",
+    "Rules on data brokers, de-identified data sales and consumer health apps beyond the general PDPA were not found."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act 2010 (Act 709), bilingual text (Department of Personal Data Protection)",
+     "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/UNDANG-UNDANG-MALAYSIA_AKTA_PERLINDUNGAN_DATA_PERIBADI_2010_709_MALAY_AND-ENG_V2022.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Code of Practice for Private Hospitals in the Healthcare Industry, under PDPA s.23 (APHM, published by the PDP Department)",
+     "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/COP_KOD-AMALAN-UNTUK-HOSPITAL-SWASTA-DALAM-INDUSTRI-JAGAAN-KESIHATAN-APHM.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Surat Pekeliling KPK Bil. 21/2026: Garis Panduan Persetujuan Pemprosesan Data Kesihatan (Ministry of Health)",
+     "url": "https://www.moh.gov.my/images/04-penerbitan/pekeliling/SURAT%20PEKELILING%20KPK%20BIL.%2021_2026_PELAKSANAAN%20GARIS%20PANDUAN%20PERSETUJUAN%20PEMPROSESAN%20DATA%20KESIHATAN.pdf",
+     "date": "2026-08-10",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 38,
+   "summary": "By end-2025, 412 government clinics ran cloud EMR, but only 23 public hospitals had hospital information systems, with all due by 2029. MySejahtera holds 7 million prescription records, and the level of public and private integration was not verified.",
+   "detail": [
+    "The ministry runs three EMR systems: CCMS for clinics, DIS for dental clinics and THIS for hospitals. Of about 1,137 clinics, 412 had CCMS at end-2025; the ministry plan rolls it out to the remaining 725 by end-2027.",
+    "THIS dates from 1999, yet only 23 hospitals have a hospital information system. Sixteen more are due in 2026, and all public hospitals by 2029.",
+    "MySejahtera holds 30 million vaccination, 7 million prescription, 3 million dental and 2.8 million screening records. The ministry plans to add 90,000 imaging records.",
+    "The 2026-2030 plan schedules a National Health Interoperability Platform for 2028 to 2030, with private sector links in its third phase."
+   ],
+   "sources": [
+    {
+     "title": "MOH to integrate 90,000 medical imaging records into MySejahtera (CodeBlue)",
+     "url": "https://codeblue.galencentre.org/2026/02/moh-to-integrate-90000-medical-imaging-records-into-mysejahtera-dzulkefly/",
+     "date": "2026-02-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Pelan Strategik Pendigitalan KKM 2026-2030 (Ministry of Health)",
+     "url": "https://www.moh.gov.my/images/04-penerbitan/pelan-strategik/DokumenPSPKKM20262030_version-1.pdf",
+     "date": "2026",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Rekod perubatan elektronik di hospital, klinik awam menjelang 2029 (Astro Awani)",
+     "url": "https://www.astroawani.com/berita-malaysia/rekod-perubatan-elektronik-di-hospital-klinik-awam-menjelang-2029-547729",
+     "date": "2025-11-15",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 32,
+   "summary": "Doctors can see records from other government facilities that use the ministry's systems, but private providers are not linked and most public hospitals still lack an EMR. How often clinicians open cross-facility records was not verified.",
+   "detail": [
+    "A ministry digital health director said in June 2026 that patient records can only be shared within government facilities. Sharing with private providers was being tested.",
+    "A radiology interoperability pilot at three Klang Valley hospitals lets doctors view imaging digitally instead of on CDs, with expansion to 10 hospitals planned.",
+    "The ministry's 2026 consent guideline lets clinicians access a patient's data in an emergency when the patient cannot consent.",
+    "The private hospitals association said most private hospitals are digital but run different systems, so interoperability remains a major problem."
+   ],
+   "sources": [
+    {
+     "title": "App will enable patients to control sharing of medical info (The Star)",
+     "url": "https://www.thestar.com.my/news/nation/2026/06/27/app-will-enable-patients-to-control-sharing-of-medical-info",
+     "date": "2026-06-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Surat Pekeliling KPK Bil. 21/2026: Garis Panduan Persetujuan Pemprosesan Data Kesihatan (Ministry of Health)",
+     "url": "https://www.moh.gov.my/images/04-penerbitan/pekeliling/SURAT%20PEKELILING%20KPK%20BIL.%2021_2026_PELAKSANAAN%20GARIS%20PANDUAN%20PERSETUJUAN%20PEMPROSESAN%20DATA%20KESIHATAN.pdf",
+     "date": "2026-08-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MOH to integrate 90,000 medical imaging records into MySejahtera (CodeBlue)",
+     "url": "https://codeblue.galencentre.org/2026/02/moh-to-integrate-90000-medical-imaging-records-into-mysejahtera-dzulkefly/",
+     "date": "2026-02-27",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Research use of patient data needs separate consent under the 2026 ministry guideline, but the ministry's ethics committee can waive it when no identifiers are collected. Base 40, plus 3 for the ethics body and 3 for the consent route; no general opt-out exists.",
+   "detail": [
+    "The guideline says using health data for research, trials or promotion unrelated to care needs additional consent, and patients can withdraw from clinical trials.",
+    "The Medical Research and Ethics Committee may waive consent if research is impracticable without it, has social value, poses minimal risk and collects no identifying information (NIH Guidelines 2021, section 6.8).",
+    "Internal audits and registries may use data without consent on a need-to-know basis. The PDPA exempts research processing from several principles if results do not identify people.",
+    "A trusted research environment is planned in the 2026-2027 NIH data repository upgrade, not yet live."
+   ],
+   "sources": [
+    {
+     "title": "Surat Pekeliling KPK Bil. 21/2026: Garis Panduan Persetujuan Pemprosesan Data Kesihatan (Ministry of Health)",
+     "url": "https://www.moh.gov.my/images/04-penerbitan/pekeliling/SURAT%20PEKELILING%20KPK%20BIL.%2021_2026_PELAKSANAAN%20GARIS%20PANDUAN%20PERSETUJUAN%20PEMPROSESAN%20DATA%20KESIHATAN.pdf",
+     "date": "2026-08-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Personal Data Protection Act 2010 (Act 709), bilingual text (Department of Personal Data Protection)",
+     "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/UNDANG-UNDANG-MALAYSIA_AKTA_PERLINDUNGAN_DATA_PERIBADI_2010_709_MALAY_AND-ENG_V2022.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Pelan Strategik Pendigitalan KKM 2026-2030 (Ministry of Health)",
+     "url": "https://www.moh.gov.my/images/04-penerbitan/pelan-strategik/DokumenPSPKKM20262030_version-1.pdf",
+     "date": "2026",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 45,
+   "summary": "Software is a medical device under Act 737 and registered devices follow change notification rules, but no AI-specific device rules were found. The national AI ethics guidelines are voluntary, and the AI Governance Bill was still awaiting Cabinet in September 2026.",
+   "detail": [
+    "Section 2 of the Medical Device Act 2012 includes software in the definition of a medical device, so diagnostic AI software must be registered with the Medical Device Authority.",
+    "The authority has published MDA/GD/0072 on change management. It replaces the current change notification guidance only after its MedCAST 3.0 system launches.",
+    "The 2024 National Guidelines on AI Governance and Ethics set seven principles, including human control and transparency, but are voluntary.",
+    "In September 2026 the digital minister said the draft AI Governance Bill was complete and might be tabled by early 2027. The ministry's 2026-2030 plan lists an AI adaptation guideline as future work."
+   ],
+   "sources": [
+    {
+     "title": "Definition of a medical device under section 2 of Act 737 (Medical Device Authority)",
+     "url": "https://www.mda.gov.my/index.php/component/content/article/1768-appendix-1-definition-of-a-medical-device-as-outlined-under-section-2-of-act-737?catid=170:professional&Itemid=277",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Publication of first edition guidance document MDA/GD/0072 Change Management for Registered Medical Devices (MDA)",
+     "url": "https://www.mda.gov.my/index.php/announcement/1799-publication-of-first-edition-guidance-document-change-management-for-registered-medical-devices",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Guidelines on Artificial Intelligence Governance and Ethics (AIGE) (Official Malaysia Government Website)",
+     "url": "https://www.malaysia.gov.my/en/my-initiative/perkhidmatan-digital-keseluruhan-kerajaan/tadbir-urus/national-guidelines-on-artificial-intelligence-governance-and-ethics-aige",
+     "date": "2025-10-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Digital minister says Malaysia's draft AI Governance Bill complete, hopes to table it by Q1 2027 (Malay Mail)",
+     "url": "https://www.malaymail.com/news/malaysia/2026/09/10/digital-minister-says-malaysias-draft-ai-governance-bill-complete-hopes-to-table-it-by-q1-2027/234656",
+     "date": "2026-09-10",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "Cloud EMR reached 412 government clinics by end-2025, but only 23 public hospitals. MySejahtera holds prescription, vaccine and screening records. Labs, claims and private links wait on a 2028-2030 interoperability platform.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Act 2010 (Act 709)",
+   "level": "National",
+   "year": "2010",
+   "what": "Health is sensitive data needing explicit consent; access right; does not apply to federal or state government.",
+   "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/UNDANG-UNDANG-MALAYSIA_AKTA_PERLINDUNGAN_DATA_PERIBADI_2010_709_MALAY_AND-ENG_V2022.pdf"
+  },
+  {
+   "name": "Personal Data Protection (Amendment) Act 2024 (Act A1727)",
+   "level": "National",
+   "year": "2024",
+   "what": "Adds breach notification, data protection officers, data portability and fines up to RM1 million; phased in 2025.",
+   "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/11/Akta-A1727-bm.pdf"
+  },
+  {
+   "name": "Private Healthcare Facilities and Services Act 1998 (Act 586)",
+   "level": "National",
+   "year": "1998",
+   "what": "Licenses private hospitals; the private hospital PDPA code of practice applies to them.",
+   "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/COP_KOD-AMALAN-UNTUK-HOSPITAL-SWASTA-DALAM-INDUSTRI-JAGAAN-KESIHATAN-APHM.pdf"
+  },
+  {
+   "name": "Medical Device Act 2012 (Act 737)",
+   "level": "National",
+   "year": "2012",
+   "what": "Covers software as a medical device; registration with the Medical Device Authority required.",
+   "url": "https://www.mda.gov.my/index.php/component/content/article/1768-appendix-1-definition-of-a-medical-device-as-outlined-under-section-2-of-act-737?catid=170:professional&Itemid=277"
+  },
+  {
+   "name": "Cyber Security Act 2024 (Act 854)",
+   "level": "National",
+   "year": "2024",
+   "what": "Health is a critical information infrastructure sector, with the Ministry of Health as sector lead.",
+   "url": "https://www.moh.gov.my/images/04-penerbitan/pelan-strategik/DokumenPSPKKM20262030_version-1.pdf"
+  },
+  {
+   "name": "Guideline on Consent for Processing Health Data (KPK Circular 21/2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "Implied consent for care, explicit for other uses; limited withdrawal right in ministry facilities.",
+   "url": "https://www.moh.gov.my/images/04-penerbitan/pekeliling/SURAT%20PEKELILING%20KPK%20BIL.%2021_2026_PELAKSANAAN%20GARIS%20PANDUAN%20PERSETUJUAN%20PEMPROSESAN%20DATA%20KESIHATAN.pdf"
+  },
+  {
+   "name": "Digital Health Act (planned)",
+   "level": "National",
+   "year": "2030",
+   "what": "Planned health data law; the ministry plan targets a Cabinet paper by 2027 and gazettement by 2030.",
+   "url": "https://www.moh.gov.my/images/04-penerbitan/pelan-strategik/DokumenPSPKKM20262030_version-1.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-15",
+   "headline": "Health ministry targets EMR in all 150 public hospitals by 2029",
+   "source": "Astro Awani",
+   "url": "https://www.astroawani.com/berita-malaysia/rekod-perubatan-elektronik-di-hospital-klinik-awam-menjelang-2029-547729",
+   "why": "Sets the timeline for when public patients' records stop being paper."
+  },
+  {
+   "date": "2026-02-27",
+   "headline": "Ministry to add 90,000 imaging records to MySejahtera",
+   "source": "CodeBlue",
+   "url": "https://codeblue.galencentre.org/2026/02/moh-to-integrate-90000-medical-imaging-records-into-mysejahtera-dzulkefly/",
+   "why": "Expands what patients can see in the national health app."
+  },
+  {
+   "date": "2026-06-15",
+   "headline": "Minister reports 4.21 million users of ministry digital health services",
+   "source": "The Star",
+   "url": "https://www.thestar.com.my/news/nation/2026/06/15/health-ministrys-healthcare-digitalisation-reaches-421-million-users",
+   "why": "Shows uptake of the push toward one health record per person."
+  },
+  {
+   "date": "2026-06-27",
+   "headline": "MySejahtera feature to let patients choose what records doctors see",
+   "source": "The Star",
+   "url": "https://www.thestar.com.my/news/nation/2026/06/27/app-will-enable-patients-to-control-sharing-of-medical-info",
+   "why": "Would give patients consent control over sharing with private doctors."
+  },
+  {
+   "date": "2026-09-10",
+   "headline": "Draft AI Governance Bill complete, tabling hoped for by early 2027",
+   "source": "Malay Mail",
+   "url": "https://www.malaymail.com/news/malaysia/2026/09/10/digital-minister-says-malaysias-draft-ai-governance-bill-complete-hopes-to-table-it-by-q1-2027/234656",
+   "why": "Would add binding AI rules on top of device law for clinical AI."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

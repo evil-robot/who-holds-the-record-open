@@ -9,9 +9,9 @@ Wave 1 (1 Oct 2026) added the 21 new countries' domains below each list, classed
 (homepage checked where unclear), and an explicit NEWS list so a listed news domain counts as audited.
 web.archive.org snapshots are classed by the archived URL's domain.
 'primary' in the rubric's sense = official + legal_text + intergov."""
-import json, glob, re, collections, csv, os
+import json, glob, re, collections, csv
 from urllib.parse import urlparse
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = __import__("os").path.dirname(__import__("os").path.dirname(__import__("os").path.abspath(__file__)))
 OFFICIAL_RE = re.compile(r"(\.gov(\.[a-z]{2})?$|\.gob(\.[a-z]{2})?$|\.gouv\.fr$|\.go\.[a-z]{2}$|\.gv\.at$|\.admin\.ch$|europa\.eu$"
     r"|\.gc\.ca$|^canada\.ca$|^alberta\.ca$|gov\.bc\.ca$|\.leg\.br$|parliament\.uk$|\.nhs\.uk$|nih\.gov$|\.gov\.[a-z]{2}$|^gov\.[a-z]{2}$)")
 OFFICIAL = set("""admin.ch idp.al privacy.org.nz kanta.fi findata.fi ipc.on.ca gematik.de cnil.fr bundesgesundheitsministerium.de regeringen.se
@@ -74,10 +74,46 @@ ARCHIVE = re.compile(r"^https?://web\.archive\.org/web/[^/]+/(https?://.+)$")
 def norm(u):
     m = ARCHIVE.match(u or "")
     return urlparse(m.group(1) if m else u).netloc.lower().removeprefix("www.")
-def classify(dom):
+# 2 Oct 2026, 196 countries: the hand lists above cover the first 65 countries. For any other domain the class the research
+# agent recorded (publisherClass) is used, with rules that keep a claim of a primary source honest:
+#  - law firms and legal-guide vendors are law_firm whatever was claimed (the NGA infusionlawyers.com case);
+#  - social media, app stores and file-storage hosts are never primary (no publisher can be verified from the domain);
+#  - on commercial domains (.com, .net, .info, .co, .io, .biz) a primary claim stands only for named legal-text hosts
+#    or for named government bodies that use such a domain; otherwise it is counted as news (not primary).
+LAWFIRM_RE = re.compile(r"lawyer|lawhub|attorney|advocat|lawfirm|legal500|dataguidance|privacylaws|chambers\.com|lexology")
+NEVER_PRIMARY = set("""facebook.com x.com twitter.com linkedin.com fr.linkedin.com play.google.com apps.apple.com youtube.com instagram.com
+storage.googleapis.com inera.atlassian.net objectstorage.ap-dcc-gazipur-1.oraclecloud15.com drive.google.com docs.google.com wixsite.com
+bcawaethicsii.wixsite.com metaappz.com""".split())
+LEGAL_HOSTS_COM = set("""angolex.com bahrainbusinesslaws.com botswanalaws.com camerlex.com droitci.info jurisitetunisie.com lexbahamas.com leybook.com
+syria-law.com yemenilaw.com docs.venezuela.justia.com venezuela.justia.com sv.vlex.com veritaszim.net yasaii.info""".split())
+GOV_ON_COM = set("""barbadosparliament.com shabait.com fijigp.com pdge-guineaecuatorial.com guineaecuatorialpress.com hpcna.com
+antiguabarbudamedicalcouncil.com""".split())
+COMMERCIAL_TLD = ("com", "net", "info", "co", "io", "biz")
+PRIMARY_CLAIMS = {"official", "legal_text", "intergov"}
+
+
+def basis(dom, claimed=None):
+    """How the class was decided: listed (hand lists), rule (domain rule overrode or confirmed), claim (recorded class
+    accepted on a country-code or non-commercial domain after the cross-check), default (no claim, catch-all news)."""
+    for st in (LEGAL_TEXT, INTERGOV, ACADEMIC, LAW_FIRM, BLOG_VENDOR, NEWS, OFFICIAL):
+        if dom in st: return "listed"
+    if OFFICIAL_RE.search(dom) or LAWFIRM_RE.search(dom) or dom in NEVER_PRIMARY or dom.endswith(".wixsite.com") or dom in LEGAL_HOSTS_COM or dom in GOV_ON_COM: return "rule"
+    if claimed:
+        return "rule" if claimed in PRIMARY_CLAIMS and dom.rsplit(".", 1)[-1] in COMMERCIAL_TLD else "claim"
+    return "default"
+
+
+def classify(dom, claimed=None):
     for s, name in ((LEGAL_TEXT, "legal_text"), (INTERGOV, "intergov"), (ACADEMIC, "academic"), (LAW_FIRM, "law_firm"), (BLOG_VENDOR, "blog_vendor"), (NEWS, "news")):
         if dom in s: return name
     if dom in OFFICIAL or OFFICIAL_RE.search(dom): return "official"
+    if LAWFIRM_RE.search(dom): return "law_firm"
+    if dom in NEVER_PRIMARY or dom.endswith(".wixsite.com"): return "news"
+    if dom in LEGAL_HOSTS_COM: return "legal_text"
+    if dom in GOV_ON_COM: return "official"
+    if claimed:
+        if claimed in PRIMARY_CLAIMS and dom.rsplit(".", 1)[-1] in COMMERCIAL_TLD: return "news"
+        return claimed
     return "news"
 PRIMARY = {"official", "legal_text", "intergov"}
 if __name__ == "__main__":
@@ -85,17 +121,19 @@ if __name__ == "__main__":
     for f in sorted(glob.glob(f"{ROOT}/data/*.json")):
         d = json.load(open(f))
         for k, c in d["categories"].items():
-            for s in c["sources"]: rows.append((d["iso3"], d["confidence"], "source", k, s["url"], classify(norm(s["url"]))))
-        for l in d["laws"]: rows.append((d["iso3"], d["confidence"], "law", "laws", l["url"], classify(norm(l["url"]))))
+            for s in c["sources"]: rows.append((d["iso3"], d["confidence"], "source", k, s["url"], classify(norm(s["url"]), s.get("publisherClass")), basis(norm(s["url"]), s.get("publisherClass"))))
+        for l in d["laws"]: rows.append((d["iso3"], d["confidence"], "law", "laws", l["url"], classify(norm(l["url"]), l.get("publisherClass") or "legal_text"), basis(norm(l["url"]), l.get("publisherClass") or "legal_text")))
     with open(f"{ROOT}/analysis/source_classes.csv", "w", newline="") as fh:
-        w = csv.writer(fh); w.writerow(["iso3", "confidence", "section", "category", "url", "publisher_class"]); w.writerows(rows)
+        w = csv.writer(fh); w.writerow(["iso3", "confidence", "section", "category", "url", "publisher_class", "basis"]); w.writerows(rows)
+    import sys as _s; _s.path.insert(0, f"{ROOT}/scripts"); from datahash import write_sidecar
+    write_sidecar(f"{ROOT}/analysis/source_classes.csv", {"script": "sources.py"})  # DECISION_RULES.md
     src = [r for r in rows if r[2] == "source"]
     print("category sources by class", collections.Counter(r[5] for r in src))
     print("law urls by class", collections.Counter(r[5] for r in rows if r[2] == "law"))
     print("news-classified domains (check):", sorted({norm(r[4]) for r in rows if r[5] == "news"}))
     # per country: categories with >=1 primary source; primary share
     per = collections.defaultdict(lambda: collections.defaultdict(list))
-    for iso, conf, sec, k, u, cl in src: per[iso][k].append(cl in PRIMARY)
+    for iso, conf, sec, k, u, cl, _b in src: per[iso][k].append(cl in PRIMARY)
     out = []
     for iso, cats in per.items():
         conf = next(r[1] for r in src if r[0] == iso)

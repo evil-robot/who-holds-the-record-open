@@ -1,0 +1,302 @@
+{
+ "iso3": "SEN",
+ "name": "Senegal",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A 2008 law gives patients a copy of their file, but files stay in each facility; a digital health law is still a draft.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Law 2008-12 gives every patient a right to a copy of their data, directly or through a doctor they name. The holder may charge up to the cost of copying, the law sets no reply deadline, and there is no national patient portal.",
+   "detail": [
+    "Article 62 of Law 2008-12 lets any person ask a data controller in writing for their data in an accessible form. Article 63 says a copy is given on request and may be charged at no more than the cost of reproduction.",
+    "Article 65 says a patient exercises this right personally or through a doctor they designate. After death, a spouse, children or parents may use it through a doctor.",
+    "We found no fixed reply deadline in the law. Score follows the anchor: base 45, minus 5 for the copying fee, minus 5 for no deadline.",
+    "In April 2025 the Ministry set a target of a secure digital health space for 1.5 million people. We found no evidence it is live, so requests still go facility by facility."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2008-12 du 25 janvier 2008 sur la protection des données à caractère personnel (texte, AFAPDP)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Senegal-texte-de-loi-2008.pdf",
+     "date": "2008-01-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digitalisation du système de santé : le gouvernement engage six projets phares (APS)",
+     "url": "https://aps.sn/digitalisation-du-systeme-de-sante-le-gouvernement-engage-six-projets-phares/",
+     "date": "2025-04-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data may be processed with consent or for care, public health and legal purposes, and people may object only on legitimate grounds. There is no sharing opt-out and no access log patients can see.",
+   "detail": [
+    "Article 43 of Law 2008-12 makes health data processing lawful with consent, but also without it for care under professional secrecy, public health including screening, legal duties and court claims.",
+    "Article 68 gives a right to object for legitimate reasons, which does not apply where processing meets a legal obligation. It is a general right, not a switch to stop record sharing.",
+    "Article 71 requires controllers to be able to show who accessed a system and what they read. That log is for the controller; we found no route for patients to see it.",
+    "Records sit mainly in each facility, so control rests with providers by default."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2008-12 du 25 janvier 2008 sur la protection des données à caractère personnel (texte, AFAPDP)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Senegal-texte-de-loi-2008.pdf",
+     "date": "2008-01-25",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is a protected category under Law 2008-12 and the regulator, the CDP, has acted in a clinic. The 2008 law has no breach notification duty and a reform bill has not been voted.",
+   "detail": [
+    "Article 40 bans processing of health and genetic data except under listed exceptions. Article 20 requires prior CDP authorisation for genetic data and health research processing.",
+    "The CDP is an independent administrative authority. Article 30 lets it fine from 1 million to 100 million CFA francs or withdraw authorisations.",
+    "In its fourth quarter 2025 report the CDP ordered Clinique Dabia to remove cameras from care rooms and turn off sound recording.",
+    "We found no breach notification article in the 2008 law. In March 2026 an expert told APS the law is outdated and a reform bill is still in the pipeline."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2008-12 du 25 janvier 2008 sur la protection des données à caractère personnel (texte, AFAPDP)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Senegal-texte-de-loi-2008.pdf",
+     "date": "2008-01-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Collecte et traitement des données personnelles : la CDP publie son rapport du 4e trimestre 2025 (Dakaractu)",
+     "url": "https://www.dakaractu.com/Collecte-et-traitement-des-donnees-personnelles-la-CDP-publie-son-rapport-du-4%E1%B5%89-trimestre-2025_a269095.html",
+     "date": "2026-02-12",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Données personnelles : la législation sénégalaise doit être modernisée et adaptée aux enjeux de l'IA (APS)",
+     "url": "https://aps.sn/donnees-personnelles-la-legislation-senegalaise-doit-etre-modernisee-et-adaptee-aux-enjeux-de-lia-expert/",
+     "date": "2026-03-27",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "Direct marketing using personal data needs prior consent, and people can refuse free of charge before data goes to third parties for marketing. There is no ban on selling health data and no health app rules.",
+   "detail": [
+    "Article 47 of Law 2008-12 bans direct marketing to a person who has not given prior consent.",
+    "Article 68 requires that people be told before their data is first passed to third parties for marketing and be offered a free right to refuse.",
+    "We found no ban on the sale of personal or de-identified health data, and no rule for consumer health apps or data brokers.",
+    "We found no CDP decision on commercial use of health data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2008-12 du 25 janvier 2008 sur la protection des données à caractère personnel (texte, AFAPDP)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Senegal-texte-de-loi-2008.pdf",
+     "date": "2008-01-25",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 28,
+   "summary": "A computerised patient record ran in two hospitals, one health centre and one health post in April 2025, covering more than 127,000 patients. National data flows through DHIS2 as aggregate reports, not patient records.",
+   "detail": [
+    "The Ministry's 2018 digital health plan found more than 50 e-health initiatives that were fragmented, uncoordinated and often not interoperable.",
+    "In April 2025 the head of the Ministry's digital health unit (CCDOSS) said the computerised record (DPI) was used in four facilities. Targets include DPI use in 20 percent of health centres.",
+    "DPI rollout began at Saint-Louis regional hospital in September 2025. A September 2026 plan to 2030 relies on DPI. The 2026 facility count is not verified.",
+    "Senegal scaled up DHIS2 as its national health information system in 2016 for indicator reporting."
+   ],
+   "sources": [
+    {
+     "title": "Plan stratégique santé digitale 2018-2023 (Ministère de la Santé et de l'Action sociale)",
+     "url": "https://www.sante.gouv.sn/sites/default/files/Plan%20Strat%C3%A9gique%20Sant%C3%A9%20Digitale%202018%20-%202023.pdf",
+     "date": "2018",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Digitalisation du système de santé : le gouvernement engage six projets phares (APS)",
+     "url": "https://aps.sn/digitalisation-du-systeme-de-sante-le-gouvernement-engage-six-projets-phares/",
+     "date": "2025-04-28",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Saint-Louis : l'hôpital régional s'engage dans la digitalisation avec le déploiement du DPI (APS)",
+     "url": "https://aps.sn/saint-louis-lhopital-regional-sengage-dans-la-digitalisation-avec-le-deploiement-du-dpi/",
+     "date": "2025-09-03",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The experience of CARDIO4Cities and DHIS2 in Dakar, Senegal (Discover Health Systems)",
+     "url": "https://link.springer.com/article/10.1007/s44250-025-00240-8",
+     "date": "2025-05-24",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 22,
+   "summary": "Clinicians can see records held inside their own facility, but we found no system that shows a patient's record across providers. The shared patient record is still a plan.",
+   "detail": [
+    "The Ministry's 2018 plan named the national ID number as important for the electronic patient record and its future interoperability. Cross-provider sharing was a future aim then.",
+    "In April 2025 two ministers discussed a digital patient record (DPN) meant to improve coordination between health professionals. It was described as a flagship project, not a live service.",
+    "We found no emergency access rule or cross-facility record lookup in force. Current use across facilities is not verified."
+   ],
+   "sources": [
+    {
+     "title": "Plan stratégique santé digitale 2018-2023 (Ministère de la Santé et de l'Action sociale)",
+     "url": "https://www.sante.gouv.sn/sites/default/files/Plan%20Strat%C3%A9gique%20Sant%C3%A9%20Digitale%202018%20-%202023.pdf",
+     "date": "2018",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Santé numérique : vers une loi pour encadrer l'usage des technologies médicales au Sénégal (RTS)",
+     "url": "https://www.rts.sn/actualite/detail/a-la-une/sante-numerique-vers-une-loi-pour-encadrer-lusage-des-technologies-medicales-au-senegal",
+     "date": "2025-04-22",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Digitalisation du système de santé : le gouvernement engage six projets phares (APS)",
+     "url": "https://aps.sn/digitalisation-du-systeme-de-sante-le-gouvernement-engage-six-projets-phares/",
+     "date": "2025-04-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Law 2009-17 requires free, informed, express consent for health research, with prison terms for breaches. Record reviews may skip consent when people cannot be found, and there is no public register of data uses.",
+   "detail": [
+    "Article 8 of Law 2009-17 requires free, informed and express consent before research on a person. Article 19 waives consent when participants in a records study cannot be located.",
+    "The national ethics committee, CNERS, gives prior opinions. Under Law 2008-12, health research data processing also needs CDP authorisation.",
+    "Article 45 punishes research that breaches confidentiality with one to six months in prison and fines.",
+    "Score uses the anchor: base 40, plus 3 each for a permit body, a misuse penalty and a consent route. We found no public register."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2009-17 portant Code d'éthique pour la recherche en santé (CNERS)",
+     "url": "https://www.cners.sn/public/docs/1587390017.pdf",
+     "date": "2009-03-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2008-12 du 25 janvier 2008 sur la protection des données à caractère personnel (texte, AFAPDP)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Senegal-texte-de-loi-2008.pdf",
+     "date": "2008-01-25",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "Medical device rules from 2023 cover software and require it to be validated, but nothing addresses AI change control or oversight. A digital health law that would cover AI is still a draft.",
+   "detail": [
+    "Law 2023-06 defines a medical device to include software that makes it work. Decree 2023-2419 sets fabrication, registration and import rules and requires device software to be validated for development, risk, verification and validation.",
+    "We found no rule on learning algorithms, change control, transparency or human oversight of clinical AI.",
+    "Senegal's 2023 national AI strategy sets a goal of responsible, ethical AI. In April 2025 ministers said the planned digital health law would cover AI. It was not adopted as of February 2026."
+   ],
+   "sources": [
+    {
+     "title": "Décret n° 2023-2419 du 27 décembre 2023 sur les dispositifs médicaux, Journal officiel (ARP)",
+     "url": "https://arp.sn/wp-content/uploads/2024/04/Decret-n%C2%B0-2023-2419-du-27-decembre-2023_Dispositifs-medicaux.pdf",
+     "date": "2024-02-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2023-06 du 13 juin 2023 relative aux médicaments, aux autres produits de santé et à la pharmacie (ARP)",
+     "url": "https://arp.sn/wp-content/uploads/2024/04/Loi-n%C2%B02023-06-du-13-juin-2023-relative-aux-medicaments-aux-autres-produits-de-sante-et-a-la-pharmacie.pdf",
+     "date": "2023-06-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Stratégie nationale et feuille de route du Sénégal sur l'intelligence artificielle (version résumée)",
+     "url": "https://www.africadataprotection.org/sources/Synth%C3%A8se%20de%20la%20strat%C3%A9gie%20IA%20du%20S%C3%A9n%C3%A9gal.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Santé numérique au Sénégal : la coalition Transform Health accélère le plaidoyer pour un cadre législatif (Le Quotidien)",
+     "url": "https://lequotidien.sn/sante-numerique-au-senegal-la-coalition-transform-health-accelere-le-plaidoyer-pour-un-cadre-legislatif/",
+     "date": "2026-02-17",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "The DPI runs in a few public facilities (four in April 2025). DHIS2 carries aggregate public health reports. Links to labs, pharmacies and health insurance claims are not verified. Senegal is outside the EU, so EHDS does not apply.",
+ "laws": [
+  {
+   "name": "Loi n° 2008-12 sur la protection des données à caractère personnel",
+   "level": "National",
+   "year": "2008",
+   "what": "Health data as sensitive data, right of access and copy, CDP regulator, fines up to 100 million CFA.",
+   "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Senegal-texte-de-loi-2008.pdf"
+  },
+  {
+   "name": "Loi n° 2009-17 portant Code d'éthique pour la recherche en santé",
+   "level": "National",
+   "year": "2009",
+   "what": "Express informed consent for health research, CNERS ethics committee, criminal penalties.",
+   "url": "https://www.cners.sn/public/docs/1587390017.pdf"
+  },
+  {
+   "name": "Loi n° 2023-06 relative aux médicaments, aux autres produits de santé et à la pharmacie",
+   "level": "National",
+   "year": "2023",
+   "what": "Pharmacy and health products law; defines medical devices to include software.",
+   "url": "https://arp.sn/wp-content/uploads/2024/04/Loi-n%C2%B02023-06-du-13-juin-2023-relative-aux-medicaments-aux-autres-produits-de-sante-et-a-la-pharmacie.pdf"
+  },
+  {
+   "name": "Décret n° 2023-2419 sur les dispositifs médicaux",
+   "level": "National",
+   "year": "2023",
+   "what": "Registration and essential requirements for medical devices, including validation of device software.",
+   "url": "https://arp.sn/wp-content/uploads/2024/04/Decret-n%C2%B0-2023-2419-du-27-decembre-2023_Dispositifs-medicaux.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-02-12",
+   "headline": "Data regulator orders clinic to remove cameras from care rooms",
+   "source": "Dakaractu",
+   "url": "https://www.dakaractu.com/Collecte-et-traitement-des-donnees-personnelles-la-CDP-publie-son-rapport-du-4%E1%B5%89-trimestre-2025_a269095.html",
+   "why": "Shows the CDP enforcing privacy inside a health facility."
+  },
+  {
+   "date": "2026-02-17",
+   "headline": "Civil society coalition urges vote on digital health law by year end",
+   "source": "Le Quotidien",
+   "url": "https://lequotidien.sn/sante-numerique-au-senegal-la-coalition-transform-health-accelere-le-plaidoyer-pour-un-cadre-legislatif/",
+   "why": "Patients still lack a law on who owns and accesses digital health data."
+  },
+  {
+   "date": "2026-03-27",
+   "headline": "Expert says 2008 data protection law is outdated for AI",
+   "source": "APS",
+   "url": "https://aps.sn/donnees-personnelles-la-legislation-senegalaise-doit-etre-modernisee-et-adaptee-aux-enjeux-de-lia-expert/",
+   "why": "Reform of the core privacy law covering health data is still pending."
+  },
+  {
+   "date": "2026-09-01",
+   "headline": "Data protection commission handled 317 files in first quarter 2026",
+   "source": "APS",
+   "url": "https://aps.sn/plus-de-300-dossiers-traites-par-la-commission-de-protection-des-donnees-personnelles-au-premier-trimestre-2026-officiel/",
+   "why": "Gives a measure of the regulator's workload and complaint handling."
+  },
+  {
+   "date": "2026-09-10",
+   "headline": "Health plan to 2030 relies on rolling out computerised patient records",
+   "source": "APS",
+   "url": "https://aps.sn/plus-de-700-milliards-de-francs-cfa-prevus-pour-renforcer-loffre-de-soins-a-lhorizon-2030/",
+   "why": "A shared record across facilities remains a future goal."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

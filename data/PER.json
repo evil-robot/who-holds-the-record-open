@@ -1,0 +1,366 @@
+{
+  "iso3": "PER",
+  "name": "Peru",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Peruvian law makes patients authorise who sees their electronic record and bans its commercial use, but the national record network is still fragmented.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "Patients may request a complete copy of their record within five working days, but they pay for it. The social insurer's app shows past visits, prescriptions and tests to its members only, and no national patient portal was verified.",
+      "detail": [
+        "Article 24 of the regulation of Ley 29414 (Decreto Supremo 027-2015-SA) gives every patient the right to a complete copy of their clinical record within five working days. The patient bears the cost.",
+        "Practice varies. The Hospital Regional de Lambayeque charges S/ 15 for a paper copy and promises delivery within 15 working days, three times the legal deadline.",
+        "EsSalud's app, Mi Consulta, lets members see appointments, prescriptions issued, past consultations and pending tests. It is for EsSalud members only and runs on Android.",
+        "Ley 30024, as amended by Ley 31750, says the national register lets the patient access their electronic record. A working patient-facing register portal and its usage were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Reglamento de la Ley 29414, Decreto Supremo 027-2015-SA (copy hosted by Pacifico Seguros)",
+          "url": "https://www.pacifico.com.pe/documents/28730/100877/derechos+personas+usuarias+servicios+salud+reglamento+ley+29414.pdf/5f9f54f1-55cb-f91c-2e81-e3c1584e7166",
+          "date": "2015",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Solicitar copia de historia clinica en el Hospital Regional de Lambayeque (gob.pe)",
+          "url": "https://www.gob.pe/63657-solicitar-copia-de-historia-clinica-en-el-hospital-regional-de-lambayeque",
+          "date": "2024-05-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Consultar mis citas medicas, recetas y examenes pendientes a traves de EsSalud Mi Consulta (gob.pe)",
+          "url": "https://www.gob.pe/66366-consultar-mis-citas-medicas-recetas-y-examenes-pendientes-a-traves-de-essalud-mi-consulta",
+          "date": "2024-06-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley 31750, modifica los articulos 2 y 4 de la Ley 30024 (El Peruano)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2180595-1",
+          "date": "2023-05-24",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "control": {
+      "score": 44,
+      "summary": "Ley 31750 says only professionals the patient has authorised may reach their record through the national register, and patients may flag sensitive data to restrict it. Whether these controls work in practice was not verified, and no patient-visible access log was found.",
+      "detail": [
+        "Article 2.1 of Ley 30024, as amended in 2023, lets the patient and the health professionals they have authorised access the electronic record through the national register (RENHICE).",
+        "Directive 373 of 2025 defines this authorisation as the patient's consent. It lets patients mark data such as genetics, sexuality, HIV or surgeries as sensitive, which then needs express permission to view.",
+        "In an emergency, when the patient cannot consent, a professional may see basic clinical data without authorisation.",
+        "The directive requires a full transaction log for Ministry audits. No rule letting patients see that log was found. How many people have used these controls was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Ley 31750, modifica los articulos 2 y 4 de la Ley 30024 (El Peruano)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2180595-1",
+          "date": "2023-05-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Directiva Administrativa 373-MINSA/OGTI-2025, aprobada por RM 164-2025-MINSA (copy hosted by LP Derecho)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Directiva-Administrativa-373-MINSA-OGTI-2025-LPDerecho.pdf",
+          "date": "2025-03-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resolucion Ministerial 164-2025-MINSA (gob.pe)",
+          "url": "https://www.gob.pe/institucion/minsa/normas-legales/6551375-164-2025-minsa",
+          "date": "2025-03-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 50,
+      "summary": "Health data is sensitive under Ley 29733, and a 2024 regulation requires breach notice within 48 hours. The data authority sits inside the Justice Ministry with fines capped at 100 UIT, though the health regulator has fined a private clinic 125 UIT for a leak.",
+      "detail": [
+        "Ley 29733 of 2011 lists information about health among sensitive data. Very serious breaches draw fines of 50 to 100 tax units (UIT), never above 10 percent of annual revenue.",
+        "The data protection authority is the Ministry of Justice acting through one of its directorates, so it is not independent of government.",
+        "Decreto Supremo 016-2024-JUS requires written consent for sensitive data and notice to the authority and the affected person within 48 hours of a serious incident.",
+        "SUSALUD fined Clinica Delgado 125 UIT in July 2025 for leaking a patient's diagnosis. In August 2026 it fined the same clinic 13 UIT for handing a full record to a prosecutor without a court order."
+      ],
+      "sources": [
+        {
+          "title": "Ley 29733, Ley de Proteccion de Datos Personales (gob.pe)",
+          "url": "https://cdn.www.gob.pe/uploads/document/file/272360/Ley%20N%C2%BA%2029733.pdf.pdf?v=1618338779",
+          "date": "2011-07-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto Supremo 016-2024-JUS, Reglamento de la Ley 29733 (copy hosted by LP Derecho)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2024/11/Decreto-Supremo-016-2024-JUS-LPDerecho.pdf",
+          "date": "2024-11-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Caso Shakira: SUSALUD impone multa de 125 UIT a la Clinica Delgado",
+          "url": "https://www.gob.pe/institucion/susalud/noticias/1202063-caso-shakira-susalud-impone-multa-de-125-uit-a-la-clinica-delgado",
+          "date": "2025-07-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Sancionan a la Clinica Delgado por entregar la historia clinica de Nadine Heredia a la fiscal",
+          "url": "https://www.infobae.com/peru/2026/08/27/sancionan-a-la-clinica-delgado-por-entregar-la-historia-clinica-de-nadine-heredia-a-la-fiscal-geovana-mori/",
+          "date": "2026-08-27",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 55,
+      "summary": "Article 3 of Ley 31750 bars public and private bodies from using electronic record information for commercial, financial or economic purposes. No rule on health apps, data brokers or health-based advertising outside the record was found.",
+      "detail": [
+        "Ley 31750 of 2023 says electronic record information must not be used for commercial, financial or economic ends, with sanctions under existing law. Article 4 gives harmed patients a right to compensation through the data authority.",
+        "Researchers receiving de-identified register data must sign a sworn pledge not to use it commercially, under the 2025 regulation.",
+        "Ley 29733 requires consent for processing, and the 2024 regulation demands written consent for sensitive data.",
+        "No specific rule covering consumer health apps, data brokers or health-targeted advertising was found in sources opened."
+      ],
+      "sources": [
+        {
+          "title": "Ley 31750, modifica los articulos 2 y 4 de la Ley 30024 (El Peruano)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2180595-1",
+          "date": "2023-05-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Minsa: Investigacion cientifica respetara derechos personales (El Peruano)",
+          "url": "https://www.elperuano.pe/noticia/284038-minsa-investigacion-cientifica-respetara-derechos-personales",
+          "date": "2025-11-30",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Decreto Supremo 016-2024-JUS, Reglamento de la Ley 29733 (copy hosted by LP Derecho)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2024/11/Decreto-Supremo-016-2024-JUS-LPDerecho.pdf",
+          "date": "2024-11-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 35,
+      "summary": "In July 2026 the Health Ministry dropped its rule making its own record system mandatory in primary care, citing regional systems and gaps in equipment and connectivity. Linking systems now depends on accreditation to the national register, whose deadlines were extended 12 months in March 2026.",
+      "detail": [
+        "Ley 30024 created the national register of electronic records (RENHICE) in 2013. Every system must be accredited under Directive 373 of 2025 before it can exchange data with it.",
+        "Resolution 553-2025 made the Ministry's record system (SIHCE) mandatory in public primary care. Resolution 647-2026 revoked it because the system was not in all facilities.",
+        "Its reasons: some regional health directorates run their own systems, and there are equipment and connectivity gaps nationwide.",
+        "Resolution 188-2026 extended Directive 373 deadlines by up to 12 months. EsSalud runs a separate digital record. No national count of connected facilities was found.",
+        "For prescriptions, Directive 323 of 2022 set an HL7 e-prescription standard. The Ministry then said e-prescriptions were used only in telemedicine and some private care, with a national platform a long-term goal."
+      ],
+      "sources": [
+        {
+          "title": "Resolucion Ministerial 647-2026-MINSA (El Peruano)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2538183-1",
+          "date": "2026-07-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Minsa dispone uso obligatorio de historias clinicas electronicas en centros de salud de primer nivel de atencion (gob.pe)",
+          "url": "https://www.gob.pe/institucion/minsa/noticias/1236934-minsa-dispone-uso-obligatorio-de-historias-clinicas-electronicas-en-centros-de-salud-de-primer-nivel-de-atencion",
+          "date": "2025-08-30",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Resolucion Ministerial 188-2026-MINSA (gob.pe)",
+          "url": "https://www.gob.pe/institucion/minsa/normas-legales/7845808-188-2026-minsa",
+          "date": "2026-03-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Minsa da inicio a implementacion de la receta electronica nacional (gob.pe)",
+          "url": "https://www.gob.pe/institucion/minsa/noticias/585503-minsa-da-inicio-a-implementacion-de-la-receta-electronica-nacional",
+          "date": "2022-02-22",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 34,
+      "summary": "The law lets patient-authorised professionals see records from other facilities through the national register, with emergency access to basic data. National reach was not verified, and accreditation of record systems was pushed back in 2026.",
+      "detail": [
+        "Ley 30024, as amended, lets authorised professionals see the electronic record, basic clinical data and a clinical summary through the register.",
+        "Directive 373 says a professional asks the patient or a responsible relative for permission. In a life-threatening emergency, with no one able to consent, the professional may see basic clinical data.",
+        "Within its own network, EsSalud said in 2019 that its digital record shows doctors the patient's visits, tests, diagnoses and prescriptions across about 400 facilities. Cross-provider viewing at national scale was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Ley 31750, modifica los articulos 2 y 4 de la Ley 30024 (El Peruano)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2180595-1",
+          "date": "2023-05-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Directiva Administrativa 373-MINSA/OGTI-2025, aprobada por RM 164-2025-MINSA (copy hosted by LP Derecho)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Directiva-Administrativa-373-MINSA-OGTI-2025-LPDerecho.pdf",
+          "date": "2025-03-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resolucion Ministerial 647-2026-MINSA (El Peruano)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2538183-1",
+          "date": "2026-07-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "EsSalud implementa historia clinica digital para atencion de asegurados",
+          "url": "https://www.essalud.gob.pe/essalud-implementa-historia-clinica-digital-para-atencion-de-asegurados/",
+          "date": "2019-03-19",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Academic researchers can obtain de-identified register data without patient consent, but only with a protocol approved by an INS-accredited ethics committee. The Ministry keeps the re-identification key and bans commercial use, and no opt-out was found.",
+      "detail": [
+        "Ley 31750 lets academic institutions and private research bodies obtain de-identified register data for research, without agreements and without individual consent.",
+        "Decreto Supremo 020-2025-SA requires a protocol approved by an ethics committee accredited by the National Institute of Health (INS). Data reaches only the lead researcher through a secure access route.",
+        "The Ministry keeps the private key. Re-identification needs a court order or a national health emergency. Misuse brings legal sanctions.",
+        "Clinical trials need informed consent under the 2017 trials regulation and are registered in the INS trials registry (REPEC). No opt-out from secondary use was found."
+      ],
+      "sources": [
+        {
+          "title": "Minsa: Investigacion cientifica respetara derechos personales (El Peruano)",
+          "url": "https://www.elperuano.pe/noticia/284038-minsa-investigacion-cientifica-respetara-derechos-personales",
+          "date": "2025-11-30",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Ley 31750, modifica los articulos 2 y 4 de la Ley 30024 (El Peruano)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2180595-1",
+          "date": "2023-05-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Reglamento de Ensayos Clinicos, Decreto Supremo 021-2017-SA (INS)",
+          "url": "https://ensayosclinicos-repec.ins.gob.pe/images/Reglamento_de_EC.pdf",
+          "date": "2017",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto Supremo 020-2025-SA, modifica el Reglamento de la Ley 30024 (gob.pe, scanned text)",
+          "url": "https://www.gob.pe/institucion/minsa/normas-legales/7479922-020-2025-sa",
+          "date": "2025-12-05",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 56,
+      "summary": "The 2025 AI regulation classes AI that guides screening, diagnosis or treatment, or reads electronic health records, as high risk, requiring transparency and human oversight. Standalone software is a regulated medical device, but AI-specific change control was not verified.",
+      "detail": [
+        "Decreto Supremo 115-2025-PCM, regulating AI Law 31814, lists AI that guides screening, diagnosis, management or prognosis, emergency triage, or analysis of electronic records as high-risk use.",
+        "High-risk developers and users must tell users the system's purpose and the kinds of decisions it makes, and explain decisions affecting rights. High-risk systems affecting health must have trained human supervisors able to stop, correct or override decisions (Articles 28.11 and 31.4).",
+        "Private health-sector users had one year from September 2025 to comply. EsSalud and regional governments have two years.",
+        "Decreto Supremo 003-2020-SA treats standalone software as an active medical device, classed by risk. No AI-specific change control rule was found (not verified)."
+      ],
+      "sources": [
+        {
+          "title": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (El Peruano)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1",
+          "date": "2025-09-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto Supremo 003-2020-SA, dispositivos medicos (Actualidad Civil)",
+          "url": "https://actualidadcivil.pe/normas-legales/decreto-supremo-003-2020-sa/0d159023-c38e-4ab7-84f4-5a1c45aa390d",
+          "date": "2020-02-06",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "partial"
+  },
+  "journeyNote": "The Ministry, regions and EsSalud run separate record systems; e-prescribing has a standard but no national platform. Linking depends on register accreditation, delayed in 2026. De-identified register data is open to research.",
+  "laws": [
+    {
+      "name": "Ley 29733, Ley de Proteccion de Datos Personales",
+      "level": "National",
+      "year": "2011",
+      "what": "Health data sensitive; Justice Ministry is the authority; fines up to 100 UIT.",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/272360/Ley%20N%C2%BA%2029733.pdf.pdf?v=1618338779"
+    },
+    {
+      "name": "Decreto Supremo 016-2024-JUS (Reglamento de la Ley 29733)",
+      "level": "National",
+      "year": "2024",
+      "what": "Written consent for sensitive data; breach notice to authority and person within 48 hours.",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2024/11/Decreto-Supremo-016-2024-JUS-LPDerecho.pdf"
+    },
+    {
+      "name": "Ley 30024, Registro Nacional de Historias Clinicas Electronicas, as amended by Ley 31750",
+      "level": "National",
+      "year": "2013",
+      "what": "National record register; patient-authorised access; de-identified research use; ban on commercial use.",
+      "url": "https://www.gob.pe/institucion/minsa/normas-legales/240527-30024"
+    },
+    {
+      "name": "Decreto Supremo 027-2015-SA (Reglamento de la Ley 29414, derechos de usuarios de salud)",
+      "level": "National",
+      "year": "2015",
+      "what": "Right to a complete record copy within five working days, at the patient's cost.",
+      "url": "https://www.pacifico.com.pe/documents/28730/100877/derechos+personas+usuarias+servicios+salud+reglamento+ley+29414.pdf/5f9f54f1-55cb-f91c-2e81-e3c1584e7166"
+    },
+    {
+      "name": "Directiva Administrativa 373-MINSA/OGTI-2025 (RM 164-2025-MINSA)",
+      "level": "National",
+      "year": "2025",
+      "what": "Accreditation of record systems to the register; patient consent and sensitive-data flags.",
+      "url": "https://www.gob.pe/institucion/minsa/normas-legales/6551375-164-2025-minsa"
+    },
+    {
+      "name": "Decreto Supremo 115-2025-PCM (Reglamento de la Ley 31814, inteligencia artificial)",
+      "level": "National",
+      "year": "2025",
+      "what": "Classes clinical and health-record AI as high risk; transparency and human oversight duties.",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+    },
+    {
+      "name": "Decreto Supremo 021-2017-SA (Reglamento de Ensayos Clinicos)",
+      "level": "National",
+      "year": "2017",
+      "what": "Informed consent for trial participants; INS registry of trials and research centres.",
+      "url": "https://ensayosclinicos-repec.ins.gob.pe/images/Reglamento_de_EC.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-11-30",
+      "headline": "Ministry sets rules for researchers to obtain de-identified national record data",
+      "source": "El Peruano",
+      "url": "https://www.elperuano.pe/noticia/284038-minsa-investigacion-cientifica-respetara-derechos-personales",
+      "why": "Patient records can feed research without consent, under ethics and key-custody safeguards."
+    },
+    {
+      "date": "2026-03-05",
+      "headline": "Fact-check finds Peru does run networked electronic clinical records",
+      "source": "El Buho (PeruCheck)",
+      "url": "https://elbuho.pe/2026/03/es-falso-que-las-historias-clinicas-no-esten-subidas-a-la-red-como-afirmo-el-candidato-rafael-belaunde/",
+      "why": "Summarises how far the Ministry's record system has spread and what remains."
+    },
+    {
+      "date": "2026-07-28",
+      "headline": "Column criticises ministry for dropping mandatory single record system",
+      "source": "El Montonero",
+      "url": "https://elmontonero.pe/columnas/el-minsa-le-pone-cabe-a-la-telemedicina",
+      "why": "Argues separate regional systems will keep patient records from following them."
+    },
+    {
+      "date": "2026-08-27",
+      "headline": "Health regulator fines clinic for giving prosecutor a full record without court order",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/peru/2026/08/27/sancionan-a-la-clinica-delgado-por-entregar-la-historia-clinica-de-nadine-heredia-a-la-fiscal-geovana-mori/",
+      "why": "Shows record confidentiality is enforced, though the fine was classed as minor."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

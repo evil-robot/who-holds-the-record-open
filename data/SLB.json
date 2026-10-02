@@ -1,0 +1,292 @@
+{
+  "iso3": "SLB",
+  "name": "Solomon Islands",
+  "region": "Oceania",
+  "controlModel": "Institutional",
+  "headline": "Solomon Islands has no data protection law, no right-to-information law and no electronic patient record; most patients carry their own paper booklet.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 30,
+      "summary": "No law gives patients a right to see or copy their health record, and there is no right-to-information law. In practice most patients keep their own paper care booklet, which the World Bank says is at high risk of being lost or damaged.",
+      "detail": [
+        "The 1978 Constitution protects freedom to receive information (section 12) and freedom from search of person or property (section 9). Neither creates a right to obtain a copy of a medical record.",
+        "Transparency Solomon Islands said in September 2025 that the country has no law letting citizens formally request government-held information. A draft Freedom of Information law prepared in 2016 has not reached Parliament.",
+        "A 2023 World Bank assessment found patients keep a booklet holding their clinical record and must bring it to each visit. Facility personal care records (problem lists, notes, medicines, allergies, referrals) are kept by patients on paper.",
+        "There is no patient portal or electronic copy. With no enforceable right, the score sits in the 15 to 35 band; patient-held paper records keep it near the top."
+      ],
+      "sources": [
+        {
+          "title": "Constitution of Solomon Islands 1978 (rev. 2018), Constitute Project copy",
+          "url": "https://www.constituteproject.org/constitution/Solomon_Islands_2018?lang=en",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Transparency Solomon Islands urges government to enact Right to Information law (In-Depth Solomons)",
+          "url": "https://indepthsolomons.com.sb/transparency-solomon-islands-urges-government-to-enact-right-to-information-law/",
+          "date": "2025-09-29",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Primary Health Care System in Solomon Islands: A PHC Performance Initiative Assessment (World Bank)",
+          "url": "https://documents1.worldbank.org/curated/en/099121523193918574/pdf/P1598650ce402801e0a5d4000e14f5643e2.pdf",
+          "date": "2023",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "control": {
+      "score": 25,
+      "summary": "Patients have no legal say over who sees or uses their health data, no opt-out and no access log. There is no general data protection law, so control rests with the Ministry of Health and individual clinicians.",
+      "detail": [
+        "UN ESCAP reported in June 2026 that Solomon Islands has no horizontal privacy or data protection framework. The only consent rule it lists, in the 2023 Telecommunications (Subscriber Registration) Directives, covers telecom subscriber records, not health providers.",
+        "Facility paper forms are carried to provincial offices and entered into the Ministry's DHIS2 system there. Patient-level forms are sometimes filled in duplicate, one kept at the facility and one sent to the central level, depending on the health worker.",
+        "No opt-out, granular choice or patient-visible access log was found. This places Solomon Islands in the 20 to 35 band; paper booklets held by patients give some practical control but no legal one."
+      ],
+      "sources": [
+        {
+          "title": "Regional Digital Trade Integration Index 2.1 Economy Profile: Solomon Islands (UN ESCAP)",
+          "url": "https://dtri.uneca.org/v1/uploads/country-profile/slb-country-profile-en.pdf",
+          "date": "2026-06",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Primary Health Care System in Solomon Islands: A PHC Performance Initiative Assessment (World Bank)",
+          "url": "https://documents1.worldbank.org/curated/en/099121523193918574/pdf/P1598650ce402801e0a5d4000e14f5643e2.pdf",
+          "date": "2023",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 25,
+      "summary": "There is no data protection law, no regulator and no general breach notification duty; a Data Protection and Privacy Bill is still being drafted with UNCTAD support. The Constitution's privacy clause covers searches and entry, not personal information.",
+      "detail": [
+        "Section 9 of the Constitution protects against search of a person or property without consent, with exceptions including public health. It does not address personal or health information.",
+        "ESCAP lists no horizontal data protection framework. Telecom-sector rules (Telecommunications Act 2009, sections 72 and 73, and 2023 subscriber registration directives with breach notification) apply only to telecom providers.",
+        "The Ministry of Communication and Aviation is drafting a Data Protection and Privacy Bill with UNCTAD, a project that began in July 2025. In May 2026 the Ministry said a Cybercrime Bill awaited drafting by the Attorney General's Chambers.",
+        "The Medical and Dental Practitioners Act 1988 lets the Medical and Dental Board discipline unprofessional conduct (section 11) but has no specific confidentiality clause. No health data breach was found. Not an EU state; GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Constitution of Solomon Islands 1978 (rev. 2018), Constitute Project copy",
+          "url": "https://www.constituteproject.org/constitution/Solomon_Islands_2018?lang=en",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Regional Digital Trade Integration Index 2.1 Economy Profile: Solomon Islands (UN ESCAP)",
+          "url": "https://dtri.uneca.org/v1/uploads/country-profile/slb-country-profile-en.pdf",
+          "date": "2026-06",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Solomon Islands Data Protection and Privacy Legislation (Pacific Ecommerce Initiative, Pacific Islands Forum Secretariat)",
+          "url": "https://pacificecommerce.org/pei-project/solomon-islands-data-protection-and-privacy-legislation/",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Medical and Dental Practitioners Act 1988 (National Parliament of Solomon Islands)",
+          "url": "https://parliament.gov.sb/files/legislation/Acts/1988/MEDICAL%20AND%20DENTAL%20PRACTITIONERS%20ACT%201988.pdf",
+          "date": "1988",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 20,
+      "summary": "No law limits the sale or marketing use of health data, and no regulator oversees data brokers or health apps. The only data-collection limits ESCAP found apply to telecom operators.",
+      "detail": [
+        "ESCAP reports that the Telecommunications Act restricts the collection of consumer data and protects the confidentiality of communications, but only in the telecom sector.",
+        "No rule on selling health data, de-identified data, advertising use or consumer health apps was found. The planned Data Protection and Privacy Bill would regulate how organisations collect, store and use personal information, but it is not yet law.",
+        "With no binding protection, the score is low, matching Fiji's similar regime."
+      ],
+      "sources": [
+        {
+          "title": "Regional Digital Trade Integration Index 2.1 Economy Profile: Solomon Islands (UN ESCAP)",
+          "url": "https://dtri.uneca.org/v1/uploads/country-profile/slb-country-profile-en.pdf",
+          "date": "2026-06",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Solomon Islands Data Protection and Privacy Legislation (Pacific Ecommerce Initiative, Pacific Islands Forum Secretariat)",
+          "url": "https://pacificecommerce.org/pei-project/solomon-islands-data-protection-and-privacy-legislation/",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "journey": {
+      "score": 20,
+      "summary": "A 2025 study found no electronic health record in any of 293 facilities. The Ministry's DHIS2 system collects mostly aggregate data built from paper forms that are entered at provincial level.",
+      "detail": [
+        "The JMIR environmental scan (October 2025) counted 0 of 293 Solomon Islands facilities with an EHR. It notes DHIS2 has some program registries but is not an EHR.",
+        "The World Bank found facility data is paper-based and only digitised at provincial level, with program systems that are not fully interoperable.",
+        "WHO said in November 2025 that DHIS2 was upgraded to version 2.40 and now integrates malaria, tuberculosis and maternal and child health data.",
+        "The Digital Health Strategy 2025-2029 aims for a connected, patient-centred system, but no national patient index or record link was found."
+      ],
+      "sources": [
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories: Environmental Scan (JMIR, PMC12534756)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Primary Health Care System in Solomon Islands: A PHC Performance Initiative Assessment (World Bank)",
+          "url": "https://documents1.worldbank.org/curated/en/099121523193918574/pdf/P1598650ce402801e0a5d4000e14f5643e2.pdf",
+          "date": "2023",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Data and digital transformation to achieve Health for All (WHO Western Pacific)",
+          "url": "https://www.who.int/westernpacific/about/how-we-work/pacific-support/news/detail/20-11-2025-data-and-digital-transformation-to-achieve-health-for-all",
+          "date": "2025-11-20",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "MHMS paves the way for digital health transformation (Solomon Islands Government)",
+          "url": "https://solomons.gov.sb/solomon-islands-ministry-of-health-and-medical-services-paves-the-way-for-digital-health-transformation/",
+          "date": "2025-01-21",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 20,
+      "summary": "Clinicians usually see only what the patient brings in a paper booklet; there is no shared electronic record. At the National Referral Hospital, staff used special software to link a child's repeat admissions because there is no national patient ID.",
+      "detail": [
+        "The World Bank found there is no integrated system for capturing patients' clinical care records, so care depends on patient-held booklets that vary in quality between facilities and health workers.",
+        "The CDC Foundation reports (undated page) that the National Referral Hospital's paediatric team adopted case-tracking software in 2016 to link multiple admissions for the same child, even without a national patient identification system.",
+        "No cross-provider record view, emergency access rule or consent rule for clinician access was found."
+      ],
+      "sources": [
+        {
+          "title": "Primary Health Care System in Solomon Islands: A PHC Performance Initiative Assessment (World Bank)",
+          "url": "https://documents1.worldbank.org/curated/en/099121523193918574/pdf/P1598650ce402801e0a5d4000e14f5643e2.pdf",
+          "date": "2023",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Data that Saved Lives: How the Solomon Islands Reduced Child Deaths from Severe Acute Malnutrition (CDC Foundation)",
+          "url": "https://www.cdcfoundation.org/data-for-health-feature-solomon-islands-reduced-child-deaths",
+          "date": "undated",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "The Solomon Islands Health Research and Ethics Review Board must approve any health research and reviews consent forms. No law on consent, opt-out or transparency for secondary use of health records was found.",
+      "detail": [
+        "The Ministry says any health-related research in the country must first get ethical approval from the SIHRERB, which works under a 2016 Manual of Operations. Its nine members were inducted in April 2025, including on consent forms, privacy and confidentiality.",
+        "No statute on secondary use of health data, a public register of data uses, or a general opt-out was found. Clinical trial consent law was not verified.",
+        "Under the anchors: base 40, plus 3 for the ethics body."
+      ],
+      "sources": [
+        {
+          "title": "Newly appointed SIHRERB members induction workshop (Solomon Islands Government)",
+          "url": "https://solomons.gov.sb/newly-appointed-sihrerb-members-induction-workshop/",
+          "date": "2025-04-25",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 18,
+      "summary": "AI already screens chest X-rays for tuberculosis, yet no rules for clinical AI were found. Solomon Islands has no AI law, no AI regulator and no verified medical device rules for AI software.",
+      "detail": [
+        "Delft Imaging says it supplied a portable X-ray with CAD4TB artificial intelligence software to the Ministry in 2022 for automated TB detection, and more units in 2024.",
+        "A June 2026 Levellers.ai review found no AI-specific law or agency; AI plans appear only in policy documents, such as an AI-in-education policy and a government ICT strategy.",
+        "No regulation of AI as a medical device, change control or human oversight duty was verified. With nothing in force, Solomon Islands falls in the 15 to 30 band for non-EU countries."
+      ],
+      "sources": [
+        {
+          "title": "Solomon Islands (Delft Imaging)",
+          "url": "https://delftimaging.com/impact/solomon-islands/",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "AI Regulation in Solomon Islands: Current Status (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-solomon-islands",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "siloed",
+    "labs": "unknown",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "No facility has an EHR (0 of 293). Care records are paper booklets held by patients. DHIS2 gathers program and surveillance data from paper forms entered at provincial level. Lab, pharmacy and claims links were not verified.",
+  "laws": [
+    {
+      "name": "Constitution of Solomon Islands 1978, sections 9 and 12",
+      "level": "National",
+      "year": "1978",
+      "what": "Protects against search of person or property without consent; protects freedom to receive and communicate information.",
+      "url": "https://www.constituteproject.org/constitution/Solomon_Islands_2018?lang=en"
+    },
+    {
+      "name": "Medical and Dental Practitioners Act 1988 (No. 7 of 1988)",
+      "level": "National",
+      "year": "1988",
+      "what": "Registers doctors and dentists; Board can discipline negligence and unprofessional conduct. No specific confidentiality clause.",
+      "url": "https://parliament.gov.sb/files/legislation/Acts/1988/MEDICAL%20AND%20DENTAL%20PRACTITIONERS%20ACT%201988.pdf"
+    },
+    {
+      "name": "Telecommunications Act 2009 (No. 20 of 2009), sections 72 and 73, as amended 2021",
+      "level": "National",
+      "year": "2009",
+      "what": "Limits consumer data collection and protects communications confidentiality, for the telecom sector only.",
+      "url": "https://dtri.uneca.org/v1/uploads/country-profile/slb-country-profile-en.pdf"
+    },
+    {
+      "name": "Data Protection and Privacy Bill (in drafting)",
+      "level": "National",
+      "year": "draft",
+      "what": "Planned economy-wide personal data law, drafted by the Ministry of Communication and Aviation with UNCTAD; not yet law.",
+      "url": "https://pacificecommerce.org/pei-project/solomon-islands-data-protection-and-privacy-legislation/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-11-20",
+      "headline": "Health ministry upgrades DHIS2 to merge malaria, TB and maternal data",
+      "source": "WHO Western Pacific",
+      "url": "https://www.who.int/westernpacific/about/how-we-work/pacific-support/news/detail/20-11-2025-data-and-digital-transformation-to-achieve-health-for-all",
+      "why": "Central health data system grows while no data protection law covers it."
+    },
+    {
+      "date": "2026-05-06",
+      "headline": "Government reviews Telecommunications Act and prepares a Cybercrime Bill",
+      "source": "Island Sun",
+      "url": "https://theislandsun.com.sb/government-moves-to-strengthen-cybercrime-and-telekom-laws/",
+      "why": "Digital security laws are still being written; health data has no specific protection."
+    },
+    {
+      "date": "2026-06",
+      "headline": "UN report finds no national data protection framework in Solomon Islands",
+      "source": "UN ESCAP",
+      "url": "https://dtri.uneca.org/v1/uploads/country-profile/slb-country-profile-en.pdf",
+      "why": "Confirms patients' health data has no general legal protection yet."
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Health ministry reviews indicators and forms across 532 data dashboards",
+      "source": "Solomon Times",
+      "url": "https://www.solomontimes.com/news/health-ministry-reviews-reporting-forms-to-cut-workload-for-health-workers/13265",
+      "why": "Paper-heavy reporting burdens health workers and weakens the data used for care."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

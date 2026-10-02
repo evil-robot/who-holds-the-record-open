@@ -43,7 +43,7 @@ Each dimension is scored 0 to 100. The cell grade is the weighted sum. Where a d
 
 ## Tiers
 
-As published in the DTI paper, section 3.3: **Platinum** 90 and above, **Gold** 80 to 89, **Silver** 70 to 79, **Bronze** 55 to 69. Below 55 is labeled Below Bronze here; the paper names no tier for it.
+As published in the DTI paper, section 3.3: **Platinum** 90 and above, **Gold** 80 to 89, **Silver** 70 to 79, **Bronze** 55 to 69. Below 55 is labeled Below Bronze here; the paper names no tier for it. The tier is read from the grade as displayed, rounded to a whole number, so the number and the tier name never disagree on the page.
 
 A country is **provisional** when any of its links is unchecked, or any source class is author-declared or missing. A provisional tier is not published. The audit's catch-all "news" does not make a country provisional (it was set independently of the author), but it is counted in `classesAuditDefault`.
 
@@ -129,3 +129,7 @@ categories cite a primary source. The DTI number is never changed; `tierCapped` 
 
 ## Update 1 Oct 2026 (wave 1)
 The grade now covers 64 countries. A statute in force counts as current wherever it is published (legal_text class, an author class of legal_text, or an official source whose title names a law). Liechtenstein stays provisional until its control source is re-cited from the publisher (liechtenstein-institut.li) instead of a shared S3 link. Canada's drop to Silver on 1 Oct reflects a flaky canada.ca link check; recheck before launch.
+
+## 2 Oct 2026: publisher classes for 196 countries
+
+The hand-listed domains in `analysis/sources.py` cover the first 65 countries. For the other sources the audit now rules on every class and records how in `analysis/source_classes.csv` (`basis` column): `listed` (hand list), `rule` (a domain rule decided it: government suffixes, law firms and legal-guide vendors are law_firm whatever was claimed, social media, app stores and file hosts are never primary, and on commercial domains a primary claim stands only for named legal-text hosts or named government bodies), or `claim` (the class recorded by the research agent, accepted on a country-code or non-commercial domain after the country file's cross-check by a second agent session). The grade treats all three as audited and labels the cell inputs `audit`, `audit_rule` or `audit_claim`; a grade is provisional only if a cited link was not checked or a source has no audited class. Accepted claims are the weakest of the three bases and are counted so a reader can see their share.

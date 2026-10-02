@@ -1,0 +1,330 @@
+{
+ "iso3": "LAO",
+ "name": "Laos",
+ "region": "Asia",
+ "controlModel": "State",
+ "headline": "Laos protects electronic data and patient confidentiality on paper, but patients cannot get their records and no shared health record exists.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 25,
+   "summary": "No law gives patients a right to a copy of their medical record. The 2017 Electronic Data Protection Law lets people access their own electronic data, but most records are not electronic and there is no national portal.",
+   "detail": [
+    "The amended Law on Health Care (adopted 20 November 2023, in force 9 January 2024) makes practitioners tell patients and relatives about examination, diagnosis, treatment, risks and costs (Article 36). It does not give patients a right to read or copy the chart.",
+    "The Electronic Data Protection Law No. 25/NA (2017), Article 27, gives data owners the right to access, correct, stop and delete their own electronic data. It covers electronic data only, and the law text sets no deadline or fee.",
+    "The Ministry of Health's Digital Health Strategy 2023-2027 lists only pilot electronic medical records at two provincial hospitals. We found no patient portal or app showing a person's health record.",
+    "Under the anchors, a right that reaches only some records scores 15 to 35. The electronic-data right keeps Laos above the floor; paper records, no copy right and no portal keep it low."
+   ],
+   "sources": [
+    {
+     "title": "Law on Health Care (amended), 2023 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/5.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B4%E0%BB%88%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%A7-2023.pdf",
+     "date": "2023-11-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law on Electronic Data Protection No. 25/NA, 2017 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/57.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%81%E0%BA%9B%E0%BB%89%E0%BA%AD%E0%BA%87%E0%BA%82%E0%BB%8D%E0%BB%89%E0%BA%A1%E0%BA%B9%E0%BA%99%E0%BB%80%E0%BA%AD%E0%BB%80%E0%BA%A5%E0%BA%B1%E0%BA%81%E0%BB%82%E0%BA%95%E0%BA%A3%E0%BA%99%E0%BA%B4%E0%BA%81-2017.pdf",
+     "date": "2017-05-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lao PDR Digital Health Strategy 2023-2027, Ministry of Health (WHO repository)",
+     "url": "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/LAO_Lao_People-Digital-Health-Strategy_2023-2027.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The data law requires the owner's permission before personal data is used or passed on, unless another law says otherwise or a competent state body asks for it. We found no opt-out, no granular choices and no access log patients can see.",
+   "detail": [
+    "Article 16 of the Electronic Data Protection Law lets a data manager use or disclose personal data only with the owner's permission, unless a law provides otherwise. Data may go to a third party with consent or at the request of a competent state organisation.",
+    "Article 19 lets a data owner ask a data manager to stop sending or transferring their data to third parties. Article 17 bars sending personal data out of Laos without the owner's agreement.",
+    "Health reporting runs through the Ministry of Health's DHIS2 system, built by the state for planning. We found no way for a patient to opt out, set sharing choices or see who viewed their record.",
+    "Records are held by facilities and reported to the state by default, which places Laos in the 20 to 35 band."
+   ],
+   "sources": [
+    {
+     "title": "Law on Electronic Data Protection No. 25/NA, 2017 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/57.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%81%E0%BA%9B%E0%BB%89%E0%BA%AD%E0%BA%87%E0%BA%82%E0%BB%8D%E0%BB%89%E0%BA%A1%E0%BA%B9%E0%BA%99%E0%BB%80%E0%BA%AD%E0%BB%80%E0%BA%A5%E0%BA%B1%E0%BA%81%E0%BB%82%E0%BA%95%E0%BA%A3%E0%BA%99%E0%BA%B4%E0%BA%81-2017.pdf",
+     "date": "2017-05-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lao PDR Digital Health Strategy 2023-2027, Ministry of Health (WHO repository)",
+     "url": "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/LAO_Lao_People-Digital-Health-Strategy_2023-2027.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 35,
+   "summary": "The health care law makes practitioners keep patient information confidential, and the 2017 data law fines breaches 15 million kip. The regulator is a ministry, breach notification is not mandatory, and we found no health-sector enforcement.",
+   "detail": [
+    "The Law on Health Care (Article 37) requires practitioners to keep a patient's illness and condition strictly confidential, whether the patient is alive or dead, except where law provides otherwise. Article 17 of the data law bars sending personal data out of Laos without the owner's agreement.",
+    "The Electronic Data Protection Law is run by the Ministry of Technology and Communications, not an independent body. Article 52 sets a fine of 15,000,000 kip for breaking its prohibitions. DLA Piper reports no mandatory breach notification and no fining power for the cyber security department.",
+    "The Law on Cybersecurity took effect on 1 September 2025. Its list of critical information infrastructure sectors names defence, technology, finance, energy and trade, and does not name health; the list ends with 'other sectors'.",
+    "Laos is not in the EU and has no EU adequacy decision, so the GDPR and the European Health Data Space do not apply to its health system. We found no reported health data breach and no published enforcement case."
+   ],
+   "sources": [
+    {
+     "title": "Law on Health Care (amended), 2023 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/5.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B4%E0%BB%88%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%A7-2023.pdf",
+     "date": "2023-11-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law on Electronic Data Protection No. 25/NA, 2017 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/57.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%81%E0%BA%9B%E0%BB%89%E0%BA%AD%E0%BA%87%E0%BA%82%E0%BB%8D%E0%BB%89%E0%BA%A1%E0%BA%B9%E0%BA%99%E0%BB%80%E0%BA%AD%E0%BB%80%E0%BA%A5%E0%BA%B1%E0%BA%81%E0%BB%82%E0%BA%95%E0%BA%A3%E0%BA%99%E0%BA%B4%E0%BA%81-2017.pdf",
+     "date": "2017-05-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Laos (DLA Piper, Tilleke & Gibbins)",
+     "url": "https://www.dlapiperdataprotection.com/?t=law&c=LA",
+     "date": "2026-03-27",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Adequacy decisions, European Commission",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 35,
+   "summary": "Personal data may not go to third parties without the owner's permission, and the health insurance law bans disclosing members' data. No law bans selling health data, de-identified data or health app data outright.",
+   "detail": [
+    "Article 16 of the Electronic Data Protection Law bars a data manager from giving personal data it holds to a third party without the owner's permission or a competent state request.",
+    "Article 33 bars data managers from collecting, using or disclosing health data and other listed data that affects national security, peace or social order. That wording protects the state's interests more than the patient's.",
+    "The Law on Health Insurance (Article 31) makes insurance offices and facilities keep members' treatment data confidential. Article 55 bars insurance staff from disclosing members' personal data.",
+    "We found no rule on selling de-identified health data, data brokers or marketing with health data. Consumer health apps fall only under the general electronic data law."
+   ],
+   "sources": [
+    {
+     "title": "Law on Electronic Data Protection No. 25/NA, 2017 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/57.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%81%E0%BA%9B%E0%BB%89%E0%BA%AD%E0%BA%87%E0%BA%82%E0%BB%8D%E0%BB%89%E0%BA%A1%E0%BA%B9%E0%BA%99%E0%BB%80%E0%BA%AD%E0%BB%80%E0%BA%A5%E0%BA%B1%E0%BA%81%E0%BB%82%E0%BA%95%E0%BA%A3%E0%BA%99%E0%BA%B4%E0%BA%81-2017.pdf",
+     "date": "2017-05-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law on Health Insurance, 2018 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/32.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B0%E0%BA%81%E0%BA%B1%E0%BA%99%E0%BA%AA%E0%BA%B8%E0%BA%82%E0%BA%B0%E0%BA%9E%E0%BA%B2%E0%BA%9A-2019.pdf",
+     "date": "2018-12-13",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 26,
+   "summary": "DHIS2 has carried national health reporting since 2013, and an electronic immunisation registry now runs nationwide on it. Patient records are not linked across facilities: electronic records were pilots at two provincial hospitals, and insurance tracking ran on Excel.",
+   "detail": [
+    "The Digital Health Strategy 2023-2027 says DHIS2 has collected routine data across programmes since 2013. HIV and TB moved to DHIS2 tracker for patient management, and mSupply tracks medicine stock down to warehouses.",
+    "The same strategy lists only a Bahmni EMR pilot at Bolikhamxay and Vientiane provincial hospitals and small laboratory system pilots. National Health Insurance tracked spending in Excel. A client registry for unique patient IDs is planned, not built.",
+    "A 2026 study found the electronic immunisation registry, introduced in 2022, was rolled out nationwide on DHIS2, but noted data gaps, staff shortages and reliance on donors.",
+    "In December 2025 the army signed a deal to install a hospital information system in military hospitals, after a pilot at Military Hospital 103. A 2026 update on civilian EMR coverage was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Lao PDR Digital Health Strategy 2023-2027, Ministry of Health (WHO repository)",
+     "url": "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/LAO_Lao_People-Digital-Health-Strategy_2023-2027.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Strengthening Immunisation Data Systems: evaluation of the Lao Electronic Immunisation Registry (npj Digital Public Health)",
+     "url": "https://www.nature.com/articles/s44482-026-00018-6",
+     "date": "2026-05-06",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Military Medical Services Advance with Launch of Modern Hospital Information System (KPL)",
+     "url": "https://kpl.gov.la/En/detail.aspx/detail.aspx?id=96284",
+     "date": "2025-12-31",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Standing with science: Turning data into better health for all (WHO Lao PDR)",
+     "url": "https://www.who.int/laos/news/commentaries/detail/standing-with-science--turning-data-into-better-health-for-all",
+     "date": "2026-04-07",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "A treating clinician cannot look up a patient's record from another hospital; there is no shared record. The health care law only requires the referring facility to send a copy of the treatment record when a patient moves.",
+   "detail": [
+    "Article 36 of the amended Law on Health Care says that when a patient changes facility, the practitioner must explain the risks of the patient's condition and send a copy of the treatment record to the new facility.",
+    "Article 22 requires every public and private facility to keep a patient record system that meets Ministry of Health standards. It does not require records to be shared.",
+    "The Digital Health Strategy describes electronic records only as pilots and plans a client registry for unique patient IDs. No system lets clinicians view records across providers.",
+    "Emergency access rules were not found, because there is no shared record to access."
+   ],
+   "sources": [
+    {
+     "title": "Law on Health Care (amended), 2023 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/5.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B4%E0%BB%88%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%A7-2023.pdf",
+     "date": "2023-11-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lao PDR Digital Health Strategy 2023-2027, Ministry of Health (WHO repository)",
+     "url": "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/LAO_Lao_People-Digital-Health-Strategy_2023-2027.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 45,
+   "summary": "Health research needs approval from an ethics committee, and clinical trials need the National Ethics Committee for Health Research. Rules for reusing routine health data, including whether consent applies, were not verified, which holds the score in the lower half of its band.",
+   "detail": [
+    "Article 22 of the Law on Public Health (2023) says anyone doing public health research in Laos must get approval from the relevant ethics committee.",
+    "Article 71 of the amended Law on Drugs and Medical Products (in force 25 August 2025) requires clinical trials to be approved by the National Ethics Committee for Health Research. Results and harmful effects must be reported to the health sector.",
+    "The Law on Health Care lists the consent of the patient or relatives, when needed, as a principle of care. The data law requires the owner's permission to use personal data unless a law says otherwise.",
+    "No research opt-out and no register of data uses were found. The anchor base of 40 rises 3 each for the ethics body and statutory secrecy, then is capped at 45 because secondary-use rules were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law on Public Health, 2023 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/42.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%AA%E0%BA%B2%E0%BA%97%E0%BA%B2%E0%BA%A5%E0%BA%B0%E0%BA%99%E0%BA%B0%E0%BA%AA%E0%BA%B8%E0%BA%81-2023.pdf",
+     "date": "2023-07-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law on Drugs and Medical Products (amended), 2025 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/2.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%A2%E0%BA%B2-%E0%BB%81%E0%BA%A5%E0%BA%B0-%E0%BA%9C%E0%BA%B0%E0%BA%A5%E0%BA%B4%E0%BA%94%E0%BA%95%E0%BA%B0%E0%BA%9E%E0%BA%B1%E0%BA%99%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BB%81%E0%BA%9E%E0%BA%94-2025.pdf",
+     "date": "2025-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law on Health Care (amended), 2023 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/5.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B4%E0%BB%88%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%A7-2023.pdf",
+     "date": "2023-11-20",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 35,
+   "summary": "Laos has no AI law and no rules for how clinical AI is used. The 2025 drugs law counts software as a medical device and puts devices containing artificial intelligence in the high-risk class, but sets no change control or oversight duties.",
+   "detail": [
+    "Article 28 of the amended Law on Drugs and Medical Products defines medical devices to include hardware and software used to prevent, monitor, diagnose, treat or rehabilitate. Article 29 sorts devices into four risk classes, and Article 33 puts devices containing artificial intelligence in class D, high risk.",
+    "Drugs and medical products must be registered with the Ministry of Health. We found no rule on AI training data, model updates, transparency or human oversight.",
+    "In February 2026 the Ministry of Technology and Communications signed with three Chinese firms to study a National Health AI Platform, with Mahosot Hospital and the health ministry attending. It is a feasibility study, not regulation.",
+    "Binding law names AI devices as high risk, which is more than nothing, but there are no AI-specific duties. That places Laos at the bottom of the 35 to 50 band, level with Colombia's software-as-device regime."
+   ],
+   "sources": [
+    {
+     "title": "Law on Drugs and Medical Products (amended), 2025 (National Assembly of Lao PDR, in Lao)",
+     "url": "https://na.gov.la/wp-content/uploads/2021/11/2.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%A2%E0%BA%B2-%E0%BB%81%E0%BA%A5%E0%BA%B0-%E0%BA%9C%E0%BA%B0%E0%BA%A5%E0%BA%B4%E0%BA%94%E0%BA%95%E0%BA%B0%E0%BA%9E%E0%BA%B1%E0%BA%99%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BB%81%E0%BA%9E%E0%BA%94-2025.pdf",
+     "date": "2025-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Laos, China partner in study of AI use in healthcare (Vientiane Times via Asia News Network)",
+     "url": "https://asianews.network/laos-china-partner-in-study-of-ai-use-in-healthcare/",
+     "date": "2026-02-19",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "siloed",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 carries national reporting and the immunisation registry. Patient records stay in each facility; EMRs were pilots, insurance tracking used Excel, and mSupply tracks stock, not prescriptions. Research links were not verified.",
+ "laws": [
+  {
+   "name": "Law on Electronic Data Protection (No. 25/NA)",
+   "level": "National",
+   "year": "2017",
+   "what": "Consent to use or share electronic personal data; access, correction and deletion rights; 15 million kip fine.",
+   "url": "https://na.gov.la/wp-content/uploads/2021/11/57.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%81%E0%BA%9B%E0%BB%89%E0%BA%AD%E0%BA%87%E0%BA%82%E0%BB%8D%E0%BB%89%E0%BA%A1%E0%BA%B9%E0%BA%99%E0%BB%80%E0%BA%AD%E0%BB%80%E0%BA%A5%E0%BA%B1%E0%BA%81%E0%BB%82%E0%BA%95%E0%BA%A3%E0%BA%99%E0%BA%B4%E0%BA%81-2017.pdf"
+  },
+  {
+   "name": "Law on Health Care (amended)",
+   "level": "National",
+   "year": "2023",
+   "what": "Patient confidentiality, duty to inform patients, record systems in every facility. In force 9 January 2024.",
+   "url": "https://na.gov.la/wp-content/uploads/2021/11/5.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B4%E0%BB%88%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%A7-2023.pdf"
+  },
+  {
+   "name": "Law on Public Health",
+   "level": "National",
+   "year": "2023",
+   "what": "Ministry runs the electronic health information system; research needs ethics committee approval.",
+   "url": "https://na.gov.la/wp-content/uploads/2021/11/42.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%AA%E0%BA%B2%E0%BA%97%E0%BA%B2%E0%BA%A5%E0%BA%B0%E0%BA%99%E0%BA%B0%E0%BA%AA%E0%BA%B8%E0%BA%81-2023.pdf"
+  },
+  {
+   "name": "Law on Health Insurance",
+   "level": "National",
+   "year": "2018",
+   "what": "Insurance offices and facilities must keep members' treatment data confidential.",
+   "url": "https://na.gov.la/wp-content/uploads/2021/11/32.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B0%E0%BA%81%E0%BA%B1%E0%BA%99%E0%BA%AA%E0%BA%B8%E0%BA%82%E0%BA%B0%E0%BA%9E%E0%BA%B2%E0%BA%9A-2019.pdf"
+  },
+  {
+   "name": "Law on Drugs and Medical Products (amended)",
+   "level": "National",
+   "year": "2025",
+   "what": "Software counts as a medical device; devices containing AI are high risk; trials need national ethics approval.",
+   "url": "https://na.gov.la/wp-content/uploads/2021/11/2.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%A2%E0%BA%B2-%E0%BB%81%E0%BA%A5%E0%BA%B0-%E0%BA%9C%E0%BA%B0%E0%BA%A5%E0%BA%B4%E0%BA%94%E0%BA%95%E0%BA%B0%E0%BA%9E%E0%BA%B1%E0%BA%99%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BB%81%E0%BA%9E%E0%BA%94-2025.pdf"
+  },
+  {
+   "name": "Law on Cybersecurity",
+   "level": "National",
+   "year": "2025",
+   "what": "Critical infrastructure protection and incident reporting; in force 1 September 2025.",
+   "url": "https://na.gov.la/wp-content/uploads/2021/11/79.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%84%E0%BA%A7%E0%BA%B2%E0%BA%A1%E0%BA%9B%E0%BA%AD%E0%BA%94%E0%BB%84%E0%BA%9E%E0%BB%84%E0%BA%8A%E0%BB%80%E0%BA%9A%E0%BA%B5-2025.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-31",
+   "headline": "Army signs deal for hospital information system, piloted at Military Hospital 103",
+   "source": "KPL (Lao News Agency)",
+   "url": "https://kpl.gov.la/En/detail.aspx/detail.aspx?id=96284",
+   "why": "A hospital record system is planned for military hospitals only; civilian patients are not covered."
+  },
+  {
+   "date": "2026-02-19",
+   "headline": "Technology ministry and Chinese firms to study a national health AI platform",
+   "source": "Vientiane Times via Asia News Network",
+   "url": "https://asianews.network/laos-china-partner-in-study-of-ai-use-in-healthcare/",
+   "why": "Health AI is being planned while the only AI rule is a device risk class."
+  },
+  {
+   "date": "2026-04-07",
+   "headline": "WHO says the challenge in Laos is timely, integrated use of health data",
+   "source": "WHO Lao PDR",
+   "url": "https://www.who.int/laos/news/commentaries/detail/standing-with-science--turning-data-into-better-health-for-all",
+   "why": "The DHIS2 system is built for national reporting, not as a patient record."
+  },
+  {
+   "date": "2026-06-11",
+   "headline": "Hospital directors trained on electronic records, data protection and cybersecurity",
+   "source": "KPL (Lao News Agency)",
+   "url": "https://kpl.gov.la/en/detail.aspx/detail.aspx?id=101560",
+   "why": "Hospital leaders are being prepared for electronic records and data protection duties."
+  },
+  {
+   "date": "2026-07-31",
+   "headline": "Laos launches LAeID digital identity app nationwide",
+   "source": "The Star (Laotian Times/ANN)",
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/31/laos-launches-nationwide-digital-identity-app-phases-out-paper-documents",
+   "why": "Gives citizens a digital ID; no link to health records was reported."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

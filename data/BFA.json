@@ -1,0 +1,316 @@
+{
+ "iso3": "BFA",
+ "name": "Burkina Faso",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A 2021 data law gives patients rights, but most records sit in paper registers at each facility and the data regulator is being merged.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Article 17 of Law 001-2021 gives a right to see or copy your data, and to read your health data directly or through a health professional. The requester pays copy costs, no deadline is set, and there is no national patient portal.",
+   "detail": [
+    "Law 001-2021/AN of 30 March 2021 lets a person exercise access by consulting on site or by receiving a copy. Article 17 adds that anyone may read their health data directly or with a health professional of their choice.",
+    "The same article puts reproduction costs on the requester. We found no fixed reply deadline for access. A two-month limit applies only to rectification under Article 21.",
+    "The Health Ministry's 2025 data manual lists paper or electronic registers kept at each facility as the reference record. We found no national portal or app where patients can see their record.",
+    "Score: base 45 for a statutory right with no portal, minus 5 for copy fees and minus 5 for no deadline."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°001-2021/AN portant protection des personnes à l'égard du traitement des données à caractère personnel (full text, Académie de police)",
+     "url": "https://academiedepolice.bf/index.php/telechargement/category/43-cybercriminalite?download=201:loi-n-001-2021-an-portant-sur-la-protection-des-donnees-a-caractere-personnel",
+     "date": "2021-03-30",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Manuel de procédures de gestion de l'information sanitaire, Ministère de la Santé (avril 2025)",
+     "url": "https://www.sante.gov.bf/fileadmin/manuel_procedure_gestion_info_sanitaire_avril_2025.pdf",
+     "date": "2025-04",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 32,
+   "summary": "Health data needs express consent, but care by health professionals bound by secrecy is exempt, so patients have no say over routine sharing. There is a right to object on legitimate grounds, and no patient-visible access log was found.",
+   "detail": [
+    "Article 12 bars processing health data without the person's express consent unless a law allows it. Article 13 exempts preventive medicine, diagnosis, care and health service management by a health professional or someone bound by professional secrecy.",
+    "Article 20 lets a person object on legitimate grounds, but the controller can refuse if it shows overriding legitimate reasons.",
+    "Public-sector processing of health data is decided by a legislative or regulatory act after the regulator's opinion (Article 30). Records stay with each facility.",
+    "We found no opt-out from sharing for care and no access log that patients can view. This keeps the score in the 20 to 35 band."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°001-2021/AN portant protection des personnes à l'égard du traitement des données à caractère personnel (full text, Académie de police)",
+     "url": "https://academiedepolice.bf/index.php/telechargement/category/43-cybercriminalite?download=201:loi-n-001-2021-an-portant-sur-la-protection-des-donnees-a-caractere-personnel",
+     "date": "2021-03-30",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Health data is sensitive data, identifiable health data must be hosted in Burkina Faso, and fines reach 1% of turnover (5% for repeat breaches). The law has no breach notification duty that we found, and the regulator is being folded into a media regulator.",
+   "detail": [
+    "Law 001-2021 lists health, genetic and biometric data as sensitive. Article 37 requires identifiable health data to be hosted on national territory unless an exception applies. Transfers abroad need the regulator's authorisation.",
+    "The CIL can warn, order a stop, lock data or fine 1% of turnover, rising to 5% for a repeat breach (Articles 63 and 65). We found no obligation to notify data breaches in the law text.",
+    "In October 2025 the CIL signed a partnership with the Health Ministry to help health facilities secure their data. We found no published sanction against a health provider.",
+    "A law adopted on 3 August 2026 merges the CIL with the media regulator into ARCOD, run by 11 councillors named by the executive, parliament and others. The Constitutional Council cleared it on 20 August 2026. Promulgation was not verified.",
+    "The same sitting on 3 August 2026 also adopted a new law on personal data protection. We could not open its text or confirm promulgation, so this review scores Law 001-2021, which we treat as in force (not verified)."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°001-2021/AN portant protection des personnes à l'égard du traitement des données à caractère personnel (full text, Académie de police)",
+     "url": "https://academiedepolice.bf/index.php/telechargement/category/43-cybercriminalite?download=201:loi-n-001-2021-an-portant-sur-la-protection-des-donnees-a-caractere-personnel",
+     "date": "2021-03-30",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Protection des informations à caractère personnel : la CIL sensibilise les membres du cabinet du ministère de la Santé (Sidwaya)",
+     "url": "https://www.sidwaya.info/protection-des-informations-a-caractere-personnel-la-cil-sensibilise-les-membres-du-cabinet-du-ministere-de-la-sante/",
+     "date": "2025-10-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Fusion du CSC et de la CIL : l'Assemblée législative du peuple adopte la loi portant création de l'ARCOD (Lefaso.net)",
+     "url": "https://lefaso.net/spip.php?article148369",
+     "date": "2026-08-03",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Décision n°2026-19/CC sur la loi organique n°038-2026/ALP (ARCOD), Conseil constitutionnel",
+     "url": "https://www.conseil-constitutionnel.gov.bf/fileadmin/user_upload/decision_n__2026-019_du_20_aout_2026.pdf",
+     "date": "2026-08-20",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Article 14 bans any direct marketing using personal data without prior consent, and people must be asked before their data goes to third parties. We found no rules on selling de-identified health data or on health apps.",
+   "detail": [
+    "Article 14 of Law 001-2021 prohibits prospecting of any kind, by any channel, using the data of a person who has not given prior consent.",
+    "The same article says a person must be informed before data is first passed to or used for third parties, and must be asked for consent.",
+    "We found no specific ban on selling health data, no rule on data brokers and no rule on consumer health apps. We found no enforcement case on commercial use of health data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°001-2021/AN portant protection des personnes à l'égard du traitement des données à caractère personnel (full text, Académie de police)",
+     "url": "https://academiedepolice.bf/index.php/telechargement/category/43-cybercriminalite?download=201:loi-n-001-2021-an-portant-sur-la-protection-des-donnees-a-caractere-personnel",
+     "date": "2021-03-30",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 25,
+   "summary": "In 2023 only 6% of regional and university hospitals had a hospital information system, and no interoperability layer existed. A set of eight linked tools ran in four districts, and the universal insurance scheme only began paying for care in February 2026.",
+   "detail": [
+    "The Health Ministry's digital health plan gives a 2023 baseline of 6% of CHR/CHU hospitals with a hospital information system, with a target of 31% in 2026. It records no interoperability layer and 0% of platforms connected in 2023.",
+    "The ministry says more than 110 digital tools coexisted in 2020 without interoperability. Its Écosystème digital minimal links eight tools and was evaluated in four districts from 2023 to 2026.",
+    "ENDOS, a DHIS2 data warehouse used since 2013, collects aggregate reporting, not patient records.",
+    "The CNAMU insurance fund started paying for care on 1 February 2026, with 344,893 people registered on 5 January 2026."
+   ],
+   "sources": [
+    {
+     "title": "Plan triennal glissant de la santé numérique (PSSN 2025-2029), Ministère de la Santé",
+     "url": "https://www.sante.gov.bf/fileadmin/ptg_pssn_2025_-_2029.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Burkina/Santé numérique : les résultats de l'évaluation de l'Écosystème digital minimal restitués (Lefaso.net)",
+     "url": "https://lefaso.net/spip.php?article148067",
+     "date": "2026-07-22",
+     "publisherClass": "news"
+    },
+    {
+     "title": "How do countries select and use digital global goods in emergency settings? (Oxford Open Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11935744/",
+     "date": "2024-05-06",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Régime d'assurance maladie universelle : les prestations de soins débutent le 1er février 2026 (Lefaso.net)",
+     "url": "https://lefaso.net/spip.php?article143814",
+     "date": "2026-01-18",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "A treating clinician usually sees only the paper or local record held by their own facility. Few hospitals had an information system in 2023, and we found no shared record clinicians can open across providers.",
+   "detail": [
+    "The 2025 data manual names facility registers, physical or electronic, as the reference document for every act of care, from daily consultations to hospital admissions and referrals.",
+    "The digital health plan sets targets for hospital information systems, a laboratory information system and a single electronic consultation register. In 2023 only 6% of CHR/CHU had a hospital system.",
+    "We found no national shared record, no emergency access rule for a cross-provider record and no evidence of record exchange between hospitals."
+   ],
+   "sources": [
+    {
+     "title": "Manuel de procédures de gestion de l'information sanitaire, Ministère de la Santé (avril 2025)",
+     "url": "https://www.sante.gov.bf/fileadmin/manuel_procedure_gestion_info_sanitaire_avril_2025.pdf",
+     "date": "2025-04",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Plan triennal glissant de la santé numérique (PSSN 2025-2029), Ministère de la Santé",
+     "url": "https://www.sante.gov.bf/fileadmin/ptg_pssn_2025_-_2029.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Professionals may pass health data to authorised research unless the patient objects, and each project needs CIL authorisation after a binding ethics committee opinion. The objection runs against each professional's transfer, with no general opt-out, so the score stays in the 40 to 50 band.",
+   "detail": [
+    "Article 36 of Law 001-2021 says research on health data is authorised by the regulator after a binding opinion of the Comité d'éthique pour la recherche en santé. Professionals may share data for authorised research 'sauf opposition de la personne concernée'.",
+    "Article 37 requires data to be anonymised as far as possible before transfer, and results must not identify anyone. Research staff are bound by professional secrecy and may not copy the data (Article 39).",
+    "In July 2026 the CIL reviewed a clinical research centre's request, including consent, security and retention. The ANRP authorises and supervises clinical trials.",
+    "We found no central opt-out and no data on how often patients object. Score: base 40, plus 3 each for the CIL permit with ethics opinion, statutory secrecy on research staff, and the partial objection right (49).",
+    "Burkina Faso is not in the EU, so the European Health Data Space rules on secondary use do not apply."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°001-2021/AN portant protection des personnes à l'égard du traitement des données à caractère personnel (full text, Académie de police)",
+     "url": "https://academiedepolice.bf/index.php/telechargement/category/43-cybercriminalite?download=201:loi-n-001-2021-an-portant-sur-la-protection-des-donnees-a-caractere-personnel",
+     "date": "2021-03-30",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sixième session ordinaire de la CIL : le Collège des Commissaires examine plusieurs dossiers (CIL)",
+     "url": "https://cil.bf/?p=1388",
+     "date": "2026-08-25",
+     "publisherClass": "official"
+    },
+    {
+     "title": "ANRP, Agence nationale de régulation pharmaceutique (official site)",
+     "url": "https://anrp.bf/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "We found no rules for AI as a medical device. The 2021 data law requires disclosing the criteria behind AI processing and prior authorisation for predictive AI, and a national AI roadmap for 2026-2030 was validated in June 2026.",
+   "detail": [
+    "Article 19 of Law 001-2021 says that when processing uses artificial intelligence, the criteria and the nature of the data used must be disclosed at collection. Article 15 bars decisions based solely on automated profiling.",
+    "Article 31 requires regulator authorisation for decision-support processing that uses AI for predictive purposes.",
+    "The ANRP registers medical devices, but its site lists no guidance on software or AI. The national AI roadmap mentions tools to support medical diagnosis but is a strategy, not binding rules."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°001-2021/AN portant protection des personnes à l'égard du traitement des données à caractère personnel (full text, Académie de police)",
+     "url": "https://academiedepolice.bf/index.php/telechargement/category/43-cybercriminalite?download=201:loi-n-001-2021-an-portant-sur-la-protection-des-donnees-a-caractere-personnel",
+     "date": "2021-03-30",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ANRP, Agence nationale de régulation pharmaceutique (official site)",
+     "url": "https://anrp.bf/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Intelligence artificielle au Burkina Faso : vers la validation d'une feuille de route nationale (Sidwaya)",
+     "url": "https://www.sidwaya.info/intelligence-artificielle-au-burkina-faso-vers-la-validation-dune-feuille-de-route-nationale/",
+     "date": "2026-06-17",
+     "publisherClass": "news"
+    },
+    {
+     "title": "IA : le Burkina Faso adopte sa feuille de route pour 2026-2030 (Wayeno)",
+     "url": "https://wayeno.net/2026/06/24/ia-le-burkina-faso-adopte-sa-feuille-de-route-pour-2026-2030/",
+     "date": "2026-06-24",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Facilities keep their own registers. ENDOS gathers aggregate public health data, eight linked tools run in pilot districts, and universal insurance claims began in February 2026. No national patient record or interoperability layer was verified.",
+ "laws": [
+  {
+   "name": "Loi n°001-2021/AN portant protection des personnes à l'égard du traitement des données à caractère personnel",
+   "level": "National",
+   "year": "2021",
+   "what": "Access, consent for health data, research opt-out, local hosting of health data, CIL powers and fines.",
+   "url": "https://academiedepolice.bf/index.php/telechargement/category/43-cybercriminalite?download=201:loi-n-001-2021-an-portant-sur-la-protection-des-donnees-a-caractere-personnel"
+  },
+  {
+   "name": "Loi organique n°038-2026/ALP (ARCOD)",
+   "level": "National",
+   "year": "2026",
+   "what": "Merges the CIL and the media regulator into ARCOD; cleared by the Constitutional Council 20 August 2026.",
+   "url": "https://www.conseil-constitutionnel.gov.bf/fileadmin/user_upload/decision_n__2026-019_du_20_aout_2026.pdf"
+  },
+  {
+   "name": "Loi portant protection des personnes physiques à l'égard du traitement des données à caractère personnel (2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "New data protection law adopted 3 August 2026; text and promulgation not verified.",
+   "url": "https://www.sidwaya.info/surete-aerienne-et-protection-des-donnees-a-caractere-personnel-lassemblee-legislative-du-peuple-adopte-les-projets-de-lois/"
+  },
+  {
+   "name": "Loi n°23/94/ADP portant Code de la santé publique",
+   "level": "National",
+   "year": "1994",
+   "what": "Main public health law, including disease notification and transfer of TB and leprosy files.",
+   "url": "https://faolex.fao.org/docs/pdf/bkf197387.pdf"
+  },
+  {
+   "name": "Décret n°2018-0861/PRES/PM/MINEFID/MS (ANRP)",
+   "level": "National",
+   "year": "2018",
+   "what": "Creates the pharmaceutical regulator that registers health products and authorises clinical trials.",
+   "url": "https://anrp.bf/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-21",
+   "headline": "Data regulator signs partnership with Health Ministry on patient data security",
+   "source": "Sidwaya",
+   "url": "https://www.sidwaya.info/protection-des-informations-a-caractere-personnel-la-cil-sensibilise-les-membres-du-cabinet-du-ministere-de-la-sante/",
+   "why": "The CIL pledged to help health facilities protect patient records and comply with the law."
+  },
+  {
+   "date": "2026-01-18",
+   "headline": "Universal health insurance begins paying for care on 1 February 2026",
+   "source": "Lefaso.net",
+   "url": "https://lefaso.net/spip.php?article143814",
+   "why": "A national insurer now holds claims data on insured patients for the first time."
+  },
+  {
+   "date": "2026-06-17",
+   "headline": "Burkina Faso validates national AI roadmap for 2026-2030",
+   "source": "Sidwaya",
+   "url": "https://www.sidwaya.info/intelligence-artificielle-au-burkina-faso-vers-la-validation-dune-feuille-de-route-nationale/",
+   "why": "The roadmap plans diagnostic AI tools before any clinical AI rules exist."
+  },
+  {
+   "date": "2026-07-22",
+   "headline": "Evaluation finds health workers adopting linked digital tools in four districts",
+   "source": "Lefaso.net",
+   "url": "https://lefaso.net/spip.php?article148067",
+   "why": "Shows progress on linking records, but connectivity and funding still limit it."
+  },
+  {
+   "date": "2026-08-03",
+   "headline": "Parliament merges data protection authority with media regulator into ARCOD",
+   "source": "Lefaso.net",
+   "url": "https://lefaso.net/spip.php?article148369",
+   "why": "Patients' data watchdog will share a body with the media regulator."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

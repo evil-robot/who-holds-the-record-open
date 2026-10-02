@@ -1,0 +1,351 @@
+{
+ "iso3": "MNE",
+ "name": "Montenegro",
+ "region": "Europe",
+ "controlModel": "Institutional",
+ "headline": "Montenegrins see prescriptions and lab results online, but the 2026 central record still awaits the agency meant to run it, and patients cannot limit sharing.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 60,
+   "summary": "The 2010 patient rights law gives a right to see and copy the record, at the patient's cost and with no deadline. The eZdravlje portal shows prescriptions and primary care lab results but not hospital letters, so the score sits at the bottom of its band.",
+   "detail": [
+    "Article 21 of the Law on Patients' Rights obliges a health institution to let a patient view and copy their medical records on request. Copies need a written request and are at the patient's own cost. No deadline is set. Refusing access can bring a fine of EUR 1,500 to 20,000.",
+    "The data protection law in force requires a controller to tell a person within 15 days what data it holds about them, at the controller's cost.",
+    "The FZO insurer's eZdravlje portal shows active prescriptions and those dispensed in the last 6 months, lab results from health centre labs, a vaccination card and a record of costs. Hospital labs were still being connected. FZO reported 318,675 registered users in an undated post; current use was not verified.",
+    "The March 2026 digital health law gives patients the right to access their central electronic health record (EZK) and to receive it on paper or electronically. Whether that record was running by September 2026 was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o pravima pacijenata (Sl. list CG 40/10, 40/11), Paragraf Lex",
+     "url": "https://www.paragraf.me/propisi-crnegore/zakon-o-pravima-pacijenata.html",
+     "date": "2010",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Portal eZdravlje (Fond za zdravstveno osiguranje Crne Gore)",
+     "url": "https://www.ezdravlje.me/home/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "FZO: Digitalna platforma eZdravlje ima 318 675 registrovanih korisnika (Facebook)",
+     "url": "https://www.facebook.com/fzocg/videos/-digitalna-platforma-ezdravlje-koju-je-fzo-razvio-za-gra%C4%91ane-danas-ima-318-675-r/580374520692718/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zakon o upravljanju podacima u oblasti zdravstva i digitalnom zdravlju (Sl. list CG 31/2026), Skupstina Crne Gore",
+     "url": "https://zakoni.skupstina.me/zakoni/web/dokumenta/zakoni-i-drugi-akti/832/3998-23744-28-2-26-2-4.pdf",
+     "date": "2026-03-02",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "By law, record data flows automatically into a central record held by the Ministry of Health, and treating clinicians may open it. No opt-out, no patient restriction tool and no access log visible to patients was found.",
+   "detail": [
+    "Under the 2026 digital health law, set data from each provider's electronic record moves automatically into the central EZK. The ministry is its controller and grants access rights at the request of providers.",
+    "Treating clinicians, medical boards and insurance commissions may access the EZK. The law gives patients a right of access but no right to block or limit others' access.",
+    "The current data protection law lets health workers bound by secrecy process health data for diagnosis and treatment without consent.",
+    "Article 29 of the patient rights law lets patients name who may or may not be told about their illness. No national consent tool or access history for patients was found on eZdravlje."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o upravljanju podacima u oblasti zdravstva i digitalnom zdravlju (Sl. list CG 31/2026), Skupstina Crne Gore",
+     "url": "https://zakoni.skupstina.me/zakoni/web/dokumenta/zakoni-i-drugi-akti/832/3998-23744-28-2-26-2-4.pdf",
+     "date": "2026-03-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o zastiti podataka o licnosti, preciscen tekst (AZLP)",
+     "url": "https://www.azlp.me/storage/docs/zajednicka/zakoni/Zakon%20o%20zastiti%20podataka%20o%20licnosti%20-2024.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o pravima pacijenata (Sl. list CG 40/10, 40/11), Paragraf Lex",
+     "url": "https://www.paragraf.me/propisi-crnegore/zakon-o-pravima-pacijenata.html",
+     "date": "2010",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 40,
+   "summary": "The 2008 data protection law, which the European Commission says is not EU-aligned, caps fines at EUR 20,000. In 2025 the Ombudsman found the main hospital leaked a journalist's medical report and its system could not show who printed it.",
+   "detail": [
+    "Health data is a special category under the 2008 law, needing explicit consent unless an exception such as treatment applies. Fines for unlawful processing run from EUR 500 to 20,000. The European Commission's 2025 report says the law is not aligned with EU rules and the AZLP regulator lacks staff, money and IT expertise.",
+    "In May 2025 the Ombudsman found the Clinical Centre of Montenegro breached a patient's privacy after her specialist report reached defence lawyers. It was printed from the account of a worker on sick leave, and the Heliant system could not show from which computer.",
+    "Parliament adopted a GDPR-aligned data protection law in early September 2026. The government's bill set 72-hour breach notice and fines up to EUR 2 million or 4% of turnover, but no administrative fines on state bodies or public institutions. It applies six months after entry into force. The final text was not verified.",
+    "Montenegro is an EU candidate, so the GDPR does not apply. Parts of the new law that refer to EU law apply only on accession."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti podataka o licnosti, preciscen tekst (AZLP)",
+     "url": "https://www.azlp.me/storage/docs/zajednicka/zakoni/Zakon%20o%20zastiti%20podataka%20o%20licnosti%20-2024.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Montenegro Report 2025, SWD(2025) 754 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/9ae69ea7-81d6-4d6a-a204-bd32a379d51d_en?filename=montenegro-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Misljenje i preporuke Zastitnika ljudskih prava, br. 01-253/25 (Klinicki centar Crne Gore)",
+     "url": "https://www.ombudsman.co.me/docs/1749984500_270525_preporuka_kccg.pdf",
+     "date": "2025-05-27",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Predlog Zakona o zastiti podataka o licnosti (Vlada Crne Gore)",
+     "url": "https://wapi.gov.me/download/e260f5f6-b6d3-4c50-9e87-54135a8ea986?version=1.0",
+     "date": "2026-08-10",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Using health data for direct marketing needs the person's consent, but fines top out at EUR 20,000. The 2026 digital health law lets third parties use pseudonymised health data for development and AI work without consent, and no ban on selling health data was found.",
+   "detail": [
+    "Article 15 of the 2008 data protection law requires consent before special-category data, including health data, is used for direct marketing. A breach is a misdemeanour with a fine of EUR 500 to 20,000 for a company.",
+    "Article 52 of the 2026 digital health law allows data from health collections to be used for development, research, education, statistics and building AI, by collection holders and third parties, if pseudonymised or anonymised.",
+    "Access needs a reasoned request and an ethics committee opinion. The law does not exclude commercial users. No rule on data brokers, sale of de-identified data or consumer health apps was found."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti podataka o licnosti, preciscen tekst (AZLP)",
+     "url": "https://www.azlp.me/storage/docs/zajednicka/zakoni/Zakon%20o%20zastiti%20podataka%20o%20licnosti%20-2024.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o upravljanju podacima u oblasti zdravstva i digitalnom zdravlju (Sl. list CG 31/2026), Skupstina Crne Gore",
+     "url": "https://zakoni.skupstina.me/zakoni/web/dokumenta/zakoni-i-drugi-akti/832/3998-23744-28-2-26-2-4.pdf",
+     "date": "2026-03-02",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 50,
+   "summary": "An insurer-run system links health centres, pharmacies, general hospitals and the public health institute, and paper prescriptions are no longer used. The main hospital is only partly linked, and the central record and IZIS duties in the 2025 and 2026 laws are still being phased in.",
+   "detail": [
+    "The ministry's 2023-2027 health strategy says that by May 2018 the integrated system linked the FZO insurer, state pharmacies, health centres, general and special hospitals, emergency services, the public health and medicines institutes and network private providers. The Clinical Centre and the ministry were only partly linked.",
+    "eZdravlje says printed prescriptions are no longer used except in special cases. In July 2026 an FZO equipment fault stopped e-prescribing in health centres for a weekend.",
+    "In June 2026 the State Audit Institution found discharge letters now move from the Clinical Centre to family doctors, but some specialist reports still fail and some insured people are not recognised.",
+    "The 2025 Health Care Law's IZIS articles apply two years after entry into force. The 2026 law requires every provider to connect to IZIS on a phased plan. In September 2026 the government proposed a Digital Health Agency to run it."
+   ],
+   "sources": [
+    {
+     "title": "Strategija razvoja zdravstva za period 2023-2027 (Ministarstvo zdravlja)",
+     "url": "https://wapi.gov.me/download/2414cd07-7fce-41bd-9df1-11eeaba307e7?version=1.0",
+     "date": "2023",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Izvjestaj IV o realizaciji preporuka, revizija IZIS (Drzavna revizorska institucija)",
+     "url": "https://www.dri.co.me/doc/Izvje%C5%A1taj%20o%20realizaciji%20preporuka%20datih%20u%20Izvje%C5%A1taju%20o%20reviziji%20Integralnog%20zdravstvenog%20informacionog%20sistema(IZIS)%20-%20Zakazivanje%20ljekarskih%20pregleda%20kroz%20zdravstveni%20sistem%20-%20Izvje%C5%A1taj%20IV.pdf",
+     "date": "2026-06-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zakon o zdravstvenoj zastiti 2025 (KCCG copy)",
+     "url": "https://www.kccg.me/wp-content/uploads/2025/08/Zakon-o-zdravstvenon-zastiti-2025.pdf",
+     "date": "2025-08-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Vlada osniva Agenciju za digitalno zdravlje (CdM)",
+     "url": "https://www.cdm.me/drustvo/vlada-osniva-agenciju-za-digitalno-zdravlje-koje-ce-poslove-obavljati/",
+     "date": "2026-09-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 42,
+   "summary": "Family doctors now receive the main hospital's discharge letters, but some specialist reports still fail to arrive. The 2026 law gives treating clinicians access to a central record, yet the agency meant to run it was only proposed in September 2026.",
+   "detail": [
+    "The State Audit Institution found in June 2026 that discharge letters from the Clinical Centre reach the primary care system. Some specialist reports fail, partly because doctor codes do not match between the hospital and the FZO.",
+    "Under the 2026 law, clinicians treating a patient, medical boards and insurance commissions may access the EZK. The ministry grants access rights and the Digital Health Agency provides technical access.",
+    "Whether hospital doctors can see a patient's primary care record, and any emergency access rule, was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Izvjestaj IV o realizaciji preporuka, revizija IZIS (Drzavna revizorska institucija)",
+     "url": "https://www.dri.co.me/doc/Izvje%C5%A1taj%20o%20realizaciji%20preporuka%20datih%20u%20Izvje%C5%A1taju%20o%20reviziji%20Integralnog%20zdravstvenog%20informacionog%20sistema(IZIS)%20-%20Zakazivanje%20ljekarskih%20pregleda%20kroz%20zdravstveni%20sistem%20-%20Izvje%C5%A1taj%20IV.pdf",
+     "date": "2026-06-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zakon o upravljanju podacima u oblasti zdravstva i digitalnom zdravlju (Sl. list CG 31/2026), Skupstina Crne Gore",
+     "url": "https://zakoni.skupstina.me/zakoni/web/dokumenta/zakoni-i-drugi-akti/832/3998-23744-28-2-26-2-4.pdf",
+     "date": "2026-03-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Vlada osniva Agenciju za digitalno zdravlje (CdM)",
+     "url": "https://www.cdm.me/drustvo/vlada-osniva-agenciju-za-digitalno-zdravlje-koje-ce-poslove-obavljati/",
+     "date": "2026-09-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "The 2026 law allows research use of pseudonymised or anonymised health data without consent and without an opt-out. Three safeguards count: an ethics committee opinion, a consent route for identifiable data, and statutory professional secrecy.",
+   "detail": [
+    "Article 52 of the 2026 digital health law allows secondary use of health data if pseudonymised or anonymised, and patients need not be told where data protection law allows. Identifiable data needs the patient's prior consent.",
+    "Article 54 requires a reasoned request and an ethics committee or other body's opinion before the collection holder approves access. Results may be published only in anonymised form. A data protection impact assessment is optional.",
+    "The 2025 Health Care Law makes patient health data a professional secret. No re-identification penalty or public register of approved uses was found.",
+    "Research involving patients needs their written, revocable consent under Article 22 of the patient rights law."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o upravljanju podacima u oblasti zdravstva i digitalnom zdravlju (Sl. list CG 31/2026), Skupstina Crne Gore",
+     "url": "https://zakoni.skupstina.me/zakoni/web/dokumenta/zakoni-i-drugi-akti/832/3998-23744-28-2-26-2-4.pdf",
+     "date": "2026-03-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o zdravstvenoj zastiti 2025 (KCCG copy)",
+     "url": "https://www.kccg.me/wp-content/uploads/2025/08/Zakon-o-zdravstvenon-zastiti-2025.pdf",
+     "date": "2025-08-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o pravima pacijenata (Sl. list CG 40/10, 40/11), Paragraf Lex",
+     "url": "https://www.paragraf.me/propisi-crnegore/zakon-o-pravima-pacijenata.html",
+     "date": "2010",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "The 2026 digital health law binds health AI to be safe, reliable and unbiased, and the 2019 device law covers software. That binding principle puts it at the top of the guidance band; AI change control and human oversight rules were not verified.",
+   "detail": [
+    "Article 53 of the 2026 digital health law says AI and algorithmic models in health must be used safely, reliably, without bias and with respect for patient rights. The ministry is to set how this is assessed; those rules were not verified as adopted.",
+    "The 2019 Law on Medical Devices counts software as a medical device. Changes to registration data must be reported before they are made, and changes affecting safety need a decision within 60 days.",
+    "The European Commission's 2025 report says Montenegro should finish aligning device rules and start aligning with the EU AI Act, which does not apply before accession."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o upravljanju podacima u oblasti zdravstva i digitalnom zdravlju (Sl. list CG 31/2026), Skupstina Crne Gore",
+     "url": "https://zakoni.skupstina.me/zakoni/web/dokumenta/zakoni-i-drugi-akti/832/3998-23744-28-2-26-2-4.pdf",
+     "date": "2026-03-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o medicinskim sredstvima (Sl. list CG 24/19), FZO copy",
+     "url": "https://fzocg.me/wp-content/uploads/2023/04/3.Zakon-o-medicinskim-sredstvima.pdf",
+     "date": "2019-04-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Montenegro Report 2025, SWD(2025) 754 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/9ae69ea7-81d6-4d6a-a204-bd32a379d51d_en?filename=montenegro-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "Health centres, pharmacies, general hospitals and FZO claims share one insurer-run system with e-prescriptions. The Clinical Centre is partly linked; hospital labs were still joining. The central record and research access rules exist in law but are being phased in.",
+ "laws": [
+  {
+   "name": "Zakon o upravljanju podacima u oblasti zdravstva i digitalnom zdravlju (Sl. list CG 31/2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "Creates central EZK, IZIS duties, Digital Health Agency, pseudonymised secondary use and health AI principles.",
+   "url": "https://www.sluzbenilist.me/propisi/391488"
+  },
+  {
+   "name": "Zakon o pravima pacijenata (Sl. list CG 40/10, 40/11)",
+   "level": "National",
+   "year": "2010",
+   "what": "Right to view and copy records at own cost; written, revocable consent for research.",
+   "url": "https://www.gov.me/clanak/zakon-o-pravima-pacijenata"
+  },
+  {
+   "name": "Zakon o zdravstvenoj zastiti (2025)",
+   "level": "National",
+   "year": "2025",
+   "what": "Electronic records in IZIS, professional secrecy; IZIS articles apply two years after entry into force.",
+   "url": "https://www.kccg.me/wp-content/uploads/2025/08/Zakon-o-zdravstvenon-zastiti-2025.pdf"
+  },
+  {
+   "name": "Zakon o zastiti podataka o licnosti (Sl. list CG 79/08, as amended to 77/24)",
+   "level": "National",
+   "year": "2008",
+   "what": "Health is special-category data; consent for marketing; fines EUR 500 to 20,000.",
+   "url": "https://www.azlp.me/storage/docs/zajednicka/zakoni/Zakon%20o%20zastiti%20podataka%20o%20licnosti%20-2024.pdf"
+  },
+  {
+   "name": "Zakon o zastiti podataka o licnosti (adopted September 2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "GDPR-aligned replacement; applies six months after entry into force; final text not verified.",
+   "url": "https://wapi.gov.me/download/e260f5f6-b6d3-4c50-9e87-54135a8ea986?version=1.0"
+  },
+  {
+   "name": "Zakon o medicinskim sredstvima (Sl. list CG 24/19)",
+   "level": "National",
+   "year": "2019",
+   "what": "Software counts as a medical device; registration, change notice and vigilance.",
+   "url": "https://fzocg.me/wp-content/uploads/2023/04/3.Zakon-o-medicinskim-sredstvima.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-24",
+   "headline": "Ombudsman finds Clinical Centre breached privacy in journalist's medical report leak",
+   "source": "Radio Titograd",
+   "url": "https://radiotitograd.me/titogradske-vijesti/curenje-medicinskog-izvjestaja-u-kccg-nije-moguce-utvrditi-ko-je-stampao-dokument-novinarke-ane-raickovic/",
+   "why": "The hospital system could not show which computer printed the record, so the person responsible was not identified."
+  },
+  {
+   "date": "2026-03-02",
+   "headline": "Parliament adopts law creating a central electronic health record",
+   "source": "Vijesti",
+   "url": "https://www.vijesti.me/vijesti/drustvo/798227/mzd-usvojeni-zakon-o-upravljanu-podacima-u-oblasti-zdravstva-i-digitalnom-zdravlju",
+   "why": "Patients get a legal right to their central record, but no say over who sees it."
+  },
+  {
+   "date": "2026-06-16",
+   "headline": "Auditors find health information system fixes still only partly done",
+   "source": "Portal Analitika",
+   "url": "https://www.portalanalitika.me/clanak/hronicna-neefikasnost-i-prolongiranje-rokova-integralnog-zdravstvenog-informacionog-sistema",
+   "why": "Some specialist reports still fail to reach family doctors, so patients carry paper."
+  },
+  {
+   "date": "2026-07-07",
+   "headline": "Insurer IT fault halts e-prescriptions in health centres for a weekend",
+   "source": "Vijesti",
+   "url": "https://www.vijesti.me/vijesti/drustvo/816844/kvar-na-it-opremi-doveo-do-problema-elektronski-sistem-u-domovima-zdravlja-i-apotekama-nije-radio-tokom-vikenda",
+   "why": "Shows how much primary care and pharmacies depend on one central system."
+  },
+  {
+   "date": "2026-08-11",
+   "headline": "Government sends GDPR-aligned data protection bill to parliament",
+   "source": "RTNK",
+   "url": "https://rtnk.me/drustvo/sta-predvidja-novi-zakon-o-zastiti-podataka-kazne-do-dva-miliona-eura-gradjanima-veca-prava/",
+   "why": "Brings breach notice and much higher fines for misuse of health data."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

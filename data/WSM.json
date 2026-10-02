@@ -1,0 +1,306 @@
+{
+  "iso3": "WSM",
+  "name": "Samoa",
+  "region": "Oceania",
+  "controlModel": "State",
+  "headline": "Samoa now runs one Ministry electronic record across its main and district hospitals, but has no data protection law and no patient controls.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 25,
+      "summary": "A 2015 Ministry of Health policy lists a patient right to access health information and to receive a medical report on request, but no law gives that right. There is no patient portal, and no deadline or fee rule was found.",
+      "detail": [
+        "The Ministry's Patient Complaint and Grievance Policy 2015 lists patient rights, including the right to access their health information in line with hospital or clinic privacy policy, and the right to receive a medical report on request.",
+        "This is a Ministry policy, not a statute. The Constitution's fundamental rights (Articles 5 to 15) include no right to privacy or to information, and no data protection law exists.",
+        "The Tamanu electronic record is used by health workers. No patient portal or app that shows people their own record was found.",
+        "With a right that exists only in policy, Samoa sits in the 15 to 35 band, below Fiji, which has a constitutional right of access."
+      ],
+      "sources": [
+        {
+          "title": "Patient Complaint and Grievance Policy 2015 (Ministry of Health Samoa)",
+          "url": "https://www.health.gov.ws/wp-content/uploads/2023/02/Patient-Complaint-and-Grievance-Policy-2015.pdf",
+          "date": "2015",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Samoa's Constitution of 1962 with Amendments through 2017 (Constitute Project)",
+          "url": "https://www.constituteproject.org/constitution/Samoa_2017.pdf?lang=en",
+          "date": "2022-04-27",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "control": {
+      "score": 25,
+      "summary": "The Ministry's eHealth policy proposes that the Ministry be the authority granting access to health data, and a patient consent law it called for in 2017 was never found. Records are shared inside one central system with no opt-out or patient-visible access log.",
+      "detail": [
+        "The eHealth Policy and Strategy 2017 to 2022 proposes amending the Ministry of Health Act 2006 so the Ministry is the authority providing data access, with access for all approved users through the eHealth architecture.",
+        "The same policy lists a patient consent law, covering sharing with other systems and across borders, as legislation still needed. No such law was found.",
+        "The Tamanu record is centralised at Tupua Tamasese Meaole Hospital. No opt-out, granular choice or access log that patients can see was found, which places Samoa in the 20 to 35 band.",
+        "The 2015 patient rights policy lets people refuse to take part in research or teaching, but this is a policy, not a law."
+      ],
+      "sources": [
+        {
+          "title": "Samoa eHealth Policy and Strategy 2017-2022 (Ministry of Health Samoa)",
+          "url": "https://www.health.gov.ws/wp-content/uploads/2023/02/Samoa-eHealth-Policy-Strategy-2017-2022.pdf",
+          "date": "2017",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Rural hospitals come online (Samoa Observer)",
+          "url": "https://www.samoaobserver.ws/category/samoa/106872",
+          "date": "2023-11-26",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Patient Complaint and Grievance Policy 2015 (Ministry of Health Samoa)",
+          "url": "https://www.health.gov.ws/wp-content/uploads/2023/02/Patient-Complaint-and-Grievance-Policy-2015.pdf",
+          "date": "2015",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 25,
+      "summary": "Samoa's own cybersecurity strategy says the country has no legal framework for personal data protection; a Data Protection Bill is only planned. The Constitution has no privacy right, and no health privacy law or regulator exists.",
+      "detail": [
+        "The National Cybersecurity Strategy 2025/26 to 2030/31, launched in July 2025, says there is no legal framework for personal data protection. It lists a Data Protection Bill for Cabinet and Parliament as a long-term activity.",
+        "Cyber offences sit in Part 18 of the Crimes Act 2013, with up to 7 years in prison for illegal access. The strategy says these penalties are rarely enforced.",
+        "Section 50 of the Telecommunications Act 2005 limits telecom providers' use of customer information. No health-specific confidentiality rule was found in the Ministry of Health, Mental Health or Nursing Acts.",
+        "No major health data breach was found. Samoa is not in the EU, so GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Samoa National Cybersecurity Strategy 2025/26-2030/31 (Ministry of Communications and Information Technology)",
+          "url": "https://mcit.gov.ws/wp-content/uploads/2026/04/SAMOA_NATIONAL_CYBERSECURITY_STRATEGY-2026.pdf",
+          "date": "2025-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Telecommunications Act 2005 (Office of the Regulator, Samoa)",
+          "url": "https://www.regulator.gov.ws/images/Act/TELECOMMUNICATIONS_ACT_2005_-_Eng.pdf",
+          "date": "2005",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Samoa's Constitution of 1962 with Amendments through 2017 (Constitute Project)",
+          "url": "https://www.constituteproject.org/constitution/Samoa_2017.pdf?lang=en",
+          "date": "2022-04-27",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 20,
+      "summary": "No law limits the sale or marketing use of health data, because Samoa has no personal data protection framework at all. Only telecom providers face a statutory limit on using customer information.",
+      "detail": [
+        "The national cybersecurity strategy states there is no legal framework for personal data protection in Samoa, so nothing covers data brokers, health apps or sales of de-identified data.",
+        "Section 50 of the Telecommunications Act 2005 bars telecom providers from using or disclosing customer information for undisclosed purposes without consent. It does not reach health providers or app makers.",
+        "Public health services dominate care, but private GP clinics and pharmacies also operate. No rule on their use of patient data for marketing was found."
+      ],
+      "sources": [
+        {
+          "title": "Samoa National Cybersecurity Strategy 2025/26-2030/31 (Ministry of Communications and Information Technology)",
+          "url": "https://mcit.gov.ws/wp-content/uploads/2026/04/SAMOA_NATIONAL_CYBERSECURITY_STRATEGY-2026.pdf",
+          "date": "2025-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Telecommunications Act 2005 (Office of the Regulator, Samoa)",
+          "url": "https://www.regulator.gov.ws/images/Act/TELECOMMUNICATIONS_ACT_2005_-_Eng.pdf",
+          "date": "2005",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 45,
+      "summary": "In July 2026 the Tamanu record went live across all inpatient departments of the national hospital, after every Upolu district hospital joined by February 2026. Labs still lack an integrated information system and pharmacy runs on separate mSupply stock software.",
+      "detail": [
+        "Tamanu started in district hospitals in 2023 (Lalomanu, Sa'anapu, then Sataua and Safotu in Savai'i). Poutasi joined in February 2026, completing all Upolu district hospitals.",
+        "Beyond Essential Systems reports 19 wards and departments at Tupua Tamasese Meaole Hospital went live on one day in July 2026, with more than 300 staff.",
+        "A 2025 JMIR study counted an electronic record in 5 of 12 Samoan facilities (41.7%) in 2024. The Ministry's 2023/24 report says Tamanu, Tupaia and mSupply were not yet rolled out to all facilities.",
+        "The 2024 laboratory policy targets an integrated laboratory information system by FY2026/27. No link to private clinics was found."
+      ],
+      "sources": [
+        {
+          "title": "Poutasi hospital launches Electronic Health Record system (Samoa Observer)",
+          "url": "https://www.samoaobserver.ws/category/samoa/118777",
+          "date": "2026-03-05",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Anatomy of a digital health Go-Live (BES International)",
+          "url": "https://www.bes.au/anatomy-of-a-digital-health-go-live/",
+          "date": "2026-07-14",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "National Medical Laboratory Policy and Action Plan FY2024/25-FY2028/29 (Ministry of Health Samoa)",
+          "url": "https://www.health.gov.ws/wp-content/uploads/2025/02/FINAL-NATIONAL-MEDICAL-LABORATORY-POLICY-2024-2029-_07_01_2025.pdf",
+          "date": "2025-01-07",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 48,
+      "summary": "Because Tamanu is one central record, authorised staff can now see a patient's history across visits and facilities, including on referral from rural hospitals to the national hospital. This only became hospital-wide at the national hospital in July 2026.",
+      "detail": [
+        "The Ministry prepared the remaining departments of Tupua Tamasese Meaole Hospital for a Tamanu go-live on 6 July 2026, using clinicians already on the system as Digital Health Champions.",
+        "Samoa Newshub, reporting the Australian High Commission's announcement, says the system lets providers access patients' records across facilities and visits, so referred patients' information follows them.",
+        "Before Tamanu, the Director General said in 2023 that staff searching paper files might not find a patient's notes. Use in health centres and private clinics was not shown, which keeps the score in the mixed band."
+      ],
+      "sources": [
+        {
+          "title": "Preparing for TTM Go-Live: Clinicians Leading the Change (Ministry of Health Samoa)",
+          "url": "https://www.health.gov.ws/preparing-for-ttm-go-live-clinicians-leading-the-change/",
+          "date": "2026-06-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Tamanu electronic health record system goes live at TTM Hospital (Samoa Newshub)",
+          "url": "https://samoanewshub.com/2026/07/23/tamanu-electronic-health-record-system-goes-live-at-ttm-hospital/",
+          "date": "2026-07-23",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Rural hospitals come online (Samoa Observer)",
+          "url": "https://www.samoaobserver.ws/category/samoa/106872",
+          "date": "2023-11-26",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "The Samoa National Health Research Committee must approve research using health data, checks privacy and consent forms, and requires researchers not to identify individuals. There is no opt-out or consent rule for secondary use of records.",
+      "detail": [
+        "The National Health Research Guidelines 2021 require anyone using Ministry health data to apply to the Committee. Criteria include respect for privacy and use of appropriate consent forms when applicable.",
+        "Approved researchers sign a Memorandum of Agreement, pay a research permit and undertake not to identify individuals in their reports. Overseas researchers need a letter from the Prime Minister's Office.",
+        "The Ministry's 2023/24 report says 7 research agreements were signed. These are guidelines, not law. Base 40, plus 3 for the permit and ethics body."
+      ],
+      "sources": [
+        {
+          "title": "Samoa National Health Research Guidelines 2021 (Ministry of Health Samoa)",
+          "url": "https://www.health.gov.ws/wp-content/uploads/2023/02/Samoa-National-Health-Research-Guidelines.pdf",
+          "date": "2021",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ministry of Health Annual Report FY2023/2024 (Ministry of Health Samoa)",
+          "url": "https://www.health.gov.ws/wp-content/uploads/2026/05/MOH-ANNUAL-REPORT-FY2023.2024-ENGLISH-FINAL-FINAL.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 18,
+      "summary": "No rules for clinical AI or medical device software were found. The Ministry's own medicines policy says a regulatory framework for pharmaceuticals is urgently needed and the core drug law dates from 1967.",
+      "detail": [
+        "The National Medicines Policy FY2023/24 to FY2027/28 says Samoa's legal frameworks are too old for new developments. It calls for a review of the Drugs Act 1967 and for autonomous regulation of medicines and technologies.",
+        "No national AI law, health AI guidance or regulation of AI as a medical device was found.",
+        "The cybersecurity strategy names AI as an emerging technology but sets no rules for it. With nothing found, Samoa falls in the 15 to 30 band for non-EU countries."
+      ],
+      "sources": [
+        {
+          "title": "National Medicines Policy and Plan of Action FY2023/24-FY2027/28 (Ministry of Health Samoa)",
+          "url": "https://www.health.gov.ws/wp-content/uploads/2024/06/FINAL-NATIONAL-MEDICINES-POLICY-PLAN-OF-ACTION_MASTER-COPY.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Samoa National Cybersecurity Strategy 2025/26-2030/31 (Ministry of Communications and Information Technology)",
+          "url": "https://mcit.gov.ws/wp-content/uploads/2026/04/SAMOA_NATIONAL_CYBERSECURITY_STRATEGY-2026.pdf",
+          "date": "2025-07",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "connected",
+    "labs": "partial",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Tamanu links the national hospital and district hospitals in one central record. Labs await an integrated information system, pharmacy uses mSupply for stock, Tupaia aggregates public health data, and private clinics are not shown as connected.",
+  "laws": [
+    {
+      "name": "Constitution of the Independent State of Samoa, Part II",
+      "level": "National",
+      "year": "1962",
+      "what": "Fundamental rights in Articles 5 to 15; no right to privacy or to information.",
+      "url": "https://www.constituteproject.org/constitution/Samoa_2017.pdf?lang=en"
+    },
+    {
+      "name": "Telecommunications Act 2005, sections 48 to 51",
+      "level": "National",
+      "year": "2005",
+      "what": "Telecom providers must protect customer information and not use it for undisclosed purposes; government access allowed.",
+      "url": "https://www.regulator.gov.ws/images/Act/TELECOMMUNICATIONS_ACT_2005_-_Eng.pdf"
+    },
+    {
+      "name": "Ministry of Health Act 2006",
+      "level": "National",
+      "year": "2006",
+      "what": "Sets Ministry functions, including health information, research and consumer complaint systems; no patient data rights.",
+      "url": "https://www.health.gov.ws/wp-content/uploads/2022/07/7Ministry_of_Health_Act_2006_-_Eng.pdf"
+    },
+    {
+      "name": "Patient Complaint and Grievance Policy 2015",
+      "level": "National",
+      "year": "2015",
+      "what": "Ministry policy, not law; lists rights to confidentiality, access to health information and a medical report.",
+      "url": "https://www.health.gov.ws/wp-content/uploads/2023/02/Patient-Complaint-and-Grievance-Policy-2015.pdf"
+    },
+    {
+      "name": "Samoa National Health Research Guidelines 2021",
+      "level": "National",
+      "year": "2021",
+      "what": "Research using health data needs Committee approval, a permit and an undertaking not to identify individuals.",
+      "url": "https://www.health.gov.ws/wp-content/uploads/2023/02/Samoa-National-Health-Research-Guidelines.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-03-05",
+      "headline": "Poutasi hospital goes live, completing electronic records in all Upolu district hospitals",
+      "source": "Samoa Observer",
+      "url": "https://www.samoaobserver.ws/category/samoa/118777",
+      "why": "Rural patients' visits are now captured in the same national record."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Australia to place a cybersecurity adviser inside Samoa's ICT ministry",
+      "source": "Samoa Observer",
+      "url": "https://samoaobserver.ws/category/samoa/119874",
+      "why": "Government systems holding health records gain security help while no data protection law exists."
+    },
+    {
+      "date": "2026-06-02",
+      "headline": "Australia donates SAT$450,000 of computers for Samoa's e-Health project",
+      "source": "Samoa Observer",
+      "url": "https://www.samoaobserver.ws/category/samoa/120247",
+      "why": "Equipment lets more health workers open patient records; Australian support totals about SAT$7.5 million since 2021."
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "Tamanu electronic record goes live across the national hospital at Moto'otua",
+      "source": "Samoa Newshub",
+      "url": "https://samoanewshub.com/2026/07/23/tamanu-electronic-health-record-system-goes-live-at-ttm-hospital/",
+      "why": "Referred patients' histories can now follow them from rural hospitals to the national hospital."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

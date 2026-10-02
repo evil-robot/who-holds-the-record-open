@@ -1,0 +1,154 @@
+{
+  "iso3": "SLV",
+  "name": "El Salvador",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "El Salvador gave patients new data rights in 2024 and a state AI telemedicine app in 2025, but public records are shared without individual choice.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 50,
+      "summary": "The 2024 data law gives free access within 20 working days, and a 2026 ministry rule adds copies, summaries and export of the electronic record. No national portal shows the public record; the DoctorSV app shows only its own visits.",
+      "detail": [
+        "The Ley para la Proteccion de Datos Personales (Decreto 144, 2024), Article 8, gives a free right to obtain all information held about oneself, in clear form. Requests must be answered within 20 working days, extendable once by 20 more.",
+        "Article 41 of the Ministry of Health's Norma tecnica del expediente clinico, added in a March 2026 reform, lets patients ask the facility's data protection officer in writing for a copy, a summary or an export of their electronic record.",
+        "The 2016 patients' rights law (Decreto 307) gives a right to information about diagnosis, tests, imaging and treatment, and a written discharge report, but no explicit right to a copy of the record.",
+        "The state DoctorSV telemedicine app, launched in November 2025, shows users their own DoctorSV record with results loaded into it. Whether it shows records from Ministry or social security facilities was not verified."
+      ],
+      "sources": [
+        {"title": "Decreto 144, Ley para la Proteccion de Datos Personales (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/7A4FBD85-7E1B-46BE-9408-6FC549E53E00.pdf", "date": "2024-11-15", "publisherClass": "legal_text"},
+        {"title": "Norma tecnica del expediente clinico, con reforma (Ministerio de Salud)", "url": "https://asp.salud.gob.sv/regulacion/pdf/norma/normatecnicadelexpedienteclinico-Acuerdo-Ejecutivo-1616-30052024_v1-reforma1.pdf", "date": "2026-03-19", "publisherClass": "official"},
+        {"title": "Decreto 307, Ley de Deberes y Derechos de los Pacientes y Prestadores de Servicios de Salud (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/171117_073651293_archivo_documento_legislativo.pdf", "date": "2016-04-08", "publisherClass": "legal_text"},
+        {"title": "Como funciona DoctorSV (El Diario de Hoy)", "url": "https://www.elsalvador.com/noticias/nacional/medicina-salud-inteligencia-artificial-el-salvador/1250980/2025/", "date": "2025-11-13", "publisherClass": "news"}
+      ]
+    },
+    "control": {
+      "score": 45,
+      "summary": "Health data may be used for care without consent, and each person's digital record is open to all public providers, with no opt-out. Every access must be logged and the data law lets patients learn who consulted their data, but practice was not verified.",
+      "detail": [
+        "Article 37 of the data protection law requires express consent for sensitive data, but exempts health data processed for diagnosis, care or health service management by staff bound by professional secrecy.",
+        "The health record norm cites the 2019 national health system law (Articles 24 to 26): each user gets one medical record, available digitally to all public providers. No way to refuse or restrict that sharing was found.",
+        "Norm Articles 55 and 56 require the system to log every access attempt and what was viewed, kept at least two years. Article 8 of the data law says access responses must name who consulted the data and why.",
+        "No patient-facing access log or published request process was found (not verified). DoctorSV users accept data terms when they register."
+      ],
+      "sources": [
+        {"title": "Decreto 144, Ley para la Proteccion de Datos Personales (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/7A4FBD85-7E1B-46BE-9408-6FC549E53E00.pdf", "date": "2024-11-15", "publisherClass": "legal_text"},
+        {"title": "Norma tecnica del expediente clinico, con reforma (Ministerio de Salud)", "url": "https://asp.salud.gob.sv/regulacion/pdf/norma/normatecnicadelexpedienteclinico-Acuerdo-Ejecutivo-1616-30052024_v1-reforma1.pdf", "date": "2026-03-19", "publisherClass": "official"},
+        {"title": "DoctorSV usara datos personales y de salud para investigaciones cientificas (Diario El Mundo)", "url": "https://diario.elmundo.sv/nacionales/doctorsv-compartira-datos-de-salud-para-investigaciones-cientificas", "date": "2025-11-18", "publisherClass": "news"}
+      ]
+    },
+    "privacy": {
+      "score": 42,
+      "summary": "Health data is sensitive under the 2024 law, with 72-hour breach notice and fines up to 40 monthly minimum wages. The regulator's director is appointed and removable by the President, public security is excluded, and the sanction procedure only took effect in August 2026.",
+      "detail": [
+        "Decreto 144 lists physical and mental health and genetic data as sensitive. Article 25 requires notice of a breach to the State Cybersecurity Agency (ACE), the Attorney General and affected people within 72 hours. Very serious faults carry fines of 26 to 40 monthly minimum wages (commerce sector).",
+        "Article 3 excludes processing for public security, defence and crime prevention. Under the 2024 cybersecurity law (Decreto 143) the ACE has administrative autonomy, but its directors are appointed and removable by the President.",
+        "In June 2026 UNESCO urged separating state security from privacy oversight, both held by the ACE (La Prensa Grafica). The ACE sanction procedure took effect on 19 August 2026; no health-data decisions were found.",
+        "In 2024 data on 974,428 social security (ISSS) affiliates leaked, including names, employers, salaries and addresses (IPANDETEC). DoctorSV data is stored on Google's cloud."
+      ],
+      "sources": [
+        {"title": "Decreto 144, Ley para la Proteccion de Datos Personales (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/7A4FBD85-7E1B-46BE-9408-6FC549E53E00.pdf", "date": "2024-11-15", "publisherClass": "legal_text"},
+        {"title": "Decreto 143, Ley de Ciberseguridad y Seguridad de la Informacion (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/5BD19CFF-F658-4770-8391-8493916A3129.pdf", "date": "2024-11-15", "publisherClass": "legal_text"},
+        {"title": "UNESCO insta a mejorar proteccion de datos ante uso de IA en El Salvador (La Prensa Grafica)", "url": "https://www.laprensagrafica.com/elsalvador/unesco-insta-a-mejorar-proteccion-de-datos-ante-uso-de-ia-en-el-salvador-20260611-0128.html", "date": "2026-06-11", "publisherClass": "news"},
+        {"title": "Filtracion masiva de datos en El Salvador (IPANDETEC)", "url": "https://ipandetec.org/el-salvador/filtracion-masiva-de-datos-en-el-salvador-y-la-necesidad-de-contar-medidas-de-ciberseguridad-y-regulacion-sobre-proteccion-de-datos-personales/", "date": "2024-09-17", "publisherClass": "blog_vendor"}
+      ]
+    },
+    "commercial": {
+      "score": 48,
+      "summary": "Selling personal data without consent, or reversing pseudonymisation, is a very serious offence under the 2024 law, and people may object to marketing profiling. There is no enforcement record, and DoctorSV's contracts with private partners have not been disclosed.",
+      "detail": [
+        "Article 56 of Decreto 144 classes trading personal data without the owner's consent, and reversing pseudonymisation without consent, as very serious faults. Article 49 bars public bodies from selling or passing on data without express consent, except for pseudonymised statistics, other state bodies, crime investigation or court orders.",
+        "Article 12 gives a right to object to profiling for commercial or direct marketing purposes.",
+        "DoctorSV sends prescriptions and test orders to private labs, imaging centres and pharmacies. La Prensa Grafica reported in April 2026 that the government had not released DoctorSV's contracts with private companies.",
+        "No rules aimed at consumer health apps or data brokers were found."
+      ],
+      "sources": [
+        {"title": "Decreto 144, Ley para la Proteccion de Datos Personales (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/7A4FBD85-7E1B-46BE-9408-6FC549E53E00.pdf", "date": "2024-11-15", "publisherClass": "legal_text"},
+        {"title": "Evaluaran impacto y rendimiento de la inteligencia artificial en aplicacion DoctorSV (La Prensa Grafica)", "url": "https://www.laprensagrafica.com/elsalvador/evaluaran-impacto-y-rendimiento-de-la-inteligencia-artificial-en-aplicacion-doctorsv-20260427-0100.html", "date": "2026-04-27", "publisherClass": "news"}
+      ]
+    },
+    "journey": {
+      "score": 52,
+      "summary": "The Ministry's Integrated Health System (SIS) links public hospitals and clinics in one digital record, and since 2025 sits inside the social security record. Current coverage was not verified from a ministry source, and private providers connect only through DoctorSV orders.",
+      "detail": [
+        "The 2019 national health system law requires one medical record per user, available digitally to all public providers, per the Ministry's record norm. In 2022 the Presidency said SIS would reach all public facilities and let staff see a patient's history in any facility.",
+        "A 2023 government statement, reported by Diario El Salvador, said all national hospitals and over 90 percent of health units were on SIS. This figure was not verified against a Ministry source.",
+        "In June 2025 the ISSS doctors' union said SIS had been added as a tab in the social security record, mandatory only in outpatient care.",
+        "DoctorSV stores visits in a FHIR repository and sends orders by QR code to 78 private labs, 49 imaging centres and 322 pharmacies (Lancet Regional Health Americas, 2026)."
+      ],
+      "sources": [
+        {"title": "Modernizacion del sistema publico de salud se fortalece al integrar servicios (Presidencia)", "url": "https://www.presidencia.gob.sv/modernizacion-del-sistema-publico-de-salud-se-fortalece-al-integrar-servicios-en-hospitales-y-unidades-de-salud/", "date": "2022-07-09", "publisherClass": "official"},
+        {"title": "Norma tecnica del expediente clinico, con reforma (Ministerio de Salud)", "url": "https://asp.salud.gob.sv/regulacion/pdf/norma/normatecnicadelexpedienteclinico-Acuerdo-Ejecutivo-1616-30052024_v1-reforma1.pdf", "date": "2026-03-19", "publisherClass": "official"},
+        {"title": "Plataforma digital MINSAL ya se integro al expediente electronico ISSS (La Prensa Grafica)", "url": "https://www.laprensagrafica.com/elsalvador/Plataforma-digital-MINSAL-ya-se-integro-al-expediente-electronico-ISSS-20250627-0096.html", "date": "2025-06-27", "publisherClass": "news"},
+        {"title": "Nationwide implementation of AI-assisted telemedicine in El Salvador (Lancet Regional Health Americas, PMC13404066)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13404066/", "date": "2026-02-18", "publisherClass": "academic"}
+      ]
+    },
+    "clinical": {
+      "score": 55,
+      "summary": "Public clinicians are meant to see a patient's SIS history, including vaccines, results, diagnoses and medicines, in any Ministry facility. Social security doctors see SIS as an extra tab, and private clinicians get only summaries on official request.",
+      "detail": [
+        "The record norm says the law makes each user's record available digitally to all public providers. A 2023 government statement said a doctor anywhere in the country could see vaccines, test results, diseases and current treatment (Diario El Salvador).",
+        "ISSS doctors said in June 2025 that SIS is integrated in all modules of their system but its use is not yet required outside outpatient care.",
+        "Private providers must give a summary of medical information when officially requested, under the 2019 law (vLex text). No route for private clinicians to view the public record was found.",
+        "Emergency access rules for outside providers were not verified."
+      ],
+      "sources": [
+        {"title": "Norma tecnica del expediente clinico, con reforma (Ministerio de Salud)", "url": "https://asp.salud.gob.sv/regulacion/pdf/norma/normatecnicadelexpedienteclinico-Acuerdo-Ejecutivo-1616-30052024_v1-reforma1.pdf", "date": "2026-03-19", "publisherClass": "official"},
+        {"title": "Digitalizacion del sistema de salud permite consultar expediente en linea (Diario El Salvador)", "url": "https://diarioelsalvador.com/depais/digitalizacion-del-sistema-de-salud-permite-consultar-expediente-en-linea/349756", "date": "2023-04-14", "publisherClass": "news"},
+        {"title": "Plataforma digital MINSAL ya se integro al expediente electronico ISSS (La Prensa Grafica)", "url": "https://www.laprensagrafica.com/elsalvador/Plataforma-digital-MINSAL-ya-se-integro-al-expediente-electronico-ISSS-20250627-0096.html", "date": "2025-06-27", "publisherClass": "news"},
+        {"title": "Decreto 302, Ley del Sistema Nacional Integrado de Salud (vLex)", "url": "https://sv.vlex.com/vid/decreto-no-302-ley-923561073", "date": "2019", "publisherClass": "legal_text"}
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Medical research needs written informed consent under the 2016 patients' law, and trials need ethics committee and regulator approval. Pseudonymised health data can be used for research without consent and with no opt-out.",
+      "detail": [
+        "Article 16 of Decreto 307 requires anyone invited into medical research to receive its aims, risks and confidentiality terms, and to give consent. Running research on a patient without written consent is an offence under the same law.",
+        "The medical device regulation RTS 11.03.02:21 requires clinical trials to be approved by an independent ethics committee recognised by the DNM, with the DNM authorising execution.",
+        "Articles 38 and 49 of the data law allow research use of dissociated or pseudonymised data without consent. Reversing pseudonymisation without consent is a very serious fault.",
+        "DoctorSV's terms say users authorise anonymised use of their health data for research when they register. No public register of research uses was found."
+      ],
+      "sources": [
+        {"title": "Decreto 307, Ley de Deberes y Derechos de los Pacientes y Prestadores de Servicios de Salud (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/171117_073651293_archivo_documento_legislativo.pdf", "date": "2016-04-08", "publisherClass": "legal_text"},
+        {"title": "Decreto 144, Ley para la Proteccion de Datos Personales (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/7A4FBD85-7E1B-46BE-9408-6FC549E53E00.pdf", "date": "2024-11-15", "publisherClass": "legal_text"},
+        {"title": "RTS 11.03.02:21 Dispositivos medicos, requisitos para la regulacion sanitaria (OSARTEC)", "url": "https://osartec.gob.sv/wp-content/uploads/download-manager-files/RTS%20RS-DM_CPNyNI%2018-11-21.pdf", "date": "undated", "publisherClass": "legal_text"},
+        {"title": "DoctorSV usara datos personales y de salud para investigaciones cientificas (Diario El Mundo)", "url": "https://diario.elmundo.sv/nacionales/doctorsv-compartira-datos-de-salud-para-investigaciones-cientificas", "date": "2025-11-18", "publisherClass": "news"}
+      ]
+    },
+    "ai": {
+      "score": 35,
+      "summary": "Device rules cover software and require reporting of post-registration changes, but no clinical AI rule exists, the same footing as Paraguay and Panama. A 2025 AI law created a national AI agency, but no risk framework issued under it was found.",
+      "detail": [
+        "RTS 11.03.02:21 defines medical devices to include software and requires changes affecting performance to be reported to the DNM. No AI or machine learning provisions were found.",
+        "The Ley de Fomento a Inteligencia Artificial y Tecnologias (Decreto 234, February 2025) creates the ANIA, an autonomous body that works through the Presidency. Article 17 says the ANIA will set a risk framework, binding only for systems handling personal or confidential data. No issued framework was found.",
+        "DoctorSV uses Google's Gemini models for triage, case summaries, diagnosis suggestions and coding; the physician sets the final diagnosis. A pragmatic trial of its diagnostic accuracy is planned for 2026 (Lancet Regional Health Americas).",
+        "A UNESCO readiness assessment presented in June 2026 recommended rights protections to complement the promotion-focused AI law."
+      ],
+      "sources": [
+        {"title": "RTS 11.03.02:21 Dispositivos medicos, requisitos para la regulacion sanitaria (OSARTEC)", "url": "https://osartec.gob.sv/wp-content/uploads/download-manager-files/RTS%20RS-DM_CPNyNI%2018-11-21.pdf", "date": "undated", "publisherClass": "legal_text"},
+        {"title": "Ley de Fomento a Inteligencia Artificial y Tecnologias (Asamblea Legislativa)", "url": "https://www.asamblea.gob.sv/leyes-y-decretos/view/6137", "date": "2025-02-26", "publisherClass": "legal_text"},
+        {"title": "Nationwide implementation of AI-assisted telemedicine in El Salvador (Lancet Regional Health Americas, PMC13404066)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13404066/", "date": "2026-02-18", "publisherClass": "academic"},
+        {"title": "El Salvador avanza hacia una inteligencia artificial centrada en las personas (UNESCO)", "url": "https://www.unesco.org/es/articles/el-salvador-avanza-hacia-una-inteligencia-artificial-centrada-en-las-personas", "date": "2026-06-18", "publisherClass": "intergov"}
+      ]
+    }
+  },
+  "journey": {"primaryCare": "connected", "hospital": "connected", "labs": "partial", "pharmacy": "partial", "claims": "unknown", "publicHealth": "partial", "research": "unknown"},
+  "journeyNote": "SIS links Ministry hospitals and health units, and sits as a tab in the social security record. DoctorSV routes lab, imaging and pharmacy orders to private providers. Coverage figures come from government statements, not verified Ministry data.",
+  "laws": [
+    {"name": "Decreto 307, Ley de Deberes y Derechos de los Pacientes y Prestadores de Servicios de Salud", "level": "National", "year": "2016", "what": "Right to information, confidentiality of the record, and written consent for medical research.", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/171117_073651293_archivo_documento_legislativo.pdf"},
+    {"name": "Decreto 302, Ley del Sistema Nacional Integrado de Salud", "level": "National", "year": "2019", "what": "Creates a single health information system and one digital record per user across public providers.", "url": "https://sv.vlex.com/vid/decreto-no-302-ley-923561073"},
+    {"name": "Decreto 144, Ley para la Proteccion de Datos Personales", "level": "National", "year": "2024", "what": "Health data sensitive; free access; 72-hour breach notice; fines up to 40 minimum wages.", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/7A4FBD85-7E1B-46BE-9408-6FC549E53E00.pdf"},
+    {"name": "Decreto 143, Ley de Ciberseguridad y Seguridad de la Informacion", "level": "National", "year": "2024", "what": "Creates the State Cybersecurity Agency (ACE), also the data protection authority; directors named by the President.", "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/5BD19CFF-F658-4770-8391-8493916A3129.pdf"},
+    {"name": "Norma tecnica del expediente clinico (Ministerio de Salud)", "level": "National", "year": "2024", "what": "Record custody, access logs, and since 2026 patient copies, summaries and electronic export.", "url": "https://asp.salud.gob.sv/regulacion/pdf/norma/normatecnicadelexpedienteclinico-Acuerdo-Ejecutivo-1616-30052024_v1-reforma1.pdf"},
+    {"name": "Decreto 234, Ley de Fomento a Inteligencia Artificial y Tecnologias", "level": "National", "year": "2025", "what": "Promotes AI, creates the ANIA agency and a risk framework for systems using personal data.", "url": "https://www.asamblea.gob.sv/leyes-y-decretos/view/6137"},
+    {"name": "RTS 11.03.02:21 Dispositivos medicos, requisitos para la regulacion sanitaria", "level": "National", "year": "2021", "what": "Medical device registration, including software; change reporting; ethics approval for device trials.", "url": "https://osartec.gob.sv/wp-content/uploads/download-manager-files/RTS%20RS-DM_CPNyNI%2018-11-21.pdf"}
+  ],
+  "news": [
+    {"date": "2026-08-26", "headline": "Data protection sanction procedure takes effect, run by the ACE", "source": "Infobae", "url": "https://www.infobae.com/el-salvador/2026/08/26/entran-en-vigor-las-multas-por-infraccion-de-datos-en-el-salvador-calculadas-segun-la-gravedad-y-capacidad-economica/", "why": "Patients can now file complaints that may lead to fines, with sensitive data weighed more heavily."},
+    {"date": "2026-06-11", "headline": "UNESCO urges stronger data protection and separate privacy oversight for AI", "source": "La Prensa Grafica", "url": "https://www.laprensagrafica.com/elsalvador/unesco-insta-a-mejorar-proteccion-de-datos-ante-uso-de-ia-en-el-salvador-20260611-0128.html", "why": "The same agency handles state security and privacy, which weakens independent protection of health data."},
+    {"date": "2026-04-30", "headline": "Doctors and experts question how DoctorSV handles patient data", "source": "La Prensa Grafica", "url": "https://www.laprensagrafica.com/elsalvador/cuestionan-el-manejo-de-datos-de-pacientes-en-aplicacion-doctorsv-20260430-0100.html", "why": "Records sit on Google's cloud under a vague privacy notice, with no clear way to refuse sharing."},
+    {"date": "2025-11-18", "headline": "DoctorSV terms allow anonymised use of health data for research", "source": "Diario El Mundo", "url": "https://diario.elmundo.sv/nacionales/doctorsv-compartira-datos-de-salud-para-investigaciones-cientificas", "why": "Research consent is bundled into app registration rather than asked separately."},
+    {"date": "2025-11-13", "headline": "Government launches DoctorSV, a free AI-assisted telemedicine app", "source": "El Diario de Hoy", "url": "https://www.elsalvador.com/noticias/nacional/medicina-salud-inteligencia-artificial-el-salvador/1250980/2025/", "why": "Gives users an app record and e-prescriptions, with AI built into consultations."}
+  ],
+  "asOf": "2026-10-01"
+}

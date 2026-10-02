@@ -1,0 +1,316 @@
+{
+ "iso3": "YEM",
+ "name": "Yemen",
+ "region": "Middle East",
+ "controlModel": "Institutional",
+ "headline": "Yemen, split between rival authorities and at war, has no data protection law; most clinics still keep paper records and no patient portal exists.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 25,
+   "summary": "Law No. 13 of 2012 lets a person see only the personal data they gave a public body, so it is not a right to the whole chart. With paper records in most facilities and no portal, Yemen sits between Sudan (22) and Iraq (30).",
+   "detail": [
+    "Article 57 of Law No. 13 of 2012 says whoever offers personal data may access the data they submitted, check it and ask for correction. The law covers public bodies and bodies funded from the state budget, not private clinics.",
+    "Public bodies must answer requests within 15 days and may charge only the actual cost of copies. Article 25 requires officials to refuse personal data whose disclosure would invade privacy.",
+    "The 2002 medical professions law makes doctors keep a register of patient visits and diagnoses (Article 11) and lets them share secrets with the patient (Article 23). It sets no right to a copy.",
+    "The World Bank found paper systems in most of 5,393 facilities in 2024. We found no patient portal. Whether the Commissioner-General's complaints office works today was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 13 of 2012 on the Right of Access to Information, English translation (WIPO Lex)",
+     "url": "https://www.wipo.int/wipolex/en/legislation/details/20003",
+     "date": "2012-04-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Republican Decree Law No. 26 of 2002 on Practising the Medical and Pharmacy Professions, Arabic text (Yemeni Law)",
+     "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almihan-altibiya-walsaydaliya/",
+     "date": "2002",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Health Information Systems in Yemen (World Bank)",
+     "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/cdb53fc6-4d3e-42b6-8c2f-8fc6e4a3a5a7/content",
+     "date": "2024-03-15",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "control": {
+   "score": 25,
+   "summary": "Patients have no consent tools, no opt-out and no access log. Law No. 13 does require written consent before a public body passes personal data to a third party, which puts Yemen just above Sudan (22).",
+   "detail": [
+    "Article 52 of Law No. 13 bars a body storing personal data from giving it to a third party without the written consent of the person concerned. Article 54 bars using the data for other purposes.",
+    "The 2002 medical professions law (Article 23) makes practitioners keep patient secrets, but allows disclosure on a prosecutor or court order, to report a crime or infectious disease, and when official bodies ask in the public interest.",
+    "Article 22 of the same law requires patient consent before any medical intervention, except emergencies. It says nothing about data sharing.",
+    "We found no patient-facing consent tool or access log in any system the ministry describes."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 13 of 2012 on the Right of Access to Information, English translation (WIPO Lex)",
+     "url": "https://www.wipo.int/wipolex/en/legislation/details/20003",
+     "date": "2012-04-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Republican Decree Law No. 26 of 2002 on Practising the Medical and Pharmacy Professions, Arabic text (Yemeni Law)",
+     "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almihan-altibiya-walsaydaliya/",
+     "date": "2002",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The journey of the health information system and digital health in Yemen 2021 to 2026 (Ministry of Public Health and Population)",
+     "url": "https://moh-ye.org/?p=13758",
+     "date": "2026-09-29",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 22,
+   "summary": "Yemen has no data protection law, no regulator and no breach notice rule; the constitution protects only communications. Biometric ID data is stored in Saudi Arabia with no legal framework, and Houthi forces seized devices at a UN office in Sana'a in October 2025.",
+   "detail": [
+    "Article 53 of the constitution protects the confidentiality of mail, telephone and other communications, except by law and court order. It does not cover health records. A 2021 Hemaiah Center review found no dedicated data protection law.",
+    "Law No. 13 has employee penalties of at least three months in prison or a 150,000 riyal fine for deliberate breaches of its personal data articles. We found no case.",
+    "The Sana'a Center reported in July 2026 that biometric ID data is stored in Saudi Arabia and launched without a legal framework for data protection. In October 2025 Houthi forces seized electronic devices at the UNOPS office in Sana'a; Yemen Monitor also reported a separate raid that took a UNHCR beneficiary database."
+   ],
+   "sources": [
+    {
+     "title": "Yemen's Constitution of 1991 with amendments through 2015 (Constitute Project)",
+     "url": "https://www.constituteproject.org/constitution/Yemen_2015?lang=en",
+     "date": "2015",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Yemeni laws governing collection of personal data (Hemaiah Center for Human Rights)",
+     "url": "https://hemaiahcenter.org/the-yemeni-laws-governing-collection-of-personal-data/?lang=en",
+     "date": "2021-05-16",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "How the Biometric ID Card Became a Matter of Data Protection, Sovereignty, and National Security (Sana'a Center, The Yemen Review)",
+     "url": "https://sanaacenter.org/the-yemen-review/april-june-2026/28121",
+     "date": "2026-07-31",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Houthis Storm UN Office for Project Services (UNOPS) in Sana'a (Yemen Monitor)",
+     "url": "https://www.yemenmonitor.com/en/Details/ArtMID/908/ArticleID/153874",
+     "date": "2025-10-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 22,
+   "summary": "No Yemeni law stops private companies selling health data or using it for marketing, because Law No. 13 covers only public bodies. The only private-sector shield is the medical secrecy duty in the 2002 professions law.",
+   "detail": [
+    "Law No. 13 of 2012 applies to state bodies, the public and mixed sectors and bodies funded from the state budget. Its consent and purpose rules do not reach private apps, insurers or data brokers.",
+    "Article 23 of the 2002 law bars practitioners from disclosing patient secrets; Article 33 sets up to one month in prison or a 100,000 riyal fine. It binds licensed doctors and pharmacists, not technology firms.",
+    "We found no rules on health data brokers, sales of de-identified data or consumer health apps."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 13 of 2012 on the Right of Access to Information, English translation (WIPO Lex)",
+     "url": "https://www.wipo.int/wipolex/en/legislation/details/20003",
+     "date": "2012-04-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Republican Decree Law No. 26 of 2002 on Practising the Medical and Pharmacy Professions, Arabic text (Yemeni Law)",
+     "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almihan-altibiya-walsaydaliya/",
+     "date": "2002",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Yemeni laws governing collection of personal data (Hemaiah Center for Human Rights)",
+     "url": "https://hemaiahcenter.org/the-yemeni-laws-governing-collection-of-personal-data/?lang=en",
+     "date": "2021-05-16",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "journey": {
+   "score": 20,
+   "summary": "DHIS2 collects mostly aggregate data from public facilities, but the World Bank says it is not a medical record and Yemen has no patient ID or record standards. Two rival ministries in Aden and Sana'a run separate hubs.",
+   "detail": [
+    "The World Bank's 2024 review says most facilities still use paper registers and tally sheets. Standards such as HL7, FHIR, LOINC and SNOMED CT are not consistently applied, and there is no national patient identifier.",
+    "DHIS2 covers most public facilities but lacks e-prescription, referral, lab and imaging modules. Lab systems rely on paper or Excel.",
+    "The disease early warning system had 2,379 reporting facilities. Coordinating units sit in both Aden and Sana'a.",
+    "The Aden ministry says the 2026 to 2030 health strategy aims for one information architecture, and Decision No. 13 of 2026 set up a virtual health centre meant to feed a unified patient file."
+   ],
+   "sources": [
+    {
+     "title": "Health Information Systems in Yemen (World Bank)",
+     "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/cdb53fc6-4d3e-42b6-8c2f-8fc6e4a3a5a7/content",
+     "date": "2024-03-15",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "The journey of the health information system and digital health in Yemen 2021 to 2026 (Ministry of Public Health and Population)",
+     "url": "https://moh-ye.org/?p=13758",
+     "date": "2026-09-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Director General of Health Information and Research discusses updating medical records to include people with disabilities (Ministry of Public Health and Population)",
+     "url": "https://moh-ye.org/?p=13764",
+     "date": "2026-10-01",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 15,
+   "summary": "The World Bank says Yemen has no point-of-care systems that show clinicians a patient's history, so a treating doctor sees only the file at their own facility. A September 2026 pilot adds disability questions to medical records in Aden and Taiz.",
+   "detail": [
+    "Yemen has no electronic medical records, e-referrals, order entry or clinical decision support at the point of care, according to the World Bank's 2024 review.",
+    "Without a patient identifier, records cannot follow a patient between facilities, the review says.",
+    "On 30 September 2026 the ministry met partners on a pilot to add questions on functional difficulties to medical records in selected facilities in Aden and Taiz, linked to DHIS2. No cross-provider access rules were found."
+   ],
+   "sources": [
+    {
+     "title": "Health Information Systems in Yemen (World Bank)",
+     "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/cdb53fc6-4d3e-42b6-8c2f-8fc6e4a3a5a7/content",
+     "date": "2024-03-15",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Director General of Health Information and Research discusses updating medical records to include people with disabilities (Ministry of Public Health and Population)",
+     "url": "https://moh-ye.org/?p=13764",
+     "date": "2026-10-01",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Researchers apply to the Aden ministry for ethical approval through an online form, and a national ethics committee was reported in 2009. No patient opt-out or consent rule for secondary use of records was found.",
+   "detail": [
+    "The ministry's health information portal has an ethical approval page for health research, with a request form, and a researchers section.",
+    "A 2009 WHO-region survey reported that Yemen has a National Ethics Committee of Medical and Health Research. Its current work across both authorities was not verified.",
+    "The 2002 professions law imposes a statutory secrecy duty on practitioners. We found no clinical trials law, public register of data uses or research opt-out."
+   ],
+   "sources": [
+    {
+     "title": "Ethical approval for health research (Ministry of Public Health and Population)",
+     "url": "https://moh-ye.org/?page_id=12365",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Capacity mapping of national ethics committees in the Eastern Mediterranean Region (BMC Medical Ethics)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2712467/",
+     "date": "2009-07-04",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Republican Decree Law No. 26 of 2002 on Practising the Medical and Pharmacy Professions, Arabic text (Yemeni Law)",
+     "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almihan-altibiya-walsaydaliya/",
+     "date": "2002",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 18,
+   "summary": "Yemen has no AI law, no AI authority and no rules for AI medical devices. The Arab AI Governance Lab counts zero AI-related regulations and zero AI governance bodies.",
+   "detail": [
+    "The Arab AI Governance Lab ranks Yemen 19th of 19 in its region, at the founding stage, with no coded national AI strategy and no coded data protection law.",
+    "The ministry's own account of digital health from 2021 to 2026 mentions early decision support systems and a telehealth framework, but no rules for AI in care.",
+    "A July 2026 AI summit in Sana'a, run by a university, discussed AI ethics and governance. It produced no binding rules that we found."
+   ],
+   "sources": [
+    {
+     "title": "Yemen: country profile (Arab AI Governance Lab)",
+     "url": "https://arablab.ai/ar/countries/yemen/",
+     "date": "2025",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "The journey of the health information system and digital health in Yemen 2021 to 2026 (Ministry of Public Health and Population)",
+     "url": "https://moh-ye.org/?p=13758",
+     "date": "2026-09-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Key themes of the Yemen AI Summit 2026 (Modern Specialized University, Sana'a)",
+     "url": "https://msu.edu.ye/key-themes-of-the-yemen-ai-summit-2026/",
+     "date": "2026-07-01",
+     "publisherClass": "academic"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "DHIS2 and the disease early warning system carry aggregate public health data from most public facilities. Clinical records stay on paper at each facility, with no patient ID, and no national claims system was found.",
+ "laws": [
+  {
+   "name": "Constitution of the Republic of Yemen, Article 53",
+   "level": "National",
+   "year": "1991",
+   "what": "Protects confidentiality of mail and communications except by law and court order.",
+   "url": "https://www.constituteproject.org/constitution/Yemen_2015?lang=en"
+  },
+  {
+   "name": "Law No. 13 of 2012 on the Right of Access to Information",
+   "level": "National",
+   "year": "2012",
+   "what": "Public bodies: written consent for third-party disclosure, purpose limits, access to data a person submitted.",
+   "url": "https://www.wipo.int/wipolex/en/legislation/details/20003"
+  },
+  {
+   "name": "Republican Decree Law No. 26 of 2002 on Practising the Medical and Pharmacy Professions",
+   "level": "National",
+   "year": "2002",
+   "what": "Patient secrecy duty with exceptions, consent to treatment, doctors must keep patient registers.",
+   "url": "https://www.yemenilaw.com/library/yemeni-laws/qanun-almihan-altibiya-walsaydaliya/"
+  },
+  {
+   "name": "Ministerial Decision No. 13 of 2026 establishing the Virtual Health Services Centre",
+   "level": "National",
+   "year": "2026",
+   "what": "Creates a telehealth centre meant to feed a unified digital patient file.",
+   "url": "https://moh-ye.org/?p=13758"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-28",
+   "headline": "Houthi forces raid UNOPS office in Sana'a and seize electronic devices",
+   "source": "Yemen Monitor",
+   "url": "https://www.yemenmonitor.com/en/Details/ArtMID/908/ArticleID/153874",
+   "why": "Aid agencies holding patient and beneficiary data face seizure with no legal protection."
+  },
+  {
+   "date": "2026-02-19",
+   "headline": "Aden health ministry and WHO discuss a unified disease surveillance system",
+   "source": "EMPHNET EpiNews",
+   "url": "https://epinews.emphnet.net/en/news/most-popular/yemens-health-ministry-boosts-cooperation-with-who-to-enhance-epidemiological-surveillance?tag=16112",
+   "why": "Surveillance data remains the most connected part of Yemen's health records."
+  },
+  {
+   "date": "2026-07-31",
+   "headline": "Biometric ID data stored in Saudi Arabia without a data protection framework",
+   "source": "Sana'a Center",
+   "url": "https://sanaacenter.org/the-yemen-review/april-june-2026/28121",
+   "why": "Planned health services may link to an ID whose data has no legal safeguards."
+  },
+  {
+   "date": "2026-09-29",
+   "headline": "Health ministry reviews five years of DHIS2 and plans unified patient file",
+   "source": "Ministry of Public Health and Population",
+   "url": "https://moh-ye.org/?p=13758",
+   "why": "Signals intent to connect records, while admitting gaps in integration and cybersecurity."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,318 @@
+{
+ "iso3": "BWA",
+ "name": "Botswana",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Botswana has a modern data law with an active regulator, but clinic and hospital systems do not share records and patients have no portal.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "The Data Protection Act 2024 gives a free copy of your data within one month, and the Public Health Act lets facilities only temporarily deny record access. There is no patient portal, and we quote the published Bill because the enacted text was not verified.",
+   "detail": [
+    "Section 42 of the Data Protection Bill 2024, enacted as Act 18 of 2024 and in force from 14 January 2025, gives a right to confirm, access and get a copy of personal data. Further copies may carry a reasonable fee.",
+    "Section 38 sets a reply within one month, extendable by up to two months with the Commission's approval. The first answer is free. Electronic requests get electronic replies.",
+    "Section 139 of the Public Health Act 2013 deals with user and parent access to health records. The head of a facility may temporarily deny access if disclosure would seriously harm the user.",
+    "We found no national patient portal or app. Our clauses come from the published Bill. We did not open the enacted Act, so exact wording is not verified, which keeps the score in the lower half of its band."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Bill, 2024 (Bill No. 19 of 2024), enacted as Data Protection Act 18 of 2024",
+     "url": "https://www.dataguidance.com/sites/default/files/data_protection_bill_2024.pdf",
+     "date": "2024-07-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Public Health Act, 11 of 2013 (Botswana Laws)",
+     "url": "https://botswanalaws.com/StatutesActpdf/2013Actpdf/PUBLIC%20HEALTH%20ACT,%2011%20OF%202013.pdf",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Botswana Data Protection Act comes into effect (Michalsons)",
+     "url": "https://www.michalsons.com/blog/botswanas-data-protection-act-grace-period-extended/60775",
+     "date": "2025-01-20",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data may be processed without consent for diagnosis, treatment and health system management, and there is no shared record with sharing choices or an access log. Patients keep only general rights to object.",
+   "detail": [
+    "Section 30 of the Data Protection Bill bans processing health data, then allows it with explicit consent or when needed for medical diagnosis, care, treatment or managing health services. The professional secrecy condition in section 30(3) attaches only to public health processing.",
+    "Section 48 lets a person object to processing based on public interest or legitimate interest, but the controller can continue with compelling legitimate grounds.",
+    "In November 2025 the Minister of Local Government told Parliament that the Patient Information Management System, Integrated Patient Management System, DHIS2 and ePulse are not interfaced to share data across facilities. With no shared record, there is no patient sharing setting or access log to use."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Bill, 2024 (Bill No. 19 of 2024), enacted as Data Protection Act 18 of 2024",
+     "url": "https://www.dataguidance.com/sites/default/files/data_protection_bill_2024.pdf",
+     "date": "2024-07-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Motshegwa acknowledges persistent shortage of medicines (Daily News, BOPA)",
+     "url": "https://dailynews.gov.bw/news-detail/89169",
+     "date": "2025-11-20",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 58,
+   "summary": "The 2024 Act treats health as sensitive, requires breach notice within 72 hours and allows fines up to P50 million or 4% of turnover. With no health-sector cases found, this scores the general law, which the regulator enforced against a government portal in 2026.",
+   "detail": [
+    "Section 63 requires notice to the Information and Data Protection Commission within 72 hours where feasible. Section 64 requires telling people when a breach is high risk. Section 83 sets fines up to P50 million or 4% of worldwide turnover.",
+    "The Act binds the State. In July 2026 the Commission issued an enforcement order that led the government to suspend its electronic payslip portal, Mmegi reported.",
+    "Section 8 says the President appoints the Commissioner on the Minister's advice. Section 144 of the Public Health Act makes falsifying or wrongly destroying health records an offence.",
+    "Botswana is outside the EU, so the EHDS does not apply. A five-year Data Sharing Agreement with the United States, signed with a health MoU on 23 December 2025, has terms we did not verify."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Bill, 2024 (Bill No. 19 of 2024), enacted as Data Protection Act 18 of 2024",
+     "url": "https://www.dataguidance.com/sites/default/files/data_protection_bill_2024.pdf",
+     "date": "2024-07-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Gov't e-payslip fails data protection compliance test (Mmegi)",
+     "url": "https://www.mmegi.bw/news/govt-e-payslip-fails-data-protection-compliance-test/news",
+     "date": "2026-07-28",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Public Health Act, 11 of 2013 (Botswana Laws)",
+     "url": "https://botswanalaws.com/StatutesActpdf/2013Actpdf/PUBLIC%20HEALTH%20ACT,%2011%20OF%202013.pdf",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Botswana-U.S. health milestone celebrated (Mmegi)",
+     "url": "https://www.mmegi.bw/news/botswana-us-health-milestone-celebrated/news",
+     "date": "2026-09-18",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 48,
+   "summary": "People can object at any time to direct marketing, and the published Bill makes selling personal data a crime (enacted wording not verified). We found no rules on de-identified health data, health apps or brokers.",
+   "detail": [
+    "Section 48 of the Data Protection Bill gives a right to object to direct marketing, including profiling. Once a person objects, the data may not be used for marketing.",
+    "DLA Piper reports that the Electronic Communications and Transactions Act 2014 requires an opt-out in every marketing message, with fines for those who keep sending after an opt-out.",
+    "Health data sits in the sensitive class under section 30, so commercial use needs explicit consent. Section 84(2) of the Bill makes selling personal data an offence (fine of P500,000 or up to nine years). We did not verify the enacted wording, so it does not raise the score. We found no rules on de-identified data, brokers or health apps."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Bill, 2024 (Bill No. 19 of 2024), enacted as Data Protection Act 18 of 2024",
+     "url": "https://www.dataguidance.com/sites/default/files/data_protection_bill_2024.pdf",
+     "date": "2024-07-26",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Botswana (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=BW",
+     "date": "2026-03-18",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 28,
+   "summary": "Several electronic systems run in public facilities, but the government told Parliament in November 2025 they are not interfaced to share data. An electronic medical record was being piloted in two districts, with a health information exchange planned.",
+   "detail": [
+    "The Ministry's health data collaborative says Botswana rolled out the Integrated Patient Management System to all public hospitals, alongside PIMS, OpenMRS and DHIS2. It calls them vertical systems that do not share data readily.",
+    "In November 2025 Parliament heard that 223 clinics were connected to the network, with 283 expected by the end of the financial year. An electronic medical record was being piloted in two districts.",
+    "Those systems are to link to a Botswana Health Information Exchange with a Master Patient Index covering public and private facilities. We found no date for that link.",
+    "The 2026/27 budget funds a digitalisation of health services project and a World Bank financed electronic stock system for medicines."
+   ],
+   "sources": [
+    {
+     "title": "Digital Health background (Botswana Health Data Collaborative, hosted by University of Botswana)",
+     "url": "https://ehealth.ub.bw/bhdc/background.html",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Motshegwa acknowledges persistent shortage of medicines (Daily News, BOPA)",
+     "url": "https://dailynews.gov.bw/news-detail/89169",
+     "date": "2025-11-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministry requests P8.7bn to revitalise healthcare (Daily News, BOPA)",
+     "url": "https://dailynews.gov.bw/news-detail/90443",
+     "date": "2026-03-09",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 22,
+   "summary": "A clinician cannot open a patient's record from another facility because systems are not interfaced. The Public Health Act requires each facility to keep a permanent record and protect it from unauthorised access.",
+   "detail": [
+    "Section 141 of the Public Health Act requires each facility to keep a permanent health record for every user. Section 144 requires controls against unauthorised access.",
+    "Section 142 lets a provider examine records for treatment, study, teaching or research with the authorisation of the user, the head of facility and the ethics committee.",
+    "The government said in November 2025 that facility systems are not interfaced for access across facilities. The planned Master Patient Index would hold medical histories across public and private care, but it is not yet working."
+   ],
+   "sources": [
+    {
+     "title": "Public Health Act, 11 of 2013 (Botswana Laws)",
+     "url": "https://botswanalaws.com/StatutesActpdf/2013Actpdf/PUBLIC%20HEALTH%20ACT,%2011%20OF%202013.pdf",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Motshegwa acknowledges persistent shortage of medicines (Daily News, BOPA)",
+     "url": "https://dailynews.gov.bw/news-detail/89169",
+     "date": "2025-11-20",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Research use of health records needs the patient's authorisation plus ethics committee approval under the Public Health Act, and the 2024 Act adds a right to object to research use. Safeguards earn the top of the no-opt-out band.",
+   "detail": [
+    "Section 142 of the Public Health Act allows record use for study, teaching or research with authorisation of the user, the facility head and the ethics committee. Section 140 needs written authorisation before experimental treatment.",
+    "Section 30 of the Data Protection Bill allows sensitive data use for research with safeguards. Section 48(6) gives a right to object to research use unless it is in the public interest.",
+    "Section 144 makes falsifying, or creating or destroying a health record without authority, an offence. We found no public register of research data uses."
+   ],
+   "sources": [
+    {
+     "title": "Public Health Act, 11 of 2013 (Botswana Laws)",
+     "url": "https://botswanalaws.com/StatutesActpdf/2013Actpdf/PUBLIC%20HEALTH%20ACT,%2011%20OF%202013.pdf",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection Bill, 2024 (Bill No. 19 of 2024), enacted as Data Protection Act 18 of 2024",
+     "url": "https://www.dataguidance.com/sites/default/files/data_protection_bill_2024.pdf",
+     "date": "2024-07-26",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 40,
+   "summary": "BoMRA's draft 2026 medical device regulations set rules for AI and machine learning devices, including bias checks and change control plans, but they are still in draft. No AI law exists, and the national AI policy is unfinished.",
+   "detail": [
+    "Draft regulation 78 would require AI and machine learning devices to document model design, show training data quality and bias controls, prove clinical validation and run post-market monitoring. A predetermined change control plan would govern adaptive algorithms.",
+    "BoMRA said in August 2026 that the regulations under the Medicines and Related Substances Act 2025 were still drafts, presented to industry at a stakeholder forum.",
+    "Mandatory registration of high-risk (Class C and D) devices had a 30 June 2026 deadline under BoMRA's roadmap. The Probe reported in August 2026 that Botswana has no AI-specific law."
+   ],
+   "sources": [
+    {
+     "title": "Medical Devices including IVDs Regulations, 2026 (draft, BoMRA)",
+     "url": "https://www.bomra.co.bw/wp-content/uploads/wpfd/134/6a96bc92deacd.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "BoMRA ushers in new era of safer medical products with landmark regulatory reform",
+     "url": "https://www.bomra.co.bw/bomra-ushers-in-new-era-of-safer-medical-products-with-landmark-regulatory-reform/",
+     "date": "2026-08-31",
+     "publisherClass": "official"
+    },
+    {
+     "title": "BoMRA Medical Devices including IVDs Regulatory Update",
+     "url": "https://www.bomra.co.bw/bomra-medical-devices-including-ivds-regulatory-update/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "The AI question Botswana cannot avoid (The Probe Journal)",
+     "url": "https://theprobe.co.bw/the-ai-question-botswana-cannot-avoid/",
+     "date": "2026-08-26",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Public hospitals use IPMS and clinics use other systems, but none share data across facilities. An EMR was piloted in two districts in 2025, and a health information exchange with a Master Patient Index is planned.",
+ "laws": [
+  {
+   "name": "Data Protection Act 18 of 2024",
+   "level": "National",
+   "year": "2024",
+   "what": "Health is sensitive data; access, objection and portability rights; 72-hour breach notice; fines up to P50 million.",
+   "url": "https://www.dataguidance.com/sites/default/files/data_protection_bill_2024.pdf"
+  },
+  {
+   "name": "Public Health Act 11 of 2013",
+   "level": "National",
+   "year": "2013",
+   "what": "Permanent health records, user access, record protection offences, research use with user and ethics authorisation.",
+   "url": "https://botswanalaws.com/StatutesActpdf/2013Actpdf/PUBLIC%20HEALTH%20ACT,%2011%20OF%202013.pdf"
+  },
+  {
+   "name": "Medicines and Related Substances Act 29 of 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Continues BoMRA and widens regulation of medical devices and diagnostics; device regulations still in draft.",
+   "url": "https://botswanalaws.com/bulletin/principal-legislation/bulletin-2025/act-29-of-2025---medicines-and-related-substances-act"
+  },
+  {
+   "name": "Electronic Communications and Transactions Act 14 of 2014",
+   "level": "National",
+   "year": "2014",
+   "what": "Electronic marketing must carry an opt-out; penalties for messages sent after an opt-out.",
+   "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=BW"
+  },
+  {
+   "name": "Access to Information Act 16 of 2024",
+   "level": "National",
+   "year": "2024",
+   "what": "Public right to government information, overseen by the IDPC; commencement on notice; personal data requests go under the DPA.",
+   "url": "https://botswanalaws.com/consolidated-statutes/acts-on-notice/2024/access-to-information-act"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-20",
+   "headline": "Minister says health facility systems cannot yet share patient data",
+   "source": "Daily News (BOPA)",
+   "url": "https://dailynews.gov.bw/news-detail/89169",
+   "why": "Confirms records do not follow patients between clinics and hospitals."
+  },
+  {
+   "date": "2026-01-21",
+   "headline": "Critics warn US health deal risks Botswana's health data and sovereignty",
+   "source": "Trendsnafrica",
+   "url": "https://trendsnafrica.com/controversial-health-agreement-raises-alarm-over-botswanas-sovereignty-and-health-security/",
+   "why": "Raises questions about how patient data may be shared with a foreign government."
+  },
+  {
+   "date": "2026-02-10",
+   "headline": "New data protection commissioner promises firmer compliance checks",
+   "source": "Mmegi",
+   "url": "https://www.mmegi.bw/business/new-data-commission-tightens-compliance-oversight/news",
+   "why": "A more active regulator makes the 2024 Act's rights more real."
+  },
+  {
+   "date": "2026-07-28",
+   "headline": "Regulator order forces government to suspend e-payslip portal",
+   "source": "Mmegi",
+   "url": "https://www.mmegi.bw/news/govt-e-payslip-fails-data-protection-compliance-test/news",
+   "why": "Shows the Commission will act against the State, the largest health data holder."
+  },
+  {
+   "date": "2026-09-18",
+   "headline": "Officials mark US health partnership and five-year data sharing agreement",
+   "source": "Mmegi",
+   "url": "https://www.mmegi.bw/news/botswana-us-health-milestone-celebrated/news",
+   "why": "Patient data may flow abroad under terms we could not verify."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

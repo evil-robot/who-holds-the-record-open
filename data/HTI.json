@@ -1,0 +1,330 @@
+{
+  "iso3": "HTI",
+  "name": "Haiti",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Haiti has no data protection law and no verified right to see your record; an HIV-born electronic record links some clinics, not the country.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 20,
+      "summary": "No Haitian law found gives patients a right to see or copy their medical record, and a June 2026 legal analysis says a decade passed without a data protection law. There is no patient portal; any access right in health regulations is not verified.",
+      "detail": [
+        "Haiti has no data protection law. A jurist writing in June 2026 says the past decade could have produced laws on personal data protection and cybersecurity, but did not.",
+        "The 1835 Penal Code, still in force, only protects medical secrecy (Article 323). A July 2026 opinion piece in Le Nouvelliste on hospital liability says only the patient can lift the secrecy of their medical file, but cites no right to a copy.",
+        "The 2016 e-administration decree lists respect for private life and personal data among its principles, but it covers dealings with public administration and sets no right to a copy of a health record.",
+        "No national patient portal or app was found. Whether MSPP rules give a right of access was not verified; such a right would lift the score, so it earns nothing and the cell stays at 20, like Guinea-Bissau and Dominica."
+      ],
+      "sources": [
+        {
+          "title": "Code penal d'Haiti (1835, as amended), compiled text, Art. 323",
+          "url": "https://www.oas.org/juridico/PDFs/mesicic4_hti_penal.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decret portant sur le droit de tout administre a s'adresser a l'administration publique par des moyens electroniques, Le Moniteur No. 20",
+          "url": "https://www.omrh.gouv.ht/Media/Publications/3-Decrets/Decret%20portant%20sur%20le%20droit%20de%20tout%20administr%C3%A9.pdf",
+          "date": "2016-01-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "La reglementation du numerique en Haiti : faut-il adopter de nouvelles normes ou mettre en oeuvre celles existantes ? (Village de la Justice)",
+          "url": "https://www.village-justice.com/articles/reglementation-numerique-haiti-faut-adopter-nouvelles-normes-mettre-oeuvre,57798.html",
+          "date": "2026-06-10",
+          "publisherClass": "news"
+        },
+        {
+          "title": "De la responsabilite hospitaliere en droit haitien : essai de droit prospectif (Le Nouvelliste, opinion)",
+          "url": "https://lenouvelliste.com/article/270277/de-la-responsabilite-hospitaliere-en-droit-haitien-essai-de-droit-prospectif",
+          "date": "2026-07-24",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 22,
+      "summary": "Without a data protection law, patients have no legal right to consent, refuse sharing or see who opened their record. The iSantePlus record is shared across connected sites by design, and its fingerprint register held more than 100,000 prints.",
+      "detail": [
+        "No consent rule, opt-out or patient-visible access log for health records was found. The only data protection bill found, a 2018 draft on the national ID card, stayed a draft.",
+        "iSantePlus, used in over 200 facilities according to its implementer CHARESS, offers 'Roaming Care': a patient's record is reachable in any connected facility. Its biometric database holds more than 100,000 fingerprints. Whether patients consent to this was not verified.",
+        "The 2020 Penal Code would require express consent to store health data in a computer file (Article 438), but its entry into force was postponed in December 2025.",
+        "Records are shared by default with no individual choice, so the score sits in the 20 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Decret du 11 mars 2020 portant Code penal, Le Moniteur Special No. 10 (24 June 2020), Arts. 434 and 437 to 439",
+          "url": "https://faolex.fao.org/docs/pdf/hai210028.pdf",
+          "date": "2020-06-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "iSantePlus, systeme d'information sanitaire (CHARESS)",
+          "url": "https://charess.org/isanteplus",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Projet de loi instituant la carte d'identification nationale unique et portant sur la protection des donnees personnelles (HaitiDocs)",
+          "url": "https://www.haitidocs.org/doc/prh-projet-loi-carte-identification-donnees-personnelles?lang=fr",
+          "date": "2018",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Le CPT et le gouvernement reportent l'entree en vigueur du nouveau code penal et procedure penale revises (Gazette Haiti)",
+          "url": "https://gazettehaiti.com/node/13192",
+          "date": "2025-12-27",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 24,
+      "summary": "Haiti has no data protection law, no regulator and no breach rules; the 1835 Penal Code punishes doctors, pharmacists and midwives who reveal secrets with one month to one year in prison. A tougher 2020 code was postponed in December 2025.",
+      "detail": [
+        "Article 323 of the Penal Code punishes doctors, surgeons, other health officers, pharmacists and midwives who reveal secrets entrusted to them, outside cases where the law requires reporting, with one month to one year in prison.",
+        "The 2020 Penal Code would raise this to six months to one year plus a fine of 10,000 to 25,000 gourdes (Article 434) and add personal data offences (Articles 437 to 439).",
+        "On 24 December 2025 the Council of Ministers postponed by decree the entry into force of the revised penal codes and chose phased implementation, Gazette Haiti reported.",
+        "No data protection authority, breach notification duty or health data enforcement case was found."
+      ],
+      "sources": [
+        {
+          "title": "Code penal d'Haiti (1835, as amended), compiled text, Art. 323",
+          "url": "https://www.oas.org/juridico/PDFs/mesicic4_hti_penal.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decret du 11 mars 2020 portant Code penal, Le Moniteur Special No. 10 (24 June 2020), Arts. 434 and 437 to 439",
+          "url": "https://faolex.fao.org/docs/pdf/hai210028.pdf",
+          "date": "2020-06-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Le CPT et le gouvernement reportent l'entree en vigueur du nouveau code penal et procedure penale revises (Gazette Haiti)",
+          "url": "https://gazettehaiti.com/node/13192",
+          "date": "2025-12-27",
+          "publisherClass": "news"
+        },
+        {
+          "title": "La reglementation du numerique en Haiti : faut-il adopter de nouvelles normes ou mettre en oeuvre celles existantes ? (Village de la Justice)",
+          "url": "https://www.village-justice.com/articles/reglementation-numerique-haiti-faut-adopter-nouvelles-normes-mettre-oeuvre,57798.html",
+          "date": "2026-06-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 22,
+      "summary": "No law in force limits selling health data or using it for marketing, because Haiti has no data protection law. The postponed 2020 Penal Code would punish storing health data without express consent and prospecting despite a person's objection.",
+      "detail": [
+        "The only protection in force is the medical secrecy offence in Article 323 of the 1835 Penal Code, which binds health professionals, not apps, brokers or advertisers.",
+        "The 2020 Penal Code (Article 438) would punish, with two to three years in prison, collecting personal data by unfair means, processing it for commercial prospecting despite objection, and storing health data without express consent.",
+        "That code is not in force: its start was postponed in December 2025. No rules on consumer health apps or data brokers were found."
+      ],
+      "sources": [
+        {
+          "title": "Code penal d'Haiti (1835, as amended), compiled text, Art. 323",
+          "url": "https://www.oas.org/juridico/PDFs/mesicic4_hti_penal.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decret du 11 mars 2020 portant Code penal, Le Moniteur Special No. 10 (24 June 2020), Arts. 434 and 437 to 439",
+          "url": "https://faolex.fao.org/docs/pdf/hai210028.pdf",
+          "date": "2020-06-24",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Le CPT et le gouvernement reportent l'entree en vigueur du nouveau code penal et procedure penale revises (Gazette Haiti)",
+          "url": "https://gazettehaiti.com/node/13192",
+          "date": "2025-12-27",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 28,
+      "summary": "MSPP's national health information system, SISNU, gathers facility data for planning, and PAHO called it a pillar of health governance in September 2026. Patient-level links exist only inside iSantePlus, which reached 157 facilities in 2022.",
+      "detail": [
+        "SISNU, the single national health information system backed by PAHO/WHO, produced the 2025 health statistics report presented in August 2026. It serves planning and evaluation, not individual care.",
+        "iSantePlus, built by MSPP and CDC with I-TECH, ran in 157 facilities in 2022 and held over 1,050,173 patient records, consolidated on an MSPP server. About 12% of sites still relied on paper plus later data entry.",
+        "CHARESS says iSantePlus exchanges lab orders and results with the national lab network and OpenELIS, and feeds the epidemiology directorate. Pharmacy and insurance links were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Haiti presente le rapport statistique 2025 du secteur sante (OPS/OMS)",
+          "url": "https://www.paho.org/fr/nouvelles/24-9-2026-haiti-presente-le-rapport-statistique-2025-du-secteur-sante",
+          "date": "2026-09-24",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Comparative analysis of HIV data completeness in Haiti's iSante Plus Electronic Medical Record system (BMJ Open)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12258347/",
+          "date": "2025-07-13",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "iSantePlus, systeme d'information sanitaire (CHARESS)",
+          "url": "https://charess.org/isanteplus",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 22,
+      "summary": "A clinician can see a patient's history only when both facilities use iSantePlus, which began in HIV care. Elsewhere records are mostly on paper, and CHARESS says paper once meant no continuity of care.",
+      "detail": [
+        "CHARESS says that before iSantePlus, records were mainly on paper, causing lost documents, misreadings and difficulty following patients between facilities.",
+        "Its 'Roaming Care' feature makes a record reachable in any connected facility. The BMJ Open study counted 157 iSantePlus facilities in 2022; how many hospitals and private clinics outside HIV programs use it was not verified.",
+        "No national rule on emergency access or clinician access across providers was found."
+      ],
+      "sources": [
+        {
+          "title": "iSantePlus, systeme d'information sanitaire (CHARESS)",
+          "url": "https://charess.org/isanteplus",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Comparative analysis of HIV data completeness in Haiti's iSante Plus Electronic Medical Record system (BMJ Open)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12258347/",
+          "date": "2025-07-13",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "No law sets consent or opt-out rules for reusing health records, and a 2025 study used de-identified iSantePlus data with consent waived. Two safeguards count: National Bioethics Committee review, and the statutory medical secrecy offence.",
+      "detail": [
+        "The National Bioethics Committee must give its opinion before research starts; starting without it is 'a serious ethical fault'. Consent forms in French and Creole must state that participation is voluntary and can be withdrawn at any time.",
+        "A BMJ Open study of 58 iSantePlus facilities was approved by the National Bioethics Committee and CDC, which waived individual consent because it used de-identified data.",
+        "Medical secrecy is a crime under Article 323 of the Penal Code. No register of data uses or general opt-out was found. Haiti is outside the EU, so the EHDS does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Procedures du Comite National de Bioethique pour approbation de protocole de recherche (MSPP, version du 14 janvier 2019)",
+          "url": "https://mspp.gouv.ht/sites/default/files/publications/CNB%20Procedures%20pour%20soumission%20de%20Protocole%20de%20Recherche%20au%20CNB%20pour%20avis%20Version%20du%2014%20jan%2019%20(1).pdf",
+          "date": "2019-01-14",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Comparative analysis of HIV data completeness in Haiti's iSante Plus Electronic Medical Record system (BMJ Open)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12258347/",
+          "date": "2025-07-13",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "ai": {
+      "score": 18,
+      "summary": "We found no rules for AI in clinical care: no AI law, no AI strategy and no health AI guidance. MSPP's pharmacy directorate requires medical devices to be registered, but its 2008 norms do not mention software or AI.",
+      "detail": [
+        "The DPM/MT norms of July 2008 make registration and a marketing authorisation compulsory for medical devices sold in Haiti. They contain no provisions on software or AI.",
+        "A June 2026 legal analysis notes that Haitian texts published in Le Moniteur could not foresee AI, and asks whether the state could enforce an AI law if one were adopted.",
+        "No national AI strategy or human oversight rule for clinical AI was found."
+      ],
+      "sources": [
+        {
+          "title": "Normes et Procedures de la Direction de la Pharmacie, du Medicament et de la Medecine Traditionnelle (DPM/MT, MSPP)",
+          "url": "https://www.mspp.gouv.ht/sites/default/files/publications/Normes%20et%20Procedures%20de%20la%20DPMMT.pdf",
+          "date": "2008-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "La reglementation du numerique en Haiti : faut-il adopter de nouvelles normes ou mettre en oeuvre celles existantes ? (Village de la Justice)",
+          "url": "https://www.village-justice.com/articles/reglementation-numerique-haiti-faut-adopter-nouvelles-normes-mettre-oeuvre,57798.html",
+          "date": "2026-06-10",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "SISNU collects facility data nationally; iSantePlus links connected sites, labs and epidemiology, mainly in HIV care. Most records elsewhere are paper. Pharmacy and claims links not verified. The EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Code penal (1835, as amended), Article 323",
+      "level": "National",
+      "year": "1835",
+      "what": "Health professionals who reveal patient secrets face one month to one year in prison.",
+      "url": "https://www.oas.org/juridico/PDFs/mesicic4_hti_penal.pdf"
+    },
+    {
+      "name": "Decret du 11 mars 2020 portant Code penal (not in force)",
+      "level": "National",
+      "year": "2020",
+      "what": "Adds personal data offences, including storing health data without express consent; start postponed in December 2025.",
+      "url": "https://faolex.fao.org/docs/pdf/hai210028.pdf"
+    },
+    {
+      "name": "Decret du 29 janvier 2016 sur le droit de tout administre a s'adresser a l'administration par des moyens electroniques",
+      "level": "National",
+      "year": "2016",
+      "what": "E-administration principles include private life and personal data protection; not a data protection law.",
+      "url": "https://www.omrh.gouv.ht/Media/Publications/3-Decrets/Decret%20portant%20sur%20le%20droit%20de%20tout%20administr%C3%A9.pdf"
+    },
+    {
+      "name": "Projet de loi instituant la carte d'identification nationale unique et portant sur la protection des donnees personnelles (draft)",
+      "level": "National",
+      "year": "2018",
+      "what": "Draft ID and data protection bill; never adopted.",
+      "url": "https://www.haitidocs.org/doc/prh-projet-loi-carte-identification-donnees-personnelles?lang=fr"
+    },
+    {
+      "name": "Procedures du Comite National de Bioethique (MSPP)",
+      "level": "National",
+      "year": "2019",
+      "what": "Research needs prior ethics opinion; voluntary, withdrawable consent in French and Creole.",
+      "url": "https://mspp.gouv.ht/sites/default/files/publications/CNB%20Procedures%20pour%20soumission%20de%20Protocole%20de%20Recherche%20au%20CNB%20pour%20avis%20Version%20du%2014%20jan%2019%20(1).pdf"
+    },
+    {
+      "name": "Normes et Procedures de la DPM/MT",
+      "level": "National",
+      "year": "2008",
+      "what": "Medical devices need registration and marketing authorisation; no software or AI rules.",
+      "url": "https://www.mspp.gouv.ht/sites/default/files/publications/Normes%20et%20Procedures%20de%20la%20DPMMT.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-24",
+      "headline": "Haiti presents 2025 health statistics report built on the SISNU information system",
+      "source": "OPS/OMS",
+      "url": "https://www.paho.org/fr/nouvelles/24-9-2026-haiti-presente-le-rapport-statistique-2025-du-secteur-sante",
+      "why": "Shows national health data serves planning, while patient records stay unconnected."
+    },
+    {
+      "date": "2026-06-10",
+      "headline": "Jurist says Haiti never fully applied its 2016 e-administration decree or adopted data law",
+      "source": "Village de la Justice",
+      "url": "https://www.village-justice.com/articles/reglementation-numerique-haiti-faut-adopter-nouvelles-normes-mettre-oeuvre,57798.html",
+      "why": "Patients still have no data protection law to rely on."
+    },
+    {
+      "date": "2026-04-14",
+      "headline": "MSPP open day showcases digital tools for data management and disease surveillance",
+      "source": "OPS/OMS",
+      "url": "https://www.paho.org/fr/nouvelles/14-4-2026-haiti-retour-sur-le-lancement-semaine-nationale-sante-2026",
+      "why": "Digital health is expanding before any rules protect patient data."
+    },
+    {
+      "date": "2025-12-27",
+      "headline": "Government postpones new penal code that would add personal data offences",
+      "source": "Gazette Haiti",
+      "url": "https://gazettehaiti.com/node/13192",
+      "why": "Criminal penalties for misusing health data remain on hold."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

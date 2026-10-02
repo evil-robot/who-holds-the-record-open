@@ -1,0 +1,322 @@
+{
+ "iso3": "MUS",
+ "name": "Mauritius",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Mauritius has a GDPR-style data law and a free right to a copy, but its one-record e-Health system is still a regional pilot.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 50,
+   "summary": "Section 37 of the Data Protection Act 2017 gives a free copy of your data, with a reply due within one month. No national patient portal is live yet, so patients ask each hospital or clinic.",
+   "detail": [
+    "Section 37 of the Data Protection Act 2017 says a controller must, on written request, confirm whether it processes your data and send you a copy free of charge. A fee is allowed only for manifestly excessive requests.",
+    "The controller must answer in writing within one month. This can be extended by one more month for complex or many requests. A refusal must give reasons and point to a complaint to the Commissioner.",
+    "The Ministry of Health says Phase 1 of the e-Health project includes a Patient Portal. Press reports in 2025 said patients will reach their record through a portal and a mobile app. We did not verify that the portal is live.",
+    "Score: base 45 for a statutory right with no national portal, plus 5 because the copy is free with a fixed deadline."
+   ],
+   "sources": [
+    {
+     "title": "The Data Protection Act 2017 (Data Protection Office)",
+     "url": "https://dataprotection.govmu.org/Documents/DPA_2017.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Annual Report on Performance for Financial Year 2023-2024 (Ministry of Health and Wellness)",
+     "url": "https://health.govmu.org/health/wp-content/uploads/2024/11/Annual-Report-on-Performance-for-Financial-Year-2023-2024.pdf",
+     "date": "2024-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Maurice accélère la numérisation de son système de santé avec le projet E-Health (We Are Tech Africa)",
+     "url": "https://www.wearetech.africa/fr/fils/actualites/tech/maurice-accelere-la-numerisation-de-son-systeme-de-sante-avec-le-projet-e-health",
+     "date": "2025-09-05",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 32,
+   "summary": "Health data can be processed without consent for diagnosis, care and running health services under section 29 of the Data Protection Act. The e-Health record is built to follow the patient to every public hospital, and we found no opt-out or patient access log.",
+   "detail": [
+    "Section 29 of the Data Protection Act lets health data be processed when needed for medical diagnosis, care or the management of health services, by someone bound by professional secrecy. Consent is not the gate for care use.",
+    "Section 40 gives a written right to object to processing, but the controller can refuse on compelling legitimate grounds. The right to object to direct marketing is absolute.",
+    "The e-Health project follows a 'one patient, one record' model. Press coverage says each person's record will be reachable from all public hospitals and health centres, by authorised staff only.",
+    "We found no patient-facing consent settings, opt-out or access log for e-Health. That puts control in the 20 to 35 band."
+   ],
+   "sources": [
+    {
+     "title": "The Data Protection Act 2017 (Data Protection Office)",
+     "url": "https://dataprotection.govmu.org/Documents/DPA_2017.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Annual Report on Performance for Financial Year 2023-2024 (Ministry of Health and Wellness)",
+     "url": "https://health.govmu.org/health/wp-content/uploads/2024/11/Annual-Report-on-Performance-for-Financial-Year-2023-2024.pdf",
+     "date": "2024-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Maurice accélère la numérisation de son système de santé avec le projet E-Health (We Are Tech Africa)",
+     "url": "https://www.wearetech.africa/fr/fils/actualites/tech/maurice-accelere-la-numerisation-de-son-systeme-de-sante-avec-le-projet-e-health",
+     "date": "2025-09-05",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 55,
+   "summary": "The 2017 Act treats health as a special category and requires breach notice within 72 hours. The regulator is active (95 breaches notified in 2025) but short-staffed and not financially independent, and we found no health-sector enforcement.",
+   "detail": [
+    "Health is a special category under the Data Protection Act 2017. Unlawful processing of special category data carries a fine of up to Rs 100,000 and up to 5 years in prison. The general penalty is up to Rs 200,000 and 5 years.",
+    "Controllers must notify the Commissioner of a breach without undue delay and, where feasible, within 72 hours. The Prime Minister can exempt data from the Act for national security, defence or public security.",
+    "The Data Protection Office reports 244 new complaints and 95 breach notifications in 2025. It quotes the UN privacy rapporteur: independent functions but no independent funding. Posts advertised in late 2025 were still unfilled.",
+    "Mauritius is outside the EU, so the EHDS does not apply. It has no EU adequacy decision. The 2025-26 Budget pledged amendments to meet EU requirements.",
+    "No health-sector breach or decision was found, so we score on the general law, in the 45 to 66 band."
+   ],
+   "sources": [
+    {
+     "title": "The Data Protection Act 2017 (Data Protection Office)",
+     "url": "https://dataprotection.govmu.org/Documents/DPA_2017.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection Office Annual Report 2025",
+     "url": "https://dataprotection.govmu.org/Documents/2026/2699-26-AR.pdf",
+     "date": "2026",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "You can stop any use of your data for direct marketing, but marketing needs no prior consent. Offering to sell data is a crime only if it was disclosed unlawfully, and there are no rules for health apps, data brokers or de-identified data.",
+   "detail": [
+    "Section 40 of the Data Protection Act lets a person object to direct marketing, including related profiling. Once they object, the data may no longer be used for that purpose. This is an opt-out, not an opt-in.",
+    "Section 42 makes it an offence to disclose data in a way incompatible with the purpose of collection, and to offer to sell data obtained that way. An advert saying data is for sale counts as an offer.",
+    "Health data falls under the special category rules in section 29, which limit the grounds for processing. We found no rule aimed at health apps, data brokers or anonymised health data sales. Score 45: an opt-out rather than opt-in for marketing, and a sale offence narrower than an outright ban on selling personal data."
+   ],
+   "sources": [
+    {
+     "title": "The Data Protection Act 2017 (Data Protection Office)",
+     "url": "https://dataprotection.govmu.org/Documents/DPA_2017.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "The Health Ministry itself says there is no single unique record for each patient. The e-Health system had registered about 153,200 patients by July 2026, in pilot sites in the east and south, with full coverage set for end 2027.",
+   "detail": [
+    "The Ministry's 2023-24 report lists the 'absence of One Patient One Record concept at time of care' as a gap. Phase 1 of e-Health covers a Patient Administration System, a National Blood Transfusion System, a Patient Portal and reporting.",
+    "In July 2026 the Health Minister told Parliament the system held over 153,200 patients and 287,800 consultations. It runs in pilot sites including Flacq hospital, with the north and west still being prepared.",
+    "Go-live was first planned for 2024. Pilot stabilisation is due by October 2026 and national rollout by end 2027. A state company, Digital Health Co. Ltd, was set up in September 2024 to run it.",
+    "A laboratory information system runs in parts of the Central Health Laboratory. We found no national e-prescription or private clinic link."
+   ],
+   "sources": [
+    {
+     "title": "Annual Report on Performance for Financial Year 2023-2024 (Ministry of Health and Wellness)",
+     "url": "https://health.govmu.org/health/wp-content/uploads/2024/11/Annual-Report-on-Performance-for-Financial-Year-2023-2024.pdf",
+     "date": "2024-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Projet e-Health : Vers une couverture complète d'ici à fin 2027 (Le Mauricien)",
+     "url": "https://www.lemauricien.com/actualites/societe/secteur-public-13-ans-apres-projet-e-health-vers-une-couverture-complete-dici-a-fin-2027/",
+     "date": "2026-07-12",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 30,
+   "summary": "Outside the e-Health pilot sites, a public hospital doctor works from that facility's own files. e-Health is a public-sector project, and we found no link to private clinics.",
+   "detail": [
+    "The Ministry's own report says there is no single uniform record for each patient at the time of care. That is the gap e-Health is meant to close.",
+    "Where e-Health runs, the record is designed to be reachable from any public hospital or health centre by authorised staff. In July 2026 this covered pilot sites in the east, south and south-east only.",
+    "We found no evidence that private clinics connect to e-Health, and no national emergency access rule for clinicians. Private clinics fall under the Private Health Institutions Act 1989, which the Minister says is being replaced."
+   ],
+   "sources": [
+    {
+     "title": "Annual Report on Performance for Financial Year 2023-2024 (Ministry of Health and Wellness)",
+     "url": "https://health.govmu.org/health/wp-content/uploads/2024/11/Annual-Report-on-Performance-for-Financial-Year-2023-2024.pdf",
+     "date": "2024-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Projet e-Health : Vers une couverture complète d'ici à fin 2027 (Le Mauricien)",
+     "url": "https://www.lemauricien.com/actualites/societe/secteur-public-13-ans-apres-projet-e-health-vers-une-couverture-complete-dici-a-fin-2027/",
+     "date": "2026-07-12",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Private Health Institutions Bill : un nouveau projet de loi pour encadrer les cliniques privées (Defimedia)",
+     "url": "https://defimedia.info/private-health-institutions-bill-un-nouveau-projet-de-loi-pour-encadrer-les-cliniques-privees",
+     "date": "2025-10-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Maurice accélère la numérisation de son système de santé avec le projet E-Health (We Are Tech Africa)",
+     "url": "https://www.wearetech.africa/fr/fils/actualites/tech/maurice-accelere-la-numerisation-de-son-systeme-de-sante-avec-le-projet-e-health",
+     "date": "2025-09-05",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Research is a lawful ground for processing without consent, and research may be exempt from the Act if security measures are in place. Trials need written consent under the Clinical Trials Act 2011, and the National Ethics Committee clears human research.",
+   "detail": [
+    "Section 28 of the Data Protection Act lists historical, statistical or scientific research as a lawful ground. Section 44(2) lets research be exempt from the Act where the section 31 security measures are applied. There is no general opt-out.",
+    "Section 20 of the Clinical Trials Act requires written consent after a full explanation, bans doctors from inducing their own patients, and lets subjects withdraw at any time. A Clinical Research Regulatory Council licenses trials.",
+    "The National Ethics Committee gives ethical clearance before research on human subjects. It cleared 36 proposals in 2022-23.",
+    "Score: base 40, plus 3 each for an ethics body, required security measures, and the section 42 unlawful disclosure offence."
+   ],
+   "sources": [
+    {
+     "title": "The Data Protection Act 2017 (Data Protection Office)",
+     "url": "https://dataprotection.govmu.org/Documents/DPA_2017.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Clinical Trials Act, section 20: Protection of subjects (juris)",
+     "url": "https://juris.mu/law/clinical-trials-act/s/20/",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Training, Research and Capacity Building Unit (Ministry of Health and Wellness)",
+     "url": "https://health.govmu.org/health/?page_id=5558",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 28,
+   "summary": "Cabinet adopted the AI for Mauritius strategy and FAIR Guidelines in February 2026, but the guidelines are non-binding and not specific to health. We found no medical device rules for AI software, so this sits in the no-rules band.",
+   "detail": [
+    "On 13 February 2026 Cabinet adopted the AI strategy as the national policy framework. It said the FAIR Guidelines 'will evolve into AI Regulations with the maturity of the ecosystem'.",
+    "TechCabal reported in April 2026 that the guidelines are currently non-binding, with no penalties for non-compliance. They are general, not specific to clinical AI.",
+    "Section 38 of the Data Protection Act gives a right not to be subject to a decision based solely on automated processing. We found no medical device regulation of AI or machine learning, change control or health-AI authority.",
+    "Score: with no clinical AI rules in force, this sits in the 15 to 30 band. The adopted national guidelines and the automated-decision right place it near the top, level with Lesotho."
+   ],
+   "sources": [
+    {
+     "title": "Highlights of Cabinet Meeting, Friday 13 February 2026 (Prime Minister's Office)",
+     "url": "https://pmo.govmu.org/CabinetDecision/2026/Highlights%20of%20Cabinet%20Meeting%20%20Friday%20%2013%20February%202026.pdf",
+     "date": "2026-02-13",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Mauritius' new AI strategy sets a new bar: ethics before execution (TechCabal)",
+     "url": "https://techcabal.com/2026/04/23/mauritius-new-ai-strategy-sets-a-new-bar-ethics-before-execution/",
+     "date": "2026-04-23",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The Data Protection Act 2017 (Data Protection Office)",
+     "url": "https://dataprotection.govmu.org/Documents/DPA_2017.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "unknown",
+  "research": "siloed"
+ },
+ "journeyNote": "e-Health links public hospitals and health centres in eastern and southern pilot sites only (153,200 patients by July 2026). A lab system runs in parts of the Central Health Laboratory. Pharmacy, private clinic and claims links were not verified.",
+ "laws": [
+  {
+   "name": "Data Protection Act 2017 (Act No. 20 of 2017)",
+   "level": "National",
+   "year": "2017",
+   "what": "Health is a special category; free copy within one month; 72-hour breach notice; Data Protection Commissioner.",
+   "url": "https://dataprotection.govmu.org/Documents/DPA_2017.pdf"
+  },
+  {
+   "name": "Clinical Trials Act 2011",
+   "level": "National",
+   "year": "2011",
+   "what": "Trial licences, Ethics Committee and written informed consent with a right to withdraw.",
+   "url": "https://juris.mu/law/clinical-trials-act/"
+  },
+  {
+   "name": "Council of Europe Convention 108 (ratified by Mauritius)",
+   "level": "Supranational",
+   "year": "1981",
+   "what": "Data protection treaty; Mauritius was the first African country to sign and ratify it.",
+   "url": "https://dataprotection.govmu.org/Documents/2026/2699-26-AR.pdf"
+  },
+  {
+   "name": "Data Protection (Designation, Tasks and Position of Data Protection Officers) Regulations 2026",
+   "level": "National",
+   "year": "2026",
+   "what": "Sets duties, qualifications and position of organisations' data protection officers; in force 1 January 2027.",
+   "url": "https://www.africadataprotection.org/actualites/Ile-Maurice-un-nouveau-reglement-encadrera-le-role-des-Data-Protection-Officers-a-compter-de-janvier-2027.html"
+  },
+  {
+   "name": "AI for Mauritius strategy and FAIR Guidelines",
+   "level": "National",
+   "year": "2026",
+   "what": "National AI policy framework; non-binding guidelines meant to evolve into AI regulations.",
+   "url": "https://pmo.govmu.org/CabinetDecision/2026/Highlights%20of%20Cabinet%20Meeting%20%20Friday%20%2013%20February%202026.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-08",
+   "headline": "Health Minister announces new bill to regulate private clinics",
+   "source": "Defimedia",
+   "url": "https://defimedia.info/private-health-institutions-bill-un-nouveau-projet-de-loi-pour-encadrer-les-cliniques-privees",
+   "why": "The 1989 law does not let the Ministry regulate private clinics' treatments and services."
+  },
+  {
+   "date": "2026-02-03",
+   "headline": "Mauritius launches National Data Strategy 2025-2029",
+   "source": "We Are Tech Africa",
+   "url": "https://www.wearetech.africa/fr/fils/breves/breves-une/maurice-lance-une-strategie-nationale-des-donnees-pour-renforcer-la-confiance-publique",
+   "why": "Sets the government's data governance roadmap with the Data Protection Office."
+  },
+  {
+   "date": "2026-04-23",
+   "headline": "Mauritius AI strategy and FAIR Guidelines launched as non-binding rules",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/04/23/mauritius-new-ai-strategy-sets-a-new-bar-ethics-before-execution/",
+   "why": "Clinical AI has no binding rules yet; these guidelines may become law later."
+  },
+  {
+   "date": "2026-06-14",
+   "headline": "New regulations define data protection officers' role from January 2027",
+   "source": "Africa Data Protection",
+   "url": "https://www.africadataprotection.org/actualites/Ile-Maurice-un-nouveau-reglement-encadrera-le-role-des-Data-Protection-Officers-a-compter-de-janvier-2027.html",
+   "why": "Clarifies who inside an organisation answers for data protection compliance."
+  },
+  {
+   "date": "2026-07-12",
+   "headline": "Health Minister says e-Health will cover the whole public sector by end 2027",
+   "source": "Le Mauricien",
+   "url": "https://www.lemauricien.com/actualites/societe/secteur-public-13-ans-apres-projet-e-health-vers-une-couverture-complete-dici-a-fin-2027/",
+   "why": "Only about 153,200 patients have an electronic record so far, after years of delay."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

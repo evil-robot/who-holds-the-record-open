@@ -1,0 +1,361 @@
+{
+  "iso3": "MNG",
+  "name": "Mongolia",
+  "region": "Asia",
+  "controlModel": "Shared",
+  "headline": "Mongolian law requires consent and notices when health data moves, but the national exchange is still being built and usage is unproven.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 60,
+      "summary": "The Personal Data Protection Law gives a right to a free electronic copy of one's data, and the Ministry said in 2021 that E-Mongolia shows lab results. No full national chart was found, and how many people view lab results there was not verified.",
+      "detail": [
+        "The Law on Health (Article 43.1.3) gives citizens the right to receive information about their own health from doctors and health organisations. It does not spell out a right to a copy of the whole medical chart.",
+        "The 2021 Personal Data Protection Law, in force since 1 May 2022, lets a person get a copy of their data on paper or electronically (16.1.8) and pass it to another controller (16.1.9). Controllers must give the electronic copy free of charge (18.2.11).",
+        "In December 2021 the Ministry of Health said every lab result now shows in the E-Mongolia app in real time, alongside appointment booking, vaccine certificates and medical certificates. In 2023 the insurance office added a view of when, where and at what price a person received insured care.",
+        "We found no national portal holding the full record (notes, imaging reports, history), and the law sets no fixed deadline for copies. The Ministry's 2021 release counted 4.4 million vaccine certificates and 663,000 medical certificates issued through E-Mongolia, but how many residents view lab results was not verified, so the score sits at the bottom of the portal band."
+      ],
+      "sources": [
+        {
+          "title": "Law on Personal Data Protection (2021, in force 1 May 2022), Mongolian text with unofficial English translation",
+          "url": "https://legalinfo.mn/mn/detail?lawId=16390288615991",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law on Health (2011, as amended), Articles 8, 36 and 43",
+          "url": "https://legalinfo.mn/mn/detail/49",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Minister: nine health services now available through E-Mongolia (Ministry of Health)",
+          "url": "https://moh.gov.mn/news/5395",
+          "date": "2021-12-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "E-Mongolia adds a service to view details of care received under health insurance (Health Insurance General Office)",
+          "url": "https://emd.gov.mn/news/363",
+          "date": "2023-06-05",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 47,
+      "summary": "Health providers must get consent under the Personal Data Protection Law when they first collect data and before passing it to another provider, and patients are to be notified of transfers. Granular choices and whether health notices reach patients in practice were not verified.",
+      "detail": [
+        "Government Resolution No. 100 of 2024 says providers must get the data subject's consent under Article 8 of the Personal Data Protection Law when first collecting personal data and when sending it to another controller (2.4).",
+        "The same rules require a notice through the state notification system when consent is given, when data goes to the health exchange system, after care or an appointment, when an insurance claim is sent, and when data goes to a third party (2.5).",
+        "The Law on Transparency of Public Information (Article 23.1.1) requires a notice when someone accesses a person's restricted data, but not when it goes to authorised bodies for operational (investigative) work (23.5). In 2022 the digital development ministry said E-Mongolia users would see which body accessed their state data and when.",
+        "The law lets health staff process health data without consent to provide care (9.2.2). We found no granular sharing settings, and delivery of health notices in practice was not verified, so the score sits in the lower half of the 40 to 55 band."
+      ],
+      "sources": [
+        {
+          "title": "Government Resolution No. 100 (2024), Procedure on collecting, processing, using, storing and securing health information",
+          "url": "https://legalinfo.mn/mn/detail?lawId=17089589982521",
+          "date": "2024-03-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law on Personal Data Protection (2021, in force 1 May 2022), Mongolian text with unofficial English translation",
+          "url": "https://legalinfo.mn/mn/detail?lawId=16390288615991",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law on Transparency of Public Information (2021), Articles 18, 22 and 23",
+          "url": "https://www.legalinfo.mn/mn/detail?lawId=16390263044601",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Personal data will not be used without consent: state notification system introduced (Montsame)",
+          "url": "https://www.montsame.mn/mn/read/295069",
+          "date": "2022-04-19",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 48,
+      "summary": "Health data is sensitive data and a personal secret under the 2021 law, with breach notice to the person and fines of up to 20,000 units for firms that unlawfully disclose it. No health-sector enforcement was found, and the regulator's April 2026 leak case ended in recommendations.",
+      "detail": [
+        "The Personal Data Protection Law lists health, genetic and biometric data as sensitive (4.1.12) and treats it as a personal secret (9.1). Transfers abroad need a law, a treaty or consent (14.1).",
+        "Controllers must tell people immediately when a violation harms their rights (22.2) and send a yearly record of violations to the National Human Rights Commission (22.6). The Commission handles complaints and makes recommendations (24.1).",
+        "Article 6.27 of the Law on Violations fines unlawful disclosure of sensitive data at 2,000 units for a person and 20,000 units for a legal entity. Resolution No. 100 sets server and data centre security rules for health systems.",
+        "In April 2026 the Commission found about 2.1 million citizens' records in a political party database and sent three recommendations. We found no health-sector breach or fine, so this is scored on the general law, as the anchors require."
+      ],
+      "sources": [
+        {
+          "title": "Law on Personal Data Protection (2021, in force 1 May 2022), Mongolian text with unofficial English translation",
+          "url": "https://legalinfo.mn/mn/detail?lawId=16390288615991",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law on Violations (2017, as amended), Article 6.27 on breaches of the personal data law",
+          "url": "https://legalinfo.mn/mn/detail/12695",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Government Resolution No. 100 (2024), Procedure on collecting, processing, using, storing and securing health information",
+          "url": "https://legalinfo.mn/mn/detail?lawId=17089589982521",
+          "date": "2024-03-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "NHRC finds about 2.1 million citizens' records in Democratic Party database (iKon.mn)",
+          "url": "https://ikon.mn/n/3mu1",
+          "date": "2026-04-16",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "Health data needs consent for most uses, and Resolution No. 100 bars health software vendors from using data beyond their contract. But de-identified data may be used for statistics and research without consent, and no law aimed at health data brokers or apps was found.",
+      "detail": [
+        "Private companies may process personal data only on listed grounds, chiefly consent (Articles 7 and 8 of the Personal Data Protection Law). Sensitive health data is barred except for care, legal claims or those grounds (9.2).",
+        "Resolution No. 100 (2.13) forbids health software developers to process, use or pass on data beyond their service contract with the provider.",
+        "The law allows statistics and scientific works from de-identified data without consent (6.2.5 and 7.1.3). We found no rule specific to health data brokers, consumer health apps or sale of de-identified health data (not verified). A ban on commercial use without consent appears only in the draft AI procedure."
+      ],
+      "sources": [
+        {
+          "title": "Law on Personal Data Protection (2021, in force 1 May 2022), Mongolian text with unofficial English translation",
+          "url": "https://legalinfo.mn/mn/detail?lawId=16390288615991",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Government Resolution No. 100 (2024), Procedure on collecting, processing, using, storing and securing health information",
+          "url": "https://legalinfo.mn/mn/detail?lawId=17089589982521",
+          "date": "2024-03-06",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 54,
+      "summary": "Resolution No. 100 routes health data through a national exchange system tied to the state KHUR platform, using ICD, HL7 FHIR, SNOMED CT and LOINC codes. In September 2026 the Health Development Center said FHIR was still being introduced, and providers run many different software systems.",
+      "detail": [
+        "Resolution No. 100 sets up a health-sector data exchange system as part of the state KHUR exchange, and a unified health database run by the Health Development Center. Providers must set up real-time exchange and use ICD, FHIR/HL7, SNOMED CT and LOINC (1.2 to 1.4, 2.8).",
+        "Insurance claims run through one national fund. At the March 2026 launch of its 1818.mn open data site, Montsame reported that 558,200 citizens registered on E-Mongolia received 1.175 million insured services from 1,558 facilities in January 2026.",
+        "E-prescriptions are written inside at least seven different hospital software systems, the Health Development Center said in 2024, so records are spread across vendors.",
+        "In September 2026 the Center trained hospital IT staff on the exchange system and on how FHIR is being introduced. Mongolia is not in the EU, so the EHDS does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Government Resolution No. 100 (2024), Procedure on collecting, processing, using, storing and securing health information",
+          "url": "https://legalinfo.mn/mn/detail?lawId=17089589982521",
+          "date": "2024-03-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "1818.mn system launched for transparency of health insurance information (Montsame)",
+          "url": "https://www.montsame.mn/mn/read/394634",
+          "date": "2026-03-31",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Guides for writing e-prescriptions in hospital software systems (Health Development Center)",
+          "url": "https://hdc.gov.mn/post/1579/",
+          "date": "2024-12-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Training on use and security of the health information exchange system (Health Development Center)",
+          "url": "https://hdc.gov.mn/post/1978/",
+          "date": "2026-09-28",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 47,
+      "summary": "The exchange system and per-user access rights in Resolution No. 100 are meant to let providers share records, with consent needed before data moves between providers. Whether a treating doctor can see a patient's records from other providers in practice was not verified.",
+      "detail": [
+        "Under Resolution No. 100 providers use the unified health database through the exchange system to do their legal work (2.1), and must set access rights for each software user (2.9).",
+        "Consent is required before data passes between providers (2.4), while health staff may process health data without consent to give care (Personal Data Protection Law 9.2.2). We found no written emergency-access rule for records held elsewhere.",
+        "FHIR exchange was still being rolled out in September 2026, and family health centre systems had problems in June 2025. A doctor's practical view across providers was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Government Resolution No. 100 (2024), Procedure on collecting, processing, using, storing and securing health information",
+          "url": "https://legalinfo.mn/mn/detail?lawId=17089589982521",
+          "date": "2024-03-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law on Personal Data Protection (2021, in force 1 May 2022), Mongolian text with unofficial English translation",
+          "url": "https://legalinfo.mn/mn/detail?lawId=16390288615991",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Training on use and security of the health information exchange system (Health Development Center)",
+          "url": "https://hdc.gov.mn/post/1978/",
+          "date": "2026-09-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Minister reviews digitisation of family health centres and orders problems fixed (Ministry of Health)",
+          "url": "https://moh.gov.mn/news/7338",
+          "date": "2025-06-16",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "The Law on Health requires written consent to include a person in medical research, and a Ministry ethics committee approves studies. De-identified data can be used for scientific work without consent or an opt-out, so the score is capped at 50.",
+      "detail": [
+        "Article 36.2 of the Law on Health requires written consent from the person, or a legal representative for children and people lacking capacity, before medical research or trials.",
+        "The Medical Ethics Review Committee under the Ministry of Health oversees research ethics and grants permission to start studies and to send samples abroad.",
+        "The Personal Data Protection Law allows scientific works and statistics from de-identified data without consent (6.2.5, 7.1.3), with no opt-out. Score: base 40, plus 3 each for an ethics body, statutory secrecy, a misuse penalty (Law on Violations 6.27) and a consent route, capped at 50. The EHDS does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Law on Health (2011, as amended), Articles 8, 36 and 43",
+          "url": "https://legalinfo.mn/mn/detail/49",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Medical Ethics Review Committee under the Ministry of Health",
+          "url": "https://moh.gov.mn/ethic",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Law on Personal Data Protection (2021, in force 1 May 2022), Mongolian text with unofficial English translation",
+          "url": "https://legalinfo.mn/mn/detail?lawId=16390288615991",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Mongolia launches Partnership for Science and Research (WHO Mongolia joint news release)",
+          "url": "https://www.who.int/mongolia/news/detail/17-06-2026-mongolia-launches-partnership-for-science-and-research",
+          "date": "2026-06-17",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "ai": {
+      "score": 30,
+      "summary": "The Ministry of Health published a draft procedure in May 2026 requiring human final decisions, registration, clinical validation and re-assessment after updates for health AI. It was a draft open for comment; no clinical AI rule is in force, only a data-law impact assessment for automated processing.",
+      "detail": [
+        "The draft Procedure on using AI in health care says AI advice does not replace the doctor's decision and a clinician decides (2.2.1, 3.2.5). AI systems used in health facilities need registration or permission (3.2.4).",
+        "High-risk systems would need clinical validation, bias and cybersecurity checks before use, re-assessment after software changes, and incident reports (4.2.2 to 4.2.7). Patients would be told when AI is used (7.3.1) and could refuse use of their data in AI systems (7.2.3).",
+        "In force today, Article 23 of the Personal Data Protection Law requires an assessment, sent to the Human Rights Commission, before automated processing that affects rights or regular processing of sensitive data. Adoption of the health procedure was not verified and no AI law was found, so the score sits at the top of the no-rules band (15 to 30)."
+      ],
+      "sources": [
+        {
+          "title": "Draft Procedure on using artificial intelligence in health care open for comment (Ministry of Health)",
+          "url": "https://moh.gov.mn/news/7561",
+          "date": "2026-05-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Draft Procedure on using artificial intelligence in health care services (Ministry of Health, draft text)",
+          "url": "https://moh.gov.mn/uploads/userfiles/files/%D0%A5%D0%B8%D0%B9%D0%BC%D1%8D%D0%BB%20%D0%BE%D1%8E%D1%83%D0%BD_%D0%97%D0%90%D0%93%D0%92%D0%90%D0%A0%20%D0%A2%D3%A8%D0%A1%D3%A8%D0%9B.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Law on Personal Data Protection (2021, in force 1 May 2022), Mongolian text with unofficial English translation",
+          "url": "https://legalinfo.mn/mn/detail?lawId=16390288615991",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "connected",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "A national health exchange tied to the state KHUR platform carries labs, referrals and insurance claims, but FHIR was still being introduced in September 2026 and many vendor systems coexist. EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Law on Personal Data Protection",
+      "level": "National",
+      "year": "2021",
+      "what": "Health data is sensitive; consent, free electronic copy, breach notice, Human Rights Commission oversight.",
+      "url": "https://legalinfo.mn/mn/detail?lawId=16390288615991"
+    },
+    {
+      "name": "Law on Health",
+      "level": "National",
+      "year": "2011",
+      "what": "Right to own health information and confidentiality; written consent for research; health data rules set by Government.",
+      "url": "https://legalinfo.mn/mn/detail/49"
+    },
+    {
+      "name": "Government Resolution No. 100, Procedure on health information",
+      "level": "National",
+      "year": "2024",
+      "what": "National health data exchange, coding standards, consent before transfers, patient notices, vendor reuse ban.",
+      "url": "https://legalinfo.mn/mn/detail?lawId=17089589982521"
+    },
+    {
+      "name": "Law on Transparency of Public Information",
+      "level": "National",
+      "year": "2021",
+      "what": "State exchange platform and notice when others access a person's restricted data.",
+      "url": "https://www.legalinfo.mn/mn/detail?lawId=16390263044601"
+    },
+    {
+      "name": "Law on Violations, Article 6.27",
+      "level": "National",
+      "year": "2017",
+      "what": "Fines for misusing personal data and unlawfully disclosing sensitive data, added in 2021.",
+      "url": "https://legalinfo.mn/mn/detail/12695"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-03-31",
+      "headline": "Health insurance office launches 1818.mn open data site on spending and care",
+      "source": "Montsame",
+      "url": "https://www.montsame.mn/mn/read/394634",
+      "why": "Lets insured patients and researchers see how the insurance fund pays for care."
+    },
+    {
+      "date": "2026-04-16",
+      "headline": "Rights commission finds 2.1 million citizens' records in party database",
+      "source": "iKon.mn",
+      "url": "https://ikon.mn/n/3mu1",
+      "why": "The regulator issued recommendations and a 30-day demand after a mass leak."
+    },
+    {
+      "date": "2026-05-27",
+      "headline": "Health Ministry seeks comment on draft rules for AI in care",
+      "source": "Ministry of Health",
+      "url": "https://moh.gov.mn/news/7561",
+      "why": "Would require human final decisions and patient notice when AI is used."
+    },
+    {
+      "date": "2026-06-17",
+      "headline": "Ministry and WHO launch national partnership for health science and research",
+      "source": "WHO Mongolia",
+      "url": "https://www.who.int/mongolia/news/detail/17-06-2026-mongolia-launches-partnership-for-science-and-research",
+      "why": "Aims to use more research in health policy, which depends on patient data."
+    },
+    {
+      "date": "2026-09-28",
+      "headline": "Health Development Center trains hospitals on exchange system security and FHIR",
+      "source": "Health Development Center",
+      "url": "https://hdc.gov.mn/post/1978/",
+      "why": "Shows the national record exchange is still being rolled out."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

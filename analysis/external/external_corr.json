@@ -1,6 +1,7 @@
 {
  "computed": "2026-10-02",
- "ourCountries": 65,
+ "dataSha256": "9433402026cc0b2dca25861fe9949ca005567e12ea5d04bff43dde11b6e542c4",
+ "ourCountries": 196,
  "gdhmFullResponders": [
   "ARE",
   "ARG",
@@ -26,9 +27,9 @@
    "name": "EC eHealth composite 2024",
    "cat": "access",
    "n": 14,
-   "rho": 0.24,
-   "lo": -0.34,
-   "hi": 0.76,
+   "rho": 0.47,
+   "lo": -0.16,
+   "hi": 0.88,
    "countries": [
     "AUT",
     "BEL",
@@ -50,9 +51,9 @@
    "name": "EC eHealth composite 2024, minus BEL ESP IRL (cite it)",
    "cat": "access",
    "n": 11,
-   "rho": 0.16,
-   "lo": -0.51,
-   "hi": 0.75,
+   "rho": 0.45,
+   "lo": -0.31,
+   "hi": 0.93,
    "countries": [
     "AUT",
     "DEU",
@@ -71,9 +72,9 @@
    "name": "EC eHealth composite 2024, minus IRL",
    "cat": "access",
    "n": 13,
-   "rho": 0.05,
-   "lo": -0.55,
-   "hi": 0.62,
+   "rho": 0.33,
+   "lo": -0.37,
+   "hi": 0.84,
    "countries": [
     "AUT",
     "BEL",
@@ -94,9 +95,9 @@
    "name": "OECD tech/operational readiness 2021",
    "cat": "journey",
    "n": 18,
-   "rho": 0.45,
-   "lo": -0.09,
-   "hi": 0.82,
+   "rho": 0.46,
+   "lo": -0.05,
+   "hi": 0.83,
    "countries": [
     "AUS",
     "BEL",
@@ -123,8 +124,8 @@
    "cat": "clinical",
    "n": 18,
    "rho": 0.35,
-   "lo": -0.21,
-   "hi": 0.77,
+   "lo": -0.22,
+   "hi": 0.78,
    "countries": [
     "AUS",
     "BEL",
@@ -150,9 +151,9 @@
    "name": "OECD tech/operational readiness 2021",
    "cat": "overall",
    "n": 18,
-   "rho": 0.44,
-   "lo": -0.06,
-   "hi": 0.82,
+   "rho": 0.42,
+   "lo": -0.08,
+   "hi": 0.79,
    "countries": [
     "AUS",
     "BEL",
@@ -178,9 +179,9 @@
    "name": "OECD eHR governance for analytics 2021",
    "cat": "research",
    "n": 18,
-   "rho": 0.03,
-   "lo": -0.57,
-   "hi": 0.54,
+   "rho": -0.42,
+   "lo": -0.73,
+   "hi": -0.0,
    "countries": [
     "AUS",
     "BEL",
@@ -206,9 +207,9 @@
    "name": "Bertelsmann DHI composite 2018",
    "cat": "overall",
    "n": 16,
-   "rho": 0.26,
-   "lo": -0.35,
-   "hi": 0.75,
+   "rho": 0.14,
+   "lo": -0.48,
+   "hi": 0.67,
    "countries": [
     "AUS",
     "AUT",
@@ -233,8 +234,8 @@
    "cat": "journey",
    "n": 16,
    "rho": 0.23,
-   "lo": -0.52,
-   "hi": 0.75,
+   "lo": -0.53,
+   "hi": 0.73,
    "countries": [
     "AUS",
     "AUT",
@@ -258,9 +259,9 @@
    "name": "Bertelsmann actual-use sub-index 2018",
    "cat": "access",
    "n": 16,
-   "rho": 0.42,
-   "lo": -0.21,
-   "hi": 0.84,
+   "rho": 0.15,
+   "lo": -0.47,
+   "hi": 0.68,
    "countries": [
     "AUS",
     "AUT",
@@ -284,9 +285,9 @@
    "name": "GDHM 2023 Q08 privacy law phase, full responders",
    "cat": "privacy",
    "n": 18,
-   "rho": 0.23,
-   "lo": -0.21,
-   "hi": 0.65,
+   "rho": 0.21,
+   "lo": -0.24,
+   "hi": 0.64,
    "countries": [
     "ARE",
     "ARG",
@@ -312,9 +313,9 @@
    "name": "GDHM 2023 Q08 privacy law phase, all with a value",
    "cat": "privacy",
    "n": 60,
-   "rho": 0.36,
-   "lo": 0.12,
-   "hi": 0.59,
+   "rho": 0.35,
+   "lo": 0.1,
+   "hi": 0.56,
    "countries": [
     "ALB",
     "ARE",
@@ -382,9 +383,9 @@
    "name": "GDHM 2023 Q15 HIE/architecture phase, full responders",
    "cat": "journey",
    "n": 18,
-   "rho": 0.55,
-   "lo": -0.01,
-   "hi": 0.94,
+   "rho": 0.46,
+   "lo": -0.1,
+   "hi": 0.86,
    "countries": [
     "ARE",
     "ARG",
@@ -410,9 +411,9 @@
    "name": "GDHM 2023 Q09a AI protocol phase, full responders",
    "cat": "ai",
    "n": 18,
-   "rho": 0.49,
-   "lo": -0.06,
-   "hi": 0.88,
+   "rho": 0.69,
+   "lo": 0.3,
+   "hi": 0.9,
    "countries": [
     "ARE",
     "ARG",
@@ -438,9 +439,9 @@
    "name": "GDHM 2023 overall phase, full responders",
    "cat": "overall",
    "n": 18,
-   "rho": 0.62,
-   "lo": 0.2,
-   "hi": 0.87,
+   "rho": 0.39,
+   "lo": -0.13,
+   "hi": 0.8,
    "countries": [
     "ARE",
     "ARG",
@@ -462,5 +463,181 @@
     "ZAF"
    ]
   }
- ]
+ ],
+ "income": {
+  "overallVsGdp": {
+   "n": 186,
+   "rho": 0.72,
+   "lo": 0.64,
+   "hi": 0.79,
+   "years": "2022 to 2024",
+   "note": "TWN is not in WDI"
+  },
+  "withinEurope": {
+   "n": 45,
+   "rho": 0.48,
+   "lo": 0.17,
+   "hi": 0.71
+  },
+  "fit": {
+   "slopePerLogUnit": 7.7,
+   "r2": 0.52
+  },
+  "below": [
+   {
+    "iso3": "GUY",
+    "resid": -24.9
+   },
+   {
+    "iso3": "DMA",
+    "resid": -20.4
+   },
+   {
+    "iso3": "TTO",
+    "resid": -18.9
+   },
+   {
+    "iso3": "LBY",
+    "resid": -18.3
+   },
+   {
+    "iso3": "VCT",
+    "resid": -17.8
+   },
+   {
+    "iso3": "KNA",
+    "resid": -17.8
+   }
+  ],
+  "above": [
+   {
+    "iso3": "FIN",
+    "resid": 18.7
+   },
+   {
+    "iso3": "HUN",
+    "resid": 17.6
+   },
+   {
+    "iso3": "EST",
+    "resid": 17.5
+   },
+   {
+    "iso3": "DNK",
+    "resid": 15.4
+   },
+   {
+    "iso3": "MWI",
+    "resid": 15.3
+   },
+   {
+    "iso3": "KEN",
+    "resid": 14.1
+   }
+  ],
+  "gdhmOverall": {
+   "n": 18,
+   "rhoOurs": 0.39,
+   "rhoGdhmGdp": 0.6,
+   "rhoOursGdp": 0.56,
+   "partial": 0.08,
+   "partialCi": [
+    -0.41,
+    0.65
+   ]
+  }
+ },
+ "eurostat": {
+  "year": 2024,
+  "indicator": "I_IUAPR",
+  "n": 33,
+  "rhoAccess": 0.56,
+  "lo": 0.21,
+  "hi": 0.83,
+  "values": {
+   "ALB": 48.72,
+   "AUT": 22.95,
+   "BEL": 38.65,
+   "BGR": 19.49,
+   "BIH": 1.81,
+   "CYP": 52.02,
+   "DEU": 5.13,
+   "DNK": 61.51,
+   "ESP": 46.24,
+   "EST": 59.84,
+   "FIN": 73.56,
+   "FRA": 25.46,
+   "GRC": 37.86,
+   "HRV": 26.18,
+   "HUN": 42.3,
+   "IRL": 14.63,
+   "ITA": 26.93,
+   "LTU": 55.43,
+   "LUX": 21.99,
+   "LVA": 40.29,
+   "MKD": 8.15,
+   "MLT": 39.12,
+   "MNE": 30.05,
+   "NLD": 47.79,
+   "NOR": 33.38,
+   "POL": 29.75,
+   "PRT": 39.6,
+   "ROU": 9.87,
+   "SRB": 1.32,
+   "SVK": 16.18,
+   "SVN": 26.91,
+   "SWE": 45.65,
+   "TUR": 46.9
+  },
+  "accessScores": {
+   "ALB": 50,
+   "AUT": 63,
+   "BEL": 68,
+   "BGR": 62,
+   "BIH": 50,
+   "CYP": 64,
+   "DEU": 64,
+   "DNK": 78,
+   "ESP": 66,
+   "EST": 80,
+   "FIN": 76,
+   "FRA": 70,
+   "GRC": 66,
+   "HRV": 62,
+   "HUN": 72,
+   "IRL": 55,
+   "ITA": 68,
+   "LTU": 67,
+   "LUX": 64,
+   "LVA": 64,
+   "MKD": 60,
+   "MLT": 72,
+   "MNE": 60,
+   "NLD": 55,
+   "NOR": 68,
+   "POL": 70,
+   "PRT": 70,
+   "ROU": 60,
+   "SRB": 62,
+   "SVK": 62,
+   "SVN": 66,
+   "SWE": 77,
+   "TUR": 74
+  },
+  "rho_journey": {
+   "rho": 0.39,
+   "lo": -0.01,
+   "hi": 0.7
+  },
+  "rho_clinical": {
+   "rho": 0.45,
+   "lo": 0.09,
+   "hi": 0.73
+  },
+  "rho_overall": {
+   "rho": 0.45,
+   "lo": 0.06,
+   "hi": 0.76
+  }
+ }
 }

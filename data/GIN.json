@@ -1,0 +1,140 @@
+{
+ "iso3": "GIN",
+ "name": "Guinea",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Guinea's 2016 data law gives patients rights, but the regulator it promised was never created and records sit with each hospital.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "The 2016 law lets you ask any data holder for your data and, for computer records, a copy in a structured electronic format. There is no national portal, the law sets no deadline, and the regulator meant to enforce it does not exist, so 40.",
+   "detail": [
+    "Part Two, Article 31 of Law L/2016/037/AN lets a person obtain communication of their personal data and its origin from the controller. Article 40 adds a right to a copy of automated data in a structured, commonly used electronic format.",
+    "The law sets no response deadline and no fee rule for access requests. If access is impossible, the data protection authority can exercise it, but that authority has not been created.",
+    "The 1997 Public Health Code does not give patients a specific right to their medical file. We found no national patient portal or app.",
+    "Some public hospitals now use the private Visa Medical card, which stores a patient's history for 30,000 Guinean francs. Whether patients can read or export that record themselves was not verified."
+   ],
+   "sources": [
+    {"title": "Loi L/2016/037/AN relative à la cybersécurité et la protection des données à caractère personnel (Data Protection Africa copy)", "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Guinea_Cybersecurity-and-DPA.pdf", "date": "2016-07-28", "publisherClass": "legal_text"},
+    {"title": "Code de la santé publique, Loi L/97/021/AN (FNDC copy)", "url": "https://fndcguinee.com/wp-content/uploads/2019/05/CODE-DE-LA-SANTE-PUBLIQUE.pdf", "date": "1997-06-19", "publisherClass": "legal_text"},
+    {"title": "Financer la digitalisation des hôpitaux sans endetter l'État (Guinéenews)", "url": "https://guineenews.org/2026/08/13/financer-la-digitalisation-des-hopitaux-sans-endetter-letat-le-pari-reussi-dune-healthtech-guineenne-devenue-panafricaine/", "date": "2026-08-13", "publisherClass": "news"}
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The law makes express consent the default and bans processing health data except in listed cases, but no shared record, opt-out or access log exists. In practice each hospital decides, and a private vendor runs the records in some.",
+   "detail": [
+    "Part Two, Article 18 says processing is legitimate when the person gives express prior consent, with exceptions for legal duties, public tasks, contracts and the person's vital interests.",
+    "Article 54 bans collecting or processing health and genetic data, with exceptions such as vital interests and court cases. Article 7 requires prior authorisation for medical data processing, from an authority that has not been set up.",
+    "Article 32 gives a right to object for legitimate reasons. We found no patient-facing consent tool, opt-out from sharing, or access log in any Guinean health system.",
+    "Visa Medical, a private company, runs patient records in public hospitals under a pre-financing model. Its consent and data-sharing terms were not verified."
+   ],
+   "sources": [
+    {"title": "Loi L/2016/037/AN relative à la cybersécurité et la protection des données à caractère personnel (Data Protection Africa copy)", "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Guinea_Cybersecurity-and-DPA.pdf", "date": "2016-07-28", "publisherClass": "legal_text"},
+    {"title": "Visa Médical : les témoignages qui racontent la révolution des hôpitaux guinéens (Africaguinee)", "url": "https://www.africaguinee.com/visa-medical-les-temoignages-qui-racontent-la-revolution-des-hopitaux-guineens/", "date": "2026-08-25", "publisherClass": "news"}
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is sensitive under the 2016 law, and unlawful processing carries 10 to 20 years in prison. With no health cases found this scores the general law at the floor of its band, 45, because the regulator it relies on still does not exist.",
+   "detail": [
+    "Law L/2016/037/AN treats health data as sensitive. Unlawful processing of health or genetic data is punished by 10 to 20 years and a fine of 300 to 600 million Guinean francs.",
+    "Article 47 of Part Two says the data protection authority will be created by regulation. In June 2024 the digital minister defended a bill to create it before the transition parliament (CNT).",
+    "In October 2025 the minister said the data protection bill had been submitted and the authority was still planned. Africa Data Protection lists no supervisory authority for Guinea.",
+    "The 2025 Constitution protects private life (Article 16). We found no health-sector breach, decision or fine. The EU GDPR and EHDS do not apply."
+   ],
+   "sources": [
+    {"title": "Loi L/2016/037/AN relative à la cybersécurité et la protection des données à caractère personnel (Data Protection Africa copy)", "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Guinea_Cybersecurity-and-DPA.pdf", "date": "2016-07-28", "publisherClass": "legal_text"},
+    {"title": "Discours de la Ministre au CNT sur le projet de loi APDP (MCENI)", "url": "https://mceni.gov.gn/discours-de-mme-la-ministre-des-postes-des-telecommunications-et-de-leconomie-numerique-au-cnt-sur-le-projet-de-loi-apdp/", "date": "2024-06-20", "publisherClass": "official"},
+    {"title": "IA et protection des données personnelles : la ministre Rose Pola Pricemou annonce des mesures (Africaguinee)", "url": "https://www.africaguinee.com/ia-et-protection-des-donnees-personnelles-la-ministre-rose-pola-pricemou-annonce-des-mesures/", "date": "2025-10-08", "publisherClass": "news"},
+    {"title": "Guinée, cadre juridique de la protection des données (Africa Data Protection)", "url": "https://www.africadataprotection.org/pays/guinee.html", "date": "undated", "publisherClass": "blog_vendor"}
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Direct marketing with personal data needs prior written consent, and people can refuse marketing use free of charge. Nothing covers health apps, data brokers or de-identified data, while a private firm runs records in public hospitals.",
+   "detail": [
+    "Part One, Article 47 of Law L/2016/037/AN punishes direct marketing using the data of a person who has not given prior written consent. Part Two, Article 32 gives a free right to object to marketing use and to sharing with third parties for marketing.",
+    "Health data falls under the sensitive-data ban, so selling it without a listed exception would be unlawful. We found no health-specific rule on brokers, consumer apps or de-identified data sales, and no enforcement.",
+    "Visa Medical charges patients for its card and says it has over a million users in about 20 hospitals. Those are company figures; its data terms were not verified."
+   ],
+   "sources": [
+    {"title": "Loi L/2016/037/AN relative à la cybersécurité et la protection des données à caractère personnel (Data Protection Africa copy)", "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Guinea_Cybersecurity-and-DPA.pdf", "date": "2016-07-28", "publisherClass": "legal_text"},
+    {"title": "Financer la digitalisation des hôpitaux sans endetter l'État (Guinéenews)", "url": "https://guineenews.org/2026/08/13/financer-la-digitalisation-des-hopitaux-sans-endetter-letat-le-pari-reussi-dune-healthtech-guineenne-devenue-panafricaine/", "date": "2026-08-13", "publisherClass": "news"}
+   ]
+  },
+  "journey": {
+   "score": 25,
+   "summary": "DHIS2 carries national aggregate reporting and disease surveillance, but there is no national record or exchange linking care. Hospital systems are islands: CHU Donka and the Visa Medical hospitals each keep their own records.",
+   "detail": [
+    "The Ministry of Health portal lists national DHIS2 platforms for routine health data and surveillance. Since 2019 the DHIS2 Tracker also records individual cases of epidemic-prone diseases, though early case reporting was low.",
+    "The 2021-2025 digital health strategy planned a personal medical record, interoperability standards and hospital software. We found no national EHR or exchange in operation.",
+    "CHU Donka reports a single computerised patient record and PACS imaging inside the hospital. Visa Medical says it runs in 19 public facilities. Labs, pharmacy and insurance claims links were not verified."
+   ],
+   "sources": [
+    {"title": "Portail des Applications, Ministère de la Santé et de l'Hygiène Publique", "url": "https://apps.sante.gov.gn/", "date": "undated", "publisherClass": "official"},
+    {"title": "Guinée, Stratégie Nationale pour la Santé Numérique 2021-25 (OMS Afrique)", "url": "https://www.afro.who.int/fr/countries/guinea/publication/guinee-strategie-nationale-pour-la-sante-numerique-2021-25", "date": "2021-12", "publisherClass": "intergov"},
+    {"title": "Implementation of DHIS2 for Disease Surveillance in Guinea: 2015-2020 (Frontiers in Public Health)", "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2021.761196/full", "date": "2022-01-20", "publisherClass": "academic"},
+    {"title": "CHU Donka : quatre ans de transformation au bénéfice des Guinéens (Guinee114, sponsored)", "url": "https://www.guinee114.com/2026/08/18/chu-donka-quatre-ans-de-transformation-au-benefice-des-guineens/", "date": "2026-08-18", "publisherClass": "news"}
+   ]
+  },
+  "clinical": {
+   "score": 22,
+   "summary": "A doctor can see electronic notes only inside a hospital that has its own system, such as CHU Donka. Whether a Visa Medical record follows the patient between hospitals was not verified.",
+   "detail": [
+    "CHU Donka says authorised professionals can open its single computerised patient record. That covers one national hospital, not other providers.",
+    "Patients and doctors in Macenta and Nzérékoré say Visa Medical brings up a returning patient's information on screen, replacing torn paper booklets. Sharing between different hospitals was not verified.",
+    "The national strategy describes a shared personal record as a goal for 2021-2025. We found no emergency-access rule or national record a clinician could query."
+   ],
+   "sources": [
+    {"title": "Stratégie Nationale Santé Numérique 2021-2025, Ministère de la Santé (P4H copy)", "url": "https://p4h.world/app/uploads/2024/09/Strategie-Nationale-Sante-Numerique_2021-2025_Guinee.x68900.pdf", "date": "2021-12", "publisherClass": "official"},
+    {"title": "CHU Donka : quatre ans de transformation au bénéfice des Guinéens (Guinee114, sponsored)", "url": "https://www.guinee114.com/2026/08/18/chu-donka-quatre-ans-de-transformation-au-benefice-des-guineens/", "date": "2026-08-18", "publisherClass": "news"},
+    {"title": "Visa Médical : les témoignages qui racontent la révolution des hôpitaux guinéens (Africaguinee)", "url": "https://www.africaguinee.com/visa-medical-les-temoignages-qui-racontent-la-revolution-des-hopitaux-guineens/", "date": "2026-08-25", "publisherClass": "news"}
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "The Public Health Code requires free, informed, written consent for health research, reviewed by the CNERS ethics committee. Consent can be waived for record reviews when people cannot be found, and no public register exists, so 49.",
+   "detail": [
+    "Articles 242 to 245 of the 1997 Public Health Code require consent that is informed, free and signed before an independent witness. Article 246 allows research on records or samples without consent when subjects cannot be located, with CNERS approval.",
+    "CNERS, created by decree in 1998, reviews protocols. Its procedure asks for consent documents and data confidentiality measures.",
+    "The 2016 data law requires prior authorisation for medical research data and punishes unlawful health data processing. We found no public register of data uses and no general opt-out."
+   ],
+   "sources": [
+    {"title": "Code de la santé publique, Loi L/97/021/AN (FNDC copy)", "url": "https://fndcguinee.com/wp-content/uploads/2019/05/CODE-DE-LA-SANTE-PUBLIQUE.pdf", "date": "1997-06-19", "publisherClass": "legal_text"},
+    {"title": "CNERS, Procédure d'examen d'un protocole de recherche en santé, v6 (ClinRegs copy)", "url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/guinea/SOP-CNERS_v6_Feb%202021%20(French).pdf", "date": "2021-02", "publisherClass": "official"},
+    {"title": "Clinical Research Regulation for Guinea (NIH ClinRegs)", "url": "https://clinregs.niaid.nih.gov/country/guinea", "date": "2026-01-08", "publisherClass": "official"}
+   ]
+  },
+  "ai": {
+   "score": 28,
+   "summary": "The 2018 medicines law counts software as a medical device and requires approval and change reporting, but there is no AI-specific rule for care. The national AI strategy is still at the assessment stage.",
+   "detail": [
+    "Law L/2018/024/AN defines a medical device to include software. Article 25 requires ministerial approval for five years, and Article 31 requires holders to report any change to the file at once.",
+    "Whether the ministerial orders that set device classes and the approval file are in force was not verified.",
+    "In October 2025 the digital ministry and UNDP started an AI readiness assessment (AILA) to prepare a national AI strategy. We found no binding rule on clinical AI, transparency or human oversight."
+   ],
+   "sources": [
+    {"title": "L/2018/024/AN Loi relative aux médicaments, produits de santé et à l'exercice de la profession de pharmacien (CNT archive)", "url": "https://cnt.gov.gn/archive.assemblee/www.assemblee.gov.gn/conakry-le-20-juin-2018-l2018024an-loi-relative-aux-medicaments-produits-de-sante-et-lexercice-de.html", "date": "2018-06-20", "publisherClass": "legal_text"},
+    {"title": "La Guinée à l'ère de l'Intelligence Artificielle : la ministre Pricemou décline une feuille de route (Africaguinee)", "url": "https://www.africaguinee.com/la-guinee-a-lere-de-lintelligence-artificielle-la-ministre-pricemou-decline-une-feuille-de-route-claire-pour-une-strategie-nationale-dia-ethique-et-durable/", "date": "2025-10-19", "publisherClass": "news"}
+   ]
+  }
+ },
+ "journey": {"primaryCare": "siloed", "hospital": "partial", "labs": "unknown", "pharmacy": "unknown", "claims": "unknown", "publicHealth": "partial", "research": "unknown"},
+ "journeyNote": "DHIS2 links district reporting and disease surveillance nationally. Hospital records live in separate systems (CHU Donka, Visa Medical sites). Lab, pharmacy and insurance links were not verified.",
+ "laws": [
+  {"name": "Law L/2016/037/AN on cybersecurity and personal data protection", "level": "National", "year": "2016", "what": "Access and structured-copy rights, health data as sensitive, criminal penalties; data authority promised but never created.", "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Guinea_Cybersecurity-and-DPA.pdf"},
+  {"name": "Law L/97/021/AN, Public Health Code", "level": "National", "year": "1997", "what": "Health system rules; informed written consent for research, waivable for record studies with CNERS approval.", "url": "https://fndcguinee.com/wp-content/uploads/2019/05/CODE-DE-LA-SANTE-PUBLIQUE.pdf"},
+  {"name": "Law L/2018/024/AN on medicines, health products and pharmacy", "level": "National", "year": "2018", "what": "Medical devices, including software, need ministerial approval; holders must report changes.", "url": "https://cnt.gov.gn/archive.assemblee/www.assemblee.gov.gn/conakry-le-20-juin-2018-l2018024an-loi-relative-aux-medicaments-produits-de-sante-et-lexercice-de.html"},
+  {"name": "Constitution of the Republic of Guinea", "level": "National", "year": "2025", "what": "Article 16 protects private and family life; Article 22 the right to health.", "url": "https://lexguinee.com/comprendre-le-droit/vos-droits-fondamentaux-constitution-2025"}
+ ],
+ "news": [
+  {"date": "2025-10-08", "headline": "Digital minister says data protection bill submitted, regulator still planned", "source": "Africaguinee", "url": "https://www.africaguinee.com/ia-et-protection-des-donnees-personnelles-la-ministre-rose-pola-pricemou-annonce-des-mesures/", "why": "Nine years after the 2016 law, patients still have no regulator to complain to."},
+  {"date": "2025-10-19", "headline": "Guinea and UNDP assess AI readiness ahead of a national strategy", "source": "Africaguinee", "url": "https://www.africaguinee.com/la-guinee-a-lere-de-lintelligence-artificielle-la-ministre-pricemou-decline-une-feuille-de-route-claire-pour-une-strategie-nationale-dia-ethique-et-durable/", "why": "Rules for AI that touches health data are not yet written."},
+  {"date": "2026-06-22", "headline": "Government starts work on a national data governance strategy", "source": "OSIRIS (from WeAreTech Africa)", "url": "https://www.osiris.sn/la-guinee-prepare-sa-strategie-nationale-pour-mieux-valoriser-les-donnees.html", "why": "It will set rules for collecting, sharing and securing public data, and names health as a sector for AI."},
+  {"date": "2026-08-13", "headline": "Private Visa Medical card holds patient histories in 19 public facilities", "source": "Guinéenews", "url": "https://guineenews.org/2026/08/13/financer-la-digitalisation-des-hopitaux-sans-endetter-letat-le-pari-reussi-dune-healthtech-guineenne-devenue-panafricaine/", "why": "Patients pay for the card, and a private firm holds their records."},
+  {"date": "2026-08-18", "headline": "CHU Donka reports a single electronic patient record and digital imaging", "source": "Guinee114 (sponsored)", "url": "https://www.guinee114.com/2026/08/18/chu-donka-quatre-ans-de-transformation-au-benefice-des-guineens/", "why": "The main national hospital moves off paper, though records stay inside it."}
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,157 @@
+{
+  "iso3": "TTO",
+  "name": "Trinidad and Tobago",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Most of the 2011 Data Protection Act has never come into force, so patients rely on freedom of information requests and mostly paper hospital files.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 35,
+      "summary": "Public patients can get their hospital file through a Freedom of Information Act request, decided within 30 days, but copies carry a fee. Private clinics are not covered because the data protection rules for business were never brought into force, and there is no portal.",
+      "detail": [
+        "The Freedom of Information Act 1999 covers every Regional Health Authority (RHA). Requests are free and decided within 30 days (section 15). Copies carry a prescribed fee, waived if the 30-day deadline is missed and refunded if access is not given within seven working days of payment (section 17). Section 36 lets a person ask to correct personal information.",
+        "The South West RHA tells patients to use a Freedom of Information Act request form to get a copy of their medical record. Its patient charter says patients have the right to a copy of their records.",
+        "The Data Protection Act 2011 would give an access right against private bodies too, but those parts have not been proclaimed. No patient portal for hospital records was found.",
+        "Score: base 45, minus 5 for limited scope (public bodies only), minus 5 for the per-copy fee."
+      ],
+      "sources": [
+        {"title": "Freedom of Information Act, Chap. 22:02, with Fees and Charges Regulations (Ministry of the Attorney General, unofficial revision)", "url": "https://www.finance.gov.tt/wp-content/uploads/2019/07/The-Freedom-of-Information-Act.pdf", "date": "2015", "publisherClass": "legal_text"},
+        {"title": "Patient Service, Medical Records Department (South West Regional Health Authority)", "url": "https://www.swrha.co.tt/patient-service", "date": "undated", "publisherClass": "official"},
+        {"title": "Patient Charter (South West Regional Health Authority)", "url": "https://www.swrha.co.tt/patient-charter", "date": "undated", "publisherClass": "official"}
+      ]
+    },
+    "control": {
+      "score": 25,
+      "summary": "The Act's rule that public bodies need consent to process health data, and may disclose medical information only with consent or a court order, is not in force. No opt-out from sharing and no patient-visible access log were found.",
+      "detail": [
+        "The Data Protection Act lists physical or mental health as sensitive personal information. Section 40 would require consent for public bodies to process it, with exceptions for care, public health, research and law enforcement. Section 45 would allow disclosure of medical information only with consent or by court order.",
+        "Only Part I and sections 7 to 18, 22, 23, 25(1), 26 and 28 came into force in January 2012, and sections 42(a) and (b) in August 2021. Sections 40 and 45 are not among them.",
+        "The South West RHA charter promises that a medical file is read only by those treating the patient, and by others only with written authorisation. This is a policy, not a statutory control.",
+        "No opt-out, granular consent or access log was found."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, Chap. 22:04 (Ministry of the Attorney General, unofficial revision)", "url": "http://laws.gov.tt/ttdll-web/revision/download/91970?type=act", "date": "2015", "publisherClass": "legal_text"},
+        {"title": "Motion: Proclaim the remaining sections of the Data Protection Act (Parliament of Trinidad and Tobago)", "url": "https://www.ttparliament.org/motions/proclaim-the-remaining-sections-of-the-data-protection-act/", "date": "2023-03-28", "publisherClass": "official"},
+        {"title": "Legal Notice No. 220 of 2021: Proclamation bringing section 42(a) and (b) of the Data Protection Act into operation (Government Printer, DataGuidance copy)", "url": "https://www.dataguidance.com/sites/default/files/ln2021_220.pdf", "date": "2021-08-20", "publisherClass": "legal_text"},
+        {"title": "Patient Charter (South West Regional Health Authority)", "url": "https://www.swrha.co.tt/patient-charter", "date": "undated", "publisherClass": "official"}
+      ]
+    },
+    "privacy": {
+      "score": 28,
+      "summary": "Health data is sensitive under the 2011 Act, but the duties on data holders, enforcement and penalties have not been proclaimed and the Information Commissioner is not operating. A 2023 ransomware attack pushed the South West RHA's medical records onto paper, with no regulator to act.",
+      "detail": [
+        "The UWI Data Protection Office said in February 2025 that the obligations on data controllers, enforcement mechanisms and penalties are not in force, so people lack formal ways to enforce their rights. A law firm said in April 2026 the Act was still only partly proclaimed and the Commissioner not operational.",
+        "The Senate passed a motion in March 2023 calling for the remaining sections to be proclaimed. They have not been.",
+        "On 23 October 2023 a cyberattack on the South West RHA cut access to its databases. Pharmacy and medical records ran manually for weeks, and patient records were only partly accessible (Trinidad Guardian).",
+        "The Constitution protects private life against the State. No breach notification duty is in force."
+      ],
+      "sources": [
+        {"title": "External Resources: Data Protection Laws, Trinidad and Tobago (The UWI Data Protection Office)", "url": "https://www.uwi.edu/data-protection/resources-external-tt", "date": "undated", "publisherClass": "academic"},
+        {"title": "Motion: Proclaim the remaining sections of the Data Protection Act (Parliament of Trinidad and Tobago)", "url": "https://www.ttparliament.org/motions/proclaim-the-remaining-sections-of-the-data-protection-act/", "date": "2023-03-28", "publisherClass": "official"},
+        {"title": "Breach of Confidence and Privacy Law in Trinidad and Tobago (Martin George)", "url": "https://martingeorge.net/v2/index.php/2024/01/26/breach-of-confidence-the-right-to-privacy-the-progression-of-the-law-and-modern-society/", "date": "2026-04-24", "publisherClass": "law_firm"},
+        {"title": "SWRHA battles European hacker to save its system (Trinidad Guardian)", "url": "http://www.guardian.co.tt/news/swrha-battles-european-hacker-to-save-its-system-6.2.1852801.718fb8c20d", "date": "2023-11-15", "publisherClass": "news"}
+      ]
+    },
+    "commercial": {
+      "score": 28,
+      "summary": "The Act's rules for private businesses, including limits on using personal data beyond its purpose, are not in force. In March 2026 the Court of Appeal ruled there is no privacy claim between private parties, leaving breach of confidence as the main remedy.",
+      "detail": [
+        "The general privacy principles in section 6 are in force. They say consent is needed to collect, use or disclose personal information, and data should not be used for other purposes without consent. But the detailed private-sector duties in Part IV, and the enforcement behind them, are not proclaimed.",
+        "In March 2026 the Court of Appeal said the constitutional right to privacy can be enforced only against the State, not private individuals (Trinidad Guardian).",
+        "A law firm notes privacy claims against private parties rely on the common law of breach of confidence.",
+        "No rules on health apps, data brokers or sale of de-identified health data were found."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, Chap. 22:04 (Ministry of the Attorney General, unofficial revision)", "url": "http://laws.gov.tt/ttdll-web/revision/download/91970?type=act", "date": "2015", "publisherClass": "legal_text"},
+        {"title": "Court of Appeal judges say privacy law may need updating (Trinidad Guardian)", "url": "http://www.guardian.co.tt/news/court-of-appeal-judges-say-privacy-law-may-need-updating-6.2.2536153.841b36b28d", "date": "2026-03-11", "publisherClass": "news"},
+        {"title": "Breach of Confidence and Privacy Law in Trinidad and Tobago (Martin George)", "url": "https://martingeorge.net/v2/index.php/2024/01/26/breach-of-confidence-the-right-to-privacy-the-progression-of-the-law-and-modern-society/", "date": "2026-04-24", "publisherClass": "law_firm"}
+      ]
+    },
+    "journey": {
+      "score": 30,
+      "summary": "A July 2026 PAHO datathon mapped data silos across the five RHAs and named paper records as a barrier. The minister cites electronic prescriptions, digital imaging and vaccination records, but a national system with a Health ID is still being planned.",
+      "detail": [
+        "PAHO's datathon brought together the ministry, the five RHAs, CARPHA and UWI to map databases and data silos. Priorities included standard data tools across RHAs, a fully interoperable national architecture and a unique National Health ID.",
+        "At PAHO's September 2026 Directing Council, Trinidad and Tobago reported progress on electronic prescriptions, digital medical imaging and vaccination records. Coverage figures were not verified.",
+        "The October 2025 budget said digitisation was advancing through a National Health Management Information System with a secure Health ID. Whether it is live was not verified.",
+        "In September 2026 the health minister said an IDB programme could digitise public health records, subject to approvals."
+      ],
+      "sources": [
+        {"title": "Trinidad and Tobago Advances Digital Health and Data Governance with National Public Health Datathon (PAHO)", "url": "https://www.paho.org/en/news/10-7-2026-trinidad-and-tobago-advances-digital-health-and-data-governance-national-public", "date": "2026-07-10", "publisherClass": "intergov"},
+        {"title": "Countries of the Americas advance a health sector digital highway to connect care across borders (PAHO)", "url": "https://www.paho.org/en/news/29-9-2026-countries-americas-advance-health-sector-digital-highway-connect-care-across-borders", "date": "2026-09-29", "publisherClass": "intergov"},
+        {"title": "Budget Statement 2026: T&T First (Ministry of Finance)", "url": "https://www.finance.gov.tt/wp-content/uploads/2025/10/Budget-Statement-FY-2026-2.pdf", "date": "2025-10-13", "publisherClass": "official"},
+        {"title": "Govt eyes digitisation of public health records (Trinidad Guardian)", "url": "http://www.guardian.co.tt/news/govt-eyes-digitisation-of-public-health-records-6.2.2664076.79b5e04f7f", "date": "2026-09-10", "publisherClass": "news"}
+      ]
+    },
+    "clinical": {
+      "score": 25,
+      "summary": "Hospital records are largely on paper and held by each RHA. In June 2025 staff said San Fernando General Hospital's records were scattered across locations and incomplete, and a regional board chair asked the minister in 2026 to digitise records.",
+      "detail": [
+        "Guardian Media footage in June 2025 showed medical records stored on the floor at San Fernando General Hospital. Staff said records were scattered, leaving documentation incomplete, and file tracer cards had been dropped.",
+        "In September 2026 the North Central RHA chair urged the minister to digitise records in its hospitals and said the authority faced server failures and network instability.",
+        "Digitised perinatal records under PAHO's Perinatal Information System can be shared across facilities (UN). This covers maternal and newborn care only.",
+        "No national record that clinicians can see across RHAs was found."
+      ],
+      "sources": [
+        {"title": "Minister vows to investigate woes at Medical Records Dept of SFGH (Trinidad Guardian)", "url": "http://www.guardian.co.tt/news/minister-vows-to-investigate-woes-at-medical-records-dept-of-sfgh-6.2.2323937.c5a86552e6", "date": "2025-06-04", "publisherClass": "news"},
+        {"title": "Govt eyes digitisation of public health records (Trinidad Guardian)", "url": "http://www.guardian.co.tt/news/govt-eyes-digitisation-of-public-health-records-6.2.2664076.79b5e04f7f", "date": "2026-09-10", "publisherClass": "news"},
+        {"title": "How Trinidad and Tobago is Reimagining Healthcare Through Innovation (UN Sustainable Development Group)", "url": "https://unsdg.un.org/latest/stories/how-trinidad-and-tobago-reimagining-healthcare-through-innovation", "date": "2026-02-25", "publisherClass": "intergov"},
+        {"title": "Trinidad and Tobago Advances Digital Health and Data Governance with National Public Health Datathon (PAHO)", "url": "https://www.paho.org/en/news/10-7-2026-trinidad-and-tobago-advances-digital-health-and-data-governance-national-public", "date": "2026-07-10", "publisherClass": "intergov"}
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "RHA ethics committees review research, and the North Central RHA lets investigators abstract record data without consent only if no identifiers are kept. The Act's research rules are not in force, and there is no opt-out or register of uses.",
+      "detail": [
+        "The North Central RHA Ethics Committee reviews research and checks compliance with ethical guidelines for biomedical research on human subjects.",
+        "Its guidelines for retrospective record reviews require committee oversight. An investigator with care access may abstract data only if no names or linkage codes are recorded, making the data set anonymous.",
+        "Section 40 of the Data Protection Act would allow processing of sensitive data for research under section 43, but these sections are not proclaimed.",
+        "No national clinical trials law was verified. Score: base 40 plus 3 for the ethics body."
+      ],
+      "sources": [
+        {"title": "NCRHA Ethics Committee (North Central Regional Health Authority)", "url": "https://ncrha.co.tt/ethicscommittee/", "date": "undated", "publisherClass": "official"},
+        {"title": "Guidelines for Research Limited to Retrospective Medical Record Reviews (NCRHA Ethics Committee)", "url": "https://ncrha.co.tt/wp-content/uploads/2019/03/NCRHA-REC-Guidelines-for-Research-Limited-to-Retrospective-Medical-Record-Reviews.pdf", "date": "2019-03", "publisherClass": "official"},
+        {"title": "Data Protection Act, Chap. 22:04 (Ministry of the Attorney General, unofficial revision)", "url": "http://laws.gov.tt/ttdll-web/revision/download/91970?type=act", "date": "2015", "publisherClass": "legal_text"}
+      ]
+    },
+    "ai": {
+      "score": 22,
+      "summary": "No law or guidance on clinical AI was found. The Food and Drugs Act defines a device as an instrument, apparatus or contrivance and does not mention software, and a national AI readiness assessment was still being validated in 2026.",
+      "detail": [
+        "The Chemistry, Food and Drugs Division administers the Food and Drugs Act, which covers medical devices. The Act's device definition does not mention software. Whether it reaches AI software was not verified.",
+        "In February 2026 the Ministry of Public Administration and Artificial Intelligence, UNESCO and UWI held a workshop to validate a national AI readiness assessment, with input from over 130 stakeholders.",
+        "The workshop flagged legal questions for AI governance. No national AI strategy, health AI rule or human oversight requirement was found."
+      ],
+      "sources": [
+        {"title": "Food and Drugs Act, Chap. 30:01 (Ministry of Trade and Industry copy)", "url": "https://tradeind.gov.tt/wp-content/uploads/2016/02/Food-and-Drugs-Act-30.01.pdf", "date": "undated", "publisherClass": "legal_text"},
+        {"title": "Chemistry, Food and Drugs Division (Ministry of Health)", "url": "https://health.gov.tt/services/chemistry-food-and-drugs-division", "date": "undated", "publisherClass": "official"},
+        {"title": "Trinidad and Tobago Advances Ethical AI Governance with UNESCO RAM Validation Workshop (UNESCO)", "url": "https://www.unesco.org/en/articles/trinidad-and-tobago-advances-ethical-ai-governance-unesco-ram-validation-workshop", "date": "2026-03-13", "publisherClass": "intergov"}
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "siloed"
+  },
+  "journeyNote": "Each RHA keeps its own, mostly paper, records. Electronic prescriptions, imaging, vaccination and perinatal records exist, coverage not verified. A Health ID and national system are planned. Not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {"name": "Data Protection Act, Chap. 22:04 (Act 13 of 2011), partly proclaimed", "level": "National", "year": "2011", "what": "Health is sensitive data; only Part I, Commissioner provisions and a few sections are in force.", "url": "http://laws.gov.tt/ttdll-web/revision/download/91970?type=act"},
+    {"name": "Freedom of Information Act, Chap. 22:02", "level": "National", "year": "1999", "what": "Access to documents held by public bodies, including RHAs; 30-day decision; correction of personal information.", "url": "https://www.finance.gov.tt/wp-content/uploads/2019/07/The-Freedom-of-Information-Act.pdf"},
+    {"name": "Freedom of Information (Fees and Charges) Regulations", "level": "National", "year": "2001", "what": "Sets charges for copies; inspection at the authority is free; hardship waivers possible.", "url": "https://www.finance.gov.tt/wp-content/uploads/2019/07/The-Freedom-of-Information-Act.pdf"},
+    {"name": "Food and Drugs Act, Chap. 30:01", "level": "National", "year": "1960", "what": "Regulates food, drugs, cosmetics and devices; device definition does not mention software.", "url": "https://tradeind.gov.tt/wp-content/uploads/2016/02/Food-and-Drugs-Act-30.01.pdf"}
+  ],
+  "news": [
+    {"date": "2025-10-13", "headline": "Budget says a national health information system with Health ID is advancing", "source": "Ministry of Finance", "url": "https://www.finance.gov.tt/wp-content/uploads/2025/10/Budget-Statement-FY-2026-2.pdf", "why": "A Health ID could link records that now sit in separate RHA files."},
+    {"date": "2026-03-13", "headline": "AI ministry and UNESCO validate national AI readiness assessment", "source": "UNESCO", "url": "https://www.unesco.org/en/articles/trinidad-and-tobago-advances-ethical-ai-governance-unesco-ram-validation-workshop", "why": "First step toward AI rules; no health AI safeguards exist yet."},
+    {"date": "2026-07-10", "headline": "PAHO datathon maps health data silos and paper-record barriers across RHAs", "source": "PAHO", "url": "https://www.paho.org/en/news/10-7-2026-trinidad-and-tobago-advances-digital-health-and-data-governance-national-public", "why": "Confirms patient data is split across regions and largely on paper."},
+    {"date": "2026-09-10", "headline": "Health minister in talks with IDB on digitising public health records", "source": "Trinidad Guardian", "url": "http://www.guardian.co.tt/news/govt-eyes-digitisation-of-public-health-records-6.2.2664076.79b5e04f7f", "why": "Digital records could end lost files, but no privacy law is fully in force."},
+    {"date": "2026-09-29", "headline": "Minister tells PAHO council of e-prescriptions, digital imaging and vaccine records", "source": "PAHO", "url": "https://www.paho.org/en/news/29-9-2026-countries-americas-advance-health-sector-digital-highway-connect-care-across-borders", "why": "Shows which parts of the record are digital so far."}
+  ],
+  "asOf": "2026-10-01"
+}

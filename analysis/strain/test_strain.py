@@ -95,20 +95,20 @@ caught("null counted as a flag", lambda r: r["countries"]["MEX"]["flagCount"].up
 # 17. unknown flag turned into false (silence read as 'no problem')
 caught("unknown read as false", lambda r: r["countries"]["BEL"]["flags"].update(recordSplit=False))  # BEL stays unknown after research
 # 18. flag that does not follow its values
-caught("workforce flag flipped", lambda r: r["countries"]["CAN"]["flags"].update(workforceLow=True))
+caught("workforce flag flipped", lambda r: r["countries"]["CAN"]["flags"].update(workforceLow=not r["countries"]["CAN"]["flags"]["workforceLow"]))
 caught("wait flag flipped", lambda r: r["countries"]["ITA"]["flags"].update(longWaits=True))
 caught("private-spend flag flipped", lambda r: r["countries"]["NGA"]["flags"].update(privateSpendHigh=False))
 # 18b. the same flips with flagCount recomputed, so only the flag-follows-values check can catch them
 def flip(iso, k, v):
     def m(r):
         o = r["countries"][iso]
-        o["flags"][k] = v
+        o["flags"][k] = (not o["flags"][k]) if v == "flip" else v
         f = [o["flags"][x] for x in B.FLAG_KEYS]
         o["flagCount"] = {"true": sum(x is True for x in f), "false": sum(x is False for x in f), "unknown": sum(x is None for x in f)}
     return m
 
 
-caught("workforce flag flipped, counts consistent", flip("CAN", "workforceLow", True))
+caught("workforce flag flipped, counts consistent", flip("CAN", "workforceLow", "flip"))
 caught("wait flag flipped, counts consistent", flip("ITA", "longWaits", True))
 caught("private-spend flag flipped, counts consistent", flip("NGA", "privateSpendHigh", False))
 caught("unknown wait read as false, counts consistent", flip("DEU", "longWaits", False))
@@ -116,7 +116,7 @@ caught("specialist wait estimated with a source", lambda r: C(r, "CAN")["special
 # 18c. a cut-off moved to manufacture or remove flags
 caught("tampered quartile cut-off", lambda r: r["meta"]["cutoffs"].update(doctorsPer10k_Q1=30.0))
 # 18d. the workforce parts (doctorsLow, nursesLow) must follow the values and must not be counted
-caught("doctorsLow flipped", lambda r: r["countries"]["CAN"]["flags"].update(doctorsLow=True))
+caught("doctorsLow flipped", lambda r: r["countries"]["CAN"]["flags"].update(doctorsLow=not r["countries"]["CAN"]["flags"]["doctorsLow"]))
 caught("nursesLow missing value read as false", lambda r: r["countries"]["TWN"]["flags"].update(nursesLow=False))
 caught("parts counted as flags", lambda r: r["countries"]["ZAF"]["flagCount"].update(true=4, unknown=1))
 caught("stray flag key", lambda r: r["countries"]["CAN"]["flags"].update(specialistsLow=None))
@@ -205,6 +205,15 @@ spots = [("CAN", "doctorsPer10k", 28.54, 2024), ("CAN", "oopShareCHE", 15.2, 202
 for iso, name, v, y in spots:
     x = C(clean, iso)[name]
     results.append((f"spot {iso} {name} = {v} ({y})", x["value"] == v and x["year"] == y, f"got {x['value']} ({x['year']})"))
+
+# 18f. stale combined share but recent out-of-pocket alone above the cut-off: the flag is true (Iraq's case), and must not read false
+cutQ3 = clean["meta"]["cutoffs"]["vhiPlusOopShareCHE_Q3"]
+_I = {"vhiPlusOopShareCHE": {"value": cutQ3 - 3, "year": 2010, "retrieved": "2026-10-02"}, "oopShareCHE": {"value": cutQ3 + 20, "year": 2023, "retrieved": "2026-10-02"}}
+_f, _b = B.private_spend_flag(_I, cutQ3)
+results.append(("stale sum, recent OOP above the cut-off -> flag true on the OOP basis", _f is True and bool(_b), f"got {_f}, {_b}"))
+_I2 = {"vhiPlusOopShareCHE": {"value": cutQ3 - 3, "year": 2023, "retrieved": "2026-10-02"}, "oopShareCHE": {"value": cutQ3 + 20, "year": 2023, "retrieved": "2026-10-02"}}
+results.append(("recent sum below the cut-off is not overridden by OOP", B.private_spend_flag(_I2, cutQ3)[0] is False, ""))
+caught("OOP-basis flag read as false, counts consistent", flip("IRQ", "privateSpendHigh", "flip"))
 
 bad = [r for r in results if not r[1]]
 for label, ok, why in results:

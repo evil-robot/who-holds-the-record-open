@@ -147,7 +147,7 @@ root = os.path.dirname(HERE)
 classes = D.load_csv(f"{root}/analysis/source_classes.csv", lambda r: (r["iso3"], r["category"], r["url"]))
 links = D.load_csv(f"{root}/analysis/url_check.csv", lambda r: r["url"])
 dead_all = {u: {"final_outcome": "dead"} for u in links}
-blog_all = {k: {"publisher_class": "blog_vendor"} for k in classes}
+blog_all = {k: {"publisher_class": "blog_vendor", "basis": "rule"} for k in classes}
 bad, n, missed = 0, 0, []
 for f in sorted(glob.glob(f"{root}/data/*.json")):
     d = json.load(open(f)); a = date.fromisoformat(d["asOf"])

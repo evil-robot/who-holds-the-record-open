@@ -1,0 +1,316 @@
+{
+ "iso3": "LSO",
+ "name": "Lesotho",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Lesotho's 2012 data protection law has no regulator, and only HIV and TB care runs on a shared electronic record.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Section 26 of the Data Protection Act gives a right to get your data, but at a prescribed fee and within a prescribed time, and the regulator meant to enforce it was never set up. There is no patient portal.",
+   "detail": [
+    "Section 26 of the Data Protection Act 2011, published on 22 February 2012, lets a person who proves their identity ask a controller, free of charge, whether it holds their data. They can then get the data, and learn who has had access to it, within a prescribed time and at a prescribed fee.",
+    "A refusal must come with written reasons, and the person may challenge them. Section 27 covers correction. We found no regulations setting the fee or the deadline, so both are not verified. The score takes 5 off for the fee and 5 off for having no fixed deadline.",
+    "The Data Protection Commission that should handle complaints has not been established, a Ministry of ICT legal officer said in April 2026. Section 49 leaves a civil claim for damages in court.",
+    "We found no patient portal. The Millennium Challenge Corporation (MCC) wrote in 2023 that a pregnant woman who tests negative for HIV or TB has her care written on paper, in a small health booklet she carries. That is practical access to part of the record, but it does not change the band."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2011 (Act No. 5 of 2012), Lesotho Government Gazette No. 19",
+     "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Lesotho_DPA.pdf",
+     "date": "2012-02-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Urgent gaps in cyber security, data protection outlined (Lesotho News Agency)",
+     "url": "https://www.lena.gov.ls/urgent-gaps-in-cyber-security-data-protection-outlined/",
+     "date": "2026-04-21",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MCC Set to Invest in Stronger Digital Health Systems in Lesotho (Millennium Challenge Corporation)",
+     "url": "https://www.mcc.gov/blog/entry/blog-121123-digital-health-lesotho/",
+     "date": "2023-12-11",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Providers may process health data without consent for treatment and running the facility, and there is no sharing setting or access log a patient can use. Insurers may assess risk with health data unless the person has objected.",
+   "detail": [
+    "Section 29 of the Data Protection Act bans processing health data unless the Act allows it. Section 34 allows it for medical professionals and facilities when needed for treatment and care, or to run the institution, under a duty of confidentiality.",
+    "Section 34 also lets insurers and medical aid schemes use health data to assess risk if the person has not objected, and to perform their contracts. Schools, prisons, employers and pension funds get similar exemptions.",
+    "The HIV and TB eRegister controls access through user roles and passwords, a 2024 paper led by the Ministry of Health says. Section 26 lets a person ask, at a prescribed fee, which third parties have had access, but we found no patient view of who opened a record and no opt-out from sharing. No commission exists to hear objections."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2011 (Act No. 5 of 2012), Lesotho Government Gazette No. 19",
+     "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Lesotho_DPA.pdf",
+     "date": "2012-02-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "From disease specific to universal health coverage in Lesotho: successes and challenges encountered in Lesotho's digital health journey (Oxford Open Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11932418/",
+     "date": "2024-07-11",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health is sensitive data under the 2011 Act, which requires breach notice and allows fines up to M50,000 or five years in prison. With no regulator after 14 years and no health-sector cases found, this scores the general law at the bottom of its band.",
+   "detail": [
+    "Section 23 requires controllers to tell the Data Protection Commission and the affected people about a breach as soon as reasonably possible. Police or the National Security Service can delay notice to people during an investigation. Section 55 sets fines up to M50,000, prison up to five years, or both.",
+    "In April 2026 the Ministry of ICT's chief legal officer said the Commission has not been established. She said breach reporting is weak, many breaches go unreported, and citizens are often not told.",
+    "The Ministry of Health-led paper of 2024 says national cybersecurity policies and data encryption for the eRegister need strengthening. We found no health-sector enforcement decision.",
+    "Lesotho is outside the EU, so the EHDS does not apply. A five-year health agreement signed with the United States on 10 December 2025 includes data-sharing appendixes that have not been published."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2011 (Act No. 5 of 2012), Lesotho Government Gazette No. 19",
+     "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Lesotho_DPA.pdf",
+     "date": "2012-02-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Urgent gaps in cyber security, data protection outlined (Lesotho News Agency)",
+     "url": "https://www.lena.gov.ls/urgent-gaps-in-cyber-security-data-protection-outlined/",
+     "date": "2026-04-21",
+     "publisherClass": "official"
+    },
+    {
+     "title": "From disease specific to universal health coverage in Lesotho: successes and challenges encountered in Lesotho's digital health journey (Oxford Open Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11932418/",
+     "date": "2024-07-11",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "How the US bullied Lesotho into a secretive new deal (News24, Bloomberg)",
+     "url": "https://www.news24.com/business/economy/how-the-us-bullied-lesotho-into-a-secretive-new-deal-20260522-0616",
+     "date": "2026-05-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Anyone can tell a company to stop using their data for direct marketing, and health data is a protected class. We found no rules on selling health data, data brokers or health apps, and no regulator to enforce the marketing right.",
+   "detail": [
+    "Section 50 lets a person require a controller to stop, or not begin, using their data for direct marketing at any time. Only the Commission can order a controller to comply, and it does not exist.",
+    "Health data sits in the sensitive class under section 29. Section 34 still lets insurers and medical aid schemes use it for risk assessment unless the person objects.",
+    "Section 51 limits decisions based only on automated profiling. We found no rules on selling de-identified health data, data brokers or consumer health apps."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2011 (Act No. 5 of 2012), Lesotho Government Gazette No. 19",
+     "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Lesotho_DPA.pdf",
+     "date": "2012-02-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Lesotho (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=LS",
+     "date": "2026-03-16",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "The eRegister links HIV, TB and maternal care with labs, pharmacy and DHIS2 at 187 of 277 facilities, but other care stays on paper. The US-funded plan to extend it to all primary care ended when MCC terminated its compact.",
+   "detail": [
+    "The eRegister, built on Bahmni and OpenMRS, ran at 187 of 277 health facilities, including 17 hospitals and 170 health centres, the 2024 paper says. The national referral hospital was not on it.",
+    "It covers HIV testing and treatment, prevention of mother-to-child transmission, cervical cancer screening, TB and pharmacy. It feeds DHIS2. A laboratory link was piloted in 2023. A national ID framework has not been put into use in health.",
+    "MCC planned to extend digital records to all primary care. Its board voted to end the compact in August 2025, and the government said the MCA-Lesotho II office would close on 18 April 2026.",
+    "A Digital Health Strategy 2025-2030 was validated with WHO in December 2024. We did not find a published final version."
+   ],
+   "sources": [
+    {
+     "title": "From disease specific to universal health coverage in Lesotho: successes and challenges encountered in Lesotho's digital health journey (Oxford Open Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11932418/",
+     "date": "2024-07-11",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "MCA-Lesotho II to close officially (Lesotho News Agency)",
+     "url": "https://www.lena.gov.ls/36868-2/",
+     "date": "2025-12-30",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Lesotho validates its Digital Health Strategy 2025-2030 (WHO Regional Office for Africa)",
+     "url": "https://www.afro.who.int/countries/lesotho/news/lesotho-validates-its-digital-health-strategy-2025-2030-step-towards-transforming-healthcare-through",
+     "date": "2024-12-10",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 30,
+   "summary": "For HIV and TB patients, staff at most facilities can see eRegister data, and patient identity data is pooled to track visits across sites. Other patients' history travels only in the paper booklet they carry.",
+   "detail": [
+    "Each eRegister site runs a local server. Selected patient identity data goes to one cloud platform to remove duplicates and track visits across sites, the 2024 paper says. Lab orders and results move between labs and clinics where the link is live.",
+    "Health workers in Mafeteng found the system useful, but said power cuts and weak networks can take it down for hours, a 2025 study found.",
+    "MCC wrote in 2023 that care for a pregnant woman who tests negative for HIV or TB is recorded on paper, in a booklet she carries."
+   ],
+   "sources": [
+    {
+     "title": "From disease specific to universal health coverage in Lesotho: successes and challenges encountered in Lesotho's digital health journey (Oxford Open Digital Health)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11932418/",
+     "date": "2024-07-11",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Insights into healthcare workers' perceptions of electronic medical record system utilization: a cross-sectional study in Mafeteng district, Lesotho (BMC Medical Informatics and Decision Making)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12070494/",
+     "date": "2025-05-12",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "MCC Set to Invest in Stronger Digital Health Systems in Lesotho (Millennium Challenge Corporation)",
+     "url": "https://www.mcc.gov/blog/entry/blog-121123-digital-health-lesotho/",
+     "date": "2023-12-11",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "The Data Protection Act exempts research use from most data rules, with no consent and no opt-out, but a national ethics committee reviews studies. Confidentiality duties and criminal penalties put it at the top of the no-opt-out band.",
+   "detail": [
+    "Section 38 exempts further processing for historical, statistical and research purposes from all data principles except security safeguards and information quality. There is no general opt-out.",
+    "The National Health Research Ethics Committee sits in the Ministry of Health's Research Coordination Unit and reviews protocols. A 2025 Mafeteng study cites its approval, ID237-2023.",
+    "Section 34 binds health data handlers to confidentiality, and section 55 makes any breach of the Act an offence. We found no public register of research uses. That gives base 40, plus 3 each for ethics review, confidentiality and penalties."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2011 (Act No. 5 of 2012), Lesotho Government Gazette No. 19",
+     "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Lesotho_DPA.pdf",
+     "date": "2012-02-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Research Ethics Committee Lesotho (Health Research Web Africa)",
+     "url": "https://healthresearchwebafrica.org.za/en/lesotho/ethics_4822",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Insights into healthcare workers' perceptions of electronic medical record system utilization: a cross-sectional study in Mafeteng district, Lesotho (BMC Medical Informatics and Decision Making)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12070494/",
+     "date": "2025-05-12",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 28,
+   "summary": "Lesotho has no AI law and no rules for clinical AI. An AI Policy published in August 2026 leaves AI regulation to sector regulators, and the new medicines and devices authority has issued no AI rules we could find.",
+   "detail": [
+    "The AI Policy dated 17 August 2026 states that Lesotho has no AI-specific regulation. It chooses a decentralised, market-driven approach that adds AI risk to the mandates of sector regulators, and says legislation must assign those functions.",
+    "The Ministry of ICT held a workshop with the UN in August 2026 to validate the AI Policy and start a national AI strategy, ITWeb reported.",
+    "The Lesotho Medicines and Medical Devices Control Authority Act 2023 took effect on 1 March 2026, a Lesotho law firm reported. The Bill's device definition does not mention software. We found no device rules for AI."
+   ],
+   "sources": [
+    {
+     "title": "Artificial Intelligence Policy Final 17/08/2026 (Government of Lesotho)",
+     "url": "https://www.gov.ls/download/artificial-intelligence-policy-final-17-08-2026/",
+     "date": "2026-08-17",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Lesotho accelerate AI roadmap (ITWeb Africa)",
+     "url": "https://itweb.africa/article/lesotho-accelerate-ai-roadmap/6GxRKqYQ1gkqb3Wj",
+     "date": "2026-08-18",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Now in Force: Lesotho Medicines and Medical Devices Control Authority Act, 2023 (Mayet & Associates)",
+     "url": "https://zmayetlaw.co.ls/now-in-force-lesotho-medicines-medical-devices-control-authority-act-2023/",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Lesotho Medicines and Medical Devices Control Authority Bill (National Assembly of Lesotho)",
+     "url": "https://nationalassembly.parliament.ls/wp-content/uploads/2023/05/MEDICINE-CONTROL-BILL-2022-ntha-version-Autosaved-2.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "The eRegister links HIV, TB and maternal care, pharmacy and DHIS2 at 187 of 277 facilities, with a lab link piloted in 2023. Other care is on paper booklets, and the MCC expansion ended in 2025.",
+ "laws": [
+  {
+   "name": "Data Protection Act, 2011 (Act No. 5 of 2012)",
+   "level": "National",
+   "year": "2012",
+   "what": "Health is sensitive data; access, correction and marketing objection rights; breach notice; Commission never established.",
+   "url": "https://dataprotection.africa/wp-content/uploads/2022/09/Lesotho_DPA.pdf"
+  },
+  {
+   "name": "Lesotho Medicines and Medical Devices Control Authority Act, 2023 (Act No. 6 of 2023)",
+   "level": "National",
+   "year": "2023",
+   "what": "Creates a regulator for medicines and medical devices and clinical trials; in force from 1 March 2026.",
+   "url": "https://zmayetlaw.co.ls/now-in-force-lesotho-medicines-medical-devices-control-authority-act-2023/"
+  },
+  {
+   "name": "Artificial Intelligence Policy (policy, not law)",
+   "level": "National",
+   "year": "2026",
+   "what": "Notes no AI-specific regulation exists; assigns AI oversight to sector regulators through future legislation.",
+   "url": "https://www.gov.ls/download/artificial-intelligence-policy-final-17-08-2026/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-22",
+   "headline": "Leaked draft of US health deal sought 25 years of health data sharing",
+   "source": "Newsday",
+   "url": "https://newsdayonline.co.ls/exlusive-inside-us-lesotho-health-deal/",
+   "why": "Raises whether patient data could leave the country; the US Embassy said no personal data would be shared."
+  },
+  {
+   "date": "2025-12-30",
+   "headline": "Government confirms MCC compact termination and closure of MCA-Lesotho II",
+   "source": "Lesotho News Agency",
+   "url": "https://www.lena.gov.ls/36868-2/",
+   "why": "Ends the funded plan to put all primary care on electronic records."
+  },
+  {
+   "date": "2026-03-31",
+   "headline": "Civil society groups demand publication of the US health agreement",
+   "source": "GroundUp",
+   "url": "https://groundup.org.za/article/lesotho-organisations-push-back-against-us-health-deal/",
+   "why": "Twenty-one groups cite risks to data protection and privacy rights."
+  },
+  {
+   "date": "2026-04-21",
+   "headline": "Ministry legal officer says Data Protection Commission still not established",
+   "source": "Lesotho News Agency",
+   "url": "https://www.lena.gov.ls/urgent-gaps-in-cyber-security-data-protection-outlined/",
+   "why": "Without a regulator, patients have no body to complain to about health data misuse."
+  },
+  {
+   "date": "2026-05-22",
+   "headline": "Data-sharing appendixes of US health agreement redacted from senior politicians",
+   "source": "News24 (Bloomberg)",
+   "url": "https://www.news24.com/business/economy/how-the-us-bullied-lesotho-into-a-secretive-new-deal-20260522-0616",
+   "why": "The terms governing national health data remain unpublished."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

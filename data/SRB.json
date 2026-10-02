@@ -1,0 +1,357 @@
+{
+ "iso3": "SRB",
+ "name": "Serbia",
+ "region": "Europe",
+ "controlModel": "Shared",
+ "headline": "Serbs can see labs, scans and an access log in the eZdravlje portal, but the central eKarton began in 2026 and private care sits outside.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 62,
+   "summary": "Serbian law gives a right to see and copy the medical record, and the state eZdravlje portal shows doctors' reports, lab results, radiology images and e-prescriptions. Only 1,778,802 people had registered by May 2025, and some institutions' data is missing, so the score sits low in the portal band.",
+   "detail": [
+    "Article 20 of the 2013 Law on Patient Rights gives patients the right to see their medical records, and children from 15 can see their own. Article 23 gives a right to a copy, with the patient paying the cost of making it.",
+    "The 2018 data protection law (Article 26) requires a copy of personal data, in electronic form if asked electronically, and Article 21 sets 30 days to answer. The two laws differ on cost.",
+    "eZdravlje shows doctors' reports, lab and microbiology results, radiology reports and images, prescribed medicines and sick-leave papers. A full view needs two-factor eID login. The ministry reported 1,778,802 registered users at the end of May 2025; a newer figure was not verified.",
+    "The portal's help page says data from some institutions has not been visible since their move to the state data centre in April 2024, and older documents depend on each institution's integration. A machine-readable export was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o pravima pacijenata (Sl. glasnik RS 45/2013, 25/2019)",
+     "url": "https://www.paragraf.rs/propisi/zakon_o_pravima_pacijenata.html",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o zastiti podataka o licnosti (Sl. glasnik RS 87/2018)",
+     "url": "https://www.paragraf.rs/propisi/zakon_o_zastiti_podataka_o_licnosti.html",
+     "date": "2018",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Brojevi koji govore: o rastu i znacaju portala eZdravlje (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/news/brojevi-koji-govore-o-rastu-i-znacaju-portala-ezdravlje-5",
+     "date": "2025-05-31",
+     "publisherClass": "official"
+    },
+    {
+     "title": "eZdravlje: Pitanja i odgovori (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/help",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 60,
+   "summary": "Only the chosen doctor, referred specialists and emergency staff may open the eKarton by law; other clinicians need the patient's consent, and the portal logs every access. No way to block the chosen doctor was found, so the score sits at the band's bottom.",
+   "detail": [
+    "Article 47 of the 2023 Law on Health Documentation gives eKarton access to the chosen doctor, the specialist the patient is referred to, emergency staff and medical commissions. Other health workers need the consent of the person concerned, and access must be directly tied to care.",
+    "The 2025 eKarton rulebook requires the portal to show patients the history of access to their eKarton. The user manual shows the date, time, health worker and legal basis, such as emergency care.",
+    "In the portal, patients can grant contacts, doctors and pharmacists permissions, with a time limit; all options start switched off. A separate setting stops a pharmacist dispensing a prescription unless the patient confirms it in the app.",
+    "No opt-out from the chosen doctor's access was found. A patient association warned in March 2026 that data would reach doctors in all institutions without patients' consent."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zdravstvenoj dokumentaciji i evidencijama u oblasti zdravstva (Sl. glasnik RS 92/2023)",
+     "url": "https://www.paragraf.rs/propisi/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Pravilnik o e-kartonu, licnom zdravstvenom broju i dostavljanju podataka na licni zahtev pacijenta (Sl. glasnik RS 45/2025)",
+     "url": "http://demo.paragraf.rs/demo/combined/Old/t/t2025_05/SG_045_2025_007.htm",
+     "date": "2025",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Korisnicko uputstvo, platforma eZdravlje, pacijent portal (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/landing/repository/documents/user-manual-sr.pdf",
+     "date": "2026-06-25",
+     "publisherClass": "official"
+    },
+    {
+     "title": "U elektronske kartone uvid ce imati i drzavni i privatni lekari (N1)",
+     "url": "https://n1info.rs/vesti/u-elektronske-kartone-uvid-ce-imati-i-drzavni-i-privatni-lekari-ali-to-ne-znaci-spajanje-dva-sistema/",
+     "date": "2026-03-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 46,
+   "summary": "Health data is a special category under a GDPR-style 2018 law, but fines top out at RSD 2,000,000 and the European Commission calls penalties insufficient. In 2025 the regulator issued 101 warnings and filed 3 offence cases, and in 2026 a private clinic's patient diagnoses were leaked.",
+   "detail": [
+    "Article 17 of the 2018 Law on Personal Data Protection bans processing health data except on listed grounds, including explicit consent and health care. Breaches must be reported within 72 hours. Fines for companies run from RSD 50,000 to 2,000,000.",
+    "The Commissioner's 2025 report counts 1,169 completed inspections, 101 warnings, one order restricting processing and 3 requests for offence proceedings. It received 49 breach notifications, 3 from health institutions, and says many controllers likely avoid reporting.",
+    "In April 2026 Radio Free Europe reported about 6,300 rows of patient data from a Belgrade private clinic on the dark web, including national ID numbers and diagnoses of sexually transmitted infections, after a ransom went unpaid.",
+    "The European Commission's 2025 report says the law is mostly GDPR-aligned but weak on penalties, and that the health records law needs aligning with EU data protection rules."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti podataka o licnosti (Sl. glasnik RS 87/2018)",
+     "url": "https://www.paragraf.rs/propisi/zakon_o_zastiti_podataka_o_licnosti.html",
+     "date": "2018",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Izvestaj Poverenika za 2025. godinu",
+     "url": "https://poverenik.rs/h-content/uploads/2026/03/godisnji-izvestaj-2025-poverenik.pdf",
+     "date": "2026-03-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Serbia Report 2025 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/6e68ce26-b95b-48e1-921a-c60c12da8f00_en?filename=serbia-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Hakovani podaci vise hiljada korisnika privatne klinike u Beogradu (Radio Slobodna Evropa)",
+     "url": "https://www.slobodnaevropa.org/a/srbija-hakerski-napad-medicinski-podaci/33723353.html",
+     "date": "2026-04-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 46,
+   "summary": "Using health data for marketing or sale needs explicit consent or another legal ground under the 2018 law. No ban on selling health data was found, and the 2023 health records law lets innovative companies use registry data for research once a data-use body or ethics committee approves.",
+   "detail": [
+    "Under Article 17 of the 2018 data protection law, health data can be used outside care only on a listed ground, such as explicit consent. Continuing direct marketing after a person objects carries a fixed fine of RSD 100,000.",
+    "Article 51 of the 2023 Law on Health Documentation gives health institutions, private practice, research bodies and innovative companies (inovativni subjekti) access to registry data for research once a data-use body or ethics committee approves. Anonymised and pseudonymised data need no individual consent.",
+    "No Serbian rule on data brokers, consumer health apps or the sale of de-identified health data was found.",
+    "Serbia is an EU candidate, not a member, so the EHDS ban on using reused health data for marketing does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zastiti podataka o licnosti (Sl. glasnik RS 87/2018)",
+     "url": "https://www.paragraf.rs/propisi/zakon_o_zastiti_podataka_o_licnosti.html",
+     "date": "2018",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o zdravstvenoj dokumentaciji i evidencijama u oblasti zdravstva (Sl. glasnik RS 92/2023)",
+     "url": "https://www.paragraf.rs/propisi/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Serbia Report 2025 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/6e68ce26-b95b-48e1-921a-c60c12da8f00_en?filename=serbia-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "journey": {
+   "score": 64,
+   "summary": "Public care is linked through national systems for e-prescriptions (over 690 million issued), radiology, labs, referrals and sick leave. Private providers are mostly outside: e-prescriptions there were only starting in May 2026, private labs were not yet in eLab, and the central eKarton's national rollout was not verified.",
+   "detail": [
+    "The ministry links eZdravlje with the insurance fund (RFZO), chosen-doctor records, eRecept, eBolovanje, the central radiology system (RIS), eUput, eLab and eScreening. By May 2025 RIS held 9,508,270 studies and over 690 million e-prescriptions had been issued.",
+    "By April 2026, 154 public institutions with 452 laboratories had joined eLab; private labs were planned. In May 2026 the ministry said private providers would gradually start issuing e-prescriptions.",
+    "The central eKarton started a pilot on 20 February 2026 in four institutions and had built 672,850 individual records by early March. Its extension to all institutions was not verified.",
+    "Since 1 January 2026 every provider, including private practice, must send each change to the eKarton within 24 hours. Public health institutes take reports and registry data electronically from providers."
+   ],
+   "sources": [
+    {
+     "title": "Brojevi koji govore: o rastu i znacaju portala eZdravlje (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/news/brojevi-koji-govore-o-rastu-i-znacaju-portala-ezdravlje-5",
+     "date": "2025-05-31",
+     "publisherClass": "official"
+    },
+    {
+     "title": "eLab centralizovani repozitorijum u Republici Srbiji (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/news/elab-centralizovani-repozitorijum-u-republici-srbiji-9",
+     "date": "2026-04-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "eRecept i u privatnim zdravstvenim ustanovama (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/news/erecept-i-u-privatnim-zdravstvenim-ustanovama-42",
+     "date": "2026-05-22",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Platforma eKarton pustena u pilot fazu u Srbiji (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/news/platforma-ekarton-pustena-u-pilot-fazu-u-srbiji-7",
+     "date": "2026-03-03",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 55,
+   "summary": "The chosen doctor sees the record, while specialists see lab results they ordered and radiologists see images. The central eKarton, which gathers diagnoses, allergies, labs and scans, was in a four-site pilot in March 2026; its use in all institutions was not verified.",
+   "detail": [
+    "The portal's help page says data is available only to the patient's chosen doctors. Radiologists can see images and findings, and specialists can see lab results for tests they ordered. Every access is logged.",
+    "Under Article 47 of the 2023 law, the referred specialist and emergency staff may also access the eKarton, and others need the patient's consent.",
+    "The central eKarton holds current conditions, diagnoses, history, surgery, medicines, implants, immunisations, allergies, radiology images, reports, lab results and dental data. By March 2026 it had built 672,850 individual records in the pilot.",
+    "Private clinics' findings are mostly not in the shared systems yet."
+   ],
+   "sources": [
+    {
+     "title": "eZdravlje: Pitanja i odgovori (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/help",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Zakon o zdravstvenoj dokumentaciji i evidencijama u oblasti zdravstva (Sl. glasnik RS 92/2023)",
+     "url": "https://www.paragraf.rs/propisi/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Platforma eKarton pustena u pilot fazu u Srbiji (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/news/platforma-ekarton-pustena-u-pilot-fazu-u-srbiji-7",
+     "date": "2026-03-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "eLab centralizovani repozitorijum u Republici Srbiji (Ministarstvo zdravlja)",
+     "url": "https://e-zdravlje.gov.rs/news/elab-centralizovani-repozitorijum-u-republici-srbiji-9",
+     "date": "2026-04-02",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Reusing identifiable registry data for research needs the person's consent and ethics approval, but anonymised or pseudonymised data can be reused on a data-use body's decision with no consent or opt-out. Whether that body is working was not verified.",
+   "detail": [
+    "Article 51 of the 2023 Law on Health Documentation requires the person's consent and an ethics committee's approval to reuse registry data for research. Anonymised and pseudonymised data can be reused on the decision of a health data-use body or the data holder's ethics committee. No general opt-out was found.",
+    "The same law creates a genetic and biomedical data register, collected only with the participant's consent. Whether the register and the data-use body are running was not verified.",
+    "Under Article 25 of the Law on Patient Rights, research on patients needs written, informed consent that can be withdrawn in writing, and an ethics committee decision first.",
+    "As an EU candidate, Serbia is not covered by the EHDS opt-out from secondary use."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o zdravstvenoj dokumentaciji i evidencijama u oblasti zdravstva (Sl. glasnik RS 92/2023)",
+     "url": "https://www.paragraf.rs/propisi/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zakon o pravima pacijenata (Sl. glasnik RS 45/2013, 25/2019)",
+     "url": "https://www.paragraf.rs/propisi/zakon_o_pravima_pacijenata.html",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Serbia Report 2025 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/6e68ce26-b95b-48e1-921a-c60c12da8f00_en?filename=serbia-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "ai": {
+   "score": 40,
+   "summary": "Software counts as a medical device under Serbia's 2017 law, but the European Commission found no progress toward EU device rules or the AI Act. Serbia's first AI law was still a draft in August 2026, with a December 2026 target.",
+   "detail": [
+    "The 2017 Law on Medical Devices defines a medical device to include software meant for diagnosis or therapy, and covers registration, vigilance and market surveillance. Change control or human oversight rules for AI were not found.",
+    "The European Commission's 2025 report found no progress on aligning with EU rules on medical devices. It says Serbia must align with the AI Act and build the needed governance, and notes the AI strategy for 2025 to 2030.",
+    "In August 2026 a science ministry state secretary said the AI law would follow EU standards, with a December 2026 deadline. No health-specific AI rule was found."
+   ],
+   "sources": [
+    {
+     "title": "Zakon o medicinskim sredstvima (Sl. glasnik RS 105/2017)",
+     "url": "https://www.paragraf.rs/propisi/zakon-o-medicinskim-sredstvima.html",
+     "date": "2017",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Serbia Report 2025 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/6e68ce26-b95b-48e1-921a-c60c12da8f00_en?filename=serbia-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "U pripremi nacrt Zakona o vestackoj inteligenciji (Paragraf Lex)",
+     "url": "https://www.paragraf.rs/dnevne-vesti/180826/180826-vest8.html",
+     "date": "2026-08-18",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "connected",
+  "claims": "connected",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "Public GPs, pharmacies and RFZO are linked through eRecept and eUput, and central radiology and eLab cover public institutions. Private clinics, private labs and private e-prescribing are only joining in 2026, and the central eKarton was still being rolled out.",
+ "laws": [
+  {
+   "name": "Zakon o pravima pacijenata (Sl. glasnik RS 45/2013)",
+   "level": "National",
+   "year": "2013",
+   "what": "Right to see the record and get a copy at own cost; written consent for research.",
+   "url": "https://www.paragraf.rs/propisi/zakon_o_pravima_pacijenata.html"
+  },
+  {
+   "name": "Zakon o zastiti podataka o licnosti (Sl. glasnik RS 87/2018)",
+   "level": "National",
+   "year": "2018",
+   "what": "GDPR-style law; health data special category; 72-hour breach notice; fines up to RSD 2 million.",
+   "url": "https://www.paragraf.rs/propisi/zakon_o_zastiti_podataka_o_licnosti.html"
+  },
+  {
+   "name": "Zakon o zdravstvenoj dokumentaciji i evidencijama u oblasti zdravstva (Sl. glasnik RS 92/2023)",
+   "level": "National",
+   "year": "2023",
+   "what": "Creates eKarton and genetic register, sets clinician access and consent rules for research reuse.",
+   "url": "https://www.paragraf.rs/propisi/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html"
+  },
+  {
+   "name": "Pravilnik o e-kartonu (Sl. glasnik RS 45/2025)",
+   "level": "National",
+   "year": "2025",
+   "what": "From 2026 providers send changes within 24 hours; portal must show patients the access history.",
+   "url": "http://demo.paragraf.rs/demo/combined/Old/t/t2025_05/SG_045_2025_007.htm"
+  },
+  {
+   "name": "Zakon o medicinskim sredstvima (Sl. glasnik RS 105/2017)",
+   "level": "National",
+   "year": "2017",
+   "what": "Covers software as a medical device: registration, vigilance and market surveillance by ALIMS.",
+   "url": "https://www.paragraf.rs/propisi/zakon-o-medicinskim-sredstvima.html"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-03",
+   "headline": "Electronic sick-leave system for employers, eBolovanje, starts on 1 January",
+   "source": "Danas",
+   "url": "https://www.danas.rs/vesti/drustvo/od-1-januara-pocelo-e-bolovanje-izazvalo-guzve-u-apr-u-pred-praznike/",
+   "why": "Sick-leave papers now flow digitally between doctors, employers and the insurance fund."
+  },
+  {
+   "date": "2026-03-02",
+   "headline": "Central eKarton pilot starts in four institutions; patient group raises consent concerns",
+   "source": "N1",
+   "url": "https://n1info.rs/vesti/u-elektronske-kartone-uvid-ce-imati-i-drzavni-i-privatni-lekari-ali-to-ne-znaci-spajanje-dva-sistema/",
+   "why": "A shared record would follow patients, but advocates fear wide access without consent."
+  },
+  {
+   "date": "2026-04-02",
+   "headline": "Patient data from Belgrade private clinic published on the dark web",
+   "source": "Radio Slobodna Evropa",
+   "url": "https://www.slobodnaevropa.org/a/srbija-hakerski-napad-medicinski-podaci/33723353.html",
+   "why": "About 6,300 rows with ID numbers and sexual health diagnoses were exposed."
+  },
+  {
+   "date": "2026-08-18",
+   "headline": "Government targets December 2026 for Serbia's first AI law",
+   "source": "Paragraf Lex",
+   "url": "https://www.paragraf.rs/dnevne-vesti/180826/180826-vest8.html",
+   "why": "Clinical AI has no specific rules yet; the law is meant to follow EU standards."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

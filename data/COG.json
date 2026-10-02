@@ -1,0 +1,313 @@
+{
+ "iso3": "COG",
+ "name": "Republic of the Congo",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Congo has a 2019 data law and a regulator installed in 2026, but records stay mostly on paper and patients cannot see them online.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Law 29-2019 lets a patient ask for their health data, directly or through a doctor they choose, and get a copy. The provider may charge the cost of copying, no deadline is set, and there is no patient portal, so 35.",
+   "detail": [
+    "Article 50 of Law 29-2019 lets any person who proves their identity ask a controller, in writing, whether it holds their data, for what purpose, and for a copy in accessible form. Article 51 says a copy must be given on request.",
+    "Article 53 is specific to health: a patient exercises the right of access personally or through a doctor they designate. After death, a spouse not legally separated and the children, or the parents of a minor, may use it through a doctor.",
+    "Article 51 lets the controller charge up to the cost of reproduction. We found no deadline for answering an access request. The one-month deadline in Article 60 covers corrections, not copies.",
+    "Portability to another provider (Article 56) covers only consent-based automated processing and excludes public-interest tasks. The 2023-2026 health plan describes data collected mostly on paper, and we found no national portal or app showing patients their records."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 29-2019 du 10 octobre 2019 portant protection des données à caractère personnel (Journal officiel, NATLEX copy)",
+     "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf",
+     "date": "2019-11-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Plan national de développement sanitaire du Congo 2023-2026, version officielle (Ministère de la Santé et de la Population)",
+     "url": "https://sante.gouv.cg/wp-content/uploads/2024/09/PLAN-NATIONAL-DE-DEVELOPPEMENT-SANITAIRE-DU-CONGO-2023-2026_VERSION-OFFICIELLE.pdf",
+     "date": "2024-09",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data may be processed without consent for care under a health professional bound by secrecy, and there is no shared record, opt-out or access log. The patient's main tool is a right to object on legitimate grounds.",
+   "detail": [
+    "Article 17 of Law 29-2019 allows processing for health purposes with consent, but also without it for diagnosis and care under a professional bound by secrecy, public health, screening, and any purpose set by law.",
+    "Article 59 lets a person object to processing for legitimate reasons. Article 18 says health data should be collected from the patient, unless that is not possible or other sources are needed.",
+    "Article 40 says state processing of health data is decided by a presidential act after the data commission gives an opinion. Under Article 41, if the commission does not answer within two months (renewable once), its opinion counts as favourable.",
+    "No national shared record exists, so there is no setting a patient can change and no access log to read."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 29-2019 du 10 octobre 2019 portant protection des données à caractère personnel (Journal officiel, NATLEX copy)",
+     "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf",
+     "date": "2019-11-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Plan national de développement sanitaire du Congo 2023-2026, version officielle (Ministère de la Santé et de la Population)",
+     "url": "https://sante.gouv.cg/wp-content/uploads/2024/09/PLAN-NATIONAL-DE-DEVELOPPEMENT-SANITAIRE-DU-CONGO-2023-2026_VERSION-OFFICIELLE.pdf",
+     "date": "2024-09",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Law 29-2019 treats health data as sensitive, requires breach notice within 72 hours where possible and allows fines up to 100 million CFA francs. With no health-sector cases found and a regulator only installed in January 2026, this scores the general law.",
+   "detail": [
+    "Article 14 bans processing health and genetic data unless an exception in Articles 15 and 17 applies. Article 74 requires notice to the commission without delay and, if possible, within 72 hours. Article 77 requires telling people when the risk to them is high.",
+    "Article 93 lets the commission suspend or ban processing and fine from 1 million to 100 million CFA francs. Article 97 allows appeal to the Supreme Court.",
+    "Law 5-2025 created the CNPD as an independent authority. Members serve five years, cannot be removed and take no instructions. Six are named by the President, the heads of Parliament, the Prime Minister and the digital minister. ITWeb reported its installation in January 2026.",
+    "We found no CNPD decision or published health data breach. Congo is outside the EU, so the EHDS does not apply. Article 23 allows transfers abroad only to countries with adequate protection."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 29-2019 du 10 octobre 2019 portant protection des données à caractère personnel (Journal officiel, NATLEX copy)",
+     "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf",
+     "date": "2019-11-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Journal officiel n° 15-2025: Loi n° 5-2025 du 29 mars 2025 portant création de la CNPD (SGG)",
+     "url": "https://www.sgg.cg/JO/2025/congo-jo-2025-15.pdf",
+     "date": "2025-04-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Congo-Brazzaville intros data protection commission (ITWeb Africa)",
+     "url": "https://itweb.africa/article/congo-brazzaville-intros-data-protection-commission/nWJadvbNzxkvbjO1",
+     "date": "2026-01-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Direct marketing using personal data is banned without prior consent, and people must be told and offered a free refusal before their data goes to third parties for prospecting. We found no rules on health apps, data brokers or de-identified data, and no enforcement.",
+   "detail": [
+    "Article 21 of Law 29-2019 bans direct marketing by any means using personal data unless the person has agreed in advance.",
+    "Article 59 gives a right to be told before data is first passed to third parties, or used for them, for prospecting, and to refuse that free of charge.",
+    "The health data ban in Article 14 limits commercial reuse, but Article 15 lifts it where processing is needed for a contract the person signed. These are general rules. We found no CNPD decision on health apps, sales of health data or de-identified data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 29-2019 du 10 octobre 2019 portant protection des données à caractère personnel (Journal officiel, NATLEX copy)",
+     "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf",
+     "date": "2019-11-07",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 22,
+   "summary": "Most facilities still record care on paper and send compiled reports to districts for entry into DHIS2. The health plan counted 2 of 10 public general hospitals as digitalised, and the CAMU insurance scheme had about 27,000 members in May 2026.",
+   "detail": [
+    "The 2023-2026 health plan says data are produced in almost all facilities on paper, compiled and sent to districts for entry into DHIS2. Facility completeness is above 87%, but promptness is 48.94%, and general hospitals do not report on time.",
+    "The plan says ICT use in health remains very marginal and several e-health projects failed. It lists missing software for hospitals, medicines and laboratories, and sets an electronic medical record as a goal. Its baseline is 2 of 10 public general hospitals digitalised.",
+    "An electronic logistics system for medicines (e-LMIS on Open mSupply) ran in 54 of 92 pilot sites in July 2026, according to UNDP. It tracks stock and orders, not patients.",
+    "The CAMU universal health insurance fund began a pilot in April 2025. In May 2026 it reported over 27,000 members, 174 contracted facilities in 8 of 15 departments and over 10,000 biometric cards."
+   ],
+   "sources": [
+    {
+     "title": "Plan national de développement sanitaire du Congo 2023-2026, version officielle (Ministère de la Santé et de la Population)",
+     "url": "https://sante.gouv.cg/wp-content/uploads/2024/09/PLAN-NATIONAL-DE-DEVELOPPEMENT-SANITAIRE-DU-CONGO-2023-2026_VERSION-OFFICIELLE.pdf",
+     "date": "2024-09",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Santé publique : le circuit logistique des médicaments au Congo va être digitalisé (Les Dépêches de Brazzaville)",
+     "url": "https://www.adiac-congo.com/content/sante-publique-le-circuit-logistique-des-medicaments-au-congo-va-etre-digitalise-170892",
+     "date": "2026-07-18",
+     "publisherClass": "news"
+    },
+    {
+     "title": "La CAMU entend intégrer 480.000 assurés sociaux d'ici août 2026 (Agence congolaise d'information)",
+     "url": "https://www.aci.cg/37256/",
+     "date": "2026-05-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Revue des performances du secteur santé (OMS Bureau régional pour l'Afrique)",
+     "url": "https://www.afro.who.int/fr/countries/congo/news/revue-des-performances-du-secteur-sante-vers-la-consolidation-de-loffre-et-de-lacces-aux-des-soins",
+     "date": "2026-01-17",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "The law lets clinicians process health data for care, but there is no shared record they can open across facilities. The national health plan treats an electronic medical record as a future goal, not a current tool.",
+   "detail": [
+    "Article 17 of Law 29-2019 allows health data processing for diagnosis and care under a professional bound by secrecy. The legal basis exists; the shared infrastructure does not.",
+    "The 1988 code of ethics binds doctors, pharmacists and biologists to professional secrecy. It lets a physiotherapist working in a facility see the patient's file, but sets no rule for sharing records between facilities.",
+    "The 2023-2026 health plan makes an electronic medical record depend on first computerising data management in all facilities. Hospital reports still use non-standard forms."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 29-2019 du 10 octobre 2019 portant protection des données à caractère personnel (Journal officiel, NATLEX copy)",
+     "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf",
+     "date": "2019-11-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi instituant un code de déontologie des professions de la santé et des affaires sociales, 1988 (SGG)",
+     "url": "https://www.sgg.cg/textes-officiels/lois/1988/congo-loi-1988-09.pdf",
+     "date": "1988",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Plan national de développement sanitaire du Congo 2023-2026, version officielle (Ministère de la Santé et de la Population)",
+     "url": "https://sante.gouv.cg/wp-content/uploads/2024/09/PLAN-NATIONAL-DE-DEVELOPPEMENT-SANITAIRE-DU-CONGO-2023-2026_VERSION-OFFICIELLE.pdf",
+     "date": "2024-09",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Law 29-2019 allows health data to be used for scientific purposes without consent, but health research processing needs prior authorisation from the data commission and fines apply for misuse. There is no general opt-out and no research consent law was found, so 46.",
+   "detail": [
+    "Article 15 lifts the ban on sensitive data for public-interest purposes, including scientific ones. Article 19 admits processing by researchers acting within their professional ethics. No individual consent or general opt-out is required.",
+    "Article 37 requires prior CNPD authorisation for processing genetic data and for health research. Under Article 39, a request not answered within two months (renewable once) is deemed rejected.",
+    "Health Research Web lists the CERSSA, attached to the scientific research delegation, as a health research ethics committee. Institutions such as the FCRM also run their own ethics committees; the FCRM revised its procedures in August 2025.",
+    "Law 5-2025 tells the CNPD to keep a public register of processing and publish its authorisations. We found no such register online, so it does not count here."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 29-2019 du 10 octobre 2019 portant protection des données à caractère personnel (Journal officiel, NATLEX copy)",
+     "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf",
+     "date": "2019-11-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Journal officiel n° 15-2025: Loi n° 5-2025 du 29 mars 2025 portant création de la CNPD (SGG)",
+     "url": "https://www.sgg.cg/JO/2025/congo-jo-2025-15.pdf",
+     "date": "2025-04-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Comité d'Ethique de la Recherche en Sciences de la Santé (CERSSA), Health Research Web (COHRED)",
+     "url": "https://healthresearchwebafrica.org.za/fr/congo/ethics_1126",
+     "date": "undated",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Réunion de coordination du comité d'éthique institutionnel de la FCRM, 8 au 10 août 2025 (FCRM)",
+     "url": "https://www.fcrm-congo.com/actualites/reunion_de_coordination_du_comite_dethique_institutionnel_de_la_fcrm_du_08_au_10_aout_2025_afin_de_reviser_ses_procedures_et_son_fonctionnement",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 20,
+   "summary": "We found no rules for AI in clinical care and no regulation of AI as a medical device. A national AI strategy is being drafted with UNDP support; its technical committee began work in May 2026.",
+   "detail": [
+    "We found no Congolese regulation of software or AI as a medical device, and no health ministry guidance on clinical AI.",
+    "The only rule in Law 29-2019 on automated processing is Article 13. It bars court decisions about a person's behaviour that rest on automated profiling. It does not cover clinical decisions.",
+    "In January 2026 the digital minister said a national AI strategy was being drafted with the African AI research centre and UNDP. Its technical committee met on 6 May 2026 and has six months to deliver 11 outputs."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 29-2019 du 10 octobre 2019 portant protection des données à caractère personnel (Journal officiel, NATLEX copy)",
+     "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf",
+     "date": "2019-11-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Technologies : le Congo s'engage à encadrer l'utilisation de l'Intelligence artificielle (Les Dépêches de Brazzaville)",
+     "url": "https://www.adiac-congo.com/content/technologies-le-congo-sengage-encadrer-lutilisation-de-lintelligence-artificielle-168634",
+     "date": "2026-01-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Intelligence artificielle et langues nationales : le Congo lance les travaux de sa stratégie nationale (Les Dépêches de Brazzaville)",
+     "url": "https://www.adiac-congo.com/content/intelligence-artificielle-et-langues-nationales-le-congo-lance-les-travaux-de-sa-strategie",
+     "date": "2026-05-06",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Facilities keep paper records and districts enter summary reports into DHIS2. Only 2 of 10 general hospitals were digitalised. Medicine stock tracking is going digital. Whether CAMU claims or prescriptions are electronic was not verified.",
+ "laws": [
+  {
+   "name": "Law 29-2019 on personal data protection",
+   "level": "National",
+   "year": "2019",
+   "what": "Health data is sensitive; patient access in person or via a doctor; 72-hour breach notice; fines to 100 million CFA.",
+   "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf"
+  },
+  {
+   "name": "Law 5-2025 creating the National Personal Data Protection Commission (CNPD)",
+   "level": "National",
+   "year": "2025",
+   "what": "Creates an independent data authority with powers to inspect, authorise, sanction and keep a public register.",
+   "url": "https://www.sgg.cg/JO/2025/congo-jo-2025-15.pdf"
+  },
+  {
+   "name": "Law 37-2014 on universal health insurance, amended by Law 12-2023",
+   "level": "National",
+   "year": "2023",
+   "what": "Makes the universal health insurance scheme, run by CAMU, compulsory for insured workers and their dependants.",
+   "url": "https://www.cleiss.fr/docs/regimes/regime_congo.html"
+  },
+  {
+   "name": "Code of ethics for health and social affairs professions",
+   "level": "National",
+   "year": "1988",
+   "what": "Binds doctors, pharmacists, biologists and social workers to professional secrecy.",
+   "url": "https://www.sgg.cg/textes-officiels/lois/1988/congo-loi-1988-09.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-13",
+   "headline": "Minister says a national AI strategy is being drafted",
+   "source": "Les Dépêches de Brazzaville",
+   "url": "https://www.adiac-congo.com/content/technologies-le-congo-sengage-encadrer-lutilisation-de-lintelligence-artificielle-168634",
+   "why": "Congo has no rules yet for AI used in health care."
+  },
+  {
+   "date": "2026-01-17",
+   "headline": "Health minister pledges to digitalise the health system after annual review",
+   "source": "WHO Regional Office for Africa",
+   "url": "https://www.afro.who.int/fr/countries/congo/news/revue-des-performances-du-secteur-sante-vers-la-consolidation-de-loffre-et-de-lacces-aux-des-soins",
+   "why": "Records are mostly on paper, so digitalisation would decide whether patient histories can follow patients."
+  },
+  {
+   "date": "2026-01-22",
+   "headline": "Congo installs its national personal data protection commission",
+   "source": "ITWeb Africa",
+   "url": "https://itweb.africa/article/congo-brazzaville-intros-data-protection-commission/nWJadvbNzxkvbjO1",
+   "why": "Patients now have a regulator to complain to about misuse of their health data."
+  },
+  {
+   "date": "2026-05-30",
+   "headline": "Universal health insurance fund reports 27,000 members and 174 contracted facilities",
+   "source": "Agence congolaise d'information",
+   "url": "https://www.aci.cg/37256/",
+   "why": "Insurance enrolment with biometric cards could become the first national link between patients and providers."
+  },
+  {
+   "date": "2026-07-18",
+   "headline": "Electronic medicine logistics system reaches 54 of 92 pilot sites",
+   "source": "Les Dépêches de Brazzaville",
+   "url": "https://www.adiac-congo.com/content/sante-publique-le-circuit-logistique-des-medicaments-au-congo-va-etre-digitalise-170892",
+   "why": "Better stock data should mean fewer medicine shortages for patients."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

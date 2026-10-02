@@ -1,0 +1,354 @@
+{
+ "iso3": "BHR",
+ "name": "Bahrain",
+ "region": "Middle East",
+ "controlModel": "Institutional",
+ "headline": "Bahrain's privacy regulator now fines clinics for leaking health data, but patients get reports, not their chart, and have no say in record sharing.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 50,
+   "summary": "The data protection law gives a free right to be told, within 15 working days, all personal data a controller holds. In practice the Sehati app offers medical reports, certificates and vaccination records, not the full chart.",
+   "detail": [
+    "Article 18 of Law No. 30 of 2018 says a controller must, free of charge and within 15 working days, tell the person all data being processed, its source, purpose and recipients.",
+    "The NHRA Code of Professional Conduct tells clinicians to respect the patient's right to obtain a medical report. Only consultants and specialists may write one.",
+    "The official Sehati app lets users view and download medical reports and certificates from primary care and government hospitals, and view vaccination records. For lab and X-ray results at two hospitals it shows only whether results are ready.",
+    "Score: base 45, plus 5 for a free right with a fixed deadline, plus 5 for an official app, minus 5 because the documented clinical route is a written report. Whether a request yields a full chart copy was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. (30) of 2018 with Respect to Personal Data Protection (Personal Data Protection Authority)",
+     "url": "https://www.pdp.gov.bh/en/assets/pdf/regulations.pdf",
+     "date": "2018-07-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "NHRA Code of Professional Conduct 2020 V2 (National Health Regulatory Authority)",
+     "url": "https://www.nhra.bh/Departments/HCP/MediaHandler/GenericHandler/documents/departments/HCP/Policies/Code%20of%20Professional%20Conduct%202020%20V2.pdf",
+     "date": "2020",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sehati app (Bahrain National Portal, iGA)",
+     "url": "https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-AllApps/GSX-UI-AppDetails?appID=16",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sehati app listing, developer eGovernment Authority Bahrain (Apple App Store)",
+     "url": "https://apps.apple.com/us/app/sehati/id1271662173",
+     "date": "2025-06-23",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health ministry rules limit reading a record to staff directly involved in care or quality checks, and others need written authorization. No opt-out from record sharing and no patient-visible access log were found.",
+   "detail": [
+    "The Ministry of Health's patient rights page says the record may be read only by people directly involved in treatment or quality monitoring. Anyone else needs the patient's written authorization.",
+    "The data protection law lets processing for diagnosis, care and health service management by licensed professionals go ahead without consent, so care-related sharing does not depend on the patient's choice.",
+    "We found no official page describing a patient opt-out from the I-SEHA record, any consent setting in the Sehati app, or a log showing who opened a record. These features were not verified.",
+    "Control is set by providers and the state. Ministry rules give patients a say over third parties but not over sharing inside the care system."
+   ],
+   "sources": [
+    {
+     "title": "Patient Rights and Duties in Primary Health Care (Ministry of Health)",
+     "url": "https://www.moh.gov.bh/Services/RightsandDutiesinPrimaryHealthCare?lang=en",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Law No. (30) of 2018 with Respect to Personal Data Protection (Personal Data Protection Authority)",
+     "url": "https://www.pdp.gov.bh/en/assets/pdf/regulations.pdf",
+     "date": "2018-07-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sehati app (Bahrain National Portal, iGA)",
+     "url": "https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-AllApps/GSX-UI-AppDetails?appID=16",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 56,
+   "summary": "Health data is sensitive data under Law No. 30 of 2018, with jail of up to one year and fines up to BD20,000 for unlawful processing. In September 2026 the regulator fined a medical centre BD1,000 for emailing a patient's medical examination details to his employer.",
+   "detail": [
+    "The law bans processing sensitive data, including health data, without consent unless an exception applies, such as care by a licensed professional bound by confidentiality. Automated processing of sensitive data needs the Authority's prior written authorization.",
+    "DLA Piper reports a 72-hour breach notice duty and criminal penalties of up to one year in prison or fines of BD1,000 to BD20,000.",
+    "In September 2026 the Personal Data Protection Authority fined a medical centre BD1,000 after a citizen complained that information about his medical examinations was emailed to his employer without his consent.",
+    "Decree No. 78 of 2019 gave the Authority's powers to the Ministry of Justice on a temporary basis. Whether an independent board now runs it was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. (30) of 2018 with Respect to Personal Data Protection (Personal Data Protection Authority)",
+     "url": "https://www.pdp.gov.bh/en/assets/pdf/regulations.pdf",
+     "date": "2018-07-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Bahrain (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/?t=law&c=BH",
+     "date": "2026-02-02",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Medical Centre Fined BD1,000 for Sharing Patient Health Data (News of Bahrain)",
+     "url": "https://www.newsofbahrain.com/bahrain/141478.html",
+     "date": "2026-09-20",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 50,
+   "summary": "Health data cannot be processed without consent outside listed exceptions, and people can object free of charge to direct marketing. No specific ban on selling health data or rules for consumer health apps were found.",
+   "detail": [
+    "Article 5 of the data protection law requires consent for sensitive data unless an exception applies. Commercial use is not one of the listed health exceptions.",
+    "Articles 19 and 20 require controllers to tell people of their right to object to direct marketing and to stop within 10 working days of an objection, free of charge.",
+    "The Health Insurance Law limits use of the insurance health database to the purposes for which data was collected, such as service quality and system governance.",
+    "No rule on health data brokers, sale of de-identified data or wellness apps was verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. (30) of 2018 with Respect to Personal Data Protection (Personal Data Protection Authority)",
+     "url": "https://www.pdp.gov.bh/en/assets/pdf/regulations.pdf",
+     "date": "2018-07-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Bahrain (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/?t=law&c=BH",
+     "date": "2026-02-02",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Law No. (23) of 2018 Promulgating the Health Insurance Law (Bahrain Business Laws, unofficial English text)",
+     "url": "https://bahrainbusinesslaws.com/laws/health-insurance-law",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 50,
+   "summary": "Public clinics and hospitals share the I-SEHA electronic record, which a January 2025 agreement will replace in phases, starting with primary care. The planned national record linking private providers and insurers was not verified as live.",
+   "detail": [
+    "The national portal says I-SEHA applies a unified electronic medical record for all citizens and expatriates, covering primary care, outpatient clinics, labs, radiology, pharmacy, emergency and billing in Ministry of Health facilities.",
+    "In January 2025 the Supreme Council of Health and the Royal Medical Services signed the RMS-Hope project to replace I-SEHA, starting with primary care and then government hospitals.",
+    "Government hospitals are rolling out the MAK-RMS records system, and in September 2026 started scanning paper files into hospital systems with stc bahrain.",
+    "The Health Insurance Law of 2018 promises every beneficiary a unified electronic record linking all providers. The Supreme Council's HIKMA page describes it in the future tense."
+   ],
+   "sources": [
+    {
+     "title": "National Health Information System (I-SEHA program) (Bahrain National Portal)",
+     "url": "https://www.bahrain.bh/wps/portal/BNP/SiteMap/!ut/p/z1/jVJLU8IwEP4reOBosg2l0mOBkYci2hakuTBpyUCkTQMNIv560_HglKe5ZHf29X3fLqZ4hqlkn2LJtMglS40fUWduDZrQb3UA3NB1wCHEs0nQa8AY8Hs1wQonAG_TgeePH7sW2Bam_6mHC8-DW_VTTDEt9DEOt_nUAWcQ2C_NYWi1yG-f4-Ztn7QbAL3ghMfpIHod5jkelQE3eAyrCa9dmxgdXd9pjywY9RrlJsTHZkM9TJNcav6l8SyWas62dWBxvtM1veK1tZDLRZ7VgW92LBX68GcZiLQ65MyybtGkV3UcExwZHR4uJXjPBAdlD5aU94WjvSqQyrc65bpAqZDrMlj-TCmxwFGSZ0jEGdorxBaZkGjFU2MqhfY8NUGOijwR5k5VNpnIgxD3NHb8_nfII-_uBwf9WYw!/?1dmy&page=Content.Details.Page&urile=wcm%3Apath%3A%2Fbnp_en%2Fabout%2Bthe%2Bkingdom%2Fonce-only%2Bprinciple%2Bdata%2Frelated%2Btopics%2Fnational%2Bhealth%2Binformation%2Bsystem%2B%2528i-seha%2Bprogram%2529",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Bahrain Signs Agreement to Implement Unified Health Information System (News of Bahrain)",
+     "url": "https://www.newsofbahrain.com/bahrain/107279.html",
+     "date": "2025-01-13",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Bahrain moves to digitize government hospital records in partnership with stc bahrain (Dharab)",
+     "url": "https://dharab.com/bahrain-moves-to-digitize-government-hospital-records-in-partnership-with-stc-bahrain/",
+     "date": "2026-09-23",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The National Health Information Systems (HIKMA) (Supreme Council of Health)",
+     "url": "https://www.sch.org.bh/en/projects/the-national-health-information-systems-hekma.html",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 52,
+   "summary": "Doctors in government facilities can see a patient's case history, treatment history and family history in I-SEHA. Access across private hospitals and clinics was not verified.",
+   "detail": [
+    "The I-SEHA page says the system gives physicians the patient's case, treatment and family history to speed diagnosis.",
+    "Officials said in August 2026 that MAK-RMS connects government hospitals so authorised staff can see patient information in an organised way.",
+    "The Supreme Council plans a unified file that a licensed treating doctor could open at any facility, including private ones. We found no evidence that this is live.",
+    "Many government hospital files are still on paper and are being scanned, so the electronic history is not yet complete."
+   ],
+   "sources": [
+    {
+     "title": "National Health Information System (I-SEHA program) (Bahrain National Portal)",
+     "url": "https://www.bahrain.bh/wps/portal/BNP/SiteMap/!ut/p/z1/jVJLU8IwEP4reOBosg2l0mOBkYci2hakuTBpyUCkTQMNIv560_HglKe5ZHf29X3fLqZ4hqlkn2LJtMglS40fUWduDZrQb3UA3NB1wCHEs0nQa8AY8Hs1wQonAG_TgeePH7sW2Bam_6mHC8-DW_VTTDEt9DEOt_nUAWcQ2C_NYWi1yG-f4-Ztn7QbAL3ghMfpIHod5jkelQE3eAyrCa9dmxgdXd9pjywY9RrlJsTHZkM9TJNcav6l8SyWas62dWBxvtM1veK1tZDLRZ7VgW92LBX68GcZiLQ65MyybtGkV3UcExwZHR4uJXjPBAdlD5aU94WjvSqQyrc65bpAqZDrMlj-TCmxwFGSZ0jEGdorxBaZkGjFU2MqhfY8NUGOijwR5k5VNpnIgxD3NHb8_nfII-_uBwf9WYw!/?1dmy&page=Content.Details.Page&urile=wcm%3Apath%3A%2Fbnp_en%2Fabout%2Bthe%2Bkingdom%2Fonce-only%2Bprinciple%2Bdata%2Frelated%2Btopics%2Fnational%2Bhealth%2Binformation%2Bsystem%2B%2528i-seha%2Bprogram%2529",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "SMC steps up push for digital transformation (Gulf Daily News)",
+     "url": "https://www.gdnonline.com/Details/1403059/SMC-steps-up-push-for-digital-transformation",
+     "date": "2026-08-11",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The National Health Information Systems (HIKMA) (Supreme Council of Health)",
+     "url": "https://www.sch.org.bh/en/projects/the-national-health-information-systems-hekma.html",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Bahrain moves to digitize government hospital records in partnership with stc bahrain (Dharab)",
+     "url": "https://dharab.com/bahrain-moves-to-digitize-government-hospital-records-in-partnership-with-stc-bahrain/",
+     "date": "2026-09-23",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Ministry of Health research committees review studies and require written consent that participants can withdraw. The National Genome Program enrols by opt-in consent, with online withdrawal.",
+   "detail": [
+    "The Ministry's research office says consent forms must explain how data will be used and that people can withdraw at any time. Studies need committee approval.",
+    "The National Genome Program has online forms to join, withdraw or request results, separately for adults, minors and people unable to consent.",
+    "The data protection law treats further use for scientific research as compatible, and long-term research data must be anonymised or encrypted. No general research opt-out for health records and no public register of data uses were found.",
+    "Score: base 40, plus 3 each for an ethics body, statutory secrecy, criminal misuse penalties and a consent route, capped at 50."
+   ],
+   "sources": [
+    {
+     "title": "Health Research Proposal FAQs (Ministry of Health Research Office)",
+     "url": "https://research.moh.gov.bh/Help/Faqs",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Genome Program Consent Forms (Ministry of Health)",
+     "url": "https://www.moh.gov.bh/GenomeConsentForms?lang=en",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Law No. (30) of 2018 with Respect to Personal Data Protection (Personal Data Protection Authority)",
+     "url": "https://www.pdp.gov.bh/en/assets/pdf/regulations.pdf",
+     "date": "2018-07-12",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 50,
+   "summary": "Software used as a medical device is registered with the regulator like other devices, and each new version needs approval. No binding rule on human oversight of clinical AI was verified.",
+   "detail": [
+    "The NHRA device guideline of July 2024 says software that is a medical device is registered under the same rules as other devices.",
+    "Each new software version needs a variation. Updates that change intended use count as major and need a new registration.",
+    "The National Policy for the Use of Artificial Intelligence, launched in July 2025, applies to government bodies and points to the data protection law. Health-specific AI rules were not verified.",
+    "No national AI law in force was verified."
+   ],
+   "sources": [
+    {
+     "title": "Medical Devices Registration Guideline, July 2024 (NHRA)",
+     "url": "https://www.nhra.bh/Departments/MDR/MediaHandler/GenericHandler/documents/departments/MDR/guidelines/Ver%209_MDR_Guideline_Medical%20Device%20Registration.pdf",
+     "date": "2024-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Bahrain Launches National AI Policy and Adopts GCC Ethics Manual (iGA)",
+     "url": "https://www.iga.gov.bh/en/article/bahrain-launches-national-ai-policy-and-adopts-gcc-ethics-manual",
+     "date": "2025-07-27",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "I-SEHA links Ministry of Health clinics, labs, radiology and pharmacy, and government hospitals are moving to new systems. Private providers, insurer claims and research links to a national record were not verified.",
+ "laws": [
+  {
+   "name": "Law No. (30) of 2018 with Respect to Personal Data Protection",
+   "level": "National",
+   "year": "2018",
+   "what": "Health data is sensitive; consent rules, access and objection rights, criminal penalties.",
+   "url": "https://www.pdp.gov.bh/en/assets/pdf/regulations.pdf"
+  },
+  {
+   "name": "Decree No. (78) of 2019",
+   "level": "National",
+   "year": "2019",
+   "what": "Gives the data protection Authority's powers to the Ministry of Justice on a temporary basis.",
+   "url": "https://www.dlapiperdataprotection.com/?t=law&c=BH"
+  },
+  {
+   "name": "Law No. (23) of 2018 Promulgating the Health Insurance Law",
+   "level": "National",
+   "year": "2018",
+   "what": "National health insurance, health database, and a unified electronic medical record for every beneficiary.",
+   "url": "https://bahrainbusinesslaws.com/laws/health-insurance-law"
+  },
+  {
+   "name": "NHRA Code of Professional Conduct 2020",
+   "level": "National",
+   "year": "2020",
+   "what": "Duty of confidentiality and the patient's right to obtain a medical report.",
+   "url": "https://www.nhra.bh/Departments/HCP/MediaHandler/GenericHandler/documents/departments/HCP/Policies/Code%20of%20Professional%20Conduct%202020%20V2.pdf"
+  },
+  {
+   "name": "NHRA Medical Devices Registration Guideline (Version 9)",
+   "level": "National",
+   "year": "2024",
+   "what": "Registers software as a medical device; each new software version needs a variation.",
+   "url": "https://www.nhra.bh/Departments/MDR/MediaHandler/GenericHandler/documents/departments/MDR/guidelines/Ver%209_MDR_Guideline_Medical%20Device%20Registration.pdf"
+  },
+  {
+   "name": "National Policy for the Use of Artificial Intelligence",
+   "level": "National",
+   "year": "2025",
+   "what": "Framework for AI use by government bodies, tied to the data protection law.",
+   "url": "https://www.iga.gov.bh/en/article/bahrain-launches-national-ai-policy-and-adopts-gcc-ethics-manual"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-09-20",
+   "headline": "Privacy regulator fines medical centre for emailing patient's results to employer",
+   "source": "News of Bahrain",
+   "url": "https://www.newsofbahrain.com/bahrain/141478.html",
+   "why": "Shows the regulator acts on patient complaints about shared health data."
+  },
+  {
+   "date": "2026-09-23",
+   "headline": "Government hospitals hire stc bahrain to scan paper patient files",
+   "source": "Dharab",
+   "url": "https://dharab.com/bahrain-moves-to-digitize-government-hospital-records-in-partnership-with-stc-bahrain/",
+   "why": "Older paper histories will become visible to treating clinicians."
+  },
+  {
+   "date": "2026-08-11",
+   "headline": "Health council chief reviews new records system linking government hospitals",
+   "source": "Gulf Daily News",
+   "url": "https://www.gdnonline.com/Details/1403059/SMC-steps-up-push-for-digital-transformation",
+   "why": "MAK-RMS lets staff across government hospitals see a patient's information."
+  },
+  {
+   "date": "2026-08-10",
+   "headline": "Salmaniya hospital tour highlights MAK-RMS electronic records rollout",
+   "source": "News of Bahrain",
+   "url": "https://www.newsofbahrain.com/bahrain/139167.html",
+   "why": "Confirms the shared hospital record is in rollout, not yet complete."
+  },
+  {
+   "date": "2026-08-03",
+   "headline": "Health council chief visits Salmaniya health records and coding unit",
+   "source": "Gulf Daily News",
+   "url": "https://www.gdnonline.com/Details/1402396",
+   "why": "Officials cite data quality and privacy work on hospital records."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,343 @@
+{
+ "iso3": "LKA",
+ "name": "Sri Lanka",
+ "region": "Asia",
+ "controlModel": "Institutional",
+ "headline": "Sri Lanka has a data protection law and regulator, but core duties start in 2027 and the national health record is still a plan.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 30,
+   "summary": "The Medical Council says patients may see and copy their records, but this rests on professional rules. The general data access right in the PDPA (Part II) is still not in force, and there is no national patient portal.",
+   "detail": [
+    "The Sri Lanka Medical Council states that patients have the right to access their own medical records and request copies. It says this is upheld through the Medical Ordinance and the SLMC Code of Conduct. The statutory wording, fees and deadlines were not verified.",
+    "The Personal Data Protection Act No. 9 of 2022 gives a right of access, with a written reply due within 21 working days (section 17). But the July 2026 gazette left Part II (data subject rights) deferred, so it is not yet enforceable.",
+    "A 2025 BMC Medical Ethics study found Sri Lanka has no formally enacted Patient Rights Charter. A draft has not been debated in Parliament.",
+    "A Patient Health App was reviewed at a July 2026 presidential meeting. Whether patients can see their records in it was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Patient Rights (Sri Lanka Medical Council)",
+     "url": "https://slmc.gov.lk/en/services/public/patient-rights",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Legal experts flag unique compliance landscape in staggered PDPA rollout (Daily Mirror)",
+     "url": "https://www.dailymirror.lk/breaking-news/Legal-experts-flag-unique-compliance-landscape-in-staggered-PDPA-rollout/108-346685",
+     "date": "2026-07-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Aspects of patient rights in a developing country: a qualitative study (BMC Medical Ethics)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12121050/",
+     "date": "2025-05-28",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "President calls for internationally recognised healthcare standards (Ada Derana)",
+     "url": "https://adaderana.lk/news/cmrd4n38j000k356p1ngjlibv",
+     "date": "2026-07-09",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 25,
+   "summary": "Patients have no working consent controls or access log for shared records today. The 2023 Digital Health Blueprint plans consent, opt-out directives and audit trails, but the national record behind them is still only proposed.",
+   "detail": [
+    "Hospital systems such as HHIMS are run by facilities. No patient-facing consent setting or access log was found.",
+    "The Digital Health Blueprint (November 2023) says the platform shall let patients give or withdraw consent for secondary use, apply directives such as opt-out or emergency use only, and keep a central audit trail.",
+    "Those features depend on the National Electronic Health Record, which a July 2026 presidential review still called proposed.",
+    "The PDPA lets people withdraw consent, but its rights part is deferred and health processing by licensed professionals needs no consent under Schedule II."
+   ],
+   "sources": [
+    {
+     "title": "Sri Lanka Digital Health Blueprint (Ministry of Health)",
+     "url": "https://www.health.gov.lk/wp-content/uploads/2023/11/Digital-Health-Blue-Print-Full-Book-01.11.2023-Final.pdf",
+     "date": "2023-11-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "President calls for internationally recognised healthcare standards (Ada Derana)",
+     "url": "https://adaderana.lk/news/cmrd4n38j000k356p1ngjlibv",
+     "date": "2026-07-09",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Personal Data Protection Act, No. 9 of 2022 (Parliament of Sri Lanka)",
+     "url": "https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf",
+     "date": "2022-03-19",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 35,
+   "summary": "The PDPA treats health data as a special category and allows fines up to LKR 10 million. But its core duties start only on 1 January 2027, the penalty part is still deferred, and no health-sector enforcement was found.",
+   "detail": [
+    "The PDPA, passed in March 2022, lists data concerning health and genetic data as special categories. Processing needs consent or another Schedule II condition, such as care by a licensed health professional.",
+    "The Data Protection Authority was set up in 2023. The Amendment Act No. 22 of 2025 was gazetted on 31 October 2025 and dropped the old start dates.",
+    "A gazette of 22 July 2026 brings Parts I and III into force on 1 January 2027. Part II (rights) and Part VII (penalties) stay deferred.",
+    "Penalties may reach LKR 10 million per non-compliance, with an extra penalty of twice that amount for repeat failures. No health data breach decision was found, so this score rests on the general law."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act, No. 9 of 2022 (Parliament of Sri Lanka)",
+     "url": "https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf",
+     "date": "2022-03-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Legal experts flag unique compliance landscape in staggered PDPA rollout (Daily Mirror)",
+     "url": "https://www.dailymirror.lk/breaking-news/Legal-experts-flag-unique-compliance-landscape-in-staggered-PDPA-rollout/108-346685",
+     "date": "2026-07-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Data protection laws in Sri Lanka (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=LK",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Data Protection Authority of Sri Lanka",
+     "url": "https://www.dpa.gov.lk/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 35,
+   "summary": "Once in force, the PDPA will require consent to process health data, and consent plus a free opt-out for marketing messages. Today those parts are not in force, and no health-specific ban on selling data was found.",
+   "detail": [
+    "Schedule II of the PDPA requires consent, or a listed purpose, before special category data such as health records is processed. This part starts on 1 January 2027.",
+    "Section 27 allows marketing messages only with consent and a free opt-out. That part (Part IV) is still deferred under the July 2026 gazette.",
+    "No rule banning the sale of de-identified health data or ad targeting on health data was found (not verified).",
+    "Consumer health apps fall under the general PDPA, not a health law."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act, No. 9 of 2022 (Parliament of Sri Lanka)",
+     "url": "https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf",
+     "date": "2022-03-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Legal experts flag unique compliance landscape in staggered PDPA rollout (Daily Mirror)",
+     "url": "https://www.dailymirror.lk/breaking-news/Legal-experts-flag-unique-compliance-landscape-in-staggered-PDPA-rollout/108-346685",
+     "date": "2026-07-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Data protection laws in Sri Lanka (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=LK",
+     "date": "undated",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 35,
+   "summary": "HHIMS runs in 80 public hospitals with 9.5 million patients registered, and a cluster pilot links 31 facilities. There is no national record yet, and the 2023 Blueprint says private insurance data flows are not linked to the Ministry.",
+   "detail": [
+    "The ICT Agency reports HHIMS in 80 hospitals, with over 9.5 million patients registered and about 23 million electronic records. It was set to move to the Ministry of Health in December 2024.",
+    "The 2023 Blueprint says more than 85 major state hospitals use HHIMS or HIMS, covering outpatients, admissions, labs, pharmacy and radiology.",
+    "A Cluster Health Information System launched in June 2025 links 31 hospitals and health centres around Thambuttegama and Dambulla.",
+    "A national record was still proposed in July 2026. In May 2026 a doctors' union warned new procurements could fragment systems."
+   ],
+   "sources": [
+    {
+     "title": "Hospital Health Information Management System (HHIMS) (ICTA)",
+     "url": "https://www.icta.lk/projects/digital-government/hospital-health-information-management-system-hhims",
+     "date": "2025-09-30",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Sri Lanka Digital Health Blueprint (Ministry of Health)",
+     "url": "https://www.health.gov.lk/wp-content/uploads/2023/11/Digital-Health-Blue-Print-Full-Book-01.11.2023-Final.pdf",
+     "date": "2023-11-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health Ministry to launch Cluster Health Information System tomorrow (Daily Mirror)",
+     "url": "https://www.dailymirror.lk/breaking-news/Health-Ministry-to-launch-Cluster-Health-Information-System-tomorrow/108-310651",
+     "date": "2025-06-04",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Concerns raised over Rs. 3 billion HIQI digital health procurements (Daily Mirror)",
+     "url": "https://www.dailymirror.lk/breaking-news/Concerns-raised-over-Rs-3-billion-HIQI-digital-health-procurements/108-340259",
+     "date": "2026-05-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 30,
+   "summary": "Clinicians see records within their own hospital system, and inside one pilot cluster across 31 facilities. Outside that, there is no shared view across providers.",
+   "detail": [
+    "In the Thambuttegama and Dambulla cluster, authorised clinicians can view records, lab reports, X-rays, prescriptions and history from linked facilities.",
+    "Elsewhere, HHIMS keeps records per hospital. The Blueprint describes a future NEHR viewer for clinicians across settings, with access logging.",
+    "Emergency access rules for a shared record were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Health Ministry to launch Cluster Health Information System tomorrow (Daily Mirror)",
+     "url": "https://www.dailymirror.lk/breaking-news/Health-Ministry-to-launch-Cluster-Health-Information-System-tomorrow/108-310651",
+     "date": "2025-06-04",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Sri Lanka Digital Health Blueprint (Ministry of Health)",
+     "url": "https://www.health.gov.lk/wp-content/uploads/2023/11/Digital-Health-Blue-Print-Full-Book-01.11.2023-Final.pdf",
+     "date": "2023-11-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Hospital Health Information Management System (HHIMS) (ICTA)",
+     "url": "https://www.icta.lk/projects/digital-government/hospital-health-information-management-system-hhims",
+     "date": "2025-09-30",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 43,
+   "summary": "Clinical trials need approval from an NMRA-recognised ethics committee. No general opt-out or consent register exists for reuse of records, and the PDPA research condition is not yet in force.",
+   "detail": [
+    "The NMRA runs clinical trial approval under regulations made under the NMRA Act No. 5 of 2015. It publishes guidelines for recognising Ethics Review Committees.",
+    "Schedule II of the PDPA allows processing for scientific research if it is proportionate and has safeguards. This starts on 1 January 2027.",
+    "The Blueprint plans patient consent for secondary use, but no opt-out register or transparency register for record reuse was found (not verified). Score: base 40 plus 3 for ethics bodies."
+   ],
+   "sources": [
+    {
+     "title": "Clinical trials (National Medicines Regulatory Authority)",
+     "url": "https://www.nmra.gov.lk/pages/clinical-trials",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Personal Data Protection Act, No. 9 of 2022 (Parliament of Sri Lanka)",
+     "url": "https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf",
+     "date": "2022-03-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sri Lanka Digital Health Blueprint (Ministry of Health)",
+     "url": "https://www.health.gov.lk/wp-content/uploads/2023/11/Digital-Health-Blue-Print-Full-Book-01.11.2023-Final.pdf",
+     "date": "2023-11-01",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "The NMRA medical device definition covers software, but no rules for AI devices were found. The national AI strategy is still a draft, and there is no AI law.",
+   "detail": [
+    "The NMRA definition of a medical device includes software. Registration asks for software verification and validation reports. AI-specific rules or change control for learning systems were not found.",
+    "LIRNEasia wrote in January 2026 that governance cannot stay at policy intent and called for a soft-law approach. No binding health AI rule was found.",
+    "In March 2026, a plan for AI-integrated health records discussed by the insurance regulator (IRCSL) drew calls for guardrails against data bias. No AI service had been chosen."
+   ],
+   "sources": [
+    {
+     "title": "Medical devices (National Medicines Regulatory Authority)",
+     "url": "https://www.nmra.gov.lk/pages/medical-devices",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Artificial Intelligence (AI) governance is a concern Sri Lanka must address now (LIRNEasia)",
+     "url": "https://lirneasia.net/2026/01/artificial-intelligence-ai-governance-is-a-concern-sri-lanka-must-address-now/",
+     "date": "2026-01-02",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Push for AI-integrated health records sparks debate (The Morning)",
+     "url": "https://www.themorning.lk/articles/hRB94HjdAVDrWSLR337z",
+     "date": "2026-03-08",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "siloed",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "HHIMS covers 80 public hospitals including labs and pharmacy, and one cluster pilot links 31 facilities. The national record is proposed. Private insurance flows are not linked to the Ministry (2023 Blueprint); private provider links were not verified.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Act, No. 9 of 2022",
+   "level": "National",
+   "year": "2022",
+   "what": "Health is a special category; sets rights, Authority and penalties. Core parts in force 1 January 2027.",
+   "url": "https://www.parliament.lk/uploads/acts/gbills/english/6242.pdf"
+  },
+  {
+   "name": "Personal Data Protection (Amendment) Act, No. 22 of 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Removed fixed start dates; minister sets operative dates by gazette.",
+   "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=LK"
+  },
+  {
+   "name": "National Medicines Regulatory Authority Act, No. 5 of 2015",
+   "level": "National",
+   "year": "2015",
+   "what": "Regulates medical devices including software, and clinical trials with recognised ethics committees.",
+   "url": "https://www.nmra.gov.lk/pages/medical-devices"
+  },
+  {
+   "name": "Medical Ordinance (Cap. 105)",
+   "level": "National",
+   "year": "not verified",
+   "what": "Basis cited by the Medical Council for patient record access and confidentiality.",
+   "url": "https://slmc.gov.lk/en/services/public/patient-rights"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-08-08",
+   "headline": "Data Protection Authority issues public sector circular before PDPA start",
+   "source": "Ada Derana",
+   "url": "https://adaderana.lk/news/cmsjsp2vt0005356q4pjfv4ih",
+   "why": "Government bodies, which run the public health system, are told to appoint data protection officers where required."
+  },
+  {
+   "date": "2026-07-27",
+   "headline": "Gazette brings core PDPA duties into force on 1 January 2027",
+   "source": "Daily Mirror",
+   "url": "https://www.dailymirror.lk/breaking-news/Legal-experts-flag-unique-compliance-landscape-in-staggered-PDPA-rollout/108-346685",
+   "why": "Patients' data rights and penalties stay deferred even after that date."
+  },
+  {
+   "date": "2026-07-09",
+   "headline": "President reviews Patient Health App and proposed national health record",
+   "source": "Ada Derana",
+   "url": "https://adaderana.lk/news/cmrd4n38j000k356p1ngjlibv",
+   "why": "Shows the national record patients would rely on is still not built."
+  },
+  {
+   "date": "2026-05-14",
+   "headline": "Doctors' union questions Rs. 3 billion digital health procurements",
+   "source": "Daily Mirror",
+   "url": "https://www.dailymirror.lk/breaking-news/Concerns-raised-over-Rs-3-billion-HIQI-digital-health-procurements/108-340259",
+   "why": "Duplicate systems could leave patient records more fragmented."
+  },
+  {
+   "date": "2026-03-08",
+   "headline": "Proposal for AI-integrated health records raises privacy and bias concerns",
+   "source": "The Morning",
+   "url": "https://www.themorning.lk/articles/hRB94HjdAVDrWSLR337z",
+   "why": "A digital health ID linking records and insurance is planned; AI guardrails are still debated."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

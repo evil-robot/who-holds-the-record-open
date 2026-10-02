@@ -1,0 +1,300 @@
+{
+  "iso3": "TKM",
+  "name": "Turkmenistan",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Turkmen law promises people their personal data free within a day, but there is no patient portal, no data regulator and broad state access.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "The 2017 data law makes data holders give people any of their personal data free within one working day, though the Health Law promises only information about one's health. With no patient portal found and no data regulator to enforce it, the score is 45.",
+      "detail": [
+        "Article 13 of the 2015 Law on Protection of the Health of Citizens gives citizens a right to full and reliable information about their health. Article 61 repeats this for patients and adds information about prescribed medicines. Neither article mentions seeing or copying the medical record.",
+        "Article 60 says electronic resources holding patients' personal data may be opened only to the patients themselves and to law enforcement and other state bodies where the law allows. No procedure, deadline or fee for a patient request was found.",
+        "Article 27 of the 2017 personal data law obliges an operator to give a person, on request and within one working day, any personal data belonging to them, free and in an accessible form. Article 22 gives everyone a right of access to their own data. Access can be limited for defence, security and policing (Article 26).",
+        "The Health Ministry website lists interactive services for state voluntary health insurance, clinic lists, medicines, vaccination information and appointments with clinic heads. None shows a patient's own record. Score: base 45, plus 5 for free access within a fixed deadline, minus 5 for weak enforcement with no data regulator. Health Law amendments up to 2023 were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 223-V on Protection of the Health of Citizens, Articles 13, 60 and 61 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/ru/post/24367/zakon-turkmenistana-%3Cbr%3Eob-okhrane-zdorovya-grazhdan*",
+          "date": "2015-06-02",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 519-V on Information about Private Life and its Protection, Articles 22, 26 and 27 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/index.php/ru/post/28474/zakon-turkmenistana-%3Cbr%3Eob-informatsii-o-lichnoi-zhizni-i-ee-zaschite",
+          "date": "2017-04-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ministry of Health and Medical Industry of Turkmenistan: interactive services",
+          "url": "https://www.saglykhm.gov.tm/ru",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "The Health Law requires patient consent to collect data for electronic health records unless another law says otherwise, and the data law lets people withdraw consent. We found no opt-out from state health systems and no access log patients can see.",
+      "detail": [
+        "Article 60 of the Health Law says collecting and processing personal data for electronic patient records needs the consent of the patient or a legal representative, unless the law sets otherwise. Care itself needs oral or written consent under Article 61.",
+        "The 2017 personal data law lets a person give and withdraw consent in writing or electronically. The operator must then stop processing and destroy the data within three working days. Consent cannot be withdrawn where that would contradict a law or while an obligation is unfulfilled (Article 8).",
+        "Article 20 says an operator must tell the person within one working day when it passes their data to a third party. This does not apply when state bodies act under their legal duties, or to statistical and scientific use.",
+        "No patient-visible log of who opened a health record and no way to refuse entry into state health systems was found. This places Turkmenistan in the lowest control band."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 223-V on Protection of the Health of Citizens, Articles 60 and 61 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/ru/post/24367/zakon-turkmenistana-%3Cbr%3Eob-okhrane-zdorovya-grazhdan*",
+          "date": "2015-06-02",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 519-V on Information about Private Life and its Protection, Articles 8, 20 and 27 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/index.php/ru/post/28474/zakon-turkmenistana-%3Cbr%3Eob-informatsii-o-lichnoi-zhizni-i-ee-zaschite",
+          "date": "2017-04-08",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 30,
+      "summary": "Health data is a special category under the 2017 data law, and patient e-records are confidential under the Health Law. But there is no data protection regulator, no breach notification duty, and law enforcement and state bodies may access patient records.",
+      "detail": [
+        "Article 21 of the personal data law bans processing health data except in listed cases, such as written consent or medical purposes by staff bound by medical secrecy. It also allows processing for justice, operational search activity and executing criminal sentences.",
+        "Article 60 of the Health Law classes electronic patient records as confidential and limits clinician access to care. The same article lets law enforcement and other state bodies access them where the law provides.",
+        "The data law gives oversight to the Prosecutor General. The Cabinet may create a separate authority, but we found none. The law requires operators to detect unlawful access, but sets no duty to report breaches. Data must be stored in databases inside Turkmenistan.",
+        "Criminal Code Article 144 punishes unlawful collection or spreading of private secrets, mainly after a repeat offence, with higher fines for misuse of office or IT. No health data breach or enforcement case was found."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 519-V on Information about Private Life and its Protection, Articles 12, 21, 24 and 28 to 31 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/index.php/ru/post/28474/zakon-turkmenistana-%3Cbr%3Eob-informatsii-o-lichnoi-zhizni-i-ee-zaschite",
+          "date": "2017-04-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 223-V on Protection of the Health of Citizens, Article 60 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/ru/post/24367/zakon-turkmenistana-%3Cbr%3Eob-okhrane-zdorovya-grazhdan*",
+          "date": "2015-06-02",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Criminal Code of Turkmenistan (new edition), Article 144 (Mejlis of Turkmenistan)",
+          "url": "https://mejlis.gov.tm/single-code/27?lang=ru",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "The 2017 data law allows personal data to be used to market goods and services only with the person's prior consent, and health data needs written consent. No ban on selling health data and no enforcement case were found.",
+      "detail": [
+        "Article 26 of the personal data law says processing personal data to promote goods, works and services needs the person's prior consent. Article 21 requires written consent for health data outside medical and other listed purposes.",
+        "Article 14 limits use to the purposes set when data was collected. Article 7 bars an operator from contracting another party to collect and process data for it.",
+        "We found no rule on data brokers, consumer health apps or sales of de-identified health data, and no enforcement case. With no data protection regulator, it is unclear who would act on a complaint."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 519-V on Information about Private Life and its Protection, Articles 7, 14, 21 and 26 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/index.php/ru/post/28474/zakon-turkmenistana-%3Cbr%3Eob-informatsii-o-lichnoi-zhizni-i-ee-zaschite",
+          "date": "2017-04-08",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 30,
+      "summary": "The Health Ministry is tasked with an electronic health system, and a 2023 journal article reports the E-Saglyk system in 165 regional facilities with e-records for 1 million people. Current national coverage, e-prescriptions and lab links were not verified.",
+      "detail": [
+        "The Health Ministry's statute tasks it with directing the electronic health system, bringing in digital medical records and e-document flow, and running health information systems. Article 59 of the Health Law calls for an electronic health system and telemedicine.",
+        "A 2023 article in the journal Doctor and Information Technology says an e-document project began in 2010, and E-Saglyk software gave e-records to 300,000 Ashgabat residents. A second stage linked 165 facilities in five regions, with e-records for 1 million people.",
+        "The X-Road data exchange linked ten ministries by November 2025, according to a Ministry of Communications specialist, covering areas including medicine. Whether the health system is connected was not verified. No e-prescription system was found.",
+        "Turkmenistan is not in the EU, so the European Health Data Space does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Tasks and functions of the Ministry of Health and Medical Industry",
+          "url": "https://www.saglykhm.gov.tm/ru/tasks-and-functions-of-the-ministry",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Developing a digital transformation strategy for Turkmenistan's health care (Doctor and Information Technology, via CyberLeninka)",
+          "url": "https://cyberleninka.ru/article/n/razrabotka-strategii-tsifrovoy-transformatsii-zdravoohraneniya-turkmenistana-aktsent-na-preodolenie-hronicheskih-neinfektsionnyh",
+          "date": "2023",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Turkmenistan runs a project to digitise interagency exchange (Turkmenportal)",
+          "url": "https://turkmenportal.com/ru/news/96275-v-turkmenistane-realizuetsya-proekt-po-tsifrovizatsii-mezhvedomstvennogo-vzaimodeystviya-----",
+          "date": "2025-11-12",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 30,
+      "summary": "The Health Law limits clinicians' access to electronic patient records to providing care. Whether a doctor can see a patient's record from other facilities was not verified, and no national record viewable at the point of care was found.",
+      "detail": [
+        "Article 60 of the Health Law says medical workers may access electronic records holding patients' personal data only to provide care to that patient. Medical secrecy covers the fact of seeking care, diagnosis and test findings (Article 1).",
+        "The personal data law allows health data to be processed without consent to protect life when consent cannot be obtained, and for medical purposes by staff bound by medical secrecy (Article 21).",
+        "The E-Saglyk system links facilities in Ashgabat and five regions, according to a 2023 journal article. Whether records follow patients between facilities, including new centres in Ashgabat and Arkadag, was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 223-V on Protection of the Health of Citizens, Articles 1 and 60 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/ru/post/24367/zakon-turkmenistana-%3Cbr%3Eob-okhrane-zdorovya-grazhdan*",
+          "date": "2015-06-02",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 519-V on Information about Private Life and its Protection, Article 21 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/index.php/ru/post/28474/zakon-turkmenistana-%3Cbr%3Eob-informatsii-o-lichnoi-zhizni-i-ee-zaschite",
+          "date": "2017-04-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Developing a digital transformation strategy for Turkmenistan's health care (Doctor and Information Technology, via CyberLeninka)",
+          "url": "https://cyberleninka.ru/article/n/razrabotka-strategii-tsifrovoy-transformatsii-zdravoohraneniya-turkmenistana-aktsent-na-preodolenie-hronicheskih-neinfektsionnyh",
+          "date": "2023",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Drug trials need the participant's written consent, a state permit and an ethics committee review. State bodies may use de-identified personal data for statistics without consent, research use is exempt from transfer notices, and no opt-out was found.",
+      "detail": [
+        "Article 23 of the Law on Medicines Provision requires written consent to join a clinical trial, a right to withdraw at any stage and insurance paid by the sponsor. Article 22 requires a state permit and a protocol agreed with the Health Ministry's ethics committee.",
+        "The personal data law lets state bodies use personal data for statistics without consent if it is de-identified (Article 9). Operators need not tell people when their data is passed on for scientific purposes (Article 20).",
+        "Medical secrecy binds health workers. We found no general research opt-out, no public register of data uses and no re-identification penalty. Score: base 40 plus ethics and permit body, plus statutory secrecy."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 319-V on Medicines Provision, Articles 22 and 23 (Ministry of Health and Medical Industry)",
+          "url": "https://api.saglykhm.gov.tm/uploads/document_clgyltb0v000trnp8d0rt5lom.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 519-V on Information about Private Life and its Protection, Articles 9 and 20 (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://turkmenistan.gov.tm/index.php/ru/post/28474/zakon-turkmenistana-%3Cbr%3Eob-informatsii-o-lichnoi-zhizni-i-ee-zaschite",
+          "date": "2017-04-08",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 25,
+      "summary": "In January 2026 the President approved plans to write rules for AI, including liability and national standards, but no AI law was found. The medicines law defines medical devices without mentioning software, and no AI device rules were found.",
+      "detail": [
+        "At a Cabinet meeting on 24 January 2026, Deputy Prime Minister M. Chakyev proposed rules for using AI, liability of the parties, duties of state bodies and national standards. The President approved and ordered the work to proceed.",
+        "An MFA institute article (August 2026) says a national AI strategy is being prepared by the Ministry of Communications with UNDP experts. We did not find a published strategy or any health AI guidance.",
+        "The Law on Medicines Provision defines medical devices as instruments, apparatus and equipment, without mentioning software. New state centres plan AI diagnostics, with no published rules on oversight or change control."
+      ],
+      "sources": [
+        {
+          "title": "Turkmenistan to develop a national legal framework for artificial intelligence (Turkmenistan: Golden Age, state news agency)",
+          "url": "https://www.turkmenistan.gov.tm/ru/post/102615/turkmenistan-",
+          "date": "2026-01-24",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Introducing AI in Turkmenistan's education system (Institute of International Relations, MFA of Turkmenistan)",
+          "url": "https://iirmfa.edu.tm/ru/sahypa/vnedrenie-ii-v-sistemu-obrazovaniya-turkmenistana-otkryvaet-novye-vozmoznosti_1231",
+          "date": "2026-08-29",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Law No. 319-V on Medicines Provision, Article 1 (Ministry of Health and Medical Industry)",
+          "url": "https://api.saglykhm.gov.tm/uploads/document_clgyltb0v000trnp8d0rt5lom.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "E-Saglyk links facilities in Ashgabat and five regions per a 2023 journal article; current coverage, labs, e-prescriptions and claims were not verified. Turkmenistan is not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Law No. 223-V on Protection of the Health of Citizens",
+      "level": "National",
+      "year": "2015",
+      "what": "Patient rights to health information, consent to care, confidential e-records with state access exceptions.",
+      "url": "https://turkmenistan.gov.tm/ru/post/24367/zakon-turkmenistana-%3Cbr%3Eob-okhrane-zdorovya-grazhdan*"
+    },
+    {
+      "name": "Law No. 519-V on Information about Private Life and its Protection",
+      "level": "National",
+      "year": "2017",
+      "what": "Consent, health as special category, free access to own data within a day, prosecutor oversight, local storage.",
+      "url": "https://turkmenistan.gov.tm/index.php/ru/post/28474/zakon-turkmenistana-%3Cbr%3Eob-informatsii-o-lichnoi-zhizni-i-ee-zaschite"
+    },
+    {
+      "name": "Law No. 319-V on Medicines Provision",
+      "level": "National",
+      "year": "2016",
+      "what": "Drug and device registration; clinical trials need written consent, permit and ethics committee review.",
+      "url": "https://api.saglykhm.gov.tm/uploads/document_clgyltb0v000trnp8d0rt5lom.pdf"
+    },
+    {
+      "name": "Criminal Code of Turkmenistan (new edition), Article 144",
+      "level": "National",
+      "year": "2022",
+      "what": "Punishes unlawful collection or spreading of private or family secrets without consent.",
+      "url": "https://mejlis.gov.tm/single-code/27?lang=ru"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-08-26",
+      "headline": "President tours new dental centre that shares patient data online and uses AI",
+      "source": "Turkmenistan: Golden Age",
+      "url": "https://turkmenistan.gov.tm/ru/post/109367/prezident-turkmenistana-oznakomilsya-s-polozheniem-del-v-stomatologicheskom-centre",
+      "why": "Patient data passes between departments and clinics by computer, and AI reprocesses diagnostic data, with no published rules."
+    },
+    {
+      "date": "2026-08-29",
+      "headline": "National AI strategy being prepared with UNDP experts, MFA institute says",
+      "source": "Institute of International Relations, MFA of Turkmenistan",
+      "url": "https://iirmfa.edu.tm/ru/sahypa/vnedrenie-ii-v-sistemu-obrazovaniya-turkmenistana-otkryvaet-novye-vozmoznosti_1231",
+      "why": "Any future AI rules for health care would flow from this strategy and planned legal framework."
+    },
+    {
+      "date": "2026-03-24",
+      "headline": "Smart pillboxes and video support send TB patients' dosing data to nurses",
+      "source": "Turkmenportal",
+      "url": "https://turkmenportal.com/ru/news/99803-v-turkmenistane-dostupny-tsifrovye-instrumenty-menyayuschie-podhod-k-lecheniyu-tuberkuleza----------------------",
+      "why": "Patients' treatment data now travels from homes to clinics, raising questions of consent and security."
+    },
+    {
+      "date": "2026-01-24",
+      "headline": "President approves work on legal framework for artificial intelligence",
+      "source": "Turkmenistan: Golden Age",
+      "url": "https://www.turkmenistan.gov.tm/ru/post/102615/turkmenistan-",
+      "why": "Turkmenistan has no AI law yet; planned rules would set liability and standards."
+    },
+    {
+      "date": "2025-11-12",
+      "headline": "X-Road data exchange now links ten ministries, with medicine among covered areas",
+      "source": "Turkmenportal",
+      "url": "https://turkmenportal.com/ru/news/96275-v-turkmenistane-realizuetsya-proekt-po-tsifrovizatsii-mezhvedomstvennogo-vzaimodeystviya-----",
+      "why": "State systems are starting to share data, including about people's health, with no patient-facing access."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

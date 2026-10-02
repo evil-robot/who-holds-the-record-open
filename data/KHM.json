@@ -1,0 +1,336 @@
+{
+ "iso3": "KHM",
+ "name": "Cambodia",
+ "region": "Asia",
+ "controlModel": "Institutional",
+ "headline": "Cambodia has no data protection law yet, so patient records stay with each provider under a 2003 ethics code while a draft law waits.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 25,
+   "summary": "No statute gives Cambodian patients a right to a copy of their full record; the 2007 clients' rights guideline is a guideline, not a law. The only national patient view verified is vaccination history in the MyHealth mini-app.",
+   "detail": [
+    "The 2003 Physicians' Code of Ethics (Sub-Decree 61) says doctors keep a confidential record for each patient (Article 43). It lets doctors pass records to other doctors on the patient's request, but it does not give the patient a right to a copy.",
+    "A Ministry of Health guideline on clients' rights, endorsed in 2006 and released in 2007, lists a right to access information. We know it from a 2020 study, which found 31.0% of patients surveyed knew patients' rights existed. It is a guideline, not a statute.",
+    "Since March 2026, people can check vaccination history from public facilities in the MyHealth mini-app inside the DG SuperApp. No portal for the wider record was verified.",
+    "The draft Personal Data Protection Law (Article 28) would add a right to access or copy personal data. It was still a draft in August 2026, and it excludes public authorities from its scope."
+   ],
+   "sources": [
+    {
+     "title": "Physicians' Code of Ethics, unofficial English translation (JICA-HRD Project, via Open Development Mekong)",
+     "url": "https://data.opendevelopmentmekong.net/dataset/5fd716fa-0b28-4aa6-8d6e-a36d39721c74/resource/c503c491-3a91-4639-a863-2fe77e7e2ce9/download/c1ab3b73-00b5-494b-9b3e-de743c27817b.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Awareness, Intention to Act and Action in the Exercising of Patients' Rights among Cambodian patients (PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7646469/",
+     "date": "2020-11-02",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Joint Press Release on Launching Ceremony of Electronic Immunization Registry (EIR) and HFMIS (Ministry of Post and Telecommunications)",
+     "url": "https://mptc.gov.kh/en/2026/03/joint-press-release-on-launching-ceremony-of-electronic-immunization-registry-eir-and-health-facility-management-information-system-hfmis/",
+     "date": "2026-03-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Draft Law on Personal Data Protection, final draft 23 June 2025, English (MPTC, via Open Development Cambodia)",
+     "url": "https://data.opendevelopmentcambodia.net/en/dataset/792fc94d-1a84-49cc-bad3-9b420f99b70f/resource/03e9c060-9bc8-42d5-80a6-8db777f61d1c/download/20250623_final-draft-pdp-law_eng.pdf",
+     "date": "2025-06-23",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "control": {
+   "score": 25,
+   "summary": "Records are held by each provider, and doctors may share them with other doctors on the patient's request or consent under the 2003 ethics code. No opt-out, granular choice or patient-visible access log was found.",
+   "detail": [
+    "Article 43 of the Physicians' Code of Ethics lets a doctor send records to another treating doctor on request or with the patient's consent. Article 34 says examination and care need the patient's consent.",
+    "There is no general data protection law yet, so there is no statutory consent rule for health data held by hospitals or apps.",
+    "The new Electronic Immunization Registry supports individual immunization accounts for citizens (174,688 people recorded by February 2026). The launch release does not describe consent settings or an access log for patients (not verified).",
+    "The draft data law would require explicit consent for sensitive data, including health data, with withdrawal at any time. It would not cover public authorities."
+   ],
+   "sources": [
+    {
+     "title": "Physicians' Code of Ethics, unofficial English translation (JICA-HRD Project, via Open Development Mekong)",
+     "url": "https://data.opendevelopmentmekong.net/dataset/5fd716fa-0b28-4aa6-8d6e-a36d39721c74/resource/c503c491-3a91-4639-a863-2fe77e7e2ce9/download/c1ab3b73-00b5-494b-9b3e-de743c27817b.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Joint Press Release on Launching Ceremony of Electronic Immunization Registry (EIR) and HFMIS (Ministry of Post and Telecommunications)",
+     "url": "https://mptc.gov.kh/en/2026/03/joint-press-release-on-launching-ceremony-of-electronic-immunization-registry-eir-and-health-facility-management-information-system-hfmis/",
+     "date": "2026-03-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Draft Law on Personal Data Protection, final draft 23 June 2025, English (MPTC, via Open Development Cambodia)",
+     "url": "https://data.opendevelopmentcambodia.net/en/dataset/792fc94d-1a84-49cc-bad3-9b420f99b70f/resource/03e9c060-9bc8-42d5-80a6-8db777f61d1c/download/20250623_final-draft-pdp-law_eng.pdf",
+     "date": "2025-06-23",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 30,
+   "summary": "Cambodia has no data protection law, no data regulator and no breach notification duty, and the draft law was still under validation in August 2026. Doctors owe professional secrecy, and the 2019 E-Commerce Law adds a general security duty.",
+   "detail": [
+    "There is no general data protection law to score against, so this score rests on professional and e-commerce rules. The Ministry of Post and Telecommunications held a validation workshop on the draft law on 5 August 2026, before it enters the legislative process.",
+    "Health-sector rules are professional ones. Articles 4 and 70 of the Physicians' Code of Ethics require doctors to keep medical records and patient information confidential.",
+    "Article 32 of the E-Commerce Law requires anyone holding personal information in electronic form to use reasonable safeguards. Breaches can bring 1 to 2 years in prison and fines of 2 to 4 million riel.",
+    "No dedicated data protection regulator exists. We found no reported health data breach in Cambodia (not verified either way).",
+    "EU position: Cambodia has no EU adequacy decision, so transfers from the EU need other GDPR safeguards. The EU Delegation co-presided over the August 2026 validation workshop on the draft law."
+   ],
+   "sources": [
+    {
+     "title": "MPTC holds Validation Workshop on the Draft Law on Personal Data Protection (Ministry of Post and Telecommunications)",
+     "url": "https://mptc.gov.kh/en/2026/08/ministry-of-post-and-telecommunications-holds-validation-workshop-on-the-draft-law-on-personal-data-protection/",
+     "date": "2026-08-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Physicians' Code of Ethics, unofficial English translation (JICA-HRD Project, via Open Development Mekong)",
+     "url": "https://data.opendevelopmentmekong.net/dataset/5fd716fa-0b28-4aa6-8d6e-a36d39721c74/resource/c503c491-3a91-4639-a863-2fe77e7e2ce9/download/c1ab3b73-00b5-494b-9b3e-de743c27817b.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law on Electronic Commerce, NS/RKM/1119/017, English text",
+     "url": "https://commerce-cambodia.com/wp-content/uploads/2021/06/eCommerceLawEN.pdf",
+     "date": "2019-11-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 25,
+   "summary": "The only enacted health-specific limit is the ethics code rule that doctors must de-identify patients or get consent before publishing case material. Marketing messages need only an opt-out under the E-Commerce Law, and no ban on selling health data was found.",
+   "detail": [
+    "Article 70 of the Physicians' Code of Ethics requires doctors to protect the patient's identity, or get consent, when using records for publication or teaching.",
+    "Article 30 of the E-Commerce Law allows unsolicited commercial messages if the consumer gets a clear option to reject them. The penalty for breaking this is a written warning.",
+    "No law limits the sale of de-identified health data or health app marketing (not verified). The draft data law would give a right to object to direct marketing, but it is not in force."
+   ],
+   "sources": [
+    {
+     "title": "Physicians' Code of Ethics, unofficial English translation (JICA-HRD Project, via Open Development Mekong)",
+     "url": "https://data.opendevelopmentmekong.net/dataset/5fd716fa-0b28-4aa6-8d6e-a36d39721c74/resource/c503c491-3a91-4639-a863-2fe77e7e2ce9/download/c1ab3b73-00b5-494b-9b3e-de743c27817b.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law on Electronic Commerce, NS/RKM/1119/017, English text",
+     "url": "https://commerce-cambodia.com/wp-content/uploads/2021/06/eCommerceLawEN.pdf",
+     "date": "2019-11-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Draft Law on Personal Data Protection, final draft 23 June 2025, English (MPTC, via Open Development Cambodia)",
+     "url": "https://data.opendevelopmentcambodia.net/en/dataset/792fc94d-1a84-49cc-bad3-9b420f99b70f/resource/03e9c060-9bc8-42d5-80a6-8db777f61d1c/download/20250623_final-draft-pdp-law_eng.pdf",
+     "date": "2025-06-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Cambodia (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=KH",
+     "date": "2026-02-13",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 22,
+   "summary": "The Ministry of Health's 2025 plan says existing digital systems are fragmented, siloed and not interoperable. National systems built so far are aggregate reporting (DHIS2) and an immunization registry, not a shared patient record.",
+   "detail": [
+    "The Health Strategic Plan 2025-2034 (September 2025) states that existing digital systems remain fragmented and non-interoperable. It plans a Cambodia Health Enterprise Architecture and a unique patient identifier.",
+    "In May 2026 the Ministry launched DHIS2 as the national Health Management Information System, to be rolled out in all 25 provinces. It handles service and disease reporting, not individual patient records.",
+    "By February 2026 the Electronic Immunization Registry ran at 1,443 health facilities with 1,100,149 vaccination records. It was launched nationwide in March 2026.",
+    "A patient registration system tied to the Health Equity Fund works as an early EMR in public facilities, per a university profile. Private facilities do not report patient data to the Ministry. Its current scale was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Health Strategic Plan 2025-2034 (Ministry of Health)",
+     "url": "https://hismohcambodia.org/public/fileupload/HEALTH%20STRATEGIC%20PLAN%202025-2034_Eng%20Final.pdf",
+     "date": "2025-09",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cambodia launches digital health information system to strengthen decision-making nationwide (WHO Cambodia)",
+     "url": "https://www.who.int/cambodia/news/detail/15-05-2026-cambodia-launches-digital-health-information-system-to-strengthen-decision-making-nationwide",
+     "date": "2026-05-15",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Joint Press Release on Launching Ceremony of Electronic Immunization Registry (EIR) and HFMIS (Ministry of Post and Telecommunications)",
+     "url": "https://mptc.gov.kh/en/2026/03/joint-press-release-on-launching-ceremony-of-electronic-immunization-registry-eir-and-health-facility-management-information-system-hfmis/",
+     "date": "2026-03-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cambodia, SEARCH strategic purchasing profile (NUS Saw Swee Hock School of Public Health)",
+     "url": "https://blog.nus.edu.sg/searchsp/cambodia/",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "A doctor sees another provider's record only if it is sent on the patient's request, under Article 43 of the 2003 ethics code. In March 2026 the health minister was still urging public hospitals to adopt EMRs, and no cross-provider viewer was found.",
+   "detail": [
+    "The Physicians' Code of Ethics tells doctors to pass information to colleagues who continue a patient's care. This is a document transfer duty, not shared access.",
+    "On 16 March 2026 the Minister of Health urged hospital leaders to push use of electronic medical records as the next step in public hospitals across the country.",
+    "The 2025-2034 plan lists electronic records, e-prescription and health information exchange as priorities still to be built. Whether any clinician can view records across providers today was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Physicians' Code of Ethics, unofficial English translation (JICA-HRD Project, via Open Development Mekong)",
+     "url": "https://data.opendevelopmentmekong.net/dataset/5fd716fa-0b28-4aa6-8d6e-a36d39721c74/resource/c503c491-3a91-4639-a863-2fe77e7e2ce9/download/c1ab3b73-00b5-494b-9b3e-de743c27817b.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Minister urges use of electronic medical records in public hospitals nationwide (Ministry of Health)",
+     "url": "https://moh.gov.kh/en/events/detail/1890",
+     "date": "2026-03-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health Strategic Plan 2025-2034 (Ministry of Health)",
+     "url": "https://hismohcambodia.org/public/fileupload/HEALTH%20STRATEGIC%20PLAN%202025-2034_Eng%20Final.pdf",
+     "date": "2025-09",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 45,
+   "summary": "Patients may refuse medical research, and a National Ethics Committee for Health Research reviews proposals through a public research portal. Rules for secondary use of routine health data were not verified, so the score stays in the lower half of its band.",
+   "detail": [
+    "Article 34 of the Physicians' Code of Ethics says doctors must respect a patient's refusal of medical research. Article 15 allows doctors to join biomedical research only where the law permits it.",
+    "The WHO lists the Cambodia Health Research Portal, a public repository of health research since January 2013, used to submit proposals to the National Ethics Committee for Health Research.",
+    "An ethics body and a public research register are the only documented safeguards. Rules for secondary use of routine health data and any general opt-out were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Physicians' Code of Ethics, unofficial English translation (JICA-HRD Project, via Open Development Mekong)",
+     "url": "https://data.opendevelopmentmekong.net/dataset/5fd716fa-0b28-4aa6-8d6e-a36d39721c74/resource/c503c491-3a91-4639-a863-2fe77e7e2ce9/download/c1ab3b73-00b5-494b-9b3e-de743c27817b.pdf",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Country research information platforms (WHO Global Observatory on Health R&D)",
+     "url": "https://www.who.int/observatories/global-observatory-on-health-research-and-development/resources/databases/country-databases/country-research-information-platforms",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "ai": {
+   "score": 18,
+   "summary": "No rules for clinical AI are in force; the National AI Strategy 2025-2030 was still listed as a draft in June 2026. The health plan aims to use AI in clinical practice, but no device rule for AI software was verified.",
+   "detail": [
+    "The Ministry of Post and Telecommunications ran consultations on a draft National AI Strategy in 2025. The OECD's June 2026 entry still calls it a draft, with ethical and responsible AI as one of six priorities and healthcare as a priority sector.",
+    "Objective 18.7 of the Health Strategic Plan 2025-2034 commits to harness AI, big data and machine learning in clinical practice. It sets no safeguards for this.",
+    "Whether medical device registration covers AI software, with change control or human oversight, was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Announcement on Progress of Preparing and Opening Public Consultation on Draft National AI Strategy (MPTC)",
+     "url": "https://mptc.gov.kh/en/2025/06/announcement-on-progress-of-preparing-and-opening-public-consultation-on-draft-national-artificial-intelligence-strategy/",
+     "date": "2025-06-01",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Artificial Intelligence Strategy 2025-2030 (OECD.AI Policy Navigator)",
+     "url": "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-2025-2030",
+     "date": "2026-06-09",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Health Strategic Plan 2025-2034 (Ministry of Health)",
+     "url": "https://hismohcambodia.org/public/fileupload/HEALTH%20STRATEGIC%20PLAN%202025-2034_Eng%20Final.pdf",
+     "date": "2025-09",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "The Ministry of Health calls its systems fragmented and siloed. Public health has DHIS2 reporting and an immunization registry at 1,443 facilities. A Health Equity Fund registration system supports claims, scale not verified; lab and pharmacy links were not verified.",
+ "laws": [
+  {
+   "name": "Sub-Decree No. 61 on Physicians' Code of Ethics",
+   "level": "National",
+   "year": "2003",
+   "what": "Confidential medical records, consent for care, right to refuse research, de-identification before publication.",
+   "url": "https://data.opendevelopmentcambodia.net/en/laws_record/sub-decree-on-physicians-code-of-ethics"
+  },
+  {
+   "name": "Law on Electronic Commerce (NS/RKM/1119/017)",
+   "level": "National",
+   "year": "2019",
+   "what": "Security duty for electronic personal information (Art. 32); opt-out rule for unsolicited marketing (Art. 30).",
+   "url": "https://data.opendevelopmentmekong.net/laws_record/law-on-e-commerce"
+  },
+  {
+   "name": "Sub-Decree No. 252 on personal identification data",
+   "level": "National",
+   "year": "2021",
+   "what": "Covers only identification data held by the Ministry of Interior, not health records.",
+   "url": "https://data.opendevelopmentmekong.net/laws_record/sub-decree-no-252-on-the-management-usage-and-security-protection-of-personal-data"
+  },
+  {
+   "name": "Draft Law on Personal Data Protection",
+   "level": "National",
+   "year": "2025",
+   "what": "Draft, not enacted as of August 2026. Health is sensitive data; 72-hour breach notice; excludes public authorities.",
+   "url": "https://data.opendevelopmentcambodia.net/laws_record/draft-law-on-personal-data-protection"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-08-05",
+   "headline": "Data protection bill reaches validation workshop with EU support, still not enacted",
+   "source": "Ministry of Post and Telecommunications",
+   "url": "https://mptc.gov.kh/en/2026/08/ministry-of-post-and-telecommunications-holds-validation-workshop-on-the-draft-law-on-personal-data-protection/",
+   "why": "Until it passes, patients have no statutory data rights or breach notice."
+  },
+  {
+   "date": "2026-05-15",
+   "headline": "Ministry of Health launches DHIS2 health information system, to roll out nationwide",
+   "source": "WHO Cambodia",
+   "url": "https://www.who.int/cambodia/news/detail/15-05-2026-cambodia-launches-digital-health-information-system-to-strengthen-decision-making-nationwide",
+   "why": "Better reporting data, but it is aggregate data, not a record patients can use."
+  },
+  {
+   "date": "2026-03-16",
+   "headline": "Health minister urges public hospitals to adopt electronic medical records",
+   "source": "Ministry of Health",
+   "url": "https://moh.gov.kh/en/events/detail/1890",
+   "why": "Shows hospital EMRs are still being rolled out, a first step toward shared records."
+  },
+  {
+   "date": "2026-03-12",
+   "headline": "Electronic immunization registry launched nationwide, viewable in MyHealth mini-app",
+   "source": "Ministry of Post and Telecommunications",
+   "url": "https://mptc.gov.kh/en/2026/03/joint-press-release-on-launching-ceremony-of-electronic-immunization-registry-eir-and-health-facility-management-information-system-hfmis/",
+   "why": "First national record citizens can see themselves, limited to vaccinations."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

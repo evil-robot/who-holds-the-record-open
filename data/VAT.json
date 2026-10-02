@@ -1,0 +1,332 @@
+{
+  "iso3": "VAT",
+  "name": "Vatican City",
+  "region": "Europe",
+  "controlModel": "Institutional",
+  "headline": "Vatican care runs through one polyclinic and a staff health fund; a 2024 data law sets a right of access but no fines.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 40,
+      "summary": "Decree DCLVII of 2024 gives a right to a copy of one's data within 30 working days, with only extra copies charged. It binds only the Governatorato, a data protection complaint ends in a final order, separate court action remains available, and there is no patient portal.",
+      "detail": [
+        "Article 17 of the 2024 data protection regulation gives the right to access personal data and to a copy. Further copies may carry a reasonable fee, and electronic requests get an electronic copy. Article 16 sets a reply time of 30 working days, extendable to 90.",
+        "The regulation covers processing by the Governatorato only (Article 2). That includes the Direzione di Sanità e Igiene (DSI), which runs the polyclinic and laboratory. The health fund FAS is a separate Holy See body, and whether the rule reaches it was not verified.",
+        "The DSI lets patients download a single lab report with the ID and password on their collection slip, for up to 30 days. This is a per-report download, not a record portal.",
+        "Scoring: base 45, plus 5 for a free first copy with a fixed deadline, minus 5 for scope limited to the Governatorato, minus 5 because complaints end in a non-appealable order of the Governatorato President with no fines, though Article 25 keeps the courts open. The EU's GDPR does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Decreto N. DCLVII, Regolamento Generale sulla protezione dei Dati personali, 30 aprile 2024 (ULSA, Bollettino 32)",
+          "url": "https://www.ulsa.va/content/dam/ulsa/documenti/bollettino_32_2024/atti-governatorato/1_Regolamento-Generale-sulla-protezione-dei-Dati-personali.pdf",
+          "date": "2024-04-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Referti online (Direzione di Sanità e Igiene)",
+          "url": "https://dsi.va/referti",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Fruitori: chi può usufruire dell'assistenza (Direzione di Sanità e Igiene)",
+          "url": "https://dsi.va/assistenza/fruitori",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Informazioni Sportello Unico (Fondo Assistenza Sanitaria)",
+          "url": "https://www.fas.va/content/fas/it/servizi-procedure/informazioni-sportello-unico.html",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Health data may be used for care without consent, and the right to object gives way to public interest. We found no patient-visible access log and no shared record to opt out of.",
+      "detail": [
+        "Article 6 of Decree DCLVII bans processing of health data unless an exception applies. Diagnosis, care and management of health services are an exception, so care use needs no consent.",
+        "Where consent is the basis, it can be withdrawn at any time in the same way it was given (Article 7). The right to object (Article 21) yields to public interest and to every case where deletion is barred, which includes health reasons.",
+        "FAS and the DSI run a joint front office that books visits, issues referrals and handles reimbursements. We found no screen or rule letting patients see who opened their file, block a clinician or hide a document.",
+        "With no sharing choice and no log, the cell sits in the 20 to 35 band, below Monaco's 35 because the objection right is overridden for health uses."
+      ],
+      "sources": [
+        {
+          "title": "Decreto N. DCLVII, Regolamento Generale sulla protezione dei Dati personali, 30 aprile 2024 (ULSA, Bollettino 32)",
+          "url": "https://www.ulsa.va/content/dam/ulsa/documenti/bollettino_32_2024/atti-governatorato/1_Regolamento-Generale-sulla-protezione-dei-Dati-personali.pdf",
+          "date": "2024-04-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Informazioni Sportello Unico (Fondo Assistenza Sanitaria)",
+          "url": "https://www.fas.va/content/fas/it/servizi-procedure/informazioni-sportello-unico.html",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 45,
+      "summary": "Decree DCLVII treats health as a special category and requires internal breach reports within 72 hours. It has no fines, its overseer is the state's General Counsellor, and it runs on a three-year trial from April 2024.",
+      "detail": [
+        "Health, genetic and biometric data are special categories under Article 6. Staff contacts must report breaches to the processing manager and the data protection officer within 72 hours (Article 13). We found no duty to tell affected people.",
+        "The data protection officer role always goes to the General Counsellor of the State, who acts 'in full independence' (Article 10). The officer gives an opinion, and the Governatorato President issues a final order that cannot be appealed (Article 27), though Article 25 keeps recourse to the Vatican courts.",
+        "Orders may contain warnings and corrective measures, with no fines or amounts, a gap Cybersecurity360 noted in July 2024. Breaches by staff can bring discipline (Article 13).",
+        "The only health-sector rule found, a 2011 norm on DSI staff health checks, sets office secrecy and a right to see and correct that data, with no penalties or regulator. With no health decision or breach found, the cell sits at the floor of the 45 to 66 band. GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Decreto N. DCLVII, Regolamento Generale sulla protezione dei Dati personali, 30 aprile 2024 (ULSA, Bollettino 32)",
+          "url": "https://www.ulsa.va/content/dam/ulsa/documenti/bollettino_32_2024/atti-governatorato/1_Regolamento-Generale-sulla-protezione-dei-Dati-personali.pdf",
+          "date": "2024-04-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Protezione dati nella Chiesa, la legge privacy del Vaticano: peculiarità rispetto al GDPR (Cybersecurity360)",
+          "url": "https://www.cybersecurity360.it/legal/privacy-dati-personali/protezione-dati-nella-chiesa-la-legge-privacy-del-vaticano-peculiarita-rispetto-al-gdpr/",
+          "date": "2024-07-11",
+          "publisherClass": "news"
+        },
+        {
+          "title": "The European Union and the Holy See (EEAS, EU Delegation to the Holy See)",
+          "url": "https://www.eeas.europa.eu/un-rome/european-union-and-holy-see_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Norme a tutela della dignità della persona negli accertamenti sanitari e dei dipendenti affetti da gravi patologie, Segreteria di Stato (ULSA, Bollettino 33)",
+          "url": "https://www.ulsa.va/it/pubblicazioni/bollettini/bollettino-n-33-2025/testi-aggiornati/Norme_Privacy_gravipatologie1.html",
+          "date": "2011-11-18",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "Health data may be processed only on listed grounds, and people can object to direct marketing at any time. We found no Vatican rule on health apps, data brokers or sale of de-identified data.",
+      "detail": [
+        "Article 6 of Decree DCLVII bans processing of health data except on listed grounds such as explicit consent, care or public health. Selling health data is not among them.",
+        "Article 21 gives an absolute right to object to direct marketing, including linked profiling. Once a person objects, the data may no longer be used for marketing.",
+        "The decree binds the Governatorato only. We found no rule for consumer health apps, data brokers or insurers, and EU rules on these do not apply because the Vatican is outside the EU."
+      ],
+      "sources": [
+        {
+          "title": "Decreto N. DCLVII, Regolamento Generale sulla protezione dei Dati personali, 30 aprile 2024 (ULSA, Bollettino 32)",
+          "url": "https://www.ulsa.va/content/dam/ulsa/documenti/bollettino_32_2024/atti-governatorato/1_Regolamento-Generale-sulla-protezione-dei-Dati-personali.pdf",
+          "date": "2024-04-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "The European Union and the Holy See (EEAS, EU Delegation to the Holy See)",
+          "url": "https://www.eeas.europa.eu/un-rome/european-union-and-holy-see_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "journey": {
+      "score": 30,
+      "summary": "Care is split between the Vatican polyclinic and FAS-contracted doctors, clinics and hospitals in the Rome area. Referrals go by email and refunds on paper, with a copy of the hospital chart, and no shared electronic record was found.",
+      "detail": [
+        "FAS pays for care for Curia, Governatorato and other Holy See staff and retirees. Its statute entrusts care to the DSI, whose polyclinic offers internal medicine, specialist clinics, a laboratory and imaging.",
+        "Other care comes from FAS-contracted GPs in Rome and its province, specialists, private clinics and public hospitals. Most outside services need prior approval from a DSI doctor or a FAS-contracted GP.",
+        "Members can request bookings and referrals by email through two online desks. Since June 2018 a card replaced the paper health booklet. After an approved hospital stay paid indirectly, the member must hand FAS a copy of the clinical record.",
+        "We found no electronic health record or exchange linking the DSI, Italian hospitals and the Vatican Pharmacy. Its absence is a finding of our search, not a stated fact."
+      ],
+      "sources": [
+        {
+          "title": "Informazioni Sportello Unico (Fondo Assistenza Sanitaria)",
+          "url": "https://www.fas.va/content/fas/it/servizi-procedure/informazioni-sportello-unico.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Assistenza diretta (Fondo Assistenza Sanitaria)",
+          "url": "https://www.fas.va/content/fas/it/servizi-procedure/carta-servizi/assistenza-diretta.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Regolamento del Fondo Assistenza Sanitaria, testo consolidato (ULSA, Bollettino 33)",
+          "url": "https://www.ulsa.va/it/pubblicazioni/bollettini/bollettino-n-33-2025/testi-aggiornati/regolamento-del-fondo-assistenza-sanitaria11.html",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Carta Servizi (Fondo Assistenza Sanitaria)",
+          "url": "https://www.fas.va/content/fas/it/servizi-procedure/carta-servizi.html",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 33,
+      "summary": "DSI doctors hold the polyclinic's own visits and lab results, but what they can see from the outside hospitals where inpatient care happens was not verified. The score stays in the lower half of the weak band.",
+      "detail": [
+        "The DSI polyclinic houses internal medicine, about 20 specialties, a laboratory and imaging in one directorate, and its doctors authorise most outside care.",
+        "Inpatient stays happen in FAS-contracted private clinics and public hospitals. We found no source on whether DSI doctors can see those records, or Italian hospital doctors the DSI's, so this key fact was not verified.",
+        "The DSI also runs a 24-hour first-aid post for staff, citizens, tourists and pilgrims. Emergency access rules for records were not found."
+      ],
+      "sources": [
+        {
+          "title": "Poliambulatorio (Direzione di Sanità e Igiene)",
+          "url": "https://dsi.va/assistenza/poliambulatorio",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Assistenza diretta (Fondo Assistenza Sanitaria)",
+          "url": "https://www.fas.va/content/fas/it/servizi-procedure/carta-servizi/assistenza-diretta.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Carta Servizi (Fondo Assistenza Sanitaria)",
+          "url": "https://www.fas.va/content/fas/it/servizi-procedure/carta-servizi.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Funzioni e competenze (Direzione di Sanità e Igiene)",
+          "url": "https://dsi.va/direzione/funzioni-competenze",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 40,
+      "summary": "Decree DCLVII allows health data to be used for scientific research without consent if proportionate and protected, and research use is exempt from deletion. There is no opt-out, and no Vatican ethics or permit body was found.",
+      "detail": [
+        "Article 6(2)(k) lifts the ban on health data for scientific research, archiving or statistics, if proportionate and covered by suitable security measures. Article 4 treats research as compatible with the original purpose.",
+        "Article 19 says the right to deletion does not apply to research or health interest, so a person cannot pull their data back out of research.",
+        "We found no ethics committee, permit body, public register of uses or re-identification penalty in Vatican law. The cell stays at the base of 40."
+      ],
+      "sources": [
+        {
+          "title": "Decreto N. DCLVII, Regolamento Generale sulla protezione dei Dati personali, 30 aprile 2024 (ULSA, Bollettino 32)",
+          "url": "https://www.ulsa.va/content/dam/ulsa/documenti/bollettino_32_2024/atti-governatorato/1_Regolamento-Generale-sulla-protezione-dei-Dati-personali.pdf",
+          "date": "2024-04-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 48,
+      "summary": "Decree DCCII of December 2024 binds Governatorato bodies to AI principles: DSI patients must be told when AI is used, and AI must not limit doctors' judgment. It is not device regulation, so it scores as guidance.",
+      "detail": [
+        "The AI guidelines took effect on 1 January 2025 for the Governatorato, its staff and its suppliers. Article 4 bans uses such as discriminatory inferences and subliminal manipulation.",
+        "Article 6 lets the DSI introduce AI for care. Patients must be informed of AI use, AI must not restrict doctors' decisions, and health AI and its data must be checked and updated periodically.",
+        "Article 14 creates a five-member AI commission to give opinions on AI trials and report every six months. Article 15 promised implementing laws within 12 months. None appear in the 2025 ULSA bulletin or the Governatorato's general legislation list as of October 2026.",
+        "There is no medical device law with AI change control, and the EU AI Act does not apply. The cell sits near the top of the 35 to 50 guidance band, above San Marino's 40 and below 50 because the promised implementing laws are missing."
+      ],
+      "sources": [
+        {
+          "title": "Decreto N. DCCII, Linee Guida in materia di intelligenza artificiale, 16 dicembre 2024 (ULSA, Bollettino 32)",
+          "url": "https://www.ulsa.va/content/dam/ulsa/documenti/bollettino_32_2024/atti-governatorato/3_Linee-Guida-in-materia-di-intelligenza-artificiale.pdf",
+          "date": "2024-12-16",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Normativa generale (Governatorato dello Stato della Città del Vaticano)",
+          "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "The European Union and the Holy See (EEAS, EU Delegation to the Holy See)",
+          "url": "https://www.eeas.europa.eu/un-rome/european-union-and-holy-see_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "unknown",
+    "hospital": "siloed",
+    "labs": "partial",
+    "pharmacy": "unknown",
+    "claims": "partial",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "The DSI polyclinic and lab serve FAS members; lab reports download for 30 days. Hospital care is in contracted outside hospitals, with paper chart copies for refunds. No shared electronic record was found.",
+  "laws": [
+    {
+      "name": "Decreto N. DCLVII, Regolamento Generale sulla protezione dei Dati personali",
+      "level": "National",
+      "year": "2024",
+      "what": "GDPR-style rules for the Governatorato; access copy in 30 working days; no fines; three-year trial.",
+      "url": "https://www.ulsa.va/content/dam/ulsa/documenti/bollettino_32_2024/atti-governatorato/1_Regolamento-Generale-sulla-protezione-dei-Dati-personali.pdf"
+    },
+    {
+      "name": "Decreto N. DCCII, Linee Guida in materia di intelligenza artificiale",
+      "level": "National",
+      "year": "2024",
+      "what": "AI principles for Governatorato bodies; patients told of AI in Directorate of Health and Hygiene (DSI) care; doctors keep decisions.",
+      "url": "https://www.ulsa.va/content/dam/ulsa/documenti/bollettino_32_2024/atti-governatorato/3_Linee-Guida-in-materia-di-intelligenza-artificiale.pdf"
+    },
+    {
+      "name": "Statuto del Fondo Assistenza Sanitaria (FAS)",
+      "level": "National",
+      "year": "2016",
+      "what": "Sets up the health fund for Holy See and Governatorato staff; care entrusted to the Directorate of Health and Hygiene (DSI).",
+      "url": "https://www.ulsa.va/it/pubblicazioni/norme-e-documenti/statuto-del-fondo-assistenza-sanitaria--fas-.html"
+    },
+    {
+      "name": "Regolamento del Fondo Assistenza Sanitaria (FAS)",
+      "level": "National",
+      "year": "2016",
+      "what": "Rules on enrolment, direct and indirect care, prior approval, drug supply and refunds.",
+      "url": "https://www.ulsa.va/it/pubblicazioni/bollettini/bollettino-n-33-2025/testi-aggiornati/regolamento-del-fondo-assistenza-sanitaria11.html"
+    },
+    {
+      "name": "Norme per la tutela della dignità della persona negli accertamenti sanitari del personale (Segreteria di Stato)",
+      "level": "National",
+      "year": "2011",
+      "what": "Directorate of Health and Hygiene (DSI) staff health checks: office secrecy, right to see and correct health data, copies of records.",
+      "url": "https://www.ulsa.va/it/pubblicazioni/bollettini/bollettino-n-33-2025/testi-aggiornati/Norme_Privacy_gravipatologie1.html"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-01-17",
+      "headline": "Vatican Pharmacy plans 2026 upgrades to digital stock and prescription systems",
+      "source": "Governatorato dello Stato della Città del Vaticano",
+      "url": "https://www.vaticanstate.va/it/novita/3498-intervista-al-direttore-della-farmacia-vaticana-sulla-programmazione-per-il-2026.html",
+      "why": "Digital systems already manage stock and prescriptions, but no link to patient records was described."
+    },
+    {
+      "date": "2026-05-16",
+      "headline": "Holy See sets up an interdicasterial commission on artificial intelligence",
+      "source": "Vatican News",
+      "url": "https://www.vaticannews.va/it/vaticano/news/2026-05/intelligenza-artificiale-commissione-interdicasteriale-vaticano.html",
+      "why": "It will share information on AI policies used inside the Holy See, beyond the Governatorato's 2024 rules."
+    },
+    {
+      "date": "2026-05-25",
+      "headline": "Pope Leo XIV's first encyclical addresses artificial intelligence and power over data",
+      "source": "Vatican News",
+      "url": "https://www.vaticannews.va/it/papa/news/2026-05/magnifica-humanitas-intelligenza-artificiale-dottrina-sociale.html",
+      "why": "It calls vital information such as health data the 'new rare earths of power'."
+    },
+    {
+      "date": "2026-06-02",
+      "headline": "Pope urges updated privacy and security rules for health databases and biobanks",
+      "source": "Vatican News",
+      "url": "https://www.vaticannews.va/it/papa/news/2026-06/urgente-proteggere-i-dati-dei-pazienti.html",
+      "why": "Sets the Holy See's stated position on protecting patient data, though not binding law."
+    },
+    {
+      "date": "2026-06-03",
+      "headline": "Vatican meeting on revising the WMA Taipei Declaration on health data",
+      "source": "Vatican News",
+      "url": "https://www.vaticannews.va/it/vaticano/news/2026-06/pav-accademia-vita-wma-dichiarazione-taipei-dati-sanitari-etica.html",
+      "why": "Experts discussed equity in collecting, storing and using health data and samples for research."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

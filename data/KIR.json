@@ -1,0 +1,342 @@
+{
+  "iso3": "KIR",
+  "name": "Kiribati",
+  "region": "Oceania",
+  "controlModel": "Institutional",
+  "headline": "Kiribati passed a data protection law in 2025 but no start date was verified, and only its main hospitals keep electronic records.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 30,
+      "summary": "The Data Protection Act 2025 gives a right to a free electronic copy of personal data, but no commencement notice was found, so it is not verified as in force. There is no patient portal.",
+      "detail": [
+        "Parliament passed the Data Protection Act on 18 August 2025. Section 15 gives a right to a free copy of one's personal data in a commonly used electronic format, without unreasonable delay. A fee is allowed only for manifestly unfounded or excessive requests, or where another law sets one.",
+        "Section 2 says the Act starts on a date the Minister appoints by notice. We found no such notice. Two legal research sites reviewing the law in June and September 2026 say it is not yet in force. Its in-force status is not verified.",
+        "The Act covers only processing by electronic means, so paper records fall outside it. Section 47(6) of the Digital Government Act 2023 says nothing in that section limits a person accessing their own data held by a public body, but it sets no procedure or deadline.",
+        "No patient portal exists. The Digital Government Act plans a national portal with citizen access to personal data; health records on it were not verified. With no enforceable right verified, the score sits in the 15 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act 2025 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Data%20Protection%20Act%202025.pdf",
+          "date": "2025-09-18",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Government Act 2023 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Digital%20Government%20Act%202023.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data Protection Act 2025, automated decisions (LexLint)",
+          "url": "https://lexlint.io/l/ki-data-protection-2025-s-17-right-not-be-subjec",
+          "date": "2026-09-26",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "AI Regulation in Kiribati: What Applies (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-kiribati",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "control": {
+      "score": 28,
+      "summary": "Hospital records are shared among staff in the Tamanu system, with no patient opt-out or patient-visible access log found. A 2023 law requires written consent before others access personal data held by public bodies; whether it covers health staff was not verified.",
+      "detail": [
+        "Section 47(3) of the Digital Government Act 2023 bars a person from accessing personal data stored electronically by a public body without the body's permission and the individual's written consent. The Data Protection Act 2025 would replace that consent test with compliance with the new Act.",
+        "The Data Protection Act lets a person withdraw consent (section 16). But processing is also lawful without consent for public tasks, legal duties, medical emergencies and public health emergencies (section 11(2)).",
+        "At Tungaru Central Hospital, Tamanu records are open to staff in the emergency department and maternity clinics and wards. The vendor mentions an automated audit system. We found no opt-out, granular choice or patient-visible access log, which places Kiribati in the 20 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Digital Government Act 2023 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Digital%20Government%20Act%202023.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data Protection Act 2025 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Data%20Protection%20Act%202025.pdf",
+          "date": "2025-09-18",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Supporting maternal health care in Kiribati (BES International)",
+          "url": "https://www.bes.au/supporting-maternal-health-care-in-kiribati/",
+          "date": "2026-04-14",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 32,
+      "summary": "Kiribati passed a Data Protection Act in 2025 with breach notification and penalties up to $100,000, but its commencement was not verified, so this sits below the general-law band. No health-specific confidentiality law was found, and the enforcer is an office inside a ministry.",
+      "detail": [
+        "The Act requires security measures (section 18) and notice to the regulator and affected people after a breach likely to cause significant harm (section 20). The Office can order fixes, compensation or penalties up to $100,000 (section 28). Health data has no special category status.",
+        "The enforcer is the Digital Transformation Office in the Ministry of Information, Communications and Transport, under the Secretary's direction (sections 4 and 8), not an independent authority. The Act exempts processing by authorities for crime, national security and public health emergencies (section 6(4)).",
+        "The Digital Government Act 2023 makes unauthorised use of confidential government data an offence, with fines up to $15,000 or 3 years in prison. Section 9 of the Constitution protects only against search and entry. We found no patient confidentiality rules in the Medical Services Act 1996.",
+        "No health data breach was found. With the general law not verified as in force and no enforcement record, the score sits below the 45 to 66 general-law band, level with other passed but uncommenced laws (Grenada, Guyana, Belize 30; St Kitts and Nevis 32). Kiribati is not in the EU, so GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act 2025 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Data%20Protection%20Act%202025.pdf",
+          "date": "2025-09-18",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Government Act 2023 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Digital%20Government%20Act%202023.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Constitution of Kiribati (Constitute Project copy)",
+          "url": "https://www.constituteproject.org/constitution/Kiribati_2013?lang=en",
+          "date": "2013",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Medical Services Act 1996 (Kiribati Trade Portal copy)",
+          "url": "https://kiribati.tradeportal.org/Home/DownloadFile?filePath=%2Fmedia%2Fmsa1996153.pdf&l=en",
+          "date": "1996",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 25,
+      "summary": "No law in force limits the sale or marketing use of health data, and no regulator oversees data brokers or health apps. The 2025 Act would require a lawful basis for processing, but its commencement was not verified.",
+      "detail": [
+        "Once in force, the Data Protection Act would require one of twelve lawful bases, including consent and legitimate interests (section 11). It reaches foreign firms offering goods or services to people in Kiribati (section 5). It has no specific ban on selling health data or using it for advertising.",
+        "Smaller firms get time: the Act does not apply to local controllers holding data on 10,000 people or fewer until its second anniversary (section 6(2)).",
+        "A 2012 government health profile said the state was, in practice, the only health provider, with no private or church services, which limits commercial holders of records. Whether this is still true was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act 2025 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Data%20Protection%20Act%202025.pdf",
+          "date": "2025-09-18",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Service Delivery Profile, Kiribati 2012 (Ministry of Finance and Economic Development copy)",
+          "url": "https://mfed.gov.ki/sites/default/files/2025-06/Microsoft%20Word%20-%20Kiribati%20health%20service%20delivery%20profile_V5.docx%20-%20Service%20delivery%20profile%20Kiribati.pdf",
+          "date": "2012",
+          "publisherClass": "official"
+        },
+        {
+          "title": "AI Regulation in Kiribati: What Applies (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-kiribati",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "journey": {
+      "score": 28,
+      "summary": "A 2024 scan found an electronic record in 2 of 116 Kiribati facilities (1.7%). The vendor says Tungaru Central Hospital runs Tamanu in emergency and in maternity clinics and wards, while outer islands are only now getting DHIS2 reporting.",
+      "detail": [
+        "The JMIR study (October 2025) counted electronic records in 2 of 116 facilities, with full coverage of tertiary hospitals, and names Tamanu as Kiribati's system. The Ministry's 2020 to 2023 plan found hospital systems inconsistent, not readily accessible and not merged, with no national health ID.",
+        "Vendor BES says Tamanu went live in the Tungaru emergency department in November 2024, with medical and surgical wards to follow (not verified as done) and links to the SENAITE lab system. In March 2026 maternity moved to a Tamanu registry shared with Betio Hospital (vendor-reported, not verified by the Ministry).",
+        "WHO set up a DHIS2 server for the Ministry in 2025 and in January 2026 sought a consultant to roll it out to outer-island facilities.",
+        "No e-prescription, claims or national record link was found."
+      ],
+      "sources": [
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Ministry of Health and Medical Services, Kiribati National Health Strategic Plan 2020-2023 (WHO FCTC copy)",
+          "url": "https://extranet.who.int/fctcapps/sites/default/files/2024-04/391_KIR%20MHMS%20strategic%20plan%20FINAL%20%2814Oct2022%29.pdf",
+          "date": "2022-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Supporting maternal health care in Kiribati (BES International)",
+          "url": "https://www.bes.au/supporting-maternal-health-care-in-kiribati/",
+          "date": "2026-04-14",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "WHO vacancy: Consultant DHIS2 optimization and expansion, Kiribati (Impactpool copy)",
+          "url": "https://www.impactpool.org/jobs/1191603",
+          "date": "2026-01",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 27,
+      "summary": "Clinicians at Tungaru Central Hospital can see emergency and maternity history in Tamanu, the vendor says, but this is not verified by the Ministry. A 2024 scan found no electronic record in Kiribati primary care.",
+      "detail": [
+        "BES says that before the maternity registry, a mother seen at the antenatal clinic might reach emergency or a ward without her earlier notes. Since March 2026, maternity staff at Tungaru and Betio share one registry. Whether general wards joined Tamanu after the planned rollout was not verified.",
+        "The JMIR study found electronic records in Kiribati only at tertiary level. Primary care use was limited to five other countries.",
+        "The Ministry's plan targeted old records being available for all returning hospital patients by 2023, from a baseline of no national health ID. Whether this was met was not verified. No consent or emergency access rules for clinicians were found."
+      ],
+      "sources": [
+        {
+          "title": "Supporting maternal health care in Kiribati (BES International)",
+          "url": "https://www.bes.au/supporting-maternal-health-care-in-kiribati/",
+          "date": "2026-04-14",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "TamanuEMR is live in the Kiribati national hospital's Emergency Department (BES International, LinkedIn)",
+          "url": "https://www.linkedin.com/posts/beyond-essential-systems_tamanuemr-kiribati-kiribati-activity-7266895934385467392-6Yny",
+          "date": "2024-11-25",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Ministry of Health and Medical Services, Kiribati National Health Strategic Plan 2020-2023 (WHO FCTC copy)",
+          "url": "https://extranet.who.int/fctcapps/sites/default/files/2024-04/391_KIR%20MHMS%20strategic%20plan%20FINAL%20%2814Oct2022%29.pdf",
+          "date": "2022-10",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "A 2025 regional review says Kiribati requires ethics review, enacted a research law in 2023 and has a national research committee, but no ethics committee. There is no consent or opt-out rule for secondary use of records.",
+      "detail": [
+        "A December 2025 Lancet Regional Health paper, drawn from a regional workshop, reports about 4 research submissions a year, a requirement for ethics review, a law enacted in 2023, and a National Research Coordinating Committee in the Office of Te Beretitenti. It lists no ethics committee. The law's name and text were not verified.",
+        "The Data Protection Act 2025 would allow processing for statistical or scientific research without consent (section 11(2)(k)), with no opt-out or public register.",
+        "Clinical trial consent rules were not verified. Base 40, plus 3 for a national research permit body."
+      ],
+      "sources": [
+        {
+          "title": "The Pacific Way: advancing ethical research governance in the Pacific islands (Lancet Regional Health Western Pacific, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12756169/",
+          "date": "2025-12-11",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Data Protection Act 2025 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Data%20Protection%20Act%202025.pdf",
+          "date": "2025-09-18",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "No law, guidance or device rule for clinical AI was found. The 2025 Data Protection Act gives a right not to face decisions based solely on automated processing, but it is not verified as in force.",
+      "detail": [
+        "Section 17 of the Data Protection Act 2025 bars decisions based solely on automated processing with legal or similarly significant effects, unless needed for a contract, authorised by a law with safeguards, or consented to.",
+        "A June 2026 review by Levellers found no AI law, no national AI strategy and no AI regulator in Kiribati.",
+        "No regulation of AI as a medical device or human oversight duty was verified. That places Kiribati in the 15 to 30 band for non-EU countries."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act 2025 (Ministry of Information, Communications and Transport)",
+          "url": "https://www.mict.gov.ki/sites/default/files/publications/Data%20Protection%20Act%202025.pdf",
+          "date": "2025-09-18",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "AI Regulation in Kiribati: What Applies (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-kiribati",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Tamanu holds emergency and maternity records at Tungaru Central Hospital, with maternity shared with Betio Hospital. Outer islands are still largely paper-based; DHIS2 reporting is being rolled out. Pharmacy and claims links were not found.",
+  "laws": [
+    {
+      "name": "Data Protection Act 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Access, correction and consent rights, breach notification, penalties; starts on ministerial notice, not verified in force.",
+      "url": "https://www.mict.gov.ki/sites/default/files/publications/Data%20Protection%20Act%202025.pdf"
+    },
+    {
+      "name": "Digital Government Act 2023",
+      "level": "National",
+      "year": "2023",
+      "what": "Creates the Digital Transformation Office; written consent before others access personal data held by public bodies.",
+      "url": "https://www.mict.gov.ki/sites/default/files/publications/Digital%20Government%20Act%202023.pdf"
+    },
+    {
+      "name": "Cybersecurity Act 2026",
+      "level": "National",
+      "year": "2026",
+      "what": "Healthcare systems may be designated critical infrastructure; operators must manage risks and report incidents.",
+      "url": "https://www.mict.gov.ki/sites/default/files/publications/Kiribati_Cybersecurity_Act_2026.pdf"
+    },
+    {
+      "name": "Constitution of Kiribati, section 9",
+      "level": "National",
+      "year": "1979",
+      "what": "Protects against search of person or property and entry on premises without consent; no information privacy right.",
+      "url": "https://www.constituteproject.org/constitution/Kiribati_2013?lang=en"
+    },
+    {
+      "name": "Medical Services Act 1996",
+      "level": "National",
+      "year": "1996",
+      "what": "Registration and discipline of doctors and nurses; no patient record rules found.",
+      "url": "https://kiribati.tradeportal.org/Home/DownloadFile?filePath=%2Fmedia%2Fmsa1996153.pdf&l=en"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-11",
+      "headline": "Regional review finds Kiribati has a research law but no ethics committee",
+      "source": "The Lancet Regional Health Western Pacific",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12756169/",
+      "why": "Shows how thin independent review is when patient data is used for research."
+    },
+    {
+      "date": "2026-01",
+      "headline": "WHO seeks consultant to roll DHIS2 health reporting out to outer islands",
+      "source": "Impactpool (WHO vacancy)",
+      "url": "https://www.impactpool.org/jobs/1191603",
+      "why": "Outer-island health data will move from paper into a national digital system."
+    },
+    {
+      "date": "2026-04-14",
+      "headline": "Tungaru Central Hospital moves maternity care onto a shared Tamanu registry",
+      "source": "BES International",
+      "url": "https://www.bes.au/supporting-maternal-health-care-in-kiribati/",
+      "why": "A mother's antenatal history can now follow her between clinics, wards and two hospitals."
+    },
+    {
+      "date": "2026-07-22",
+      "headline": "Kiribati delegates join Pacific digital health interoperability bootcamp",
+      "source": "World Bank",
+      "url": "https://www.worldbank.org/en/programs/multi-donor-trust-fund-for-integrating-externally-financed-health-programs/brief/digital-health-academy-launches-in-the-pacific",
+      "why": "Regional data standards will shape how Kiribati records connect and are protected."
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Government publishes Cybersecurity Act 2026, which can cover health systems",
+      "source": "Ministry of Information, Communications and Transport",
+      "url": "https://www.mict.gov.ki/taxonomy/term/12",
+      "why": "Once in force, designated health systems must manage cyber risks and report serious incidents."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

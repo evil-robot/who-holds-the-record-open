@@ -1,0 +1,354 @@
+{
+  "iso3": "ECU",
+  "name": "Ecuador",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "Ecuadorian law gives free data access and a record copy within 48 hours, but Health Ministry records are shared by default and still fragmented.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 50,
+      "summary": "The data protection law gives free access within 15 days, and the health records rule requires a certified copy within 48 hours. No national patient portal showing the record was found, so access runs facility by facility.",
+      "detail": [
+        "Article 13 of the Ley Organica de Proteccion de Datos Personales (LOPDP, 2021) gives every person free access to all their personal data, without giving a reason, answered within 15 days. Article 17 adds portability in a structured, machine-readable format.",
+        "Ministerial Agreement 5216 lets patients, their representative or an authorised person request a certified copy of the clinical record. Article 30 sets a maximum of 48 hours to deliver it.",
+        "The same rule counts lab results, imaging and treatment records as health documents. Each facility must tell patients how to request their record.",
+        "A patient-facing portal or app showing the Ministry's electronic record was not found in sources opened (not verified). A CNT Salud app built with HealthBird was a pilot before the firm left Ecuador in December 2025."
+      ],
+      "sources": [
+        {
+          "title": "Ley Organica de Proteccion de Datos Personales, Registro Oficial Suplemento 459",
+          "url": "https://www.finanzaspopulares.gob.ec/wp-content/uploads/2021/07/ley_organica_de_proteccion_de_datos_personales.pdf",
+          "date": "2021-05-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Acuerdo Ministerial 5216, Reglamento de informacion confidencial en el Sistema Nacional de Salud (MSP)",
+          "url": "https://www.salud.gob.ec/wp-content/uploads/2022/09/A.M.-5216-Reglamento-de-informacion-confidencial-en-SNS.pdf",
+          "date": "2015-01-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "HealthBird anuncia su salida de Ecuador (El Comercio)",
+          "url": "https://www.elcomercio.com/actualidad/ecuador/healthbird-contrato-iess-permanencia-ecuador/",
+          "date": "2025-12-08",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "The LOPDP lets health providers process health data without consent for diagnosis, treatment and running health services. Ministry records go into one central database, with no opt-out and no access log patients can see.",
+      "detail": [
+        "LOPDP Article 31 requires prior consent for health data, but exempts processing needed for diagnosis, care, treatment and management of health services. Article 30 also allows processing without consent for essential public interest in health.",
+        "Agreement 5216 says authorising use of health documents for purposes beyond care is the patient's exclusive power. Electronic records are open only to staff authorised by the facility, using personal passwords.",
+        "The rule requires traceability of record use and a log of records handed out for research. No right for patients to see who opened their record was found.",
+        "The Ministry's director of IT said in 2024 that records from every unit are stored in one large central database in Quito. No opt-out from that sharing was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley Organica de Proteccion de Datos Personales, articulos 30 y 31",
+          "url": "https://www.finanzaspopulares.gob.ec/wp-content/uploads/2021/07/ley_organica_de_proteccion_de_datos_personales.pdf",
+          "date": "2021-05-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Acuerdo Ministerial 5216, Reglamento de informacion confidencial en el Sistema Nacional de Salud (MSP)",
+          "url": "https://www.salud.gob.ec/wp-content/uploads/2022/09/A.M.-5216-Reglamento-de-informacion-confidencial-en-SNS.pdf",
+          "date": "2015-01-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "La Historia Clinica Electronica ya funciona en 1.922 unidades de salud del MSP (Edicion Medica)",
+          "url": "https://www.edicionmedica.ec/secciones/gestion/la-historia-clinica-electronica-ya-funciona-en-1-922-unidades-de-salud-del-msp-101601",
+          "date": "2024-02-01",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 45,
+      "summary": "The LOPDP makes health data a special category with breach notice within five days, and the regulator issued its first fines in December 2025. No health-sector sanction was found, and an unconfirmed 20-million-record Health Ministry database went up for sale in August 2026.",
+      "detail": [
+        "LOPDP Article 25 lists health data as a special category. Article 43 requires breach notice to the regulator within five days. Serious violations cost private firms and public companies 0.7 to 1 percent of turnover, but public servants only 10 to 20 basic wages.",
+        "The Superintendencia de Proteccion de Datos Personales (SPDP) fined the football league and federation USD 259,644 and USD 194,856 in December 2025, its first fines for serious breaches. None of the sanctions listed involve health providers.",
+        "On 19 August 2026 a seller offered 73 GB said to come from the Health Ministry, with health and social security fields. The Ministry had not confirmed it (not verified).",
+        "With no health-sector enforcement found, the score rests on the general law and its early enforcement record."
+      ],
+      "sources": [
+        {
+          "title": "Ley Organica de Proteccion de Datos Personales, articulos 25, 43 y 72",
+          "url": "https://www.finanzaspopulares.gob.ec/wp-content/uploads/2021/07/ley_organica_de_proteccion_de_datos_personales.pdf",
+          "date": "2021-05-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "SPDP emite sus primeras sanciones por infracciones graves (SPDP prensa)",
+          "url": "https://spdp.gob.ec/prensa/",
+          "date": "2025-12-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Sanciones, resoluciones SPDP",
+          "url": "https://spdp.gob.ec/sanciones/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Base de datos del Ministerio de Salud, con 20 millones de registros, se ofreceria por $900 (Expreso)",
+          "url": "https://www.expreso.ec/ciencia-y-tecnologia/base-datos-ministerio-salud-20-millones-registros-ofreceria-900-292978.html",
+          "date": "2026-08-19",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 52,
+      "summary": "Sensitive data needs explicit consent, and any processing of anonymised health data needs prior SPDP authorisation backed by a Health Ministry report. No enforcement against health data sales or health-based advertising was found.",
+      "detail": [
+        "LOPDP Article 26 bans processing sensitive data without explicit consent stating its purposes, subject to listed exceptions. Article 16 lets anyone object at any time to direct marketing, including profiling.",
+        "Article 31(3) requires prior SPDP authorisation for any processing of anonymised health data. The applicant must file a technical protocol and a favourable report from the health authority. This limits resale of de-identified health data on paper.",
+        "Whether the SPDP has granted or refused such authorisations was not found. No sanction for selling health data, data brokers or health app advertising was found.",
+        "The IESS record project was contracted to state firm CNT under a special regime, so the private partner HealthBird's terms were never public."
+      ],
+      "sources": [
+        {
+          "title": "Ley Organica de Proteccion de Datos Personales, articulos 16, 26 y 31",
+          "url": "https://www.finanzaspopulares.gob.ec/wp-content/uploads/2021/07/ley_organica_de_proteccion_de_datos_personales.pdf",
+          "date": "2021-05-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Que implica el trato entre CNT, el IESS y HealthBird? (Ecuador Chequea)",
+          "url": "https://ecuadorchequea.com/que-implica-el-trato-entre-cnt-el-iess-y-healthbird/",
+          "date": "2025-12-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 40,
+      "summary": "The Ministry's IT director reported in early 2024 that 1,922 of its units shared outpatient summaries. In September 2026 the minister still called the system fragmented and signed a USD 240 million, seven-year contract to connect 1,742 facilities.",
+      "detail": [
+        "The Ministry's Agenda Digital 2023-2027 traces the record to the PRAS platform (2017) and HL7 standards. It sets goals for interoperable records, a lab information system and a national interoperability platform.",
+        "In February 2024 the Ministry's IT director said 1,922 units shared an international patient summary of outpatient visits, with prescriptions being added. Social security (IESS), military and police insurers and private clinics were next steps. Current hospital coverage was not verified.",
+        "On 8 September 2026 the Ministry awarded CNT a USD 240 million, seven-year platform built on Dedalus software to integrate records and booking across 1,742 facilities.",
+        "An earlier IESS record and booking project with HealthBird collapsed in December 2025."
+      ],
+      "sources": [
+        {
+          "title": "Agenda Digital de Salud 2023-2027 (MSP)",
+          "url": "https://www.salud.gob.ec/wp-content/uploads/2023/06/Manual_Agenda_Digital_2023_Seg.pdf",
+          "date": "2023-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "La Historia Clinica Electronica ya funciona en 1.922 unidades de salud del MSP (Edicion Medica)",
+          "url": "https://www.edicionmedica.ec/secciones/gestion/la-historia-clinica-electronica-ya-funciona-en-1-922-unidades-de-salud-del-msp-101601",
+          "date": "2024-02-01",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Ministerio de Salud adjudica a CNT la plataforma para gestion de hospitales publicos por USD 240 millones (Primicias)",
+          "url": "https://www.primicias.ec/sociedad/contrato-gestion-hospitales-ecuador-cnt-dedalus-compras-publicas-132175/",
+          "date": "2026-09-09",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 40,
+      "summary": "Clinicians in Health Ministry units can see a shared summary of earlier outpatient visits, diagnoses and treatments. Social security, military, police and private providers were not connected, and in 2026 the minister called public health information scattered and fragmented.",
+      "detail": [
+        "Agreement 5216 limits the record to the care chain: doctors, psychologists, dentists, social workers, midwives, nurses and statistics staff. Electronic access is granted by the facility with personal passwords.",
+        "In 2024 the Ministry said its units shared a patient summary listing identity, past diagnoses, treatments, treating doctors, and time and place of care. Prescriptions were being added.",
+        "On 8 September 2026 the health minister said the goal is a unique patient identity and an integrated record available to medical staff, describing scattered information today.",
+        "No cross-system emergency access rule covering IESS or private clinics was found."
+      ],
+      "sources": [
+        {
+          "title": "Acuerdo Ministerial 5216, Reglamento de informacion confidencial en el Sistema Nacional de Salud (MSP)",
+          "url": "https://www.salud.gob.ec/wp-content/uploads/2022/09/A.M.-5216-Reglamento-de-informacion-confidencial-en-SNS.pdf",
+          "date": "2015-01-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "La Historia Clinica Electronica ya funciona en 1.922 unidades de salud del MSP (Edicion Medica)",
+          "url": "https://www.edicionmedica.ec/secciones/gestion/la-historia-clinica-electronica-ya-funciona-en-1-922-unidades-de-salud-del-msp-101601",
+          "date": "2024-02-01",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Ministerio de Salud adjudica a CNT la plataforma para gestion de hospitales publicos por USD 240 millones (Primicias)",
+          "url": "https://www.primicias.ec/sociedad/contrato-gestion-hospitales-ecuador-cnt-dedalus-compras-publicas-132175/",
+          "date": "2026-09-09",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Safeguards include an SPDP permit plus ethics committees, a statutory confidentiality duty, and patient authorisation for research use of records. Anonymised data still needs SPDP authorisation but no individual consent, and no general opt-out exists.",
+      "detail": [
+        "LOPDP Article 32 allows research on health system data only if anonymised or authorised by the SPDP after a Health Ministry report. Article 30 binds everyone handling health data to confidentiality.",
+        "Agreement 00005-2022 governs research ethics committees (CEISH); the Ministry counted 19 committees in 2022. A committee rule under it classes anonymised registry databases as no-risk and review of anonymised clinical records as minimal-risk research.",
+        "Agreement 5216 says research use of records must be authorised by the patient, with identity protected and handovers logged.",
+        "No general opt-out, public register of data uses or re-identification penalty was found."
+      ],
+      "sources": [
+        {
+          "title": "Ley Organica de Proteccion de Datos Personales, articulos 30 a 32",
+          "url": "https://www.finanzaspopulares.gob.ec/wp-content/uploads/2021/07/ley_organica_de_proteccion_de_datos_personales.pdf",
+          "date": "2021-05-26",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Nuevo reglamento para comites de etica esta vigente (MSP)",
+          "url": "https://www.salud.gob.ec/nuevo-reglamento-para-comites-de-etica-esta-vigente/",
+          "date": "2022-08-09",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Reglamento del Comite de Etica de Investigacion en Seres Humanos CEISH-INSPI",
+          "url": "https://www.investigacionsalud.gob.ec/wp-content/uploads/2025/08/Reglamento_CEISHINSPI-signed.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Acuerdo Ministerial 5216, Reglamento de informacion confidencial en el Sistema Nacional de Salud (MSP)",
+          "url": "https://www.salud.gob.ec/wp-content/uploads/2022/09/A.M.-5216-Reglamento-de-informacion-confidencial-en-SNS.pdf",
+          "date": "2015-01-29",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 45,
+      "summary": "Since October 2025 any AI tool in health services needs bioethics committee review, and a 2026 SPDP rule requires impact assessments and audits for AI using personal data. ARCSA's rule naming machine-learning devices only takes effect around January 2027, with no AI-specific change control.",
+      "detail": [
+        "The Telehealth Technical Norm (Agreement 00044-2025, published 28 October 2025) requires a bioethics committee to assess AI tools on security, data protection, sensitivity, specificity and reliability, then institutional approval.",
+        "SPDP Resolution SPDP-SPD-2026-0009-R (March 2026) requires transparency, risk management, impact assessments and audits for AI that processes personal data. It guarantees the right not to be subject to automated decisions.",
+        "ARCSA Resolution ARCSA-DE-2026-003-DASP defines software as a medical device and machine-learning devices, using IMDRF risk classes. It takes effect nine months after 28 April 2026.",
+        "A committee recommended archiving the general AI bill on 31 August 2026."
+      ],
+      "sources": [
+        {
+          "title": "Norma Tecnica de Telesalud, Acuerdo Ministerial 00044-2025, Registro Oficial Segundo Suplemento 153",
+          "url": "http://www.acess.gob.ec/wp-content/uploads/2025/11/Norma-Tecnica-de-Telesalud.pdf",
+          "date": "2025-10-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resolucion SPDP-SPD-2026-0009-R, Norma general de proteccion de datos en sistemas de inteligencia artificial",
+          "url": "https://www.bolsadevaloresguayaquil.com/normativas/legal/archivos/285_PROTECCIONDEDATOSPERSONALESPARAUSODEINTELIGENCIAARTIFICIAL.PDF",
+          "date": "2026-03-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resolucion ARCSA-DE-2026-003-DASP, dispositivos medicos de uso humano (ARCSA)",
+          "url": "https://www.controlsanitario.gob.ec/wp-content/uploads/downloads/2026/04/Resolucion-No.-ARCSA-DE-2026-003-DASP-Normativa-Tecnica-Sanitaria-Sustitutiva-para-la-obtencion-del-registro-sanitario-control-y-vigilancia-de-dispositivos-medicos-de-uso-humano.pdf",
+          "date": "2026-04-28",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley de Inteligencia Artificial: Comision de Educacion recomienda archivar el proyecto (El Universo)",
+          "url": "https://www.eluniverso.com/noticias/politica/proyecto-de-ley-inteligencia-artificial-recomiendan-su-archivo-en-la-asamblea-nota/",
+          "date": "2026-08-31",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Health Ministry units share outpatient summaries, with prescriptions being added (2024). Social security, military, police and private providers are not connected. A USD 240 million Dedalus platform signed in September 2026 aims to link 1,742 facilities.",
+  "laws": [
+    {
+      "name": "Ley Organica de Proteccion de Datos Personales (LOPDP)",
+      "level": "National",
+      "year": "2021",
+      "what": "Health data special category; free access in 15 days; portability; five-day breach notice; turnover-based fines.",
+      "url": "https://www.finanzaspopulares.gob.ec/wp-content/uploads/2021/07/ley_organica_de_proteccion_de_datos_personales.pdf"
+    },
+    {
+      "name": "Acuerdo Ministerial 5216 (informacion confidencial en el Sistema Nacional de Salud)",
+      "level": "National",
+      "year": "2015",
+      "what": "Record confidentiality; certified copy within 48 hours; patient authorises non-care uses.",
+      "url": "https://www.salud.gob.ec/wp-content/uploads/2022/09/A.M.-5216-Reglamento-de-informacion-confidencial-en-SNS.pdf"
+    },
+    {
+      "name": "Acuerdo Ministerial 00005-2022 (comites de etica de investigacion CEISH y CEAS)",
+      "level": "National",
+      "year": "2022",
+      "what": "Approval and oversight of research ethics committees for public and private institutions.",
+      "url": "https://www.salud.gob.ec/nuevo-reglamento-para-comites-de-etica-esta-vigente/"
+    },
+    {
+      "name": "Acuerdo Ministerial 00044-2025 (Norma Tecnica de Telesalud)",
+      "level": "National",
+      "year": "2025",
+      "what": "Binding telehealth rules; e-prescriptions; bioethics committee review of AI tools in health services.",
+      "url": "http://www.acess.gob.ec/wp-content/uploads/2025/11/Norma-Tecnica-de-Telesalud.pdf"
+    },
+    {
+      "name": "Resolucion SPDP-SPD-2026-0009-R (datos personales en sistemas de inteligencia artificial)",
+      "level": "National",
+      "year": "2026",
+      "what": "AI using personal data needs transparency, risk management, impact assessment and audits.",
+      "url": "https://www.bolsadevaloresguayaquil.com/normativas/legal/archivos/285_PROTECCIONDEDATOSPERSONALESPARAUSODEINTELIGENCIAARTIFICIAL.PDF"
+    },
+    {
+      "name": "Resolucion ARCSA-DE-2026-003-DASP (dispositivos medicos de uso humano)",
+      "level": "National",
+      "year": "2026",
+      "what": "Defines software and machine-learning medical devices; IMDRF risk classes; in force nine months after signing.",
+      "url": "https://www.controlsanitario.gob.ec/wp-content/uploads/downloads/2026/04/Resolucion-No.-ARCSA-DE-2026-003-DASP-Normativa-Tecnica-Sanitaria-Sustitutiva-para-la-obtencion-del-registro-sanitario-control-y-vigilancia-de-dispositivos-medicos-de-uso-humano.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-09",
+      "headline": "Health Ministry awards USD 240 million platform to connect public hospital records",
+      "source": "Primicias",
+      "url": "https://www.primicias.ec/sociedad/contrato-gestion-hospitales-ecuador-cnt-dedalus-compras-publicas-132175/",
+      "why": "Promises one patient identity and a record that follows patients across 1,742 public facilities."
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Database said to hold 20 million Health Ministry records offered for sale",
+      "source": "Expreso",
+      "url": "https://www.expreso.ec/ciencia-y-tecnologia/base-datos-ministerio-salud-20-millones-registros-ofreceria-900-292978.html",
+      "why": "Unconfirmed, but the sample reportedly includes health and social security fields."
+    },
+    {
+      "date": "2026-08-31",
+      "headline": "Assembly committee recommends archiving the general AI regulation bill",
+      "source": "El Universo",
+      "url": "https://www.eluniverso.com/noticias/politica/proyecto-de-ley-inteligencia-artificial-recomiendan-su-archivo-en-la-asamblea-nota/",
+      "why": "Leaves clinical AI governed by health ministry and data protection rules, not a statute."
+    },
+    {
+      "date": "2025-12-08",
+      "headline": "HealthBird quits Ecuador after questions over social security records contract",
+      "source": "El Comercio",
+      "url": "https://www.elcomercio.com/actualidad/ecuador/healthbird-contrato-iess-permanencia-ecuador/",
+      "why": "The planned unified record for IESS members, with patient tracking, stalled."
+    },
+    {
+      "date": "2025-12-01",
+      "headline": "Data protection regulator issues its first fines for serious breaches",
+      "source": "Superintendencia de Proteccion de Datos Personales",
+      "url": "https://spdp.gob.ec/prensa/",
+      "why": "Shows the LOPDP is now enforced, though no health provider has been sanctioned yet."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

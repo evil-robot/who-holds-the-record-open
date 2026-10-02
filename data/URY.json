@@ -1,0 +1,369 @@
+{
+  "iso3": "URY",
+  "name": "Uruguay",
+  "region": "Americas",
+  "controlModel": "Shared",
+  "headline": "Uruguayans can view their national health record online, limit who opens it and check who did, but it holds a minimum data set.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 65,
+      "summary": "Ley 18.335 makes the patient the record's owner with a right to a copy, and the national Mi Historia Clinica Digital portal shows adult SNIS members the care events providers registered. Copies cost the patient, and the shared record is a minimum data set.",
+      "detail": [
+        "Ley 18.335 (2008) Article 18 D says the clinical record belongs to the patient, who may review it and obtain a copy at their own expense. It is free only for people in poverty.",
+        "Ley 18.331 Article 14 adds a general data access right, free at six-month intervals, answered within five business days, covering the whole file held on the person.",
+        "The Health Ministry's Mi Historia Clinica Digital service lets SNIS members over 18 see, through gub.uy, all care events registered on the national HCEN platform and open the clinical sheet kept by each provider. Login uses the chip ID card, Abitab ID or TuID Antel.",
+        "The documents shared through HCEN follow minimum data sets set in Decreto 122/019 (emergency, outpatient and discharge notes). Specialists quoted by Forbes Uruguay in November 2025 said only a minimum package of information is handled. Portal usage figures and export options were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Ley 18.335, derechos y obligaciones de pacientes y usuarios (IMPO)",
+          "url": "https://www.impo.com.uy/bases/leyes/18335-2008",
+          "date": "2008-08-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Mi Historia Clinica Digital (Ministerio de Salud Publica)",
+          "url": "https://www.gub.uy/ministerio-salud-publica/tramites-y-servicios/servicios/mi-historia-clinica-digital",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Decreto 122/019, incorporacion a la HCEN y gestion de accesos (IMPO)",
+          "url": "https://www.impo.com.uy/bases/decretos-originales/122-2019",
+          "date": "2019-05-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Receta electronica, simulacion clinica y asistentes de IA: la mirada de 3 expertos (Forbes Uruguay)",
+          "url": "https://www.forbesuruguay.com/especiales/receta-electronica-simulacion-clinica-asistentes-ia-mirada-3-expertos-sobre-transformacion-sistema-salud-n82298",
+          "date": "2025-11-25",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 66,
+      "summary": "By law a patient can block or limit access to their national record and see who opened it. Sharing is on by default, and the Health Ministry keeps its own right of access.",
+      "detail": [
+        "Ley 19.670 (2018) Article 194 lets any person, at any time, object to access to their clinical information through the national HCEN platform. The objection is revocable and blocks access except where the law makes exceptions.",
+        "Decreto 122/019 lets people manage provider permissions electronically and change them at any time (Article 13), and see at any time everyone who has accessed their information through HCEN (Article 17). Providers must log every access on the platform (Article 12).",
+        "The MSP portal offers three settings for providers the person is not affiliated with: allow all SNIS providers, allow selected providers for a limited period, or allow none except in emergencies.",
+        "By default the system lets the providers where a person is treated consult the record (la diaria, 2019). Article 18 of the decree lets the Health Ministry access HCEN records when it sees fit."
+      ],
+      "sources": [
+        {
+          "title": "Ley 19.670, articulo 194, Historia Clinica Electronica Nacional (IMPO)",
+          "url": "https://www.impo.com.uy/bases/leyes/19670-2018/194",
+          "date": "2018-10-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 122/019, incorporacion a la HCEN y gestion de accesos (IMPO)",
+          "url": "https://www.impo.com.uy/bases/decretos-originales/122-2019",
+          "date": "2019-05-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Mi Historia Clinica Digital (Ministerio de Salud Publica)",
+          "url": "https://www.gub.uy/ministerio-salud-publica/tramites-y-servicios/servicios/mi-historia-clinica-digital",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Desde este viernes, cada persona puede ingresar a su historia clinica electronica (la diaria)",
+          "url": "https://ladiaria.com.uy/salud/articulo/2019/9/desde-este-viernes-cada-persona-puede-ingresar-a-su-historia-clinica-electronica/",
+          "date": "2019-09",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 57,
+      "summary": "Health data is sensitive data under Ley 18.331, breaches must be reported, and the EU confirmed Uruguay's adequacy in January 2024. Enforcement is thin: the regulator said in November 2025 it had made no inspections of its own on data leaks in three years.",
+      "detail": [
+        "Ley 18.331 (2008) treats health as sensitive data that needs express written consent (Article 18) and lets health facilities process it under professional secrecy (Article 19). Fines reach 500,000 indexed units, with suspension or closure of the database (Article 35).",
+        "Ley 19.670 Article 38 requires controllers to tell affected people and the URCDP about security breaches. The URCDP told El Observador the deadline is 72 hours. The URCDP sits inside the government agency Agesic, with technical autonomy (Article 31).",
+        "The European Commission confirmed on 15 January 2024 that Uruguay keeps an adequate level of protection (Decision 2012/484/EU), so EU data can flow without extra safeguards. Uruguay is outside the EU, so the European Health Data Space does not apply.",
+        "CERTuy counted a record 42,768 security incidents in Uruguay in 2025, as reported by press, and in 2026 a group claimed an attack on TuID, a login used for the health portal; Antel said no sensitive data was reached. No major health data breach was verified for October 2025 to September 2026."
+      ],
+      "sources": [
+        {
+          "title": "Ley 18.331, proteccion de datos personales (IMPO)",
+          "url": "https://www.impo.com.uy/bases/leyes/18331-2008",
+          "date": "2008-08-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "La Comision Europea ratifica el nivel adecuado de Uruguay para la proteccion de datos (URCDP)",
+          "url": "https://www.gub.uy/unidad-reguladora-control-datos-personales/comunicacion/noticias/comision-europea-ratifica-nivel-adecuado-uruguay-para-proteccion-datos-0",
+          "date": "2024-01-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Hackeos al Estado: que dice la Unidad Reguladora de Datos Personales (El Observador)",
+          "url": "https://www.elobservador.com.uy/ciencia-y-tecnologia/hackeos-al-estado-que-dice-la-unidad-reguladora-datos-personales-ataques-organismos-n6024282",
+          "date": "2025-11-12",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Uruguay bajo fuego: el avance de la infraestructura digital estatal se convierte en blanco del cibercrimen (Grupo R Multimedio)",
+          "url": "https://grupormultimedio.com/uruguay-bajo-fuego-el-avance-de-la-infraestructura-digital-estatal-se-convierte-en-blanco-del-cibercrimen-id194342/",
+          "date": "2026-05-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 52,
+      "summary": "Ley 18.331 requires express written consent for sensitive data and bars databases that reveal sensitive data, with narrow exceptions. There is no health-specific rule on data brokers, health apps or ad targeting.",
+      "detail": [
+        "Article 18 of Ley 18.331 says no one can be forced to give sensitive data, and prohibits forming databases that directly or indirectly reveal it, except for some non-profit membership bodies.",
+        "Article 21 allows profiling for marketing only from public sources, data the person supplied, or with consent, and lets the person ask at any time to be removed or blocked.",
+        "Sensitive data may be used for statistics or science only when dissociated from the person. No rule on sale of de-identified health data, consumer health apps or brokers was found in sources opened, and URCDP enforcement activity is low."
+      ],
+      "sources": [
+        {
+          "title": "Ley 18.331, proteccion de datos personales (IMPO)",
+          "url": "https://www.impo.com.uy/bases/leyes/18331-2008",
+          "date": "2008-08-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Hackeos al Estado: que dice la Unidad Reguladora de Datos Personales (El Observador)",
+          "url": "https://www.elobservador.com.uy/ciencia-y-tecnologia/hackeos-al-estado-que-dice-la-unidad-reguladora-datos-personales-ataques-organismos-n6024282",
+          "date": "2025-11-12",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 60,
+      "summary": "All public and private providers must join the federated national HCEN platform, which links records held by each provider, and 92% of users had at least one document on it by 2020. E-prescribing is still rolling out provider by provider.",
+      "detail": [
+        "Ley 19.670 Article 194 obliges every health provider to join the national electronic record system. HCEN is federated: data stays with each provider and the central platform orchestrates and audits exchange (Agesic).",
+        "Decreto 122/019 requires providers to register each care event within 24 hours and to use minimum data sets coded in SNOMED CT for emergency, outpatient and discharge documents.",
+        "In May 2020 Red Gealc reported that 92% of users had at least one document on HCEN and over 60 million clinical documents were registered. No newer official figure was found.",
+        "E-prescribing (e-Medicamentos) is spreading gradually in the public ASSE network; Hospital Penza in Durazno planned to join in March 2026. Experts told Forbes Uruguay in November 2025 that there is no single national record."
+      ],
+      "sources": [
+        {
+          "title": "Ley 19.670, articulo 194, Historia Clinica Electronica Nacional (IMPO)",
+          "url": "https://www.impo.com.uy/bases/leyes/19670-2018/194",
+          "date": "2018-10-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 122/019, incorporacion a la HCEN y gestion de accesos (IMPO)",
+          "url": "https://www.impo.com.uy/bases/decretos-originales/122-2019",
+          "date": "2019-05-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Historia Clinica Electronica Nacional (Agesic)",
+          "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/historia-clinica-electronica-nacional",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Historia Clinica Electronica Nacional (HCEN) (Red Gealc)",
+          "url": "https://www.redgealc.org/contenido-general/noticias/historia-clinica-electronica-nacional-hcen/",
+          "date": "2020-05-15",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 58,
+      "summary": "A clinician at any SNIS provider can open the documents other providers registered on HCEN during a care event, unless the patient has limited access. What they see is a minimum data set, not the full chart.",
+      "detail": [
+        "The MSP says staff at a provider where the patient is not affiliated can access their clinical information for the duration of the care event and only for care, subject to the patient's settings. Emergency access is kept even when the patient opts out.",
+        "Providers must be accredited by the Ministry as able to query the event register and open documents held at other institutions before exchanging data (Decreto 122/019 Article 10).",
+        "Shared documents follow minimum data sets. Specialists quoted by Forbes Uruguay in November 2025 said platforms still need interoperability and that the package of information is smaller than it could be."
+      ],
+      "sources": [
+        {
+          "title": "Mi Historia Clinica Digital (Ministerio de Salud Publica)",
+          "url": "https://www.gub.uy/ministerio-salud-publica/tramites-y-servicios/servicios/mi-historia-clinica-digital",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Decreto 122/019, incorporacion a la HCEN y gestion de accesos (IMPO)",
+          "url": "https://www.impo.com.uy/bases/decretos-originales/122-2019",
+          "date": "2019-05-13",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Receta electronica, simulacion clinica y asistentes de IA: la mirada de 3 expertos (Forbes Uruguay)",
+          "url": "https://www.forbesuruguay.com/especiales/receta-electronica-simulacion-clinica-asistentes-ia-mirada-3-expertos-sobre-transformacion-sistema-salud-n82298",
+          "date": "2025-11-25",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Medical research on people needs express, revocable consent and ethics committee approval, but health data can be used for science without consent once dissociated, with no general opt-out. Ethics bodies, statutory secrecy and fines are the safeguards.",
+      "detail": [
+        "Ley 18.335 Article 12 says any medical research procedure must be expressly authorized by the patient after clear information, approved by the institution's bioethics committee and reported to the Health Ministry. Consent can be withdrawn at any stage.",
+        "Decreto 158/019 approved research rules drafted by the National Research Ethics Commission (CNEI) of the Health Ministry.",
+        "Ley 18.331 Article 18 allows sensitive data to be processed for statistics or science when dissociated from the person. No public register of secondary uses or general opt-out was found. Fines under Article 35 and the reserve duty in Article 11 apply."
+      ],
+      "sources": [
+        {
+          "title": "Ley 18.335, derechos y obligaciones de pacientes y usuarios (IMPO)",
+          "url": "https://www.impo.com.uy/bases/leyes/18335-2008",
+          "date": "2008-08-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Decreto 158/019, investigacion en seres humanos (IMPO)",
+          "url": "https://www.impo.com.uy/bases/decretos/158-2019",
+          "date": "2019-06-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 18.331, proteccion de datos personales (IMPO)",
+          "url": "https://www.impo.com.uy/bases/leyes/18331-2008",
+          "date": "2008-08-11",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 30,
+      "summary": "No rule for clinical AI is in force: device registration covers software in general, and the national AI strategy is not clinical guidance. The Health Ministry announced a mandatory registry of health AI projects in September 2026, start date still open.",
+      "detail": [
+        "Ley 20.212 (2023) Article 74 tasked Agesic with a national data and AI strategy, joint with the data regulator, and a report to Parliament with recommendations for legal regulation. The 2024-2030 strategy sets governance, capacity and development goals.",
+        "Decreto 3/008 requires registration of medical equipment, including software components, with the Health Ministry. No AI-specific device rule, change control or transparency requirement was found.",
+        "On 10 September 2026 an MSP official announced a National Registry of AI Projects in health, an ethics commission and a rule that a human must always be responsible. When it formally starts was still open."
+      ],
+      "sources": [
+        {
+          "title": "Ley 20.212, articulo 74, estrategia nacional de datos e IA (IMPO)",
+          "url": "https://www.impo.com.uy/bases/leyes/20212-2023/74",
+          "date": "2023-11-06",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Estrategia Nacional de Inteligencia Artificial 2024-2030 (Agesic)",
+          "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/publicaciones/estrategia-nacional-inteligencia-artificial-2024-2030",
+          "date": "2024-11-22",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Decreto 3/008, reactivos de diagnostico, dispositivos terapeuticos y equipos medicos (IMPO)",
+          "url": "https://www.impo.com.uy/bases/decretos/3-2008",
+          "date": "2008-01-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "El MSP exigira registrar los proyectos de inteligencia artificial en salud (Nacion)",
+          "url": "https://nacion.com.uy/redaccion/msp-registro-proyectos-inteligencia-artificial-salud-setiembre-2026",
+          "date": "2026-09-10",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Public and private providers register care events on the federated HCEN platform within 24 hours. E-prescribing is rolling out gradually, mainly in ASSE. Labs, claims and research links were not verified.",
+  "laws": [
+    {
+      "name": "Ley 18.335 (derechos de pacientes y usuarios)",
+      "level": "National",
+      "year": "2008",
+      "what": "Patient owns the record; right to review and copy; research needs express revocable consent.",
+      "url": "https://www.impo.com.uy/bases/leyes/18335-2008"
+    },
+    {
+      "name": "Ley 18.331 (proteccion de datos personales)",
+      "level": "National",
+      "year": "2008",
+      "what": "Health is sensitive data; express written consent; access in five business days; fines to 500,000 UI.",
+      "url": "https://www.impo.com.uy/bases/leyes/18331-2008"
+    },
+    {
+      "name": "Ley 19.670, articulos 38 y 194",
+      "level": "National",
+      "year": "2018",
+      "what": "Breach notification; all providers join HCEN; anyone may object to access through HCEN.",
+      "url": "https://www.impo.com.uy/bases/leyes/19670-2018"
+    },
+    {
+      "name": "Decreto 122/019 (HCEN)",
+      "level": "National",
+      "year": "2019",
+      "what": "Patient-managed permissions, patient-visible access log, 24-hour event registration, minimum data sets.",
+      "url": "https://www.impo.com.uy/bases/decretos-originales/122-2019"
+    },
+    {
+      "name": "Decreto 158/019 (investigacion en seres humanos)",
+      "level": "National",
+      "year": "2019",
+      "what": "Approves research ethics rules drafted by the National Research Ethics Commission.",
+      "url": "https://www.impo.com.uy/bases/decretos/158-2019"
+    },
+    {
+      "name": "Ley 20.212, articulo 74",
+      "level": "National",
+      "year": "2023",
+      "what": "Mandates a national data and AI strategy and recommendations for AI regulation.",
+      "url": "https://www.impo.com.uy/bases/leyes/20212-2023/74"
+    },
+    {
+      "name": "Commission Decision 2012/484/EU (adequacy)",
+      "level": "Supranational",
+      "year": "2012",
+      "what": "EU finds Uruguay adequate for data transfers; confirmed by the Commission in January 2024.",
+      "url": "https://www.gub.uy/unidad-reguladora-control-datos-personales/comunicacion/noticias/comision-europea-ratifica-nivel-adecuado-uruguay-para-proteccion-datos-0"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-10",
+      "headline": "Health Ministry announces mandatory registry for AI projects in health services",
+      "source": "Nacion (citing Busqueda)",
+      "url": "https://nacion.com.uy/redaccion/msp-registro-proyectos-inteligencia-artificial-salud-setiembre-2026",
+      "why": "Would let the ministry object to or stop AI uses in patient care."
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Health Ministry and PAHO assess readiness to use AI in public health",
+      "source": "ConsultorSalud",
+      "url": "https://consultorsalud.com/uruguay-integracion-de-inteligencia-artificial/",
+      "why": "First step toward a national AI in health strategy."
+    },
+    {
+      "date": "2026-05-10",
+      "headline": "Record cyber incidents in 2025 and attack on the TuID login platform",
+      "source": "Grupo R Multimedio",
+      "url": "https://grupormultimedio.com/uruguay-bajo-fuego-el-avance-de-la-infraestructura-digital-estatal-se-convierte-en-blanco-del-cibercrimen-id194342/",
+      "why": "TuID is one of the logins patients use for their digital health record."
+    },
+    {
+      "date": "2026-01-31",
+      "headline": "Durazno public hospital prepares to join national e-prescription system",
+      "source": "El Acontecer",
+      "url": "https://elacontecer.com.uy/sociedad/hospital-penza-receta-electronica-durazno/",
+      "why": "E-prescriptions linked to the national record reach more public patients."
+    },
+    {
+      "date": "2025-11-12",
+      "headline": "Data regulator says it made no own inspections on leaks in three years",
+      "source": "El Observador",
+      "url": "https://www.elobservador.com.uy/ciencia-y-tecnologia/hackeos-al-estado-que-dice-la-unidad-reguladora-datos-personales-ataques-organismos-n6024282",
+      "why": "Shows enforcement relies on organizations reporting their own breaches."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

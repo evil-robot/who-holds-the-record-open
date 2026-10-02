@@ -1,0 +1,325 @@
+{
+ "iso3": "CMR",
+ "name": "Cameroon",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A data law took full effect in June 2026, but no regulator had been set up by August 2026 and records stay inside each facility.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 30,
+   "summary": "Law 2024/017 gives a right to a copy, but at the cost of reproduction, with deadlines left to a regulation and no regulator to enforce it. There is no patient portal, and the electronic record runs in about 50 pilot facilities.",
+   "detail": [
+    "Article 39 of Law 2024/017 lets a person ask a controller for their data and a copy 'in an intelligible form' against a payment no higher than the cost of reproduction. Article 43 adds a free machine-readable copy, but only of data the person supplied.",
+    "Article 47 leaves the deadlines for answering requests to a later regulation. We found none. Article 72 says health data is governed by specific texts; a health-specific right to see one's medical file is not verified.",
+    "The 2026-2030 digital health plan says the Bahmni electronic record was deployed in about fifty pilot facilities. We found no national portal where patients can see their own record."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2024/017 du 23 décembre 2024 relative à la protection des données à caractère personnel au Cameroun (Présidence de la République)",
+     "url": "https://prc.cm/files/2b/9f/21/1055fa3c2251b4c4248fd301f584daaf.pdf",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Plan Stratégique National de Santé Numérique 2026-2030 (Ministère de la Santé Publique)",
+     "url": "https://www.minsante.cm/site/sites/default/files/PSNSN%202026-2030%20Fr.pdf",
+     "date": "2026-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "RGPH-4 prolongé jusqu'au 15 septembre: sous quel régime les données collectées sont-elles protégées? (Observatoire de Cybersécurité du Cameroun)",
+     "url": "https://obs-cc.org/rgph-4-prolongation-septembre-2026-protection-donnees-personnelles/",
+     "date": "2026-08-12",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The law requires prior, specific consent and lets people object, but a health-protection exception applies and patients have no tools to set sharing rules or see who opened their file.",
+   "detail": [
+    "Article 9 makes processing subject to prior, free, informed and specific consent. It can be skipped for a legal duty, a public-interest mission or to protect the health of the person or someone else.",
+    "Article 40 gives a right to object at any time, and Article 36 allows interconnection of files only when a legal obligation requires it.",
+    "Article 27 requires controllers to be able to trace who accessed a system and what they did. That is an internal duty; we found no access log a patient can see.",
+    "With no shared record and no regulator, control sits with each facility."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2024/017 du 23 décembre 2024 relative à la protection des données à caractère personnel au Cameroun (Présidence de la République)",
+     "url": "https://prc.cm/files/2b/9f/21/1055fa3c2251b4c4248fd301f584daaf.pdf",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "RGPH-4 prolongé jusqu'au 15 septembre: sous quel régime les données collectées sont-elles protégées? (Observatoire de Cybersécurité du Cameroun)",
+     "url": "https://obs-cc.org/rgph-4-prolongation-septembre-2026-protection-donnees-personnelles/",
+     "date": "2026-08-12",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 40,
+   "summary": "Health data is sensitive under Law 2024/017, with breach notice 'without delay', transfer authorisation and prison terms. But the law sends the creation of its regulator to a presidential decree that we could not find.",
+   "detail": [
+    "Article 5 lists health among sensitive data. Article 66 punishes storing sensitive data without express consent with 6 months to 2 years in prison. Article 22 requires notice of a breach to the authority and the person without delay.",
+    "Article 32 requires prior authority approval for any transfer abroad. Fines reach 50 million FCFA for processing without authorisation (Article 55) and 1 billion FCFA for companies (Article 71).",
+    "Article 53(2) leaves the authority's creation to a presidential decree. An observatory found none as of 11 August 2026; whether one was signed since is not verified.",
+    "The health ministry's 2026 plan names the lack of a health-data legal framework and national data hosted abroad as problems. Cameroon is not on the EU adequacy list, and the EHDS does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2024/017 du 23 décembre 2024 relative à la protection des données à caractère personnel au Cameroun (Présidence de la République)",
+     "url": "https://prc.cm/files/2b/9f/21/1055fa3c2251b4c4248fd301f584daaf.pdf",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "RGPH-4 prolongé jusqu'au 15 septembre: sous quel régime les données collectées sont-elles protégées? (Observatoire de Cybersécurité du Cameroun)",
+     "url": "https://obs-cc.org/rgph-4-prolongation-septembre-2026-protection-donnees-personnelles/",
+     "date": "2026-08-12",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Plan Stratégique National de Santé Numérique 2026-2030 (Ministère de la Santé Publique)",
+     "url": "https://www.minsante.cm/site/sites/default/files/PSNSN%202026-2030%20Fr.pdf",
+     "date": "2026-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Data protection adequacy for non-EU countries (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "Direct marketing needs prior consent and doctors may not advertise. The rules are strong on paper but have no regulator behind them, and we found nothing on health apps, data brokers or de-identified data.",
+   "detail": [
+    "Article 41 of Law 2024/017 makes passing data to third parties for direct marketing subject to prior consent. Once a person objects, data cannot be used for marketing (Article 40).",
+    "Processing for marketing despite an objection carries 1 to 3 years in prison (Article 64). Profiling carries 3 to 10 years (Article 65), and diverting data from its purpose 6 months to 2 years (Article 67).",
+    "The 1983 medical ethics code says medicine must not be practised as a business and bans advertising by doctors (Article 7).",
+    "We found no rules for consumer health apps or sales of de-identified data, and no enforcement case."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2024/017 du 23 décembre 2024 relative à la protection des données à caractère personnel au Cameroun (Présidence de la République)",
+     "url": "https://prc.cm/files/2b/9f/21/1055fa3c2251b4c4248fd301f584daaf.pdf",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret n° 83-166 du 12 avril 1983 portant code de déontologie des médecins (Camerlex copy)",
+     "url": "https://www.camerlex.com/cameroun-decret-n-83-166-12-avril-1983/",
+     "date": "1983-04-12",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "La loi sur la protection des données personnelles entre officiellement en vigueur (Direction Générale du Budget, MINFI)",
+     "url": "https://www.dgb.cm/la-loi-sur-la-protection-des-donnees-personnelles-entre-officiellement-en-vigueur/",
+     "date": "2026-07-06",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 25,
+   "summary": "Records are mostly local. The health ministry says the electronic record runs in about fifty pilot facilities, there are no national interoperability standards, and only regional hospitals have been linked up.",
+   "detail": [
+    "The 2026-2030 digital health plan lists DHIS2 for national reporting, Cameroon Health Coverage for enrolment and OpenIMIS for billing under universal health coverage, still in phase I.",
+    "It reports no national standards or interoperability framework, weak links between facilities, and a validated strategy for a national patient index (MPI).",
+    "In August 2025 the ministry said over four million people were registered in its digital system and over one million reimbursements started. It did not say how many have a clinical e-record.",
+    "In February 2026 the health minister described a patient e-record and pharmacy link as a project still under study."
+   ],
+   "sources": [
+    {
+     "title": "Plan Stratégique National de Santé Numérique 2026-2030 (Ministère de la Santé Publique)",
+     "url": "https://www.minsante.cm/site/sites/default/files/PSNSN%202026-2030%20Fr.pdf",
+     "date": "2026-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Santé numérique: le Cameroun avance vers la Couverture Santé Universelle grâce à la digitalisation (MINSANTE)",
+     "url": "https://minsante.cm/site/?q=fr/content/sant%C3%A9-num%C3%A9rique-le-cameroun-avance-vers-la-couverture-sant%C3%A9-universelle-gr%C3%A2ce-%C3%A0-la",
+     "date": "2025-08-21",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cameroun: Le projet du carnet électronique du patient en couveuse (Digital Business Africa)",
+     "url": "https://www.digitalbusiness.africa/cameroun-le-projet-du-carnet-electronique-du-patient-en-couveuse/",
+     "date": "2026-02-23",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 22,
+   "summary": "A clinician usually sees only their own facility's file. In February 2026 the health minister described networking all facilities, so a referred patient need carry nothing, as work still in progress.",
+   "detail": [
+    "The ministry's plan says interconnecting regional hospitals laid the base for continuity of care there. It also cites weak interconnection of facilities and many vertical apps that fragment data.",
+    "The minister said that once all public and private facilities are networked, a patient referred from Laquintinie Hospital to the General Hospital in Douala would not need to carry anything. That is a future plan.",
+    "Law 2024/017 lets processing go ahead without consent to protect a person's health (Article 9), but there is no system to fetch records from elsewhere."
+   ],
+   "sources": [
+    {
+     "title": "Plan Stratégique National de Santé Numérique 2026-2030 (Ministère de la Santé Publique)",
+     "url": "https://www.minsante.cm/site/sites/default/files/PSNSN%202026-2030%20Fr.pdf",
+     "date": "2026-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Cameroun: Le projet du carnet électronique du patient en couveuse (Digital Business Africa)",
+     "url": "https://www.digitalbusiness.africa/cameroun-le-projet-du-carnet-electronique-du-patient-en-couveuse/",
+     "date": "2026-02-23",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Loi n° 2024/017 du 23 décembre 2024 relative à la protection des données à caractère personnel au Cameroun (Présidence de la République)",
+     "url": "https://prc.cm/files/2b/9f/21/1055fa3c2251b4c4248fd301f584daaf.pdf",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Law 2022/008 requires free, informed, written consent to reuse health data for research, with ethics clearance. That protects choice, but we found no public register or research data infrastructure, so it stays below the opt-in band.",
+   "detail": [
+    "Article 11 of Law 2022/008 requires written consent to join a study. Article 12 lets a person withdraw, though data collected before withdrawal can still be used.",
+    "Article 29 says biological material, genetic data and health data may be reused for research, coded or anonymised, only with free, informed and written consent. Article 30 sets conditions for sending data abroad.",
+    "Article 34 requires ethics clearance and an administrative research permit. Law 2024/017 leaves scientific research out of its scope (Article 3)."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2022/008 du 27 avril 2022 relative à la recherche médicale impliquant la personne humaine au Cameroun (Présidence de la République)",
+     "url": "https://www.prc.cm/files/74/f7/b0/73110e67ad0c98efb6a87820a936ffa8.pdf",
+     "date": "2022-04-27",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2024/017 du 23 décembre 2024 relative à la protection des données à caractère personnel au Cameroun (Présidence de la République)",
+     "url": "https://prc.cm/files/2b/9f/21/1055fa3c2251b4c4248fd301f584daaf.pdf",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 22,
+   "summary": "There are no binding rules for clinical AI. The government held AI consultations and reportedly adopted a strategy in 2025, but the medicines agency is still being set up.",
+   "detail": [
+    "The 2024 national AI consultations recommended a legal framework for AI and its use in health. These are recommendations, not rules.",
+    "An observatory reports a national AI strategy was adopted in July 2025, but found no public full text. A planned AI authority has not been created.",
+    "In March 2025 the ministry said the Cameroonian Medicines Agency was still in preparation. We found no rule on software or AI as a medical device.",
+    "Law 2024/017 gives a right to object to decisions based only on automated processing, and to human intervention (Article 44)."
+   ],
+   "sources": [
+    {
+     "title": "CONIA: concertations nationales sur l'intelligence artificielle (MINPOSTEL)",
+     "url": "https://www.minpostel.gov.cm/index.php/fr/actualites/485-conia",
+     "date": "2024-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Régulation pharmaceutique: l'Agence Camerounaise du Médicament (ACM) en gestation (MINSANTE)",
+     "url": "https://minsante.cm/site/?q=fr/content/r%C3%A9gulation-pharmaceutique-lagence-camerounaise-de-m%C3%A9dicaments-acm-en-gestation",
+     "date": "2025-03-13",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Intelligence artificielle au Cameroun: état des lieux et suivi (Observatoire de Cybersécurité du Cameroun)",
+     "url": "https://obs-cc.org/intelligence-artificielle-au-cameroun/",
+     "date": "2026-08-13",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Loi n° 2024/017 du 23 décembre 2024 relative à la protection des données à caractère personnel au Cameroun (Présidence de la République)",
+     "url": "https://prc.cm/files/2b/9f/21/1055fa3c2251b4c4248fd301f584daaf.pdf",
+     "date": "2024-12-23",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "siloed",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "DHIS2 carries aggregate public health reports. OpenIMIS handles universal coverage billing. The Bahmni record runs in about fifty pilot sites and regional hospitals are linked, but there is no national exchange or e-prescription.",
+ "laws": [
+  {
+   "name": "Law No. 2024/017 on personal data protection",
+   "level": "National",
+   "year": "2024",
+   "what": "Consent, access and objection rights, health as sensitive data, breach notice, transfer authorisation, regulator by future decree.",
+   "url": "https://prc.cm/files/2b/9f/21/1055fa3c2251b4c4248fd301f584daaf.pdf"
+  },
+  {
+   "name": "Law No. 2022/008 on medical research involving humans",
+   "level": "National",
+   "year": "2022",
+   "what": "Written informed consent for research and reuse of health data, ethics clearance, conditions on export.",
+   "url": "https://www.prc.cm/files/74/f7/b0/73110e67ad0c98efb6a87820a936ffa8.pdf"
+  },
+  {
+   "name": "Law No. 2010/012 on cybersecurity and cybercrime",
+   "level": "National",
+   "year": "2010",
+   "what": "Security framework for networks and information systems; defines ICT offences; protects privacy.",
+   "url": "https://ictpolicyafrica.org/fr/document/2xyan42talo"
+  },
+  {
+   "name": "Decree No. 83/166 on the code of medical ethics",
+   "level": "National",
+   "year": "1983",
+   "what": "Professional secrecy for doctors unless law says otherwise; bans medical advertising.",
+   "url": "https://www.camerlex.com/cameroun-decret-n-83-166-12-avril-1983/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-16",
+   "headline": "Cameroon and US sign five-year health MOU including data systems funding",
+   "source": "U.S. Embassy in Cameroon",
+   "url": "https://cm.usembassy.gov/fr/allocutio-de-lambassadeur-lamora-a-loccasion-de-la-ceremonie-de-signature-du-protocole-daccord-sur-le-programme-mondial-pour-la-securite-sanitaire/",
+   "why": "Part of the money is to expand health data systems, so how patient data is protected matters more."
+  },
+  {
+   "date": "2026-02-23",
+   "headline": "Health minister announces electronic patient record project, still under study",
+   "source": "Digital Business Africa",
+   "url": "https://www.digitalbusiness.africa/cameroun-le-projet-du-carnet-electronique-du-patient-en-couveuse/",
+   "why": "Any hospital or pharmacy could see a patient's history; consent rules were not described."
+  },
+  {
+   "date": "2026-03-06",
+   "headline": "Government launches 29 billion FCFA digital health plan for 2026-2030",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/cameroun-un-plan-de-29-milliards-fcfa-pour-numeriser-le-systeme-de-sante-dici-2030_60303",
+   "why": "Sets the path to a connected record and a health-data legal framework."
+  },
+  {
+   "date": "2026-06-17",
+   "headline": "Personal data protection law takes full effect on 23 June 2026",
+   "source": "Droit Medias Finance",
+   "url": "https://www.droitmediasfinance.com/index.php/actualites/droit-tech-fintech/1297-cameroun-la-loi-sur-la-protection-des-donnees-a-caractere-personnel-entre-en-vigueur-ce-23-juin-2026",
+   "why": "Hospitals now owe patients consent, access and breach notice under the law."
+  },
+  {
+   "date": "2026-08-12",
+   "headline": "Observatory finds data protection authority still not created after deadline",
+   "source": "Observatoire de Cybersécurité du Cameroun",
+   "url": "https://obs-cc.org/rgph-4-prolongation-septembre-2026-protection-donnees-personnelles/",
+   "why": "Without a regulator, patients have no independent body to complain to."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

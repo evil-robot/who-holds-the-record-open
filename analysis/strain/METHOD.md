@@ -98,12 +98,12 @@ There is no weighted composite. The four links in the chain are measured in diff
 
 | Flag | True when | False when | Unknown when |
 |---|---|---|---|
-| `workforceLow` | doctors **or** nurses per 10,000 is below the lower quartile of the countries with a value (doctors: 26.56, n = 62; nurses and midwives: 41.59, n = 62) | both measured and at or above their cut-offs | neither is below and at least one is missing |
-| `privateSpendHigh` | VHI + OOP share (same year) is above the upper quartile (37.67%, n = 60) | measured and at or below it | VHI or OOP missing for a common year |
+| `workforceLow` | doctors **or** nurses per 10,000 is below the lower quartile of the OECD members (doctors: 30.76, n = 38; nurses and midwives: 62.16, n = 38) | both measured and at or above their cut-offs | neither is below and at least one is missing |
+| `privateSpendHigh` | VHI + OOP share (same year) is above the upper quartile of the OECD members (28.66%, n = 35) | measured and at or below it | VHI or OOP missing for a common year |
 | `longWaits` | the longer of the hip and knee median waits (specialist assessment to treatment) is over 90 days. 90 days matches OECD's own 3-month line. | at least one is reported and neither is over 90 | neither reported |
 | `recordSplit` | class is **split** | class is connected or partial | class is unknown |
 
-Quartiles use numpy's default linear interpolation over the 64 countries that have a value. The verifier recomputes them, so a cut-off cannot be moved by hand.
+Quartiles use numpy's default linear interpolation over the OECD members that have a value. **Reference group (JAS, 2 Oct 2026):** the OECD members, so cut-offs stay fixed as countries are added; before this they were set over all rated countries and moved each time the index grew (doctors 26.56 at 64 countries, 12.09 at 113). The verifier recomputes them, so a cut-off cannot be moved by hand.
 
 The **reading** is one sentence built from the flags. It names the flags that are true and the links not measured, and adds that the record reaches only some private providers when the class is partial. Nothing else goes into it.
 
@@ -207,3 +207,6 @@ uv run --project ~/Projects/ds-lab python analysis/strain/test_strain.py
 ```
 
 `raw/` holds the extracts for our 64 countries (about 7.6 MB). The 39 MB GHED workbook is not kept. `raw/manifest.json` records each source's URL, retrieval date and SHA-256 of the full download. Rebaselines are logged in `coverage_baseline.json`. The only one so far: on 1 Oct 2026 the record-split floor went from 25 to 24 because India was reclassified from partial to unknown on review. That was a correction, not a loss of coverage. A refresh that changes any figure will break the frozen spot values in the test. That is deliberate: re-read the source, then update the spot values with a note here.
+
+## Private spending when the combined figure is stale (2 Oct 2026)
+`privateSpendHigh` uses the combined share (voluntary insurance plus out-of-pocket, same year). When that combined figure is missing or stale (older than the stale limit) but out-of-pocket alone, which is a lower bound of the combined share, is recent and already above the OECD upper-quartile cut-off, the flag is true and the country carries `privateSpendBasis: "OOP alone already above the cut-off"`; its reading says so. The verifier applies the same rule. Countries on this basis on 2 Oct 2026: Afghanistan, Eritrea, Iraq, Laos.

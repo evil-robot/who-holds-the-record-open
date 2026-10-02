@@ -1,0 +1,362 @@
+{
+ "iso3": "QAT",
+ "name": "Qatar",
+ "region": "Middle East",
+ "controlModel": "Institutional",
+ "headline": "Qatar's privacy law gives a right to a copy and the public portal shows key results, but patients get few sharing controls.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 60,
+   "summary": "The 2016 privacy law gives a right to a copy of personal data for a fee capped at service cost, and the free public MyHealth portal shows reports, labs, medicines and vaccines from HMC and PHCC. How many residents use it was not verified.",
+   "detail": [
+    "Article 6 of Law No. 13 of 2016 lets a person access their data and get a copy after paying no more than the cost of the service. The law sets no response deadline and covers electronically processed data.",
+    "Minister of Public Health Decision No. 9 of 2022 lists a patient's right to a medical report on request. It does not mention a copy of the full file.",
+    "The MyHealth portal is free and shows one record across Hamad Medical Corporation (HMC) and Primary Health Care Corporation (PHCC): discharge and surgical reports, lab results, allergies, medicines, vaccines and vital signs. HMC says it shows parts of the file, at its discretion.",
+    "A full copy needs a release-of-information form, filed with a medical information department at an HMC or PHCC facility. MyHealth covers only HMC and PHCC care, and a usage figure was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 13 of 2016 on Personal Data Privacy Protection, Arts. 1-13 (Al Meezan)",
+     "url": "https://www.almeezan.qa/LawView.aspx?opt&LawID=7121&language=ar",
+     "date": "2016-12-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Minister of Public Health Decision No. 9 of 2022 on patients' rights and duties (Al Meezan)",
+     "url": "https://almeezan.qa/LawView.aspx?opt&LawID=8946&language=ar",
+     "date": "2022-07-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "MyHealth patient portal FAQs (Hamad Medical Corporation)",
+     "url": "https://hamad.qa/AR/Patient-Information/Patient-Portal/FAQs/Pages/default.aspx",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MyHealth patient portal (Primary Health Care Corporation)",
+     "url": "https://www.phcc.gov.qa/ar-qa/patient-portal",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Decision 9 of 2022 bars anyone outside care from seeing the file without the patient's consent, except on a court or prosecution order. No sharing opt-out and no patient-visible access log were verified.",
+   "detail": [
+    "Under the privacy law a person may withdraw consent, object to unnecessary processing and ask for deletion or correction (Article 5). Health data needs a permit from the data protection department before processing (Article 16).",
+    "Decision 9 of 2022 says the medical file may be viewed only with the patient's consent, a guardian's consent, a court order or a prosecution decision.",
+    "In practice HMC and PHCC hold one shared record and decide what the portal shows. We found no official page offering an opt-out from sharing or a log of who opened the record.",
+    "This places Qatar in the upper half of the 20 to 35 band: legal consent rules exist, but no working patient controls were verified."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 13 of 2016 on Personal Data Privacy Protection, Arts. 1-13 (Al Meezan)",
+     "url": "https://www.almeezan.qa/LawView.aspx?opt&LawID=7121&language=ar",
+     "date": "2016-12-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Minister of Public Health Decision No. 9 of 2022 on patients' rights and duties (Al Meezan)",
+     "url": "https://almeezan.qa/LawView.aspx?opt&LawID=8946&language=ar",
+     "date": "2022-07-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "MyHealth patient portal FAQs (Hamad Medical Corporation)",
+     "url": "https://hamad.qa/AR/Patient-Information/Patient-Portal/FAQs/Pages/default.aspx",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 54,
+   "summary": "Health data is special-category data that needs a permit, and breaking the special-data rules carries fines up to QAR 5 million. The regulator sits under the Prime Minister, state-security exemptions are wide, and no health-sector decision was found.",
+   "detail": [
+    "Law No. 13 of 2016 lists health as special-nature data (Article 16). Fines reach QAR 1 million for most breaches and QAR 5 million for security failures and processing special data without a permit (Articles 23 and 24).",
+    "Controllers must tell the person and the regulator about a breach only if it may cause serious harm (Article 14). No deadline is set.",
+    "A competent authority may process data without consent or notice for national security, public security, international relations, economic interests or crime (Article 18).",
+    "The National Cyber Security Agency enforces the law and reports to the Prime Minister. In February 2026 it published a binding decision ordering a sports firm to fix security after a breach, with no fine reported. Health insurance data must stay in Qatar under 2022 MoPH guidance."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 13 of 2016 on Personal Data Privacy Protection, full text (Al Meezan)",
+     "url": "https://www.almeezan.qa/LawView.aspx?opt&LawID=7121&language=ar",
+     "date": "2016-12-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Amiri Decision No. 1 of 2021 establishing the National Cyber Security Agency (Al Meezan)",
+     "url": "https://www.almeezan.qa/LawArticles.aspx?LawTreeSectionID=19462&lawId=8560&language=ar",
+     "date": "2021-03-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Insurance data management guidance v1.0 (Ministry of Public Health)",
+     "url": "https://www.moph.gov.qa/_layouts/download.aspx?SourceUrl=/Admin/Lists/PublicationsAttachments/Attachments/227/QNHI-DATA-MANAGEMENT-ARB.pdf",
+     "date": "2022-12-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "NCSA issues binding decision against sports company after data breach (The Peninsula)",
+     "url": "https://thepeninsulaqatar.com/article/02/02/2026/national-cyber-security-agency-issues-binding-decision-against-sports-company-following-data-breach-incident",
+     "date": "2026-02-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 52,
+   "summary": "Direct marketing needs prior consent, and the 2025 health research law bans selling research samples or genetic data. No rule on health apps or data brokers was found.",
+   "detail": [
+    "Article 22 of the privacy law bans electronic direct marketing without prior consent and requires a working way to stop it.",
+    "Law No. 6 of 2025 forbids research bodies and researchers to dispose of samples or genetic data, paid or unpaid (Article 24). Violations carry up to five years in prison and fines up to QAR 1 million.",
+    "MoPH guidance limits insurance data processing to licensed bodies, requires masking and pseudonyms for secondary use, and bans moving insurance data out of Qatar.",
+    "Law No. 22 of 2021 bars insurers from owning health facilities. We found no rule on consumer health apps or data brokers."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 13 of 2016, Article 22 on direct marketing (Al Meezan)",
+     "url": "https://www.almeezan.qa/LawArticles.aspx?LawTreeSectionID=17487&lawId=7121&language=ar",
+     "date": "2016-12-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 6 of 2025 regulating health research (Al Meezan)",
+     "url": "https://almeezan.qa/LawView.aspx?opt&LawID=9956&language=ar",
+     "date": "2025-04-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National Health Insurance data management guidance v1.0 (Ministry of Public Health)",
+     "url": "https://www.moph.gov.qa/_layouts/download.aspx?SourceUrl=/Admin/Lists/PublicationsAttachments/Attachments/227/QNHI-DATA-MANAGEMENT-ARB.pdf",
+     "date": "2022-12-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Law No. 22 of 2021 regulating healthcare services in the State (Al Meezan)",
+     "url": "https://almeezan.qa/LawView.aspx?opt&LawID=8761&language=ar",
+     "date": "2021-11-04",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 57,
+   "summary": "HMC hospitals and PHCC health centres share one electronic record, and HMC lab equipment feeds it. The national exchange that would add private providers and insurance claims was still being built, and its live status was not verified.",
+   "detail": [
+    "HMC and PHCC say MyHealth shows one record regardless of which of the two delivered care.",
+    "HMC says its lab systems link diagnostic equipment to the electronic record. Its labs run more than 20 million tests a year.",
+    "MoPH guidance from December 2022 names the Qatar Health Information Exchange (QHIE) Hub as the single gateway for patient data, with claims in later phases. In April 2025 a source told Al Sharq that linking to it will become a licensing condition."
+   ],
+   "sources": [
+    {
+     "title": "MyHealth patient portal FAQs (Hamad Medical Corporation)",
+     "url": "https://hamad.qa/AR/Patient-Information/Patient-Portal/FAQs/Pages/default.aspx",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Health Insurance data management guidance v1.0 (Ministry of Public Health)",
+     "url": "https://www.moph.gov.qa/_layouts/download.aspx?SourceUrl=/Admin/Lists/PublicationsAttachments/Attachments/227/QNHI-DATA-MANAGEMENT-ARB.pdf",
+     "date": "2022-12-20",
+     "publisherClass": "official"
+    },
+    {
+     "title": "A national platform for health information exchange (Al Sharq)",
+     "url": "https://al-sharq.com/article/09/04/2025/%D8%AA%D8%A3%D9%83%D9%8A%D8%AF%D8%A7%D9%8B-%D9%84%D9%85%D8%A7-%D8%A7%D9%86%D9%81%D8%B1%D8%AF%D8%AA-%D8%A8%D9%87-%D8%A7%D9%84%D8%B4%D8%B1%D9%82..-%D9%85%D9%86%D8%B5%D8%A9-%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9",
+     "date": "2025-04-09",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Qatar accelerates digital healthcare drive with smart labs (Kuwait Times, KUNA)",
+     "url": "https://kuwaittimes.com/article/46498/kuwait/other-news/qatar-accelerates-digital-healthcare-drive-with-smart-labs/",
+     "date": "2026-07-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 54,
+   "summary": "Clinicians at HMC and PHCC work from one shared record covering reports, labs and medicines. Access for private clinicians and any emergency-access rules were not verified.",
+   "detail": [
+    "The official portal pages describe one record across HMC and PHCC, which indicates hospital and primary-care staff work from the same file. Clinician access rules were not published on the pages we opened.",
+    "Private hospitals and clinics are not shown as part of that record. The QHIE Hub that would let them see public data was not verified as live.",
+    "Decision 9 of 2022 lets patients choose or change their provider and ask for more than one opinion, which raises the need for records to move between providers."
+   ],
+   "sources": [
+    {
+     "title": "MyHealth patient portal (Primary Health Care Corporation)",
+     "url": "https://www.phcc.gov.qa/ar-qa/patient-portal",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "MyHealth patient portal FAQs (Hamad Medical Corporation)",
+     "url": "https://hamad.qa/AR/Patient-Information/Patient-Portal/FAQs/Pages/default.aspx",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "A national platform for health information exchange (Al Sharq)",
+     "url": "https://al-sharq.com/article/09/04/2025/%D8%AA%D8%A3%D9%83%D9%8A%D8%AF%D8%A7%D9%8B-%D9%84%D9%85%D8%A7-%D8%A7%D9%86%D9%81%D8%B1%D8%AF%D8%AA-%D8%A8%D9%87-%D8%A7%D9%84%D8%B4%D8%B1%D9%82..-%D9%85%D9%86%D8%B5%D8%A9-%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%A8%D8%A7%D8%AF%D9%84-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9",
+     "date": "2025-04-09",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Law No. 6 of 2025 requires written or electronic informed consent, a right to withdraw and licensed ethics committees for research on people. The privacy law still exempts public-interest research from consent and access rights, and no opt-out was found.",
+   "detail": [
+    "Law No. 6 of 2025 allows health research only through a licensed research institution with committee approval. Researchers must get informed consent, respect withdrawal and protect identity through encryption or masking.",
+    "A national ethics committee approves research bodies and biobanks, MoPH keeps registers of research, and a monitoring committee recommends sanctions. The 2026 executive regulation has 77 articles.",
+    "Article 19 of the privacy law exempts research done in the public interest from consent, objection and access rights. Whether research using only records needs consent was not verified.",
+    "Scored under the no-consent, no-opt-out rule with four safeguard classes, which reaches the 50 cap."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 6 of 2025 regulating health research (Al Meezan)",
+     "url": "https://almeezan.qa/LawView.aspx?opt&LawID=9956&language=ar",
+     "date": "2025-04-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law No. 13 of 2016, Chapter 5 exemptions (Al Meezan)",
+     "url": "https://www.almeezan.qa/LawArticles.aspx?LawTreeSectionID=17486&lawId=7121&language=ar",
+     "date": "2016-12-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Executive regulation of the health research law issued (Al Sharq)",
+     "url": "https://al-sharq.com/article/07/05/2026/%D8%B5%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9-%D8%A8%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+     "date": "2026-05-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "ai": {
+   "score": 40,
+   "summary": "Qatar's healthcare AI rules are non-binding research guidelines developed with MoPH, plus general AI ethics and security guidance. No rule for AI medical devices was found.",
+   "detail": [
+    "Between 2021 and 2024, HBKU researchers wrote Research Guidelines for Healthcare AI Development, with MoPH in an advisory role. The authors call them non-binding, and a certification process exists only in draft.",
+    "A 2024 legal review found no medical device registration requirement in Qatar, only an import permit, and no AI-specific device guidance.",
+    "A 2026 review describes Qatar's approach as emerging and focused on research guidelines. Qatar published general principles for ethical AI use in 2025."
+   ],
+   "sources": [
+    {
+     "title": "A True Lifecycle Approach towards governing healthcare AI (npj Digital Medicine)",
+     "url": "https://www.nature.com/articles/s41746-025-01614-1",
+     "date": "2025-06-05",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Regulating AI in health in the Middle East: Qatar, Saudi Arabia and the UAE (Edward Elgar)",
+     "url": "https://www.elgaronline.com/edcollchap-oa/book/9781802205657/ch19.xml",
+     "date": "2024-07-16",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "The strategic trajectory of AI in Qatar's healthcare sector (Frontiers in AI)",
+     "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1702242/full",
+     "date": "2026-01-27",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Qatar AI and technology developments (US International Trade Administration)",
+     "url": "https://www.trade.gov/market-intelligence/qatar-artificial-intelligence-ai-and-technology-developments",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "partial",
+  "publicHealth": "unknown",
+  "research": "partial"
+ },
+ "journeyNote": "HMC hospitals and PHCC centres share one record, including HMC labs. Private hospitals, clinics, pharmacies and insurance claims wait on the QHIE Hub, which was not verified as live.",
+ "laws": [
+  {
+   "name": "Law No. 13 of 2016 on Personal Data Privacy Protection",
+   "level": "National",
+   "year": "2016",
+   "what": "Access and copy rights, health as special data needing a permit, breach notice, fines up to QAR 5 million.",
+   "url": "https://www.almeezan.qa/LawView.aspx?opt&LawID=7121&language=ar"
+  },
+  {
+   "name": "Minister of Public Health Decision No. 9 of 2022 on patients' rights",
+   "level": "National",
+   "year": "2022",
+   "what": "Consent to view the medical file, choice of provider, right to a medical report on request.",
+   "url": "https://almeezan.qa/LawView.aspx?opt&LawID=8946&language=ar"
+  },
+  {
+   "name": "Law No. 6 of 2025 regulating health research",
+   "level": "National",
+   "year": "2025",
+   "what": "Licensed research bodies, informed consent and withdrawal, data protection duties, ban on selling samples or genetic data.",
+   "url": "https://almeezan.qa/LawView.aspx?opt&LawID=9956&language=ar"
+  },
+  {
+   "name": "Law No. 22 of 2021 regulating healthcare services in the State",
+   "level": "National",
+   "year": "2021",
+   "what": "Mandatory health insurance for expatriates and visitors; prison and fines for disclosing secrets.",
+   "url": "https://almeezan.qa/LawView.aspx?opt&LawID=8761&language=ar"
+  },
+  {
+   "name": "Amiri Decision No. 1 of 2021 establishing the National Cyber Security Agency",
+   "level": "National",
+   "year": "2021",
+   "what": "Creates the agency under the Prime Minister and tasks it with enforcing data privacy law.",
+   "url": "https://www.almeezan.qa/LawArticles.aspx?LawTreeSectionID=19462&lawId=8560&language=ar"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-02-02",
+   "headline": "Cyber agency orders sports company to fix security after data breach",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/02/02/2026/national-cyber-security-agency-issues-binding-decision-against-sports-company-following-data-breach-incident",
+   "why": "Shows the privacy regulator acting on breaches, though with fixes, not fines."
+  },
+  {
+   "date": "2026-02-08",
+   "headline": "Health ministry awards national medical image sharing project",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/08/02/2026/abam-moph-launch-qatar-national-digital-image-sharing-project",
+   "why": "Scans could follow patients between hospitals once the platform is built."
+  },
+  {
+   "date": "2026-04-29",
+   "headline": "Ministry opens portal for private providers to comment on draft health rules",
+   "source": "The Peninsula",
+   "url": "https://thepeninsulaqatar.com/article/29/04/2026/minister-of-public-health-inaugurates-second-forum-on-regulating-healthcare-in-private-health-sector",
+   "why": "Private providers sit outside the shared public record; new rules will shape their duties."
+  },
+  {
+   "date": "2026-05-07",
+   "headline": "Cabinet issues executive regulation and ethics committee for health research law",
+   "source": "Al Sharq",
+   "url": "https://al-sharq.com/article/07/05/2026/%D8%B5%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9-%D8%A8%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+   "why": "Puts consent and licensing rules for research on people into force."
+  },
+  {
+   "date": "2026-07-14",
+   "headline": "Hamad labs link equipment to electronic records, run 20 million tests yearly",
+   "source": "Kuwait Times (KUNA)",
+   "url": "https://kuwaittimes.com/article/46498/kuwait/other-news/qatar-accelerates-digital-healthcare-drive-with-smart-labs/",
+   "why": "Lab results reach the shared record that patients see in MyHealth."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

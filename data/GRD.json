@@ -1,0 +1,304 @@
+{
+  "iso3": "GRD",
+  "name": "Grenada",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Grenada passed a Data Protection Act in 2023 but has not switched it on, so patients still have no enforceable right over their health records.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 25,
+      "summary": "The Data Protection Act 2023 would give a right to see personal data within 60 days for a fee, but it is not in force, so no enforceable right exists. There is no patient portal, and the hospital records process was not verified.",
+      "detail": [
+        "Section 15 of the Act lets a person ask a public or private body for their personal data, for a processing fee capped by the Minister. Section 16 sets 30 days to answer and 60 days to give access, with possible extensions.",
+        "Section 1(2) says the Act starts on a day the Minister appoints by Gazette order. A June 2025 article by a data protection adviser and a law firm founder says no order had been made. A June 2026 review says the same.",
+        "Even once in force, section 22 lets a body withhold health data if access would likely cause serious harm, and the Act defines personal data around commercial transactions.",
+        "No national patient portal was found. How the General Hospital handles requests for copies was not verified. The score sits in the 15 to 35 band for no enforceable right."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Bill, 2023, with House of Representatives amendments (Parliament of Grenada)",
+          "url": "https://grenadaparliament.gd/wp-content/uploads/2023/03/Data-Protection-Bill-2023-8-3-23-with-HOR-amendments-Final.pdf",
+          "date": "2023-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Financial institutions must brace for banking data protection demands (NOW Grenada)",
+          "url": "https://nowgrenada.com/2025/06/financial-institutions-must-brace-for-banking-data-protection-demands/",
+          "date": "2025-06-27",
+          "publisherClass": "news"
+        },
+        {
+          "title": "What is AI regulation in Grenada? (Levellers)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-grenada",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "control": {
+      "score": 25,
+      "summary": "With the Data Protection Act not in force, patients have no legal say over who sees or shares their health records. The Act, once started, would still let health professionals process health data for medical purposes without written consent.",
+      "detail": [
+        "Section 21 of the Act would require written consent for sensitive data, which includes physical or mental health. It also allows processing without consent for medical purposes by a healthcare professional or anyone with an equal duty of confidentiality.",
+        "Section 21 also lets processing go ahead for any state function, or for any other purpose the Minister thinks fit.",
+        "No opt-out from record sharing and no patient-visible access log were found. The ministry has no shared clinical record yet, so sharing happens facility by facility.",
+        "The score sits in the 20 to 35 band for records handled without individual choice or a log."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Bill, 2023, with House of Representatives amendments (Parliament of Grenada)",
+          "url": "https://grenadaparliament.gd/wp-content/uploads/2023/03/Data-Protection-Bill-2023-8-3-23-with-HOR-amendments-Final.pdf",
+          "date": "2023-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Minister gives full support for Project Polaris (The New Today)",
+          "url": "https://www.thenewtodaygrenada.com/local-news/health-minister-gives-full-support-for-project-polaris/",
+          "date": "2026-04-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 30,
+      "summary": "Health data is sensitive data under the 2023 Act, with fines up to EC$200,000 or two years in prison for misuse, but the Act is not in force and its Information Commission does not exist. The Electronic Crimes Act 2013 punishes unauthorised access to computer data.",
+      "detail": [
+        "The Act lists physical or mental health, genetic and biometric data as sensitive. Breaking the sensitive-data rule carries up to EC$200,000 or two years in prison on indictment. No specific breach notification duty was found in the text.",
+        "The Act sets up a three-member Information Commission. A June 2026 review says it has not been formed because the Act has not started.",
+        "The US State Department's 2026 statement says laws on data protection have not reached the legislative agenda, which overlooks the 2023 Act but confirms no working regime.",
+        "No health-sector breach or enforcement case was found. The score sits below the 45 to 66 general-law band because no general law operates."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Bill, 2023, with House of Representatives amendments (Parliament of Grenada)",
+          "url": "https://grenadaparliament.gd/wp-content/uploads/2023/03/Data-Protection-Bill-2023-8-3-23-with-HOR-amendments-Final.pdf",
+          "date": "2023-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "2026 Investment Climate Statement: Grenada (US Department of State)",
+          "url": "https://www.state.gov/wp-content/uploads/2026/09/701264_2026-Grenada-Investment-Climate-Statement.pdf",
+          "date": "2026-09",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Electronic Crimes Act, No. 23 of 2013 (Parliament of Grenada)",
+          "url": "https://grenadaparliament.gd/wp-content/uploads/2021/08/Act-No.-23-of-2013-Electronic-Crimes-Act.pdf",
+          "date": "2013",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "What is AI regulation in Grenada? (Levellers)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-grenada",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 25,
+      "summary": "No law in force stops health data being sold or used for marketing. The 2023 Act would bar disclosure beyond the original purpose without consent, but it has not started.",
+      "detail": [
+        "Section 9 of the Act would forbid disclosing personal data, without consent, for any purpose other than the one it was collected for, or to parties outside the classes the person was told about.",
+        "Until a commencement order is made, these limits bind no one. No rules on health apps, data brokers or de-identified data sales were found.",
+        "A 2025 banking bill would add privacy duties for banks and credit unions only. It was withdrawn from Parliament in June 2025 and does not cover health data."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Bill, 2023, with House of Representatives amendments (Parliament of Grenada)",
+          "url": "https://grenadaparliament.gd/wp-content/uploads/2023/03/Data-Protection-Bill-2023-8-3-23-with-HOR-amendments-Final.pdf",
+          "date": "2023-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Financial institutions must brace for banking data protection demands (NOW Grenada)",
+          "url": "https://nowgrenada.com/2025/06/financial-institutions-must-brace-for-banking-data-protection-demands/",
+          "date": "2025-06-27",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 25,
+      "summary": "Grenada uses DHIS2 for weekly disease reporting and a cancer registry, but has no shared patient record. In April 2026 the health minister said integrated health information systems were still under serious consideration.",
+      "detail": [
+        "PAHO reports a lab information system from 2012, a networked General Hospital from 2013 and digitised hospital records from 2015. Whether that hospital system still runs today was not verified.",
+        "The 2026 budget says the ministry has begun digitising patient records. In April 2026 the minister listed weekly DHIS2 reporting on communicable diseases and arboviruses.",
+        "A CARICOM notice closing in March 2026 sought a review of the DHIS2 cancer module the ministry uses for its cancer registry.",
+        "National health insurance is still being designed, with its law planned for 2026, so no national claims system exists."
+      ],
+      "sources": [
+        {
+          "title": "Grenada aims to strengthen health information systems (PAHO IS4H blog)",
+          "url": "https://www.paho.org/en/information-systems-health-is4h-blog/grenada-aims-strengthen-health-information-systems",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Government of Grenada 2026 Budget Statement (hosted by NOW Grenada)",
+          "url": "https://nowgrenada.com/wp-content/uploads/2025/12/Budget-Statement-2026.pdf",
+          "date": "2025-12-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Consultancy to evaluate the DHIS2 Cancer Module, Ministry of Health, Grenada (CARICOM)",
+          "url": "https://caricom.org/procurement/request-for-expressions-of-interestconsulting-services-firms-selection/",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Health Minister gives full support for Project Polaris (The New Today)",
+          "url": "https://www.thenewtodaygrenada.com/local-news/health-minister-gives-full-support-for-project-polaris/",
+          "date": "2026-04-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 20,
+      "summary": "No shared record lets a clinician see a patient's history across Grenada's hospitals and health centres. PAHO notes that retrieving older records is manual and slow, and pharmacists log dispensing on paper forms.",
+      "detail": [
+        "The PAHO project page says the current process for retrieving historical health records is manual and time consuming, and a scanning project aims to let doctors reach older records.",
+        "The Pharmacy Act requires pharmacists to record prescription drugs dispensed on forms supplied by the Pharmacy Council. No e-prescription system was found.",
+        "The minister described integrated health information systems and telemedicine as under serious consideration in April 2026, not in use."
+      ],
+      "sources": [
+        {
+          "title": "Grenada aims to strengthen health information systems (PAHO IS4H blog)",
+          "url": "https://www.paho.org/en/information-systems-health-is4h-blog/grenada-aims-strengthen-health-information-systems",
+          "date": "undated",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Pharmacy Act, Chapter 241 (Parliament of Grenada)",
+          "url": "https://grenadaparliament.gd/wp-content/uploads/2021/08/Cap241-PHARMACY-ACT.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Minister gives full support for Project Polaris (The New Today)",
+          "url": "https://www.thenewtodaygrenada.com/local-news/health-minister-gives-full-support-for-project-polaris/",
+          "date": "2026-04-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "No law in force governs research use of health records, and there is no opt-out. One safeguard counts: a research ethics committee for Grenada, described in 2001 and listed among Eastern Caribbean committees in 2017; how it works today was not verified.",
+      "detail": [
+        "Section 22 of the 2023 Act would exempt research and statistics from its consent, notice and disclosure rules, as long as results do not identify anyone. The Act is not in force.",
+        "A 2001 paper by a St. George's University author describes setting up an institutional research ethics committee in Grenada and the Ministry of Health's role in founding one. A 2017 paper lists \"the REC for Grenada\" among the region's ethics committees.",
+        "No clinical trials law, trial registry or public register of data uses was found."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Bill, 2023, with House of Representatives amendments (Parliament of Grenada)",
+          "url": "https://grenadaparliament.gd/wp-content/uploads/2023/03/Data-Protection-Bill-2023-8-3-23-with-HOR-amendments-Final.pdf",
+          "date": "2023-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Research ethics committee: getting started (West Indian Medical Journal, PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11769020/",
+          "date": "2001-09",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Research in epidemic and emergency situations: a model for collaboration and expediting ethics review in two Caribbean countries (Developing World Bioethics, PMC)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6586066/",
+          "date": "2017-07-28",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "Grenada has no AI law, regulator or national AI strategy, and no rules for clinical AI were found. The health minister said in April 2026 that AI in health was under serious consideration.",
+      "detail": [
+        "A June 2026 review found no AI statute, no AI regulator and no national AI strategy, and notes regional AI work by CARICOM's telecoms union is advisory only.",
+        "No medical device regulator covering software or AI was found. This is a secondary finding; no official source confirmed or contradicted it.",
+        "The minister listed AI alongside telemedicine and integrated systems as investments under consideration, with no policy published."
+      ],
+      "sources": [
+        {
+          "title": "What is AI regulation in Grenada? (Levellers)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-grenada",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Health Minister gives full support for Project Polaris (The New Today)",
+          "url": "https://www.thenewtodaygrenada.com/local-news/health-minister-gives-full-support-for-project-polaris/",
+          "date": "2026-04-04",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Hospital and lab systems exist but no shared record links them to clinics. Pharmacies log on paper forms. Surveillance and the cancer registry use DHIS2. No national claims system. Not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Data Protection Act, No. 1 of 2023",
+      "level": "National",
+      "year": "2023",
+      "what": "Gives access rights and treats health data as sensitive; not in force, awaiting a ministerial commencement order.",
+      "url": "https://grenadaparliament.gd/wp-content/uploads/2023/03/Data-Protection-Bill-2023-8-3-23-with-HOR-amendments-Final.pdf"
+    },
+    {
+      "name": "Electronic Crimes Act, No. 23 of 2013",
+      "level": "National",
+      "year": "2013",
+      "what": "Makes unauthorised access to computer systems and copying of data a criminal offence.",
+      "url": "https://grenadaparliament.gd/wp-content/uploads/2021/08/Act-No.-23-of-2013-Electronic-Crimes-Act.pdf"
+    },
+    {
+      "name": "Pharmacy Act, Chapter 241 (Act No. 25 of 1987, as amended)",
+      "level": "National",
+      "year": "1987",
+      "what": "Sets up the Pharmacy Council; requires dispensing records on Council forms for inspection.",
+      "url": "https://grenadaparliament.gd/wp-content/uploads/2021/08/Cap241-PHARMACY-ACT.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-01",
+      "headline": "2026 budget says patient records digitisation has begun, health insurance law next",
+      "source": "NOW Grenada",
+      "url": "https://nowgrenada.com/2025/12/government-of-grenada-2026-budget-statement/",
+      "why": "Records are going digital while no data protection law is in force."
+    },
+    {
+      "date": "2026-04-04",
+      "headline": "Health minister says integrated health systems and AI are under consideration",
+      "source": "The New Today",
+      "url": "https://www.thenewtodaygrenada.com/local-news/health-minister-gives-full-support-for-project-polaris/",
+      "why": "Confirms there is still no shared patient record across facilities."
+    },
+    {
+      "date": "2026-05-21",
+      "headline": "First public health datathon maps data flows, interoperability and governance gaps",
+      "source": "PAHO",
+      "url": "https://www.paho.org/en/news/21-5-2026-grenada-advances-strategic-use-data-strengthen-public-health",
+      "why": "The ministry is looking at how patient data moves between services."
+    },
+    {
+      "date": "2026-09-15",
+      "headline": "Health workers trained on new online disease surveillance guidelines",
+      "source": "PAHO",
+      "url": "https://www.paho.org/en/news/15-9-2026-grenada-strengthens-disease-surveillance-new-online-national-guidelines",
+      "why": "Sets one national route for reporting patient cases to public health."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

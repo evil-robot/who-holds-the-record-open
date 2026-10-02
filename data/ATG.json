@@ -1,0 +1,142 @@
+{
+  "iso3": "ATG",
+  "name": "Antigua and Barbuda",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Antigua and Barbuda is digitising its main hospital, but patients have no portal and the privacy regulator still has no office.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 35,
+      "summary": "The Data Protection Act 2013 gives a right to a copy within 30 days, for a prescribed fee, but defines personal data around commercial transactions. There is no patient portal, so access means a written request to each provider.",
+      "detail": [
+        "Sections 12 to 15 of the Data Protection Act 2013 require a public or private body, on a written request and the prescribed fee, to answer within 30 days and let the person examine or copy their data. The deadline can be extended by up to 30 more days.",
+        "The Act defines personal data as information in respect of commercial transactions. Whether this covers records at public hospitals and clinics was not verified in any ruling or guidance.",
+        "Health data can be withheld where access would likely cause serious harm to the patient or another person (section 19).",
+        "The Medical Council Code of Ethics says providers own records but patients have a right of access. No patient portal, national or hospital, was found."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2013 (No. 10 of 2013), Laws of Antigua and Barbuda", "url": "https://laws.gov.ag/wp-content/uploads/2019/02/a2013-10.pdf", "date": "2013-11-07", "publisherClass": "legal_text"},
+        {"title": "Code of Ethics in the Practice of Medicine (Antigua and Barbuda Medical Council)", "url": "http://www.antiguabarbudamedicalcouncil.com/wp-content/uploads/2020/04/Medical-Council-Code-of-EthicsPDF.pdf", "date": "undated", "publisherClass": "official"}
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "The Act requires explicit consent for health data but exempts processing for medical purposes by health professionals. No opt-out from record sharing and no patient-visible access log were found as the clinics move to one shared system.",
+      "detail": [
+        "Section 18 lets sensitive data, including physical or mental health, be processed only with explicit consent or under listed exceptions. One exception covers medical purposes carried out by a healthcare professional, which includes care and managing health services.",
+        "Section 17 allows disclosure without consent for crime prevention, investigations, any legal requirement, or a public interest set by the Minister.",
+        "The Medical Council code says the patient's consent should be sought before sharing medical information, but allows sharing with other providers to support care.",
+        "In October 2025 the health ministry said clinic records would be visible at any public clinic. No opt-out, granular choice or access log was described."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2013 (No. 10 of 2013), Laws of Antigua and Barbuda", "url": "https://laws.gov.ag/wp-content/uploads/2019/02/a2013-10.pdf", "date": "2013-11-07", "publisherClass": "legal_text"},
+        {"title": "Code of Ethics in the Practice of Medicine (Antigua and Barbuda Medical Council)", "url": "http://www.antiguabarbudamedicalcouncil.com/wp-content/uploads/2020/04/Medical-Council-Code-of-EthicsPDF.pdf", "date": "undated", "publisherClass": "official"},
+        {"title": "Health Records to Go Digital Across All Clinics, Joseph Announces (Antigua Newsroom)", "url": "https://antiguanewsroom.com/health-records-to-go-digital-across-all-clinics-joseph-announces/", "date": "2025-10-10", "publisherClass": "news"}
+      ]
+    },
+    "privacy": {
+      "score": 42,
+      "summary": "Health data is sensitive under the 2013 Act, and unlawful processing can bring a fine of up to EC$200,000 or three years in prison. But the Act has no breach notification duty, and the Information Commissioner appointed in 2024 still had no office in June 2026.",
+      "detail": [
+        "Section 18 makes processing sensitive data, including health, outside the listed conditions an offence, with a fine of up to 200,000 dollars, up to three years in prison, or both. Companies face fines up to 500,000 dollars on indictment.",
+        "No breach notification duty or data localisation rule appears in the Act. A security principle requires practical steps against loss and unauthorised access.",
+        "The Information Commissioner under the Freedom of Information Act 2004 enforces the Act and is legally independent. Anthony Athill was approved in 2024, but the Antiguan Herald reported in June 2026 that his office had not been set up.",
+        "No health data breach and no enforcement decision on health data were found, so the score rests on the general law. It sits below the usual 45 to 66 band because the regulator has no office and there is no breach duty."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2013 (No. 10 of 2013), Laws of Antigua and Barbuda", "url": "https://laws.gov.ag/wp-content/uploads/2019/02/a2013-10.pdf", "date": "2013-11-07", "publisherClass": "legal_text"},
+        {"title": "Freedom of Information Act, 2004 (No. 19 of 2004), OAS copy", "url": "http://www.oas.org/es/sla/ddi/docs/AB2%20Freedom%20of%20Information%20Act.pdf", "date": "2004-12-23", "publisherClass": "legal_text"},
+        {"title": "2026 Investment Climate Statements: Antigua and Barbuda (US Department of State)", "url": "https://www.state.gov/reports/2026-investment-climate-statements/antigua-and-barbuda/", "date": "2026", "publisherClass": "official"},
+        {"title": "Information Commissioner Still Without Office Nearly Two Years After Appointment (Antiguan Herald)", "url": "https://antiguaherald.com/articles/2026/06/18/information-commissioner-still-without-office-nearly-two-years-after-appointment.html", "date": "2026-06-18", "publisherClass": "news"}
+      ]
+    },
+    "commercial": {
+      "score": 42,
+      "summary": "The 2013 Act bars disclosing personal data beyond its original purpose without consent and requires explicit consent for health data. No rules on health apps, data brokers or sale of de-identified data were found, and no enforcement record exists.",
+      "detail": [
+        "Section 7 bars disclosure for a new purpose or to an undeclared class of third parties without the person's consent. Section 22 makes intentional disclosure in breach of the Act an offence.",
+        "Health data needs explicit consent for uses outside the section 18 exceptions, so selling it or using it for marketing would need consent.",
+        "The Act has no clause that bans the sale of personal data outright, and no rules aimed at consumer health apps or data brokers were found.",
+        "With the regulator lacking an office, no enforcement on commercial use of health data was found."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2013 (No. 10 of 2013), Laws of Antigua and Barbuda", "url": "https://laws.gov.ag/wp-content/uploads/2019/02/a2013-10.pdf", "date": "2013-11-07", "publisherClass": "legal_text"}
+      ]
+    },
+    "journey": {
+      "score": 28,
+      "summary": "The main public hospital launched a hospital information system and began moving its emergency department to paperless records in November 2025. A shared record for public clinics was announced in October 2025 but is not yet shown to be live, and insurance claims still run on paper receipts.",
+      "detail": [
+        "Sir Lester Bird Medical Centre began moving its emergency department to a fully digital, paperless system in November 2025. In February 2026 staff said a hospital information system had launched and patient records were being digitised.",
+        "In October 2025 the health ministry said public clinics would use one software system, linking lab results and doctor reports, under a PAHO-supported programme. A go-live date was not verified.",
+        "DHIS2 runs at the main hospital and Jennings Health Center. HIV case-based surveillance has been electronic since 2008.",
+        "The Medical Benefits Scheme asks members to bring original paper receipts to claim."
+      ],
+      "sources": [
+        {"title": "Digital Transformation Framework, background (Government of Antigua and Barbuda)", "url": "https://ab.gov.ag/digitaltransformation/index.php?page=8", "date": "undated", "publisherClass": "official"},
+        {"title": "Strengthened health information systems in Antigua and Barbuda (PAHO IS4H)", "url": "https://www.paho.org/en/ish/all-stories/strengthened-health-information-systems-antigua-and-barbuda-are-helping-combat", "date": "undated", "publisherClass": "intergov"},
+        {"title": "Applying for Benefits (Medical Benefits Scheme)", "url": "https://www.mbs.gov.ag/v2/applying-for-benefits/", "date": "undated", "publisherClass": "official"},
+        {"title": "SLBMC Emergency Department Begins Transition to Fully Digital, Paperless System (Antigua.news)", "url": "https://antigua.news/2025/11/28/slbmc-emergency-department-begins-transition-to-fully-digital-paperless-system/", "date": "2025-11-28", "publisherClass": "news"}
+      ]
+    },
+    "clinical": {
+      "score": 25,
+      "summary": "Clinicians at the main hospital are moving onto one digital system, but clinic, private and hospital records are not yet linked. The minister described cross-clinic access to lab results and doctor reports as a plan, not a working service.",
+      "detail": [
+        "The Medical Council code allows sharing patient information with other providers to support care, so the legal basis for clinical sharing exists.",
+        "Inside Sir Lester Bird Medical Centre, the emergency department and hospital information system now hold records digitally, and staff said all patient records are being digitised (Antigua Observer, February 2026).",
+        "In October 2025 the minister said a doctor in one clinic would be able to see results from another and that hospitals would communicate. Whether clinics are connected today was not verified.",
+        "No link between private practices and the public system was found."
+      ],
+      "sources": [
+        {"title": "Code of Ethics in the Practice of Medicine (Antigua and Barbuda Medical Council)", "url": "http://www.antiguabarbudamedicalcouncil.com/wp-content/uploads/2020/04/Medical-Council-Code-of-EthicsPDF.pdf", "date": "undated", "publisherClass": "official"},
+        {"title": "Sir Lester Bird Medical Centre gets major connectivity boost (Antigua Observer)", "url": "https://antiguaobserver.com/sir-lester-bird-medical-centre-gets-major-connectivity-boost/", "date": "2026-02-20", "publisherClass": "news"},
+        {"title": "Health Records to Go Digital Across All Clinics, Joseph Announces (Antigua Newsroom)", "url": "https://antiguanewsroom.com/health-records-to-go-digital-across-all-clinics-joseph-announces/", "date": "2025-10-10", "publisherClass": "news"}
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "The 2013 Act exempts research and statistics from its consent rules as long as results do not identify anyone, and there is no opt-out. The Medical Council follows WMA research ethics, and the main hospital reconstituted its ethics committee in January 2025.",
+      "detail": [
+        "Section 19 exempts data processed for statistics or research from the consent, notice, disclosure and access principles, if it is used for nothing else and results do not identify the person. Section 18 also lists medical research as a medical purpose.",
+        "The Medical Council accepts the World Medical Association guidelines and expects voluntary informed consent from research participants. This is an ethics code, not a trials law.",
+        "Sir Lester Bird Medical Centre reconstituted its ethics committee in January 2025, covering medical research. A national research ethics committee was not verified.",
+        "No opt-out and no public register of research uses were found."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2013 (No. 10 of 2013), Laws of Antigua and Barbuda", "url": "https://laws.gov.ag/wp-content/uploads/2019/02/a2013-10.pdf", "date": "2013-11-07", "publisherClass": "legal_text"},
+        {"title": "Code of Ethics in the Practice of Medicine (Antigua and Barbuda Medical Council)", "url": "http://www.antiguabarbudamedicalcouncil.com/wp-content/uploads/2020/04/Medical-Council-Code-of-EthicsPDF.pdf", "date": "undated", "publisherClass": "official"},
+        {"title": "Sir Lester Bird Medical Centre Reconstitutes Ethics Committee Under New Leadership (Antigua.news)", "url": "https://antigua.news/2025/01/23/sir-lester-bird-medical-centre-reconstitutes-ethics-committee-under-new-leadership/", "date": "2025-01-23", "publisherClass": "news"}
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "No law, guidance or device rule for clinical AI was found. A UNESCO-backed AI readiness report launched in June 2025, and the ICT minister called for an ethical AI framework, but none has been adopted.",
+      "detail": [
+        "In June 2025 the ICT ministry and UNESCO launched an AI Readiness Assessment Report. The minister said AI should help deliver health services and called for a guiding framework for ethical use.",
+        "Oxford Insights ranked Antigua and Barbuda 154th of 195 in its 2025 Government AI Readiness Index (Antiguan Herald, April 2026).",
+        "No medical device regulator or software-as-a-device rule was found. Its absence was not verified with the ministry."
+      ],
+      "sources": [
+        {"title": "Antigua and Barbuda Unveils Landmark AI Readiness Assessment Report (UNESCO)", "url": "https://www.unesco.org/en/articles/antigua-and-barbuda-unveils-landmark-ai-readiness-assessment-report", "date": "2025-07-01", "publisherClass": "intergov"},
+        {"title": "Antigua and Barbuda Ranks 154th in Global AI Readiness as Region Lags Behind (Antiguan Herald)", "url": "https://antiguaherald.com/articles/2026/04/30/antigua-and-barbuda-ranks-154th-in-global-ai-readiness-as-region-lags-behind.html", "date": "2026-04-30", "publisherClass": "news"}
+      ]
+    }
+  },
+  "journey": {"primaryCare": "siloed", "hospital": "partial", "labs": "partial", "pharmacy": "unknown", "claims": "siloed", "publicHealth": "partial", "research": "unknown"},
+  "journeyNote": "The main hospital is going digital and clinics are promised one shared system; no live link was verified. Claims use paper receipts. Public health runs DHIS2. Not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {"name": "Data Protection Act, 2013 (No. 10 of 2013)", "level": "National", "year": "2013", "what": "Access within 30 days for a fee; health is sensitive data; explicit consent or listed exceptions; no breach notice.", "url": "https://laws.gov.ag/wp-content/uploads/2019/02/a2013-10.pdf"},
+    {"name": "Freedom of Information Act, 2004 (No. 19 of 2004)", "level": "National", "year": "2004", "what": "Creates the independent Information Commissioner, who also enforces the Data Protection Act.", "url": "http://www.oas.org/es/sla/ddi/docs/AB2%20Freedom%20of%20Information%20Act.pdf"},
+    {"name": "Antigua and Barbuda Medical Council Code of Ethics", "level": "National", "year": "undated", "what": "Doctors' confidentiality duty, patient right of access to records, and informed consent for research.", "url": "http://www.antiguabarbudamedicalcouncil.com/wp-content/uploads/2020/04/Medical-Council-Code-of-EthicsPDF.pdf"}
+  ],
+  "news": [
+    {"date": "2025-10-10", "headline": "Health ministry plans one digital record system across all public clinics", "source": "Antigua Newsroom", "url": "https://antiguanewsroom.com/health-records-to-go-digital-across-all-clinics-joseph-announces/", "why": "Patients would stop repeating their history, but no consent or opt-out rules were announced."},
+    {"date": "2025-11-28", "headline": "Main hospital emergency department starts moving to a paperless system", "source": "Antigua.news", "url": "https://antigua.news/2025/11/28/slbmc-emergency-department-begins-transition-to-fully-digital-paperless-system/", "why": "Emergency records become digital at the country's only tertiary hospital."},
+    {"date": "2026-02-20", "headline": "Hospital says it launched an information system and is digitising patient records", "source": "Antigua Observer", "url": "https://antiguaobserver.com/sir-lester-bird-medical-centre-gets-major-connectivity-boost/", "why": "Old paper records move into a digital system, raising security stakes."},
+    {"date": "2026-06-18", "headline": "Information Commissioner still has no office two years after approval", "source": "Antiguan Herald", "url": "https://antiguaherald.com/articles/2026/06/18/information-commissioner-still-without-office-nearly-two-years-after-appointment.html", "why": "The only body that enforces data protection cannot fully function."},
+    {"date": "2026-07-17", "headline": "Government signs telemedicine deal linking patients to specialists in China", "source": "Antigua.news", "url": "https://antigua.news/2026/07/17/antigua-and-barbuda-explores-partnership-with-zhejiang-peoples-hospital-to-boost-healthcare-services/", "why": "Patient data may cross borders; no data protection terms were published."}
+  ],
+  "asOf": "2026-10-01"
+}

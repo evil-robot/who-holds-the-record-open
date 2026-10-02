@@ -1,0 +1,323 @@
+{
+ "iso3": "GMB",
+ "name": "The Gambia",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "The Gambia passed its first data protection law in 2025, but most patient records are still on paper and no shared record exists.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "The 2025 Act gives a free copy of your personal data within one month, which covers medical files. Free with a deadline adds 5 to the base of 45, but the deadline can stretch to two months and the new regulator has no enforcement record, so 45.",
+   "detail": [
+    "Section 9 of the 2024 bill text gives a right to confirmation, the source and recipients of your data, and a copy. The copy must be free, in intelligible form, within one month, extendable by one more month. A fee is allowed only for manifestly excessive requests.",
+    "A law firm review co-written by the Ministry of Communications ICT director says the enacted Act, assented on 7 November 2025, gives access within one month and has no grace period. We did not open the enacted text itself, so its exact wording is not verified.",
+    "Section 20 of the bill makes it an offence to alter, destroy or hide personal data to stop a person from seeing it.",
+    "There is no national patient portal. The main teaching hospital's website shows a 'Patient Portal' login, but what it shows and how many people use it is not verified. A 2026 study of that hospital found mainly paper records."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection and Privacy Bill, 2024 (National Assembly bill text)",
+     "url": "https://assembly.gm/bills/364/download/1",
+     "date": "2024",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Key features of the Gambian Personal Data Protection and Privacy Act (African Law & Business)",
+     "url": "https://www.africanlawbusiness.com/expert-views/key-features-of-the-gambian-personal-data-protection-and-privacy-act/",
+     "date": "2026-02-09",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Edward Francis Small Teaching Hospital home page",
+     "url": "https://efsth.gm/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Assessing the Current State of Digitalisation at the Edward Francis Small Teaching Hospital (AKSU Journal of Administration and Corporate Governance)",
+     "url": "https://aksujacog.org.ng/articles/26/01/assessing-the-current-state-of-digitalisation-at-the-edward-francis-small-teaching-hospital-efsth-the-gambia/aksujacog_06_01_02.pdf",
+     "date": "2026-01",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Where consent is used it must be specific and can be withdrawn, but health data may be processed without consent for managing health services. With no shared record there is no opt-out setting or access log for patients to use.",
+   "detail": [
+    "Section 8 of the bill says consent must be freely given, specific to each purpose, and can be withdrawn at any time. Section 11 lets a person object to processing based on their situation, unless the controller shows overriding grounds.",
+    "Section 6 allows health data to be processed without consent when needed for managing health services or under a contract with a health professional, subject to professional secrecy. Epidemic control and research are also listed exceptions.",
+    "Records sit with each hospital or clinic, mostly on paper. There is no national record, so no patient-facing sharing controls or access log exist. Decisions about records stay with the provider."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection and Privacy Bill, 2024 (National Assembly bill text)",
+     "url": "https://assembly.gm/bills/364/download/1",
+     "date": "2024",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Key features of the Gambian Personal Data Protection and Privacy Act (African Law & Business)",
+     "url": "https://www.africanlawbusiness.com/expert-views/key-features-of-the-gambian-personal-data-protection-and-privacy-act/",
+     "date": "2026-02-09",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Health data is a special category under the 2025 Act, with 72-hour breach notice to the regulator and fines up to 5% of gross income. No health-sector cases were found, so this scores a new law with no enforcement record yet.",
+   "detail": [
+    "The bill lists health, genetic and biometric data as special categories. Section 32 requires notice to the Commission within 72 hours of a breach, and section 33 requires notice to people when the risk is high. Hiding a breach is an offence under section 21.",
+    "According to African Law & Business, the top penalty for a company is the greater of GMD 1,000,000 or 5% of the previous year's gross income. Selling personal data can bring up to ten years in prison under section 17.",
+    "The Information Commission, set up under the Access to Information Act 2021, is the regulator. The bill says it acts with complete independence. It joined the African data protection network NADPA-RAPDP in 2026.",
+    "Section 36 allows exceptions for national security, defence, public safety, crime and other public interest objectives, if set by law and proportionate. The Gambia is outside the EU, so the EHDS does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection and Privacy Bill, 2024 (National Assembly bill text)",
+     "url": "https://assembly.gm/bills/364/download/1",
+     "date": "2024",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Key features of the Gambian Personal Data Protection and Privacy Act (African Law & Business)",
+     "url": "https://www.africanlawbusiness.com/expert-views/key-features-of-the-gambian-personal-data-protection-and-privacy-act/",
+     "date": "2026-02-09",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Information Commission of The Republic of The Gambia",
+     "url": "https://informationcommission.gm/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Info Commission attains full NADPA-RAPDP membership (The Point)",
+     "url": "https://thepoint.gm/africa/gambia/headlines/info-commission-attains-full-nadpa-rapdp-membership",
+     "date": "2026-06-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 48,
+   "summary": "The 2025 Act makes selling personal data, or offering it for sale, a crime with up to ten years in prison. We found no health-specific rule on health apps, data brokers or de-identified data, and no enforcement.",
+   "detail": [
+    "Section 17 of the bill punishes anyone who sells, offers to sell, or advertises personal data for sale. Individuals face fines up to two million dalasis, prison up to ten years, or both. Companies face fines up to ten million dalasis.",
+    "Section 11 gives an absolute, free right to object to direct marketing. Electronic marketing needs prior consent, except for a company's own similar products to existing customers who can refuse each time.",
+    "Anonymous data is outside the law. Re-identifying anonymised data without authority is an offence under section 19. We found no rule on health apps or on sharing de-identified health data with companies."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection and Privacy Bill, 2024 (National Assembly bill text)",
+     "url": "https://assembly.gm/bills/364/download/1",
+     "date": "2024",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Key features of the Gambian Personal Data Protection and Privacy Act (African Law & Business)",
+     "url": "https://www.africanlawbusiness.com/expert-views/key-features-of-the-gambian-personal-data-protection-and-privacy-act/",
+     "date": "2026-02-09",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 22,
+   "summary": "Health statistics flow into a national HMIS, and health insurance now covers 69 contracted facilities, but patient records are not linked. Officials told Africa CDC in 2026 that digital health systems are fragmented.",
+   "detail": [
+    "The HMIS Policy 2017-2025 aimed for a centralised database and interoperability between health information systems. It names fragmented systems and limited data quality as gaps.",
+    "The National Health Insurance Authority expanded from 13 to 69 contracted facilities in 2025. Its agreements with facilities cover claims processing and data reporting.",
+    "In May 2026 an Africa CDC mission reported that Gambian health authorities want to consolidate fragmented digital health systems. A digital health maturity assessment was run at national, regional and facility level.",
+    "UNICEF reported in September 2026 that a health centre's internet link was dormant and that patients still carry paper files. No national shared record or e-prescription system was found."
+   ],
+   "sources": [
+    {
+     "title": "The Gambia Health Management Information System Policy 2017-2025 (Government Policy Repository)",
+     "url": "https://policies.gov.gm/f/caa65bd5-5bad-11ec-9b31-029254d29bb1",
+     "date": "2021-12-13",
+     "publisherClass": "official"
+    },
+    {
+     "title": "NHIS Expands From 13 to 69 Health Facilities (NHIA)",
+     "url": "https://nhia.gm/2025/07/14/nhis-expands-from-13-to-69-health-facilities/",
+     "date": "2025-07-14",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Africa CDC concludes primary health care digitalisation mission in The Gambia (TechReviewAfrica)",
+     "url": "https://techreviewafrica.com/news/5679/africa-cdc-concludes-primary-health-care-digitalisation-mission-supports-in-the-gambia",
+     "date": "2026-05-29",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The Gambia puts its health facilities on the map (UNICEF)",
+     "url": "https://www.unicef.org/digitalimpact/stories/gambia-puts-its-health-facilities-map",
+     "date": "2026-09-16",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 18,
+   "summary": "A treating clinician sees only the paper or local file held where the patient is treated. A 2026 study of the only teaching hospital found an ad hoc stage of digital maturity, with lost and mixed-up folders.",
+   "detail": [
+    "The 2026 study of Edward Francis Small Teaching Hospital, written by its staff, found fragmented systems, paper records, unreliable power and internet, and records that are sometimes lost or illegible.",
+    "Staff told the study that most departments have no internet connection, and some have no computer at all.",
+    "No national record or exchange lets a clinician see notes, labs or prescriptions from another provider. A health worker at Farato told UNICEF in 2026 that the facility's internet connection was no longer working."
+   ],
+   "sources": [
+    {
+     "title": "Assessing the Current State of Digitalisation at the Edward Francis Small Teaching Hospital (AKSU Journal of Administration and Corporate Governance)",
+     "url": "https://aksujacog.org.ng/articles/26/01/assessing-the-current-state-of-digitalisation-at-the-edward-francis-small-teaching-hospital-efsth-the-gambia/aksujacog_06_01_02.pdf",
+     "date": "2026-01",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "The Gambia puts its health facilities on the map (UNICEF)",
+     "url": "https://www.unicef.org/digitalimpact/stories/gambia-puts-its-health-facilities-map",
+     "date": "2026-09-16",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "The 2025 Act allows research use of personal data with safeguards and no individual consent, and gives no research opt-out. Two safeguards lift the score from 40: ethics clearance and a re-identification offence.",
+   "detail": [
+    "Section 5 of the bill makes research and statistics a lawful basis, subject to appropriate safeguards. Section 6 allows health data to be used for research under conditions set by law. No separate research opt-out was found.",
+    "The Medicines and Related Products Act 2014 requires an ethical clearance certificate and Medicines Control Agency approval before any drug trial. Section 42 requires voluntary written consent from adult participants, or from parents or guardians for minors.",
+    "The Gambia Government/MRC Joint Ethics Committee reviews research. Section 19 of the bill makes re-identifying anonymised data without authority an offence. No public register of data uses was found."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection and Privacy Bill, 2024 (National Assembly bill text)",
+     "url": "https://assembly.gm/bills/364/download/1",
+     "date": "2024",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Medicines and Related Products Act, 2014 (National Assembly)",
+     "url": "https://assembly.gm/documents/141",
+     "date": "2014",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Gambia Government/MRC Joint Ethics Committee (Health Research Web)",
+     "url": "https://healthresearchwebafrica.org.za/en/gambia/research_regulation_4527",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "The Medicines Control Agency regulates medical devices, but no rule mentions software or AI. A June 2026 review found no Gambian AI law, strategy or regulator.",
+   "detail": [
+    "The Medicines and Related Products Act 2014 defines medical devices as instruments, apparatus or reagents used for diagnosis or treatment, and requires licensing. It does not mention software, algorithms or change control.",
+    "Levellers.ai found no dedicated AI law, bill, strategy or regulator as of June 2026. The data protection law is the main tool that applies.",
+    "Section 12 of the bill gives a right not to face significant decisions made solely by automated processing. Gambian officials told Africa CDC in 2026 they want to use AI in health, but no clinical AI guidance was found."
+   ],
+   "sources": [
+    {
+     "title": "Medicines and Related Products Act, 2014 (National Assembly)",
+     "url": "https://assembly.gm/documents/141",
+     "date": "2014",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "AI regulation in the Gambia (Levellers.ai)",
+     "url": "https://www.levellers.ai/what-is/ai-regulation-gambia",
+     "date": "2026-06-08",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Personal Data Protection and Privacy Bill, 2024 (National Assembly bill text)",
+     "url": "https://assembly.gm/bills/364/download/1",
+     "date": "2024",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Aggregate data feeds a national HMIS and insurance claims run through 69 contracted facilities. Clinical records are mostly paper and kept per facility, with no shared record or e-prescription found.",
+ "laws": [
+  {
+   "name": "Personal Data Protection and Privacy Act, 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Special category health data, free access in one month, 72-hour breach notice, ban on selling data.",
+   "url": "https://assembly.gm/bills/364/download/1"
+  },
+  {
+   "name": "Access to Information Act, 2021",
+   "level": "National",
+   "year": "2021",
+   "what": "Creates the Information Commission, which also enforces the data protection law.",
+   "url": "https://informationcommission.gm/"
+  },
+  {
+   "name": "Medicines and Related Products Act, 2014",
+   "level": "National",
+   "year": "2014",
+   "what": "Medicines Control Agency licenses medicines and devices; trials need ethics clearance and written consent.",
+   "url": "https://assembly.gm/documents/141"
+  },
+  {
+   "name": "National Health Insurance Act, 2021",
+   "level": "National",
+   "year": "2021",
+   "what": "Sets up the National Health Insurance Scheme and Authority; residents must register.",
+   "url": "https://nhia.gm/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-06",
+   "headline": "Rights group praises National Assembly for passing data protection bill",
+   "source": "The Point",
+   "url": "https://thepoint.gm/africa/gambia/headlines/gambia-praised-for-passing-personal-data-protection-and-privacy-bill",
+   "why": "Gambians gained their first law protecting personal data, including health data."
+  },
+  {
+   "date": "2025-11-18",
+   "headline": "Information Commission runs community sessions on new data protection law",
+   "source": "The Standard",
+   "url": "https://standard.gm/information-commission-stages-sensitisation-on-personal-data-protection/",
+   "why": "People need to know their new rights before they can use them."
+  },
+  {
+   "date": "2026-05-29",
+   "headline": "Africa CDC assesses Gambian primary health care digitalisation",
+   "source": "TechReviewAfrica",
+   "url": "https://techreviewafrica.com/news/5679/africa-cdc-concludes-primary-health-care-digitalisation-mission-supports-in-the-gambia",
+   "why": "Officials admit digital health systems are fragmented, the gap a shared record would fill."
+  },
+  {
+   "date": "2026-06-11",
+   "headline": "Gambian data regulator admitted to African data protection network",
+   "source": "The Point",
+   "url": "https://thepoint.gm/africa/gambia/headlines/info-commission-attains-full-nadpa-rapdp-membership",
+   "why": "Links the new regulator to peers that already enforce privacy law."
+  },
+  {
+   "date": "2026-06-18",
+   "headline": "Kanifing General Hospital laboratory gets computers to move off paper records",
+   "source": "The Point",
+   "url": "https://thepoint.gm/africa/gambia/headlines/ceo-hails-salam-as-kanifing-general-hospital-ict-dept-boosted",
+   "why": "Shows hospital records still depend on donations to go digital."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

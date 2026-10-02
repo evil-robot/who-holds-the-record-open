@@ -1,0 +1,359 @@
+{
+  "iso3": "BTN",
+  "name": "Bhutan",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Bhutan runs one national electronic record across 300 health facilities, but patients have no statutory right to a copy and no data protection regulator.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 33,
+      "summary": "No statute gives patients a right to a copy of their record; the right rests on a 2022 ministry manual, and copies are at the patient's expense. The ePIS app shows visit history, diagnoses and prescriptions, which keeps the score near the top of the band.",
+      "detail": [
+        "The Ministry of Health's Bhutan Medical Record Manual (2022) answers 'Are patients allowed to see their medical record?' with 'Yes, as per RTI Act', using an Access and Correction of Medical Record form. No such Act exists: BBS reported in June 2025 that MPs were again asking for an RTI bill. The manual is the working rule.",
+        "The same manual says photocopies requested by the patient, other than for ongoing care, should be at the patient's expense. It sets no deadline for a response.",
+        "The government ePIS app, with login through Bhutan's National Digital Identity, lets patients see visit history, the doctor seen, diagnoses, prescriptions, follow-up advice and whether lab and radiology tests are complete. GovTech calls it an initial phase with minimal functions.",
+        "Under the anchors, a country with no enforceable right scores 15 to 35. The national app lifts Bhutan toward the top; the fee and the lack of a statutory right hold it below 35."
+      ],
+      "sources": [
+        {
+          "title": "Bhutan Medical Record Manual and Standard Operating Procedures, Ministry of Health",
+          "url": "https://moh.gov.bt/wp-content/uploads/2025/01/BhutanMedicalRecordManualSOP_Version1_2022.pdf",
+          "date": "2022",
+          "publisherClass": "official"
+        },
+        {
+          "title": "ePIS App User Manual, GovTech Agency",
+          "url": "https://tech.gov.bt/wp-content/uploads/2024/12/ePIS-manual.pdf",
+          "date": "2024-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Power and network issues affect full use of ePIS system (BBS)",
+          "url": "https://www.bbs.bt/241390/",
+          "date": "2026-04-22",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Need for Right to Information Bill once again raised in Parliament (BBS)",
+          "url": "https://www.bbs.bt/230052/",
+          "date": "2025-06-17",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Records sit in one government system with no opt-out and no patient-visible access log that we could find. Rules require written consent before release outside care, and the 2025 healthcare rules make unauthorised disclosure an offence.",
+      "detail": [
+        "The Healthcare Services Rules and Regulations 2025 let the Ministry set up a centralised electronic health information system that all healthcare centres must use to record each patient's clinical details. ePIS is that system.",
+        "The Medical Record Manual says no information may be released without the patient's consent, and a patient's request that nothing be released must be respected. Access should be limited to professionals involved in the patient's care.",
+        "The Information, Communications and Media Act 2018 (section 384) requires express written permission to collect or process personal information, unless a law permits it. The health rules supply that permission for ePIS.",
+        "We found no way to opt out of ePIS, no granular sharing choices and no access log patients can see. That places Bhutan in the 20 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Healthcare Services Rules and Regulations 2025, Ministry of Health",
+          "url": "https://moh.gov.bt/wp-content/uploads/2025/03/HSRR_2025.pdf",
+          "date": "2025-03-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Bhutan Medical Record Manual and Standard Operating Procedures, Ministry of Health",
+          "url": "https://moh.gov.bt/wp-content/uploads/2025/01/BhutanMedicalRecordManualSOP_Version1_2022.pdf",
+          "date": "2022",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Information, Communications and Media Act of Bhutan 2018",
+          "url": "https://www.bicma.gov.bt/data/publications/act/BICM_Act_2018_English.pdf",
+          "date": "2018",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 38,
+      "summary": "Medical records are sensitive data under the 2018 ICM Act, and disclosing patient information without consent can cost a provider 120 days' minimum wage or its licence. Bhutan has no comprehensive data protection law, no regulator and no breach notification duty that we found.",
+      "detail": [
+        "The ICM Act 2018 lists physical and mental health conditions and medical records and history as sensitive personal data. Chapter 21 bars disclosure to third parties without written authorisation. Negligent security brings court-set compensation, and unconsented disclosure is a misdemeanour.",
+        "The Healthcare Services Rules 2025 (sections 164 and 165) make it an offence to disclose patient information without consent where not permitted. A first offence brings a fine of up to 120 days' minimum wage or a suspension; repeat offences mean cancellation.",
+        "GovTech's National Data Governance Framework baseline study recommends comprehensive data protection legislation and a dedicated regulator, which confirms neither exists. The Constitution (Article 7(19)) bars arbitrary interference with privacy.",
+        "Bhutan is outside the EU and has no EU adequacy decision, so the GDPR and the European Health Data Space do not apply. We found no reported health data breach."
+      ],
+      "sources": [
+        {
+          "title": "Information, Communications and Media Act of Bhutan 2018",
+          "url": "https://www.bicma.gov.bt/data/publications/act/BICM_Act_2018_English.pdf",
+          "date": "2018",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Healthcare Services Rules and Regulations 2025, Ministry of Health",
+          "url": "https://moh.gov.bt/wp-content/uploads/2025/03/HSRR_2025.pdf",
+          "date": "2025-03-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Bhutan National Data Governance Framework: Baseline Study 2024, GovTech Agency",
+          "url": "https://tech.gov.bt/download/bhutan-national-data-governance-framework-baseline-study-2024/",
+          "date": "2026-08-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Adequacy decisions, European Commission",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 38,
+      "summary": "The ICM Act bars passing personal data to third parties without written authorisation, but no law bans selling health data or using it for marketing. A US genetic testing firm setting up in Gelephu says its platform will connect to national patient records.",
+      "detail": [
+        "ICM Act section 385 says a person may not disclose personal information to a third party unless the law requires or permits it or the person has authorised it in writing. Section 386 allows statistical use of data that a third party cannot link to anyone.",
+        "We found no rule aimed at health data brokers, consumer health apps or the sale of de-identified health data.",
+        "Gelephu Mindfulness City adopted Singapore's Personal Data Protection Act 2012 through its Application of Laws Act 2024, so a different regime applies inside that zone.",
+        "In April 2026 Waive Diagnostics said its Gelephu platform would connect to Bhutan's electronic patient records. In September 2026 Viome signed an MoU with DHI and GMC; it says Bhutanese data used would stay in Bhutan."
+      ],
+      "sources": [
+        {
+          "title": "Information, Communications and Media Act of Bhutan 2018",
+          "url": "https://www.bicma.gov.bt/data/publications/act/BICM_Act_2018_English.pdf",
+          "date": "2018",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Bhutan's Gelephu Mindfulness City adopts 18 Singaporean laws and 10 Abu Dhabi financial regulations (Asia News Network)",
+          "url": "https://asianews.network/bhutans-gelephu-mindfulness-city-adopts-18-singaporean-laws-and-10-abu-dhabi-financial-regulations/",
+          "date": "2025-01-06",
+          "publisherClass": "news"
+        },
+        {
+          "title": "US precision health firm Waive Diagnostics to establish regional hub in Gelephu Mindfulness City (Daily Bhutan)",
+          "url": "https://www.dailybhutan.com/article/us-precision-health-firm-waive-diagnostics-to-establish-regional-hub-in-gelephu-mindfulness-city",
+          "date": "2026-04-21",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 58,
+      "summary": "One national system, ePIS, runs in 300 facilities including 58 hospitals and 186 primary health centres, and about 92 percent of patients were registered through it in early 2026. Power cuts, weak networks and older lab machines still limit full use.",
+      "detail": [
+        "ePIS launched at the national referral hospital on 21 April 2023 under the Digital Drukyul flagship. A dzongkhag notice says its aim is a unified electronic health record accessible from any health facility.",
+        "BBS reported in April 2026 that ePIS had about 6,400 health worker users and more than 604,000 patient records. More than 158 lab machines were linked in February 2026, but older equipment is hard to integrate.",
+        "Public care is free under Article 9(21) of the Constitution, and we found no insurance claims system to link. The 2025 health rules require facilities to report disease, death and serious event data to the Ministry.",
+        "GovTech names unstable power, poor connectivity and staff turnover as the barriers to full use."
+      ],
+      "sources": [
+        {
+          "title": "Power and network issues affect full use of ePIS system (BBS)",
+          "url": "https://www.bbs.bt/241390/",
+          "date": "2026-04-22",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Rollout of Electronic patient information system, Trashigang Dzongkhag Administration",
+          "url": "https://trashigang.gov.bt/rollout-of-electronic-patient-information-system/",
+          "date": "2024-03-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Healthcare Services Rules and Regulations 2025, Ministry of Health",
+          "url": "https://moh.gov.bt/wp-content/uploads/2025/03/HSRR_2025.pdf",
+          "date": "2025-03-12",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "The Constitution of the Kingdom of Bhutan",
+          "url": "https://cms.parliament.gov.bt/uploads/Constitution_Dzongkha_n_english_1a63683445.pdf",
+          "date": "2008",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 50,
+      "summary": "ePIS is built so a clinician at any connected facility can open the same patient record, but we could not verify that cross-facility viewing works in daily practice. Unstable power and weak networks still limit ePIS use in some areas.",
+      "detail": [
+        "Because ePIS is one national system rather than a set of linked hospital systems, a patient registered at one facility is in the same database at the next. The stated goal is a record accessible from any facility.",
+        "We found no official figure on how often clinicians open records created at another facility (not verified). By the evidence rule this keeps the score in the lower half of the mixed band.",
+        "The Medical Record Manual limits record access to professionals involved in the patient's continuing care. We found no separate emergency access rule."
+      ],
+      "sources": [
+        {
+          "title": "Rollout of Electronic patient information system, Trashigang Dzongkhag Administration",
+          "url": "https://trashigang.gov.bt/rollout-of-electronic-patient-information-system/",
+          "date": "2024-03-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Bhutan Medical Record Manual and Standard Operating Procedures, Ministry of Health",
+          "url": "https://moh.gov.bt/wp-content/uploads/2025/01/BhutanMedicalRecordManualSOP_Version1_2022.pdf",
+          "date": "2022",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Power and network issues affect full use of ePIS system (BBS)",
+          "url": "https://www.bbs.bt/241390/",
+          "date": "2026-04-22",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "De-identified records may be used for research without consent and there is no opt-out. Three safeguards lift the score: a national ethics board, penalties for unconsented disclosure and a public research registry.",
+      "detail": [
+        "The Medical Record Manual says records may be used for research and statistics without consent as long as the patient is not identified. The ICM Act allows statistical use of data that cannot be linked to a person.",
+        "All health research with human subjects needs approval from the Research Ethics Board of Health. Its forms require consent in Dzongkha and English, with assent rules for children.",
+        "The Bhutan Health Research Portal publishes proposals. One registered study will train a chest X-ray AI on de-identified images pulled from Bhutan's national repositories.",
+        "Scored as base 40 plus 3 each for the ethics board, the disclosure penalties and the public registry."
+      ],
+      "sources": [
+        {
+          "title": "Research Ethics Board of Health (REBH), Ministry of Health",
+          "url": "https://moh.gov.bt/pages/research-ethics-board-of-health-rebh/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Proposal summary: AI-powered Classification of Bhutanese CXR images, Bhutan Health Research Portal",
+          "url": "https://bhutanhrp.moh.gov.bt/index.php/hrp/search/viewProposal/653",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Bhutan Medical Record Manual and Standard Operating Procedures, Ministry of Health",
+          "url": "https://moh.gov.bt/wp-content/uploads/2025/01/BhutanMedicalRecordManualSOP_Version1_2022.pdf",
+          "date": "2022",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "Standalone medical software must be registered as a device under a 2022 regulator guideline, with notice of later changes, but nothing addresses AI specifically. The 2025 National AI Strategy says Bhutan has no AI oversight, accountability or transparency mechanisms.",
+      "detail": [
+        "The Guideline for Registration of Medical Devices 2022, issued under the Medicines Act 2003, treats standalone software as an active medical device. Software that analyses clinical data for diagnosis or treatment is likely a device. Changes affecting quality or safety must be notified.",
+        "A revised guideline went to public consultation in May 2026 with the same software wording and no AI rules.",
+        "GovTech's National AI Strategy (October 2025) names health as a focus area. It states there are no oversight or transparency mechanisms and plans national AI ethics guidelines, a governing body and a legal review.",
+        "For a non-EU country with guidance only, the band is 35 to 50."
+      ],
+      "sources": [
+        {
+          "title": "Guideline for Registration of Medical Devices 2022, Drug Regulatory Authority",
+          "url": "https://bfda.gov.bt/wp-content/uploads/2025/09/Guideline-for-Registration-of-Medical-Devices-2022.pdf",
+          "date": "2022-08-22",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Public Consultation on revised Guideline for Registration of Medical Devices, BFDA",
+          "url": "https://bfda.gov.bt/public-consultation-on-revised-guideline-for-registration-of-medical-devices/",
+          "date": "2026-05-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Bhutan National AI Strategy 2025, GovTech Agency",
+          "url": "https://tech.gov.bt/wp-content/uploads/2025/10/National-AI-Strategy-2025.pdf",
+          "date": "2025-10",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "connected",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "ePIS is one national record in 58 hospitals and 186 primary health centres, with prescriptions and many lab machines inside it. Care is free, so there are no claims to link; power and network gaps limit remote clinics.",
+  "laws": [
+    {
+      "name": "Constitution of the Kingdom of Bhutan",
+      "level": "National",
+      "year": "2008",
+      "what": "Article 7(19) protects privacy; Article 9(21) promises free access to basic public health services.",
+      "url": "https://cms.parliament.gov.bt/uploads/Constitution_Dzongkha_n_english_1a63683445.pdf"
+    },
+    {
+      "name": "Information, Communications and Media Act of Bhutan",
+      "level": "National",
+      "year": "2018",
+      "what": "Medical records are sensitive data; written permission needed to collect or disclose; compensation and misdemeanour penalties.",
+      "url": "https://www.bicma.gov.bt/data/publications/act/BICM_Act_2018_English.pdf"
+    },
+    {
+      "name": "Healthcare Services Rules and Regulations 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Allows a mandatory central health record system; makes unconsented disclosure of patient information an offence.",
+      "url": "https://moh.gov.bt/wp-content/uploads/2025/03/HSRR_2025.pdf"
+    },
+    {
+      "name": "National Digital Identity Act of Bhutan",
+      "level": "National",
+      "year": "2023",
+      "what": "Legal basis for the digital ID used to log in to ePIS; unconsented credential disclosure is a felony.",
+      "url": "https://ndi-website-17-07-2023-storage-4b404e2160703-staging.s3.ap-southeast-1.amazonaws.com/public/governance-framework/National-Digital-Identity-Act-of-Bhutan-2023.pdf"
+    },
+    {
+      "name": "Guideline for Registration of Medical Devices (under the Medicines Act 2003)",
+      "level": "National",
+      "year": "2022",
+      "what": "Standalone software counts as a medical device needing registration; changes must be notified.",
+      "url": "https://bfda.gov.bt/wp-content/uploads/2025/09/Guideline-for-Registration-of-Medical-Devices-2022.pdf"
+    },
+    {
+      "name": "GMC Application of Laws Act 2024 (GMC Law No. 1)",
+      "level": "Regional",
+      "year": "2024",
+      "what": "Applies 18 Singapore laws, including the Personal Data Protection Act 2012, inside Gelephu Mindfulness City.",
+      "url": "https://asianews.network/bhutans-gelephu-mindfulness-city-adopts-18-singaporean-laws-and-10-abu-dhabi-financial-regulations/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-01-13",
+      "headline": "Canada-backed workshop helps Bhutan officials build AI policy and governance",
+      "source": "Asia News Network",
+      "url": "https://asianews.network/bhutan-canada-partner-to-strengthen-ai-policy-and-governance/",
+      "why": "Bhutan has no AI rules yet; this work shapes how health AI will be governed."
+    },
+    {
+      "date": "2026-04-21",
+      "headline": "US genetic testing firm to open Gelephu hub linked to patient records",
+      "source": "Daily Bhutan",
+      "url": "https://www.dailybhutan.com/article/us-precision-health-firm-waive-diagnostics-to-establish-regional-hub-in-gelephu-mindfulness-city",
+      "why": "A private firm plans to combine genetic and clinical records; Bhutan has no national data protection law."
+    },
+    {
+      "date": "2026-04-22",
+      "headline": "ePIS now in 300 facilities, but power and network gaps limit use",
+      "source": "BBS",
+      "url": "https://www.bbs.bt/241390/",
+      "why": "Shows how far the national record reaches and where it still fails patients."
+    },
+    {
+      "date": "2026-05-23",
+      "headline": "SingHealth and Bhutan college to build chest X-ray AI on Bhutanese data",
+      "source": "HealthTechAsia",
+      "url": "https://healthtechasia.co/singhealth-and-bhutans-gcit-collaborate-on-responsible-ai-deployment-in-healthcare/",
+      "why": "Patient images are reused to train AI that Gelephu hospitals plan to use from 2027."
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Viome signs MoU with DHI and Gelephu to build molecular AI model",
+      "source": "BioSpectrum Asia",
+      "url": "https://www.biospectrumasia.com/news/34/28452/bhutan-to-develop-molecular-foundation-model-for-global-diagnostics-and-drug-development.html",
+      "why": "Population health data could feed a commercial AI model; Viome says data would stay in Bhutan."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

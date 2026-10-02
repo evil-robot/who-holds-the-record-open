@@ -1,0 +1,351 @@
+{
+  "iso3": "MDV",
+  "name": "Maldives",
+  "region": "Asia",
+  "controlModel": "Institutional",
+  "headline": "Patients can get their record within 3 working days, but hospital systems do not connect and Maldives has no data protection law yet.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "A 2019 regulation lets any adult get their medical record from a provider within 3 working days, at a cost-only fee. There is no national record portal; the MIHIS portal shows mainly vaccination, growth and primary care data.",
+      "detail": [
+        "The Medical Records Regulation (2019/R-1070), made under the Health Services Act 2015, lets a patient aged 18 or over request their record in writing. The provider must arrange access within 3 official working days, by a copy or by supervised inspection where copying is not possible.",
+        "Providers may charge a fee to cover costs. The fee must not be for profit and must be published in advance. Records must be kept for the patient's lifetime and 6 years after death.",
+        "The Act itself (section 29) requires a written account of all services given to an inpatient or other treated patient. It does not spell out a right to the whole record; that comes from the regulation.",
+        "The MIHIS public portal, launched in 2024 with WHO support, gives access to vaccination, growth monitoring and primary care records. The Blueprint says Male' City hospitals send records to patients by email on request, and one private hospital runs a patient portal.",
+        "Scored as base 45, minus 5 for the per-request fee, plus 5 for officially documented portals. The 3-day deadline earns nothing extra because the copy is not free. We found no official figure on portal use."
+      ],
+      "sources": [
+        {
+          "title": "Medical Records Regulation 2019/R-1070, gazette text (PDF)",
+          "url": "https://storage.googleapis.com/gazette.gov.mv/docs/gazette/5872.pdf",
+          "date": "2019-10-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Services Act (Law 29/2015), consolidated text, MV Laws",
+          "url": "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244",
+          "date": "2024-09-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Launching of the Maldives Integrated Health Information System (MIHIS) portal, WHO Maldives",
+          "url": "https://www.who.int/maldives/news/detail/25-12-2024-launching-of-the-maldives-integrated-health-information-system-(mihis)-portal",
+          "date": "2024-12-25",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Maldives Digital Health Blueprint 2026-2030, Ministry of Health, Family and Welfare",
+          "url": "https://health.gov.mv/en/publications/maldives-digital-health-blueprint-2026-2030",
+          "date": "2026-07-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "The law lets providers share records with other clinicians for care without asking, and we found no opt-out and no access log patients can see. Disclosure outside care needs written consent, a court order or a legal duty.",
+      "detail": [
+        "Health Services Act section 41 allows a patient's information to be shared with other providers to the extent needed for their care. Section 40 says all information on a person's health and treatment is confidential and privileged.",
+        "Outside care, section 40 allows disclosure only with the patient's written permission, a court order, a legal duty, or a written request from an official acting under the Act.",
+        "Section 42 limits record viewing to staff specifically authorised for care, research approved by an ethics committee, quality review, statistics, public health and health insurance. Records must not be open to all staff.",
+        "We found no way for a patient to opt out of sharing, set granular choices or see who opened their record. That places Maldives in the 20 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Health Services Act (Law 29/2015), consolidated text, MV Laws",
+          "url": "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244",
+          "date": "2024-09-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Medical Records Regulation 2019/R-1070, gazette text (PDF)",
+          "url": "https://storage.googleapis.com/gazette.gov.mv/docs/gazette/5872.pdf",
+          "date": "2019-10-17",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 40,
+      "summary": "Health information is confidential and privileged under the Health Services Act, and misuse of records carries fines of MVR 10,000 to 100,000 and up to a year in jail for repeat offences. There is still no general data protection law, regulator or breach notice duty.",
+      "detail": [
+        "Section 43 makes it an offence to destroy, alter, copy or use a medical record without permission, or to link identity to health data without permission. Fines run from MVR 10,000 to 100,000, with up to one year in jail for repeat offences.",
+        "If a facility's negligence allowed the offence, it can be fined MVR 50,000 to 500,000 and have its licence suspended. Article 24 of the 2008 Constitution protects private and family life.",
+        "A Personal Data Protection Bill went to Parliament on 11 May 2026. It would create a Privacy Commissioner, at first the Information Commissioner, and breach procedures. We found no record of it passing by September 2026.",
+        "Maldives is outside the EU and has no EU adequacy decision, so GDPR and the European Health Data Space do not apply. We found no reported health data breach or enforcement case."
+      ],
+      "sources": [
+        {
+          "title": "Health Services Act (Law 29/2015), consolidated text, MV Laws",
+          "url": "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244",
+          "date": "2024-09-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Bill submitted to Parliament on personal data protection (SunOnline)",
+          "url": "https://english.sun.mv/105358",
+          "date": "2026-05-11",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Maldives Constitution 2008 (English), Constitute Project",
+          "url": "https://www.constituteproject.org/constitution/Maldives_2008",
+          "date": "2008",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data protection adequacy for non-EU countries, European Commission",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 38,
+      "summary": "Using any medical record for any purpose without permission is a crime under the Health Services Act. No law addresses selling de-identified health data, health data brokers or consumer health apps.",
+      "detail": [
+        "Health Services Act section 43(b)(9) makes unauthorised use of a medical record for any purpose an offence. Section 40 bars disclosure to unconcerned parties except in listed cases.",
+        "These rules bind health facilities and, under the 2019 regulation, third parties that receive records, such as the Aasandha insurance body. They do not reach apps or firms that collect health data outside care.",
+        "We found no rule on marketing use, data brokers or the sale of de-identified health data. The data protection bill submitted in May 2026 would cover sensitive data but is not yet law."
+      ],
+      "sources": [
+        {
+          "title": "Health Services Act (Law 29/2015), consolidated text, MV Laws",
+          "url": "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244",
+          "date": "2024-09-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Medical Records Regulation 2019/R-1070, gazette text (PDF)",
+          "url": "https://storage.googleapis.com/gazette.gov.mv/docs/gazette/5872.pdf",
+          "date": "2019-10-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Bill submitted to Parliament on personal data protection (SunOnline)",
+          "url": "https://english.sun.mv/105358",
+          "date": "2026-05-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 40,
+      "summary": "Aasandha's claims system runs at 730 sites countrywide, but the main hospital system, handling 75 percent of outpatient and inpatient load, does not interoperate with the national HMIS. The 2026 Blueprint says hospital systems are not linked and there is no central pharmacy system.",
+      "detail": [
+        "The Ministry's Digital Health Blueprint 2026-2030 lists Aasandha's Vinavi system at 730 sites, with an API linked to major hospital systems. It focuses on activities with financial implications.",
+        "HINAI, used by Male' City Group of Hospitals, handles 75 percent of the country's outpatient and inpatient load. It does not interoperate with the national HMIS, so data is entered twice.",
+        "The Blueprint finds no central pharmacy system; Aasandha pharmacies use its e-prescription module. Lab results sit in each hospital's own system, and patients must collect them separately when they visit different facilities.",
+        "The national HMIS on DHIS2 gathers aggregate data, but the Blueprint notes incomplete reporting. A 2022 electronic immunisation registry covers all children."
+      ],
+      "sources": [
+        {
+          "title": "Maldives Digital Health Blueprint 2026-2030, Ministry of Health, Family and Welfare",
+          "url": "https://health.gov.mv/en/publications/maldives-digital-health-blueprint-2026-2030",
+          "date": "2026-07-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Aasandha Scheme Overview, Aasandha Company Ltd",
+          "url": "https://www.aasandha.mv/aasandha-scheme",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Launching of the Maldives Integrated Health Information System (MIHIS) portal, WHO Maldives",
+          "url": "https://www.who.int/maldives/news/detail/25-12-2024-launching-of-the-maldives-integrated-health-information-system-(mihis)-portal",
+          "date": "2024-12-25",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Health sector to be digitalized first, no room to hide health records: President (The Edition)",
+          "url": "https://edition.mv/news/41604",
+          "date": "2025-06-01",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 28,
+      "summary": "Hospital systems are not linked, so a clinician at one facility usually cannot see records made at another. The Blueprint says even referred patients must do extra work to get a tertiary hospital appointment.",
+      "detail": [
+        "Section 41 of the Health Services Act lets providers share information needed for care, so the law is not the barrier. The infrastructure is.",
+        "The Blueprint states hospital management systems are not linked or interoperable, which hurts continuity of care and referrals between facilities. Primary care centres run a stand-alone system locally.",
+        "In June 2025 the President said hospitals and private clinics use separate portals and promised a unified platform. The Blueprint asks that the data protection bill include a break-the-glass rule for emergency access."
+      ],
+      "sources": [
+        {
+          "title": "Maldives Digital Health Blueprint 2026-2030, Ministry of Health, Family and Welfare",
+          "url": "https://health.gov.mv/en/publications/maldives-digital-health-blueprint-2026-2030",
+          "date": "2026-07-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Services Act (Law 29/2015), consolidated text, MV Laws",
+          "url": "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244",
+          "date": "2024-09-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health sector to be digitalized first, no room to hide health records: President (The Edition)",
+          "url": "https://edition.mv/news/41604",
+          "date": "2025-06-01",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "The Health Services Act lets ethics-approved researchers view records without consent, and there is no general opt-out. Four safeguards put Maldives at the band cap: a national permit council, statutory secrecy, fines for misuse, and a 2019 rule requiring consent where the data source is known.",
+      "detail": [
+        "Under the Health Research Regulation (2019/R-1006), all health research needs approval from the National Health Research Council. Approved studies can be updated and reported through the oneGov service.",
+        "Article 37 says research on biological material or data of unknown source needs no consent. If the source is known, even if later coded, consent is required. Participants may withdraw and ask for samples and data to be destroyed.",
+        "Health Services Act section 42 still lets records be viewed for research approved by an ethics committee. The regulation also gives everyone a right to know which approved studies are underway.",
+        "In December 2025 The Edition reported that a deputy minister's study of poetry as therapy ran without Council approval. Scored as base 40 plus 3 per safeguard class, capped at 50."
+      ],
+      "sources": [
+        {
+          "title": "Health Research Regulation 2019/R-1006, Government Gazette (PDF)",
+          "url": "https://storage.googleapis.com/gazette.gov.mv/docs/gazette/5756.pdf",
+          "date": "2019-03-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Services Act (Law 29/2015), consolidated text, MV Laws",
+          "url": "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244",
+          "date": "2024-09-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Research Approval, oneGov",
+          "url": "https://one.gov.mv/support/guidelines/health-research-approval-269",
+          "date": "2026-08-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Research in treatment via poetry against Health Ministry regulations (The Edition)",
+          "url": "https://edition.mv/news/47060",
+          "date": "2025-12-29",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 28,
+      "summary": "The drug authority registers medical devices by class with CE mark or notified body evidence, but nothing addresses software or AI. The 2026 Blueprint mentions using AI without setting any rules for it.",
+      "detail": [
+        "The Maldives Food and Drug Authority's device registration form asks for the device class, a conformity assessment certificate from a notified body and proof of CE marking. It does not mention software, algorithms or change control.",
+        "Health Services Act section 23 says new health technology may be offered to the public only as a regulation sets out. We found no such regulation for AI.",
+        "The Digital Health Blueprint lists using AI to improve healthcare operations as a goal but sets no oversight rules. For a non-EU country with no AI-specific rules, the band is 15 to 30."
+      ],
+      "sources": [
+        {
+          "title": "Medical Device and Medical Consumable Registration form (MFDA), Ministry of Health",
+          "url": "https://health.gov.mv/en/downloads/medical-device-registration-form",
+          "date": "2022-07-19",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Services Act (Law 29/2015), consolidated text, MV Laws",
+          "url": "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244",
+          "date": "2024-09-09",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Maldives Digital Health Blueprint 2026-2030, Ministry of Health, Family and Welfare",
+          "url": "https://health.gov.mv/en/publications/maldives-digital-health-blueprint-2026-2030",
+          "date": "2026-07-11",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "siloed",
+    "labs": "siloed",
+    "pharmacy": "partial",
+    "claims": "connected",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Aasandha claims run at 730 sites and its pharmacies use one e-prescription module. Hospitals, labs and primary care centres run separate systems that do not interoperate; the national HMIS collects aggregate data only.",
+  "laws": [
+    {
+      "name": "Constitution of the Republic of Maldives",
+      "level": "National",
+      "year": "2008",
+      "what": "Article 24 protects private and family life, home and private communications.",
+      "url": "https://www.constituteproject.org/constitution/Maldives_2008"
+    },
+    {
+      "name": "Health Services Act (Law 29/2015)",
+      "level": "National",
+      "year": "2015",
+      "what": "Health information is confidential; sets access limits, record offences and fines up to MVR 500,000.",
+      "url": "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244"
+    },
+    {
+      "name": "Medical Records Regulation (2019/R-1070)",
+      "level": "National",
+      "year": "2019",
+      "what": "Adult patients get their record within 3 working days; cost-only fee; lifetime retention.",
+      "url": "https://gazette.gov.mv/gazette/5609"
+    },
+    {
+      "name": "Health Research Regulation (2019/R-1006)",
+      "level": "National",
+      "year": "2019",
+      "what": "All health research needs National Health Research Council approval; consent rules, withdrawal and fines.",
+      "url": "https://gazette.gov.mv/gazette/5491"
+    },
+    {
+      "name": "Social Health Insurance Act (Law 15/2011)",
+      "level": "National",
+      "year": "2011",
+      "what": "Legal basis for the national health insurance scheme run as Aasandha.",
+      "url": "https://www.gazette.gov.mv/gazette/271"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-29",
+      "headline": "Deputy minister's study of poetry as therapy ran without health research approval",
+      "source": "The Edition",
+      "url": "https://edition.mv/news/47060",
+      "why": "Tests whether the research permit system protects people in health studies."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Government data protection bill with a Privacy Commissioner submitted to Parliament",
+      "source": "SunOnline",
+      "url": "https://english.sun.mv/105358",
+      "why": "Would be the first general privacy law, with breach procedures and a regulator."
+    },
+    {
+      "date": "2026-06-18",
+      "headline": "Parliament takes up digital ID and cyber security bills",
+      "source": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202606/maldives-advances-legal-foundations-for-digital-id-cybersecurity",
+      "why": "The planned digital ID is meant to give access to healthcare services."
+    },
+    {
+      "date": "2026-06-23",
+      "headline": "Health ministry launches Digital Health Blueprint 2026-2030 with WHO support",
+      "source": "United Nations Maldives",
+      "url": "https://maldives.un.org/en/318709-maldives-launches-digital-health-blueprint-2026%E2%80%932030-advance-equitable-integrated-health",
+      "why": "Sets the plan to link today's separate hospital, lab and pharmacy systems."
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "President ratifies Organ Transplant Act creating council and approval committee",
+      "source": "The Edition",
+      "url": "https://edition.mv/news/52784",
+      "why": "Sets donor and recipient rights and penalties for unlawful transplants."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

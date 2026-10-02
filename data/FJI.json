@@ -1,0 +1,317 @@
+{
+  "iso3": "FJI",
+  "name": "Fiji",
+  "region": "Oceania",
+  "controlModel": "Institutional",
+  "headline": "Fiji guarantees privacy in its Constitution but has no data protection law or regulator, no patient portal and no patient say over sharing.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 35,
+      "summary": "Section 25 of the 2013 Constitution gives a right of access to information held by any public office. No health-specific right to a copy, deadline, fee rule or national patient portal was verified.",
+      "detail": [
+        "Section 25(1) of the Constitution gives every person a right of access to information held by any public office, and section 25(2) a right to correct or delete false or misleading information. Section 25(3) lets a law limit the right and set the procedure.",
+        "No law setting a procedure, deadline or fee for getting a copy of a medical record was verified.",
+        "No national patient portal exists. Aspen Medical, which runs Lautoka and Ba hospitals, announced in October 2025 a planned portal for test results and discharge instructions; whether it is live was not verified.",
+        "Under the anchors this is a general right with no verified procedure, so the score sits at the top of the 15 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Constitution of the Republic of Fiji 2013 (University of Nottingham copy)",
+          "url": "https://cjad.nottingham.ac.uk/documents/implementations/pdf/Fiji-_Constitution_2013_EN.pdf",
+          "date": "2013",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Aspen Medical selects MEDITECH Expanse to advance patient care at Fiji hospitals (MEDITECH)",
+          "url": "https://ehr.meditech.com/news/aspen-medical-selects-meditech-expanse-to-advance-patient-care-at-fiji-hospitals",
+          "date": "2025-10-14",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "control": {
+      "score": 28,
+      "summary": "Ministry systems such as PATISPlus share records among health workers with no opt-out or patient-visible access log that we found. Only HIV information has a statutory consent rule for disclosure.",
+      "detail": [
+        "The HIV/AIDS Decree 2011 (section 34) bars disclosure of a person's HIV status except with their consent, a court order, in de-identified form, or as the law allows. It also requires voluntary informed consent for an HIV test.",
+        "For other health data there is no general consent law. DLA Piper reports no applicable rules on collection, processing or transfer of personal data in Fiji.",
+        "The Ministry added an HIV module to PATISPlus in July 2026 and launched the PATIS patient system for prison health services in September 2026. We found no opt-out, granular choice or patient access log. That places Fiji in the 20 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "HIV/AIDS Decree 2011 (Decree No. 5 of 2011), ILO NATLEX copy",
+          "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/86222/FJI86222.pdf",
+          "date": "2011",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data protection laws in Fiji (DLA Piper)",
+          "url": "https://www.dlapiperdataprotection.com/?t=law&c=FJ",
+          "date": "undated",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "New HIV digital module launched to improve patient tracking and care in Fiji (Fijivillage)",
+          "url": "https://www.fijivillage.com/r/new-hiv-digital-module-launched-to-improve-patient-tracking-and-care-in-fiji-d783ba/",
+          "date": "2026-07-10",
+          "publisherClass": "news"
+        },
+        {
+          "title": "New digital system puts prison health data at fingertips (Fiji Sun)",
+          "url": "https://fijisun.com.fj/living/health/new-digital-system-puts-prison-health-data-at-fingertips",
+          "date": "2026-09-02",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 30,
+      "summary": "Fiji has no data protection law, no regulator and no breach notification duty; the Constitution's section 24 right to privacy is the main protection. Cabinet endorsed a national privacy policy in October 2025, but the law it promises was not verified as tabled.",
+      "detail": [
+        "Section 24 of the Constitution gives a right to confidentiality of personal information, which a law may limit. DLA Piper lists no data protection authority, no breach notification rule and no enforcement regime.",
+        "Health-sector rules are narrow. The HIV/AIDS Decree makes breach of HIV test confidentiality unlawful. Section 126 of the Medical and Dental Practitioner Act fines officials up to $10,000 for disclosing information gained administering the Act.",
+        "Cabinet endorsed the National Privacy and Personal Data Protection Policy in October 2025 as the basis for a future privacy law, and Fiji plans to accede to Council of Europe Convention 108+.",
+        "No major health data breach was verified. Fiji is not in the EU, so GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Constitution of the Republic of Fiji 2013 (University of Nottingham copy)",
+          "url": "https://cjad.nottingham.ac.uk/documents/implementations/pdf/Fiji-_Constitution_2013_EN.pdf",
+          "date": "2013",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "HIV/AIDS Decree 2011 (Decree No. 5 of 2011), ILO NATLEX copy",
+          "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/86222/FJI86222.pdf",
+          "date": "2011",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Medical and Dental Practitioner Act 2010 (Fiji College of General Practitioners copy)",
+          "url": "https://fijigp.com/wp-content/uploads/2020/08/Medical_and_Dental_Practitioner_Act_2010.pdf",
+          "date": "2010",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "National privacy and personal data protection policy endorsed by Cabinet (Fijivillage)",
+          "url": "https://www.fijivillage.com/news/National-privacy-and-personal-data-protection-policy-to-safeguard-data-protection-endorsed-by-Cabinet-r8xf54/",
+          "date": "2025-10-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 20,
+      "summary": "No law limits the sale or marketing use of health data, and no regulator oversees data brokers or health apps. A 2026 Fiji Times column says the consumer regulator has largely let firms send bulk SMS without consent.",
+      "detail": [
+        "DLA Piper reports no applicable laws on collection, transfer, electronic marketing or online privacy in Fiji.",
+        "An April 2026 Fiji Times opinion piece says consumers receive bulk SMS with no opt-in and that the Fijian Competition and Consumer Commission has largely let traders have a free run. It notes the Consumer Council warned in 2019 that data could be sold to third parties.",
+        "The October 2025 privacy policy promises safeguards for sensitive data, but no binding rule on health data sales was verified."
+      ],
+      "sources": [
+        {
+          "title": "Data protection laws in Fiji (DLA Piper)",
+          "url": "https://www.dlapiperdataprotection.com/?t=law&c=FJ",
+          "date": "undated",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "OPINION: Is your privacy being protected? (Fiji Times)",
+          "url": "https://www.fijitimes.com.fj/opinion-is-your-privacy-being-protected/",
+          "date": "2026-04-05",
+          "publisherClass": "news"
+        },
+        {
+          "title": "National privacy and personal data protection policy endorsed by Cabinet (Fijivillage)",
+          "url": "https://www.fijivillage.com/news/National-privacy-and-personal-data-protection-policy-to-safeguard-data-protection-endorsed-by-Cabinet-r8xf54/",
+          "date": "2025-10-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 30,
+      "summary": "Records are split across PATISPlus, a new immunization registry, separate pharmacy and private-partner hospital systems. An October 2025 study found an electronic record in 44 of 217 Fiji facilities (20.3%).",
+      "detail": [
+        "A 2025 Pacific Community paper describes Fiji's systems as fragmented, naming the Patient Information System, mSupply and civil registration as siloed. It recommends a national Master Patient Index by 2026.",
+        "A 2025 JMIR study found 44 of 217 facilities (20.3%) with an electronic record. It reports PATISPlus is now largely limited to 3 major hospitals for pathology results.",
+        "In March 2026 the Ministry and UNICEF launched a digital immunization record for 220 sites, readable from any immunization site.",
+        "Aspen Medical's Lautoka and Ba hospitals, which serve about one third of the population, are moving to their own MEDITECH Expanse platform. A link to Ministry systems was not verified."
+      ],
+      "sources": [
+        {
+          "title": "PHIN country experience: Fiji Master Patient Index and Immunization Information System (Pacific Community)",
+          "url": "https://phd.spc.int/sites/default/files/p-related-files/2025-03/Item%2016.2_PHIN%20TP_Country%20Experience_Fiji_0.pdf",
+          "date": "2025-03",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "No more paper: Fiji launches first-ever digital immunization records for every child (UNICEF)",
+          "url": "https://www.unicef.org/pacificislands/press-releases/no-more-paper-fiji-launches-first-ever-digital-immunization-records-every-child",
+          "date": "2026-03-31",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Aspen Medical selects MEDITECH Expanse to advance patient care at Fiji hospitals (MEDITECH)",
+          "url": "https://ehr.meditech.com/news/aspen-medical-selects-meditech-expanse-to-advance-patient-care-at-fiji-hospitals",
+          "date": "2025-10-14",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 25,
+      "summary": "Outside the three major hospitals, clinicians often rely on paper. The Health Minister said in July 2026 that patient histories were often rebuilt from paper records and phone calls when patients moved between facilities.",
+      "detail": [
+        "The Pacific Community paper says fragmented records lead to misidentification, duplicates and errors, and that no Master Patient Index links facilities yet.",
+        "The JMIR study reports PATISPlus is mainly used at 3 major hospitals for pathology results, with less use for other clinical tasks.",
+        "Launching the PATISPlus HIV module in July 2026, the Minister said patient histories were previously rebuilt from paper and phone calls when patients transferred. A cross-provider view at national scale was not verified."
+      ],
+      "sources": [
+        {
+          "title": "PHIN country experience: Fiji Master Patient Index and Immunization Information System (Pacific Community)",
+          "url": "https://phd.spc.int/sites/default/files/p-related-files/2025-03/Item%2016.2_PHIN%20TP_Country%20Experience_Fiji_0.pdf",
+          "date": "2025-03",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "New HIV digital module launched to improve patient tracking and care in Fiji (Fijivillage)",
+          "url": "https://www.fijivillage.com/r/new-hiv-digital-module-launched-to-improve-patient-tracking-and-care-in-fiji-d783ba/",
+          "date": "2026-07-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "A national ethics committee reviews health research, and the HIV/AIDS Decree makes its approval mandatory for HIV research. There is no general consent or opt-out rule for secondary use of health records.",
+      "detail": [
+        "Section 42 of the HIV/AIDS Decree 2011 bars HIV-related research without approval of the Fiji National Research Ethics Review Committee, which reports approved protocols each year.",
+        "The same Decree lets HIV information be disclosed only where identifiers are removed or it is statistical.",
+        "No general law on consent, opt-out or a public register for secondary use of health records was verified. Clinical trial consent rules were not verified. Base 40, plus 3 for the statutory ethics body."
+      ],
+      "sources": [
+        {
+          "title": "HIV/AIDS Decree 2011 (Decree No. 5 of 2011), ILO NATLEX copy",
+          "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/86222/FJI86222.pdf",
+          "date": "2011",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "ai": {
+      "score": 18,
+      "summary": "No rules for clinical AI were verified, even as the Ministry installs X-ray machines with built-in AI that flags abnormalities. Fiji has no verified medical device rules for AI software or human oversight duties.",
+      "detail": [
+        "In January 2026 the Ministry said 18 new digital X-ray machines with integrated AI software that flags possible abnormalities were being installed, starting at CWM Hospital, Nausori and Taveuni.",
+        "No national AI law, health AI guidance or regulation of AI as a medical device was verified. The Medicinal Products Act 2011 covers devices, but its text could not be opened for this review.",
+        "With nothing verified, Fiji falls in the 15 to 30 band for non-EU countries."
+      ],
+      "sources": [
+        {
+          "title": "Fiji's hospitals go digital with AI equipped X-ray upgrade (Fijivillage)",
+          "url": "https://www.fijivillage.com/news/fiji-s-hospitals-go-digital-with-ai-equipped-x-ray-upgrade-204545/",
+          "date": "2026-01-11",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "PATISPlus links pathology results at 3 major hospitals and gained an HIV module in 2026; prison clinics use PATIS. Immunization is digital at 220 sites. Pharmacy runs on separate mSupply; the Master Patient Index was not verified as live.",
+  "laws": [
+    {
+      "name": "Constitution of the Republic of Fiji 2013, sections 24 and 25",
+      "level": "National",
+      "year": "2013",
+      "what": "Right to privacy and confidentiality of personal information; right of access to information held by public offices.",
+      "url": "https://cjad.nottingham.ac.uk/documents/implementations/pdf/Fiji-_Constitution_2013_EN.pdf"
+    },
+    {
+      "name": "HIV/AIDS Decree 2011 (Decree No. 5 of 2011)",
+      "level": "National",
+      "year": "2011",
+      "what": "Informed consent for HIV testing, confidentiality of HIV status, ethics approval for HIV research.",
+      "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/86222/FJI86222.pdf"
+    },
+    {
+      "name": "Medical and Dental Practitioner Act 2010",
+      "level": "National",
+      "year": "2010",
+      "what": "Licenses doctors; improper disposal of medical records is unprofessional conduct; fines for official disclosures.",
+      "url": "https://fijigp.com/wp-content/uploads/2020/08/Medical_and_Dental_Practitioner_Act_2010.pdf"
+    },
+    {
+      "name": "National Privacy and Personal Data Protection Policy",
+      "level": "National",
+      "year": "2025",
+      "what": "Cabinet policy, not law; lays groundwork for a data protection act and Convention 108+ accession.",
+      "url": "https://www.fijivillage.com/news/National-privacy-and-personal-data-protection-policy-to-safeguard-data-protection-endorsed-by-Cabinet-r8xf54/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-11",
+      "headline": "Cabinet endorses national privacy and personal data protection policy",
+      "source": "Fijivillage",
+      "url": "https://www.fijivillage.com/news/National-privacy-and-personal-data-protection-policy-to-safeguard-data-protection-endorsed-by-Cabinet-r8xf54/",
+      "why": "First step toward a data protection law that would cover health records."
+    },
+    {
+      "date": "2026-01-11",
+      "headline": "Public hospitals install digital X-ray machines with built-in AI",
+      "source": "Fijivillage",
+      "url": "https://www.fijivillage.com/news/fiji-s-hospitals-go-digital-with-ai-equipped-x-ray-upgrade-204545/",
+      "why": "AI now reads patient images with no verified rules on oversight or safety."
+    },
+    {
+      "date": "2026-03-31",
+      "headline": "Fiji launches national digital immunization record for children",
+      "source": "UNICEF Pacific",
+      "url": "https://www.unicef.org/pacificislands/press-releases/no-more-paper-fiji-launches-first-ever-digital-immunization-records-every-child",
+      "why": "A child's vaccine record can now be read at any of 220 sites."
+    },
+    {
+      "date": "2026-07-10",
+      "headline": "Ministry launches HIV module in PATISPlus patient information system",
+      "source": "Fijivillage",
+      "url": "https://www.fijivillage.com/r/new-hiv-digital-module-launched-to-improve-patient-tracking-and-care-in-fiji-d783ba/",
+      "why": "Puts sensitive HIV records in a shared digital system during an HIV surge."
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Prison health services move onto the PATIS patient system",
+      "source": "Fiji Sun",
+      "url": "https://fijisun.com.fj/living/health/new-digital-system-puts-prison-health-data-at-fingertips",
+      "why": "Extends digital records to inmates, with confidentiality stressed by the Ministry."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

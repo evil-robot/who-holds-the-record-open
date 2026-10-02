@@ -1,0 +1,339 @@
+{
+ "iso3": "BDI",
+ "name": "Burundi",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Burundi passed its first data protection law in March 2026, but its regulator is not yet running and hospital records stay in separate systems.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Since March 2026, Law 1/03 gives a free copy of your data within one month, but medical information goes only through a doctor you name. No national patient portal was found, and the data regulator does not exist yet, so the score sits at 40.",
+   "detail": [
+    "Articles 24 and 25 of Law 1/03 of 10 March 2026 give a right to confirmation and to a free copy of your personal data. Requests made electronically get an electronic answer. Extra copies can carry a fee set by the Finance Minister.",
+    "Article 33 sets a deadline of one month. Article 32 says medical information can be passed to the person only through a doctor the person designates.",
+    "Public bodies have one year from entry into force to comply (Article 53). The agency meant to enforce the law was still a draft decree in June 2026.",
+    "Health records sit in each hospital's own software. We found no national portal or app where patients can see their record."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°1/03 du 10 mars 2026 portant protection des données à caractère personnel (ARCT copy of signed text)",
+     "url": "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf",
+     "date": "2026-03-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n°1/03 du 10 mars 2026 portant protection des données à caractère personnel (ARCT notice)",
+     "url": "https://arct.gov.bi/2026/03/18/loi-n1-03-du-10-mars-2026-portant-protection-des-donnees-a-caractere-personnel/",
+     "date": "2026-03-18",
+     "publisherClass": "official"
+    },
+    {
+     "title": "SETIC: workshop on the draft decree organising the Agence de Protection des Données à Caractère Personnel (SETIC on X)",
+     "url": "https://x.com/seticburundi/status/2066841935315095724",
+     "date": "2026-06-16",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Politique Nationale de Gouvernance des Données Sanitaires au Burundi 2024-2027 (Ministère de la Santé Publique)",
+     "url": "https://minisante.gov.bi/wp-content/uploads/document_valide/Politique%20Nationale%20de%20Gouvernance%20des%20Donn%C3%A9es%20Sanitaires%20au%20Burundi.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "The 2026 law lets people object and withdraw consent, but there is no opt-out from sharing and no patient-visible access log. A February 2026 health deal commits Burundi to give the US any data access needed to audit facilities.",
+   "detail": [
+    "Law 1/03 lets a person object to processing for legitimate reasons (Article 22) and seek erasure when consent is withdrawn (Article 28). Health data may be processed with express consent or for urgent medical follow-up (Article 10).",
+    "Article 10 also lets the minister in charge of civil status lift the ban on sensitive data processing by ordinance, for public interest reasons.",
+    "The Ministry's data governance policy logs staff access to hosted systems, but we found no way for a patient to see who opened their file.",
+    "Under section 4.2 of the 2026 US MOU, Burundi commits to give the US any data or on-site access needed to audit up to 5% of facilities."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°1/03 du 10 mars 2026 portant protection des données à caractère personnel (ARCT copy of signed text)",
+     "url": "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf",
+     "date": "2026-03-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Politique Nationale de Gouvernance des Données Sanitaires au Burundi 2024-2027 (Ministère de la Santé Publique)",
+     "url": "https://minisante.gov.bi/wp-content/uploads/document_valide/Politique%20Nationale%20de%20Gouvernance%20des%20Donn%C3%A9es%20Sanitaires%20au%20Burundi.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Memorandum of Understanding between the United States and Burundi on health (State Department FOIA release, Public Citizen copy)",
+     "url": "https://www.citizen.org/wp-content/uploads/BURUNDI_FL-2026-00021_August-2026-Production_RELEASE.pdf",
+     "date": "2026-02-06",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is a banned category under Law 1/03 unless an exception applies, with 48-hour breach notice to the regulator and fines up to BIF 20 million. The regulator was not yet set up in mid-2026 and no enforcement exists.",
+   "detail": [
+    "Article 9 of Law 1/03 forbids processing health data, with exceptions in Article 10. Sensitive data must get extra safeguards such as encryption, access controls and security audits.",
+    "Breaches must be reported to the agency within 48 hours (Article 45) and to people within 96 hours when risk is high (Article 46). Fines for companies run from BIF 1 to 20 million (Article 47).",
+    "The agency sits under the ministry in charge of the digital economy, as the Interior Minister told parliament. A decree to set it up was still in draft in June 2026.",
+    "Transfers abroad need an adequate level of protection, judged against a country list set by ministerial ordinance (Article 15). We found no published list. The EU's EHDS does not apply to Burundi."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°1/03 du 10 mars 2026 portant protection des données à caractère personnel (ARCT copy of signed text)",
+     "url": "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf",
+     "date": "2026-03-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Assemblée nationale : analyse et adoption d'une loi portant protection des données à caractère personnel (Le Renouveau)",
+     "url": "https://lerenouveau.bi/assemblee-nationale-du-burundi-analyse-et-adoption-dune-loi-portant-protection-des-donnees-a-caractere-personnel/",
+     "date": "2026-01-15",
+     "publisherClass": "news"
+    },
+    {
+     "title": "SETIC: workshop on the draft decree organising the Agence de Protection des Données à Caractère Personnel (SETIC on X)",
+     "url": "https://x.com/seticburundi/status/2066841935315095724",
+     "date": "2026-06-16",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Anyone can refuse, free of charge, the use of their data for commercial marketing, and unlawful processing of health data carries fines of BIF 0.5 to 5 million. No rules were found on selling de-identified data or on health apps.",
+   "detail": [
+    "Article 23 of Law 1/03 gives a right to object, without cost or reason, to the use of personal data for commercial, charitable or political marketing.",
+    "Article 50 fines unlawful processing of health data between BIF 500,000 and 5 million. Companies with over 200 staff, all public bodies and bodies running health research must keep processing registers and name a data protection officer (Articles 36 and 37).",
+    "We found no rules on data brokers, consumer health apps or the sale of anonymised health data. Without a working regulator, these protections are untested."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°1/03 du 10 mars 2026 portant protection des données à caractère personnel (ARCT copy of signed text)",
+     "url": "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf",
+     "date": "2026-03-10",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "Most public hospitals run their own software, but DHIS2, SIDAinfo and OpenClinic do not talk to each other, according to April 2026 reporting. A US-funded plan sets EMR, lab and pharmacy rollouts; progress against its 2026 targets is not verified.",
+   "detail": [
+    "Enabel said in July 2026 that over 80% of public hospitals are computerised. Its 2023 report named OpenClinic and Quick Soft as the main hospital systems.",
+    "Afrique IT News reported in April 2026 that DHIS2, SIDAInfo and OpenClinic coexist without exchanging data. The government aims for a fully interoperable system using HL7 FHIR.",
+    "The February 2026 US MOU commits Burundi to SIDAinfo as its EMR in 460 facilities by 2026, Ibipimo in national and regional labs, and eLMIS in 10% of pharmacies by end 2026.",
+    "DHIS2 is the national data warehouse for aggregate reporting, with epidemic data sent daily, under the Ministry's data governance policy. Insurance claims links were not found."
+   ],
+   "sources": [
+    {
+     "title": "Memorandum of Understanding between the United States and Burundi on health (State Department FOIA release, Public Citizen copy)",
+     "url": "https://www.citizen.org/wp-content/uploads/BURUNDI_FL-2026-00021_August-2026-Production_RELEASE.pdf",
+     "date": "2026-02-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Santé numérique : Enabel renforce les capacités pour une intelligence artificielle responsable au Burundi (Enabel)",
+     "url": "https://open.enabel.be/fr/BDI/2771/3677/u/sante-numerique-enabel-renforce-les-capacites-pour-une-intelligence-artificielle-responsable-au-burundi.html",
+     "date": "2026-07-10",
+     "publisherClass": "official"
+    },
+    {
+     "title": "E-Santé : le Burundi numérise et unifie son système médical (Afrique IT News)",
+     "url": "https://afriqueitnews.com/tech-media/e-sante-burundi-numerise-unifie-systeme-medical-pour-finir-avec-paperasse/",
+     "date": "2026-04-15",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Politique Nationale de Gouvernance des Données Sanitaires au Burundi 2024-2027 (Ministère de la Santé Publique)",
+     "url": "https://minisante.gov.bi/wp-content/uploads/document_valide/Politique%20Nationale%20de%20Gouvernance%20des%20Donn%C3%A9es%20Sanitaires%20au%20Burundi.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 22,
+   "summary": "A clinician can see the record held in their own hospital's system, but there is no shared record across providers. The 2019 national e-health plan described referral links to district hospitals only as a pilot in three health centres.",
+   "detail": [
+    "Hospital records live in local systems such as OpenClinic and Quick Soft. The Ministry policy requires each user to log in and limits access to authorised staff.",
+    "The national e-health plan PNDIS II described a pilot in three health centres to computerise records and link referrals with the district hospital. Paper registers were still required alongside.",
+    "We found no national rule or system that lets a clinician open a patient's record from another facility, even in an emergency."
+   ],
+   "sources": [
+    {
+     "title": "Politique Nationale de Gouvernance des Données Sanitaires au Burundi 2024-2027 (Ministère de la Santé Publique)",
+     "url": "https://minisante.gov.bi/wp-content/uploads/document_valide/Politique%20Nationale%20de%20Gouvernance%20des%20Donn%C3%A9es%20Sanitaires%20au%20Burundi.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Plan National de Développement de l'Informatique de Santé 2020-2024 (PNDIS II), Ministry of Public Health (WHO copy)",
+     "url": "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/BDI_Burundi_National-plan-development-digital-health_2020-2024.pdf",
+     "date": "2019",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Burundi : la digitalisation du système d'information hospitalier améliore la qualité des soins (Enabel)",
+     "url": "https://open.enabel.be/fr/BDI/1942/2078/u/burundi-la-digitalisation-du-systeme-d-information-hospitalier-ameliore-la-qualite-des-soins-et-des-services-de-sante.html",
+     "date": "2023-02-16",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Law 1/03 allows research on health data with the person's consent, and a national ethics committee reviews studies. But Ministry policy lets facility directors approve research sharing, Article 49 fines unjustified objection to research use, and no regulator exists yet, so the score stays at 50.",
+   "detail": [
+    "Article 10(6) of Law 1/03 allows health research on sensitive data when the person consents. Bodies running health research count as major controllers and must do impact assessments (Article 40).",
+    "A National Ethics Committee for the protection of human research subjects exists; its members were appointed by presidential decree in June 2019.",
+    "The Ministry policy says research data is shared only for a set purpose, with the facility director's approval, and must be aggregated, anonymised or encrypted.",
+    "Article 49 fines a person between BIF 50,000 and 500,000, or jails them up to a year, for objecting without legitimate reason to processing for research or statistics. There is no general research opt-out.",
+    "We found no public register of data uses and no check on how the consent rule works in practice."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°1/03 du 10 mars 2026 portant protection des données à caractère personnel (ARCT copy of signed text)",
+     "url": "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf",
+     "date": "2026-03-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret n°100/094 du 25 juin 2019 portant nomination des membres du Comité National d'Ethique (Présidence)",
+     "url": "http://presidence.gov.bi/decret-n100094-du-25-juin-2019-portant-nomination-des-membres-du-comite-national-dethique-pour-la-protection-des-etres-humains-sujets-de-la-recherche-biomedicale-et-comportementale/",
+     "date": "2019-07-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Politique Nationale de Gouvernance des Données Sanitaires au Burundi 2024-2027 (Ministère de la Santé Publique)",
+     "url": "https://minisante.gov.bi/wp-content/uploads/document_valide/Politique%20Nationale%20de%20Gouvernance%20des%20Donn%C3%A9es%20Sanitaires%20au%20Burundi.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 20,
+   "summary": "Burundi has no rules for clinical AI. A national AI strategy validated in April 2026 plans health pilots and an AI commission, but it is a plan, not regulation.",
+   "detail": [
+    "The National AI Strategy 2025-2030, validated in April 2026 with UNDP support, plans a National AI Commission and lists health as a priority sector. About fifteen pilot projects are planned, including in health.",
+    "The medicines regulator ABREMA lists rules on medicines and medical devices, but we found no guidance on software or AI as a medical device.",
+    "In July 2026 an EU-funded Enabel workshop in Bujumbura covered legal and ethical issues of AI in health care. No binding guidance followed that we could find."
+   ],
+   "sources": [
+    {
+     "title": "Burundi : la Stratégie nationale de l'Intelligence artificielle validée (Digital Business Africa)",
+     "url": "https://www.digitalbusiness.africa/burundi-la-strategie-nationale-de-lintelligence-artificielle-validee-axes-et-objectifs/",
+     "date": "2026-04-22",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Intelligence artificielle : à Séoul, le Burundi présente ses ambitions (We Are Tech)",
+     "url": "https://www.wearetech.africa/fr/fils/actualites/tech/intelligence-artificielle-a-seoul-le-burundi-presente-ses-ambitions",
+     "date": "2026-09-10",
+     "publisherClass": "news"
+    },
+    {
+     "title": "ABREMA documents and regulatory texts page",
+     "url": "http://abrema.gov.bi/information/document",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Santé numérique : Enabel renforce les capacités pour une intelligence artificielle responsable au Burundi (Enabel)",
+     "url": "https://open.enabel.be/fr/BDI/2771/3677/u/sante-numerique-enabel-renforce-les-capacites-pour-une-intelligence-artificielle-responsable-au-burundi.html",
+     "date": "2026-07-10",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "connected",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 collects aggregate data from facilities nationwide. Hospitals are mostly computerised but use systems that do not exchange data. EMR, lab and pharmacy links are planned under the 2026 US MOU; progress is not verified.",
+ "laws": [
+  {
+   "name": "Loi n°1/03 du 10 mars 2026 portant protection des données à caractère personnel",
+   "level": "National",
+   "year": "2026",
+   "what": "First data protection law: health data sensitive, free copy in one month, 48-hour breach notice, new agency.",
+   "url": "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf"
+  },
+  {
+   "name": "Loi n°1/10 du 16 mars 2022 portant prévention et répression de la cybercriminalité",
+   "level": "National",
+   "year": "2022",
+   "what": "Cybercrime law; the 2026 data law says its own penalties apply alongside it (Article 51).",
+   "url": "https://arct.gov.bi/2023/08/10/loi-n1-10-du-16-mars-2022-portant-prevention-et-repression-de-la-cybercriminalite-au-burundi/"
+  },
+  {
+   "name": "Politique Nationale de Gouvernance des Données Sanitaires 2024-2027",
+   "level": "National",
+   "year": "2024",
+   "what": "Ministry rules on health data confidentiality, user accounts, national hosting, 20-year retention and anonymised sharing.",
+   "url": "https://minisante.gov.bi/wp-content/uploads/document_valide/Politique%20Nationale%20de%20Gouvernance%20des%20Donn%C3%A9es%20Sanitaires%20au%20Burundi.pdf"
+  },
+  {
+   "name": "Décret n°100/094 portant nomination des membres du Comité National d'Ethique",
+   "level": "National",
+   "year": "2019",
+   "what": "Appoints the national ethics committee that protects human subjects in biomedical and behavioural research.",
+   "url": "http://presidence.gov.bi/decret-n100094-du-25-juin-2019-portant-nomination-des-membres-du-comite-national-dethique-pour-la-protection-des-etres-humains-sujets-de-la-recherche-biomedicale-et-comportementale/"
+  },
+  {
+   "name": "Memorandum of Understanding between the United States and Burundi on health",
+   "level": "National",
+   "year": "2026",
+   "what": "Five-year health deal naming national EMR, lab and pharmacy systems and granting US audit data access.",
+   "url": "https://www.citizen.org/wp-content/uploads/BURUNDI_FL-2026-00021_August-2026-Production_RELEASE.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-14",
+   "headline": "Burundi validates its first national data governance strategy",
+   "source": "We Are Tech Africa",
+   "url": "https://www.wearetech.africa/en/fils-uk/news/burundi-adopts-national-data-governance-strategy",
+   "why": "Sets personal data protection as a pillar of how state data is managed."
+  },
+  {
+   "date": "2026-01-15",
+   "headline": "National Assembly unanimously adopts personal data protection bill",
+   "source": "Le Renouveau",
+   "url": "https://lerenouveau.bi/assemblee-nationale-du-burundi-analyse-et-adoption-dune-loi-portant-protection-des-donnees-a-caractere-personnel/",
+   "why": "Gives patients their first legal rights over health and other personal data."
+  },
+  {
+   "date": "2026-02-09",
+   "headline": "United States and Burundi sign five-year health cooperation agreement",
+   "source": "allAfrica",
+   "url": "https://fr.allafrica.com/stories/202602090495.html",
+   "why": "The deal shapes national health record systems and US access to health data."
+  },
+  {
+   "date": "2026-04-15",
+   "headline": "Burundi plans an interoperable health information system using HL7 FHIR",
+   "source": "Afrique IT News",
+   "url": "https://afriqueitnews.com/tech-media/e-sante-burundi-numerise-unifie-systeme-medical-pour-finir-avec-paperasse/",
+   "why": "Linking siloed systems is the step needed for a record that follows the patient."
+  },
+  {
+   "date": "2026-07-10",
+   "headline": "EU-funded workshop on responsible AI in Burundi's health sector",
+   "source": "Enabel",
+   "url": "https://open.enabel.be/fr/BDI/2771/3677/u/sante-numerique-enabel-renforce-les-capacites-pour-une-intelligence-artificielle-responsable-au-burundi.html",
+   "why": "Reports over 80% of public hospitals computerised while AI rules are still absent."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,356 @@
+{
+  "iso3": "KAZ",
+  "name": "Kazakhstan",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Kazakh law promises consent and an access log for health data, but the state collects records centrally and its systems are still being joined up.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 60,
+      "summary": "Article 61 of the Health Code gives a right to see one's data in the National Electronic Health Passport, and eGov's eDensaulyq shows prescriptions, hospital stays and referrals. The Ministry said in December 2025 the passport still holds limited data; usage was not verified.",
+      "detail": [
+        "The 2020 Health Code (No. 360-VI) gives citizens the right to clear information about their health, including test results, diagnosis and prognosis (Article 77). Article 61(5) adds a right to see their data in the National Electronic Health Passport and to track the log of who accessed it.",
+        "Ministry rules from 2021 (Order KR DSM-54) say a clinic must answer a patient's written or electronic request within 3 working days, stating what data it holds, why, from where and for how long. We found no explicit right to a full copy of the whole chart (not verified).",
+        "The eDensaulyq service in the free eGov mobile app shows vaccinations, results of clinical services, dispensary registration, issued and dispensed prescriptions, planned and emergency hospital stays, referrals, medical exemptions and sick notes, according to the state e-health centre.",
+        "In December 2025 a Ministry e-health director said the passport showed only a limited set of data, and that from 2026 it would update after every visit with prescriptions, doses, ambulance calls and lab results. How many people use it, and whether the 2026 expansion happened, were not verified. The score stays in the lower half of the portal band."
+      ],
+      "sources": [
+        {
+          "title": "Health Code No. 360-VI, Articles 60 and 61 (digital health, access to personal medical data)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry Order KR DSM-54 (2021), Rules on access rights of digital health subjects",
+          "url": "https://bizup.kz/ru/documents/V2100023370",
+          "date": "2021-06-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "eDensaulyq service in the eGov mobile app (Republican Centre for Electronic Health)",
+          "url": "https://rcez.kz/serviceedensaulyg",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Kazakhs to get full access to the electronic health passport in 2026 (El.kz)",
+          "url": "https://el.kz/ru/polnyy-dostup-k-elektronnomu-pasportu-zdorovya-poluchat-kazahstantsy-v-2026-godu_400042673/",
+          "date": "2025-12-23",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 46,
+      "summary": "The Health Code says providers may access a person's medical data only with consent and gives a right to track an access log. But data must flow to the national health passport without consent, and whether patients can actually see the log was not verified.",
+      "detail": [
+        "Article 61(1) of the Health Code lists who may access personal medical data with the person's consent: providers, the insurance fund, health authorities and data aggregators, each only as far as needed. Emergency care gets access by default (Article 61(2)).",
+        "Article 60(4) lets clinics send data to the National Electronic Health Passport and Ministry systems without consent, and to other providers for care in listed cases (such as care without consent under Article 137). No opt-out from this central collection was found.",
+        "Ministry rules require automatic notices in the person's eGov cabinet of every use, change or addition of their medical data during system exchange, if the person is registered on eGov. The Personal Data Law (Article 8-1) runs a state service for giving and withdrawing consent and showing who accessed data in state systems.",
+        "In December 2025 a Ministry official said doctors would not see the expanded passport without the patient's permission. We could not confirm a working, patient-visible access log for health data in practice (not verified), so the score sits in the lower half of the 40 to 55 band."
+      ],
+      "sources": [
+        {
+          "title": "Health Code No. 360-VI, Articles 60 and 61 (digital health, access to personal medical data)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry Order KR DSM-54 (2021), Rules on access rights of digital health subjects",
+          "url": "https://bizup.kz/ru/documents/V2100023370",
+          "date": "2021-06-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 94-V On Personal Data and Their Protection (2013, as amended)",
+          "url": "https://bizup.kz/ru/documents/Z1300000094",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Kazakhs to get full access to the electronic health passport in 2026 (El.kz)",
+          "url": "https://el.kz/ru/polnyy-dostup-k-elektronnomu-pasportu-zdorovya-poluchat-kazahstantsy-v-2026-godu_400042673/",
+          "date": "2025-12-23",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 38,
+      "summary": "Medical secrecy and the Personal Data Law protect health data and require breach notice to the regulator. But investigators, prosecutors and special state bodies can get records without consent, the regulator is a ministry, and students' medical data leaked in April 2026.",
+      "detail": [
+        "Article 273 of the Health Code makes the fact of a visit, diagnosis and examination data a medical secret. Part 4 lists 10 cases of disclosure without consent, including requests from investigators, prosecutors, courts, and special state bodies for counter-intelligence.",
+        "The Personal Data Law (No. 94-V, 2013) requires operators to notify the authorized body of a security breach and to let people view their data free of charge. The authorized body is a government ministry, not an independent authority.",
+        "In September 2026 the vice-minister of AI and digital development said the maximum fine is 2,000 monthly calculation indices, about 10 million tenge, and proposed 5,000 for repeat breaches by large firms. Criminal liability for mass leaks was announced in March 2026.",
+        "In April 2026 Almaty prosecutors began a check after diagnoses and pregnancy details of KazNU students leaked from internal university summaries. Health-sector enforcement decisions by the regulator were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Health Code No. 360-VI, Article 273 (medical secrecy)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 94-V On Personal Data and Their Protection (2013, as amended)",
+          "url": "https://bizup.kz/ru/documents/Z1300000094",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Fines for personal data leaks may rise for companies (Zakon.kz)",
+          "url": "https://www.zakon.kz/obshestvo/6533131-shtrafy-za-utechku-personalnykh-dannykh-dlya-kompaniy-khotyat-povysit-v-kazakhstane.html",
+          "date": "2026-09-29",
+          "publisherClass": "news"
+        },
+        {
+          "title": "KazNU scandal: students' personal and medical data leaked (Zakon.kz)",
+          "url": "https://www.zakon.kz/obshestvo/6514124-skandal-v-kaznu-v-set-utekli-personalnye-i-meditsinskie-dannye-studentov.html",
+          "date": "2026-04-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "The Health Code allows transfer of personal medical data to third parties only with consent. In July 2026, though, registered data exchanges including MedEx began trading de-identified medical data products, and no specific limit on selling de-identified health data was found.",
+      "detail": [
+        "Article 60(3) of the Health Code says personal medical data goes to third parties only with the person's consent, except transfers to the national passport and for care. Article 61(3) bans transfer except as laws allow.",
+        "The Personal Data Law gives a right to withdraw consent to processing and transfer to third parties (Article 24). Marketing use of health data falls outside the listed no-consent cases.",
+        "In July 2026 Azattyq Ruhy reported that Kazakhstan began forming a data market, and that medical organisations can now pass de-identified data for analysis, research and AI. The first registered platforms were Astana Data Exchange, MedEx and Kompra.",
+        "We found no law specific to health data brokers, consumer health apps or the resale of de-identified health data (not verified)."
+      ],
+      "sources": [
+        {
+          "title": "Health Code No. 360-VI, Articles 60 and 61 (digital health, access to personal medical data)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 94-V On Personal Data and Their Protection (2013, as amended)",
+          "url": "https://bizup.kz/ru/documents/Z1300000094",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "A medical data market has opened in Kazakhstan (Azattyq Ruhy)",
+          "url": "https://rus.azattyq-ruhy.kz/economics/112458-v-kazakhstane-otkrylsia-rynok-meditsinskikh-dannykh-kak-eto-izmenit-sistemu-zdravookhraneniia",
+          "date": "2026-07-23",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 50,
+      "summary": "Clinics must send data to the National Electronic Health Passport, and eDensaulyq links prescriptions, hospital stays and referrals. In February 2026 the President said over 30 health information systems were not fully integrated, and ordered one state system by 1 December 2026.",
+      "detail": [
+        "Article 60(2) of the Health Code obliges all health providers to send data to the National Electronic Health Passport and Ministry systems in the volume the Ministry sets.",
+        "eDensaulyq shows issued and dispensed prescriptions, hospital stays, clinical service results, referrals and sick notes, so pharmacy, hospital and lab data reach one patient view, at least in part.",
+        "At a government meeting on 10 February 2026 the President said health care runs more than 30 separate information systems without full integration, which he linked to theft of budget funds. He ordered a single state medical digital system by 1 December 2026 and digitisation of the social health insurance fund.",
+        "In May 2026 the vice-minister said over 12 medical information systems were connected to a single medical data repository, with a unified portal and state medical information system due by year end. Kazakhstan is not in the EU, so the EHDS does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Health Code No. 360-VI, Articles 60 and 61 (digital health, access to personal medical data)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "eDensaulyq service in the eGov mobile app (Republican Centre for Electronic Health)",
+          "url": "https://rcez.kz/serviceedensaulyg",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Ministry launches e-Densaulyq and a single medical data repository (Pharmreviews)",
+          "url": "https://pharmreviews.kz/novosti/novosti-kazahstana/minzdrav-kazakhstana-zapuskaet-e-densaulyq-i-edinoe-khranilishche-meditsinskikh-dannykh",
+          "date": "2026-02-24",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Electronic health passport to appear for every Kazakh: what it means (DKNews)",
+          "url": "https://dknews.kz/ru/dk-it/392505-elektronnyy-pasport-zdorovya-poyavitsya-u",
+          "date": "2026-05-08",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 48,
+      "summary": "Emergency teams get default access to a person's medical data under Article 61 of the Health Code; other clinicians need consent. Officials say the national passport will give doctors one window on a patient's history, but that is still being built.",
+      "detail": [
+        "Article 61(2) gives emergency and urgent care providers default access to personal medical data. Other providers need the person's consent under Article 61(1) and the 2021 access rules.",
+        "The Ministry said in December 2025 that the passport held only limited data, such as the attached clinic, prescribed medicines and inpatient care.",
+        "In May 2026 the vice-minister said the new repository should let doctors work in one digital window, see treatment history and get tests and prescriptions. Whether a treating doctor can see records from other providers in practice today was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Health Code No. 360-VI, Articles 60 and 61 (digital health, access to personal medical data)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Ministry Order KR DSM-54 (2021), Rules on access rights of digital health subjects",
+          "url": "https://bizup.kz/ru/documents/V2100023370",
+          "date": "2021-06-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Kazakhs to get full access to the electronic health passport in 2026 (El.kz)",
+          "url": "https://el.kz/ru/polnyy-dostup-k-elektronnomu-pasportu-zdorovya-poluchat-kazahstantsy-v-2026-godu_400042673/",
+          "date": "2025-12-23",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Electronic health passport to appear for every Kazakh: what it means (DKNews)",
+          "url": "https://dknews.kz/ru/dk-it/392505-elektronnyy-pasport-zdorovya-poyavitsya-u",
+          "date": "2026-05-08",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "The Health Code requires consent to use a person's medical information in applied research, and identifiable medical secrets go to researchers only with informed consent. De-identified data is used for research without consent or an opt-out, with bioethics commissions as the main safeguard.",
+      "detail": [
+        "Article 227 requires consent of the research subject to take part or to use their biological samples and medical information, including for biobanks. Participants must be told they can refuse at any stage.",
+        "Article 273(3) allows medical secrets to go to researchers only with informed consent. Article 61(9) says analytics, statistics and research use medical data in de-identified form, with no individual consent or opt-out.",
+        "Article 228 sets up a Central Bioethics Commission and local commissions as independent expert bodies that review studies. No public register of data uses was found. Score: base 40, plus 3 each for ethics review, statutory secrecy and a consent route. As a non-EU country, the EHDS does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Health Code No. 360-VI, Articles 227 and 228 (biomedical research, bioethics commissions)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Code No. 360-VI, Article 273 (medical secrecy)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Code No. 360-VI, Articles 60 and 61 (digital health, access to personal medical data)",
+          "url": "https://zakon.uchet.kz/rus/docs/K2000000360",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 48,
+      "summary": "Kazakhstan's Law On Artificial Intelligence, signed 17 November 2025, puts risk management, transparency and labelling duties on AI owners. A Health Ministry order on AI in care, with pilots, validation and post-market monitoring, was only a draft in May 2026.",
+      "detail": [
+        "The Law On Artificial Intelligence was signed on 17 November 2025. It sets principles of transparency, explainability, human free will in decisions and data protection, puts risk-management and safety duties on owners, bans manipulative systems and requires labelling of AI-generated outputs.",
+        "In May 2026 the Health Ministry announced a draft order on medical services using AI. It covers clinical software that is a medical device, staged pilots, bioethics review, clinical validation, a list of trusted AI systems and post-registration monitoring.",
+        "Whether the order was adopted, and whether device rules for AI software include change control, were not verified. The score sits near the top of the guidance-only band (35 to 50), since the AI law is binding but not specific to care."
+      ],
+      "sources": [
+        {
+          "title": "President signs the Law On Artificial Intelligence (Akorda)",
+          "url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536",
+          "date": "2025-11-17",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Ministry drafts procedure for introducing AI in healthcare (Profit.kz)",
+          "url": "https://profit.kz/news/73708/Razrabotan-poryadok-vnedreniya-II-v-zdravoohranenie-ot-pilota-do-masshtabirovaniya/",
+          "date": "2026-05-06",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "Providers must feed the national health passport, and eDensaulyq shows prescriptions, hospital stays and referrals. Over 30 systems were not fully integrated in February 2026; a single state system is due by December 2026. EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Code On Public Health and the Healthcare System (No. 360-VI)",
+      "level": "National",
+      "year": "2020",
+      "what": "Patient rights, digital health chapter, consent-based access, access log right, medical secrecy, research consent.",
+      "url": "https://zakon.uchet.kz/rus/docs/K2000000360"
+    },
+    {
+      "name": "Law On Personal Data and Their Protection (No. 94-V)",
+      "level": "National",
+      "year": "2013",
+      "what": "Consent, withdrawal, breach notice to regulator, state consent service, cross-border transfer limits.",
+      "url": "https://bizup.kz/ru/documents/Z1300000094"
+    },
+    {
+      "name": "Rules on access rights of digital health subjects (Order KR DSM-54)",
+      "level": "National",
+      "year": "2021",
+      "what": "Consent form for medical data access, 3-day reply, eGov notices of data use.",
+      "url": "https://bizup.kz/ru/documents/V2100023370"
+    },
+    {
+      "name": "Health Ministry Order No. 152 (amends telemedicine requirements and access rules)",
+      "level": "National",
+      "year": "2025",
+      "what": "Telemedicine resources must give patients passport access and an access log view.",
+      "url": "https://bizup.kz/ru/documents/V2500037480-o-vnesenii-izmeneniy-v-nekotorye-prikazy-ministra-zdravoohra"
+    },
+    {
+      "name": "Law On Artificial Intelligence (No. 230-VIII)",
+      "level": "National",
+      "year": "2025",
+      "what": "AI principles, owner risk duties, banned manipulative systems, labelling of AI outputs.",
+      "url": "https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-23",
+      "headline": "Ministry says health passport will hold full visit data from 2026",
+      "source": "El.kz",
+      "url": "https://el.kz/ru/polnyy-dostup-k-elektronnomu-pasportu-zdorovya-poluchat-kazahstantsy-v-2026-godu_400042673/",
+      "why": "Promises patients a fuller record and says doctors need permission to view it."
+    },
+    {
+      "date": "2026-02-24",
+      "headline": "Health minister outlines single medical data repository after President's criticism",
+      "source": "Pharmreviews",
+      "url": "https://pharmreviews.kz/novosti/novosti-kazahstana/minzdrav-kazakhstana-zapuskaet-e-densaulyq-i-edinoe-khranilishche-meditsinskikh-dannykh",
+      "why": "Over 30 unlinked systems fragment patients' records; a single system is due by December 2026."
+    },
+    {
+      "date": "2026-04-10",
+      "headline": "Students' diagnoses and pregnancy data leak at KazNU; prosecutors check",
+      "source": "Zakon.kz",
+      "url": "https://www.zakon.kz/obshestvo/6514124-skandal-v-kaznu-v-set-utekli-personalnye-i-meditsinskie-dannye-studentov.html",
+      "why": "Shows medical secrets leaking outside the health system."
+    },
+    {
+      "date": "2026-07-23",
+      "headline": "Data exchanges begin trading de-identified medical data products",
+      "source": "Azattyq Ruhy",
+      "url": "https://rus.azattyq-ruhy.kz/economics/112458-v-kazakhstane-otkrylsia-rynok-meditsinskikh-dannykh-kak-eto-izmenit-sistemu-zdravookhraneniia",
+      "why": "Opens commercial reuse of de-identified patient data without individual consent."
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Ministry proposes higher fines for repeat personal data leaks",
+      "source": "Zakon.kz",
+      "url": "https://www.zakon.kz/obshestvo/6533131-shtrafy-za-utechku-personalnykh-dannykh-dlya-kompaniy-khotyat-povysit-v-kazakhstane.html",
+      "why": "Current maximum of about 10 million tenge may not deter large firms."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

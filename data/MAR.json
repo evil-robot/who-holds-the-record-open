@@ -1,0 +1,358 @@
+{
+ "iso3": "MAR",
+ "name": "Morocco",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Moroccans can ask each doctor for a copy of their file, but no shared record exists yet; a July 2026 bill would create one.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Law 131-13 says patients can obtain a copy of their medical file, and Law 09-08 makes access to personal data free. There is no national patient portal yet, and the law sets no fixed answer deadline.",
+   "detail": [
+    "Article 2 of Law 131-13 (2015) on medical practice says the patient, a legal representative or heirs can obtain a copy of the medical file.",
+    "Article 7 of Law 09-08 gives a right to obtain one's data in intelligible form, at reasonable intervals, without delay and free of charge. A controller may ask the CNDP for extra time and may refuse requests that are clearly abusive.",
+    "The ministry said in April 2026 that the shared medical record had finished its technical phase and was ready for gradual rollout in 2026. A live patient portal was not verified.",
+    "Bill 52.26, adopted by the government on 22 July 2026, would give patients electronic access to their shared record. It is not yet law."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 131-13 relative à l'exercice de la médecine (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ma/Publications/Documents/publications/loi%20131-13%20Fr.pdf",
+     "date": "2015-03-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel (CNDP)",
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/11/Loi-09-08-Fr.pdf",
+     "date": "2009-03-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Réunion du Comité de pilotage de la réforme du système national de santé (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ma/Pages/actualites.aspx?idactu=755",
+     "date": "2026-04-14",
+     "publisherClass": "official"
+    },
+    {
+     "title": "قانون رقمنة الصحة.. عقوبات حبسية وغرامات ثقيلة تنتظر مسربي بيانات المرضى (Nichan)",
+     "url": "https://nichan.ma/359231/",
+     "date": "2026-08-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 32,
+   "summary": "Law 09-08 requires express consent or a legal basis to process sensitive data, but doctors need only declare health data processing to the CNDP. No national sharing system, opt-out or patient-visible access log exists yet.",
+   "detail": [
+    "Article 21 of Law 09-08 ties processing of sensitive data to the person's express consent, a legal duty, or CNDP authorisation.",
+    "Article 22 relaxes this for health data used only for care by staff bound by professional secrecy: a declaration to the CNDP is enough, with no patient consent step.",
+    "Article 9 gives a right to object on legitimate grounds, except where processing meets a legal obligation.",
+    "Bill 52.26 would let patients hide some data from professionals, except in emergencies, and doctors would collect prior consent, according to press reports of the text. It is not yet law."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel (CNDP)",
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/11/Loi-09-08-Fr.pdf",
+     "date": "2009-03-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "قانون رقمنة الصحة.. عقوبات حبسية وغرامات ثقيلة تنتظر مسربي بيانات المرضى (Nichan)",
+     "url": "https://nichan.ma/359231/",
+     "date": "2026-08-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Secret médical et sanctions : pourquoi le projet de numérisation de la santé inquiète les médecins du privé (SNRT News)",
+     "url": "https://snrtnews.com/article/secret-medical-et-sanctions-pourquoi-le-projet-de-numerisation-de-la-sante-inquiete-les",
+     "date": "2026-08-19",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is sensitive data under Law 09-08, and processing it without express consent can bring three months to a year in prison and fines up to 300,000 dirhams. The law has no breach notification duty, and CNDP sanctions against health actors were not verified.",
+   "detail": [
+    "Article 1 of Law 09-08 lists health and genetic data as sensitive. Article 24 sets extra security duties for anyone processing health data.",
+    "Article 57 punishes processing health data without express consent with 3 to 12 months in prison and fines of 50,000 to 300,000 dirhams.",
+    "Law 09-08 has no duty to notify breaches to the regulator or to patients. In April 2025 hackers leaked files on nearly 2 million people from the CNSS, the social security fund that runs private-sector health insurance; the CNDP said it would investigate complaints.",
+    "As a non-EU country, Morocco is outside the GDPR and the EHDS; an EU-funded CNDP gap study looked at aligning Law 09-08 with the GDPR."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel (CNDP)",
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/11/Loi-09-08-Fr.pdf",
+     "date": "2009-03-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "CNDP statement after cyberattacks leaked CNSS data (Maroc24, MAP)",
+     "url": "https://www.maroc24.com/184651-%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D8%B3%D9%8A%D8%A8%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%85%D8%B1%D8%A7%D9%82%D8%A8/",
+     "date": "2025-04-10",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Morocco investigates major data breach allegedly by hackers from Algeria (The Record)",
+     "url": "https://therecord.media/morocco-investigates-breach-hackers-algeria",
+     "date": "2025-04-11",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Convergence entre la loi marocaine 09-08 et le RGPD (CNDP)",
+     "url": "https://www.cndp.ma/convergence-entre-la-loi-marocaine-09-08-et-le-nouveau-reglement-europeen-sur-la-protection-des-donnees-personnelles-rgpd/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "Law 09-08 gives a free right to refuse marketing use of personal data and bans automated direct marketing without consent. In 2024 the CNDP opened an inquiry into pharmacy software allegedly passing prescription data to drug makers; the outcome was not verified.",
+   "detail": [
+    "Article 9 lets a person object, at no cost, to use of their data for marketing, including commercial prospecting.",
+    "Article 10 bans direct marketing by automated calls, fax or email without prior consent, with a narrow exception for existing customers.",
+    "Hespress reported in April 2024 that the CNDP was investigating a pharmacy software firm suspected of passing prescription and patient data, stored on a cloud in Belgium, to drug laboratories.",
+    "No specific rule on health data brokers or sale of de-identified health data was found. Bill 52.26 would ban use of the national health identifier outside the health system."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel (CNDP)",
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/11/Loi-09-08-Fr.pdf",
+     "date": "2009-03-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "لجنة حماية المعطيات الشخصية تحقق في تسريبات حول أسرار المرضى (Hespress)",
+     "url": "https://www.hespress.com/%D9%84%D8%AC%D9%86%D8%A9-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%AD%D9%82%D9%82-%D9%81%D9%8A-%D8%AA%D8%B3-1356867.html",
+     "date": "2024-04-29",
+     "publisherClass": "news"
+    },
+    {
+     "title": "قانون رقمنة الصحة.. عقوبات حبسية وغرامات ثقيلة تنتظر مسربي بيانات المرضى (Nichan)",
+     "url": "https://nichan.ma/359231/",
+     "date": "2026-08-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "A shared medical record and an electronic care sheet are built but not yet in national use; a Kenitra care sheet pilot was planned for March 2026, and its launch was not verified. Hospitals, labs and private doctors still keep separate records.",
+   "detail": [
+    "The 2022 framework law 06-22 names digitalisation as the fourth pillar of health reform. A 2024 agreement between the ministry, the CNSS and the Digital Development Agency aims to create a unified interface for the shared record and care sheet.",
+    "The CNSS electronic care sheet links doctors, pharmacists, labs and imaging centres by QR code. A Kenitra pilot was planned for March 2026, then national rollout from April to June.",
+    "The ministry said in April 2026 that a national platform pooling public and private data had finished development, with final rollout after consultation.",
+    "Bill 52.26 would require every public and private provider to connect within 24 months of its implementing decree."
+   ],
+   "sources": [
+    {
+     "title": "Termes de référence, programmes (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ma/Documents/2024/05/TDR%20Programmes_13001%20(1).pdf",
+     "date": "2024-05",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Convention-cadre pour le déploiement du Dossier Médical Partagé et de la Feuille de Soins Electronique (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ma/Pages/actualites.aspx?IDActu=590",
+     "date": "2024-02-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Réunion du Comité de pilotage de la réforme du système national de santé (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ma/Pages/actualites.aspx?idactu=755",
+     "date": "2026-04-14",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Couverture médicale : la feuille de soins électronique amorce la fin du tout-papier (Le360, review of Al Ahdath Al Maghribia)",
+     "url": "https://fr.le360.ma/politique/couverture-medicale-la-feuille-de-soins-electronique-amorce-la-fin-du-tout-papier_O4CCJ3MRNRHCTEZW3I2QVDM5VM/",
+     "date": "2026-02-16",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 26,
+   "summary": "No national exchange lets a treating doctor see records held by other providers. The shared record was technically complete in April 2026 but its live use was not verified.",
+   "detail": [
+    "Records stay with each hospital or practice. The ministry describes the shared record as a 2026 rollout, not a working service.",
+    "A territorial health group pilot in Tanger-Tetouan-Al Hoceima improved coordination between hospitals in that region, the ministry said.",
+    "Under Bill 52.26, a doctor could open a patient's record in a life-threatening emergency even where the patient has hidden data. It is not yet law."
+   ],
+   "sources": [
+    {
+     "title": "Réunion du Comité de pilotage de la réforme du système national de santé (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ma/Pages/actualites.aspx?idactu=755",
+     "date": "2026-04-14",
+     "publisherClass": "official"
+    },
+    {
+     "title": "قانون رقمنة الصحة.. عقوبات حبسية وغرامات ثقيلة تنتظر مسربي بيانات المرضى (Nichan)",
+     "url": "https://nichan.ma/359231/",
+     "date": "2026-08-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Law 28-13 requires free, informed, written consent for biomedical research and lets participants withdraw at any time. Observational studies on health data fall outside it and depend on Law 09-08, with CNDP authorisation and no general opt-out.",
+   "detail": [
+    "Articles 4 to 6 of Law 28-13 require written, signed consent after oral and written information, and allow withdrawal at any time.",
+    "Article 2 says non-interventional and observational research is not covered by the law, apart from article 26, but must respect data protection law.",
+    "Under Law 09-08, reuse of data for a new purpose and processing of sensitive data need prior CNDP authorisation, granted on express consent or a legal basis. Article 57 penalties apply to misuse.",
+    "In 2022 the CNDP said it would develop joint work on health data with the Casablanca biomedical research ethics committee. No public register of data uses or general research opt-out was found."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 28-13 relative à la protection des personnes participant aux recherches biomédicales (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ma/Reglementation/REGLEMENTATIONDESPRATIQUESMEDICALES/28-13.pdf",
+     "date": "2015-09-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel (CNDP)",
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/11/Loi-09-08-Fr.pdf",
+     "date": "2009-03-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "La protection des données personnelles de santé sous les projecteurs à Tanger (CNDP)",
+     "url": "https://www.cndp.ma/la-protection-des-donnees-personnelles-de-sante-sous-les-projecteurs-a-tanger/",
+     "date": "2022-03-22",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 28,
+   "summary": "Morocco has no AI law and no clinical AI rule. The 2013 device law covers software only as part of a device, and a March 2025 CNDP statement says Law 09-08 governs AI use of personal data, which puts it near the top of the no-rules band.",
+   "detail": [
+    "Law 84-12 defines a medical device to include software needed for its operation and sets four risk classes. No rule on AI change control, validation or human oversight was found.",
+    "The CNDP said on 18 March 2025 that AI processing of personal data is governed by Law 09-08, and that day began hearings with institutions, parties and experts toward a CNDP deliberation on AI.",
+    "Article 7 of Law 09-08 gives people a right to know the logic behind automated processing of their data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 84-12 relative aux dispositifs médicaux (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ma/Reglementation/REGLEMENTATIONAPPLICABLEAUPRODUITSDESANTE/84-12.pdf",
+     "date": "2013-09-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "IA et protection des données à caractère personnel (CNDP communiqué)",
+     "url": "https://www.cndp.ma/ia-et-protection-des-donnees-a-caractere-personnel/",
+     "date": "2025-03-18",
+     "publisherClass": "official"
+    },
+    {
+     "title": "IA et Protection des Données à caractère Personnel: auditions (CNDP)",
+     "url": "https://www.cndp.ma/ia-pdp/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel (CNDP)",
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/11/Loi-09-08-Fr.pdf",
+     "date": "2009-03-05",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "unknown",
+  "research": "siloed"
+ },
+ "journeyNote": "The CNSS electronic care sheet would link doctors, pharmacies, labs and claims; its Kenitra pilot was planned for March 2026, launch not verified. The shared record and national platform are built but not in national use.",
+ "laws": [
+  {
+   "name": "Law 09-08 on the protection of personal data",
+   "level": "National",
+   "year": "2009",
+   "what": "Health is sensitive data; consent or CNDP authorisation; free access right; prison and fines to 300,000 dirhams.",
+   "url": "https://www.cndp.ma/wp-content/uploads/2023/11/Loi-09-08-Fr.pdf"
+  },
+  {
+   "name": "Law 131-13 on the practice of medicine",
+   "level": "National",
+   "year": "2015",
+   "what": "Patients have a right to information and to a copy of their medical file.",
+   "url": "https://www.sante.gov.ma/Publications/Documents/publications/loi%20131-13%20Fr.pdf"
+  },
+  {
+   "name": "Law 28-13 on protection of people in biomedical research",
+   "level": "National",
+   "year": "2015",
+   "what": "Written informed consent, withdrawal at any time; observational research excluded.",
+   "url": "https://www.sante.gov.ma/Reglementation/REGLEMENTATIONDESPRATIQUESMEDICALES/28-13.pdf"
+  },
+  {
+   "name": "Law 84-12 on medical devices",
+   "level": "National",
+   "year": "2013",
+   "what": "Device definition includes operating software; four risk classes; registration required.",
+   "url": "https://www.sante.gov.ma/Reglementation/REGLEMENTATIONAPPLICABLEAUPRODUITSDESANTE/84-12.pdf"
+  },
+  {
+   "name": "Framework Law 06-22 on the national health system",
+   "level": "National",
+   "year": "2022",
+   "what": "Health system reform; its fourth pillar is digitalisation of the health sector.",
+   "url": "https://www.sante.gov.ma/Documents/2024/05/TDR%20Programmes_13001%20(1).pdf"
+  },
+  {
+   "name": "Law 54.23 (health insurance governance, Bulletin officiel 29 January 2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "Moves public-sector health insurance management from CNOPS to the CNSS.",
+   "url": "https://fr.le360.ma/politique/couverture-medicale-la-feuille-de-soins-electronique-amorce-la-fin-du-tout-papier_O4CCJ3MRNRHCTEZW3I2QVDM5VM/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-07-22",
+   "headline": "Government adopts bill 52.26 creating shared record and national health identifier",
+   "source": "Maroc24 (MAP)",
+   "url": "https://www.maroc24.com/fr/202470-conseil-de-gouvernement-adoption-d-un-projet-de-loi-relatif-au-systeme-d-information-sanitaire-national-integre/",
+   "why": "Would give every patient one shared record, with a new agency running it."
+  },
+  {
+   "date": "2026-08-02",
+   "headline": "Bill text sets prison and fines for unlawful access to patient data",
+   "source": "Nichan",
+   "url": "https://nichan.ma/359231/",
+   "why": "Patients would get electronic access and could hide some data from doctors."
+  },
+  {
+   "date": "2026-08-19",
+   "headline": "Private doctors' unions reject digital health bill over penalties and consultation",
+   "source": "SNRT News",
+   "url": "https://snrtnews.com/article/secret-medical-et-sanctions-pourquoi-le-projet-de-numerisation-de-la-sante-inquiete-les",
+   "why": "Private providers deliver most care, so their buy-in decides whether records connect."
+  },
+  {
+   "date": "2026-02-16",
+   "headline": "CNSS electronic care sheet to start pilot in Kenitra in March 2026",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/politique/couverture-medicale-la-feuille-de-soins-electronique-amorce-la-fin-du-tout-papier_O4CCJ3MRNRHCTEZW3I2QVDM5VM/",
+   "why": "Prescriptions and claims would move from paper to shared digital records."
+  },
+  {
+   "date": "2026-03-26",
+   "headline": "Press reads regulator's 2025 AI statement as groundwork for AI governance",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/economie/ia-la-cndp-pose-les-bases-dune-nouvelle-gouvernance_E4SNJDHRBNFWPMMTSFRAFPBBXE/",
+   "why": "AI tools using patient data must follow Law 09-08 and allow decisions to be contested."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

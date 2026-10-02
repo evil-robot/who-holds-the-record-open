@@ -1,0 +1,321 @@
+{
+ "iso3": "SWZ",
+ "name": "Eswatini",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Most public clinics share one national electronic record, but patients get no portal, no sharing choices, and health data rules are still in draft.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Section 19 of the Data Protection Act 2022 gives a right to a copy of your data, including who has had access to it, but at a prescribed fee. We found no patient portal, so requests go facility by facility.",
+   "detail": [
+    "Section 19 lets a person with proof of identity ask a controller to confirm, free of charge, whether it holds their data, and to get that data plus the identity of all third parties who have or have had access to it.",
+    "The copy comes within a prescribed time and at a prescribed fee, in a reasonable and understandable form. A refusal must come with written reasons, which the person can challenge. Correction requests are free, with an answer within 14 days (section 20).",
+    "The Data Protection Authority's guidance says a controller has 30 days to answer an access request. We did not find regulations setting the fee or time, so those are not verified. The fee allowance costs 5 points from the base.",
+    "We found no national patient portal or app that shows people their own record."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2022 (Act No. 5 of 2022), Government Gazette Extraordinary Vol. LX No. 41",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf",
+     "date": "2022-03-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Eswatini Data Protection Authority: Regulatory Frameworks and data protection rights",
+     "url": "https://www.edpa.org.sz/RegulatoryFrameworks.html",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 35,
+   "summary": "Health data may be processed without consent for treatment and facility administration, and the national CMIS record is shared across public clinics with no opt-out we could find. A right to learn who accessed your data exists in law, not verified in practice.",
+   "detail": [
+    "Section 22 bans processing sensitive data, which includes health, unless the Act allows it. Section 27 allows medical professionals and facilities to process health data when needed for treatment, care or administration, without consent, under a duty of confidentiality.",
+    "Insurers and medical aid schemes may process health data to assess risk if the person has not objected, or to perform the policy (section 27(1)(b)).",
+    "Gavi reported in July 2026 that community health worker data syncs to the central Client Management Information System, and children's vaccination records show on any public clinic computer. We found no sharing setting or opt-out.",
+    "Section 19 gives a right to learn which third parties had access to your data. We found no evidence of a patient-visible access log, so this does not lift the score into the next band."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2022 (Act No. 5 of 2022), Government Gazette Extraordinary Vol. LX No. 41",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf",
+     "date": "2022-03-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Rural health monitors wield digital handheld devices to help close Eswatini's immunisation gap (Gavi VaccinesWork)",
+     "url": "https://www.gavi.org/vaccineswork/rural-health-monitors-wield-digital-handheld-devices-help-close-eswatinis",
+     "date": "2026-07-20",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 55,
+   "summary": "Health is sensitive data under the 2022 Act, with criminal fines up to E100 million or 5% of turnover. The regulator has decided one health-sector complaint and is drafting health data guidelines, but it has published only three enforcement notices.",
+   "detail": [
+    "Section 17 requires notice to the regulator and to affected people as soon as reasonably possible after a breach. The authority's website asks for reports within 72 hours. Section 6 allows administrative fines up to E5 million or 2% of turnover. Section 53 sets criminal fines up to E100 million or 5%, or ten years in prison.",
+    "The Eswatini Communications Commission acts as the Data Protection Authority. Its register lists enforcement notices against MTN Eswatini and Liberty Life (June 2024) and the Royal Science and Technology Park (March 2025).",
+    "In July 2026 the authority said it had concluded a complaint about a health practitioner's unlawful access to and disclosure of a patient's data. Draft guidelines on processing health data were then in validation.",
+    "Section 4(c) excludes State processing for national security, defence or public safety. Eswatini is outside the EU, so the EHDS does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2022 (Act No. 5 of 2022), Government Gazette Extraordinary Vol. LX No. 41",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf",
+     "date": "2022-03-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Eswatini Data Protection Authority: Enforcement Decisions Register",
+     "url": "https://www.edpa.org.sz/enforcement.html",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Eswatini Data Protection Authority (home page)",
+     "url": "https://www.edpa.org.sz/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health data guidelines enter validation stage (Times of Eswatini)",
+     "url": "https://times.co.sz/39805/news/health-data-guidelines-enter-validation-stage/",
+     "date": "2026-07-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "People can stop direct marketing at any time, and health data needs consent or a listed exemption. De-identified data falls outside the Act, and we found no rules on selling health data, brokers or health apps.",
+   "detail": [
+    "Section 44 lets a person tell a controller to stop, or never start, using their data for direct marketing. The regulator can order compliance.",
+    "Health data is sensitive under section 22, so commercial use needs consent (section 29(e)) or another exemption. Insurers may use health data to assess risk unless the person objects.",
+    "Section 4(b) puts data that has been de-identified so it cannot be re-identified outside the Act. We found no rules on sale of health data, data brokers or consumer health apps."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2022 (Act No. 5 of 2022), Government Gazette Extraordinary Vol. LX No. 41",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf",
+     "date": "2022-03-04",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 50,
+   "summary": "The Ministry of Health's 2024 plan says 71% of health facilities have electronic records in the national CMIS, targeting 95%, and a community system now feeds it. Lab links and hospital modules are still being built, and private care is not shown as linked.",
+   "detail": [
+    "The National Health Sector Strategic Plan 2024/25 to 2027/28 reports 71% of facilities with electronic health records (CMIS), with targets of 80% and 95%. It plans to scale up CMIS, eLMIS, CBHIS and other systems and to strengthen interoperability. It lists LIS and CMIS interoperability work for the laboratory network.",
+    "The World Bank's February 2025 restructuring paper records 74% of facilities using CMIS for routine reporting in June 2024, against an 80% target for September 2025.",
+    "The World Bank said in February 2026 that the new Community-Based Health Information System is integrated with CMIS. It was piloted in Lubombo and is being rolled out.",
+    "We found no evidence that private providers, pharmacies or insurers connect to CMIS."
+   ],
+   "sources": [
+    {
+     "title": "National Health Sector Strategic Plan 2024/25 - 2027/28 (Ministry of Health)",
+     "url": "https://www.ccm.org.sz/strategic-plans/docs/Eswatini_NATIONAL_HEALTH_SECTOR_STRATEGIC_PLAN_2024_compressed.pdf",
+     "date": "2024-08",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Restructuring Paper, Health System Strengthening for Human Capital Development in Eswatini (P168564), World Bank",
+     "url": "https://documents1.worldbank.org/curated/en/099020825065511939/pdf/P168564-b672e385-ca87-4088-9535-b4f0dd21f07d.pdf",
+     "date": "2025-02",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "From Paper to Pixels: Driving the Digital Transformation of Community Health Services in Eswatini (World Bank)",
+     "url": "https://www.worldbank.org/en/news/feature/2026/02/23/from-paper-to-pixels-driving-the-digital-transformation-of-community-health-services-in-eswatini",
+     "date": "2026-02-23",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 45,
+   "summary": "In public facilities on CMIS, clinicians can open a patient's record held in the central database, and Gavi reports vaccination records showing at any public clinic. Coverage stops at about 71% of facilities and does not reach private care.",
+   "detail": [
+    "Gavi reported in July 2026 that vaccination records uploaded by community health workers display on any public clinic computer, and quoted a technical partner saying clients could be quickly referred to hospital using the central data.",
+    "The Ministry of Health's 2024 strategic plan lists LIS and CMIS links and a mini LIS module in CMIS as work items, so lab results do not yet flow fully.",
+    "A vendor that worked on CMIS says ART clinics use fingerprint scanning so records open only when the client is present. That is a vendor claim we did not verify independently.",
+    "We found no emergency access rules specific to the shared record."
+   ],
+   "sources": [
+    {
+     "title": "Rural health monitors wield digital handheld devices to help close Eswatini's immunisation gap (Gavi VaccinesWork)",
+     "url": "https://www.gavi.org/vaccineswork/rural-health-monitors-wield-digital-handheld-devices-help-close-eswatinis",
+     "date": "2026-07-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Restructuring Paper, Health System Strengthening for Human Capital Development in Eswatini (P168564), World Bank",
+     "url": "https://documents1.worldbank.org/curated/en/099020825065511939/pdf/P168564-b672e385-ca87-4088-9535-b4f0dd21f07d.pdf",
+     "date": "2025-02",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "National Health Sector Strategic Plan 2024/25 - 2027/28 (Ministry of Health)",
+     "url": "https://www.ccm.org.sz/strategic-plans/docs/Eswatini_NATIONAL_HEALTH_SECTOR_STRATEGIC_PLAN_2024_compressed.pdf",
+     "date": "2024-08",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Fighting the HIV/AIDS Battle in Eswatini (FEI Systems)",
+     "url": "https://feisystems.com/news/fighting-the-hiv-aids-battle-in-eswatini/",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Research use of personal data is exempt from most of the 2022 Act's principles without consent, though security and de-identification rules still apply. An ethics board reviews over 100 applications a year, and trials need regulator approval.",
+   "detail": [
+    "Section 31 exempts processing for historical, statistical and research purposes from all principles except security, information quality and de-identification for research. Controllers must stop the data being used for other purposes.",
+    "Section 30 lets the regulator authorise processing in the public interest, including research with safeguards. We found no opt-out from research use and no public register.",
+    "The Minister of Health unveiled the 2026 to 2028 Health and Human Research Review Board in January 2026. He said it processes over 100 ethics applications a year.",
+    "Section 56 of the Medicines Act 2016 bars clinical trials of medicines or devices without the Authority's approval and requires good clinical practice. Base 40, plus 3 each for the ethics body and the statutory confidentiality duty."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2022 (Act No. 5 of 2022), Government Gazette Extraordinary Vol. LX No. 41",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf",
+     "date": "2022-03-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Medicines and Related Substances Control Act, 2016 (Act 9 of 2016)",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_Medicines-and-Related-Substances-Control-Act_1965.pdf",
+     "date": "2016",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Minister unveils 2026-2028 Health and Human Research Review Board (Eswatini Positive News)",
+     "url": "https://eswatinipositivenews.online/minister-unveils-2026-2028-health-and-human-research-review-board/",
+     "date": "2026-01-19",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "Eswatini has no AI law and no rules for clinical AI. The 2016 Medicines Act regulates medical devices but does not mention software, and its regulator only got a board in January 2026.",
+   "detail": [
+    "The Medicines Act 2016 requires registration of medical devices and authority approval for device trials. Its device definition lists instruments, machines and reagents, with no mention of software or AI.",
+    "Inhlase reported in August 2026 that the Medicines Regulatory Authority's board was appointed only in January 2026, a decade after the Act passed. Until then a ministry unit did the work.",
+    "Section 45 of the Data Protection Act limits decisions based solely on automated profiling that have legal or significant effects.",
+    "In July 2026 the Prime Minister called for human-centred AI governance in Geneva and pointed to the national Fourth Industrial Revolution Strategy. We found no binding health AI guidance."
+   ],
+   "sources": [
+    {
+     "title": "Medicines and Related Substances Control Act, 2016 (Act 9 of 2016)",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_Medicines-and-Related-Substances-Control-Act_1965.pdf",
+     "date": "2016",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection Act, 2022 (Act No. 5 of 2022), Government Gazette Extraordinary Vol. LX No. 41",
+     "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf",
+     "date": "2022-03-04",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "How the absence of a drug-testing facility is gambling with the lives of emaSwati (Inhlase)",
+     "url": "https://inhlase.com/how-the-absence-of-a-drug-testing-facility-is-gambling-with-the-lives-of-emaswati/",
+     "date": "2026-08-06",
+     "publisherClass": "news"
+    },
+    {
+     "title": "PM urges AI rules to protect children, uphold human dignity (Times of Eswatini)",
+     "url": "https://times.co.sz/34851/news/pm-urges-ai-rules-to-protect-children-uphold-human-dignity/",
+     "date": "2026-07-06",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "CMIS is the national electronic record in about 71% of facilities, mostly public, and the community health system feeds it. Lab links are being built. We found no evidence of private, pharmacy or insurer connections.",
+ "laws": [
+  {
+   "name": "Data Protection Act, 2022 (Act No. 5 of 2022)",
+   "level": "National",
+   "year": "2022",
+   "what": "Health is sensitive data; access, correction and marketing objection rights; breach notice; fines up to E100 million.",
+   "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf"
+  },
+  {
+   "name": "Medicines and Related Substances Control Act, 2016 (Act 9 of 2016)",
+   "level": "National",
+   "year": "2016",
+   "what": "Creates the Medicines Regulatory Authority; registers medicines and devices; trials need approval and good clinical practice.",
+   "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_Medicines-and-Related-Substances-Control-Act_1965.pdf"
+  },
+  {
+   "name": "Eswatini Communications Commission Act, 2013",
+   "level": "National",
+   "year": "2013",
+   "what": "Sets up the Commission that the Data Protection Act names as the data protection authority.",
+   "url": "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf"
+  },
+  {
+   "name": "Draft advisory guidelines on processing personal health data",
+   "level": "National",
+   "year": "2026",
+   "what": "Draft regulator guidance on collecting, sharing, securing health data and breach notice; in validation July 2026.",
+   "url": "https://times.co.sz/39805/news/health-data-guidelines-enter-validation-stage/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-19",
+   "headline": "Health minister appoints new research ethics board for 2026 to 2028",
+   "source": "Eswatini Positive News",
+   "url": "https://eswatinipositivenews.online/minister-unveils-2026-2028-health-and-human-research-review-board/",
+   "why": "This board decides whether research on patients and their data can go ahead."
+  },
+  {
+   "date": "2026-02-23",
+   "headline": "Community health workers move from paper to a system linked to CMIS",
+   "source": "World Bank",
+   "url": "https://www.worldbank.org/en/news/feature/2026/02/23/from-paper-to-pixels-driving-the-digital-transformation-of-community-health-services-in-eswatini",
+   "why": "More rural patient data now flows into the national record."
+  },
+  {
+   "date": "2026-04-29",
+   "headline": "EU and GIZ back workshop to draft a national data policy",
+   "source": "EEAS (Delegation of the EU to Eswatini)",
+   "url": "https://www.eeas.europa.eu/delegations/eswatini/eu-proud-support-eswatini-developing-national-data-policy_en",
+   "why": "The policy will set rules on access, privacy and public use of data."
+  },
+  {
+   "date": "2026-07-28",
+   "headline": "Regulator validates draft guidelines on processing personal health data",
+   "source": "Times of Eswatini",
+   "url": "https://times.co.sz/39805/news/health-data-guidelines-enter-validation-stage/",
+   "why": "First health-specific privacy guidance; regulator also closed a patient data complaint."
+  },
+  {
+   "date": "2026-09-17",
+   "headline": "Data protection authority takes outreach to towns after awareness gaps found",
+   "source": "Eswatini Positive News",
+   "url": "https://eswatinipositivenews.online/edpa-takes-data-protection-services-closer-to-emaswati/",
+   "why": "About 80% of surveyed stand visitors did not know the law that protects them."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

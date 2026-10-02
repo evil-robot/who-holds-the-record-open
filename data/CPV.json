@@ -1,0 +1,325 @@
+{
+ "iso3": "CPV",
+ "name": "Cape Verde",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Cape Verde has a modern data law and a right to see your records, but the promised digital record is not yet open to patients.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Two laws give a right to see your records, but the data law routes health data through a doctor you choose and sets no deadline. The Nha Card e-Saúde portal books visits and tests; whether it shows your results was not verified.",
+   "detail": [
+    "Article 23(1)(c) of the 2004 Health Service Base Law (Lei 41/VI/2004) gives users of the national health service a right to information on their health and access to all records about them.",
+    "Article 14 of the data protection law, as republished in 2021, lets a person get a copy of their data at reasonable intervals and without excessive delay or cost. No fixed number of days is set.",
+    "Article 14(5) says access to health data, including genetic data, is exercised through a doctor chosen by the person. This adds a step between patients and their own file.",
+    "The government's Nha Card e-Saúde portal lets people log in with Autentika to request specialist consultations and tests, follow the request and pay. Its home page also says users can follow results, but no feature for this is listed. Whether it shows notes, results or history was not verified.",
+    "Score: base 45 for a statutory right with no record portal, minus 5 for no fixed deadline and minus 5 for the doctor-only route to health data."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 41/VI/2004, Bases do Serviço Nacional de Saúde, Boletim Oficial I Série n.º 10 (copy with the medical code of ethics)",
+     "url": "https://ct-luso.com/pluginfile.php/46/mod_page/content/49/Lei%20de%20base%20SNS%20e%20C%C3%B3digo%20deontol%C3%B3gico%20dos%20M%C3%A9dicos.pdf",
+     "date": "2004-04-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lei n.º 121/IX/2021, second amendment and republication of the general data protection regime (Lei n.º 133/V/2001), and Lei n.º 120/IX/2021 on the CNPD, Boletim Oficial I Série n.º 28 (ARC copy)",
+     "url": "https://www.arc.cv/arc/upload/legislacao/lesgi_63207ee2981fe5.62250708111.pdf",
+     "date": "2021-03-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Nha Card e-Saúde portal (Governo de Cabo Verde)",
+     "url": "https://nhacard-esaude.gov.cv/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data may be used for care without consent when handled by a professional bound by secrecy and notified to the regulator. There is no shared record yet, so no sharing setting, opt-out or access log exists for patients.",
+   "detail": [
+    "Article 8(1) of the data protection law bans processing health data unless an exception applies. Express consent is one; legal authorisation and CNPD authorisation for an important public interest are others.",
+    "Article 8(4) allows health data processing for prevention, diagnosis, care and health service management by a professional bound by secrecy, if notified to the CNPD. Article 8(5) adds a state security and crime exception.",
+    "Article 9(3) lets a person withdraw consent at any time, easily and without harm. Article 20 gives a right to object, but only for compelling and legitimate reasons tied to the person's situation.",
+    "Article 18 gives data portability only for consent or contract processing done by automated means, and not for public-interest tasks such as most public health care."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 121/IX/2021, second amendment and republication of the general data protection regime (Lei n.º 133/V/2001), and Lei n.º 120/IX/2021 on the CNPD, Boletim Oficial I Série n.º 28 (ARC copy)",
+     "url": "https://www.arc.cv/arc/upload/legislacao/lesgi_63207ee2981fe5.62250708111.pdf",
+     "date": "2021-03-17",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 50,
+   "summary": "Health data is a special category, breaches go to the regulator within 72 hours and the CNPD is elected by a two-thirds vote in parliament. With no health-sector cases found, this scores the general law, held back by low fines and no published report since 2016.",
+   "detail": [
+    "Article 27 of the republished law requires notice of a breach to the CNPD within 72 hours unless it poses no risk. Article 28 requires telling affected people without undue delay when the risk is high.",
+    "Article 25 requires extra security for special data, and Article 25(3) requires systems to keep health and sex-life data logically separate from other data.",
+    "Article 50 sets fines of 100,000 to 1,000,000 escudos for many breaches, doubled for breaches of the special-data rules in Article 8. Article 49 caps company fines at 3,000,000 escudos, doubled for data under prior control.",
+    "Law 120/IX/2021 makes the CNPD an independent body of three members elected by two-thirds of deputies present. Its website lists activity reports, but the latest actual report is for 2016; later files are activity plans.",
+    "Cape Verde is outside the EU, so GDPR and the EHDS do not apply. Article 35 allows transfers abroad only to countries the CNPD finds adequate."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 121/IX/2021, second amendment and republication of the general data protection regime (Lei n.º 133/V/2001), and Lei n.º 120/IX/2021 on the CNPD, Boletim Oficial I Série n.º 28 (ARC copy)",
+     "url": "https://www.arc.cv/arc/upload/legislacao/lesgi_63207ee2981fe5.62250708111.pdf",
+     "date": "2021-03-17",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Relatório de Atividades (CNPD)",
+     "url": "https://www.cnpd.cv/relatorio-de-atividades/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Selling or reusing health data for business needs express consent under the special-data ban, and people can refuse marketing use free of charge. We found no rule on health apps, data brokers or de-identified data, and no enforcement in health.",
+   "detail": [
+    "Under Article 8(1), a company has no general basis to use health data for its own commercial ends. Express consent, a law or a CNPD authorisation is needed.",
+    "Article 13(1)(h) requires telling people before their data is first passed to third parties for direct marketing. Article 20(b) and (c) let them object free of charge.",
+    "Article 8(6) bans profiling that leads to discrimination based on special data, including health. Article 23 limits decisions based only on automated processing.",
+    "These are general rules. We found no CNPD decision on health data sales, consumer health apps or de-identified data."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 121/IX/2021, second amendment and republication of the general data protection regime (Lei n.º 133/V/2001), and Lei n.º 120/IX/2021 on the CNPD, Boletim Oficial I Série n.º 28 (ARC copy)",
+     "url": "https://www.arc.cv/arc/upload/legislacao/lesgi_63207ee2981fe5.62250708111.pdf",
+     "date": "2021-03-17",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 32,
+   "summary": "A state platform, the SIS, is meant to link facilities, and in December 2025 the minister said a unique patient code and e-prescription are coming. Its coverage is not verified, and WHO still lists a digital health strategy as work to do.",
+   "detail": [
+    "NOSi, the state IT company, describes the Health Information System (SIS) as one platform for booking, sharing clinical and administrative data, with a central repository. Its coverage was not verified.",
+    "Lusa reported in 2024 that computerisation began in 2004 after the Hospital Agostinho Neto lost all patient data. A lab module was finished, and only some services had broadband. A digital health strategy was being prepared with World Bank support.",
+    "In December 2025 the health minister said each citizen will get a unique code giving access to labs, imaging and treatment history, plus e-prescription. Whether these work now was not verified.",
+    "WHO's 2024-2028 cooperation strategy lists support for developing a national digital health strategy and strengthening the DHIS2 health information system."
+   ],
+   "sources": [
+    {
+     "title": "Soluções e-gov: Sistema de Informação da Saúde (SIS) (NOSi)",
+     "url": "https://nosi.cv/solu%C3%A7%C3%B5es-egov",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Estratégia de Cooperação com o País 2024-2028, Cabo Verde (WHO AFRO)",
+     "url": "https://www.afro.who.int/sites/default/files/2025-09/ECP%20Cabo%20VErde%20PT%20%26%20CSS%20Cabo%20Verde%20eng.pdf",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Cabo Verde prepara gestão digital da saúde, incluindo listas de espera e transferências (Lusa via Saúde+ TV)",
+     "url": "https://www.saudemais.tv/noticia/48928-cabo-verde-prepara-gestao-digital-da-saude-incluindo-listas-de-espera-e-transferencias",
+     "date": "2024-02-08",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ministro da Saúde aponta avanço da digitalização do Sistema Nacional de Saúde (Inforpress)",
+     "url": "https://inforpress.cv/pt/article-6711",
+     "date": "2025-12-18",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 28,
+   "summary": "The 2004 base law calls for confidential flow of clinical information between levels of care, but a record clinicians can open in any facility is still described as a future benefit. We could not verify cross-facility access today.",
+   "detail": [
+    "Article 21(2) of Lei 41/VI/2004 says links between levels of care should guarantee the confidential flow of relevant clinical information about users. Article 8(4) of the data law allows health professionals to process data for care.",
+    "NOSi says the SIS shares clinical information between services. It does not say how many hospitals or health centres use it.",
+    "In December 2025 the minister said that with the unique patient code, professionals will have full access to patient information whatever hospital or health centre the person attends. He presented this as a coming change."
+   ],
+   "sources": [
+    {
+     "title": "Lei n.º 41/VI/2004, Bases do Serviço Nacional de Saúde, Boletim Oficial I Série n.º 10 (copy with the medical code of ethics)",
+     "url": "https://ct-luso.com/pluginfile.php/46/mod_page/content/49/Lei%20de%20base%20SNS%20e%20C%C3%B3digo%20deontol%C3%B3gico%20dos%20M%C3%A9dicos.pdf",
+     "date": "2004-04-05",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Soluções e-gov: Sistema de Informação da Saúde (SIS) (NOSi)",
+     "url": "https://nosi.cv/solu%C3%A7%C3%B5es-egov",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministro da Saúde aponta avanço da digitalização do Sistema Nacional de Saúde (Inforpress)",
+     "url": "https://inforpress.cv/pt/article-6711",
+     "date": "2025-12-18",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Since 2007 a national ethics committee, the CNEPS, has reviewed health research protocols, and each file must include an informed consent form. There is no public register of uses of health records, and the committee lacks its own budget and secretariat, so 49.",
+   "detail": [
+    "Decree-Law 26/2007 created the CNEPS to examine the ethics of research protocols on people (Article 6). Article 9 requires each research file to include the protocol, a free and informed consent form and the lead researcher's CV.",
+    "The government said in March 2025 the CNEPS has seven members from the ministry, human rights commission, medical and bar associations, NGOs, a religious body and the university. Its lack of a seat, secretariat and budget was raised as a challenge.",
+    "Article 8(1)(c) of the data law allows special data to be processed for statistics that do not identify individuals. Article 14(6) lets the law limit access rights for data used only for research.",
+    "Score: base 40, plus 3 each for the ethics body, extra security duties for health data, doubled fines for misuse of special data and a consent route. Capped at 50, held at 49 for the committee's weak resources."
+   ],
+   "sources": [
+    {
+     "title": "Decreto-Lei n.º 26/2007, creating the Comité Nacional de Ética em Pesquisa para a Saúde, Boletim Oficial I Série n.º 28",
+     "url": "https://boe.incv.cv/Bulletins/Download/328",
+     "date": "2007-07-30",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ministro da Saúde confere posse aos novos membros da Comissão Nacional de Ética em Pesquisa em Saúde (Governo de Cabo Verde)",
+     "url": "https://www.governo.cv/ministro-da-saude-confere-posse-aos-novos-membros-da-comissao-nacional-de-etica-em-pesquisa-em-saude/",
+     "date": "2025-03-19",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Lei n.º 121/IX/2021, second amendment and republication of the general data protection regime (Lei n.º 133/V/2001), and Lei n.º 120/IX/2021 on the CNPD, Boletim Oficial I Série n.º 28 (ARC copy)",
+     "url": "https://www.arc.cv/arc/upload/legislacao/lesgi_63207ee2981fe5.62250708111.pdf",
+     "date": "2021-03-17",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 28,
+   "summary": "A 2022 decree regulates medical devices, including software needed to run them, but says nothing about AI or change control. A May 2026 resolution only plans a national AI strategy, and the health minister has called for an ethical and legal framework.",
+   "detail": [
+    "Decree-Law 4/2022 sets transitional rules for medical devices under the ERIS regulator. Its definition covers software intended for diagnosis or therapy that is needed for the device to work. Article 11 makes ERIS handle incident reports.",
+    "We found no rule on AI, learning algorithms or changes to device software. ERIS put a full device regime, including in vitro diagnostics, to public consultation in late 2024. Its adoption was not verified.",
+    "Resolution 72/2026 lists developing a national AI strategy with ethical and governance criteria as a future task.",
+    "At the WHO AI in health conference in July 2026, the health minister called for an ethical and regulatory framework for responsible AI use."
+   ],
+   "sources": [
+    {
+     "title": "Decreto-Lei n.º 4/2022 on medical devices and Decreto-Lei n.º 2/2022 on prescription, Boletim Oficial I Série n.º 14 (Governo de Cabo Verde)",
+     "url": "https://www.governo.cv/documentos/bo-conselho-de-ministros-decreto-lei-no4-2022-estabelece-o-regime-juridico-aplicavel-aos-dispositivos-medicos-dm-e-respetivos-acessorios/",
+     "date": "2022-02-08",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ERIS submete à consulta pública proposta de regime jurídico aplicável aos dispositivos médicos (ERIS)",
+     "url": "https://www.eris.cv/index.php/noticias/831-eris-submete-a-consulta-publica-proposta-de-regime-juridico-aplicavel-aos-dispositivos-medicos",
+     "date": "2024-11-08",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Resolução n.º 72/2026, balanço da agenda de transformação digital e orientações para a Agenda Digital 2035, Boletim Oficial I Série n.º 54",
+     "url": "https://boe.incv.cv/Bulletins/DownloadAct?id=101313",
+     "date": "2026-05-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ministro da Saúde representa Cabo Verde na Conferência Global da OMS sobre Inteligência Artificial na Saúde (Expresso das Ilhas)",
+     "url": "https://expressodasilhas.cv/pais/2026/07/15/ministro-da-saude-representa-cabo-verde-na-conferencia-global-da-oms-sobre-inteligencia-artificial-na-saude/103656",
+     "date": "2026-07-15",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "The state SIS platform is meant to link facilities and a lab module exists, but coverage is not verified. Public health uses DHIS2 and ePHEM. E-prescription is in law but not verified in use; claims links were not verified.",
+ "laws": [
+  {
+   "name": "Lei 133/V/2001, general data protection regime, as amended by Lei 41/VIII/2013 and Lei 121/IX/2021",
+   "level": "National",
+   "year": "2021",
+   "what": "Health data is special; access copy; 72-hour breach notice; portability; fines doubled for special-data breaches.",
+   "url": "https://www.arc.cv/arc/upload/legislacao/lesgi_63207ee2981fe5.62250708111.pdf"
+  },
+  {
+   "name": "Lei 120/IX/2021 amending Lei 42/VIII/2013 on the CNPD",
+   "level": "National",
+   "year": "2021",
+   "what": "CNPD is an independent body of three members elected by two-thirds of deputies present.",
+   "url": "https://www.arc.cv/arc/upload/legislacao/lesgi_63207ee2981fe5.62250708111.pdf"
+  },
+  {
+   "name": "Lei 41/VI/2004, Bases of the National Health Service",
+   "level": "National",
+   "year": "2004",
+   "what": "Users' rights to privacy, secrecy, health information and access to all records about them.",
+   "url": "https://ct-luso.com/pluginfile.php/46/mod_page/content/49/Lei%20de%20base%20SNS%20e%20C%C3%B3digo%20deontol%C3%B3gico%20dos%20M%C3%A9dicos.pdf"
+  },
+  {
+   "name": "Decree-Law 26/2007 creating the National Health Research Ethics Committee (CNEPS)",
+   "level": "National",
+   "year": "2007",
+   "what": "CNEPS reviews the ethics of health research protocols; each file includes an informed consent form.",
+   "url": "https://boe.incv.cv/Bulletins/Download/328"
+  },
+  {
+   "name": "Decree-Law 2/2022 on prescription and dispensing of medicines",
+   "level": "National",
+   "year": "2022",
+   "what": "Allows paper or electronic prescriptions; electronic prescribing rules left to a ministerial order.",
+   "url": "https://www.governo.cv/documentos/bo-conselho-de-ministros-decreto-lei-no4-2022-estabelece-o-regime-juridico-aplicavel-aos-dispositivos-medicos-dm-e-respetivos-acessorios/"
+  },
+  {
+   "name": "Decree-Law 4/2022 on medical devices",
+   "level": "National",
+   "year": "2022",
+   "what": "Transitional device rules under ERIS; covers software needed for a device to work; incident vigilance.",
+   "url": "https://www.governo.cv/documentos/bo-conselho-de-ministros-decreto-lei-no4-2022-estabelece-o-regime-juridico-aplicavel-aos-dispositivos-medicos-dm-e-respetivos-acessorios/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-18",
+   "headline": "Health minister announces unique patient code, digital history and e-prescription",
+   "source": "Inforpress",
+   "url": "https://inforpress.cv/pt/article-6711",
+   "why": "A shared record would let a patient's history follow them between islands and hospitals."
+  },
+  {
+   "date": "2026-03-23",
+   "headline": "Public health institute launches ePHEM platform for early outbreak detection",
+   "source": "Balai (Inforpress)",
+   "url": "https://www.balai.cv/noticias/cabo-verde-reforca-seguranca-sanitaria-com-implementacao-da-plataforma-digital-de-gestao-de-emergencias-ephem/",
+   "why": "Adds real-time event reporting to national disease surveillance."
+  },
+  {
+   "date": "2026-05-27",
+   "headline": "Macau authorised to sign data protection cooperation memorandum with Cape Verde's CNPD",
+   "source": "Plataforma Media (Lusa)",
+   "url": "https://www.plataformamedia.com/2026/05/27/macau-assina-acordos-sobre-protecao-de-dados-pessoais-com-cabo-verde-e-sao-tome-e-principe/",
+   "why": "Shows the regulator building international links, though no health case was reported."
+  },
+  {
+   "date": "2026-07-15",
+   "headline": "Health minister at WHO conference calls for AI ethics and regulatory framework",
+   "source": "Expresso das Ilhas",
+   "url": "https://expressodasilhas.cv/pais/2026/07/15/ministro-da-saude-representa-cabo-verde-na-conferencia-global-da-oms-sobre-inteligencia-artificial-na-saude/103656",
+   "why": "Clinical AI is a stated goal, but no rules for it exist yet."
+  },
+  {
+   "date": "2026-07-29",
+   "headline": "Health regulator ERIS launches SIMFAR to track medicine stocks and prices",
+   "source": "Expresso das Ilhas",
+   "url": "https://expressodasilhas.cv/pais/2026/07/29/eris-lanca-sistema-para-monitorizar-mercado-farmaceutico-nacional/103867",
+   "why": "Better stock data can reduce shortages patients face at pharmacies."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

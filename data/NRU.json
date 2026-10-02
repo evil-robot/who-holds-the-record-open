@@ -1,0 +1,298 @@
+{
+  "iso3": "NRU",
+  "name": "Nauru",
+  "region": "Oceania",
+  "controlModel": "Institutional",
+  "headline": "Nauru keeps every public clinic visit in one electronic record, but patients get only a practitioner's report, and no data protection law exists.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 28,
+      "summary": "The Health and Medical Services Act 2025 gives the patient only a special report prepared by a health practitioner, not a copy of the record. No patient portal was found, and an access to information law is still being drafted.",
+      "detail": [
+        "Section 36(3)(a) of the Health and Medical Services Act 2025 allows health information to be given to the patient, limited to a special report prepared by a health practitioner from the patient's record.",
+        "Section 36(4) bars anyone from reproducing or keeping a copy of health information without the written approval of the Director of Medical Services, unless a law or court order permits it. No deadline for a patient request was found, and fees may be set by regulation (section 133); fee amounts were not verified.",
+        "No patient portal was found. Nauru's November 2025 report to the UN Human Rights Council says the country has no access to information law and that one is being drafted.",
+        "A right that covers only a summary report, not the whole record, places Nauru in the 15 to 35 band. The score sits below Fiji (35) because the statute itself limits what the patient receives."
+      ],
+      "sources": [
+        {
+          "title": "Health and Medical Services Act 2025 (RONLAW, Republic of Nauru)",
+          "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf",
+          "date": "2025-08-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "National report submitted for the Universal Periodic Review: Nauru (A/HRC/WG.6/51/NRU/1, advance version)",
+          "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/upr/sessions/session51/nru/a-hrc-wg-6-51-nru-1-nauru-av-e.pdf",
+          "date": "2025-11-27",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "control": {
+      "score": 35,
+      "summary": "The 2025 Act requires the patient's written consent before health information goes to anyone outside listed exceptions, but treating staff see the shared record by default. No opt-out, granular choice or patient-visible access log was found.",
+      "detail": [
+        "Section 36(2) of the Health and Medical Services Act 2025 bars disclosure of health information without the patient's written consent, subject to exceptions in section 36(3).",
+        "The exceptions include facility staff who need the information to provide care, overseas medical referral, de-identified use for administration, outbreak surveys or service improvement, court orders and any other written law.",
+        "Section 37 lets any practitioner caring for a patient review and add to the record. Records are kept under a national health number system the Minister may set up (section 32); whether it is in place was not verified.",
+        "With sharing among staff by default and no opt-out or access log, Nauru sits in the 20 to 35 band, at the top because outside disclosure needs written consent."
+      ],
+      "sources": [
+        {
+          "title": "Health and Medical Services Act 2025 (RONLAW, Republic of Nauru)",
+          "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf",
+          "date": "2025-08-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "All smiles as Nauru completes world-first EMR achievement (Beyond Essential Systems)",
+          "url": "https://www.bes.au/all-smiles-as-nauru-completes-world-first-emr-achievement/",
+          "date": "2024-03-25",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 38,
+      "summary": "Health records are confidential by statute, and unauthorised copying or disclosure carries fines up to $20,000 or 5 years in prison. But Nauru has no general data protection law, no regulator and no breach notification duty.",
+      "detail": [
+        "Section 36(1) of the Health and Medical Services Act 2025 makes health information confidential and privileged between practitioner and patient. Section 35(2) requires the Secretary to set controls against unauthorised access to records and storage systems.",
+        "Section 122 makes it an offence to falsify, copy, remove or disclose health information without authority, with a fine up to $20,000, up to 5 years in prison, or both.",
+        "There is no data protection law or regulator. Article 3 of the Constitution recognises respect for private and family life. A 2026 review found the National Digital Transformation Strategy 2025-2030 promises data protection legislation.",
+        "No health data breach was found. ABC reported in July 2026 that community monitoring officers may now restrain, search and monitor anyone; the law behind this was not verified. Nauru is not in the EU, so GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Health and Medical Services Act 2025 (RONLAW, Republic of Nauru)",
+          "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf",
+          "date": "2025-08-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Nauru's Constitution of 1968 with amendments through 2015 (Constitute Project)",
+          "url": "https://www.constituteproject.org/constitution/Nauru_2015?lang=en",
+          "date": "1968",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Nauru: Law, Gaps and Status (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-nauru",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Concern over civil liberties in Nauru as new officers given powers to restrain, search and monitor anyone (ABC Pacific Beat)",
+          "url": "https://www.abc.net.au/pacific/programs/pacificbeat/nauru-cmos/106952808",
+          "date": "2026-07-24",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 40,
+      "summary": "The 2025 Act covers public and private facilities and bars disclosure of patient records without written consent, backed by criminal penalties. Nothing covers health apps, data brokers or data held outside facilities, because there is no data protection law.",
+      "detail": [
+        "Section 5 of the Health and Medical Services Act 2025 says health facilities include public and private facilities. Section 36(2) bars disclosure of their health records without the patient's written consent, and section 122 punishes unauthorised disclosure.",
+        "Section 36(5) requires any contractor holding Nauruans' health information to hand it to a facility on request, free, and voids any contract term to the contrary.",
+        "No law limits marketing use of health data, data brokers or consumer health apps. A 2026 review and the Statelessness Encyclopedia both report no data protection or privacy law in Nauru."
+      ],
+      "sources": [
+        {
+          "title": "Health and Medical Services Act 2025 (RONLAW, Republic of Nauru)",
+          "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf",
+          "date": "2025-08-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Nauru: Law (Statelessness Encyclopedia Asia Pacific)",
+          "url": "https://seap.nationalityforall.org/law/nauru-law-2/",
+          "date": "undated",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Nauru: Law, Gaps and Status (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-nauru",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "journey": {
+      "score": 65,
+      "summary": "A 2025 study found an electronic record in all 4 of Nauru's health facilities (100%), all on one system, Tamanu. Pharmacy links, claims and research use were not verified, and the data date from 2024.",
+      "detail": [
+        "A JMIR study published in October 2025 counted electronic records in 4 of 4 Nauru facilities, including primary care, using data gathered in 2024. Nauru introduced its record after 2020 without an in-date eHealth policy.",
+        "The vendor says Tamanu went live at Republic of Nauru Hospital in 2023, then at the Public Health Centre, two wellness centres and, in February 2024, the two dental clinics.",
+        "In December 2023 the vendor said Tamanu links to laboratory and radiology services and that disease notifications moved online, but in March 2024 it listed the laboratory and imaging systems as still planned (not verified as live). Section 34 of the 2025 Act requires the Secretary to keep a digital information system for all facilities.",
+        "A pharmacy link, any claims system and refugee health services run by Australian contractors were not verified as connected."
+      ],
+      "sources": [
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Why Nauru's healthcare workers are embracing digital records (Beyond Essential Systems)",
+          "url": "https://www.bes.au/why-naurus-healthcare-workers-are-embracing-digital-records/",
+          "date": "2023-12-20",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "All smiles as Nauru completes world-first EMR achievement (Beyond Essential Systems)",
+          "url": "https://www.bes.au/all-smiles-as-nauru-completes-world-first-emr-achievement/",
+          "date": "2024-03-25",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Health and Medical Services Act 2025 (RONLAW, Republic of Nauru)",
+          "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf",
+          "date": "2025-08-29",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 68,
+      "summary": "Section 37 of the 2025 Act lets any treating practitioner review and add to a patient's record, and the vendor says staff at every facility see the full history in Tamanu. That claim was not verified by the Ministry.",
+      "detail": [
+        "Sections 36(3)(b) and 37 of the Health and Medical Services Act 2025 let facility staff who provide care access, review and add to the patient's health information.",
+        "Beyond Essential Systems said in March 2024 that every encounter at every health care facility in the country is recorded in Tamanu, giving staff across the system a complete patient history. A 2025 JMIR study confirms an electronic record at all 4 facilities.",
+        "No Ministry statement on actual use in 2026 was found (not verified), so the score sits in the lower half of the 65 to 84 band. Patients referred overseas carry only a special report (section 36(3)(c))."
+      ],
+      "sources": [
+        {
+          "title": "Health and Medical Services Act 2025 (RONLAW, Republic of Nauru)",
+          "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf",
+          "date": "2025-08-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "All smiles as Nauru completes world-first EMR achievement (Beyond Essential Systems)",
+          "url": "https://www.bes.au/all-smiles-as-nauru-completes-world-first-emr-achievement/",
+          "date": "2024-03-25",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "research": {
+      "score": 50,
+      "summary": "The 2025 Act allows only de-identified records to be used without consent, for administration, outbreak surveys or service improvement; other disclosure needs written consent. A 2025 regional review found Nauru has one ethics committee but no research ethics law.",
+      "detail": [
+        "Section 36(3)(d) of the Health and Medical Services Act 2025 permits disclosure without identity for administration, outbreak surveys or improving care. Research is not a listed purpose, so identifiable disclosure needs written consent under section 36(2).",
+        "A December 2025 Lancet Regional Health paper, drawn from a WHO and Pacific Community workshop, lists Nauru with 0 to 2 research submissions a year, ethics review required, 1 ethics committee, and no research law or national oversight body.",
+        "Clinical trial consent rules were not verified. Base 40, plus 3 each for an ethics committee, statutory confidentiality (section 36(1)), a misuse penalty (section 122) and a consent route, capped at 50."
+      ],
+      "sources": [
+        {
+          "title": "Health and Medical Services Act 2025 (RONLAW, Republic of Nauru)",
+          "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf",
+          "date": "2025-08-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "The Pacific Way: advancing ethical research governance in the Pacific islands (Lancet Regional Health Western Pacific, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12756169/",
+          "date": "2025-12-11",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "A June 2026 review found no AI law, strategy or regulator in Nauru, and the National Digital Transformation Strategy 2025-2030 does not mention AI. No rules for AI as a medical device or human oversight were found.",
+      "detail": [
+        "Levellers, reviewing Nauru in June 2026, found no AI statute, bill, regulation, national strategy or authority, and no data protection regulator to hear complaints about automated decisions.",
+        "The same review says the National Digital Transformation Strategy 2025-2030 does not use the words artificial intelligence. The Health and Medical Services Act 2025 promotes e-health and new technology but sets no AI rules.",
+        "No regulation of AI as a medical device was found. That places Nauru in the 15 to 30 band for non-EU countries."
+      ],
+      "sources": [
+        {
+          "title": "Nauru: Law, Gaps and Status (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-nauru",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Health and Medical Services Act 2025 (RONLAW, Republic of Nauru)",
+          "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf",
+          "date": "2025-08-29",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "partial",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "connected",
+    "research": "unknown"
+  },
+  "journeyNote": "One Tamanu record covers the hospital, public health centre, wellness centres and dental clinics (4 of 4 facilities in 2024). Lab and imaging links are not verified as live. Pharmacy, claims and refugee health services were not verified as connected.",
+  "laws": [
+    {
+      "name": "Health and Medical Services Act 2025 (No 35 of 2025)",
+      "level": "National",
+      "year": "2025",
+      "what": "Confidential health records, written consent for disclosure, patient gets special report only, $20,000 fines for misuse.",
+      "url": "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf"
+    },
+    {
+      "name": "Constitution of Nauru 1968, Articles 3 and 9",
+      "level": "National",
+      "year": "1968",
+      "what": "Recognises respect for private and family life; protects against search of person or property without consent.",
+      "url": "https://www.constituteproject.org/constitution/Nauru_2015?lang=en"
+    },
+    {
+      "name": "Cybercrime Act 2015",
+      "level": "National",
+      "year": "2015",
+      "what": "Criminalises illegal access to protected computers, interception and data interference; up to 7 years in prison.",
+      "url": "https://database.cyberpolicyportal.org/api/files/16642787139392y0vgo0brzb.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-11-27",
+      "headline": "Nauru tells UN its access to information law is being drafted",
+      "source": "UN OHCHR",
+      "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/upr/sessions/session51/nru/a-hrc-wg-6-51-nru-1-nauru-av-e.pdf",
+      "why": "No information access law yet, so patients rely on the narrow health Act route."
+    },
+    {
+      "date": "2026-02-09",
+      "headline": "UN review urges Nauru to pass an access to information law",
+      "source": "CIVICUS Monitor",
+      "url": "https://monitor.civicus.org/explore/nauru-un-body-calls-on-government-to-respect-freedom-of-expression-and-establish-a-national-human-rights-institution/",
+      "why": "International pressure for a law that could widen people's access to records."
+    },
+    {
+      "date": "2026-02-11",
+      "headline": "Local paediatrician appointed Director of Medical Services at Nauru Medical Centre",
+      "source": "Government of Nauru",
+      "url": "https://www.nauru.gov.nr/government-information-office/media-release/media-release-nauru-medical-centre-continues-to-improve-services-as-local-doctor-promoted_11feb2026.aspx",
+      "why": "Under the 2025 Act this office approves any copying of patient records."
+    },
+    {
+      "date": "2026-07-24",
+      "headline": "New community monitoring officers may search and monitor anyone in Nauru",
+      "source": "ABC Pacific Beat",
+      "url": "https://www.abc.net.au/pacific/programs/pacificbeat/nauru-cmos/106952808",
+      "why": "Wider state monitoring powers arrive with no data protection law or regulator."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

@@ -1,0 +1,327 @@
+{
+  "iso3": "BGD",
+  "name": "Bangladesh",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Bangladesh's new data law treats health data as sensitive, but penalties are not yet in force and the national record exchange's reach is unverified.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 35,
+      "summary": "The Personal Data Protection Act, 2026 gives a right to a copy of personal data, including who it was shared with. Deadlines are left to future regulations, complaints and fines are not yet in force, and no national patient portal exists.",
+      "detail": [
+        "Section 11 of the Personal Data Protection Act, 2026 gives every data subject access to personal data a data fiduciary holds. On request the fiduciary must give a copy in a concise, understandable format, with its purpose, source, retention and a list of everyone it was shared with.",
+        "Health data, defined to include records of past, present or future health and data collected while giving care, is covered. Deadlines, response times and limits on repeat requests are left to regulations, which we did not find.",
+        "The Act is deemed in force from 6 November 2025, but section 23 and sections 31 to 35 (complaints, fines and compensation) start only on a date the government sets after 18 months. We found no separate statute giving patients a right to their medical records (not verified).",
+        "The DGHS Shareable Health Record site describes a Personal Health Profile holding a person's full history as the system's 'ultimate goal', not a working portal. The government targets e-health cards for all citizens by 2028."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Act, 2026 (Act No. 63 of 2026), Laws of Bangladesh",
+          "url": "http://bdlaws.minlaw.gov.bd/act-details-1692.html",
+          "date": "2026-04-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Personal Health Profile (SHR, DGHS)",
+          "url": "https://en.info.shr.dghs.gov.bd/phr/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "All citizens to get e-health cards by 2028: Health Minister (TBS Bangla)",
+          "url": "https://www.tbsnews.net/bangla/bangladesh/news-details-500816",
+          "date": "2026-06-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 42,
+      "summary": "Health data needs specific consent, consent can be withdrawn, and the national exchange retrieves past records only with the patient's explicit consent. But treatment, public health and state purposes are exempt, and the redress sections are not yet in force.",
+      "detail": [
+        "Health data is 'sensitive personal data' under the 2026 Act. Section 7 allows processing with the person's specific consent, but also without it for treatment by a health worker, emergencies and duties set by law.",
+        "Section 13 lets a person withdraw consent, in full or in part, for storage, processing or automated decisions, and ask for deletion. Section 11 gives a list of who the data was shared with, on request.",
+        "DGHS says a facility with a hospital automation system can retrieve a patient's earlier records through the Health ID only with the patient's explicit consent. We found no patient-facing access log (not verified).",
+        "Section 24 removes the consent requirement for national security, public order, crime, public health and research. The National Data Management Act, 2026 lets public and private parties re-use personal data under standards set by an authority attached to the Prime Minister's Office."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Act, 2026 (Act No. 63 of 2026), Laws of Bangladesh",
+          "url": "http://bdlaws.minlaw.gov.bd/act-details-1692.html",
+          "date": "2026-04-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Unique Health ID and Master Client Index (SHR, DGHS)",
+          "url": "http://en.info.shr.dghs.gov.bd/uhidmci/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Data Management Act, 2026 (Act No. 80 of 2026), Laws of Bangladesh",
+          "url": "https://bdlaws.minlaw.gov.bd/act-details-1709.html",
+          "date": "2026-04-10",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 42,
+      "summary": "The 2026 Act lists health data as sensitive and caps fines at Tk 25 lakh (Tk 50 lakh for significant fiduciaries). The fine sections are not yet in force, breach notice goes only to the regulator, and the regulator answers to the Prime Minister's Office.",
+      "detail": [
+        "Health data, genetic and biometric data are sensitive personal data under the Personal Data Protection Act, 2026. Section 17 requires technical and organisational security measures, including pseudonymisation.",
+        "Section 20 requires a fiduciary to tell the Authority about a breach likely to cause significant harm. The text we read does not require telling affected people. Fines reach Tk 25 lakh, or Tk 50 lakh for a significant data fiduciary, but those sections are not yet in force.",
+        "The regulator is the National Data Management Authority, a statutory body attached to the Prime Minister's Office. Its policy board is chaired by the Prime Minister, and section 38 of the 2026 Act lets the government give the Authority binding directions.",
+        "Section 24 lifts consent for national security, crime and public interest. We found no health-sector enforcement decisions, so this score rests on the general law. It sits below the usual 45 to 66 band because fines have not started and the regulator is not independent."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Act, 2026 (Act No. 63 of 2026), Laws of Bangladesh",
+          "url": "http://bdlaws.minlaw.gov.bd/act-details-1692.html",
+          "date": "2026-04-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "National Data Management Act, 2026 (Act No. 80 of 2026), Laws of Bangladesh",
+          "url": "https://bdlaws.minlaw.gov.bd/act-details-1709.html",
+          "date": "2026-04-10",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 35,
+      "summary": "Personal data may not be disclosed for a new purpose without consent, and health data needs specific consent. There is no health-specific ban on selling health data or using it for advertising, and the fine sections are not yet in force.",
+      "detail": [
+        "Section 16 of the 2026 Act bars disclosing personal data for any purpose other than the one it was collected for without the person's consent. Sensitive data, including health data, needs specific consent under section 7.",
+        "We found no rule against selling health data, using it for marketing, or trading de-identified health data. Health apps fall under the same general law as any other app.",
+        "Section 29 allows transfers abroad with the person's consent or under a contract, and lets the government set a fee on the annual business profit any organisation earns from Bangladeshi citizens' personal data."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Act, 2026 (Act No. 63 of 2026), Laws of Bangladesh",
+          "url": "http://bdlaws.minlaw.gov.bd/act-details-1692.html",
+          "date": "2026-04-10",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 33,
+      "summary": "DGHS runs a Shareable Health Record exchange with a Health ID issued since 2023, linking public hospital systems and community health worker tools. How many people and records it covers could not be verified, and private providers use their own systems.",
+      "detail": [
+        "The Shareable Health Record (SHR) system is a central MOHFW platform under the DGHS MIS. It registers each person, fetches visit and service records from different points of care and shares them on consent.",
+        "Public hospitals use OpenMRS+, a customised OpenMRS that DGHS says integrates the OpenELIS laboratory system. Community health workers register Health IDs through OpenSRP. Private hospitals may use their own software. The Health ID begins with 9 and is issued against a National ID or birth registration number.",
+        "The SHR site shows a public dashboard of registrations and records, but its data did not load when we checked, so coverage is not verified.",
+        "In June 2026 the Prime Minister told parliament that e-Health Cards, linked to an electronic referral system and an electronic patient management system, will be piloted in five districts."
+      ],
+      "sources": [
+        {
+          "title": "Shareable Health Record (SHR) System Bangladesh (MIS, DGHS)",
+          "url": "http://en.info.shr.dghs.gov.bd/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Hospital Management System (SHR, DGHS)",
+          "url": "http://en.info.shr.dghs.gov.bd/hms/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Unique Health ID and Master Client Index (SHR, DGHS)",
+          "url": "http://en.info.shr.dghs.gov.bd/uhidmci/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Govt to launch pilot 'e-Health Card' programme in five districts: PM (The Financial Express / BSS)",
+          "url": "https://thefinancialexpress.com.bd/home/govt-to-launch-pilot-e-health-card-programme-in-five-districts-pm",
+          "date": "2026-06-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 28,
+      "summary": "A clinician at a facility running a connected hospital system can pull a patient's earlier records through the Health ID with the patient's consent. Coverage was not verified, and the plan to let any doctor see a patient's history is still a 2026 to 2028 card project.",
+      "detail": [
+        "DGHS says that, with the patient's explicit consent, any facility with a hospital automation system can retrieve the patient's previous records using the Health ID.",
+        "The 2026 Act lets a health worker process sensitive data for treatment and in a medical emergency without consent (section 7). We found no specific break-glass procedure in the exchange (not verified).",
+        "Ministers say the planned national health card will let doctors anywhere see a patient's needed health information at once. In March 2026 the card was described as storing medical history, medications, vaccinations and test summaries. It is not yet in use nationally."
+      ],
+      "sources": [
+        {
+          "title": "Unique Health ID and Master Client Index (SHR, DGHS)",
+          "url": "http://en.info.shr.dghs.gov.bd/uhidmci/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Personal Data Protection Act, 2026 (Act No. 63 of 2026), Laws of Bangladesh",
+          "url": "http://bdlaws.minlaw.gov.bd/act-details-1692.html",
+          "date": "2026-04-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "'National Health Card' coming to reduce health care inequality: ICT Minister (Sarabangla)",
+          "url": "https://sarabangla.net/health/post-1182928/",
+          "date": "2026-07-22",
+          "publisherClass": "news"
+        },
+        {
+          "title": "e-Health cards for all soon (The Business Standard)",
+          "url": "https://www.tbsnews.net/bangladesh/e-health-cards-all-soon-1377106",
+          "date": "2026-03-04",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "The 2026 Act lets data be used for statistics and scientific research without consent, with no opt-out. A national ethics committee run by BMRC since 1979 reviews studies and requires signed consent where privacy is at risk, and device and drug trials need regulator approval.",
+      "detail": [
+        "Section 24(1) of the Personal Data Protection Act, 2026 exempts processing for statistics or scientific or historical research from the consent requirement. Section 24(2) says the exemption does not lift the other duties on processing, storage and disclosure.",
+        "The Bangladesh Medical Research Council is secretariat to the National Research Ethics Committee, which BMRC says was set up in 1979. Its SOP requires signed informed consent where there is risk to subjects or privacy, and any waiver must be justified.",
+        "Section 65 of the Drug and Cosmetics Act, 2023 bars contract research organisations from running trials of drugs, vaccines or medical devices without protocol approval from the licensing authority.",
+        "We found no general opt-out from research use and no public register of data uses. Score is base 40 plus an ethics body and a consent route."
+      ],
+      "sources": [
+        {
+          "title": "Personal Data Protection Act, 2026 (Act No. 63 of 2026), Laws of Bangladesh",
+          "url": "http://bdlaws.minlaw.gov.bd/act-details-1692.html",
+          "date": "2026-04-10",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "BMRC National Research Ethics Committee Standard Operating Procedures",
+          "url": "https://www.bmrcbd.org/application_form/SOPs.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Drug and Cosmetics Act, 2023 (Act No. 29 of 2023), Laws of Bangladesh",
+          "url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html",
+          "date": "2023-09-18",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 50,
+      "summary": "DGDA approved a 2026 guideline on AI and medical robotics with risk classes A to D, mandatory human oversight for moderate and high risk, and algorithm change control. It calls itself a foundation for future rules, so its binding force is not verified.",
+      "detail": [
+        "DGDA's 'Guideline on the Regulation of Artificial Intelligence and Medical Robotics in Healthcare, Bangladesh' (Version 1.0, January 2026) was approved under a Health Services Division memo of 15 February 2026 and posted on 22 April 2026.",
+        "It covers AI medical devices, software as a medical device and robots. It sets risk classes A to D, mandatory human oversight for moderate and high risk uses, and extra local validation where a model was not trained on Bangladeshi data.",
+        "Retraining and algorithm changes must go through documented change management, and significant changes need validation and, where applicable, prior DGDA authorisation. Adaptive systems face periodic review.",
+        "The guideline bases classification on DGDA's 2015 medical device registration guideline and calls itself a foundational instrument for future rules and directives. We could not confirm it is legally binding, so the score stays at the top of the guidance band. We found no rules on generative AI in care."
+      ],
+      "sources": [
+        {
+          "title": "DGDA notice: Guideline on the Regulation of Artificial Intelligence and Medical Robotics in Healthcare approved",
+          "url": "http://dgda.gov.bd/pages/notices/guideline-on-the-regulation-of-artificial-intelligence-and-medical-robotics-in-healthcare-bangladesh-%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%87%E0%A6%A1%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A6%9F%E0%A6%BF-%E0%A6%AF%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%A5-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%95-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A7%8B%E0%A6%A6%E0%A6%BF%E0%A6%A4-%E0%A6%B9%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87-aw0h6i-69e840d771e38d494d606d70",
+          "date": "2026-04-22",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Guideline on the Regulation of Artificial Intelligence and Medical Robotics in Healthcare, Bangladesh, Version 1.0 (DGDA)",
+          "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dgda/2026/3/a13e9fd6-7d72-48e6-810e-40e02ab71ae9.pdf",
+          "date": "2026-01",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Drug and Cosmetics Act, 2023 (Act No. 29 of 2023), Laws of Bangladesh",
+          "url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html",
+          "date": "2023-09-18",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "The DGHS exchange links public hospitals (OpenMRS+ with OpenELIS labs) and community health workers (OpenSRP) by Health ID. Private providers use their own systems. Pharmacy, claims, public health and research links were not verified.",
+  "laws": [
+    {
+      "name": "Personal Data Protection Act, 2026 (Act No. 63)",
+      "level": "National",
+      "year": "2026",
+      "what": "Health data is sensitive; access, withdrawal and erasure rights; fines and complaints start after 18 months.",
+      "url": "http://bdlaws.minlaw.gov.bd/act-details-1692.html"
+    },
+    {
+      "name": "National Data Management Act, 2026 (Act No. 80)",
+      "level": "National",
+      "year": "2026",
+      "what": "Creates the data authority under the Prime Minister's Office and the NRDEX data exchange platform.",
+      "url": "https://bdlaws.minlaw.gov.bd/act-details-1709.html"
+    },
+    {
+      "name": "Personal Data Protection Ordinance, 2025 (Ordinance No. 61, repealed)",
+      "level": "National",
+      "year": "2025",
+      "what": "Interim government ordinance, replaced by the 2026 Act passed by parliament.",
+      "url": "http://bdlaws.minlaw.gov.bd/act-1574.html"
+    },
+    {
+      "name": "Drug and Cosmetics Act, 2023 (Act No. 29)",
+      "level": "National",
+      "year": "2023",
+      "what": "Regulates drugs and medical devices; trials need licensing authority approval.",
+      "url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html"
+    },
+    {
+      "name": "DGDA Guideline on AI and Medical Robotics in Healthcare",
+      "level": "National",
+      "year": "2026",
+      "what": "Risk classes A to D, human oversight, change control and post-market review for health AI.",
+      "url": "http://dgda.gov.bd/pages/notices/guideline-on-the-regulation-of-artificial-intelligence-and-medical-robotics-in-healthcare-bangladesh-%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%87%E0%A6%A1%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A6%9F%E0%A6%BF-%E0%A6%AF%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%A5-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%95-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A7%8B%E0%A6%A6%E0%A6%BF%E0%A6%A4-%E0%A6%B9%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87-aw0h6i-69e840d771e38d494d606d70"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07-22",
+      "headline": "ICT minister says national health card will let doctors see records anywhere",
+      "source": "Sarabangla",
+      "url": "https://sarabangla.net/health/post-1182928/",
+      "why": "Signals a central record that doctors can open, with data protection promised alongside."
+    },
+    {
+      "date": "2026-06-10",
+      "headline": "Prime Minister says e-Health Card pilot will start in five districts",
+      "source": "The Financial Express (BSS)",
+      "url": "https://thefinancialexpress.com.bd/home/govt-to-launch-pilot-e-health-card-programme-in-five-districts-pm",
+      "why": "First rollout of a card tied to referral and patient management systems."
+    },
+    {
+      "date": "2026-03-04",
+      "headline": "Prime Minister's Office forms cell to launch e-Health cards",
+      "source": "The Business Standard",
+      "url": "https://www.tbsnews.net/bangladesh/e-health-cards-all-soon-1377106",
+      "why": "Cards would carry medical history, medications and test summaries, raising both access and privacy stakes."
+    },
+    {
+      "date": "2025-10-19",
+      "headline": "Government drafts patient protection and health worker protection ordinances",
+      "source": "The Daily Star (Bangla)",
+      "url": "https://bangla.thedailystar.net/health/news-707221",
+      "why": "Would create tribunals for patient rights and medical negligence; enactment not verified."
+    },
+    {
+      "date": "2025-10-11",
+      "headline": "Transparency International Bangladesh criticises hasty data protection ordinances",
+      "source": "Transparency International Bangladesh",
+      "url": "https://www.ti-bangladesh.org/en/articles/press-release/7330",
+      "why": "Flags broad state exemptions and no independent regulator for personal data."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

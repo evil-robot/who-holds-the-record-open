@@ -1,0 +1,320 @@
+{
+ "iso3": "SSD",
+ "name": "South Sudan",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "South Sudan has no data protection law, mostly paper records and no shared record; a free legal route to your own file exists on paper.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 34,
+   "summary": "The Right of Access to Information Act 2013 lets citizens request records about themselves free, with a reply in 7 working days. It is not a health records law and its commission has lacked staff and money, so 34, the band of Sierra Leone (32).",
+   "detail": [
+    "Section 6 of the Right of Access to Information Act 2013 gives every citizen a right to information, including electronic records, held by public or private bodies. Private bodies must answer only where the information is needed to exercise or protect a right (section 7).",
+    "Bodies must reply within seven working days, extendable to twenty (section 10). No fee may be charged for a request for your own personal information (section 12(3)). Public bodies must have procedures to correct personal information (section 19).",
+    "In 2017 the chair of the Information Commission told Radio Tamazuj that a lack of office space and budget had led many staff, including the deputy commissioner, to resign. We found no record of the Act being used for medical records.",
+    "We found no patient portal. A February 2025 WHO assessment put facilities with full electronic systems at 22.4%, so most records are on paper at the facility."
+   ],
+   "sources": [
+    {
+     "title": "Right of Access to Information Act 2013 (Act No. 65), Laws of South Sudan (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/ssd182371.pdf",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Information Commission complains about lack of access to information (Radio Tamazuj)",
+     "url": "https://www.radiotamazuj.org/en/news/article/information-commission-complain-about-lack-of-access-to-information",
+     "date": "2017-09-29",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Maturity of the health information system of South Sudan: progress, gaps and priorities for investment (WHO South Sudan)",
+     "url": "https://www.afro.who.int/sites/default/files/2025-03/Knowledge%20Management%20Series%20for%20Health%20Maturity%20of%20the%20Health%20Information%20System%20of%20South%20Sudan%20_%20progress%2C%20gaps%20and%20priorities%20for%20investment.pdf",
+     "date": "2025-02",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "control": {
+   "score": 24,
+   "summary": "No law sets consent rules for health data, and patients have no opt-out and no access log. The only tools are a constitutional privacy right and a rule letting a body refuse to release a third party's personal information unless that person consents.",
+   "detail": [
+    "Article 22 of the Transitional Constitution says the privacy of all persons is inviolable, and no one may face interference with private life, family, home or correspondence except in accordance with the law.",
+    "Section 25 of the Right of Access to Information Act lets a body refuse to release personal information about a third party, unless that person consented, a court orders it, or another listed exception applies.",
+    "Data Protection Africa records no data protection law, no data protection authority and no consent requirements for processing personal data in South Sudan.",
+    "We found no patient-facing consent tool or access log in any health system we checked."
+   ],
+   "sources": [
+    {
+     "title": "South Sudan's Constitution of 2011, revised 2013 (Constitute Project)",
+     "url": "https://www.constituteproject.org/constitution/South_Sudan_2013?lang=en",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Right of Access to Information Act 2013 (Act No. 65), Laws of South Sudan (FAOLEX copy)",
+     "url": "https://faolex.fao.org/docs/pdf/ssd182371.pdf",
+     "date": "2013",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "South Sudan data protection factsheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/south-sudan/",
+     "date": "2022-05-24",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 22,
+   "summary": "South Sudan has no data protection law, regulator or breach notice rule, and has not signed the AU Malabo Convention. The 2026 Cybercrimes Act makes providers keep user data 180 days but requires court orders for searches and interception, a little above Sudan (20).",
+   "detail": [
+    "Data Protection Africa lists no data protection law, no authority, no breach notification duty and no limits on cross-border transfers. The minister for ICT said in December 2025 a first data protection bill would come in 2026; in April 2026 he said it was on its way.",
+    "The AU treaty list of 8 July 2024 shows no signature or ratification of the Malabo Convention by South Sudan.",
+    "Section 6 of the Cybercrimes and Computer Misuse Act 2026 makes service providers store user identity and traffic data for 180 days and keep it confidential unless a judicial order requires disclosure. Sections 21 and 23 require court warrants or orders to search data or intercept content.",
+    "CPJ says section 6(3) lets the National Communication Authority demand data it considers important for user protection with no judicial oversight. We found no health data breach or health privacy ruling.",
+    "South Sudan is not in the EU, so GDPR and the European Health Data Space do not apply, and it is not on the European Commission's adequacy list."
+   ],
+   "sources": [
+    {
+     "title": "Cybercrimes and Computer Misuse Act 2026, Laws of South Sudan (South Sudan NGO Forum library copy)",
+     "url": "https://docs.southsudanngoforum.org/sites/default/files/2026-08/South-Sudan-Cybercrimes-And-Computer-Misuse-Act-2026.pdf",
+     "date": "2026-02-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "List of countries that have signed, ratified or acceded to the AU Convention on Cyber Security and Personal Data Protection (African Union)",
+     "url": "https://au.int/sites/default/files/treaties/29560-sl-AFRICAN_UNION_CONVENTION_ON_CYBER_SECURITY_AND_PERSONAL_DATA_PROTECTION.pdf",
+     "date": "2024-07-08",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "South Sudan's new cybercrime law ramps up threat of jail for journalists (Committee to Protect Journalists)",
+     "url": "https://cpj.org/2026/04/south-sudans-new-cybercrime-law-ramps-up-threat-of-jail-for-journalists/",
+     "date": "2026-04-09",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 20,
+   "summary": "No South Sudanese law limits selling health data or using it for marketing, because there is no data protection law. The nearest rule is a 2026 duty on telecom and internet providers to keep user data confidential, which does not reach health providers or apps.",
+   "detail": [
+    "Data Protection Africa finds no rules on collecting or processing personal data and no definition of personal data in South Sudanese law.",
+    "Section 6 of the Cybercrimes and Computer Misuse Act 2026 bars service providers from disclosing stored user data, including personal data, without an order from a judicial authority. It applies to communication service providers, not to health providers.",
+    "The minister for ICT said in December 2025 that a data protection bill would be drafted with the justice ministry in 2026. We found no rules on health data brokers, sales of de-identified data or consumer health apps."
+   ],
+   "sources": [
+    {
+     "title": "South Sudan data protection factsheet (Data Protection Africa)",
+     "url": "https://dataprotection.africa/south-sudan/",
+     "date": "2022-05-24",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "Cybercrimes and Computer Misuse Act 2026, Laws of South Sudan (South Sudan NGO Forum library copy)",
+     "url": "https://docs.southsudanngoforum.org/sites/default/files/2026-08/South-Sudan-Cybercrimes-And-Computer-Misuse-Act-2026.pdf",
+     "date": "2026-02-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "South Sudan to get data protection bill in 2026, says minister (Radio Tamazuj)",
+     "url": "https://www.radiotamazuj.org/en/news/article/south-sudan-to-get-data-protection-bill-in-2026-says-minister",
+     "date": "2025-12-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 20,
+   "summary": "DHIS2 carries aggregate reports from facilities to national level, but WHO found only 22.4% of facilities with full electronic systems and rated the health information system 40.5%, minimal maturity. No national record, exchange or e-prescription service was found.",
+   "detail": [
+    "A February 2025 WHO and Ministry of Health assessment found DHIS2 running at national and sub-national level, with programme data still being merged into it, which it called a gap in interoperability.",
+    "The same assessment scored the health information system at 40.5%. HIS governance scored 33%, and it recommended creating an HIS policy, a master facility list and a data architecture framework. Cause-of-death registration was at 0%.",
+    "WHO reported in September 2026 that it and the Ministry of Health are installing the Digital Care Companion, an electronic patient record and decision support tool, in remote facilities. WHO calls it a growing network but gives no facility count.",
+    "We found no national electronic health record, e-prescription system or insurance claims system in use."
+   ],
+   "sources": [
+    {
+     "title": "Maturity of the health information system of South Sudan: progress, gaps and priorities for investment (WHO South Sudan)",
+     "url": "https://www.afro.who.int/sites/default/files/2025-03/Knowledge%20Management%20Series%20for%20Health%20Maturity%20of%20the%20Health%20Information%20System%20of%20South%20Sudan%20_%20progress%2C%20gaps%20and%20priorities%20for%20investment.pdf",
+     "date": "2025-02",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Digital Care Companion: WHO invests in technology that connects the last mile (WHO South Sudan, Voices from the Field issue 21)",
+     "url": "https://www.afro.who.int/sites/default/files/2026-09/WHO%20Voices%20From%20the%20Field%20issue%2021%20-%20Digital%20Care%20Companion%20WHO%20invests%20in%20technology%20that%20connects%20the%20last%20mile.pdf",
+     "date": "2026-09",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 18,
+   "summary": "Most clinicians see only their own facility's paper registers. WHO says its Digital Care Companion lets a record be retrieved at later visits, including at other facilities, but it is new and its reach is not counted.",
+   "detail": [
+    "At Basselia primary health care centre, patient histories were spread across paper registers before the Digital Care Companion arrived, WHO reported in September 2026. The tool records registration, triage, management and referral.",
+    "WHO says the tool creates a digital record that can be retrieved at later visits or visits to other facilities. It gives no count of connected facilities, so national reach is not verified.",
+    "We found no rule on sharing records between treating clinicians or on emergency access."
+   ],
+   "sources": [
+    {
+     "title": "Digital Care Companion: WHO invests in technology that connects the last mile (WHO South Sudan, Voices from the Field issue 21)",
+     "url": "https://www.afro.who.int/sites/default/files/2026-09/WHO%20Voices%20From%20the%20Field%20issue%2021%20-%20Digital%20Care%20Companion%20WHO%20invests%20in%20technology%20that%20connects%20the%20last%20mile.pdf",
+     "date": "2026-09",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Maturity of the health information system of South Sudan: progress, gaps and priorities for investment (WHO South Sudan)",
+     "url": "https://www.afro.who.int/sites/default/files/2025-03/Knowledge%20Management%20Series%20for%20Health%20Maturity%20of%20the%20Health%20Information%20System%20of%20South%20Sudan%20_%20progress%2C%20gaps%20and%20priorities%20for%20investment.pdf",
+     "date": "2025-02",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "research": {
+   "score": 43,
+   "summary": "No law sets consent or opt-out rules for reusing health records in research. One safeguard counts: a Ministry of Health Research Ethics Review Board, set up as a research ethics committee in 2006, that reviews studies.",
+   "detail": [
+    "The South Sudan Medical Journal reported in 2011 that a Research Ethics Committee was set up in June 2006 to protect volunteers and patients, and that applications for ethics approval must include the full proposal.",
+    "Published studies cite approval numbers from the Ministry of Health Research Ethics Review Board in Juba, for example MOH/RERB/D.03/2022.",
+    "WHO's summary of the National Health Policy 2016-2026 says it calls for a regulatory body for health systems research. We found no data protection law, re-identification penalty, public register of data uses or opt-out from research use of records."
+   ],
+   "sources": [
+    {
+     "title": "Guidance for undertaking research in the Republic of South Sudan (South Sudan Medical Journal)",
+     "url": "http://www.southsudanmedicaljournal.com/archive/august-2011/guidance-for-undertaking-research-in-the-republic-of-south-sudan.html",
+     "date": "2011-08",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "South Sudan's road to universal health coverage (Pan African Medical Journal, via PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9475057/",
+     "date": "2022-06-07",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "South Sudan health legislation: thematic highlights (WHO Country Planning Cycle Database)",
+     "url": "https://extranet.who.int/cpcd/health-legislation/countries/ssd/thematic-highlights",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "ai": {
+   "score": 20,
+   "summary": "No rules for AI or software as a medical device were found, which puts South Sudan in the no-rules band. The medicines regulator's 2012 Act covers medical devices in general, and a WHO-backed decision support tool keeps clinicians in charge by design, not by law.",
+   "detail": [
+    "The Drug and Food Control Authority Act 2012 sets up a regulator for drugs, cosmetics, medical devices and food, according to the FAOLEX summary. We found nothing in it on software or AI.",
+    "A September 2026 UNHCR report describes the Digital Care Companion as a clinical decision support system built on a human-in-the-loop symbolic AI design. Health workers can accept, change or override its prompts.",
+    "That oversight comes from the tool's design. We found no national AI law, AI policy, health AI guidance or rules on generative AI."
+   ],
+   "sources": [
+    {
+     "title": "Drug and Food Control Authority Act, 2012 (Act No. 37) (UNEP LEAP, from FAOLEX)",
+     "url": "https://leap.unep.org/en/countries/ss/national-legislation/drug-and-food-control-authority-act-2012-act-no-37",
+     "date": "2012",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Low cost technology solutions for expanding quality services into hard to reach areas: the Digital Care Companion innovation (UNHCR, via ReliefWeb)",
+     "url": "https://reliefweb.int/report/south-sudan/low-cost-technology-solutions-expanding-quality-services-hard-reach-areas-digital-care-companion-innovation",
+     "date": "2026-09-18",
+     "publisherClass": "intergov"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 carries aggregate facility reports to national level; only 22.4% of facilities have full electronic systems. A WHO-backed electronic patient record is reaching some remote primary care sites. No national record, exchange or e-prescription service was found.",
+ "laws": [
+  {
+   "name": "Transitional Constitution 2011 (revised 2013), Articles 22 and 32",
+   "level": "National",
+   "year": "2011",
+   "what": "Protects privacy of private life and correspondence; gives citizens access to official records, limited by others' privacy.",
+   "url": "https://www.constituteproject.org/constitution/South_Sudan_2013?lang=en"
+  },
+  {
+   "name": "Right of Access to Information Act 2013 (Act No. 65)",
+   "level": "National",
+   "year": "2013",
+   "what": "Citizens may request records; replies in 7 working days; no fee for one's own personal information.",
+   "url": "https://faolex.fao.org/docs/pdf/ssd182371.pdf"
+  },
+  {
+   "name": "Drug and Food Control Authority Act 2012 (Act No. 37)",
+   "level": "National",
+   "year": "2012",
+   "what": "Sets up the regulator for drugs, poisons, cosmetics, medical devices and food.",
+   "url": "https://leap.unep.org/en/countries/ss/national-legislation/drug-and-food-control-authority-act-2012-act-no-37"
+  },
+  {
+   "name": "Cybercrimes and Computer Misuse Act 2026",
+   "level": "National",
+   "year": "2026",
+   "what": "Providers keep user data 180 days, confidential without judicial order; court orders needed for searches and interception.",
+   "url": "https://docs.southsudanngoforum.org/sites/default/files/2026-08/South-Sudan-Cybercrimes-And-Computer-Misuse-Act-2026.pdf"
+  },
+  {
+   "name": "AU Convention on Cyber Security and Personal Data Protection (Malabo)",
+   "level": "Supranational",
+   "year": "2014",
+   "what": "Regional data protection treaty; South Sudan had neither signed nor ratified as of July 2024.",
+   "url": "https://au.int/sites/default/files/treaties/29560-sl-AFRICAN_UNION_CONVENTION_ON_CYBER_SECURITY_AND_PERSONAL_DATA_PROTECTION.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-11",
+   "headline": "ICT minister says South Sudan's first data protection bill will come in 2026",
+   "source": "Radio Tamazuj",
+   "url": "https://www.radiotamazuj.org/en/news/article/south-sudan-to-get-data-protection-bill-in-2026-says-minister",
+   "why": "Until such a law passes, patients have no legal rights over how their data is used."
+  },
+  {
+   "date": "2026-02-19",
+   "headline": "President Kiir signs the Cybercrimes and Computer Misuse Act 2026 into law",
+   "source": "Radio Tamazuj (Arabic)",
+   "url": "https://www.radiotamazuj.org/ar/news/article/%D9%83%D9%8A%D8%B1-%D9%8A%D9%88%D9%82%D8%B9-%D8%B9%D9%84%D9%89-%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86-%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D8%A6%D9%85-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86",
+   "why": "The first data-related law in force deals with crime and retention, not personal data rights."
+  },
+  {
+   "date": "2026-04-09",
+   "headline": "Press freedom group says new cybercrime law allows data demands without judicial oversight",
+   "source": "Committee to Protect Journalists",
+   "url": "https://cpj.org/2026/04/south-sudans-new-cybercrime-law-ramps-up-threat-of-jail-for-journalists/",
+   "why": "State access to stored personal data with no judge involved weakens privacy for everyone."
+  },
+  {
+   "date": "2026-04-30",
+   "headline": "Minister says data protection act is coming and national data centre is half built",
+   "source": "Eye Radio",
+   "url": "https://eyeradio.org/ateny-outlines-s-sudans-digital-transformation-plans-at-nairobi-summit/",
+   "why": "A government data centre may hold citizens' records before any data protection law exists."
+  },
+  {
+   "date": "2026-09",
+   "headline": "WHO-backed Digital Care Companion brings electronic patient records to remote clinics",
+   "source": "WHO South Sudan",
+   "url": "https://www.afro.who.int/sites/default/files/2026-09/WHO%20Voices%20From%20the%20Field%20issue%2021%20-%20Digital%20Care%20Companion%20WHO%20invests%20in%20technology%20that%20connects%20the%20last%20mile.pdf",
+   "why": "Patients' histories at these clinics move from paper registers to records usable at later visits."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

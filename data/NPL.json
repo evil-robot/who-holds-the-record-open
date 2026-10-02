@@ -1,0 +1,316 @@
+{
+ "iso3": "NPL",
+ "name": "Nepal",
+ "region": "Asia",
+ "controlModel": "Institutional",
+ "headline": "Nepal makes consent the rule for health data, but patients cannot get a copy of their full record and each hospital keeps its own files.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 28,
+   "summary": "We found no Nepali law that gives patients a right to a copy of their whole medical record. The Constitution and the Public Health Service Act give a right to be told about one's condition, and admitted patients get a discharge summary.",
+   "detail": [
+    "Article 35(2) of the 2015 Constitution says each person has the right to be informed about their health condition. Section 10 of the Public Health Service Act, 2075 (2018) requires facilities to explain the condition, diagnosis, treatment options, costs and risks.",
+    "Section 15 of the Act requires a discharge summary for every admitted patient. The 2020 Regulation (Schedule 6) sets its format: history, findings, key investigations, final diagnosis and outcome.",
+    "The Privacy Act, 2075 (2018) lets a person ask a public body to correct wrong information (Section 28). It has no right to see or copy one's own data.",
+    "An April 2026 Hospital Service Reform Procedure tells government hospitals to offer online appointments and reports. How many hospitals do this, and for how much of the record, was not verified. No national patient portal was found."
+   ],
+   "sources": [
+    {
+     "title": "Nepal's Constitution of 2015 (rev. 2016), English text (Constitute Project)",
+     "url": "https://www.constituteproject.org/constitution/Nepal_2016.pdf",
+     "date": "2015",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Public Health Service Act, 2075 (2018), Nepal Law Commission English translation",
+     "url": "https://bwcimplementation.org/sites/default/files/resource/NP_Public-Health-Service-Act-2075_EN.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Privacy Act, 2075 (2018), English translation (MoHP Integrated Health Information Management Section)",
+     "url": "https://hmis.gov.np/media/22/03_The-Privacy-Act-2075-2018.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Govt hospitals now go digital with online appointments, reports and payments (Republica)",
+     "url": "https://www.myrepublica.nagariknetwork.com/news/govt-hospitals-now-go-digital-with-online-appointments-reports-and-payments-86-79.html",
+     "date": "2026-04-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "The Privacy Act requires consent before anyone shares health examination details, but treatment, criminal investigations and national security are exempt. Patients have no opt-out tool and no way to see who opened their record.",
+   "detail": [
+    "Section 12(4) of the Privacy Act bars giving health examination details to anyone without the person's consent. Section 12(3) limits use to the purpose of collection, with a national security and public order exception.",
+    "Section 27 lists physical or mental health as sensitive information. A public body may process it for treatment, disease identification, public health and running a health institution without consent.",
+    "Section 26 lets public bodies disclose personal information on written demand by criminal investigators or by court order.",
+    "No consent dashboard, opt-out register or patient-visible access log was found. Records mostly stay inside each hospital, so control is in practice institutional."
+   ],
+   "sources": [
+    {
+     "title": "The Privacy Act, 2075 (2018), English translation (MoHP Integrated Health Information Management Section)",
+     "url": "https://hmis.gov.np/media/22/03_The-Privacy-Act-2075-2018.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Public Health Service Act, 2075 (2018), Nepal Law Commission English translation",
+     "url": "https://bwcimplementation.org/sites/default/files/resource/NP_Public-Health-Service-Act-2075_EN.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 35,
+   "summary": "Health data is sensitive under the Privacy Act and confidential under the Public Health Service Act, but there is no data protection regulator. For most offences the victim files with a District Court within three months, and the maximum penalty is 3 years or NPR 30,000.",
+   "detail": [
+    "Section 29 of the Privacy Act sets up to 3 years in prison or a fine up to NPR 30,000. Under Section 30 a person files a complaint with the District Court within three months; Section 31 allows compensation.",
+    "Section 14 of the Public Health Service Act requires confidentiality of a patient's condition, diagnosis and treatment. Breaking it carries a fine of NPR 25,000 to 50,000 (Section 53).",
+    "No independent data protection authority and no breach notification duty were found in either Act. An August 2026 Onlinekhabar report quotes experts saying Nepal lacks clear data protection rules.",
+    "The same report lists an April 2025 Nepal Police breach of about 2 million citizenship records. No health-sector breach or enforcement decision was verified."
+   ],
+   "sources": [
+    {
+     "title": "The Privacy Act, 2075 (2018), English translation (MoHP Integrated Health Information Management Section)",
+     "url": "https://hmis.gov.np/media/22/03_The-Privacy-Act-2075-2018.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Public Health Service Act, 2075 (2018), Nepal Law Commission English translation",
+     "url": "https://bwcimplementation.org/sites/default/files/resource/NP_Public-Health-Service-Act-2075_EN.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Weak data protection exposes Nepal to growing cybersecurity risks (Onlinekhabar English)",
+     "url": "https://english.onlinekhabar.com/weak-data-protection-exposes-nepal-to-growing-cybersecurity-risks.html",
+     "date": "2026-08-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 38,
+   "summary": "Sharing health examination details without consent is a crime under the Privacy Act, and misleading health advertising is banned. No rules on data brokers, health apps or sale of de-identified data were found.",
+   "detail": [
+    "Section 12(4) of the Privacy Act bars giving or publishing health examination details without consent. Section 23 says only an official authorized by law, or a person that official permits, may collect and process personal information.",
+    "Section 45 of the Public Health Service Act bans advertising with wrong or misleading information about products and services that affect health.",
+    "Rules on selling de-identified health data, data brokers or consumer health apps were not verified. Penalties are small, and no enforcement case was found."
+   ],
+   "sources": [
+    {
+     "title": "The Privacy Act, 2075 (2018), English translation (MoHP Integrated Health Information Management Section)",
+     "url": "https://hmis.gov.np/media/22/03_The-Privacy-Act-2075-2018.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "The Public Health Service Act, 2075 (2018), Nepal Law Commission English translation",
+     "url": "https://bwcimplementation.org/sites/default/files/resource/NP_Public-Health-Service-Act-2075_EN.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 28,
+   "summary": "A 2081 (2024) directive requires every facility to register its electronic record system and make it interoperable, but the Ministry says no national count of EMR use exists. Insurance claims are the main data flow that runs nationally.",
+   "detail": [
+    "The Integrated Electronic Medical Record System Operation and Management Directives 2081 require all health institutions to register EMR systems within 12 months, per the Ministry's November 2025 review. The directive text itself is a scanned Nepali file and was not read.",
+    "The same review says getting a current national figure for facilities using EMRs remains challenging. It cites EMR in 12 Gandaki provincial hospitals and 8 Koshi hospitals, and a 2025 study finding 60% of sampled public facilities used EMRs.",
+    "The Health Insurance Board takes real-time claims through an API and covered about 27% of the population in 2024/25.",
+    "Routine public health reporting runs on the DHIS2-based HMIS, which is aggregate data, not patient records."
+   ],
+   "sources": [
+    {
+     "title": "Progress of Health and Population Sector 2024/25 (2081/82): National Joint Annual Review Report (Ministry of Health and Population)",
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/NJAR_Report_2024_25%20(2081_82)_ag6xlgz.pdf",
+     "date": "2025-11-26",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Nepal's healthcare has a memory problem (Onlinekhabar English)",
+     "url": "https://english.onlinekhabar.com/nepals-healthcare-memory-problem.html",
+     "date": "2026-07-29",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 25,
+   "summary": "A doctor in Nepal usually sees only their own hospital's records plus whatever paper the patient brings. No cross-provider record viewer was found, and the planned Digital Health Blueprint was still in development in late 2025.",
+   "detail": [
+    "The Ministry's November 2025 review says the Nepal Digital Health Blueprint is being developed to guide EHR, HMIS and telemedicine work. It was not verified as adopted.",
+    "A July 2026 Onlinekhabar column says every hospital, lab and pharmacy keeps its own records and that doctors decide without full histories.",
+    "The Privacy Act allows health data use for treatment without consent, so the law does not block clinician access. The gap is infrastructure.",
+    "In mid-2026, EHR pilots and digital dashboards started at five large federal hospitals, including Bir Hospital and Kanti Children's Hospital."
+   ],
+   "sources": [
+    {
+     "title": "Progress of Health and Population Sector 2024/25 (2081/82): National Joint Annual Review Report (Ministry of Health and Population)",
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/NJAR_Report_2024_25%20(2081_82)_ag6xlgz.pdf",
+     "date": "2025-11-26",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Nepal's healthcare has a memory problem (Onlinekhabar English)",
+     "url": "https://english.onlinekhabar.com/nepals-healthcare-memory-problem.html",
+     "date": "2026-07-29",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The digital pulse and the structural fracture: 100 days of Balen government in health sector (Onlinekhabar English)",
+     "url": "https://english.onlinekhabar.com/the-digital-pulse-and-the-structural-fracture-100-days-of-balen-government.html",
+     "date": "2026-07-06",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The Privacy Act, 2075 (2018), English translation (MoHP Integrated Health Information Management Section)",
+     "url": "https://hmis.gov.np/media/22/03_The-Privacy-Act-2075-2018.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "The Privacy Act requires informed consent to collect data for research, misuse is a crime, and the statutory Nepal Health Research Council must approve health research. There is no opt-out register or public list of secondary uses.",
+   "detail": [
+    "Section 23(2) of the Privacy Act allows collecting information for study or research only with consent, after telling people the purpose, time, method and protection. Section 11(4) allows study of a person's medical history documents with their consent or a court order.",
+    "Section 26(2) lets a public body publish personal information for a public-purpose study if identity is needed and no harm results.",
+    "An NHRC-authored 2024 paper says ethical approval is mandatory under the 2022 National Ethical Guidelines. About 60 accredited institutional committees operate; clinical trials and national studies need NHRC board approval.",
+    "Four safeguard classes are documented: a statutory ethics body, a consent route, statutory confidentiality (Public Health Service Act Section 14) and criminal penalties for misuse (Privacy Act Section 29). A public register of data uses, a general opt-out and a secure research environment were not found."
+   ],
+   "sources": [
+    {
+     "title": "The Privacy Act, 2075 (2018), English translation (MoHP Integrated Health Information Management Section)",
+     "url": "https://hmis.gov.np/media/22/03_The-Privacy-Act-2075-2018.pdf",
+     "date": "2018-09-18",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ethical Approval in Nepal: Barriers or Facilitators? (J Nepal Health Res Counc 22(64))",
+     "url": "https://jnhrc.com.np/index.php/jnhrc/article/view/4410/4703",
+     "date": "2024",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "Nepal's National AI Policy, 2025 names diagnostic imaging and disease detection as goals and plans an AI Regulation Council. No binding rules for clinical AI or AI as a medical device were verified.",
+   "detail": [
+    "The policy plans an AI Regulation Council chaired by the communications minister to set standards and check compliance. Whether the council has been formed was not verified.",
+    "Item 9.31 targets AI in diagnostic imaging, early disease detection and genomic analysis. Item 9.1 calls for a data security law within 2 years.",
+    "Whether medical device rules from the Department of Drug Administration cover AI software, change control or human oversight was not verified."
+   ],
+   "sources": [
+    {
+     "title": "National Artificial Intelligence (A.I.) Policy, 2025 (Government of Nepal)",
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/National%20AI%20Policy-Final_uxc94vg.pdf",
+     "date": "2025",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Some hospitals run EMRs and must register them under the 2081 (2024) directive. Insurance claims flow to the Health Insurance Board by API. Public health reporting is aggregate HMIS data. Labs and pharmacies keep their own records.",
+ "laws": [
+  {
+   "name": "Constitution of Nepal 2015, Articles 28 and 35",
+   "level": "National",
+   "year": "2015",
+   "what": "Right to privacy of records and data; right to be informed about one's health condition.",
+   "url": "https://www.constituteproject.org/constitution/Nepal_2016.pdf"
+  },
+  {
+   "name": "The Privacy Act, 2075 (2018)",
+   "level": "National",
+   "year": "2018",
+   "what": "Consent to share health details; health is sensitive data; up to 3 years or NPR 30,000.",
+   "url": "https://hmis.gov.np/media/22/03_The-Privacy-Act-2075-2018.pdf"
+  },
+  {
+   "name": "The Public Health Service Act, 2075 (2018)",
+   "level": "National",
+   "year": "2018",
+   "what": "Informed consent, confidentiality, discharge summaries and record keeping by health institutions.",
+   "url": "https://bwcimplementation.org/sites/default/files/resource/NP_Public-Health-Service-Act-2075_EN.pdf"
+  },
+  {
+   "name": "Public Health Service Regulation, 2077 (2020)",
+   "level": "National",
+   "year": "2020",
+   "what": "Sets discharge summary format and requires facilities to keep separate patient records.",
+   "url": "https://extranet.who.int/ncdccs/Data/NPL_B3_S23_Public%20Health%20Service%20Regulation%202020%20-ENG%20Unofc%20translation-%20clean.pdf"
+  },
+  {
+   "name": "Integrated EMR System Operation and Management Directives, 2081",
+   "level": "National",
+   "year": "2024",
+   "what": "All facilities must register EMR systems within 12 months; sets rules on data networking, security and privacy.",
+   "url": "https://giwmscdnone.gov.np/media/pdf_upload/NJAR_Report_2024_25%20(2081_82)_ag6xlgz.pdf"
+  },
+  {
+   "name": "National Artificial Intelligence (A.I.) Policy, 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Plans an AI Regulation Council and a data security law; names health AI uses.",
+   "url": "https://giwmscdnone.gov.np/media/pdf_upload/National%20AI%20Policy-Final_uxc94vg.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-03-16",
+   "headline": "Health insurance enrolment to be linked to National ID numbers",
+   "source": "Republica",
+   "url": "https://myrepublica.nagariknetwork.com/news/health-insurance-to-be-linked-with-national-id-numbers-34-43.html",
+   "why": "Ties insurance and health service data to the national ID, with no privacy safeguards described."
+  },
+  {
+   "date": "2026-04-11",
+   "headline": "Government hospitals told to offer online appointments, reports and payments",
+   "source": "Republica",
+   "url": "https://www.myrepublica.nagariknetwork.com/news/govt-hospitals-now-go-digital-with-online-appointments-reports-and-payments-86-79.html",
+   "why": "Could give patients online access to test reports at public hospitals."
+  },
+  {
+   "date": "2026-07-06",
+   "headline": "Column reviews new government's health digital push, including hospital dashboards",
+   "source": "Onlinekhabar English",
+   "url": "https://english.onlinekhabar.com/the-digital-pulse-and-the-structural-fracture-100-days-of-balen-government.html",
+   "why": "Shows digital pilots at five large hospitals, not yet a national record."
+  },
+  {
+   "date": "2026-07-29",
+   "headline": "Column says Nepal's hospitals, labs and pharmacies keep separate records",
+   "source": "Onlinekhabar English",
+   "url": "https://english.onlinekhabar.com/nepals-healthcare-memory-problem.html",
+   "why": "Patients still carry paper files and repeat tests because records do not move."
+  },
+  {
+   "date": "2026-08-15",
+   "headline": "Health Insurance Board opens online enrolment and renewal",
+   "source": "The Rising Nepal",
+   "url": "https://risingnepaldaily.com/news/85071",
+   "why": "Self-service enrolment for a scheme covering 5,970,403 people moves more personal data online."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,326 @@
+{
+  "iso3": "GEO",
+  "name": "Georgia",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Georgia's ministry-owned health record lets patients hide episodes by law, but the auditor found half of selected state-programme cases missing and the data regulator abolished.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 55,
+      "summary": "Patients may see their records and get a free copy within 10 working days. A national patient page exists, but the state auditor found low awareness and half of state-programme cases missing; portal usage is not verified.",
+      "detail": [
+        "Article 17 of the 2000 Law on Patient Rights lets patients see their medical records, ask for corrections and request a copy of any part. The request goes in writing to the medical facility.",
+        "Article 14 of the 2023 Personal Data Protection Law gives a free copy within 10 working days, extendable by 10. Controllers may charge a reasonable fee for other formats or frequent requests.",
+        "The EHR order (consolidated text as of 18 February 2026) gives a patient page showing the patient's episodes and processing logs. The State Audit Office says that page did not work during its audit and opened only in November 2024. How the live portal works today is not verified.",
+        "The auditor found 89 of 150 surveyed patients had not heard of the EHR, and 50% of 2022-2023 state-programme cases were not recorded. No official usage figure was found, so the score follows the statutory-right formula: base 45, +5 free with deadline, +5 official portal."
+      ],
+      "sources": [
+        {
+          "title": "Law of Georgia on Patient Rights (2000), Arts. 17, 27, 28",
+          "url": "https://matsne.gov.ge/ka/document/view/16978",
+          "date": "2000-05-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law of Georgia on Personal Data Protection (2023, consolidated)",
+          "url": "https://matsne.gov.ge/en/document/view/5827307",
+          "date": "2023-07-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ministerial Order 01-1/n on the operation of the Electronic Health Records (EHR) system",
+          "url": "https://www.matsne.gov.ge/ka/document/view/4390457",
+          "date": "2019-01-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "State Audit Office: digital health performance audit report (2020-2023)",
+          "url": "https://sao.ge/ka/%E1%83%AA%E1%83%98%E1%83%A4%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%AF%E1%83%90%E1%83%9C%E1%83%93%E1%83%90%E1%83%AA%E1%83%95%E1%83%98%E1%83%A1-%E1%83%90%E1%83%A3%E1%83%93%E1%83%98%E1%83%A2%E1%83%98%E1%83%A1-%E1%83%90%E1%83%9C%E1%83%92%E1%83%9020250214051410613ka.html",
+          "date": "2025-02-14",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 60,
+      "summary": "The EHR order lets patients hide or share each episode, unlock hidden data by SMS code and see processing logs. But records are shared with all authorised doctors by default, and a December 2025 law ordered a state mental health database without a consent step.",
+      "detail": [
+        "Under the 2019 EHR order, episodes a doctor uploads are visible to every authorised doctor by default. Patients can hide or share any episode on their patient page, fully or partly, and a doctor must carry out such a request.",
+        "A patient who has hidden data can unlock it during a visit by giving the doctor a one-time SMS code. In emergencies a doctor may open hidden data once, without consent, with a written reason; the action is logged.",
+        "Every view, entry and export is logged with date and user, and the patient page shows these logs (Articles 8 and 14 of the order, text as of February 2026). Logs are kept 3 years. Whether the live portal works this way in practice is not verified.",
+        "Doctors may hide data from the patient's own view if it could harm their health. A December 2025 amendment requires one ministry database of people with mental health, alcohol or drug diagnoses, filled from state and private facilities. Score sits at the bottom of the 60 to 80 band."
+      ],
+      "sources": [
+        {
+          "title": "Ministerial Order 01-1/n on the operation of the Electronic Health Records (EHR) system",
+          "url": "https://www.matsne.gov.ge/ka/document/view/4390457",
+          "date": "2019-01-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law amending the Law of Georgia on Mental Health (unified information database)",
+          "url": "https://matsne.gov.ge/ka/document/view/6692485",
+          "date": "2025-12-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Cito clinic: rules for processing patient personal data",
+          "url": "https://cito.ge/ka/policies/patient-data",
+          "date": "undated",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 45,
+      "summary": "The 2023 data law treats health data as a special category and requires 72-hour breach notice. Score sits at the floor of the general-law band because the standalone regulator was abolished on 2 March 2026 and no health enforcement case was found.",
+      "detail": [
+        "The Personal Data Protection Law (2023, main articles in force 1 March 2024) follows GDPR principles. Article 6 allows health data processing only on listed grounds, such as written consent or health care by people bound by professional secrecy.",
+        "Article 29 requires controllers to notify the State Audit Office within 72 hours of a data incident. Article 33 makes medical institutions appoint a data protection officer.",
+        "Parliament voted 78 to 1 on 17 December 2025 to liquidate the Personal Data Protection Service and give its powers to the State Audit Office from 2 March 2026. Fine amounts under Article 68 were not verified.",
+        "The same month, parliament ordered a ministry database of people with mental health and addiction diagnoses, filled without a consent step. Its explanatory note, as reported by Radio Tavisupleba, ties it to gun licence checks. No health-sector enforcement case was opened for this review."
+      ],
+      "sources": [
+        {
+          "title": "Law of Georgia on Personal Data Protection (2023, consolidated)",
+          "url": "https://matsne.gov.ge/en/document/view/5827307",
+          "date": "2023-07-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Parliament of Georgia: Anti-Corruption Bureau and Personal Data Protection Service to be annulled as of 2 March 2026",
+          "url": "https://www.parliament.ge/en/media/news/antikoruftsiuli-biuro-da-personalur-monatsemta-datsvis-samsakhuri-2026-tslis-2-marts-gaukmdeba",
+          "date": "2025-12-17",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Law amending the Law of Georgia on Mental Health (unified information database)",
+          "url": "https://matsne.gov.ge/ka/document/view/6692485",
+          "date": "2025-12-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Radio Tavisupleba: law orders a database of people with mental health problems",
+          "url": "https://www.radiotavisupleba.ge/a/33620954.html",
+          "date": "2025-12-11",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 45,
+      "summary": "No health-specific limit on selling or marketing with health data was found. The general data law requires written consent for health data and for direct marketing beyond basic contact details, with free withdrawal.",
+      "detail": [
+        "Article 12 of the Personal Data Protection Law allows direct marketing only with consent. Using anything beyond name, address, phone and email needs written consent, and people must be told how to withdraw.",
+        "Health data is a special category, so a company needs written consent or another listed ground to process it. Medical institutions must appoint a data protection officer.",
+        "No rule was found on data brokers, sale of de-identified health data, or consumer health apps outside health law. Score rests on the general law alone."
+      ],
+      "sources": [
+        {
+          "title": "Law of Georgia on Personal Data Protection (2023, consolidated)",
+          "url": "https://matsne.gov.ge/en/document/view/5827307",
+          "date": "2023-07-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "DLA Piper: Data protection laws in Georgia",
+          "url": "https://www.dlapiperdataprotection.com/?t=law&c=GE",
+          "date": "2026-03-13",
+          "publisherClass": "law_firm"
+        }
+      ]
+    },
+    "journey": {
+      "score": 52,
+      "summary": "One ministry-owned EHR receives hospital, outpatient, insurance case and e-prescription data, and has been mandatory for hospitals and most outpatient facilities since August 2023. The state auditor found half of state-programme cases missing, rural and family doctors excluded, and 67% of prescription medicines dispensed without an e-prescription.",
+      "detail": [
+        "The EHR order makes the ministry the owner of the system. It pulls identity data from the civil registry, universal health care case records from the Social Service Agency, and prescriptions from the e-prescription system.",
+        "The order also lists immunisation, hepatitis C screening and maternal data from the disease control centre. The State Audit Office asks the ministry to make data from its systems reach the EHR on time. Georgia is outside the EU and EEA, so the European Health Data Space regulation does not apply.",
+        "The auditor found 57% of high-risk facilities and 4% of hospitals not connected, 24% of active doctors not using the systems, and 50% of 2022-2023 state-programme cases unrecorded.",
+        "For e-prescriptions, 32% of pharmacies were outside the system and 67% of prescription units were dispensed without one. Family and rural doctors have no access to patients' electronic health data, the auditor says."
+      ],
+      "sources": [
+        {
+          "title": "Ministerial Order 01-1/n on the operation of the Electronic Health Records (EHR) system",
+          "url": "https://www.matsne.gov.ge/ka/document/view/4390457",
+          "date": "2019-01-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "State Audit Office: digital health performance audit report (2020-2023)",
+          "url": "https://sao.ge/ka/%E1%83%AA%E1%83%98%E1%83%A4%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%AF%E1%83%90%E1%83%9C%E1%83%93%E1%83%90%E1%83%AA%E1%83%95%E1%83%98%E1%83%A1-%E1%83%90%E1%83%A3%E1%83%93%E1%83%98%E1%83%A2%E1%83%98%E1%83%A1-%E1%83%90%E1%83%9C%E1%83%92%E1%83%9020250214051410613ka.html",
+          "date": "2025-02-14",
+          "publisherClass": "official"
+        },
+        {
+          "title": "State Audit Office of Georgia: Digital Health PA report (EUROSAI presentation)",
+          "url": "https://eurosai-it.org/images/public-documents/coffee_breaks/Digital_Health_Giorgi%20Kapanadze.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 52,
+      "summary": "An authorised doctor who enters a patient's ID number and birth date can see every episode the patient has not hidden, from any facility. The state auditor says family and rural doctors have no access and 24% of active doctors are not connected.",
+      "detail": [
+        "Article 11 of the EHR order lets a registered, certified doctor pull all visible episodes after identifying the patient by personal number and date of birth. Doctors may use data only for care, record editing or at the patient's request.",
+        "Emergency access to hidden data is allowed once per session, without consent, with a recorded reason, and is logged.",
+        "For psychotropic medicines, the 2022 e-prescription order gives the doctor all of the patient's electronic prescriptions.",
+        "The State Audit Office found family and rural doctors were never connected, and that half of state-programme cases in 2022-2023 were not in the system, so the record a doctor sees is often incomplete."
+      ],
+      "sources": [
+        {
+          "title": "Ministerial Order 01-1/n on the operation of the Electronic Health Records (EHR) system",
+          "url": "https://www.matsne.gov.ge/ka/document/view/4390457",
+          "date": "2019-01-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ministerial Order 01-31/n on electronic prescriptions for psychotropic medicines",
+          "url": "https://www.matsne.gov.ge/ka/document/view/5433415",
+          "date": "2022-04-08",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "State Audit Office of Georgia: Digital Health PA report (EUROSAI presentation)",
+          "url": "https://eurosai-it.org/images/public-documents/coffee_breaks/Digital_Health_Giorgi%20Kapanadze.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Research on people needs written informed consent and review by an independent commission and a medical ethics commission. De-identified records may be used for research without consent, and no opt-out or public register of uses was found.",
+      "detail": [
+        "Article 109 of the 1997 Law on Health Care bans biomedical research without the participant's written informed consent and guarantees the right to withdraw at any stage. Article 107 requires review by an independent commission and a medical ethics commission.",
+        "Article 28 of the Law on Patient Rights allows disclosure for teaching or science if the person cannot be identified. Article 27 binds providers to confidentiality.",
+        "The data law treats further processing for scientific research as compatible with the original purpose if safeguards exist. No general opt-out and no public register of uses were found. Score: base 40, +3 ethics review, +3 statutory secrecy."
+      ],
+      "sources": [
+        {
+          "title": "Law of Georgia on Health Care (1997), Arts. 8, 107, 109",
+          "url": "https://matsne.gov.ge/ka/document/view/29980",
+          "date": "1997-12-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law of Georgia on Patient Rights (2000), Arts. 17, 27, 28",
+          "url": "https://matsne.gov.ge/ka/document/view/16978",
+          "date": "2000-05-25",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law of Georgia on Personal Data Protection (2023, consolidated)",
+          "url": "https://matsne.gov.ge/en/document/view/5827307",
+          "date": "2023-07-03",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 35,
+      "summary": "Georgia has no clinical AI rules. A 2023 device-trial regulation classifies standalone software as a device, but no general device approval rule or AI change control was found, so the score sits below Armenia and Ukraine.",
+      "detail": [
+        "A 2023 government resolution sets rules for clinical investigations of medical devices, following ISO 14155:2020 and the Helsinki Declaration. Studies of class IIa, IIb and III devices need a coordination council's positive recommendation.",
+        "Its classification rules say software that runs a device takes that device's class, and standalone software is classified on its own.",
+        "No national AI law, health AI authority or binding guidance on AI in care was found, and the regulation does not mention AI. Georgia is not in the EU, so the EU AI Act and MDR do not apply. Score 35: thinner than peers whose full device rules cover software (40)."
+      ],
+      "sources": [
+        {
+          "title": "Government Resolution: technical regulation on clinical investigation of medical devices",
+          "url": "https://www.matsne.gov.ge/ka/document/view/5934377",
+          "date": "2023-10-03",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "One national EHR links hospitals, outpatient care, universal health care claims and e-prescriptions, but the State Audit Office found half of selected state-programme cases missing and family and rural doctors outside the system.",
+  "laws": [
+    {
+      "name": "Law of Georgia on Patient Rights",
+      "level": "National",
+      "year": "2000",
+      "what": "Right to see medical records and get a copy of any part; confidentiality and disclosure rules.",
+      "url": "https://matsne.gov.ge/ka/document/view/16978"
+    },
+    {
+      "name": "Law of Georgia on Health Care",
+      "level": "National",
+      "year": "1997",
+      "what": "Informed consent for care; written consent and ethics review for biomedical research.",
+      "url": "https://matsne.gov.ge/ka/document/view/29980"
+    },
+    {
+      "name": "Law of Georgia on Personal Data Protection",
+      "level": "National",
+      "year": "2023",
+      "what": "GDPR-style law: health as special category, 10-day access, 72-hour breach notice.",
+      "url": "https://matsne.gov.ge/en/document/view/5827307"
+    },
+    {
+      "name": "Ministerial Order 01-1/n on the Electronic Health Records (EHR) system",
+      "level": "National",
+      "year": "2019",
+      "what": "National EHR: data feeds, default sharing, patient hiding, SMS consent, access logs.",
+      "url": "https://www.matsne.gov.ge/ka/document/view/4390457"
+    },
+    {
+      "name": "Amendment to the Law of Georgia on Mental Health (unified database)",
+      "level": "National",
+      "year": "2025",
+      "what": "Creates a ministry database of people with mental health or addiction diagnoses.",
+      "url": "https://matsne.gov.ge/ka/document/view/6692485"
+    },
+    {
+      "name": "Technical regulation on clinical investigation of medical devices",
+      "level": "National",
+      "year": "2023",
+      "what": "Rules for device trials; classifies standalone software as a device.",
+      "url": "https://www.matsne.gov.ge/ka/document/view/5934377"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-11",
+      "headline": "New law orders a database of people with mental health problems",
+      "source": "Radio Tavisupleba",
+      "url": "https://www.radiotavisupleba.ge/a/33620954.html",
+      "why": "Psychiatric and addiction diagnoses will flow from clinics into a state database linked to gun licence checks."
+    },
+    {
+      "date": "2025-12-12",
+      "headline": "Psychologists warn mental health database could enable control and discrimination",
+      "source": "Civil.ge",
+      "url": "https://civil.ge/ka/archives/714664",
+      "why": "Patients may avoid care if diagnoses can be pulled from private clinics without consent."
+    },
+    {
+      "date": "2025-12-17",
+      "headline": "Ruling party passes laws scrapping data protection service and anti-corruption bureau",
+      "source": "Civil.ge",
+      "url": "https://civil.ge/archives/714936",
+      "why": "The data regulator went in the same package that scrapped the anti-corruption bureau, ending a standalone privacy watchdog."
+    },
+    {
+      "date": "2026-03-28",
+      "headline": "E-prescription caps for psychotropic medicines take effect 1 April",
+      "source": "Mkurnali.ge",
+      "url": "https://mkurnali.ge/sando-rchevebi/26698-elektronuli-receptit-psikotropuli-medikamentebis-gacemis-maksimaluri-raodenoba-ganisazgvra-cvlileba-1-eli-aprilidan-amokmeddeba.html",
+      "why": "Adults get at most 14 days' supply per e-prescription, with the reason recorded in the medical history."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

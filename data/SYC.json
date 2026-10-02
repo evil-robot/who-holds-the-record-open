@@ -1,0 +1,324 @@
+{
+ "iso3": "SYC",
+ "name": "Seychelles",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Seychelles has a 2023 data law and one state electronic health system, but its regulator says the law risks going largely unenforced.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Section 27 of the Data Protection Act 2023 gives a free right to your data but sets no reply deadline, and the regulator says the Act risks going largely unenforced. There is no national patient portal, so patients ask the health service directly.",
+   "detail": [
+    "Section 27 of the Data Protection Act 2023 gives a right to confirmation, a copy of the data being processed, its origin, its recipients and the legal basis. Section 25(8) says this must be free unless a request is manifestly unfounded or excessive.",
+    "Section 31 adds a right to get data in a structured, machine-readable and interoperable format, or to move it to another controller. The Act sets no fixed deadline to answer a request. The Minister may set timelines by regulation.",
+    "The 2026 Budget describes the state electronic Health Information System (eHIS) as giving records to authorised providers and SMS appointment reminders. It mentions no patient portal, and we found none.",
+    "Score: base 45 for a statutory right with no national portal, plus 5 for a free copy in a structured format, minus 5 for no fixed deadline, minus 5 for weak enforcement (see privacy)."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2023 (Act 24 of 2023), Official Gazette",
+     "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+     "date": "2023-12-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "2026 Budget: Assumptions and Objectives of the 2026 Budget (Ministry of Finance)",
+     "url": "https://www.finance.gov.sc/wp-content/uploads/2026/02/2026-Budget-Assumptions-and-Objectives-of-the-2026-budget.pdf",
+     "date": "2026-02",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 42,
+   "summary": "Health data may be used without consent for care and running health services, and eHIS records are open to all authorised providers. The law gives a right to a list of who accessed your data in the last 6 months, but we found no opt-out.",
+   "detail": [
+    "Section 22 of the Data Protection Act bans processing health data, then lists exceptions. They include explicit consent, but also medical diagnosis, care and the management of health systems. Consent is not the gate for care use.",
+    "Section 27(1)(d) gives a right to 'a list of data recipients that accessed the data in the past 6 months'. That is an access log on request. We did not verify that the eHIS can produce it in practice.",
+    "The 2026 Budget says eHIS gives 'comprehensive electronic medical records accessible to all authorized healthcare providers'. Access is limited by role, a 2023 report said: doctors see all files, dentists and nurses see only their part.",
+    "The Medical and Dental Council's October 2025 guidelines tell doctors to share patient information only with consent or when legally required. We found no patient-facing opt-out from eHIS. An access log on request with no opt-out sits in the 40 to 55 band; we score low because practice is not verified."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2023 (Act 24 of 2023), Official Gazette",
+     "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+     "date": "2023-12-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "2026 Budget: Assumptions and Objectives of the 2026 Budget (Ministry of Finance)",
+     "url": "https://www.finance.gov.sc/wp-content/uploads/2026/02/2026-Budget-Assumptions-and-Objectives-of-the-2026-budget.pdf",
+     "date": "2026-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Professional Practice Guidelines: Good Medical and Dental Practice (Seychelles Medical and Dental Council)",
+     "url": "https://smdcseychelles.org/wp-content/uploads/Good-Medical-and-Dental-Practice.pdf",
+     "date": "2025-10-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Indian-funded digitisation of Seychelles' public health system nearing its completion (Trendsnafrica)",
+     "url": "https://trendsnafrica.com/indian-funded-digitisation-of-seychelles-public-health-system-nearing-its-completion/",
+     "date": "2023-06-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "The 2023 Act treats health data as sensitive and requires breach notice within 72 hours. But the Information Commission says the Act 'remains at risk of being largely unenforced', with its one data protection post still unfilled.",
+   "detail": [
+    "Health is a special category under section 22. Section 43 requires a controller to notify the Information Commission of a breach within 72 hours. Section 44 requires telling people when a breach is likely to affect a significant number of them.",
+    "Administrative fines reach SCR 200,000. Offences with no specific penalty carry up to 2 years in prison. Section 4 puts criminal investigations and national security matters wholly outside the Act.",
+    "The Commission's 2025 Annual Report lists 14 data protection cases, including 5 breaches. It says one technical post to run the Act was budgeted but not yet recruited, because pay is too low.",
+    "Seychelles is outside the EU, so the GDPR and EHDS do not apply, and it has no EU adequacy decision. No health-sector breach or decision was found, so we score on the general law at the bottom of the 45 to 66 band."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2023 (Act 24 of 2023), Official Gazette",
+     "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+     "date": "2023-12-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Annual Report 2025 (Information Commission)",
+     "url": "https://www.infocom.sc/wp-content/uploads/Annual-Report-2025.pdf",
+     "date": "2025-12",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Data Protection (Information Commission)",
+     "url": "https://www.infocom.sc/data-protection/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Health data needs explicit consent for uses outside care, research and other listed grounds, and offering to sell unlawfully disclosed data is a crime. We found no rule on direct marketing, health apps, data brokers or de-identified data.",
+   "detail": [
+    "Section 22 bans processing health data unless an exception applies. A company outside the health, research or public-interest grounds would need the person's explicit consent for specified purposes.",
+    "Section 48 makes it an offence to disclose data in a way incompatible with the purpose of collection. Section 48(5) makes it an offence to offer to sell data obtained that way.",
+    "We found no section on direct marketing, and no rule aimed at health apps, data brokers or sale of anonymised health data. Score 40: a consent gate for sensitive data and a narrow sale offence, but no marketing opt-out (Mauritius, 45, has one)."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2023 (Act 24 of 2023), Official Gazette",
+     "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+     "date": "2023-12-22",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 52,
+   "summary": "The 2026 Budget says the state eHIS is deployed on all three main islands, with clinical use fully implemented and lab, pharmacy and imaging linked. These are government claims: usage figures and private clinic links were not verified.",
+   "detail": [
+    "The Ministry's National Health Strategic Plan 2022-2026 said data capture was mainly paper-based and that eHIS work begun in 2020 had stalled. The National Development Strategy set a target of 100% of facilities using eHIS for all services by 2025.",
+    "The 2026 Budget says clinical operations are fully implemented, non-clinical processes are nearly complete and the system runs on all three islands. It lists a central patient database, integrated lab, pharmacy, imaging and billing, telemedicine and a link to the National Population Database.",
+    "The software was funded by an Indian line of credit of about $4 million, with a 2019 contract with Manorama Infosolutions. In March 2026 the National Assembly passed a bill dissolving the Health Care Agency and moving its records to the Ministry.",
+    "Seychelles was one of four WHO African Region countries to join the EU Digital COVID Certificate network. We found no independent usage figures and no evidence that private clinics connect to eHIS."
+   ],
+   "sources": [
+    {
+     "title": "2026 Budget: Assumptions and Objectives of the 2026 Budget (Ministry of Finance)",
+     "url": "https://www.finance.gov.sc/wp-content/uploads/2026/02/2026-Budget-Assumptions-and-Objectives-of-the-2026-budget.pdf",
+     "date": "2026-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Strategic Direction Six: Improve Data for Impact (Ministry of Health)",
+     "url": "https://www.health.gov.sc/national-health-strategic-plan-2022-2026-2/strategic-direction-six-improve-data-for-impact/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Seychelles National Development Strategy 2024-2028 (Ministry of Finance)",
+     "url": "https://www.finance.gov.sc/wp-content/uploads/2025/08/Seychelles-National-Development-Strategy-2024-2028.pdf",
+     "date": "2025-08",
+     "publisherClass": "official"
+    },
+    {
+     "title": "WHO and the European Union launch collaboration to advance digitized health systems in sub-Saharan Africa (WHO)",
+     "url": "https://www.who.int/news/item/14-10-2025-who-and-the-european-union-launch-collaboration-to-advance-digitized-health-systems-in-sub-saharan-africa",
+     "date": "2025-10-14",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 50,
+   "summary": "In the public system, eHIS is meant to let any authorised clinician on any island open the patient's record, with lab results online. We did not verify this in daily use or find any link to private clinics.",
+   "detail": [
+    "The 2026 Budget says eHIS gives 'real-time data availability across all facilities and islands' and records 'accessible to all authorized healthcare providers'.",
+    "A 2023 report said the next phase would put blood results online so a doctor could see them wherever they are. It also said some doctors still wrote notes by hand, and access depends on role.",
+    "We found no published rule on emergency access and no evidence that private clinics can see or add to eHIS records. Score in the lower half of the mixed band because use at the bedside is not verified."
+   ],
+   "sources": [
+    {
+     "title": "2026 Budget: Assumptions and Objectives of the 2026 Budget (Ministry of Finance)",
+     "url": "https://www.finance.gov.sc/wp-content/uploads/2026/02/2026-Budget-Assumptions-and-Objectives-of-the-2026-budget.pdf",
+     "date": "2026-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Indian-funded digitisation of Seychelles' public health system nearing its completion (Trendsnafrica)",
+     "url": "https://trendsnafrica.com/indian-funded-digitisation-of-seychelles-public-health-system-nearing-its-completion/",
+     "date": "2023-06-22",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Health data may be processed for research without consent under section 22 of the Data Protection Act, with no opt-out. A Ministry Health Research Ethics Committee reviews health research, but we found no clinical trials law.",
+   "detail": [
+    "Section 22(2)(j) allows sensitive data to be processed when needed for scientific or historical research or statistics. Section 16 allows longer retention for research. There is no general opt-out.",
+    "The Ministry of Health's Health Research Ethics Committee reviews and approves health research. Published studies cite its approval numbers.",
+    "The Ministry's strategic plan says its research unit is very small, with no research policy and no research budget. We found no clinical trials law. The African Medicines Regulatory Harmonisation page, using WHO 2011 data, says Seychelles does not register medicines.",
+    "Score: base 40, plus 3 for the ethics committee and 3 for the section 48 unlawful disclosure offence."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act, 2023 (Act 24 of 2023), Official Gazette",
+     "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+     "date": "2023-12-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Regulation & Registration Section (Ministry of Health)",
+     "url": "https://www.health.gov.sc/regulation-registration-section/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Strategic Direction Six: Improve Data for Impact (Ministry of Health)",
+     "url": "https://www.health.gov.sc/national-health-strategic-plan-2022-2026-2/strategic-direction-six-improve-data-for-impact/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Seychelles: Regulatory Authority (AMRH, AUDA-NEPAD)",
+     "url": "https://amrh.nepad.org/amrh-countries/seychelles",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "ai": {
+   "score": 20,
+   "summary": "We found no rules for AI used in care: no medical device regulation and no health-AI guidance. The 2026 Budget only says government 'can now explore' AI with governance and data protection.",
+   "detail": [
+    "The 2026 Budget says the Government can now explore AI as a tool, 'guided by strong governance, data protection, and capacity-building frameworks'. It names no health-AI rules.",
+    "The African Medicines Regulatory Harmonisation profile, using WHO 2011 data, says Seychelles has no medicine registration and limited inspection. We found no medical device law, so AI software in care has no approval route or change control.",
+    "Section 30(2) of the Data Protection Act lets the Minister make regulations on decisions based solely on automated processing. We found none made. A national AI framework adopted in 2026 covers schools, not health. Score in the 15 to 30 band for no rules."
+   ],
+   "sources": [
+    {
+     "title": "2026 Budget: Assumptions and Objectives of the 2026 Budget (Ministry of Finance)",
+     "url": "https://www.finance.gov.sc/wp-content/uploads/2026/02/2026-Budget-Assumptions-and-Objectives-of-the-2026-budget.pdf",
+     "date": "2026-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Seychelles: Regulatory Authority (AMRH, AUDA-NEPAD)",
+     "url": "https://amrh.nepad.org/amrh-countries/seychelles",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Data Protection Act, 2023 (Act 24 of 2023), Official Gazette",
+     "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+     "date": "2023-12-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Cabinet backs national artificial intelligence framework for education (Seychelles Nation)",
+     "url": "https://www.nation.sc/articles/31810/cabinet-backs-national-artificial-intelligence-framework-for-education",
+     "date": "2026-08-07",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "connected",
+  "hospital": "connected",
+  "labs": "connected",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "Per the 2026 Budget, eHIS links public facilities on all three islands with lab, pharmacy and imaging modules. These are government claims; usage figures, community pharmacy and private clinic links were not verified.",
+ "laws": [
+  {
+   "name": "Data Protection Act, 2023 (Act 24 of 2023)",
+   "level": "National",
+   "year": "2023",
+   "what": "Health is sensitive data; free access and portability; recipient list on request; 72-hour breach notice.",
+   "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf"
+  },
+  {
+   "name": "Access to Information Act, 2018",
+   "level": "National",
+   "year": "2018",
+   "what": "Sets up the Information Commission, which also enforces the Data Protection Act 2023.",
+   "url": "https://www.infocom.sc/wp-content/uploads/Annual-Report-2025.pdf"
+  },
+  {
+   "name": "Health Care Agency (Repeal) Bill, 2026 (passed March 2026)",
+   "level": "National",
+   "year": "2026",
+   "what": "Dissolves the Health Care Agency; its records and databases pass to the Ministry, with confidentiality duties kept.",
+   "url": "https://www.gazette.sc/sites/default/files/2026-02/Bill%20No.%203%20-%20Health%20Care%20Agency%20%28Repeal%29%20Bill%202026.pdf"
+  },
+  {
+   "name": "Good Medical and Dental Practice guidelines (Seychelles Medical and Dental Council)",
+   "level": "National",
+   "year": "2025",
+   "what": "Doctors must keep records confidential and share them only with consent or when legally required.",
+   "url": "https://smdcseychelles.org/wp-content/uploads/Good-Medical-and-Dental-Practice.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-15",
+   "headline": "Public and private health workers discuss electronic records and telemedicine",
+   "source": "The Seychelles Times",
+   "url": "https://theseychellestimes.com/2025/11/15/medical-professionals-discuss-technology-and-innovation-in-seychelles-healthcare/",
+   "why": "Public and private providers discussed shared electronic records; a link between them is not verified."
+  },
+  {
+   "date": "2026-03-26",
+   "headline": "National Assembly passes bill dissolving the Health Care Agency",
+   "source": "Seychelles Nation",
+   "url": "https://nation.sc/articles/30004/national-assembly-approves-health-care-agency-repeal-bill-2026",
+   "why": "Under the bill, patient records held by the Agency pass to the Ministry of Health."
+  },
+  {
+   "date": "2026-07-21",
+   "headline": "Health Ministry launches reform programme as electronic health system rollout continues",
+   "source": "The Seychelles Times",
+   "url": "https://theseychellestimes.com/2026/07/21/ministry-health-new-era-of-care/",
+   "why": "Digital modernisation is a reform pillar; a digital health maturity assessment is under way."
+  },
+  {
+   "date": "2026-07-23",
+   "headline": "Government asks National Assembly to approve joining the Budapest cybercrime convention",
+   "source": "The Seychelles Times",
+   "url": "https://theseychellestimes.com/2026/07/23/budapest-cybercrime-accession/",
+   "why": "Widens cross-border police access to electronic evidence, which can include health data."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

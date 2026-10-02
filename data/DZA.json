@@ -1,0 +1,352 @@
+{
+ "iso3": "DZA",
+ "name": "Algeria",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Algeria is rolling out a national electronic record tied to the national ID, but patients get no sharing choices and no portal yet.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Law 18-07 gives a right to a copy of one's data, requested provider by provider, and the controller may ask the regulator for longer reply times. The ministry's citizen app to view the record and test results is announced, not live.",
+   "detail": [
+    "Article 34 of Law 18-07 lets a person obtain confirmation of processing and a copy of their data in intelligible form, with any information on its source.",
+    "No fixed reply deadline is set for access: the controller can ask the national authority for response times. Whether access is free was not verified; only rectification is stated to be free, within 10 days.",
+    "The 2018 health law gives every person a right to be informed about their health and care, but no explicit right to a copy of the chart was found in it.",
+    "In July 2026 the ministry said it is building an official app to show citizens their electronic record and test results. The CNAS El Hanaa app covers insurance tasks, not clinical records."
+   ],
+   "sources": [
+    {
+     "title": "Law 18-07 of 10 June 2018 on personal data protection (Journal Officiel No. 34)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018034.pdf",
+     "date": "2018-06-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law 18-11 of 2 July 2018 on health (Journal Officiel No. 46)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018046.pdf",
+     "date": "2018-07-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Electronic medical record to be generalised nationally soon, 12 services for the national portal (Radio Algérienne)",
+     "url": "http://news.radioalgerie.dz/ar/node/90382",
+     "date": "2026-07-14",
+     "publisherClass": "news"
+    },
+    {
+     "title": "EL HANAA app of CNAS (Google Play listing)",
+     "url": "https://play.google.com/store/apps/details?id=dz.cnas.mobile_elhanaa&hl=fr",
+     "date": "2025-07-17",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 25,
+   "summary": "The new national electronic record links each patient by national ID and lets authorised professionals anywhere in the country see it. No patient opt-out, consent setting or patient-visible access log was found.",
+   "detail": [
+    "Law 18-11 requires every patient to have a single national medical record, and requires public and private facilities to keep a computerised one and join the national health information system.",
+    "The right to object in Article 36 of Law 18-07 does not apply when processing meets a legal obligation, which covers the mandated record.",
+    "Law 25-11 requires controllers to keep an automated log of processing operations, but its use is limited to legality checks, internal control, security and criminal procedure. It is not a patient-facing access log.",
+    "Reports on the rollout describe access by professionals \"with the required authorisations\", with no patient controls described."
+   ],
+   "sources": [
+    {
+     "title": "Law 18-11 of 2 July 2018 on health (Journal Officiel No. 46)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018046.pdf",
+     "date": "2018-07-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law 18-07 of 10 June 2018 on personal data protection (Journal Officiel No. 34)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018034.pdf",
+     "date": "2018-06-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law 25-11 of 24 July 2025 amending Law 18-07 (Journal Officiel No. 48, copy hosted by CNA)",
+     "url": "https://cna.dz/wp-content/uploads/2025/07/Loi-n%C2%B025-11.pdf",
+     "date": "2025-07-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Algeria deploys the patient's electronic medical record (L'Algérie Aujourd'hui)",
+     "url": "https://lalgerieaujourdhui.dz/lalgerie-deploie-le-dossier-medical-electronique-du-patient/",
+     "date": "2026-07-27",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is sensitive data under Law 18-07, refusing access rights can bring up to two years in prison, and an independent authority sits under the Presidency. With no health-sector enforcement or general breach-notice duty verified, it sits at the floor of the general-law band.",
+   "detail": [
+    "Article 18 bans processing sensitive data, including health and genetic data, except with express consent, a legal basis, vital interest or the authority's permission.",
+    "The ANPDP was created under the President of the Republic with financial and administrative autonomy. It can warn, suspend and fine, and its rules on video surveillance (March 2026) show it is active.",
+    "Law 25-11 adds a mandatory data protection officer and records of processing. Its 5-day breach notice sits in the new law-enforcement title; a general breach duty was not verified.",
+    "Transfers abroad need the authority's approval. Algeria has no EU adequacy decision, and the EU's EHDS does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Law 18-07 of 10 June 2018 on personal data protection (Journal Officiel No. 34)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018034.pdf",
+     "date": "2018-06-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law 25-11 of 24 July 2025 amending Law 18-07 (Journal Officiel No. 48, copy hosted by CNA)",
+     "url": "https://cna.dz/wp-content/uploads/2025/07/Loi-n%C2%B025-11.pdf",
+     "date": "2025-07-24",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Video surveillance and data protection: the ANPDP sets new rules (Horizons)",
+     "url": "https://www.horizons.dz/2026/03/horizons-dz-nation-videosurveillance-et-protection-des-donnees-lanpdp-fixe-de-nouvelles-regles/",
+     "date": "2026-03-11",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 40,
+   "summary": "Automated marketing by email, phone or fax needs prior consent, people may object to commercial prospecting, and sensitive data cannot be processed without a legal ground. No rules on health data brokers or sale of de-identified data were found.",
+   "detail": [
+    "Article 37 of Law 18-07 bans direct marketing by automated means without prior consent, with a narrow exception for existing customers who get a free way to refuse.",
+    "Article 36 gives a right to object to use of one's data for prospecting, notably commercial.",
+    "Sending data abroad without authorisation carries one to five years in prison and fines up to DZD 1,000,000.",
+    "In July 2026 a ministry official warned citizens against unofficial health apps that ask for their health data. No specific rule for such apps was found."
+   ],
+   "sources": [
+    {
+     "title": "Law 18-07 of 10 June 2018 on personal data protection (Journal Officiel No. 34)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018034.pdf",
+     "date": "2018-06-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Electronic medical record to be generalised nationally soon, 12 services for the national portal (Radio Algérienne)",
+     "url": "http://news.radioalgerie.dz/ar/node/90382",
+     "date": "2026-07-14",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 32,
+   "summary": "Insurance claims are linked through the CNAS Chifa smart card used by doctors, pharmacists and labs. The national electronic record started rolling out in July 2026 in 10 pilot wilayas, with a 15 November 2026 deadline for all facilities.",
+   "detail": [
+    "The Chifa card carries entitlements, emergency and chronic illness data, and lets providers create and send signed electronic claims to CNAS. Pharmacies use it for third-party payment.",
+    "The ministry launched the national rollout on 25 July 2026, selecting over 200 trainers in 10 pilot wilayas, aiming at 69 wilayas and over 2,500 facilities.",
+    "The health minister set 15 November 2026 as a deadline for all facilities to activate the system, with weekly progress reports.",
+    "A framework agreement will connect 2,599 health facilities by fibre. Electronic prescribing was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Carte CHIFA (CNAS)",
+     "url": "https://cnas.dz/fr/chifa/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Algeria deploys the patient's electronic medical record (L'Algérie Aujourd'hui)",
+     "url": "https://lalgerieaujourdhui.dz/lalgerie-deploie-le-dossier-medical-electronique-du-patient/",
+     "date": "2026-07-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Electronic medical record: digitisation by 15 November 2026 (Horizons)",
+     "url": "https://www.horizons.dz/2026/09/dossier-medical-electronique-numerisation-dici-le-15-novembre-2026/",
+     "date": "2026-09",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ait Messaoudene on building a complete digital health system (ENTV)",
+     "url": "http://www.entv.dz/ar/news/%D8%A2%D9%8A%D8%AA-%D9%85%D8%B3%D8%B9%D9%88%D8%AF%D8%A7%D9%86-%D9%8A%D8%A4%D9%83%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D8%AC%D8%B3%D9%8A%D8%AF-%D8%B1%D8%A4%D9%8A%D8%A9-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%B5%D8%AD%D9%8A%D8%A9-%D8%B1%D9%82%D9%85%D9%8A%D8%A9-%D8%B4%D8%A7%D9%85%D9%84%D8%A9",
+     "date": "2026-02-17",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 30,
+   "summary": "The new record is designed so authorised clinicians anywhere can look up a patient by national ID or ID card. Until rollout finishes, past the 15 November 2026 deadline, most clinicians still work from separate facility records.",
+   "detail": [
+    "Law 18-11 requires a single national medical record per patient, with details left to regulation.",
+    "The record is to hold medical history, examinations, treatments and blood group, according to the rollout report.",
+    "The first phase digitised emergency departments, with patient check-in, queues and triage.",
+    "Actual share of facilities live on the system was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Law 18-11 of 2 July 2018 on health (Journal Officiel No. 46)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018046.pdf",
+     "date": "2018-07-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Algeria deploys the patient's electronic medical record (L'Algérie Aujourd'hui)",
+     "url": "https://lalgerieaujourdhui.dz/lalgerie-deploie-le-dossier-medical-electronique-du-patient/",
+     "date": "2026-07-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Electronic medical record to be generalised nationally soon, 12 services for the national portal (Radio Algérienne)",
+     "url": "http://news.radioalgerie.dz/ar/node/90382",
+     "date": "2026-07-14",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Electronic medical record: digitisation by 15 November 2026 (Horizons)",
+     "url": "https://www.horizons.dz/2026/09/dossier-medical-electronique-numerisation-dici-le-15-novembre-2026/",
+     "date": "2026-09",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Health research using personal data needs ANPDP authorisation and clinical studies need written, withdrawable consent. There is no general opt-out from secondary use, and no public register of uses was found.",
+   "detail": [
+    "Article 21 of Law 18-07 makes processing for public-interest health research subject to authorisation by the national authority.",
+    "Law 18-11 requires free, express, informed written consent for clinical studies, limited to that study and revocable at any time, plus ministry authorisation.",
+    "Facilities must send data for epidemiological surveys and health statistics, without consent.",
+    "Score: base 40, plus 3 for the permit body and 3 for criminal penalties for misuse."
+   ],
+   "sources": [
+    {
+     "title": "Law 18-07 of 10 June 2018 on personal data protection (Journal Officiel No. 34)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018034.pdf",
+     "date": "2018-06-10",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Law 18-11 of 2 July 2018 on health (Journal Officiel No. 46)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018046.pdf",
+     "date": "2018-07-29",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "Under the 2018 health law, software built into a medical device is covered and devices need ANPP approval, but no rules for standalone or AI software on validation, change control or oversight were found. A national AI strategy is only now being put into practice.",
+   "detail": [
+    "Article 212 of Law 18-11 includes accessories and software involved in a device's functioning in the definition of a medical device; Article 230 requires approval by the national pharmaceutical products agency before marketing.",
+    "The ANPP list of device texts holds 2021 orders on approval files and changes, none on AI.",
+    "An interministerial commission to carry out the AI strategy was installed on 5 August 2026.",
+    "The ministry plans AI-assisted remote imaging; rules for it were not found."
+   ],
+   "sources": [
+    {
+     "title": "Law 18-11 of 2 July 2018 on health (Journal Officiel No. 46)",
+     "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018046.pdf",
+     "date": "2018-07-29",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Regulatory texts on medical devices (ANPP)",
+     "url": "https://anpp.dz/fr/textes-reglementaires-dm/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "AI strategy in Algeria: an interministerial commission installed (Horizons)",
+     "url": "https://www.horizons.dz/2026/08/strategie-de-lia-en-algerie-une-commission-interministerielle-installee/",
+     "date": "2026-08-05",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ait Messaoudene on building a complete digital health system (ENTV)",
+     "url": "http://www.entv.dz/ar/news/%D8%A2%D9%8A%D8%AA-%D9%85%D8%B3%D8%B9%D9%88%D8%AF%D8%A7%D9%86-%D9%8A%D8%A4%D9%83%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D8%AC%D8%B3%D9%8A%D8%AF-%D8%B1%D8%A4%D9%8A%D8%A9-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%B5%D8%AD%D9%8A%D8%A9-%D8%B1%D9%82%D9%85%D9%8A%D8%A9-%D8%B4%D8%A7%D9%85%D9%84%D8%A9",
+     "date": "2026-02-17",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "partial",
+  "claims": "connected",
+  "publicHealth": "unknown",
+  "research": "siloed"
+ },
+ "journeyNote": "Chifa links providers, pharmacies and labs to CNAS for claims. A national record keyed to the national ID is rolling out to hospitals and clinics through November 2026. E-prescribing and research linkage were not verified.",
+ "laws": [
+  {
+   "name": "Law 18-07 on protection of natural persons in personal data processing",
+   "level": "National",
+   "year": "2018",
+   "what": "Health is sensitive data; access, objection rights; ANPDP created; prison and fines.",
+   "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018034.pdf"
+  },
+  {
+   "name": "Law 25-11 amending Law 18-07",
+   "level": "National",
+   "year": "2025",
+   "what": "Adds DPO, processing records, automated logs, pseudonymisation, and a law-enforcement data title.",
+   "url": "https://cna.dz/wp-content/uploads/2025/07/Loi-n%C2%B025-11.pdf"
+  },
+  {
+   "name": "Law 18-11 on health",
+   "level": "National",
+   "year": "2018",
+   "what": "Medical secrecy, single national medical record, national health information system, clinical study consent.",
+   "url": "https://www.joradp.dz/FTP/jo-francais/2018/F2018046.pdf"
+  },
+  {
+   "name": "Orders on medical device approval (ANPP)",
+   "level": "National",
+   "year": "2021",
+   "what": "Approval files and changes to approval decisions for medical devices.",
+   "url": "https://anpp.dz/fr/textes-reglementaires-dm/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-29",
+   "headline": "Health minister opens training week on health data protection with ANPDP",
+   "source": "El Massa",
+   "url": "https://www.el-massa.com/dz/%D8%A7%D9%84%D8%AD%D8%AF%D8%AB/%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D8%A3%D9%88%D9%84%D9%88%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D9%84%D9%84%D8%AF%D9%88%D9%84%D8%A9",
+   "why": "Health staff are being trained on data protection before records go digital."
+  },
+  {
+   "date": "2026-07-14",
+   "headline": "Ministry says national e-record coming, citizen app to show results planned",
+   "source": "Radio Algérienne",
+   "url": "http://news.radioalgerie.dz/ar/node/90382",
+   "why": "Patients may later see their own record and test results."
+  },
+  {
+   "date": "2026-07-27",
+   "headline": "National rollout of electronic medical record launched in 10 pilot wilayas",
+   "source": "L'Algérie Aujourd'hui",
+   "url": "https://lalgerieaujourdhui.dz/lalgerie-deploie-le-dossier-medical-electronique-du-patient/",
+   "why": "One record per patient, visible to authorised clinicians nationwide."
+  },
+  {
+   "date": "2026-08-05",
+   "headline": "Interministerial commission installed to carry out national AI strategy",
+   "source": "Horizons",
+   "url": "https://www.horizons.dz/2026/08/strategie-de-lia-en-algerie-une-commission-interministerielle-installee/",
+   "why": "Sets who will shape AI rules, including in health."
+  },
+  {
+   "date": "2026-09",
+   "headline": "Minister sets 15 November 2026 deadline for electronic records in all facilities",
+   "source": "Horizons",
+   "url": "https://www.horizons.dz/2026/09/dossier-medical-electronique-numerisation-dici-le-15-novembre-2026/",
+   "why": "Fast rollout, with no patient consent controls described."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

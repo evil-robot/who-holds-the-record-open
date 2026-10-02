@@ -1,0 +1,325 @@
+{
+ "iso3": "TZA",
+ "name": "Tanzania",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "Electronic records now cover every referral hospital, but patients get only a description of their data and no say over sharing.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Section 33 of the Personal Data Protection Act gives a right to be told what data is held and why, not clearly a copy of the record. There is no deadline for answering and no national patient portal.",
+   "detail": [
+    "Section 33 of the Personal Data Protection Act, 2022 lets a person ask whether a data controller processes their data and get a description of the data, its purposes and its recipients. The text we read does not spell out a right to a full copy of the medical record. A copy right is not verified.",
+    "The 2023 Collection and Processing Regulations set procedures for blocking, correcting and erasing data, but we found no procedure, fee rule or deadline for access requests.",
+    "We found no national portal where patients see their own record. Aga Khan Health Service, a private network, said in January 2026 that its patients can see results and appointments through a patient portal. That covers one network only."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act, 2022 (English translation, GN 395B of 2023), ss. 3, 25, 27, 30, 33, 35, 58, 60",
+     "url": "https://pdpc.go.tz/documents/3/PERSONAL_DATA_PROTECTION_ACT_2022.pdf",
+     "date": "2023-06-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Personal Data Protection (Personal Data Collection and Processing) Regulations, 2023 (GN 449C)",
+     "url": "https://www.mawasiliano.go.tz/uploads/documents/sw-1691159153-GN%20NO.%20449C%20OF%202023.pdf",
+     "date": "2023",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Aga Khan rolls out electronic patient records (The Citizen)",
+     "url": "https://www.thecitizen.co.tz/tanzania/business/aga-khan-rolls-out-electronic-patient-records--5321008",
+     "date": "2026-01-09",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "The law requires prior written consent to process health data, but it exempts processing for medical care under a health professional. Records move between referral hospitals through national systems, with no patient opt-out or access log found.",
+   "detail": [
+    "Health data is sensitive personal data under section 3. Section 30 requires prior written consent, but exempts processing for medical reasons under a health professional's supervision and processing needed to comply with other laws.",
+    "The Ministry of Health says the Health Data Universal system links electronic records across all tertiary hospitals to support referrals. We found no option for a patient to refuse this sharing.",
+    "We found no tool that shows a patient who opened their record. A March 2026 report said staff at several public hospitals share logins, which makes access impossible to track.",
+    "Section 34 lets a person ask a controller to stop processing that is likely to cause substantial damage. That is a narrow right, not a sharing opt-out."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act, 2022 (English translation, GN 395B of 2023), ss. 3, 25, 27, 30, 33, 35, 58, 60",
+     "url": "https://pdpc.go.tz/documents/3/PERSONAL_DATA_PROTECTION_ACT_2022.pdf",
+     "date": "2023-06-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ministry of Health, Annual Health Sector Performance Profile 2024, chapter 14 (ICT)",
+     "url": "https://www.moh.go.tz/storage/app/uploads/public/698/337/ef7/698337ef72583788742967.pdf",
+     "date": "2025-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Hospitals at risk as Tanzania adopts AI without proper cyber safeguards (The Citizen)",
+     "url": "https://www.thecitizen.co.tz/tanzania/news/national/hospitals-at-risk-as-tanzania-adopts-ai-without-proper-cyber-safeguards-5389622",
+     "date": "2026-03-13",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Health data is sensitive under the 2022 Act, and full enforcement began on 9 April 2026, with court fines up to TZS 5 billion. Breaches go to the regulator only, patients need not be told, and health-sector enforcement was not found.",
+   "detail": [
+    "The Personal Data Protection Commission warned in March 2026 that registration would close on 8 April and enforcement would start on 9 April. On conviction, companies face fines from TZS 1 million to 5 billion; individuals up to TZS 20 million or 10 years in prison. DLA Piper puts the regulator's own penalty ceiling at TZS 100 million.",
+    "Section 27(5) requires notice to the Commission 'without undue delay'. Clyde & Co notes there is no fixed hour limit and no duty to tell affected people.",
+    "Section 58 allows exemptions for national security, public interest, crime prevention, tax and vetting. A March 2026 report said many facilities lack encryption and backup plans and that enforcement is weak. We found no Commission decision about a health provider.",
+    "Transfers abroad need a Commission permit. Tanzania is not on the EU adequacy list, and the European Health Data Space does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act, 2022 (English translation, GN 395B of 2023), ss. 3, 25, 27, 30, 33, 35, 58, 60",
+     "url": "https://pdpc.go.tz/documents/3/PERSONAL_DATA_PROTECTION_ACT_2022.pdf",
+     "date": "2023-06-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Notification obligations arising from personal data breaches in Tanzania (Clyde & Co)",
+     "url": "https://www.clydeco.com/en/insights/2026/02/notification-obligations-arising-from-personal-dat",
+     "date": "2026-02-09",
+     "publisherClass": "law_firm"
+    },
+    {
+     "title": "PDPC issues final warning ahead of Data Protection compliance deadline (The Respondent)",
+     "url": "https://www.therespondents.co.tz/2026/03/pdpc-issues-final-warning-ahead-of-data.html",
+     "date": "2026-03-26",
+     "publisherClass": "news"
+    },
+    {
+     "title": "European Commission, Adequacy decisions",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "A person can tell a controller to stop direct marketing, and offering unlawfully obtained data for sale is a crime. We found no specific rules for health apps, data brokers or sale of de-identified health data.",
+   "detail": [
+    "Section 35 lets a person require a controller to stop using their data for direct marketing. The same section lets a person agree to let a controller use their data for money.",
+    "Section 60 makes it an offence to offer for sale personal data obtained without authority. DLA Piper reports that the regulations let a person demand erasure when data is used commercially against their wishes.",
+    "Sensitive data, including health data, needs prior written consent. We found no rules aimed at consumer health apps, brokers or trading in de-identified health data."
+   ],
+   "sources": [
+    {
+     "title": "Personal Data Protection Act, 2022 (English translation, GN 395B of 2023), ss. 3, 25, 27, 30, 33, 35, 58, 60",
+     "url": "https://pdpc.go.tz/documents/3/PERSONAL_DATA_PROTECTION_ACT_2022.pdf",
+     "date": "2023-06-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data protection laws in Tanzania (DLA Piper)",
+     "url": "https://www.dlapiperdataprotection.com/?c=TZ&t=law",
+     "date": "2026-03-24",
+     "publisherClass": "law_firm"
+    }
+   ]
+  },
+  "journey": {
+   "score": 48,
+   "summary": "Ministry figures for 2024 show electronic records in all national, specialised, zonal and regional referral hospitals and 67.64% of dispensaries, with 36 systems exchanging data. Linking primary care to the referral record was still in progress.",
+   "detail": [
+    "The 2024 sector profile reports EMR coverage of 100% in national, specialised, zonal and regional referral hospitals, 98.93% in district hospitals, 86.66% in health centres and 67.64% in dispensaries. It says 36 systems communicate, with 106 use cases.",
+    "Health Data Universal links tertiary hospitals. The ministry said it was working to connect primary care through a Health Data Wallet.",
+    "In May 2026 the ministry's communication head wrote that more than 45 systems are integrated, letting nearly 220 facilities communicate. In September 2026 Deputy Health Minister Florence Samizi said GoTHOMIS connects about 7,700 facilities. Running a system is not the same as sharing records.",
+    "The insurance regulator TIRA says it is linking its systems with the ministry and insurance schemes under the Universal Health Insurance Act. That link is described as work in progress."
+   ],
+   "sources": [
+    {
+     "title": "Ministry of Health, Annual Health Sector Performance Profile 2024, chapter 14 (ICT)",
+     "url": "https://www.moh.go.tz/storage/app/uploads/public/698/337/ef7/698337ef72583788742967.pdf",
+     "date": "2025-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Tanzania accelerates digital health transformation to ensure inclusive, connected healthcare system (The Guardian, by the Ministry of Health communication head)",
+     "url": "https://ippmedia.co.tz/the-guardian/features/read/tanzania-accelerates-digital-health-transformation-to-ensure-inclusive-connected-healthcare-system-2026-05-21-140416",
+     "date": "2026-05-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Tanzania seeks funding to scale up digital health services (The Respondent)",
+     "url": "https://www.therespondents.co.tz/2026/09/tanzania-seeks-funding-to-scale-up.html",
+     "date": "2026-09-30",
+     "publisherClass": "news"
+    },
+    {
+     "title": "TIRA drives digital revolution in UHI (Daily News)",
+     "url": "https://dailynews.co.tz/tira-drives-digital-revolution-in-uhi/",
+     "date": "2026-03-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 40,
+   "summary": "A doctor at a referral hospital can open a referred patient's history through Health Data Universal, so paper files are no longer needed for those referrals. Most dispensaries and health centres are not yet on that shared record.",
+   "detail": [
+    "The ministry says Health Data Universal supports the referral chain and shares patient summaries between tertiary hospitals.",
+    "The ministry's May 2026 article says patients referred to referral hospitals no longer carry paper files and doctors see histories electronically. It gives nearly 220 connected facilities, a small share of the country's facilities.",
+    "We found no rules on emergency access or consent for clinician viewing beyond the medical care exemption in section 30 of the 2022 Act."
+   ],
+   "sources": [
+    {
+     "title": "Ministry of Health, Annual Health Sector Performance Profile 2024, chapter 14 (ICT)",
+     "url": "https://www.moh.go.tz/storage/app/uploads/public/698/337/ef7/698337ef72583788742967.pdf",
+     "date": "2025-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Tanzania accelerates digital health transformation to ensure inclusive, connected healthcare system (The Guardian, by the Ministry of Health communication head)",
+     "url": "https://ippmedia.co.tz/the-guardian/features/read/tanzania-accelerates-digital-health-transformation-to-ensure-inclusive-connected-healthcare-system-2026-05-21-140416",
+     "date": "2026-05-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "Health research needs institutional ethics approval, with national clearance for foreign collaborators. The 2022 Act lets health data be used for research without consent only under Commission guidelines, which we did not find, and there is no opt-out.",
+   "detail": [
+    "The National Institute for Medical Research says all health research needs institutional ethics approval, and studies with foreign collaborators also need national clearance from NatHREC and a COSTECH permit. Clinical trials go to a separate sub-committee and need a trial certificate.",
+    "Section 25 of the 2022 Act allows reuse of data for statistics or research if results do not identify people. Section 30 allows sensitive data use for research only where the Commission has issued guidelines. We did not find such guidelines; not verified.",
+    "No opt-out from research reuse was found. The safeguards that do exist are ethics and permit review before a study starts, and criminal penalties under section 60 for unlawful disclosure."
+   ],
+   "sources": [
+    {
+     "title": "NIMR, Health Research Regulations",
+     "url": "https://nimr.or.tz/health-research-regulations/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Personal Data Protection Act, 2022 (English translation, GN 395B of 2023), ss. 3, 25, 27, 30, 33, 35, 58, 60",
+     "url": "https://pdpc.go.tz/documents/3/PERSONAL_DATA_PROTECTION_ACT_2022.pdf",
+     "date": "2023-06-13",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 58,
+   "summary": "TMDA's 2024 device guidelines set rules for AI medical devices, including change notices, human-in-the-loop workflows and controls on continuous learning. We found no approved AI device and no health-AI regulator.",
+   "detail": [
+    "Section 3 of the TMDA compendium asks for training data sources, bias handling, model evaluation, a description of human intervention and version tracing. Changes to performance, data inputs, workflow or human oversight need a change notification.",
+    "The same section lists a 'Human Biomedical Research Act' and a 'Healthcare Services Act' as related laws. We could not match these names to Tanzanian statutes.",
+    "The e-Government Authority approved AI standards for public institutions on 31 August 2026, covering human oversight and generative AI. They are not specific to clinical care.",
+    "In July 2026 a deputy permanent secretary called for health AI to be approved by authorities and for health data to stay in Tanzania. A doctor called for a dedicated health AI regulator."
+   ],
+   "sources": [
+    {
+     "title": "TMDA, Compendium of Guidelines for Marketing Authorization of Medical Devices, Diagnostics and Laboratory Equipment, section 3 (AI-MD)",
+     "url": "https://www.tmda.go.tz/uploads/publications/en1755088789-Compendium%20of%20Guidelines%20for%20Marketing%20Authorization%20of%20Medical%20Devices,%20Diagnostics%20and%20Laboratory%20Equipment,%20June%202024.pdf",
+     "date": "2024-06",
+     "publisherClass": "official"
+    },
+    {
+     "title": "e-Government Authority, Standards and Guidelines for Responsible Use of AI in Public Institutions, v1.0",
+     "url": "https://www.ega.go.tz/uploads/standarddocuments/sw-1788520404-FINAL%20Standards%20and%20Guidelines%20for%20Artificial%20Intelligence%20(AI)%20in%20Public%20Institution_Signed%20(1).pdf",
+     "date": "2026-08-31",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Tanzania steps up AI drive in healthcare amid data privacy push (The Citizen)",
+     "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-steps-up-ai-drive-in-healthcare-amid-data-privacy-push-5542208",
+     "date": "2026-07-31",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "partial"
+ },
+ "journeyNote": "Every referral hospital and most district hospitals run electronic records, and Health Data Universal links tertiary hospitals. Primary care linking, lab and pharmacy exchange, and insurance claims integration were not confirmed at national scale.",
+ "laws": [
+  {
+   "name": "Personal Data Protection Act, 2022 (Cap. 44)",
+   "level": "National",
+   "year": "2022",
+   "what": "Health is sensitive data; consent rules; description-level access right; breach notice to PDPC; fines to TZS 5 billion.",
+   "url": "https://pdpc.go.tz/documents/3/PERSONAL_DATA_PROTECTION_ACT_2022.pdf"
+  },
+  {
+   "name": "Personal Data Protection (Personal Data Collection and Processing) Regulations, 2023",
+   "level": "National",
+   "year": "2023",
+   "what": "Registration, procedures to block, correct and erase data, transfer permits and impact assessments.",
+   "url": "https://www.mawasiliano.go.tz/uploads/documents/sw-1691159153-GN%20NO.%20449C%20OF%202023.pdf"
+  },
+  {
+   "name": "Universal Health Insurance Act, 2023 (Act No. 13)",
+   "level": "National",
+   "year": "2023",
+   "what": "Makes health insurance universal; TIRA regulates schemes. In force 16 August 2024 per Daily News.",
+   "url": "https://www.moh.go.tz/storage/app/uploads/public/656/de7/1aa/656de71aae4fb340630686.pdf"
+  },
+  {
+   "name": "TMDA Compendium of Guidelines for Marketing Authorization of Medical Devices",
+   "level": "National",
+   "year": "2024",
+   "what": "Registration rules for medical devices, including AI devices, change notification and continuous learning controls.",
+   "url": "https://www.tmda.go.tz/uploads/publications/en1755088789-Compendium%20of%20Guidelines%20for%20Marketing%20Authorization%20of%20Medical%20Devices,%20Diagnostics%20and%20Laboratory%20Equipment,%20June%202024.pdf"
+  },
+  {
+   "name": "eGA Standards and Guidelines for Responsible Use of AI in Public Institutions",
+   "level": "National",
+   "year": "2026",
+   "what": "Public-sector AI governance: human oversight, risk assessment, prohibited uses and generative AI rules.",
+   "url": "https://www.ega.go.tz/uploads/standarddocuments/sw-1788520404-FINAL%20Standards%20and%20Guidelines%20for%20Artificial%20Intelligence%20(AI)%20in%20Public%20Institution_Signed%20(1).pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-09",
+   "headline": "Aga Khan Health Service links its Tanzania facilities on one electronic record",
+   "source": "The Citizen",
+   "url": "https://www.thecitizen.co.tz/tanzania/business/aga-khan-rolls-out-electronic-patient-records--5321008",
+   "why": "A private network gives patients a portal for results while the public system has none."
+  },
+  {
+   "date": "2026-03-13",
+   "headline": "Experts warn public hospitals lack basic cyber safeguards as AI arrives",
+   "source": "The Citizen",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/hospitals-at-risk-as-tanzania-adopts-ai-without-proper-cyber-safeguards-5389622",
+   "why": "Shared logins and missing backups put patient records at risk."
+  },
+  {
+   "date": "2026-03-26",
+   "headline": "Data protection regulator sets 9 April start for full enforcement",
+   "source": "The Respondent",
+   "url": "https://www.therespondents.co.tz/2026/03/pdpc-issues-final-warning-ahead-of-data.html",
+   "why": "Hospitals and insurers must register with the regulator or face fines."
+  },
+  {
+   "date": "2026-07-05",
+   "headline": "Tanzania says US health deal excludes specimen sharing; full text unpublished",
+   "source": "The Citizen",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-says-no-to-us-specimen-sharing-but-concerns-remain-5518462",
+   "why": "Patients cannot see what the $3.1 billion deal says about health data."
+  },
+  {
+   "date": "2026-07-31",
+   "headline": "Health ministry calls for local data storage and approval of health AI",
+   "source": "The Citizen",
+   "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-steps-up-ai-drive-in-healthcare-amid-data-privacy-push-5542208",
+   "why": "Signals coming rules on where health data sits and which AI tools are allowed."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,333 @@
+{
+  "iso3": "SMR",
+  "name": "San Marino",
+  "region": "Europe",
+  "controlModel": "Shared",
+  "headline": "Over 90% of San Marino residents hold an online record from the single public health service, but rules on sharing and secondary use stay general.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 70,
+      "summary": "Law 171/2018 gives a free right of access within one month, and the health secretariat says over 90% of citizens have an electronic health record (FSE). It shows reports, discharge letters, prescriptions and vaccinations, but full clinical notes and export were not verified.",
+      "detail": [
+        "Articles 12 and 15 of Law 171/2018 copy the GDPR: access requests are free and answered within one month, extendable by two months. Article 83 sends requests for the clinical record itself to Article 30 of Law 160/2011.",
+        "The FSE, run by the Istituto per la Sicurezza Sociale (ISS), shows outpatient and diagnostic reports, discharge letters, prescriptions, therapy plans, vaccinations, appointments and out-of-territory referrals. It is fed in real time. In June 2024 the ISS said it serves 26,000 patients a year, with 650,000 report views or downloads.",
+        "In December 2025 the Secretariat of State for Health said over 90% of citizens have an FSE. From 1 January 2026 lab results are no longer posted and are online only, with paper copies on request.",
+        "Activation needs an in-person visit to the ISS public office to sign a consent form. Whether full clinical notes or a machine-readable export are available was not verified, which keeps the score in the 60 to 75 band."
+      ],
+      "sources": [
+        {
+          "title": "Fascicolo Sanitario Elettronico (Istituto per la Sicurezza Sociale)",
+          "url": "https://fse.iss.sm/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Dal 1° gennaio 2026 i referti di laboratorio non arriveranno più per posta (Segreteria di Stato per la Sanità)",
+          "url": "https://www.sanita.sm/pub1/SanitaSM/dettaglio_notizia.html?idItem=2ecf1a4e-7cfb-4ae7-9fa2-9afe9c2ca52c",
+          "date": "2025-12-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Innovazione Digitale in sanità: presentata l'app del Fascicolo Sanitario (ISS)",
+          "url": "https://www.iss.sm/on-line/home/articolo49016573.html",
+          "date": "2024-06-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Legge 21 dicembre 2018 n.171, testo consolidato 2023 (Autorità Garante, unofficial consolidated text)",
+          "url": "https://garanteprivacy.sm/pub1/dam/jcr:5bfff8ec-b3d3-4c2b-8624-3f0ccfa26e6e/L171-2018%20%5B%20testo%20consolidato%202023%5D.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "control": {
+      "score": 55,
+      "summary": "Patients sign a consent form to open their FSE, and the ISS says every access is logged and can be checked by the owner. We found no way to hide documents or pick clinicians, so the score sits at the top of the 40 to 55 band.",
+      "detail": [
+        "The FSE starts only after the patient signs a data-processing consent form at the ISS public office. Parents see the records of minors in their household.",
+        "The FSE site states that every access to the data is recorded in detail and can be checked by the owner. We did not see the log screen itself.",
+        "The ISS privacy notice says care uses of health data need no consent, while the electronic health dossier, disease registries, research and online reports need specific consent 'if required'. Consent can be revoked by contacting the ISS.",
+        "We found no option to hide single documents or to choose clinicians one by one. That granular choice was not verified, so the 60 to 80 band does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Fascicolo Sanitario Elettronico (Istituto per la Sicurezza Sociale)",
+          "url": "https://fse.iss.sm/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "FSE FAQ: access to minors' records and access logging (ISS)",
+          "url": "https://fse.iss.sm/faq",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Informazioni sul trattamento dei dati personali, informativa completa (ISS)",
+          "url": "https://www.iss.sm/on-line/home/menudestra/documento49113769.html",
+          "date": "2019-11-04",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 52,
+      "summary": "Law 171/2018 mirrors the GDPR, with health as a special category, 72-hour breach notice and fines up to 10 million euros or 4% of turnover. We found no health-sector enforcement, and San Marino has no EU adequacy decision.",
+      "detail": [
+        "Law 171/2018 has a health-sector title (Articles 78 to 83) that binds public and private health bodies. Breaches must be reported to the Autorità Garante within 72 hours where possible (Article 34).",
+        "Fines reach 5 million euros or 2% of turnover for duty breaches, and 10 million euros or 4% for breaches of principles, consent and data-subject rights (Article 72).",
+        "The Garante's published decisions run from 2019 to 2024 and cover video surveillance, the right to be forgotten and minors. We found no published health decision, so the score rests on the general law.",
+        "San Marino ratified the modernised Council of Europe Convention 108+ in September 2023. It is not on the European Commission's adequacy list, unlike Andorra."
+      ],
+      "sources": [
+        {
+          "title": "Legge 21 dicembre 2018 n.171, testo consolidato 2023 (Autorità Garante, unofficial consolidated text)",
+          "url": "https://garanteprivacy.sm/pub1/dam/jcr:5bfff8ec-b3d3-4c2b-8624-3f0ccfa26e6e/L171-2018%20%5B%20testo%20consolidato%202023%5D.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Provvedimenti, Anno 2024 (Autorità Garante per la protezione dei dati personali)",
+          "url": "https://garanteprivacy.sm/pub1/garante/provvedimenti/anno-2024.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Decreto Consiliare 27 settembre 2023 n.136, ratifica del Protocollo di emendamento alla Convenzione 108",
+          "url": "https://garanteprivacy.sm/pub1/dam/jcr:cf291975-292f-42f5-a688-76e2b260623b/Decreto%20Consiliare%2027%20settembre%202023%20Ratifica%20Convenzione%20108+.pdf",
+          "date": "2023-09-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 50,
+      "summary": "Law 171/2018 requires a legal basis for health data and lets people object to direct marketing at any time. We found no rule on health apps, data brokers or sale of de-identified data, and the ISS itself contacts patients for donations and surveys on 'legitimate interest'.",
+      "detail": [
+        "Health data are a special category under Law 171/2018 and may be processed only on listed grounds. Article 21 gives an absolute right to object to direct marketing.",
+        "The ISS privacy notice says patient data may be used, on the basis of legitimate interest, to contact patients about events, awareness projects, donation appeals, surveys and research. Patients can stop this by emailing the ISS.",
+        "We found no San Marino rule specific to consumer health apps, data brokers, insurers' use of health data or the sale of de-identified health data."
+      ],
+      "sources": [
+        {
+          "title": "Legge 21 dicembre 2018 n.171, testo consolidato 2023 (Autorità Garante, unofficial consolidated text)",
+          "url": "https://garanteprivacy.sm/pub1/dam/jcr:5bfff8ec-b3d3-4c2b-8624-3f0ccfa26e6e/L171-2018%20%5B%20testo%20consolidato%202023%5D.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Informazioni sul trattamento dei dati personali, informativa completa (ISS)",
+          "url": "https://www.iss.sm/on-line/home/menudestra/documento49113769.html",
+          "date": "2019-11-04",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 56,
+      "summary": "One public body, the ISS, runs the hospital, health centres and lab, and its FSE pulls their documents together. Care bought in Italy shows only as authorised referrals, and no law setting up the FSE was found.",
+      "detail": [
+        "The ISS is both the insurer and the main provider. The FSE collects documents produced by ISS doctors and staff, and lab results have reached patients only through it since January 2026.",
+        "Since 12 January 2026 the FSE lists every referral, in San Marino and outside, with the approval status of out-of-territory care and an online refund request.",
+        "A technical fault outside the ISS stopped lab results loading for several days until 7 February 2026, and paper copies were posted in the meantime.",
+        "Results from Italian hospitals, private providers and research use are not shown as linked. We did not find a law or decree that sets up the FSE, so its legal base was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Innovazione Digitale in sanità: presentata l'app del Fascicolo Sanitario (ISS)",
+          "url": "https://www.iss.sm/on-line/home/articolo49016573.html",
+          "date": "2024-06-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Il Fascicolo Sanitario Elettronico si arricchisce di una nuova sezione dedicata alle Impegnative (ISS)",
+          "url": "https://fse.iss.sm/implementazione-FSE",
+          "date": "2025-12-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Dal 1° gennaio 2026 i referti di laboratorio non arriveranno più per posta (Segreteria di Stato per la Sanità)",
+          "url": "https://www.sanita.sm/pub1/SanitaSM/dettaglio_notizia.html?idItem=2ecf1a4e-7cfb-4ae7-9fa2-9afe9c2ca52c",
+          "date": "2025-12-11",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 48,
+      "summary": "Because ISS runs almost all public care, its clinicians likely share one system, but we found no official source on what a treating doctor can see. That key fact was not verified, so the score is in the lower half of the mixed band.",
+      "detail": [
+        "The FSE is built from documents produced by ISS doctors in the hospital and health centres, so the data exist in one institution.",
+        "The ISS privacy notice lists an electronic health dossier and sharing data with the family doctor among uses that need specific consent, but we found no page describing how clinicians use it.",
+        "Clinician access to records created in Italian hospitals, where many residents are sent for care, was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Informazioni sul trattamento dei dati personali, informativa completa (ISS)",
+          "url": "https://www.iss.sm/on-line/home/menudestra/documento49113769.html",
+          "date": "2019-11-04",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Fascicolo Sanitario Elettronico (Istituto per la Sicurezza Sociale)",
+          "url": "https://fse.iss.sm/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Health research without consent is allowed when an ethics committee approves it and the data protection authority authorises it, and impact assessments must be published. There is no general opt-out.",
+      "detail": [
+        "Under Article 108 of Law 171/2018 consent is not needed for medical research based on law with a published impact assessment, or where asking is impossible. Such projects need a favourable opinion from the ethics committee (CERS) and Garante authorisation.",
+        "Article 109 lets the Garante authorise reuse of special-category data, but not genetic data, with minimisation and pseudonymisation.",
+        "Law 39/2023 lets the bioethics committee authorise clinical, drug and epidemiological research. Law 122/2021 adopts good clinical practice, including written, signed and dated informed consent for trials.",
+        "Two safeguard classes (ethics and permit bodies, published impact assessments) lift the base of 40 to 46. No opt-out or public register of uses was found."
+      ],
+      "sources": [
+        {
+          "title": "Legge 21 dicembre 2018 n.171, testo consolidato 2023 (Autorità Garante, unofficial consolidated text)",
+          "url": "https://garanteprivacy.sm/pub1/dam/jcr:5bfff8ec-b3d3-4c2b-8624-3f0ccfa26e6e/L171-2018%20%5B%20testo%20consolidato%202023%5D.pdf",
+          "date": "2023",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Legge 3 marzo 2023 n.39, riforma del Comitato Sammarinese di Bioetica",
+          "url": "https://bioetica.sm/wp-content/uploads/2025/10/Riforma20Istituzione20comitato20bioetica20San20Marino202023.pdf",
+          "date": "2023-03-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Legge 30 giugno 2021 n.122, buona pratica clinica nelle sperimentazioni cliniche dei medicinali",
+          "url": "https://bioetica.sm/wp-content/uploads/2026/05/ALLEGATO-9_Legge-GCLP_30-giugno-2021-n.-122.pdf",
+          "date": "2021-06-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "San Marino is outside the EU and has no AI law. Its health authority admits a legal gap on medical devices and since March 2025 runs device vigilance by circular, modelled on the EU MDR and IVDR, which is guidance rather than law.",
+      "detail": [
+        "The Authority Sanitaria is the competent body for medical devices. Its Circular 1/2025, in force from 15 March 2025, cites a lack of national law on devices and adopts the EU MDR and IVDR framework for incident reporting.",
+        "The circular covers vigilance and incident reports. We found no rules on AI-specific change control, transparency or human oversight.",
+        "We found no national AI law or binding health-AI guidance. The EU AI Act does not apply, and the EU association agreement is awaiting signature."
+      ],
+      "sources": [
+        {
+          "title": "Circolare n.1/2025 sulla vigilanza dei dispositivi medici e IVD (Authority Sanitaria)",
+          "url": "https://www.gov.sm/pub1/GovSM/dam/jcr:b6ed6e0d-8952-4928-a796-f7edb1b8c8c7/Allegato%20Prot.13868_2025_CIRCOLARE_DISPOSITIVOVIGILANZA.pdf",
+          "date": "2025-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Dispositivi medici (Authority Sanitaria, GOV.SM)",
+          "url": "https://www.gov.sm/pub2/GovSM/Authority-Sanitaria/Dispositivi-medici.html",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "connected",
+    "pharmacy": "partial",
+    "claims": "partial",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "ISS hospital, health centre and lab documents feed one FSE. Prescriptions and referrals show there, and out-of-territory care shows only as authorised referrals. Italian hospital records, private providers and research links were not verified.",
+  "laws": [
+    {
+      "name": "Legge 21 dicembre 2018 n.171 (data protection)",
+      "level": "National",
+      "year": "2018",
+      "what": "GDPR-style law; health-sector title, 72-hour breach notice, fines up to 10 million euros or 4%.",
+      "url": "https://www.consigliograndeegenerale.sm/on-line/home/scheda17161069.html"
+    },
+    {
+      "name": "Legge 30 giugno 2021 n.122 (good clinical practice)",
+      "level": "National",
+      "year": "2021",
+      "what": "Adopts GCP and good clinical lab practice for drug trials, including written informed consent.",
+      "url": "https://bioetica.sm/wp-content/uploads/2026/05/ALLEGATO-9_Legge-GCLP_30-giugno-2021-n.-122.pdf"
+    },
+    {
+      "name": "Legge 3 marzo 2023 n.39 (bioethics committee reform)",
+      "level": "National",
+      "year": "2023",
+      "what": "Reforms the bioethics committee; it authorises clinical and epidemiological research, acting as the CERS.",
+      "url": "https://bioetica.sm/wp-content/uploads/2025/10/Riforma20Istituzione20comitato20bioetica20San20Marino202023.pdf"
+    },
+    {
+      "name": "Decreto Consiliare 27 settembre 2023 n.136 (Convention 108+)",
+      "level": "National",
+      "year": "2023",
+      "what": "Ratifies the protocol modernising Council of Europe Convention 108 on data protection.",
+      "url": "https://garanteprivacy.sm/pub1/dam/jcr:cf291975-292f-42f5-a688-76e2b260623b/Decreto%20Consiliare%2027%20settembre%202023%20Ratifica%20Convenzione%20108+.pdf"
+    },
+    {
+      "name": "Circolare n.1/2025, Authority Sanitaria (device vigilance)",
+      "level": "National",
+      "year": "2025",
+      "what": "Sets up medical device and IVD vigilance on the EU MDR and IVDR model, from 15 March 2025.",
+      "url": "https://www.gov.sm/pub1/GovSM/dam/jcr:b6ed6e0d-8952-4928-a796-f7edb1b8c8c7/Allegato%20Prot.13868_2025_CIRCOLARE_DISPOSITIVOVIGILANZA.pdf"
+    },
+    {
+      "name": "EU Association Agreement with Andorra and San Marino",
+      "level": "Supranational",
+      "year": "2026",
+      "what": "Internal-market association; EU Council authorised signature and provisional application in July 2026. Not yet signed.",
+      "url": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2026/07/accordo-di-associazione-ue-san-marino-litalia-accoglie-con-favore-il-via-libera-del-consiglio-dellunione-europea/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-12-11",
+      "headline": "ISS stops posting lab results; FSE becomes the only digital channel",
+      "source": "Segreteria di Stato per la Sanità",
+      "url": "https://www.sanita.sm/pub1/SanitaSM/dettaglio_notizia.html?idItem=2ecf1a4e-7cfb-4ae7-9fa2-9afe9c2ca52c",
+      "why": "Makes the online record the default way patients get results; over 90% already have one."
+    },
+    {
+      "date": "2025-12-31",
+      "headline": "FSE adds a referrals section with approval status for care abroad",
+      "source": "ISS",
+      "url": "https://fse.iss.sm/implementazione-FSE",
+      "why": "Patients can track out-of-territory care approvals and claim refunds online."
+    },
+    {
+      "date": "2026-02-10",
+      "headline": "Lab results restored to the FSE after an outside technical fault",
+      "source": "GiornaleSM",
+      "url": "https://giornalesm.com/san-marino-iss-fascicolo-sanitario-elettronico-ripristinata-la-disponibilita-dei-referti-di-laboratorio/",
+      "why": "Shows the risk of an online-only channel; paper copies were sent during the outage."
+    },
+    {
+      "date": "2026-07-16",
+      "headline": "EU Council clears signature of association agreement with San Marino and Andorra",
+      "source": "Ministero degli Affari Esteri (Italy)",
+      "url": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2026/07/accordo-di-associazione-ue-san-marino-litalia-accoglie-con-favore-il-via-libera-del-consiglio-dellunione-europea/",
+      "why": "Closer ties to EU single-market rules could later bring EU data and device law."
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "ISS leaders tell parliament committee of FSE upgrades and electronic signatures",
+      "source": "GiornaleSM",
+      "url": "https://giornalesm.com/san-marino-in-commissione-iv-audizione-vertici-iss-nuovi-centri-sanitari-digitalizzazione-e-abbattimento-delle-liste-dattesa/",
+      "why": "Signals more health services and bookings moving onto the digital record."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

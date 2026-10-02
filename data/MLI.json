@@ -1,0 +1,338 @@
+{
+ "iso3": "MLI",
+ "name": "Mali",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A 2013 law gives free access to your data, but hospital records sit in separate local systems and patients see them through a doctor.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "Law 2013-015 gives a free right to all your data and a copy, granted without delay. The hospital law lets inpatients see their medical file only through a doctor of their choice, and there is no patient portal.",
+   "detail": [
+    "Article 12 of Law 2013-015 lets anyone obtain all data held about them, in an understandable form, plus a copy on request. Access is free, on site or remotely, and the request must be met without delay.",
+    "Article 4 of the hospital law (Law 02-050, amended 2018) says a hospitalised patient obtains the information in their medical file through a doctor of their choice. At discharge they receive a sealed letter summarising the stay, diagnosis and prescriptions.",
+    "The 2008 patient charter (Arrêté 08-2716) repeats that the patient reaches their file through a doctor of their choice. We found no national portal or app that shows patients their record.",
+    "Score: base 45 for a statutory right with no portal, plus 5 because access is free and due without delay, minus 5 because hospital files are reached only through a doctor."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2013-015 du 21 mai 2013 portant protection des données à caractère personnel, Journal officiel n°26",
+     "url": "https://sgg-mali.ml/JO/2013/mali-jo-2013-26.pdf",
+     "date": "2013-06-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n°02-050 du 22 juillet 2002 portant loi hospitalière, modifiée par la loi n°2018-050 (version consolidée, SGG)",
+     "url": "https://sgg-mali.ml/autres-textes-consolides/mali-loi-2002-50-portant-loi-hospitaliere.pdf",
+     "date": "2019-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Arrêté n°08-2716/MS-SG du 6 octobre 2008 portant charte du malade dans les établissements hospitaliers (Ordre des Médecins du Mali)",
+     "url": "https://ordredesmedecins.ml/storage/resources/1702999047_Arrete08-2716_Chartedumalade.pdf",
+     "date": "2008-10-06",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "control": {
+   "score": 27,
+   "summary": "A doctor may open a patient's file held by another hospital only with the patient's agreement, though use in practice was not verified. There is no opt-out or access log, so 27, in the lower half of the 20 to 35 band.",
+   "detail": [
+    "Article 9 of Law 2013-015 bans processing sensitive data, including health data, except with safeguards set by the APDP regulator and in listed cases. The list names vital interest, non-profit membership bodies and legal claims. It does not name medical care.",
+    "Article 3 of the hospital law lets the prescribing doctor see a patient's hospital file. A doctor admitting a patient may see the file held by another hospital only with that patient's agreement.",
+    "Article 19 of the data law gives a right to object on legitimate grounds. The patient charter says consent to treatment is explicit and can be withdrawn at any time.",
+    "We found no system where patients set sharing choices and no access log they can read. Whether the consent rule for transfers is applied in practice was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2013-015 du 21 mai 2013 portant protection des données à caractère personnel, Journal officiel n°26",
+     "url": "https://sgg-mali.ml/JO/2013/mali-jo-2013-26.pdf",
+     "date": "2013-06-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n°02-050 du 22 juillet 2002 portant loi hospitalière, modifiée par la loi n°2018-050 (version consolidée, SGG)",
+     "url": "https://sgg-mali.ml/autres-textes-consolides/mali-loi-2002-50-portant-loi-hospitaliere.pdf",
+     "date": "2019-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Arrêté n°08-2716/MS-SG du 6 octobre 2008 portant charte du malade dans les établissements hospitaliers (Ordre des Médecins du Mali)",
+     "url": "https://ordredesmedecins.ml/storage/resources/1702999047_Arrete08-2716_Chartedumalade.pdf",
+     "date": "2008-10-06",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Health data is sensitive data under Law 2013-015, and in 2025 the APDP fined a Bamako clinic 5 million CFA francs for obstructing an inspection. Fines top out at 20 million CFA francs and the law has no breach notification duty.",
+   "detail": [
+    "Law 2013-015 defines health data and lists health among sensitive data, whose processing is banned except in listed cases. Transfers abroad need an adequacy finding or an APDP decision (Article 11).",
+    "Fines run from 5 to 20 million CFA francs for unlawful disclosure, purpose changes or obstruction (Article 65), and 2.5 to 10 million for weak security (Article 66). We found no duty to notify data breaches.",
+    "In August 2025 the APDP fined the Clinique médicale Koulakou in Bamako 5 million CFA francs for blocking an inspection of its CCTV system. In July and December 2025 it met doctors and pharmacists on patient data compliance.",
+    "The APDP is an independent authority by law, but some of its 15 members are named by the president and ministers, including the security minister. The digital health plan calls hosting health data outside Mali a major concern."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2013-015 du 21 mai 2013 portant protection des données à caractère personnel, Journal officiel n°26",
+     "url": "https://sgg-mali.ml/JO/2013/mali-jo-2013-26.pdf",
+     "date": "2013-06-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Mali : une clinique médicale condamnée au paiement de 5 millions de FCFA (Mali 24)",
+     "url": "https://mali24.info/mali-une-clinique-medicale-condamnee-au-paiement-de-5-millions-de-fcfa-pour-installation-illegale-dun-dispositif-de-videosurveillance/",
+     "date": "2025-08-05",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Visite de l'Ordre des Médecins du Mali à l'APDP (APDP)",
+     "url": "https://apdp.ml/posts/visite-de-lordre-des-medecins-du-mali-a-lapdp/",
+     "date": "2025-07-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Plan Stratégique National de Santé Numérique du Mali (PSNSN) 2024-2028, Ministère de la Santé et du Développement Social",
+     "url": "https://www.sante.gov.ml/article-download.php?article=153&slot=1",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "People must be told before their data is first passed to third parties for marketing and can object free of charge, and changing a data use without APDP approval is punishable. We found no rules on health apps, data brokers or de-identified health data.",
+   "detail": [
+    "Article 19 of Law 2013-015 gives a right to be informed before data is first shared with or used for third parties for prospecting, and to be told, free of charge, of the right to object.",
+    "Article 7 bars using data for purposes other than those it was collected for. Article 65 fines changing a data use without the APDP's express approval at 5 to 20 million CFA francs.",
+    "Health data falls under the general ban on processing sensitive data. We found no specific rule on selling health data, data brokers or consumer health apps, and no enforcement case on commercial use of health data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2013-015 du 21 mai 2013 portant protection des données à caractère personnel, Journal officiel n°26",
+     "url": "https://sgg-mali.ml/JO/2013/mali-jo-2013-26.pdf",
+     "date": "2013-06-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "APDP (Autorité de Protection des données à Caractère Personnel), text of Law 2013-015 (Primature)",
+     "url": "https://primature.ml/apdp-autorite-de-protection-des-donnees-a-caractere-personnel/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 27,
+   "summary": "The Health Ministry rates the interoperability of its information systems at level 2 of 5 (emergent), with at least four separate hospital systems in use. DHIS2 carries aggregate national reporting, and the insurer moved prior authorisations online in May 2026.",
+   "detail": [
+    "The 2024-2028 digital health plan reports an assessment validated in December 2022: overall interoperability maturity at level 2, 'emergent', with 1 of 5 for leadership and governance and 1 of 5 for technology.",
+    "The plan's June 2023 inventory lists DHIS2 for national aggregate reporting and separate hospital systems: OpenClinic in 50 facilities, Cinz@n in 19, HMS in 16 and Bilsam in one hospital. It sets a target of 75% of facilities using a harmonised, shared medical record.",
+    "In September 2025 the ministry said OpenClinic runs in several hospitals and will be linked to the national ID number (NINA) and compulsory health insurance (AMO).",
+    "In May 2026 the CANAM insurer launched 'AMO Anywhere', where scanned prescriptions and forms are sent online for prior authorisation."
+   ],
+   "sources": [
+    {
+     "title": "Plan Stratégique National de Santé Numérique du Mali (PSNSN) 2024-2028, Ministère de la Santé et du Développement Social",
+     "url": "https://www.sante.gov.ml/article-download.php?article=153&slot=1",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Digitalisation de la Santé : l'ANTIM présente OpenClinic devant le Comité chargé de la digitalisation de l'administration (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=109&catid=10&Itemid=105",
+     "date": "2025-09-24",
+     "publisherClass": "official"
+    },
+    {
+     "title": "CANAM : la digitalisation de l'accord préalable désormais en marche (Malijet)",
+     "url": "https://malijet.com/la_sante_au_mali/309433-canam--la-digitalisation-de-l%E2%80%99accord-prealable-desormais-en-ma.html",
+     "date": "2026-05-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 22,
+   "summary": "Doctors in hospitals running OpenClinic or similar software can open electronic files inside their own facility. There is no shared record across providers, and seeing another hospital's file requires the patient's agreement and a request to that hospital.",
+   "detail": [
+    "Article 3 of the hospital law lets a doctor admitting a patient see the medical file held by another public or private hospital, with the patient's agreement. Article 31 requires each hospital to keep a file for every patient for at least ten years.",
+    "The ministry says OpenClinic supports creating, storing and searching patient files, covering clinical, pharmacy and laboratory functions, in several hospitals. Other hospitals use different software.",
+    "The digital health plan says patient data must first be tied to a unique patient identifier before data can be shared. We found no national shared record or emergency access rule."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°02-050 du 22 juillet 2002 portant loi hospitalière, modifiée par la loi n°2018-050 (version consolidée, SGG)",
+     "url": "https://sgg-mali.ml/autres-textes-consolides/mali-loi-2002-50-portant-loi-hospitaliere.pdf",
+     "date": "2019-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Digitalisation de la Santé : l'ANTIM présente OpenClinic devant le Comité chargé de la digitalisation de l'administration (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=109&catid=10&Itemid=105",
+     "date": "2025-09-24",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Plan Stratégique National de Santé Numérique du Mali (PSNSN) 2024-2028, Ministère de la Santé et du Développement Social",
+     "url": "https://www.sante.gov.ml/article-download.php?article=153&slot=1",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "The patient charter lets patients refuse or withdraw from clinical research, the CNESS ethics committee reviews studies, and unlawful processing of health data for research carries fines. We found no general opt-out or public register of data uses, so 49.",
+   "detail": [
+    "Article 15 of the 2008 patient charter says patients must feel completely free to accept or refuse taking part in clinical research or teaching, and may withdraw at any time.",
+    "Decree 02-200 of 22 April 2002 created the national ethics committee for health and life sciences (CNESS). In August 2026 it cancelled an approval it gave in July 2026 to a survey on excision and ordered field work stopped.",
+    "Article 65 of Law 2013-015 fines processing named data for health research in breach of the law. A 2021 thesis reports that Law 09-059 of 2009 governs biomedical research with the pharmacy directorate (DPM); we did not open its text (not verified).",
+    "Score: base 40, plus 3 each for the ethics committee, the research misuse penalty and the consent route in the charter (49). Mali is not in the EU, so the European Health Data Space does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Décret N°02-200/P-RM du 22 avril 2002 portant création du Comité National d'Ethique pour la Santé et les Sciences de la vie (Ministère de la Santé)",
+     "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=325&catid=39&Itemid=132",
+     "date": "2002-04-22",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Arrêté n°08-2716/MS-SG du 6 octobre 2008 portant charte du malade dans les établissements hospitaliers (Ordre des Médecins du Mali)",
+     "url": "https://ordredesmedecins.ml/storage/resources/1702999047_Arrete08-2716_Chartedumalade.pdf",
+     "date": "2008-10-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Mali : le Comité national d'Éthique pour la Santé annule l'autorisation d'une enquête sur les opinions relatives à l'excision à Bamako (Malikonews)",
+     "url": "https://malikonews.com/mali-le-comite-national-dethique-pour-la-sante-annule-lautorisation-dune-enquete-sur-les-opinions-relatives-a-lexcision-a-bamako/",
+     "date": "2026-08-27",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Evolution de l'éthique de la recherche et des soins au Mali (thèse, FMOS, USTTB)",
+     "url": "https://bibliosante.ml/bitstream/handle/123456789/4594/21M44.pdf?sequence=1&isAllowed=y",
+     "date": "2021-05-19",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 22,
+   "summary": "We found no rules for AI in clinical care, and a 2025 study reports medical devices in Mali are not subject to marketing authorisation. The 2013 data law bars decisions based only on automated profiling and gives a right to the reasoning behind automated results.",
+   "detail": [
+    "Article 2 of Law 2013-015 says no decision with legal effects may rest solely on automated processing that profiles a person. Article 12 gives a right to the information and reasoning used in automated processing whose results are used against you.",
+    "A 2025 study of medical device rules in WAEMU countries, by authors including DPM staff, cites a 2021 study finding that medical devices in Mali are not subject to marketing authorisation.",
+    "The digital health plan mentions using AI to improve care but sets no rules. We found no national AI law or clinical AI guidance."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°2013-015 du 21 mai 2013 portant protection des données à caractère personnel, Journal officiel n°26",
+     "url": "https://sgg-mali.ml/JO/2013/mali-jo-2013-26.pdf",
+     "date": "2013-06-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Analyse du cadre légal et institutionnel des dispositifs médicaux dans les pays de l'UEMOA (Kaloga et al., vol. 4 no. 1)",
+     "url": "https://soapgi-jatpb.org/index.php/jatpb/article/download/215/46/1300",
+     "date": "2025-06-30",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Plan Stratégique National de Santé Numérique du Mali (PSNSN) 2024-2028, Ministère de la Santé et du Développement Social",
+     "url": "https://www.sante.gov.ml/article-download.php?article=153&slot=1",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "unknown",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "siloed"
+ },
+ "journeyNote": "DHIS2 gathers aggregate public health data nationally. Hospitals run separate systems (OpenClinic, Cinz@n, HMS) with no shared patient identifier yet. CANAM processes AMO claims and moved prior authorisations online in 2026. No national patient record exists.",
+ "laws": [
+  {
+   "name": "Loi n°2013-015 du 21 mai 2013 portant protection des données à caractère personnel",
+   "level": "National",
+   "year": "2013",
+   "what": "Free access right, health data as sensitive data, objection right, transfer rules, APDP powers and fines.",
+   "url": "https://sgg-mali.ml/JO/2013/mali-jo-2013-26.pdf"
+  },
+  {
+   "name": "Loi n°2017-070 du 18 décembre 2017 modifiant la loi n°2013-015",
+   "level": "National",
+   "year": "2017",
+   "what": "Amends APDP membership, oath of members and staff, and annual reporting.",
+   "url": "https://app.maathis.com/droit/mali/loi/2017-070-loi-n2017-070-18-decembre-2017-portant-modification-loi-n-2013-015-21-m"
+  },
+  {
+   "name": "Loi n°02-050 du 22 juillet 2002 portant loi hospitalière (modifiée par la loi n°2018-050)",
+   "level": "National",
+   "year": "2002",
+   "what": "Patient access to file through a doctor, consent for inter-hospital file access, secrecy, ten-year retention.",
+   "url": "https://sgg-mali.ml/autres-textes-consolides/mali-loi-2002-50-portant-loi-hospitaliere.pdf"
+  },
+  {
+   "name": "Arrêté n°08-2716/MS-SG portant charte du malade",
+   "level": "National",
+   "year": "2008",
+   "what": "Patient rights: information, revocable consent, confidentiality of files, free choice on clinical research.",
+   "url": "https://ordredesmedecins.ml/storage/resources/1702999047_Arrete08-2716_Chartedumalade.pdf"
+  },
+  {
+   "name": "Décret N°02-200/P-RM portant création du Comité National d'Ethique pour la Santé et les Sciences de la vie",
+   "level": "National",
+   "year": "2002",
+   "what": "Creates the national ethics committee (CNESS) that reviews health research.",
+   "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=325&catid=39&Itemid=132"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-24",
+   "headline": "Data regulator gives Kayes pharmacists a guide to handling patient data",
+   "source": "Mali Actu",
+   "url": "https://maliactu.net/protection-des-donnees-de-sante-lapdp-sensibilise-les-pharmaciens-de-kayes-a-la-conformite/",
+   "why": "Pharmacies hold prescriptions and medical files and now have a sector map of required safeguards."
+  },
+  {
+   "date": "2026-05-07",
+   "headline": "National insurer CANAM moves prior authorisation requests online",
+   "source": "Malijet",
+   "url": "https://malijet.com/la_sante_au_mali/309433-canam--la-digitalisation-de-l%E2%80%99accord-prealable-desormais-en-ma.html",
+   "why": "Prescriptions and test results now travel digitally to the insurer, adding a new store of health data."
+  },
+  {
+   "date": "2026-06-30",
+   "headline": "Health Ministry launches web portal with facility locator",
+   "source": "We Are Tech Africa",
+   "url": "https://www.wearetech.africa/fr/fils/actualites/tech/le-mali-se-dote-d-une-plateforme-de-services-de-sante-numerique",
+   "why": "The portal gives information and directions but does not show patients their own records."
+  },
+  {
+   "date": "2026-07-05",
+   "headline": "CANAM signs contracts handing universal insurance management to more bodies",
+   "source": "Bamada.net",
+   "url": "https://bamada.net/delegation-de-gestion-du-ramu-la-canam-et-les-organismes-delegues-franchissent-une-etape-decisive-vers-la-couverture-sanitaire-universelle",
+   "why": "More organisations will handle insured patients' claims data under the RAMU scheme."
+  },
+  {
+   "date": "2026-08-27",
+   "headline": "National ethics committee cancels approval of a survey on excision",
+   "source": "Malikonews",
+   "url": "https://malikonews.com/mali-le-comite-national-dethique-pour-la-sante-annule-lautorisation-dune-enquete-sur-les-opinions-relatives-a-lexcision-a-bamako/",
+   "why": "Shows the ethics committee can halt data collection after approval, citing local sensitivities."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

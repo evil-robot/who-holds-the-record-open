@@ -1,0 +1,293 @@
+{
+  "iso3": "VUT",
+  "name": "Vanuatu",
+  "region": "Oceania",
+  "controlModel": "Institutional",
+  "headline": "Vanuatu's 2025 data protection law gives patients a free copy of their data, but records are mostly paper and no regulator was verified as appointed.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 45,
+      "summary": "Since 2 January 2025, section 9 of the Data Protection and Privacy Act gives a free copy of personal data within one month. There is no patient portal, and the regulator who would enforce the right was not verified as appointed.",
+      "detail": [
+        "Section 9 of the Data Protection and Privacy Act No. 13 of 2024 lets a person get confirmation, a copy of their data, its source and its recipients, in writing, in plain language, free of charge and within one month. A fee is allowed only for excessive requests. The Act binds public and private bodies.",
+        "The Right to Information Act 2016 adds a route to records held by government agencies, with a 30-day decision deadline and a reproduction fee.",
+        "In practice the Ministry of Health's 2025 strategy says paper files are the master patient record, and some cannot be read or found because of damage or misfiling. No patient portal exists.",
+        "Anchor math: base 45, plus 5 for free access with a fixed deadline, minus 5 because the Deputy Commissioner who enforces the Act was not verified as appointed."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection and Privacy Act No. 13 of 2024 (Department of Communication and Digital Transformation)",
+          "url": "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf",
+          "date": "2024-12-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Right to Information Act No. 13 of 2016 (FAOLEX copy)",
+          "url": "https://faolex.fao.org/docs/pdf/van172667.pdf",
+          "date": "2016-12-20",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Vanuatu Digital Health Strategy 2025-2030 (Ministry of Health)",
+          "url": "https://moh.gov.vu/images/Reports/Vanuatu%20Digital%20Health%20Strategy_2025-2030.pdf",
+          "date": "2025",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 32,
+      "summary": "The 2024 Act lets health workers process health data for care without consent, and no opt-out from record sharing or patient-visible access log was found. A general right to object puts Vanuatu near the top of the 20 to 35 band.",
+      "detail": [
+        "Section 6 bans processing of health data, then allows it with consent or, subject to professional secrecy, for diagnosis, treatment and health service management. Care-related use therefore needs no consent.",
+        "Where consent is the basis, section 8 requires it per purpose, revocable at any time and free of charge. Section 12 lets a person object, unless the controller shows overriding legitimate grounds. Under section 10 a controller may restrict processing on request in set cases, such as contested accuracy.",
+        "No health-specific opt-out, granular sharing choice or patient access log was found. The Ministry's strategy says there is no health information policy or act."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection and Privacy Act No. 13 of 2024 (Department of Communication and Digital Transformation)",
+          "url": "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf",
+          "date": "2024-12-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Vanuatu Digital Health Strategy 2025-2030 (Ministry of Health)",
+          "url": "https://moh.gov.vu/images/Reports/Vanuatu%20Digital%20Health%20Strategy_2025-2030.pdf",
+          "date": "2025",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 45,
+      "summary": "Health data is a special category under a law in force since January 2025, with fines up to VT10,000,000. No breach notification rule, health-sector enforcement or appointed regulator was verified, so the score sits at the floor of the general-law band.",
+      "detail": [
+        "The Data Protection and Privacy Act lists health data as a special category and bans its processing outside listed grounds. Unlawful obtaining or disclosing of personal data carries fines up to VT10,000,000. Section 15 bars use of data collected in Vanuatu elsewhere without ministerial authorisation.",
+        "Breach notification is only a topic regulations may cover (section 31); no regulations were verified. The Deputy Commissioner of Data Protection and Privacy sits under the Digital Safety Authority Act 2024; an appointment was not verified.",
+        "The Ministry's strategy cites the November 2022 cyberattack on government systems and warns of privacy breaches due to missing health information legislation.",
+        "Vanuatu is not in the EU or EEA, so GDPR and the EHDS do not apply."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection and Privacy Act No. 13 of 2024 (Department of Communication and Digital Transformation)",
+          "url": "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf",
+          "date": "2024-12-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Safety Authority Act No. 15 of 2024 (Department of Communication and Digital Transformation)",
+          "url": "https://digital.gov.vu/images/legislation/Digital_Safety_Authority_Act_No15_of_2024-EN.pdf",
+          "date": "2024-12-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Vanuatu Digital Health Strategy 2025-2030 (Ministry of Health)",
+          "url": "https://moh.gov.vu/images/Reports/Vanuatu%20Digital%20Health%20Strategy_2025-2030.pdf",
+          "date": "2025",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 35,
+      "summary": "Private firms need consent or another listed ground to process health data, and no commercial ground exists for special categories. There is no specific ban on selling health data or health-app marketing, and no enforcement record.",
+      "detail": [
+        "The 2024 Act applies to the private sector and to foreign firms offering goods or services to people in Vanuatu (section 2).",
+        "For ordinary data, section 5 allows processing for legitimate interests, which section 1 defines to include commercial interests. For health data, section 6 lists no commercial ground, so a sale would in practice need consent.",
+        "No rule on data brokers, de-identified data sales or consumer health apps was found, and no enforcement action was verified."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection and Privacy Act No. 13 of 2024 (Department of Communication and Digital Transformation)",
+          "url": "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf",
+          "date": "2024-12-05",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 22,
+      "summary": "None of Vanuatu's 151 health facilities had a national electronic health record in a 2025 regional study. The Ministry says its clinical systems run in silos, not linked to each other or to public health data.",
+      "detail": [
+        "A 2025 JMIR study, validated by a Vanuatu health leader, found national EHR coverage of 0 of 151 facilities.",
+        "The Ministry's strategy lists a Patient Information System for admissions at Vila Central and Northern Provincial hospitals, Voyager PACS for imaging, mSupply for pharmaceutical supply and separate lab databases. It says these operate in silos.",
+        "DHIS2 handles aggregate reporting. Burnet Institute reports an electronic notification system that carries reports from provincial offices, labs and hospitals to the national surveillance team.",
+        "The strategy plans to adopt the National ID as the national health number and to build a National Electronic Health Record."
+      ],
+      "sources": [
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Vanuatu Digital Health Strategy 2025-2030 (Ministry of Health)",
+          "url": "https://moh.gov.vu/images/Reports/Vanuatu%20Digital%20Health%20Strategy_2025-2030.pdf",
+          "date": "2025",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Stronger outbreak responses in the Pacific start with locally embedded knowledge (Devpolicy Blog)",
+          "url": "https://devpolicy.org/stronger-outbreak-responses-in-the-pacific-start-with-locally-embedded-knowledge-20260826/",
+          "date": "2026-08-26",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 18,
+      "summary": "A clinician usually cannot see a patient's record from another facility. The Ministry says records are created and stored at each facility on paper and are not viewable elsewhere, and data in the hospital system mostly supplements paper.",
+      "detail": [
+        "The Ministry's 2025 strategy says patient information is created and stored at individual facilities and is not accessible for viewing at other facilities.",
+        "Even where the Patient Information System runs, at Vila Central and Northern Provincial hospitals, paper files remain the master record and staff document twice.",
+        "Some paper records cannot be read because of age or rain damage, or cannot be found because they were misfiled. No cross-provider clinical view was verified."
+      ],
+      "sources": [
+        {
+          "title": "Vanuatu Digital Health Strategy 2025-2030 (Ministry of Health)",
+          "url": "https://moh.gov.vu/images/Reports/Vanuatu%20Digital%20Health%20Strategy_2025-2030.pdf",
+          "date": "2025",
+          "publisherClass": "official"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories (JMIR, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "All human health research needs written approval from the Vanuatu Health Research Ethics Committee, and misuse of personal data is an offence. The Act allows research use of health data without consent, with safeguards left to regulations not verified as made.",
+      "detail": [
+        "The Ministry's research portal says all research with human subjects must be reviewed and approved in writing by the Vanuatu HREC before it begins, in line with the Declaration of Helsinki. It states that individuals are the owners of their health data.",
+        "Section 6(2)(j) of the 2024 Act allows processing of health data for scientific research, and section 4(4) requires safeguards prescribed by regulations. No regulations or public register of uses were verified.",
+        "Clinical trial consent law was not verified. Anchor math: base 40, plus 3 for the ethics body, plus 3 for statutory misuse penalties."
+      ],
+      "sources": [
+        {
+          "title": "Vanuatu Health Research Portal (Ministry of Health)",
+          "url": "https://healthresearch.gov.vu/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Protection and Privacy Act No. 13 of 2024 (Department of Communication and Digital Transformation)",
+          "url": "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf",
+          "date": "2024-12-05",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 22,
+      "summary": "No clinical AI rules or medical device regulation of AI were verified; the Ministry's AI governance policy is a plan in its 2025 strategy. A general right not to face solely automated decisions sits in the data protection law.",
+      "detail": [
+        "Section 13 of the 2024 Act gives a right not to be subject to a significant decision based solely on automated processing, with human intervention where exceptions apply.",
+        "The Digital Health Strategy 2025-2030 lists an AI Governance Policy for Healthcare as a planned reform, covering privacy, algorithmic transparency and clinical integration. It was not verified as adopted.",
+        "The Digital Transformation Act 2025 tasks a department with AI frameworks and creates an AI services permit, but sets no clinical rules. This is the 15 to 30 band."
+      ],
+      "sources": [
+        {
+          "title": "Vanuatu Digital Health Strategy 2025-2030 (Ministry of Health)",
+          "url": "https://moh.gov.vu/images/Reports/Vanuatu%20Digital%20Health%20Strategy_2025-2030.pdf",
+          "date": "2025",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Protection and Privacy Act No. 13 of 2024 (Department of Communication and Digital Transformation)",
+          "url": "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf",
+          "date": "2024-12-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Digital Transformation Act No. 42 of 2025 (Department of Communication and Digital Transformation)",
+          "url": "https://digital.gov.vu/images/dossier%20legislation/EN%20-%20DT%20Act%20No%2042%20of%202025.pdf",
+          "date": "2025-12-12",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "siloed",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "A Patient Information System covers admissions at two hospitals but paper stays the master record. Labs use standalone databases, pharmacy runs mSupply, and DHIS2 plus an electronic notification system carry public health data. No national EHR exists.",
+  "laws": [
+    {
+      "name": "Data Protection and Privacy Act No. 13 of 2024",
+      "level": "National",
+      "year": "2024",
+      "what": "Health is special category data; free copy within one month; objection rights; fines up to VT10,000,000.",
+      "url": "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf"
+    },
+    {
+      "name": "Digital Safety Authority Act No. 15 of 2024",
+      "level": "National",
+      "year": "2024",
+      "what": "Creates the Digital Safety Authority and the Deputy Commissioner of Data Protection and Privacy.",
+      "url": "https://digital.gov.vu/images/legislation/Digital_Safety_Authority_Act_No15_of_2024-EN.pdf"
+    },
+    {
+      "name": "Right to Information Act No. 13 of 2016",
+      "level": "National",
+      "year": "2016",
+      "what": "Right to request government records, 30-day decision deadline, appeal to an Information Commissioner.",
+      "url": "https://faolex.fao.org/docs/pdf/van172667.pdf"
+    },
+    {
+      "name": "Digital Transformation Act No. 42 of 2025",
+      "level": "National",
+      "year": "2025",
+      "what": "Digital government department, ICT and AI service permits, 72-hour reporting of government cyber incidents.",
+      "url": "https://digital.gov.vu/images/dossier%20legislation/EN%20-%20DT%20Act%20No%2042%20of%202025.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-15",
+      "headline": "Vanuatu consults on digital ID system built on the civil registry",
+      "source": "Biometric Update",
+      "url": "https://www.biometricupdate.com/202510/vanuatu-holds-consultations-on-digital-id-system-implementation",
+      "why": "The national ID already serves as the patient identifier in provincial hospitals."
+    },
+    {
+      "date": "2026-03-02",
+      "headline": "Lawyers question how Digital Transformation Act will work in practice",
+      "source": "La'au Lawyers (Pacific Legal Network)",
+      "url": "https://www.pln.vu/single-post/digital-transformation-in-vanuatu-what-s-in-store-for-vanuatu-s-digital-future",
+      "why": "The law governs the government systems that will hold health records."
+    },
+    {
+      "date": "2026-07-02",
+      "headline": "Ministry launches HeartCare screening app linking records to national IDs",
+      "source": "WHO Western Pacific",
+      "url": "https://www.who.int/westernpacific/newsroom/feature-stories/item/vanuatu-heartcare-app-brings-first-of-its-kind-mobile-health-screening-to-the-pacific",
+      "why": "Moves heart screening records from paper into a central system tied to ID."
+    },
+    {
+      "date": "2026-07-03",
+      "headline": "Church leaders and community workers to screen heart risk by app",
+      "source": "Pacific Media Network",
+      "url": "https://pmn.co.nz/read/health/vanuatu-rolls-out-pacific-first-heart-screening-app-to-catch-silent-killers-early",
+      "why": "Non-clinicians will collect health data, raising consent and confidentiality questions."
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "Vanuatu adds 7-1-7 outbreak targets to its 2026 surveillance workplan",
+      "source": "Devpolicy Blog",
+      "url": "https://devpolicy.org/stronger-outbreak-responses-in-the-pacific-start-with-locally-embedded-knowledge-20260826/",
+      "why": "Electronic notifications from hospitals and labs speed outbreak response."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

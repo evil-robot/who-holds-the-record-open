@@ -1,0 +1,326 @@
+{
+ "iso3": "ZMB",
+ "name": "Zambia",
+ "region": "Africa",
+ "controlModel": "State",
+ "headline": "A government-run national health record now reaches most public clinics, but patients have no portal, no opt-out and no view of who opened their file.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "The Data Protection Act 2021 gives a right to a copy, which may be free for the first copy and comes in electronic format on request, but sets no deadline. We found no patient portal, so people ask each facility.",
+   "detail": [
+    "Section 58 of the Data Protection Act 2021 lets a person confirm what data is held, see its purpose and recipients, and get a copy. A controller may give the first copy at no cost; extra copies may cost a reasonable administrative fee. Electronic requests get a commonly used electronic format.",
+    "Section 58 sets no fixed response deadline. It also says access follows the relevant written law on access to information.",
+    "The Health Professions Council's 2016 records guideline says health records are the property of the facility, but practitioners must give patients a copy, abstract or direct access on request. It allows a reasonable fee for copies, which predates the 2021 Act.",
+    "We found no national patient portal or app for viewing the SmartCare record. Access works provider by provider."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act No. 3 of 2021 (National Assembly of Zambia)",
+     "url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%203%20The%20Data%20Protection%20Act%202021_0.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "HPCZ Guidelines for Good Practice: Generation and Management of Patient Records",
+     "url": "https://www.hpcz.org.zm/_files/ugd/de360d_9bf34f1d792941d6b649371c3f943777.pdf",
+     "date": "2016-03",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data may be processed without consent for care and for managing health systems, and the national SmartCare record is shared across public facilities by default. We found no patient opt-out and no patient-visible access log.",
+   "detail": [
+    "Section 14 of the Data Protection Act allows sensitive data, including health, to be processed for diagnosis, care and the management of health systems, by professionals under secrecy duties. Consent is not required for these uses.",
+    "On paper, section 58(3) gives a right to be told of all third parties who received your data, and section 61 a right to object. An objection does not apply where another written law permits the processing.",
+    "SmartCare Pro is the Ministry of Health's single national record. Its resource site says access is limited to authorised health workers using multi-factor authentication, and patients are identified by fingerprint at reception and pharmacy. We found no tool that lets patients set sharing choices or see who looked."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act No. 3 of 2021 (National Assembly of Zambia)",
+     "url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%203%20The%20Data%20Protection%20Act%202021_0.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "SmartCare Pro resource site (IHM, Ministry of Health EHR contractor)",
+     "url": "https://smartcarezambia.io/",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Scored on the general law, since we found no health-sector enforcement: the 2021 Act treats health as sensitive, requires breach notice to the Commissioner within 24 hours and keeps sensitive data in Zambia. The Commissioner sits inside a ministry and only became fully operational in 2025.",
+   "detail": [
+    "Section 49 requires controllers to tell the Data Protection Commissioner within 24 hours of a breach and to tell affected people as soon as practicable. Section 70(3) requires sensitive personal data to be processed and stored on servers in Zambia.",
+    "A body corporate that breaches the controller duties faces 2% of annual turnover or two million penalty units, whichever is higher (section 55). We did not verify the kwacha value of a penalty unit.",
+    "The Office of the Data Protection Commissioner is established inside the ministry responsible for communications, and the Commissioner is a public officer appointed through the Civil Service Commission. Bowmans lawyers said in April 2025 that the office was fully operational and enforcement was expected.",
+    "CIPESA says the Cyber Security Act 2025 requires service providers to support real-time interception without adequate judicial oversight. Zambia is not in the EU, so the EHDS does not apply."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act No. 3 of 2021 (National Assembly of Zambia)",
+     "url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%203%20The%20Data%20Protection%20Act%202021_0.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zambia Steps Up on Data Privacy, Sets up Data Protection Commissioner Office (TechTrends)",
+     "url": "https://techtrendske.co.ke/2025/04/10/office-of-the-data-protection-commissioner-zambia/",
+     "date": "2025-04-10",
+     "publisherClass": "news"
+    },
+    {
+     "title": "The Cyber Security Act, 2025 (National Assembly of Zambia)",
+     "url": "https://www.parliament.gov.zm/node/12319",
+     "date": "2025",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zambia's Cybersecurity and Cybercrimes Laws Raise Alarms for Digital Rights (CIPESA)",
+     "url": "https://cipesa.org/2025/05/zambias-cybersecurity-and-cybercrimes-laws-raise-alarms-for-digital-rights/",
+     "date": "2025-05-19",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Section 14 of the 2021 Act does not name marketing or sale among the grounds for using health data, but direct marketing is an opt-out right, not opt-in. In 2026 the government objected to US aid terms it said would breach citizens' data rights.",
+   "detail": [
+    "Section 14 allows sensitive data to be processed only for legal claims, health care and health system management, or public interest with safeguards. None of these covers marketing or sale.",
+    "Section 61 lets a person object to direct marketing, after which it must stop. Section 57 requires controllers to notify the Commissioner of any agreement letting a third party trade on a person's profile.",
+    "We found no rules on health apps, data brokers or sale of de-identified health data.",
+    "In May 2026 the Foreign Minister said data-sharing demands in a proposed US health deal would violate citizens' rights. In September 2026 he said the US had agreed to replace those terms; the US had not confirmed."
+   ],
+   "sources": [
+    {
+     "title": "Data Protection Act No. 3 of 2021 (National Assembly of Zambia)",
+     "url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%203%20The%20Data%20Protection%20Act%202021_0.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Zambia delaying US deals over minerals and data demands (Al Jazeera)",
+     "url": "https://www.aljazeera.com/news/2026/5/4/zambia-delaying-us-deals-over-minerals-and-data-demands",
+     "date": "2026-05-04",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Zambia is close to resolving $1.5B US health data dispute (Semafor)",
+     "url": "https://www.semafor.com/article/09/25/2026/zambia-eyes-end-to-us-health-data-dispute",
+     "date": "2026-09-25",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 45,
+   "summary": "SmartCare Pro, the state's single national record, links to the lab system, medicine logistics, DHIS2 reporting and HIV case surveillance. Officials report about 2,000 facilities and 12 million records, figures not verified on an official page.",
+   "detail": [
+    "SmartCare Pro's resource site says its exchange platform connects to DISA (labs), eLMIS (medicine logistics), DHIS2 (reporting) and case-based surveillance using FHIR and HL7. A Zambia 360 data portal draws on a National Health Data Warehouse.",
+    "SMART Zambia officials told ITWeb in April 2026 that 12 million patient records sit in the system across more than 2,000 facilities, replacing two legacy systems that could not talk.",
+    "A hospital edition, SmartCare 2.0, began as a pilot at Ndola Teaching Hospital in April 2026. Full internet connectivity for Copperbelt facilities was only targeted for July 2026.",
+    "The Ministry of Health's 2022 strategy listed fragmented systems and an interoperability framework still under review. We did not verify links to private hospitals or to National Health Insurance claims."
+   ],
+   "sources": [
+    {
+     "title": "Ministry of Health Digital Health Strategy 2022-2026",
+     "url": "https://zambia.knowledgehub.health/attachments/download/40/Digital-Health-strategy-final.pdf",
+     "date": "2022",
+     "publisherClass": "official"
+    },
+    {
+     "title": "SmartCare Pro resource site (IHM, Ministry of Health EHR contractor)",
+     "url": "https://smartcarezambia.io/",
+     "date": "undated",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Zambia unveils AI health records for the masses (ITWeb Africa)",
+     "url": "https://itweb.africa/article/zambia-unveils-ai-health-records-for-the-masses/WnpNgM21BR47VrGd",
+     "date": "2026-04-15",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Zambia Targets Nationwide Health Connectivity as SmartCare 2.0 Pilot Goes Live in Ndola (TechAfrica News)",
+     "url": "https://techafricanews.com/2026/04/28/zambia-targets-nationwide-health-connectivity-as-smartcare-2-0-pilot-goes-live-in-ndola/",
+     "date": "2026-04-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 40,
+   "summary": "In public facilities on SmartCare Pro, a clinician can open one national record with history, medicines and allergies. Private-sector coverage and offline sites are not verified, and the hospital edition is only a pilot.",
+   "detail": [
+    "IHM, which builds SmartCare Pro, says records link to national IDs and fingerprints so they follow patients across facilities and over time, with diagnoses, medicines, allergies and treatment history.",
+    "Officials said SmartCare 2.0 will enable real-time access to patient information across facilities. That is a goal tied to the April 2026 pilot.",
+    "The HPCZ guideline bars sharing records with third parties without the patient's written authorisation, except for court orders, statutory duties or serious public health risks.",
+    "We found no source on whether private clinics can see SmartCare records."
+   ],
+   "sources": [
+    {
+     "title": "How Zambia is Building Health Equity, One Patient at a Time (IHM Africa)",
+     "url": "https://www.ihmafrica.org/?p=3135",
+     "date": "2026-02-16",
+     "publisherClass": "blog_vendor"
+    },
+    {
+     "title": "Zambia Targets Nationwide Health Connectivity as SmartCare 2.0 Pilot Goes Live in Ndola (TechAfrica News)",
+     "url": "https://techafricanews.com/2026/04/28/zambia-targets-nationwide-health-connectivity-as-smartcare-2-0-pilot-goes-live-in-ndola/",
+     "date": "2026-04-28",
+     "publisherClass": "news"
+    },
+    {
+     "title": "HPCZ Guidelines for Good Practice: Generation and Management of Patient Records",
+     "url": "https://www.hpcz.org.zm/_files/ugd/de360d_9bf34f1d792941d6b649371c3f943777.pdf",
+     "date": "2016-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ministry of Health Digital Health Strategy 2022-2026",
+     "url": "https://zambia.knowledgehub.health/attachments/download/40/Digital-Health-strategy-final.pdf",
+     "date": "2022",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "The National Health Research Act 2013 requires ethics approval and consent to collect samples or information, with misconduct penalties. Routine records are exempt from most data protection duties for research, and we found no opt-out.",
+   "detail": [
+    "Under the National Health Research Act 2013, collecting samples or information without consent, sharing samples without approval, or failing to protect participants' privacy is misconduct. Identifiable research information may not be shared without the source's written consent.",
+    "Section 42 of the Data Protection Act exempts research processing from most of Part IV. Non-public researchers need the Commissioner's authorisation for sensitive data and must anonymise it. Public bodies do not need that authorisation.",
+    "The National Health Research Authority has a legal right to access all health research databases. We found no general opt-out from research use of routine health records."
+   ],
+   "sources": [
+    {
+     "title": "National Health Research Act No. 2 of 2013 (National Assembly of Zambia)",
+     "url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Health%20%20Research%20%20Act%202013.pdf",
+     "date": "2013-03-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Data Protection Act No. 3 of 2021 (National Assembly of Zambia)",
+     "url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Act%20No.%203%20The%20Data%20Protection%20Act%202021_0.pdf",
+     "date": "2021",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "ZAMRA regulates medical software as a device, but we found no AI-specific rules on change control or human oversight. The national AI strategy itself says no AI governance exists.",
+   "detail": [
+    "The Zambia Medicines Regulatory Authority says medical devices include software intended for diagnosis, prevention, monitoring or treatment, and covers registration and post-market surveillance.",
+    "The National AI Strategy 2024-2026 names healthcare as a priority sector and commits to ethical guidelines and regulatory sandboxes. It states that there is currently no AI governance set up to oversee ethical AI in Zambia.",
+    "We found no ZAMRA guidance on AI or machine learning devices."
+   ],
+   "sources": [
+    {
+     "title": "Medical Devices and Allied Substances (Zambia Medicines Regulatory Authority)",
+     "url": "https://www.zamra.co.zm/services/allied-substances/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "National Artificial Intelligence Strategy 2024-2026 (Ministry of Technology and Science)",
+     "url": "https://www.mots.gov.zm/wp-content/uploads/2025/02/Zambia-Ai-Strategy-Book-option-2.pdf",
+     "date": "2025-02",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "partial",
+  "labs": "connected",
+  "pharmacy": "partial",
+  "claims": "unknown",
+  "publicHealth": "connected",
+  "research": "partial"
+ },
+ "journeyNote": "Public clinics share one state-run record, SmartCare Pro, linked to labs, logistics and surveillance. The hospital edition is a pilot, private-sector and insurance claim links are not verified, and connectivity is still being rolled out.",
+ "laws": [
+  {
+   "name": "Data Protection Act No. 3 of 2021",
+   "level": "National",
+   "year": "2021",
+   "what": "Health is sensitive data; access, objection and portability rights; 24-hour breach notice; local storage of sensitive data.",
+   "url": "https://www.parliament.gov.zm/node/8853"
+  },
+  {
+   "name": "National Health Research Act No. 2 of 2013",
+   "level": "National",
+   "year": "2013",
+   "what": "Ethics approval, participant consent, sample transfer rules and misconduct penalties for health research.",
+   "url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Health%20%20Research%20%20Act%202013.pdf"
+  },
+  {
+   "name": "Cyber Security Act, 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Creates a Cyber Security Agency, critical information infrastructure rules and a monitoring centre; replaces the 2021 Act.",
+   "url": "https://www.parliament.gov.zm/node/12319"
+  },
+  {
+   "name": "Cyber Crimes Act, 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Offences relating to computers and computer systems, including protection against cyber crimes.",
+   "url": "https://www.parliament.gov.zm/node/12320"
+  },
+  {
+   "name": "HPCZ Guidelines: Generation and Management of Patient Records",
+   "level": "National",
+   "year": "2016",
+   "what": "Patients may get a copy of or access to their records; third-party disclosure needs written authorisation.",
+   "url": "https://www.hpcz.org.zm/_files/ugd/de360d_9bf34f1d792941d6b649371c3f943777.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-04-15",
+   "headline": "Officials say 12 million patient records now sit in SmartCare Pro",
+   "source": "ITWeb Africa",
+   "url": "https://itweb.africa/article/zambia-unveils-ai-health-records-for-the-masses/WnpNgM21BR47VrGd",
+   "why": "Most public patients now have one national electronic record; no patient portal was found."
+  },
+  {
+   "date": "2026-04-28",
+   "headline": "SmartCare 2.0 hospital record pilot starts at Ndola Teaching Hospital",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/04/28/zambia-targets-nationwide-health-connectivity-as-smartcare-2-0-pilot-goes-live-in-ndola/",
+   "why": "Extends the national record into hospitals, where patients' records were least connected."
+  },
+  {
+   "date": "2026-05-04",
+   "headline": "Zambia pauses US health deal, citing data demands and minerals linkage",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/5/4/zambia-delaying-us-deals-over-minerals-and-data-demands",
+   "why": "Government said sharing citizens' health data on US terms would violate their rights."
+  },
+  {
+   "date": "2026-07-10",
+   "headline": "SMART Zambia says SmartCare Pro reaches about 80% of facilities",
+   "source": "TechAfrica News",
+   "url": "https://techafricanews.com/2026/07/10/smart-zambia-expands-digital-health-system-to-80-of-health-facilities/",
+   "why": "Wider coverage means a patient's record is more likely to follow them between clinics."
+  },
+  {
+   "date": "2026-09-25",
+   "headline": "Foreign minister says US agreed to drop contested health data terms",
+   "source": "Semafor",
+   "url": "https://www.semafor.com/article/09/25/2026/zambia-eyes-end-to-us-health-data-dispute",
+   "why": "Decides whether Zambian patients' health data leaves the country under a foreign aid deal."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

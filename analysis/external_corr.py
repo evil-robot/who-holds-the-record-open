@@ -1,9 +1,9 @@
 """Rank correlations between this index and external indices. Sanity check, not validation.
 External values transcribed from the opened sources (see EXT dict comments); GDHM pulled live from WHO xmart
 (analysis/external/who_gdhm_relay_2026-10-01.csv)."""
-import json, glob, os, numpy as np, pandas as pd
+import json, glob, numpy as np, pandas as pd
 from scipy.stats import spearmanr, kendalltau
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = __import__("os").path.dirname(__import__("os").path.dirname(__import__("os").path.abspath(__file__)))
 W = dict(access=20, control=20, privacy=15, commercial=10, journey=15, clinical=10, research=5, ai=5)
 D = {json.load(open(f))["iso3"]: json.load(open(f)) for f in glob.glob(f"{ROOT}/data/*.json")}
 ours = pd.DataFrame({i: {**{k: d["categories"][k]["score"] for k in W}, "overall": sum(d["categories"][k]["score"] * w for k, w in W.items()) / 100} for i, d in D.items()}).T
@@ -57,6 +57,68 @@ corr("GDHM 2023 Q15 HIE/architecture phase, full responders", G15, "journey", ke
 corr("GDHM 2023 Q09a AI protocol phase, full responders", G9a, "ai", keep=full)
 corr("GDHM 2023 overall phase, full responders", GO, "overall", keep=full)
 print("GDHM full responders:", full)
+
+# ---- 2 Oct 2026 (academic referee, F2): national income and a person-side measure of practice ----
+# World Bank WDI NY.GDP.PCAP.PP.CD (GDP per head, PPP, current international $), latest year 2019-2024 per country,
+# raw API response cached at analysis/external/wdi_gdp_pcap_ppp.json (keyless API, pulled 2 Oct 2026).
+wdi = json.load(open(f"{ROOT}/analysis/external/wdi_gdp_pcap_ppp.json"))[1]
+GDP, GDPY = {}, {}
+for r in wdi:
+    k, v, y = r["countryiso3code"], r["value"], int(r["date"])
+    if k in ours.index and v is not None and y > GDPY.get(k, 0): GDP[k], GDPY[k] = float(v), y
+TWN_NOTE = "TWN is not in WDI" if "TWN" in ours.index and "TWN" not in GDP else ""
+def boot_ci(f, n, reps=4000):
+    bs = []
+    for _ in range(reps):
+        i = rng.integers(0, n, n)
+        try:
+            v = f(i)
+            if np.isfinite(v): bs.append(v)
+        except Exception: pass
+    return [round(float(x), 2) for x in np.percentile(bs, [2.5, 97.5])]
+def spear_ci(x, y):
+    x, y = np.asarray(x, float), np.asarray(y, float)
+    r = spearmanr(x, y)[0]
+    return round(float(r), 2), boot_ci(lambda i: spearmanr(x[i], y[i])[0] if len(set(x[i])) > 1 and len(set(y[i])) > 1 else np.nan, len(x))
+def partial_spear(x, y, z):
+    from scipy.stats import rankdata
+    rx, ry, rz = rankdata(x), rankdata(y), rankdata(z)
+    res = lambda a: a - np.polyval(np.polyfit(rz, a, 1), rz)
+    return float(np.corrcoef(res(rx), res(ry))[0, 1])
+inc = {}
+ks = sorted(k for k in GDP)
+rho, ci = spear_ci([GDP[k] for k in ks], ours.loc[ks, "overall"])
+inc["overallVsGdp"] = dict(n=len(ks), rho=rho, lo=ci[0], hi=ci[1], years=f"{min(GDPY.values())} to {max(GDPY.values())}", note=TWN_NOTE)
+eu = [k for k in ks if D[k]["region"] == "Europe"]
+rho, ci = spear_ci([GDP[k] for k in eu], ours.loc[eu, "overall"])
+inc["withinEurope"] = dict(n=len(eu), rho=rho, lo=ci[0], hi=ci[1])
+lg = np.log([GDP[k] for k in ks]); ov = ours.loc[ks, "overall"].astype(float).values
+b1, b0 = np.polyfit(lg, ov, 1); pred = b0 + b1 * lg; resid = ov - pred
+inc["fit"] = dict(slopePerLogUnit=round(float(b1), 1), r2=round(float(1 - ((ov - pred) ** 2).sum() / ((ov - ov.mean()) ** 2).sum()), 2))
+order = np.argsort(resid)
+inc["below"] = [dict(iso3=ks[i], resid=round(float(resid[i]), 1)) for i in order[:6]]
+inc["above"] = [dict(iso3=ks[i], resid=round(float(resid[i]), 1)) for i in order[::-1][:6]]
+gk = [k for k in full if k in GO and k in GDP and k in ours.index]
+x, y, z = np.array([GO[k] for k in gk], float), ours.loc[gk, "overall"].astype(float).values, np.log([GDP[k] for k in gk])
+inc["gdhmOverall"] = dict(n=len(gk), rhoOurs=spear_ci(x, y)[0], rhoGdhmGdp=spear_ci(x, z)[0], rhoOursGdp=spear_ci(y, z)[0],
+                          partial=round(partial_spear(x, y, z), 2), partialCi=boot_ci(lambda i: partial_spear(x[i], y[i], z[i]), len(gk)))
+print("income:", json.dumps(inc)[:600])
+# Eurostat isoc_ci_ac_i, indic_is I_IUAPR (individuals who accessed personal health records online, % of individuals), 2024,
+# raw response cached at analysis/external/eurostat_isoc_ci_ac_i_I_IUAPR_2024.json (keyless API, pulled 2 Oct 2026).
+es = json.load(open(f"{ROOT}/analysis/external/eurostat_isoc_ci_ac_i_I_IUAPR_2024.json"))
+geo = es["dimension"]["geo"]["category"]["index"]; inv_geo = {v: k for k, v in geo.items()}
+E2I = dict(BE="BEL", BG="BGR", CZ="CZE", DK="DNK", DE="DEU", EE="EST", IE="IRL", EL="GRC", ES="ESP", FR="FRA", HR="HRV", IT="ITA", CY="CYP", LV="LVA",
+           LT="LTU", LU="LUX", HU="HUN", MT="MLT", NL="NLD", AT="AUT", PL="POL", PT="PRT", RO="ROU", SI="SVN", SK="SVK", FI="FIN", SE="SWE", IS="ISL",
+           NO="NOR", CH="CHE", UK="GBR", BA="BIH", ME="MNE", MK="MKD", AL="ALB", RS="SRB", TR="TUR", XK="XKX")
+EU_USE = {E2I[inv_geo[int(i)]]: float(v) for i, v in es["value"].items() if inv_geo[int(i)] in E2I and E2I[inv_geo[int(i)]] in ours.index}
+ek = sorted(EU_USE)
+rho, ci = spear_ci([EU_USE[k] for k in ek], ours.loc[ek, "access"])
+eurostat = dict(year=2024, indicator="I_IUAPR", n=len(ek), rhoAccess=rho, lo=ci[0], hi=ci[1], values={k: EU_USE[k] for k in ek},
+                accessScores={k: int(ours.loc[k, "access"]) for k in ek})
+for cat in ("journey", "clinical", "overall"):
+    r2, c2 = spear_ci([EU_USE[k] for k in ek], ours.loc[ek, cat]); eurostat["rho_" + cat] = dict(rho=r2, lo=c2[0], hi=c2[1])
+print("eurostat:", json.dumps({k: v for k, v in eurostat.items() if k not in ("values", "accessScores")}))
 import datetime
-json.dump(dict(computed=datetime.date.today().isoformat(), ourCountries=len(ours), gdhmFullResponders=[k for k in full if k in ours.index], rows=OUT),
+import sys as _s; _s.path.insert(0, f"{ROOT}/scripts"); from datahash import data_sha256
+json.dump(dict(computed=datetime.date.today().isoformat(), dataSha256=data_sha256(ROOT), ourCountries=len(ours), gdhmFullResponders=[k for k in full if k in ours.index], rows=OUT, income=inc, eurostat=eurostat),
           open(f"{ROOT}/analysis/external/external_corr.json", "w"), indent=1)

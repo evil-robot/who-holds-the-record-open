@@ -1,0 +1,334 @@
+{
+  "iso3": "MCO",
+  "name": "Monaco",
+  "region": "Europe",
+  "controlModel": "Institutional",
+  "headline": "Monaco gives a firm legal right to the full record and a new GDPR-style law, but there is no shared national record linking providers.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 50,
+      "summary": "Law 1.454 of 2017 gives a right to all health information held by any provider, within 15 days. There is no national record portal, but the main public hospital runs a patient portal, so the score sits at the anchor base plus 5.",
+      "detail": [
+        "Article 12 of Law 1.454 of 30 October 2017 lets a person access all health information held by professionals or establishments, except third-party information and personal notes. It must be supplied within 15 days, or two months for information over five years old.",
+        "If there is no answer in time, the request counts as refused. Patients can appeal to the Minister of State, a medical order or the court.",
+        "The Centre Hospitalier Princesse Grace (CHPG) runs a patient portal and handles record requests through a set form. Since April 2023 the portal shows consultation reports, lab results and discharge letters (Monaco Hebdo).",
+        "The government portal MonacoSanté offers appointments, teleconsultation and secure messaging, but no record view. Whether copies are free was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Loi n° 1.454 du 30 octobre 2017 relative au consentement et à l'information en matière médicale (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/loi/2017/10-30-1.454",
+          "date": "2017-10-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Protection des données personnelles du patient (CHPG)",
+          "url": "https://www.chpg.mc/protection-donnees-personnelles-du-patient/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Un nouveau portail en ligne pour les patients du CHPG (Monaco Hebdo)",
+          "url": "https://monaco-hebdo.com/actualites/sante/un-nouveau-portail-en-ligne-pour-les-patiens-du-chpg/",
+          "date": "2023-05-05",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Conditions générales d'utilisation du Portail MonacoSanté",
+          "url": "https://www.monacosante.mc/e-venue/fr/conditions-d-utilisation-5-101.html",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 35,
+      "summary": "Each provider holds and controls its own file, and there is no shared record. Patients can object to outside hosting for a legitimate reason and files pass to a successor doctor only with consent, but there is no opt-out or patient-visible access log.",
+      "detail": [
+        "Sovereign Ordinance 8.337 of 5 November 2020 makes each hospital and doctor keep a medical file. Files stay with the provider or a qualified host.",
+        "Before files are hosted outside, the patient must be informed and may object, but only with a legitimate reason (Article 16).",
+        "A doctor who stops practising may pass files to a successor only for patients who consented (Article 15).",
+        "Law 1.565 of 2024 adds rights to object, erase and port data. No national tool lets patients see who opened their file. Consent before a file passes to a successor puts the score at the top of the 20 to 35 band."
+      ],
+      "sources": [
+        {
+          "title": "Ordonnance Souveraine n° 8.337 du 5 novembre 2020 relative aux données de santé (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/ordonnance/2020/11-05-8.337",
+          "date": "2020-11-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Loi n° 1.565 du 3 décembre 2024 relative à la protection des données personnelles (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/loi/2024/12-03-1.565",
+          "date": "2024-12-03",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 58,
+      "summary": "Law 1.565 of 2024 follows the GDPR, with 72-hour breach notice and fines up to 10 million euros or 4% of turnover, but fines cannot hit the State. Health hosts need a cyber agency qualification; no health-sector fine was found.",
+      "detail": [
+        "Law 1.565 treats health data as sensitive and replaced the 1993 law. Breaches go to the regulator (APDP) within 72 hours where possible (Article 32). Fines reach 10 million euros or 4% of turnover (Article 54), but fines and bans do not apply to the State or the Commune (Article 51).",
+        "Ordinance 8.337 requires electronic health data hosts to hold a qualification from the national cyber agency (AMSN). Hospitals must report incidents to the AMSN and the data regulator.",
+        "In 2026 the APDP warned about a sharp rise in late breach reports and publicly criticised the government's draft list of adequate countries.",
+        "In September 2026 a CHPG email exposed hundreds of blood donors' email addresses, and the hospital apologised (La Gazette de Monaco). The EU has not recognised Monaco as adequate."
+      ],
+      "sources": [
+        {
+          "title": "Loi n° 1.565 du 3 décembre 2024 relative à la protection des données personnelles (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/loi/2024/12-03-1.565",
+          "date": "2024-12-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ordonnance Souveraine n° 8.337 du 5 novembre 2020 relative aux données de santé (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/ordonnance/2020/11-05-8.337",
+          "date": "2020-11-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "L'APDP rappelle l'obligation de lui notifier les violations de données dans les meilleurs délais (APDP)",
+          "url": "https://apdp.mc/lapdp-rappelle-lobligation-de-lui-notifier-les-violations-de-donnees-dans-les-meilleurs-delais/",
+          "date": "2026-07-16",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 52,
+      "summary": "Qualified hosts may not use or pass on the health data they store, and anyone can refuse marketing use of their data. No Monaco ban on selling health data or on data brokers was verified, so the score stays low in the mixed band.",
+      "detail": [
+        "Under Article 18 of Ordinance 8.337, a health data host may use the data only for hosting and may pass it only to the provider or the patient.",
+        "Law 1.565 gives a right to object at any time to use of personal data for marketing, including profiling (Article 17). Processing sensitive data, including health data, needs a listed legal ground (Article 7).",
+        "In March 2026 the APDP briefed insurance brokers on their duties under the new law.",
+        "Specific rules on health apps, data brokers or sale of de-identified health data were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Ordonnance Souveraine n° 8.337 du 5 novembre 2020 relative aux données de santé (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/ordonnance/2020/11-05-8.337",
+          "date": "2020-11-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Loi n° 1.565 du 3 décembre 2024 relative à la protection des données personnelles (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/loi/2024/12-03-1.565",
+          "date": "2024-12-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Présentation aux acteurs monégasques de l'Assurance de leurs nouvelles obligations (APDP)",
+          "url": "https://apdp.mc/presentation-aux-acteurs-monegasques-de-lassurance-de-leurs-nouvelles-obligations/",
+          "date": "2026-03-12",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 32,
+      "summary": "Monaco has no national shared record, and links between providers rest on discharge letters and a government secure messaging service. National e-prescription and claims links were not verified, so the score sits in the weak band.",
+      "detail": [
+        "Ordinance 8.337 requires a discharge letter on the day the patient leaves hospital, sent the same day to the family doctor (Article 6).",
+        "MonacoSanté, run by the government, offers a directory, appointments, teleconsultation and secure messaging between professionals and patients. It does not hold a shared record.",
+        "The CHPG reported in January 2025 that its patient file is fully digital in all departments, but that file sits inside the hospital.",
+        "Monaco is outside the EU, so the European Health Data Space does not apply. Pharmacy e-prescription and claims data links were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Ordonnance Souveraine n° 8.337 du 5 novembre 2020 relative aux données de santé (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/ordonnance/2020/11-05-8.337",
+          "date": "2020-11-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Conditions générales d'utilisation du Portail MonacoSanté",
+          "url": "https://www.monacosante.mc/e-venue/fr/conditions-d-utilisation-5-101.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Post on 2024 results and 2025 plans (Centre Hospitalier Princesse Grace, LinkedIn)",
+          "url": "https://fr.linkedin.com/posts/centre-hospitalier-princesse-grace_monaco-chpg-innovation-activity-7285626430363738112-Z29S",
+          "date": "2025-01-16",
+          "publisherClass": "official"
+        },
+        {
+          "title": "European Health Data Space Regulation (European Commission)",
+          "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 35,
+      "summary": "A treating clinician sees another provider's notes only when a letter or secure message is sent. Clinicians inside the main public hospital share one digital file, but no cross-provider record or emergency access rule was found.",
+      "detail": [
+        "Each hospital and doctor keeps a separate medical file under Ordinance 8.337. The family doctor receives the hospital discharge letter on the day of discharge.",
+        "MonacoSanté secure messaging lets professionals send documents to colleagues and patients.",
+        "The CHPG says its digital patient file covers all departments, so clinicians there see the hospital's own history.",
+        "Private clinics, specialists and care in nearby France are not linked to the CHPG file. No break-glass rule for a shared record was found."
+      ],
+      "sources": [
+        {
+          "title": "Ordonnance Souveraine n° 8.337 du 5 novembre 2020 relative aux données de santé (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/ordonnance/2020/11-05-8.337",
+          "date": "2020-11-05",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Conditions générales d'utilisation du Portail MonacoSanté",
+          "url": "https://www.monacosante.mc/e-venue/fr/conditions-d-utilisation-5-101.html",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Post on 2024 results and 2025 plans (Centre Hospitalier Princesse Grace, LinkedIn)",
+          "url": "https://fr.linkedin.com/posts/centre-hospitalier-princesse-grace_monaco-chpg-innovation-activity-7285626430363738112-Z29S",
+          "date": "2025-01-16",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Trials need written consent and an ethics committee opinion, and health research using personal data needs a reasoned opinion from the data regulator. There is no general opt-out from secondary use, so the score is the anchor base plus two safeguards.",
+      "detail": [
+        "Law 1.265 of 2002 requires free, informed and express consent to biomedical research, given in writing, with a right to withdraw at any time. Projects go to the Comité consultatif d'éthique en matière de recherche biomédicale.",
+        "Under Article 78 of Law 1.565, processing for health research needs a reasoned APDP opinion. Medical secrecy also covers health data used for research.",
+        "A person may object to research use only on grounds tied to their situation, and not when the processing serves a public-interest mission or official authority (Article 17). No general opt-out was found."
+      ],
+      "sources": [
+        {
+          "title": "Loi n° 1.265 du 23 décembre 2002 relative à la protection des personnes dans la recherche biomédicale (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/loi/2002/12-23-1.265",
+          "date": "2002-12-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Loi n° 1.565 du 3 décembre 2024 relative à la protection des données personnelles (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/loi/2024/12-03-1.565",
+          "date": "2024-12-03",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 38,
+      "summary": "Monaco's 2002 medical devices law covers software and requires a conformity certificate, but it predates AI and has no change-control rules for learning systems. No AI law or clinical AI guidance was found, and EU AI Act rules do not apply.",
+      "detail": [
+        "Law 1.267 of 2002 defines a medical device to include the software it needs. Devices cannot be imported, sold or used without a certificate of conformity to essential requirements.",
+        "Whether Monaco has aligned with the EU Medical Device Regulation of 2017 was not verified.",
+        "Law 1.565 gives a right not to be subject to a decision based solely on automated processing that has legal or similarly significant effects (Article 19).",
+        "Monaco is outside the EU, so the EU AI Act does not apply. No national AI law or health AI guidance was found."
+      ],
+      "sources": [
+        {
+          "title": "Loi n° 1.267 du 23 décembre 2002 relative aux dispositifs médicaux (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/loi/2002/12-23-1.267",
+          "date": "2002-12-23",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Loi n° 1.565 du 3 décembre 2024 relative à la protection des données personnelles (Legimonaco)",
+          "url": "https://legimonaco.mc/tnc/loi/2024/12-03-1.565",
+          "date": "2024-12-03",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "siloed"
+  },
+  "journeyNote": "No shared record. The CHPG file is digital inside the hospital and sends discharge letters to family doctors; MonacoSanté adds secure messaging. Lab, pharmacy, claims and public health links were not verified.",
+  "laws": [
+    {
+      "name": "Loi n° 1.454 du 30 octobre 2017 relative au consentement et à l'information en matière médicale",
+      "level": "National",
+      "year": "2017",
+      "what": "Right to all health information held by providers within 15 days, or two months if older than five years.",
+      "url": "https://legimonaco.mc/tnc/loi/2017/10-30-1.454"
+    },
+    {
+      "name": "Loi n° 1.565 du 3 décembre 2024 relative à la protection des données personnelles",
+      "level": "National",
+      "year": "2024",
+      "what": "GDPR-style law; creates the APDP, 72-hour breach notice, fines up to 10 million euros or 4%.",
+      "url": "https://legimonaco.mc/tnc/loi/2024/12-03-1.565"
+    },
+    {
+      "name": "Ordonnance Souveraine n° 8.337 du 5 novembre 2020 relative aux données de santé",
+      "level": "National",
+      "year": "2020",
+      "what": "Medical file contents, 20-year retention, discharge letters, qualified health data hosts, incident reporting.",
+      "url": "https://legimonaco.mc/tnc/ordonnance/2020/11-05-8.337"
+    },
+    {
+      "name": "Loi n° 1.265 du 23 décembre 2002 relative à la protection des personnes dans la recherche biomédicale",
+      "level": "National",
+      "year": "2002",
+      "what": "Written, informed consent for biomedical research; ethics committee opinion; right to withdraw.",
+      "url": "https://legimonaco.mc/tnc/loi/2002/12-23-1.265"
+    },
+    {
+      "name": "Loi n° 1.267 du 23 décembre 2002 relative aux dispositifs médicaux",
+      "level": "National",
+      "year": "2002",
+      "what": "Medical devices, including their software, need a certificate of conformity before sale or use.",
+      "url": "https://legimonaco.mc/tnc/loi/2002/12-23-1.267"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-02-23",
+      "headline": "Monaco regulator joins 61 authorities on AI-generated images of real people",
+      "source": "APDP",
+      "url": "https://apdp.mc/declaration-commune-sur-les-images-generees-par-lia/",
+      "why": "First public APDP position on AI systems that use personal data without consent."
+    },
+    {
+      "date": "2026-03-12",
+      "headline": "Data regulator briefs insurance brokers on duties under the new law",
+      "source": "APDP",
+      "url": "https://apdp.mc/presentation-aux-acteurs-monegasques-de-lassurance-de-leurs-nouvelles-obligations/",
+      "why": "Insurers and brokers handle health data, so their compliance affects patients directly."
+    },
+    {
+      "date": "2026-06-01",
+      "headline": "Regulator says government's draft list of safe data destinations is inadequate",
+      "source": "APDP",
+      "url": "https://apdp.mc/projet-darrete-ministeriel-fixant-la-liste-des-pays-disposant-du-niveau-de-protection-adequat-avis-de-lapdp/",
+      "why": "Decides where residents' data, including health data, can be sent without extra safeguards."
+    },
+    {
+      "date": "2026-07-16",
+      "headline": "Regulator reports sharp rise in data breaches notified after 72 hours",
+      "source": "APDP",
+      "url": "https://apdp.mc/lapdp-rappelle-lobligation-de-lui-notifier-les-violations-de-donnees-dans-les-meilleurs-delais/",
+      "why": "Late breach reports delay warnings to people whose data was exposed."
+    },
+    {
+      "date": "2026-09-10",
+      "headline": "Public hospital apologises after email exposed hundreds of blood donors' email addresses",
+      "source": "La Gazette de Monaco",
+      "url": "https://fr.linkedin.com/posts/la-gazette-de-monaco_le-chpg-pr%C3%A9sente-ses-excuses-apr%C3%A8s-une-fuite-activity-7503771599192408064-oix5",
+      "why": "Shows basic data handling lapses at Monaco's main hospital."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

@@ -1,0 +1,340 @@
+{
+ "iso3": "SYR",
+ "name": "Syria",
+ "region": "Middle East",
+ "controlModel": "State",
+ "headline": "Syria's 2024 data law covers only electronic records, and the new national health portal reached five public hospitals in 2026.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Law No. 12 of 2024 gives a right to obtain your personal data within 7 working days, but only electronic data, so paper hospital files fall outside it. An official portal at five public hospitals since April 2026 puts the score at the band's top.",
+   "detail": [
+    "Article 3 of Law No. 12 of 2024 gives a data subject the right to access, see or obtain personal data held by any controller. Article 33 sets a 7 working day reply deadline, but Article 3 also lets controllers charge fees set by the data protection authority.",
+    "The law defines processing as electronic handling of data. State news agency SANA, as reported by Syria TV, said it does not extend to written or paper records.",
+    "The health ministry's Digital Health Portal, launched on 2 April 2026, lets patients book appointments, see their medical history, and follow their own and family members' health files. At launch it covered five public hospitals in Damascus, Homs, Hama and Tartus.",
+    "By 31 August 2026 the ministry reported 155,430 registered patients. A right to a copy of paper records was not verified, so the score stays in the band for rights that cover only some records."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 12 of 2024 on Personal Data Protection, full text (Bunud legal database)",
+     "url": "https://www.bunud.ai/sy/laws/personal-data-protection-law",
+     "date": "2024-03-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sanctions and fines: Assad issues the personal data law for Syrians (Syria TV)",
+     "url": "https://www.syria.tv/%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D9%88%D8%BA%D8%B1%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%B3%D8%AF-%D9%8A%D8%B5%D8%AF%D8%B1-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5-%D8%A8%D9%80%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D9%84%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D9%8A%D9%86",
+     "date": "2024-03-28",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ministry of Health launches the Digital Health Portal (SANA)",
+     "url": "https://sana.sy/health/2440858/",
+     "date": "2026-04-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Health ministry records over 161,000 visits on the digital services portal (SANA)",
+     "url": "https://sana.sy/health/2567848/",
+     "date": "2026-08-31",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 25,
+   "summary": "On paper, Law No. 12 requires written, explicit consent to process health data and lets people withdraw consent. In practice the ministry's portal privacy policy offers no sharing choices, and we found no opt-out or patient-visible access log.",
+   "detail": [
+    "Article 13 of Law No. 12 of 2024 bans processing sensitive data, including health data, without a licence from the authority and written, explicit consent, except where the law permits. Article 3 lets people withdraw consent, without retroactive effect.",
+    "The national EHR portal's privacy policy is short and generic. It says the body protects user data and that users are responsible for protecting their own data. It describes no consent settings, no sharing choices and no access log.",
+    "In April 2025 the communications ministry banned collecting personal data through electronic forms except through its own platforms or platforms it approves, citing protection of citizens' data under state supervision.",
+    "We found no opt-out from record sharing and no way for patients to see who opened their file."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 12 of 2024 on Personal Data Protection, full text (Bunud legal database)",
+     "url": "https://www.bunud.ai/sy/laws/personal-data-protection-law",
+     "date": "2024-03-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "National EHR platform: site use, privacy and information security policy (Ministry of Health)",
+     "url": "https://health.moh.gov.sy/privacy-policy",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Communications ministry bars collecting personal data except through approved platforms (SANA)",
+     "url": "https://sana.sy/locals/2207943/",
+     "date": "2025-04-15",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 36,
+   "summary": "Law No. 12 of 2024 makes health data sensitive and requires breach reports within 72 hours, with prison terms for misuse. But the regulator is chaired by a minister, includes defence and interior representatives, and the law exempts national security and public order uses.",
+   "detail": [
+    "The law lists physical, mental and genetic health as sensitive data. Article 8 requires controllers to tell the authority of a breach at once, send details within 72 hours, and inform the person within 3 working days. It came into force on 1 January 2025.",
+    "Article 37 sets 6 months to 2 years in prison for handling sensitive data without consent. Article 20 makes the communications minister chair of the authority's board, with defence, interior and justice representatives.",
+    "Article 40 exempts processing for national security, public order, the public interest, crime prevention, official statistics, and data exchanged between ministries for epidemics. Penal Code Article 565 punishes disclosing a professional secret.",
+    "Executive instructions were reported in July 2024. Whether the authority operates under the transitional government, and any enforcement decision, was not verified. Syria has no EU adequacy decision, and GDPR and the European Health Data Space do not apply."
+   ],
+   "sources": [
+    {
+     "title": "Law No. 12 of 2024 on Personal Data Protection, full text (Bunud legal database)",
+     "url": "https://www.bunud.ai/sy/laws/personal-data-protection-law",
+     "date": "2024-03-28",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Penal Code, Legislative Decree 148 of 1949, Article 565 (Syria Law)",
+     "url": "https://syria-law.com/laws/%D9%85%D8%A7%D8%AF%D8%A9-565-%D9%85%D9%86-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%B3/",
+     "date": "undated",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Executive instructions for the Personal Data Protection Law (Al-Thawra)",
+     "url": "https://archive.thawra.sy/?p=574284",
+     "date": "2024-07-18",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Adequacy decisions (European Commission)",
+     "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+     "date": "undated",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "A December 2025 health ministry decision bars approved health apps from sharing or reusing user data without consent, and Law No. 12 requires consent for electronic marketing. We found no rule on data brokers or sale of de-identified health data.",
+   "detail": [
+    "Health ministry Regulatory Decision 24/T of 2025 requires e-health apps to get ministry approval. Article 6 makes the app owner and its data protection officer liable for keeping user data confidential, and bars third-party access, copying or use for other purposes without the user's consent.",
+    "The same decision requires app platforms to host patient data on servers inside Syria, and lets the ministry's IT directorate obtain a copy of an app's database on request.",
+    "Article 17 of Law No. 12 of 2024 bans electronic direct marketing without consent and requires an easy way to refuse. Article 37 raises prison terms when data is misused for material gain.",
+    "Rules on data brokers and on selling anonymised health data were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Regulatory Decision 24/T on e-health applications (Ministry of Health)",
+     "url": "https://www.moh.gov.sy/legislation/decisions/%D9%82%D8%B1%D8%A7%D8%B1-%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A-24-%D8%AA-%D8%A8%D8%AE%D8%B5%D9%88%D8%B5-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9",
+     "date": "2025-12-02",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Law No. 12 of 2024 on Personal Data Protection, full text (Bunud legal database)",
+     "url": "https://www.bunud.ai/sy/laws/personal-data-protection-law",
+     "date": "2024-03-28",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 20,
+   "summary": "Syria has no connected national record yet: the ministry's EHR portal linked five public hospitals at its April 2026 launch. WHO is helping the ministry build a unified reporting system, and no e-prescription or claims link was found.",
+   "detail": [
+    "The ministry calls health.moh.gov.sy its national platform for electronic medical records. SANA reported that the patient portal covered five public hospitals at launch, with plans to expand across the country.",
+    "In December 2025 WHO said Norwegian funding of NOK 10.2 million would help the ministry upgrade servers, data storage and connectivity, and develop a national framework for a unified digital reporting system across health programmes.",
+    "In March 2026 the Syrian Arab Red Crescent finished a DHIS2 system for its own clinics, first as a pilot. Turk Press noted in September 2026 that linking hospitals, centres, labs and imaging into one database remains the open test.",
+    "We found no national e-prescription system, no link to insurance claims and no research data platform."
+   ],
+   "sources": [
+    {
+     "title": "WHO welcomes NOK 10.2 million from Norway to strengthen Syria's national health information system (WHO EMRO)",
+     "url": "https://www.emro.who.int/syria/news/who-welcomes-us-1-million-from-norway-to-strengthen-syrias-national-health-information-system.html",
+     "date": "2025-12-24",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Ministry of Health launches the Digital Health Portal (SANA)",
+     "url": "https://sana.sy/health/2440858/",
+     "date": "2026-04-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Syrian Arab Red Crescent completes health information system (SANA)",
+     "url": "https://sana.sy/en/health/2301011/",
+     "date": "2026-03-07",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Syria expands digital health services with a platform recalling Turkey's e-Nabız (Turk Press)",
+     "url": "https://www.turkpress.co/node/112470",
+     "date": "2026-09-28",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 18,
+   "summary": "We found no system that lets a treating doctor see a patient's record from another provider. The new portal is built for patients, covers a handful of public hospitals, and most records stay on paper inside each facility.",
+   "detail": [
+    "The ministry describes the portal app as letting patients manage appointments, view their medical file and lab results, and manage family files. It does not describe clinician access across providers.",
+    "The doctors' ethics code lets a doctor share a patient's secret with the patient, a guardian, or relatives when it helps treatment and the patient cannot understand. Its only handover rule, Article 11, says a doctor who stops treating a patient must pass on the information needed to continue care.",
+    "Clinician access to records held at other hospitals, and any emergency access rule, was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Digital Health Portal app (Ministry of Health)",
+     "url": "https://www.moh.gov.sy/about-app",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Code of Doctors' Duties and Professional Ethics (Syrian Doctors' Syndicate)",
+     "url": "https://syrma.org.sy/wp-content/uploads/2023/07/%D9%86%D8%B8%D8%A7%D9%85-%D9%88%D8%A7%D8%AC%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A8-%D9%88%D8%A2%D8%AF%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%A9.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Health ministry warns of apps impersonating it (SANA)",
+     "url": "https://sana.sy/health/2491512/",
+     "date": "2026-06-02",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 45,
+   "summary": "The doctors' ethics code allows patient information to be used for research without names, and Law No. 12 exempts scientific use from its rules. University ethics committees use consent forms, but no national research ethics rules were verified, so the score is 45.",
+   "detail": [
+    "Article 22 of the doctors' ethics code allows disclosure of a professional secret for scientific purposes and medical research without names or identifying photos. Article 40 of Law No. 12 of 2024 exempts scientific purposes from the law.",
+    "Latakia University published, in December 2025, an ethics committee application and informed consent forms, including one for observational studies and file reviews.",
+    "A 2012 review in BMC Medical Ethics found Syria had no national research ethics guidelines; the ministry referred to CIOMS and ICH-GCP. Whether national rules exist now was not verified.",
+    "No consent or opt-out covers record reuse, so the anchors start at 40. Ethics review, statutory secrecy and a partial consent route add 9. The score is held at 45 because national rules were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Code of Doctors' Duties and Professional Ethics (Syrian Doctors' Syndicate)",
+     "url": "https://syrma.org.sy/wp-content/uploads/2023/07/%D9%86%D8%B8%D8%A7%D9%85-%D9%88%D8%A7%D8%AC%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A8-%D9%88%D8%A2%D8%AF%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%A9.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Medical research ethics committee approval request and consent forms (Latakia University)",
+     "url": "https://latakia-univ.edu.sy/ar/Home/Details/46308/%D8%B7%D9%84%D8%A8-%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%84%D8%AC%D9%86%D8%A9-%D8%A3%D8%AE%D9%84%D8%A7%D9%82%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC-10",
+     "date": "2025-12-29",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Review of national research ethics regulations and guidelines in Middle Eastern Arab countries (BMC Medical Ethics, Europe PMC full text)",
+     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3576357/fullTextXML",
+     "date": "2012-12-12",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Law No. 12 of 2024 on Personal Data Protection, full text (Bunud legal database)",
+     "url": "https://www.bunud.ai/sy/laws/personal-data-protection-law",
+     "date": "2024-03-28",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 42,
+   "summary": "A December 2025 health ministry decision bars approved health apps from using AI as a source of clinical information unless the app's medical team checks it, and requires ministry approval for app changes. We found no AI law or medical device rules for AI software.",
+   "detail": [
+    "Regulatory Decision 24/T of 2025, Article 3, bars e-health apps from using artificial intelligence as a source of clinical information without review by the app's medical team.",
+    "The decision also requires ministry approval before substantial changes to an app's core functions, and bars upgrading an approved app without ministry approval.",
+    "These rules apply only to apps that offer health services. No medical device regime for AI software in hospitals, no national AI law and no health AI authority were verified.",
+    "Because the rule is binding but narrow, the score sits at the top of the band for guidance-level regimes rather than in the device-regulation band."
+   ],
+   "sources": [
+    {
+     "title": "Regulatory Decision 24/T on e-health applications (Ministry of Health)",
+     "url": "https://www.moh.gov.sy/legislation/decisions/%D9%82%D8%B1%D8%A7%D8%B1-%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A-24-%D8%AA-%D8%A8%D8%AE%D8%B5%D9%88%D8%B5-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9",
+     "date": "2025-12-02",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "partial",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "The ministry's EHR portal linked five public hospitals at launch, showing medical history and lab results. WHO is helping build unified public health reporting; no e-prescription, claims or research link was found.",
+ "laws": [
+  {
+   "name": "Law No. 12 of 2024 on Personal Data Protection",
+   "level": "National",
+   "year": "2024",
+   "what": "Health is sensitive data; access, withdrawal and breach rights; electronic data only; in force 1 January 2025.",
+   "url": "https://www.bunud.ai/sy/laws/personal-data-protection-law"
+  },
+  {
+   "name": "Constitutional Declaration of the Syrian Arab Republic, Articles 13 and 51",
+   "level": "National",
+   "year": "2025",
+   "what": "State protects private life; laws in force continue unless amended or repealed.",
+   "url": "https://www.aljazeera.net/encyclopedia/2025/3/14/%D9%86%D8%B5-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D9%8A-%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-2025"
+  },
+  {
+   "name": "Penal Code, Legislative Decree 148 of 1949, Article 565",
+   "level": "National",
+   "year": "1949",
+   "what": "Up to one year in prison for disclosing or exploiting a secret learned through one's profession.",
+   "url": "https://syria-law.com/laws/%D9%85%D8%A7%D8%AF%D8%A9-565-%D9%85%D9%86-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%B3/"
+  },
+  {
+   "name": "Ministry of Health Regulatory Decision 24/T on e-health applications",
+   "level": "National",
+   "year": "2025",
+   "what": "Health apps need approval, local data hosting, consent for data sharing, and human review of AI output.",
+   "url": "https://www.moh.gov.sy/legislation/decisions/%D9%82%D8%B1%D8%A7%D8%B1-%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A-24-%D8%AA-%D8%A8%D8%AE%D8%B5%D9%88%D8%B5-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9"
+  },
+  {
+   "name": "Code of Doctors' Duties and Professional Ethics (Syrian Doctors' Syndicate)",
+   "level": "National",
+   "year": "not verified",
+   "what": "Medical secrecy; disclosure allowed to the patient, guardians, courts, and for research without names.",
+   "url": "https://syrma.org.sy/wp-content/uploads/2023/07/%D9%86%D8%B8%D8%A7%D9%85-%D9%88%D8%A7%D8%AC%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A8-%D9%88%D8%A2%D8%AF%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%A9.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-02",
+   "headline": "Health ministry issues rules for approving e-health apps and their data",
+   "source": "Ministry of Health",
+   "url": "https://www.moh.gov.sy/legislation/decisions/%D9%82%D8%B1%D8%A7%D8%B1-%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A-24-%D8%AA-%D8%A8%D8%AE%D8%B5%D9%88%D8%B5-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9",
+   "why": "Bars apps from sharing patient data without consent and from unchecked clinical AI."
+  },
+  {
+   "date": "2025-12-24",
+   "headline": "Norway funds WHO work on Syria's national health information system",
+   "source": "WHO EMRO",
+   "url": "https://www.emro.who.int/syria/news/who-welcomes-us-1-million-from-norway-to-strengthen-syrias-national-health-information-system.html",
+   "why": "Pays for servers, secure storage and a unified reporting system at the ministry."
+  },
+  {
+   "date": "2026-04-02",
+   "headline": "Health ministry launches Digital Health Portal covering five public hospitals",
+   "source": "SANA",
+   "url": "https://sana.sy/health/2440858/",
+   "why": "First official way for patients to see their own history and results online."
+  },
+  {
+   "date": "2026-06-02",
+   "headline": "Health ministry warns of fake apps posing as its official services",
+   "source": "SANA",
+   "url": "https://sana.sy/health/2491512/",
+   "why": "Patients risk handing health data to unofficial apps."
+  },
+  {
+   "date": "2026-08-31",
+   "headline": "Digital Health Portal reaches 155,430 registered patients",
+   "source": "SANA",
+   "url": "https://sana.sy/health/2567848/",
+   "why": "Shows early but still small uptake of the national patient record."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

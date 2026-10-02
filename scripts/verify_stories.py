@@ -2,7 +2,7 @@
 
 Usage: python scripts/verify_stories.py [--no-net]
 """
-import glob, json, re, sys, urllib.request, concurrent.futures as cf
+import glob, json, re, sys, urllib.request, urllib.parse, concurrent.futures as cf
 from datetime import date
 
 DENY = re.compile(r"(^|\.)(reddit\.com|x\.com|twitter\.com|tiktok\.com|facebook\.com|fb\.com|instagram\.com|youtube\.com|youtu\.be|threads\.net|quora\.com|linkedin\.com)$")
@@ -35,7 +35,7 @@ def check_item(it, iso, category_urls):
     elif not ("2024-10" <= it["date"][:7] <= "2026-10"): errs.append(f"date {it['date']} outside window")
     if not it["url"].startswith("https://"): errs.append("url not https")
     if DENY.search(host(it["url"])): errs.append("social/forum domain")
-    if it["url"] in category_urls: errs.append("story url also used as a score source")
+    if not it["removed"] and it["url"] in category_urls: errs.append("story url also used as a score source")
     if words(it["headline"]) > 14: errs.append(f"headline {words(it['headline'])} words")
     if words(it["paraphrase"]) > 40: errs.append(f"paraphrase {words(it['paraphrase'])} words")
     if len(it["why"]) > 140: errs.append("why > 140 chars")
@@ -65,10 +65,28 @@ def check_item(it, iso, category_urls):
     return errs
 
 
-def reachable(url):
+def reachable(url, tries=2):
+    # Python 3.9's urllib does not follow 308; follow it (and 301/302/307) once by hand. One retry on a dropped connection.
+    ok, code = _reachable(url)
+    if not ok and code in (301, 302, 307, 308):
+        try:
+            r = urllib.request.Request(url, method="GET", headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9"})
+            urllib.request.urlopen(r, timeout=20)
+        except urllib.error.HTTPError as e:
+            loc = e.headers.get("Location")
+            if loc: return _reachable(urllib.parse.urljoin(url, loc))
+    if not ok and tries > 1 and not isinstance(code, int): return reachable(url, tries - 1)
+    if not ok and not isinstance(code, int):  # some sites drop Python's TLS client but serve curl
+        import subprocess
+        out = subprocess.run(["curl", "-sL", "-o", "/dev/null", "-m", "25", "-A", UA, "-w", "%{http_code}", url], capture_output=True, text=True).stdout.strip()
+        if out.isdigit() and int(out) < 400: return True, int(out)
+    return ok, code
+
+
+def _reachable(url):
     for method in ("HEAD", "GET"):
         try:
-            r = urllib.request.Request(url, method=method, headers={"User-Agent": UA})
+            r = urllib.request.Request(url, method=method, headers={"User-Agent": UA, "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9"})
             with urllib.request.urlopen(r, timeout=20) as resp:
                 if resp.status < 400: return True, resp.status
         except urllib.error.HTTPError as e:

@@ -1,8 +1,8 @@
 # Who Holds the Record
 
-An open index of health record rights in 65 countries, by SuperTruth Inc. Each country scores 0 to 100 on one question: can a person see, control and share their own health record?
+An open index of health record rights in 196 countries (all 193 UN member states, plus Palestine, Taiwan and Vatican City), by SuperTruth Inc. Each country scores 0 to 100 on one question: can a person see, control and share their own health record?
 
-In 2026, none of the 65 countries we rated puts a person fully in charge of their own health record. Finland scores highest at 71 of 100, one point ahead of Denmark (70); we treat gaps of 4 points or less as ties. The median is 57. By band, 9 countries rate Strong, 45 Mixed and 11 Weak, and none reaches Leading (85 and up). Control sits with the state or providers everywhere: 44 Shared, 7 Institutional, 14 State. Data as of 2 October 2026.
+In 2026, none of the 196 countries we rated puts a person fully in charge of their own health record. Finland, Denmark, Estonia and Hungary lead; allowing for scoring error, any of them could rank first, so we name them together. The median is 39. By band, 9 countries rate Strong, 65 Mixed, 110 Weak and 12 Poor, and none reaches Leading (85 and up). Control sits with the state or providers everywhere: 51 Shared, 80 Institutional, 65 State. Data as of 2026-10-02.
 
 - Live index, country briefs and the Ask the index tool: https://whoholds.supertruth.ai
 - Paper: `paper/paper.pdf` (source `paper/paper.md`)
@@ -21,7 +21,7 @@ In 2026, none of the 65 countries we rated puts a person fully in charge of thei
 
 ## Method in brief
 
-Eight weighted categories: patient access to the full record (20%), patient control and consent (20%), privacy and security (15%), connected care journey (15%), protection from commercial use (10%), clinician access at the point of care (10%), research and trial consent (5%) and clinical AI governance (5%). Research agents built on Anthropic's Claude researched each country in its own language, opening every cited source; a second agent cross-checked each country against the rubric anchors and peer countries; the authors reviewed the results. Everything comes from public information: laws, government and regulator pages, court decisions and published news. Scores move in steps of about 5 points, so read ranks as ranges.
+Eight weighted categories: patient access to the full record (20%), patient control and consent (20%), privacy and security (15%), connected care journey (15%), protection from commercial use (10%), clinician access at the point of care (10%), research and trial consent (5%) and clinical AI governance (5%). Research agents built on Anthropic's Claude researched each country in its own language, under a rule that every cited source be opened (link check results in the paper); a second agent session of the same model family cross-checked each country against the rubric anchors and peer countries; the authors reviewed the results. Everything comes from public information: laws, government and regulator pages, court decisions and published news. Read ranks as the likely ranges published with each country, not as single positions.
 
 ## How to cite
 

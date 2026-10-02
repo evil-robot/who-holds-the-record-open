@@ -1,0 +1,344 @@
+{
+  "iso3": "AFG",
+  "name": "Afghanistan",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Afghanistan has no data protection law and mostly paper records, and its health policy says the ministry owns all health data.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 20,
+      "summary": "Only private clinics have a written duty to give patients a copy of their clinical records, under a 2012 regulation. There is no national patient portal, and records are still mostly on paper.",
+      "detail": [
+        "Article 34 of the Private Health Centres Regulation (Official Gazette No. 1084, August 2012) says the head of a private health centre must give the patient a copy of the clinical records, including examination and treatment reports, after treatment ends. The centre keeps another copy for 10 years.",
+        "We found no matching rule for state hospitals and clinics. The Public Health Law sets a duty of medical secrecy, but we found no clause giving patients a right to see or copy their record.",
+        "Both texts date from the former Republic. The Ministry of Public Health still lists them on its laws page, but how far the current authorities enforce them was not verified, so the score sits in the lower half of its band.",
+        "There is no patient portal. A 2026 study quotes a ministry staff member: \"Our system is still mostly paper-based.\" We found no national or hospital patient portal in ministry sources."
+      ],
+      "sources": [
+        {
+          "title": "Private Health Centres Regulation, Official Gazette No. 1084 (MoPH copy)",
+          "url": "https://moph.gov.af/sites/default/files/2025-07/PHCR%201084-2012.pdf",
+          "date": "2012-08-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Laws and regulations (Ministry of Public Health)",
+          "url": "https://moph.gov.af/dr/%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86-%D9%88-%D9%85%D9%82%D8%B1%D8%B1%D9%87-%D9%87%D8%A7",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Strategic analysis of the health information system for communicable disease control in Afghanistan (BMC Health Services Research)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13195962/",
+          "date": "2026-04-11",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "control": {
+      "score": 20,
+      "summary": "The 2025 to 2030 National Health Policy states that the Ministry of Public Health owns all health-related data. We found no patient consent choices, opt-out or access log for health records.",
+      "detail": [
+        "The National Health Policy 1446 to 1451 (2025 to 2030) says the ministry owns all health-related data and information. Any organisation collecting health data must align with the ministry's health information directorate on data structure and exchange.",
+        "The same policy bars other government bodies and partners from releasing health information without the ministry's approval. These are rules between institutions, not choices for the patient.",
+        "No law or policy we opened gives patients a say over who sees their record, an opt-out from sharing, or a log of who looked. With records mostly on paper, control sits with each facility and the ministry.",
+        "The policy promises \"special attention\" to patient privacy and makes a ministry directorate responsible for protecting health information from misuse and unauthorised access. It gives patients no tool or right to use."
+      ],
+      "sources": [
+        {
+          "title": "National Health Policy 1446 to 1451 (2025 to 2030), Ministry of Public Health (copy hosted by ORCD)",
+          "url": "https://www.orcd.org/Resources/NHS--English%20-Jan%202026%20-PDF.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Strategic analysis of the health information system for communicable disease control in Afghanistan (BMC Health Services Research)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13195962/",
+          "date": "2026-04-11",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 20,
+      "summary": "Afghanistan has no data protection law and no data regulator; Human Rights Watch reported none in 2022 and we found none since. Doctors carry a legal duty of medical secrecy, but there are no health data breach rules or penalties.",
+      "detail": [
+        "Article 10 of the Public Health Law obliges doctors and other medical staff to keep medical secrets, and to report diseases that endanger large numbers of people to the authorities.",
+        "Hacking is a crime. The cybercrime chapter of the Penal Code, still posted by the communications ministry, punishes unauthorised access to computer data with short imprisonment. Whether that chapter is still applied was not verified.",
+        "State access is a known risk. Human Rights Watch reported in 2022 that the Taliban control donor-built systems holding biometric and personal data of Afghans.",
+        "Afghanistan has no EU adequacy decision, and EU rules such as the GDPR and the European Health Data Space do not apply there."
+      ],
+      "sources": [
+        {
+          "title": "Public Health Law, legislative decree approved by the Council of Ministers 1385/8/30 (MoPH copy)",
+          "url": "https://moph.gov.af/sites/default/files/2019-07/%D8%AA%D9%88%D8%B4%DB%8C%D8%AD%20%D8%B7%D8%B1%D8%AD%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B5%D8%AD%D8%AA%20%D8%B9%D8%A7%D9%85%D9%87.pdf",
+          "date": "2006-11-21",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Cybercrimes in the Penal Code of Afghanistan (Ministry of Communications and IT)",
+          "url": "https://mcit.gov.af/dr/%D8%AC%D8%B1%D8%A7%DB%8C%D9%85-%D8%B3%D8%A7%DB%8C%D8%A8%D8%B1%DB%8C%D8%8C-%D8%AF%D8%B1-%DA%A9%D9%88%D8%AF-%D8%AC%D8%B2%D8%A7%DB%8C-%D8%A7%D9%81%D8%BA%D8%A7%D9%86%D8%B3%D8%AA%D8%A7%D9%86",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "New Evidence that Biometric Data Systems Imperil Afghans (Human Rights Watch)",
+          "url": "https://www.hrw.org/news/2022/03/30/new-evidence-biometric-data-systems-imperil-afghans",
+          "date": "2022-03-30",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 22,
+      "summary": "No law limits selling health data or using it for marketing, because Afghanistan has no data protection law. The only protection we found is the medical secrecy duty on doctors and private clinics.",
+      "detail": [
+        "Article 10 of the Public Health Law and the 2012 private centres regulation are the only health-specific limits on disclosure we found. Neither mentions selling data, advertising, data brokers or de-identified data.",
+        "Human Rights Watch reported in 2022 that Afghanistan has no data protection law. We found no such law enacted since, so nothing we opened governs consumer health apps or data brokers.",
+        "Digital health data is still scarce. A 2026 study describes a system that is mostly paper-based, with under-reporting from the private sector."
+      ],
+      "sources": [
+        {
+          "title": "Public Health Law, legislative decree approved by the Council of Ministers 1385/8/30 (MoPH copy)",
+          "url": "https://moph.gov.af/sites/default/files/2019-07/%D8%AA%D9%88%D8%B4%DB%8C%D8%AD%20%D8%B7%D8%B1%D8%AD%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B5%D8%AD%D8%AA%20%D8%B9%D8%A7%D9%85%D9%87.pdf",
+          "date": "2006-11-21",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Private Health Centres Regulation, Official Gazette No. 1084 (MoPH copy)",
+          "url": "https://moph.gov.af/sites/default/files/2025-07/PHCR%201084-2012.pdf",
+          "date": "2012-08-11",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "New Evidence that Biometric Data Systems Imperil Afghans (Human Rights Watch)",
+          "url": "https://www.hrw.org/news/2022/03/30/new-evidence-biometric-data-systems-imperil-afghans",
+          "date": "2022-03-30",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Strategic analysis of the health information system for communicable disease control in Afghanistan (BMC Health Services Research)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13195962/",
+          "date": "2026-04-11",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "journey": {
+      "score": 18,
+      "summary": "Health facilities report aggregate data to the ministry through DHIS2, but patient records do not follow people between clinics, hospitals and pharmacies. An electronic record system was still at pilot planning in June 2026.",
+      "detail": [
+        "DHIS2 is the ministry's reporting platform. WHO's 2025 annual report says maternal and newborn death reporting tools were integrated into DHIS2 for real-time reporting, and 22 health information and medical record officers got tablets for online reporting.",
+        "These are counts for public health, not patient records. A 2026 study lists the lack of electronic health records, partial DHIS2 coverage and no real-time reporting among the system's weaknesses.",
+        "In June 2026 the ministry and WHO discussed the network, equipment and procurement needed to pilot an electronic health record system. The page describes preparation for a pilot, not a running system.",
+        "A 2025 order from the Taliban leader told the ministry to start computerised prescriptions as a trial where facilities allow. BBC reporting describes typed, printed prescriptions; we found no electronic link to pharmacies."
+      ],
+      "sources": [
+        {
+          "title": "Afghanistan annual report 2025 (WHO Afghanistan Country Office)",
+          "url": "https://applications.emro.who.int/docs/9789292747589-eng.pdf",
+          "date": "2026",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Strategic analysis of the health information system for communicable disease control in Afghanistan (BMC Health Services Research)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13195962/",
+          "date": "2026-04-11",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Technical Meeting Held on the Development of the Electronic Health Record (EHR/EMR) System (MoPH)",
+          "url": "https://moph.gov.af/en/technical-meeting-held-development-electronic-health-record-ehremr-system",
+          "date": "2026-06-03",
+          "publisherClass": "official"
+        },
+        {
+          "title": "The trouble with coded prescriptions in Afghanistan: how feasible are computerised prescriptions? (BBC News Dari)",
+          "url": "https://www.bbc.com/dari/articles/cy8v8xvy959o",
+          "date": "2025-11-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 15,
+      "summary": "A treating doctor cannot see records held by other providers, because no shared record or exchange exists. Single hospitals, such as Ibn Sina emergency hospital in Kabul, have only begun online patient databases.",
+      "detail": [
+        "We found no national record exchange or shared patient summary. A 2026 study quotes a ministry staff member saying the system is \"still mostly paper-based\".",
+        "The ministry opened an online database at Ibn Sina emergency hospital in Kabul in October 2025 so staff can record and track patient histories. It said use would spread to other state hospitals.",
+        "The Private Health Centres Regulation makes private centres keep records for 10 years and give the ministry archived records for quality checks. It says nothing about sharing them with another treating doctor.",
+        "The ministry says its planned hospital record system should let everyone use the record everywhere. That is a goal, not a working service."
+      ],
+      "sources": [
+        {
+          "title": "Online database system officially opened at Ibn Sina emergency hospital (Didpress)",
+          "url": "https://didpress.com/178032/",
+          "date": "2025-10-31",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Strategic analysis of the health information system for communicable disease control in Afghanistan (BMC Health Services Research)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13195962/",
+          "date": "2026-04-11",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "MoPH meeting on an electronic health record and treatment registration system for hospitals (Pashto)",
+          "url": "https://moph.gov.af/index.php/ps/%D8%AF-%D8%B9%D8%A7%D9%85%DB%90-%D8%B1%D9%88%D8%BA%D8%AA%DB%8C%D8%A7-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%AF-%D8%B1%D9%88%D8%BA%D8%AA%D9%88%D9%86%D9%88%D9%86%D9%88-%D9%84%D9%BE%D8%A7%D8%B1%D9%87-%D8%AF-%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%D9%8A-%D8%B1%D9%88%D8%BA%D8%AA%DB%8C%D8%A7%DB%8C%D9%8A-%D8%B1%DB%8C%DA%A9%D8%A7%D8%B1%DA%89-%D8%A7%D9%88-%D8%AF%D8%B1%D9%85%D9%84%D9%86%DB%90-%D8%AF-%D8%AB%D8%A8%D8%AA-%D9%BE%D8%B1-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D9%86%D8%A7%D8%B3%D8%AA%D9%87",
+          "date": "2025-12-14",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Private Health Centres Regulation, Official Gazette No. 1084 (MoPH copy)",
+          "url": "https://moph.gov.af/sites/default/files/2025-07/PHCR%201084-2012.pdf",
+          "date": "2012-08-11",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 30,
+      "summary": "National health studies need approval from the ministry's Institutional Review Board under the 2025 to 2030 health policy. No law on research consent or reuse of patient records was verified, and the ministry claims ownership of all health data.",
+      "detail": [
+        "The National Health Policy requires national health surveys, research and evaluations to get ministry IRB approval before they start. A 2023 review says the ministry set up its first health research IRB in 2005, and about ten non-registered IRBs also operate.",
+        "In October 2025 the ministry met to appoint new IRB members and revise its procedures. Officials said a committee of senior leaders, technical experts and religious scholars would carry out the review.",
+        "We found no law on informed consent for trials, no rule on reusing patient records for research, and no opt-out. With the consent rules not verified, no anchor regime is established, so the score sits in the lower half of the Weak band."
+      ],
+      "sources": [
+        {
+          "title": "National Health Policy 1446 to 1451 (2025 to 2030), Ministry of Public Health (copy hosted by ORCD)",
+          "url": "https://www.orcd.org/Resources/NHS--English%20-Jan%202026%20-PDF.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ministry of Public Health Convenes Institutional Review Board (IRB) Meeting (MoPH)",
+          "url": "https://moph.gov.af/en/ministry-public-health-convenes-institutional-review-board-irb-meeting",
+          "date": "2025-10-28",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Conducting Health Research in the Current Afghan Society: Challenges, Opportunities, and Recommendations (Risk Manag Healthc Policy)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10662640/",
+          "date": "2023-11-17",
+          "publisherClass": "academic"
+        }
+      ]
+    },
+    "ai": {
+      "score": 15,
+      "summary": "We found no rules for AI in clinical care: no AI law, no health AI guidance and no regulation of medical software. The 2025 to 2030 National Health Policy covers e-health and telemedicine but does not mention AI.",
+      "detail": [
+        "The National Health Policy promotes e-health, including telemedicine and electronic records, but has no provisions on artificial intelligence, algorithms or decision support.",
+        "The Afghanistan Food and Drug Authority describes its mandate around medicines and health products. We found no rule or guidance on software or AI as a medical device.",
+        "Searches in Dari, Pashto and English found no health AI policy. For a non-EU country with nothing in force, the anchor band is 15 to 30, and this score sits at its floor."
+      ],
+      "sources": [
+        {
+          "title": "National Health Policy 1446 to 1451 (2025 to 2030), Ministry of Public Health (copy hosted by ORCD)",
+          "url": "https://www.orcd.org/Resources/NHS--English%20-Jan%202026%20-PDF.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Afghanistan Food and Drugs Authority (AFDA): mandate and background",
+          "url": "https://www.afda.gov.af/en/afghanistan-food-and-drugs-authority-afda",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "siloed",
+    "labs": "unknown",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "siloed"
+  },
+  "journeyNote": "Facilities send aggregate counts to the ministry's DHIS2 platform. Patient records are mostly paper and stay with each facility; hospital electronic records and computerised prescriptions are pilots begun in 2025 and 2026.",
+  "laws": [
+    {
+      "name": "Public Health Law",
+      "level": "National",
+      "year": "2006",
+      "what": "Free primary care; Article 10 binds doctors and medical staff to medical secrecy, with outbreak reporting.",
+      "url": "https://moph.gov.af/sites/default/files/2019-07/%D8%AA%D9%88%D8%B4%DB%8C%D8%AD%20%D8%B7%D8%B1%D8%AD%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B5%D8%AD%D8%AA%20%D8%B9%D8%A7%D9%85%D9%87.pdf"
+    },
+    {
+      "name": "Private Health Centres Regulation (Official Gazette No. 1084)",
+      "level": "National",
+      "year": "2012",
+      "what": "Private centres must give patients a copy of clinical records and keep records for 10 years.",
+      "url": "https://moph.gov.af/sites/default/files/2025-07/PHCR%201084-2012.pdf"
+    },
+    {
+      "name": "Penal Code, cybercrime chapter",
+      "level": "National",
+      "year": "2017",
+      "what": "Criminalises unauthorised access to, and interference with, computer data and systems.",
+      "url": "https://mcit.gov.af/dr/%D8%AC%D8%B1%D8%A7%DB%8C%D9%85-%D8%B3%D8%A7%DB%8C%D8%A8%D8%B1%DB%8C%D8%8C-%D8%AF%D8%B1-%DA%A9%D9%88%D8%AF-%D8%AC%D8%B2%D8%A7%DB%8C-%D8%A7%D9%81%D8%BA%D8%A7%D9%86%D8%B3%D8%AA%D8%A7%D9%86"
+    },
+    {
+      "name": "National Health Policy 1446 to 1451 (2025 to 2030)",
+      "level": "National",
+      "year": "2025",
+      "what": "Ministry owns all health data; plans electronic records; health research needs ministry IRB approval.",
+      "url": "https://www.orcd.org/Resources/NHS--English%20-Jan%202026%20-PDF.pdf"
+    },
+    {
+      "name": "Taliban leader's order on computerised prescriptions",
+      "level": "National",
+      "year": "2025",
+      "what": "Tells the health ministry to trial computerised prescriptions where facilities allow, then expand.",
+      "url": "https://www.bbc.com/dari/articles/cy8v8xvy959o"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-01",
+      "headline": "Rights group says nationwide internet shutdown impeded access to health care",
+      "source": "Human Rights Watch",
+      "url": "https://www.hrw.org/news/2025/10/01/afghanistan-internet-shutdowns-imperil-rights",
+      "why": "Digital records and health reporting depend on connections the authorities can cut."
+    },
+    {
+      "date": "2025-10-31",
+      "headline": "Ministry opens online patient database at Kabul's Ibn Sina emergency hospital",
+      "source": "Didpress",
+      "url": "https://didpress.com/178032/",
+      "why": "One of the first hospital systems to record patient histories electronically."
+    },
+    {
+      "date": "2025-11-20",
+      "headline": "Taliban leader orders computerised prescriptions; Kabul polyclinic starts typing them",
+      "source": "BBC News Dari",
+      "url": "https://www.bbc.com/dari/articles/cy8v8xvy959o",
+      "why": "Legible prescriptions cut dispensing errors, but power shortages limit the rollout."
+    },
+    {
+      "date": "2026-06-03",
+      "headline": "Health ministry and WHO plan pilot of an electronic health record system",
+      "source": "Ministry of Public Health",
+      "url": "https://moph.gov.af/en/technical-meeting-held-development-electronic-health-record-ehremr-system",
+      "why": "A first step toward records that could follow patients between facilities."
+    },
+    {
+      "date": "2026-09-03",
+      "headline": "Minister orders steps toward full digitalisation of state hospitals",
+      "source": "The Kabul Times",
+      "url": "https://www.thekabultimes.com/digitalization-of-state-hospitals-improves-transparency-service-delivery-minister-says/",
+      "why": "Patient health information moves to digital systems with no data protection law in place."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

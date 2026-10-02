@@ -107,6 +107,14 @@ if os.path.exists(path):
           fresh["monteCarlo"] == disk["monteCarlo"] and fresh["alternatives"] == disk["alternatives"]
           and disk["meta"]["data"]["dataSha256"] == meta["dataSha256"])
 
+# 8. Calibrated error (F3) and the lead rule (DECISION_RULES.md rule 2).
+if os.path.exists(path):
+    mcd = disk["monteCarlo"]; mw = lambda e: sorted(v["rank90"][1] - v["rank90"][0] for v in mcd[e]["countries"].values())[len(iso) // 2]
+    check("calibrated main model gives wider rank ranges than the +/-5 lower bound", mw(R.MAIN) > mw("noise5"), f"{mw(R.MAIN)} vs {mw('noise5')}")
+    shares = {c: v["firstShare"] for c, v in mcd[R.MAIN]["countries"].items()}
+    check("lead rule inputs: first shares sum to at least 1 (ties count for each tied country)", sum(shares.values()) >= 0.999, f"{sum(shares.values()):.3f}")
+    check("cell SD is derived from the blind re-scoring limits of agreement", abs(R.CAL_CELL_SD - (R._REL["loa"][1] - R._REL["loa"][0]) / (2 * 1.96) / np.sqrt(2)) < 0.01, str(R.CAL_CELL_SD))
+
 w_ = max(len(r[0]) for r in results)
 for label, ok, note in results:
     print(f"{'PASS' if ok else 'FAIL'}  {label.ljust(w_)}  {note}")

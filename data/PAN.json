@@ -1,0 +1,157 @@
+{
+  "iso3": "PAN",
+  "name": "Panama",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Panama's laws give patients free, fast access to their data, but records stay split between the Health Ministry, the Social Security Fund and private providers.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 50,
+      "summary": "Ley 68 gives patients the right to know all information about their health, and Ley 81 makes data requests free with a 10 business day deadline. There is no national portal; the Social Security Fund shows only 12 months of lab results online.",
+      "detail": [
+        "Ley 68 of 2003, Article 5, says patients in public and private care have the right to know all information obtained about their own health. Article 51 refers to the patient's right of access to the clinical record, which can also be used through a representative.",
+        "Ley 81 of 2019 gives a right of access (Article 15) and a right to portability in a structured, common format. Article 16 requires the information to be provided within 10 business days. Decreto Ejecutivo 285 of 2021, Article 23, makes responses to these requests free.",
+        "In March 2026 the Social Security Fund (CSS) added lab results from the past 12 months to its Mi Caja Digital portal. A CSS official told TVN that about 780,000 insured people of 1.4 million were registered. The official CSS page could not be opened, so the portal earns no extra credit here.",
+        "No single portal shows the full record. Ministry of Health (MINSA) patients and CSS members are served by separate systems, and private providers answer requests one by one."
+      ],
+      "sources": [
+        {"title": "Ley 68 de 2003, derechos y obligaciones de los pacientes (Hospital Santo Tomas copy)", "url": "https://www.hospitalsantotomas.gob.pa/download/transparencia/otros_documentos_y_normas/9.6.0-LEY-68-DERECHOS-PACIENTE.pdf", "date": "2003-11-25", "publisherClass": "legal_text"},
+        {"title": "Ley 81 de 2019, sobre proteccion de datos personales (Asamblea Nacional, Legispan)", "url": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2019/LEY/Administrador%20Legispan_28743-A_2019_3_29_ASAMBLEA%20NACIONAL_81.pdf", "date": "2019-03-29", "publisherClass": "legal_text"},
+        {"title": "Decreto Ejecutivo 285 de 2021, reglamenta la Ley 81 (SIJUSA copy)", "url": "https://www.sijusa.com/wp-content/uploads/2022/04/DE_285_2021.pdf", "date": "2021-05-28", "publisherClass": "legal_text"},
+        {"title": "Mi Caja Digital: asegurados podran ver resultados de laboratorio en linea (TVN)", "url": "https://www.tvn-2.com/nacionales/caja-digital-ahora-puedes-ver-laboratorios-en-linea_1_2233213.html", "date": "2026-03-24", "publisherClass": "news"}
+      ]
+    },
+    "control": {
+      "score": 32,
+      "summary": "Ley 68 says nobody may see a person's health data without authorisation unless the law allows it, but the same law opens the record to every clinician treating the patient at that centre. No opt-out from record sharing and no patient-visible access log was found.",
+      "detail": [
+        "Ley 68, Article 13, gives a right to confidentiality and says no one may access health data without the person's authorisation, except where the law provides otherwise. Breaches are punished under the Penal Code.",
+        "Articles 43 and 44 say clinicians involved in a patient's diagnosis or treatment at a centre must have access to the record at all times. Article 45 allows access for epidemiology, research and teaching under the law.",
+        "Article 48 requires hospitals to apply security controls and keep a record of every access to patient data. Whether a patient can see that access log was not verified.",
+        "Ley 81 lets people revoke consent and object to processing, and Decreto 285 says withdrawing consent must be as easy as giving it. Article 20 of Ley 81, however, lets health facilities process patient health data under professional secrecy, and no opt-out from the MINSA or CSS records was found."
+      ],
+      "sources": [
+        {"title": "Ley 68 de 2003, derechos y obligaciones de los pacientes (Hospital Santo Tomas copy)", "url": "https://www.hospitalsantotomas.gob.pa/download/transparencia/otros_documentos_y_normas/9.6.0-LEY-68-DERECHOS-PACIENTE.pdf", "date": "2003-11-25", "publisherClass": "legal_text"},
+        {"title": "Ley 81 de 2019, sobre proteccion de datos personales (Asamblea Nacional, Legispan)", "url": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2019/LEY/Administrador%20Legispan_28743-A_2019_3_29_ASAMBLEA%20NACIONAL_81.pdf", "date": "2019-03-29", "publisherClass": "legal_text"},
+        {"title": "Decreto Ejecutivo 285 de 2021, reglamenta la Ley 81 (SIJUSA copy)", "url": "https://www.sijusa.com/wp-content/uploads/2022/04/DE_285_2021.pdf", "date": "2021-05-28", "publisherClass": "legal_text"}
+      ]
+    },
+    "privacy": {
+      "score": 48,
+      "summary": "Ley 81 treats health data as sensitive and requires breach notice within 72 hours, but fines run only from B/.1,000 to B/.10,000. The regulator ANTAI fined a plastic surgery clinic B/.8,000 in 2023 for posting a patient's photos without consent.",
+      "detail": [
+        "Ley 81 lists health data as sensitive. Consent for health data must be prior, irrefutable and express (Article 8), and sensitive data may be transferred only in listed cases, such as explicit authorisation (Article 13).",
+        "Decreto 285, Article 37, requires the controller to notify the authority and affected people of a security breach within 72 hours.",
+        "The transparency authority ANTAI enforces the law. Ley 81, Article 36, sets fines from B/.1,000 to B/.10,000, a low ceiling. ANTAI's independence from government was not verified.",
+        "In July 2023 ANTAI fined a plastic surgery clinic B/.8,000 for publishing a patient's photos on WhatsApp and Instagram without consent. In September 2025 MINSA said a planning system was hacked but no patient data was reached, and in July 2026 the CSS denied a claimed hack."
+      ],
+      "sources": [
+        {"title": "Ley 81 de 2019, sobre proteccion de datos personales (Asamblea Nacional, Legispan)", "url": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2019/LEY/Administrador%20Legispan_28743-A_2019_3_29_ASAMBLEA%20NACIONAL_81.pdf", "date": "2019-03-29", "publisherClass": "legal_text"},
+        {"title": "Comunicado: ANTAI sanciona a clinica de cirugia plastica (ANTAI)", "url": "https://antai.gob.pa/comunicado-7/", "date": "2023-07-17", "publisherClass": "official"},
+        {"title": "Comunicado sobre acceso no autorizado al SIMEPLANS (Ministerio de Salud)", "url": "https://www.minsa.gob.pa/noticia/comunicado-153", "date": "2025-09-25", "publisherClass": "official"},
+        {"title": "Caja de Seguro Social desmiente hackeo y denuncia campana de desinformacion (TVN)", "url": "https://www.tvn-2.com/nacionales/caja-seguro-social-desmiente-hackeo-denuncia-campana-de-desinformacion_1_2250093.html", "date": "2026-07-08", "publisherClass": "news"}
+      ]
+    },
+    "commercial": {
+      "score": 52,
+      "summary": "Health data needs express consent under Ley 81 and cannot be transferred without explicit authorisation, and ANTAI has punished a clinic for using patient photos in advertising. No specific rule on health data sales, data brokers or de-identified data markets was found.",
+      "detail": [
+        "Ley 81 requires prior, irrefutable and express consent for health data, and data may be used only for the purpose collected unless new consent or a law allows otherwise (Article 11).",
+        "Article 13 bars transfer of sensitive data except with explicit authorisation, to save a life, for court proceedings, or for historical, statistical or scientific purposes with identities separated.",
+        "ANTAI's 2023 fine against a clinic that posted a patient's surgery photos for promotion shows the rules applied to health marketing. No ban on selling health data or on health-based ad targeting was found."
+      ],
+      "sources": [
+        {"title": "Ley 81 de 2019, sobre proteccion de datos personales (Asamblea Nacional, Legispan)", "url": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2019/LEY/Administrador%20Legispan_28743-A_2019_3_29_ASAMBLEA%20NACIONAL_81.pdf", "date": "2019-03-29", "publisherClass": "legal_text"},
+        {"title": "Comunicado: ANTAI sanciona a clinica de cirugia plastica (ANTAI)", "url": "https://antai.gob.pa/comunicado-7/", "date": "2023-07-17", "publisherClass": "official"},
+        {"title": "Decreto Ejecutivo 285 de 2021, reglamenta la Ley 81 (SIJUSA copy)", "url": "https://www.sijusa.com/wp-content/uploads/2022/04/DE_285_2021.pdf", "date": "2021-05-28", "publisherClass": "legal_text"}
+      ]
+    },
+    "journey": {
+      "score": 45,
+      "summary": "MINSA's electronic record (SEIS) ran in 195 facilities with 3 million patients enrolled by January 2024, while the CSS runs its own system. A merger of the two networks, including one shared record, began in 2026 and is planned to take about two years.",
+      "detail": [
+        "MINSA reported in January 2024 that SEIS ran in 173 primary care sites, 20 hospitals and 2 institutes, with 3 million patients enrolled. SEIS handles lab, radiology and pharmacy orders from the consulting room.",
+        "The CSS, which is both insurer and provider, keeps a separate record. In June 2026 it began rolling out a new Expediente Clinico Electronico. Its Mi Receta Digital e-prescription service launched in May 2026, and about 250 private doctors had registered by mid May.",
+        "In December 2025 a MINSA adviser said the MINSA-CSS integration would start in Herrera and Los Santos and take about two years. A June 2026 report lists a single clinical record among its goals.",
+        "Private hospitals and clinics are not linked to either public record, except that private doctors can now send prescriptions to CSS pharmacies."
+      ],
+      "sources": [
+        {"title": "Expediente electronico SEIS y digitalizacion de sistemas de salud (Ministerio de Salud)", "url": "https://www.minsa.gob.pa/noticia/expediente-electronico-seis-y-digitalizacion-de-sistemas-de-salud-para-mejorar-la-cobertura", "date": "2024-01-18", "publisherClass": "official"},
+        {"title": "El plan de integracion Minsa-CSS en atencion esta trazado y tomara dos anos (La Prensa)", "url": "https://www.prensa.com/sociedad/el-plan-de-integracion-minsa-css-en-atencion-esta-trazado-y-tomara-dos-anos/", "date": "2025-12-16", "publisherClass": "news"},
+        {"title": "CSS: Nuevo Expediente Clinico Electronico busca agilizar citas (Telemetro)", "url": "https://www.telemetro.com/nacionales/css-nuevo-expediente-clinico-electronico-busca-agilizar-citas-y-mejorar-la-atencion-n6082426", "date": "2026-06-17", "publisherClass": "news"},
+        {"title": "CSS suma 250 medicos privados a Mi Receta Digital (Telemetro)", "url": "https://www.telemetro.com/nacionales/css-suma-250-medicos-privados-mi-receta-digital-n6079698", "date": "2026-05-19", "publisherClass": "news"}
+      ]
+    },
+    "clinical": {
+      "score": 45,
+      "summary": "Ley 68 requires every centre to give treating clinicians access to the record at all times, and SEIS lets MINSA clinicians open a patient's record at any facility using it. A MINSA clinician still cannot see the CSS record, or the reverse.",
+      "detail": [
+        "Ley 68, Articles 43 and 44, require each centre to make the record available to the clinicians treating the patient whenever care is given. Article 52 asked MINSA and the CSS to study shared records between centres. That shared record does not exist yet.",
+        "MINSA's SEIS page promises immediate access to the patient's record from any facility where SEIS is installed. Coverage outside those 195 facilities, and in private care, is not included.",
+        "The CSS says its new electronic record will give its own clinicians a fuller history. Cross-network access is planned under the MINSA-CSS integration, but no date for a shared record was found."
+      ],
+      "sources": [
+        {"title": "Sistema Electronico de Informacion de Salud (SEIS), programa (Ministerio de Salud)", "url": "https://www.minsa.gob.pa/programa/sistema-electronico-de-informacion-de-salud-seis", "date": "undated", "publisherClass": "official"},
+        {"title": "Ley 68 de 2003, derechos y obligaciones de los pacientes (Hospital Santo Tomas copy)", "url": "https://www.hospitalsantotomas.gob.pa/download/transparencia/otros_documentos_y_normas/9.6.0-LEY-68-DERECHOS-PACIENTE.pdf", "date": "2003-11-25", "publisherClass": "legal_text"},
+        {"title": "Integracion entre la Caja de Seguro y el Minsa: expediente clinico unico (TVN)", "url": "https://www.tvn-2.com/nacionales/integracion-caja-de-seguro-social-minsa-expediente-clinico-unico-compras-insumos-conjuntas-salud-en-panama_1_2244088.html", "date": "2026-06-03", "publisherClass": "news"}
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Ley 81 allows research on anonymised data without consent, and there is no general opt-out. Accredited ethics committees, the MINSA research register RESEGIS with public quarterly reports, and a statutory duty of confidentiality earn the score.",
+      "detail": [
+        "Ley 81, Article 12, says later use of data for research or public interest studies needs no consent if the data is anonymised. Ley 68, Article 45, allows access to records for research subject to law.",
+        "Ley 84 of 2019 governs health research. Decreto Ejecutivo 21 of April 2026 regulates its ethics committees and research register. MINSA publishes quarterly activity reports from RESEGIS. The consent articles of Ley 84 were not read directly, because the published text is a scanned image.",
+        "A vendor summary of Decreto 21 says only committees accredited by the national bioethics committee (CNBI) may approve protocols, and that every study must be registered in RESEGIS before it starts.",
+        "Ley 68, Article 13, makes breaches of health confidentiality punishable under the Penal Code. No specific penalty for re-identifying anonymised data was found."
+      ],
+      "sources": [
+        {"title": "Regulacion de Investigacion para la Salud (Ministerio de Salud)", "url": "https://www.minsa.gob.pa/informacion-salud/regulacion-de-investigacion-para-la-salud", "date": "undated", "publisherClass": "official"},
+        {"title": "Ley 81 de 2019, sobre proteccion de datos personales (Asamblea Nacional, Legispan)", "url": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2019/LEY/Administrador%20Legispan_28743-A_2019_3_29_ASAMBLEA%20NACIONAL_81.pdf", "date": "2019-03-29", "publisherClass": "legal_text"},
+        {"title": "Aspectos regulatorios de la recoleccion y uso de muestras y datos (CNBI)", "url": "https://cnbi.senacyt.gob.pa/wp-content/uploads/2023/10/2023-0927-JCandanedo-Aspectos-regulatorios-.pdf", "date": "2023-09-27", "publisherClass": "official"},
+        {"title": "Decreto 21 de Panama: nuevas reglas de investigacion clinica (BioAccess)", "url": "https://bioaccessla.com/blog/decreto-21-de-2026-panama-nuevas-reglas-investigacion-clinica-patrocinadores", "date": "2026-05-20", "publisherClass": "blog_vendor"}
+      ]
+    },
+    "ai": {
+      "score": 35,
+      "summary": "Ley 90 of 2017 defines medical devices to include software, so clinical software needs registration, but no AI-specific change control or human oversight rule was found. A national AI strategy launched in July 2026, and an AI governance bill is still before the Assembly.",
+      "detail": [
+        "Ley 90 of 2017, Article 6, defines a medical device as any instrument, apparatus, software or similar article meant for diagnosis, prevention, monitoring or treatment. MINSA's medical device directorate registers devices.",
+        "In July 2026 the government launched a National AI Strategy (IA 2036) and a commission with an AI subcommittee. SENACYT says an AI governance bill is under debate in the National Assembly. Neither sets rules for clinical AI.",
+        "Panama is not in the EU, so the EU AI Act, medical device rules and the European Health Data Space do not apply."
+      ],
+      "sources": [
+        {"title": "Ley 90 de 2017, sobre dispositivos medicos y productos afines (Asamblea Nacional, Legispan)", "url": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2017/LEY/Administrador%20Legispan_28433-B_2017_12_27_ASAMBLEA%20NACIONAL_90.pdf", "date": "2017-12-27", "publisherClass": "legal_text"},
+        {"title": "Panama lanza la Agenda Nacional de Tecnologias Avanzadas (Senacyt)", "url": "https://www.senacyt.gob.pa/panama-lanza-la-agenda-nacional-de-tecnologias-avanzadas-en-presencia-del-presidente-mulino/", "date": "2026-07-30", "publisherClass": "official"},
+        {"title": "Panama avanza en ruta de implementacion de la Estrategia Nacional de IA (La Web de la Salud)", "url": "https://lawebdelasalud.com/panama-avanza-en-ruta-de-implementacion-de-la-estrategia-nacional-de-inteligencia-artificial/", "date": "2026-09-22", "publisherClass": "news"}
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "unknown",
+    "research": "unknown"
+  },
+  "journeyNote": "MINSA's SEIS and the CSS record each link their own clinics, hospitals, labs and pharmacies, but not each other. Integration began in 2026. The CSS is both insurer and provider, so no separate claims flow was assessed.",
+  "laws": [
+    {"name": "Ley 68 de 2003 (derechos y obligaciones de los pacientes)", "level": "National", "year": "2003", "what": "Right to health information, confidentiality, informed consent, clinical record rules and logging of record access.", "url": "https://www.hospitalsantotomas.gob.pa/download/transparencia/otros_documentos_y_normas/9.6.0-LEY-68-DERECHOS-PACIENTE.pdf"},
+    {"name": "Ley 81 de 2019 (proteccion de datos personales)", "level": "National", "year": "2019", "what": "Health data sensitive; express consent; access within 10 business days; ANTAI fines B/.1,000 to 10,000.", "url": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2019/LEY/Administrador%20Legispan_28743-A_2019_3_29_ASAMBLEA%20NACIONAL_81.pdf"},
+    {"name": "Decreto Ejecutivo 285 de 2021 (reglamento de la Ley 81)", "level": "National", "year": "2021", "what": "Free exercise of data rights, easy consent withdrawal, breach notice within 72 hours.", "url": "https://www.sijusa.com/wp-content/uploads/2022/04/DE_285_2021.pdf"},
+    {"name": "Ley 84 de 2019 (investigacion para la salud)", "level": "National", "year": "2019", "what": "Governs health research, bioethics committees and the national research register.", "url": "https://www.minsa.gob.pa/informacion-salud/regulacion-de-investigacion-para-la-salud"},
+    {"name": "Decreto Ejecutivo 21 de 2026 (reglamento de los Titulos III y IV de la Ley 84)", "level": "National", "year": "2026", "what": "Regulates research ethics committees and the RESEGIS research register.", "url": "https://www.minsa.gob.pa/informacion-salud/regulacion-de-investigacion-para-la-salud"},
+    {"name": "Ley 90 de 2017 (dispositivos medicos y productos afines)", "level": "National", "year": "2017", "what": "Medical device registration and control; device definition includes software.", "url": "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2017/LEY/Administrador%20Legispan_28433-B_2017_12_27_ASAMBLEA%20NACIONAL_90.pdf"}
+  ],
+  "news": [
+    {"date": "2025-12-16", "headline": "Health Ministry and Social Security Fund set two-year plan to merge care", "source": "La Prensa", "url": "https://www.prensa.com/sociedad/el-plan-de-integracion-minsa-css-en-atencion-esta-trazado-y-tomara-dos-anos/", "why": "Merging the two public networks is the route to one shared record for patients."},
+    {"date": "2026-03-24", "headline": "CSS members can now view a year of lab results online", "source": "TVN", "url": "https://www.tvn-2.com/nacionales/caja-digital-ahora-puedes-ver-laboratorios-en-linea_1_2233213.html", "why": "First direct online access to part of the clinical record for insured patients."},
+    {"date": "2026-05-11", "headline": "CSS launches electronic prescriptions with QR code pickup", "source": "TVN", "url": "https://www.tvn-2.com/nacionales/caja-de-seguro-social-lanza-receta-digital-pacientes_1_2240401.html", "why": "Links private and MINSA prescribers to CSS pharmacies for the first time."},
+    {"date": "2026-06-17", "headline": "CSS rolls out a new electronic clinical record", "source": "Telemetro", "url": "https://www.telemetro.com/nacionales/css-nuevo-expediente-clinico-electronico-busca-agilizar-citas-y-mejorar-la-atencion-n6082426", "why": "Gives CSS clinicians a fuller digital history, though still separate from MINSA."},
+    {"date": "2026-07-08", "headline": "Social Security Fund denies its systems were hacked", "source": "TVN", "url": "https://www.tvn-2.com/nacionales/caja-seguro-social-desmiente-hackeo-denuncia-campana-de-desinformacion_1_2250093.html", "why": "Breach claims against the largest health record holder test public trust."}
+  ],
+  "asOf": "2026-10-01"
+}

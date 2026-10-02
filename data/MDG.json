@@ -1,0 +1,319 @@
+{
+ "iso3": "MDG",
+ "name": "Madagascar",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A 2015 data law gives patients a free right to their file, but records stay local and the regulator only started in 2025.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "Article 23 of Law 2014-038 gives a free right to all your data and a copy, directly or through a doctor you choose. It must be met \"without delay\" but no number of days is set, and there is no patient portal, so 40.",
+   "detail": [
+    "Law 2014-038 on personal data (promulgated 9 January 2015) says anyone can obtain, in an understandable form, all the data held about them and where it came from. Access is free, on site or at a distance, and a copy is given on request.",
+    "For health data, the patient chooses whether to receive it directly or through a doctor they name. The 2012 medical ethics code tells that doctor to act only in the patient's interest.",
+    "The law says requests must be met \"without delay\" but sets no number of days. The regulator that hears complaints, the CMIL, published its procedures manual in December 2025, giving itself 30 working days to rule on a complaint.",
+    "We found no national portal or app that shows patients their health record."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2014-038 sur la protection des données à caractère personnel (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2015-01-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret n° 2012-0632 portant Code de déontologie médicale (PIC Madagascar)",
+     "url": "https://www.pic.commerce.mg/sites/default/files/2023-05/Code%20de%20D%C3%A9ontologie%20M%C3%A9dical.pdf",
+     "date": "2012-06-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Manuel de procédures de la CMIL du 3 décembre 2025 (Unité de Gouvernance Digitale)",
+     "url": "https://digital.gov.mg/2025/12/03/manuel-procedures-cmil/",
+     "date": "2025-12-03",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "Health data may be processed without consent when a health professional bound by secrecy uses it for care, so patients have no say over routine use. There is no shared record, no opt-out and no access log a patient can read.",
+   "detail": [
+    "Article 18 of Law 2014-038 bans processing of health data, then lists exceptions. One covers preventive medicine, diagnosis, care and running health services by a health professional or anyone bound by professional secrecy. Consent is not needed for that.",
+    "Article 22 gives a right to object, free and at any time, but only for a legitimate reason, and not where processing meets a legal duty. The CMIL decides disputes over what counts as legitimate.",
+    "The 2012 medical ethics code says any computerised medical database should be under a named doctor and may have no link with other databases (Article 24). That limits sharing, but it is a rule for doctors, not a patient control.",
+    "We found no national shared record, no opt-out from sharing and no patient-visible log of who opened a file. Control sits with each facility."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2014-038 sur la protection des données à caractère personnel (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2015-01-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret n° 2012-0632 portant Code de déontologie médicale (PIC Madagascar)",
+     "url": "https://www.pic.commerce.mg/sites/default/files/2023-05/Code%20de%20D%C3%A9ontologie%20M%C3%A9dical.pdf",
+     "date": "2012-06-13",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 48,
+   "summary": "Health data is sensitive under Law 2014-038, misuse carries 2 to 5 years in prison and fines reach 5% of turnover. With no breach notice duty, no health-sector case found and a regulator working only since 2025, this scores the general law low in its band.",
+   "detail": [
+    "Article 18 lists health and genetic data as sensitive. Processing them outside the legal conditions is punished by 2 to 5 years in prison and a fine of 800,000 to 8 million ariary (Article 63). The CMIL can also fine up to 5% of turnover, doubled for repeat breaches.",
+    "The law requires security measures (Article 15) but we found no duty to notify a breach to the regulator or to patients. Security and police files get only indirect access through the CMIL.",
+    "The CMIL was created by decree in December 2023, its members swore in August 2025, and it said in January 2026 that it was fully operational. It joined the francophone data authorities network (AFAPDP) in November 2025.",
+    "The ministry's 2023 digital health strategy said applying the data law in health remained insufficient. We found no CMIL decision on a hospital, clinic or health app, so this scores the general law."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2014-038 sur la protection des données à caractère personnel (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2015-01-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Stratégie nationale de santé digitale 2023-2027 (Ministère de la Santé Publique)",
+     "url": "https://www.msanp.gov.mg/upload/documents/Strat%C3%A9gie_Nationale_en_Sant%C3%A9_Digitale_2023_2027_Sign%C3%A9e.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Madagascar franchit une étape clé dans le domaine de la protection des données personnelles (PREA)",
+     "url": "https://prea.gov.mg/prea/madagascar-franchit-une-etape-cle-dans-le-domaine-de-la-protection-des-donnees-personnelles-une-avancee-strategique-pour-la-transformation-digitale/",
+     "date": "2025-11-28",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Protection des données digitalisées : la Commission malagasy de l'informatique rassure (Newsmada)",
+     "url": "https://newsmada.com/2026/01/30/protection-des-donnees-digitalisees-la-commission-malagasy-de-linformatique-rassure/",
+     "date": "2026-01-30",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "Selling or reusing health data needs express consent under the sensitive-data ban, and anyone can refuse marketing use without giving a reason. We found no rules on health apps, data brokers or de-identified data, and no health enforcement.",
+   "detail": [
+    "Article 18 of Law 2014-038 lets sensitive data be processed with express consent or under listed exceptions, none of which is commercial. Article 14 bars reuse for another purpose without consent or a law allowing it.",
+    "Article 22 gives a right to refuse use of your data for prospecting, with no need to give a legitimate reason. Diverting a file from its original purpose is a crime carrying 2 to 5 years in prison (Article 66).",
+    "We found nothing on consumer health apps, data brokers or the sale of de-identified health data, and no CMIL action on commercial use of health data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2014-038 sur la protection des données à caractère personnel (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2015-01-09",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 22,
+   "summary": "DHIS2 carries national reporting, but the ministry's own strategy says clinical and hospital information systems are experimental and local, with no data exchange standard adopted. A hospital digitisation pilot began at two Antananarivo teaching hospitals in 2025.",
+   "detail": [
+    "The 2023-2027 digital health strategy names DHIS2 as the single platform for the health information system, with instances for routine reports, disease surveillance, COVID-19 vaccination and resources. It says clinical data and hospital information systems remain experimental and local.",
+    "The same strategy says no health information exchange standard has been adopted and the national digital health architecture is still to be built. Medicines supply at district level ran on a system that was not connected.",
+    "In January 2025 the digital ministry chose CHU Joseph Ravoahangy Andrianavalona and CHU Analakely as pilot sites for hospital digitisation, and the two ministries signed a partnership in March 2025. We found no report that patient records are live there.",
+    "In March 2026 the ministry trained heads of 20 public health centres in Antananarivo to pilot DHIS2 Tracker, which follows individual vaccinated children and women; 54 private facilities are to join. A national health data governance strategy was validated in June 2026."
+   ],
+   "sources": [
+    {
+     "title": "Stratégie nationale de santé digitale 2023-2027 (Ministère de la Santé Publique)",
+     "url": "https://www.msanp.gov.mg/upload/documents/Strat%C3%A9gie_Nationale_en_Sant%C3%A9_Digitale_2023_2027_Sign%C3%A9e.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Santé publique : le processus de digitalisation des hôpitaux enclenché (Newsmada)",
+     "url": "https://newsmada.com/2025/01/21/sante-publique-le-processus-de-digitalisation-des-hopitaux-enclenche/",
+     "date": "2025-01-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Malagasy Santé, bulletin d'information janvier-mars 2026 (OMS Madagascar)",
+     "url": "https://www.afro.who.int/sites/default/files/2026-04/Revue%20trimestrielle%20Version%207%20janv%20mars%202026.pdf",
+     "date": "2026-03",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "États-Unis soutient la nouvelle stratégie de Madagascar pour mieux gérer les données de santé (US Embassy)",
+     "url": "https://mg.usembassy.gov/fr/etats-unis-soutient-la-nouvelle-strategie-de-madagascar-pour-mieux-gerer-les-donnees-de-sante/",
+     "date": "2026-06-02",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 18,
+   "summary": "A treating clinician sees only the file held where the patient is treated, and the ethics code says medical databases may not link to other databases. The only transfer rule we found sends tuberculosis and leprosy files to the new doctor through the district.",
+   "detail": [
+    "Articles 215 and 217 of the 2011 Health Code say a tuberculosis or leprosy patient who moves must tell their doctor, who sends the file to the new doctor through the district medical inspector. We found no general rule for passing a record between providers.",
+    "The 2012 medical ethics code asks a doctor treating someone else's patient to try to contact the first doctor (Article 45). It also says medical databases may have no link with other databases.",
+    "The ministry's 2023 strategy describes hospital information systems as experimental and local. We found no shared record a clinician can open across facilities, in public or private care."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2011-002 portant Code de la Santé (BWC Implementation copy)",
+     "url": "https://bwcimplementation.org/sites/default/files/resource/Madagascar_CodedelaSante.pdf",
+     "date": "2011-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret n° 2012-0632 portant Code de déontologie médicale (PIC Madagascar)",
+     "url": "https://www.pic.commerce.mg/sites/default/files/2023-05/Code%20de%20D%C3%A9ontologie%20M%C3%A9dical.pdf",
+     "date": "2012-06-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Stratégie nationale de santé digitale 2023-2027 (Ministère de la Santé Publique)",
+     "url": "https://www.msanp.gov.mg/upload/documents/Strat%C3%A9gie_Nationale_en_Sant%C3%A9_Digitale_2023_2027_Sign%C3%A9e.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Patient data can be reused for public-interest health research unless the person has objected, and all biomedical research needs the national ethics committee's approval. There is no general opt-out or public register of uses, so 49, just under the band cap.",
+   "detail": [
+    "Article 18 of Law 2014-038 allows further processing of a patient's data for public-interest health research when the person has not objected. That is a case-by-case objection, not a general opt-out.",
+    "The 2011 Health Code says no one may be subjected to a medical or scientific experiment without free consent. Clinical trials need ministry authorisation after an ethics committee opinion, under WHO good clinical practice and the Declaration of Helsinki (Article 122).",
+    "Order 7805/2016 set up the Biomedical Research Ethics Committee at the health ministry. All research involving people needs its approval, and the ministry rules on its binding opinion.",
+    "Misuse of sensitive data carries 2 to 5 years in prison. The CMIL must keep a public list of declared processing, but we found no published register of health research uses."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2014-038 sur la protection des données à caractère personnel (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2015-01-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Arrêté n° 7805/2016 portant création du Comité d'Ethique de la Recherche Biomédicale (BWC Implementation copy)",
+     "url": "https://bwcimplementation.org/sites/default/files/resource/ARRETE%20N78052016_Biomedicale.pdf",
+     "date": "2016-04-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2011-002 portant Code de la Santé (BWC Implementation copy)",
+     "url": "https://bwcimplementation.org/sites/default/files/resource/Madagascar_CodedelaSante.pdf",
+     "date": "2011-07-15",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 22,
+   "summary": "We found no rules for AI in clinical care and no regulation of medical software. The Health Code defines medical devices without mentioning software, and the data law only bars decisions based solely on automated profiling.",
+   "detail": [
+    "Article 151 of the 2011 Health Code defines a medical device as an instrument, apparatus or article for medical use, with no mention of software. Rules on making and selling devices were left to a ministerial order we did not find.",
+    "Article 3 of Law 2014-038 bars administrative or private decisions based only on automated profiling, and Article 23 gives a right to know the logic behind an automated decision. These are general rules, not clinical AI rules.",
+    "The ministry's 2023 strategy said use of big data and AI in health was limited. We found no national AI strategy or health-AI guidance in force."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2011-002 portant Code de la Santé (BWC Implementation copy)",
+     "url": "https://bwcimplementation.org/sites/default/files/resource/Madagascar_CodedelaSante.pdf",
+     "date": "2011-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2014-038 sur la protection des données à caractère personnel (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2015-01-09",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Stratégie nationale de santé digitale 2023-2027 (Ministère de la Santé Publique)",
+     "url": "https://www.msanp.gov.mg/upload/documents/Strat%C3%A9gie_Nationale_en_Sant%C3%A9_Digitale_2023_2027_Sign%C3%A9e.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "connected",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 gathers national reports and disease surveillance, and a DHIS2 Tracker vaccination pilot is starting in Antananarivo. Hospital systems are experimental and local, two teaching hospitals are digitisation pilots, and no national insurance claims system was found.",
+ "laws": [
+  {
+   "name": "Loi n° 2014-038 sur la protection des données à caractère personnel",
+   "level": "National",
+   "year": "2015",
+   "what": "Health data is sensitive; free access and copy; care and research exceptions; CMIL regulator; prison and fines.",
+   "url": "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf"
+  },
+  {
+   "name": "Loi n° 2011-002 portant Code de la Santé",
+   "level": "National",
+   "year": "2011",
+   "what": "Trial authorisation after ethics review, consent for experiments, device definition, TB and leprosy file transfer.",
+   "url": "https://bwcimplementation.org/sites/default/files/resource/Madagascar_CodedelaSante.pdf"
+  },
+  {
+   "name": "Décret n° 2012-0632 portant Code de déontologie médicale",
+   "level": "National",
+   "year": "2012",
+   "what": "Medical secrecy; computerised medical databases under a named doctor and not linked to other databases.",
+   "url": "https://www.pic.commerce.mg/sites/default/files/2023-05/Code%20de%20D%C3%A9ontologie%20M%C3%A9dical.pdf"
+  },
+  {
+   "name": "Arrêté n° 7805/2016 sur le Comité d'Ethique de la Recherche Biomédicale",
+   "level": "National",
+   "year": "2016",
+   "what": "All biomedical research involving people needs the national ethics committee's approval.",
+   "url": "https://bwcimplementation.org/sites/default/files/resource/ARRETE%20N78052016_Biomedicale.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-11-28",
+   "headline": "Madagascar data regulator CMIL joins the francophone data protection authorities network",
+   "source": "PREA (Programme de Réformes pour l'Efficacité de l'Administration)",
+   "url": "https://prea.gov.mg/prea/madagascar-franchit-une-etape-cle-dans-le-domaine-de-la-protection-des-donnees-personnelles-une-avancee-strategique-pour-la-transformation-digitale/",
+   "why": "Patients now have a recognised regulator to complain to about misuse of their health data."
+  },
+  {
+   "date": "2026-01-30",
+   "headline": "CMIL says it is fully operational and plans to recruit 104 staff",
+   "source": "Newsmada",
+   "url": "https://newsmada.com/2026/01/30/protection-des-donnees-digitalisees-la-commission-malagasy-de-linformatique-rassure/",
+   "why": "The data law has existed since 2015, but enforcement only now has an institution behind it."
+  },
+  {
+   "date": "2026-03",
+   "headline": "Health ministry introduces DHIS2 Tracker pilot for individual vaccination records in Antananarivo",
+   "source": "WHO Madagascar",
+   "url": "https://www.afro.who.int/sites/default/files/2026-04/Revue%20trimestrielle%20Version%207%20janv%20mars%202026.pdf",
+   "why": "A first step from aggregate counts to individual digital records for children and women."
+  },
+  {
+   "date": "2026-04-22",
+   "headline": "Medicines agency launches VigiMobile app for reporting drug and vaccine side effects",
+   "source": "WHO Regional Office for Africa",
+   "url": "https://www.afro.who.int/fr/countries/madagascar/news/madagascar-renforce-sa-pharmacovigilance-avec-le-lancement-de-vigimobile",
+   "why": "Clinicians can report drug and vaccine side effects electronically, creating new patient safety data to protect."
+  },
+  {
+   "date": "2026-06-02",
+   "headline": "Health ministry validates national health data governance strategy with US funding",
+   "source": "US Embassy in Madagascar",
+   "url": "https://mg.usembassy.gov/fr/etats-unis-soutient-la-nouvelle-strategie-de-madagascar-pour-mieux-gerer-les-donnees-de-sante/",
+   "why": "Sets rules for collecting, sharing and protecting health data, including medical records."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

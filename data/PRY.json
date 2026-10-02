@@ -1,0 +1,349 @@
+{
+  "iso3": "PRY",
+  "name": "Paraguay",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Paraguay passed a modern data law in 2025 that does not apply until November 2027, and its national e-record bill died in May 2026.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 33,
+      "summary": "No law in force was found that gives patients a copy of their full clinical record; the constitution's habeas data covers official and public-character registers only. Ley 7593 adds a free access and copy right, but not until November 2027.",
+      "detail": [
+        "Article 135 of the 1992 Constitution lets any person access data about them held in official registers or private registers of a public character, and ask a judge to correct or destroy wrong data. It is a court remedy, not a records process.",
+        "Ley 7593/2025 gives a right to access and get a copy of one's personal data (Article 28), through free, simple procedures answered within 30 calendar days (Articles 26 and 27). Article 57 delays entry into force to 24 months after publication on 27 November 2025.",
+        "The bill that would have made the electronic clinical record the patient's property was archived on 18 May 2026 after the Senate upheld its rejection (SILpy). No statutory right to a copy of the clinical record was found in the Codigo Sanitario.",
+        "Mi IPS lets social security titleholders check consultations and medicines collected and manage appointments. No patient portal for the public HIS record was verified, so a fuller score is not given."
+      ],
+      "sources": [
+        {
+          "title": "Constitucion de la Republica del Paraguay 1992, Articulo 135 (Georgetown PDBA)",
+          "url": "https://pdba.georgetown.edu/Parties/Paraguay/Leyes/constitucion.pdf",
+          "date": "undated",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "Ley 7593/2025, proteccion de datos personales en la Republica del Paraguay (BaseLegal)",
+          "url": "https://baselegal.com.py/docs/c0b02f3c-cc40-11f0-8c5a-525400343722",
+          "date": "2025-11-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Expediente D-2375375, historia clinica electronica y su registro: archivado (SILpy)",
+          "url": "https://silpy.congreso.gov.py/web/expediente/129698",
+          "date": "2026-05-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Mi IPS (Instituto de Prevision Social)",
+          "url": "https://portal.ips.gov.py/sistemas/ipsportal/contenido.php?c=278",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 27,
+      "summary": "Records sit in provider systems such as the Health Ministry's HIS with no patient opt-out or patient-visible access log found. A 2026 rule logs each staff user by e-ID, but for traceability, not for patients.",
+      "detail": [
+        "Resolucion S.G. 318/2026 makes the government e-ID mandatory for staff using HIS, so every user who registers, consults or updates data is individually identified, which the ministry says improves traceability and accountability. No patient view of that log was found.",
+        "No rule was found that lets a patient block or limit who sees their HIS record. The archived e-record bill promised patients control over who could access their data; it did not become law.",
+        "Ley 7593 will require consent for sensitive data with listed health exceptions (Article 20) and allows exchange between public bodies when needed for their legal functions (Article 25). It applies only from November 2027."
+      ],
+      "sources": [
+        {
+          "title": "Avanza consolidacion del HIS como sistema unico e integral de informacion en salud (MSPBS)",
+          "url": "https://www.mspbs.gov.py/portal/35833/avanza-consolidacion-del-his-como-sistema-unico-e-integral-de-informacion-en-salud.html",
+          "date": "2026-06-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Expediente D-2375375, historia clinica electronica y su registro: archivado (SILpy)",
+          "url": "https://silpy.congreso.gov.py/web/expediente/129698",
+          "date": "2026-05-18",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley 7593/2025, proteccion de datos personales en la Republica del Paraguay (BaseLegal)",
+          "url": "https://baselegal.com.py/docs/c0b02f3c-cc40-11f0-8c5a-525400343722",
+          "date": "2025-11-27",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 35,
+      "summary": "Until November 2027 no general data protection law covers health data, only habeas data, a 2020 credit data law and professional secrecy. A June 2026 ransomware attack disrupted electronic records at three private hospital groups.",
+      "detail": [
+        "Ley 7593 classes health data as sensitive (Article 3), requires breach notice to the regulator and, where relevant, the person within 72 hours (Article 17), and allows fines up to 5,000 minimum daily wages for sensitive data (Article 46). None of this is in force before November 2027.",
+        "The new regulator, the Agencia Nacional de Proteccion de Datos Personales, will sit inside the ICT ministry with functional autonomy (Article 34). Ley 6534/2020 covers credit data only.",
+        "The Codigo Sanitario (Ley 836/80) Article 307 lets the state suspend or deregister health workers who willfully breach professional secrecy.",
+        "On 26 June 2026 ransomware hit Sanatorio Migone, Grupo Britanico and Reyva; e-records, scheduling and billing went down. Whether data was taken was not confirmed. Paraguay has no EU adequacy decision, and the European Health Data Space does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Ley 7593/2025, proteccion de datos personales en la Republica del Paraguay (BaseLegal)",
+          "url": "https://baselegal.com.py/docs/c0b02f3c-cc40-11f0-8c5a-525400343722",
+          "date": "2025-11-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 836/80, Codigo Sanitario (MSPBS DIGIES)",
+          "url": "https://digies.mspbs.gov.py/wp-content/uploads/Ley-N%C2%B0-836-Codigo-Sanitario.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "El ciberataque que obligo a los sanatorios a volver al papel (El Independiente)",
+          "url": "https://independiente.com.py/el-ciberataque-que-obligo-a-los-sanatorios-a-volver-al-papel-y-reabre-el-debate-sobre-la-ciberseguridad/",
+          "date": "2026-06-30",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 30,
+      "summary": "No rule in force limits sale of health data or health-based marketing. Ley 7593 will ban processing sensitive data without consent or a listed exception and let people stop direct marketing, but only from November 2027.",
+      "detail": [
+        "Ley 7593 Article 20 prohibits processing sensitive data, health included, unless the person consents freely or a listed exception applies, such as care by staff bound by secrecy.",
+        "Article 30 will let a person object to direct marketing and related profiling, with processing for that purpose stopping within 15 working days. Fines are higher for sensitive data (Article 46).",
+        "No current rule on data brokers, consumer health apps or sale of de-identified health data was found. Until the law applies, protection rests on habeas data and professional secrecy."
+      ],
+      "sources": [
+        {
+          "title": "Ley 7593/2025, proteccion de datos personales en la Republica del Paraguay (BaseLegal)",
+          "url": "https://baselegal.com.py/docs/c0b02f3c-cc40-11f0-8c5a-525400343722",
+          "date": "2025-11-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Expediente D-2162170, Ley 7593 promulgada y publicada 27/11/2025 (SILpy, Congreso Nacional)",
+          "url": "https://silpy.congreso.gov.py/expediente/123459",
+          "date": "2025-11-27",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 40,
+      "summary": "The Health Ministry's HIS runs in 1,335 public facilities and holds electronic records, inpatient data, prescribing and dispensing. Social security (IPS) and private providers run separate systems, and national interoperability is still at the testing stage.",
+      "detail": [
+        "By July 2026 HIS was used in 1,335 facilities, with 59,974,212 encounters recorded since 2017 and 28,097 active users. The ministry says it gives real-time data mainly for outpatient care.",
+        "HIS holds outpatient visits, electronic clinical records, inpatient processes and medicine prescribing and dispensing. Resolucion 319/2026 phases out the older SEGHOSP discharge system where the HIS inpatient module works.",
+        "In December 2025 the ministry ran an interoperability workshop with IPS and over 20 institutions, backed by IDB and PAHO, and called an interoperable electronic record a future goal.",
+        "The bill for a national electronic record and registry was archived on 18 May 2026. Links to labs, claims and research were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Expansion sostenida: HIS llega a 1.335 establecimientos de salud (MSPBS)",
+          "url": "https://www.mspbs.gov.py/portal/36139/expansion-sostenida-his-llega-a-1335-establecimientos-de-salud.html",
+          "date": "2026-08-07",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Avanza consolidacion del HIS como sistema unico e integral de informacion en salud (MSPBS)",
+          "url": "https://www.mspbs.gov.py/portal/35833/avanza-consolidacion-del-his-como-sistema-unico-e-integral-de-informacion-en-salud.html",
+          "date": "2026-06-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Paraguay impulsa avances en interoperabilidad en salud (MSPBS)",
+          "url": "https://www.mspbs.gov.py/portal/34427/paraguay-impulsa-avances-en-interoperabilidad-en-salud.html",
+          "date": "2025-12-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Expediente D-2375375, historia clinica electronica y su registro: archivado (SILpy)",
+          "url": "https://silpy.congreso.gov.py/web/expediente/129698",
+          "date": "2026-05-18",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 33,
+      "summary": "Clinicians in public facilities on HIS can record and consult electronic records, but whether they can see notes from other facilities, IPS or private hospitals was not verified. No national record or exchange is in force.",
+      "detail": [
+        "The ministry says HIS improves continuity of care and lets staff register and consult clinical data, with each user identified by e-ID since Resolucion 318/2026.",
+        "IPS and private hospital groups keep their own systems. The ministry describes a single integrated system as a future step after the 2026 Conectaton.",
+        "Emergency access rules and cross-provider viewing were not verified. The archived bill would have let professionals see a patient's record from anywhere in the country."
+      ],
+      "sources": [
+        {
+          "title": "Avanza consolidacion del HIS como sistema unico e integral de informacion en salud (MSPBS)",
+          "url": "https://www.mspbs.gov.py/portal/35833/avanza-consolidacion-del-his-como-sistema-unico-e-integral-de-informacion-en-salud.html",
+          "date": "2026-06-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Conectaton 2026: MSPBS lanza Agenda de Salud Digital (MSPBS)",
+          "url": "https://www.mspbs.gov.py/portal/35602/conectaton-2026-mspbs-lanza-agenda-de-salud-digital.html",
+          "date": "2026-05-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Expansion sostenida: HIS llega a 1.335 establecimientos de salud (MSPBS)",
+          "url": "https://www.mspbs.gov.py/portal/36139/expansion-sostenida-his-llega-a-1335-establecimientos-de-salud.html",
+          "date": "2026-08-07",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Clinical trials need DINAVISA authorization under good clinical practice, informed consent content rules and accredited ethics committees. No in-force rule governs secondary use of health records and there is no opt-out; ethics bodies and statutory professional secrecy are the safeguards.",
+      "detail": [
+        "Resolucion DINAVISA 238/2024, extended by 056/2026, sets the requirements to authorize, control and inspect trials of medicines, vaccines, devices and in vitro diagnostics under good clinical practice. DINAVISA publishes required content for informed consent forms.",
+        "Health research ethics committees are accredited by DINAVISA (Resolucion 327/2025), and Resolucion S.G. 379/2025 regulates the National Policy on Ethics in Health Research 2023.",
+        "Ley 7593 Article 20 will allow sensitive data for research when proportionate and effectively anonymized, from November 2027. Codigo Sanitario Article 307 sanctions health workers who willfully breach professional secrecy. No register of secondary uses, opt-out or re-identification penalty in force was found."
+      ],
+      "sources": [
+        {
+          "title": "Direccion de Investigacion: ensayos clinicos y comites de etica (DINAVISA)",
+          "url": "https://dinavisa.gov.py/direccion-de-investigacion/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley 7593/2025, proteccion de datos personales en la Republica del Paraguay (BaseLegal)",
+          "url": "https://baselegal.com.py/docs/c0b02f3c-cc40-11f0-8c5a-525400343722",
+          "date": "2025-11-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley 836/80, Codigo Sanitario (MSPBS DIGIES)",
+          "url": "https://digies.mspbs.gov.py/wp-content/uploads/Ley-N%C2%B0-836-Codigo-Sanitario.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 30,
+      "summary": "DINAVISA's 2024 device rule defines software as a medical device and covers post-authorization changes, but no AI-specific clinical rule was found. Paraguay has no AI law; two bills were before Congress in August 2026.",
+      "detail": [
+        "Resolucion DINAVISA 226/2024 sets requirements for device marketing authorization, post-authorization changes and renewals. Article 2 counts software as a medical device and defines SaMD, including mobile apps that meet the definition.",
+        "No rule on AI or machine learning change control, transparency or human oversight in clinical use was found. DINAVISA Resolucion 047 creates a unit for AI in its own regulatory work, not rules for clinical AI.",
+        "An August 2026 column notes no AI law has been enacted and two AI bills are under study. Ley 7593 Article 33 will give a right to review automated decisions from November 2027."
+      ],
+      "sources": [
+        {
+          "title": "Resolucion DINAVISA 226/2024, autorizacion de comercializacion de dispositivos medicos y modificaciones post autorizacion",
+          "url": "https://dinavisa.gov.py/wp-content/uploads/2024/09/RESOLUCION-DINAVISA-N%C2%B0226.pdf",
+          "date": "2024-08-27",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Resoluciones (DINAVISA)",
+          "url": "https://dinavisa.gov.py/resoluciones/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "El vacio normativo: la paradoja de Paraguay ante la Inteligencia Artificial (Economia Virtual)",
+          "url": "https://www.economiavirtual.com.py/noticia/3162/el-vacio-normativo-la-paradoja-de-paraguay-ante-la-inteligencia-artificial/",
+          "date": "2026-08-18",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "unknown",
+    "pharmacy": "partial",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "HIS links public primary care, hospital and dispensing records across 1,335 ministry facilities. IPS and private providers run separate systems; interoperability is in testing. Labs, claims and research links were not verified.",
+  "laws": [
+    {
+      "name": "Constitucion Nacional, Articulo 135 (habeas data)",
+      "level": "National",
+      "year": "1992",
+      "what": "Right to access and correct one's data in official or public-character registers, through a judge.",
+      "url": "https://pdba.georgetown.edu/Parties/Paraguay/Leyes/constitucion.pdf"
+    },
+    {
+      "name": "Ley 836/80 (Codigo Sanitario)",
+      "level": "National",
+      "year": "1980",
+      "what": "Health code; health workers who willfully breach professional secrecy can be suspended or deregistered.",
+      "url": "https://digies.mspbs.gov.py/wp-content/uploads/Ley-N%C2%B0-836-Codigo-Sanitario.pdf"
+    },
+    {
+      "name": "Ley 7593/2025 (proteccion de datos personales)",
+      "level": "National",
+      "year": "2025",
+      "what": "Health is sensitive data; access, portability, 72-hour breach notice, new agency. In force November 2027.",
+      "url": "https://baselegal.com.py/docs/c0b02f3c-cc40-11f0-8c5a-525400343722"
+    },
+    {
+      "name": "Resolucion DINAVISA 226/2024",
+      "level": "National",
+      "year": "2024",
+      "what": "Device marketing authorization, post-authorization changes and renewals; defines software as a medical device.",
+      "url": "https://dinavisa.gov.py/wp-content/uploads/2024/09/RESOLUCION-DINAVISA-N%C2%B0226.pdf"
+    },
+    {
+      "name": "Resolucion DINAVISA 238/2024",
+      "level": "National",
+      "year": "2024",
+      "what": "Authorization, control and inspection of clinical trials under good clinical practice.",
+      "url": "https://dinavisa.gov.py/direccion-de-investigacion/"
+    },
+    {
+      "name": "Resolucion S.G. 318/2026 (MSPBS)",
+      "level": "National",
+      "year": "2026",
+      "what": "Makes government e-ID mandatory for staff accessing HIS, so each user is identified and traceable.",
+      "url": "https://www.mspbs.gov.py/portal/35833/avanza-consolidacion-del-his-como-sistema-unico-e-integral-de-informacion-en-salud.html"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-08-07",
+      "headline": "Health Ministry's HIS record system reaches 1,335 public facilities",
+      "source": "Ministerio de Salud Publica y Bienestar Social",
+      "url": "https://www.mspbs.gov.py/portal/36139/expansion-sostenida-his-llega-a-1335-establecimientos-de-salud.html",
+      "why": "More public patients now have an electronic record, though they cannot yet view it."
+    },
+    {
+      "date": "2026-06-30",
+      "headline": "Ransomware forces three private hospital groups back to paper records",
+      "source": "El Independiente",
+      "url": "https://independiente.com.py/el-ciberataque-que-obligo-a-los-sanatorios-a-volver-al-papel-y-reabre-el-debate-sobre-la-ciberseguridad/",
+      "why": "Clinical records were disrupted and data theft was not ruled out."
+    },
+    {
+      "date": "2026-05-11",
+      "headline": "Senate weighs electronic record bill it says clashes with data protection law",
+      "source": "ABC Color",
+      "url": "https://www.abc.com.py/politica/2026/05/11/senado-analizara-proyectos-millonarios-y-leyes-al-borde-de-la-sancion-automatica/",
+      "why": "The Senate upheld its rejection and the national e-record bill was archived."
+    },
+    {
+      "date": "2025-11-27",
+      "headline": "President promulgates Ley 7593 on personal data protection",
+      "source": "ABC Color",
+      "url": "https://www.abc.com.py/politica/2025/11/27/pena-promulga-ley-de-datos-personales-y-pone-candado-al-acceso-informacion-publica/",
+      "why": "First general data law covering health data, but it applies from November 2027."
+    },
+    {
+      "date": "2025-11-12",
+      "headline": "Chamber of Deputies insists on its electronic clinical record bill",
+      "source": "Camara de Diputados",
+      "url": "https://www.diputados.gov.py/noticias/noticias/996",
+      "why": "The bill promised patient control over access to their record."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

@@ -1,0 +1,313 @@
+{
+ "iso3": "MRT",
+ "name": "Mauritania",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Mauritania has a 2017 data law and a working regulator that now reviews health platforms, but patients still have no shared record or portal.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Law 2017-020 gives you a right to a copy of your data, directly or through a doctor you choose. The holder may charge reproduction costs, the law sets no deadline, and no portal shows your record, so 35.",
+   "detail": [
+    "Article 53 of Law 2017-020 lets any person ask a data controller in writing for their data in an accessible, intelligible form. Article 54 adds a right to a copy, which the controller may charge for up to the cost of reproduction.",
+    "Article 56 says a patient exercises this right personally or through a doctor they designate. After death, a spouse, children or parents may use it through a doctor.",
+    "The law sets a one-month deadline only for corrections (Article 62), not for access requests. Under the anchors that is a fee and no fixed deadline: 45 minus 5 minus 5.",
+    "The E-CNAM insurance portal shows members their enrolment, attestations and claim status, not clinical notes or results. In February 2026 the health minister announced an electronic medical record; whether patients can read it was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-020 du 22 juillet 2017 sur la protection des données à caractère personnel (Banque Centrale de Mauritanie copy)",
+     "url": "https://fintech.bcm.mr/download/Loi-2017-020-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2017-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "E-CNAM : la plateforme numérique qui transforme l'accès à l'assurance maladie (Emergence)",
+     "url": "https://emergence.mr/2025/12/02/e-cnam-la-plateforme-numerique-qui-transforme-lacces-a-lassurance-maladie/",
+     "date": "2025-12-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "وزير الصحة يطلق نظام الملف الطبي الإلكتروني والدفع الرقمي (Taqadoumy)",
+     "url": "https://ar.taqadoumy.mr/archives/69133",
+     "date": "2026-02-21",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data processing needs consent, but the law lists care, public health and legal duties as exceptions, and there is no shared record, opt-out or patient-visible access log. Telemedicine is the exception: other doctors need your explicit permission.",
+   "detail": [
+    "Article 5 of Law 2017-020 bans processing without consent, with exceptions for legal duties, public tasks, contracts and the person's interests. Article 15 allows health processing for care, diagnosis and public health without consent.",
+    "Article 59 gives a free right to object to processing, except where the processing meets a legal obligation. Article 47 makes controllers record who accessed which data and when, but gives patients no right to see that log.",
+    "The 2023 telemedicine decree requires free, informed consent before each remote act (Article 21). Other professionals may see the telemedicine report only with the patient's explicit authorisation (Article 22).",
+    "We found no patient-facing consent tool, sharing opt-out or access log in any Mauritanian health system."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-020 du 22 juillet 2017 sur la protection des données à caractère personnel (Banque Centrale de Mauritanie copy)",
+     "url": "https://fintech.bcm.mr/download/Loi-2017-020-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2017-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret fixant les conditions d'exercice de la télémédecine et les domaines de son application en Mauritanie (MTNIMA)",
+     "url": "https://mtnima.gov.mr/sites/default/files/2024-02/D%C3%A9cret%20n%C2%B02023-118%20Fixant%20les%20conditions%20d%27exercice%20de%20la%20t%C3%A9l%C3%A9m%C3%A9decine%20et%20les%20domaines%20de%20son%20application%20en%20Mauritanie.pdf",
+     "date": "2023-10-02",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 52,
+   "summary": "Health data is a banned category unless an exception applies, and the APD regulator is active in health: it gave a formal opinion on the CNAS health fund platform in 2026. There is no breach notification duty and no health fines were found.",
+   "detail": [
+    "Article 12 of Law 2017-020 bans processing health and genetic data unless an Article 13 exception applies. Article 37 makes genetic data and health research need prior APD authorisation.",
+    "The APD has nine members named by the President for four years, including two MPs and two judges. Article 71 says members take no instructions; a government commissioner sits in without a vote. It can fine up to 10 million ouguiyas, and up to 50 million or 5% of a firm's turnover for repeat breaches.",
+    "In 2025 and 2026 the APD worked with the CNAM insurance fund on compliance, gave Opinion 004/2026 on the CNAS health fund platform, and signed the mother and child hospital into its compliance programme.",
+    "The law has no breach notification duty. Criminal penalties for disclosure are one to three months in prison. Telemedicine data must be hosted in Mauritania. The EU GDPR and EHDS do not apply."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-020 du 22 juillet 2017 sur la protection des données à caractère personnel (Banque Centrale de Mauritanie copy)",
+     "url": "https://fintech.bcm.mr/download/Loi-2017-020-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2017-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "أعضاء السلطة (APD, members)",
+     "url": "https://www.apd.mr/%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A9/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "المداولة رقم 004/2026 بخصوص منصة اكناسي لرقمنة خدمات الصندوق الوطني للتضامن الصحي (APD)",
+     "url": "https://www.apd.mr/%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D9%88%D9%84%D8%A9-%D8%B1%D9%82%D9%85-004-2026-%D8%AA%D8%AA%D8%B6%D9%85%D9%86-%D8%B1%D8%A3%D9%8A%D8%A7-%D8%A8%D8%AE%D8%B5%D9%88%D8%B5-%D9%85%D9%82%D8%B1%D8%B1-%D9%85/",
+     "date": "2026-05-11",
+     "publisherClass": "official"
+    },
+    {
+     "title": "انضمام مركز الاستطباب للأم والطفل إلى برنامج بيانات - حماية (APD)",
+     "url": "https://www.apd.mr/%D8%A7%D9%86%D8%B6%D9%85%D8%A7%D9%85-%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B7%D8%A8%D8%A7%D8%A8-%D9%84%D9%84%D8%A3%D9%85-%D9%88%D8%A7%D9%84%D8%B7%D9%81%D9%84-%D8%A5%D9%84%D9%89/",
+     "date": "2026-06-29",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Direct marketing needs your prior consent, and data may go to third parties for marketing only with your formal agreement. The telemedicine decree bars platform owners from using patients' health data, but nothing covers health apps or data brokers.",
+   "detail": [
+    "Article 18 of Law 2017-020 bans direct marketing to a person who has not consented in advance. Data may be passed to third parties or used for marketing only after formal agreement.",
+    "Article 59 gives a free right to object to marketing use, and Article 89 punishes processing for marketing despite an objection.",
+    "Article 22 of the 2023 telemedicine decree forbids the platform owner from using or managing patients' health data collected during remote care, subject to other laws.",
+    "We found no rule on consumer health apps, data brokers or sale of de-identified health data, and no enforcement case in this area."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-020 du 22 juillet 2017 sur la protection des données à caractère personnel (Banque Centrale de Mauritanie copy)",
+     "url": "https://fintech.bcm.mr/download/Loi-2017-020-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2017-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décret fixant les conditions d'exercice de la télémédecine et les domaines de son application en Mauritanie (MTNIMA)",
+     "url": "https://mtnima.gov.mr/sites/default/files/2024-02/D%C3%A9cret%20n%C2%B02023-118%20Fixant%20les%20conditions%20d%27exercice%20de%20la%20t%C3%A9l%C3%A9m%C3%A9decine%20et%20les%20domaines%20de%20son%20application%20en%20Mauritanie.pdf",
+     "date": "2023-10-02",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 25,
+   "summary": "Insurance claims are going digital through E-CNAM, but a national medical record is still a plan. In August 2026 the health minister said an electronic record for every patient was still needed to build a modern hospital.",
+   "detail": [
+    "The EU is funding a 2.9 million euro project to help the Ministry of Health carry out the 2024-2030 digital health strategy, including secure infrastructure and a digitised medical record.",
+    "Since late 2025 E-CNAM lets providers file prior authorisation requests, medical documents and invoices online. CNAM also announced AI fraud detection and biometric identification of insured people.",
+    "In February 2026 the minister announced an electronic record, keyed to the national ID number, at Cheikh Zayed hospital. In August 2026 his successor still described it as a goal. Lab, pharmacy and public health links were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Digitalisation du secteur de la santé (EEAS, EU Delegation to Mauritania)",
+     "url": "https://www.eeas.europa.eu/delegations/mauritanie/digitalisation-du-secteur-de-la-sant%C3%A9_fr",
+     "date": "2025-08-13",
+     "publisherClass": "official"
+    },
+    {
+     "title": "E-CNAM : la plateforme numérique qui transforme l'accès à l'assurance maladie (Emergence)",
+     "url": "https://emergence.mr/2025/12/02/e-cnam-la-plateforme-numerique-qui-transforme-lacces-a-lassurance-maladie/",
+     "date": "2025-12-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "وزير الصحة من مستشفى الشيخ زايد: الرقمنة الطبية تدخل حيز التنفيذ الأسبوع المقبل (Arriyada)",
+     "url": "https://arriyada.net/213505/",
+     "date": "2026-02-21",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Les ministres de la Santé et de la Transformation numérique président la commission ministérielle chargée de la réforme hospitalière (AMI via Cridem)",
+     "url": "http://w.cridem.org/C_Info.php?article=795599",
+     "date": "2026-08-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "No national record lets a treating doctor see care from other providers. The telemedicine decree says earlier remote-care data should reach the next doctor with patient consent, and that it goes into a central record whose specifications were not verified.",
+   "detail": [
+    "Article 19 of the 2023 telemedicine decree requires records kept at least ten years and made available, with the patient's consent, to a later telemedicine doctor.",
+    "Article 16 says telemedicine data must go at once into the patient's electronic record in a central database, with technical specifications to be set by order. Whether that order or database exists was not verified.",
+    "The hospital electronic record announced in February 2026 was described as a goal in August 2026. We found no emergency-access rule for a shared record."
+   ],
+   "sources": [
+    {
+     "title": "Décret fixant les conditions d'exercice de la télémédecine et les domaines de son application en Mauritanie (MTNIMA)",
+     "url": "https://mtnima.gov.mr/sites/default/files/2024-02/D%C3%A9cret%20n%C2%B02023-118%20Fixant%20les%20conditions%20d%27exercice%20de%20la%20t%C3%A9l%C3%A9m%C3%A9decine%20et%20les%20domaines%20de%20son%20application%20en%20Mauritanie.pdf",
+     "date": "2023-10-02",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Les ministres de la Santé et de la Transformation numérique président la commission ministérielle chargée de la réforme hospitalière (AMI via Cridem)",
+     "url": "http://w.cridem.org/C_Info.php?article=795599",
+     "date": "2026-08-07",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 45,
+   "summary": "Health research on personal data needs prior authorisation from the APD, misuse of data is a crime, and the law gives a free right to object. A national health research ethics committee and a trials consent law were not verified, which caps this at 45.",
+   "detail": [
+    "Article 13 of Law 2017-020 allows sensitive data to be processed with written consent or for public-interest scientific purposes. Article 37 requires prior APD authorisation for health research and genetic data.",
+    "Article 93 punishes diverting data from its authorised purpose with one to three months in prison. Article 59 gives a free right to object to processing, though we found no evidence it is honoured for research.",
+    "On the anchors the verified safeguards give 49: base 40, plus 3 each for a permit body, a misuse penalty and an objection route. The unverified ethics committee keeps it in the lower half, 45. We found no public register of research uses."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-020 du 22 juillet 2017 sur la protection des données à caractère personnel (Banque Centrale de Mauritanie copy)",
+     "url": "https://fintech.bcm.mr/download/Loi-2017-020-sur-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2017-07-22",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Régime de l'autorisation (APD)",
+     "url": "https://www.apd.mr/fr/formalites-prealables/regime-de-lautorisation/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "The 2025-2029 national AI strategy plans AI for medical imaging and chronic disease monitoring, but no binding rule covers clinical AI. The 2025 pharmacy law reform covers medical devices; whether it covers software was not verified.",
+   "detail": [
+    "The National AI Strategy 2025-2029 from the digital ministry lists health projects: early disease detection from X-rays, MRI and CT, chronic disease prediction and AI-assisted telemedicine. Its ethics pillar sets goals, not binding rules.",
+    "In October 2025 parliament amended pharmacy law 2010-022 in 40 articles, adding controls on substandard and counterfeit medical devices. Rules for software, AI, change control or human oversight were not verified.",
+    "CNAM announced AI-based fraud detection on insurance claims in late 2025. We found no transparency or oversight rule for it."
+   ],
+   "sources": [
+    {
+     "title": "The National Artificial Intelligence Strategy of Mauritania 2025-2029 (MTNIMA)",
+     "url": "https://mtnima.gov.mr/wp-content/uploads/2024/07/strategie-EN-Final-26-07-2024-.pdf",
+     "date": "2024-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "L'Assemblée nationale approuve un projet de loi modifiant la loi relative à la pharmacie (AMI)",
+     "url": "https://ami.mr/fr/archives/281857",
+     "date": "2025-10-28",
+     "publisherClass": "official"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "unknown",
+  "hospital": "partial",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "partial",
+  "publicHealth": "unknown",
+  "research": "unknown"
+ },
+ "journeyNote": "E-CNAM moves insurance prior authorisations and invoices online. A hospital electronic record was announced in 2026 but is still a goal. Primary care, lab, pharmacy and public health links were not verified.",
+ "laws": [
+  {
+   "name": "Law 2017-020 on the protection of personal data",
+   "level": "National",
+   "year": "2017",
+   "what": "Health data a banned category with exceptions; access and copy rights; APD regulator, fines and criminal penalties.",
+   "url": "https://fintech.bcm.mr/download/Loi-2017-020-sur-la-protection-des-donnees-a-caractere-personnel.pdf"
+  },
+  {
+   "name": "Decree 2022-013 on the composition, organisation and functioning of the APD",
+   "level": "National",
+   "year": "2022",
+   "what": "Sets up the nine-member data protection authority that enforces Law 2017-020.",
+   "url": "https://www.apd.mr/fr/decrets/"
+  },
+  {
+   "name": "Decree 2023-118 on the practice of telemedicine",
+   "level": "National",
+   "year": "2023",
+   "what": "Consent per act, explicit patient authorisation for sharing, data hosted in Mauritania, platform owners barred from using data.",
+   "url": "https://mtnima.gov.mr/sites/default/files/2024-02/D%C3%A9cret%20n%C2%B02023-118%20Fixant%20les%20conditions%20d%27exercice%20de%20la%20t%C3%A9l%C3%A9m%C3%A9decine%20et%20les%20domaines%20de%20son%20application%20en%20Mauritanie.pdf"
+  },
+  {
+   "name": "Law 2010-022 on pharmacy, amended 2015 and 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Medicines and medical devices; 2025 reform adds device quality controls and digital medicine registration and tracking.",
+   "url": "https://ami.mr/fr/archives/281857"
+  },
+  {
+   "name": "Decree 2024-154 on the Khidmati digital public services portal",
+   "level": "National",
+   "year": "2024",
+   "what": "Rules for government e-service platforms, including the CNAS health fund platform reviewed by the APD.",
+   "url": "https://www.apd.mr/%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D9%88%D9%84%D8%A9-%D8%B1%D9%82%D9%85-004-2026-%D8%AA%D8%AA%D8%B6%D9%85%D9%86-%D8%B1%D8%A3%D9%8A%D8%A7-%D8%A8%D8%AE%D8%B5%D9%88%D8%B5-%D9%85%D9%82%D8%B1%D8%B1-%D9%85/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-16",
+   "headline": "Data regulator and national health insurer CNAM agree compliance steps",
+   "source": "APD",
+   "url": "https://www.apd.mr/%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%B5/",
+   "why": "The insurer holds claims data on its members and is bringing its systems under the 2017 law."
+  },
+  {
+   "date": "2025-12-02",
+   "headline": "CNAM launches E-CNAM portal, AI fraud detection and biometric member ID",
+   "source": "Emergence",
+   "url": "https://emergence.mr/2025/12/02/e-cnam-la-plateforme-numerique-qui-transforme-lacces-a-lassurance-maladie/",
+   "why": "Insured people can track claims online, while AI and biometrics now touch their data."
+  },
+  {
+   "date": "2026-02-21",
+   "headline": "Health minister announces electronic medical record keyed to national ID",
+   "source": "Taqadoumy",
+   "url": "https://ar.taqadoumy.mr/archives/69133",
+   "why": "A record per patient would be the country's first, but patient access rules are not public."
+  },
+  {
+   "date": "2026-05-11",
+   "headline": "Data regulator issues opinion on CNAS health fund digital platform",
+   "source": "APD",
+   "url": "https://www.apd.mr/%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D9%88%D9%84%D8%A9-%D8%B1%D9%82%D9%85-004-2026-%D8%AA%D8%AA%D8%B6%D9%85%D9%86-%D8%B1%D8%A3%D9%8A%D8%A7-%D8%A8%D8%AE%D8%B5%D9%88%D8%B5-%D9%85%D9%82%D8%B1%D8%B1-%D9%85/",
+   "why": "Shows the regulator reviewing health platforms before launch."
+  },
+  {
+   "date": "2026-08-07",
+   "headline": "Hospital reform commission says every patient still needs an electronic record",
+   "source": "AMI via Cridem",
+   "url": "http://w.cridem.org/C_Info.php?article=795599",
+   "why": "Six months after the launch announcement, the shared record is still a goal."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

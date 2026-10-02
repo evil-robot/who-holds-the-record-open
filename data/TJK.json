@@ -1,0 +1,331 @@
+{
+  "iso3": "TJK",
+  "name": "Tajikistan",
+  "region": "Asia",
+  "controlModel": "State",
+  "headline": "Tajik patients have a right to health information but no verified right to a copy; the national Tandurusti.tj platform was piloting in late 2025.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 40,
+      "summary": "The 2018 data law gives access to one's own data, with replies due in 3 working days, but the Health Code lets doctors withhold harmful information. We found no explicit right to a copy and no patient portal: base 45, minus 5 for limited scope.",
+      "detail": [
+        "Article 39 of the 2017 Health Code gives citizens a right to necessary information about their own and their children's health. If the information could seriously harm the patient, it is kept from them and close relatives are told instead.",
+        "Article 48 bars health staff from giving patients harmful or secret information without permission from the head of the facility. We found no article giving a patient a right to read or copy their medical record.",
+        "The Personal Data Protection Law (Articles 8, 22 and 25) gives access to data about oneself and to facts about its processing. Holders must answer within 3 working days. Article 22 lets other laws limit this right.",
+        "The 2025 WHO Observatory review marks patient access to own records as \"yes\" but cites no provision, so a right to a copy is not verified. Tandurusti.tj accounts are for facilities; citizen sign-up is planned with a future mobile app."
+      ],
+      "sources": [
+        {
+          "title": "Health Code of the Republic of Tajikistan No. 1413, Articles 39 and 48 (Ministry of Health and Social Protection)",
+          "url": "https://moh.tj/wp-content/uploads/2024/10/KODEKS-ZDRAVOOHRANENIYA-RESPUBLIKI-TADZHIKISTAN.pdf",
+          "date": "2017-05-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 1537 on Personal Data Protection, Articles 8, 22 and 25 (Majlisi Milli legislation database)",
+          "url": "http://base.mmk.tj/view_sanadhoview.php?showdetail=&sanadID=609&language=ru",
+          "date": "2018-08-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tajikistan: health system review 2025, Health Systems in Transition Vol. 27 No. 1 (European Observatory on Health Systems and Policies, WHO Europe)",
+          "url": "https://www.ecoi.net/en/file/local/2127574/Tjk%20Healthsystemreview_9789289014540-eng.pdf",
+          "date": "2025-05-14",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Tajikistan to launch a single digital platform for medical data (Sputnik Tajikistan)",
+          "url": "https://tj.sputniknews.ru/20251123/tajikistan-edinaya-cifrovaya-platforma-1073168147.html",
+          "date": "2025-11-23",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "control": {
+      "score": 28,
+      "summary": "Processing needs consent under the 2018 data law, but state bodies may process data without it while doing their legal functions. We found no opt-out from health record sharing, no patient-visible access log and no patient account on the national platform.",
+      "detail": [
+        "Article 8 of the Personal Data Protection Law makes consent the default basis for collecting data. Article 12 lets state bodies collect and process data without consent while carrying out their legal functions. Public clinics and the national platform fall under the health ministry.",
+        "Article 11 lets a person withdraw consent, except in the cases covered by Article 9. Article 21 says anyone passing data to a third party must notify the person within 3 working days, but not when state bodies act under the law.",
+        "Article 22 gives a right to learn who has access to one's data, excluding the holder's own staff. We found no access log patients can see and no rule letting them block sharing between clinics.",
+        "Tandurusti.tj uses central, role-based access control set by the system, not by the patient, according to UNICEF. This places Tajikistan in the lowest control band."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 1537 on Personal Data Protection, Articles 8, 11, 12, 21 and 22 (Majlisi Milli legislation database)",
+          "url": "http://base.mmk.tj/view_sanadhoview.php?showdetail=&sanadID=609&language=ru",
+          "date": "2018-08-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Terms of reference: Immunization Information System Expansion in Tajikistan, describing the Tandurusti.tj platform (UNICEF Tajikistan)",
+          "url": "https://www.unicef.org/tajikistan/media/9046/file",
+          "date": "2025-11-13",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 30,
+      "summary": "Health data is not a special category in the 2018 data law, there is no breach notification duty, and the law sets no penalties of its own. Doctors must keep medical secrecy, but must report illness on an investigator's order or court ruling.",
+      "detail": [
+        "The Personal Data Protection Law singles out only biometric data for written consent. It has no health data category. It requires measures against leaks and their timely detection, but no duty to report a breach to a regulator or to patients.",
+        "Article 49 of the Health Code obliges health workers to keep medical secrecy. It also obliges them to report illness to health bodies for public health, on an investigator's order and on a court ruling. HIV status may be released on investigators' requests.",
+        "The regulator is the Communications Service under the Government, not an independent body. A certificate from it is needed to collect and process data. Article 14 keeps databases in Tajikistan unless the regulator agrees otherwise.",
+        "A CABAR analysis (February 2024) found the law sets no liability mechanism. Criminal Code Article 145 punishes disclosing medical secrets, but it found no public cases. We found no health data breach or enforcement decision."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 1537 on Personal Data Protection, Articles 5, 14, 17 and 25 (Majlisi Milli legislation database)",
+          "url": "http://base.mmk.tj/view_sanadhoview.php?showdetail=&sanadID=609&language=ru",
+          "date": "2018-08-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Code of the Republic of Tajikistan No. 1413, Articles 49 and 162 (Ministry of Health and Social Protection)",
+          "url": "https://moh.tj/wp-content/uploads/2024/10/KODEKS-ZDRAVOOHRANENIYA-RESPUBLIKI-TADZHIKISTAN.pdf",
+          "date": "2017-05-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Problems and challenges in personal data protection in Tajikistan (CABAR.asia)",
+          "url": "https://cabar.asia/ru/problemy-i-vyzovy-v-oblasti-zashhity-personalnyh-dannyh-v-tadzhikistane",
+          "date": "2024-02-19",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 35,
+      "summary": "The 2018 data law needs consent for using data beyond its original purpose, and the Health Code bars doctors from pharma gifts and advertising on prescriptions. We found no ban on selling health data and no rules for health apps.",
+      "detail": [
+        "Article 16 of the Personal Data Protection Law says spreading data beyond the purposes stated at collection needs the person's consent, unless another law says otherwise. Article 8 bans processing incompatible with the original purpose.",
+        "Article 48 of the Health Code bars health staff from taking gifts or money from drug sellers and from writing prescriptions on forms with advertising. A January 2024 amendment also bars them from recommending a specific pharmacy.",
+        "We found no specific ban on selling health data, on using it for marketing, or on data brokers. We found no rules for consumer health apps and no enforcement case involving health data."
+      ],
+      "sources": [
+        {
+          "title": "Law No. 1537 on Personal Data Protection, Articles 8 and 16 (Majlisi Milli legislation database)",
+          "url": "http://base.mmk.tj/view_sanadhoview.php?showdetail=&sanadID=609&language=ru",
+          "date": "2018-08-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Health Code of the Republic of Tajikistan No. 1413, Article 48 (Ministry of Health and Social Protection)",
+          "url": "https://moh.tj/wp-content/uploads/2024/10/KODEKS-ZDRAVOOHRANENIYA-RESPUBLIKI-TADZHIKISTAN.pdf",
+          "date": "2017-05-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 2032 amending the Health Code (Spinform CIS legislation database)",
+          "url": "https://base.spinform.ru/show_doc.fwx?rgn=156360",
+          "date": "2024-01-03",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 30,
+      "summary": "The Tandurusti.tj platform has a national patient index and modules for births, deaths, immunisation, labs and HIV, but it was still piloting in Dushanbe in late 2025. WHO's 2025 review says primary care data still reach districts on paper and hospital systems are fragmented.",
+      "detail": [
+        "UNICEF describes Tandurusti.tj as the national platform with a master patient index, facility and workforce registries and role-based access. Its modules cover births and deaths, immunisation, lab services, emergency alerts and telemedicine, HIV registration and cashless payment.",
+        "The health ministry told Sputnik in November 2025 that the platform was piloting in Dushanbe. The birth module ran nationwide, the death module was spreading, immunisation was being integrated and telemedicine was in testing.",
+        "The 2025 WHO Observatory review says the DHIS-2 information system works mainly at national and oblast level, with primary care data still arriving on paper at district level. It cites a lack of digital health legislation and data standards.",
+        "In August 2026 Dushanbe began piloting eTib, a clinic system for patient registration, e-records, online booking and personal accounts, at one health centre, with five more planned by end 2026. Tajikistan is not in the EU, so the European Health Data Space does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Terms of reference: Immunization Information System Expansion in Tajikistan, describing the Tandurusti.tj platform (UNICEF Tajikistan)",
+          "url": "https://www.unicef.org/tajikistan/media/9046/file",
+          "date": "2025-11-13",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Tajikistan to launch a single digital platform for medical data (Sputnik Tajikistan)",
+          "url": "https://tj.sputniknews.ru/20251123/tajikistan-edinaya-cifrovaya-platforma-1073168147.html",
+          "date": "2025-11-23",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Tajikistan: health system review 2025, Health Systems in Transition Vol. 27 No. 1 (European Observatory on Health Systems and Policies, WHO Europe)",
+          "url": "https://www.ecoi.net/en/file/local/2127574/Tjk%20Healthsystemreview_9789289014540-eng.pdf",
+          "date": "2025-05-14",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Dushanbe begins testing the eTib digital system for health facilities (Mir 24)",
+          "url": "https://tj.mir24.tv/news/16680982/v-dushanbe-nachali-testirovat-cifrovuyu-sistemu-dlya-medicinskih-uchrezhdenij-etib",
+          "date": "2026-08-10",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 25,
+      "summary": "No system lets a treating doctor see a patient's record across providers: hospitals and health centres run their own systems, according to WHO's 2025 review. The national patient index links records only within Tandurusti.tj modules, mostly public health registries.",
+      "detail": [
+        "The 2025 WHO Observatory review says individual hospitals and health centres have been building their own information systems, which fragments health information. Electronic polyclinic systems exist in city facilities in Dushanbe, Khujand, Bokhtar and Khorog.",
+        "UNICEF says the Tandurusti.tj patient registry links records across the platform's modules, with role-based access. Those modules are mainly births and deaths, immunisation, labs, HIV and telemedicine, not a full clinical record.",
+        "Article 49 of the Health Code requires medical secrecy. We found no rule on emergency access to another provider's records, and no data on how many clinicians use shared records."
+      ],
+      "sources": [
+        {
+          "title": "Tajikistan: health system review 2025, Health Systems in Transition Vol. 27 No. 1 (European Observatory on Health Systems and Policies, WHO Europe)",
+          "url": "https://www.ecoi.net/en/file/local/2127574/Tjk%20Healthsystemreview_9789289014540-eng.pdf",
+          "date": "2025-05-14",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Terms of reference: Immunization Information System Expansion in Tajikistan, describing the Tandurusti.tj platform (UNICEF Tajikistan)",
+          "url": "https://www.unicef.org/tajikistan/media/9046/file",
+          "date": "2025-11-13",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Health Code of the Republic of Tajikistan No. 1413, Article 49 (Ministry of Health and Social Protection)",
+          "url": "https://moh.tj/wp-content/uploads/2024/10/KODEKS-ZDRAVOOHRANENIYA-RESPUBLIKI-TADZHIKISTAN.pdf",
+          "date": "2017-05-30",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Clinical and biomedical trials need the person's written consent and ministry permission, and the person can stop at any stage. Data used for research must be de-identified, but no consent or opt-out applies to that secondary use.",
+      "detail": [
+        "Article 65 of the Health Code says clinical and biomedical trials on people need their written consent and special permission from the health ministry. Forced trials are banned and the person can stop the trial at any stage.",
+        "Article 123 gives an Ethics Council the task of reviewing the ethics of clinical studies of medicines. The health ministry approves its rules and members.",
+        "Article 19 of the Personal Data Protection Law requires data used for statistical and scientific research to be de-identified. Article 21 lets transferred data be processed for research if it does not harm the person's rights. We found no opt-out, public register or re-identification penalty."
+      ],
+      "sources": [
+        {
+          "title": "Health Code of the Republic of Tajikistan No. 1413, Articles 65 and 123 (Ministry of Health and Social Protection)",
+          "url": "https://moh.tj/wp-content/uploads/2024/10/KODEKS-ZDRAVOOHRANENIYA-RESPUBLIKI-TADZHIKISTAN.pdf",
+          "date": "2017-05-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Law No. 1537 on Personal Data Protection, Articles 19 and 21 (Majlisi Milli legislation database)",
+          "url": "http://base.mmk.tj/view_sanadhoview.php?showdetail=&sanadID=609&language=ru",
+          "date": "2018-08-03",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 28,
+      "summary": "The 2022 AI Strategy to 2040 names health as a target sector and calls for an AI law to be drafted, but we found no adopted AI law and no rules for clinical AI. Device law defines medical goods without mentioning software.",
+      "detail": [
+        "Government Decree No. 483 of September 2022, amended in January 2025, approved the AI Strategy to 2040. It lists health among priority sectors and calls for drafting a Law on Artificial Intelligence and rules for AI use in different sectors.",
+        "We searched in Tajik, Russian and English and found no AI law adopted by October 2026. An AI Council under the Ministry of Industry and New Technologies coordinates AI projects.",
+        "The 2022 Law on Medicines, Medical Goods and Pharmaceutical Activity defines medical goods as products and materials such as equipment and care items. The definitions we read do not mention software. Whether AI software is registered as a device was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Strategy for the Development of Artificial Intelligence to 2040, Government Decree No. 483 as amended by Decree No. 83 of 2025 (State Committee on Investment)",
+          "url": "https://investcom.tj/uploads/post_docs/49/G06e7kwzNVad.pdf",
+          "date": "2025-01-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Law No. 1893 on Medicines, Medical Goods and Pharmaceutical Activity (Spinform CIS legislation database)",
+          "url": "https://base.spinform.ru/show_red.fwx?rid=157622",
+          "date": "2022-07-19",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Tajikistan launches Project Soro, AI Council under the Ministry of Industry and New Technologies (UNICEF Tajikistan)",
+          "url": "https://www.unicef.org/tajikistan/press-releases/tajikistan-launches-project-soro",
+          "date": "2025-10-27",
+          "publisherClass": "intergov"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "siloed",
+    "labs": "partial",
+    "pharmacy": "siloed",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Tandurusti.tj links births, deaths, immunisation, labs and HIV registries; eTib clinic records pilot in Dushanbe. Primary care reports reach districts on paper. Tajikistan is not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Health Code of the Republic of Tajikistan (No. 1413)",
+      "level": "National",
+      "year": "2017",
+      "what": "Right to health information, medical secrecy and its exceptions, consent for trials and surgery.",
+      "url": "https://moh.tj/wp-content/uploads/2024/10/KODEKS-ZDRAVOOHRANENIYA-RESPUBLIKI-TADZHIKISTAN.pdf"
+    },
+    {
+      "name": "Law No. 1537 on Personal Data Protection",
+      "level": "National",
+      "year": "2018",
+      "what": "Consent-based processing, 3-day replies, data localisation, de-identification for research; no health category.",
+      "url": "http://base.mmk.tj/view_sanadhoview.php?showdetail=&sanadID=609&language=ru"
+    },
+    {
+      "name": "Law No. 2032 amending the Health Code",
+      "level": "National",
+      "year": "2024",
+      "what": "Bars health staff from recommending purchase of medicines from a specific pharmacy.",
+      "url": "https://base.spinform.ru/show_doc.fwx?rgn=156360"
+    },
+    {
+      "name": "Law No. 1893 on Medicines, Medical Goods and Pharmaceutical Activity",
+      "level": "National",
+      "year": "2022",
+      "what": "Registration and circulation of medicines and medical goods, including medical equipment.",
+      "url": "https://base.spinform.ru/show_red.fwx?rid=157622"
+    },
+    {
+      "name": "Government Decree No. 483 on the AI Development Strategy to 2040",
+      "level": "National",
+      "year": "2022",
+      "what": "National AI strategy naming health as a priority and calling for a future AI law.",
+      "url": "https://investcom.tj/uploads/post_docs/49/G06e7kwzNVad.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-22",
+      "headline": "Health ministry presents Tandurusti.tj platform to Central Asian peers and WHO",
+      "source": "Khovar",
+      "url": "https://khovar.tj/rus/2026/09/v-kazahstane-prezentovali-opyt-tadzhikistana-v-oblasti-tsifrovogo-zdravoohraneniya/",
+      "why": "Shows Tandurusti.tj is the state's chosen base for a single health information system."
+    },
+    {
+      "date": "2026-08-10",
+      "headline": "Dushanbe pilots eTib system for patient registration, e-records and online booking",
+      "source": "Mir 24",
+      "url": "https://tj.mir24.tv/news/16680982/v-dushanbe-nachali-testirovat-cifrovuyu-sistemu-dlya-medicinskih-uchrezhdenij-etib",
+      "why": "First electronic patient records and personal accounts in city clinics, starting with one health centre."
+    },
+    {
+      "date": "2026-06-19",
+      "headline": "Dushanbe Smart City team studies Kyrgyz digital health and patient data protection",
+      "source": "Mir 24",
+      "url": "https://tj.mir24.tv/news/16674809/tadzhikistan-i-kyrgyzstan-obmenyalis-opytom-cifrovizacii-sistemy-zdravoohraneniya",
+      "why": "Patient data protection is being discussed as Dushanbe builds its own e-record system."
+    },
+    {
+      "date": "2026-03-18",
+      "headline": "Russia ratifies deal on medical exams for Tajik migrant workers",
+      "source": "Yakutia 24 (citing TASS)",
+      "url": "https://yk24.ru/2026/03/rossiya-i-tadzhikistan-dogovorilis-o-poryadke-medosmotra-trudovyh-migrantov/",
+      "why": "Migrants' paid exam results are kept in Russian by Russia-authorised clinics inside Tajikistan."
+    },
+    {
+      "date": "2025-11-23",
+      "headline": "Health ministry says Tandurusti.tj will become the central platform for medical data",
+      "source": "Sputnik Tajikistan",
+      "url": "https://tj.sputniknews.ru/20251123/tajikistan-edinaya-cifrovaya-platforma-1073168147.html",
+      "why": "Citizens cannot sign up yet; the platform was still a pilot in Dushanbe."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

@@ -50,3 +50,17 @@ After merging, every quote was fetched again and checked against the page text. 
 
 - No rebuild. Before the next build, an editor should decide on the three flagged entries, since the merge would put them into the flags as they stand. The verifier cannot check research quotes. They were checked by hand, as described above.
 - Wales, Scotland and Northern Ireland, and Canadian provinces other than the four researched.
+
+## 2 Oct 2026: quotes re-anchored after the deep re-research
+
+Fifteen country files were rewritten on 2 Oct 2026 (ARG AUT BRA CHL FIN FRA GHA ITA MEX POL RWA SGP SWE THA ZAF), so their record-split quotes no longer matched. Each was re-read and given a new quote from the new file under the same rules. Ten keep their class with a new quote: AUT, BRA, ITA, SGP, SWE (partial), POL (connected), MEX, ZAF (split), GHA, RWA (unknown, new note). Five changed:
+
+- **Argentina: partial -> unknown.** The old quote (Ley 27.706 across "public, private and social security sectors") is gone. The new file never mentions private providers.
+- **Chile: partial -> split.** "Private links are uneven" is gone. The only public/private sentence left is `categories.journey.detail[2]`: "The Clinic reported that public and private systems remain far from interoperable." That is the split rule. The research file says partial (Ley 21.668 with a lapsed deadline), so the build marks a conflict and the flag follows the file class (now true). Editor to resolve.
+- **Finland: connected -> partial.** The new file names a gap: "All public health care, all pharmacies and two thirds of private health firms use Kanta" (`categories.journey.summary`).
+- **France: connected -> partial.** The only write-side private figure left is regional: "In Nouvelle-Aquitaine 90% of health establishments and 68.5% of private professionals feed it" (`categories.journey.detail[2]`). The 38,000 private doctors in `categories.clinical` consult the record, which is read access. The research file says connected, so the build marks a conflict; the flag is false either way. Editor to resolve.
+- **Thailand: partial -> unknown.** "400 public and private facilities" is gone. The new file counts "about 8,500 clinics and pharmacies" without saying public or private (kept as an unknown note).
+
+Unknown notes for Canada and India were re-anchored to the new wording of the same facts (Canada: 52% of providers share outside their workplace; India: 450 public and private software products). Both still take the research class (partial).
+
+METHOD.md section 2 (its table and the 1 Oct counts) was not updated with these changes.

@@ -1,0 +1,145 @@
+{
+  "iso3": "LCA",
+  "name": "Saint Lucia",
+  "region": "Americas",
+  "controlModel": "Institutional",
+  "headline": "Saint Lucia's public clinics share one electronic record, but the patient's legal right to see it has not been switched on since 2011.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 25,
+      "summary": "The Data Protection Act 2011 gives a right to a copy within 30 days for a fee, but that part of the Act has never been brought into force. There is no patient portal, so no enforceable right to the record exists.",
+      "detail": [
+        "Sections 52 and 53 of the Data Protection Act 2011 would let a person get a copy of their personal data within 30 days, on payment of a prescribed fee. Section 60 lets a controller refuse health data if access would likely cause serious harm.",
+        "The 2023 Commencement Order brought into force only Part I, sections 32 to 43, Part VI and part of Schedule 2. Part V, which holds the access right, was left out. The UWI Data Protection Office says the access right is still pending.",
+        "The Health Practitioners Act 2006 makes practitioners keep each patient's history and treatment for seven years, but gives the patient no right to see it.",
+        "No national patient portal was found. A hospital health information manager wrote in 2024 that hospital software could let patients view records; whether this is live was not verified. The score sits in the 15 to 35 band for no enforceable right."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2011 (No. 11 of 2011), Saint Lucia", "url": "https://www.dataguidance.com/sites/default/files/act_11_of_2011.pdf", "date": "2011-04-06", "publisherClass": "legal_text"},
+        {"title": "Data Protection Act (Commencement) Order, 2023 (S.I. 2023 No. 4)", "url": "https://npc.govt.lc/laws/download/T1dVbFFjRVYzMVhYdC9lTHNlZ2RrN1lNSHp6NjRkSmtkVHZRZUFkcExaNWN5NkhRa2piUjJYZktJV0tFVkpvMmdkc2xsZEhiMDVkRHJHcFBWRXZjY2M0dThTbklrbDhnZ0k4aWhhc3lpWlJvVkQvTFQrTHRaYVc0cC9LZnZ1MFE=", "date": "2023-01-09", "publisherClass": "legal_text"},
+        {"title": "Data Protection Laws: St Lucia (The UWI Data Protection Office)", "url": "https://www.uwi.edu/data-protection/resources-external-slu", "date": "undated", "publisherClass": "academic"},
+        {"title": "Health Practitioners Act, 2006 (No. 33 of 2006), Saint Lucia", "url": "https://npc.govt.lc/laws/download/UjVlcXRvZTd3RG93ODVaQ0tsbWNwUzhEbTJSSmQ4WjJ6bityNGtvOStjUll4K01EdG0rNFVMaXBLbHIyeVAySjd6Qi8zNWxLL2JQMlphdVJMeGhOSlJ1cFJpc1dTRDF0V09vcEphV0pYbWNMTDduTUMydXdEUmFERTU3UE5Rd3Y=", "date": "2006-11-16", "publisherClass": "legal_text"}
+      ]
+    },
+    "control": {
+      "score": 30,
+      "summary": "Consent rules for sensitive data have applied since January 2023, but health workers may process health data for care and service management without consent. Records are shared across all public clinics with no opt-out and no patient-visible access log.",
+      "detail": [
+        "Section 34, now in force, requires express consent unless a listed ground applies, and lets a person revoke consent for compelling reasons. Section 35 requires explicit consent for sensitive data, which includes physical or mental health.",
+        "Section 37 lets a registered health practitioner, or anyone bound by professional confidentiality, process health data for diagnosis, treatment, public health and managing health services without consent.",
+        "A June 2026 Caribbean Currents article says SLUHIS holds patient records across all primary care facilities and runs on the government network in all 32 wellness centres. No opt-out, granular choice or access log was found.",
+        "The right to object and the right to block or erase data sit in Part V, which is not in force. The score sits in the 20 to 35 band."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2011 (No. 11 of 2011), Saint Lucia", "url": "https://www.dataguidance.com/sites/default/files/act_11_of_2011.pdf", "date": "2011-04-06", "publisherClass": "legal_text"},
+        {"title": "Data Protection Act (Commencement) Order, 2023 (S.I. 2023 No. 4)", "url": "https://npc.govt.lc/laws/download/T1dVbFFjRVYzMVhYdC9lTHNlZ2RrN1lNSHp6NjRkSmtkVHZRZUFkcExaNWN5NkhRa2piUjJYZktJV0tFVkpvMmdkc2xsZEhiMDVkRHJHcFBWRXZjY2M0dThTbklrbDhnZ0k4aWhhc3lpWlJvVkQvTFQrTHRaYVc0cC9LZnZ1MFE=", "date": "2023-01-09", "publisherClass": "legal_text"},
+        {"title": "From Paper to Platform: The Evolution of Digital Health in Saint Lucia (Caribbean Currents)", "url": "https://caribbeancurrents.org/digital-health-transformation-saint-lucia/", "date": "2026-06-11", "publisherClass": "news"}
+      ]
+    },
+    "privacy": {
+      "score": 38,
+      "summary": "Health is sensitive data and the security and use-limitation duties have applied since 2023. But the Commissioner's enforcement powers are not in force, the Act has no breach notification duty, and no health-sector enforcement was found.",
+      "detail": [
+        "Sections 40 to 43, in force since 31 January 2023, require accurate data, use only for the stated purpose, security measures matched to the risk, and destruction when no longer needed. Breaking the consent rule in section 34 carries a fine up to 25,000 dollars or six months in prison.",
+        "Part II, which creates the Commissioner and covers complaints, investigations and enforcement notices, is not in force. Nor is Part VII, with the general offence of up to 100,000 dollars for a company. The UWI Data Protection Office confirms enforcement is pending.",
+        "The Act contains no duty to report breaches. Part VI exemptions for crime, tax, national security and health are in force.",
+        "No health data breach or decision was found, so the score rests on the general law. It sits below the usual 45 to 66 band because the law is only partly in force and has no working enforcer."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2011 (No. 11 of 2011), Saint Lucia", "url": "https://www.dataguidance.com/sites/default/files/act_11_of_2011.pdf", "date": "2011-04-06", "publisherClass": "legal_text"},
+        {"title": "Data Protection Act (Commencement) Order, 2023 (S.I. 2023 No. 4)", "url": "https://npc.govt.lc/laws/download/T1dVbFFjRVYzMVhYdC9lTHNlZ2RrN1lNSHp6NjRkSmtkVHZRZUFkcExaNWN5NkhRa2piUjJYZktJV0tFVkpvMmdkc2xsZEhiMDVkRHJHcFBWRXZjY2M0dThTbklrbDhnZ0k4aWhhc3lpWlJvVkQvTFQrTHRaYVc0cC9LZnZ1MFE=", "date": "2023-01-09", "publisherClass": "legal_text"},
+        {"title": "Data Protection Laws: St Lucia (The UWI Data Protection Office)", "url": "https://www.uwi.edu/data-protection/resources-external-slu", "date": "undated", "publisherClass": "academic"}
+      ]
+    },
+    "commercial": {
+      "score": 35,
+      "summary": "Selling or marketing with health data would need explicit consent under rules in force since 2023. But the offence for selling unlawfully obtained data and the right to stop direct marketing are in parts of the Act not yet in force.",
+      "detail": [
+        "Section 35 bars processing health data without explicit consent unless a listed exception applies. None of the exceptions covers marketing or sale. Section 41 bars use incompatible with the original purpose.",
+        "Section 44, which bars disclosure incompatible with the purpose and makes offering to sell unlawfully obtained data an offence, is outside the 2023 Commencement Order.",
+        "Section 57, the right to stop processing for direct marketing, sits in Part V and is not in force. No rules for health apps or data brokers were found.",
+        "With no enforcement powers in force, no action on commercial use of health data was found."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2011 (No. 11 of 2011), Saint Lucia", "url": "https://www.dataguidance.com/sites/default/files/act_11_of_2011.pdf", "date": "2011-04-06", "publisherClass": "legal_text"},
+        {"title": "Data Protection Act (Commencement) Order, 2023 (S.I. 2023 No. 4)", "url": "https://npc.govt.lc/laws/download/T1dVbFFjRVYzMVhYdC9lTHNlZ2RrN1lNSHp6NjRkSmtkVHZRZUFkcExaNWN5NkhRa2piUjJYZktJV0tFVkpvMmdkc2xsZEhiMDVkRHJHcFBWRXZjY2M0dThTbklrbDhnZ0k4aWhhc3lpWlJvVkQvTFQrTHRaYVc0cC9LZnZ1MFE=", "date": "2023-01-09", "publisherClass": "legal_text"}
+      ]
+    },
+    "journey": {
+      "score": 35,
+      "summary": "One electronic record, SLUHIS, covers all public primary care, but hospitals run a separate system with only limited data exchange. The main public hospital's CEO said in July 2026 that too much work still depends on paper.",
+      "detail": [
+        "SLUHIS is the flagship primary care system and holds electronic records for patients at the wellness centres. It was linked to DHIS2 dashboards in April 2023 (Government of Saint Lucia).",
+        "The 2024 UHC White Paper names weak links between SLUHIS, the hospital system CELLMA and the laboratory information system. A June 2026 Caribbean Currents article says exchange is limited and integration partial.",
+        "DHIS2 runs disease surveillance. A National Cancer Registry launched in August 2026. No national e-prescription system or insurance claims link was found; a UHC Authority law was still in draft in February 2026.",
+        "A Digital Health Policy and Strategy was drafted under the World Bank health project. An interoperability framework is described as under way."
+      ],
+      "sources": [
+        {"title": "White Paper on Saint Lucia Universal Health Coverage (Ministry of Health, via World Bank)", "url": "https://documents1.worldbank.org/curated/en/099080724165027120/pdf/P1766621debc940421a5621d7371e88f280.pdf", "date": "2024-07-22", "publisherClass": "official"},
+        {"title": "Ministry of Health, Wellness and Elderly Affairs embarks on new initiative to enhance data reporting (Government of Saint Lucia)", "url": "https://www.govt.lc/news/ministry-of-health-wellness-and-elderly-affairs-embarks-on-new-initiative-to-enhance-data-reporting2", "date": "2023-05-23", "publisherClass": "official"},
+        {"title": "From Paper to Platform: The Evolution of Digital Health in Saint Lucia (Caribbean Currents)", "url": "https://caribbeancurrents.org/digital-health-transformation-saint-lucia/", "date": "2026-06-11", "publisherClass": "news"},
+        {"title": "CEO Greaves acknowledges OKEU Hospital challenges, outlines plan to address concerns (St. Lucia Times)", "url": "https://stluciatimes.com/182458/2026/07/ceo-greaves-acknowledges-okeu-hospital-challenges-outlines-plan-to-address-concerns/", "date": "2026-07-29", "publisherClass": "news"}
+      ]
+    },
+    "clinical": {
+      "score": 32,
+      "summary": "A clinician at any public wellness centre can open the patient's SLUHIS record over the government network. Hospital doctors work in a separate system with partial links, and much hospital work is still on paper.",
+      "detail": [
+        "A June 2026 Caribbean Currents article says SLUHIS runs on the Government Wide Area Network in all 32 community wellness centres, giving access to electronic patient records across the primary care network.",
+        "Public hospitals use a separate system, CELLMA (2024 UHC White Paper). The same article says limited data exchange exists with SLUHIS and clinical use is not yet fully optimised.",
+        "In July 2026 the hospital CEO said too much work at OKEU Hospital still depends on paper and handwritten records.",
+        "No link between private practices and the public record was found. The legal basis for care use without consent is section 37 of the Data Protection Act."
+      ],
+      "sources": [
+        {"title": "White Paper on Saint Lucia Universal Health Coverage (Ministry of Health, via World Bank)", "url": "https://documents1.worldbank.org/curated/en/099080724165027120/pdf/P1766621debc940421a5621d7371e88f280.pdf", "date": "2024-07-22", "publisherClass": "official"},
+        {"title": "From Paper to Platform: The Evolution of Digital Health in Saint Lucia (Caribbean Currents)", "url": "https://caribbeancurrents.org/digital-health-transformation-saint-lucia/", "date": "2026-06-11", "publisherClass": "news"},
+        {"title": "CEO Greaves acknowledges OKEU Hospital challenges, outlines plan to address concerns (St. Lucia Times)", "url": "https://stluciatimes.com/182458/2026/07/ceo-greaves-acknowledges-okeu-hospital-challenges-outlines-plan-to-address-concerns/", "date": "2026-07-29", "publisherClass": "news"}
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Health data can be used for research without consent under section 38, but only on approved security conditions, early removal of identifiers and a signed agreement. There is no opt-out, and the 2016 Clinical Trials Act's start date was not verified.",
+      "detail": [
+        "Section 38, in force since 2023, allows research use of sensitive data only if identifiable data is needed, it is not used to recruit people, and the head of the public body approves conditions on security, removal of identifiers and no further disclosure. The recipient must sign an agreement.",
+        "The Clinical Trials Act 2016 sets informed consent rules and an ethics committee. It starts only on a date fixed by ministerial order. Whether that order was made was not verified, so it earns no credit here.",
+        "No opt-out and no public register of research uses were found. A National Cancer Registry launched in August 2026; its consent rules were not found.",
+        "Score: base 40, plus 3 for the approval step and 3 for the identifier and confidentiality conditions."
+      ],
+      "sources": [
+        {"title": "Data Protection Act, 2011 (No. 11 of 2011), Saint Lucia", "url": "https://www.dataguidance.com/sites/default/files/act_11_of_2011.pdf", "date": "2011-04-06", "publisherClass": "legal_text"},
+        {"title": "Clinical Trials Act, 2016 (No. 10 of 2016), Saint Lucia", "url": "https://npc.govt.lc/laws/download/UjVlcXRvZTd3RG93ODVaQ0tsbWNwWjZoSTdOaytDV2p3RlZWTDBsQ3psWnhJdU9tdHF2MmJOQmQ5aCt1ck5SKzk5TmJDTDB4NkdsVzYxTzRzV3lQdHlTRmh1L0NGWThmZnR3bC9oM2I5UVFhVURvWERTS0tLMlZ0MEFHTlRUYnk=", "date": "2016-04-19", "publisherClass": "legal_text"},
+        {"title": "New bill regulates medical research (Government of Saint Lucia)", "url": "https://www.govt.lc/news/new-bill-regulates-medical-research", "date": "2016-02-05", "publisherClass": "official"},
+        {"title": "The Ministry of Health Officially Launches Saint Lucia's National Cancer Registry (The Voice)", "url": "https://thevoiceslu.com/2026/08/the-ministry-of-health-officially-launches-saint-lucias-national-cancer-registry/", "date": "2026-08-09", "publisherClass": "news"}
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "No law, strategy or device rule for clinical AI was found. The 2024 UHC White Paper lists only pharmacy laws for medical products and calls for policies on tools such as AI diagnostics.",
+      "detail": [
+        "The UHC White Paper names the Pharmacy Act 2003 and its regulations as the medicines law and says structured policies are needed for adopting telemedicine, mobile health and AI-driven diagnostics. No medical device regulator was named.",
+        "A June 2026 compliance tracker says Saint Lucia has no AI-specific law, strategy or regulator, and that national AI law has been signalled but not drafted.",
+        "The absence of any device or AI rule was not confirmed with the ministry."
+      ],
+      "sources": [
+        {"title": "White Paper on Saint Lucia Universal Health Coverage (Ministry of Health, via World Bank)", "url": "https://documents1.worldbank.org/curated/en/099080724165027120/pdf/P1766621debc940421a5621d7371e88f280.pdf", "date": "2024-07-22", "publisherClass": "official"},
+        {"title": "AI Regulation in Saint Lucia (Levellers)", "url": "https://www.levellers.ai/what-is/ai-regulation-saint-lucia", "date": "2026-06-08", "publisherClass": "blog_vendor"}
+      ]
+    }
+  },
+  "journey": {"primaryCare": "connected", "hospital": "partial", "labs": "partial", "pharmacy": "unknown", "claims": "unknown", "publicHealth": "partial", "research": "siloed"},
+  "journeyNote": "SLUHIS links all public wellness centres; hospitals use a separate system with limited exchange and much paper. Lab links are weak, DHIS2 runs surveillance, no claims system was found. Not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {"name": "Data Protection Act, 2011 (No. 11 of 2011), Cap. 8.18", "level": "National", "year": "2011", "what": "Health is sensitive data; consent and security rules in force; access rights and enforcement not yet in force.", "url": "https://www.dataguidance.com/sites/default/files/act_11_of_2011.pdf"},
+    {"name": "Data Protection Act (Commencement) Order, 2023 (S.I. 2023 No. 4)", "level": "National", "year": "2023", "what": "From 31 January 2023, brings into force Part I, sections 32 to 43, Part VI and Schedule 2(a)-(g).", "url": "https://npc.govt.lc/laws/download/T1dVbFFjRVYzMVhYdC9lTHNlZ2RrN1lNSHp6NjRkSmtkVHZRZUFkcExaNWN5NkhRa2piUjJYZktJV0tFVkpvMmdkc2xsZEhiMDVkRHJHcFBWRXZjY2M0dThTbklrbDhnZ0k4aWhhc3lpWlJvVkQvTFQrTHRaYVc0cC9LZnZ1MFE="},
+    {"name": "Health Practitioners Act, 2006 (No. 33 of 2006)", "level": "National", "year": "2006", "what": "Registers practitioners; requires patient records of history and treatment kept for seven years.", "url": "https://npc.govt.lc/laws/download/UjVlcXRvZTd3RG93ODVaQ0tsbWNwUzhEbTJSSmQ4WjJ6bityNGtvOStjUll4K01EdG0rNFVMaXBLbHIyeVAySjd6Qi8zNWxLL2JQMlphdVJMeGhOSlJ1cFJpc1dTRDF0V09vcEphV0pYbWNMTDduTUMydXdEUmFERTU3UE5Rd3Y="},
+    {"name": "Clinical Trials Act, 2016 (No. 10 of 2016)", "level": "National", "year": "2016", "what": "Informed consent and an ethics committee for trials; starts by ministerial order, commencement not verified.", "url": "https://npc.govt.lc/laws/download/UjVlcXRvZTd3RG93ODVaQ0tsbWNwWjZoSTdOaytDV2p3RlZWTDBsQ3psWnhJdU9tdHF2MmJOQmQ5aCt1ck5SKzk5TmJDTDB4NkdsVzYxTzRzV3lQdHlTRmh1L0NGWThmZnR3bC9oM2I5UVFhVURvWERTS0tLMlZ0MEFHTlRUYnk="}
+  ],
+  "news": [
+    {"date": "2026-02-19", "headline": "Government launches universal health coverage drive and drafts a UHC Authority law", "source": "Caribbean National Weekly", "url": "https://www.caribbeannationalweekly.com/posts/st-lucia-launches-universal-health-coverage-push-amid-rising-healthcare-costs", "why": "A coverage scheme will need patient registration and data sharing rules that do not yet exist."},
+    {"date": "2026-06-11", "headline": "Article says hospital and clinic record systems are only partly linked", "source": "Caribbean Currents", "url": "https://caribbeancurrents.org/digital-health-transformation-saint-lucia/", "why": "Patients moving from clinic to hospital may find their history missing."},
+    {"date": "2026-07-29", "headline": "Main public hospital CEO says too much work still relies on paper records", "source": "St. Lucia Times", "url": "https://stluciatimes.com/182458/2026/07/ceo-greaves-acknowledges-okeu-hospital-challenges-outlines-plan-to-address-concerns/", "why": "Paper records slow care and cannot be shared with other providers."},
+    {"date": "2026-08-09", "headline": "Health ministry launches a population-based National Cancer Registry", "source": "The Voice", "url": "https://thevoiceslu.com/2026/08/the-ministry-of-health-officially-launches-saint-lucias-national-cancer-registry/", "why": "Every cancer diagnosis will be recorded centrally; no consent or opt-out rules were described."}
+  ],
+  "asOf": "2026-10-01"
+}

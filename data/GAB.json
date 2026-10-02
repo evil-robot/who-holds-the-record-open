@@ -1,0 +1,331 @@
+{
+ "iso3": "GAB",
+ "name": "Gabon",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Gabon has a detailed 2023 data law and a regulator that fines, but patients cannot see records online and digital files stay in pilot hospitals.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 35,
+   "summary": "Law 025/2023 gives a free written right to see your data and a copy, directly or through a doctor. No deadline is set, the provider may charge the cost of copying, and there is no patient portal, so 35.",
+   "detail": [
+    "Article 43 of Law 025/2023 lets any person who proves their identity ask a controller, free of charge and in writing, for their data in an accessible form and its source. A request made electronically is answered in a common electronic format. A copy is provided; reasonable fees apply only to extra copies.",
+    "Article 44 contradicts this in part: it lets the controller make the copy depend on a payment no higher than the cost of reproduction. We found no deadline for answering an access request in Articles 43 to 49.",
+    "Article 46 is specific to health. A patient uses the right in person or through a doctor of their choice. After death, the spouse, children or heirs, or the parents of a minor, may use it through a doctor.",
+    "Electronic patient files exist in some pilot hospitals under the eGabon-SIS project, but they are tools for staff. We found no national portal or app that shows patients their own record. The CNAMGS insurance eServices portal handles insured-person services, and we could not see what it shows behind its login."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°025/2023 du 12 juillet 2023 portant modification de la loi n°001/2011 relative à la protection des données à caractère personnel (Journal officiel n°218 bis, AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2023-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "eGabon SIS : la digitalisation effective à l'Hôpital de la Coopération Sino-Gabonaise (Gabon Media Time)",
+     "url": "https://gabonmediatime.com/egabon-sis-la-digitalisation-effective-a-lhopital-de-la-cooperation-sino-gabonaise/",
+     "date": "2026-07-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "CNAMGS: Portail eServices",
+     "url": "https://ecnamgs.cnamgs.ga/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data may be processed without consent for care by staff bound by secrecy, and pilot hospital records are shared on transfer with no patient setting. We found no opt-out and no access log a patient can read.",
+   "detail": [
+    "Article 75 of Law 025/2023 bans processing health, genetic and biometric data. Article 76 lifts the ban with express consent, and also without consent for preventive medicine, diagnosis, care and health service management by a health professional or someone bound by professional secrecy.",
+    "Article 73 lets a person withdraw consent at any time. Article 61 gives a free right to object to use of data they did not consent to, but not where processing is a public order matter or meets a legal or contractual duty.",
+    "In July 2026 the director of the Sino-Gabonese hospital said that when a patient is transferred, the file is connected and the receiving doctor finds all the information. We found no patient choice over that sharing and no access log.",
+    "Law 004/2022 on the orientation of the health information system is the legal base for the unique patient identifier bill. Its text could not be opened, so whether it gives patients any opt-out or access log was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°025/2023 du 12 juillet 2023 portant modification de la loi n°001/2011 relative à la protection des données à caractère personnel (Journal officiel n°218 bis, AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2023-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "eGabon SIS : la digitalisation effective à l'Hôpital de la Coopération Sino-Gabonaise (Gabon Media Time)",
+     "url": "https://gabonmediatime.com/egabon-sis-la-digitalisation-effective-a-lhopital-de-la-cooperation-sino-gabonaise/",
+     "date": "2026-07-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Gabon : projets de lois et nominations au Conseil des ministres du 23 octobre 2025 (Gabonactu, communiqué text)",
+     "url": "https://gabonactu.com/blog/2025/10/24/gabon-projets-de-lois-et-nominations-au-conseil-des-ministres-du-23-octobre-2025/",
+     "date": "2025-10-24",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 54,
+   "summary": "Law 025/2023 treats health data as sensitive, requires breach notice to the regulator without delay and allows fines up to 300 million CFA francs for repeat breaches. The APDPVP has fined companies, but we found no health-sector decision, so this scores the general law.",
+   "detail": [
+    "Article 7 of Law 025/2023 creates the APDPVP as an independent administrative authority. Its nine voting commissioners include judges, a lawyer, a doctor named by the medical council and a human rights representative. They serve five years, renewable once. Appeals go to the Council of State.",
+    "Article 142 requires a controller to tell the APDPVP of a breach without delay, with no fixed hours. Article 145 requires telling people when the risk to them is high. Article 204 allows fines of 1 to 100 million CFA francs, up to 300 million on repeat.",
+    "The APDPVP sanctions page lists a 2018 penalty against Axione Gabon and a 25 April 2024 decision against Citibank Gabon. Gabonreview reported the Citibank fine as 90 million CFA francs for an ethnic file on staff. In June 2026 the APDPVP warned administrations that publish personal lists online.",
+    "Article 48 routes access to state security, defence and public safety files through the APDPVP. Article 171 allows transfers abroad only with APDPVP authorisation to states with sufficient protection. Gabon is outside the EU, so the EHDS does not apply. We found no published health data breach."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°025/2023 du 12 juillet 2023 portant modification de la loi n°001/2011 relative à la protection des données à caractère personnel (Journal officiel n°218 bis, AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2023-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sanctions (APDPVP)",
+     "url": "https://www.apdpvp.ga/sanctions-2/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Fichage ethnique : Citibank Gabon écope de 90 millions CFA d'amende (Gabonreview)",
+     "url": "https://www.gabonreview.com/fichage-ethnique-citibank-gabon-ecope-de-90-millions-damende/",
+     "date": "2024-07-15",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Données personnelles : face aux dérives des administrations, l'APDPVP hausse le ton (Gabon Media Time)",
+     "url": "https://gabonmediatime.com/donnees-personnelles-face-aux-derives-des-administrations-lapdpvp-hausse-le-ton/",
+     "date": "2026-07-01",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 46,
+   "summary": "Law 025/2023 gives a right to refuse marketing use of your data at any time and says sensitive data needs written, informed consent. We found no rules on health apps, data brokers or sales of de-identified health data, and no health-sector enforcement.",
+   "detail": [
+    "Article 62 of Law 025/2023 lets a person object at any time to processing for prospecting, including profiling linked to it. Once they object, the data may no longer be used for that purpose. Article 63 says this right must be shown clearly and separately at first contact.",
+    "Article 72 says that in electronic transactions consent is never presumed and accepting terms of use is not enough. Article 76 says sensitive data, including health data, may be processed only with express, written and informed consent, subject to the law's exceptions.",
+    "These are general rules. The APDPVP's published sanctions name Axione Gabon and Citibank Gabon, not a health body. We found no decision on health apps, sales of health data or de-identified data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°025/2023 du 12 juillet 2023 portant modification de la loi n°001/2011 relative à la protection des données à caractère personnel (Journal officiel n°218 bis, AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2023-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Sanctions (APDPVP)",
+     "url": "https://www.apdpvp.ga/sanctions-2/",
+     "date": "undated",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "journey": {
+   "score": 30,
+   "summary": "The World Bank's eGabon project closed in June 2026 after putting the health information system in 13 pilot hospitals. In March 2025 the Bank still counted 0% of prescriptions sent electronically, and bills for a unique patient ID and interoperability await passage.",
+   "detail": [
+    "The 2024-2028 national health plan calls the health information system dysfunctional overall. It cites late reporting, weak ICT in rural areas, missing private-sector data and outdated Infosani software. It aims to deploy a DHIS2 platform integrating all programmes by December 2028.",
+    "A World Bank report archived in May 2025 recorded, as of March 2025, 0% of prescriptions transmitted electronically and 0% of health workers regularly using an electronic record, against 2025 targets of 60% and 70%.",
+    "At the June 2026 closing, Gabonreview reported the system in 13 civil and military pilot hospitals, electronic patient files and telemedicine in 31 localities. A DHIS2 Tracker for hypertension and diabetes patients was to reach four districts by September 2026.",
+    "On 23 October 2025 the Council of Ministers adopted bills for a unique patient and professional identifier and an interoperability framework. We could not verify that Parliament has passed either one. The CNAMGS insurance fund runs an online eServices portal."
+   ],
+   "sources": [
+    {
+     "title": "Plan national de développement sanitaire du Gabon 2024-2028 (Ministère de la Santé et des Affaires sociales, P4H copy)",
+     "url": "https://p4h.world/app/uploads/2024/10/P4H-PNDS-2024-2028_Gabon.x23411.pdf",
+     "date": "2023-07",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Implementation Status & Results Report, eGabon (P132824), Seq. 16 (World Bank)",
+     "url": "https://documents1.worldbank.org/curated/en/099052125123532941/pdf/P132824-c6a10e3c-f5f5-41bc-ab52-9252846fc3f2.pdf",
+     "date": "2025-05-21",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "eGabon-SIS : le Gabon tourne une page et ouvre une nouvelle phase de sa transformation numérique en santé (Gabonreview)",
+     "url": "https://www.gabonreview.com/egabon-sis-le-gabon-tourne-une-page-et-ouvre-une-nouvelle-phase-de-sa-transformation-numerique-en-sante/",
+     "date": "2026-06-25",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Santé numérique : le Gabon, premier pays d'Afrique francophone à déployer le DHIS2 Tracker (Gabon Media Time)",
+     "url": "https://gabonmediatime.com/sante-numerique-le-gabon-premier-pays-dafrique-francophone-a-deployer-le-dhis2-tracker/",
+     "date": "2026-06-18",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 25,
+   "summary": "Doctors in some pilot hospitals can open electronic patient files, and one director says files follow transfers to other Libreville hospitals. Nationally there is no shared record yet, and in March 2025 the World Bank found 0% of health workers regularly using one.",
+   "detail": [
+    "Article 76 of Law 025/2023 allows health professionals bound by secrecy to process health data for diagnosis and care without consent. The legal basis exists.",
+    "At the Sino-Gabonese hospital, the electronic patient file went live on 13 July 2026 and is open to doctors. Lab and imaging results are to be added later. The director said files are connected on transfer to the Egypto-Gabonese hospital, the CHU of Libreville and the military hospital.",
+    "The World Bank's March 2025 figures showed 0% of health workers regularly using and updating an electronic record during consultations. The unique patient identifier bill aims to group each patient's data in one system for authorised professionals; it had not been shown to be law."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°025/2023 du 12 juillet 2023 portant modification de la loi n°001/2011 relative à la protection des données à caractère personnel (Journal officiel n°218 bis, AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2023-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Implementation Status & Results Report, eGabon (P132824), Seq. 16 (World Bank)",
+     "url": "https://documents1.worldbank.org/curated/en/099052125123532941/pdf/P132824-c6a10e3c-f5f5-41bc-ab52-9252846fc3f2.pdf",
+     "date": "2025-05-21",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "eGabon SIS : la digitalisation effective à l'Hôpital de la Coopération Sino-Gabonaise (Gabon Media Time)",
+     "url": "https://gabonmediatime.com/egabon-sis-la-digitalisation-effective-a-lhopital-de-la-cooperation-sino-gabonaise/",
+     "date": "2026-07-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Santé : le Gabon instaure un identifiant unique pour patients et professionnels de santé (Gabonreview)",
+     "url": "https://www.gabonreview.com/sante-le-gabon-instaure-un-identifiant-unique-pour-patients-et-professionnels-de-sante/",
+     "date": "2025-10-27",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "Health research on personal data needs APDPVP authorisation after an expert committee opinion, identifying data must be coded, and staff face criminal penalties for breaking secrecy. A right to object exists in law, but we found no evidence it is used, so 50.",
+   "detail": [
+    "Articles 150 and 151 of Law 025/2023 require APDPVP authorisation for health research processing, after an opinion from an advisory committee under the research minister. If the committee does not answer within one month, its opinion counts as favourable.",
+    "Article 152 lets health professionals pass data to an authorised project despite secrecy, but identifying data must be coded first, with exceptions. Results may never identify people. Everyone with access is bound by professional secrecy on pain of criminal prosecution.",
+    "Article 153 gives every person a right to object to the lifting of secrecy for such research. Research using biological samples needs prior informed, express consent. Article 65 allows objection to research use unless it serves a public-interest task.",
+    "Health Research Web lists a government National Ethics Committee for Research (CNER) in Libreville that meets quarterly. Article 170 says interconnection authorisations go in a public register; we could not open the APDPVP authorisations page, so it does not count here."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°025/2023 du 12 juillet 2023 portant modification de la loi n°001/2011 relative à la protection des données à caractère personnel (Journal officiel n°218 bis, AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2023-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ethics Committees, Gabon: Comité National d'Ethique pour la Recherche (Health Research Web, COHRED)",
+     "url": "https://healthresearchwebafrica.org.za/en/api/gabon/ethics_1125?keyP=marc",
+     "date": "undated",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "ai": {
+   "score": 25,
+   "summary": "We found no regulation of AI or software as a medical device and no clinical AI guidance. The data law gives a right to human review of automated decisions, and a national AI strategy was still being drafted in September 2026.",
+   "detail": [
+    "Articles 66 to 68 of Law 025/2023 let a person object to decisions based solely on automated processing, including profiling, and require at least a right to human intervention and to contest the decision. The law also defines AI terms such as training data and machine learning.",
+    "The medicines agency ANMAPS, created by an October 2023 ordinance, regulates medicines and health products. Its home page does not mention software or AI as a medical device.",
+    "Work on a national AI strategy ended a three-day stage on 30 September 2026 with 22 challenges and 36 recommendations, supported by UNDP. Recommendations include human oversight for sensitive uses. The strategy itself is not yet written."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°025/2023 du 12 juillet 2023 portant modification de la loi n°001/2011 relative à la protection des données à caractère personnel (Journal officiel n°218 bis, AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "date": "2023-07-15",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "ANMAPS, site officiel (Agence Nationale du Médicament et des Autres Produits de Santé)",
+     "url": "https://anmaps.ga/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Stratégie IA : le Gabon retient 22 défis et 36 recommandations (Gabonactu)",
+     "url": "https://gabonactu.com/blog/2026/09/30/strategie-ia-le-gabon-retient-22-defis-et-36-recommandations/",
+     "date": "2026-09-30",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "partial",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Thirteen pilot hospitals run the eGabon health information system with electronic patient files. Public health reporting uses DHIS2. In March 2025 no prescriptions were sent electronically. Whether CNAMGS claims link to clinical records was not verified.",
+ "laws": [
+  {
+   "name": "Law 025/2023 on personal data protection and privacy (amending Law 001/2011)",
+   "level": "National",
+   "year": "2023",
+   "what": "Health data is sensitive; patient access in person or via a doctor; breach notice; fines to 300 million CFA.",
+   "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf"
+  },
+  {
+   "name": "Law 001/2011 on personal data protection",
+   "level": "National",
+   "year": "2011",
+   "what": "First data protection law; created the data commission (CNPDCP) that became the APDPVP in 2023.",
+   "url": "https://www.afapdp.org/wp-content/uploads/2012/01/Gabon-Loi-relative-%C3%A0-la-protection-des-donn%C3%A9es-personnelles-du-4-mai-20112.pdf"
+  },
+  {
+   "name": "Law 004/2022 on the orientation of the health information system",
+   "level": "National",
+   "year": "2022",
+   "what": "Framework law for the health information system; legal base for the patient ID and interoperability bills. Text not opened.",
+   "url": "https://gabonactu.com/blog/2025/10/24/gabon-projets-de-lois-et-nominations-au-conseil-des-ministres-du-23-octobre-2025/"
+  },
+  {
+   "name": "Bill instituting a unique patient and health professional identifier",
+   "level": "National",
+   "year": "2025",
+   "what": "Adopted by the Council of Ministers on 23 October 2025 to link each patient's medical data. Passage not verified.",
+   "url": "https://gabonactu.com/blog/2025/10/24/gabon-projets-de-lois-et-nominations-au-conseil-des-ministres-du-23-octobre-2025/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-10-27",
+   "headline": "Cabinet adopts bill for a unique patient and health professional identifier",
+   "source": "Gabonreview",
+   "url": "https://www.gabonreview.com/sante-le-gabon-instaure-un-identifiant-unique-pour-patients-et-professionnels-de-sante/",
+   "why": "A single ID is the first step to a record that follows patients between hospitals."
+  },
+  {
+   "date": "2026-06-25",
+   "headline": "World Bank eGabon health project closes after reaching 13 pilot hospitals",
+   "source": "Gabonreview",
+   "url": "https://www.gabonreview.com/egabon-sis-le-gabon-tourne-une-page-et-ouvre-une-nouvelle-phase-de-sa-transformation-numerique-en-sante/",
+   "why": "Electronic patient files now exist in some hospitals, but the state must fund their spread."
+  },
+  {
+   "date": "2026-06-30",
+   "headline": "Insurance fund suspends 122,602 beneficiaries after cleaning its database",
+   "source": "Gabonactu",
+   "url": "https://gabonactu.com/blog/2026/06/30/cnamgs-suspension-des-droits-de-certains-beneficiaires/",
+   "why": "Patients without a photo on file could lose health cover unless they update records by 30 September."
+  },
+  {
+   "date": "2026-07-01",
+   "headline": "Data regulator warns administrations against publishing personal lists",
+   "source": "Gabon Media Time",
+   "url": "https://gabonmediatime.com/donnees-personnelles-face-aux-derives-des-administrations-lapdpvp-hausse-le-ton/",
+   "why": "The regulator says public bodies that expose personal data now face sanctions."
+  },
+  {
+   "date": "2026-09-30",
+   "headline": "AI strategy workshop sets 22 challenges and 36 recommendations",
+   "source": "Gabonactu",
+   "url": "https://gabonactu.com/blog/2026/09/30/strategie-ia-le-gabon-retient-22-defis-et-36-recommandations/",
+   "why": "Gabon has no rules yet for AI in care; the strategy may set the first ones."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

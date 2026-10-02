@@ -1,0 +1,357 @@
+{
+  "iso3": "FSM",
+  "name": "Micronesia",
+  "region": "Oceania",
+  "controlModel": "State",
+  "headline": "Micronesia is joining its state hospital records into one national system, but no law yet gives patients access, consent or privacy rights.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 20,
+      "summary": "Micronesia has no data protection law and no statutory right to see or copy a health record was found. The 2025 data protection bill is still pending, covers only national departments, and contains no access right.",
+      "detail": [
+        "Article IV, section 5 of the Constitution protects against unreasonable search, seizure or invasion of privacy. It does not give a right to a copy of one's medical record.",
+        "Title 41 of the FSM Code (public health) has no section on patient access to records. State codes were not reviewed, so a state-level access right is not verified.",
+        "C.B. No. 24-17, the Personal Data Protection Act of 2025, was introduced on 17 May 2025. It sets data principles and a complaints process but no right of access. It applies only to core national departments and excludes purely intrastate processing, so state-run hospitals appear to fall outside it.",
+        "No patient portal was found. The Digital Health Strategic Plan talks about empowering individuals but names no portal."
+      ],
+      "sources": [
+        {
+          "title": "Constitution of the Federated States of Micronesia, Article IV (Declaration of Rights), FSM Legal Information System",
+          "url": "https://fsmlaw.org/fsm/constitution/article4.htm",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "C.B. No. 24-17, FSM Personal Data Protection Act of 2025 (Congress of the FSM)",
+          "url": "https://www.cfsm.gov.fm/wp-content/uploads/2025/06/CB-24-17.pdf",
+          "date": "2025-05-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "FSM Code (Annotated) 2014, Title 41 Public Health, Safety, and Welfare",
+          "url": "http://www.fsmlaw.org/fsm/code/PDF/FSMCA2014Tit41.pdf",
+          "date": "2014",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "FSM Digital Health Strategic Plan 2026-2030 (FSM Department of Health and Social Affairs)",
+          "url": "https://hsa.gov.fm/wp-content/uploads/2026/03/FSM-Digital-Health-Strategic-Plan-Signed-1.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 22,
+      "summary": "Records now sit in one national system that a clinician can open from any state, with no opt-out or patient-visible access log found. The cancer registry law requires reporting every case and only tells the patient it was reported.",
+      "detail": [
+        "BES, the vendor, says the national Tamanu record lets a clinician open any patient's history from any state. No consent step, opt-out or patient access log was described.",
+        "Section 1104 of the Cancer Registry System Act requires every facility to report each cancer case to the Secretary. The patient must be informed before the report, but consent is not required.",
+        "The Digital Health Strategic Plan commits to role-based access controls and audit trails. These are plans, and no patient-facing log is mentioned.",
+        "The pending data protection bill would let national departments share personal data with each other whenever it serves a legitimate national government function and follows the bill's principles."
+      ],
+      "sources": [
+        {
+          "title": "Unifying health data across the four Federated States of Micronesia (BES International)",
+          "url": "https://www.bes.au/unifying-health-data-across-the-four-federated-states-of-micronesia/",
+          "date": "2026-09-14",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "FSM Code Title 41, Chapter 11, Cancer Registry System Act (FSM Legal Information System)",
+          "url": "https://fsmlaw.org/fsm/code/code2014/FSMCode2014Tit41Chap11.html",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "FSM Digital Health Strategic Plan 2026-2030 (FSM Department of Health and Social Affairs)",
+          "url": "https://hsa.gov.fm/wp-content/uploads/2026/03/FSM-Digital-Health-Strategic-Plan-Signed-1.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "C.B. No. 24-17, FSM Personal Data Protection Act of 2025 (Congress of the FSM)",
+          "url": "https://www.cfsm.gov.fm/wp-content/uploads/2025/06/CB-24-17.pdf",
+          "date": "2025-05-17",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 22,
+      "summary": "There is no data protection law, regulator or breach notification duty, and the Health Department's own plan says sensitive patient data may be inadequately protected. A ransomware attack forced Yap's health department to take its whole network offline in March 2025.",
+      "detail": [
+        "DLA Piper lists no data protection law, authority, security rule or breach notification duty in the FSM. A telecoms confidentiality duty in Title 21 covers carriers only.",
+        "The pending bill names health data as sensitive but makes the National Statistics Office its administrator, not an independent regulator. Courts may not award damages under it, and it would take effect 18 months after approval.",
+        "In March 2025 ransomware forced Yap's health department to take its whole network offline. In October 2025 the Vice President cited recent health-sector cyber incidents.",
+        "In May 2026 a Congress committee recommended against the cybercrime bill in its current form. The only health-specific penalty found is a $2,000 fine for leaking cancer registry data."
+      ],
+      "sources": [
+        {
+          "title": "Data protection laws in the Federated States of Micronesia (DLA Piper)",
+          "url": "https://www.dlapiperdataprotection.com/?t=law&c=FM",
+          "date": "2026-02-02",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "C.B. No. 24-17, FSM Personal Data Protection Act of 2025 (Congress of the FSM)",
+          "url": "https://www.cfsm.gov.fm/wp-content/uploads/2025/06/CB-24-17.pdf",
+          "date": "2025-05-17",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ransomware attack takes down health system network in Micronesia (The Record)",
+          "url": "https://therecord.media/ransomware-attack-micronesia-health-system",
+          "date": "2025-03-14",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Standing Committee Report on C.B. No. 24-15, with Kosrae State submission on the digital governance bills (Congress of the FSM)",
+          "url": "https://www.cfsm.gov.fm/wp-content/uploads/2026/05/SCR-No.-24-29.pdf",
+          "date": "2026-05",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 15,
+      "summary": "No law limits the sale of health data, marketing use, data brokers or health apps. The pending data protection bill would bind only national government departments, so private clinics, insurers and app makers would stay outside it.",
+      "detail": [
+        "DLA Piper finds no rules on collection, transfer or electronic marketing beyond telecommunications carriers, which may not use or disclose customer information without consent.",
+        "C.B. No. 24-17 defines data controllers as core national departments and their contractors. National state-owned entities and the FSM Insurance Board are expressly excluded.",
+        "No rule on de-identified data sales or consumer health apps was found, and no enforcement case on commercial use of health data was found."
+      ],
+      "sources": [
+        {
+          "title": "Data protection laws in the Federated States of Micronesia (DLA Piper)",
+          "url": "https://www.dlapiperdataprotection.com/?t=law&c=FM",
+          "date": "2026-02-02",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "C.B. No. 24-17, FSM Personal Data Protection Act of 2025 (Congress of the FSM)",
+          "url": "https://www.cfsm.gov.fm/wp-content/uploads/2025/06/CB-24-17.pdf",
+          "date": "2025-05-17",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "journey": {
+      "score": 34,
+      "summary": "The vendor BES says hospitals in Yap, Pohnpei and Kosrae now share one Tamanu record holding about 128,000 patients, with Chuuk migrating (not verified by the health department). Primary care is mostly outside it: a 2024 scan found an EHR in 4 of 119 facilities.",
+      "detail": [
+        "Before the migration each state ran its own copy of a legacy EHR, so a patient's data did not follow them to another state's hospital. BES says about 128,000 patients and 530,000 encounters, back to 2018, moved into Tamanu.",
+        "Migrated data includes clinical records, procedures, labs, medications and imaging. Chuuk, the fourth state, was still underway.",
+        "A peer-reviewed scan carried out in April and May 2024 found EHRs in 4 of 119 FSM facilities (3.4%), covering all tertiary hospitals but no primary care sites.",
+        "The national plan says EHRs link partly with labs and pharmacy, but not with public health surveillance or civil registration. Immunization runs on a separate registry (FSMIIS). No link to MiCare insurance claims was found."
+      ],
+      "sources": [
+        {
+          "title": "Unifying health data across the four Federated States of Micronesia (BES International)",
+          "url": "https://www.bes.au/unifying-health-data-across-the-four-federated-states-of-micronesia/",
+          "date": "2026-09-14",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "National Electronic Health Record Coverage in Pacific Island Countries and Territories: Environmental Scan (J Med Internet Res, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+          "date": "2025-10-03",
+          "publisherClass": "academic"
+        },
+        {
+          "title": "FSM Digital Health Strategic Plan 2026-2030 (FSM Department of Health and Social Affairs)",
+          "url": "https://hsa.gov.fm/wp-content/uploads/2026/03/FSM-Digital-Health-Strategic-Plan-Signed-1.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Job Vacancy: Immunization Information System Coordinator (FSM DHSA)",
+          "url": "https://hsa.gov.fm/job-vacancy-immunization-information-system-coordinator/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 34,
+      "summary": "The vendor says a clinician can open Tamanu in any of three states and see the patient's history back to 2018, but this is not verified by the health department. Chuuk was not yet migrated, and dispensaries and health centres are mostly not on it.",
+      "detail": [
+        "BES reports that clinicians in Yap, Pohnpei and Kosrae work in one national Tamanu database. This comes from the vendor and was not confirmed by the health department.",
+        "The health department said in November 2025 it would begin phased Tamanu deployment in early 2026 after studying Palau's system.",
+        "The national plan says primary care data from community health centres and dispensaries is often non-standardised and outside national reporting, and many outer islands lack reliable internet or power.",
+        "No consent or emergency-access rules for clinicians viewing another state's records were found."
+      ],
+      "sources": [
+        {
+          "title": "Unifying health data across the four Federated States of Micronesia (BES International)",
+          "url": "https://www.bes.au/unifying-health-data-across-the-four-federated-states-of-micronesia/",
+          "date": "2026-09-14",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "FSM Health ICT Team Conducts Successful Reverse Site Visit to Palau Ministry of Health and Human Services (FSM DHSA)",
+          "url": "https://hsa.gov.fm/fsm-health-ict-team-conducts-successful-reverse-site-visit-to-palau-ministry-of-health-and-human-services/",
+          "date": "2025-11",
+          "publisherClass": "official"
+        },
+        {
+          "title": "FSM Digital Health Strategic Plan 2026-2030 (FSM Department of Health and Social Affairs)",
+          "url": "https://hsa.gov.fm/wp-content/uploads/2026/03/FSM-Digital-Health-Strategic-Plan-Signed-1.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Health research needs a national permit and ethics review, and cancer registry data is confidential by law with a fine or prison for misuse. There is no opt-out and no rules for research use of the new national record.",
+      "detail": [
+        "The FSM research policy requires biological or medical research on people to go to the FSM Human Research Ethics Committee, with details from the health department. Whether it meets regularly was not verified.",
+        "Every researcher needs a permit from the national archives and culture office, and must obtain informants' prior informed consent and respect privacy and confidentiality.",
+        "The Cancer Registry System Act makes registry data confidential. Release to researchers needs ethics approval, and unlawful disclosure carries a $2,000 fine or six months in prison.",
+        "These safeguards cover the cancer registry and new studies. No rules on secondary use of EHR data, and no public register of uses, were found."
+      ],
+      "sources": [
+        {
+          "title": "The Federated States of Micronesia Cultural Research Policy (FSM NACH)",
+          "url": "https://nach.gov.fm/wp-content/uploads/2018/05/the-federated-states-of-micronesia-cultural-research-policy_5-30-18.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Conducting Research in the FSM (FSM Office of National Archives, Culture and Historic Preservation)",
+          "url": "https://nach.gov.fm/research/",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "FSM Code Title 41, Chapter 11, Cancer Registry System Act (FSM Legal Information System)",
+          "url": "https://fsmlaw.org/fsm/code/code2014/FSMCode2014Tit41Chap11.html",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "No law, guidance or device rule for clinical AI was found, and the 2022 medicines law does not cover devices. The vendor used AI to map legacy procedure and medication text to code lists, with human review.",
+      "detail": [
+        "The Safe Pharmaceutical Act of 2022 regulates medicines and does not mention medical devices, so software as a medical device has no national regulator.",
+        "The Digital Health Strategic Plan 2026-2030 does not mention artificial intelligence. A June 2026 explainer by Levellers found no AI law, strategy or regulator.",
+        "BES says AI assisted in matching legacy free-text procedures and medications to standard codes during the Tamanu migration, followed by human review."
+      ],
+      "sources": [
+        {
+          "title": "FSM Safe Pharmaceutical Act of 2022, Public Law No. 22-136 (FSM DHSA)",
+          "url": "https://hsa.gov.fm/wp-content/uploads/2023/06/FSM-Safe-Pharmaceutical-Act-of-2022.pdf",
+          "date": "2022-06-21",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "FSM Digital Health Strategic Plan 2026-2030 (FSM Department of Health and Social Affairs)",
+          "url": "https://hsa.gov.fm/wp-content/uploads/2026/03/FSM-Digital-Health-Strategic-Plan-Signed-1.pdf",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "AI Regulation in Micronesia (FSM) (Levellers.ai)",
+          "url": "https://www.levellers.ai/what-is/ai-regulation-micronesia",
+          "date": "2026-06-08",
+          "publisherClass": "blog_vendor"
+        },
+        {
+          "title": "Unifying health data across the four Federated States of Micronesia (BES International)",
+          "url": "https://www.bes.au/unifying-health-data-across-the-four-federated-states-of-micronesia/",
+          "date": "2026-09-14",
+          "publisherClass": "blog_vendor"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "siloed",
+    "hospital": "connected",
+    "labs": "partial",
+    "pharmacy": "partial",
+    "claims": "siloed",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "Three of four state hospitals share the national Tamanu record and Chuuk is migrating. Dispensaries, claims and immunization sit outside it. Not in the EU, so the EHDS does not apply.",
+  "laws": [
+    {
+      "name": "Constitution of the FSM, Article IV, section 5",
+      "level": "National",
+      "year": "1978",
+      "what": "Protects against unreasonable search, seizure or invasion of privacy; gives no record-access right.",
+      "url": "https://fsmlaw.org/fsm/constitution/article4.htm"
+    },
+    {
+      "name": "Cancer Registry System Act (PL 15-39), 41 F.S.M.C. 1101-1108",
+      "level": "National",
+      "year": "2008",
+      "what": "Mandatory cancer reporting; data confidential; research release needs ethics approval; $2,000 fine for leaks.",
+      "url": "https://fsmlaw.org/fsm/code/code2014/FSMCode2014Tit41Chap11.html"
+    },
+    {
+      "name": "FSM Safe Pharmaceutical Act of 2022 (Public Law No. 22-136)",
+      "level": "National",
+      "year": "2022",
+      "what": "Medicines registration and import control; no medical device or software rules.",
+      "url": "https://hsa.gov.fm/wp-content/uploads/2023/06/FSM-Safe-Pharmaceutical-Act-of-2022.pdf"
+    },
+    {
+      "name": "C.B. No. 24-17, Personal Data Protection Act of 2025 (pending bill)",
+      "level": "National",
+      "year": "2025",
+      "what": "Not enacted. Data principles for national departments only; health data sensitive; no access right or damages.",
+      "url": "https://www.cfsm.gov.fm/wp-content/uploads/2025/06/CB-24-17.pdf"
+    },
+    {
+      "name": "FSM National Research Policy and Cultural Research Policy",
+      "level": "National",
+      "year": "2024",
+      "what": "Research permits; medical research reviewed by the FSM Human Research Ethics Committee; informed consent.",
+      "url": "https://nach.gov.fm/research/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025-10-31",
+      "headline": "Health staff join national cybersecurity symposium as leaders cite health-sector attacks",
+      "source": "FSM Department of Health and Social Affairs",
+      "url": "https://hsa.gov.fm/fsm-health-representatives-participate-in-the-2nd-fsm-cybersecurity-symposium-in-chuuk/",
+      "why": "Health records are digitising with no breach law, so security work is the main protection."
+    },
+    {
+      "date": "2025-11",
+      "headline": "Health ICT team studies Palau's Tamanu system before a national rollout",
+      "source": "FSM Department of Health and Social Affairs",
+      "url": "https://hsa.gov.fm/fsm-health-ict-team-conducts-successful-reverse-site-visit-to-palau-ministry-of-health-and-human-services/",
+      "why": "Signals one national record for all four states, without published consent rules."
+    },
+    {
+      "date": "2026-05",
+      "headline": "Congress committee rejects cybercrime bill in current form; data protection bill still pending",
+      "source": "Congress of the Federated States of Micronesia",
+      "url": "https://www.cfsm.gov.fm/wp-content/uploads/2026/05/SCR-No.-24-29.pdf",
+      "why": "Patients still have no data protection law covering their health records."
+    },
+    {
+      "date": "2026-08-17",
+      "headline": "Health leaders meet in Chuuk on digital health, cybersecurity and data",
+      "source": "FSM Department of Health and Social Affairs",
+      "url": "https://hsa.gov.fm/fsm-health-leadership-convenes-in-chuuk-to-strengthen-health-system/",
+      "why": "National and state leaders set priorities for the systems that hold patient data."
+    },
+    {
+      "date": "2026-09-14",
+      "headline": "About 128,000 patient records moved into one national record across three states",
+      "source": "BES International",
+      "url": "https://www.bes.au/unifying-health-data-across-the-four-federated-states-of-micronesia/",
+      "why": "Patients' histories now follow them between states, but they have no say over access."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

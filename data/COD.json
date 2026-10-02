@@ -1,0 +1,337 @@
+{
+ "iso3": "COD",
+ "name": "Democratic Republic of the Congo",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "A 2023 Digital Code gives strong rights on paper, but the data regulator was never set up and records stay in each facility.",
+ "confidence": "high",
+ "categories": {
+  "access": {
+   "score": 40,
+   "summary": "The 2023 Digital Code gives a right to a copy of your data within 60 days, but the health law only promises a written summary of your condition. No national patient portal works at scale, so the score is 40.",
+   "detail": [
+    "Articles 209 and 210 of the Code du numérique let a person ask any data controller, including a hospital, for their data. A copy must be sent within 60 days. Extra copies can be charged at administrative cost.",
+    "The 2018 public health law (Loi 18/035) requires every health professional to keep a full record for each patient, with history, test results and care given. Article 25 lets the patient ask for a written summary, but the law does not set a right to copy the whole file.",
+    "Portability in a structured format exists (Article 211) but does not apply to processing for a public-interest mission, which may cover public hospitals (not verified).",
+    "The health agency ANICNS runs the Santé RDC app; its store listing was last updated in April 2026. The listing says it can hold history, results and vaccinations, and shows more than 1,000 downloads. We could not verify that any hospital records flow into it."
+   ],
+   "sources": [
+    {
+     "title": "Ordonnance-loi n°23/010 du 13 mars 2023 portant Code du numérique (Droit-Numérique.cd copy of the text)",
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "date": "2023-03-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n°18/035 du 13 décembre 2018 fixant les principes fondamentaux relatifs à l'organisation de la santé publique (Leganet)",
+     "url": "https://www.leganet.be/Legislation/Droit%20Public/SANTE/Loi.18.035.13.12.2018.html",
+     "date": "2018-12-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Santé RDC, official ANICNS app (Google Play listing)",
+     "url": "https://play.google.com/store/apps/details?id=com.anicns.santerdc&hl=fr",
+     "date": "2026-04-25",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "control": {
+   "score": 28,
+   "summary": "Health data needs explicit consent unless a care, public-health or public-interest exception applies, and people can object for legitimate reasons. There is no opt-out from sharing and no patient-visible access log, so the score is 28.",
+   "detail": [
+    "Article 195 of the Digital Code bans processing of health data except in listed cases. Consent is one route and can be withdrawn free of charge, but care, public health, public interest, social security and research are separate exceptions that need no consent.",
+    "Article 213 lets a person object at any time for legitimate reasons, and the controller must answer within 30 days. We found no national opt-out from record sharing and no tool that shows a patient who opened their file.",
+    "The February 2026 US-DRC health deal plans investment in electronic medical records and integrated data systems. The MOU text was not published, so its data-sharing terms are not verified."
+   ],
+   "sources": [
+    {
+     "title": "Ordonnance-loi n°23/010 du 13 mars 2023 portant Code du numérique (Droit-Numérique.cd copy of the text)",
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "date": "2023-03-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "U.S. Government Factsheet: Health Memorandum of Understanding (U.S. Embassy Kinshasa)",
+     "url": "https://cd.usembassy.gov/u-s-government-factsheet-health-memorandum-of-understanding/",
+     "date": "2026-02-27",
+     "publisherClass": "official"
+    },
+    {
+     "title": "L'ANICNS au cœur de la transformation digitale du système de santé en RDC (ANICNS)",
+     "url": "https://anicns.gouv.cd/news.html?id=c0345c2b",
+     "date": "2023-10-25",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 45,
+   "summary": "Health data is a banned category, medical processing needs prior approval, and breaches must be reported without delay. No health-sector sanctions were found and a telecom regulator stands in for the data authority, so this scores the general law at its band floor, 45.",
+   "detail": [
+    "The Code du numérique (Article 187) requires prior authorisation before processing genetic or medical data. A regulator decision of 11 September 2025, published in April 2026, sets the procedure.",
+    "Article 244 requires controllers to tell the authority and the person about a breach without delay. After a formal notice, the authority can fine CDF 8 million to 200 million, or 5% of turnover where a violation led to a death or attempted murder (Article 257).",
+    "Article 201 says personal data is stored or hosted in the DRC, with transfers only where protection is judged adequate. Article 199 lets prosecutors demand data within two days and lets the authority request data for national security.",
+    "The law created an independent Autorité de protection des données (APD). An August 2024 ministerial order gave its tasks to the telecom regulator instead, which a legal analysis questions. We found no published health-sector sanctions."
+   ],
+   "sources": [
+    {
+     "title": "Ordonnance-loi n°23/010 du 13 mars 2023 portant Code du numérique (Droit-Numérique.cd copy of the text)",
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "date": "2023-03-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Décision n°039/ARPTC/CLG/2025 du 11 septembre 2025 on authorisation and declaration of personal data processing (Journal officiel, numéro spécial, 23 avril 2026)",
+     "url": "https://www.africadataprotection.org/RDC-l-ARPTC-precise-les-procedures-d-autorisation-et-de-declaration-des-traitements-de-donnees-personnelles.pdf",
+     "date": "2026-04-23",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Régulation du numérique en RDC : l'ARPTIC investie autorité unique (Droit-Numérique.cd, Dossier n°4)",
+     "url": "https://droitnumerique.cd/regulation-du-numerique-en-rdc-larptic-investie-autorite-unique-pour-la-regulation-du-numerique-la-certification-electronique-et-la-protection-des-donnees/",
+     "date": "2024-08",
+     "publisherClass": "academic"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 42,
+   "summary": "People must be told before their data is passed on for commercial use and can refuse free of charge, and sharing for marketing needs consent. No rules were found on selling de-identified health data or on health apps.",
+   "detail": [
+    "Article 213 of the Digital Code gives a right to be informed before data is first shared or used for commercial, charitable or political purposes, and to object free of charge. The choice must be offered clearly.",
+    "Article 198 allows one controller to pass data to another for marketing only with the person's consent. Unsolicited automated marketing messages need prior consent, and each must carry an unsubscribe link.",
+    "Moving personal data after a person has objected is a criminal offence, with up to two years in prison and fines of CDF 2 to 5 million (Article 350).",
+    "We found no health-specific rules on data brokers, on sale of anonymised health data, or on consumer health apps."
+   ],
+   "sources": [
+    {
+     "title": "Ordonnance-loi n°23/010 du 13 mars 2023 portant Code du numérique (Droit-Numérique.cd copy of the text)",
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "date": "2023-03-13",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 28,
+   "summary": "Facilities report aggregate data through the national DHIS2 system, but patient records stay in each hospital. The health agency is building a health ID and certifying hospital software for interoperability; no live national exchange was found.",
+   "detail": [
+    "DHIS2 has run nationally since 2013 for aggregate reporting from 519 health zones, according to HISP at the University of Oslo. Community workers still collect much data on paper.",
+    "A 2023 ordinance (23/006, Article 44 bis) wrote ANICNS into the health law to digitise universal health coverage. ANICNS runs a USSD line (*151#) and web portal to enrol pregnant women in free maternity care, and in 2024 had provisionally approved 6 hospital software systems.",
+    "A March 2025 ministerial order makes certification of hospital systems mandatory; ANICNS opened the call in June 2026. Systems must use the national health identifier and support FHIR and DICOM standards. How many facilities are connected is not published.",
+    "A drug logistics system, LOGIMEV, began a pilot in Kinshasa and Maniema in June 2026. It tracks stock, not patient prescriptions."
+   ],
+   "sources": [
+    {
+     "title": "Appuyer l'utilisation efficace des données de santé en RDC (DHIS2 / HISP, University of Oslo)",
+     "url": "https://dhis2.org/fr/drc-data-use/",
+     "date": "2022-08-23",
+     "publisherClass": "academic"
+    },
+    {
+     "title": "Ordonnance-loi n°23/006 du 3 mars 2023 modifiant et complétant la loi n°18/035 (ANICNS copy)",
+     "url": "https://anicns.gouv.cd/restapi/uploads/documents/loi_csu_23_006_du_03_mars_2023.pdf",
+     "date": "2023-03-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Couverture Santé Universelle: contribution de l'ANICNS (ANICNS)",
+     "url": "https://anicns.gouv.cd/news.html?id=c0345c2kascouverture",
+     "date": "2024-03-29",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Homologation des Systèmes d'Information Hospitalier (SIH) en RDC, ANICNS call AMI N° ANICNS/AMI/001/SIH/2026 (Congo Quotidien)",
+     "url": "https://www.congoquotidien.com/2026/06/16/actualite-rdc-homologation-sih-rdc/",
+     "date": "2026-06-16",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "A clinician sees only the record held by their own facility, often on paper. There is no shared record across providers yet; donor projects are still buying computers to digitise patient files in district hospitals.",
+   "detail": [
+    "Loi 18/035 requires each professional to keep a patient file and to pass files to a successor or the health zone office when a practice closes. It says nothing about sharing records between providers for care.",
+    "ANICNS describes a single computerised patient record for people covered by universal health coverage as a goal. Its 2026 certification call asks hospital software to be interoperable, but no cross-provider viewer was found.",
+    "In March 2026 Malteser International, with EU funding, sought equipment to digitise patient files in four general referral hospitals in Kasaï-Central, showing that digital records are still being introduced."
+   ],
+   "sources": [
+    {
+     "title": "Loi n°18/035 du 13 décembre 2018 fixant les principes fondamentaux relatifs à l'organisation de la santé publique (Leganet)",
+     "url": "https://www.leganet.be/Legislation/Droit%20Public/SANTE/Loi.18.035.13.12.2018.html",
+     "date": "2018-12-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "L'ANICNS au cœur de la transformation digitale du système de santé en RDC (ANICNS)",
+     "url": "https://anicns.gouv.cd/news.html?id=c0345c2b",
+     "date": "2023-10-25",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Homologation des Systèmes d'Information Hospitalier (SIH) en RDC, ANICNS call AMI N° ANICNS/AMI/001/SIH/2026 (Congo Quotidien)",
+     "url": "https://www.congoquotidien.com/2026/06/16/actualite-rdc-homologation-sih-rdc/",
+     "date": "2026-06-16",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Fourniture des équipements pour la digitalisation du dossier des malades dans 4 hôpitaux généraux de référence au Kasaï Central (Congo Quotidien)",
+     "url": "https://www.congoquotidien.com/2026/03/13/actualite-rdc-digitalisation-dossiers-malades-kasai/",
+     "date": "2026-03-13",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 49,
+   "summary": "Health data can be used for research without consent, but medical research processing needs the data authority's prior approval and studies go to an ethics committee. There is no general opt-out, so the score is 49.",
+   "detail": [
+    "Article 195 of the Digital Code allows health data to be processed for scientific research or statistics without consent. Article 187 and the 2025 regulator decision require prior authorisation for medical research processing.",
+    "Loi 18/035 sets up a national bioethics committee to review research protocols. Ministry guidelines set rules on informed consent and confidentiality for research with people.",
+    "Patients may agree in writing to keep their file longer for research (Loi 18/035, Article 35). Communication rules are covered by professional secrecy under the criminal code (Article 34).",
+    "Safeguards counted: an approval and ethics route, statutory secrecy, and a partial consent route. We found no public register of research uses."
+   ],
+   "sources": [
+    {
+     "title": "Ordonnance-loi n°23/010 du 13 mars 2023 portant Code du numérique (Droit-Numérique.cd copy of the text)",
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "date": "2023-03-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n°18/035 du 13 décembre 2018 fixant les principes fondamentaux relatifs à l'organisation de la santé publique (Leganet)",
+     "url": "https://www.leganet.be/Legislation/Droit%20Public/SANTE/Loi.18.035.13.12.2018.html",
+     "date": "2018-12-13",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Lignes directrices pour l'évaluation éthique de la recherche impliquant des sujets humains en RD Congo (Ministère de la Santé, NIH ClinRegs copy)",
+     "url": "https://clinregs.niaid.nih.gov/sites/default/files/documents/DRC/G-EthicalEval.pdf",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Décision n°039/ARPTC/CLG/2025 du 11 septembre 2025 on authorisation and declaration of personal data processing (Journal officiel, numéro spécial, 23 avril 2026)",
+     "url": "https://www.africadataprotection.org/RDC-l-ARPTC-precise-les-procedures-d-autorisation-et-de-declaration-des-traitements-de-donnees-personnelles.pdf",
+     "date": "2026-04-23",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 22,
+   "summary": "The DRC has no rules for clinical AI. A national AI strategy validated in August 2026 names health as a priority sector, but it is a plan, not regulation, and the medicines regulator has no published AI device rules.",
+   "detail": [
+    "On 4 August 2026 the government validated a National AI Strategy and a digital economy policy running to 2030, with UNESCO support. The minister listed health among target sectors.",
+    "ACOREP, the medicines regulator, covers medical devices and their clinical trials. We found no guidance on software or AI as a medical device, change control or human oversight.",
+    "The Digital Code's data rules apply to AI that processes health data, including prior authorisation for medical data, but they are not specific to AI."
+   ],
+   "sources": [
+    {
+     "title": "La RDC se dote d'une stratégie nationale pour une intelligence artificielle éthique et inclusive (UNESCO)",
+     "url": "https://www.unesco.org/fr/articles/la-rdc-se-dote-dune-strategie-nationale-pour-une-intelligence-artificielle-ethique-et-inclusive",
+     "date": "2026-08-05",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "RDC : Augustin Kibassa lance la Politique sectorielle de l'économie numérique et la Stratégie nationale de l'IA (Mediacongo)",
+     "url": "https://www.mediacongo.net/article-actualite-166222_rdc_s_e_augustin_kibassa_lance_la_politique_sectorielle_de_l_economie_numerique_et_la_strategie_nationale_de_l_ia_pour_batir_un_congo_souverain_connec.html",
+     "date": "2026-08-05",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Mission de l'ACOREP (Autorité Congolaise de Réglementation Pharmaceutique)",
+     "url": "https://acorep.gouv.cd/mission_acorep/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Ordonnance-loi n°23/010 du 13 mars 2023 portant Code du numérique (Droit-Numérique.cd copy of the text)",
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "date": "2023-03-13",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "siloed",
+  "claims": "partial",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "DHIS2 carries aggregate reports nationally, and ANICNS registers maternity-scheme beneficiaries by USSD and web. Hospital, lab and pharmacy records are not linked across providers; certified, interoperable hospital software is only now being required.",
+ "laws": [
+  {
+   "name": "Ordonnance-loi n°23/010 du 13 mars 2023 portant Code du numérique",
+   "level": "National",
+   "year": "2023",
+   "what": "Data protection: health data banned with exceptions, 60-day copy, breach notice, local hosting, APD regulator.",
+   "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf"
+  },
+  {
+   "name": "Loi n°18/035 du 13 décembre 2018 fixant les principes fondamentaux relatifs à l'organisation de la santé publique",
+   "level": "National",
+   "year": "2018",
+   "what": "Patient rights, mandatory medical file kept 10 to 20 years, professional secrecy, national bioethics committee.",
+   "url": "https://www.leganet.be/Legislation/Droit%20Public/SANTE/Loi.18.035.13.12.2018.html"
+  },
+  {
+   "name": "Ordonnance-loi n°23/006 du 3 mars 2023 modifiant et complétant la loi n°18/035",
+   "level": "National",
+   "year": "2023",
+   "what": "Writes ANICNS into the health law (Article 44 bis) to digitise universal coverage; sets the coverage information system.",
+   "url": "https://anicns.gouv.cd/restapi/uploads/documents/loi_csu_23_006_du_03_mars_2023.pdf"
+  },
+  {
+   "name": "Décision n°039/ARPTC/CLG/2025 du 11 septembre 2025",
+   "level": "National",
+   "year": "2025",
+   "what": "Regulator, acting for the APD, sets prior authorisation procedure for medical and research data processing.",
+   "url": "https://www.africadataprotection.org/RDC-l-ARPTC-precise-les-procedures-d-autorisation-et-de-declaration-des-traitements-de-donnees-personnelles.pdf"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-03-02",
+   "headline": "US and DRC sign $1.2 billion health deal including data systems",
+   "source": "Health Policy Watch",
+   "url": "https://healthpolicy-watch.news/us-speeds-up-signing-of-bilateral-health-agreements/",
+   "why": "The deal funds electronic records and outbreak data sharing, but its text is unpublished."
+  },
+  {
+   "date": "2026-05-13",
+   "headline": "DRC regulator sets approval rules for processing personal data",
+   "source": "Africa Data Protection",
+   "url": "https://www.africadataprotection.org/actualites/RDC-l-ARPTC-precise-les-procedures-d-autorisation-et-de-declaration-des-traitements-de-donnees-personnelles.html",
+   "why": "Medical data processing now has a published prior-approval procedure."
+  },
+  {
+   "date": "2026-06-05",
+   "headline": "DRC pilots LOGIMEV system to track medicine stocks",
+   "source": "AfriqueITNews",
+   "url": "https://afriqueitnews.com/tech-media/sante-connectee-rdc-lance-logimev-pour-securiser-chaine-distribution-medicale/",
+   "why": "A first digital link for pharmacy supply, though not for patient prescriptions."
+  },
+  {
+   "date": "2026-06-16",
+   "headline": "Health agency opens mandatory certification of hospital information systems",
+   "source": "Congo Quotidien",
+   "url": "https://www.congoquotidien.com/2026/06/16/actualite-rdc-homologation-sih-rdc/",
+   "why": "Hospital software must use the national health ID and interoperability standards."
+  },
+  {
+   "date": "2026-08-05",
+   "headline": "DRC validates national AI strategy naming health a priority sector",
+   "source": "Mediacongo",
+   "url": "https://www.mediacongo.net/article-actualite-166222_rdc_s_e_augustin_kibassa_lance_la_politique_sectorielle_de_l_economie_numerique_et_la_strategie_nationale_de_l_ia_pour_batir_un_congo_souverain_connec.html",
+   "why": "Sets direction for health AI, but no binding clinical AI rules yet."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

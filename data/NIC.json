@@ -1,0 +1,359 @@
+{
+  "iso3": "NIC",
+  "name": "Nicaragua",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "Nicaragua's public clinics are moving to a digital record, but patients get only summaries, cannot opt out, and the data regulator was never created.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 35,
+      "summary": "Ley 787 gives a general right to see one's personal data within 10 working days, but the MINSA record norm allows copies only with the facility head's permission. Patients get a discharge summary (epicrisis) and, on written request, a clinical summary, with no national portal.",
+      "detail": [
+        "Ley 423 (2002), Article 8, gives users the right to complete information about their care, in writing if they ask, and to a health certificate on request. It does not give a right to a copy of the record.",
+        "Ley 787 (2012), Article 17, lets a person request and obtain the personal data held about them in public and private files, with a reply due within 10 working days. No authority exists to enforce it (see privacy).",
+        "MINSA Normativa 004 (2008) gives the patient a clinical summary written by the treating doctor, approved by the director, on a written request that states the reason.",
+        "The 2013 second edition says the record may be copied in part or in full only in justified cases with permission of the facility's highest authority. The discharge summary belongs to the patient and is handed over at discharge.",
+        "PAHO reported in 2024 that a user portal to the electronic record was discussed with MINSA. Whether such a public portal is live was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Ley No. 423, Ley General de Salud, Articulos 8 y 9: Derechos y obligaciones del usuario (MINSA copy)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/2022-10/DERECHOS%20Y%20OBLIGACIONES%20DEL%20USUARIO%20EN%20SALUD.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley No. 787, Ley de Proteccion de Datos Personales (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/entity/trpx98tiuil?page=3&file=1658413503525lkgw2zj008.pdf",
+          "date": "2012-03-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Normativa 004, Norma para el manejo del expediente clinico (MINSA)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/2023-02/Normativa%20-%20004%20%27Norma%20para%20el%20manejo%20del%20expediente%20cl%C3%ADnico%27.pdf",
+          "date": "2008-05",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Normativa 004 Segunda Edicion, Norma y Manual para el manejo del expediente clinico, Acuerdo Ministerial 525-2013 (MINSA)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/2023-02/N%20-%20004%20Norma%20para%20el%20manejo%20de%20expediente%20cl%C3%ADnica%20y%20Manual%20para%20el%20manejo%20del%20Expediente%20Cl%C3%ADnico%20%28Segunda%20Edici%C3%B3n.pdf",
+          "date": "2013-06",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 25,
+      "summary": "Patients have no way to opt out of the MINSA record or see who opened it, and the record norm names the police, prosecutors, courts and MINSA as authorities that may request records. Access inside MINSA systems is set by staff role.",
+      "detail": [
+        "MINSA Normativa 004 (2013) says only authorised staff may access the record, except where the law allows. It names the judiciary, the Attorney General, the Public Prosecutor, the National Police and MINSA as competent authorities to request clinical records.",
+        "PAHO reported in March 2024 that MINSA's platform shows patient information according to user roles and security permissions. No patient-visible access log was found.",
+        "Ley 787, Article 13, requires prior consent to transfer personal data, but not for transfers between state institutions, for public health, social interest or national security.",
+        "No opt-out from the public electronic record and no granular sharing choices were found."
+      ],
+      "sources": [
+        {
+          "title": "Normativa 004 Segunda Edicion, Norma y Manual para el manejo del expediente clinico, Acuerdo Ministerial 525-2013 (MINSA)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/2023-02/N%20-%20004%20Norma%20para%20el%20manejo%20de%20expediente%20cl%C3%ADnica%20y%20Manual%20para%20el%20manejo%20del%20Expediente%20Cl%C3%ADnico%20%28Segunda%20Edici%C3%B3n.pdf",
+          "date": "2013-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ministerio de Salud muestra los avances de la salud digital a los representantes de la cooperacion internacional (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/20-3-2024-ministerio-salud-muestra-avances-salud-digital-representantes-cooperacion",
+          "date": "2024-03-20",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Ley No. 787, Ley de Proteccion de Datos Personales (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/entity/trpx98tiuil?page=3&file=1658413503525lkgw2zj008.pdf",
+          "date": "2012-03-29",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 25,
+      "summary": "Ley 787 lists health data as sensitive, but the Data Protection Directorate it created has never been set up, and its sanctions include no fines. Police and army intelligence may process data without consent, and breach notice is required only for police and army data.",
+      "detail": [
+        "Ley 787 defines health data as sensitive (Article 3) and lets health facilities hold only patients' physical or mental health data, under professional secrecy (Article 8). Ley 423, Article 8, guarantees confidentiality of the record.",
+        "The Directorate (DIPRODAP), placed under the Finance Ministry (Article 28), has not been incorporated, so the law is not enforced (DLA Piper, January 2024). Article 46 sanctions are a warning, suspension or closure of files.",
+        "Article 24 lets police and army intelligence collect data without consent for security and crime investigation. Article 11 requires breach notice only for police and army personnel data.",
+        "Nicaragua is outside the EU, so the GDPR and the European Health Data Space do not apply. It is not on the European Commission's adequacy list. No health data breach reports were found."
+      ],
+      "sources": [
+        {
+          "title": "Ley No. 787, Ley de Proteccion de Datos Personales (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/entity/trpx98tiuil?page=3&file=1658413503525lkgw2zj008.pdf",
+          "date": "2012-03-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data protection laws of the world: Nicaragua (DLA Piper)",
+          "url": "https://www.dlapiperdataprotection.com/index.html?t=authority&c=NI",
+          "date": "2024-01-28",
+          "publisherClass": "law_firm"
+        },
+        {
+          "title": "Adequacy decisions (European Commission)",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Ley No. 423, Ley General de Salud, Articulos 8 y 9: Derechos y obligaciones del usuario (MINSA copy)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/2022-10/DERECHOS%20Y%20OBLIGACIONES%20DEL%20USUARIO%20EN%20SALUD.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 35,
+      "summary": "On paper, Ley 787 requires prior consent to transfer personal data and lets people refuse electronic marketing. With no regulator in place, these rules are not enforced, and no rules on health apps or data brokers were found.",
+      "detail": [
+        "Ley 787, Article 13, allows transfer of personal data only with the person's prior consent, after telling them the purpose and the recipient. Article 8 limits sensitive data processing to the public interest, consent or court order.",
+        "Article 26 requires electronic marketing to offer a free way to refuse further messages. Marketing firms must hold contracts showing data was obtained with consent or from public sources.",
+        "DLA Piper reported in January 2024 that the law is not being enforced because the supervising Directorate was never formally incorporated.",
+        "No rules on consumer health apps, data brokers or sale of de-identified health data, and no enforcement cases, were found."
+      ],
+      "sources": [
+        {
+          "title": "Ley No. 787, Ley de Proteccion de Datos Personales (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/entity/trpx98tiuil?page=3&file=1658413503525lkgw2zj008.pdf",
+          "date": "2012-03-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Data protection laws of the world: Nicaragua (DLA Piper)",
+          "url": "https://www.dlapiperdataprotection.com/index.html?t=authority&c=NI",
+          "date": "2024-01-28",
+          "publisherClass": "law_firm"
+        }
+      ]
+    },
+    "journey": {
+      "score": 34,
+      "summary": "MINSA runs an electronic record and VITAL in primary care, plus a separate FLEMING platform in at least one hospital, but PAHO said in July 2026 that interoperability is still a goal. Coverage figures were not verified, so the score sits in the band's lower half.",
+      "detail": [
+        "PAHO reported in March 2024 that all SILAIS and health centres had broadband, and that MINSA had integrated an electronic clinical record built on interoperability standards, with DICOM and ICD-11. The 2024 to 2026 goals included finishing VITAL hospital and surveillance modules.",
+        "MINSA said in January 2024 it had invested 600 million cordobas since 2014, and that about 120,000 appointments were scheduled in 25 hospitals with text reminders.",
+        "In July 2026 PAHO described VITAL in Chontales covering emergency, outpatient, lab and appointments, and the FLEMING hospital platform at Hospital Fernando Velez Paiz. It stressed the need to move towards interoperability.",
+        "Links to social security (INSS) clinics and private providers were not verified. Infobae reported in May 2026 that MINSA's full epidemiological bulletin has not been updated publicly since 2024."
+      ],
+      "sources": [
+        {
+          "title": "Salud digital y atencion primaria: avanzando hacia un sistema de salud mas conectado y eficiente (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/14-7-2026-salud-digital-atencion-primaria-avanzando-hacia-sistema-salud-mas-conectado",
+          "date": "2026-07-14",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Ministerio de Salud muestra los avances de la salud digital a los representantes de la cooperacion internacional (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/20-3-2024-ministerio-salud-muestra-avances-salud-digital-representantes-cooperacion",
+          "date": "2024-03-20",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "La estrategia de Salud Digital en Nicaragua esta cambiando las atenciones medicas (MINSA)",
+          "url": "http://www.minsa.gob.ni/centro-de-medios/noticias/la-estrategia-de-salud-digital-en-nicaragua-esta-cambiando-las-atenciones",
+          "date": "2024-01-15",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Alerta en Nicaragua por reaparicion del Chikungunya (Infobae)",
+          "url": "https://www.infobae.com/nicaragua/2026/05/29/alerta-en-nicaragua-por-reaparicion-del-chikungunya-minsa-reporta-12-casos-en-medio-de-vacios-epidemiologicos/",
+          "date": "2026-05-29",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 30,
+      "summary": "Within MINSA, clinicians see record data by role through VITAL and the electronic record, and teleconsultation links health centres to hospitals. The record norm still sets one record per facility, and links between primary care and hospital platforms remain a goal.",
+      "detail": [
+        "MINSA Normativa 004 (2013) requires one clinical record per patient in each facility, held in that facility's archive. Electronic records follow MINSA's ICT rules.",
+        "PAHO reported in March 2024 that MINSA's platform shows patient data by user role and permission. In July 2026 PAHO said interoperability was key for referral and counter-referral, implying it is not yet complete.",
+        "MINSA described teleconsultation in Carazo, where a general doctor shares a patient's case with a specialist at the referral hospital.",
+        "Access by INSS clinics or private hospitals to MINSA records, and emergency access rules, were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Normativa 004 Segunda Edicion, Norma y Manual para el manejo del expediente clinico, Acuerdo Ministerial 525-2013 (MINSA)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/2023-02/N%20-%20004%20Norma%20para%20el%20manejo%20de%20expediente%20cl%C3%ADnica%20y%20Manual%20para%20el%20manejo%20del%20Expediente%20Cl%C3%ADnico%20%28Segunda%20Edici%C3%B3n.pdf",
+          "date": "2013-06",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Salud digital y atencion primaria: avanzando hacia un sistema de salud mas conectado y eficiente (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/14-7-2026-salud-digital-atencion-primaria-avanzando-hacia-sistema-salud-mas-conectado",
+          "date": "2026-07-14",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Ministerio de Salud muestra los avances de la salud digital a los representantes de la cooperacion internacional (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/20-3-2024-ministerio-salud-muestra-avances-salud-digital-representantes-cooperacion",
+          "date": "2024-03-20",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "La estrategia de Salud Digital en Nicaragua esta cambiando las atenciones medicas (MINSA)",
+          "url": "http://www.minsa.gob.ni/centro-de-medios/noticias/la-estrategia-de-salud-digital-en-nicaragua-esta-cambiando-las-atenciones",
+          "date": "2024-01-15",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 46,
+      "summary": "Trials need written consent and authorisation by the national health research committee CONIS under NTON 19001 (2022). Clinical records are kept for research with no individual consent or opt-out, so the score is base 40 plus two safeguards (ethics permits, statutory secrecy).",
+      "detail": [
+        "Ley 423, Article 8, bars experimentation without informing the patient and obtaining written consent. NTON 19001 requires trials to be approved by an ethics committee, a research committee and the regulator, then authorised by CONIS.",
+        "Ley 787, Article 8, allows sensitive data to be used for statistics or science only when the people cannot be identified. Article 27 exempts research from the law only where data was collected with express consent. Article 12 binds data handlers to professional secrecy.",
+        "MINSA Normativa 004 (2013) treats the record as a research tool, and records of deceased patients are kept for research and never destroyed.",
+        "No public register of research uses and no opt-out from secondary use were found."
+      ],
+      "sources": [
+        {
+          "title": "NTON 19001, Medicamentos de uso humano. Ensayos clinicos. Requisitos para su autorizacion (La Gaceta 225, Leybook copy)",
+          "url": "https://www.leybook.com/doc/30468",
+          "date": "2022-11-30",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley No. 423, Ley General de Salud, Articulos 8 y 9: Derechos y obligaciones del usuario (MINSA copy)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/2022-10/DERECHOS%20Y%20OBLIGACIONES%20DEL%20USUARIO%20EN%20SALUD.pdf",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Ley No. 787, Ley de Proteccion de Datos Personales (UNIDIR Cyber Policy Portal copy)",
+          "url": "https://database.cyberpolicyportal.org/entity/trpx98tiuil?page=3&file=1658413503525lkgw2zj008.pdf",
+          "date": "2012-03-29",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Normativa 004 Segunda Edicion, Norma y Manual para el manejo del expediente clinico, Acuerdo Ministerial 525-2013 (MINSA)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/2023-02/N%20-%20004%20Norma%20para%20el%20manejo%20de%20expediente%20cl%C3%ADnica%20y%20Manual%20para%20el%20manejo%20del%20Expediente%20Cl%C3%ADnico%20%28Segunda%20Edici%C3%B3n.pdf",
+          "date": "2013-06",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 40,
+      "summary": "NTON 24001:2023 counts software as a medical device, sets risk classes for diagnostic and treatment software, and requires a filing for software changes, but it never mentions AI. A national health AI roadmap was only being drafted in September 2026.",
+      "detail": [
+        "NTON 24001:2023, approved in April 2024, defines a medical device to include its software. Rule 11 classes software that informs diagnosis or treatment at risk level II, rising to III or IV where errors could cause serious harm or death.",
+        "A change or update of software requires a filing with the technical details of the changes. No AI, machine learning or human oversight provisions were found.",
+        "In September 2026 MINSA and PAHO held a workshop to set 24-month priorities, including an ethical and legal framework for health AI and AI-assisted mammography as a first pilot."
+      ],
+      "sources": [
+        {
+          "title": "NTON 24001:2023 Tecnologia de la salud. Dispositivos medicos. Requisitos para el Registro Sanitario (MINSA)",
+          "url": "https://www.minsa.gob.ni/sites/default/files/publicaciones/NTON%2024001%20Tecnolog%C3%ADa%20de%20la%20salud.%20Dispositivos%20m%C3%A9dicos.%20Requisitos%20para%20el%20Registro%20Sanitario..pdf",
+          "date": "2024-04-04",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Nicaragua fortalece su preparacion para la adopcion responsable de la inteligencia artificial en salud (OPS/OMS)",
+          "url": "https://www.paho.org/es/noticias/17-9-2026-nicaragua-fortalece-su-preparacion-para-adopcion-responsable-inteligencia",
+          "date": "2026-09-17",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Nicaragua y la OPS definen prioridades para la incorporacion de IA en el sistema de salud del pais (Salud Digital)",
+          "url": "https://saluddigital.com/noticias/nicaragua-y-la-ops-definen-prioridades-para-la-incorporacion-de-ia-en-el-sistema-de-salud-del-pais/",
+          "date": "2026-09-18",
+          "publisherClass": "news"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "partial",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "unknown"
+  },
+  "journeyNote": "MINSA's VITAL and electronic record cover primary care, with labs and appointments in some SILAIS and a separate hospital platform. Interoperability is still a stated goal. Pharmacy, INSS claims and private links were not verified.",
+  "laws": [
+    {
+      "name": "Ley No. 423, Ley General de Salud",
+      "level": "National",
+      "year": "2002",
+      "what": "Patient rights to information, record confidentiality, written consent, and consent before any experimentation.",
+      "url": "https://www.minsa.gob.ni/sites/default/files/2022-10/DERECHOS%20Y%20OBLIGACIONES%20DEL%20USUARIO%20EN%20SALUD.pdf"
+    },
+    {
+      "name": "Decreto 001-2003, Reglamento de la Ley General de Salud (texto consolidado)",
+      "level": "National",
+      "year": "2023",
+      "what": "Facilities must keep the record confidential to authorised staff and hand over the discharge summary.",
+      "url": "https://faolex.fao.org/docs/pdf/nic175683.pdf"
+    },
+    {
+      "name": "Ley No. 787, Ley de Proteccion de Datos Personales",
+      "level": "National",
+      "year": "2012",
+      "what": "General data law; health data sensitive; access right; creates a Directorate that was never set up.",
+      "url": "https://database.cyberpolicyportal.org/entity/trpx98tiuil?page=3&file=1658413503525lkgw2zj008.pdf"
+    },
+    {
+      "name": "Normativa 004, Norma y Manual para el manejo del expediente clinico (2a edicion)",
+      "level": "National",
+      "year": "2013",
+      "what": "Copies only with facility head's permission; police, prosecutors and courts may request records.",
+      "url": "https://www.minsa.gob.ni/sites/default/files/2023-02/N%20-%20004%20Norma%20para%20el%20manejo%20de%20expediente%20cl%C3%ADnica%20y%20Manual%20para%20el%20manejo%20del%20Expediente%20Cl%C3%ADnico%20%28Segunda%20Edici%C3%B3n.pdf"
+    },
+    {
+      "name": "NTON 19001, Ensayos clinicos de medicamentos de uso humano",
+      "level": "National",
+      "year": "2022",
+      "what": "Trials need ethics and research committee approval, regulator review and CONIS authorisation.",
+      "url": "https://www.leybook.com/doc/30468"
+    },
+    {
+      "name": "NTON 24001:2023, Dispositivos medicos. Requisitos para el Registro Sanitario",
+      "level": "National",
+      "year": "2024",
+      "what": "Registers medical devices including software, with risk classes and filings for software changes.",
+      "url": "https://www.minsa.gob.ni/sites/default/files/publicaciones/NTON%2024001%20Tecnolog%C3%ADa%20de%20la%20salud.%20Dispositivos%20m%C3%A9dicos.%20Requisitos%20para%20el%20Registro%20Sanitario..pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-17",
+      "headline": "MINSA and PAHO set priorities for a national health AI roadmap",
+      "source": "OPS/OMS",
+      "url": "https://www.paho.org/es/noticias/17-9-2026-nicaragua-fortalece-su-preparacion-para-adopcion-responsable-inteligencia",
+      "why": "Rules for clinical AI do not exist yet; an ethical and legal framework is planned."
+    },
+    {
+      "date": "2026-07-14",
+      "headline": "PAHO reviews MINSA's VITAL system and FLEMING hospital platform",
+      "source": "OPS/OMS",
+      "url": "https://www.paho.org/es/noticias/14-7-2026-salud-digital-atencion-primaria-avanzando-hacia-sistema-salud-mas-conectado",
+      "why": "Patient data is being digitised, but primary care and hospital systems are not yet linked."
+    },
+    {
+      "date": "2026-05-29",
+      "headline": "Chikungunya returns while MINSA's epidemiological bulletin stays frozen since 2024",
+      "source": "Infobae",
+      "url": "https://www.infobae.com/nicaragua/2026/05/29/alerta-en-nicaragua-por-reaparicion-del-chikungunya-minsa-reporta-12-casos-en-medio-de-vacios-epidemiologicos/",
+      "why": "The public cannot check official disease figures, a sign of closed state health data."
+    },
+    {
+      "date": "2025-11-06",
+      "headline": "Telecommunications law Ley 1223 takes effect, criticised for weakening data protection",
+      "source": "Article 19 Mexico and Central America",
+      "url": "https://articulo19.org/entra-en-vigor-la-controvertida-ley-de-telecomunicaciones-convergentes-en-nicaragua/",
+      "why": "Regulator TELCOR can demand user information without prior judicial control, widening state access to data."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

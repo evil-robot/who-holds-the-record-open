@@ -1,0 +1,327 @@
+{
+ "iso3": "BEN",
+ "name": "Benin",
+ "region": "Africa",
+ "controlModel": "Institutional",
+ "headline": "Benin has a strong data law and an active regulator, but patients cannot view or share records online; a digital record is only a promise.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "The Digital Code gives a free right to a copy of your personal data within 60 days, which covers medical files. There is no national portal or patient app, and use of this right in health care was not verified, so the score sits at 45.",
+   "detail": [
+    "Article 437 of the Digital Code (Law 2017-20, Book V) lets any person ask a controller for their data in intelligible form, with its origin. A copy must be sent without delay and at most 60 days after the request.",
+    "Article 421 makes the first answer free. A fee is allowed only for extra copies or manifestly excessive requests. The data authority (APDP) can grant a controller more time to reply.",
+    "The 2021 Law on protecting people's health (Law 2020-37, Article 6) gives patients a right to be informed about their health and to confidentiality. We found no article on getting a copy of the medical record itself.",
+    "We found no national patient portal or app showing medical records. A digital health record for every Beninese is a promise listed by the new government in June 2026, not a working service."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-20 portant code du numérique en République du Bénin (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/06/Benin-Loi-2017-20-Portant-code-du-numerique-en-Republique-du-Benin.pdf",
+     "date": "2018-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2020-37 du 03 février 2021 portant protection de la santé des personnes (SGG)",
+     "url": "https://sgg.gouv.bj/doc/loi-2020-37/",
+     "date": "2021-02-03",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Promesse de carnet de santé digital au Bénin (Santé Tribune)",
+     "url": "https://santetribune.bj/st/2026/06/17/promesse-de-carnet-de-sante-digital-au-benin-outil-de-renforcement-de-la-qualite-des-soins/",
+     "date": "2026-06-17",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health data may be processed without consent when needed for care under a health professional, and there is no shared record, opt-out or access log. The patient's main tool is a general right to object for legitimate reasons.",
+   "detail": [
+    "Article 394 of the Digital Code bans processing health data, then lists exceptions. They include explicit consent, which can be withdrawn free of charge, but also care, diagnosis and health service management under a health professional, public health and public interest.",
+    "Article 440 lets a person object at any time, for legitimate reasons, to processing of their data. Article 438 gives a portability right, but not for processing done as a public-interest task.",
+    "Article 411 says state processing of health data is authorised by decree after an APDP opinion. The choice sits with the state and the regulator, not the patient.",
+    "No national shared record exists, so there is no patient-visible access log or sharing setting to use."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-20 portant code du numérique en République du Bénin (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/06/Benin-Loi-2017-20-Portant-code-du-numerique-en-Republique-du-Benin.pdf",
+     "date": "2018-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "La Loi n° 2017-20 portant code du numérique, Livre V (APDP)",
+     "url": "https://archive.apdp.bj/lois/la-loi-n-2017-20-portant-code-du-numerique-en-republique-du-benin/",
+     "date": "2018-05-07",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 52,
+   "summary": "The Digital Code treats health data as sensitive, requires breach notice without delay and allows fines up to 100 million CFA francs. With no health-sector cases found, this scores the general law, held back by state exemptions and a politically chosen regulator.",
+   "detail": [
+    "Article 427 requires a controller to notify the APDP and the person, without delay, of any security breach affecting their data. Article 426 sets security duties such as pseudonymisation and encryption.",
+    "Article 455 caps a first fine at 50 million CFA francs and a repeat at 100 million. Article 454 bars fines when the state is the controller.",
+    "Law 2020-35 set the APDP at eight members: five chosen by the National Assembly, one by the President, one magistrate and one lawyer.",
+    "La Nation reported the APDP's 2025 record: 782 files, 20 complaints, 64 inspections and 14 contentious cases, some ending in fines. None was shown to involve health data.",
+    "Benin is outside the EU, so the EHDS does not apply. Article 391 allows transfers abroad only where the APDP finds equivalent protection."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-20 portant code du numérique en République du Bénin (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/06/Benin-Loi-2017-20-Portant-code-du-numerique-en-Republique-du-Benin.pdf",
+     "date": "2018-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2020-35 du 06 janvier 2021 modifiant le code du numérique (ARCEP Bénin copy)",
+     "url": "https://arcep.bj/wp-content/uploads/2022/11/LOI-N2020-35.pdf",
+     "date": "2021-01-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Bilan 2025 de l'Apdp-Bénin : 782 dossiers examinés, des contrôles renforcés (La Nation)",
+     "url": "https://lanation.bj/numerique/bilan-2025-de-lapdp-benin-782-dossiers-examines-des-controles-renforces",
+     "date": "2026-08-12",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Protection des données personnelles : les pouvoirs de sanction de l'Apdp (La Nation)",
+     "url": "https://lanation.bj/numerique/protection-des-donnees-personnelles-les-pouvoirs-de-sanction-de-lapdp",
+     "date": "2026-08-11",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 45,
+   "summary": "Selling or reusing health data needs explicit consent under the sensitive-data ban, and people can refuse marketing use free of charge. We found no health-specific rule on data brokers, health apps or de-identified data, and no health enforcement.",
+   "detail": [
+    "Under Article 394 a company has no general legal basis to process health data for its own commercial purposes. Explicit consent, contract or another listed exception is needed.",
+    "Article 440 gives a right to be told before data is first passed to third parties for prospecting, commercial or otherwise, and to refuse that free of charge. Article 332 bans automated direct marketing without prior consent.",
+    "These are general rules. We found no APDP decision on health data sales, consumer health apps or de-identified data."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-20 portant code du numérique en République du Bénin (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/06/Benin-Loi-2017-20-Portant-code-du-numerique-en-Republique-du-Benin.pdf",
+     "date": "2018-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Bilan 2025 de l'Apdp-Bénin : 782 dossiers examinés, des contrôles renforcés (La Nation)",
+     "url": "https://lanation.bj/numerique/bilan-2025-de-lapdp-benin-782-dossiers-examines-des-controles-renforces",
+     "date": "2026-08-12",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "journey": {
+   "score": 22,
+   "summary": "Benin's health information system is mainly aggregate reporting through DHIS2, and the ARS reports that data from different sources is poorly integrated. No national EHR or exchange exists; whether any public hospital runs an electronic record was not verified.",
+   "detail": [
+    "The Ministry of Health's information systems directorate runs a DHIS2 instance for reporting. The ARS 2023 sector report gives 95.5% national completeness and 82% timeliness of monthly reports, with completeness as low as 33.3% in some departments.",
+    "The same report lists weaknesses: many separate collection tools, weak integration of data from different sources and a 28% data use rate. Since 2022 the ARS is charged with regulating digital health.",
+    "Benin adopted a national e-health strategy in 2018. In June 2026 Santé Tribune described the new President's promise of a digital health record backed by a hospital information system in every facility.",
+    "ARCH health insurance requires the ANIP biometric ID card to get care. Whether claims are processed electronically was not verified."
+   ],
+   "sources": [
+    {
+     "title": "DHIS2 login, Direction des Systèmes d'Information, Ministère de la Santé",
+     "url": "https://rep-sante.gouv.bj/",
+     "date": "undated",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Rapport sur l'état du secteur de la santé au Bénin 2023 (ARS, published by WHO AFRO)",
+     "url": "https://www.afro.who.int/sites/default/files/2025-11/RAPPORT%20SUR%20L%E2%80%99ETAT%20DU%20SECTEUR%20SANTE%20AU%20BENIN%202023%202%2015_09_2025.pdf",
+     "date": "2025-09",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Promesse de carnet de santé digital au Bénin (Santé Tribune)",
+     "url": "https://santetribune.bj/st/2026/06/17/promesse-de-carnet-de-sante-digital-au-benin-outil-de-renforcement-de-la-qualite-des-soins/",
+     "date": "2026-06-17",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Projet ARCH : le Gouvernement généralise le volet assurance maladie (Gouvernement du Bénin)",
+     "url": "https://www.gouv.bj/article/1145/projet-arch-gouvernement-generalise-volet-assurance-maladie-dans-communes-benin/",
+     "date": "2021-01-19",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 20,
+   "summary": "The law lets clinicians process health data for care, but there is no shared record they can open across providers. We found no system that lets a doctor in Cotonou see notes written in Parakou.",
+   "detail": [
+    "Article 394(7) of the Digital Code allows health data processing for diagnosis and care under the supervision of a health professional bound by secrecy. The legal basis exists; the infrastructure does not.",
+    "The ARS report describes a reporting system with many tools and weak integration. It does not describe any cross-facility patient record.",
+    "Santé Tribune's June 2026 piece presents continuity between hospitals, for example Parakou to Cotonou, as a future benefit of the promised digital record, not a current one."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2017-20 portant code du numérique en République du Bénin (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/06/Benin-Loi-2017-20-Portant-code-du-numerique-en-Republique-du-Benin.pdf",
+     "date": "2018-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Rapport sur l'état du secteur de la santé au Bénin 2023 (ARS, published by WHO AFRO)",
+     "url": "https://www.afro.who.int/sites/default/files/2025-11/RAPPORT%20SUR%20L%E2%80%99ETAT%20DU%20SECTEUR%20SANTE%20AU%20BENIN%202023%202%2015_09_2025.pdf",
+     "date": "2025-09",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Promesse de carnet de santé digital au Bénin (Santé Tribune)",
+     "url": "https://santetribune.bj/st/2026/06/17/promesse-de-carnet-de-sante-digital-au-benin-outil-de-renforcement-de-la-qualite-des-soins/",
+     "date": "2026-06-17",
+     "publisherClass": "news"
+    }
+   ]
+  },
+  "research": {
+   "score": 50,
+   "summary": "A 2010 law requires informed consent for epidemiological research and written consent for clinical research, reviewed by the CNERS ethics committee. Consent can be waived for record reviews when people cannot be found, and no public register of uses was found, so 50, level with Nigeria.",
+   "detail": [
+    "Law 2010-40 (Article 21) makes individual informed consent compulsory for epidemiological research, and a refusal must be respected. Article 23 waives consent when record subjects cannot be located or when asking would bias results.",
+    "Article 26 requires free, informed and express consent, in writing, for clinical and biomedical research. Article 43 creates the CNERS, which reviews every protocol.",
+    "Article 396 of the Digital Code bans further processing for research unless strict conditions are met, including removal of identifiers and a signed confidentiality contract.",
+    "We found no public register of research uses of health records and no evidence on how often the Article 23 waiver is used."
+   ],
+   "sources": [
+    {
+     "title": "Loi n° 2010-40 du 08 décembre 2010 portant code d'éthique et de déontologie pour la recherche en santé (SGG)",
+     "url": "https://sgg.gouv.bj/doc/loi-2010-40/",
+     "date": "2010-12-08",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Loi n° 2017-20 portant code du numérique en République du Bénin (AFAPDP copy)",
+     "url": "https://www.afapdp.org/wp-content/uploads/2018/06/Benin-Loi-2017-20-Portant-code-du-numerique-en-Republique-du-Benin.pdf",
+     "date": "2018-04-20",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Protection des données personnelles en matière de recherche en santé (APDP training, with CNERS)",
+     "url": "https://archive.apdp.bj/wp-content/uploads/2022/10/PROTECTION-DONNEES-RECHERCHE-SANTE_fga1.pdf",
+     "date": "2022-10",
+     "publisherClass": "official"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "Benin regulates medical devices, including software needed to run them, under a 2024 decree with change notification. There is no AI-specific rule for clinical use; the 2023-2027 AI strategy only plans an ethics text.",
+   "detail": [
+    "Decree 2024-1298 sets marketing authorisation for medical devices by ABMed, following UEMOA guidelines. The device definition includes software needed for a device to work. Article 19 requires immediate notice of any change, and major changes need a new authorisation.",
+    "The decree does not mention artificial intelligence or learning algorithms. Software used on its own appears only in the definition of in vitro diagnostic devices.",
+    "The National AI and Big Data Strategy 2023-2027 plans a text on AI ethics and responsibility within 12 months. Whether it was adopted was not verified.",
+    "In May 2026 the new government gave the Minister of Digital Transformation and Innovation responsibility for the national AI strategy."
+   ],
+   "sources": [
+    {
+     "title": "Décret n° 2024-1298 du 06 novembre 2024 portant modalités d'homologation des dispositifs médicaux (SGG)",
+     "url": "https://sgg.gouv.bj/doc/decret-2024-1298/",
+     "date": "2024-11-06",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Stratégie nationale d'intelligence artificielle et des mégadonnées 2023-2027 (Ministère du Numérique)",
+     "url": "https://innovation.gouv.bj/assets/documents/strategie-nationale-d'intelligence-artificielle-et-des-megadonnees-2023-2027.pdf",
+     "date": "2023",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Stratégie nationale de l'IA : les raisons derrière la création d'un ministère dédié (Le Matinal)",
+     "url": "https://lematinal.bj/strategie-nationale-de-lia-les-raisons-derriere-la-creation-dun-ministere-dedie-au-benin/",
+     "date": "2026-05-31",
+     "publisherClass": "news"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "siloed",
+  "hospital": "siloed",
+  "labs": "unknown",
+  "pharmacy": "unknown",
+  "claims": "unknown",
+  "publicHealth": "partial",
+  "research": "unknown"
+ },
+ "journeyNote": "Facilities report aggregate data to DHIS2, but no national EHR, exchange or patient portal exists. A digital health record for every Beninese is a June 2026 government promise. Hospital EHR use, e-prescribing and electronic claims were not verified.",
+ "laws": [
+  {
+   "name": "Law 2017-20 on the Digital Code (Book V, personal data)",
+   "level": "National",
+   "year": "2018",
+   "what": "Health data is sensitive; free access within 60 days; breach notice without delay; fines up to 100 million CFA.",
+   "url": "https://www.afapdp.org/wp-content/uploads/2018/06/Benin-Loi-2017-20-Portant-code-du-numerique-en-Republique-du-Benin.pdf"
+  },
+  {
+   "name": "Law 2020-35 amending the Digital Code",
+   "level": "National",
+   "year": "2021",
+   "what": "Sets the data authority at eight members, five chosen by the National Assembly.",
+   "url": "https://arcep.bj/wp-content/uploads/2022/11/LOI-N2020-35.pdf"
+  },
+  {
+   "name": "Law 2020-37 on protecting people's health",
+   "level": "National",
+   "year": "2021",
+   "what": "Patient rights to information, privacy, confidentiality and consent to or refusal of care.",
+   "url": "https://sgg.gouv.bj/doc/loi-2020-37/"
+  },
+  {
+   "name": "Law 2010-40 on the code of ethics for health research",
+   "level": "National",
+   "year": "2010",
+   "what": "Informed consent for research, written for clinical trials; creates the national ethics committee CNERS.",
+   "url": "https://sgg.gouv.bj/doc/loi-2010-40/"
+  },
+  {
+   "name": "Decree 2024-1298 on medical device authorisation",
+   "level": "National",
+   "year": "2024",
+   "what": "ABMed authorisation of medical devices, including embedded software, with change notification.",
+   "url": "https://sgg.gouv.bj/doc/decret-2024-1298/"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-02-20",
+   "headline": "Benin adopts new HIV law that strengthens privacy and data protection",
+   "source": "UNAIDS",
+   "url": "https://www.unaids.org/fr/resources/presscentre/featurestories/2026/february/20260220_benin",
+   "why": "UNAIDS says the old 2006 law allowed many breaches of HIV status confidentiality."
+  },
+  {
+   "date": "2026-05-31",
+   "headline": "New government puts a minister in charge of national AI strategy",
+   "source": "Le Matinal",
+   "url": "https://lematinal.bj/strategie-nationale-de-lia-les-raisons-derriere-la-creation-dun-ministere-dedie-au-benin/",
+   "why": "AI is a government priority, but no clinical AI rules exist yet."
+  },
+  {
+   "date": "2026-06-17",
+   "headline": "Programme promises a digital health record for every Beninese",
+   "source": "Santé Tribune",
+   "url": "https://santetribune.bj/st/2026/06/17/promesse-de-carnet-de-sante-digital-au-benin-outil-de-renforcement-de-la-qualite-des-soins/",
+   "why": "A shared record would let patients' history follow them between hospitals."
+  },
+  {
+   "date": "2026-08-12",
+   "headline": "Data authority reports 64 inspections and 14 contentious cases in 2025",
+   "source": "La Nation",
+   "url": "https://lanation.bj/numerique/bilan-2025-de-lapdp-benin-782-dossiers-examines-des-controles-renforces",
+   "why": "Shows the regulator now sanctions, though no health case was reported."
+  }
+ ],
+ "asOf": "2026-10-01"
+}

@@ -1,0 +1,335 @@
+{
+  "iso3": "BLZ",
+  "name": "Belize",
+  "region": "Americas",
+  "controlModel": "State",
+  "headline": "Belize has run one public health record (BHIS) since 2008, but its 2021 data protection law is still not in force.",
+  "confidence": "high",
+  "categories": {
+    "access": {
+      "score": 25,
+      "summary": "The Data Protection Act 2021 promises a free copy within one month, but in September 2026 it was still not in force. No patient portal for the BHIS record was found; the only patient app shows the vaccination card.",
+      "detail": [
+        "The Data Protection Act 2021 gives a right of access and says a controller must act within one month, extendable by two months. Requests are free unless manifestly unfounded or excessive.",
+        "The Act starts only on a day the Minister sets by order in the Gazette. On 15 September 2026 XTV Belize reported that it has still not been brought into force.",
+        "The Ministry of Health's Health Pass app, launched in December 2021, gives an electronic copy of the vaccination card using a Social Security or health information number. No portal showing the wider BHIS record was found.",
+        "National Health Insurance's list of member rights covers confidentiality and discussing care, but not a copy of the record. Whether the 1994 Freedom of Information Act reaches clinical records was not verified."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act, 2021 (Act No. 45 of 2021)",
+          "url": "https://egov.gov.bz/wp-content/uploads/2023/02/Act-No.-45-of-2021-Data-Protection-Act.pdf",
+          "date": "2021",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Release of personal records at Vital Stats now requires your explicit permission (XTV Belize)",
+          "url": "https://www.facebook.com/XTelevisiombelize/posts/1818330063229482/",
+          "date": "2026-09-15",
+          "publisherClass": "news"
+        },
+        {
+          "title": "MOHW Announces Launch of Health Pass Vaccination App (Government of Belize Press Office)",
+          "url": "https://www.pressoffice.gov.bz/mohw-announces-launch-of-health-pass-vaccination-app/",
+          "date": "2021-12-02",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Members Rights and Responsibilities (National Health Insurance)",
+          "url": "https://www.nhi.bz/members-rights-responsibilities/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "control": {
+      "score": 25,
+      "summary": "Every patient gets one client number in BHIS, which public clinicians use to see their history wherever they are treated. No opt-out and no patient-visible access log were found, and the 2021 consent rules are not in force.",
+      "detail": [
+        "BHIS gives each patient a unique client number that providers use to access their medical history wherever they seek care in Belize, Amandala reported at the 2024 launch of the data exchange platform.",
+        "BHIS keeps electronic audit trails of every activity, its developer told the WHO Bulletin in 2009. No route for a patient to see that log was found.",
+        "The 2021 Act does not list health as sensitive data, so health data would not need explicit consent. It is not yet in force.",
+        "National Health Insurance says members can expect records to stay confidential unless the law requires disclosure or they give prior approval."
+      ],
+      "sources": [
+        {
+          "title": "PAHO and MoH unveil Clinical Data Exchange Platform (Amandala)",
+          "url": "https://amandala.com.bz/news/paho-and-moh-unveil-clinical-data-exchange-platform/",
+          "date": "2024-09-25",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Belize health information goes digital (Bulletin of the World Health Organization)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2636185/",
+          "date": "2009-02",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Data Protection Act, 2021 (Act No. 45 of 2021)",
+          "url": "https://egov.gov.bz/wp-content/uploads/2023/02/Act-No.-45-of-2021-Data-Protection-Act.pdf",
+          "date": "2021",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Members Rights and Responsibilities (National Health Insurance)",
+          "url": "https://www.nhi.bz/members-rights-responsibilities/",
+          "date": "undated",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 30,
+      "summary": "With the 2021 Act not in force, no data protection regulator operates, so this sits below the general-law band. The Act would bring 72-hour breach notice and fines up to $500,000, and no health data breach was found.",
+      "detail": [
+        "No health-sector enforcement was found, and the general law itself is not in force, so this is scored below the 45 to 66 band for general law.",
+        "Once in force, the Act would require breach notice to the Commissioner within 72 hours and set fines up to $500,000 or three years in prison. Health is not on its sensitive-data list.",
+        "The Commissioner would be a public officer inside the e-governance ministry, not an independent body. No appointment was found.",
+        "PAHO's 2025 final report says stakeholders raised alarms about patient privacy when the data exchange platform was linked to civil registration databases."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act, 2021 (Act No. 45 of 2021)",
+          "url": "https://egov.gov.bz/wp-content/uploads/2023/02/Act-No.-45-of-2021-Data-Protection-Act.pdf",
+          "date": "2021",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Release of personal records at Vital Stats now requires your explicit permission (XTV Belize)",
+          "url": "https://www.facebook.com/XTelevisiombelize/posts/1818330063229482/",
+          "date": "2026-09-15",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Health Sector Support Programme Belize: Final Report (PAHO/WHO, EU)",
+          "url": "https://www.paho.org/sites/default/files/2025-09/health-sector-support-programme-belize-final-report12x9-digital-reduced.pdf",
+          "date": "2025-09",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 25,
+      "summary": "No law in force limits the sale or marketing use of health data. The 2021 Act would add a right to stop direct marketing, but health is not on its sensitive-data list and the Act has not started.",
+      "detail": [
+        "The 2021 Act would let a person stop processing for direct marketing. Health is not on its sensitive-data list, so selling health data would not need explicit consent.",
+        "It would also give a right not to be subject to decisions based solely on automated processing, including profiling.",
+        "None of this applies until the Minister brings the Act into force. No rules on health apps, data brokers or sales of de-identified data were found."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act, 2021 (Act No. 45 of 2021)",
+          "url": "https://egov.gov.bz/wp-content/uploads/2023/02/Act-No.-45-of-2021-Data-Protection-Act.pdf",
+          "date": "2021",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Release of personal records at Vital Stats now requires your explicit permission (XTV Belize)",
+          "url": "https://www.facebook.com/XTelevisiombelize/posts/1818330063229482/",
+          "date": "2026-09-15",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "journey": {
+      "score": 55,
+      "summary": "All 53 health facilities in PAHO's count were connected to BHIS by August 2025, and BHIS now exchanges data with the National Health Insurance system and the civil registry. Private providers join only in part, and some rural clinics resisted leaving paper.",
+      "detail": [
+        "PAHO's final report on the EU-funded Health Sector Support Programme counts 53 health facilities, all of them, connected to BHIS on 31 August 2025, up from 28 in 2017, against a target of 90%.",
+        "The Ministry's 2025 to 2034 plan says BHIS is used in public clinics and hospitals and some private facilities and NGOs, and that interoperability with National Health Insurance's RAWA system was completed in 2024.",
+        "The Clinical Data Exchange Platform, commissioned in 2024 with EU funding, holds a national cancer registry. Since December 2025 the civil registry links to BHIS for births and deaths.",
+        "The same report says rural health workers resisted moving from paper and that CDEP still needs technical and legal work for full adoption. Belize is outside the EU, so the European Health Data Space does not apply."
+      ],
+      "sources": [
+        {
+          "title": "Health Sector Support Programme Belize: Final Report (PAHO/WHO, EU)",
+          "url": "https://www.paho.org/sites/default/files/2025-09/health-sector-support-programme-belize-final-report12x9-digital-reduced.pdf",
+          "date": "2025-09",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Belize Health Sector Strategic Plan 2025-2034 (Ministry of Health and Wellness)",
+          "url": "https://www.paho.org/sites/default/files/2025-03/blz-health-sector-strategic-plan-2025-2034_0.pdf",
+          "date": "2025-03-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Launch of the Civil Registry and Vital Statistics System (Ministry of E-Governance)",
+          "url": "https://egov.gov.bz/2026/02/26/launch-of-the-civil-registry-and-vital-statistics-system/",
+          "date": "2026-02-26",
+          "publisherClass": "official"
+        },
+        {
+          "title": "PAHO/WHO Belize and the Ministry of Health and Wellness advance diagnostic coding through ICD-11 (PAHO)",
+          "url": "https://www.paho.org/en/news/17-6-2025-pahowho-belize-and-ministry-health-and-wellness-advances-diagnostic-coding-health",
+          "date": "2025-06-17",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 55,
+      "summary": "A clinician in any Ministry facility can look up a patient's BHIS history by client number, and BHIS reached all 53 health facilities in PAHO's count by 2025. Private clinicians outside BHIS do not share this view.",
+      "detail": [
+        "BHIS is a web-based record that documents every patient's medical interventions. Providers use the patient's unique number to access their history regardless of where they seek care in Belize, Amandala reported in 2024.",
+        "In 2009 a BHIS founder told the WHO Bulletin that doctors see the patient's medical history rather than one episode, with data available to authorised users anywhere in the country.",
+        "The 2025 to 2034 plan says only some private facilities use BHIS, so records from many private providers are not visible. No emergency access or consent rules for clinicians were found."
+      ],
+      "sources": [
+        {
+          "title": "PAHO and MoH unveil Clinical Data Exchange Platform (Amandala)",
+          "url": "https://amandala.com.bz/news/paho-and-moh-unveil-clinical-data-exchange-platform/",
+          "date": "2024-09-25",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Belize health information goes digital (Bulletin of the World Health Organization)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2636185/",
+          "date": "2009-02",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Health Sector Support Programme Belize: Final Report (PAHO/WHO, EU)",
+          "url": "https://www.paho.org/sites/default/files/2025-09/health-sector-support-programme-belize-final-report12x9-digital-reduced.pdf",
+          "date": "2025-09",
+          "publisherClass": "intergov"
+        },
+        {
+          "title": "Belize Health Sector Strategic Plan 2025-2034 (Ministry of Health and Wellness)",
+          "url": "https://www.paho.org/sites/default/files/2025-03/blz-health-sector-strategic-plan-2025-2034_0.pdf",
+          "date": "2025-03-21",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 43,
+      "summary": "No consent rule or opt-out governs research use of health data, since the 2021 Act is not in force. One safeguard counts: from March 2026 all public health research with human participants needs Ministry IRB approval.",
+      "detail": [
+        "Once in force, section 36 of the 2021 Act would treat research use as compatible with the original purpose and exempt it from the access right if results do not identify anyone. It has no opt-out.",
+        "The Ministry said on 20 February 2026 that from 1 March all public health research involving human participants within its purview must get IRB approval before it starts.",
+        "Love FM reported that the IRB moved to the Office of Health Policy, Research and Planning, that review may take about 30 working days, and that a final report is due before publication."
+      ],
+      "sources": [
+        {
+          "title": "Data Protection Act, 2021 (Act No. 45 of 2021)",
+          "url": "https://egov.gov.bz/wp-content/uploads/2023/02/Act-No.-45-of-2021-Data-Protection-Act.pdf",
+          "date": "2021",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "MOHW press release: revised research protocol submission through the MOHW IRB (Ministry of Health and Wellness)",
+          "url": "https://www.facebook.com/Belizehealth/posts/for-immediate-releaseministry-of-health-and-wellnessbelizefebruary-20-2026mohw-s/939328938620618/",
+          "date": "2026-02-20",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Health Ministry Tightens Public Health Research Oversight with IRB Transition (Love FM)",
+          "url": "https://lovefm.com/health-ministry-tightens-public-health-research-oversight-with-irb-transition/",
+          "date": "2026-02-20",
+          "publisherClass": "news"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "No law, guidance or device rule for clinical AI was found. The e-governance ministry backs \"augmented AI\" that supports rather than replaces human decisions, including in health, but has adopted no binding framework.",
+      "detail": [
+        "In December 2025 the e-governance ministry's chief executive joined an IDB and Costa Rica dialogue on AI, and the ministry said augmented AI should strengthen public officers in sectors including health while preserving accountability.",
+        "No regulator or approval route for AI software as a medical device was found. The 2021 Act's right not to be subject to solely automated decisions is not in force.",
+        "The Ministry's 2025 to 2034 strategic plan covers telehealth and interoperability but sets no rules for AI in care."
+      ],
+      "sources": [
+        {
+          "title": "Advancing Belize's Digital Future through Responsible AI (Ministry of E-Governance)",
+          "url": "https://egov.gov.bz/2026/02/26/advancing-belizes-digital-future-through-responsible-ai-december-31st2025/",
+          "date": "2025-12-31",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Belize Health Sector Strategic Plan 2025-2034 (Ministry of Health and Wellness)",
+          "url": "https://www.paho.org/sites/default/files/2025-03/blz-health-sector-strategic-plan-2025-2034_0.pdf",
+          "date": "2025-03-21",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Data Protection Act, 2021 (Act No. 45 of 2021)",
+          "url": "https://egov.gov.bz/wp-content/uploads/2023/02/Act-No.-45-of-2021-Data-Protection-Act.pdf",
+          "date": "2021",
+          "publisherClass": "legal_text"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "partial",
+    "labs": "partial",
+    "pharmacy": "unknown",
+    "claims": "connected",
+    "publicHealth": "connected",
+    "research": "partial"
+  },
+  "journeyNote": "All Ministry facilities use BHIS, linked to National Health Insurance claims (RAWA) since 2024 and to the civil registry since 2025. Private hospitals join only in part. Lab and e-prescription links not verified.",
+  "laws": [
+    {
+      "name": "Data Protection Act, 2021 (Act No. 45 of 2021)",
+      "level": "National",
+      "year": "2021",
+      "what": "Free access within one month, 72-hour breach notice; health is not sensitive data. Not yet in force.",
+      "url": "https://egov.gov.bz/wp-content/uploads/2023/02/Act-No.-45-of-2021-Data-Protection-Act.pdf"
+    },
+    {
+      "name": "Freedom of Information Act, Cap. 13",
+      "level": "National",
+      "year": "1994",
+      "what": "Right of access to documents of ministries and prescribed authorities, with review by the Ombudsman.",
+      "url": "https://www.agm.gov.bz/uploads/laws/63976dad2084d_Cap_13_Freedom_of_Information_Act.pdf"
+    },
+    {
+      "name": "Social Security Act, Cap. 44 (National Health Insurance Part)",
+      "level": "National",
+      "year": "2001",
+      "what": "Creates the National Health Insurance Scheme as the financing and purchasing mechanism for health care.",
+      "url": "https://www.ruraltransformation.gov.bz/docs/29/Cap_44_Social_Security_Act.pdf"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-15",
+      "headline": "Data protection law still not in force; Vital Stats now asks consent before release",
+      "source": "XTV Belize",
+      "url": "https://www.facebook.com/XTelevisiombelize/posts/1818330063229482/",
+      "why": "Without the Act in force, patients have no enforceable right to their record or to a regulator."
+    },
+    {
+      "date": "2026-08-27",
+      "headline": "Public service union urges boycott of HR system over data privacy",
+      "source": "Greater Belize Media",
+      "url": "https://www.greaterbelize.com/psu-tells-public-officers-not-to-join-neopeople-hr-pilot-programme/",
+      "why": "Shows the consent, privacy officer and impact assessment duties people expect from the Act are not yet applied."
+    },
+    {
+      "date": "2026-05-29",
+      "headline": "Health ministry and UNICEF launch community health strategy including digital health",
+      "source": "Government of Belize Press Office",
+      "url": "https://www.pressoffice.gov.bz/ministry-of-health-wellness-and-unicef-launch-belizes-national-community-health-strategy-2026-2030/",
+      "why": "Plans to extend digital health and surveillance to rural community health workers."
+    },
+    {
+      "date": "2026-02-20",
+      "headline": "Health ministry requires IRB approval for all public health research",
+      "source": "Love FM",
+      "url": "https://lovefm.com/health-ministry-tightens-public-health-research-oversight-with-irb-transition/",
+      "why": "Ethics review is the main safeguard for people whose data or bodies are used in research."
+    },
+    {
+      "date": "2025-12-10",
+      "headline": "New digital civil registry launched, linked to the national health information system",
+      "source": "Ministry of E-Governance",
+      "url": "https://egov.gov.bz/2026/02/26/launch-of-the-civil-registry-and-vital-statistics-system/",
+      "why": "Births and deaths recorded in BHIS now flow to the civil registry without paper."
+    }
+  ],
+  "asOf": "2026-10-01"
+}

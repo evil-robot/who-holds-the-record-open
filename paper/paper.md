@@ -1,10 +1,10 @@
-# Who Holds the Record: A <!-- GEN:n -->65<!-- /GEN:n -->-Country Index of a Person's Right to See, Control and Share Their Health Record
+# Who Holds the Record: A <!-- GEN:n -->196<!-- /GEN:n -->-Country Index of a Person's Right to See, Control and Share Their Health Record
 
 **Jason Alan Snyder**¹, **Bobby Hill**¹, **Dustin Raney**¹
 
 ¹SuperTruth Inc., United States. J. A. Snyder ORCID 0009-0001-6157-8100.
 
-**Status:** REVIEW DRAFT, 2 October 2026. Not for circulation or citation.
+**Status:** Working paper, version 1.0, not peer reviewed. 2 October 2026.
 
 **Correspondence:** through the SuperTruth contact form, https://supertruth.ai/on-the-record#contact
 
@@ -18,7 +18,7 @@
 
 ## Abstract
 
-We scored <!-- GEN:n -->65<!-- /GEN:n --> countries and territories, including all 27 member states of the European Union, from 0 to 100 on one question: does a person get to see, control and share their own health record? Eight weighted categories cover access to the full record, control and consent, privacy and security, protection from commercial use, a connected care journey, clinician access at the point of care, research consent, and clinical AI governance. Research agents built on Anthropic's Claude models did the research and scoring against a written rubric, and the authors ruled on every finding and every change. The rubric requires an agent to open every source it cites; a later check of every cited link found <!-- GEN:links -->2097 cited links checked: 1968 opened, 11 dead, 104 blocked by bot protection and 14 unreachable or unresolved<!-- /GEN:links -->. Every score cites the public pages it rests on: <!-- GEN:sources -->1862 cited sources (416 undated)<!-- /GEN:sources -->. <!-- GEN:top -->Finland (71)<!-- /GEN:top --> leads and the median is <!-- GEN:median -->57<!-- /GEN:median -->. By band, with the range each count takes when weights and scores are varied: <!-- GEN:bandranges -->9 Strong (6 to 12 across draws), 45 Mixed (41 to 49) and 11 Weak (9 to 13)<!-- /GEN:bandranges -->. <!-- GEN:rbextremes -->No country reaches the top band and none falls to the bottom one in any draw<!-- /GEN:rbextremes -->. A blind re-scoring of a random sample of cells by a separate agent session agreed with the published scores at an intraclass correlation of <!-- GEN:reliccshort -->0.82<!-- /GEN:reliccshort -->, while a single cell can move by about <!-- GEN:relloahalf -->17<!-- /GEN:relloahalf --> points. We also classed where control over the record sits by default, which we call who holds the keys: <!-- GEN:models -->44 Shared, 7 Institutional and 14 State; 0 Individual<!-- /GEN:models -->. No country gives the person the default say over who sees the record; that class is a design target that no national system has built. An audit of our own scores found that the same legal situation was sometimes scored differently in different regions. We tightened the rubric, rescored, and report every change. A separate context layer, which changes no score, asks whether strained public systems push care to private providers whose records do not reach the public record. Alongside the scores we collected <!-- GEN:storytotal -->272<!-- /GEN:storytotal --> published accounts of real problems with health records. They illustrate the scores and do not change them. The paper and data are released under CC BY 4.0 and the code under the MIT licence.
+We scored <!-- GEN:n -->196<!-- /GEN:n --> countries and territories (<!-- GEN:uncoverage -->all 193 member states of the United Nations, plus Palestine, Taiwan and Vatican City<!-- /GEN:uncoverage -->) from 0 to 100 on one question: does a person get to see, control and share their own health record? Eight weighted categories cover access to the full record, control and consent, privacy and security, protection from commercial use, a connected care journey, clinician access at the point of care, research consent, and clinical AI governance. Research agents built on Anthropic's Claude models did the research and scoring against a written rubric, and the authors ruled on every finding and every change. The rubric requires an agent to open every source it cites; a later check of every cited link found <!-- GEN:links -->7089 cited links checked: 6767 opened, 0 dead, 122 blocked by bot protection and 198 unreachable or unresolved<!-- /GEN:links -->. Every score cites the public pages it rests on: <!-- GEN:sources -->5099 cited sources (974 undated)<!-- /GEN:sources -->. <!-- GEN:lead -->Finland (71), Denmark (70), Estonia (68) and Hungary (68) have the highest scores; allowing for scoring error, any of them could rank first<!-- /GEN:lead -->. The median is <!-- GEN:median -->39<!-- /GEN:median -->, and scores track national income closely: Spearman <!-- GEN:incrho -->+0.72 (95% interval +0.64 to +0.79, n 186)<!-- /GEN:incrho -->. By band, with the range each count takes when weights and scores are varied: <!-- GEN:bandranges -->9 Strong (7 to 15 across draws), 65 Mixed (57 to 71), 110 Weak (100 to 114) and 12 Poor (10 to 19)<!-- /GEN:bandranges -->. <!-- GEN:rbextremes -->No country reaches the top band in any draw; 12 countries are Poor as published (10 to 19 across draws)<!-- /GEN:rbextremes -->. A blind re-scoring of <!-- GEN:reln -->58<!-- /GEN:reln --> sampled cells by a separate session of the same model family, run before the 2 October re-research, agreed with the scores at that time at an intraclass correlation of <!-- GEN:reliccshort -->0.82<!-- /GEN:reliccshort -->; no human rater has scored the index. A single cell can move by about <!-- GEN:relloahalf -->17<!-- /GEN:relloahalf --> points. Once a country's scoring error and the weights are both allowed for, a country's likely rank typically spans <!-- GEN:rbmainwidth -->42<!-- /GEN:rbmainwidth --> places. We also classed where control over the record sits by default, which we call who holds the keys: <!-- GEN:models -->51 Shared, 80 Institutional and 65 State; 0 Individual<!-- /GEN:models -->. No country gives the person the default say over who sees the record; our definition of that class requires that nothing flow into a state or provider system by default, which no national system does. An audit of our own scores found that the same legal situation was sometimes scored differently in different regions. We tightened the rubric, rescored, and report every change. A separate context layer, which changes no score, asks whether strained public systems push care to private providers whose records do not reach the public record. Alongside the scores we collected <!-- GEN:storytotal -->444<!-- /GEN:storytotal --> published accounts of real problems with health records. They illustrate the scores and do not change them. The paper and data are released under CC BY 4.0 and the code under the MIT licence.
 
 **Keywords:** health records, patient access, consent, health data governance, interoperability, European Health Data Space, HIPAA, GDPR, clinical AI governance, composite index
 
@@ -30,7 +30,7 @@ A health record follows a person through every part of care: the family doctor, 
 
 Clinical AI raises the stakes. Systems that read records to suggest diagnoses, summarise notes or triage patients are only as good as the record they read. The person whose record it is usually has the least say in how it is used, and the least ability to find out what it contains.
 
-We wanted one comparable answer, country by country, to a plain question: does a person get to see, control and share their own health record? Most existing indices measure the digital maturity of health systems, as reported by governments. The Euro Health Consumer Index and an earlier patient empowerment report scored record access as one item among many (Section 6). We set out to measure the patient's side as the object of the index: the right in law, and whether it works in practice.
+We wanted one comparable answer, country by country, to a plain question: does a person get to see, control and share their own health record? Most existing indices measure the digital maturity of health systems, as reported by governments. The Euro Health Consumer Index and an earlier patient empowerment report scored record access as one item among many (Section 6). We set out to measure the patient's side as the object of the index: the right in law and, where published evidence allows, whether it works in practice. We did not measure practice directly: no record requests, patient surveys or tests.
 
 ## 2. What we measured
 
@@ -42,14 +42,14 @@ Each country receives a score from 0 to 100 in eight categories. The overall sco
 
 | Category | Weight | Min | Q1 | Median | Q3 | Max |
 |---|---:|---:|---:|---:|---:|---:|
-| Patient access to the full record | 20% | 30 | 55 | 62 | 66 | 80 |
-| Patient control and consent | 20% | 25 | 42 | 52 | 66 | 74 |
-| Privacy and security | 15% | 34 | 50 | 55 | 58 | 65 |
-| Connected care journey | 15% | 28 | 50 | 62 | 68 | 82 |
-| Protection from commercial use | 10% | 35 | 50 | 55 | 60 | 70 |
-| Clinician access at the point of care | 10% | 22 | 44 | 58 | 64 | 78 |
-| Research and trial consent | 5% | 42 | 46 | 49 | 50 | 70 |
-| Clinical AI governance | 5% | 30 | 50 | 50 | 55 | 66 |
+| Patient access to the full record | 20% | 15 | 35 | 43 | 60 | 80 |
+| Patient control and consent | 20% | 20 | 28 | 30 | 47 | 74 |
+| Privacy and security | 15% | 15 | 35 | 45 | 52 | 65 |
+| Connected care journey | 15% | 18 | 28 | 38 | 57 | 82 |
+| Protection from commercial use | 10% | 15 | 35 | 45 | 52 | 70 |
+| Clinician access at the point of care | 10% | 15 | 22 | 34 | 53 | 78 |
+| Research and trial consent | 5% | 30 | 45 | 46 | 49 | 70 |
+| Clinical AI governance | 5% | 15 | 22 | 30 | 50 | 66 |
 
 <!-- /GEN:categories -->
 
@@ -81,14 +81,18 @@ Applying the anchors changed <!-- GEN:round2keys -->Cyprus (Shared to State), Gr
 
 ## 3. How we scored
 
-**Countries.** <!-- GEN:n -->65<!-- /GEN:n --> countries and territories across <!-- GEN:nregions -->6<!-- /GEN:nregions --> regions, including all 27 member states of the European Union. The first <!-- GEN:norig -->43<!-- /GEN:norig --> were chosen to cover every inhabited region and the largest health systems. They were researched in the index's first version and then re-researched in full on 2 October 2026 to the same standard as the added countries: local-language research, primary sources first, and an independent cross-check. <!-- GEN:nwave1 -->21<!-- /GEN:nwave1 --> countries were added on 1 October 2026, mostly to complete the European Union, and <!-- GEN:latenames -->Albania<!-- /GEN:latenames --> on 2 October. The selection is not a random sample, and the index makes no claim about countries outside it. Names follow our country files; listing a place separately reflects a separate health system and law and implies no position on its status. Regions are our own grouping for reading the tables (Turkey, Russia, Ukraine and Albania are in Europe; Israel is in the Middle East), not a political classification.
+![How the index was built.](figures/fig1_method.png)
+
+*Figure 1. How the index was built: research, cross-check, review and audit, scoring, testing and publication. Every count in the figure is read from the repository (scripts/fig_method.js).*
+
+**Countries.** <!-- GEN:n -->196<!-- /GEN:n --> countries and territories across <!-- GEN:nregions -->6<!-- /GEN:nregions --> regions: <!-- GEN:uncoverage -->all 193 member states of the United Nations, plus Palestine, Taiwan and Vatican City<!-- /GEN:uncoverage -->. The first <!-- GEN:norig -->43<!-- /GEN:norig --> were chosen to cover every inhabited region and the largest health systems; they were researched in the index's first version and re-researched in full on 2 October 2026. <!-- GEN:nwave1 -->21<!-- /GEN:nwave1 --> countries were added on 1 October 2026, mostly to complete the European Union, and <!-- GEN:latenames -->Albania<!-- /GEN:latenames --> on 2 October. On 2 October <!-- GEN:nwave2 -->48<!-- /GEN:nwave2 --> more were added, then <!-- GEN:nwave3 -->81<!-- /GEN:nwave3 -->, then <!-- GEN:observernames -->Palestine and Vatican City<!-- /GEN:observernames -->, so that the index covers every UN member state. Every added country went through the same three steps: research in the country's own languages with primary sources first, an adversarial cross-check of the file by a second agent session of the same model family, and a search for published accounts (Section 5). Names follow our country files; listing a place separately reflects a separate health system and law and implies no position on its status. Regions are our own grouping for reading the tables (Turkey, Russia, Ukraine and Albania are in Europe; Israel is in the Middle East), not a political classification.
 
 **Use of AI.** We report this following the 2025 position statement of Cochrane, the Campbell Collaboration, JBI and the Collaboration for Environmental Evidence, which asks authors to name the AI system, its version and the dates used, the purpose, and how its output was validated [22].
 
 - *System and dates.* Research agents built on Anthropic's Claude models (Claude Opus 5.5, run through Claude Code), used from 30 September to 2 October 2026.
 - *What the agents did.* Research and scoring of every country against the written rubric; a cross-check of each country's research by a second agent session, which reclassified every cited publisher, rechecked every link and compared each score with the anchor band for its legal situation; the consistency audit (Section 7); collection and first review of the accounts (Section 5); the outside research for the context layer (Section 9); the reading of the X sample (Section 10); the blind re-scoring below; and drafting of this paper.
 - *What the authors did.* The authors directed the research, ruled on every audit finding and every proposed score change, and reviewed and revised the text. Each ruling is recorded with its evidence in docs/SCORE_CHANGES.md. We do not claim that a person read every cell and every source.
-- *How the output was checked.* A link check of every cited URL (the figures in the abstract). A verifier for the accounts, tested by planting eight rule violations, all caught. A verifier for the stability analysis, tested with planted bugs (wrong rounding, swapped weights, a score off by one). A verifier of the blind re-scoring transcripts, tested with 13 planted breaches of the blind, all caught. The independent cross-check of each country's research. A blind re-scoring of a random sample of cells, reported below. The checking agents run on the same model family as the research agents, so these checks are independent readings, not independent judges; Section 7.4 sets out what that limits.
+- *How the output was checked.* A link check of every cited URL (the figures in the abstract). A verifier for the accounts, tested by planting eight rule violations, all caught. A verifier for the stability analysis, tested with planted bugs (wrong rounding, swapped weights, a score off by one). A verifier of the blind re-scoring transcripts, tested with 13 planted breaches of the blind, all caught. The cross-check of each country's research by a second agent session of the same model family, which could see the first session's scores. A blind re-scoring of a random sample of cells, reported below. The checking agents run on the same model family as the research agents, so these checks are independent readings, not independent judges; Section 7.4 sets out what that limits.
 
 The rubric requires that every number and law name come from a page the agent opened, and that a fact which could not be verified be marked "not verified" in the text. Each country file's `asOf` is the date the file was last checked; dates run from <!-- GEN:asofrange -->2026-10-01 to 2026-10-02<!-- /GEN:asofrange -->.
 
@@ -98,9 +102,11 @@ The rubric requires that every number and law name come from a page the agent op
 
 **Same regime, same band.** Rubric v1.1 adds sub-anchors so that the same legal situation lands in the same band wherever it is. For example, a statutory right to a copy with no national portal starts at 45 on access, gains 5 for a free right with a fixed deadline or a structured format, and loses 5 each for a fee, no deadline, a limited scope or a right not yet enforceable. In EU and EEA states the GDPR's one-month deadline and free first copy bind by law, so that step is credited whatever the cited national page says. An EU country with only EU law on clinical AI scores 50, plus 4 for each verified national addition. Research use without consent or opt-out starts at 40 and gains 3 for each documented safeguard, up to 50. If a key fact could not be verified, the score stays in the lower half of its band and earns nothing from that fact.
 
-**Precision.** <!-- GEN:fivepct -->239 of 520 category scores (46%)<!-- /GEN:fivepct --> are multiples of five: scores cluster there, which shows how numbers were chosen rather than how precise they are. The blind re-scoring below measures precision directly. We use competition ranking: tied countries share a rank, shown as "4=", and ties are taken on the displayed whole number.
+**Precision.** <!-- GEN:fivepct -->862 of 1568 category scores (55%)<!-- /GEN:fivepct --> are multiples of five: scores cluster there, which shows how numbers were chosen rather than how precise they are. The blind re-scoring below measures precision directly. We use competition ranking: tied countries share a rank, shown as "4=", and ties are taken on the displayed whole number.
 
-**How far a second reading agrees.** To test whether the scores depend on who does the scoring, we drew a stratified random sample of <!-- GEN:relsample -->64<!-- /GEN:relsample --> of the 520 country-category cells (8 per category, regions in proportion to country count, fixed seed). A fresh agent session re-scored each one blind. It saw only the rubric, the anchor rules with every country-specific score removed, the country, the category and the cell's cited sources. The analysis plan was written and hashed before any cell was scored. The rater ran on <!-- GEN:reldate -->2026-10-02<!-- /GEN:reldate --> (model <!-- GEN:relmodel -->claude-opus-5-5<!-- /GEN:relmodel -->) and is compared with the scores as published at the time of the run. On the <!-- GEN:reln -->58<!-- /GEN:reln --> cells it could score, it landed on average <!-- GEN:relmad -->5.8 points (95% CI 4.3 to 7.6)<!-- /GEN:relmad --> from the published score, within 10 points in <!-- GEN:relwithin10 -->88%<!-- /GEN:relwithin10 --> of cells, with no overall bias (<!-- GEN:relbias -->-0.4<!-- /GEN:relbias --> points). The intraclass correlation (ICC(2,1), absolute agreement) was <!-- GEN:relicc -->0.82 (95% CI 0.72 to 0.89)<!-- /GEN:relicc --> and the weighted kappa on the five bands <!-- GEN:relkappa -->0.63<!-- /GEN:relkappa -->. The ordering and level of the index replicate. A single category score does not replicate to the point: the limits of agreement are <!-- GEN:relloa -->-17.7 to +16.9<!-- /GEN:relloa --> points, and <!-- GEN:relband -->38%<!-- /GEN:relband --> of cells changed band. <!-- GEN:relnull -->6<!-- /GEN:relnull --> cells could not be scored because the rater could not read their sources, and <!-- GEN:relunread -->43 of 168 (26%)<!-- /GEN:relunread --> of the cited URLs in the sample were unreadable to it, mostly PDFs; agreement was closer where every source was read. The rater shares a model family with the research agents, so this is agreement between two agent readings of the same evidence under the same rubric. It is not a human inter-rater study, and it does not test whether a rater who gathered its own evidence would agree. <!-- GEN:relflag -->5<!-- /GEN:relflag --> cells differed by 15 points or more and were returned to the authors; the rulings so far are in docs/SCORE_CHANGES.md, and one (India, clinician access) awaits a ruling.
+**How far a second reading agrees.** To test whether the scores depend on who does the scoring, we drew a stratified random sample of <!-- GEN:relsample -->64<!-- /GEN:relsample --> of the 520 country-category cells then in the index (65 countries) (8 per category, regions in proportion to country count, fixed seed). A fresh agent session re-scored each one blind. It saw only the rubric, the anchor rules with every country-specific score removed, the country, the category and the cell's cited sources. The analysis plan was written and hashed before any cell was scored. The rater ran on <!-- GEN:reldate -->2026-10-02<!-- /GEN:reldate --> (model <!-- GEN:relmodel -->claude-opus-5-5<!-- /GEN:relmodel -->) and is compared with the scores as published at the time of the run. On the <!-- GEN:reln -->58<!-- /GEN:reln --> cells it could score, it landed on average <!-- GEN:relmad -->5.8 points (95% CI 4.3 to 7.6)<!-- /GEN:relmad --> from the published score, within 10 points in <!-- GEN:relwithin10 -->88%<!-- /GEN:relwithin10 --> of cells, with no overall bias (<!-- GEN:relbias -->-0.4<!-- /GEN:relbias --> points). The intraclass correlation (ICC(2,1), absolute agreement) was <!-- GEN:relicc -->0.82 (95% CI 0.72 to 0.89)<!-- /GEN:relicc --> and the weighted kappa on the five bands <!-- GEN:relkappa -->0.63<!-- /GEN:relkappa -->. Two agent readings of the same sources agree on ordering and level; this does not show that a human, a different model, or a rater gathering its own evidence would agree. Against the current published scores the same ratings give an intraclass correlation of <!-- GEN:relcurrent -->0.83 (95% CI 0.70 to 0.92; 25 of the 58 cells were re-researched after the run, and the rater read the earlier sources)<!-- /GEN:relcurrent -->. A single category score does not replicate to the point: the limits of agreement are <!-- GEN:relloa -->-17.7 to +16.9<!-- /GEN:relloa --> points, and <!-- GEN:relband -->38%<!-- /GEN:relband --> of cells changed band. <!-- GEN:relnull -->6<!-- /GEN:relnull --> cells could not be scored because the rater could not read their sources, and <!-- GEN:relunread -->43 of 168 (26%)<!-- /GEN:relunread --> of the cited URLs in the sample were unreadable to it, mostly PDFs; agreement was closer where every source was read. The rater shares a model family with the research agents, so this is agreement between two agent readings of the same evidence under the same rubric. It is not a human inter-rater study, and it does not test whether a rater who gathered its own evidence would agree. <!-- GEN:relflag -->5<!-- /GEN:relflag --> cells differed by 15 points or more and were returned to the authors; the rulings so far are in docs/SCORE_CHANGES.md, and one (India, clinician access) awaits a ruling.
+
+**A second full reading of 43 countries.** On 2 October 2026 the first 43 countries were researched again from scratch, which works as an unplanned test-retest of the whole pipeline, research included. Between the two readings <!-- GEN:trcells -->278 of 344 category scores in 43 countries<!-- /GEN:trcells --> changed. Agreement on single category scores (intraclass correlation ICC(2,1), absolute agreement [32]) was <!-- GEN:trcellicc -->0.86 (95% CI 0.83 to 0.89)<!-- /GEN:trcellicc -->, with limits of agreement of <!-- GEN:trloa -->-12.4 to +15.2<!-- /GEN:trloa --> points and a band change in <!-- GEN:trcellbands -->80 of 344<!-- /GEN:trcellbands --> cells. Agreement on the overall score was <!-- GEN:troverall -->0.94 (95% CI 0.90 to 0.96), Spearman 0.95<!-- /GEN:troverall -->; the largest move was <!-- GEN:trmove -->11 points<!-- /GEN:trmove -->, and <!-- GEN:trbands -->11 of 43 countries<!-- /GEN:trbands --> changed band. Agreement was <!-- GEN:trstrong -->0.86 or higher<!-- /GEN:trstrong --> in six categories but weak in <!-- GEN:trweak -->research consent (0.54) and clinical AI (0.58)<!-- /GEN:trweak -->, which together carry 10% of the weight. Two caveats make these figures an upper bound: the second reading could see the first reading's scores, so it may have anchored on them, and both readings came from the same model family. The test-retest also showed that part of the scoring error is shared across a country, which the stability analysis in Section 4.2 now models.
 
 **Computation.** The overall score is computed from the category scores and the published weights, in the page itself and in the build script that produced the tables in this paper. No overall score is stored or typed by hand.
 
@@ -108,7 +114,7 @@ The rubric requires that every number and law name come from a page the agent op
 
 ### 4.1 Bands first, then ranks
 
-By band: <!-- GEN:bandranges -->9 Strong (6 to 12 across draws), 45 Mixed (41 to 49) and 11 Weak (9 to 13)<!-- /GEN:bandranges -->. The ranges come from the stability analysis in Section 4.2. No country reaches the Leading band, and none falls to Poor. <!-- GEN:top -->Finland (71)<!-- /GEN:top --> leads and <!-- GEN:bottom -->Egypt (33) is last<!-- /GEN:bottom -->. The median is <!-- GEN:median -->57<!-- /GEN:median -->.
+By band: <!-- GEN:bandranges -->9 Strong (7 to 15 across draws), 65 Mixed (57 to 71), 110 Weak (100 to 114) and 12 Poor (10 to 19)<!-- /GEN:bandranges -->. The ranges come from the stability analysis in Section 4.2. No country reaches the Leading band. <!-- GEN:lead -->Finland (71), Denmark (70), Estonia (68) and Hungary (68) have the highest scores; allowing for scoring error, any of them could rank first<!-- /GEN:lead -->; <!-- GEN:bottom -->North Korea (19) is last<!-- /GEN:bottom -->. The median is <!-- GEN:median -->39<!-- /GEN:median -->.
 
 Table 2 gives each country's rank with the range of ranks it holds in 90% of draws. Read the range, not the single rank. Two countries whose ranges overlap should not be called different.
 
@@ -116,71 +122,202 @@ Table 2 gives each country's rank with the range of ranks it holds in 90% of dra
 
 | Rank | Rank range (90%) | Country | Region | Keys | Overall | Band | Confidence |
 |---|---|---|---|---|---:|---|---|
-| 1 | 1 to 2 | Finland | Europe | Shared | 71 | Strong | high |
-| 2 | 1 to 3 | Denmark | Europe | Shared | 70 | Strong | medium |
-| 3= | 2 to 6 | Estonia | Europe | Shared | 68 | Strong | medium |
-| 3= | 2 to 6 | Hungary | Europe | Shared | 68 | Strong | high |
-| 5 | 3 to 8 | Sweden | Europe | Shared | 67 | Strong | high |
-| 6= | 3 to 10 | Australia | Oceania | Shared | 66 | Strong | high |
-| 6= | 3 to 11 | France | Europe | Shared | 66 | Strong | high |
-| 6= | 3 to 10 | Norway | Europe | Shared | 66 | Strong | high |
-| 9 | 5 to 13 | Austria | Europe | Shared | 65 | Strong | high |
-| 10 | 6 to 15 | Portugal | Europe | Shared | 64 | Mixed | high |
-| 11= | 8 to 20 | Belgium | Europe | Shared | 63 | Mixed | medium |
-| 11= | 8 to 20 | Germany | Europe | Shared | 63 | Mixed | high |
-| 11= | 8 to 22 | Italy | Europe | Shared | 63 | Mixed | high |
-| 11= | 8 to 23 | Taiwan | Asia | Shared | 63 | Mixed | high |
-| 11= | 6 to 19 | Turkey | Europe | Shared | 63 | Mixed | medium |
-| 16= | 8 to 23 | Iceland | Europe | Shared | 62 | Mixed | medium |
-| 16= | 10 to 26 | Israel | Middle East | Shared | 62 | Mixed | high |
-| 16= | 11 to 25 | Latvia | Europe | Shared | 62 | Mixed | medium |
-| 16= | 11 to 25 | Singapore | Asia | Shared | 62 | Mixed | high |
-| 16= | 10 to 23 | Slovenia | Europe | Shared | 62 | Mixed | medium |
-| 21= | 11 to 27 | Liechtenstein | Europe | Shared | 61 | Mixed | medium |
-| 21= | 12 to 27 | Spain | Europe | Shared | 61 | Mixed | high |
-| 23= | 14 to 29 | Croatia | Europe | Shared | 60 | Mixed | medium |
-| 23= | 14 to 30 | Lithuania | Europe | Shared | 60 | Mixed | medium |
-| 23= | 16 to 32 | Netherlands | Europe | Shared | 60 | Mixed | high |
-| 23= | 13 to 29 | South Korea | Asia | Shared | 60 | Mixed | high |
-| 27= | 17 to 32 | Bulgaria | Europe | Shared | 59 | Mixed | medium |
-| 27= | 19 to 34 | Luxembourg | Europe | Shared | 59 | Mixed | medium |
-| 27= | 18 to 33 | Malta | Europe | Shared | 59 | Mixed | medium |
-| 27= | 19 to 34 | Poland | Europe | Shared | 59 | Mixed | high |
-| 27= | 17 to 32 | United Kingdom | Europe | Shared | 59 | Mixed | high |
-| 32 | 25 to 36 | Slovakia | Europe | Shared | 58 | Mixed | medium |
-| 33= | 25 to 36 | Czechia | Europe | Shared | 57 | Mixed | medium |
-| 33= | 26 to 37 | Greece | Europe | State | 57 | Mixed | medium |
-| 35= | 28 to 38 | Japan | Asia | Shared | 56 | Mixed | high |
-| 35= | 29 to 38 | Romania | Europe | Shared | 56 | Mixed | medium |
-| 37= | 32 to 40 | Cyprus | Europe | State | 55 | Mixed | medium |
-| 37= | 30 to 42 | United Arab Emirates | Middle East | Shared | 55 | Mixed | high |
-| 39= | 34 to 43 | Costa Rica | Americas | State | 54 | Mixed | medium |
-| 39= | 34 to 43 | Switzerland | Europe | Shared | 54 | Mixed | medium |
-| 41 | 35 to 44 | Saudi Arabia | Middle East | State | 53 | Mixed | medium |
-| 42= | 38 to 44 | Brazil | Americas | State | 52 | Mixed | high |
-| 42= | 38 to 44 | Canada | Americas | Shared | 52 | Mixed | high |
-| 42= | 39 to 45 | Thailand | Asia | Shared | 52 | Mixed | high |
-| 45= | 43 to 49 | Kenya | Africa | Shared | 49 | Mixed | medium |
-| 45= | 43 to 51 | Ukraine | Europe | Shared | 49 | Mixed | medium |
-| 47= | 45 to 52 | Argentina | Americas | Shared | 48 | Mixed | medium |
-| 47= | 45 to 52 | New Zealand | Oceania | Shared | 48 | Mixed | high |
-| 47= | 44 to 52 | United States | Americas | Institutional | 48 | Mixed | high |
-| 50= | 45 to 53 | Indonesia | Asia | State | 47 | Mixed | medium |
-| 50= | 45 to 54 | Ireland | Europe | State | 47 | Mixed | high |
-| 50= | 45 to 53 | Vietnam | Asia | State | 47 | Mixed | high |
-| 53= | 48 to 57 | India | Asia | Shared | 45 | Mixed | medium |
-| 53= | 49 to 58 | Russia | Europe | State | 45 | Mixed | medium |
-| 55 | 50 to 58 | Rwanda | Africa | State | 44 | Weak | medium |
-| 56= | 52 to 60 | China | Asia | State | 43 | Weak | high |
-| 56= | 52 to 59 | Colombia | Americas | State | 43 | Weak | medium |
-| 56= | 51 to 59 | South Africa | Africa | Institutional | 43 | Weak | high |
-| 59 | 54 to 60 | Mexico | Americas | Institutional | 42 | Weak | high |
-| 60 | 56 to 61 | Albania | Europe | Institutional | 41 | Weak | medium |
-| 61= | 59 to 63 | Chile | Americas | Institutional | 39 | Weak | medium |
-| 61= | 59 to 63 | Philippines | Asia | Institutional | 39 | Weak | medium |
-| 63 | 60 to 63 | Ghana | Africa | State | 38 | Weak | high |
-| 64 | 63 to 65 | Nigeria | Africa | Institutional | 35 | Weak | high |
-| 65 | 64 to 65 | Egypt | Middle East | State | 33 | Weak | high |
+| 1 | 1 to 6 | Finland | Europe | Shared | 71 | Strong | high |
+| 2 | 1 to 9 | Denmark | Europe | Shared | 70 | Strong | medium |
+| 3= | 1 to 12 | Estonia | Europe | Shared | 68 | Strong | medium |
+| 3= | 1 to 13 | Hungary | Europe | Shared | 68 | Strong | high |
+| 5 | 2 to 17 | Sweden | Europe | Shared | 67 | Strong | high |
+| 6= | 2 to 20 | Australia | Oceania | Shared | 66 | Strong | high |
+| 6= | 2 to 20 | France | Europe | Shared | 66 | Strong | high |
+| 6= | 2 to 19 | Norway | Europe | Shared | 66 | Strong | high |
+| 9 | 3 to 23 | Austria | Europe | Shared | 65 | Strong | high |
+| 10 | 3 to 26 | Portugal | Europe | Shared | 64 | Mixed | high |
+| 11= | 5 to 30 | Belgium | Europe | Shared | 63 | Mixed | medium |
+| 11= | 5 to 30 | Germany | Europe | Shared | 63 | Mixed | high |
+| 11= | 5 to 31 | Italy | Europe | Shared | 63 | Mixed | high |
+| 11= | 5 to 31 | Taiwan | Asia | Shared | 63 | Mixed | high |
+| 11= | 4 to 28 | Turkey | Europe | Shared | 63 | Mixed | medium |
+| 16= | 5 to 33 | Iceland | Europe | Shared | 62 | Mixed | medium |
+| 16= | 6 to 34 | Israel | Middle East | Shared | 62 | Mixed | high |
+| 16= | 6 to 34 | Latvia | Europe | Shared | 62 | Mixed | medium |
+| 16= | 6 to 34 | Singapore | Asia | Shared | 62 | Mixed | high |
+| 16= | 6 to 33 | Slovenia | Europe | Shared | 62 | Mixed | medium |
+| 21= | 7 to 35 | Liechtenstein | Europe | Shared | 61 | Mixed | medium |
+| 21= | 7 to 36 | Spain | Europe | Shared | 61 | Mixed | high |
+| 23= | 8 to 38 | Croatia | Europe | Shared | 60 | Mixed | medium |
+| 23= | 9 to 38 | Lithuania | Europe | Shared | 60 | Mixed | medium |
+| 23= | 10 to 40 | Netherlands | Europe | Shared | 60 | Mixed | high |
+| 23= | 8 to 38 | South Korea | Asia | Shared | 60 | Mixed | high |
+| 27= | 11 to 40 | Bulgaria | Europe | Shared | 59 | Mixed | medium |
+| 27= | 12 to 42 | Luxembourg | Europe | Shared | 59 | Mixed | medium |
+| 27= | 11 to 41 | Malta | Europe | Shared | 59 | Mixed | medium |
+| 27= | 12 to 42 | Poland | Europe | Shared | 59 | Mixed | high |
+| 27= | 11 to 40 | United Kingdom | Europe | Shared | 59 | Mixed | high |
+| 27= | 13 to 42 | Uruguay | Americas | Shared | 59 | Mixed | high |
+| 33 | 16 to 45 | Slovakia | Europe | Shared | 58 | Mixed | medium |
+| 34= | 16 to 45 | Andorra | Europe | Shared | 57 | Mixed | medium |
+| 34= | 16 to 46 | Armenia | Europe | Shared | 57 | Mixed | medium |
+| 34= | 16 to 45 | Czechia | Europe | Shared | 57 | Mixed | medium |
+| 34= | 18 to 46 | Greece | Europe | State | 57 | Mixed | medium |
+| 38= | 19 to 48 | Japan | Asia | Shared | 56 | Mixed | high |
+| 38= | 20 to 49 | Romania | Europe | Shared | 56 | Mixed | medium |
+| 40= | 24 to 51 | Cyprus | Europe | State | 55 | Mixed | medium |
+| 40= | 23 to 51 | San Marino | Europe | Shared | 55 | Mixed | medium |
+| 40= | 24 to 51 | Serbia | Europe | Shared | 55 | Mixed | medium |
+| 40= | 23 to 53 | United Arab Emirates | Middle East | Shared | 55 | Mixed | high |
+| 44= | 27 to 54 | Costa Rica | Americas | State | 54 | Mixed | medium |
+| 44= | 28 to 57 | Switzerland | Europe | Shared | 54 | Mixed | medium |
+| 46 | 29 to 57 | Saudi Arabia | Middle East | State | 53 | Mixed | medium |
+| 47= | 34 to 60 | Brazil | Americas | State | 52 | Mixed | high |
+| 47= | 33 to 60 | Canada | Americas | Shared | 52 | Mixed | high |
+| 47= | 36 to 63 | Thailand | Asia | Shared | 52 | Mixed | high |
+| 50 | 37 to 64 | Georgia | Europe | Shared | 51 | Mixed | medium |
+| 51= | 41 to 70 | Mongolia | Asia | Shared | 50 | Mixed | medium |
+| 51= | 41 to 71 | Qatar | Middle East | Institutional | 50 | Mixed | medium |
+| 53= | 42 to 73 | Kenya | Africa | Shared | 49 | Mixed | medium |
+| 53= | 43 to 75 | Ukraine | Europe | Shared | 49 | Mixed | medium |
+| 55= | 45 to 80 | Argentina | Americas | Shared | 48 | Mixed | medium |
+| 55= | 46 to 80 | Azerbaijan | Asia | State | 48 | Mixed | medium |
+| 55= | 45 to 79 | Kazakhstan | Asia | State | 48 | Mixed | medium |
+| 55= | 46 to 81 | New Zealand | Oceania | Shared | 48 | Mixed | high |
+| 55= | 45 to 79 | United States | Americas | Institutional | 48 | Mixed | high |
+| 60= | 47 to 83 | Bahrain | Middle East | Institutional | 47 | Mixed | medium |
+| 60= | 47 to 82 | El Salvador | Americas | State | 47 | Mixed | medium |
+| 60= | 47 to 84 | Indonesia | Asia | State | 47 | Mixed | medium |
+| 60= | 48 to 87 | Ireland | Europe | State | 47 | Mixed | high |
+| 60= | 47 to 83 | Kyrgyzstan | Asia | State | 47 | Mixed | medium |
+| 60= | 46 to 81 | Vietnam | Asia | State | 47 | Mixed | high |
+| 66= | 49 to 87 | Belarus | Europe | State | 46 | Mixed | high |
+| 66= | 49 to 89 | Oman | Middle East | State | 46 | Mixed | medium |
+| 66= | 49 to 89 | Tonga | Oceania | State | 46 | Mixed | medium |
+| 66= | 51 to 91 | Uzbekistan | Asia | State | 46 | Mixed | medium |
+| 70= | 53 to 94 | India | Asia | Shared | 45 | Mixed | medium |
+| 70= | 52 to 92 | Kuwait | Middle East | State | 45 | Mixed | medium |
+| 70= | 52 to 93 | North Macedonia | Europe | State | 45 | Mixed | medium |
+| 70= | 53 to 95 | Peru | Americas | Institutional | 45 | Mixed | medium |
+| 70= | 53 to 96 | Russia | Europe | State | 45 | Mixed | medium |
+| 75= | 56 to 98 | Bosnia and Herzegovina | Europe | Institutional | 44 | Weak | medium |
+| 75= | 55 to 98 | Montenegro | Europe | Institutional | 44 | Weak | medium |
+| 75= | 55 to 97 | Panama | Americas | Institutional | 44 | Weak | high |
+| 75= | 55 to 96 | Rwanda | Africa | State | 44 | Weak | medium |
+| 79= | 59 to 108 | Brunei | Asia | State | 43 | Weak | high |
+| 79= | 58 to 105 | China | Asia | State | 43 | Weak | high |
+| 79= | 58 to 101 | Colombia | Americas | State | 43 | Weak | medium |
+| 79= | 61 to 106 | Ecuador | Americas | State | 43 | Weak | medium |
+| 79= | 59 to 103 | Eswatini | Africa | Institutional | 43 | Weak | medium |
+| 79= | 60 to 105 | Malaysia | Asia | Institutional | 43 | Weak | medium |
+| 79= | 58 to 102 | Monaco | Europe | Institutional | 43 | Weak | medium |
+| 79= | 58 to 102 | Seychelles | Africa | State | 43 | Weak | medium |
+| 79= | 57 to 101 | South Africa | Africa | Institutional | 43 | Weak | high |
+| 88= | 62 to 109 | Mexico | Americas | Institutional | 42 | Weak | high |
+| 88= | 60 to 111 | Nauru | Oceania | Institutional | 42 | Weak | medium |
+| 90= | 67 to 115 | Albania | Europe | Institutional | 41 | Weak | medium |
+| 90= | 66 to 114 | Jordan | Middle East | State | 41 | Weak | medium |
+| 90= | 69 to 118 | Mauritius | Africa | State | 41 | Weak | high |
+| 90= | 69 to 117 | Moldova | Europe | Institutional | 41 | Weak | medium |
+| 90= | 67 to 116 | Tanzania | Africa | State | 41 | Weak | medium |
+| 90= | 66 to 112 | Zambia | Africa | State | 41 | Weak | medium |
+| 96= | 70 to 123 | Bhutan | Asia | State | 40 | Weak | medium |
+| 96= | 70 to 119 | Malawi | Africa | Institutional | 40 | Weak | high |
+| 98= | 79 to 131 | Bahamas | Americas | Institutional | 39 | Weak | high |
+| 98= | 74 to 128 | Botswana | Africa | Institutional | 39 | Weak | medium |
+| 98= | 75 to 125 | Chile | Americas | Institutional | 39 | Weak | medium |
+| 98= | 75 to 127 | Philippines | Asia | Institutional | 39 | Weak | medium |
+| 98= | 79 to 133 | Uganda | Africa | State | 39 | Weak | medium |
+| 103= | 82 to 139 | Bangladesh | Asia | State | 38 | Weak | medium |
+| 103= | 83 to 138 | Côte d'Ivoire | Africa | State | 38 | Weak | medium |
+| 103= | 81 to 135 | Ghana | Africa | State | 38 | Weak | high |
+| 103= | 84 to 139 | Maldives | Asia | Institutional | 38 | Weak | high |
+| 103= | 83 to 139 | Zimbabwe | Africa | State | 38 | Weak | medium |
+| 108= | 85 to 140 | Barbados | Americas | Institutional | 37 | Weak | high |
+| 108= | 88 to 146 | Benin | Africa | Institutional | 37 | Weak | medium |
+| 108= | 84 to 142 | Ethiopia | Africa | State | 37 | Weak | medium |
+| 108= | 85 to 141 | Jamaica | Americas | Institutional | 37 | Weak | high |
+| 108= | 85 to 141 | Tunisia | Africa | Institutional | 37 | Weak | medium |
+| 108= | 84 to 140 | Vatican City | Europe | Institutional | 37 | Weak | medium |
+| 114= | 89 to 146 | Cape Verde | Africa | Institutional | 36 | Weak | medium |
+| 114= | 88 to 146 | Gabon | Africa | Institutional | 36 | Weak | high |
+| 114= | 93 to 152 | Mali | Africa | Institutional | 36 | Weak | medium |
+| 114= | 90 to 148 | Morocco | Africa | Institutional | 36 | Weak | medium |
+| 114= | 93 to 152 | The Gambia | Africa | Institutional | 36 | Weak | medium |
+| 119= | 96 to 155 | Algeria | Africa | State | 35 | Weak | medium |
+| 119= | 95 to 157 | Angola | Africa | State | 35 | Weak | medium |
+| 119= | 97 to 156 | Burkina Faso | Africa | Institutional | 35 | Weak | medium |
+| 119= | 98 to 158 | Burundi | Africa | State | 35 | Weak | medium |
+| 119= | 95 to 155 | Cuba | Americas | State | 35 | Weak | medium |
+| 119= | 96 to 154 | Djibouti | Africa | State | 35 | Weak | medium |
+| 119= | 96 to 155 | Lesotho | Africa | Institutional | 35 | Weak | medium |
+| 119= | 97 to 159 | Mauritania | Africa | Institutional | 35 | Weak | medium |
+| 119= | 97 to 156 | Niger | Africa | Institutional | 35 | Weak | medium |
+| 119= | 94 to 154 | Nigeria | Africa | Institutional | 35 | Weak | high |
+| 119= | 98 to 158 | Turkmenistan | Asia | State | 35 | Weak | medium |
+| 130= | 98 to 164 | Belize | Americas | State | 34 | Weak | high |
+| 130= | 100 to 159 | Democratic Republic of the Congo | Africa | Institutional | 34 | Weak | high |
+| 130= | 99 to 158 | Dominican Republic | Americas | Institutional | 34 | Weak | medium |
+| 130= | 100 to 160 | Guinea | Africa | Institutional | 34 | Weak | medium |
+| 130= | 101 to 160 | Lebanon | Middle East | Institutional | 34 | Weak | medium |
+| 130= | 103 to 163 | Madagascar | Africa | Institutional | 34 | Weak | high |
+| 130= | 99 to 160 | Senegal | Africa | Institutional | 34 | Weak | high |
+| 130= | 100 to 160 | Somalia | Africa | Institutional | 34 | Weak | high |
+| 130= | 104 to 163 | Togo | Africa | Institutional | 34 | Weak | medium |
+| 130= | 100 to 161 | Vanuatu | Oceania | Institutional | 34 | Weak | medium |
+| 140= | 105 to 164 | Antigua and Barbuda | Americas | Institutional | 33 | Weak | medium |
+| 140= | 109 to 169 | Central African Republic | Africa | Institutional | 33 | Weak | medium |
+| 140= | 107 to 166 | Chad | Africa | Institutional | 33 | Weak | medium |
+| 140= | 106 to 165 | Egypt | Middle East | State | 33 | Weak | high |
+| 140= | 104 to 164 | Mozambique | Africa | State | 33 | Weak | medium |
+| 140= | 107 to 167 | Palau | Oceania | State | 33 | Weak | medium |
+| 140= | 104 to 164 | Paraguay | Americas | Institutional | 33 | Weak | medium |
+| 140= | 104 to 165 | Republic of the Congo | Africa | Institutional | 33 | Weak | high |
+| 140= | 107 to 167 | Suriname | Americas | Institutional | 33 | Weak | high |
+| 149= | 112 to 170 | Comoros | Africa | Institutional | 32 | Weak | medium |
+| 149= | 112 to 171 | Equatorial Guinea | Africa | State | 32 | Weak | medium |
+| 149= | 111 to 169 | Guatemala | Americas | Institutional | 32 | Weak | high |
+| 149= | 114 to 172 | Nicaragua | Americas | State | 32 | Weak | medium |
+| 149= | 112 to 170 | Saint Lucia | Americas | Institutional | 32 | Weak | high |
+| 149= | 113 to 172 | Sao Tome and Principe | Africa | Institutional | 32 | Weak | medium |
+| 149= | 114 to 172 | Sri Lanka | Asia | Institutional | 32 | Weak | medium |
+| 149= | 110 to 169 | Tajikistan | Asia | State | 32 | Weak | high |
+| 157= | 117 to 173 | Cameroon | Africa | Institutional | 31 | Weak | medium |
+| 157= | 118 to 174 | Nepal | Asia | Institutional | 31 | Weak | high |
+| 157= | 120 to 176 | Syria | Middle East | State | 31 | Weak | medium |
+| 160= | 124 to 178 | Honduras | Americas | Institutional | 30 | Weak | medium |
+| 160= | 120 to 177 | Iran | Middle East | State | 30 | Weak | medium |
+| 160= | 125 to 178 | Saint Kitts and Nevis | Americas | Institutional | 30 | Weak | high |
+| 160= | 119 to 178 | Samoa | Oceania | State | 30 | Weak | high |
+| 164= | 133 to 182 | Bolivia | Americas | Institutional | 29 | Weak | medium |
+| 164= | 132 to 181 | Fiji | Oceania | Institutional | 29 | Weak | medium |
+| 164= | 129 to 181 | Guyana | Americas | State | 29 | Weak | high |
+| 164= | 133 to 181 | Kiribati | Oceania | Institutional | 29 | Weak | medium |
+| 164= | 130 to 181 | Laos | Asia | State | 29 | Weak | medium |
+| 164= | 130 to 181 | Trinidad and Tobago | Americas | Institutional | 29 | Weak | high |
+| 170= | 140 to 185 | Palestine | Middle East | State | 28 | Weak | medium |
+| 170= | 142 to 185 | Timor-Leste | Asia | State | 28 | Weak | medium |
+| 170= | 139 to 184 | Venezuela | Americas | State | 28 | Weak | medium |
+| 173= | 146 to 187 | Iraq | Middle East | State | 27 | Weak | medium |
+| 173= | 150 to 189 | Sierra Leone | Africa | Institutional | 27 | Weak | medium |
+| 175= | 154 to 190 | Grenada | Americas | Institutional | 26 | Weak | medium |
+| 175= | 151 to 189 | Liberia | Africa | Institutional | 26 | Weak | medium |
+| 175= | 155 to 190 | Namibia | Africa | Institutional | 26 | Weak | medium |
+| 175= | 154 to 190 | Pakistan | Asia | Institutional | 26 | Weak | medium |
+| 175= | 155 to 190 | Papua New Guinea | Oceania | Institutional | 26 | Weak | high |
+| 175= | 152 to 189 | Saint Vincent and the Grenadines | Americas | Institutional | 26 | Weak | high |
+| 181= | 156 to 191 | Cambodia | Asia | Institutional | 25 | Weak | medium |
+| 181= | 157 to 192 | Micronesia | Oceania | State | 25 | Weak | medium |
+| 181= | 160 to 192 | Solomon Islands | Oceania | Institutional | 25 | Weak | high |
+| 181= | 160 to 192 | South Sudan | Africa | Institutional | 25 | Weak | high |
+| 185= | 165 to 194 | Dominica | Americas | Institutional | 24 | Poor | high |
+| 185= | 165 to 194 | Haiti | Americas | Institutional | 24 | Poor | medium |
+| 187= | 170 to 195 | Libya | Africa | Institutional | 23 | Poor | high |
+| 187= | 168 to 195 | Marshall Islands | Oceania | State | 23 | Poor | medium |
+| 187= | 167 to 194 | Tuvalu | Oceania | State | 23 | Poor | high |
+| 187= | 167 to 194 | Yemen | Middle East | Institutional | 23 | Poor | high |
+| 191= | 173 to 195 | Eritrea | Africa | State | 22 | Poor | medium |
+| 191= | 171 to 195 | Myanmar | Asia | State | 22 | Poor | medium |
+| 191= | 174 to 196 | Sudan | Africa | Institutional | 22 | Poor | high |
+| 194 | 178 to 196 | Guinea-Bissau | Africa | Institutional | 21 | Poor | high |
+| 195 | 181 to 196 | Afghanistan | Asia | State | 20 | Poor | medium |
+| 196 | 184 to 196 | North Korea | Asia | State | 19 | Poor | high |
 
 <!-- /GEN:ranking -->
 
@@ -188,21 +325,21 @@ Table 2 gives each country's rank with the range of ranks it holds in 90% of dra
 
 ### 4.2 How stable the ranking is
 
-We tested how much the ranking depends on our own choices, following the uncertainty and sensitivity analysis in the OECD and European Commission Joint Research Centre Handbook on Constructing Composite Indicators [21]. We redrew the eight weights <!-- GEN:rbdraws -->10,000<!-- /GEN:rbdraws --> times around the published ones, in three ways (a Dirichlet draw, and each weight moved by up to 25% or up to 50% and then rescaled). We added up to five points of random error to every category score. We also did both at once. Separately, we rebuilt the index with equal weights, with a geometric mean, and eight times with one category left out.
+We tested how much the ranking depends on our own choices, following the uncertainty and sensitivity analysis in the OECD and European Commission Joint Research Centre Handbook on Constructing Composite Indicators [21]. We redrew the eight weights <!-- GEN:rbdraws -->10,000<!-- /GEN:rbdraws --> times around the published ones, in three ways (a Dirichlet draw, and each weight moved by up to 25% or up to 50% and then rescaled). We gave every category score a random error, first uniform up to five points, then calibrated to measured disagreement: a normal error with standard deviation <!-- GEN:rbcellsd -->6.24<!-- /GEN:rbcellsd --> points from the blind re-scoring's limits of agreement, and a model with a standard deviation of <!-- GEN:rbshared -->5 points per category plus 2 points shared across a country<!-- /GEN:rbshared -->, the split the test-retest suggested. The main model, from which Table 2's ranges come, combines that shared error with varied weights. Separately, we rebuilt the index with equal weights, with a geometric mean, and eight times with one category left out.
 
-<!-- GEN:rbfirstall -->Finland is first in every rebuilt index<!-- /GEN:rbfirstall --> and in <!-- GEN:rbfinland -->88.4%<!-- /GEN:rbfinland --> of draws with weights and scores varied together. <!-- GEN:rbextremes2 -->No country reaches Leading and none falls to Poor in any draw<!-- /GEN:rbextremes2 -->: the highest score seen is <!-- GEN:rbmax -->77<!-- /GEN:rbmax --> and the lowest <!-- GEN:rbmin -->28<!-- /GEN:rbmin -->. The median country stays Mixed (<!-- GEN:rbmedian -->56 to 58<!-- /GEN:rbmedian -->). The rebuilt rankings correlate with ours at <!-- GEN:rbrho -->0.96<!-- /GEN:rbrho --> or above (Spearman). With weights and score error varied together, half the countries have a 90% rank range of <!-- GEN:rbwidth -->9<!-- /GEN:rbwidth --> places or fewer.
+<!-- GEN:rbfirstall -->Finland is first in every rebuilt index<!-- /GEN:rbfirstall -->. Under the main model, the countries whose 90% rank range includes first place, with the share of draws in which each is first, are <!-- GEN:leadshares -->Finland (53.6%), Denmark (26.3%), Estonia (11.8%) and Hungary (11.5%)<!-- /GEN:leadshares -->, so no country is called first alone (our rule requires 95%). <!-- GEN:rbextremes2 -->No country reaches the top band in any draw; 12 countries are Poor as published (10 to 19 across draws)<!-- /GEN:rbextremes2 -->: the highest score seen is <!-- GEN:rbmax -->83<!-- /GEN:rbmax --> and the lowest <!-- GEN:rbmin -->7<!-- /GEN:rbmin -->. The median country stays Mixed (<!-- GEN:rbmedian -->38 to 41<!-- /GEN:rbmedian -->). The rebuilt rankings correlate with ours at <!-- GEN:rbrho -->0.99<!-- /GEN:rbrho --> or above (Spearman). Under the main model half the countries have a 90% rank range of <!-- GEN:rbwidth -->42<!-- /GEN:rbwidth --> places or fewer; under the cell-only calibration the median range is <!-- GEN:rbcellwidth -->36<!-- /GEN:rbcellwidth --> places, and under the uniform five-point error we first used, which is a lower bound, <!-- GEN:rblowerwidth -->17<!-- /GEN:rblowerwidth -->. <!-- GEN:rbhold -->98 of 196<!-- /GEN:rbhold --> countries keep their band in 95% or more of draws.
 
-The band counts are softer than the ranking. <!-- GEN:rbedgen -->14<!-- /GEN:rbedgen --> countries keep their band in fewer than 90% of draws, because they sit within two points of a band line (unrounded score in brackets): <!-- GEN:rbedge -->Australia (65.8), France (65.6), Norway (65.8), Austria (64.8), Portugal (64.1), Belgium (62.9), Turkey (63.3), Ireland (46.5), India (45.1), Russia (44.7), Rwanda (44.4), China (43.1), Colombia (43.4) and South Africa (43.5)<!-- /GEN:rbedge -->. If a rater were generous or harsh by up to five points across a whole country, rather than category by category, Finland would stay first in <!-- GEN:rbfinlandpess -->53.0%<!-- /GEN:rbfinlandpess --> of draws and ranks would loosen further. Which kind of error is closer to the truth is not known: the blind re-scoring in Section 3 measured disagreement cell by cell and did not test a shared offset across a country. The code, the seed (<!-- GEN:rbseed -->20261002<!-- /GEN:rbseed -->) and every setting are released with the index.
+The band counts are softer than the ranking. <!-- GEN:rbedgen -->83<!-- /GEN:rbedgen --> countries keep their band in fewer than 90% of draws, because they sit within two points of a band line (unrounded score in brackets): <!-- GEN:rbedge -->the full list, with unrounded scores, is in analysis/robustness/ROBUSTNESS.md<!-- /GEN:rbedge -->. If a rater were generous or harsh by up to five points across a whole country, rather than category by category, Finland would stay first in <!-- GEN:rbfinlandpess -->53.7%<!-- /GEN:rbfinlandpess --> of draws and ranks would loosen further. The test-retest in Section 3 suggests that part of the error is shared across a country, which is why the main model includes a shared offset. The code, the seed (<!-- GEN:rbseed -->20261002<!-- /GEN:rbseed -->) and every setting are released with the index.
 
 ### 4.3 No country gives the person the keys
 
-By keys class: <!-- GEN:models -->44 Shared, 7 Institutional and 14 State; 0 Individual<!-- /GEN:models -->. <!-- GEN:strongshared -->All 9 countries in the Strong band are Shared<!-- /GEN:strongshared -->: the person has real controls (a consent register, an opt-out, an access log, a portal) inside a system run by the state or by providers. This link partly holds by construction, since a working choice over sharing also raises the control score, which carries 20% of the weight. No country we rated is Individual. That class describes a design no national system has built, so the empty class is a finding about how systems are designed, not a shortfall of effort by any one country.
+By keys class: <!-- GEN:models -->51 Shared, 80 Institutional and 65 State; 0 Individual<!-- /GEN:models -->. <!-- GEN:strongshared -->All 9 countries in the Strong band are Shared<!-- /GEN:strongshared -->: the person has real controls (a consent register, an opt-out, an access log, a portal) inside a system run by the state or by providers. This link partly holds by construction, since a working choice over sharing also raises the control score, which carries 20% of the weight. No country we rated is Individual. Our definition requires that nothing flow into a state or provider system by default, which no national system does; the empty class follows largely from that definition.
 
 More individual control is not free. In a randomised trial of 2,228 new outpatients at one Dutch tertiary hospital, an opt-out procedure for the secondary use of routine health data gave higher consent rates than opt-in, with less bias by gender, socioeconomic status and country of birth [26]. That trial concerns research use, not sharing in care, and one hospital. It still shows that a stricter consent default can make the data that research and planning rely on less representative. Our rubric rewards both the person's choice and research that remains possible (Section 2.1), and it does not yet say how to weigh one against the other.
 
 ### 4.4 Which rights lag
 
-Table 1 gives the spread in each category. <!-- GEN:catmedians -->The highest median is patient access to the full record and connected care journey (62); the lowest is research and trial consent (49)<!-- /GEN:catmedians -->. <!-- GEN:catspread -->The widest spread between the first and third quartiles is in patient control and consent (24 points); the narrowest is in research and trial consent (4)<!-- /GEN:catspread -->. A spread is not a cause, and gaps of a few points between categories are within the precision of a single score.
+Table 1 gives the spread in each category. <!-- GEN:catmedians -->The highest median is research and trial consent (46); the lowest is patient control and consent and clinical AI governance (30)<!-- /GEN:catmedians -->. <!-- GEN:catspread -->The widest spread between the first and third quartiles is in clinician access at the point of care (31 points); the narrowest is in research and trial consent (4)<!-- /GEN:catspread -->. A spread is not a cause, and gaps of a few points between categories are within the precision of a single score.
 
 ### 4.5 By region
 
@@ -210,12 +347,12 @@ Table 1 gives the spread in each category. <!-- GEN:catmedians -->The highest me
 
 | Region | Countries | Mean overall | Range |
 |---|---:|---:|---|
-| Europe | 36 | 60 | 41 to 71 |
-| Oceania | 2 | 57 | 48 to 66 |
-| Asia | 10 | 51 | 39 to 63 |
-| Middle East | 4 | 51 | 33 to 62 |
-| Americas | 8 | 47 | 39 to 54 |
-| Africa | 5 | 42 | 35 to 49 |
+| Europe | 48 | 57 | 37 to 71 |
+| Asia | 31 | 40 | 19 to 63 |
+| Middle East | 15 | 40 | 23 to 62 |
+| Americas | 35 | 37 | 24 to 59 |
+| Africa | 53 | 35 | 21 to 49 |
+| Oceania | 14 | 34 | 23 to 66 |
 
 <!-- /GEN:regions -->
 
@@ -227,7 +364,7 @@ Table 1 gives the spread in each category. <!-- GEN:catmedians -->The highest me
 
 Everything in this index, the scores and the accounts alike, comes from public information: laws, government and regulator pages, court decisions and published news reports. We link to every source.
 
-Alongside the scores we collected published accounts of real problems people have had with their health records: records refused, delayed or charged for; records that were wrong; breaches; records sold or shared without consent; records lost between providers. Research agents searched on <!-- GEN:storysearched -->2026-10-01<!-- /GEN:storysearched --> in <!-- GEN:languages -->40<!-- /GEN:languages --> languages, local languages first, and found accounts in <!-- GEN:storylangs -->37<!-- /GEN:storylangs -->. The window was two years: material published between 1 October 2024 and 1 October 2026, and nothing older.
+Alongside the scores we collected published accounts of real problems people have had with their health records: records refused, delayed or charged for; records that were wrong; breaches; records sold or shared without consent; records lost between providers. Research agents searched on <!-- GEN:storysearched -->2026-10-01 to 2026-10-02<!-- /GEN:storysearched --> in <!-- GEN:languages -->93<!-- /GEN:languages --> languages, local languages first, and found accounts in <!-- GEN:storylangs -->50<!-- /GEN:storylangs -->. The window was two years: material published between 1 October 2024 and 1 October 2026, and nothing older.
 
 The rules below were written before collection by an internal privacy review (an agent working to a written brief) and approved by the authors. No outside legal review was commissioned. They are binding on every item:
 
@@ -241,19 +378,19 @@ These are accounts we could find and publish under these rules. They are not a s
 
 ### 5.2 What we found
 
-We collected <!-- GEN:storytotal -->272<!-- /GEN:storytotal --> accounts covering <!-- GEN:storycountries -->63<!-- /GEN:storycountries --> countries, published <!-- GEN:storywindow -->2024-10-03 to 2026-10-01<!-- /GEN:storywindow -->. Of these, <!-- GEN:status -->142 rest on a regulator, court or ombudsman finding, 58 on the organisation's own admission, and 72 on an account not yet tested<!-- /GEN:status -->. No account names the person. The tables also suppress any count below five; no cell in Tables 4 to 6 is that small.
+We collected <!-- GEN:storytotal -->444<!-- /GEN:storytotal --> accounts covering <!-- GEN:storycountries -->146<!-- /GEN:storycountries --> countries, published <!-- GEN:storywindow -->2024-10-03 to 2026-10-01<!-- /GEN:storywindow -->. Of these, <!-- GEN:status -->169 rest on a regulator, court or ombudsman finding, 95 on the organisation's own admission, and 180 on an account not yet tested<!-- /GEN:status -->. No account names the person. The tables also suppress any count below five; no cell in Tables 4 to 6 is that small.
 
 <!-- GEN:themes -->
 
 | Theme | Stories |
 |---|---:|
-| Breach | 125 |
-| Record wrong | 43 |
-| Sold or shared without consent | 33 |
-| Access refused | 21 |
-| Access delayed or charged | 19 |
-| Other | 18 |
-| Lost between providers | 13 |
+| Breach | 171 |
+| Record wrong | 74 |
+| Sold or shared without consent | 64 |
+| Other | 39 |
+| Access delayed or charged | 37 |
+| Access refused | 33 |
+| Lost between providers | 26 |
 
 <!-- /GEN:themes -->
 
@@ -263,9 +400,10 @@ We collected <!-- GEN:storytotal -->272<!-- /GEN:storytotal --> accounts coverin
 
 | Source type | Stories |
 |---|---:|
-| News report | 173 |
-| Regulator or ombudsman decision | 87 |
-| Court or tribunal judgment | 12 |
+| News report | 333 |
+| Regulator or ombudsman decision | 94 |
+| Court or tribunal judgment | 15 |
+| Parliamentary record | fewer than 5 |
 
 <!-- /GEN:types -->
 
@@ -275,12 +413,12 @@ We collected <!-- GEN:storytotal -->272<!-- /GEN:storytotal --> accounts coverin
 
 | Region | Stories |
 |---|---:|
-| Europe | 156 |
-| Asia | 43 |
-| Americas | 37 |
-| Africa | 14 |
-| Middle East | 12 |
-| Oceania | 10 |
+| Europe | 176 |
+| Americas | 89 |
+| Asia | 85 |
+| Africa | 49 |
+| Middle East | 26 |
+| Oceania | 19 |
 
 <!-- /GEN:storyregions -->
 
@@ -304,20 +442,22 @@ Several indices measure neighbouring things. We compared country orderings using
 
 | External measure (data year) | Our category | n | rho | 95% interval |
 |---|---|---:|---:|---|
-| European Commission Digital Decade eHealth indicator (2024) [1] | Access | 14 | +0.24 | -0.34 to +0.76 |
-| OECD EHR technical and operational readiness (2021) [2] | Journey | 18 | +0.45 | -0.09 to +0.82 |
-| OECD EHR governance for analytics (2021) [2] | Research | 18 | +0.03 | -0.57 to +0.54 |
-| Bertelsmann #SmartHealthSystems (2018) [3] | Overall | 16 | +0.26 | -0.35 to +0.75 |
-| WHO Global Digital Health Monitor, overall (2023) [4] | Overall | 18 | +0.62 | +0.20 to +0.87 |
-| WHO Global Digital Health Monitor, exchange architecture (2023) [4] | Journey | 18 | +0.55 | -0.01 to +0.94 |
-| WHO Global Digital Health Monitor, AI protocol (2023) [4] | AI | 18 | +0.49 | -0.06 to +0.88 |
-| WHO Global Digital Health Monitor, privacy laws (2023) [4] | Privacy | 18 | +0.23 | -0.21 to +0.65 |
+| European Commission Digital Decade eHealth indicator (2024) [1] | Access | 14 | +0.47 | -0.16 to +0.88 |
+| OECD EHR technical and operational readiness (2021) [2] | Journey | 18 | +0.46 | -0.05 to +0.83 |
+| OECD EHR governance for analytics (2021) [2] | Research | 18 | -0.42 | -0.73 to +0.00 |
+| Bertelsmann #SmartHealthSystems (2018) [3] | Overall | 16 | +0.14 | -0.48 to +0.67 |
+| WHO Global Digital Health Monitor, overall (2023) [4] | Overall | 18 | +0.39 | -0.13 to +0.80 |
+| WHO Global Digital Health Monitor, exchange architecture (2023) [4] | Journey | 18 | +0.46 | -0.10 to +0.86 |
+| WHO Global Digital Health Monitor, AI protocol (2023) [4] | AI | 18 | +0.69 | +0.30 to +0.90 |
+| WHO Global Digital Health Monitor, privacy laws (2023) [4] | Privacy | 18 | +0.21 | -0.24 to +0.64 |
+| Eurostat, people who accessed personal health records online (2024) [30] | Access | 33 | +0.56 | +0.21 to +0.83 |
+| GDP per head, PPP (World Bank, 2022 to 2024) [31] | Overall | 186 | +0.72 | +0.64 to +0.79 |
 
 <!-- /GEN:external -->
 
-*Table 7. Rank correlations between our categories and published indices, for the countries in both. Computed <!-- GEN:extcomputed -->2026-10-02<!-- /GEN:extcomputed --> on our current scores. The European Commission, OECD and Bertelsmann values were transcribed for the original 43 countries only, so their rows cover those; the WHO values were matched for every country in the index that WHO publishes. Our data cites the European Commission indicator for three countries; without them, rho is <!-- GEN:extnocite -->+0.16 (n 11)<!-- /GEN:extnocite -->.*
+*Table 7. Rank correlations between our categories and published indices, for the countries in both. Computed <!-- GEN:extcomputed -->2026-10-02<!-- /GEN:extcomputed --> on the current scores (the paper generator refuses this table if it was computed on other data). The European Commission, OECD and Bertelsmann values were transcribed for the original 43 countries only, so their rows cover those; the WHO values were matched for every country in the index that WHO publishes. Our data cites the European Commission indicator for three countries; without them, rho is <!-- GEN:extnocite -->+0.45 (n 11)<!-- /GEN:extnocite -->.*
 
-<!-- GEN:extpos -->Every correlation is positive<!-- /GEN:extpos -->, and most are weak to moderate, which fits an index that measures the patient's side rather than system maturity. The only interval in Table 7 that clears zero is the <!-- GEN:extclear -->WHO Global Digital Health Monitor, overall (2023)<!-- /GEN:extclear -->; the countries that answered the full 2023 WHO survey are mostly outside Europe and mostly lower and middle income, so that row measures a different set of countries from the others. The largest disagreements are informative. The European Commission indicator rates Norway's and Germany's online access well above our access scores (<!-- GEN:cell_NOR_access -->68<!-- /GEN:cell_NOR_access --> and <!-- GEN:cell_DEU_access -->64<!-- /GEN:cell_DEU_access -->). The OECD readiness survey rates Germany well below our journey score (<!-- GEN:cell_DEU_journey -->66<!-- /GEN:cell_DEU_journey -->), but the survey predates Germany's 2025 rollout of its national electronic record; it rates Japan well above ours (<!-- GEN:cell_JPN_journey -->48<!-- /GEN:cell_JPN_journey -->). In the WHO monitor, the figures labelled 2024 repeat the 2019 figures row for row. For many countries the 2023 overall score rests on only two legal questions, so we used only the <!-- GEN:extgdhmn -->18<!-- /GEN:extgdhmn --> countries that answered the full 2023 survey.
+<!-- GEN:extpos -->Not every correlation is positive<!-- /GEN:extpos -->, and most are weak to moderate, which fits an index that measures the patient's side rather than system maturity. Intervals that clear zero: <!-- GEN:extclear -->WHO Global Digital Health Monitor, AI protocol (2023)<!-- /GEN:extclear -->. Two further comparisons say more than any of these. The first is national income. Our overall score correlates with GDP per head (World Bank [31], purchasing power parity, <!-- GEN:incyears -->2022 to 2024<!-- /GEN:incyears -->) at <!-- GEN:incrho -->+0.72 (95% interval +0.64 to +0.79, n 186)<!-- /GEN:incrho -->; income alone accounts for <!-- GEN:incr2 -->52%<!-- /GEN:incr2 --> of the variance in our scores, about <!-- GEN:incslope -->7.7<!-- /GEN:incslope --> points per natural-log unit of income. Within Europe the link is weaker: <!-- GEN:inceu -->+0.48 (+0.17 to +0.71, n 45)<!-- /GEN:inceu -->. <!-- GEN:incgdhm -->On the 18 countries with a full 2023 Monitor response, the Monitor's overall phase correlates with income at +0.60 and our overall score at +0.56; with income held constant, the Monitor and our score correlate at +0.08 (95% interval -0.41 to +0.65)<!-- /GEN:incgdhm -->, so the Monitor's agreement with our index is mostly shared income. The countries furthest above the score their income predicts are <!-- GEN:incabove -->Finland (+18.7), Hungary (+17.6), Estonia (+17.5), Denmark (+15.4), Malawi (+15.3) and Kenya (+14.1)<!-- /GEN:incabove -->; furthest below are <!-- GEN:incbelow -->Guyana (-24.9), Dominica (-20.4), Trinidad and Tobago (-18.9), Libya (-18.3), Saint Vincent and the Grenadines (-17.8) and Saint Kitts and Nevis (-17.8)<!-- /GEN:incbelow -->. The second is practice. Eurostat's 2024 household survey [30] asks people whether they accessed their personal health records online. Across the European countries in both, that share correlates with our access score at <!-- GEN:eurostat -->+0.56 (95% interval +0.21 to +0.83, n 33)<!-- /GEN:eurostat -->. It is self-report and covers Europe only, so it is a convergent check, not ground truth. The gaps run both ways: <!-- GEN:eurostatde -->Germany 5.1% against an access score of 64<!-- /GEN:eurostatde -->, measured before Germany's 2025 rollout of its national record; in Albania <!-- GEN:eurostatalb -->48.7%<!-- /GEN:eurostatalb --> of people report online access, although our file finds no national portal that shows the record (the government portal shows a person's own e-prescriptions). The largest disagreements are informative. The European Commission indicator rates Norway's and Germany's online access well above our access scores (<!-- GEN:cell_NOR_access -->68<!-- /GEN:cell_NOR_access --> and <!-- GEN:cell_DEU_access -->64<!-- /GEN:cell_DEU_access -->). The OECD readiness survey rates Germany well below our journey score (<!-- GEN:cell_DEU_journey -->66<!-- /GEN:cell_DEU_journey -->), but the survey predates Germany's 2025 rollout of its national electronic record; it rates Japan well above ours (<!-- GEN:cell_JPN_journey -->48<!-- /GEN:cell_JPN_journey -->). In the WHO monitor, the figures labelled 2024 repeat the 2019 figures row for row. For many countries the 2023 overall score rests on only two legal questions, so we used only the <!-- GEN:extgdhmn -->18<!-- /GEN:extgdhmn --> countries that answered the full 2023 survey.
 
 ## 7. An audit of our own scores, and limitations
 
@@ -356,13 +496,13 @@ The rules settle most of the audit's findings. These cases remain, and we report
 1. **Ranks are approximate.** Section 4.2 gives each country a rank range. Read bands before ranks, and ranks as a range.
 2. **A single category score carries real judgement.** The blind re-scoring puts the limits of agreement for one cell at <!-- GEN:relloa -->-17.7 to +16.9<!-- /GEN:relloa --> points. The rater was an agent session from the same model family as the research agents. Two readings from one model family may share the same blind spots, so their agreement may be higher than agreement with a human rater or a different model would be. No human inter-rater study has been done.
 3. **The average lets strength offset weakness.** A weighted arithmetic mean lets a strong score in one category make up for a weak score in another: good infrastructure can offset weak consent. A geometric mean, which penalises imbalance, ranks the countries almost identically (Spearman <!-- GEN:rbgeo -->0.99<!-- /GEN:rbgeo -->), so the choice does not drive the ranking here, but the index does not say that every right must be met.
-4. **Two categories overlap.** The connected care journey and clinician access move closely together (<!-- GEN:journeyclinical -->r = 0.94 across 65 countries<!-- /GEN:journeyclinical -->). Together they carry 25% of the weight, so connected infrastructure is in effect counted twice. Leaving either one out moves the ranking little (average rank shift <!-- GEN:rbdropj -->2.3<!-- /GEN:rbdropj --> places without journey, <!-- GEN:rbdropc -->1.4<!-- /GEN:rbdropc --> without clinician access, against <!-- GEN:rbdropctl -->3.9<!-- /GEN:rbdropctl --> without control), so we kept both at full weight in this version.
+4. **Two categories overlap.** The connected care journey and clinician access move closely together (<!-- GEN:journeyclinical -->r = 0.97 across 196 countries<!-- /GEN:journeyclinical -->). Together they carry 25% of the weight, so connected infrastructure is in effect counted twice. Leaving either one out moves the ranking little (average rank shift <!-- GEN:rbdropj -->4.3<!-- /GEN:rbdropj --> places without journey, <!-- GEN:rbdropc -->2.9<!-- /GEN:rbdropc --> without clinician access, against <!-- GEN:rbdropctl -->4.6<!-- /GEN:rbdropctl --> without control), so we kept both at full weight in this version.
 5. **Breach evidence depends on reporting rules.** The privacy category counts major breaches. Breaches are only visible where law requires them to be reported and published, and the authors of two US breach studies judge that even the published US counts understate the true number, because breaches go unreported and small ones are excluded [27, 28]. A country with mandatory public reporting can look worse than one whose breaches stay unseen.
 6. **No equity criterion.** A right can work on average and fail for groups: in the United States, Black and Hispanic adults were less likely than White adults to be offered a patient portal and, when offered, to access it [29]. The rubric scores national rights and infrastructure and has no criterion for who can use them.
-7. **Sources.** The index rests on <!-- GEN:sources -->1862 cited sources (416 undated)<!-- /GEN:sources -->. Some laws are cited from secondary summaries rather than official text, and a few cells cite tertiary sources such as Wikipedia. Across all <!-- GEN:citations -->2097<!-- /GEN:citations --> citations (<!-- GEN:distincturls -->930<!-- /GEN:distincturls --> distinct pages) in category sources, laws and news, <!-- GEN:links -->2097 cited links checked: 1968 opened, 11 dead, 104 blocked by bot protection and 14 unreachable or unresolved<!-- /GEN:links -->. A link that opens shows the page exists, not that it says what the summary says; apart from the blind re-scoring, no check compares each summary with its source.
+7. **Sources.** The index rests on <!-- GEN:sources -->5099 cited sources (974 undated)<!-- /GEN:sources -->. Some laws are cited from secondary summaries rather than official text, and a few cells cite tertiary sources such as Wikipedia. Across all <!-- GEN:citations -->7089<!-- /GEN:citations --> citations (<!-- GEN:distincturls -->3501<!-- /GEN:distincturls --> distinct pages) in category sources, laws and news, <!-- GEN:links -->7089 cited links checked: 6767 opened, 0 dead, 122 blocked by bot protection and 198 unreachable or unresolved<!-- /GEN:links -->. A link that opens shows the page exists, not that it says what the summary says; apart from the blind re-scoring, no check compares each summary with its source.
 8. **Sites that block agents.** Some official sites refuse automated access. Where they did, a cell can rest on secondary sources, so confidence partly reflects whether a government's website admits agents.
 9. **Time.** Scores describe the date on the title page. Several systems are changing quickly, in particular in Europe ahead of the European Health Data Space [5].
-10. **Coverage.** <!-- GEN:n -->65<!-- /GEN:n --> countries, chosen by the authors; <!-- GEN:lowconfn -->0<!-- /GEN:lowconfn --> are low confidence.
+10. **Coverage.** <!-- GEN:n -->196<!-- /GEN:n --> countries and territories (<!-- GEN:uncoverage -->all 193 member states of the United Nations, plus Palestine, Taiwan and Vatican City<!-- /GEN:uncoverage -->); <!-- GEN:lowconfn -->0<!-- /GEN:lowconfn --> are low confidence. Places with their own health systems but no seat at the United Nations, other than those named, are not rated. The countries added on 2 October 2026 were researched in one day, and many small states rest on few sources.
 
 ## 8. How strong is the evidence? A grade adapted from the Data Trust Index
 
@@ -387,11 +527,11 @@ This is an adaptation. Several dimensions have no direct counterpart in publishe
 
 Tiers follow the DTI paper: Platinum 90 and above, Gold 80 to 89, Silver 70 to 79, Bronze 55 to 69, and below that, Below Bronze. Tiers use the unrounded grade, so a grade shown as 80 can be Silver and one shown as 90 can be Gold.
 
-**Our extension.** The DTI paper defines no cap. We added one: a cell with no primary source cannot be labelled above Silver, and neither can a country with fewer than 4 of its 8 categories citing a primary source. The number is never changed, only the label. The cap applied to <!-- GEN:dticapped -->35 cells and 0 countries<!-- /GEN:dticapped -->.
+**Our extension.** The DTI paper defines no cap. We added one: a cell with no primary source cannot be labelled above Silver, and neither can a country with fewer than 4 of its 8 categories citing a primary source. The number is never changed, only the label. The cap applied to <!-- GEN:dticapped -->17 cells and 0 countries<!-- /GEN:dticapped -->.
 
 ### 8.2 Results
 
-Country grades run from <!-- GEN:dtirange -->75 to 93<!-- /GEN:dtirange -->: <!-- GEN:dtitiers -->8 Platinum, 51 Gold, 5 Silver (64 countries with a published grade)<!-- /GEN:dtitiers -->. <!-- GEN:dtiprov -->Liechtenstein is provisional and has no published grade<!-- /GEN:dtiprov -->, because one of its sources is cited from a shared file host instead of the publisher. Across all <!-- GEN:dticells -->520 cells: 160 Platinum, 255 Gold, 98 Silver, 7 Bronze<!-- /GEN:dticells -->.
+Country grades run from <!-- GEN:dtirange -->77 to 94<!-- /GEN:dtirange -->: <!-- GEN:dtitiers -->62 Platinum, 130 Gold, 4 Silver (196 countries with a published grade)<!-- /GEN:dtitiers -->. <!-- GEN:dtiprov -->No country is provisional<!-- /GEN:dtiprov -->, because one of its sources is cited from a shared file host instead of the publisher. Across all <!-- GEN:dticells -->1568 cells: 720 Platinum, 717 Gold, 129 Silver, 2 Bronze<!-- /GEN:dticells -->.
 
 ### 8.3 What it is not
 
@@ -421,21 +561,21 @@ Outside work supports the first two links only in part. In Britain, buying priva
 
 *Table 9. The four links and their sources.*
 
-Every value carries its own year, source and retrieval date. Years differ by country, from <!-- GEN:strainyears -->2017 to 2025<!-- /GEN:strainyears -->, and the expenditure data stop at <!-- GEN:ghedyear -->2023<!-- /GEN:ghedyear -->, the latest year the WHO database marks as final. Data were retrieved <!-- GEN:strainretrieved -->2026-10-02<!-- /GEN:strainretrieved -->. The wait measure counts the wait of patients who were treated, which understates the queue of those still waiting.
+Every value carries its own year, source and retrieval date. Years differ by country, from <!-- GEN:strainyears -->2010 to 2025<!-- /GEN:strainyears -->, and the expenditure data stop at <!-- GEN:ghedyear -->2023<!-- /GEN:ghedyear -->, the latest year the WHO database marks as final. Data were retrieved <!-- GEN:strainretrieved -->2026-10-02<!-- /GEN:strainretrieved -->. The wait measure counts the wait of patients who were treated, which understates the queue of those still waiting.
 
 ### 9.3 Flags
 
-There is no composite score. Each country gets four flags, each true, false or unknown. A flag is true when doctors or nurses fall below the lower quartile, or private spending above the upper quartile, of the countries with a value: <!-- GEN:straincutoffs -->26.52 doctors or 41.63 nurses and midwives per 10,000 (lower quartiles of 63 and 63 countries with a value), and 38.17% of current health spending (upper quartile of 61)<!-- /GEN:straincutoffs -->. A wait flag is true when the longer of the hip and knee medians is over 90 days, the OECD's own three-month line. A record flag is true when the class is split. Unknown is never counted as false.
+There is no composite score. Each country gets four flags, each true, false or unknown. A flag is true when doctors or nurses fall below the lower quartile, or private spending above the upper quartile, of the OECD members with a value (a fixed reference group, so the cut-offs do not move as countries are added): <!-- GEN:straincutoffs -->30.76 doctors or 62.16 nurses and midwives per 10,000 (lower quartiles of the 38 and 38 OECD members with a value), and 28.66% of current health spending (upper quartile of 35)<!-- /GEN:straincutoffs -->. A wait flag is true when the longer of the hip and knee medians is over 90 days, the OECD's own three-month line. A record flag is true when the class is split. Unknown is never counted as false.
 
 ### 9.4 Coverage
 
-Countries with a value, of <!-- GEN:strainn -->65<!-- /GEN:strainn -->: <!-- GEN:straincover -->doctors 63, nurses and midwives 63, private insurance plus out-of-pocket spending 61, duplicate private insurance 18, median hip and knee waits 18<!-- /GEN:straincover -->. Flags: <!-- GEN:strainflags -->staffing 63 measured, 21 true; private spending 61 measured, 15 true; waits 18 measured, 14 true; record split 53 known, 4 true<!-- /GEN:strainflags -->. Waits are reported for only <!-- GEN:strainwait -->18 of 65<!-- /GEN:strainwait --> countries, mostly those that run waiting lists, and most of those exceed 90 days, so the wait flag separates little. The staffing and spending quartiles mostly sort countries by national income. Whether the record reaches private providers is known for <!-- GEN:strainsplitknown -->53 of 65<!-- /GEN:strainsplitknown -->. Of the known classes, <!-- GEN:strainbasis -->15 from our country files alone, 30 from the outside research alone and 8 from both, in agreement<!-- /GEN:strainbasis -->. Each class from the outside research rests on one quoted sentence from a named source, mostly laws, ministries and system operators. Each quote was fetched again and checked against its page, except on two pages that block automated access.
+Countries with a value, of <!-- GEN:strainn -->196<!-- /GEN:strainn -->: <!-- GEN:straincover -->doctors 192, nurses and midwives 192, private insurance plus out-of-pocket spending 183, duplicate private insurance 19, median hip and knee waits 19<!-- /GEN:straincover -->. Flags: <!-- GEN:strainflags -->staffing 192 measured, 154 true; private spending 185 measured, 115 true; waits 19 measured, 14 true; record split 51 known, 5 true<!-- /GEN:strainflags -->. Waits are reported for only <!-- GEN:strainwait -->19 of 196<!-- /GEN:strainwait --> countries, mostly those that run waiting lists, and most of those exceed 90 days, so the wait flag separates little. Because the cut-offs are set by the OECD members, most countries outside the OECD carry the staffing flag, so it separates countries mainly within the OECD. Whether the record reaches private providers is known for <!-- GEN:strainsplitknown -->51 of 196<!-- /GEN:strainsplitknown -->. Of the known classes, <!-- GEN:strainbasis -->15 from our country files alone, 30 from the outside research alone and 6 from both, in agreement<!-- /GEN:strainbasis -->. Each class from the outside research rests on one quoted sentence from a named source, mostly laws, ministries and system operators. Each quote was fetched again and checked against its page, except on two pages that block automated access.
 
 ### 9.5 What it shows
 
-By record class: <!-- GEN:strainclasses -->12 connected, 37 partial, 4 split and 12 unknown<!-- /GEN:strainclasses -->. Split means private providers do not write to the record the public system uses. Partial means some do, or some services do: often the gap is a single kind of provider, such as private imaging in one province. Counting both, in <!-- GEN:strainnotfull -->41 of the 53<!-- /GEN:strainnotfull --> countries we could check the public health record does not fully reach private care; most of those are partial, not split. <!-- GEN:strainthree -->Mexico and South Africa<!-- /GEN:strainthree --> carry three of the four flags; in both, the fourth is waits, which are not reported.
+By record class: <!-- GEN:strainclasses -->10 connected, 36 partial, 5 split and 145 unknown<!-- /GEN:strainclasses -->. Split means private providers do not write to the record the public system uses. Partial means some do, or some services do: often the gap is a single kind of provider, such as private imaging in one province. Counting both, in <!-- GEN:strainnotfull -->41 of the 51<!-- /GEN:strainnotfull --> countries we could check the public health record does not fully reach private care; most of those are partial, not split. <!-- GEN:strainthree -->Chile, Mexico and South Africa<!-- /GEN:strainthree --> <!-- GEN:strainthreeverb -->carry<!-- /GEN:strainthreeverb --> three or more of the four flags; <!-- GEN:strainthreefourth -->waits are not reported for 2 of the 3<!-- /GEN:strainthreefourth -->.
 
-**Canada, a worked example.** <!-- GEN:straincanada -->Canada has 28.54 doctors per 10,000 (WHO, 2024), 31 of 38 OECD members (1 = most), and 116.18 nurses and midwives (14 of 38). Its median waits from specialist assessment to treatment are 120 days for a hip and 146 for a knee (OECD, 2025), 9 of 18 and 12 of 18 reporting members (1 = longest). Voluntary insurance pays 12.66% of health spending (2023), 2 of 35 OECD members with a value, and 67% of people hold it (2025, provisional); OECD reports no figure for duplicate cover. The record-split class is partial: British Columbia Ministry of Health, Digital Health Initiative: Health Gateway 'Diagnostic Imaging Reports' frequently asked questions states "Diagnostic imaging reports from most private clinics will not be available in Health Gateway as they currently are not available to our provincial repository." Canada carries 1 of 4 flags, and all four were measured<!-- /GEN:straincanada -->. Canada's doctor count is low among OECD members but above the index's lower quartile, so its staffing flag is false; its one true flag is waits. Its record reaches some private providers and not others, province by province and service by service. The data does not show waits driving people into a parallel private system for the same care: duplicate private insurance, the kind that buys a faster route to care the public plan already covers, has no OECD figure for Canada. The countries where OECD reports the most duplicate cover are <!-- GEN:straindup -->Israel (87.6% of people; record class unknown), Ireland (46% of people; record class partial) and Australia (45.4% of people; record class partial)<!-- /GEN:straindup -->.
+**Canada, a worked example.** <!-- GEN:straincanada -->Canada has 28.54 doctors per 10,000 (WHO, 2024), 31 of 38 OECD members (1 = most), and 116.18 nurses and midwives (14 of 38). Its median waits from specialist assessment to treatment are 120 days for a hip and 146 for a knee (OECD, 2025), 9 of 18 and 12 of 18 reporting members (1 = longest). Voluntary insurance pays 12.66% of health spending (2023), 2 of 35 OECD members with a value, and 67% of people hold it (2025, provisional); OECD reports no figure for duplicate cover. The record-split class is partial: British Columbia Ministry of Health, Digital Health Initiative: Health Gateway 'Diagnostic Imaging Reports' frequently asked questions states "Diagnostic imaging reports from most private clinics will not be available in Health Gateway as they currently are not available to our provincial repository." Canada carries 2 of 4 flags, and all four were measured<!-- /GEN:straincanada -->. <!-- GEN:straincanadaflags -->Canada carries 2 of the four flags: its doctor count (28.54 per 10,000) is below the OECD lower quartile (30.76) and its median hip and knee waits exceed 90 days.<!-- /GEN:straincanadaflags --> Its record reaches some private providers and not others, province by province and service by service. The data does not show waits driving people into a parallel private system for the same care: duplicate private insurance, the kind that buys a faster route to care the public plan already covers, has no OECD figure for Canada. The countries where OECD reports the most duplicate cover are <!-- GEN:straindup -->Israel (87.6% of people; record class unknown), Ireland (46% of people; record class partial) and Australia (45.4% of people; record class partial)<!-- /GEN:straindup -->.
 
 ### 9.6 Guards against reading it as a ranking
 
@@ -456,7 +596,7 @@ The hypothesis is not tested here. Public data can measure each link: staff, wai
 
 We tried to count posts on X (formerly Twitter) about real problems with health records, as a second view of what people report. We used the official X API (full-archive counts and search) for posts from <!-- GEN:xwindow -->2024-10-01 to 2026-09-30<!-- /GEN:xwindow -->, with one query per country in its main languages. Raw counts are not a measure: most matching posts are policy talk, news about other countries, spam or jokes. So an agent read a random sample of matching posts for each country and classified each against a written definition. A country's figure would be shown only if at least 60% of at least 20 sampled posts were on topic. Two deliberately broad test queries failed the gate, which shows the gate can reject a broad query.
 
-Only <!-- GEN:xgate -->7 of 43<!-- /GEN:xgate --> countries passed: <!-- GEN:xusable -->Argentina, Chile, Germany, Mexico, Netherlands, Poland and Spain<!-- /GEN:xusable -->. Most of what passed was breach news, recall was not measured, and the figures could not be compared across countries because X use and query breadth differ by country. The <!-- GEN:xnotcovered -->22<!-- /GEN:xnotcovered --> countries added after the run started were not measured. We therefore do not show X counts in the index. For most countries, public posts on X cannot be turned into a usable count of record problems. No post text, handle or post identifier is kept in the repository.
+Only <!-- GEN:xgate -->7 of 43<!-- /GEN:xgate --> countries passed: <!-- GEN:xusable -->Argentina, Chile, Germany, Mexico, Netherlands, Poland and Spain<!-- /GEN:xusable -->. Most of what passed was breach news, recall was not measured, and the figures could not be compared across countries because X use and query breadth differ by country. The <!-- GEN:xnotcovered -->153<!-- /GEN:xnotcovered --> countries added after the run started were not measured. We therefore do not show X counts in the index. For most countries, public posts on X cannot be turned into a usable count of record problems. No post text, handle or post identifier is kept in the repository.
 
 ## 11. Authors' position: the record should travel with the person
 
@@ -480,9 +620,9 @@ This index is a research tool. It is not legal advice and does not assess the co
 
 ## Data and Code Availability
 
-The public release is a clean export of the project, in a public repository linked from the Zenodo record. It holds the scores, category texts, sources, laws, journey maps and news items for every country; the rubric and its v1.1 anchors; the build script that computes every overall score; the audit and the record of score changes; the evidence grade; the strain and split layer; the external cross-check; the stability analysis and the blind re-scoring (plan, rater kit and ratings); and the script that fills every number in this paper. It does not include internal working files such as drafts, launch materials and internal review notes, and it does not include the individual accounts. The paper and data are released under CC BY 4.0 and the scoring and analysis code under the MIT licence, copyright SuperTruth Inc. The dataset DOI is assigned by Zenodo on deposit.
+The public release is a clean export of the project, in a public repository linked from the Zenodo record. It holds the scores, category texts, sources, laws, journey maps and news items for every country; the rubric and its v1.1 anchors; the build script that computes every overall score; the audit and the record of score changes; the evidence grade; the strain and split layer; the external cross-check; the stability analysis and the blind re-scoring (plan, rater kit and ratings); and the script that fills every number in this paper. It does not include internal working files such as drafts, launch materials and internal review notes, and it does not include the individual accounts. For about an hour on 2 October 2026 the public copy also held the accounts and the internal review notes; they were removed and the repository history replaced, but copies made in that hour cannot be recalled. The paper and data are released under CC BY 4.0 and the scoring and analysis code under the MIT licence, copyright SuperTruth Inc. The dataset DOI is assigned by Zenodo on deposit.
 
-The interactive index is at https://whoholds.supertruth.ai. Each of the <!-- GEN:briefs -->65<!-- /GEN:briefs --> countries also has a printable one-page brief at https://whoholds.supertruth.ai/brief/ISO3/ (for example /brief/FIN/ for Finland). "Ask the index" is an agent on the same page that answers questions only from the index's own data and says so when the index does not hold an answer.
+The interactive index is at https://whoholds.supertruth.ai. Each of the <!-- GEN:briefs -->196<!-- /GEN:briefs --> countries also has a printable one-page brief at https://whoholds.supertruth.ai/brief/ISO3/ (for example /brief/FIN/ for Finland). "Ask the index" is an agent on the same page that answers questions only from the index's own data and says so when the index does not hold an answer.
 
 The accounts in Section 5 are linked from the interactive index and are not deposited, so that a removal request can be honoured; aggregate counts are in Tables 4 to 6. Removal and correction requests: see the interactive index.
 
@@ -553,3 +693,9 @@ All three authors conceived the index together, directed the research, reviewed 
 [28] Jiang J X, Ross J S, Bai G (2025). Ransomware attacks and data breaches in US health care systems. *JAMA Network Open* 8(5):e2510180. https://doi.org/10.1001/jamanetworkopen.2025.10180
 
 [29] Richwine C, Johnson C, Patel V (2023). Disparities in patient portal access and the role of providers in encouraging access and use. *Journal of the American Medical Informatics Association* 30(2):308-317. https://doi.org/10.1093/jamia/ocac227
+
+[30] Eurostat (2026). Individuals: internet activities (isoc_ci_ac_i), indicator I_IUAPR, accessing personal health records online, 2024. https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ac_i/default/table (retrieved 2 October 2026).
+
+[31] World Bank (2026). World Development Indicators: GDP per capita, PPP (current international $), NY.GDP.PCAP.PP.CD. https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD (retrieved 2 October 2026).
+
+[32] Shrout P E, Fleiss J L (1979). Intraclass correlations: uses in assessing rater reliability. *Psychological Bulletin* 86(2):420-428. https://doi.org/10.1037/0033-2909.86.2.420

@@ -1,8 +1,8 @@
 # Who Holds the Record
 
-An open index of health record rights in 196 countries (all 193 UN member states, plus Palestine, Taiwan and Vatican City), by SuperTruth Inc. Each country scores 0 to 100 on one question: can a person see, control and share their own health record?
+An open index of health record rights in 198 countries and territories (all 193 UN member states, plus Greenland, Kosovo, Palestine, Taiwan and Vatican City), by SuperTruth Inc. Each country scores 0 to 100 on one question: can a person see, control and share their own health record?
 
-In 2026, none of the 196 countries we rated puts a person fully in charge of their own health record. Finland, Denmark, Estonia and Hungary lead; allowing for scoring error, any of them could rank first, so we name them together. The median is 39. By band, 9 countries rate Strong, 65 Mixed, 110 Weak and 12 Poor, and none reaches Leading (85 and up). Control sits with the state or providers everywhere: 51 Shared, 80 Institutional, 65 State. Data as of 2026-10-02.
+In 2026, none of the 198 countries and territories we rated puts a person fully in charge of their own health record. Finland, Denmark, Estonia, Hungary and Sweden lead; allowing for scoring error, any of them could rank first, so we name them together. The median is 39. By band, 9 rate Strong, 66 Mixed, 111 Weak and 12 Poor, and none reaches Leading (85 and up). Control sits with the state or providers everywhere: 51 Shared, 81 Institutional, 66 State. Data as of 2026-10-02.
 
 - Live index, country briefs and the Ask the index tool: https://whoholds.supertruth.ai
 - Paper: `paper/paper.pdf` (source `paper/paper.md`)

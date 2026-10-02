@@ -2,7 +2,7 @@
  "meta": {
   "built": "2026-10-02",
   "changesScores": false,
-  "countries": 196,
+  "countries": 198,
   "ghedLastFinalYear": 2023,
   "cutoffs": {
    "doctorsPer10k_Q1": 30.76,
@@ -257,7 +257,7 @@
    "pairs": 193,
    "disagreeOver1pt": []
   },
-  "dataSha256": "9433402026cc0b2dca25861fe9949ca005567e12ea5d04bff43dde11b6e542c4"
+  "dataSha256": "1c65d8a64251afbc9a4c01a6f255478ecbcd315600bc1fda50ddd990c0a20f97"
  },
  "countries": {
   "AFG": {
@@ -12616,6 +12616,175 @@
     "unknown": 2
    },
    "reading": "Grenada carries 2 of 4 flags (doctors or nurses per person in the bottom quarter of OECD members; private insurance plus out-of-pocket spending in the top quarter of OECD members); not measured: waits, whether the record reaches private providers."
+  },
+  "GRL": {
+   "name": "Greenland",
+   "oecdMember": false,
+   "indicators": {
+    "doctorsPer10k": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Observatory (NHWA), indicator HWF_0001 Medical doctors (per 10,000)",
+     "url": "https://ghoapi.azureedge.net/api/HWF_0001",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "nursesMidwivesPer10k": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Observatory (NHWA), indicator HWF_0006 Nursing and midwifery personnel (per 10,000)",
+     "url": "https://ghoapi.azureedge.net/api/HWF_0006",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "vhiShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "oopShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "privateDomesticShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "compulsoryPrivateInsuranceShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "vhiPlusOopShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "VHI or OOP not published for a common year"
+    },
+    "vhiPopulationPct": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Healthcare coverage (DSD_HEALTH_PROT@DF_HEALTH_PROT)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD (unknown, not zero)",
+     "obsStatus": null
+    },
+    "duplicateVhiPopulationPct": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Healthcare coverage (DSD_HEALTH_PROT@DF_HEALTH_PROT)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD (unknown, not zero)",
+     "obsStatus": null
+    },
+    "supplementaryVhiPopulationPct": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Healthcare coverage (DSD_HEALTH_PROT@DF_HEALTH_PROT)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD (unknown, not zero)",
+     "obsStatus": null
+    },
+    "waitMedianDays_hip": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD",
+     "obsStatus": null
+    },
+    "waitPctOver3Months_hip": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD"
+    },
+    "waitMedianDays_knee": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD",
+     "obsStatus": null
+    },
+    "waitPctOver3Months_knee": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD"
+    },
+    "waitMedianDays_cataract": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD",
+     "obsStatus": null
+    },
+    "waitPctOver3Months_cataract": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD"
+    },
+    "specialistWaitOver4Weeks": {
+     "value": null,
+     "year": null,
+     "source": null,
+     "url": null,
+     "note": "not published by WHO, OECD Health Statistics or WDI (it is a Commonwealth Fund survey item); unknown"
+    }
+   },
+   "recordSplit": {
+    "class": "unknown",
+    "field": null,
+    "quote": null,
+    "note": "the country file does not say whether private providers connect to the shared record",
+    "fileAsOf": "2026-10-02",
+    "basis": "none"
+   },
+   "flags": {
+    "workforceLow": null,
+    "privateSpendHigh": null,
+    "longWaits": null,
+    "recordSplit": null,
+    "doctorsLow": null,
+    "nursesLow": null
+   },
+   "flagCount": {
+    "true": 0,
+    "false": 0,
+    "unknown": 4
+   },
+   "reading": "Greenland carries no flags; not measured: workforce, private spending, waits, whether the record reaches private providers."
   },
   "GTM": {
    "name": "Guatemala",
@@ -34050,6 +34219,175 @@
     "unknown": 2
    },
    "reading": "Samoa carries 1 of 4 flags (doctors or nurses per person in the bottom quarter of OECD members); not measured: waits, whether the record reaches private providers."
+  },
+  "XKX": {
+   "name": "Kosovo",
+   "oecdMember": false,
+   "indicators": {
+    "doctorsPer10k": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Observatory (NHWA), indicator HWF_0001 Medical doctors (per 10,000)",
+     "url": "https://ghoapi.azureedge.net/api/HWF_0001",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "nursesMidwivesPer10k": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Observatory (NHWA), indicator HWF_0006 Nursing and midwifery personnel (per 10,000)",
+     "url": "https://ghoapi.azureedge.net/api/HWF_0006",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "vhiShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "oopShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "privateDomesticShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "compulsoryPrivateInsuranceShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "not published for this country"
+    },
+    "vhiPlusOopShareCHE": {
+     "value": null,
+     "year": null,
+     "source": "WHO Global Health Expenditure Database (GHED)",
+     "url": "https://apps.who.int/nha/database/Home/IndicatorsDownload/en",
+     "retrieved": "2026-10-02",
+     "note": "VHI or OOP not published for a common year"
+    },
+    "vhiPopulationPct": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Healthcare coverage (DSD_HEALTH_PROT@DF_HEALTH_PROT)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD (unknown, not zero)",
+     "obsStatus": null
+    },
+    "duplicateVhiPopulationPct": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Healthcare coverage (DSD_HEALTH_PROT@DF_HEALTH_PROT)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD (unknown, not zero)",
+     "obsStatus": null
+    },
+    "supplementaryVhiPopulationPct": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Healthcare coverage (DSD_HEALTH_PROT@DF_HEALTH_PROT)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROT@DF_HEALTH_PROT,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD (unknown, not zero)",
+     "obsStatus": null
+    },
+    "waitMedianDays_hip": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD",
+     "obsStatus": null
+    },
+    "waitPctOver3Months_hip": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD"
+    },
+    "waitMedianDays_knee": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD",
+     "obsStatus": null
+    },
+    "waitPctOver3Months_knee": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD"
+    },
+    "waitMedianDays_cataract": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD",
+     "obsStatus": null
+    },
+    "waitPctOver3Months_cataract": {
+     "value": null,
+     "year": null,
+     "source": "OECD Health Statistics, Waiting times (DSD_HEALTH_PROC@DF_WAITING)",
+     "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_PROC@DF_WAITING,/all?dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+     "retrieved": "2026-10-02",
+     "note": "not reported to OECD"
+    },
+    "specialistWaitOver4Weeks": {
+     "value": null,
+     "year": null,
+     "source": null,
+     "url": null,
+     "note": "not published by WHO, OECD Health Statistics or WDI (it is a Commonwealth Fund survey item); unknown"
+    }
+   },
+   "recordSplit": {
+    "class": "unknown",
+    "field": null,
+    "quote": null,
+    "note": "the country file does not say whether private providers connect to the shared record",
+    "fileAsOf": "2026-10-02",
+    "basis": "none"
+   },
+   "flags": {
+    "workforceLow": null,
+    "privateSpendHigh": null,
+    "longWaits": null,
+    "recordSplit": null,
+    "doctorsLow": null,
+    "nursesLow": null
+   },
+   "flagCount": {
+    "true": 0,
+    "false": 0,
+    "unknown": 4
+   },
+   "reading": "Kosovo carries no flags; not measured: workforce, private spending, waits, whether the record reaches private providers."
   },
   "YEM": {
    "name": "Yemen",

@@ -1,0 +1,303 @@
+{
+  "iso3": "GRL",
+  "name": "Greenland",
+  "region": "Europe",
+  "controlModel": "State",
+  "headline": "Greenlanders have a legal right to their record in one national system, but copies cost a fee, and no online record view was found.",
+  "confidence": "medium",
+  "categories": {
+    "access": {
+      "score": 30,
+      "summary": "A 2001 ordinance gives patients a right to see and copy their records, but a 2006 order makes them pay a fee for copies and the right covers only records from 1995 on. No national portal showing the record was found.",
+      "detail": [
+        "Chapter 4 of the 2001 patient rights ordinance gives anyone a right of access to records about their health, from age 15. The holder decides quickly whether to allow viewing on site or hand over a copy.",
+        "There is no fixed decision deadline. If a request is not met within 10 days, the holder must tell the patient why and when to expect a decision. Access can be limited to protect the patient or others.",
+        "A 2006 order on user payments says people entitled to access must pay a fee for copies, set by the Directorate of Health. The access chapter covers only records created after 1 January 1995. Scored as the 45 base minus 5 each for the fee, no fixed deadline and the 1995 limit, so 30.",
+        "Since 14 February 2025, complaints about access go to the Danish Patient Complaints Agency under a 2024 Greenland act. A patient portal showing the record online was not verified; the health service website did not open on 2 October 2026."
+      ],
+      "sources": [
+        {
+          "title": "Landstingsforordning nr. 6 af 31. maj 2001 om patienters retsstilling (Nalunaarutit)",
+          "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2001/ltf-06-2001?sc_lang=da",
+          "date": "2001-05-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Hjemmestyrets bekendtgørelse nr. 5 af 15. februar 2006 om ydelser og brugerbetaling i sundhedsvæsenet (Nalunaarutit)",
+          "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2006/bkg-05-2006?sc_lang=da",
+          "date": "2006-02-15",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Inatsisartutlov nr. 50 af 25. november 2024 om patienters klage- og erstatningsadgang (Nalunaarutit)",
+          "url": "https://nalunaarutit.gl/Groenlandsk-lovgivning/2024/Inatsisartutlov-nr-50-af-25_11_2024?sc_lang=da",
+          "date": "2024-11-25",
+          "publisherClass": "legal_text"
+        }
+      ]
+    },
+    "control": {
+      "score": 44,
+      "summary": "The 2001 ordinance lets a patient refuse at any time that their data be passed to other health staff during a treatment course. How to use that right in the national record, and any patient-visible access log, were not verified.",
+      "detail": [
+        "Health staff may share data with other health staff with the patient's oral or written consent, recorded in the journal. Without consent, sharing is allowed when needed for current treatment, or for an obvious public interest or important interests of the patient or others.",
+        "When data are shared for current treatment without consent, the patient may object at any point in that treatment course. The staff member holding the data decides whether sharing is justified.",
+        "The health service runs one government electronic record (Cosmic), so data sit in one state system by default. We found no page on how a patient blocks staff or reads a log of who looked (not verified), so the score stays in the lower half of the band."
+      ],
+      "sources": [
+        {
+          "title": "Landstingsforordning nr. 6 af 31. maj 2001 om patienters retsstilling (Nalunaarutit)",
+          "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2001/ltf-06-2001?sc_lang=da",
+          "date": "2001-05-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Fødsler i Grønland 2022 (Landslægeembedet)",
+          "url": "https://dia-multisite.euwest01.umbraco.io/media/o3ee2g0d/da_foedsler_i_groenland_2022.pdf",
+          "date": "2023-10-10",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "privacy": {
+      "score": 50,
+      "summary": "Greenland runs on the Danish Personal Data Act of 2000, put in force for Greenland by royal decree in 2016, not the GDPR. No health-sector rulings or health breaches were found, so we score the general law, which has a registration scheme and no breach notification duty found.",
+      "detail": [
+        "Greenland is not part of the EU; it is an overseas territory associated with it, so neither the GDPR nor the European Health Data Space applies. Royal decree no. 1238 of 14 October 2016 put the Danish Personal Data Act in force for Greenland.",
+        "Health data are sensitive: processing needs explicit consent or a listed ground, such as care by a person bound by professional secrecy. Patients have rights to information, insight, correction and objection, and can complain to the Danish Data Protection Agency.",
+        "The law is the pre-GDPR model with registration duties. No breach notification duty was found in the guidance we read (not verified). Violations of the act can lead to measures under the Greenland criminal code.",
+        "The Danish Data Protection Agency supervises Greenland and opened an office in Nuuk on 1 September 2026. We found no published health decision or major health data breach for Greenland."
+      ],
+      "sources": [
+        {
+          "title": "Lovgivning (Datatilsynet i Grønland)",
+          "url": "https://da.datatilsynet.gl/regler-og-vejledning/lovgivning",
+          "date": "undated",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Vejledning om persondataloven for Grønland (Datatilsynet)",
+          "url": "https://da.datatilsynet.gl/Media/639165204745836077/Vejledning%20om%20persondataloven%20for%20Gr%C3%B8nland.pdf",
+          "date": "2016",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Datatilsynet åbner satellitkontor i Nuuk (Datatilsynet)",
+          "url": "https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2026/aug/datatilsynet-aabner-satellitkontor-i-nuuk",
+          "date": "2026-08-27",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Greenland (European Commission, International Partnerships)",
+          "url": "https://international-partnerships.ec.europa.eu/countries/greenland_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    },
+    "commercial": {
+      "score": 55,
+      "summary": "Health staff may pass record data for non-treatment purposes only with written consent, which lapses after one year, or under narrow legal grounds. No Greenland ban on selling health data or using it for marketing beyond the general data law was found.",
+      "detail": [
+        "The 2001 ordinance requires the patient's consent before health staff disclose data to authorities, organisations or private persons for purposes other than treatment. That consent should be written, entered in the journal and lapses after one year.",
+        "Under the Personal Data Act, private firms need explicit consent for health data unless a listed exception applies; one exception lets employers or insurers use health data to settle a legal claim. Detailed customer data cannot go to other firms for marketing without prior explicit consent.",
+        "Unlawful disclosure or use of confidential health data can be fined. We found no specific rule on health apps, data brokers or sale of de-identified health data."
+      ],
+      "sources": [
+        {
+          "title": "Landstingsforordning nr. 6 af 31. maj 2001 om patienters retsstilling (Nalunaarutit)",
+          "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2001/ltf-06-2001?sc_lang=da",
+          "date": "2001-05-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Vejledning om persondataloven for Grønland (Datatilsynet)",
+          "url": "https://da.datatilsynet.gl/Media/639165204745836077/Vejledning%20om%20persondataloven%20for%20Gr%C3%B8nland.pdf",
+          "date": "2016",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "journey": {
+      "score": 64,
+      "summary": "One electronic record, Cosmic, is used across Greenland's single public health service, and the Chief Medical Officer draws national birth data from it. But Tasiilaq still records births in another system, and no electronic link to Danish hospitals was verified.",
+      "detail": [
+        "A 2020 Sermitsiaq report citing the Chief Medical Officer said the Cosmic record had been implemented in all of Greenland. The Chief Medical Officer's 2022 births report says all births are registered in Cosmic and builds national figures from it.",
+        "The same report says Tasiilaq data are very incomplete on some items because births there are recorded in another journal system. Data were checked against birth notification forms and Statistics Greenland.",
+        "Patients needing specialised care are sent to Danish hospitals. A September 2026 agreement makes that treatment free for Greenland from 1 January 2027 but says nothing on records. Lab, pharmacy and cross-border record links were not verified."
+      ],
+      "sources": [
+        {
+          "title": "Fødsler i Grønland 2022 (Landslægeembedet)",
+          "url": "https://dia-multisite.euwest01.umbraco.io/media/o3ee2g0d/da_foedsler_i_groenland_2022.pdf",
+          "date": "2023-10-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "823 blev født i Grønland i 2018 (Sermitsiaq)",
+          "url": "https://www.sermitsiaq.ag/samfund/823-blev-fodt-i-gronland-i-2018/663708",
+          "date": "2020-02-02",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Aftale om behandling af grønlandske patienter i Danmark (Sundheds- og Kirkeministeriet og Naalakkersuisut, ism.dk)",
+          "url": "https://www.ism.dk/Media/639240975998441088/Aftaletekst_DK.pdf",
+          "date": "2026-09-03",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "clinical": {
+      "score": 66,
+      "summary": "Treating staff across Greenland work in the same national record, and the 2001 ordinance lets them share data for current treatment without consent. Whether Danish hospital clinicians can see the Greenland record when a patient is sent there was not verified.",
+      "detail": [
+        "Cosmic is used across Greenland, so treating staff in different towns work in the same record (Sermitsiaq 2020, citing the Chief Medical Officer). We did not find an official description of who can see what.",
+        "The ordinance allows disclosure to other health staff without consent when needed for a current treatment course, with the patient able to object. The government may set rules for disclosure to authorities outside Greenland; none were found.",
+        "For Greenland patients treated in Denmark, the 2026 agreement covers payment and referral only. How records travel with them was not verified, and Tasiilaq's separate birth records show the system is not fully uniform."
+      ],
+      "sources": [
+        {
+          "title": "Landstingsforordning nr. 6 af 31. maj 2001 om patienters retsstilling (Nalunaarutit)",
+          "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2001/ltf-06-2001?sc_lang=da",
+          "date": "2001-05-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Fødsler i Grønland 2022 (Landslægeembedet)",
+          "url": "https://dia-multisite.euwest01.umbraco.io/media/o3ee2g0d/da_foedsler_i_groenland_2022.pdf",
+          "date": "2023-10-10",
+          "publisherClass": "official"
+        },
+        {
+          "title": "823 blev født i Grønland i 2018 (Sermitsiaq)",
+          "url": "https://www.sermitsiaq.ag/samfund/823-blev-fodt-i-gronland-i-2018/663708",
+          "date": "2020-02-02",
+          "publisherClass": "news"
+        },
+        {
+          "title": "Aftale om behandling af grønlandske patienter i Danmark (Sundheds- og Kirkeministeriet og Naalakkersuisut, ism.dk)",
+          "url": "https://www.ism.dk/Media/639240975998441088/Aftaletekst_DK.pdf",
+          "date": "2026-09-03",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "research": {
+      "score": 49,
+      "summary": "Record data can go to biomedical researchers without consent if a Greenland research commission approves, with use limited to research and fines for misuse. There is no general opt-out; in 2024 the health service refused researchers unlimited access to all records.",
+      "detail": [
+        "The 2001 ordinance lets health staff pass record data to a researcher for a specific biomedical project approved by the Commission for Scientific Research in Greenland, which can set conditions. Contacting patients later needs the treating staff's permission.",
+        "Data for statistics or planning need approval from the Chief Medical Officer. Data obtained for research may later be used only for research or statistics and published only in a form that cannot identify people.",
+        "In July 2024 the Department of Health said the health service could not lawfully give researchers studying the contraception case unlimited access to all citizens' records without consent. No general opt-out or public register of uses was found."
+      ],
+      "sources": [
+        {
+          "title": "Landstingsforordning nr. 6 af 31. maj 2001 om patienters retsstilling (Nalunaarutit)",
+          "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2001/ltf-06-2001?sc_lang=da",
+          "date": "2001-05-31",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Forskeres adgang til materiale fra det grønlandske sundhedsvæsen (Naalakkersuisut)",
+          "url": "https://naalakkersuisut.gl/Nyheder/2024/07/2507_forskeres_adgang?sc_lang=da",
+          "date": "2024-07-25",
+          "publisherClass": "official"
+        }
+      ]
+    },
+    "ai": {
+      "score": 20,
+      "summary": "The Danish Medical Devices Act does not apply to Greenland, and Greenland is outside the EU, so neither the EU device rules nor the AI Act govern clinical AI there. We found no Greenland rules on AI or medical devices in care.",
+      "detail": [
+        "A 2022 Danish Health Ministry draft bill states that section 8 of the Danish Medical Devices Act says the act does not apply to the Faroe Islands and Greenland. The same applies to the act on ethics review of device trials.",
+        "Greenland is not part of the EU, so the EU AI Act and EU device regulations do not apply directly.",
+        "A search of Greenland law and government news found no national AI law, health AI authority or binding guidance for clinical AI. Absence is not verified, which keeps the score inside the lowest non-EU band."
+      ],
+      "sources": [
+        {
+          "title": "Udkast til lovforslag, Sundhedsministeriet (høringsportalen), bemærkninger til § 6",
+          "url": "https://prodstoragehoeringspo.blob.core.windows.net/7a61ff95-7713-4c73-8e70-f0af07d1cb40/Lovforslag.pdf",
+          "date": "2022-01-12",
+          "publisherClass": "official"
+        },
+        {
+          "title": "Greenland (European Commission, International Partnerships)",
+          "url": "https://international-partnerships.ec.europa.eu/countries/greenland_en",
+          "date": "undated",
+          "publisherClass": "intergov"
+        }
+      ]
+    }
+  },
+  "journey": {
+    "primaryCare": "connected",
+    "hospital": "connected",
+    "labs": "unknown",
+    "pharmacy": "unknown",
+    "claims": "unknown",
+    "publicHealth": "partial",
+    "research": "partial"
+  },
+  "journeyNote": "Hospitals and health centres share one national record, Cosmic, which also feeds national birth data, though Tasiilaq records births elsewhere. Lab, pharmacy and links to Danish hospitals were not verified; care is tax-funded, so claims are unknown.",
+  "laws": [
+    {
+      "name": "Landstingsforordning nr. 6 af 31. maj 2001 om patienters retsstilling",
+      "level": "National",
+      "year": "2001",
+      "what": "Patient consent, right of access to records, confidentiality, disclosure rules, research release with approval, fines.",
+      "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2001/ltf-06-2001?sc_lang=da"
+    },
+    {
+      "name": "Anordning nr. 1238 af 14. oktober 2016 (Personal Data Act for Greenland)",
+      "level": "National",
+      "year": "2016",
+      "what": "Puts the Danish Personal Data Act of 2000 in force for Greenland; health data sensitive.",
+      "url": "https://da.datatilsynet.gl/media/7643/anordning_pdl_for_groenlandf.pdf"
+    },
+    {
+      "name": "Hjemmestyrets bekendtgørelse nr. 5 af 15. februar 2006 om ydelser og brugerbetaling",
+      "level": "National",
+      "year": "2006",
+      "what": "Sets user payments in health care, including a fee for copies of patient records.",
+      "url": "https://nalunaarutit.gl/groenlandsk-lovgivning/2006/bkg-05-2006?sc_lang=da"
+    },
+    {
+      "name": "Inatsisartutlov nr. 50 af 25. november 2024 om patienters klage- og erstatningsadgang",
+      "level": "National",
+      "year": "2024",
+      "what": "Sends patient rights complaints, including on record access, to the Danish Patient Complaints Agency.",
+      "url": "https://nalunaarutit.gl/Groenlandsk-lovgivning/2024/Inatsisartutlov-nr-50-af-25_11_2024?sc_lang=da"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-03",
+      "headline": "Denmark to treat Greenland patients free in Danish hospitals from 2027",
+      "source": "Sundheds- og Kirkeministeriet (ism.dk)",
+      "url": "https://www.ism.dk/Media/639240975998441088/Aftaletekst_DK.pdf",
+      "why": "More patients will be treated in Denmark, yet the agreement says nothing about how their records move."
+    },
+    {
+      "date": "2026-08-27",
+      "headline": "Data Protection Agency opens staffed office in Nuuk",
+      "source": "Datatilsynet",
+      "url": "https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2026/aug/datatilsynet-aabner-satellitkontor-i-nuuk",
+      "why": "Greenlanders get a local office for data protection advice and complaints, including about health data."
+    },
+    {
+      "date": "2025-10-29",
+      "headline": "Chief Medical Officer's office says some patient records were destroyed or lost",
+      "source": "KNR",
+      "url": "https://knr.gl/da/nyheder/20-kvinder-har-soegt-om-erstatning-efter-ufrivillig-praevention",
+      "why": "Missing or thin records leave patients unable to prove what happened to them in care."
+    },
+    {
+      "date": "2025-10-24",
+      "headline": "Danish and Greenland health ministers sign letter of intent on specialised care",
+      "source": "KNR",
+      "url": "https://knr.gl/da/nyheder/loehde-og-wangenheim-underskriver-aftale-om-bedre-behandlingstilbud-i-sundhedsvaesenet",
+      "why": "Easier referral to Danish hospitals means more patient records must cross between two health systems."
+    }
+  ],
+  "asOf": "2026-10-02"
+}

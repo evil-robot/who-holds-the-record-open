@@ -45,16 +45,16 @@ const jAnd=xs=>xs.length<2?xs.join(''):xs.slice(0,-1).join(', ')+' and '+xs.at(-
 const NAME=i=>data[i].name;
 // country waves: the 21 wave-1 codes are the scope line of analysis/wave1_check.md; Albania was added 2 Oct 2026; the rest are the original set
 // country waves: analysis/waves.json (derived from git); every country in data/ is in exactly one wave
-const WV=JSON.parse(fs.readFileSync('analysis/waves.json','utf8'));const WALL=['original','wave1','albania','wave2','wave3','observers'].flatMap(k=>WV[k].countries);
+const WV=JSON.parse(fs.readFileSync('analysis/waves.json','utf8'));const WALL=['original','wave1','albania','wave2','wave3','observers','greenland_kosovo'].flatMap(k=>WV[k].countries);
 if(WALL.length!==Object.keys(data).length||new Set(WALL).size!==WALL.length||WALL.some(i=>!data[i]))throw new Error('analysis/waves.json does not match data/');
 const ORIG=WV.original.countries,WAVE1=WV.wave1.countries,LATE=WV.albania.countries;
 G.norig=String(ORIG.length);G.nwave1=String(WAVE1.length);G.nlate=String(LATE.length);G.latenames=jAnd(LATE.map(NAME));
-G.nwave2=String(WV.wave2.countries.length);G.nwave3=String(WV.wave3.countries.length);G.observernames=jAnd(WV.observers.countries.map(NAME).sort());
-// coverage against the 193 UN member states (list typed once here; checked against data/)
-const UN193='AFG ALB DZA AND AGO ATG ARG ARM AUS AUT AZE BHS BHR BGD BRB BLR BEL BLZ BEN BTN BOL BIH BWA BRA BRN BGR BFA BDI CPV KHM CMR CAN CAF TCD CHL CHN COL COM COG CRI CIV HRV CUB CYP CZE PRK COD DNK DJI DMA DOM ECU EGY SLV GNQ ERI EST SWZ ETH FJI FIN FRA GAB GMB GEO DEU GHA GRC GRD GTM GIN GNB GUY HTI HND HUN ISL IND IDN IRN IRQ IRL ISR ITA JAM JPN JOR KAZ KEN KIR KWT KGZ LAO LVA LBN LSO LBR LBY LIE LTU LUX MDG MWI MYS MDV MLI MLT MHL MRT MUS MEX FSM MCO MNG MNE MAR MOZ MMR NAM NRU NPL NLD NZL NIC NER NGA MKD NOR OMN PAK PLW PAN PNG PRY PER PHL POL PRT QAT KOR MDA ROU RUS RWA KNA LCA VCT WSM SMR STP SAU SEN SRB SYC SLE SGP SVK SVN SLB SOM ZAF SSD ESP LKA SDN SUR SWE CHE SYR TJK THA TLS TGO TON TTO TUN TUR TKM TUV UGA UKR ARE GBR TZA USA URY UZB VUT VEN VNM YEM ZMB ZWE'.split(' ');
+G.nwave2=String(WV.wave2.countries.length);G.nwave3=String(WV.wave3.countries.length);G.observernames=jAnd(WV.observers.countries.map(NAME).sort());G.grlxkxnames=jAnd(WV.greenland_kosovo.countries.map(NAME).sort());
+// coverage against the 193 UN member states (list typed once in scripts/un193.js; checked against data/)
+const UN193=require('./un193.js');
 if(UN193.length!==193)throw new Error('UN list must have 193 members');
 const unIn=UN193.filter(i=>data[i]).length,extra=Object.keys(data).filter(i=>!UN193.includes(i)).map(NAME).sort();
-G.uncoverage=unIn===193?`all 193 member states of the United Nations, plus ${jAnd(extra)}`:`${unIn} of the 193 member states of the United Nations, plus ${jAnd(extra)}`;
+G.uncoverage=unIn===193?`all 193 UN member states, plus ${jAnd(extra)}`:`${unIn} of the 193 UN member states, plus ${jAnd(extra)}`;
 const EU27='AUT BEL BGR HRV CYP CZE DNK EST FIN FRA DEU GRC HUN IRL ITA LVA LTU LUX MLT NLD POL PRT ROU SVK SVN ESP SWE'.split(' ');
 if(EU27.length!==27||EU27.some(i=>!data[i]))throw new Error('not all 27 EU member states are in data/');
 const regN={};Object.values(data).forEach(d=>regN[d.region]=(regN[d.region]||0)+1);G.nregions=String(Object.keys(regN).length);

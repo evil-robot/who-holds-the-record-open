@@ -1,0 +1,350 @@
+{
+ "iso3": "XKX",
+ "name": "Kosovo",
+ "region": "Europe",
+ "controlModel": "Institutional",
+ "headline": "Kosovo has a GDPR-style data law and a right to see the record, but care runs on unlinked systems and no patient portal was found.",
+ "confidence": "medium",
+ "categories": {
+  "access": {
+   "score": 45,
+   "summary": "Two laws give a right to a copy: the 2019 data law makes the first copy free within one month, but the patient rights law puts copies at the patient's cost. With no national portal, the free copy (+5) and the charge (-5) cancel at 45.",
+   "detail": [
+    "Article 19 of Law 2004/38 lets a resident see the data in an institution's health documentation, get copies at their own cost, receive the final report, and ask for errors to be corrected without deleting the original entry.",
+    "Law 06/L-082 (Article 14) gives a right of access and a copy of personal data. Article 11 requires a free answer within one month, extendable by two months; under Article 14 only further copies may carry an administrative fee.",
+    "A 2022 amendment (Law 08/L-051) lets authorities fine a health institution EUR 500 to 15,000 for breaching the access right in Article 19, and the responsible staff member EUR 60 to 1,500.",
+    "No national portal showing a person's medical record was found. The World Bank says the legacy systems run in silos, and it was not verified whether any of them shows records to patients."
+   ],
+   "sources": [
+    {
+     "title": "Ligji Nr. 2004/38 për të drejtat dhe përgjegjësitë e banorëve të Kosovës në sistemin shëndetësor (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=2454",
+     "date": "2007-06-01",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ligji Nr. 06/L-082 për mbrojtjen e të dhënave personale (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=18616",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ligji Nr. 08/L-051 për ndryshimin dhe plotësimin e Ligjit Nr. 2004/38 (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=53141",
+     "date": "2022-01-19",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Project Information Document, KOMPAS Additional Financing, P179831 (World Bank)",
+     "url": "https://documents.worldbank.org/curated/en/099060226110535583/pdf/P179831-216ae05d-5c28-4139-a053-f1e6433717f0.pdf",
+     "date": "2026-06-02",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "control": {
+   "score": 30,
+   "summary": "Health institutions own the data they record and must report it to the national health information system, with no opt-out or patient-visible access log found. A 2004 law lets patients name who may learn of their illness, but its use in practice was not verified.",
+   "detail": [
+    "Law 04/L-125 (Articles 49 to 53) obliges every health institution, public or private, to collect and report health data to the national health information system (SISH). The institution that records the data owns it, and the Ministry sets who may access the system.",
+    "Law 06/L-082 (Article 8) bans processing of health data unless an exception applies. One exception covers diagnosis, treatment and management of health systems by professionals bound by secrecy, so care use needs no consent.",
+    "Article 20 of Law 2004/38 lets a patient state who may, and who may not, receive information on their illness, and name who is told of a hospital admission. How often this is used was not verified.",
+    "No national consent tool, opt-out from sharing, or access history visible to patients was found."
+   ],
+   "sources": [
+    {
+     "title": "Ligji Nr. 04/L-125 për shëndetësi (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=8666",
+     "date": "2013-05-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ligji Nr. 06/L-082 për mbrojtjen e të dhënave personale (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=18616",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ligji Nr. 2004/38 për të drejtat dhe përgjegjësitë e banorëve të Kosovës në sistemin shëndetësor (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=2454",
+     "date": "2007-06-01",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "privacy": {
+   "score": 52,
+   "summary": "The European Commission says Kosovo's data law is mostly aligned with the GDPR; it sets 72-hour breach notice and fines of EUR 20,000 to 40,000 or 2 to 4% of turnover. The regulator ran 41 health inspections in 2025, but no health-sector fine was verified.",
+   "detail": [
+    "Law 06/L-082 makes health data a special category and requires controllers to notify the Information and Privacy Agency of a breach within 72 hours (Article 33). Fines run EUR 20,000 to 40,000, or 2 to 4% of turnover for serious, large-scale company breaches (Article 105). The Agency is independent; the Assembly elects its Commissioner.",
+    "The Agency's 2025 report lists 226 own-initiative inspections, 41 of them in the health sector and laboratories and 3 in health insurers. It issued a guide for the health sector and ran 5 workshops with the OSCE for health staff, including from northern municipalities.",
+    "In 2025 the Agency imposed 10 data protection fines totalling EUR 134,000, none on a named hospital, clinic or insurer; whether one, Natyra Terapi (EUR 4,000), offers health services was not verified. The European Commission says the Agency processes complaints independently but needs more staff and money.",
+    "Kosovo is a potential EU candidate, so the GDPR, the EHDS and the AI Act do not apply. Health records held by Serbia-run healthcare institutions, which the UN reports operating in Kosovo, were not covered by any source found."
+   ],
+   "sources": [
+    {
+     "title": "Ligji Nr. 06/L-082 për mbrojtjen e të dhënave personale (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=18616",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Raporti Vjetor i Performancës për vitin 2025, Agjencia për Informim dhe Privatësi (not yet approved by the Assembly)",
+     "url": "https://aip.rks-gov.net/download/raporti-vjetor-i-performances-se-agjencise-2026-sqarim-raporti-nuk-eshte-aprovuar-akoma-nga-kuvendi-i-republikes-se-kosoves/?wpdmdl=11544",
+     "date": "2026-03",
+     "publisherClass": "official"
+    },
+    {
+     "title": "Kosovo 2025 Report, SWD(2025) 752 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/127563ea-4c03-44a4-b56c-2d569afd86a5_en?filename=kosovo-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "United Nations Interim Administration Mission in Kosovo, Report of the Secretary-General, S/2026/264",
+     "url": "https://documents.un.org/api/symbol/access?s=S/2026/264&l=en&t=pdf",
+     "date": "2026-04-01",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "commercial": {
+   "score": 46,
+   "summary": "Direct marketing may use sensitive data, including health data, only with the person's written consent, and people can object at any time. Fines for marketing breaches are EUR 4,000 to 10,000, and no ban on selling health data was found.",
+   "detail": [
+    "Article 73 of Law 06/L-082 limits direct marketing to name, address, phone and email. Other data needs prior consent, and sensitive data may be used only with written consent.",
+    "Article 95 sets fines of EUR 4,000 to 10,000 for companies that break the marketing rules, EUR 800 to 2,000 for the responsible person, and EUR 400 to 1,000 for individuals.",
+    "The 2026 health insurance law (Article 13) bars the new Fund from sharing insured people's personal information except to verify data, detect fraud and corruption, and update its register with state bodies. No law on data brokers or consumer health apps was found."
+   ],
+   "sources": [
+    {
+     "title": "Ligji Nr. 06/L-082 për mbrojtjen e të dhënave personale (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=18616",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ligji Nr. 10/L-028 për sigurimin e detyrueshëm të kujdesit shëndetësor (Ministria e Shëndetësisë copy)",
+     "url": "https://msh.rks-gov.net/Documents/DownloadDocument?fileName=Ligji50366005.2673.pdf",
+     "date": "2026-05-15",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "journey": {
+   "score": 25,
+   "summary": "The World Bank calls Kosovo the only Western Balkan country without a fully integrated health information system: registration, records and lab systems run in silos. At 2024 baselines, unchanged in March 2026, no hospital used its planned system and no specialist visit had an electronic referral.",
+   "detail": [
+    "A June 2026 World Bank document says legacy systems for patient registration, records and labs operate in silos because there is no health information exchange or common data standards. A Ministry strategy for 2024 to 2030 and a Digital Health Blueprint exist.",
+    "World Bank baseline figures from March 2024: in the 29 municipalities using the basic primary care system, 11.6% of visits were registered in it and 32.8% of facilities had it fully working. No hospital had the planned hospital system, and none of the core registries, including a master patient index, existed online.",
+    "The World Bank project to build an integrated system became effective only on 17 March 2026. A 2024 World Bank case study lists separate systems for registration and basic records, labs, health workers, disease surveillance and pharmacy stock, none interoperable.",
+    "A compulsory health insurance law, adopted on 23 April 2026, creates a Fund with its own register. The UN reports Serbia-run healthcare institutions operating in Kosovo; whether their records link to Kosovo's systems was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Project Information Document, KOMPAS Additional Financing, P179831 (World Bank)",
+     "url": "https://documents.worldbank.org/curated/en/099060226110535583/pdf/P179831-216ae05d-5c28-4139-a053-f1e6433717f0.pdf",
+     "date": "2026-06-02",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Implementation Status and Results Report No. 4, KOMPAS, P179831 (World Bank)",
+     "url": "https://documents.worldbank.org/curated/en/099032826054039349/pdf/P179831-38f6245a-1872-4724-a536-a2961ac667e4.pdf",
+     "date": "2026-03-28",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Applying the Digital Health Blueprint Toolkit in Kosovo (World Bank case study)",
+     "url": "https://thedocs.worldbank.org/en/doc/b929829fc3d36bebdf9d93555c64f222-0140022024/related/Digital-Health-Blueprint-Toolkit-Kosovo-Case-Study.pdf",
+     "date": "undated",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "United Nations Interim Administration Mission in Kosovo, Report of the Secretary-General, S/2026/264",
+     "url": "https://documents.un.org/api/symbol/access?s=S/2026/264&l=en&t=pdf",
+     "date": "2026-04-01",
+     "publisherClass": "intergov"
+    }
+   ]
+  },
+  "clinical": {
+   "score": 25,
+   "summary": "No shared record lets a clinician see care from other providers, and the World Bank says fragmentation blocks coordination across levels. The law only requires electronic access or a written note on referral, and data opens only where recorded.",
+   "detail": [
+    "Article 53 of Law 04/L-125 obliges health institutions, for continuity of care, to give access to the relevant electronic data or, where none exists, to inform the receiving institution in writing.",
+    "Dukagjini reported in April 2025 that patient data opens only in the family medicine centres where patients are seen. The World Bank says fragmentation prevents care coordination across levels.",
+    "Article 20 of Law 2004/38 lets a person in charge of a patient's continuing care see necessary data without consent when withholding it could harm the patient. Emergency access rules in practice were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Ligji Nr. 04/L-125 për shëndetësi (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=8666",
+     "date": "2013-05-07",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "MSH me strategji por Projektligji për SISH-in mbeti në pragun e Kuvendit (Dukagjini)",
+     "url": "https://www.dukagjini.com/msh-me-strategji-por-projektligji-per-sish-in-mbeti-ne-pragun-e-kuvendit/",
+     "date": "2025-04-20",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Project Information Document, KOMPAS Additional Financing, P179831 (World Bank)",
+     "url": "https://documents.worldbank.org/curated/en/099060226110535583/pdf/P179831-216ae05d-5c28-4139-a053-f1e6433717f0.pdf",
+     "date": "2026-06-02",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Ligji Nr. 2004/38 për të drejtat dhe përgjegjësitë e banorëve të Kosovës në sistemin shëndetësor (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=2454",
+     "date": "2007-06-01",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "research": {
+   "score": 46,
+   "summary": "The data law allows research use of health data without consent and with no general opt-out, subject to proportionality and safeguards. Two safeguard classes count: professional secrecy where needed, and fines of EUR 20,000 to 40,000 for unlawful processing of sensitive data.",
+   "detail": [
+    "Article 8 of Law 06/L-082 allows health data to be processed for scientific research, statistics and archiving in the public interest, if processing is proportionate and protects the person's rights, including professional secrecy where necessary.",
+    "A person may object to research use on personal grounds (Article 20), except where research is a public-interest task. Article 92 fines unlawful processing of sensitive data EUR 20,000 to 40,000; Article 105 allows 2 to 4% of a company's turnover for serious, large-scale breaches.",
+    "Article 84 of Law 04/L-125 bans clinical research on people without approval from a body the Health Minister authorises, and promises a separate law. That law, and any body approving reuse of health data, were not verified."
+   ],
+   "sources": [
+    {
+     "title": "Ligji Nr. 06/L-082 për mbrojtjen e të dhënave personale (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=18616",
+     "date": "2019-02-25",
+     "publisherClass": "legal_text"
+    },
+    {
+     "title": "Ligji Nr. 04/L-125 për shëndetësi (Gazeta Zyrtare)",
+     "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=8666",
+     "date": "2013-05-07",
+     "publisherClass": "legal_text"
+    }
+   ]
+  },
+  "ai": {
+   "score": 30,
+   "summary": "No rules for clinical AI were found. The European Commission invites Kosovo to align with the EU AI Act, and a readiness assessment began in 2026; the privacy regulator says the data law has no AI-specific rules.",
+   "detail": [
+    "The European Commission's 2025 report invites Kosovo to fully align with the EU Artificial Intelligence Act and set up enforcement structures.",
+    "Radio Evropa e Lirë, republished by Zhurnal.mk in July 2026, reports that Kosovo has no specific law on AI use in public administration and that an assessment of readiness to align with the AI Act and GDPR began in 2026. The privacy Commissioner said the data law has no AI-specific rules.",
+    "Medical devices fall under Law 04/L-190 on medicinal products and devices (2014, amended 2022). Whether it covers software or AI change control was not verified."
+   ],
+   "sources": [
+    {
+     "title": "Kosovo 2025 Report, SWD(2025) 752 (European Commission)",
+     "url": "https://enlargement.ec.europa.eu/document/download/127563ea-4c03-44a4-b56c-2d569afd86a5_en?filename=kosovo-report-2025.pdf",
+     "date": "2025-11-04",
+     "publisherClass": "intergov"
+    },
+    {
+     "title": "Inteligjenca Artificiale pa kontroll në Ballkanin Perëndimor (Zhurnal.mk, citing Radio Evropa e Lirë)",
+     "url": "https://zhurnal.mk/inteligjenca-artificiale-pa-kontroll-ne-ballkanin-perendimor/",
+     "date": "2026-07-02",
+     "publisherClass": "news"
+    },
+    {
+     "title": "Ligji Nr. 04/L-190 për produkte dhe pajisje medicinale (Gazeta Zyrtare record)",
+     "url": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=9437",
+     "date": "2014-04-25",
+     "publisherClass": "legal_text"
+    }
+   ]
+  }
+ },
+ "journey": {
+  "primaryCare": "partial",
+  "hospital": "siloed",
+  "labs": "siloed",
+  "pharmacy": "siloed",
+  "claims": "unknown",
+  "publicHealth": "siloed",
+  "research": "unknown"
+ },
+ "journeyNote": "A basic primary care system runs in 29 municipalities; lab, pharmacy stock and disease surveillance systems are not interoperable (World Bank). The 2026 insurance Fund and links to Serbia-run institutions were not verified.",
+ "laws": [
+  {
+   "name": "Law No. 06/L-082 on Protection of Personal Data",
+   "level": "National",
+   "year": "2019",
+   "what": "GDPR-style law: health as special category, access in one month, 72-hour breach notice, independent agency.",
+   "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=18616"
+  },
+  {
+   "name": "Law No. 2004/38 on the Rights and Responsibilities of Kosovo Residents in the Health Care System",
+   "level": "National",
+   "year": "2004",
+   "what": "Patient rights: see and copy health documentation, correction, confidentiality, naming who may be informed.",
+   "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=2454"
+  },
+  {
+   "name": "Law No. 08/L-051 amending Law No. 2004/38",
+   "level": "National",
+   "year": "2022",
+   "what": "Adds fines of EUR 500 to 15,000 on health institutions that breach patient rights.",
+   "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=53141"
+  },
+  {
+   "name": "Law No. 04/L-125 on Health",
+   "level": "National",
+   "year": "2013",
+   "what": "Organises health care; requires all institutions to report data to the single health information system.",
+   "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=8666"
+  },
+  {
+   "name": "Law No. 10/L-028 on Compulsory Health Care Insurance",
+   "level": "National",
+   "year": "2026",
+   "what": "Creates a compulsory health insurance Fund and its single register; limits sharing of insured people's data.",
+   "url": "https://msh.rks-gov.net/Documents/DownloadDocument?fileName=Ligji50366005.2673.pdf"
+  },
+  {
+   "name": "Law No. 04/L-190 on Medicinal Products and Medical Devices",
+   "level": "National",
+   "year": "2014",
+   "what": "Regulates medicines and medical devices; amended 2022.",
+   "url": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=9437"
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-01-30",
+   "headline": "Acting health minister says insurance law will return to the Assembly quickly",
+   "source": "Kosova News",
+   "url": "https://kosovanews.net/vitia-ligji-per-sigurimet-shendetesore-do-te-rikthehet-shpejt-ne-kuvend-pas-vendimit-te-kushtetueses/",
+   "why": "He tied the law to creating the insurance fund and the health information system."
+  },
+  {
+   "date": "2026-02-13",
+   "headline": "Assembly ratifies World Bank agreements that include health system strengthening",
+   "source": "Radio Evropa e Lirë",
+   "url": "https://www.evropaelire.org/a/kuvendi-marreveshjet-nderkombetare-buxheti/33677194.html",
+   "why": "The finance minister called the zero-interest loans among the most favourable for Kosovo."
+  },
+  {
+   "date": "2026-03-19",
+   "headline": "Prime minister and Serbian government office differ on integrating Serbia-run health services",
+   "source": "KoSSev",
+   "url": "https://kossev.info/petkovic-nakon-kurtijevih-navoda-o-integraciji-deo-njegove-politicke-kampanje-i-sluzi-za-unutrasnju-politicku-upotrebu/",
+   "why": "Patients using Serbia-run services face open questions over which system will serve them."
+  },
+  {
+   "date": "2026-04-23",
+   "headline": "Assembly adopts compulsory health insurance law by 80 votes to none",
+   "source": "Gazeta Shneta",
+   "url": "https://gazetashneta.net/miratohet-ligji-per-sigurimet-shendetesore/",
+   "why": "The new Fund will hold a register of insured people and their care."
+  },
+  {
+   "date": "2026-07-02",
+   "headline": "No Kosovo law governs AI in public administration; AI Act readiness assessed",
+   "source": "Zhurnal.mk (Radio Evropa e Lirë)",
+   "url": "https://zhurnal.mk/inteligjenca-artificiale-pa-kontroll-ne-ballkanin-perendimor/",
+   "why": "Clinical AI could reach patients before any national rules exist."
+  }
+ ],
+ "asOf": "2026-10-02"
+}

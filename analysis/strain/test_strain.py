@@ -141,7 +141,7 @@ caught("research agrees with file, marked conflict", research("MLT", "split", co
 caught("partial counted as split", lambda r: r["countries"]["PRT"]["flags"].update(recordSplit=True))
 # 20. country set drift
 caught("country dropped", lambda r: r["countries"].pop("LIE"))
-caught("stray ISO added", lambda r: r["countries"].__setitem__("XKX", copy.deepcopy(r["countries"]["LIE"])))
+caught("stray ISO added", lambda r: r["countries"].__setitem__("ESH", copy.deepcopy(r["countries"]["LIE"])))
 # 21. invalid class
 caught("invalid record class", lambda r: r["countries"]["FIN"]["recordSplit"].update({"class": "linked"}))
 
@@ -174,7 +174,7 @@ merge_case("agreement recorded as both", {"MLT": {"class": "split", "quote": "q"
 merge_case("research unknown changes nothing", {"BEL": {"class": "unknown"}}, lambda o: o["BEL"]["recordSplit"]["class"] == "unknown")
 merge_case("refuses class without url", {"GBR": {"class": "split", "quote": "q"}}, refuse=True)
 merge_case("refuses invented class", {"GBR": {"class": "mostly", "quote": "q", "url": U}}, refuse=True)
-merge_case("refuses unknown ISO", {"XKX": {"class": "split", "quote": "q", "url": U}}, refuse=True)
+merge_case("refuses unknown ISO", {"ESH": {"class": "split", "quote": "q", "url": U}}, refuse=True)
 merge_case("refuses a list", [{"iso3": "GBR"}], refuse=True)
 
 # 21c. wait notes say what the country reports instead of a bare 'not reported'

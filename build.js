@@ -36,7 +36,8 @@ const fold=x=>x>180?x-360:x;
 function centroid(geom){let polys=geom.type==='Polygon'?[geom.coordinates]:geom.coordinates;let best=null,ba=-1;for(const p of polys){const ring=unwrap(p[0]);const a=Math.abs(ringArea(ring));if(a>ba){ba=a;best=ring}}
  let cx=0,cy=0,A=0;for(let i=0;i<best.length-1;i++){const f=best[i][0]*best[i+1][1]-best[i+1][0]*best[i][1];cx+=(best[i][0]+best[i+1][0])*f;cy+=(best[i][1]+best[i+1][1])*f;A+=f}A/=2;return [r(cy/(6*A)),r(fold(cx/(6*A)))]}
 const fix={'USA':[39.5,-98.5],'FRA':[46.6,2.4],'NOR':[61.5,9.5],'CAN':[56,-100],'RUS':[60,90]};
-const feats=g.features.map(f=>{const a3=f.id?iso.numericToAlpha3(f.id):null;const q=c=>Array.isArray(c[0])?c.map(q):[r(c[0]),r(c[1])];
+// Kosovo has no ISO numeric code in Natural Earth; match its shape by name to the user-assigned code XKX.
+const feats=g.features.map(f=>{const a3=f.id?iso.numericToAlpha3(f.id):(f.properties.name==='Kosovo'?'XKX':null);const q=c=>Array.isArray(c[0])?c.map(q):[r(c[0]),r(c[1])];
  const c=fix[a3]||centroid(f.geometry);return {type:'Feature',properties:{iso3:a3||'',name:f.properties.name,lat:c[0],lng:c[1]},geometry:{type:f.geometry.type,coordinates:q(f.geometry.coordinates)}}});
 
 // ---- data ----
@@ -82,6 +83,10 @@ const lowConf=C.filter(d=>d.confidence==='low').sort((a,b)=>a.name.localeCompare
 const allSources=C.flatMap(d=>CATS.flatMap(c=>d.categories[c.k].sources||[]));
 const undated=allSources.filter(s=>!s.date||/n\.?d|not verified/i.test(s.date)).length;
 const unratedNames=feats.filter(f=>!data[f.properties.iso3]).map(f=>f.properties.name).sort();const unrated=unratedNames.length;
+// coverage sentence, computed: the UN members rated and every rated place outside the UN list
+const UN193=require('./scripts/un193.js'),unIn=UN193.filter(i=>data[i]).length,unExtra=Object.keys(data).filter(i=>!UN193.includes(i)).map(i=>data[i].name).sort();
+const andList=xs=>xs.length<2?xs.join(''):xs.slice(0,-1).join(', ')+' and '+xs.at(-1);
+const unCoverage=(unIn===193?'All 193 UN member states are rated':`${unIn} of the 193 UN member states are rated`)+(unExtra.length?`, plus ${andList(unExtra)}`:'');
 const YEAR=Math.max(...C.map(d=>+String(d.asOf).slice(0,4)));
 const asOf=C.map(d=>d.asOf).sort().at(-1);
 const top=ranked[0],median=quant(C.map(d=>d.overall),.5);
@@ -224,7 +229,7 @@ const CW=96;
 function matrixRow(d){const low=d.confidence==='low';return `<tr data-iso="${d.iso3}"><th scope="row" class="nm"><a href="#${d.iso3}">${esc(d.name)}</a>${low?'<sup class="lc" title="Low confidence">*</sup>':''}</th>${CATS.map(c=>{const v=d.categories[c.k].score,m=DIST[c.k].med;
  return `<td data-v="${v}" title="${esc(d.name)} · ${c.s} ${v}"><span class="vh">${c.s} ${v}</span><svg width="${CW}" height="24" viewBox="0 0 ${CW} 24" aria-hidden="true"><line x1="0" x2="${CW}" y1="12" y2="12" class="tl"/><line x1="${(CW*m/100).toFixed(1)}" x2="${(CW*m/100).toFixed(1)}" y1="0" y2="24" class="md"/><circle cx="${(CW*v/100).toFixed(1)}" cy="12" r="2.5" fill="${low?'#FFFFFF':'#111827'}" stroke="#111827" stroke-width="${low?1:0}"/></svg></td>`}).join('')}</tr>`}
 const BTIP={"Poor": "0 to 24: no meaningful right or infrastructure, or active misuse.", "Weak": "25 to 44: rights mostly on paper, or a fragmented record. The patient depends on institutions.", "Mixed": "45 to 64: partial rights or partial infrastructure. Works for some people in some settings.", "Strong": "65 to 84: the right exists and mostly works, with notable gaps.", "Leading": "85 to 100: the right is in law and works at national scale, with controls the patient can see."};
-const legend=`<ul class="legend" aria-label="Score bands">${BANDS.map(b=>`<li tabindex="0" data-tip="${BTIP[b.n]}"><i style="background:${b.c}"></i>${b.n} <span class="num">${b.lo}-${b.hi} · ${bandCount[b.n]}</span></li>`).join('')}<li tabindex="0" data-tip="Territories and disputed areas the index does not rate: ${esc(unratedNames.join(', '))}. Every UN member state is rated, plus Palestine, Taiwan and Vatican City."><i class="nr"></i>Not rated <span class="num">${unrated}</span></li></ul>`;
+const legend=`<ul class="legend" aria-label="Score bands">${BANDS.map(b=>`<li tabindex="0" data-tip="${BTIP[b.n]}"><i style="background:${b.c}"></i>${b.n} <span class="num">${b.lo}-${b.hi} · ${bandCount[b.n]}</span></li>`).join('')}<li tabindex="0" data-tip="Territories and disputed areas the index does not rate: ${esc(unratedNames.join(', '))}. ${esc(unCoverage)}."><i class="nr"></i>Not rated <span class="num">${unrated}</span></li></ul>`;
 const weights=`<table class="wt"><thead><tr><th scope="col">Category</th><th scope="col" class="num">Weight</th><th scope="col" class="num">Median</th></tr></thead><tbody>${CATS.map(c=>`<tr><td>${c.n}</td><td class="num">${c.w}%</td><td class="num">${DIST[c.k].med}</td></tr>`).join('')}</tbody></table>`;
 const bandsTable=`<table class="wt"><tbody>${[['Leading','85-100','the right exists in law and works in practice at national scale, with controls the patient can see'],['Strong','65-84','the right exists and mostly works; notable gaps in coverage, use or exceptions'],['Mixed','45-64','partial rights or partial infrastructure; works for some people in some settings'],['Weak','25-44','rights mostly on paper or fragmented; the patient depends on institutions'],['Poor','0-24','no meaningful right or infrastructure, or active misuse']].map(([n,rg,tx])=>`<tr><td><i class="sw" style="background:${BANDS.find(b=>b.n===n).c}"></i>${n}</td><td class="num">${rg}</td><td>${tx}</td></tr>`).join('')}</tbody></table>`;
 const MODEL_DESC={Individual:'The person holds the keys.',Shared:'The person has real controls inside a state or provider system.',Institutional:'Providers and insurers decide.',State:'The government decides, with limited individual say.'};

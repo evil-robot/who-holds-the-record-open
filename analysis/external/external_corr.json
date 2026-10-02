@@ -1,7 +1,7 @@
 {
  "computed": "2026-10-02",
- "dataSha256": "9433402026cc0b2dca25861fe9949ca005567e12ea5d04bff43dde11b6e542c4",
- "ourCountries": 196,
+ "dataSha256": "1c65d8a64251afbc9a4c01a6f255478ecbcd315600bc1fda50ddd990c0a20f97",
+ "ourCountries": 198,
  "gdhmFullResponders": [
   "ARE",
   "ARG",
@@ -466,7 +466,7 @@
  ],
  "income": {
   "overallVsGdp": {
-   "n": 186,
+   "n": 188,
    "rho": 0.72,
    "lo": 0.64,
    "hi": 0.79,
@@ -474,27 +474,27 @@
    "note": "TWN is not in WDI"
   },
   "withinEurope": {
-   "n": 45,
-   "rho": 0.48,
-   "lo": 0.17,
-   "hi": 0.71
+   "n": 47,
+   "rho": 0.47,
+   "lo": 0.16,
+   "hi": 0.69
   },
   "fit": {
    "slopePerLogUnit": 7.7,
-   "r2": 0.52
+   "r2": 0.51
   },
   "below": [
    {
     "iso3": "GUY",
-    "resid": -24.9
+    "resid": -24.8
    },
    {
     "iso3": "DMA",
-    "resid": -20.4
+    "resid": -20.3
    },
    {
     "iso3": "TTO",
-    "resid": -18.9
+    "resid": -18.8
    },
    {
     "iso3": "LBY",
@@ -502,33 +502,33 @@
    },
    {
     "iso3": "VCT",
-    "resid": -17.8
+    "resid": -17.7
    },
    {
     "iso3": "KNA",
-    "resid": -17.8
+    "resid": -17.7
    }
   ],
   "above": [
    {
     "iso3": "FIN",
-    "resid": 18.7
+    "resid": 18.9
    },
    {
     "iso3": "HUN",
-    "resid": 17.6
+    "resid": 17.7
    },
    {
     "iso3": "EST",
-    "resid": 17.5
+    "resid": 17.6
    },
    {
     "iso3": "DNK",
-    "resid": 15.4
+    "resid": 15.5
    },
    {
     "iso3": "MWI",
-    "resid": 15.3
+    "resid": 15.2
    },
    {
     "iso3": "KEN",
@@ -550,10 +550,10 @@
  "eurostat": {
   "year": 2024,
   "indicator": "I_IUAPR",
-  "n": 33,
-  "rhoAccess": 0.56,
-  "lo": 0.21,
-  "hi": 0.83,
+  "n": 34,
+  "rhoAccess": 0.58,
+  "lo": 0.26,
+  "hi": 0.82,
   "values": {
    "ALB": 48.72,
    "AUT": 22.95,
@@ -587,7 +587,8 @@
    "SVK": 16.18,
    "SVN": 26.91,
    "SWE": 45.65,
-   "TUR": 46.9
+   "TUR": 46.9,
+   "XKX": 19.84
   },
   "accessScores": {
    "ALB": 50,
@@ -622,22 +623,23 @@
    "SVK": 62,
    "SVN": 66,
    "SWE": 77,
-   "TUR": 74
+   "TUR": 74,
+   "XKX": 45
   },
   "rho_journey": {
-   "rho": 0.39,
-   "lo": -0.01,
+   "rho": 0.41,
+   "lo": 0.04,
    "hi": 0.7
   },
   "rho_clinical": {
-   "rho": 0.45,
-   "lo": 0.09,
+   "rho": 0.47,
+   "lo": 0.13,
    "hi": 0.73
   },
   "rho_overall": {
-   "rho": 0.45,
-   "lo": 0.06,
-   "hi": 0.76
+   "rho": 0.48,
+   "lo": 0.13,
+   "hi": 0.75
   }
  }
 }

@@ -66,12 +66,12 @@ function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS
     const best = [...gaps].sort((a, b) => b.g - a.g)[0], worst = [...gaps].sort((a, b) => a.g - b.g)[0];
     const gapTxt = (x, long) => `${lcn(x.c)} (${x.v}, ${long ? `against a median of ${x.m} across ${N} countries` : `median ${x.m}`})`;
     // Answer passage: self-contained and quotable (about 50 words); the detail passage carries strongest and weakest rights.
-    const lede = `In ${yr}, ${tn} scores ${d.overall} of 100 on a person's right to see, control and share their own health record: rank ${rankLabel(d.rank)} of ${N} countries${likely(d.iso3) ? ` (likely range ${likely(d.iso3)})` : ''}, in the ${b.n} band (${b.lo} to ${b.hi}). Who holds the keys: ${d.controlModel}. Source: ${NAME}, SuperTruth, data as of ${d.asOf || asOf}.`;
+    const lede = `In ${yr}, ${tn} scores ${d.overall} of 100 on a person's right to see, control and share their own health record: rank ${rankLabel(d.rank)} of ${N} countries${likely(d.iso3) ? ` (likely range ${likely(d.iso3)})` : ''}, in the ${b.n} band (${b.lo} to ${b.hi}). Who holds the keys: ${d.controlModel}. Source: ${NAME}, SuperTruth, this country's data as of ${d.asOf || asOf}.`;
     const detail = `${MODEL_DESC[d.controlModel] || ''} ` +
       `${best.g > 0 ? `Its strongest right against the other countries is ${gapTxt(best, true)}` : `No right sits above the ${N}-country median; the closest is ${gapTxt(best, true)}`}; ${worst.g < 0 ? `its weakest is ${gapTxt(worst)}.` : `no right falls below the median, and the closest to it is ${gapTxt(worst)}.`}`;
     const srcs = []; const seen = new Set();
     for (const c of CATS) for (const x of (d.categories[c.k].sources || [])) if (x.url && !seen.has(x.url)) { seen.add(x.url); srcs.push({ ...x, cat: c.n }); }
-    const quote = `In ${yr}, ${tn} scored ${d.overall} of 100 on a person's right to see, control and share their own health record, rank ${rankLabel(d.rank)} of ${N} countries${likely(d.iso3) ? ` (likely range ${likely(d.iso3)})` : ''} (${b.n}; who holds the keys: ${d.controlModel}). Source: ${NAME}, SuperTruth, data as of ${d.asOf || asOf}, ${url}`;
+    const quote = `In ${yr}, ${tn} scored ${d.overall} of 100 on a person's right to see, control and share their own health record, rank ${rankLabel(d.rank)} of ${N} countries${likely(d.iso3) ? ` (likely range ${likely(d.iso3)})` : ''} (${b.n}; who holds the keys: ${d.controlModel}). Source: ${NAME}, SuperTruth, this country's data as of ${d.asOf || asOf}, ${url}`;
     d._quote = quote; d._lede = lede; d._detail = detail;
     const i = ordered.findIndex(x => x.iso3 === d.iso3);
     const nbrs = [ordered[i - 1], ordered[i + 1]].filter(Boolean).filter(x => !peers.some(p => p.iso3 === x.iso3));
@@ -129,15 +129,15 @@ blockquote{margin:4px 0;padding-left:8px;border-left:2px solid #E5E7EB;color:#37
 @media screen{body{font-size:13px}.top .t,.key,.foot,.contact,th .w,.y,td.pv{font-size:12px}.f span{font-size:12px}}
 @media print{.print,.noprint{display:none}.page{padding:0;zoom:.74}h2{margin:6px 0 2px}p{margin:3px 0}.answer,.lead{margin:3px 0}.facts{margin:6px 0 8px}.contact{margin-top:8px;padding:6px 10px}.foot{margin-top:8px;padding-top:4px}}
 .tw{max-width:100%}
-@media(max-width:640px){.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}th{white-space:normal}.facts{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}dl{grid-template-columns:1fr}}
+@media(max-width:640px){.print{position:static;display:block;margin:12px 16px 0 auto}.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}th{white-space:normal}.facts{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}dl{grid-template-columns:1fr}}
 </style><script src="../../assets/analytics.js" defer></script></head><body><button class="print" onclick="window.print()">Print or save as PDF</button><div class="page">
-<div class="top"><a href="../../"><img src="../../assets/supertruth-logo-dark.svg" alt="Who Holds the Record by SuperTruth: back to the index" width="109" height="20"></a><span class="t">${esc(NAME)} · country brief · data as of ${d.asOf || asOf}</span></div>
+<div class="top"><a href="../../"><img src="../../assets/supertruth-logo-dark.svg" alt="Who Holds the Record by SuperTruth: back to the index" width="109" height="20"></a><span class="t">${esc(NAME)} · country brief · this country's data as of ${d.asOf || asOf}</span></div>
 <nav class="crumbs noprint" aria-label="Breadcrumb"><a href="../../">${esc(NAME)}</a> › <a href="../../#ranking">Ranking</a> › <span aria-current="page">${esc(d.name)}</span></nav>
 <h1>Who holds the health record in ${esc(tn)}?</h1>
 <p class="answer">${esc(lede)}</p>
 <p class="lead noprint">${esc(detail)}</p>
 <p class="lead">${esc(d.headline)}</p>
-<p class="y">Published <time datetime="${PUBLISHED}">${LONGDATE(PUBLISHED)}</time> · updated <time datetime="${later(lastmod[d.iso3], PUBLISHED)}">${LONGDATE(later(lastmod[d.iso3], PUBLISHED))}</time> · data as of ${d.asOf || asOf}${/^low$/i.test(d.confidence || '') ? ' · confidence in this score is low: the public evidence is thin' : ''} · research tool, not legal advice</p>
+<p class="y">Published <time datetime="${PUBLISHED}">${LONGDATE(PUBLISHED)}</time> · updated <time datetime="${later(lastmod[d.iso3], PUBLISHED)}">${LONGDATE(later(lastmod[d.iso3], PUBLISHED))}</time> · this country's data as of ${d.asOf || asOf}${/^low$/i.test(d.confidence || '') ? ' · confidence in this score is low: the public evidence is thin' : ''} · research tool, not legal advice</p>
 <div class="facts">
 <div class="f"><b>${d.overall}</b><span>overall, of 100 · ${b.n}</span></div>
 <div class="f"><b>${rankLabel(d.rank)}</b><span>rank of ${N}</span></div>

@@ -176,7 +176,8 @@ G.rbfinland=pct(RS.finlandFirstShare);G.rbfinlandpess=pct(RP.finlandFirstShare);
 // lead group (DECISION_RULES.md rule 2): sole leader only if first in >=95% of main-model draws
 {const lead=F.ranked.filter(d=>RC.countries[d.iso3].rank90[0]===1);const sole=lead.length===1&&RC.countries[lead[0].iso3].firstShare>=0.95;
  G.lead=sole?`${lead[0].name} (${lead[0].overall}) leads`:`${jAnd(lead.map(d=>`${d.name} (${d.overall})`))} have the highest scores; allowing for scoring error, any of them could rank first`;
- G.leadshares=jAnd(lead.map(d=>`${d.name} (${pct(RC.countries[d.iso3].firstShare)})`));G.leadn=String(lead.length);
+ G.leadshares=jAnd(lead.map(d=>`${d.name} (${(RC.countries[d.iso3].firstShare*100).toFixed(2)}%)`));  // two decimals: a floored 5.0% read as under the 5% cut (Sweden, 5.09%)
+G.leadn=String(lead.length);
  const mw=e=>{const w=Object.values(e.countries).map(c=>c.rank90[1]-c.rank90[0]).sort((a,b)=>a-b);return w[Math.floor(w.length/2)]};
  G.rbmainwidth=String(mw(RC));G.rblowerwidth=String(mw(RU));G.rbcellwidth=String(mw(RB.monteCarlo.calibratedCell));
  G.rbcellsd=String(RB.meta.calCellSd);G.rbshared=`${RB.meta.calShared[0]} points per category plus ${RB.meta.calShared[1]} points shared across a country`;
@@ -190,6 +191,17 @@ const edge=F.ranked.filter(d=>RC.countries[d.iso3].bandShare<0.9);G.rbedgen=Stri
 const fl2=x=>(Math.floor(x*100)/100).toFixed(2);G.rbgeo=fl2(RB.alternatives.geometric.spearman);G.rbequal=fl2(RB.alternatives.equal.spearman);G.rbequalmax=`${RB.alternatives.equal.maxRankShift} places (${jAnd(RB.alternatives.equal.maxShiftCountries.map(NAME))})`;
 G.rbdropj=RB.alternatives.drop_journey.rankShiftRS.toFixed(1);G.rbdropc=RB.alternatives.drop_clinical.rankShiftRS.toFixed(1);G.rbdropctl=RB.alternatives.drop_control.rankShiftRS.toFixed(1);
 G.rbseed=String(RB.meta.seed);G.rbdraws=RB.meta.draws.toLocaleString('en-GB');
+// seed sensitivity of the lead group (analysis/robustness/seed_sweep.py); the published seed decides, this only reports the spread
+{const SW=JSON.parse(fs.readFileSync('analysis/robustness/seed_sweep.json','utf8'));gate('analysis/robustness/seed_sweep.json (seed_sweep.py)',SW.meta.dataSha256);
+ if(SW.meta.publishedSeed!==RB.meta.seed||SW.meta.draws!==RB.meta.draws)throw new Error('seed_sweep.json was not run against the published robustness settings');
+ const p2=x=>(x*100).toFixed(2)+'%',sm=SW.summary,ins=Object.keys(sm).filter(k=>sm[k].inPublishedLead),outs=Object.keys(sm).filter(k=>!sm[k].inPublishedLead);
+ ins.forEach(k=>{if(sm[k].published!==RC.countries[k].firstShare)throw new Error(`seed_sweep.json disagrees with robustness.json for ${k}`)});
+ const close=ins.reduce((a,k)=>sm[k].published<sm[a].published?k:a),c=sm[close],o=c.otherSeeds,steady=ins.filter(k=>k!==close&&sm[k].otherSeeds.inLead===o.of),entered=outs.filter(k=>sm[k].otherSeeds.inLead>0);
+ const top=outs.reduce((a,k)=>a===null||sm[k].otherSeeds.max>sm[a].otherSeeds.max?k:a,null);
+ G.rbseeds=`${NAME(close)} is the closest call: it is first in ${Math.round(c.published*SW.meta.draws).toLocaleString('en-GB')} of ${SW.meta.draws.toLocaleString('en-GB')} draws (${p2(c.published)}), just over the 5% that puts first place inside its 90% rank range. Rerun with ${o.of} other seeds fixed in advance, its share runs from ${p2(o.min)} to ${p2(o.max)} (mean ${p2(o.mean)})`
+  +(o.inLead===o.of?' and it stays in the group under every seed. ':`, and it would fall out of the group under ${o.of-o.inLead} of them. `)
+  +`${jAnd(steady.map(NAME))} stay in under every seed, and `+(entered.length?`${jAnd(entered.map(NAME))} would join under at least one`:`no other country joins under any (the nearest, ${NAME(top)}, reaches ${p2(sm[top].otherSeeds.max)} at most)`)
+  +`. The rule was set before these results and the published seed decides, so the group stands as published. With ${SW.meta.draws.toLocaleString('en-GB')} draws the simulation's own standard error near 5% is ${(SW.meta.mcStandardErrorAt5pct*100).toFixed(2)} percentage points, so ${NAME(close)}'s place in the group is within simulation noise and is reported as such`;}
 // reliability (analysis/reliability/reliability.json); pre-registered, compared with the scores published on its run date
 const RL=JSON.parse(fs.readFileSync('analysis/reliability/reliability.json','utf8'));const H=RL.headline,BA=H.bland_altman;
 const f1=x=>x.toFixed(1),f2=x=>x.toFixed(2),pc=x=>String(Math.round(100*x));

@@ -140,7 +140,7 @@ One limit: the published accounts (the stories layer) are not in this repository
 
 ## How to cite
 
-Snyder, J. A., Hill, B., & Raney, D. (2026). *The Health Record Rights Index: Who Holds the Record in 198 Countries?* (version 1.0). SuperTruth Inc. https://healthrecordrights.com/
+Snyder, J. A., Hill, R. P., IV, & Raney, D. (2026). *The Health Record Rights Index: Who Holds the Record in 198 Countries?* (version 1.0). SuperTruth Inc. https://healthrecordrights.com/
 
 Paper: https://doi.org/10.5281/zenodo.23120175 · Data: https://doi.org/10.5281/zenodo.23120173
 

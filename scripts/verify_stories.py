@@ -123,6 +123,12 @@ def main():
             for it, (ok, code) in zip(items, ex.map(lambda i: reachable(i["url"]), items)):
                 if not ok: fails.append(f"{it['id']}: url unreachable ({code}) {it['url']}")
     print(f"{len(items)} live stories checked; {len(fails)} failures")
+    if net:  # the paper's figure (scripts/paper_gen.js refuses it unless it covers every live story)
+        import datetime
+        unreach = [x for x in fails if ": url unreachable (" in x]
+        json.dump(dict(run=datetime.date.today().isoformat(), storiesChecked=len(items), linksNotAnswering=len(unreach),
+                       ruleFailures=len(fails) - len(unreach), ids=sorted(it["id"] for it in items)),
+                  open("analysis/stories_verify.json", "w"), indent=1)
     for x in fails: print("FAIL", x)
     sys.exit(1 if fails else 0)
 

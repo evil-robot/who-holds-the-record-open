@@ -1,0 +1,446 @@
+{
+ "label": "NOT PRE-REGISTERED; written after the primary result was read",
+ "dataSha256": "ad2e13259970e1727b6bc4a0442f31ed62597d3e93b70bc6f5dd5b1bb221229f",
+ "verifier_v2_pass_by_first_session": {
+  "batch_01": true,
+  "batch_02": true,
+  "batch_03": true,
+  "batch_04": true,
+  "batch_05": true,
+  "batch_06": true,
+  "batch_07": true,
+  "batch_08": true,
+  "batch_09": true,
+  "batch_10": true,
+  "batch_11": true,
+  "batch_12": true,
+  "batch_13": true,
+  "batch_14": true,
+  "batch_15": true,
+  "batch_16": true
+ },
+ "a_all_first_sessions_corrected_verifier": {
+  "n": 117,
+  "icc2_1": 0.8389711433695453,
+  "icc2_1_ci": [
+   0.7760254196418507,
+   0.8854009174687005
+  ],
+  "spearman": 0.8470542337608924,
+  "bias": -0.8376068376068376,
+  "bias_ci": [
+   -2.1895970471950155,
+   0.5143833719813401
+  ],
+  "loa": [
+   -15.309324218391588,
+   13.634110543177911
+  ],
+  "sd_diff": 7.383529275910586,
+  "mad": 5.145299145299146,
+  "within10": 0.8717948717948718,
+  "qwk_bands": 0.7055429378184273,
+  "n_abs_ge_15": 13,
+  "close_agreement_rule_met": true,
+  "by_category": {
+   "access": {
+    "n": 22,
+    "icc2_1": 0.6830154848231655,
+    "icc2_1_ci": [
+     0.29528323860870087,
+     0.864745654712757
+    ],
+    "mad": 8.227272727272727,
+    "bias": -5.7727272727272725,
+    "within10": 0.6363636363636364
+   },
+   "control": {
+    "n": 11,
+    "icc2_1": 0.8598395851899865,
+    "icc2_1_ci": [
+     0.5810502718781603,
+     0.9596716519148719
+    ],
+    "mad": 3.090909090909091,
+    "bias": -1.8181818181818181,
+    "within10": 0.9090909090909091
+   },
+   "privacy": {
+    "n": 15,
+    "icc2_1": 0.859497645211931,
+    "icc2_1_ci": [
+     0.6399726723942184,
+     0.9501154923981173
+    ],
+    "mad": 4.2,
+    "bias": 2.066666666666667,
+    "within10": 0.9333333333333333
+   },
+   "commercial": {
+    "n": 11,
+    "icc2_1": 0.9249086058689852,
+    "icc2_1_ci": [
+     0.7480118185665016,
+     0.9791936904683919
+    ],
+    "mad": 2.909090909090909,
+    "bias": -1.6363636363636365,
+    "within10": 1.0
+   },
+   "journey": {
+    "n": 16,
+    "icc2_1": 0.9172127920709537,
+    "icc2_1_ci": [
+     0.7826056279197869,
+     0.9701401637759509
+    ],
+    "mad": 5.9375,
+    "bias": 1.0625,
+    "within10": 0.9375
+   },
+   "clinical": {
+    "n": 14,
+    "icc2_1": 0.7739462700605495,
+    "icc2_1_ci": [
+     0.4406887810513647,
+     0.9208485140353675
+    ],
+    "mad": 8.071428571428571,
+    "bias": 4.214285714285714,
+    "within10": 0.7857142857142857
+   },
+   "research": {
+    "n": 14,
+    "icc2_1": 0.3632019115890077,
+    "icc2_1_ci": [
+     -0.09272534103063612,
+     0.7235558300923459
+    ],
+    "mad": 2.857142857142857,
+    "bias": -2.142857142857143,
+    "within10": 1.0
+   },
+   "ai": {
+    "n": 14,
+    "icc2_1": 0.8356209457553821,
+    "icc2_1_ci": [
+     0.5633096587776049,
+     0.9441399370954552
+    ],
+    "mad": 3.142857142857143,
+    "bias": -0.7142857142857143,
+    "within10": 0.9285714285714286
+   }
+  }
+ },
+ "b_rerun_session_pairs": {
+  "tasks": 36,
+  "both_scored": 32,
+  "null_in_one_session_only": 1,
+  "null_in_both": 3,
+  "mad_between_sessions": 2.84375,
+  "within5": 0.875,
+  "icc2_1_between_sessions": 0.9356464373289659,
+  "max_abs_diff": 23.0,
+  "pairs": [
+   {
+    "task_id": "BLZ.control",
+    "batch": "batch_09",
+    "first": 28,
+    "rerun": 28,
+    "published": 25
+   },
+   {
+    "task_id": "SWZ.privacy",
+    "batch": "batch_09",
+    "first": 52,
+    "rerun": 50,
+    "published": 55
+   },
+   {
+    "task_id": "VCT.ai",
+    "batch": "batch_09",
+    "first": 20,
+    "rerun": 20,
+    "published": 20
+   },
+   {
+    "task_id": "BDI.control",
+    "batch": "batch_09",
+    "first": null,
+    "rerun": null,
+    "published": 28
+   },
+   {
+    "task_id": "GNQ.ai",
+    "batch": "batch_09",
+    "first": 18,
+    "rerun": 18,
+    "published": 18
+   },
+   {
+    "task_id": "LSO.research",
+    "batch": "batch_09",
+    "first": 46,
+    "rerun": 43,
+    "published": 49
+   },
+   {
+    "task_id": "VUT.commercial",
+    "batch": "batch_09",
+    "first": null,
+    "rerun": null,
+    "published": 35
+   },
+   {
+    "task_id": "VEN.journey",
+    "batch": "batch_09",
+    "first": 20,
+    "rerun": 20,
+    "published": 25
+   },
+   {
+    "task_id": "MNE.commercial",
+    "batch": "batch_09",
+    "first": null,
+    "rerun": null,
+    "published": 40
+   },
+   {
+    "task_id": "DJI.journey",
+    "batch": "batch_10",
+    "first": 18,
+    "rerun": 18,
+    "published": 30
+   },
+   {
+    "task_id": "TUN.research#r",
+    "batch": "batch_10",
+    "first": 46,
+    "rerun": 46,
+    "published": 49
+   },
+   {
+    "task_id": "VEN.ai",
+    "batch": "batch_10",
+    "first": 35,
+    "rerun": 30,
+    "published": 35
+   },
+   {
+    "task_id": "KAZ.commercial",
+    "batch": "batch_10",
+    "first": 35,
+    "rerun": 40,
+    "published": 40
+   },
+   {
+    "task_id": "BRN.research",
+    "batch": "batch_10",
+    "first": 43,
+    "rerun": 43,
+    "published": 46
+   },
+   {
+    "task_id": "STP.clinical",
+    "batch": "batch_10",
+    "first": 12,
+    "rerun": 15,
+    "published": 17
+   },
+   {
+    "task_id": "SLV.control",
+    "batch": "batch_10",
+    "first": 28,
+    "rerun": 30,
+    "published": 45
+   },
+   {
+    "task_id": "WSM.control",
+    "batch": "batch_10",
+    "first": 25,
+    "rerun": 25,
+    "published": 25
+   },
+   {
+    "task_id": "AND.research",
+    "batch": "batch_10",
+    "first": 49,
+    "rerun": 72,
+    "published": 50
+   },
+   {
+    "task_id": "ZMB.clinical#r",
+    "batch": "batch_11",
+    "first": 50,
+    "rerun": 50,
+    "published": 40
+   },
+   {
+    "task_id": "KHM.research",
+    "batch": "batch_11",
+    "first": 45,
+    "rerun": 46,
+    "published": 45
+   },
+   {
+    "task_id": "BDI.privacy",
+    "batch": "batch_11",
+    "first": 46,
+    "rerun": 45,
+    "published": 45
+   },
+   {
+    "task_id": "SYC.ai",
+    "batch": "batch_11",
+    "first": 22,
+    "rerun": 20,
+    "published": 20
+   },
+   {
+    "task_id": "BGD.research",
+    "batch": "batch_11",
+    "first": 43,
+    "rerun": 43,
+    "published": 46
+   },
+   {
+    "task_id": "VEN.access",
+    "batch": "batch_11",
+    "first": 32,
+    "rerun": 28,
+    "published": 35
+   },
+   {
+    "task_id": "SDN.ai",
+    "batch": "batch_11",
+    "first": 24,
+    "rerun": 22,
+    "published": 25
+   },
+   {
+    "task_id": "NIC.control",
+    "batch": "batch_11",
+    "first": 28,
+    "rerun": 25,
+    "published": 25
+   },
+   {
+    "task_id": "BOL.clinical",
+    "batch": "batch_11",
+    "first": 40,
+    "rerun": 30,
+    "published": 22
+   },
+   {
+    "task_id": "COG.journey",
+    "batch": "batch_15",
+    "first": 15,
+    "rerun": 15,
+    "published": 22
+   },
+   {
+    "task_id": "PRK.privacy",
+    "batch": "batch_15",
+    "first": 10,
+    "rerun": 8,
+    "published": 15
+   },
+   {
+    "task_id": "IRN.commercial",
+    "batch": "batch_15",
+    "first": 32,
+    "rerun": 28,
+    "published": 30
+   },
+   {
+    "task_id": "BRN.access",
+    "batch": "batch_15",
+    "first": 35,
+    "rerun": 35,
+    "published": 35
+   },
+   {
+    "task_id": "KNA.privacy",
+    "batch": "batch_15",
+    "first": 48,
+    "rerun": 38,
+    "published": 32
+   },
+   {
+    "task_id": "TZA.clinical",
+    "batch": "batch_15",
+    "first": 40,
+    "rerun": null,
+    "published": 40
+   },
+   {
+    "task_id": "ZWE.commercial",
+    "batch": "batch_15",
+    "first": 45,
+    "rerun": 48,
+    "published": 45
+   },
+   {
+    "task_id": "SLV.journey",
+    "batch": "batch_15",
+    "first": 58,
+    "rerun": 52,
+    "published": 52
+   },
+   {
+    "task_id": "OMN.journey",
+    "batch": "batch_15",
+    "first": 68,
+    "rerun": 68,
+    "published": 58
+   }
+  ]
+ },
+ "c_missing_vs_null": {
+  "excluded_batches_after_rerun": [
+   "batch_11"
+  ],
+  "cells_missing_session_excluded": [
+   "BDI.privacy",
+   "BGD.research",
+   "BOL.clinical",
+   "KHM.research",
+   "NIC.control",
+   "SDN.ai",
+   "SYC.ai",
+   "VEN.access"
+  ],
+  "cells_null_from_rater": [
+   "GTM.access",
+   "LAO.access",
+   "TCD.control",
+   "NER.control",
+   "DJI.control",
+   "BDI.control",
+   "MDV.control",
+   "WSM.privacy",
+   "COM.commercial",
+   "TGO.commercial",
+   "MDG.commercial",
+   "MNE.commercial",
+   "VUT.commercial",
+   "TZA.clinical",
+   "AND.clinical",
+   "TON.clinical",
+   "DJI.research",
+   "CUB.research",
+   "VUT.ai",
+   "WSM.ai"
+  ],
+  "null_by_category": {
+   "access": 2,
+   "control": 5,
+   "privacy": 1,
+   "commercial": 5,
+   "clinical": 3,
+   "research": 2,
+   "ai": 2
+  }
+ }
+}

@@ -10,7 +10,7 @@ const BOILERPLATE = [
   'SuperTruth: Data truth is AI truth.',
 ];
 
-function buildPressKit({ C, N, ranked, bandOf, rankLabel, BANDS, bandCount, modelCount, median, top, storyTotal, asOf, SITE, esc, notFull, nSplit, VERSION, YEAR, leadGroup = [], soleLead = false, likely = () => '' }) {
+function buildPressKit({ C, N, ranked, bandOf, rankLabel, BANDS, bandCount, modelCount, median, top, storyTotal, asOf, SITE, esc, notFull, nSplit, VERSION, YEAR, leadGroup = [], soleLead = false, likely = () => '', CONF }) {
   const lowest = ranked[ranked.length - 1].overall;
   const last = ranked.filter(d => d.overall === lowest).map(d => d.name).sort();
   const lastTxt = last.length > 1 ? `${last.slice(0, -1).join(', ')} and ${last.at(-1)} share last place at ${lowest}` : `${last[0]} is last at ${lowest}`;
@@ -66,6 +66,7 @@ ${['CAN', 'USA', 'GBR', 'DEU', 'FRA', 'NLD'].filter(i => C.some(d => d.iso3 === 
 <h2>Data</h2><p><a href="../data/who-holds-the-record-scores.csv" download>Scores (CSV)</a> · <a href="../data/who-holds-the-record-sources.csv" download>Sources (CSV)</a> · <a href="../data/who-holds-the-record.json" download>Everything (JSON)</a> · one-page brief for every country at <a href="../brief/CAN/">/brief/ISO3/</a></p>
 <h2>Method in brief</h2>
 <p>Each country gets a score from 0 to 100 in eight weighted categories: access to the full record (20%), control and consent (20%), privacy and security (15%), connected care (15%), protection from commercial use (10%), clinician access (10%), research consent (5%) and clinical AI governance (5%). Research agents built on Anthropic's Claude did the research in each country's language, opening every cited source; a second agent cross-checked each country; the authors reviewed the results. We audited our own scores, published every change, tested how stable the ranking is, and ran a blind re-scoring.</p>
+<p>${esc(`Confidence: ${CONF.counts}. ${CONF.def} ${CONF.medians}`)} Each country's label is in the data files and on its brief.</p>
 <h2>Cite this</h2><div class="cite">Snyder, J. A., Hill, B., &amp; Raney, D. (${YEAR}). The Health Record Rights Index (version ${VERSION}). SuperTruth Inc. ${SITE}</div>
 <h2>About SuperTruth</h2>${BOILERPLATE.map(p => `<p>${esc(p)}</p>`).join('')}
 <p>SuperTruth sells health data verification products. We built this index and chose its stories ourselves; no one paid to be included.</p>

@@ -1,5 +1,5 @@
 {
- "dataSha256": "1c65d8a64251afbc9a4c01a6f255478ecbcd315600bc1fda50ddd990c0a20f97",
+ "dataSha256": "ad2e13259970e1727b6bc4a0442f31ed62597d3e93b70bc6f5dd5b1bb221229f",
  "n": 58,
  "changedSinceRun": 25,
  "iccCurrent": 0.83,
@@ -13,5 +13,48 @@
   14.9
  ],
  "within10Current": 0.862,
- "note": "Rater scores against current published scores; the rater read the sources cited on its run date."
+ "note": "Rater scores against current published scores; the rater read the sources cited on its run date.",
+ "perCategoryIccAtRun": {
+  "access": {
+   "n": 8,
+   "icc": 0.25
+  },
+  "ai": {
+   "n": 8,
+   "icc": 0.68
+  },
+  "clinical": {
+   "n": 7,
+   "icc": 0.73
+  },
+  "commercial": {
+   "n": 5,
+   "icc": 0.92
+  },
+  "control": {
+   "n": 8,
+   "icc": 0.95
+  },
+  "journey": {
+   "n": 7,
+   "icc": 0.88
+  },
+  "privacy": {
+   "n": 8,
+   "icc": 0.92
+  },
+  "research": {
+   "n": 7,
+   "icc": 0.54
+  }
+ },
+ "ratedByRegion": {
+  "Africa": 4,
+  "Americas": 7,
+  "Asia": 7,
+  "Europe": 34,
+  "Middle East": 4,
+  "Oceania": 2
+ },
+ "sampleFrame": "520 cells of the 65 countries then in the index (analysis/reliability/sample.json)"
 }

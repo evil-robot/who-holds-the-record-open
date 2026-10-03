@@ -1,0 +1,112 @@
+/* Health Record Rights Index working paper: print stylesheet (headless Chrome 131+, which supports @page margin boxes).
+   One page size, A4, with a content box that also fits US Letter: 166 x 243 mm, inside Letter's 215.9 x 279.4 mm.
+   Type: Inter for text and headings, JetBrains Mono for the numbers in tables. Colour: ink and greys, SuperTruth teal
+   #0F766E for small accents only. The running footer is written by scripts/paper_html.py (it needs the title and version). */
+
+@font-face { font-family: Inter; font-weight: 100 900; src: url(../out/assets/fonts/inter-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: Inter; font-weight: 100 900; src: url(../out/assets/fonts/inter-latin-ext.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "JetBrains Mono"; font-weight: 100 800; src: url(../out/assets/fonts/jetbrains-mono-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "JetBrains Mono"; font-weight: 100 800; src: url(../out/assets/fonts/jetbrains-mono-latin-ext.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+:root { --ink: #111827; --body: #1F2937; --muted: #6B7280; --rule: #D1D5DB; --hair: #E5E7EB; --teal: #0F766E;
+        --text: 116mm; --wide: 166mm; }
+
+@page { size: A4; margin: 22mm 22mm 32mm 22mm; }
+
+html { font-family: Inter, system-ui, sans-serif; font-size: 10pt; line-height: 1.5; color: var(--body);
+       font-feature-settings: "cv11" 1, "ss01" 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; padding: 0; max-width: none; background: #fff; hyphens: manual; }
+
+/* the text column is a readable measure; tables and figures break out to the full content width */
+body > * { max-width: var(--text); margin-left: 0 !important; margin-right: 0 !important; }
+body > table, body > figure, body > .tablewrap, body > .titlepage { max-width: var(--wide); width: var(--wide); }
+
+p { margin: 0 0 0.62em; orphans: 3; widows: 3; text-wrap: pretty; }
+strong { font-weight: 600; color: var(--ink); }
+em { font-style: italic; }
+a { color: var(--teal); text-decoration: none; }
+ul, ol { padding-left: 1.3em; margin: 0 0 0.7em; }
+ol { padding-left: 2em; }   /* room for two-digit numbers (7.4 items 10 and 11 were clipped) */
+li { margin: 0 0 0.3em; orphans: 2; widows: 2; }
+li > p { margin: 0; }
+hr { display: none; }
+code { font-family: "JetBrains Mono", monospace; font-size: 0.86em; }
+
+/* headings */
+h2, h3, h4 { color: var(--ink); text-wrap: balance; break-after: avoid; page-break-after: avoid; hyphens: manual; }
+h2 { font-size: 13.5pt; font-weight: 650; line-height: 1.25; letter-spacing: -0.01em; margin: 1.9em 0 0.6em; }
+h3 { font-size: 10.6pt; font-weight: 620; line-height: 1.3; margin: 1.45em 0 0.4em; }
+h4 { font-size: 9.6pt; font-weight: 600; margin: 1.2em 0 0.3em; }
+h2 .num, h3 .num { color: var(--teal); font-weight: 600; margin-right: 0.45em; font-variant-numeric: tabular-nums; }
+h2 + h3 { margin-top: 0.7em; }
+
+/* abstract: same face, a touch smaller, set off by space only */
+#abstract { margin-top: 0; }
+.abstract { font-size: 9.6pt; line-height: 1.5; }
+.keywords { font-size: 8.6pt; color: var(--muted); margin-top: 0.9em; }
+.keywords strong { color: var(--muted); }
+
+/* title page: a light page; teal only on the label and one hairline */
+.titlepage { height: 236mm; display: flex; flex-direction: column; break-after: page; page-break-after: always; }
+.tp-logo svg { height: 7.5mm; width: auto; display: block; }
+.tp-label { margin: 34mm 0 0; font-size: 8.4pt; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal); }
+.tp-title { font-size: 30pt; font-weight: 700; line-height: 1.08; letter-spacing: -0.022em; color: var(--ink); margin: 5mm 0 0;
+            max-width: 150mm; text-wrap: balance; hyphens: manual; }
+.tp-sub { font-size: 17pt; font-weight: 400; line-height: 1.25; letter-spacing: -0.01em; color: #374151; margin: 4mm 0 0; max-width: 140mm; text-wrap: balance; hyphens: manual; }
+.tp-authors { margin-top: 14mm; padding-top: 5mm; border-top: 0.6pt solid var(--teal); max-width: 140mm; }
+.tp-authors p { margin: 0 0 1.5mm; font-size: 11pt; color: var(--ink); }
+.tp-authors p + p { font-size: 8.8pt; color: var(--muted); }
+.tp-authors strong { font-weight: 600; }
+.tp-meta { margin-top: auto; display: grid; grid-template-columns: 30mm 1fr; column-gap: 6mm; row-gap: 1.6mm; font-size: 8.6pt; line-height: 1.4; color: var(--body); max-width: 150mm; }
+.tp-meta dt { color: var(--muted); font-weight: 500; }
+.tp-meta dd { margin: 0; }
+.tp-meta a { color: var(--ink); white-space: nowrap; }
+
+/* tables: three rules (top, under the header, bottom), no verticals, no zebra; numbers right-aligned in JetBrains Mono */
+table { display: table; border-collapse: collapse; width: auto; min-width: 60%; max-width: 100%; table-layout: auto; font-size: 8.2pt; line-height: 1.3;
+        margin: 0; border-top: 0.9pt solid var(--ink); border-bottom: 0.9pt solid var(--ink); font-variant-numeric: tabular-nums; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+th { font-weight: 600; color: var(--ink); text-align: left; vertical-align: bottom; padding: 3.2pt 5pt 2.6pt; border-bottom: 0.5pt solid var(--ink); hyphens: manual; }
+td { vertical-align: top; padding: 1.9pt 5pt; }
+th:first-child, td:first-child { padding-left: 0; }
+th:last-child, td:last-child { padding-right: 0; }
+tbody tr:first-child td { padding-top: 3.4pt; }
+tbody tr:last-child td { padding-bottom: 3.4pt; }
+td.nw { white-space: nowrap; padding-left: 9pt; font-family: "JetBrains Mono", monospace; font-size: 7.6pt; letter-spacing: -0.01em; }
+table.long tbody tr:nth-child(5n) td { border-bottom: 0.4pt solid var(--hair); }
+table.long tbody tr:last-child td { border-bottom: none; }
+table.narrow td, table.narrow th { overflow-wrap: normal; word-break: keep-all; hyphens: none; }
+table.wide td, table.wide th { overflow-wrap: anywhere; hyphens: auto; }
+
+/* captions: above tables, below figures; small, grey, the label in ink */
+.tablewrap { margin: 1.1em 0 1.3em; }
+.tablewrap.keep { break-inside: avoid; page-break-inside: avoid; }
+.caption { font-size: 8.3pt; line-height: 1.42; color: #4B5563; margin: 0 0 2.2mm; text-wrap: pretty; hyphens: manual; }
+.caption .lbl { font-weight: 650; color: var(--ink); margin-right: 0.3em; }
+.tablewrap > .caption { max-width: var(--text); break-after: avoid; page-break-after: avoid; }
+figure { margin: 1.3em 0 1.4em; break-inside: avoid; page-break-inside: avoid; }
+figure img, figure svg { display: block; width: 100%; height: auto; }
+figure .caption { margin: 2.6mm 0 0; max-width: var(--text); }
+
+/* references: hanging, smaller, long URLs may break anywhere */
+.refs p { font-size: 8.3pt; line-height: 1.42; padding-left: 2.2em; text-indent: -2.2em; overflow-wrap: anywhere; hyphens: manual; margin-bottom: 0.45em; text-wrap: wrap; }
+table.long { width: 100%; }
+td.nb { white-space: nowrap; }
+/* a long table never leaves its header and fewer than four rows at the foot of a page */
+table.long tbody tr:nth-child(-n+3) { break-after: avoid; page-break-after: avoid; }
+table > caption.caption { caption-side: top; text-align: left; padding-bottom: 2.2mm; margin: 0; }
+table.long thead, table.long thead tr { break-after: avoid; page-break-after: avoid; } table.long > caption { break-after: avoid; }
+table > caption.caption { break-inside: avoid; page-break-inside: avoid; orphans: 9; widows: 9; }
+td.wbar { width: 22mm; padding-left: 4pt; vertical-align: middle; }
+td.wbar span { display: block; height: 3.2pt; background: #0F766E; }
+th.wbar { width: 22mm; }
+/* numeric ranges split into lo | to | hi so the digits and "to" line up (paper_html.py splitranges) */
+td.rlo { text-align: right; padding-right: 0; }
+td.rto { text-align: center; padding-left: 3pt; padding-right: 3pt; color: #6B7280; font-size: 7.6pt; }
+td.rhi { text-align: right; padding-left: 0; }
+th.rrange { text-align: center; }

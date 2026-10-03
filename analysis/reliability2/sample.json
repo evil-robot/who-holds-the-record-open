@@ -1,0 +1,2835 @@
+{
+ "seed": 20261003,
+ "drawn_utc": "2026-10-03T00:13:18Z",
+ "dataSha256_at_draw": "ad2e13259970e1727b6bc4a0442f31ed62597d3e93b70bc6f5dd5b1bb221229f",
+ "frame": {
+  "countries": 133,
+  "cells": 1064,
+  "regions": {
+   "Africa": 48,
+   "Americas": 27,
+   "Asia": 21,
+   "Europe": 14,
+   "Middle East": 11,
+   "Oceania": 12
+  },
+  "definition": "every country in data/ not in analysis/waves.json original, wave1 or albania"
+ },
+ "per_category": {
+  "access": 24,
+  "control": 16,
+  "privacy": 16,
+  "commercial": 16,
+  "journey": 16,
+  "clinical": 16,
+  "research": 16,
+  "ai": 16
+ },
+ "region_alloc": {
+  "Africa": 49,
+  "Americas": 28,
+  "Asia": 22,
+  "Europe": 14,
+  "Middle East": 11,
+  "Oceania": 12
+ },
+ "grid": {
+  "access": {
+   "Africa": 8,
+   "Americas": 5,
+   "Asia": 4,
+   "Europe": 3,
+   "Middle East": 2,
+   "Oceania": 2
+  },
+  "control": {
+   "Africa": 6,
+   "Americas": 4,
+   "Asia": 2,
+   "Europe": 2,
+   "Middle East": 1,
+   "Oceania": 1
+  },
+  "privacy": {
+   "Africa": 6,
+   "Americas": 3,
+   "Asia": 3,
+   "Europe": 2,
+   "Middle East": 1,
+   "Oceania": 1
+  },
+  "commercial": {
+   "Africa": 6,
+   "Americas": 3,
+   "Asia": 3,
+   "Europe": 1,
+   "Middle East": 2,
+   "Oceania": 1
+  },
+  "journey": {
+   "Africa": 5,
+   "Americas": 3,
+   "Asia": 3,
+   "Europe": 1,
+   "Middle East": 2,
+   "Oceania": 2
+  },
+  "clinical": {
+   "Africa": 6,
+   "Americas": 3,
+   "Asia": 2,
+   "Europe": 2,
+   "Middle East": 1,
+   "Oceania": 2
+  },
+  "research": {
+   "Africa": 6,
+   "Americas": 3,
+   "Asia": 3,
+   "Europe": 2,
+   "Middle East": 1,
+   "Oceania": 1
+  },
+  "ai": {
+   "Africa": 6,
+   "Americas": 4,
+   "Asia": 2,
+   "Europe": 1,
+   "Middle East": 1,
+   "Oceania": 2
+  }
+ },
+ "cells": [
+  {
+   "cell_id": "LBR.access",
+   "iso3": "LBR",
+   "name": "Liberia",
+   "region": "Africa",
+   "category": "access",
+   "urls": [
+    "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/96959/LBR96959.pdf",
+    "https://naturecompact.org/admin_1230naturecompact/subresources/202301315880010.pdf",
+    "https://allafrica.com/stories/202608210322.html",
+    "https://moh.gov.lr/wp-content/uploads/REOI-EMR-Project-5993-08062026-3.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NER.access",
+   "iso3": "NER",
+   "name": "Niger",
+   "region": "Africa",
+   "category": "access",
+   "urls": [
+    "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf",
+    "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/NER_Niger_National-eHealth-Strategy_2019-2023.pdf",
+    "https://anp.ne/niger-plusieurs-services-rattaches-ou-sous-tutelle-de-la-presidence-de-la-primature-et-du-secretariat-general-du-gouvernement-supprimes/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "COM.access",
+   "iso3": "COM",
+   "name": "Comoros",
+   "region": "Africa",
+   "category": "access",
+   "urls": [
+    "https://faolex.fao.org/docs/pdf/com239753.pdf",
+    "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-26-juin-2014-portant-protection-des-donnees-a-caractere-personnel.pdf",
+    "https://hisprwanda.org/les-comores-renforcent-leur-ecosysteme-numerique-pour-la-vaccination-la-surveillance-epidemiologique-et-lutilisation-des-donnees/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "DZA.access",
+   "iso3": "DZA",
+   "name": "Algeria",
+   "region": "Africa",
+   "category": "access",
+   "urls": [
+    "https://www.joradp.dz/FTP/jo-francais/2018/F2018034.pdf",
+    "https://www.joradp.dz/FTP/jo-francais/2018/F2018046.pdf",
+    "http://news.radioalgerie.dz/ar/node/90382",
+    "https://play.google.com/store/apps/details?id=dz.cnas.mobile_elhanaa&hl=fr"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://news.radioalgerie.dz/ar/node/90382"
+   ]
+  },
+  {
+   "cell_id": "BDI.access",
+   "iso3": "BDI",
+   "name": "Burundi",
+   "region": "Africa",
+   "category": "access",
+   "urls": [
+    "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf",
+    "https://arct.gov.bi/2026/03/18/loi-n1-03-du-10-mars-2026-portant-protection-des-donnees-a-caractere-personnel/",
+    "https://x.com/seticburundi/status/2066841935315095724",
+    "https://minisante.gov.bi/wp-content/uploads/document_valide/Politique%20Nationale%20de%20Gouvernance%20des%20Donn%C3%A9es%20Sanitaires%20au%20Burundi.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "UGA.access",
+   "iso3": "UGA",
+   "name": "Uganda",
+   "region": "Africa",
+   "category": "access",
+   "urls": [
+    "https://ict.go.ug/site/documents/Data-Protection-and-Privacy-Act-2019.pdf",
+    "https://pmlawhub.com/wp-content/uploads/2025/12/Data-Protection-and-Privacy-Regulations-SI-No-21-of-2021-Uganda-1.pdf",
+    "https://cphl.go.ug/uploads/library/1782711708338-1c560da2c811.pdf",
+    "https://health.go.ug/electronic-medical-records-rollout-transforms-patient-care-and-data-management"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TCD.access",
+   "iso3": "TCD",
+   "name": "Chad",
+   "region": "Africa",
+   "category": "access",
+   "urls": [
+    "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf",
+    "http://www.hopitalrenaissance-tchad.com/Patient7",
+    "https://hisprwanda.org/le-tchad-accelere-sa-transformation-numerique-du-systeme-de-sante/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LSO.access",
+   "iso3": "LSO",
+   "name": "Lesotho",
+   "region": "Africa",
+   "category": "access",
+   "urls": [
+    "https://dataprotection.africa/wp-content/uploads/2022/09/Lesotho_DPA.pdf",
+    "https://www.lena.gov.ls/urgent-gaps-in-cyber-security-data-protection-outlined/",
+    "https://www.mcc.gov/blog/entry/blog-121123-digital-health-lesotho/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "GTM.access",
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "region": "Americas",
+   "category": "access",
+   "urls": [
+    "https://www.oas.org/dil/esp/Constitucion_Guatemala.pdf",
+    "https://www.oas.org/juridico/pdfs/mesicic4_gtm_acceso.pdf",
+    "https://medicamentos.mspas.gob.gt/index.php/legislacion-vigente/decretos?download=292%3Acodigo-de-salud",
+    "https://play.google.com/store/apps/details?id=org.igssgt.AfiliadosProd.Android&hl=es_GT"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "VEN.access",
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "region": "Americas",
+   "category": "access",
+   "urls": [
+    "https://venezuela.justia.com/federales/leyes-organicas/ley-organica-de-salud/gdoc/",
+    "https://docs.venezuela.justia.com/federales/codigos/codigo-de-deontologia-medica.pdf",
+    "https://www.oas.org/dil/esp/constitucion_venezuela.pdf",
+    "https://mincyt.gob.ve/gobierno-bolivariano-activa-plataforma-de-datos-para-acceso-a-la-historia-clinica-digital-en-venezuela/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BHS.access",
+   "iso3": "BHS",
+   "name": "Bahamas",
+   "region": "Americas",
+   "category": "access",
+   "urls": [
+    "https://www.lexbahamas.com/Data%20Protection%202003.pdf",
+    "https://www.nhibahamas.gov.bs/privacy/",
+    "https://www.nhibahamas.gov.bs/patient-portal/",
+    "https://cdn.bahamas.gov.bs/tenant/tenantministryofhealth/documents/BHSHealthStrategy-20260331091916.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://www.nhibahamas.gov.bs/patient-portal-and-healow-app/"
+   ]
+  },
+  {
+   "cell_id": "PRY.access",
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "region": "Americas",
+   "category": "access",
+   "urls": [
+    "https://pdba.georgetown.edu/Parties/Paraguay/Leyes/constitucion.pdf",
+    "https://baselegal.com.py/docs/c0b02f3c-cc40-11f0-8c5a-525400343722",
+    "https://silpy.congreso.gov.py/web/expediente/129698",
+    "https://portal.ips.gov.py/sistemas/ipsportal/contenido.php?c=278"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BOL.access",
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "region": "Americas",
+   "category": "access",
+   "urls": [
+    "https://minsalud.gob.bo/images/Documentacion/redes_salud/NORMA%20TECNICA%20PARA%20EL%20MANEJO%20DEL%20EXPEDIENTE%20CLINICO.pdf",
+    "https://www.minsalud.gob.bo/images/Documentacion/normativa/Ley%203131%20Ejercicio%20Mdico.pdf",
+    "https://www.oas.org/dil/esp/constitucion_bolivia.pdf",
+    "https://unifranz.edu.bo/blog/expediente-clinico-propiedad-del-paciente-o-de-la-institucion-de-salud/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "PRK.access",
+   "iso3": "PRK",
+   "name": "North Korea",
+   "region": "Asia",
+   "category": "access",
+   "urls": [
+    "https://www.unilaw.go.kr/bbs/selectBoardArticle.do?bbsId=BBSMSTR_000000000021&nttId=181&bbsTyCode=BBST01&bbsAttrbCode=BBSA02&authFlag=Y&menuNo=3010000&upperMenuId=3000000",
+    "https://www.unilaw.go.kr/bbs/selectBoardArticle.do?bbsId=BBSMSTR_000000000021&nttId=184&bbsTyCode=BBST01&bbsAttrbCode=BBSA02&authFlag=Y&menuNo=3010000&upperMenuId=3000000"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BRN.access",
+   "iso3": "BRN",
+   "name": "Brunei",
+   "region": "Asia",
+   "category": "access",
+   "urls": [
+    "https://pdp.aiti.gov.bn/media/tndpduml/s-1_2025-e.pdf",
+    "https://www.healthinfo.gov.bn/user-center-app/#/user/privacy-clause",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9767305/",
+    "https://jpmcbrunei.com/accessing-medical-health-records/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TLS.access",
+   "iso3": "TLS",
+   "name": "Timor-Leste",
+   "region": "Asia",
+   "category": "access",
+   "urls": [
+    "https://timor-leste.gov.tl/wp-content/uploads/2010/03/Constituicao_RDTL_PT.pdf",
+    "https://www.timor-lestetradeportal.com/upload/files/Legal_1680422501.pdf",
+    "https://timor-leste.gov.tl/wp-content/uploads/2010/03/DL_2004_18_Unidades_Privadas_Saude_1.pdf",
+    "https://www.mj.gov.tl/files/2026/Esbosu%20Lei%20Protesaun%20Dadus%20Pessoais.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LAO.access",
+   "iso3": "LAO",
+   "name": "Laos",
+   "region": "Asia",
+   "category": "access",
+   "urls": [
+    "https://na.gov.la/wp-content/uploads/2021/11/5.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B4%E0%BB%88%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%A7-2023.pdf",
+    "https://na.gov.la/wp-content/uploads/2021/11/57.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%81%E0%BA%9B%E0%BB%89%E0%BA%AD%E0%BA%87%E0%BA%82%E0%BB%8D%E0%BB%89%E0%BA%A1%E0%BA%B9%E0%BA%99%E0%BB%80%E0%BA%AD%E0%BB%80%E0%BA%A5%E0%BA%B1%E0%BA%81%E0%BB%82%E0%BA%95%E0%BA%A3%E0%BA%99%E0%BA%B4%E0%BA%81-2017.pdf",
+    "https://extranet.who.int/countryplanningcycles/sites/default/files/public_file_rep/LAO_Lao_People-Digital-Health-Strategy_2023-2027.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SMR.access",
+   "iso3": "SMR",
+   "name": "San Marino",
+   "region": "Europe",
+   "category": "access",
+   "urls": [
+    "https://fse.iss.sm/",
+    "https://www.sanita.sm/pub1/SanitaSM/dettaglio_notizia.html?idItem=2ecf1a4e-7cfb-4ae7-9fa2-9afe9c2ca52c",
+    "https://www.iss.sm/on-line/home/articolo49016573.html",
+    "https://garanteprivacy.sm/pub1/dam/jcr:5bfff8ec-b3d3-4c2b-8624-3f0ccfa26e6e/L171-2018%20%5B%20testo%20consolidato%202023%5D.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BLR.access",
+   "iso3": "BLR",
+   "name": "Belarus",
+   "region": "Europe",
+   "category": "access",
+   "urls": [
+    "https://pravo.by/webnpa/text.asp?RN=v19302435",
+    "https://mogcp.by/one-window/ap-clinic8/item/341-procedure7-9?tmpl=component&print=1",
+    "https://minzdrav.gov.by/ru/dlya-spetsialistov/elektronnoe-zdravookhranenie/tsentralizovannaya-informatsionnaya-sistema-zdravookhraneniya/",
+    "https://devby.io/news/v-belarusi-zapustili-medportal-s-lichnym-kabinetom-patsientov"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://pravo.by/document/?guid=3871&p0=v19302435"
+   ]
+  },
+  {
+   "cell_id": "XKX.access",
+   "iso3": "XKX",
+   "name": "Kosovo",
+   "region": "Europe",
+   "category": "access",
+   "urls": [
+    "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=2454",
+    "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=18616",
+    "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=53141",
+    "https://documents.worldbank.org/curated/en/099060226110535583/pdf/P179831-216ae05d-5c28-4139-a053-f1e6433717f0.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://documents1.worldbank.org/curated/en/099060226110535583/pdf/P179831-216ae05d-5c28-4139-a053-f1e6433717f0.pdf"
+   ]
+  },
+  {
+   "cell_id": "YEM.access",
+   "iso3": "YEM",
+   "name": "Yemen",
+   "region": "Middle East",
+   "category": "access",
+   "urls": [
+    "https://www.wipo.int/wipolex/en/legislation/details/20003",
+    "https://www.yemenilaw.com/library/yemeni-laws/qanun-almihan-altibiya-walsaydaliya/",
+    "https://openknowledge.worldbank.org/server/api/core/bitstreams/cdb53fc6-4d3e-42b6-8c2f-8fc6e4a3a5a7/content"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "IRQ.access",
+   "iso3": "IRQ",
+   "name": "Iraq",
+   "region": "Middle East",
+   "category": "access",
+   "urls": [
+    "https://ailawyeriq.cloud/ar-IQ/laws/details?id=3990",
+    "https://www.yasaii.info/yasa/a/item/download/2899_0f57cd0d9e0b33078cbff1d79d7034a6.html",
+    "https://ina.iq/ar/local/254161-24-9.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "FSM.access",
+   "iso3": "FSM",
+   "name": "Micronesia",
+   "region": "Oceania",
+   "category": "access",
+   "urls": [
+    "https://fsmlaw.org/fsm/constitution/article4.htm",
+    "https://www.cfsm.gov.fm/wp-content/uploads/2025/06/CB-24-17.pdf",
+    "http://www.fsmlaw.org/fsm/code/PDF/FSMCA2014Tit41.pdf",
+    "https://hsa.gov.fm/wp-content/uploads/2026/03/FSM-Digital-Health-Strategic-Plan-Signed-1.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "KIR.access",
+   "iso3": "KIR",
+   "name": "Kiribati",
+   "region": "Oceania",
+   "category": "access",
+   "urls": [
+    "https://www.mict.gov.ki/sites/default/files/publications/Data%20Protection%20Act%202025.pdf",
+    "https://www.mict.gov.ki/sites/default/files/publications/Digital%20Government%20Act%202023.pdf",
+    "https://lexlint.io/l/ki-data-protection-2025-s-17-right-not-be-subjec",
+    "https://www.levellers.ai/what-is/ai-regulation-kiribati"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LBR.control",
+   "iso3": "LBR",
+   "name": "Liberia",
+   "region": "Africa",
+   "category": "control",
+   "urls": [
+    "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/96959/LBR96959.pdf",
+    "https://www.hrw.org/news/2026/06/08/human-rights-assessment-of-the-2025-2026-us-bilateral-health-agreements",
+    "https://liberianinvestigator.com/secret-us-liberia-health-pact-audit-clinics-patient-data/",
+    "https://healthpolicy-watch.news/wp-content/uploads/2025/12/US-Liberia-MOU-2025.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TCD.control",
+   "iso3": "TCD",
+   "name": "Chad",
+   "region": "Africa",
+   "category": "control",
+   "urls": [
+    "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NER.control",
+   "iso3": "NER",
+   "name": "Niger",
+   "region": "Africa",
+   "category": "control",
+   "urls": [
+    "https://www.hapdp.ne/uploads/files/Loi-2022-59-consolidee.pdf"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "DJI.control",
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "region": "Africa",
+   "category": "control",
+   "urls": [
+    "https://www.journalofficiel.dj/wp-content/uploads/2025/09/code-numerique.pdf"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BDI.control",
+   "iso3": "BDI",
+   "name": "Burundi",
+   "region": "Africa",
+   "category": "control",
+   "urls": [
+    "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf",
+    "https://minisante.gov.bi/wp-content/uploads/document_valide/Politique%20Nationale%20de%20Gouvernance%20des%20Donn%C3%A9es%20Sanitaires%20au%20Burundi.pdf",
+    "https://www.citizen.org/wp-content/uploads/BURUNDI_FL-2026-00021_August-2026-Production_RELEASE.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "blocked_unverified"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BEN.control",
+   "iso3": "BEN",
+   "name": "Benin",
+   "region": "Africa",
+   "category": "control",
+   "urls": [
+    "https://www.afapdp.org/wp-content/uploads/2018/06/Benin-Loi-2017-20-Portant-code-du-numerique-en-Republique-du-Benin.pdf",
+    "https://archive.apdp.bj/lois/la-loi-n-2017-20-portant-code-du-numerique-en-republique-du-benin/"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SLV.control",
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "region": "Americas",
+   "category": "control",
+   "urls": [
+    "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/7A4FBD85-7E1B-46BE-9408-6FC549E53E00.pdf",
+    "https://asp.salud.gob.sv/regulacion/pdf/norma/normatecnicadelexpedienteclinico-Acuerdo-Ejecutivo-1616-30052024_v1-reforma1.pdf",
+    "https://diario.elmundo.sv/nacionales/doctorsv-compartira-datos-de-salud-para-investigaciones-cientificas"
+   ],
+   "url_check": [
+    "error",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BLZ.control",
+   "iso3": "BLZ",
+   "name": "Belize",
+   "region": "Americas",
+   "category": "control",
+   "urls": [
+    "https://amandala.com.bz/news/paho-and-moh-unveil-clinical-data-exchange-platform/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2636185/",
+    "https://egov.gov.bz/wp-content/uploads/2023/02/Act-No.-45-of-2021-Data-Protection-Act.pdf",
+    "https://www.nhi.bz/members-rights-responsibilities/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "VEN.control",
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "region": "Americas",
+   "category": "control",
+   "urls": [
+    "https://mincyt.gob.ve/gobierno-bolivariano-activa-plataforma-de-datos-para-acceso-a-la-historia-clinica-digital-en-venezuela/",
+    "https://radiomiraflores.net.ve/innovacion-venezuela-implementa-sistema-nacional-de-historia-clinica-digital/",
+    "https://www.ciudadccs.info/publicacion/38014-0",
+    "https://docs.venezuela.justia.com/federales/codigos/codigo-de-deontologia-medica.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NIC.control",
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "region": "Americas",
+   "category": "control",
+   "urls": [
+    "https://www.minsa.gob.ni/sites/default/files/2023-02/N%20-%20004%20Norma%20para%20el%20manejo%20de%20expediente%20cl%C3%ADnica%20y%20Manual%20para%20el%20manejo%20del%20Expediente%20Cl%C3%ADnico%20%28Segunda%20Edici%C3%B3n.pdf",
+    "https://www.paho.org/es/noticias/20-3-2024-ministerio-salud-muestra-avances-salud-digital-representantes-cooperacion",
+    "https://database.cyberpolicyportal.org/entity/trpx98tiuil?page=3&file=1658413503525lkgw2zj008.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MDV.control",
+   "iso3": "MDV",
+   "name": "Maldives",
+   "region": "Asia",
+   "category": "control",
+   "urls": [
+    "https://mvlaw.gov.mv/dv/legislations/48/consolidations/1244",
+    "https://storage.googleapis.com/gazette.gov.mv/docs/gazette/5872.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "KGZ.control",
+   "iso3": "KGZ",
+   "name": "Kyrgyzstan",
+   "region": "Asia",
+   "category": "control",
+   "urls": [
+    "https://cbd.minjust.gov.kg/4-5260/edition/23422/ru",
+    "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+    "https://24.kg/obschestvo/291005_tsifrovoy_profil_zdorovya_kak_uznat_vsyu_meditsinskuyu_informatsiyu_osebe/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AND.control",
+   "iso3": "AND",
+   "name": "Andorra",
+   "region": "Europe",
+   "category": "control",
+   "urls": [
+    "http://portaljuridicandorra.ad/L2017020",
+    "https://www.altaveu.com/actualitat/usuaris-dels-serveis-sanitaris-reclamen-una-alternativa-a-la-historia-clinica-compartida_10042_102.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://portaljuridicandorra.ad/L2017020"
+   ]
+  },
+  {
+   "cell_id": "GRL.control",
+   "iso3": "GRL",
+   "name": "Greenland",
+   "region": "Europe",
+   "category": "control",
+   "urls": [
+    "https://nalunaarutit.gl/groenlandsk-lovgivning/2001/ltf-06-2001?sc_lang=da",
+    "https://dia-multisite.euwest01.umbraco.io/media/o3ee2g0d/da_foedsler_i_groenland_2022.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "IRQ.control",
+   "iso3": "IRQ",
+   "name": "Iraq",
+   "region": "Middle East",
+   "category": "control",
+   "urls": [
+    "https://ina.iq/ar/local/254161-24-9.html",
+    "https://iraq.shafaqna.com/AR/612235/",
+    "https://www.yasaii.info/yasa/a/item/download/2899_0f57cd0d9e0b33078cbff1d79d7034a6.html",
+    "https://ailawyeriq.cloud/ar-IQ/laws/details?id=3990"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "WSM.control",
+   "iso3": "WSM",
+   "name": "Samoa",
+   "region": "Oceania",
+   "category": "control",
+   "urls": [
+    "https://www.health.gov.ws/wp-content/uploads/2023/02/Samoa-eHealth-Policy-Strategy-2017-2022.pdf",
+    "https://www.samoaobserver.ws/category/samoa/106872",
+    "https://www.health.gov.ws/wp-content/uploads/2023/02/Patient-Complaint-and-Grievance-Policy-2015.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BDI.privacy",
+   "iso3": "BDI",
+   "name": "Burundi",
+   "region": "Africa",
+   "category": "privacy",
+   "urls": [
+    "https://arct.gov.bi/wp-content/uploads/2026/03/Loi-n%C2%B01_03-2026-protection-des-donnees-a-caractere-personnel_compressed.pdf",
+    "https://lerenouveau.bi/assemblee-nationale-du-burundi-analyse-et-adoption-dune-loi-portant-protection-des-donnees-a-caractere-personnel/",
+    "https://x.com/seticburundi/status/2066841935315095724"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "UGA.privacy",
+   "iso3": "UGA",
+   "name": "Uganda",
+   "region": "Africa",
+   "category": "privacy",
+   "urls": [
+    "https://ict.go.ug/site/documents/Data-Protection-and-Privacy-Act-2019.pdf",
+    "https://cipesa.org/2025/07/ugandan-regulator-finds-google-in-breach-of-countrys-data-protection-law-orders-local-registration/",
+    "https://www.africadataprotection.org/en/actualites/Uganda-Health-Facilities-Ordered-to-Comply-with-Data-Protection-Law.html",
+    "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NAM.privacy",
+   "iso3": "NAM",
+   "name": "Namibia",
+   "region": "Africa",
+   "category": "privacy",
+   "urls": [
+    "https://www.lac.org.na/laws/annoSTAT/Namibian%20Constitution.pdf",
+    "https://www.lac.org.na/laws/annoSTAT/Public%20and%20Environmental%20Health%20Act%201%20of%202015.pdf",
+    "https://itweb.africa/article/namibia-pushes-cyber-security-reforms/mQwkoq6YJWlM3r9A",
+    "https://www.namibian.com.na/us-health-deal-faces-data-privacy-backlash-in-namibia/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SWZ.privacy",
+   "iso3": "SWZ",
+   "name": "Eswatini",
+   "region": "Africa",
+   "category": "privacy",
+   "urls": [
+    "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/SWZ_Eswatini_The-Data-Protection-Act_2022.pdf",
+    "https://www.edpa.org.sz/enforcement.html",
+    "https://www.edpa.org.sz/",
+    "https://times.co.sz/39805/news/health-data-guidelines-enter-validation-stage/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AGO.privacy",
+   "iso3": "AGO",
+   "name": "Angola",
+   "region": "Africa",
+   "category": "privacy",
+   "urls": [
+    "https://apd.ao/fotos/frontend_1/editor2/110617_lei_22-11_de_17_junho-proteccao_dados_pessoais.pdf",
+    "https://apd.ao/ao/",
+    "https://expansao.co.ao/empresas/detalhe/agencia-de-proteccao-de-dados-ja-aplicou-multas-de-25-milhoes-usd-desde-2022-73575.html",
+    "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "CPV.privacy",
+   "iso3": "CPV",
+   "name": "Cape Verde",
+   "region": "Africa",
+   "category": "privacy",
+   "urls": [
+    "https://www.arc.cv/arc/upload/legislacao/lesgi_63207ee2981fe5.62250708111.pdf",
+    "https://www.cnpd.cv/relatorio-de-atividades/"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BRB.privacy",
+   "iso3": "BRB",
+   "name": "Barbados",
+   "region": "Americas",
+   "category": "privacy",
+   "urls": [
+    "https://www.privacylaws.com/media/4517/data-protection-act-2019-29.pdf",
+    "https://www.gov.bb/General/data-protection-commissioner",
+    "https://www.cbc.bb/news/local-news/qeh-warns-of-delays-following-cyber-security-incident/",
+    "https://nielharper.com/2026/08/19/barbados-data-protection-watchdog-has-real-teeth-on-paper-why-hasnt-it-bitten/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BHS.privacy",
+   "iso3": "BHS",
+   "name": "Bahamas",
+   "region": "Americas",
+   "category": "privacy",
+   "urls": [
+    "https://www.lexbahamas.com/Data%20Protection%202003.pdf",
+    "https://cdn.bahamas.gov.bs/tenant/tenantdataprotection/documents/Data-Protection-Bill-2025-20251222135142.pdf",
+    "https://www.tribune242.com/news/2026/aug/21/data-breaches-underreported-as-public-bypasses-regulator/",
+    "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "KNA.privacy",
+   "iso3": "KNA",
+   "name": "Saint Kitts and Nevis",
+   "region": "Americas",
+   "category": "privacy",
+   "urls": [
+    "https://database.cyberpolicyportal.org/en/entity/obcyhbt2e4",
+    "https://www.sknis.gov.kn/2024/07/05/st-kitts-and-nevis-enhances-transparency-with-passage-of-freedom-of-information-amendment-bill-2024/",
+    "https://database.cyberpolicyportal.org/en/entity/ay7zmnel9xk",
+    "https://ndhis.gov.kn/privacy-policy"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LAO.privacy",
+   "iso3": "LAO",
+   "name": "Laos",
+   "region": "Asia",
+   "category": "privacy",
+   "urls": [
+    "https://na.gov.la/wp-content/uploads/2021/11/5.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%B4%E0%BB%88%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%A7-2023.pdf",
+    "https://na.gov.la/wp-content/uploads/2021/11/57.-%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D%E0%BA%A7%E0%BB%88%E0%BA%B2%E0%BA%94%E0%BB%89%E0%BA%A7%E0%BA%8D%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%9B%E0%BA%BB%E0%BA%81%E0%BA%9B%E0%BB%89%E0%BA%AD%E0%BA%87%E0%BA%82%E0%BB%8D%E0%BB%89%E0%BA%A1%E0%BA%B9%E0%BA%99%E0%BB%80%E0%BA%AD%E0%BB%80%E0%BA%A5%E0%BA%B1%E0%BA%81%E0%BB%82%E0%BA%95%E0%BA%A3%E0%BA%99%E0%BA%B4%E0%BA%81-2017.pdf",
+    "https://www.dlapiperdataprotection.com/?t=law&c=LA",
+    "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MYS.privacy",
+   "iso3": "MYS",
+   "name": "Malaysia",
+   "region": "Asia",
+   "category": "privacy",
+   "urls": [
+    "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/07/UNDANG-UNDANG-MALAYSIA_AKTA_PERLINDUNGAN_DATA_PERIBADI_2010_709_MALAY_AND-ENG_V2022.pdf",
+    "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/11/Akta-A1727-bm.pdf",
+    "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/12/PENETAPAN-TARIKH-PERMULAAN-KUAT-KUASA.pdf",
+    "https://www.freemalaysiatoday.com/category/nation/2026/06/30/no-leakage-of-sensitive-data-in-website-hack-says-health-ministry"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "PRK.privacy",
+   "iso3": "PRK",
+   "name": "North Korea",
+   "region": "Asia",
+   "category": "privacy",
+   "urls": [
+    "https://documents.un.org/api/symbol/access?s=A/HRC/60/58&l=en&t=pdf",
+    "https://www.unilaw.go.kr/bbs/selectBoardArticle.do?bbsId=BBSMSTR_000000000021&nttId=181&bbsTyCode=BBST01&bbsAttrbCode=BBSA02&authFlag=Y&menuNo=3010000&upperMenuId=3000000",
+    "https://www.moleg.go.kr/boardDownload.es?bid=legnlpst&list_key=4013&seq=1",
+    "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://documents.un.org/doc/undoc/gen/g25/127/95/pdf/g2512795.pdf"
+   ]
+  },
+  {
+   "cell_id": "ARM.privacy",
+   "iso3": "ARM",
+   "name": "Armenia",
+   "region": "Europe",
+   "category": "privacy",
+   "urls": [
+    "https://www.arlis.am/hy/acts/229131",
+    "https://www.arlis.am/hy/acts/218679",
+    "https://mblegal.am/your-guide-to-personal-data-protection-in-armenia/",
+    "https://corporate.armed.am/privacy-policy"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BIH.privacy",
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "region": "Europe",
+   "category": "privacy",
+   "urls": [
+    "https://www.paragraf.ba/propisi/bih/novi-zakon-o-zastiti-licnih-podataka.html",
+    "https://azlp.ba/rjesenja/?id=4910",
+    "https://enlargement.ec.europa.eu/document/download/5d8fc547-f8f8-456f-84e3-b38998acfafd_en?filename=bosnia-and-herzegovina-report-2025.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://azlp.ba/rjesenja/default.aspx?id=4910&langTag=bs-BA"
+   ]
+  },
+  {
+   "cell_id": "JOR.privacy",
+   "iso3": "JOR",
+   "name": "Jordan",
+   "region": "Middle East",
+   "category": "privacy",
+   "urls": [
+    "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf",
+    "https://almamlakatv.com/news/184498",
+    "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "WSM.privacy",
+   "iso3": "WSM",
+   "name": "Samoa",
+   "region": "Oceania",
+   "category": "privacy",
+   "urls": [
+    "https://mcit.gov.ws/wp-content/uploads/2026/04/SAMOA_NATIONAL_CYBERSECURITY_STRATEGY-2026.pdf",
+    "https://www.regulator.gov.ws/images/Act/TELECOMMUNICATIONS_ACT_2005_-_Eng.pdf",
+    "https://www.constituteproject.org/constitution/Samoa_2017.pdf?lang=en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ZWE.commercial",
+   "iso3": "ZWE",
+   "name": "Zimbabwe",
+   "region": "Africa",
+   "category": "commercial",
+   "urls": [
+    "https://www.potraz.gov.zw/wp-content/uploads/2022/02/Data-Protection-Act-5-of-2021.pdf",
+    "https://www.dlapiperdataprotection.com/?c=ZW&t=law",
+    "https://www.bbc.com/news/articles/cwy6nd3664no"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "CAF.commercial",
+   "iso3": "CAF",
+   "name": "Central African Republic",
+   "region": "Africa",
+   "category": "commercial",
+   "urls": [
+    "https://www.arcep.cf/documents/textes/lois/Loi_24_001_portant_protection_des_donnes_a_caractere_personnel.PDF",
+    "https://www.techhiveadvisory.africa/insights/review-of-the-central-african-republic-data-protection-law"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "COM.commercial",
+   "iso3": "COM",
+   "name": "Comoros",
+   "region": "Africa",
+   "category": "commercial",
+   "urls": [
+    "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-26-juin-2014-portant-protection-des-donnees-a-caractere-personnel.pdf",
+    "https://ancs.gouv.km/wp-content/uploads/2024/02/DEC-N%C2%B022-003-promul-loi-N%C2%B021-012-AU-relative-a-la-Cyber-Securite-et-a-la-Lutte-contre-la-CYbercrimunalite-en-Union-des-Comores.pdf",
+    "https://faolex.fao.org/docs/pdf/com239753.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TGO.commercial",
+   "iso3": "TGO",
+   "name": "Togo",
+   "region": "Africa",
+   "category": "commercial",
+   "urls": [
+    "https://jo.gouv.tg/sites/default/files/JO/JOS_29_10_2019-64E%20ANNEE-N%C2%B026%20TER.pdf",
+    "https://ipdcp.tg/wp-content/uploads/2026/01/IPDCP-RAPPORT-ANNUEL-2025.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MAR.commercial",
+   "iso3": "MAR",
+   "name": "Morocco",
+   "region": "Africa",
+   "category": "commercial",
+   "urls": [
+    "https://www.cndp.ma/wp-content/uploads/2023/11/Loi-09-08-Fr.pdf",
+    "https://www.hespress.com/%D9%84%D8%AC%D9%86%D8%A9-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D8%B7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%AD%D9%82%D9%82-%D9%81%D9%8A-%D8%AA%D8%B3-1356867.html",
+    "https://nichan.ma/359231/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MDG.commercial",
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "region": "Africa",
+   "category": "commercial",
+   "urls": [
+    "https://www.afapdp.org/wp-content/uploads/2018/05/Madagascar-L-2014-038-du-09-01-15-sur-la-protection-des-donnees-a-caractere-personnel.pdf"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TTO.commercial",
+   "iso3": "TTO",
+   "name": "Trinidad and Tobago",
+   "region": "Americas",
+   "category": "commercial",
+   "urls": [
+    "http://laws.gov.tt/ttdll-web/revision/download/91970?type=act",
+    "http://www.guardian.co.tt/news/court-of-appeal-judges-say-privacy-law-may-need-updating-6.2.2536153.841b36b28d",
+    "https://martingeorge.net/v2/index.php/2024/01/26/breach-of-confidence-the-right-to-privacy-the-progression-of-the-law-and-modern-society/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://law.martingeorge.net/breach-of-confidence-privacy-trinidad-tobago/",
+    "https://www.guardian.co.tt/news/court-of-appeal-judges-say-privacy-law-may-need-updating-6.2.2536153.841b36b28d"
+   ]
+  },
+  {
+   "cell_id": "GUY.commercial",
+   "iso3": "GUY",
+   "name": "Guyana",
+   "region": "Americas",
+   "category": "commercial",
+   "urls": [
+    "https://parliament.gov.gy/publications/acts-of-parliament/dataprotectionact18of2023",
+    "https://demerarawaves.com/2026/03/31/digital-identity-card-law-now-active-but-data-protection-act-still-not-operational/"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "VCT.commercial",
+   "iso3": "VCT",
+   "name": "Saint Vincent and the Grenadines",
+   "region": "Americas",
+   "category": "commercial",
+   "urls": [
+    "https://www.theinformationcollective.com/dpl/st-vincent-and-the-grenadines-the-privacy-act",
+    "https://www.state.gov/wp-content/uploads/2026/09/701264_2026-Saint-Vincent-and-the-Grenadines-Investment-Climate-Statement.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TKM.commercial",
+   "iso3": "TKM",
+   "name": "Turkmenistan",
+   "region": "Asia",
+   "category": "commercial",
+   "urls": [
+    "https://turkmenistan.gov.tm/index.php/ru/post/28474/zakon-turkmenistana-%3Cbr%3Eob-informatsii-o-lichnoi-zhizni-i-ee-zaschite"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "KAZ.commercial",
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "region": "Asia",
+   "category": "commercial",
+   "urls": [
+    "https://zakon.uchet.kz/rus/docs/K2000000360",
+    "https://bizup.kz/ru/documents/Z1300000094",
+    "https://rus.azattyq-ruhy.kz/economics/112458-v-kazakhstane-otkrylsia-rynok-meditsinskikh-dannykh-kak-eto-izmenit-sistemu-zdravookhraneniia"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://bizup.kz/ru/documents/z1300000094"
+   ]
+  },
+  {
+   "cell_id": "TLS.commercial",
+   "iso3": "TLS",
+   "name": "Timor-Leste",
+   "region": "Asia",
+   "category": "commercial",
+   "urls": [
+    "https://www.mj.gov.tl/files/2026/Esbosu%20Lei%20Protesaun%20Dadus%20Pessoais.pdf",
+    "https://timor-leste.gov.tl/wp-content/uploads/2010/03/Constituicao_RDTL_PT.pdf",
+    "https://rafa.tl/pt/ministerio-da-justica-abre-consulta-publica-sobre-lei-de-protecao-de-dados-pessoais/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MNE.commercial",
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "region": "Europe",
+   "category": "commercial",
+   "urls": [
+    "https://www.azlp.me/storage/docs/zajednicka/zakoni/Zakon%20o%20zastiti%20podataka%20o%20licnosti%20-2024.pdf",
+    "https://zakoni.skupstina.me/zakoni/web/dokumenta/zakoni-i-drugi-akti/832/3998-23744-28-2-26-2-4.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "IRN.commercial",
+   "iso3": "IRN",
+   "name": "Iran",
+   "region": "Middle East",
+   "category": "commercial",
+   "urls": [
+    "https://shenasname.ir/laws/7060-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA-%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C",
+    "https://www.bbc.com/persian/articles/clk147yydv2o"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "JOR.commercial",
+   "iso3": "JOR",
+   "name": "Jordan",
+   "region": "Middle East",
+   "category": "commercial",
+   "urls": [
+    "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf",
+    "https://tawasal.gov.jo/Consultations/redirect/1485"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://tawasal.gov.jo/Consultations/Public/1485/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9_%D9%84%D9%84%D8%B5%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9__(2026-2030)"
+   ]
+  },
+  {
+   "cell_id": "VUT.commercial",
+   "iso3": "VUT",
+   "name": "Vanuatu",
+   "region": "Oceania",
+   "category": "commercial",
+   "urls": [
+    "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "DJI.journey",
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "region": "Africa",
+   "category": "journey",
+   "urls": [
+    "https://documents1.worldbank.org/curated/en/099042726083034249/pdf/P178033-3dc4b2ca-53b1-4d30-93fd-137828ff9b0c.pdf",
+    "https://djibouti.un.org/fr/294824-djibouti-am%C3%A9liore-ses-services-de-planification-familiale-gr%C3%A2ce-au-dossier-patient",
+    "https://www.lanation.dj/oms-a-djibouti-une-action-au-coeur-de-la-transformation-du-systeme-de-sante/",
+    "https://sante.gouv.dj/storage/publications/February2024/46et783Seu5WePSYDLqg.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "error"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "UGA.journey",
+   "iso3": "UGA",
+   "name": "Uganda",
+   "region": "Africa",
+   "category": "journey",
+   "urls": [
+    "https://health.go.ug/electronic-medical-records-rollout-transforms-patient-care-and-data-management",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12816509/",
+    "https://ug.usembassy.gov/press-release-united-states-government-transfers-over-100-million-in-national-digital-health-infrastructure-to-uganda/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BWA.journey",
+   "iso3": "BWA",
+   "name": "Botswana",
+   "region": "Africa",
+   "category": "journey",
+   "urls": [
+    "https://ehealth.ub.bw/bhdc/background.html",
+    "https://dailynews.gov.bw/news-detail/89169",
+    "https://dailynews.gov.bw/news-detail/90443"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "STP.journey",
+   "iso3": "STP",
+   "name": "Sao Tome and Principe",
+   "region": "Africa",
+   "category": "journey",
+   "urls": [
+    "https://minsaude.st/sis/",
+    "https://minsaude.st/wp-content/uploads/2023/08/Estrategia-de-cooperacao-com-o-pais-2023%E2%80%932027-Sao-Tome-and-Principe_compressed.pdf",
+    "https://ordemdosmedicos.pt/comunicacao/publicacoes/tribuna/cuidados-de-saude-primarios-em-sao-tome-relato-de-pratica-42951",
+    "https://www.afro.who.int/sites/default/files/2026-09/Newsletter%20OMS%20Q2%202026%20PT_0.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "COG.journey",
+   "iso3": "COG",
+   "name": "Republic of the Congo",
+   "region": "Africa",
+   "category": "journey",
+   "urls": [
+    "https://sante.gouv.cg/wp-content/uploads/2024/09/PLAN-NATIONAL-DE-DEVELOPPEMENT-SANITAIRE-DU-CONGO-2023-2026_VERSION-OFFICIELLE.pdf",
+    "https://www.adiac-congo.com/content/sante-publique-le-circuit-logistique-des-medicaments-au-congo-va-etre-digitalise-170892",
+    "https://www.aci.cg/37256/",
+    "https://www.afro.who.int/fr/countries/congo/news/revue-des-performances-du-secteur-sante-vers-la-consolidation-de-loffre-et-de-lacces-aux-des-soins"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "VEN.journey",
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "region": "Americas",
+   "category": "journey",
+   "urls": [
+    "https://mincyt.gob.ve/gobierno-bolivariano-activa-plataforma-de-datos-para-acceso-a-la-historia-clinica-digital-en-venezuela/",
+    "https://mpps.gob.ve/ejecutivo-nacional-entrego-resonador-magnetico-con-inteligencia-artificial-al-hospital-universitario-de-caracas/",
+    "https://diariovea.com.ve/delcy-rodriguez-plantea-digitalizar-sistema-de-salud-publico/",
+    "https://codebymelendez.com/insights/historia-clinica-electronica-venezuela"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SLV.journey",
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "region": "Americas",
+   "category": "journey",
+   "urls": [
+    "https://www.presidencia.gob.sv/modernizacion-del-sistema-publico-de-salud-se-fortalece-al-integrar-servicios-en-hospitales-y-unidades-de-salud/",
+    "https://asp.salud.gob.sv/regulacion/pdf/norma/normatecnicadelexpedienteclinico-Acuerdo-Ejecutivo-1616-30052024_v1-reforma1.pdf",
+    "https://www.laprensagrafica.com/elsalvador/Plataforma-digital-MINSAL-ya-se-integro-al-expediente-electronico-ISSS-20250627-0096.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13404066/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "blocked_unverified",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BHS.journey",
+   "iso3": "BHS",
+   "name": "Bahamas",
+   "region": "Americas",
+   "category": "journey",
+   "urls": [
+    "https://cdn.bahamas.gov.bs/tenant/tenantministryofhealth/documents/BHSHealthStrategy-20260331091916.pdf",
+    "http://www.bahamas.gov.bs/news-press-release/national-health-insurance-authority-making-steady-progress-towards-universal-health-coverage",
+    "https://znsbahamas.com/bahamasemr-bemr-one-year-and-counting/",
+    "http://www.bahamas.gov.bs/news-press-release/prime-minister-philip-davis-s-contribution-to-the-debate-on-the-compendium-of-health-bills"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://www.bahamas.gov.bs/news-press-release/national-health-insurance-authority-making-steady-progress-towards-universal-health-coverage",
+    "https://www.bahamas.gov.bs/news-press-release/prime-minister-philip-davis-s-contribution-to-the-debate-on-the-compendium-of-health-bills"
+   ]
+  },
+  {
+   "cell_id": "KAZ.journey",
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "region": "Asia",
+   "category": "journey",
+   "urls": [
+    "https://zakon.uchet.kz/rus/docs/K2000000360",
+    "https://rcez.kz/serviceedensaulyg",
+    "https://pharmreviews.kz/novosti/novosti-kazahstana/minzdrav-kazakhstana-zapuskaet-e-densaulyq-i-edinoe-khranilishche-meditsinskikh-dannykh",
+    "https://dknews.kz/ru/dk-it/392505-elektronnyy-pasport-zdorovya-poyavitsya-u"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "PRK.journey",
+   "iso3": "PRK",
+   "name": "North Korea",
+   "region": "Asia",
+   "category": "journey",
+   "urls": [
+    "https://faolex.fao.org/docs/pdf/prk199549.pdf",
+    "https://www.who.int/dprkorea/news/detail/09-04-2026-who-supports-dpr-korea-through-a-three-day-webinar-on-digital-health-transformation-and-artificial-intelligence-for-health",
+    "https://www.spnews.co.kr/news/articleView.html?idxno=106912"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TKM.journey",
+   "iso3": "TKM",
+   "name": "Turkmenistan",
+   "region": "Asia",
+   "category": "journey",
+   "urls": [
+    "https://www.saglykhm.gov.tm/ru/tasks-and-functions-of-the-ministry",
+    "https://cyberleninka.ru/article/n/razrabotka-strategii-tsifrovoy-transformatsii-zdravoohraneniya-turkmenistana-aktsent-na-preodolenie-hronicheskih-neinfektsionnyh",
+    "https://turkmenportal.com/ru/news/96275-v-turkmenistane-realizuetsya-proekt-po-tsifrovizatsii-mezhvedomstvennogo-vzaimodeystviya-----"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MCO.journey",
+   "iso3": "MCO",
+   "name": "Monaco",
+   "region": "Europe",
+   "category": "journey",
+   "urls": [
+    "https://legimonaco.mc/tnc/ordonnance/2020/11-05-8.337",
+    "https://www.monacosante.mc/e-venue/fr/conditions-d-utilisation-5-101.html",
+    "https://fr.linkedin.com/posts/centre-hospitalier-princesse-grace_monaco-chpg-innovation-activity-7285626430363738112-Z29S",
+    "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://legimonaco.mc/tnc/ordonnance/2020/11-05-8.337/"
+   ]
+  },
+  {
+   "cell_id": "JOR.journey",
+   "iso3": "JOR",
+   "name": "Jordan",
+   "region": "Middle East",
+   "category": "journey",
+   "urls": [
+    "https://petra.gov.jo/ar/news/%D8%AA%D9%88%D8%B3%D8%B9-%D9%85%D8%B8%D9%84%D8%A9-%D9%86%D8%B8%D8%A7%D9%85-%D8%AD%D9%83%D9%8A%D9%85-%D8%A5%D9%84%D9%89-482-%D9%85%D9%86%D8%B4%D8%A3%D8%A9-%D8%B5%D8%AD%D9%8A%D8%A9",
+    "https://almamlakatv.com/news/190599",
+    "https://tawasal.gov.jo/Consultations/redirect/1485",
+    "https://almamlakatv.com/news/200343"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://tawasal.gov.jo/Consultations/Public/1485/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9_%D9%84%D9%84%D8%B5%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9__(2026-2030)"
+   ]
+  },
+  {
+   "cell_id": "OMN.journey",
+   "iso3": "OMN",
+   "name": "Oman",
+   "region": "Middle East",
+   "category": "journey",
+   "urls": [
+    "https://moh.gov.om/en/media-center/news/nehr-linked-all-patient-s-files-in-all-different-health-institutions/",
+    "https://www.omandaily.om/%D8%B9%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%8A%D9%88%D9%85/na/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B3%D8%B9-%D9%81%D9%8A-%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%88%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
+    "https://www.omanobserver.om/article/1188565/oman/health/shifa-app-to-be-integrated-with-the-private-sector",
+    "https://www.omannews.gov.om/topics/ar/7/show/467294"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "error"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "NRU.journey",
+   "iso3": "NRU",
+   "name": "Nauru",
+   "region": "Oceania",
+   "category": "journey",
+   "urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+    "https://www.bes.au/why-naurus-healthcare-workers-are-embracing-digital-records/",
+    "https://www.bes.au/all-smiles-as-nauru-completes-world-first-emr-achievement/",
+    "https://ronlaw.gov.nr/assets/docs/acts/2025/Health%20and%20Medical%20Services_serv4.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "FJI.journey",
+   "iso3": "FJI",
+   "name": "Fiji",
+   "region": "Oceania",
+   "category": "journey",
+   "urls": [
+    "https://phd.spc.int/sites/default/files/p-related-files/2025-03/Item%2016.2_PHIN%20TP_Country%20Experience_Fiji_0.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12534756/",
+    "https://www.unicef.org/pacificislands/press-releases/no-more-paper-fiji-launches-first-ever-digital-immunization-records-every-child",
+    "https://ehr.meditech.com/news/aspen-medical-selects-meditech-expanse-to-advance-patient-care-at-fiji-hospitals"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "CIV.clinical",
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "region": "Africa",
+   "category": "clinical",
+   "urls": [
+    "https://disd.ci/presentation-du-dossier-patient-informatise-dpi/",
+    "https://www.sikafinance.com/marches/cote-divoire-sante-le-dossier-patient-informatise-interconnecte-258-hopitaux_64481",
+    "https://patrimoine.gouv.ci/doc/loi/2019-678%20loi%20r%C3%A9forme%20hospitali%C3%A8re%20(1)%20(1).pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TZA.clinical",
+   "iso3": "TZA",
+   "name": "Tanzania",
+   "region": "Africa",
+   "category": "clinical",
+   "urls": [
+    "https://www.moh.go.tz/storage/app/uploads/public/698/337/ef7/698337ef72583788742967.pdf",
+    "https://ippmedia.co.tz/the-guardian/features/read/tanzania-accelerates-digital-health-transformation-to-ensure-inclusive-connected-healthcare-system-2026-05-21-140416"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ZMB.clinical",
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "region": "Africa",
+   "category": "clinical",
+   "urls": [
+    "https://www.ihmafrica.org/?p=3135",
+    "https://techafricanews.com/2026/04/28/zambia-targets-nationwide-health-connectivity-as-smartcare-2-0-pilot-goes-live-in-ndola/",
+    "https://www.hpcz.org.zm/_files/ugd/de360d_9bf34f1d792941d6b649371c3f943777.pdf",
+    "https://zambia.knowledgehub.health/attachments/download/40/Digital-Health-strategy-final.pdf"
+   ],
+   "url_check": [
+    "blocked_unverified",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://531f8019-5d49-452b-9a75-b4af9d05b965.filesusr.com/ugd/de360d_9bf34f1d792941d6b649371c3f943777.pdf"
+   ]
+  },
+  {
+   "cell_id": "STP.clinical",
+   "iso3": "STP",
+   "name": "Sao Tome and Principe",
+   "region": "Africa",
+   "category": "clinical",
+   "urls": [
+    "https://minsaude.st/wp-content/uploads/2023/10/Dr-n.o-74_Lei-de-Base-da-Saude-Lei-n.o-9.2018.pdf",
+    "https://ordemdosmedicos.pt/comunicacao/publicacoes/tribuna/cuidados-de-saude-primarios-em-sao-tome-relato-de-pratica-42951"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SLE.clinical",
+   "iso3": "SLE",
+   "name": "Sierra Leone",
+   "region": "Africa",
+   "category": "clinical",
+   "urls": [
+    "https://mohs.gov.sl/emr-system-to-improve-health-care-delivery-in-sierra-leone/",
+    "https://mohs.gov.sl/jobs/hiring-of-a-consulting-firm-to-develop-customize-deploy-manage-and-maintain-an-electronic-medical-records-system/",
+    "https://www.sierra-leone.org/Laws/2007-8p.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MOZ.clinical",
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "region": "Africa",
+   "category": "clinical",
+   "urls": [
+    "https://cipmoz.org/wp-content/uploads/2018/08/361_CIP-spinformacao_2015_06_pt.pdf",
+    "https://csaude.org.mz/health-information-systems/",
+    "https://aimnews.org/2026/04/15/mocambique-garante-40-milhoes-de-dolares-para-digitalizacao-da-saude/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "HND.clinical",
+   "iso3": "HND",
+   "name": "Honduras",
+   "region": "Americas",
+   "category": "clinical",
+   "urls": [
+    "https://cn8.spe.gob.hn/nacional/cn-escucha-propuestas-de-la-sesal-orientadas-a-modernizar-el-sistema-sanitario/",
+    "https://www.paho.org/es/noticias/2-7-2024-mision-conjunta-para-fortalecer-transformacion-digital-salud",
+    "https://www.laprensa.hn/honduras/linea-5-millones-expedientes-electronicos-hospital-escuela-HX8505810"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BOL.clinical",
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "region": "Americas",
+   "category": "clinical",
+   "urls": [
+    "https://www.minsalud.gob.bo/9344-ministerio-de-salud-consolida-transformacion-digital-del-sistema",
+    "https://www.sedeslapaz.gob.bo/wp-content/uploads/2024/10/REGLAMENTO-DEL-MANEJO-DEL-EXPEDIENTE-CLII%C2%81NICO-PARA-EL-PRIMER-NIVEL-DE-ATENCIOI%C2%81N.pdf",
+    "https://minsalud.gob.bo/9131-ministerio-presenta-plan-de-salud-2026-2030"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "GRD.clinical",
+   "iso3": "GRD",
+   "name": "Grenada",
+   "region": "Americas",
+   "category": "clinical",
+   "urls": [
+    "https://www.paho.org/en/information-systems-health-is4h-blog/grenada-aims-strengthen-health-information-systems",
+    "https://grenadaparliament.gd/wp-content/uploads/2021/08/Cap241-PHARMACY-ACT.pdf",
+    "https://www.thenewtodaygrenada.com/local-news/health-minister-gives-full-support-for-project-polaris/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "KGZ.clinical",
+   "iso3": "KGZ",
+   "name": "Kyrgyzstan",
+   "region": "Asia",
+   "category": "clinical",
+   "urls": [
+    "https://cbd.minjust.gov.kg/7-34550/edition/20096/ru",
+    "https://cbd.minjust.gov.kg/4-5260/edition/23422/ru",
+    "https://24.kg/obschestvo/291005_tsifrovoy_profil_zdorovya_kak_uznat_vsyu_meditsinskuyu_informatsiyu_osebe/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AZE.clinical",
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "region": "Asia",
+   "category": "clinical",
+   "urls": [
+    "https://sehiyye.gov.az/en/media/xeberler-ve-yenilikler/s-hiyy-nazirliyi-v-t-ndas-saglamligina-r-q-msal-qaygi-tibbi-r-q-msal-kiz-sisteminin-t-qdimatini-kecirib/",
+    "https://xeberler.az/new/details/sehiyye-nazirliyinin-yaratdigi-tibbi-reqemsal-ekiz-sistemi-genislenir--39760.htm",
+    "https://frameworks.e-qanun.az/12/f_12294.html",
+    "https://frameworks.e-qanun.az/4/f_4078.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "GEO.clinical",
+   "iso3": "GEO",
+   "name": "Georgia",
+   "region": "Europe",
+   "category": "clinical",
+   "urls": [
+    "https://www.matsne.gov.ge/ka/document/view/4390457",
+    "https://www.matsne.gov.ge/ka/document/view/5433415",
+    "https://eurosai-it.org/images/public-documents/coffee_breaks/Digital_Health_Giorgi%20Kapanadze.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AND.clinical",
+   "iso3": "AND",
+   "name": "Andorra",
+   "region": "Europe",
+   "category": "clinical",
+   "urls": [
+    "http://portaljuridicandorra.ad/L2017020",
+    "https://eurohealthobservatory.who.int/publications/i/health-systems-in-action-2025-andorra",
+    "https://www.govern.ad/ca/w/l-app-andorra-salut-amplia-les-funcionalitats-i-facilitara-l-acces-a-la-informacio-medica"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://portaljuridicandorra.ad/L2017020"
+   ]
+  },
+  {
+   "cell_id": "IRN.clinical",
+   "iso3": "IRN",
+   "name": "Iran",
+   "region": "Middle East",
+   "category": "clinical",
+   "urls": [
+    "https://sit.tums.ac.ir/%D9%BE%D8%B1%D9%88%DA%98%D9%87%E2%80%8C%D9%87%D8%A7",
+    "https://shenasname.ir/barname7/7298-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%81%D8%AA%D9%85-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA",
+    "https://irannewspaper.ir/8814/1/130455"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TON.clinical",
+   "iso3": "TON",
+   "name": "Tonga",
+   "region": "Oceania",
+   "category": "clinical",
+   "urls": [
+    "https://php.spc.int/sites/default/files/p-related-files/2023-03/2023%20PHIN%20Agenda%2013%20ID%203.3%20Tonga%20experience%20in%20implementing%20national%20digital%20health%20intervention%2028%20April%202023.pdf",
+    "https://www.tonga-nhis.org/wp-content/uploads/2022/01/FAQ-Eng-final.pdf",
+    "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0046/PersonalHealthInformationProtectionAct2025_1.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TUV.clinical",
+   "iso3": "TUV",
+   "name": "Tuvalu",
+   "region": "Oceania",
+   "category": "clinical",
+   "urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9931309/",
+    "https://documents1.worldbank.org/curated/en/099092426221038392/pdf/P175170-3a07fa71-ced3-4424-8deb-45c2eea95e0b.pdf",
+    "https://www.facebook.com/AusHCfnfu/photos/tuvalus-maternal-and-child-health-clinic-has-a-new-digital-health-platform-the-t/1381003020741966/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "MLI.research",
+   "iso3": "MLI",
+   "name": "Mali",
+   "region": "Africa",
+   "category": "research",
+   "urls": [
+    "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=325&catid=39&Itemid=132",
+    "https://ordredesmedecins.ml/storage/resources/1702999047_Arrete08-2716_Chartedumalade.pdf",
+    "https://malikonews.com/mali-le-comite-national-dethique-pour-la-sante-annule-lautorisation-dune-enquete-sur-les-opinions-relatives-a-lexcision-a-bamako/",
+    "https://bibliosante.ml/bitstream/handle/123456789/4594/21M44.pdf?sequence=1&isAllowed=y"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TCD.research",
+   "iso3": "TCD",
+   "name": "Chad",
+   "region": "Africa",
+   "category": "research",
+   "urls": [
+    "https://blog.africadataprotection.org/wp-content/uploads/2024/10/loi_07.pdf",
+    "https://cambin.org/snecfa-project-cnbt-dissemination-workshop-in-chad/"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "DJI.research",
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "region": "Africa",
+   "category": "research",
+   "urls": [
+    "https://www.journalofficiel.dj/wp-content/uploads/2025/09/code-numerique.pdf",
+    "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/85881/DJI-85881.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TUN.research",
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "region": "Africa",
+   "category": "research",
+   "urls": [
+    "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf",
+    "https://dpm.tn/essai-clinique-reglementation"
+   ],
+   "url_check": [
+    "ok",
+    "error"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TZA.research",
+   "iso3": "TZA",
+   "name": "Tanzania",
+   "region": "Africa",
+   "category": "research",
+   "urls": [
+    "https://nimr.or.tz/health-research-regulations/",
+    "https://pdpc.go.tz/documents/3/PERSONAL_DATA_PROTECTION_ACT_2022.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "LSO.research",
+   "iso3": "LSO",
+   "name": "Lesotho",
+   "region": "Africa",
+   "category": "research",
+   "urls": [
+    "https://dataprotection.africa/wp-content/uploads/2022/09/Lesotho_DPA.pdf",
+    "https://healthresearchwebafrica.org.za/en/lesotho/ethics_4822",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12070494/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "DOM.research",
+   "iso3": "DOM",
+   "name": "Dominican Republic",
+   "region": "Americas",
+   "category": "research",
+   "urls": [
+    "https://www.sb.gob.do/media/4i1ploou/ley17213.pdf",
+    "https://conabios.gob.do/2024/10/24/conabios-aprobo-787-protocolos-de-investigacion/",
+    "https://diariosalud.do/salud-y-el-nuevo-codigo-penal-lo-que-el-sector-debe-saber-en-su-primer-dia-de-vigencia/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TTO.research",
+   "iso3": "TTO",
+   "name": "Trinidad and Tobago",
+   "region": "Americas",
+   "category": "research",
+   "urls": [
+    "https://ncrha.co.tt/ethicscommittee/",
+    "https://ncrha.co.tt/wp-content/uploads/2019/03/NCRHA-REC-Guidelines-for-Research-Limited-to-Retrospective-Medical-Record-Reviews.pdf",
+    "http://laws.gov.tt/ttdll-web/revision/download/91970?type=act"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "CUB.research",
+   "iso3": "CUB",
+   "name": "Cuba",
+   "region": "Americas",
+   "category": "research",
+   "urls": [
+    "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2026-o9.pdf",
+    "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2022-o90_0.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "KHM.research",
+   "iso3": "KHM",
+   "name": "Cambodia",
+   "region": "Asia",
+   "category": "research",
+   "urls": [
+    "https://data.opendevelopmentmekong.net/dataset/5fd716fa-0b28-4aa6-8d6e-a36d39721c74/resource/c503c491-3a91-4639-a863-2fe77e7e2ce9/download/c1ab3b73-00b5-494b-9b3e-de743c27817b.pdf",
+    "https://www.who.int/observatories/global-observatory-on-health-research-and-development/resources/databases/country-databases/country-research-information-platforms"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BRN.research",
+   "iso3": "BRN",
+   "name": "Brunei",
+   "region": "Asia",
+   "category": "research",
+   "urls": [
+    "https://moh.gov.bn/about-us/biomedical-research-ethics-unit/",
+    "http://moh.gov.bn/wp-content/uploads/2024/11/MHREC-Submission-Criteria-and-review-process-June-24.pdf",
+    "https://www.healthinfo.gov.bn/user-center-app/#/user/privacy-clause",
+    "https://pdp.aiti.gov.bn/media/tndpduml/s-1_2025-e.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://moh.gov.bn/wp-content/uploads/2024/11/MHREC-Submission-Criteria-and-review-process-June-24.pdf"
+   ]
+  },
+  {
+   "cell_id": "BGD.research",
+   "iso3": "BGD",
+   "name": "Bangladesh",
+   "region": "Asia",
+   "category": "research",
+   "urls": [
+    "http://bdlaws.minlaw.gov.bd/act-details-1692.html",
+    "https://www.bmrcbd.org/application_form/SOPs.pdf",
+    "http://bdlaws.minlaw.gov.bd/act-details-1447.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "AND.research",
+   "iso3": "AND",
+   "name": "Andorra",
+   "region": "Europe",
+   "category": "research",
+   "urls": [
+    "http://portaljuridicandorra.ad/L2017020"
+   ],
+   "url_check": [
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://portaljuridicandorra.ad/L2017020"
+   ]
+  },
+  {
+   "cell_id": "BIH.research",
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "region": "Europe",
+   "category": "research",
+   "urls": [
+    "https://www.paragraf.ba/propisi/bih/novi-zakon-o-zastiti-licnih-podataka.html",
+    "https://fmoh.gov.ba/uploads/files/Zakon_o_pravima_obavezama_i_odg_pacijenata_40-10.pdf",
+    "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-dokumentaciji-i-evidencijama-u-oblasti-zdravstva.html",
+    "https://www.paragraf.ba/propisi/republika-srpska/zakon-o-zdravstvenoj-zastiti.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "JOR.research",
+   "iso3": "JOR",
+   "name": "Jordan",
+   "region": "Middle East",
+   "category": "research",
+   "urls": [
+    "https://www.modee.gov.jo/EBV4.0/Root_Storage/AR/11/PDP_Law_-_English_Version1.pdf",
+    "https://www.jfda.jo/ebv4.0/root_storage/ar/eb_list_page/guideline_for_good_clinical_practice_(gcp)_and_good_clinical_laboratory_practice_(gclp)_inspection_of_clinical_studies_in_jordan-july2026.pdf",
+    "https://tawasal.gov.jo/Consultations/redirect/1485"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://tawasal.gov.jo/Consultations/Public/1485/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9_%D9%84%D9%84%D8%B5%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A%D8%A9__(2026-2030)"
+   ]
+  },
+  {
+   "cell_id": "PNG.research",
+   "iso3": "PNG",
+   "name": "Papua New Guinea",
+   "region": "Oceania",
+   "category": "research",
+   "urls": [
+    "https://kelinkenya.org/wp-content/uploads/2010/10/HIV-law-Papua-new-Guinea.pdf",
+    "https://www.pngimr.org.pg/about/institutional-review-board/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13015753/",
+    "https://www.health.gov.pg/pdf/SOPdm_2024.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "TCD.ai",
+   "iso3": "TCD",
+   "name": "Chad",
+   "region": "Africa",
+   "category": "ai",
+   "urls": [
+    "https://tchadinfos.com/2025/10/21/tchad-creation-dune-direction-generale-de-lintelligence-artificielle-au-ministere-du-numerique/",
+    "https://www.alwihdainfo.com/Tchad-promulgation-de-la-reforme-de-l-ANSICE_a148767.html",
+    "https://dgpml.com/linstitution/",
+    "https://www.droitmediasfinance.com/index.php/actualites/droit-tech-fintech/1375-tchad-une-strategie-nationale-en-preparation-pour-la-transformation-digitale-et-lintelligence-artiificielle"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://www.alwihdainfo.com/tchad-promulgation-de-la-reforme-de-l-ansice-a148767/"
+   ]
+  },
+  {
+   "cell_id": "SDN.ai",
+   "iso3": "SDN",
+   "name": "Sudan",
+   "region": "Africa",
+   "category": "ai",
+   "urls": [
+    "https://www.ecofinagency.com/news-digital/0711-50229-sudan-establishes-three-digital-authorities-to-advance-e-govt",
+    "https://sudancps.com/2026/07/20/%D9%81%D8%AC%D9%88%D8%A9-%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9-%D8%A8%D9%8A%D9%86/",
+    "https://nmpb.gov.sd/regulation.php"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "error"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "GNQ.ai",
+   "iso3": "GNQ",
+   "name": "Equatorial Guinea",
+   "region": "Africa",
+   "category": "ai",
+   "urls": [
+    "https://faolex.fao.org/docs/pdf/eqg199517.pdf",
+    "https://guineasalud.com/sanidad-lanza-guinea-salud-primer-asistente-digital-con-ia-en-guinea-ecuatorial/",
+    "https://minfuncionpublica.gob.gq/wp-content/uploads/LEY-numero-1-del-2016-PROTECCION-DE-DATOS-PERSONALES.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "error"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "CIV.ai",
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "region": "Africa",
+   "category": "ai",
+   "urls": [
+    "https://www.droitci.info/files/810.04.20-Decret-du-22-avril-2020_Essais-cliniques--2022_09_27-06_08_23-UTC-.pdf",
+    "https://disd.ci/forum-club-sante-2026-la-disd-fixe-le-cap-de-lintelligence-artificielle-en-cote-divoire/",
+    "https://fr.allafrica.com/stories/202609110364.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "ETH.ai",
+   "iso3": "ETH",
+   "name": "Ethiopia",
+   "region": "Africa",
+   "category": "ai",
+   "urls": [
+    "https://www.efda.gov.et/wp-content/uploads/2026/07/EFDA-GDL-094-Guidelines-for-Software-as-Medical-Devices.pdf",
+    "https://www.fanamc.com/english/ethiopia-advances-regional-medical-tourism-ambitions-through-tertiary-healthcare-expansion-and-ai-integration/"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SYC.ai",
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "region": "Africa",
+   "category": "ai",
+   "urls": [
+    "https://www.finance.gov.sc/wp-content/uploads/2026/02/2026-Budget-Assumptions-and-Objectives-of-the-2026-budget.pdf",
+    "https://amrh.nepad.org/amrh-countries/seychelles",
+    "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+    "https://www.nation.sc/articles/31810/cabinet-backs-national-artificial-intelligence-framework-for-education"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "BHS.ai",
+   "iso3": "BHS",
+   "name": "Bahamas",
+   "region": "Americas",
+   "category": "ai",
+   "urls": [
+    "http://www.bahamas.gov.bs/news-press-release/innovation-ministry-to-establish-a-national-ai-committee-to-draft-the-country-s-first-ai-legislation",
+    "https://cdn.bahamas.gov.bs/tenant/tenantministryofhealth/documents/BHSHealthStrategy-20260331091916.pdf",
+    "https://www.paho.org/en/news/17-2-2026-pahowho-and-bahamas-sign-first-country-cooperation-strategy-paho-director-meets"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": [
+    "https://www.bahamas.gov.bs/news-press-release/innovation-ministry-to-establish-a-national-ai-committee-to-draft-the-country-s-first-ai-legislation"
+   ]
+  },
+  {
+   "cell_id": "VEN.ai",
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "region": "Americas",
+   "category": "ai",
+   "urls": [
+    "https://mincyt.gob.ve/wp-content/uploads/2026/02/Codigo_de_Etica_de_Inteligencia_Artificial_de_la_Republica_Bolivariana-1.pdf",
+    "https://www.agtconsultoria.com/blog/ia-en-venezuela-las-clausulas-que-la-ley-todavia-no-escribe/",
+    "https://www.sacs.gob.ve/site/wp-content/uploads/2022/10/Normativa_Registro_Sanitario_Equipos_Materiales.pdf",
+    "https://mpps.gob.ve/ejecutivo-nacional-entrego-resonador-magnetico-con-inteligencia-artificial-al-hospital-universitario-de-caracas/"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "DMA.ai",
+   "iso3": "DMA",
+   "name": "Dominica",
+   "region": "Americas",
+   "category": "ai",
+   "urls": [
+    "https://www.paho.org/en/news/24-6-2026-dominica-ministry-health-and-paho-strengthen-clerical-staff-capacity-data-analysis",
+    "https://www.paho.org/sites/default/files/2025-06/pharmaceutical-country-profile-dominica.pdf",
+    "https://www.levellers.ai/what-is/ai-regulation-dominica"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "VCT.ai",
+   "iso3": "VCT",
+   "name": "Saint Vincent and the Grenadines",
+   "region": "Americas",
+   "category": "ai",
+   "urls": [
+    "https://www.levellers.ai/what-is/ai-regulation-saint-vincent-and-the-grenadines",
+    "https://www.cullen-international.com/news/2026/09/Artificial-intelligence-regulation-and-policy-are-at-an-early-stage-in-the-Caribbean.html",
+    "https://www.paho.org/sites/default/files/2025-06/pharmaceutical-country-profile-saint-vincent-grenadines.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "UZB.ai",
+   "iso3": "UZB",
+   "name": "Uzbekistan",
+   "region": "Asia",
+   "category": "ai",
+   "urls": [
+    "https://lex.uz/ru/docs/8011377",
+    "https://lex.uz/uz/docs/-8083233",
+    "https://president.uz/ru/lists/view/8721"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "KHM.ai",
+   "iso3": "KHM",
+   "name": "Cambodia",
+   "region": "Asia",
+   "category": "ai",
+   "urls": [
+    "https://mptc.gov.kh/en/2025/06/announcement-on-progress-of-preparing-and-opening-public-consultation-on-draft-national-artificial-intelligence-strategy/",
+    "https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-strategy-2025-2030",
+    "https://hismohcambodia.org/public/fileupload/HEALTH%20STRATEGIC%20PLAN%202025-2034_Eng%20Final.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "SMR.ai",
+   "iso3": "SMR",
+   "name": "San Marino",
+   "region": "Europe",
+   "category": "ai",
+   "urls": [
+    "https://www.gov.sm/pub1/GovSM/dam/jcr:b6ed6e0d-8952-4928-a796-f7edb1b8c8c7/Allegato%20Prot.13868_2025_CIRCOLARE_DISPOSITIVOVIGILANZA.pdf",
+    "https://www.gov.sm/pub2/GovSM/Authority-Sanitaria/Dispositivi-medici.html"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "KWT.ai",
+   "iso3": "KWT",
+   "name": "Kuwait",
+   "region": "Middle East",
+   "category": "ai",
+   "urls": [
+    "https://www.amr.gov.kw/uploads/topics/17888485867775.pdf",
+    "https://kuwaittimes.com/article/47977/kuwait/other-news/moh-issues-guide-regulating-ai-use-in-healthcare/",
+    "https://www.amr.gov.kw/law70-2020"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "VUT.ai",
+   "iso3": "VUT",
+   "name": "Vanuatu",
+   "region": "Oceania",
+   "category": "ai",
+   "urls": [
+    "https://moh.gov.vu/images/Reports/Vanuatu%20Digital%20Health%20Strategy_2025-2030.pdf",
+    "https://digital.gov.vu/images/legislation/Data_Protection_and_Privacy_Act_No13_of_2024-EN.pdf",
+    "https://digital.gov.vu/images/dossier%20legislation/EN%20-%20DT%20Act%20No%2042%20of%202025.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  },
+  {
+   "cell_id": "WSM.ai",
+   "iso3": "WSM",
+   "name": "Samoa",
+   "region": "Oceania",
+   "category": "ai",
+   "urls": [
+    "https://www.health.gov.ws/wp-content/uploads/2024/06/FINAL-NATIONAL-MEDICINES-POLICY-PLAN-OF-ACTION_MASTER-COPY.pdf",
+    "https://mcit.gov.ws/wp-content/uploads/2026/04/SAMOA_NATIONAL_CYBERSECURITY_STRATEGY-2026.pdf"
+   ],
+   "url_check": [
+    "ok",
+    "ok"
+   ],
+   "allowed_redirects": []
+  }
+ ],
+ "repeat_cells": [
+  "JOR.journey",
+  "KHM.ai",
+  "KNA.privacy",
+  "TCD.control",
+  "TGO.commercial",
+  "TUN.research",
+  "UGA.access",
+  "ZMB.clinical"
+ ],
+ "pilot": {
+  "cell_id": "MDV.journey",
+  "iso3": "MDV",
+  "name": "Maldives",
+  "region": "Asia",
+  "category": "journey",
+  "urls": [
+   "https://health.gov.mv/en/publications/maldives-digital-health-blueprint-2026-2030",
+   "https://www.aasandha.mv/aasandha-scheme",
+   "https://www.who.int/maldives/news/detail/25-12-2024-launching-of-the-maldives-integrated-health-information-system-(mihis)-portal",
+   "https://edition.mv/news/41604"
+  ],
+  "allowed_redirects": [
+   "https://edition.mv/news/41604",
+   "https://health.gov.mv/en/publications/maldives-digital-health-blueprint-2026-2030",
+   "https://www.aasandha.mv/aasandha-scheme",
+   "https://www.who.int/maldives/news/detail/25-12-2024-launching-of-the-maldives-integrated-health-information-system-(mihis)-portal"
+  ]
+ },
+ "url_check_counts": {
+  "ok": 413,
+  "blocked_unverified": 3,
+  "error": 6
+ },
+ "cells_with_no_ok_url": [],
+ "batches": [
+  [
+   "GRL.control",
+   "COM.access",
+   "NRU.journey",
+   "TGO.commercial#r",
+   "IRQ.control",
+   "ETH.ai",
+   "VEN.control",
+   "HND.clinical",
+   "CUB.research"
+  ],
+  [
+   "DZA.access",
+   "NAM.privacy",
+   "UGA.access",
+   "UZB.ai",
+   "MCO.journey",
+   "KWT.ai",
+   "KIR.access",
+   "BLR.access",
+   "AZE.clinical"
+  ],
+  [
+   "TKM.journey",
+   "GRD.clinical",
+   "FJI.journey",
+   "CPV.privacy",
+   "ZMB.clinical",
+   "PRK.access",
+   "AGO.privacy",
+   "KHM.ai",
+   "TLS.access"
+  ],
+  [
+   "KGZ.clinical",
+   "UGA.access#r",
+   "SMR.ai",
+   "CIV.ai",
+   "TCD.control",
+   "BHS.journey",
+   "TLS.commercial",
+   "PRY.access",
+   "MDV.control"
+  ],
+  [
+   "DMA.ai",
+   "LBR.access",
+   "NER.control",
+   "PRK.journey",
+   "CAF.commercial",
+   "JOR.research",
+   "AND.control",
+   "VUT.ai",
+   "BIH.privacy"
+  ],
+  [
+   "WSM.privacy",
+   "IRQ.access",
+   "TCD.ai",
+   "BRB.privacy",
+   "UGA.journey",
+   "JOR.commercial",
+   "NER.access",
+   "CIV.clinical",
+   "LSO.access"
+  ],
+  [
+   "UGA.privacy",
+   "BEN.control",
+   "TUV.clinical",
+   "STP.journey",
+   "KNA.privacy#r",
+   "PNG.research",
+   "KGZ.control",
+   "BHS.access",
+   "ARM.privacy"
+  ],
+  [
+   "BIH.research",
+   "DJI.control",
+   "MLI.research",
+   "TCD.access",
+   "TTO.commercial",
+   "LAO.access",
+   "SMR.access",
+   "BWA.journey",
+   "GUY.commercial"
+  ],
+  [
+   "BLZ.control",
+   "SWZ.privacy",
+   "VCT.ai",
+   "BDI.control",
+   "GNQ.ai",
+   "LSO.research",
+   "VUT.commercial",
+   "VEN.journey",
+   "MNE.commercial"
+  ],
+  [
+   "DJI.journey",
+   "TUN.research#r",
+   "VEN.ai",
+   "KAZ.commercial",
+   "BRN.research",
+   "STP.clinical",
+   "SLV.control",
+   "WSM.control",
+   "AND.research"
+  ],
+  [
+   "ZMB.clinical#r",
+   "KHM.research",
+   "BDI.privacy",
+   "SYC.ai",
+   "BGD.research",
+   "VEN.access",
+   "SDN.ai",
+   "NIC.control",
+   "BOL.clinical"
+  ],
+  [
+   "BDI.access",
+   "TON.clinical",
+   "MDG.commercial",
+   "MYS.privacy",
+   "BOL.access",
+   "YEM.access",
+   "GEO.clinical",
+   "COM.commercial",
+   "JOR.journey"
+  ],
+  [
+   "TCD.research",
+   "JOR.journey#r",
+   "TTO.research",
+   "SLE.clinical",
+   "XKX.access",
+   "TZA.research",
+   "AND.clinical",
+   "KHM.ai#r",
+   "GTM.access"
+  ],
+  [
+   "VCT.commercial",
+   "IRN.clinical",
+   "TCD.control#r",
+   "KAZ.journey",
+   "WSM.ai",
+   "BHS.privacy",
+   "JOR.privacy",
+   "TGO.commercial",
+   "TKM.commercial"
+  ],
+  [
+   "COG.journey",
+   "PRK.privacy",
+   "IRN.commercial",
+   "BRN.access",
+   "KNA.privacy",
+   "TZA.clinical",
+   "ZWE.commercial",
+   "SLV.journey",
+   "OMN.journey"
+  ],
+  [
+   "DJI.research",
+   "MAR.commercial",
+   "DOM.research",
+   "TUN.research",
+   "FSM.access",
+   "BHS.ai",
+   "MOZ.clinical",
+   "LAO.privacy",
+   "LBR.control"
+  ]
+ ]
+}

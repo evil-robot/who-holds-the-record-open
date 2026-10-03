@@ -34,7 +34,7 @@ const AUTHORS = [
 ];
 const later = (a, b) => (String(a) > String(b) ? String(a) : String(b));
 
-function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS, esc, asOf, SITE, theN, MODEL_DESC, NOINDEX, NAME, likely = () => '' }) {
+function buildBriefs({ C, CATS, BANDS, bandOf, rankLabel, N, DIST, STRAIN, SPOTS, esc, asOf, SITE, theN, MODEL_DESC, NOINDEX, NAME, likely = () => '', CONF }) {
   const med = xs => { const s = [...xs].sort((a, b) => a - b), m = (s.length - 1) / 2; return Math.round((s[Math.floor(m)] + s[Math.ceil(m)]) / 2); };
   const eu = C.filter(d => EU27.has(d.iso3));
   const euMed = Object.fromEntries(CATS.map(c => [c.k, med(eu.map(d => d.categories[c.k].score))]));
@@ -114,6 +114,7 @@ table{border-collapse:collapse;width:100%}th,td{text-align:left;padding:2px 6px 
 th{font-weight:500;font-size:12px;white-space:nowrap}th .w{font:400 10px "JetBrains Mono",monospace;color:#6B7280;margin-left:6px}
 td.n{font:600 13px "JetBrains Mono",monospace;width:34px}td.pv{font:400 11px "JetBrains Mono",monospace;color:#6B7280;white-space:nowrap}
 .key{font-size:11px;color:#6B7280;margin-top:4px}
+.cf{font-size:12px;color:#374151;margin:-6px 0 12px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 ul{margin:4px 0;padding-left:16px}li{margin:2px 0}
 .y{font:400 10.5px "JetBrains Mono",monospace;color:#6B7280}.unk{font-style:italic;color:#6B7280}
@@ -137,14 +138,15 @@ ${NAVM.NAV_CSS}</style><script src="../../assets/analytics.js" defer></script></
 <p class="answer">${esc(lede)}</p>
 <p class="lead noprint">${esc(detail)}</p>
 <p class="lead">${esc(d.headline)}</p>
-<p class="y">Published <time datetime="${PUBLISHED}">${LONGDATE(PUBLISHED)}</time> · updated <time datetime="${later(lastmod[d.iso3], PUBLISHED)}">${LONGDATE(later(lastmod[d.iso3], PUBLISHED))}</time> · this country's data as of ${d.asOf || asOf}${/^low$/i.test(d.confidence || '') ? ' · confidence in this score is low: the public evidence is thin' : ''} · research tool, not legal advice</p>
+<p class="y">Published <time datetime="${PUBLISHED}">${LONGDATE(PUBLISHED)}</time> · updated <time datetime="${later(lastmod[d.iso3], PUBLISHED)}">${LONGDATE(later(lastmod[d.iso3], PUBLISHED))}</time> · this country's data as of ${d.asOf || asOf} · research tool, not legal advice</p>
 <div class="facts">
 <div class="f"><b>${d.overall}</b><span>overall, of 100 · ${b.n}</span></div>
 <div class="f"><b>${rankLabel(d.rank)}</b><span>rank of ${N}</span></div>
 <div class="f"><b>${esc(d.controlModel)}</b><span>who holds the keys</span></div>
-<div class="f"><b>${esc(d.confidence)}</b><span>confidence</span></div>
+<div class="f" title="${esc(CONF.def)}"><b>${esc(d.confidence)}</b><span>confidence</span></div>
 <div class="f"><b>${dti}</b><span>evidence grade (DTI)</span></div>
 </div>
+${d.confLine ? `<p class="cf">Low confidence. ${esc(d.confLine)} ${esc(CONF.vs)}</p>` : ''}
 <div class="two"><div>
 <h2>Can I get my health records in ${esc(tn)}?</h2>
 <p>Access to the full record scores ${d.categories.access.score} of 100 in ${esc(tn)}, against a median of ${DIST.access.med} across ${N} countries. ${esc(d.categories.access.summary)}</p>

@@ -79,7 +79,8 @@ time,.dateline .num{white-space:nowrap}
 .sw{width:10px;height:10px;margin-right:6px;vertical-align:0}
 .legend i.nr{background:var(--st-gray-100);outline:.5px solid var(--st-gray-300)}
 .legend .num{font-size:12px;color:var(--st-gray-500);font-weight:400}
-.globe-well{position:relative;aspect-ratio:1;width:min(100%,calc(100svh - 112px));max-width:720px;justify-self:center;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-xl);overflow:hidden;background:#fff}
+.globe-col{justify-self:center;width:min(100%,calc(100svh - 160px));max-width:720px}.globe-col .legend{margin-top:12px;flex-wrap:nowrap;justify-content:space-between;gap:8px 10px;padding:0 4px}@media(max-width:699px){.globe-col .legend{flex-wrap:wrap;justify-content:flex-start}}  /* the key sits under the map it decodes (JAS, 2 Oct) */
+.globe-well{position:relative;aspect-ratio:1;width:100%;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-xl);overflow:hidden;background:#fff}
 #globe{position:absolute;inset:0}
 .globe-tools{position:absolute;left:12px;bottom:12px;right:12px;display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;color:var(--st-gray-500);pointer-events:none}
 .float-tooltip-kap{background:#fff!important;color:var(--st-gray-900)!important;border:1px solid var(--st-gray-200);border-radius:var(--st-radius-sm);box-shadow:var(--st-shadow-medium);padding:8px 10px!important;font:14px var(--st-font-sans)!important}
@@ -259,7 +260,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-bet
 .bar{position:sticky;top:0;z-index:10;background:#fff}
 .bar nav a{color:var(--st-gray-500)}
 .bar nav a:hover{color:var(--st-gray-900)}
-section[id]{scroll-margin-top:64px}
+section[id]{scroll-margin-top:0} /* the sticky nav sets scroll-padding-top (nav.js) */
 @media(max-width:599px){.bar .wrap{height:auto;min-height:64px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px;gap:4px 16px}.bar nav{width:100%;gap:0 20px;flex-wrap:wrap}.bar nav a{display:inline-flex;align-items:center;min-height:44px}}
 .rank{width:auto}
 .rank td.trk{padding:0 10px}
@@ -306,13 +307,15 @@ footer .brandline{display:flex;align-items:center;gap:10px}
     <p class="lede">{{LEDE}}</p>
     <p class="dateline">{{DATELINE}}</p>
     <form class="find" id="findForm" role="search"><label for="findIn">Find a country</label><input id="findIn" type="search" list="findList" autocomplete="off" placeholder="Country name, in English or its own language" aria-describedby="findMsg"><button type="submit" class="btn">Open</button><datalist id="findList"></datalist><p id="findMsg" class="find-msg" aria-live="polite"></p></form>
-    {{LEGEND}}
     {{EU_INSET}}
     <button type="button" class="btn show-globe" id="showGlobe" aria-controls="globeWell" aria-expanded="false">Show the globe</button>
   </div>
+  <div class="globe-col">
   <div class="globe-well" id="globeWell">
     <div id="globe" role="img" aria-label="Globe coloured by overall score. The same scores are in the ranked table below."></div>
     <div class="globe-tools"><span>Drag to turn. Click a country.</span></div>
+  </div>
+  {{LEGEND}}
   </div>
 </div></section>
 
@@ -327,7 +330,7 @@ footer .brandline{display:flex;align-items:center;gap:10px}
       <th scope="col" class="num"><button type="button" data-sort="overall" data-tip="Overall score, 0 to 100: the weighted average of eight rights. Access to the record and control over it count most, 20% each.">Score</button></th>
       <th scope="col" class="num"><span class="tipped" tabindex="0" data-tip="The ranks this country holds in 90% of 10,000 simulations that shift the weights and give every score an error the size we measured when separate readings of the same sources disagreed. Two countries whose ranges overlap should not be called different.">Likely rank</span></th>
       <th scope="col" class="meta-h"><button type="button" data-sort="region" data-tip="Who holds the keys to the record by default. Shared: the person has real controls inside a state or provider system. Institutional: providers and insurers decide. State: the government decides. No country is Individual, where the person holds the keys.">Region · keys</button></th>
-      <th scope="col" class="trk-h" style="padding:0 16px" tabindex="0" data-tip="Each dot is a country's overall score on a 0 to 100 line. The faint lines mark the band edges at 25, 45, 65 and 85. A hollow dot means low confidence: the public evidence is thin."><div class="trk-scale" aria-hidden="true"><span style="left:0">0</span><span style="left:25%">25</span><span style="left:45%">45</span><span style="left:65%">65</span><span style="left:85%">85</span><span style="left:100%">100</span></div></th>
+      <th scope="col" class="trk-h" style="padding:0 16px" tabindex="0" data-tip="Each dot is a country's overall score on a 0 to 100 line. The faint lines mark the band edges at 25, 45, 65 and 85."><div class="trk-scale" aria-hidden="true"><span style="left:0">0</span><span style="left:25%">25</span><span style="left:45%">45</span><span style="left:65%">65</span><span style="left:85%">85</span><span style="left:100%">100</span></div></th>
       <th scope="col" class="num"><button type="button" data-sort="dti" data-tip="How strong the evidence behind the score is, graded with SuperTruth's Data Trust Index: primary sources, open availability, recency, completeness, corroboration, verification, breadth and stability. Platinum 90+, Gold 80+, Silver 70+, Bronze 55+. It never changes the score. Pending means the links and sources are still being checked.">Evidence</button><span class="sub-h">DTI grade</span></th>
       <th scope="col" class="num"><button type="button" data-sort="stories" data-tip="Published accounts of real problems with health records, from regulators, courts and the news, over the last two years. They do not affect the score, and they are not a sample.">Stories</button><span class="sub-h">{{STORY_TOTAL}} since {{STORY_SINCE}}</span></th>
     </tr></thead>
@@ -337,7 +340,7 @@ footer .brandline{display:flex;align-items:center;gap:10px}
   </table>
   </div>
   <p class="cap">{{SOURCE_LINE}}</p>
-  <p class="note">{{LOWCONF_NOTE}}Scores move in steps of about 5 points; read each rank with its likely range, and do not call two countries different when their ranges overlap. Stories are published accounts we found. Their counts show where people have spoken publicly, not how common problems are. Stories do not affect any score.</p>
+  <p class="note">Scores move in steps of about 5 points; read each rank with its likely range, and do not call two countries different when their ranges overlap. Stories are published accounts we found. Their counts show where people have spoken publicly, not how common problems are. Stories do not affect any score.</p>
 </div></section>
 
 <section id="stories"><div class="wrap-xl">
@@ -395,7 +398,7 @@ footer .brandline{display:flex;align-items:center;gap:10px}
     <div class="card"><h3>Who holds the keys</h3>{{MODELS}}</div>
     <div class="card"><h3>Known limits</h3><ul class="plain">
       <li>Scores come from separate research passes against one rubric. An audit found that the passes sometimes scored the same legal situation differently in different regions. Those scores are under review.</li>
-      <li>{{LOWCONF_LINE}}</li>
+      <li>{{CONF_LINE}}</li>
       <li>Some laws are cited from secondary summaries rather than official text.</li>
       <li>Differences under 5 points are within the precision of the rating.</li>
       <li>{{UNRATED}} shapes on the map are not rated in this version.</li>
@@ -437,7 +440,7 @@ footer .brandline{display:flex;align-items:center;gap:10px}
 </section>
 <script>
 const SPOTS=/*__SPOTS__*/null;
-const GEO=/*__GEO__*/null, DATA=/*__DATA__*/null, CATS=/*__CATS__*/null, BANDS=/*__BANDS__*/null, DIST=/*__DIST__*/null;
+const GEO=/*__GEO__*/null, DATA=/*__DATA__*/null, CATS=/*__CATS__*/null, BANDS=/*__BANDS__*/null, DIST=/*__DIST__*/null, CONF=/*__CONF__*/null;
 const bandOf=s=>BANDS.find(b=>s>=b.lo&&s<=b.hi)||BANDS[0];
 const N=Object.keys(DATA).length;
 const CDEF={"access": "Can a person see and get a copy of their whole record (notes, labs, imaging, history), and does it work in practice: a portal, how many years, cost, export?", "control": "Can the person decide who sees and uses their record, change their mind, and see who looked at it? Is the default the person's choice or the institution's?", "privacy": "How strong health-data law is, whether the regulator is independent and enforces it, and the record on breaches and state access.", "journey": "Whether the record follows the person across family doctor, hospital, lab, pharmacy, insurer, public health and research.", "commercial": "Limits on selling health data or using it for marketing, on data brokers, and on health apps that sit outside health law. Higher means more protection.", "clinical": "Whether the treating clinician can see the patient's full record across providers when needed, under consent and emergency rules.", "research": "Whether research use of health data respects the person's choice (opt-in, opt-out or a permit with transparency) while still letting research happen.", "ai": "Rules for AI used in care: device regulation, change control, transparency, data provenance, human oversight and generative AI."};
@@ -479,11 +482,11 @@ function renderCountry(d){
           h('span',{},h('i',{class:'sw',style:`background:${b.c}`}),b.n),
           h('span',{},'Rank ',h('span',{class:'num'},`${d.rankLabel} of ${N}`),d.likely?h('span',{'data-tip':'The ranks this country holds in 90% of simulations that allow for scoring error and different weights.',tabindex:'0'},' · likely ',h('span',{class:'num'},d.likely)):null),
           h('span',{'data-tip':'Who holds the keys to the record by default: the person, the person within a shared system, providers and insurers, or the state.',tabindex:'0'},`Keys: ${d.controlModel}, ${MODELS[d.controlModel]}`),
-          h('span',{'data-tip':'How much primary evidence (laws, government and regulator pages) backs the scores. High: 7 or 8 of the 8 categories. Medium: 5 or 6. Low: 4 or fewer.',tabindex:'0'},`Confidence: ${d.confidence}`),
+          h('span',{'data-tip':CONF.def,tabindex:'0'},`Confidence: ${d.confidence}`),
           d.dti&&!d.dti.provisional?h('span',{'data-tip':'How strong the evidence behind these scores is, graded with SuperTruth\'s Data Trust Index. It never changes a score.',tabindex:'0'},'Evidence: DTI ',h('span',{class:'num'},String(d.dti.dti)),` · ${d.dti.tierLabel}`):h('span',{},'Evidence grade: pending link and source checks'),
           h('span',{},'As of ',h('span',{class:'num'},d.asOf)))),
       h('div',{class:'big'},String(d.overall),h('small',{},' /100'))),
-    d.confidence==='low'?h('p',{class:'lowwhy'},'Low confidence: the public evidence for this country is thin, so treat its scores as provisional.'):null,
+    d.confidence==='low'?h('p',{class:'lowwhy'},`Low confidence. ${d.confLine} ${CONF.vs}`):null,
     h('p',{class:'c-headline'},d.headline),
     h('div',{class:'cats'},CATS.map(c=>{const x=d.categories[c.k],cb=bandOf(x.score);return h('div',{class:'cat'},
       h('div',{},h('div',{class:'hd'},h('h3',{},h('span',{'data-tip':CDEF[c.k],tabindex:'0'},c.n)),h('span',{class:'num'},String(x.score)),h('i',{class:'sw',style:`background:${cb.c}`,title:cb.n})),
@@ -626,10 +629,10 @@ function initGlobe(){
     .polygonSideColor(()=>'rgba(0,0,0,0)') // side walls off: at the limb they showed as detached slivers (QA 2 Oct)
     .polygonStrokeColor(f=>{const i=f.properties.iso3,d=DATA[i];if(i&&i===selected)return '#111827';return d?'#FFFFFF':'#D1D5DB'})
     .polygonAltitude(0.006).polygonsTransitionDuration(0)
-    .polygonLabel(f=>{const d=DATA[f.properties.iso3];const nm=(d?d.name:f.properties.name).replace(/[<>&]/g,'');return d?`<div class="tt-n">${nm}</div><div class="tt-s">${d.overall} · ${bandOf(d.overall).n} · rank ${d.rankLabel} of ${N}</div>${d.confidence==='low'?'<div class="tt-s">Low confidence</div>':''}${d.stories.length?`<div class="tt-s">${d.stories.length} ${d.stories.length===1?'story':'stories'}</div>`:''}`:`<div class="tt-n">${nm}</div><div class="tt-s">Not rated: a territory or disputed area</div>`})
+    .polygonLabel(f=>{const d=DATA[f.properties.iso3];const nm=(d?d.name:f.properties.name).replace(/[<>&]/g,'');return d?`<div class="tt-n">${nm}</div><div class="tt-s">${d.overall} · ${bandOf(d.overall).n} · rank ${d.rankLabel} of ${N}</div>${d.confidence==='low'?`<div class="tt-s">Low confidence: weak evidence in ${d.confWeak.length} of 8</div>`:''}${d.stories.length?`<div class="tt-s">${d.stories.length} ${d.stories.length===1?'story':'stories'}</div>`:''}`:`<div class="tt-n">${nm}</div><div class="tt-s">Not rated: a territory or disputed area</div>`})
     .onPolygonClick(f=>{if(DATA[f.properties.iso3])select(f.properties.iso3,false)})
     .pointsData(Object.values(DATA).filter(d=>d.point)).pointLat(d=>d.lat).pointLng(d=>d.lng).pointColor(d=>bandOf(d.overall).c).pointAltitude(0.01).pointRadius(0.6)
-    .pointLabel(d=>`<div class="tt-n">${d.name}</div><div class="tt-s">${d.overall} · ${bandOf(d.overall).n} · rank ${d.rankLabel} of ${N}</div>`)
+    .pointLabel(d=>`<div class="tt-n">${d.name}</div><div class="tt-s">${d.overall} · ${bandOf(d.overall).n} · rank ${d.rankLabel} of ${N}</div>${d.confidence==='low'?`<div class="tt-s">Low confidence: weak evidence in ${d.confWeak.length} of 8</div>`:''}`)
     .onPointClick(d=>select(d.iso3,false))
   const m=world.globeMaterial();m.color.set('#ffffff');
   // flat light so a band colour reads the same anywhere on the sphere (Tufte re-review #3)

@@ -1,0 +1,13 @@
+{
+ "source": "United Nations Statistics Division, Standard country or area codes for statistical use (M49), overview table (English)",
+ "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+ "retrieved": "2026-10-02",
+ "rows": 248,
+ "columns": "ISO-alpha3 Code -> M49 Code, every row of the UNSD table that carries an ISO-alpha3 code",
+ "exceptions": {
+  "TWN": "no row in the UNSD M49 table; the WHO GDHM file has no code for Taiwan",
+  "XKX": "no row in the UNSD M49 table (XKX is a user-assigned code); the WHO GDHM file has no code for Kosovo"
+ },
+ "checkedBy": "analysis/external_corr.py and scripts/paper_gen.js refuse to run if any data/ ISO3 code other than the exceptions is missing (DECISION_RULES.md rule 1)",
+ "replaces": "a 65-entry table frozen from the 65-country version of the index (found by REVIEW2_methods.md M1)"
+}

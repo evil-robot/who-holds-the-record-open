@@ -23,5 +23,12 @@ out = {"dataSha256": data_sha256(ROOT), "n": len(rows), "changedSinceRun": int((
        "madCurrent": round(float(np.abs(d).mean()), 2), "loaCurrent": [round(float(d.mean() - 1.96 * d.std(ddof=1)), 1), round(float(d.mean() + 1.96 * d.std(ddof=1)), 1)],
        "within10Current": round(float((np.abs(d) <= 10).mean()), 3),
        "note": "Rater scores against current published scores; the rater read the sources cited on its run date."}
+# Exploratory, not in the pre-registered plan (REVIEW2_methods M4): ICC(2,1) per category, rater against the scores published on
+# the run date, and where the rated cells sit. Point estimates only; each category has 5 to 8 cells.
+cats = sorted({r["category"] for r in rows})
+out["perCategoryIccAtRun"] = {k: dict(n=int(sum(r["category"] == k for r in rows)),
+                                      icc=round(float(icc21(x[[r["category"] == k for r in rows]], p[[r["category"] == k for r in rows]])), 2)) for k in cats}
+out["ratedByRegion"] = {g: int(sum(r["region"] == g for r in rows)) for g in sorted({r["region"] for r in rows})}
+out["sampleFrame"] = "520 cells of the 65 countries then in the index (analysis/reliability/sample.json)"
 json.dump(out, open(os.path.join(ROOT, "analysis", "reliability", "current_compare.json"), "w"), indent=1)
 print(out)

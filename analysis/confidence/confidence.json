@@ -1,0 +1,2926 @@
+{
+ "dataSha256": "ad2e13259970e1727b6bc4a0442f31ed62597d3e93b70bc6f5dd5b1bb221229f",
+ "rule": "RUBRIC.md confidence; DECISION_RULES.md rule 4",
+ "counts": {
+  "high": 27,
+  "medium": 105,
+  "low": 66
+ },
+ "before": {
+  "high": 70,
+  "medium": 128,
+  "low": 0
+ },
+ "changed": [
+  "ALB",
+  "ARE",
+  "ARG",
+  "ATG",
+  "AUS",
+  "AZE",
+  "BGD",
+  "BGR",
+  "BHR",
+  "BHS",
+  "BIH",
+  "BLZ",
+  "BRA",
+  "BRB",
+  "CHN",
+  "COD",
+  "CPV",
+  "CUB",
+  "DZA",
+  "EGY",
+  "ERI",
+  "ETH",
+  "FJI",
+  "FSM",
+  "GAB",
+  "GHA",
+  "GIN",
+  "GNB",
+  "GNQ",
+  "GRC",
+  "GRD",
+  "GRL",
+  "GTM",
+  "GUY",
+  "HRV",
+  "HTI",
+  "IND",
+  "IRN",
+  "IRQ",
+  "ISR",
+  "ITA",
+  "JAM",
+  "KAZ",
+  "KEN",
+  "KHM",
+  "KIR",
+  "KNA",
+  "KOR",
+  "KWT",
+  "LCA",
+  "LKA",
+  "MAR",
+  "MCO",
+  "MDA",
+  "MHL",
+  "MNE",
+  "MNG",
+  "MRT",
+  "MUS",
+  "NLD",
+  "NPL",
+  "NRU",
+  "OMN",
+  "PAN",
+  "PER",
+  "PLW",
+  "PNG",
+  "POL",
+  "PRK",
+  "PSE",
+  "QAT",
+  "ROU",
+  "RUS",
+  "SAU",
+  "SDN",
+  "SEN",
+  "SGP",
+  "SLB",
+  "SLE",
+  "SLV",
+  "SMR",
+  "SOM",
+  "SRB",
+  "SSD",
+  "STP",
+  "SUR",
+  "SVN",
+  "SYR",
+  "THA",
+  "TJK",
+  "TON",
+  "TTO",
+  "TUR",
+  "TUV",
+  "TWN",
+  "URY",
+  "UZB",
+  "VCT",
+  "VUT",
+  "XKX",
+  "YEM",
+  "ZAF",
+  "ZMB"
+ ],
+ "countries": {
+  "AFG": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "research"
+   ]
+  },
+  "AGO": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "journey",
+    "clinical"
+   ]
+  },
+  "ALB": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "AND": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "ai"
+   ]
+  },
+  "ARE": {
+   "label": "low",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "commercial",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "commercial",
+    "journey"
+   ]
+  },
+  "ARG": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "ARM": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "ai"
+   ]
+  },
+  "ATG": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "AUS": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "AUT": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "AZE": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "BDI": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey"
+   ],
+   "weak": [
+    "journey"
+   ]
+  },
+  "BEL": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "commercial"
+   ],
+   "weak": [
+    "commercial"
+   ]
+  },
+  "BEN": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "ai"
+   ]
+  },
+  "BFA": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "privacy"
+   ],
+   "weak": [
+    "privacy"
+   ]
+  },
+  "BGD": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "BGR": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "BHR": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "BHS": {
+   "label": "low",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "BIH": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical"
+   ]
+  },
+  "BLR": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "BLZ": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "BOL": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "ai"
+   ]
+  },
+  "BRA": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control"
+   ],
+   "weak": [
+    "access",
+    "control"
+   ]
+  },
+  "BRB": {
+   "label": "low",
+   "was": "high",
+   "primary": 4,
+   "admits": [
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "commercial",
+    "clinical",
+    "ai"
+   ]
+  },
+  "BRN": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "BTN": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "clinical"
+   ],
+   "weak": [
+    "clinical"
+   ]
+  },
+  "BWA": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "access",
+    "privacy",
+    "commercial"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "commercial"
+   ]
+  },
+  "CAF": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "journey"
+   ]
+  },
+  "CAN": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "CHE": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "journey",
+    "ai"
+   ]
+  },
+  "CHL": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "research"
+   ]
+  },
+  "CHN": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "CIV": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "journey",
+    "ai"
+   ]
+  },
+  "CMR": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy"
+   ],
+   "weak": [
+    "access",
+    "privacy"
+   ]
+  },
+  "COD": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control"
+   ],
+   "weak": [
+    "access",
+    "control"
+   ]
+  },
+  "COG": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "COL": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control"
+   ],
+   "weak": [
+    "access",
+    "control"
+   ]
+  },
+  "COM": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "research"
+   ]
+  },
+  "CPV": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "CRI": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "clinical",
+    "research"
+   ]
+  },
+  "CUB": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "journey",
+    "clinical"
+   ]
+  },
+  "CYP": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "control"
+   ],
+   "weak": [
+    "control"
+   ]
+  },
+  "CZE": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "control",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "control",
+    "research",
+    "ai"
+   ]
+  },
+  "DEU": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "DJI": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "journey",
+    "clinical",
+    "research"
+   ]
+  },
+  "DMA": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "DNK": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "commercial"
+   ],
+   "weak": [
+    "access",
+    "commercial"
+   ]
+  },
+  "DOM": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "clinical",
+    "ai"
+   ]
+  },
+  "DZA": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "journey",
+    "clinical"
+   ]
+  },
+  "ECU": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "journey"
+   ]
+  },
+  "EGY": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "ERI": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "commercial",
+    "journey",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "commercial",
+    "journey",
+    "research"
+   ]
+  },
+  "ESP": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "EST": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy"
+   ],
+   "weak": [
+    "access",
+    "privacy"
+   ]
+  },
+  "ETH": {
+   "label": "low",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "access",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "commercial",
+    "journey",
+    "clinical"
+   ]
+  },
+  "FIN": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "FJI": {
+   "label": "low",
+   "was": "medium",
+   "primary": 6,
+   "admits": [
+    "access",
+    "privacy",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "FRA": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "FSM": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "research"
+   ]
+  },
+  "GAB": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "control",
+    "journey"
+   ],
+   "weak": [
+    "control",
+    "journey"
+   ]
+  },
+  "GBR": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "GEO": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy"
+   ]
+  },
+  "GHA": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "GIN": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "commercial",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "commercial",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "GMB": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "GNB": {
+   "label": "low",
+   "was": "high",
+   "primary": 7,
+   "admits": [
+    "access",
+    "privacy",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "clinical",
+    "research"
+   ]
+  },
+  "GNQ": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "journey",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "journey",
+    "research"
+   ]
+  },
+  "GRC": {
+   "label": "low",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "control",
+    "commercial",
+    "research"
+   ],
+   "weak": [
+    "control",
+    "commercial",
+    "research",
+    "ai"
+   ]
+  },
+  "GRD": {
+   "label": "low",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "access",
+    "journey",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "research",
+    "ai"
+   ]
+  },
+  "GRL": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "GTM": {
+   "label": "low",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "journey",
+    "clinical"
+   ]
+  },
+  "GUY": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "HND": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "journey"
+   ]
+  },
+  "HRV": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "clinical",
+    "ai"
+   ]
+  },
+  "HTI": {
+   "label": "low",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "HUN": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "IDN": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "clinical"
+   ]
+  },
+  "IND": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "IRL": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "IRN": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "IRQ": {
+   "label": "low",
+   "was": "medium",
+   "primary": 6,
+   "admits": [
+    "access",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "ISL": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "journey",
+    "clinical",
+    "research"
+   ]
+  },
+  "ISR": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "research",
+    "ai"
+   ]
+  },
+  "ITA": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "research",
+    "ai"
+   ]
+  },
+  "JAM": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "clinical"
+   ],
+   "weak": [
+    "clinical"
+   ]
+  },
+  "JOR": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control"
+   ],
+   "weak": [
+    "access",
+    "control"
+   ]
+  },
+  "JPN": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "KAZ": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "clinical",
+    "ai"
+   ]
+  },
+  "KEN": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "KGZ": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "ai"
+   ]
+  },
+  "KHM": {
+   "label": "low",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "KIR": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "KNA": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey"
+   ]
+  },
+  "KOR": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "KWT": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "LAO": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "research"
+   ],
+   "weak": [
+    "journey",
+    "research"
+   ]
+  },
+  "LBN": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "ai"
+   ]
+  },
+  "LBR": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "commercial"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "commercial"
+   ]
+  },
+  "LBY": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "LCA": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "research",
+    "ai"
+   ]
+  },
+  "LIE": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "commercial",
+    "journey",
+    "research"
+   ],
+   "weak": [
+    "commercial",
+    "journey",
+    "research"
+   ]
+  },
+  "LKA": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "commercial",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "commercial",
+    "clinical",
+    "research"
+   ]
+  },
+  "LSO": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "LTU": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy"
+   ],
+   "weak": [
+    "access",
+    "privacy"
+   ]
+  },
+  "LUX": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "privacy",
+    "commercial",
+    "journey"
+   ],
+   "weak": [
+    "privacy",
+    "commercial",
+    "journey"
+   ]
+  },
+  "LVA": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "research"
+   ]
+  },
+  "MAR": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical"
+   ]
+  },
+  "MCO": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "commercial",
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "commercial",
+    "journey",
+    "ai"
+   ]
+  },
+  "MDA": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "clinical",
+    "ai"
+   ]
+  },
+  "MDG": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "MDV": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "MEX": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "MHL": {
+   "label": "low",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "access",
+    "journey",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "research",
+    "ai"
+   ]
+  },
+  "MKD": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "clinical",
+    "ai"
+   ]
+  },
+  "MLI": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "control",
+    "research"
+   ],
+   "weak": [
+    "control",
+    "research"
+   ]
+  },
+  "MLT": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control"
+   ],
+   "weak": [
+    "access",
+    "control"
+   ]
+  },
+  "MMR": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "journey",
+    "research",
+    "ai"
+   ]
+  },
+  "MNE": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "clinical",
+    "ai"
+   ]
+  },
+  "MNG": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "commercial",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "commercial",
+    "clinical",
+    "ai"
+   ]
+  },
+  "MOZ": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "journey"
+   ]
+  },
+  "MRT": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "MUS": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "MWI": {
+   "label": "high",
+   "was": "high",
+   "primary": 7,
+   "admits": [],
+   "weak": [
+    "clinical"
+   ]
+  },
+  "MYS": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "NAM": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "journey",
+    "clinical"
+   ]
+  },
+  "NER": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "privacy",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "privacy",
+    "research",
+    "ai"
+   ]
+  },
+  "NGA": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "NIC": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical"
+   ]
+  },
+  "NLD": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "commercial",
+    "ai"
+   ],
+   "weak": [
+    "commercial",
+    "ai"
+   ]
+  },
+  "NOR": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "NPL": {
+   "label": "low",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "commercial",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "commercial",
+    "clinical",
+    "ai"
+   ]
+  },
+  "NRU": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical",
+    "research"
+   ]
+  },
+  "NZL": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "OMN": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "clinical",
+    "ai"
+   ]
+  },
+  "PAK": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "research",
+    "ai"
+   ]
+  },
+  "PAN": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "control",
+    "privacy"
+   ],
+   "weak": [
+    "control",
+    "privacy"
+   ]
+  },
+  "PER": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "clinical",
+    "ai"
+   ]
+  },
+  "PHL": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy"
+   ]
+  },
+  "PLW": {
+   "label": "low",
+   "was": "medium",
+   "primary": 6,
+   "admits": [
+    "access",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "PNG": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "ai"
+   ]
+  },
+  "POL": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "control",
+    "clinical"
+   ],
+   "weak": [
+    "control",
+    "clinical"
+   ]
+  },
+  "PRK": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "commercial",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "commercial",
+    "journey"
+   ]
+  },
+  "PRT": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "PRY": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "privacy",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "privacy",
+    "journey",
+    "clinical"
+   ]
+  },
+  "PSE": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "clinical",
+    "ai"
+   ]
+  },
+  "QAT": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "research"
+   ]
+  },
+  "ROU": {
+   "label": "low",
+   "was": "medium",
+   "primary": 6,
+   "admits": [
+    "access",
+    "control",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "clinical",
+    "ai"
+   ]
+  },
+  "RUS": {
+   "label": "low",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "RWA": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "ai"
+   ]
+  },
+  "SAU": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "SDN": {
+   "label": "medium",
+   "was": "high",
+   "primary": 7,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access",
+    "journey"
+   ]
+  },
+  "SEN": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "journey",
+    "clinical"
+   ]
+  },
+  "SGP": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "journey"
+   ]
+  },
+  "SLB": {
+   "label": "medium",
+   "was": "high",
+   "primary": 7,
+   "admits": [
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "research",
+    "ai"
+   ]
+  },
+  "SLE": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "commercial",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "commercial",
+    "clinical"
+   ]
+  },
+  "SLV": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "SMR": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "SOM": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "privacy",
+    "clinical"
+   ],
+   "weak": [
+    "privacy",
+    "clinical"
+   ]
+  },
+  "SRB": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical",
+    "research"
+   ]
+  },
+  "SSD": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "clinical"
+   ],
+   "weak": [
+    "clinical"
+   ]
+  },
+  "STP": {
+   "label": "low",
+   "was": "medium",
+   "primary": 6,
+   "admits": [
+    "journey",
+    "research"
+   ],
+   "weak": [
+    "control",
+    "commercial",
+    "journey",
+    "research"
+   ]
+  },
+  "SUR": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "research"
+   ],
+   "weak": [
+    "research"
+   ]
+  },
+  "SVK": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "SVN": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "journey",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "journey",
+    "research"
+   ]
+  },
+  "SWE": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "SWZ": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "clinical"
+   ]
+  },
+  "SYC": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "control",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "control",
+    "journey",
+    "clinical"
+   ]
+  },
+  "SYR": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "commercial",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "commercial",
+    "clinical",
+    "research"
+   ]
+  },
+  "TCD": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 7,
+   "admits": [
+    "ai"
+   ],
+   "weak": [
+    "ai"
+   ]
+  },
+  "TGO": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "THA": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control"
+   ],
+   "weak": [
+    "access",
+    "control"
+   ]
+  },
+  "TJK": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "ai"
+   ]
+  },
+  "TKM": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "clinical"
+   ]
+  },
+  "TLS": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "journey",
+    "clinical",
+    "research"
+   ]
+  },
+  "TON": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "journey",
+    "clinical",
+    "research"
+   ]
+  },
+  "TTO": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "journey",
+    "ai"
+   ]
+  },
+  "TUN": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "commercial",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "commercial",
+    "journey"
+   ]
+  },
+  "TUR": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "commercial",
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "commercial",
+    "journey",
+    "ai"
+   ]
+  },
+  "TUV": {
+   "label": "medium",
+   "was": "high",
+   "primary": 7,
+   "admits": [
+    "commercial",
+    "journey"
+   ],
+   "weak": [
+    "commercial",
+    "journey"
+   ]
+  },
+  "TWN": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "control",
+    "clinical"
+   ],
+   "weak": [
+    "control",
+    "clinical"
+   ]
+  },
+  "TZA": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "research"
+   ]
+  },
+  "UGA": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "journey",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "journey",
+    "ai"
+   ]
+  },
+  "UKR": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "control",
+    "ai"
+   ],
+   "weak": [
+    "control",
+    "ai"
+   ]
+  },
+  "URY": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access"
+   ],
+   "weak": [
+    "access"
+   ]
+  },
+  "USA": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "UZB": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "VAT": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "clinical"
+   ],
+   "weak": [
+    "access",
+    "clinical"
+   ]
+  },
+  "VCT": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical",
+    "ai"
+   ],
+   "weak": [
+    "journey",
+    "clinical",
+    "ai"
+   ]
+  },
+  "VEN": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "journey"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "journey"
+   ]
+  },
+  "VNM": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "VUT": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "access",
+    "privacy",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "privacy",
+    "research",
+    "ai"
+   ]
+  },
+  "WSM": {
+   "label": "high",
+   "was": "high",
+   "primary": 8,
+   "admits": [],
+   "weak": []
+  },
+  "XKX": {
+   "label": "low",
+   "was": "medium",
+   "primary": 5,
+   "admits": [
+    "access",
+    "control",
+    "privacy",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ],
+   "weak": [
+    "access",
+    "control",
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical",
+    "research",
+    "ai"
+   ]
+  },
+  "YEM": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "access",
+    "research"
+   ],
+   "weak": [
+    "access",
+    "research"
+   ]
+  },
+  "ZAF": {
+   "label": "medium",
+   "was": "high",
+   "primary": 8,
+   "admits": [
+    "journey"
+   ],
+   "weak": [
+    "journey"
+   ]
+  },
+  "ZMB": {
+   "label": "low",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "privacy",
+    "commercial",
+    "journey",
+    "clinical"
+   ]
+  },
+  "ZWE": {
+   "label": "medium",
+   "was": "medium",
+   "primary": 8,
+   "admits": [
+    "journey",
+    "clinical"
+   ],
+   "weak": [
+    "journey",
+    "clinical"
+   ]
+  }
+ }
+}

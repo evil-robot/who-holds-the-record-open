@@ -124,7 +124,10 @@ def summarise(iso, ref_round, ref_rank, draws_round):
     med, lo, hi = q(R, 50), q(R, 5), q(R, 95)
     band_share = (B == ref_band[None, :]).mean(axis=0)
     first = (R == 1).mean(axis=0)
-    countries = {c: {"medianRank": int(med[i]), "rank90": [int(lo[i]), int(hi[i])], "firstShare": round(float(first[i]), 4),
+    # firstShare counts a tie for first (on the displayed whole number) as first for every tied country, as the published
+    # ranking does, so shares can sum past 100%; soleFirstShare counts only draws where the country is first alone (REVIEW2_methods M3)
+    sole = ((R == 1) & ((R == 1).sum(axis=1, keepdims=True) == 1)).mean(axis=0)
+    countries = {c: {"medianRank": int(med[i]), "rank90": [int(lo[i]), int(hi[i])], "firstShare": round(float(first[i]), 4), "soleFirstShare": round(float(sole[i]), 4),
                      "bandShare": round(float(band_share[i]), 4),
                      "score90": [int(q(draws_round[:, i], 5)), int(q(draws_round[:, i], 95))]}
                  for i, c in enumerate(iso)}

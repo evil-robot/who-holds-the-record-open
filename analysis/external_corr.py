@@ -18,6 +18,12 @@ BS = dict(EST=(88.1, 86.1, 71.7), CAN=(87.3, 71.6, 65.3), DNK=(80.8, 66.0, 70.6)
           GBR=(78.1, 72.5, 59.3), SWE=(79.9, 67.4, 57.5), NLD=(85.2, 51.8, 61.2), AUT=(78.8, 60.7, 39.9), AUS=(60.3, 64.4, 47.2),
           ITA=(73.6, 56.6, 37.3), BEL=(73.8, 53.7, 36.6), CHE=(63.9, 44.0, 14.0), FRA=(39.9, 33.2, 21.7), DEU=(42.2, 30.1, 15.8), POL=(48.0, 25.9, 11.8))
 m49 = json.load(open(f"{ROOT}/analysis/external/iso3_to_m49.json")); inv = {v: k for k, v in m49.items()}
+# Coverage check (DECISION_RULES.md rule 1): the UN M49 table must hold every country in data/ except the named exceptions.
+# A 65-row table frozen from the 65-country index silently dropped 133 countries from the GDHM rows (REVIEW2_methods M1).
+M49_META = json.load(open(f"{ROOT}/analysis/external/iso3_to_m49.meta.json"))
+if M49_META["rows"] != len(m49): raise SystemExit(f"iso3_to_m49.json has {len(m49)} rows, its meta says {M49_META['rows']}")
+_miss = sorted(set(D) - set(m49) - set(M49_META["exceptions"]))
+if _miss: raise SystemExit(f"iso3_to_m49.json is missing {len(_miss)} countries in data/: {' '.join(_miss[:20])}")
 g = pd.read_csv(f"{ROOT}/analysis/external/who_gdhm_relay_2026-10-01.csv", dtype={"DIM_GEO_CODE_M49": str})
 g["iso3"] = g.DIM_GEO_CODE_M49.map(inv); g = g[(g.DIM_TIME == 2023) & g.iso3.notna()]
 resp = g[g.IND_CODE == "GDHM_SURVEY_COUNTRYRESPONSE_SCORE"]
@@ -59,7 +65,7 @@ corr("GDHM 2023 overall phase, full responders", GO, "overall", keep=full)
 print("GDHM full responders:", full)
 
 # ---- 2 Oct 2026 (academic referee, F2): national income and a person-side measure of practice ----
-# World Bank WDI NY.GDP.PCAP.PP.CD (GDP per head, PPP, current international $), latest year 2019-2024 per country,
+# World Bank WDI NY.GDP.PCAP.PP.CD (GDP per head, PPP, current international $), latest year per country (2022 to 2024 in the data),
 # raw API response cached at analysis/external/wdi_gdp_pcap_ppp.json (keyless API, pulled 2 Oct 2026).
 wdi = json.load(open(f"{ROOT}/analysis/external/wdi_gdp_pcap_ppp.json"))[1]
 GDP, GDPY = {}, {}
@@ -118,7 +124,21 @@ eurostat = dict(year=2024, indicator="I_IUAPR", n=len(ek), rhoAccess=rho, lo=ci[
 for cat in ("journey", "clinical", "overall"):
     r2, c2 = spear_ci([EU_USE[k] for k in ek], ours.loc[ek, cat]); eurostat["rho_" + cat] = dict(rho=r2, lo=c2[0], hi=c2[1])
 print("eurostat:", json.dumps({k: v for k, v in eurostat.items() if k not in ("values", "accessScores")}))
+# ---- 2 Oct 2026 (REVIEW2_policy M1): rights and delivery sub-scores, paper only, not on the site ----
+# rights = access, control, privacy, commercial, research; delivery = journey, clinical, AI; published weights renormalised within each group.
+SUB = dict(rights=dict(access=20, control=20, privacy=15, commercial=10, research=5), delivery=dict(journey=15, clinical=10, ai=5))
+sub = {}
+for nm, ws in SUB.items():
+    col = sum(ours[k].astype(float) * w for k, w in ws.items()) / sum(ws.values())
+    q1, med, q3 = np.percentile(col.values, [25, 50, 75])
+    rho, ci = spear_ci([GDP[k] for k in ks], col.loc[ks])
+    sub[nm] = dict(weights=ws, n=len(col), min=round(float(col.min()), 1), q1=round(float(q1), 1), median=round(float(med), 1), q3=round(float(q3), 1), max=round(float(col.max()), 1),
+                   gdpN=len(ks), gdpRho=rho, gdpLo=ci[0], gdpHi=ci[1])
+    ours["sub_" + nm] = col
+_r = spearmanr(ours["sub_rights"].astype(float), ours["sub_delivery"].astype(float))[0]
+sub["rightsVsDelivery"] = round(float(_r), 2)
+print("subscores:", json.dumps(sub))
 import datetime
 import sys as _s; _s.path.insert(0, f"{ROOT}/scripts"); from datahash import data_sha256
-json.dump(dict(computed=datetime.date.today().isoformat(), dataSha256=data_sha256(ROOT), ourCountries=len(ours), gdhmFullResponders=[k for k in full if k in ours.index], rows=OUT, income=inc, eurostat=eurostat),
+json.dump(dict(computed=datetime.date.today().isoformat(), dataSha256=data_sha256(ROOT), ourCountries=len(ours), gdhmFullResponders=[k for k in full if k in ours.index], rows=OUT, income=inc, subscores=sub, eurostat=eurostat, m49Rows=len(m49), m49Exceptions=sorted(M49_META["exceptions"])),
           open(f"{ROOT}/analysis/external/external_corr.json", "w"), indent=1)

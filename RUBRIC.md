@@ -24,7 +24,13 @@ Overall = weighted average (weights above, sum 100).
 
 `controlModel` (one of): "Individual" (person holds the keys), "Shared" (person has real controls inside a state/provider system), "Institutional" (providers/insurers decide), "State" (government decides, limited individual say).
 
-`confidence`: "high" (primary sources for most categories), "medium", "low" (thin evidence; say why).
+`confidence`: "high", "medium" or "low". Set by `scripts/confidence.py` from the data, never by hand (definition fixed 2 Oct 2026, before any label was recomputed):
+- A category **cites a primary source** when at least one of its sources is classed official, legal_text or intergov by `analysis/sources.py`.
+- A category **admits an unverified fact** when its summary or any detail paragraph uses the admission wording: "not verified", "not independently verified", "not been verified", "unverified", "could not (be) verify/verified/confirm/confirmed/check/checked", "not (been) confirmed", "not checked", "did not verify", "no verified".
+- A category is **weak** when it cites no primary source or admits an unverified fact.
+- **high**: 7 or 8 categories cite a primary source and no category admits an unverified fact.
+- **low**: 4 or more of the 8 categories are weak, that is, at least half the categories rest on no primary source or on a fact the text says was not verified. (This includes the earlier "4 or fewer categories with a primary source".)
+- **medium**: every other country.
 
 ## Writing rules
 - Plain English, short sentences, no em dashes (use commas, periods, parentheses). No hype words (revolutionary, robust, seamless, cutting-edge, landscape, leverage, delve). Specifics beat adjectives: numbers, law names, dates.

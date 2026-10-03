@@ -156,6 +156,8 @@ Citation metadata is in [`CITATION.cff`](CITATION.cff). The three authors share 
 
 SuperTruth sells health data verification products, and the authors are its officers. imaware, an affiliate of SuperTruth, provides testing services under agreements with some US state governments; the index scores the United States as one country and scores no state separately. We built this index and chose its stories ourselves. No government, health system, company or person paid to be included or had any say in the scores.
 
+**Press and interviews:** Rheanna Crescenzo, press@supertruth.ai
+
 This is a research tool, not legal advice. If we got a country wrong, open an issue with the page that shows it and we will fix it in the open.
 
 The published accounts of record problems shown on the site are not deposited here, so that a removal request can be honoured; each links to its public source on the site.

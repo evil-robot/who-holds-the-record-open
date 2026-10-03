@@ -10,7 +10,7 @@
 
 **Submitted:** October 2026 · **Version:** <!-- GEN:version -->1.0<!-- /GEN:version --> · **Data as of:** <!-- GEN:asof -->2026-10-02<!-- /GEN:asof -->
 
-**DOI:** assigned by Zenodo on deposit. **Interactive index:** https://healthrecordrights.com
+**DOI:** https://doi.org/10.5281/zenodo.23120175 (data: https://doi.org/10.5281/zenodo.23120173). **Interactive index:** https://healthrecordrights.com
 
 ---
 
@@ -790,7 +790,7 @@ This index is a research tool. It is not legal advice and does not assess the co
 
 ## Data and Code Availability
 
-The public release is a clean export of the project, in a public repository linked from the Zenodo record. It holds the scores, category texts, sources, laws, journey maps and news items for every country; the rubric and its v1.1 anchors; the build script that computes every overall score; the audit and the record of score changes; the evidence grade; the strain and split layer; the external cross-check; the stability analysis and the blind re-scoring (plan, rater kit and ratings); and the script that fills every number in this paper. It does not include internal working files such as drafts, launch materials and internal review notes, and it does not include the individual accounts. For about an hour on 2 October 2026 the public copy also held the accounts and the internal review notes; they were removed and the repository history replaced, but copies made in that hour cannot be recalled. The paper and data are released under CC BY 4.0 and the scoring and analysis code under the MIT licence, copyright SuperTruth Inc. The dataset DOI is assigned by Zenodo on deposit.
+The data are deposited on Zenodo at https://doi.org/10.5281/zenodo.23120173, and this paper at https://doi.org/10.5281/zenodo.23120175. The public release is a clean export of the project, in a public repository linked from the Zenodo record. It holds the scores, category texts, sources, laws, journey maps and news items for every country; the rubric and its v1.1 anchors; the build script that computes every overall score; the audit and the record of score changes; the evidence grade; the strain and split layer; the external cross-check; the stability analysis and the blind re-scoring (plan, rater kit and ratings); and the script that fills every number in this paper. It does not include internal working files such as drafts, launch materials and internal review notes, and it does not include the individual accounts. For about an hour on 2 October 2026 the public copy also held the accounts and the internal review notes, and for about two hours on the night of 2 to 3 October it held the review notes again; both times they were removed and the repository history replaced, but copies made in those windows cannot be recalled. The paper and data are released under CC BY 4.0 and the scoring and analysis code under the MIT licence, copyright SuperTruth Inc.
 
 The interactive index is at https://healthrecordrights.com. Each of the <!-- GEN:briefs -->198<!-- /GEN:briefs --> countries also has a printable one-page brief at https://healthrecordrights.com/brief/ISO3/ (for example /brief/FIN/ for Finland). "Ask the index" is an agent on the same page that answers questions only from the index's own data and says so when the index does not hold an answer.
 

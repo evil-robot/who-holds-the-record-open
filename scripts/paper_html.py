@@ -43,7 +43,7 @@ for para in meta:
     for lab, val in re.findall(r'<strong>([^<]+?):</strong>(.*?)(?=<strong>[^<]+?:</strong>|$)', para, flags=re.S):
         val = re.sub(r'\s*·\s*$', '', re.sub(r'\s+', ' ', val).strip())
         val = re.sub(r'(https?://[^\s<]+?)([.,;]?)(?=\s|$)', lambda m: f'<a href="{m.group(1)}">{m.group(1)}</a>{m.group(2)}', val)
-        rows.append((lab.strip(), val))
+        rows.append((re.sub(r'\s+', ' ', lab).strip(), val))   # pandoc may wrap a label across lines
 need(rows, 'labelled metadata (Status:, Version:, DOI: ...)')
 labels = [r[0] for r in rows]
 for want in ('Version', 'DOI', 'Interactive index'):

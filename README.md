@@ -142,7 +142,7 @@ One limit: the published accounts (the stories layer) are not in this repository
 
 Snyder, J. A., Hill, B., & Raney, D. (2026). *The Health Record Rights Index: Who Holds the Record in 198 Countries?* (version 1.0). SuperTruth Inc. https://healthrecordrights.com/
 
-A DOI will be added when the paper and data are deposited on Zenodo. Citation metadata is in [`CITATION.cff`](CITATION.cff). The three authors share equal credit.
+Paper: https://doi.org/10.5281/zenodo.23120175 · Data: https://doi.org/10.5281/zenodo.23120173 Citation metadata is in [`CITATION.cff`](CITATION.cff). The three authors share equal credit.
 
 ## Licences
 

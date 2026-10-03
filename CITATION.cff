@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this data, please cite it as below."
-title: "The Health Record Rights Index"
+message: "If you use this data, please cite the paper below; the data have their own DOI."
+title: "The Health Record Rights Index: Scores, Sources and Rubric for 198 Countries and Territories (data, version 1.0)"
 version: "1.0"
-date-released: 2026-10-02
+date-released: 2026-10-03
+doi: 10.5281/zenodo.23120173
 url: "https://healthrecordrights.com/"
 repository-code: "https://github.com/evil-robot/who-holds-the-record-open"
 license: CC-BY-4.0
@@ -18,12 +19,48 @@ authors:
   - family-names: Raney
     given-names: Dustin
     affiliation: "SuperTruth Inc."
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23120173
+    description: "The data (Zenodo)"
+  - type: doi
+    value: 10.5281/zenodo.23120175
+    description: "The working paper (Zenodo)"
+  - type: url
+    value: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556298"
+    description: "The working paper on SSRN"
 keywords:
   - health records
   - patient rights
-  - health data
-  - open data
-  - composite index
-  - EHDS
+  - right of access
+  - health data governance
+  - health data privacy
+  - electronic health records
+  - European Health Data Space
   - GDPR
   - HIPAA
+  - cross-border health data
+  - clinical AI governance
+  - composite index
+  - open data
+preferred-citation:
+  type: report
+  title: "The Health Record Rights Index: Who Holds the Record in 198 Countries?"
+  doi: 10.5281/zenodo.23120175
+  url: "https://doi.org/10.5281/zenodo.23120175"
+  publisher:
+    name: "SuperTruth Inc."
+  date-released: 2026-10-03
+  version: "1.0"
+  status: preprint
+  authors:
+    - family-names: Snyder
+      given-names: Jason Alan
+      orcid: "https://orcid.org/0009-0001-6157-8100"
+      affiliation: "SuperTruth Inc."
+    - family-names: Hill
+      given-names: Bobby
+      affiliation: "SuperTruth Inc."
+    - family-names: Raney
+      given-names: Dustin
+      affiliation: "SuperTruth Inc."

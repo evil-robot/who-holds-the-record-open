@@ -1,0 +1,37 @@
+name: Publish to MCP Registry
+
+# Publishes server.json (the remote MCP server at https://healthrecordrights.com/mcp)
+# to registry.modelcontextprotocol.io. Run it by hand from the Actions tab after
+# bumping "version" in server.json. Authentication is GitHub OIDC: no stored token.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v5
+
+      - name: Install mcp-publisher v1.8.1 and verify its checksum
+        run: |
+          set -euo pipefail
+          BASE=https://github.com/modelcontextprotocol/registry/releases/download/v1.8.1
+          curl -sSL -o mcp-publisher_linux_amd64.tar.gz "$BASE/mcp-publisher_linux_amd64.tar.gz"
+          curl -sSL -o checksums.txt "$BASE/registry_1.8.1_checksums.txt"
+          grep 'mcp-publisher_linux_amd64.tar.gz$' checksums.txt | sha256sum -c -
+          tar xzf mcp-publisher_linux_amd64.tar.gz mcp-publisher
+
+      - name: Validate server.json
+        run: ./mcp-publisher validate server.json
+
+      - name: Log in to the registry with GitHub OIDC
+        run: ./mcp-publisher login github-oidc
+
+      - name: Publish
+        run: ./mcp-publisher publish server.json

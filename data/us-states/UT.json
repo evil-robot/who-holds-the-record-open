@@ -1,0 +1,668 @@
+{
+ "usps": "UT",
+ "fips": "49",
+ "name": "Utah",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Genetic Information Privacy Act: consumer genetic information, consent",
+     "citation": "Utah Code 13-60-104",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter60/C13-60-S104_2023050320230503.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-05-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "obtain a consumer's initial express consent for collection, use, or disclosure of the consumer's genetic data",
+     "appliesTo": "Utah Code 13-60-102: a company that \"offers consumer genetic testing products or services directly to consumers\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b3d66b86c09bb5da3dc7052ea0a9ccd4903be72a97f247a2f1c11aff503e5fc2"
+    },
+    {
+     "title": "Genetic Information Privacy Act: prohibited disclosures",
+     "citation": "Utah Code 13-60-105",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter60/C13-60-S105_2023050320230503.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-05-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A direct-to-consumer genetic testing company may not disclose a consumer's genetic data without the consumer's written consent to:",
+     "appliesTo": "Direct-to-consumer genetic testing companies; disclosures to health, life or long-term care insurers or the consumer's employer.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "945a707a2d7cddd5a6c5f4aae4c5ae758e92f5d352f5b5d05af017d14ef7ecc1"
+    },
+    {
+     "title": "Utah Consumer Privacy Act: sensitive data processing",
+     "citation": "Utah Code 13-61-302(3)",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter61/C13-61-S302_2022050420231231.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-12-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "first presenting the consumer with clear notice and an opportunity to opt out of the processing",
+     "appliesTo": "Utah Code 13-61-102(1)(b): a controller or processor that \"has annual revenue of $25,000,000 or more\" and processes data of 100,000 consumers, or 25,000 with over 50% revenue from data sales. Covered entities and PHI excluded.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ec992c5064f4adc6c6d64164518c304f3c976b9983ec367f36b2677bf47a9b2d"
+    },
+    {
+     "title": "Utah Consumer Privacy Act: definition of sensitive data",
+     "citation": "Utah Code 13-61-101",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter61/C13-61-S101_2026050620260506.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-05-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "information regarding an individual's medical history, mental or physical health condition, or medical treatment or diagnosis by a health care professional;",
+     "appliesTo": "Controllers under 13-61-102; excludes such data processed by licensed health care providers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "31cfab686bbd2c436129ac3b4694832d31ec60b4a76b929cbd03ca707cf48ebe"
+    },
+    {
+     "title": "Utah Consumer Privacy Act: applicability",
+     "citation": "Utah Code 13-61-102",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter61/C13-61-S102_2024050120240501.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-05-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "has annual revenue of $25,000,000 or more; and",
+     "appliesTo": "Controllers or processors doing business in Utah or targeting Utah residents. A 2026 amendment (Ch. 193) effective 2027-01-01 adds motor vehicle manufacturers; no change to health data terms.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c28c2316cc30300f8bcd47bdaf7ead5f3317240ac058a5c5399946706cbd7eff"
+    },
+    {
+     "title": "Mental health chatbots: protection of personal information",
+     "citation": "Utah Code 13-72a-201",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter72A/C13-72a-S201_2025050720250507.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-05-07",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A supplier of a mental health chatbot may not sell to or share with any third party any:",
+     "appliesTo": "Suppliers of a mental health chatbot (generative AI represented as able to provide mental health therapy), for Utah users. Exception for provider requests with user consent.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "74f54badd0a701c49577a76df00b300b2b68e11d4b4de2048e39d362b2ae476a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://commerce.utah.gov/dcp/ucpa/",
+     "host": "commerce.utah.gov",
+     "usedFor": "Search result pointing to UCPA; not opened as evidence"
+    }
+   ],
+   "note": "Level 2 rests on 13-60-104, which requires express consent from direct-to-consumer genetic testing companies (one class of holder). The general privacy act gives only an opt-out for health data (level 1 alone).",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_UT",
+    "note": "All six quotes and dates match the current versions. Level 2 rests on 13-60-104 consent for one class of holder. UCPA gives an opt-out only. Pending 2027 UCPA text changes no health terms."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "First copy for each date of service needed for a qualified claim or appeal (Social Security Act or a federal or state needs-based benefit program), once per calendar year (78B-5-618(12)(a))",
+     "All fees waived for an indigent individual (household income at or below 100% of the federal poverty level), one free copy per date of service per provider per year (78B-5-618(13))"
+    ],
+    "feeRules": [
+     "Patient or personal representative: \"may charge a reasonable cost-based fee provided that the fee includes only the cost of:\" copying and postage (78B-5-618(4)(b))",
+     "Attorney or other third party: $30 per request to locate records; 53 cents per page for first 40 pages, 32 cents after; $20 certification; $20 expedite fee; inflation-adjusted yearly (78B-5-618(5), (11))",
+     "Electronic copy: per page fee is 50% of the paper fee; cap of $150; cap falls to $75 if late past 30 days and free if late past 60 days (78B-5-618(10))",
+     "Second or later copy for a qualified claim or appeal: up to 60 cents per page, no administrative fee (78B-5-618(12)(b))"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Patient access to medical records: free copy for qualified claim or appeal",
+     "citation": "Utah Code 78B-5-618(12)",
+     "officialUrl": "https://le.utah.gov/xcode/Title78B/Chapter5/C78B-5-S618_2025050720250507.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-05-07",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "may not charge a fee for the first copy of the record for each date of service that is necessary to support the qualified claim or appeal in each calendar year;",
+     "appliesTo": "Health care providers (as defined in 78B-3-403) and their third-party record services.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9d514e54b74cfa6254e98ae108830220bb47d4016a3c73d0aaddd1f67f9ba126"
+    },
+    {
+     "title": "Patient access to medical records: fee waiver for indigent individuals",
+     "citation": "Utah Code 78B-5-618(13)",
+     "officialUrl": "https://le.utah.gov/xcode/Title78B/Chapter5/C78B-5-S618_2025050720250507.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-05-07",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall waive all fees under this section for an indigent individual.",
+     "appliesTo": "Health care providers and their third-party record services; indigent means household income at or below 100% of the federal poverty level.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9d514e54b74cfa6254e98ae108830220bb47d4016a3c73d0aaddd1f67f9ba126"
+    },
+    {
+     "title": "Patient access to medical records: deadline for patient copies",
+     "citation": "Utah Code 78B-5-618(4)(a)",
+     "officialUrl": "https://le.utah.gov/xcode/Title78B/Chapter5/C78B-5-S618_2025050720250507.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-05-07",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall provide the copy within the deadlines required by the Health Insurance Portability and Accountability Act of 1996, Administrative Simplification rule, 45 C.F.R. Sec. 164.524(b);",
+     "appliesTo": "Health care providers giving a copy to the patient or personal representative.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9d514e54b74cfa6254e98ae108830220bb47d4016a3c73d0aaddd1f67f9ba126"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Free copy element met: a first copy for a benefits claim or appeal is free, and copies are free for indigent people. Both go beyond HIPAA and 45 CFR 171.302. The deadline follows HIPAA, so no shorter deadline.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_UT",
+    "note": "beyondFederalFloor yes: a free first copy for a benefits claim or appeal goes past 164.524 and 171.302. Deadlines stay at 30 days. The indigent waiver opens with an exception for Subsections (4) through (8)."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Clinical Health Information Exchange (cHIE), operated by Utah Health Information Network (UHIN)",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "UHIN cHIE patient information and participation policy",
+     "citation": "UHIN, For Patients (cHIE participation)",
+     "officialUrl": "https://uhin.org/resources/for-patients/",
+     "linkedFrom": "https://medicaid-documents.dhhs.utah.gov/Documents/pdfs/hit_SMHP8.pdf",
+     "effectiveDate": "2023-06-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If you do not want your information to be available through the CHIE, or if you have not been participating with the CHIE but now want your information to be included, you may change your CHIE participation status.",
+     "appliesTo": "Patients whose providers contribute data to the Utah cHIE. Opt-out needs a signed, notarized form mailed to the CHIE.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "83e82076e45fc1d91781ebfc6d9c2131f2c601629c6d55c614baa2bc9669df05"
+    },
+    {
+     "title": "Duty to establish standards for the electronic exchange of clinical health information",
+     "citation": "Utah Code 26B-8-411(3)(d)",
+     "officialUrl": "https://le.utah.gov/xcode/Title26B/Chapter8/C26B-8-S411_2023050320230503.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-05-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An electronic exchange of clinical health information by a health care provider, a third party payer, the department, a local health department, or a qualified network is a disclosure for treatment, payment, or health care operations",
+     "appliesTo": "Health care providers, third party payers, the department, local health departments and qualified networks. The statute sets no consent rule.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "815af1be4c627c44b2ee0a824f554b32e2b0a3de3fc043fc23cd2eea0a2e88c0"
+    },
+    {
+     "citation": "26B-3-108(2)(b)(iv)",
+     "officialUrl": "https://le.utah.gov/xcode/Title26B/Chapter3/C26B-3-S108_2025101420251206.html",
+     "effectiveDate": "2025-10-14",
+     "quote": "a person receiving Medicaid services shall participate in the electronic exchange of clinical health records established in accordance with Section 26B-8-411 unless the individual opts out of participation;",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0ea41c522032de8eab1577a6582d8f4ece4569c535f7c8e090e48bdce300d4a9",
+     "statusOfProvision": "in_force"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R380-70-3",
+     "host": "law.cornell.edu",
+     "usedFor": "Found rule R380-70 on exchange standards; official rule text could not be retrieved"
+    }
+   ],
+   "note": "Statute 26B-3-108(2)(b)(iv) sets opt-out for Medicaid enrollees; UHIN policy covers others. UHIN page publishes a notarized opt-out form. The 2019 state Medicaid HIT plan calls cHIE state-designated but describes opt-out only for Medicaid and public employees, and opt-in for others.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_UT",
+    "note": "Opt-out set by statute for Medicaid (26B-3-108, effective 2025-10-14) and by UHIN policy for others. UHIN is shown as state-designated in the 2019 Medicaid HIT plan. stricterForSensitive false.",
+    "problems": [
+     "Note says the statute is silent on consent. 26B-3-108(2)(b)(iv) requires Medicaid enrollees to be in the exchange unless they opt out.",
+     "basis should cite this statute for Medicaid enrollees, with UHIN policy for other patients.",
+     "The linkedFrom state plan (2019) says other patients must opt in. This conflicts with the current UHIN page and is not resolved in the cell."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q070"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Physician's report to department on abortions: confidentiality",
+      "citation": "Utah Code 76-7-313(4)",
+      "officialUrl": "https://le.utah.gov/xcode/Title76/Chapter7/C76-7-S313_2023050320230503.html",
+      "linkedFrom": null,
+      "effectiveDate": "2023-05-03",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All information supplied to the department shall be confidential and privileged pursuant to Section 26B-1-229.",
+      "appliesTo": "Abortion reports, affidavits and pathologist reports that physicians file with the Department of Health and Human Services.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "2045912e4f97c1063a1da9bb5a2682f9a9eb1fddd9cddbe1990896a34a6ee62c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://youthlaw.org/sites/default/files/2024-10/NCYLMinorConsentCompendium2024-Utah.pdf",
+      "host": "youthlaw.org",
+      "usedFor": "Search result pointing to abortion reporting confidentiality; not opened as evidence"
+     }
+    ],
+    "note": "The rule covers abortion reports held by the state health department. No separate rule on disclosure of reproductive records by providers was found in this search.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_UT",
+     "note": "Quote and 2023-05-03 date match. 63I-1-276 repeals only Subsection 76-7-313(6) on 2027-07-01. Subsection (4) is not affected."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of information and records: Utah State Hospital and other mental health facilities",
+      "citation": "Utah Code 26B-5-312",
+      "officialUrl": "https://le.utah.gov/xcode/Title26B/Chapter5/C26B-5-S312_2023050320230503.html",
+      "linkedFrom": null,
+      "effectiveDate": "2023-05-03",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All certificates, applications, records, and reports made for the purpose of this part, including those made on judicial proceedings for involuntary commitment, that directly or indirectly identify a patient or former patient or an individual whose commitment has been sought under this part, shall be kept confidential",
+      "appliesTo": "Records made under Title 26B, Chapter 5, Part 3 (state hospital, mental health facilities, commitment). Disclosure allowed with consent, to carry out the part, or by court order.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "864ca5fa438dead1a4f419974bf2fad67b8b2754b6776c9cb96058239899bd84"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/utah/title-26b/chapter-5/part-3/section-312/",
+      "host": "law.justia.com",
+      "usedFor": "Found section number 26B-5-312"
+     }
+    ],
+    "note": "Disclosure needs the person's consent, a purpose under the part, or a court order. Unauthorized disclosure is a class B misdemeanor.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_UT",
+     "note": "Quote, citation and 2023-05-03 date match the current version. Disclosure needs consent, a purpose under the part, or a court order."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Information regarding communicable or reportable diseases confidentiality",
+      "citation": "Utah Code 26B-7-217(1)(b)",
+      "officialUrl": "https://le.utah.gov/xcode/Title26B/Chapter7/C26B-7-S217_2023050320230503.html",
+      "linkedFrom": null,
+      "effectiveDate": "2023-05-03",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The department and local health departments may not release or make public that information upon subpoena, search warrant, discovery proceedings, or otherwise, except as provided by this section.",
+      "appliesTo": "Disease information held by the state and local health departments; written consent is one listed release route.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "9dbd7016441af8f725142ad1bf6aff37d98db0d611c48d6c72bc1b7145d1fa81"
+     },
+     {
+      "title": "Reporting AIDS and HIV infection",
+      "citation": "Utah Code 26B-7-203(3)",
+      "officialUrl": "https://le.utah.gov/xcode/Title26B/Chapter7/C26B-7-S203_2023050320230503.html",
+      "linkedFrom": null,
+      "effectiveDate": "2023-05-03",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Acquired Immunodeficiency Syndrome and Human Immunodeficiency Virus infection are considered communicable and infectious diseases.",
+      "appliesTo": "Applies for Sections 26B-7-201 through 26B-7-223, bringing HIV and AIDS within 26B-7-217.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "1d82aed222c9c5d995c2c6992984a0319a3cf92ceca28c9b33dc81bb169531a5"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "HIV and AIDS are named communicable diseases, so 26B-7-217 limits release of health department information about them, including in legal proceedings.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_UT",
+     "note": "Both quotes and 2023-05-03 dates match the current versions. 26B-7-203(3) brings HIV within 26B-7-217."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": true,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act: prohibited disclosures",
+      "citation": "Utah Code 13-60-105",
+      "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter60/C13-60-S105_2023050320230503.html",
+      "linkedFrom": null,
+      "effectiveDate": "2023-05-03",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A direct-to-consumer genetic testing company may not disclose a consumer's genetic data without the consumer's written consent to:",
+      "appliesTo": "Direct-to-consumer genetic testing companies; disclosures to insurers or employers.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "945a707a2d7cddd5a6c5f4aae4c5ae758e92f5d352f5b5d05af017d14ef7ecc1"
+     },
+     {
+      "title": "Genetic testing privacy: restrictions on health insurers",
+      "citation": "Utah Code 13-60-205",
+      "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter60/C13-60-S205_2023050320230503.html",
+      "linkedFrom": null,
+      "effectiveDate": "2023-05-03",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "access or otherwise take into consideration private genetic information about an asymptomatic individual;",
+      "appliesTo": "Insurers offering health care insurance, in offers, renewals, premiums and underwriting.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b66786040ff3b82c3975c7a983e27dde3c1d45d58552e50111f10f8a51914a57"
+     },
+     {
+      "title": "Genetic sequencing -- storage of genetic information",
+      "citation": "Utah Code 26B-2-244 (2026 H.B. 182)",
+      "officialUrl": "https://le.utah.gov/Session/2026/bills/enrolled/HB0182.pdf",
+      "effectiveDate": "2028-01-01",
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "remote access to genetic sequencing data storage, other than open data, by a person",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "380464269ca6e11861eba0f81cd7d549b83904f882254b70803c403f16fcaab4"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Two parts of Chapter 13-60: consent rules for consumer genetic testing companies, and limits on health insurer access to private genetic information.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_UT",
+     "note": "Value yes holds on 13-60-105 and 13-60-205, both effective 2023-05-03. H.B. 182 takes effect 2028-01-01 and applies to medical and genomic research facilities.",
+     "problems": [
+      "pending is false, but H.B. 182 (2026, signed) enacts 26B-2-244 limits on storing and remote access to genetic sequencing data, effective 2028-01-01. It should be listed with pending true."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q071"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Against an insurer or employer, per violation: actual damages; $100,000 if intentional and willful, or punitive damages if malicious; reasonable attorney fees (13-60-206(2))."
+   },
+   "provisions": [
+    {
+     "title": "Genetic testing privacy: private right of action",
+     "citation": "Utah Code 13-60-206",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter60/C13-60-S206_2023050320230503.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-05-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An individual whose legal rights arising under this part have been violated after June 30, 2003, may recover damages and be granted equitable relief in a civil action.",
+     "appliesTo": "Rights under Title 13, Chapter 60, Part 2 (genetic testing privacy as to insurers and employers).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2b136eea546d5f75b2e2ef5762220e32dec0dda69f62229fee2c663e86710569"
+    },
+    {
+     "title": "Utah Consumer Privacy Act: no private cause of action",
+     "citation": "Utah Code 13-61-305",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter61/C13-61-S305_2022050420231231.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-12-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A violation of this chapter does not provide a basis for, nor is a violation of this chapter subject to, a private right of action under this chapter or any other law.",
+     "appliesTo": "Utah Consumer Privacy Act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fad481afc0dc48b1948dc68c62de8e3cb469f956ccf3e8a3eb744f9752338871"
+    },
+    {
+     "title": "Genetic Information Privacy Act: attorney general enforcement",
+     "citation": "Utah Code 13-60-106",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter60/C13-60-S106_2023050320230503.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-05-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The attorney general may enforce this part.",
+     "appliesTo": "Part 1 of Chapter 13-60 (direct-to-consumer genetic testing companies); $2,500 per violation.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fc72e4a3ecca74ad10d249fdebd27ec1512c19ad83fdc44809ed7dadd1b32631"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The only private right found is for genetic information under 13-60 Part 2, one narrow category. The consumer privacy act bars private suits, and genetic testing company rules are enforced by the attorney general.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_UT",
+    "note": "Genetic-only private right. UCPA bars private suits. 13-60 Part 1 and the 13-72a chatbot rules are enforced by the AG or the Division of Consumer Protection only."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "in the most expedient time possible without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Protection of Personal Information Act: definitions",
+     "citation": "Utah Code 13-44-102(4)",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter44/C13-44-S102_2019051420190514.html",
+     "linkedFrom": null,
+     "effectiveDate": "2019-05-14",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "\"Personal information\" means a person's first name or first initial and last name, combined with any one or more of the following data elements relating to that person",
+     "appliesTo": "Listed elements are Social Security number, financial account or card number with access code, and driver license or state ID number. No medical or health insurance data.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3672aa19aafa4e9170421c11aea9790b5087572cbd9098e59d89a1949c1419c7"
+    },
+    {
+     "title": "Disclosure of system security breach",
+     "citation": "Utah Code 13-44-202",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter44/C13-44-S202_2024050120240501.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-05-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "regulator is considered to be in compliance with this part if the person notifies each affected Utah resident in accordance with the other applicable law in the event of a breach.",
+     "appliesTo": "Persons owning or licensing computerized personal information of Utah residents. Attorney General and Utah Cyber Center notice when 500 or more residents affected.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5362ec6b1379347a5b5b0f196ca98edbd167979111aaa57d0a8e61dbfabf1fb4"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The definition of personal information lists no medical or health insurance data. Notice is without unreasonable delay. AG and Utah Cyber Center notice at 500 residents. Entities following their own state or federal regulator's breach rules are deemed compliant.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_UT",
+    "note": "Listed elements are SSN, account or card number with code, and license or state ID number. No medical or insurance data. Facts on notice timing, AG and Cyber Center notice at 500, and deemed compliance match 13-44-202."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": true,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "13-72a-201(1): \"A supplier of a mental health chatbot may not sell to or share with any third party any:\" individually identifiable health information or user input of a Utah user",
+     "13-72a-202(2): \"A supplier of a mental health chatbot may not use a Utah user's input to:\" target or customize advertising"
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Generative AI: required disclosures in regulated occupations",
+     "citation": "Utah Code 13-77-103(2)",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter77/C13-77-S103_2025050720250507.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-05-07",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "prominently disclose when an individual receiving services is interacting with generative artificial intelligence in the provision of regulated services if the use of generative artificial intelligence constitutes a high-risk artificial intelligence interaction; and",
+     "appliesTo": "Individuals in occupations licensed or certified by the Department of Commerce. 13-77-101(5) defines high-risk interactions to include health data and \"medical advice or services; or\" mental health advice.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ca86df8b23d1bbe2b26c96cbd6a6bccbc3c814acd452bce34aeed09de857012e"
+    },
+    {
+     "title": "Generative AI: definitions (high-risk interaction)",
+     "citation": "Utah Code 13-77-101(5)",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter77/C13-77-S101_2026050620260506.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-05-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "medical advice or services; or",
+     "appliesTo": "Defines high-risk artificial intelligence interaction for 13-77-103.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "44f9b40a52fa68440719ea394c96e7d4b82f3305ae454f6384298bb7182e7439"
+    },
+    {
+     "title": "Mental health chatbots: disclosure requirements",
+     "citation": "Utah Code 13-72a-203",
+     "officialUrl": "https://le.utah.gov/xcode/Title13/Chapter72A/C13-72a-S203_2025050720250507.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-05-07",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A supplier of a mental health chatbot shall cause the mental health chatbot to clearly and conspicuously disclose to a Utah user that the mental health chatbot is an artificial intelligence technology and not a human.",
+     "appliesTo": "Suppliers of generative AI chatbots that offer or appear to offer mental health therapy to Utah users.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7a2457cbfbabdd3ec1a9286ba2c9a393298ce2b06c79960753374241c9e3c3b4"
+    },
+    {
+     "title": "Preauthorization: AI disclosure to enrollees (S.B. 319, 2026, Ch. 240)",
+     "citation": "Utah Code 31A-22-650(3) (effective 2027-01-01)",
+     "officialUrl": "https://le.utah.gov/xcode/Title31A/Chapter22/C31A-22-S650_2026050620270101.html",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "An insurer shall disclose to the department, to each health care provider in the insurer's network, and to each enrollee if the insurer uses artificial intelligence in the insurer's processes for reviewing an authorization request.",
+     "appliesTo": "Insurers with preauthorization requirements (insurer as defined in 31A-22-634).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e2ad965d3d6576500b0c6dafac8414a11375d4618601b232d93500fcac0673b4"
+    },
+    {
+     "title": "Preauthorization: adverse determinations by an individual using independent judgment (S.B. 319, 2026, Ch. 240)",
+     "citation": "Utah Code 31A-22-650(6)(e) (effective 2027-01-01)",
+     "officialUrl": "https://le.utah.gov/xcode/Title31A/Chapter22/C31A-22-S650_2026050620270101.html",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "An insurer shall ensure that an adverse preauthorization determination regarding clinical or medical necessity is made by an individual who:",
+     "appliesTo": "Insurers; the individual must exercise independent medical judgment and \"does not rely solely on recommendations from any other source.\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e2ad965d3d6576500b0c6dafac8414a11375d4618601b232d93500fcac0673b4"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "hklaw.com",
+     "usedFor": "Found S.B. 319 (2026) and its 2027-01-01 effective date"
+    },
+    {
+     "url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0319.pdf",
+     "host": "le.utah.gov",
+     "usedFor": "Search result for S.B. 319 enrolled copy; code section page used as evidence"
+    }
+   ],
+   "note": "Disclosure is in force under 13-77-103 and 13-72a-203. S.B. 319 adds insurer AI disclosure and an independent-judgment rule for adverse preauthorization decisions from 2027-01-01. No AI-specific human recourse rule found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_UT",
+    "note": "Disclosure is in force. The current 31A-22-650 (effective 2026-05-06) has no AI text. The AI and independent judgment terms start 2027-01-01, so pending is true. S.B. 150 (2026) adds no element."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

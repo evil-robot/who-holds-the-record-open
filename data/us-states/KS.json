@@ -1,0 +1,429 @@
+{
+ "usps": "KS",
+ "fips": "20",
+ "name": "Kansas",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.ksrevisor.gov/statutes/ksa.html",
+    "terms": [
+     "consumer health data",
+     "sensitive data consent",
+     "consumer data privacy act"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.ag.ks.gov/divisions/consumer-protection (HTTP 403, not readable)"
+    ],
+    "leadsChecked": [
+     "https://www.troutmanprivacy.com/2026/04/proposed-state-privacy-law-update-april-6-2026/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.troutmanprivacy.com/2026/04/proposed-state-privacy-law-update-april-6-2026/",
+     "host": "troutmanprivacy.com",
+     "usedFor": "Checked for any Kansas comprehensive privacy bill in the 2026 session; none named."
+    },
+    {
+     "url": "https://securiti.ai/privacy-laws/us/kansas/",
+     "host": "securiti.ai",
+     "usedFor": "Search result stating Kansas has no comprehensive privacy law."
+    }
+   ],
+   "note": "The revisor site has no full-text search; terms were run as a site-restricted web search of ksrevisor.gov. Hits were HIPAA covered-entity rules (K.S.A. 65-6821 et seq.), not non-HIPAA holders.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KS",
+    "note": "Own search: Chapter 50 has no privacy act. Article 7a has only K.S.A. 50-7a01 to 50-7a04. The 2026 new statutes list has no privacy or health data act. Web search found no enacted Kansas privacy bill."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [],
+    "feeRules": [
+     "K.S.A. 65-6836(b): providers may charge \"upon the payment of charges not to exceed those established and updated not less than every two years by rules and regulations adopted by the state board of healing arts\". The board regulation with amounts was not opened.",
+     "K.S.A. 65-6836(b): \"Providers may charge for the reasonable cost of all duplications of health care record information which cannot be routinely duplicated on a standard photocopy machine.\""
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Health care records; provision of copies",
+     "citation": "K.S.A. 65-6836(b)",
+     "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_068_0036.html",
+     "linkedFrom": null,
+     "effectiveDate": "2015-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "copies of health care records shall be furnished to a patient, a patient's authorized representative or any other person or entity authorized by law to obtain or reproduce such records, within 30 days of the receipt of the authorization",
+     "appliesTo": "\"Health care provider\" means any person licensed by the state board of healing arts.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c1d6f50af3fd2639565e41fd342b2b30ce44083a8ff38b411361d19c077c72c8"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://lamblawoffice.com/kansas-medical-records-copying-charges-law-statute/",
+     "host": "lamblawoffice.com",
+     "usedFor": "Search lead on Kansas copy fee law."
+    },
+    {
+     "url": "https://kmsonline.org/resources/practice-operations/1831-2013-medical-record-copying-costs",
+     "host": "kmsonline.org",
+     "usedFor": "Search lead on board copy charges; not opened."
+    }
+   ],
+   "note": "Deadline is 30 days, equal to HIPAA. No defined free-copy case found. Free production after a lawsuit is a court remedy, not a defined free case. Fee caps are recorded only as facts.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KS",
+    "note": "beyondFederalFloor no: 30 days equals HIPAA, and no defined free case in K.S.A. 65-6836 (L. 2015, ch. 46, July 1). The board fee regulation could not be opened; the ksbha.ks.gov site returned HTTP 403."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "Approved health information organizations under the Kansas health information technology act (K.S.A. 65-6821 et seq.), overseen by KDHE; no HIO named on a state page opened",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Health information organizations; participation agreements; required notice",
+     "citation": "K.S.A. 65-6832(d)(4)",
+     "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_068_0032.html",
+     "linkedFrom": null,
+     "effectiveDate": "2013-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the individual, or such individual's personal representative, has the right to request in writing that the individual's protected health information not be disclosed by the health information organization",
+     "appliesTo": "Covered entities in participation agreements with approved health information organizations.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "60fb01468dae645751a845f7ea32de7ddf81ac3ecffca59154dffb27b34aab84"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://khap2.kdhe.state.ks.us/public/hie/hie_optout_add.aspx",
+     "host": "khap2.kdhe.state.ks.us",
+     "usedFor": "KDHE online opt-out form, opened; shows a published way to say no."
+    }
+   ],
+   "note": "Records flow to approved HIOs unless the person asks in writing. KDHE publishes an online opt-out form. Emergency and legally required reporting are excepted. Rules for sensitive categories were not checked.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KS",
+    "note": "Quote verbatim. History L. 2011, ch. 114; L. 2013, ch. 112; July 1. KDHE opt-out form is live. The researcher left stricterForSensitive null; I did not find a rule specific to HIE for sensitive categories."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Termination of human pregnancy; reports; confidentiality",
+      "citation": "K.S.A. 65-445(b)",
+      "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_004_0045.html",
+      "linkedFrom": null,
+      "effectiveDate": "2024-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The report shall not include the names of the persons whose pregnancies were so terminated or upon whom an attempted abortion was performed.",
+      "appliesTo": "Reports to the secretary of health and environment on pregnancies terminated.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "254bdc1d72e58cbdc87adc25e16be5f7c0453fb1d23f94304eccc885355b0f02"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule covers abortion reports to KDHE, not provider records. Subsection (f) keeps reporter and facility identity confidential. Court orders on the 2024 amendment were not checked.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_KS",
+     "note": "The no-names rule for KDHE reports dates from the 2023 text, in force from statute book publication. The 2024 changes are under a permanent injunction, per a judgment copy found on a lead host.",
+     "problems": [
+      "Court orders not checked. A 2026-08-04 Johnson County District Court judgment permanently enjoins H.B. 2749 as revised in K.S.A. 65-445. The copy found is on a lead host, not a court site.",
+      "effectiveDate 2024-07-01 is the enjoined amendment. The judgment says pre-H.B. 2749 portions survive. The quoted no-names rule is in L. 2023, ch. 85, Sec. 10."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q028"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Care and treatment act for mentally ill persons; disclosure of records",
+      "citation": "K.S.A. 59-2979(a)",
+      "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_029_0079.html",
+      "linkedFrom": null,
+      "effectiveDate": "2008-05-22",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "any treatment records or medical records of any patient or former patient that are in the possession of any district court or treatment facility shall be privileged and shall not be disclosed except",
+      "appliesTo": "District courts and treatment facilities holding records of patients under the act.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "445fc726f4256665a8ecafcfcc823fd07cdcd2f04a7cf93b640dadf91e8c8210"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure needs written consent of the patient, guardian or parent, or fits a listed exception such as a court order. Willful violation is a class C misdemeanor.",
+    "crossCheck": {
+     "verdict": "set_aside",
+     "session": "main_crosscheck_KS",
+     "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+     "resolution": [
+      {
+       "rows": [
+        "P11"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "AIDS and HIV reporting; confidentiality of information",
+      "citation": "K.S.A. 65-6002(d)",
+      "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_060_0002.html",
+      "linkedFrom": null,
+      "effectiveDate": "2001-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "information obtained through laboratory tests conducted by the department of health and environment relating to HIV or AIDS and persons suffering therefrom or infected therewith shall be confidential and shall not be disclosed or made public, upon subpoena or otherwise",
+      "appliesTo": "Information reported to the secretary of health and environment and KDHE lab test information.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a646633dc201f856d80c3d89147a91c00d51815aebbc8f0e68466da00e9cdeb0"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Covers reported HIV and AIDS information. Disclosure is allowed with written consent, for statistics without identity, for public health, in a medical emergency, or in camera in a court case involving a minor.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_KS",
+     "note": "K.S.A. 65-6002(d). Quote verbatim. Last amended L. 2001, ch. 58, July 1. No 2026 change in the revisor list."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic screening or testing; prohibiting the use of",
+      "citation": "K.S.A. 40-2259(b)(2)",
+      "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch40/040_022_0059.html",
+      "linkedFrom": null,
+      "effectiveDate": "2010-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "require or request directly or indirectly any individual to reveal whether the individual or a member of the individual's family has obtained a genetic test or the results of the test",
+      "appliesTo": "Insurers, HMOs and similar bodies offering hospital, medical or surgical expense coverage; not life, disability income or long-term care insurers.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "7c915012b74d2eaa475ac785e4843e16cb4854dc3040ff7aa9961729def43afa"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Health coverage issuers may not ask a person to disclose genetic test results. K.S.A. 44-1009 also bars employers from seeking genetic test information; its history note was not read.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_KS",
+     "note": "K.S.A. 40-2259(b)(2). Quote verbatim. Last amended L. 2010, ch. 108, July 1. Subsection (c) excludes life, disability income and long-term care insurers."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None. Court awards costs and orders records produced without cost when refusal was without just cause."
+   },
+   "provisions": [
+    {
+     "title": "Health care records; enforcement of act",
+     "citation": "K.S.A. 65-6836(c)",
+     "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_068_0036.html",
+     "linkedFrom": null,
+     "effectiveDate": "2015-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any health care provider, patient, authorized representative or any other entity authorized by law to obtain or reproduce such records may bring a claim or action to enforce the provisions of this section.",
+     "appliesTo": "Copy requests to persons licensed by the state board of healing arts.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c1d6f50af3fd2639565e41fd342b2b30ce44083a8ff38b411361d19c077c72c8"
+    },
+    {
+     "title": "Security breach; requirements; enforcement",
+     "citation": "K.S.A. 50-7a02(g)",
+     "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch50/050_007a_0002.html",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "For violations of this section, except as to insurance companies licensed to do business in this state, the attorney general is empowered to bring an action in law or equity to address violations of this section and for other relief that may be appropriate.",
+     "appliesTo": "Persons conducting business in Kansas and government bodies holding personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e4c037696085d125e9b41584a05a9a31f86037972368c9767017f99cb99229dd"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The only private action found is narrow: suing to obtain record copies. No private action for unlawful disclosure found. Breach law is enforced by the AG or insurance commissioner.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KS",
+    "note": "The only private action is narrow: suing to enforce copy requests under K.S.A. 65-6836(c). Breach law enforcement goes to the AG or the insurance commissioner. Both quotes verbatim."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Consumer information; security breach; definitions",
+     "citation": "K.S.A. 50-7a01(g)",
+     "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch50/050_007a_0001.html",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "means a consumer's first name or first initial and last name linked to any one or more of the following data elements that relate to the consumer, when the data elements are neither encrypted nor redacted:",
+     "appliesTo": "\"Consumer\" means an individual who is a resident of this state.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a4bdb8ae1ad7626e8da0337778bb5a81386bb2a0abd3af2389bc423af58bdbdc"
+    },
+    {
+     "title": "Security breach; requirements",
+     "citation": "K.S.A. 50-7a02(a), (e)",
+     "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch50/050_007a_0002.html",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Notice must be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement",
+     "appliesTo": "A person that conducts business in this state, or a government, governmental subdivision or agency that owns or licenses computerized data that includes personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e4c037696085d125e9b41584a05a9a31f86037972368c9767017f99cb99229dd"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Listed elements are SSN, driver's license or state ID number, and financial account or card number. No medical or health insurance data. Entities following a state or federal regulator's breach procedures are deemed compliant. Only credit bureaus get notice above 1,000 consumers.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KS",
+    "note": "Listed elements are SSN, license or state ID number, and financial account or card number. No medical or insurance data. L. 2006, ch. 149, July 1. Notice goes to credit bureaus above 1,000 consumers, not the AG."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.kslegislature.gov/li/b2025_26/measures/sb467/",
+    "terms": [
+     "artificial intelligence medical necessity",
+     "artificial intelligence health care",
+     "artificial intelligence chatbot healthcare professional"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.insurance.kansas.gov/bulletins/ (HTTP 403, not readable)",
+     "https://klrd.gov/2026/03/02/briefing-book-2026-artificial-intelligence-use-in-health-insurance/",
+     "https://www.kslegislature.gov/li/b2025_26/measures/sb405/"
+    ],
+    "leadsChecked": [
+     "https://kansasreflector.com/2026/02/10/bill-targets-emotional-sometimes-dangerous-interactions-between-kansans-and-artificial-intelligence/",
+     "https://www.sheppard.com/insights/blogs/state-legislatures-consider-oversight-of-artificial-intelligence-in-health-insurance-decisions"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://kansasreflector.com/2026/02/10/bill-targets-emotional-sometimes-dangerous-interactions-between-kansans-and-artificial-intelligence/",
+     "host": "kansasreflector.com",
+     "usedFor": "Found SB 405 (AI chatbots)."
+    },
+    {
+     "url": "https://klrd.gov/2026/03/02/briefing-book-2026-artificial-intelligence-use-in-health-insurance/",
+     "host": "klrd.gov",
+     "usedFor": "Legislative research briefing on AI in health insurance; names other states' laws, no Kansas law."
+    }
+   ],
+   "note": "SB 467 (2026, AI in medical necessity decisions) and SB 405 (2026, AI chatbots acting as health professionals) both show status Died on the legislature's site. No enacted Kansas AI health law found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KS",
+    "note": "SB 467, SB 405, SB 330 and HB 2592 all show Died. The 2026 new statutes list has no AI act. A web summary claiming SB 467 was enacted is wrong per the legislature page."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

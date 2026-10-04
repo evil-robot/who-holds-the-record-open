@@ -1,0 +1,564 @@
+{
+ "usps": "IA",
+ "fips": "19",
+ "name": "Iowa",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Iowa Consumer Data Protection Act, data controller duties (sensitive data)",
+     "citation": "Iowa Code §715D.4(2)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/715D.4.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A controller shall not process sensitive data collected from a consumer for a nonexempt purpose without the consumer having been presented with clear notice and an opportunity to opt out of such processing",
+     "appliesTo": "This chapter applies to a person conducting business in the state or producing products or services that are targeted to consumers who are residents of the state and that during a calendar year does either of the following: a. Controls or processes personal data of at least one hundred thousand consumers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "97d134d54f74aae194217df493a87b655cf33823e21e9a5ec066f1e94b956733"
+    },
+    {
+     "title": "Iowa Consumer Data Protection Act, scope and exemptions",
+     "citation": "Iowa Code §715D.2(1)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/715D.2.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a person conducting business in the state or producing products or services that are targeted to consumers who are residents of the state and that during a calendar year does either of the following: a. Controls or processes personal data of at least one hundred thousand consumers.",
+     "appliesTo": "Also covers a business that controls or processes personal data of at least 25,000 consumers and derives over 50 percent of gross revenue from the sale of personal data. HIPAA protected health information and health records are exempt.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a632c12c68493150cff8b584047e5fe6706a87283c6bafa20c92ccc1dc2f47bf"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://iapp.org/news/a/iowa-set-to-finalize-sixth-us-comprehensive-state-privacy-law",
+     "host": "iapp.org",
+     "usedFor": "Found the Iowa Consumer Data Protection Act (SF 262)"
+    },
+    {
+     "url": "https://natlawreview.com/article/just-around-corner-iowas-consumer-privacy-law-taking-effect",
+     "host": "natlawreview.com",
+     "usedFor": "Checked for any separate consumer health data law"
+    }
+   ],
+   "note": "Chapter 715D lists mental or physical health diagnosis as sensitive data but requires only notice and a chance to opt out. In force 2025-01-01 (2023 Acts ch 17, §10). No dedicated consumer health data law found.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_IA",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P07",
+       "Q169"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "One copy of the patient's complete billing statement, free except postage or delivery, for the patient, legal representative or attorney (Iowa Code §622.10(6)(b))"
+    ],
+    "feeRules": [
+     "\"The fee charged for the cost of producing the requested records or images shall be based upon the actual cost of production.\" (§622.10(6)(a))",
+     "For a request covering all records for the period, the charge \"shall not exceed the rates established by the workers' compensation commissioner for copies of records in workers' compensation cases\" (§622.10(6)(a))",
+     "Affidavit of accuracy on request \"for an additional fee not to exceed ten dollars\" (§622.10(6)(a) and (b))"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Copies of patient records on written request",
+     "citation": "Iowa Code §622.10(6)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/622.10.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2008-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "any provider shall provide copies of the requested records or images to the requester within thirty days of receipt of the written request.",
+     "appliesTo": "Any provider, on written request from a patient, a patient's legal representative or attorney, or an adverse party.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "030f37be71765cbf77b0c694b53b38a915d2f499077f181a936ef9d914d3c435"
+    },
+    {
+     "title": "Free copy of complete billing statement",
+     "citation": "Iowa Code §622.10(6)(b)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/622.10.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2008-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "is entitled to one copy free of charge of the patient’s complete billing statement, subject only to a charge for the actual costs of postage or delivery charges incurred in providing the statement.",
+     "appliesTo": "A patient or a patient's legal representative or a patient's attorney.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "030f37be71765cbf77b0c694b53b38a915d2f499077f181a936ef9d914d3c435"
+    },
+    {
+     "title": "Fee for producing records",
+     "citation": "Iowa Code §622.10(6)(a)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/622.10.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2023-07-01",
+     "firstEnacted": "2008-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "The fee charged for the cost of producing the requested records or images shall be based upon the actual cost of production.",
+     "appliesTo": "Any provider producing records under §622.10(6).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "030f37be71765cbf77b0c694b53b38a915d2f499077f181a936ef9d914d3c435"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/iowa/2011/titlexv/subtitle3/chapter622/622-10/",
+     "host": "law.justia.com",
+     "usedFor": "Found §622.10 copy rules"
+    },
+    {
+     "url": "https://www.legis.iowa.gov/docs/iac/rule/09-22-2010.653.13.7.pdf",
+     "host": "legis.iowa.gov",
+     "usedFor": "Search result showing physician rule says records go out in a timely manner; no shorter deadline seen"
+    }
+   ],
+   "note": "Deadline is 30 days, not shorter. Free element: one free copy of the complete billing statement, also for a representative or attorney. That goes beyond HIPAA's cost-based fee. Subsection 6 dates from 2008 Acts ch 1191, §83.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IA",
+    "note": "beyondFederalFloor yes: a free paper or electronic billing statement copy, also for a representative or attorney, exceeds HIPAA cost-based fees and 171.302. Deadline is 30 days. Dates verified: 2008 Acts ch 1191; 6(a) 2023 Acts ch 19."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "Iowa Health Information Network; Iowa HHS selected Converge Health Iowa to replace CyncHealth Iowa (transition announced December 2025)",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "Iowa health information network, patient right to decline exchange",
+     "citation": "Iowa Code §135D.7(1)(c)(2)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/135D.7.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The designated entity shall provide the means and process by which a patient may decline participation.",
+     "appliesTo": "The designated entity administering the Iowa health information network and its record locator service.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "662877ae41456c0ed3d6c768fc37888dd1adfc55e118e977b4d8567d98e2ddf4"
+    },
+    {
+     "title": "Exemption from state laws more restrictive than HIPAA for network participants",
+     "citation": "Iowa Code §135D.7(7)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/135D.7.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2017-03-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "is exempt from any other state law that is more restrictive than HIPAA that would otherwise prevent or hinder the exchange of patient information by the participant.",
+     "appliesTo": "A participant authorized by the designated entity to use the record locator service, sharing for treatment, payment, operations, public health or care coordination.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "662877ae41456c0ed3d6c768fc37888dd1adfc55e118e977b4d8567d98e2ddf4"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://hhs.iowa.gov/media/18170/download?inline=",
+     "host": "hhs.iowa.gov",
+     "usedFor": "Iowa HHS HIE transition FAQ naming Converge Health Iowa as the new HIE vendor"
+    },
+    {
+     "url": "https://cynchealth.org/wp-content/uploads/2024/06/2024-07-06-CyncHealth-Iowa-HIE-OptOutForm.pdf",
+     "host": "cynchealth.org",
+     "usedFor": "Found prior HIE opt-out form"
+    }
+   ],
+   "note": "Statute gives an opt-out from the record locator service. Section 135D.7(7) exempts participants from state laws stricter than HIPAA, so no stricter state consent rule for sensitive data was found.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_IA",
+    "note": "Opt-out holds. 1(c)(2) effective 2025-07-01 (2025 Acts ch 120, sec 81). 135D.7(7) effective 2017-03-31. Converge Health Iowa site links an opt-out form. stricterForSensitive false.",
+    "problems": [
+     "135D.7(7) effectiveDate 2015-07-01 is wrong. 2015 Acts ch 73, sec 9 made it contingent; the Iowa Code 2018 note gives March 31, 2017."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q022"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Termination of pregnancy reporting, confidentiality of reports",
+      "citation": "Iowa Code §144.29A(3)",
+      "officialUrl": "https://www.legis.iowa.gov/docs/code/144.29A.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "1997-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Except as specified in subsection 2, reports, information, and records submitted and maintained pursuant to this section are strictly confidential and shall not be released or made public upon subpoena, search warrant, discovery proceedings, or by any other means.",
+      "appliesTo": "Termination of pregnancy reports filed by health care providers with the department.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ce70b068285250fbd4a310e6bd966bc08e5e991551979bd59c7bddafd84d1a05"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule covers termination of pregnancy reports held by the department, not provider medical records. Text from 1997 Acts ch 172. No rule specific to provider reproductive health records was found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IA",
+     "note": "Subsection 3 text is from 1997 Acts ch 172, unchanged by later amendments, which touched subsections 1 and 7. It covers termination of pregnancy reports held by the department."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental health information disclosure prohibited, exceptions",
+      "citation": "Iowa Code §228.2(1)",
+      "officialUrl": "https://www.legis.iowa.gov/docs/code/228.2.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2017-03-31",
+      "firstEnacted": "1986-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "a mental health professional, data collector, or employee or agent of a mental health professional, of a data collector, or of or for a mental health facility shall not disclose or permit the disclosure of mental health information.",
+      "appliesTo": "Mental health professionals, data collectors and mental health facilities, with exceptions in sections 228.3 to 228.8 and for care coordination.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "6c9b4c510cd299513bba081e9197bea3cba52a309435ccc19dbc593949dd7cd9"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Chapter 228 limits disclosure of mental health information to listed exceptions. Date is 2016 Acts ch 1055, Division I. Current text from 2016 Acts ch 1055, sec 5, effective March 31, 2017.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_IA",
+     "note": "Value yes holds. Current 228.2(1) text took effect 2017-03-31 under 2016 Acts ch 1055, sec 6. firstEnacted 1986.",
+     "problems": [
+      "effectiveDate 2016-04-06 is wrong for the current text. The 135D.2 cross-reference came from 2016 Acts ch 1055, sec 5, effective 2017-03-31 per the Iowa Code 2018 note."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q023"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV-related information, confidentiality",
+      "citation": "Iowa Code §141A.9(1)",
+      "officialUrl": "https://www.legis.iowa.gov/docs/code/141A.9.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2007-07-01",
+      "firstEnacted": "1999-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "is strictly confidential medical information. The information shall not be released, shared with an agency or institution, or made public upon subpoena, search warrant, discovery proceedings, or by any other means except as provided in this chapter.",
+      "appliesTo": "Information, reports and records obtained, submitted and maintained under chapter 141A.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "505736b996015e0b3be72ef539f9c2937d0208163c41b7572a3de0f12e74a75d"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 141A.9 limits release of HIV-related information to listed recipients. Current subsection 1 text dates from 2007 Acts ch 70, §10.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IA",
+     "note": "2007 Acts ch 70, sec 10 renumbered this text as subsection 1. Later amendments (2008, 2011, 2012, 2014) touched only subsections 2, 3 and 8. Text first enacted 1999 Acts ch 181."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic testing, consent to collect, retain, transmit or use genetic information",
+      "citation": "Iowa Code §729.6(3)(b)",
+      "officialUrl": "https://www.legis.iowa.gov/docs/code/729.6.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2010-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A person shall not perform genetic testing of an individual or collect, retain, transmit, or use genetic information without the informed and written consent of the individual or the individual’s authorized representative.",
+      "appliesTo": "Any person, with exceptions in §729.6(3)(c), including law enforcement identification, newborn screening, parental identity and de-identified research.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ea4ad444a899d079a40f9518f1b8b0855ee430d6b30142d30760050f39c85581"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 729.6 requires written consent to use or transmit genetic information. Section 729.6(4) also requires written authorization before a health insurer releases it. Added by 2010 Acts ch 1153.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IA",
+     "note": "Added by 2010 Acts ch 1153, sec 5 as subsection 2A, later renumbered 3. No effective date clause, so 2010-07-01."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None set for the person. 141A.11 allows damages; a separate $1,000 civil penalty applies to care providers for intentional or reckless disclosure."
+   },
+   "provisions": [
+    {
+     "title": "HIV chapter remedies",
+     "citation": "Iowa Code §141A.11(1)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/141A.11.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "1999-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A person aggrieved by a violation of this chapter shall have a right of civil action for damages in district court.",
+     "appliesTo": "Violations of chapter 141A (HIV-related testing and information).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3af4bc26666e4bed9af377de0face11aee116dc5f5d8cb0c48606e612b4dd6ec"
+    },
+    {
+     "title": "Genetic testing, civil action",
+     "citation": "Iowa Code §729.6(8)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/729.6.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2010-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Subsections 2, 3, 5, 6, and 7 of this section may be enforced through a civil action.",
+     "appliesTo": "Violations of genetic testing and consent rules in §729.6.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ea4ad444a899d079a40f9518f1b8b0855ee430d6b30142d30760050f39c85581"
+    },
+    {
+     "title": "Iowa health information network, civil action for failure to honor opt-out",
+     "citation": "Iowa Code §135D.7(8)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/135D.7.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2017-03-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A patient aggrieved or adversely affected by the designated entity’s failure to comply with subsection 1, paragraph “c”, may bring a civil action for equitable relief as the court deems appropriate.",
+     "appliesTo": "The designated entity's duty to let patients decline exchange.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "662877ae41456c0ed3d6c768fc37888dd1adfc55e118e977b4d8567d98e2ddf4"
+    },
+    {
+     "title": "Iowa Consumer Data Protection Act, no private right of action",
+     "citation": "Iowa Code §715D.8(4)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/715D.8.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in this chapter shall be construed as providing the basis for, or be subject to, a private right of action for violations of this chapter or under any other law.",
+     "appliesTo": "Chapter 715D; the attorney general has exclusive enforcement authority.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e1579bdaa37a925ab3caea7a769a91cf735df194dfde0457eaf6d95816794f48"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Rights to sue exist for narrow categories: HIV information (141A.11), genetic testing (729.6), and the HIE opt-out (equitable relief only). No general right found for medical records or consumer health data.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_IA",
+    "note": "Level 1 holds: suits limited to HIV (141A.11, 1999), genetic testing (729.6(8), 2010) and HIE opt-out equitable relief (135D.7(8), 2017-03-31). Chapter 228 sets no express private action.",
+    "problems": [
+     "135D.7(8) effectiveDate 2015-07-01 is wrong. It took effect 2017-03-31 under the contingent date in 2015 Acts ch 73, sec 9."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q024"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "in the most expeditious manner possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Personal information security breach protection, definition of personal information",
+     "citation": "Iowa Code §715C.1(11)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/715C.1.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2014-07-01",
+     "firstEnacted": "2008-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "“Personal information” means an individual’s first name or first initial and last name in combination with any one or more of the following data elements that relate to the individual",
+     "appliesTo": "Listed elements are SSN, government ID number, financial account or card numbers with access codes, electronic identifiers with access codes, and biometric data.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fe62e146650822dcdce9c2ffdf6d0a5088eecfe933392f713ace2a8d5f777144"
+    },
+    {
+     "title": "Security breach notification requirements",
+     "citation": "Iowa Code §715C.2(1), (7)(d), (8)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/code/715C.2.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2018-07-01",
+     "firstEnacted": "2008-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "shall give written notice of the breach of security to the director of the consumer protection division of the office of the attorney general within five business days after giving notice of the breach of security to any consumer pursuant to this section.",
+     "appliesTo": "Attorney general notice applies when a breach requires notice to more than 500 Iowa residents. Section 715C.2(7)(d) exempts persons subject to and complying with HIPAA and HITECH rules.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "73efea56ba27ecb9ed41bc0fb14a518b9f2e8bcbfa0a637332b8bad6f0c806c1"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The definition lists no medical or health insurance information. Entities that comply with HIPAA breach rules are exempt from the section.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IA",
+    "note": "Definition lists no medical or health insurance data. 715C.1(11) last amended 2014 Acts ch 1062. 715C.2(7) and (8) amended 2018 Acts ch 1091, sec 9, effective 2018-07-01."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "Not yet applicable (applies 2027-07-01), Iowa Code §554J.5: \"An operator shall not knowingly and intentionally cause or program a conversational AI service to make a representation or statement that would lead a reasonable individual to believe that the conversational AI service is designed to provide professional psychology or behavioral health services\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Utilization review organizations, use of artificial intelligence in prior authorization",
+     "citation": "2026 Iowa Acts ch 1087 (HF 2635), §2, adding Iowa Code §514F.8(2A)",
+     "officialUrl": "https://www.legis.iowa.gov/docs/acts/2026/CH1087.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a utilization review organization shall not use an artificial intelligence-based algorithm or system as the sole basis for the utilization review organization’s decision to deny, delay, or downgrade the prior authorization request.",
+     "appliesTo": "Utilization review organizations, for prior authorization requests for a health care service based on medical necessity.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "710ab566d7504d272c9257074b8e3212d53f7a2251e3ef51fa950594a90429db"
+    },
+    {
+     "title": "Conversational AI services, mental health care",
+     "citation": "2026 Iowa Acts ch 1068 (SF 2417), §5, Iowa Code §554J.5",
+     "officialUrl": "https://www.legis.iowa.gov/docs/acts/2026/CH1068.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2027-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "An operator shall not knowingly and intentionally cause or program a conversational AI service to make a representation or statement that would lead a reasonable individual to believe that the conversational AI service is designed to provide professional psychology or behavioral health services",
+     "appliesTo": "APPLICABILITY. This Act applies July 1, 2027.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fe27b3419fc7fad4b6ddd378bbf727387f8842eabfe7e02ed83bdb430bb34124"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.kcrg.com/2026/05/13/governor-signs-bill-eliminating-need-health-insurance-companies-authorize-cancer-screenings/",
+     "host": "kcrg.com",
+     "usedFor": "Found HF 2635 and signing date"
+    },
+    {
+     "url": "https://www.dataguidance.com/news/iowa-governor-signs-act-conversational-ai-services",
+     "host": "dataguidance.com",
+     "usedFor": "Found SF 2417 chatbot act"
+    }
+   ],
+   "note": "HF 2635 bars AI as the sole basis for denying, delaying or downgrading prior authorization. Signed 2026-05-13, effective 2026-07-01 under Iowa Code 3.7(1). SF 2417 chatbot rules apply 2027-07-01.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IA",
+    "note": "Clinician-decides element in force 2026-07-01; HF 2635 approved 2026-05-13 with no clause for sec 2. SF 2417 (ch 1068) applies 2027-07-01, so pending true. No other in-force Iowa health AI act found."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

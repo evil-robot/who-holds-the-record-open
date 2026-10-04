@@ -1,0 +1,2523 @@
+{
+ "armA": {
+  "cells": 150,
+  "rated": 147,
+  "cannotVerify": {
+   "n": 3,
+   "byDimension": {
+    "consumer_health_data": 1,
+    "breach_health": 1,
+    "ai_care": 1
+   },
+   "cells": [
+    "AL.consumer_health_data",
+    "AL.breach_health",
+    "AL.ai_care"
+   ]
+  },
+  "unrated": [],
+  "audit": {
+   "main_raterA_batch_01": [
+    {
+     "tag": "main_raterA_batch_01",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://le.utah.gov/xcode/Title13/Chapter61/13-61-S302.html",
+      "curl outside cited set: https://le.utah.gov/xcode/Title13/Chapter61/13-61-S101.html",
+      "curl outside cited set: https://le.utah.gov/xcode/Title13/Chapter72a/13-72a.html",
+      "curl outside cited set: https://le.utah.gov/xcode/Title13/Chapter72a/C13-72a_2025050720250507.html",
+      "curl outside cited set: https://le.utah.gov/xcode/Title13/Chapter72a/C13-72a_2025050720250507.html"
+     ],
+     "costUSD": 3.049669400000001
+    },
+    {
+     "tag": "main_raterA_batch_01_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 2.053992
+    }
+   ],
+   "main_raterA_batch_02": [
+    {
+     "tag": "main_raterA_batch_02",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://www.ndlegis.gov/cencode/t54c59.pdf",
+      "curl outside cited set: https://www.ndlegis.gov/agency-rules/north-dakota-administrative-code/index.html",
+      "curl outside cited set: https://www.ndlegis.gov/agency-rules/north-dakota-administrative-code/index.html",
+      "curl outside cited set: https://www.ndlegis.gov/agency-rules/north-dakota-administrative-code/index.html",
+      "curl outside cited set: https://html.duckduckgo.com/html/?q=Colorado+health+information+exchange+opt+out+Contexture+state+designated"
+     ],
+     "costUSD": 1.9615732000000006
+    },
+    {
+     "tag": "main_raterA_batch_02_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 2.2267878000000003
+    }
+   ],
+   "main_raterA_batch_03": [
+    {
+     "tag": "main_raterA_batch_03",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-26263",
+      "curl outside cited set: https://statutes.capitol.texas.gov/Docs/BC/htm/BC.541.htm",
+      "curl outside cited set: https://statutes.capitol.texas.gov/Docs/BC/htm/BC.541.htm",
+      "curl outside cited set: https://statutes.capitol.texas.gov/Docs/BC/htm/BC.541.htm",
+      "curl outside cited set: https://statutes.capitol.texas.gov/Docs/BC/htm/BC.541.htm"
+     ],
+     "costUSD": 1.6272296
+    },
+    {
+     "tag": "main_raterA_batch_03_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.3336212
+    }
+   ],
+   "main_raterA_batch_04": [
+    {
+     "tag": "main_raterA_batch_04",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://www.legis.iowa.gov/docs/code/715D.pdf",
+      "curl outside cited set: https://www.legis.iowa.gov/docs/acts/2023/CH0017.pdf",
+      "curl outside cited set: https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0005/SB0005.05.ENRS.pdf",
+      "curl outside cited set: https://iga.in.gov/ic/2025/Title_24.pdf",
+      "curl outside cited set: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.183.htm"
+     ],
+     "costUSD": 1.6884767999999997
+    },
+    {
+     "tag": "main_raterA_batch_04_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.1058442
+    }
+   ],
+   "main_raterA_batch_05": [
+    {
+     "tag": "main_raterA_batch_05",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://statutes.capitol.texas.gov/Docs/BC/htm/BC.521.htm",
+      "curl outside cited set: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1525&ChapterID=35",
+      "curl outside cited set: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1525&ChapterID=35",
+      "curl outside cited set: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2043&ChapterID=57",
+      "curl outside cited set: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2732&ChapterID=35"
+     ],
+     "costUSD": 1.3135784
+    },
+    {
+     "tag": "main_raterA_batch_05_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 0.6172834
+    }
+   ],
+   "main_raterA_batch_06": [
+    {
+     "tag": "main_raterA_batch_06",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://www.gencourt.state.nh.us/rsa/html/LII/507-H/507-H-6.htm",
+      "curl outside cited set: https://www.gencourt.state.nh.us/rsa/html/LII/507-H/507-H-mrg.htm",
+      "curl outside cited set: https://www.gencourt.state.nh.us/rsa/html/LII/507-H/507-H-2.htm",
+      "curl outside cited set: https://html.duckduckgo.com/html/?q=Maine+data+privacy+act+2026+enacted+sensitive+data+consent+Title+10",
+      "curl outside cited set: https://www.bing.com/search?q=Maine+consumer+data+privacy+act+2026+LD+sensitive+data+enacted"
+     ],
+     "costUSD": 3.041747000000001
+    },
+    {
+     "tag": "main_raterA_batch_06_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.0722288000000002
+    }
+   ],
+   "main_raterA_batch_07": [
+    {
+     "tag": "main_raterA_batch_07",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://nebraskalegislature.gov/FloorDocs/108/PDF/Slip/LB1074.pdf",
+      "curl outside cited set: https://code.wvlegislature.gov/16-29G/",
+      "curl outside cited set: https://code.wvlegislature.gov/16-29G-1A/",
+      "curl outside cited set: https://code.wvlegislature.gov/16-29G-1A/",
+      "curl outside cited set: https://www.wvhin.org/"
+     ],
+     "costUSD": 2.9867089999999994
+    },
+    {
+     "tag": "main_raterA_batch_07_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.0152252000000002
+    }
+   ],
+   "main_raterA_batch_08": [
+    {
+     "tag": "main_raterA_batch_08",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch2/sect39-261/",
+      "curl outside cited set: https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch2/sect39-261/",
+      "curl outside cited set: https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch2/sect39-261/",
+      "curl outside cited set: https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch95/sect39-9505/",
+      "curl outside cited set: https://nebraskalegislature.gov/laws/statutes.php?statute=71-8404"
+     ],
+     "costUSD": 1.6461508000000002
+    },
+    {
+     "tag": "main_raterA_batch_08_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.1929897999999999
+    }
+   ],
+   "main_raterA_batch_09": [
+    {
+     "tag": "main_raterA_batch_09",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://app.leg.wa.gov/RCW/dispo.aspx?cite=19.373",
+      "curl outside cited set: https://app.leg.wa.gov/RCW/dispo.aspx?cite=19.373&full=true",
+      "curl outside cited set: https://law.justia.com/codes/mississippi/title-75/chapter-24/general-provisions/section-75-24-29/",
+      "curl outside cited set: https://www.nmlegis.gov/Sessions/17%20Regular/final/HB0015.pdf",
+      "curl outside cited set: https://www.nmlegis.gov/Sessions/17%20Regular/final/HB0015.pdf"
+     ],
+     "costUSD": 4.359178
+    },
+    {
+     "tag": "main_raterA_batch_09_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.8580071999999999
+    }
+   ],
+   "main_raterA_batch_10": [
+    {
+     "tag": "main_raterA_batch_10",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://html.duckduckgo.com/html/?q=Oklahoma+artificial+intelligence+health+care+law+enacted+2025",
+      "curl outside cited set: https://www.bing.com/search?q=Oklahoma+artificial+intelligence+health+care+law+enacted",
+      "curl outside cited set: https://html.duckduckgo.com/html/?q=Oklahoma+artificial+intelligence+health+care+law",
+      "curl outside cited set: https://legislature.vermont.gov/statutes/fullchapter/18/221",
+      "curl outside cited set: https://legislature.vermont.gov/statutes/fullchapter/18/221"
+     ],
+     "costUSD": 4.032620400000001
+    },
+    {
+     "tag": "main_raterA_batch_10_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.4900920000000002
+    }
+   ],
+   "main_raterA_batch_11": [
+    {
+     "tag": "main_raterA_batch_11",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://pub.njleg.gov/bills/2022/PL23/266_.PDF",
+      "curl outside cited set: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0820?ys=2025RS",
+      "curl outside cited set: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0820?ys=2025RS",
+      "curl outside cited set: https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_747_hb0820t.pdf",
+      "curl outside cited set: https://mgaleg.maryland.gov/mgawebsite/Legislation/Index/house?ys=2026RS"
+     ],
+     "costUSD": 2.5578479999999995
+    },
+    {
+     "tag": "main_raterA_batch_11_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 0.9048791999999999
+    }
+   ],
+   "main_raterA_batch_12": [
+    {
+     "tag": "main_raterA_batch_12",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://legislature.vermont.gov/Documents/2020/Docs/ACTS/ACT089/ACT089%20As%20Enacted.pdf",
+      "curl outside cited set: https://html.duckduckgo.com/html/?q=north+dakota+51-30-01+%22health+insurance+information%22+session+laws+amended",
+      "curl outside cited set: https://www.bing.com/search?q=north+dakota+51-30-01+%22health+insurance+information%22+amended+2015+session+laws",
+      "curl outside cited set: https://www.bing.com/search?q=north+dakota+51-30-01+%22health+insurance+information%22+amended+2015+session+laws",
+      "curl outside cited set: https://apps.legislature.ky.gov/law/statutes/"
+     ],
+     "costUSD": 1.8107516000000006
+    },
+    {
+     "tag": "main_raterA_batch_12_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.5511482
+    }
+   ],
+   "main_raterA_batch_13": [
+    {
+     "tag": "main_raterA_batch_13",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://www.kslegislature.gov/li/b2025_26/statute/050_000_0000_chapter/050_007a_0000_article/050_007a_0001_section/050_007a_0001_k/",
+      "curl outside cited set: https://www.kslegislature.gov/li/b2025_26/statute/050_000_0000_chapter/050_007a_0000_article/050_007a_0001_section/050_007a_0001_k/",
+      "curl outside cited set: https://www.kslegislature.gov/li/b2025_26/statute/050_000_0000_chapter/050_007a_0000_article/050_007a_0002_section/050_007a_0002_k/",
+      "curl outside cited set: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2043&ChapterID=57",
+      "curl outside cited set: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2043&ChapterID=57"
+     ],
+     "costUSD": 1.842197
+    },
+    {
+     "tag": "main_raterA_batch_13_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.4089592000000002
+    }
+   ],
+   "main_raterA_batch_14": [
+    {
+     "tag": "main_raterA_batch_14",
+     "pass": false,
+     "fails": [
+      "WebFetch outside cited set: https://leg.colorado.gov/bills/sb25b-004",
+      "curl outside cited set: https://leg.colorado.gov/bills/sb25b-004",
+      "curl outside cited set: https://leg.colorado.gov/bill-search?search_api_views_fulltext=artificial%20intelligence&field_sessions=2026A",
+      "curl outside cited set: https://leg.colorado.gov/bill-search?search_api_views_fulltext=artificial%20intelligence&field_sessions=2026A",
+      "WebFetch outside cited set: https://coag.gov/ai/"
+     ],
+     "costUSD": 3.847376399999999
+    },
+    {
+     "tag": "main_raterA_batch_14_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.741639
+    }
+   ],
+   "main_raterA_batch_15": [
+    {
+     "tag": "main_raterA_batch_15",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://www.cga.ct.gov/current/pub/chap_899.htm",
+      "curl outside cited set: https://www.cga.ct.gov/2022/ACT/PA/PDF/2022PA-00019-R00HB-05414-PA.PDF",
+      "curl outside cited set: https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-578/",
+      "curl outside cited set: https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-575/",
+      "curl outside cited set: https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-575/"
+     ],
+     "costUSD": 2.0447728
+    },
+    {
+     "tag": "main_raterA_batch_15_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 0.8947842000000001
+    }
+   ],
+   "main_raterA_batch_16": [
+    {
+     "tag": "main_raterA_batch_16",
+     "pass": false,
+     "fails": [
+      "curl outside cited set: https://leg.colorado.gov/colorado-revised-statutes",
+      "curl outside cited set: https://leg.colorado.gov/bills/sb21-190",
+      "curl outside cited set: https://leg.colorado.gov/bills/sb21-190",
+      "curl outside cited set: https://leg.colorado.gov/bills/sb21-190",
+      "curl outside cited set: https://leg.colorado.gov/bills/sb21-190"
+     ],
+     "costUSD": 1.1824187999999998
+    },
+    {
+     "tag": "main_raterA_batch_16_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.864785
+    }
+   ]
+  },
+  "shortfall": {
+   "consumer_health_data/Midwest": 1,
+   "ai_care/Midwest": 1
+  },
+  "ordinalPairs": 112,
+  "icc21": [
+   0.9791069747987032,
+   0.9697775074064673,
+   0.9855779687874586
+  ],
+  "icc_cluster_boot_ci": [
+   0.9452570267555653,
+   1.0000000000000002
+  ],
+  "exactOrdinal": 0.9821428571428571,
+  "exact_cluster_boot_ci": [
+   0.9545454545454546,
+   1.0
+  ],
+  "iccDimensionCentred": [
+   0.9774224485223365,
+   0.9673534095384392,
+   0.9844109921148988
+  ],
+  "statusAgreement": 0.9795918367346939,
+  "perDimension": {
+   "consumer_health_data": {
+    "n": 22,
+    "exact": 1.0,
+    "qwk": 1.0,
+    "prevalence": {
+     "2": 18,
+     "1": 1,
+     "0": 2,
+     "3": 1
+    }
+   },
+   "copy_rights": {
+    "n": 24,
+    "exact": 0.9166666666666666,
+    "qwk": 0.8894009216589862,
+    "prevalence": {
+     "0": 4,
+     "1": 15,
+     "2": 5
+    }
+   },
+   "private_right": {
+    "n": 24,
+    "exact": 1.0,
+    "qwk": 1.0,
+    "prevalence": {
+     "2": 6,
+     "1": 18
+    }
+   },
+   "breach_health": {
+    "n": 23,
+    "exact": 1.0,
+    "qwk": 1.0,
+    "prevalence": {
+     "0": 12,
+     "2": 8,
+     "1": 3
+    }
+   },
+   "ai_care": {
+    "n": 19,
+    "exact": 1.0,
+    "qwk": 1.0,
+    "prevalence": {
+     "1": 8,
+     "2": 5,
+     "0": 4,
+     "3": 2
+    }
+   }
+  },
+  "nominal": {
+   "hie_consent": {
+    "n": 16,
+    "exact": 1.0,
+    "kappa": 1.0,
+    "prevalence": {
+     "opt_out": 13,
+     "opt_in": 2,
+     "no_choice_required": 1
+    }
+   },
+   "sensitive_records": {
+    "n": 16,
+    "exact": 1.0,
+    "kappa": null,
+    "prevalence": {
+     "yes": 16
+    }
+   }
+  },
+  "repeat": {
+   "pairs": [
+    {
+     "task_id": "MD.private_right",
+     "first": 2,
+     "second": 2
+    },
+    {
+     "task_id": "KS.breach_health",
+     "first": 0,
+     "second": 0
+    },
+    {
+     "task_id": "TN.consumer_health_data",
+     "first": 2,
+     "second": 2
+    },
+    {
+     "task_id": "HI.ai_care",
+     "first": null,
+     "second": null
+    },
+    {
+     "task_id": "NV.consumer_health_data",
+     "first": 3,
+     "second": 3
+    },
+    {
+     "task_id": "SD.consumer_health_data",
+     "first": 2,
+     "second": 2
+    },
+    {
+     "task_id": "MI.private_right",
+     "first": 1,
+     "second": 1
+    },
+    {
+     "task_id": "PA.private_right",
+     "first": 1,
+     "second": 1
+    }
+   ],
+   "madLevels": 0.0
+  },
+  "underReviewInSample": 25,
+  "decision": {
+   "rules": {
+    "icc_ge_0.75": true,
+    "exact_ordinal_ge_0.70": true,
+    "status_ge_0.90": 1.0,
+    "d3_d4_exact_ge_0.85": true
+   },
+   "agreedClosely": true,
+   "tableOnlyDimensions": [],
+   "toEditors": [
+    {
+     "task_id": "LA.ai_care",
+     "pubStatus": "in_force",
+     "pub": 1,
+     "raterStatus": "not_checked",
+     "rater": null
+    },
+    {
+     "task_id": "OK.ai_care",
+     "pubStatus": "in_force",
+     "pub": 1,
+     "raterStatus": "not_checked",
+     "rater": null
+    },
+    {
+     "task_id": "HI.ai_care",
+     "pubStatus": "in_force",
+     "pub": 0,
+     "raterStatus": "not_checked",
+     "rater": null
+    }
+   ]
+  },
+  "rows": [
+   {
+    "task_id": "IN.consumer_health_data",
+    "usps": "IN",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MN.consumer_health_data",
+    "usps": "MN",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "IA.consumer_health_data",
+    "usps": "IA",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "SD.consumer_health_data",
+    "usps": "SD",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NE.consumer_health_data",
+    "usps": "NE",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NH.consumer_health_data",
+    "usps": "NH",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "ME.consumer_health_data",
+    "usps": "ME",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CT.consumer_health_data",
+    "usps": "CT",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NJ.consumer_health_data",
+    "usps": "NJ",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "TN.consumer_health_data",
+    "usps": "TN",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AL.consumer_health_data",
+    "usps": "AL",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": null,
+    "rater": null,
+    "cannotVerify": true,
+    "underReview": false
+   },
+   {
+    "task_id": "KY.consumer_health_data",
+    "usps": "KY",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "MD.consumer_health_data",
+    "usps": "MD",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "TX.consumer_health_data",
+    "usps": "TX",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "LA.consumer_health_data",
+    "usps": "LA",
+    "dimension": "consumer_health_data",
+    "pubStatus": "enacted_not_yet_effective",
+    "pub": 0,
+    "raterStatus": "enacted_not_yet_effective",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "DE.consumer_health_data",
+    "usps": "DE",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "OK.consumer_health_data",
+    "usps": "OK",
+    "dimension": "consumer_health_data",
+    "pubStatus": "enacted_not_yet_effective",
+    "pub": 0,
+    "raterStatus": "enacted_not_yet_effective",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AZ.consumer_health_data",
+    "usps": "AZ",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NV.consumer_health_data",
+    "usps": "NV",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 3,
+    "raterStatus": "in_force",
+    "rater": 3,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CO.consumer_health_data",
+    "usps": "CO",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CA.consumer_health_data",
+    "usps": "CA",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "MT.consumer_health_data",
+    "usps": "MT",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "UT.consumer_health_data",
+    "usps": "UT",
+    "dimension": "consumer_health_data",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "KS.copy_rights",
+    "usps": "KS",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IA.copy_rights",
+    "usps": "IA",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "OH.copy_rights",
+    "usps": "OH",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MN.copy_rights",
+    "usps": "MN",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MI.copy_rights",
+    "usps": "MI",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NE.copy_rights",
+    "usps": "NE",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "VT.copy_rights",
+    "usps": "VT",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CT.copy_rights",
+    "usps": "CT",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MA.copy_rights",
+    "usps": "MA",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "NJ.copy_rights",
+    "usps": "NJ",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AR.copy_rights",
+    "usps": "AR",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WV.copy_rights",
+    "usps": "WV",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "OK.copy_rights",
+    "usps": "OK",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "VA.copy_rights",
+    "usps": "VA",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AL.copy_rights",
+    "usps": "AL",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "SC.copy_rights",
+    "usps": "SC",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "TX.copy_rights",
+    "usps": "TX",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MD.copy_rights",
+    "usps": "MD",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AZ.copy_rights",
+    "usps": "AZ",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "OR.copy_rights",
+    "usps": "OR",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CA.copy_rights",
+    "usps": "CA",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NM.copy_rights",
+    "usps": "NM",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CO.copy_rights",
+    "usps": "CO",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WA.copy_rights",
+    "usps": "WA",
+    "dimension": "copy_rights",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MN.private_right",
+    "usps": "MN",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IA.private_right",
+    "usps": "IA",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "OH.private_right",
+    "usps": "OH",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "ND.private_right",
+    "usps": "ND",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IL.private_right",
+    "usps": "IL",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "MI.private_right",
+    "usps": "MI",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "RI.private_right",
+    "usps": "RI",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "NJ.private_right",
+    "usps": "NJ",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "PA.private_right",
+    "usps": "PA",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NH.private_right",
+    "usps": "NH",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "DE.private_right",
+    "usps": "DE",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "FL.private_right",
+    "usps": "FL",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NC.private_right",
+    "usps": "NC",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "TX.private_right",
+    "usps": "TX",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MD.private_right",
+    "usps": "MD",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WV.private_right",
+    "usps": "WV",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "DC.private_right",
+    "usps": "DC",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "LA.private_right",
+    "usps": "LA",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AK.private_right",
+    "usps": "AK",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NV.private_right",
+    "usps": "NV",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "HI.private_right",
+    "usps": "HI",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MT.private_right",
+    "usps": "MT",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WA.private_right",
+    "usps": "WA",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "UT.private_right",
+    "usps": "UT",
+    "dimension": "private_right",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IA.breach_health",
+    "usps": "IA",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MO.breach_health",
+    "usps": "MO",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MN.breach_health",
+    "usps": "MN",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "OH.breach_health",
+    "usps": "OH",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "KS.breach_health",
+    "usps": "KS",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "ND.breach_health",
+    "usps": "ND",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "RI.breach_health",
+    "usps": "RI",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NH.breach_health",
+    "usps": "NH",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "ME.breach_health",
+    "usps": "ME",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "VT.breach_health",
+    "usps": "VT",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "TX.breach_health",
+    "usps": "TX",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "AR.breach_health",
+    "usps": "AR",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MS.breach_health",
+    "usps": "MS",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "LA.breach_health",
+    "usps": "LA",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AL.breach_health",
+    "usps": "AL",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": null,
+    "rater": null,
+    "cannotVerify": true,
+    "underReview": false
+   },
+   {
+    "task_id": "SC.breach_health",
+    "usps": "SC",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "DC.breach_health",
+    "usps": "DC",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "KY.breach_health",
+    "usps": "KY",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "NV.breach_health",
+    "usps": "NV",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AZ.breach_health",
+    "usps": "AZ",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NM.breach_health",
+    "usps": "NM",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AK.breach_health",
+    "usps": "AK",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WA.breach_health",
+    "usps": "WA",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CO.breach_health",
+    "usps": "CO",
+    "dimension": "breach_health",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IN.ai_care",
+    "usps": "IN",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NE.ai_care",
+    "usps": "NE",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IA.ai_care",
+    "usps": "IA",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IL.ai_care",
+    "usps": "IL",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MN.ai_care",
+    "usps": "MN",
+    "dimension": "ai_care",
+    "pubStatus": "enacted_not_yet_effective",
+    "pub": 0,
+    "raterStatus": "enacted_not_yet_effective",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CT.ai_care",
+    "usps": "CT",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "VT.ai_care",
+    "usps": "VT",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "RI.ai_care",
+    "usps": "RI",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "ME.ai_care",
+    "usps": "ME",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "LA.ai_care",
+    "usps": "LA",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "not_checked",
+    "rater": null,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "TN.ai_care",
+    "usps": "TN",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "OK.ai_care",
+    "usps": "OK",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "not_checked",
+    "rater": null,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "GA.ai_care",
+    "usps": "GA",
+    "dimension": "ai_care",
+    "pubStatus": "enacted_not_yet_effective",
+    "pub": 0,
+    "raterStatus": "enacted_not_yet_effective",
+    "rater": 0,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "TX.ai_care",
+    "usps": "TX",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MS.ai_care",
+    "usps": "MS",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MD.ai_care",
+    "usps": "MD",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "AL.ai_care",
+    "usps": "AL",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": null,
+    "rater": null,
+    "cannotVerify": true,
+    "underReview": false
+   },
+   {
+    "task_id": "UT.ai_care",
+    "usps": "UT",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WA.ai_care",
+    "usps": "WA",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "AZ.ai_care",
+    "usps": "AZ",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CO.ai_care",
+    "usps": "CO",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 3,
+    "raterStatus": "in_force",
+    "rater": 3,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "CA.ai_care",
+    "usps": "CA",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 3,
+    "raterStatus": "in_force",
+    "rater": 3,
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "HI.ai_care",
+    "usps": "HI",
+    "dimension": "ai_care",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "not_checked",
+    "rater": null,
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WI.hie_consent",
+    "usps": "WI",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IA.hie_consent",
+    "usps": "IA",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "SD.hie_consent",
+    "usps": "SD",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "ND.hie_consent",
+    "usps": "ND",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "ME.hie_consent",
+    "usps": "ME",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NJ.hie_consent",
+    "usps": "NJ",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MA.hie_consent",
+    "usps": "MA",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_in",
+    "raterStatus": "in_force",
+    "rater": "opt_in",
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "DC.hie_consent",
+    "usps": "DC",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WV.hie_consent",
+    "usps": "WV",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MD.hie_consent",
+    "usps": "MD",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "DE.hie_consent",
+    "usps": "DE",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "GA.hie_consent",
+    "usps": "GA",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "NV.hie_consent",
+    "usps": "NV",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_in",
+    "raterStatus": "in_force",
+    "rater": "opt_in",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NM.hie_consent",
+    "usps": "NM",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "CA.hie_consent",
+    "usps": "CA",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "no_choice_required",
+    "raterStatus": "in_force",
+    "rater": "no_choice_required",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CO.hie_consent",
+    "usps": "CO",
+    "dimension": "hie_consent",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "OH.sensitive_records.reproductive",
+    "usps": "OH",
+    "dimension": "sensitive_records.reproductive",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "CT.sensitive_records.reproductive",
+    "usps": "CT",
+    "dimension": "sensitive_records.reproductive",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "AR.sensitive_records.reproductive",
+    "usps": "AR",
+    "dimension": "sensitive_records.reproductive",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "ID.sensitive_records.reproductive",
+    "usps": "ID",
+    "dimension": "sensitive_records.reproductive",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IL.sensitive_records.mental_health",
+    "usps": "IL",
+    "dimension": "sensitive_records.mental_health",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NJ.sensitive_records.mental_health",
+    "usps": "NJ",
+    "dimension": "sensitive_records.mental_health",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "SC.sensitive_records.mental_health",
+    "usps": "SC",
+    "dimension": "sensitive_records.mental_health",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NM.sensitive_records.mental_health",
+    "usps": "NM",
+    "dimension": "sensitive_records.mental_health",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "IN.sensitive_records.hiv",
+    "usps": "IN",
+    "dimension": "sensitive_records.hiv",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "VT.sensitive_records.hiv",
+    "usps": "VT",
+    "dimension": "sensitive_records.hiv",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WV.sensitive_records.hiv",
+    "usps": "WV",
+    "dimension": "sensitive_records.hiv",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "WY.sensitive_records.hiv",
+    "usps": "WY",
+    "dimension": "sensitive_records.hiv",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": true
+   },
+   {
+    "task_id": "IN.sensitive_records.genetic",
+    "usps": "IN",
+    "dimension": "sensitive_records.genetic",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "NJ.sensitive_records.genetic",
+    "usps": "NJ",
+    "dimension": "sensitive_records.genetic",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "VA.sensitive_records.genetic",
+    "usps": "VA",
+    "dimension": "sensitive_records.genetic",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   },
+   {
+    "task_id": "MT.sensitive_records.genetic",
+    "usps": "MT",
+    "dimension": "sensitive_records.genetic",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes",
+    "cannotVerify": false,
+    "underReview": false
+   }
+  ]
+ },
+ "armB": {
+  "cells": 25,
+  "rated": 25,
+  "audit": {
+   "main_raterB_session_1": [
+    {
+     "tag": "main_raterB_session_1",
+     "pass": false,
+     "fails": [
+      "grep names a path outside scratch: /Users/jas/.claude/projects/-private-tmp-whr-rater-b-armB1-ztz6/4b7f1f36-a1f0-4760-bc44-72c5e9486491/tool-results/bsegx0czx.txt: grep -v -E \"^\\s*[:.@{}]|--wp|\\{\" /Users/jas/.claude/projects/-private-tmp-whr-rater-b-armB1-ztz6/4b7f1f36-a1f0-4760-bc44"
+     ],
+     "costUSD": 1.2032127999999997
+    },
+    {
+     "tag": "main_raterB_session_1_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.1026858000000002
+    }
+   ],
+   "main_raterB_session_2": [
+    {
+     "tag": "main_raterB_session_2",
+     "pass": false,
+     "fails": [
+      "URL scheme (none) not allowed: curl -sL --tlsv1.2 --ciphers DEFAULT@SECLEVEL=0 -o /dev/null -w \"%{http_code} %{size_download} %{url_effective}\\n\" -A \"M",
+      "curl option not allowed: --ciphers: curl -sL --tlsv1.2 --ciphers DEFAULT@SECLEVEL=0 -o /dev/null -w \"%{http_code} %{size_download} %{url_effective}\\n\" -A \"M",
+      "curl option not allowed: --tlsv1.2: curl -sL --tlsv1.2 --ciphers DEFAULT@SECLEVEL=0 -o /dev/null -w \"%{http_code} %{size_download} %{url_effective}\\n\" -A \"M",
+      "program not allowed: which: which tesseract pdftoppm"
+     ],
+     "costUSD": 3.0117406
+    },
+    {
+     "tag": "main_raterB_session_2_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 2.0533586000000006
+    }
+   ],
+   "main_raterB_session_3": [
+    {
+     "tag": "main_raterB_session_3",
+     "pass": true,
+     "fails": [],
+     "costUSD": 0.38150280000000003
+    }
+   ],
+   "main_raterB_session_4": [
+    {
+     "tag": "main_raterB_session_4",
+     "pass": true,
+     "fails": [],
+     "costUSD": 0.8000828000000003
+    }
+   ],
+   "main_raterB_session_5": [
+    {
+     "tag": "main_raterB_session_5",
+     "pass": false,
+     "fails": [
+      "grep names a path outside scratch: /Users/jas/.claude/projects/-private-tmp-whr-rater-b-armB5-GmkX/c9861983-5cf9-487d-9979-7f88a5c58a90/tool-results/b53viskas.txt: grep -o -i -E '(action|name|id)=\"[^\"]*(keyword|search|subject)[^\"]*\"' /Users/jas/.claude/projects/-private-tmp-whr-rater"
+     ],
+     "costUSD": 1.1671922000000003
+    },
+    {
+     "tag": "main_raterB_session_5_r2",
+     "pass": true,
+     "fails": [],
+     "costUSD": 1.0210598000000002
+    }
+   ],
+   "main_raterB_session_6": [
+    {
+     "tag": "main_raterB_session_6",
+     "pass": true,
+     "fails": [],
+     "costUSD": 0.7248982000000002
+    }
+   ],
+   "main_raterB_session_7": [
+    {
+     "tag": "main_raterB_session_7",
+     "pass": true,
+     "fails": [],
+     "costUSD": 0.9266643999999999
+    }
+   ]
+  },
+  "shortfall": {
+   "sensitive_records.hiv/nlf": 1,
+   "breach_health/nlf": 2
+  },
+  "statusAgreement": 0.76,
+  "levelAgreementWhereBothFound": 0.8461538461538461,
+  "bothFound": 13,
+  "misses": [
+   {
+    "task_id": "AK.copy_rights",
+    "quoteVerified": true,
+    "sources": [
+     "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=18.23.005&secEnd=18.23.005",
+     "https://www.akleg.gov/basis/aac.asp?media=print&secStart=12.40.967&secEnd=12.40.967"
+    ],
+    "quote": "a patient is entitled to inspect and copy any records developed or maintained by a health care provider or other person pertaining to the health care rendered to the patient.",
+    "reason": "AS 18.23.005 gives access with no deadline or free copy; 12 AAC 40.967(11) sets 30 days for physicians, not shorter. beyondFederalFloor: no. Effective date not shown on the page opened."
+   },
+   {
+    "task_id": "FL.sensitive_records.reproductive",
+    "quoteVerified": true,
+    "sources": [
+     "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399%2F0390%2FSections%2F0390.0112.html",
+     "http://laws.flrules.org/files/Ch_2022-069.pdf"
+    ],
+    "quote": "Reports submitted pursuant to this section shall be confidential and exempt from the provisions of s. 119.07(1) and shall not be revealed except upon the order of a court of competent jurisdiction in a civil or criminal proceeding.",
+    "reason": "Fla. Stat. 390.0112 (2026 text; last amended ch. 2022-69, effective July 1, 2022) bars identifying information in abortion reports and limits their disclosure to court order."
+   },
+   {
+    "task_id": "ID.copy_rights",
+    "quoteVerified": false,
+    "sources": [
+     "https://adminrules.idaho.gov/rules/2024%20Archive/16/160314.pdf",
+     "https://legislature.idaho.gov/statutesrules/idstat/title39/t39ch73/sect39-7301/",
+     "https://legislature.idaho.gov/sessioninfo/2025/legislation/S1087/",
+     "https://legislature.idaho.gov/sessioninfo/2024/legislation/S1395/",
+     "https://legislature.idaho.gov/sessioninfo/2026/legislation/"
+    ],
+    "quote": "The patient has the right to access information contained in his or her clinical records within three business days. ... The hospital may not charge the patient a rate for copies that is higher than that of the local library.",
+    "reason": "IDAPA 16.03.14.220.14 (eff. 3-17-22): 3-business-day access deadline, hospitals only. Fee is a library-rate cap, not free. beyondFederalFloor=yes because the deadline is under 30 days. Free-copy bills failed (S1395 2024, S1087 2025). Current rule edition did not load; text is from the official 2024 IAC edition."
+   },
+   {
+    "task_id": "AL.private_right",
+    "quoteVerified": false,
+    "sources": [
+     "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2018RS/PrintFiles/SB318-Enr.pdf",
+     "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2024RS/HB21-enr.pdf"
+    ],
+    "quote": "A violation of this act does not establish a private cause of action under Section 8-19-10, Code of Alabama 1975.",
+    "reason": "Data Breach Notification Act (Act 2018-396, Ala. Code 8-38-9) has AG-only enforcement and bars a private action. Genetic Data Privacy Act (2024 HB21, eff. 1 Oct 2024) is enforced by the AG Consumer Division only. No statutory private right found."
+   }
+  ],
+  "decision": {
+   "missesToEditors": 4,
+   "secondSearchOwed": true,
+   "dimensionsWithMiss": [
+    "copy_rights",
+    "private_right",
+    "sensitive_records"
+   ]
+  },
+  "rows": [
+   {
+    "task_id": "MO.consumer_health_data",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": 0,
+    "raterStatus": "no_law_found",
+    "rater": 0
+   },
+   {
+    "task_id": "AK.copy_rights",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0
+   },
+   {
+    "task_id": "IN.hie_consent",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": "no_rule_found",
+    "raterStatus": "not_checked",
+    "rater": null
+   },
+   {
+    "task_id": "FL.sensitive_records.reproductive",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": "none_in_force",
+    "raterStatus": "in_force",
+    "rater": "yes"
+   },
+   {
+    "task_id": "ID.copy_rights",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 1
+   },
+   {
+    "task_id": "MO.hie_consent",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": "no_rule_found",
+    "raterStatus": "no_law_found",
+    "rater": "no_rule_found"
+   },
+   {
+    "task_id": "OR.sensitive_records.mental_health",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes"
+   },
+   {
+    "task_id": "AL.private_right",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0
+   },
+   {
+    "task_id": "KS.hie_consent",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out"
+   },
+   {
+    "task_id": "NY.sensitive_records.genetic",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": "yes",
+    "raterStatus": "in_force",
+    "rater": "yes"
+   },
+   {
+    "task_id": "NY.private_right",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": 0,
+    "raterStatus": "no_law_found",
+    "rater": 0
+   },
+   {
+    "task_id": "KS.breach_health",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 0
+   },
+   {
+    "task_id": "MT.private_right",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2
+   },
+   {
+    "task_id": "MD.breach_health",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2
+   },
+   {
+    "task_id": "NJ.ai_care",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": 0,
+    "raterStatus": "no_law_found",
+    "rater": 0
+   },
+   {
+    "task_id": "KY.private_right",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 0
+   },
+   {
+    "task_id": "AR.ai_care",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": 0,
+    "raterStatus": "no_law_found",
+    "rater": 0
+   },
+   {
+    "task_id": "DC.consumer_health_data",
+    "drawnAs": "nlf",
+    "pubStatus": "no_law_found",
+    "pub": 0,
+    "raterStatus": "no_law_found",
+    "rater": 0
+   },
+   {
+    "task_id": "HI.ai_care",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "no_law_found",
+    "rater": 0
+   },
+   {
+    "task_id": "MN.consumer_health_data",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2
+   },
+   {
+    "task_id": "CT.copy_rights",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 1,
+    "raterStatus": "in_force",
+    "rater": 1
+   },
+   {
+    "task_id": "CA.ai_care",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 3,
+    "raterStatus": "in_force",
+    "rater": 3
+   },
+   {
+    "task_id": "FL.consumer_health_data",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 2,
+    "raterStatus": "in_force",
+    "rater": 2
+   },
+   {
+    "task_id": "WI.copy_rights",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": 0,
+    "raterStatus": "in_force",
+    "rater": 1
+   },
+   {
+    "task_id": "NM.hie_consent",
+    "drawnAs": "rest",
+    "pubStatus": "in_force",
+    "pub": "opt_out",
+    "raterStatus": "in_force",
+    "rater": "opt_out"
+   }
+  ]
+ }
+}

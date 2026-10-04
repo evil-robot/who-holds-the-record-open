@@ -1,0 +1,459 @@
+{
+ "usps": "NC",
+ "fips": "37",
+ "name": "North Carolina",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.ncleg.gov/Search/GeneralStatutes",
+    "terms": [
+     "consumer health data",
+     "health data",
+     "sensitive data",
+     "data broker",
+     "medical records"
+    ],
+    "regulatorPagesChecked": [
+     "https://ncdoj.gov/protecting-consumers/protecting-your-identity/",
+     "https://www.ncleg.gov/BillLookUp/2025/S757",
+     "https://www.ncleg.gov/BillLookUp/2025/H462"
+    ],
+    "leadsChecked": [
+     "https://www.recordinglaw.com/us-laws/data-privacy-laws/north-carolina-data-privacy-laws/",
+     "https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20250407-state-comprehensive-privacy-law-update-april-7-2025"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.recordinglaw.com/us-laws/data-privacy-laws/north-carolina-data-privacy-laws/",
+     "host": "www.recordinglaw.com",
+     "usedFor": "Pointed to pending bills H462 and S757; no enacted privacy law"
+    }
+   ],
+   "note": "No consumer privacy or consumer health data law found in the General Statutes. S757 (Consumer Privacy Act) sits in Senate Rules since 3/26/2025. H462 sits in House committee. Neither is enacted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NC",
+    "note": "Quotes are bill status lines, not law. The General Statutes chapter list ends at 75E, with no 75F. S757, H462 and S1022 are not enacted. No consumer health data or comprehensive privacy law found in force."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [
+     "G.S. 90-411: 75 cents per page for pages 1 to 25, 50 cents for pages 26 to 100, 25 cents per page above 100.",
+     "G.S. 90-411: \"the health care provider may impose a minimum fee of up to ten dollars ($10.00), inclusive of copying costs\".",
+     "G.S. 90-411: workers' compensation record charges follow Industrial Commission fees under G.S. 97-26.1.",
+     "G.S. 90-411 does not apply to DHHS Disability Determination Services requests for Social Security or SSI disability applicants. It does not say these copies are free."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Record copy fee",
+     "citation": "N.C. Gen. Stat. 90-411",
+     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-411.html",
+     "linkedFrom": null,
+     "effectiveDate": "2019-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The maximum fee for each request shall be seventy-five cents (75¢) per page for the first 25 pages, fifty cents (50¢) per page for pages 26 through 100, and twenty-five cents (25¢) for each page in excess of 100 pages",
+     "appliesTo": "A health care provider copying \"medical records to the patient or the patient's designated representative\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "798fe0598a760d352834d826d2179fbfa6374ab3f3875c0ef3010054ee81b9b1"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "G.S. 90-411 sets a per-page fee cap and a $10 minimum fee. No state deadline and no free-copy case found. A per-page cap is recorded as a fact only. Last amended by S.L. 2019-191, s. 42, effective October 1, 2019.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NC",
+    "note": "beyondFederalFloor no: G.S. 90-411 is a per-page cap only. The hospital rule sets no deadline and allows a fee. The DDS exclusion does not make copies free. The Medical Board cites only the federal 30 days."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "NC HealthConnex, run by the NC Health Information Exchange Authority (G.S. 90-414.7)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Continuing right to opt out; effect of opt out",
+     "citation": "N.C. Gen. Stat. 90-414.10",
+     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-414.10.html",
+     "linkedFrom": null,
+     "effectiveDate": "2019-06-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Each individual has the right on a continuing basis to opt out or rescind a decision to opt out.",
+     "appliesTo": "Data submitted through the statewide HIE Network under Article 29B of Chapter 90",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "24289949364d725cb03fb353bb1c1b01f1a918f32ff329272f428e07cb8cc7af"
+    },
+    {
+     "citation": "N.C. Gen. Stat. 90-414.11(a)(2)",
+     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-414.11.html",
+     "effectiveDate": "2015-10-01",
+     "quote": "Authorize the disclosure of protected health information through the HIE Network to the extent that the disclosure is restricted by federal laws or regulations, including the federal drug and alcohol confidentiality regulations set forth in 42 C.F.R. Part 2.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e0bd3ba359cbee509a178dbe7ee82f1325d2ccf9346f1bc25bb6dc2e5108b959",
+     "statusOfProvision": "in_force"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://hiea.nc.gov/patients",
+     "host": "hiea.nc.gov",
+     "usedFor": "State HIE Authority page publishing the opt-out route and forms"
+    }
+   ],
+   "note": "Statewide HIE Act gives a continuing opt-out. Medicaid and State-funded providers must connect (G.S. 90-414.4). The NC HIEA page publishes opt-out forms. Substance use facility data is excluded unless the patient authorizes it (G.S. 90-414.11(a)(2); NC HIEA patients page).",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_NC",
+    "note": "Value opt_out and basis statute are correct. Only stricterForSensitive changes to true. The 90-414.11 effectiveDate was not read from S.L. 2015-241; verify it before use.",
+    "problems": [
+     "stricterForSensitive is false, but G.S. 90-414.11(a)(2) keeps 42 CFR Part 2 limits on substance use records.",
+     "The NC HIEA page excludes substance abuse facility data unless the patient authorizes it, so stricterForSensitive should be true.",
+     "hiea.nc.gov is a state agency page (primary), not a lead."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q049"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion reporting requirements, identifying information",
+      "citation": "N.C. Gen. Stat. 90-21.93(g)",
+      "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-21.93.html",
+      "linkedFrom": null,
+      "effectiveDate": "2025-06-26",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A report completed under this section shall not contain the woman's name, any common identifiers of the woman, or any other information that would make it possible to identify the woman subject to a report under this section",
+      "appliesTo": "Abortion reports sent to the Department of Health and Human Services, and State agencies and contractors holding that data",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b69da616dfcd488a070823fb93b671fe3c2f7eec8884f6ad8d52adcfaad73ebe"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule covers abortion reports to DHHS. It bars identifiers in reports and bars matching the data to identify a woman absent a court order. Last amended by S.L. 2025-25, effective June 26, 2025.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NC",
+     "note": "Quote, citation and host verified. S.L. 2025-25 s. 29(5) took effect on becoming law, approved June 26, 2025. The rule covers abortion reports held by DHHS and State agencies."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Right to confidentiality",
+      "citation": "N.C. Gen. Stat. 122C-52(c)",
+      "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_122C/GS_122C-52.html",
+      "linkedFrom": null,
+      "effectiveDate": "2012-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Except as provided by G.S. 122C-53 through G.S. 122C-56, each client has the right that no confidential information acquired be disclosed by the facility.",
+      "appliesTo": "Facilities and individuals with access to confidential information about clients under Chapter 122C (mental health, developmental disabilities, substance use services)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e2aec47e0ccd086b2792c04497776458bb391ff5855c04b6fd793852a42fa0b9"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is limited to the cases in G.S. 122C-53 to 122C-56. Unauthorized disclosure is a Class 3 misdemeanor, fine up to $500. Last amended by S.L. 2011-314, effective January 1, 2012.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NC",
+     "note": "Quote verbatim. S.L. 2011-314 s. 7 sets effect January 1, 2012. Subsection (e) makes unauthorized disclosure a Class 3 misdemeanor, fine up to $500."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of records (reportable diseases)",
+      "citation": "N.C. Gen. Stat. 130A-143",
+      "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-143.html",
+      "linkedFrom": null,
+      "effectiveDate": "2020-05-04",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All information and records, whether publicly or privately maintained, that identify a person who has or may have a disease or condition required to be reported pursuant to the provisions of this Article shall be strictly confidential.",
+      "appliesTo": "Any holder, public or private, of records identifying a person with a reportable disease or condition",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "5ad2b8dc6a1b38a17f883bf1c222b347284a08cefe8efe586bfa21cf22abb679"
+     },
+     {
+      "title": "Reportable diseases and conditions",
+      "citation": "10A NCAC 41A .0101(b)",
+      "officialUrl": "http://reports.oah.state.nc.us/ncac/title%2010a%20-%20health%20and%20human%20services/chapter%2041%20-%20epidemiology%20health/subchapter%20a/10a%20ncac%2041a%20.0101.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2024-11-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "For purposes of reporting, \"confirmed human immunodeficiency virus (HIV) infection\" is defined as a positive virus culture, repeatedly reactive EIA antibody test confirmed by western blot",
+      "appliesTo": "Lists HIV infection and AIDS as reportable conditions, which brings them within G.S. 130A-143",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "fdb22566dad6311bdb15b16d9c129f7ddc98fa7ec3585128f03b4c27462e25ef"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "G.S. 130A-143 covers all reportable conditions. The rule lists HIV and AIDS as reportable. Release is allowed only in listed cases, including written consent and court order with in camera review on request.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NC",
+     "note": "S.L. 2020-3 s. 4.17 removed the separate AIDS wording, effective May 4, 2020. HIV is now covered through the reportable list in 10A NCAC 41A .0101, last amended November 1, 2024."
+    }
+   },
+   "genetic": {
+    "status": "no_law_found",
+    "value": "none_in_force",
+    "pending": false,
+    "provisions": [],
+    "searchLog": {
+     "codeSearchUrl": "https://www.ncleg.gov/Search/GeneralStatutes",
+     "terms": [
+      "genetic",
+      "genetic information",
+      "medical records"
+     ],
+     "regulatorPagesChecked": [
+      "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_58/GS_58-3-215.html",
+      "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_95/GS_95-28.1A.html",
+      "https://ncdoj.gov/attorney-general-jeff-jackson-sues-to-prevent-23andme-from-selling-north-carolinians-genetic-data/"
+     ],
+     "leadsChecked": [
+      "https://www.insideprivacy.com/health-privacy/several-states-introduce-new-genetic-privacy-bills-in-early-2026/"
+     ],
+     "searchedAt": "2026-10-03"
+    },
+    "leads": [],
+    "note": "G.S. 58-3-215 and 95-28.1A bar insurer and employer use of genetic information. Neither sets a confidentiality or disclosure rule for genetic records. No other genetic record provision found.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_NC",
+     "note": "My search of ncleg.gov and the AG site found no rule on genetic record confidentiality. G.S. 58-3-215 and 95-28.1A limit use only. G.S. 15A-266.12 covers forensic DNA, not health records. Same value.",
+     "problems": [
+      "Search log lists no AG or regulator page. Both regulatorPagesChecked entries are statute pages, so the log does not meet rubric section 4."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q050"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "No fixed statutory amount. Treble the actual damages fixed by the verdict under G.S. 75-16."
+   },
+   "provisions": [
+    {
+     "title": "Protection from security breaches, enforcement",
+     "citation": "N.C. Gen. Stat. 75-65(i)",
+     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_75/GS_75-65.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-06-26",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A violation of this section is a violation of G.S. 75-1.1. No private right of action may be brought by an individual for a violation of this section unless such individual is injured as a result of the violation.",
+     "appliesTo": "Businesses that own, license or maintain personal information of North Carolina residents",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "14524d8da60a171cab6fa7e93968ead9ee7ea2bbb6b0392dbb1a9482c5cf0e83"
+    },
+    {
+     "title": "Civil action by person injured; treble damages",
+     "citation": "N.C. Gen. Stat. 75-16",
+     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_75/GS_75-16.html",
+     "linkedFrom": null,
+     "effectiveDate": "1977-06-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "such person, firm or corporation so injured shall have a right of action on account of such injury done, and if damages are assessed in such case judgment shall be rendered in favor of the plaintiff and against the defendant for treble the amount fixed by the verdict.",
+     "appliesTo": "Any person injured by a violation of Chapter 75",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d449f73cf5f2a3797dee0f40c96262adce1ef7be1cbd03906b5e888052295986"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "An injured person may sue for a breach notice violation through G.S. 75-1.1 and 75-16. No private right found for unlawful use or disclosure of medical records generally.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NC",
+    "note": "Level 1 holds. G.S. 58-39-105(b), not listed by the researcher, gives actual damages for unlawful disclosure by insurers only. That reaches one class of holder, not medical records generally."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Definitions, personal information",
+     "citation": "N.C. Gen. Stat. 75-61(10)",
+     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_75/GS_75-61.html",
+     "linkedFrom": null,
+     "effectiveDate": "2016-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "\"Personal information\". - A person's first name or first initial and last name in combination with identifying information as defined in G.S. 14-113.20(b).",
+     "appliesTo": "Identity Theft Protection Act, Article 2A of Chapter 75",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8319f19290e0c2daa53322719e8d60d85125950d7dadbb6ab7eb0d82cabce104"
+    },
+    {
+     "title": "Identity theft, identifying information",
+     "citation": "N.C. Gen. Stat. 14-113.20(b)",
+     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_14/GS_14-113.20.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-06-26",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any other numbers or information that can be used to access a person's financial resources.",
+     "appliesTo": "The 14-item list of identifying information used by G.S. 75-61(10)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e44d2f6d2358a81fe75f729f97b7882f0a9ffb433e00eba9cd96d4fa78d458fa"
+    },
+    {
+     "title": "Protection from security breaches",
+     "citation": "N.C. Gen. Stat. 75-65(a), (e1)",
+     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_75/GS_75-65.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-06-26",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The disclosure notification shall be made without unreasonable delay, consistent with the legitimate needs of law enforcement",
+     "appliesTo": "Any business that owns or licenses personal information of residents of North Carolina",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "14524d8da60a171cab6fa7e93968ead9ee7ea2bbb6b0392dbb1a9482c5cf0e83"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The 14 items in G.S. 14-113.20(b) include biometric data but neither medical nor health insurance information. Every notice also goes to the AG Consumer Protection Division under 75-65(e1). Deemed-compliance clause covers financial institutions only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NC",
+    "note": "The 14 items in G.S. 14-113.20(b) omit medical and health insurance information. Notice is due without unreasonable delay, and the AG is told. The 75-65(h) deemed-compliance clause covers financial institutions only."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.ncleg.gov/Search/GeneralStatutes",
+    "terms": [
+     "artificial intelligence",
+     "algorithm"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.ncdoi.gov/24-b-19-use-artificial-intelligence-systems-insurance",
+     "https://www.ncleg.gov/BillLookUp/2025/S287",
+     "https://www.ncleg.gov/BillLookUp/2025/H565",
+     "https://www.ncleg.gov/BillLookUp/2025/S624",
+     "https://www.ncleg.gov/BillLookUp/2025/H1161"
+    ],
+    "leadsChecked": [
+     "https://www.recordinglaw.com/us-laws/ai-laws/north-carolina-ai-laws/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.recordinglaw.com/us-laws/ai-laws/north-carolina-ai-laws/",
+     "host": "www.recordinglaw.com",
+     "usedFor": "Pointed to bills S287, S624, H1161 and H565"
+    }
+   ],
+   "note": "Code AI hits are criminal provisions only. Health AI bills S287, S624 and H565 sit in Senate Rules. H1161 sits in House Appropriations. DOI Bulletin 24-B-19 is guidance, not statute or rule.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NC",
+    "note": "Quotes are bill status and a page title, not law. H565, S287, S624, H1161 and S963 are not enacted. DOI Bulletin 24-B-19 is guidance, not a statute or rule."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

@@ -1,0 +1,585 @@
+{
+ "usps": "VA",
+ "fips": "51",
+ "name": "Virginia",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Consumer Data Protection Act, data controller responsibilities",
+     "citation": "Va. Code § 59.1-578(A)(5)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-578/",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Not process sensitive data concerning a consumer without obtaining the consumer's consent",
+     "appliesTo": "control or process personal data of at least 100,000 consumers or (ii) control or process personal data of at least 25,000 consumers and derive over 50 percent of gross revenue from the sale of personal data (§ 59.1-576(A))",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4a6c7fdb93e2128c3b3910cdc2001c1f78c7b5589932da2f85bb3c85ed021b58"
+    },
+    {
+     "title": "Consumer Data Protection Act, definition of sensitive data",
+     "citation": "Va. Code § 59.1-575",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-575/",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Personal data revealing racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexual orientation, or citizenship or immigration status",
+     "appliesTo": "Same thresholds as § 59.1-576(A).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "53a44b8afcb2ae9f936b7e3e051d2764d25e40a27f0be4c2670f0de446933a50"
+    },
+    {
+     "title": "Consumer Protection Act, prohibited practices, reproductive or sexual health information",
+     "citation": "Va. Code § 59.1-200(A)(85)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter17/section59.1-200/",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Obtaining, disclosing, selling, or disseminating any personally identifiable reproductive or sexual health information without the consent of the consumer.",
+     "appliesTo": "Acts committed by a supplier in connection with a consumer transaction. Does not apply to nonpublic personal information subject to the federal Gramm-Leach-Bliley Act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6a8328cd28800251af348ed79365752a5c31a0cf1e4b2187fd2a4f973f86f8d9"
+    },
+    {
+     "title": "Genetic Data Privacy, express consent required",
+     "citation": "Va. Code § 59.1-596(B)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter56/section59.1-596/",
+     "linkedFrom": null,
+     "effectiveDate": "2023-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Every direct-to-consumer genetic testing company shall obtain a consumer's express consent for the collection, use, and disclosure of the consumer's genetic data",
+     "appliesTo": "Direct-to-consumer genetic testing companies only.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e8d1eb02e2c3a39c3eaeaee1f1b391a52df4109bf85c7bf95686ad1e7b7ba044"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-enacts-law-protecting-reproductive-and-sexual-health-data",
+     "host": "www.hunton.com",
+     "usedFor": "Found 2025 SB 754 adding reproductive health data consent to the Consumer Protection Act"
+    },
+    {
+     "url": "https://securiti.ai/virginia-genetic-data-privacy-law/",
+     "host": "securiti.ai",
+     "usedFor": "Found Genetic Data Privacy chapter 56 of Title 59.1"
+    }
+   ],
+   "note": "VCDPA requires opt-in consent for sensitive data, including health diagnosis. The VCPA requires consent for reproductive or sexual health data. No dedicated general consumer health data law with a separate sale authorization found. Effective dates use Va. Const. art. IV, § 13 July 1 default.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_VA",
+    "note": "Level 2 holds. VCDPA requires consent for sensitive data, which includes health diagnosis. § 59.1-578 text is from 2026 c. 820, effective 2026-07-01. No dedicated consumer health data law found. Only the § 59.1-575 date is wrong.",
+    "problems": [
+     "Va. Code § 59.1-575 effectiveDate is given as 2025-07-01. Its latest amendment, 2025 c. 703 (SB 854), has its own enactment clause making it effective 2026-01-01, not the July 1 default."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q072"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "One free copy of EHR records per calendar year for a patient or the patient's attorney supporting a claim or appeal under Social Security Act Titles II, XVI, XVIII or XIX, 38 U.S.C. § 101 et seq., or a federal or state needs-based benefit program (§ 8.01-413(B7))"
+    ],
+    "feeRules": [
+     "Patient's own request: reasonable cost-based fee limited to supplies and labor of copying, postage, and an agreed summary (§ 32.1-127.1:03(J))",
+     "Other requesters, paper: $0.25 per page after the first pages, $1 per page from microfilm, search and handling fee up to $20, plus postage (§ 8.01-413(B2))",
+     "Other requesters, electronic: $0.18 per page after the first pages, search and handling up to $20, total capped at $160 per request (§ 8.01-413(B3))",
+     "Imaging produced electronically: up to $25 per study plus up to $10 search and handling (§ 8.01-413)",
+     "Account balance or itemized charges supplied at no cost up to three times every 12 months (§ 8.01-413)"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Free copy for benefits claims",
+     "citation": "Va. Code § 8.01-413(B7)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title8.01/chapter14/section8.01-413/",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A health care provider shall provide one free copy of a patient's medical records stored or maintained in an electronic health record (EHR) per calendar year if requested by a patient or his attorney for the purpose of supporting a claim or appeal under Title II, XVI, XVIII, or XIX",
+     "appliesTo": "Health care providers; records stored or maintained in an EHR; request supported by documentation of the claim or appeal.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "07f5fd49a6ef0b9689e71985f8f860f94722a17b1d473a0d0d459f29114b5db1"
+    },
+    {
+     "title": "Health records privacy, response deadline",
+     "citation": "Va. Code § 32.1-127.1:03(E)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title32.1/chapter5/section32.1-127.1:03/",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "1997-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Within 30 days of receipt of a request for copies of or electronic access to health records, the health care entity shall do one of the following",
+     "appliesTo": "Health care entities.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "25cbad8d6534e341219fca5429dbbf43fb4426ac3d824fad0f93d765652bec64"
+    },
+    {
+     "title": "Health records privacy, patient fee rule",
+     "citation": "Va. Code § 32.1-127.1:03(J)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title32.1/chapter5/section32.1-127.1:03/",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "1997-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "if an individual requests a copy of his health record from a health care entity, the health care entity may impose a reasonable cost-based fee, which shall include only the cost of supplies for and labor of copying the requested information",
+     "appliesTo": "Health care entities; individual includes a person with authority to act on the individual's behalf.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "25cbad8d6534e341219fca5429dbbf43fb4426ac3d824fad0f93d765652bec64"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Deadline is 30 days, equal to HIPAA. A free yearly EHR copy for Social Security and benefit claims goes beyond the federal floor, since federal law allows a cost-based fee for such copies.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_VA",
+    "note": "beyondFederalFloor yes: a free yearly EHR copy for a patient or attorney supporting a benefits claim goes beyond HIPAA and 45 CFR 171.302. Deadline is 30 days, equal to HIPAA. 2025 c. 182, effective 2025-07-01."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "no_choice_required",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "Virginia Health Information (statewide HIE, formerly ConnectVirginia)",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Health records privacy, disclosure to health information exchange",
+     "citation": "Va. Code § 32.1-127.1:03(D)(37)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title32.1/chapter5/section32.1-127.1:03/",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "1997-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "To an electronic health information exchange or network for the purpose of meeting the requirements of the federal 21st Century Cures Act, P.L. 114-255, and its related federal regulations.",
+     "appliesTo": "Health care entities.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "25cbad8d6534e341219fca5429dbbf43fb4426ac3d824fad0f93d765652bec64"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.vhi.org/hie/",
+     "host": "www.vhi.org",
+     "usedFor": "Checked statewide HIE page for a patient opt-out or consent policy; none published"
+    },
+    {
+     "url": "https://www.vhi.org/connectvirginia/",
+     "host": "www.vhi.org",
+     "usedFor": "Checked for HIE consent policy; none found"
+    },
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "www.healthit.gov",
+     "usedFor": "Lead on state HIE consent models"
+    }
+   ],
+   "note": "Statute lets entities disclose to an HIE without authorization. No state rule or published VHI policy offering a general choice found. Some providers offer their own HIE opt-out forms. Sensitive-category rule not determined.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_VA",
+    "note": "Subdivision D 37 permits HIE disclosure without consent. VHI pages opened show no patient opt-out policy. Psychotherapy notes need written authorization notwithstanding D 37, so stricterForSensitive could be recorded true rather than null."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Consumer Protection Act, prohibited practices, reproductive or sexual health information",
+      "citation": "Va. Code § 59.1-200(A)(85)",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter17/section59.1-200/",
+      "linkedFrom": null,
+      "effectiveDate": "2026-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Obtaining, disclosing, selling, or disseminating any personally identifiable reproductive or sexual health information without the consent of the consumer.",
+      "appliesTo": "Suppliers in connection with a consumer transaction; excludes data subject to the Gramm-Leach-Bliley Act.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "6a8328cd28800251af348ed79365752a5c31a0cf1e4b2187fd2a4f973f86f8d9"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.orrick.com/en/Insights/2025/05/Virginia-Enacts-Amendment-to-Protect-Reproductive-and-Sexual-Health-Privacy",
+      "host": "www.orrick.com",
+      "usedFor": "Found 2025 SB 754"
+     },
+     {
+      "url": "https://www.whro.org/health/2026-04-16/virginia-bill-creates-reproductive-protections-overturned-by-trump",
+      "host": "www.whro.org",
+      "usedFor": "Lead on 2026 Virginia Health Care Protection Act, chapter 21 of Title 32.1"
+     }
+    ],
+    "note": "The Consumer Protection Act requires consumer consent to obtain or disclose reproductive or sexual health information. The 2026 Health Care Protection Act covers all lawful health care and was not scored here.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_VA",
+     "note": "Subdivision A 85 reads the same in the version in force from 2026-10-01 and in the later dated versions. It requires consumer consent for this record category. GLBA-covered data is excluded."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Health records privacy, psychotherapy notes",
+      "citation": "Va. Code § 32.1-127.1:03(D)",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title32.1/chapter5/section32.1-127.1:03/",
+      "linkedFrom": null,
+      "effectiveDate": "2026-07-01",
+      "firstEnacted": "1997-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "a health care entity shall obtain an individual's written authorization for any disclosure of psychotherapy notes",
+      "appliesTo": "Health care entities, with listed exceptions such as supervised mental health training programs.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "25cbad8d6534e341219fca5429dbbf43fb4426ac3d824fad0f93d765652bec64"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "State statute requires written authorization to disclose psychotherapy notes, with listed exceptions.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_VA",
+     "note": "Latest amendment is 2026 c. 248 (HB 973), with no special effective clause, so 2026-07-01 under Va. Const. art. IV, § 13. The rule lists exceptions such as supervised training programs."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of test for human immunodeficiency virus",
+      "citation": "Va. Code § 32.1-36.1(A)",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title32.1/chapter2/section32.1-36.1/",
+      "linkedFrom": null,
+      "effectiveDate": "2017-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The results of every test to determine infection with human immunodeficiency virus shall be confidential. Such information may be released only to persons or entities permitted or authorized to obtain protected health information under any applicable federal or state law.",
+      "appliesTo": "Results of every HIV test.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "aff39e067adedbdd4ae5760535031c70971ed4ea531dc1a5e8869fa2ca093248"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "HIV test results are confidential by statute. Release only to persons permitted to obtain protected health information under law.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_VA",
+     "note": "Latest amendment is 2017 c. 178, approved 2017-02-23, with no special effective clause, so 2017-07-01."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Data Privacy, certain disclosures of genetic data prohibited",
+      "citation": "Va. Code § 59.1-599",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter56/section59.1-599/",
+      "linkedFrom": null,
+      "effectiveDate": "2023-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No direct-to-consumer genetic testing company shall disclose a consumer's genetic data to any entity that is responsible for administering or making decisions regarding health insurance, life insurance, long-term care insurance, disability insurance, or employment",
+      "appliesTo": "Direct-to-consumer genetic testing companies; disclosure allowed with the consumer's express consent.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "c5bd7450b83deabd67c366b2cc2c2cb60841e1f01539e73f36debceb84e900fd"
+     },
+     {
+      "title": "Genetic information privacy (health insurance)",
+      "citation": "Va. Code § 38.2-508.4(C)",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title38.2/chapter5/section38.2-508.4/",
+      "linkedFrom": null,
+      "effectiveDate": "1996-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "all information obtained from genetic screening or testing conducted prior to the repeal of this section shall be confidential and shall not be made public",
+      "appliesTo": "Insurers, health services plans and HMOs issuing accident and sickness coverage, excluding disability income insurance.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "df11c0653c93b0b1dbff8e143c108c2b6aa7e06056755056832228b4d6bf891a"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://securiti.ai/virginia-genetic-data-privacy-law/",
+      "host": "securiti.ai",
+      "usedFor": "Found Genetic Data Privacy chapter"
+     }
+    ],
+    "note": "Two statutes: express consent for direct-to-consumer genetic testing disclosures (2023), and a health insurance genetic information confidentiality rule (1996).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_VA",
+     "note": "§ 59.1-599 is from 2023 c. 526, effective 2023-07-01. 1996 c. 704 set a 1998 expiry for § 38.2-508.4, but 1998 c. 356 repealed that expiry clause, so it remains in force."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "VCPA: actual damages or $500, whichever is greater; if willful, up to three times actual damages or $1,000. HIV test results: actual damages or $100, whichever is greater, plus possible attorney's fees."
+   },
+   "provisions": [
+    {
+     "title": "Consumer Protection Act, individual action for damages",
+     "citation": "Va. Code § 59.1-204(A)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter17/section59.1-204/",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": "1977-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any person who suffers loss as the result of a violation of this chapter shall be entitled to initiate an action to recover actual damages, or $500, whichever is greater.",
+     "appliesTo": "Violations of the Consumer Protection Act, including § 59.1-200(A)(85) on reproductive or sexual health information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "14bf67efb90e9804e0de5e14c37d396f6feab616ebdda93d48683b790835de3a"
+    },
+    {
+     "title": "Consumer Protection Act, reproductive or sexual health information",
+     "citation": "Va. Code § 59.1-200(A)(85)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter17/section59.1-200/",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Obtaining, disclosing, selling, or disseminating any personally identifiable reproductive or sexual health information without the consent of the consumer.",
+     "appliesTo": "Suppliers in connection with a consumer transaction.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6a8328cd28800251af348ed79365752a5c31a0cf1e4b2187fd2a4f973f86f8d9"
+    },
+    {
+     "title": "HIV test confidentiality, individual action",
+     "citation": "Va. Code § 32.1-36.1(C)",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title32.1/chapter2/section32.1-36.1/",
+     "linkedFrom": null,
+     "effectiveDate": "2017-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person who is the subject of an unauthorized disclosure pursuant to this section shall be entitled to initiate an action to recover actual damages, if any, or $100, whichever is greater.",
+     "appliesTo": "Unauthorized disclosure of HIV test results.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aff39e067adedbdd4ae5760535031c70971ed4ea531dc1a5e8869fa2ca093248"
+    },
+    {
+     "title": "Consumer Data Protection Act, enforcement",
+     "citation": "Va. Code § 59.1-584",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-584/",
+     "linkedFrom": null,
+     "effectiveDate": "2023-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in this chapter shall be construed as providing the basis for, or be subject to, a private right of action for violations of this chapter or under any other law",
+     "appliesTo": "Consumer Data Protection Act; Attorney General has exclusive authority.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "189d4ce71e8e00ac83bd9e3dcf77cbc6da8b6e8139805b9278bce664e0b2351a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Private actions exist only for narrow categories: reproductive or sexual health data via the VCPA, and HIV test results. VCDPA and Genetic Data Privacy are Attorney General only.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_VA",
+    "note": "Level 1 holds: suits cover reproductive or sexual health data and HIV results only. Not listed: § 38.2-617 lets a person sue insurers for unlawful disclosure. It is insurer-only, so the level does not change.",
+    "problems": [
+     "Va. Code § 59.1-584 effectiveDate is given as 2022-07-01. 2022 cc. 451, 452 amended it as it would become effective, and the VCDPA took effect 2023-01-01, so the current text dates from 2023-01-01."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q073"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Breach of medical information notification",
+     "citation": "Va. Code § 32.1-127.1:05",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title32.1/chapter5/section32.1-127.1:05/",
+     "linkedFrom": null,
+     "effectiveDate": "2011-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any information regarding an individual's medical or mental health history, mental or physical condition, or medical treatment or diagnosis by a health care professional; or 2. An individual's health insurance policy number or subscriber identification number",
+     "appliesTo": "\"Entity\" means public bodies of the Commonwealth and its political subdivisions and \"other organizations, corporations, or agencies in the Commonwealth supported wholly or principally by public funds.\" Does not apply to HIPAA covered entities or business associates subject to federal breach notification.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "964660bbcdf045d17077126ad01ce51dbed4f29e99178f0d4e4aaff131583d13"
+    },
+    {
+     "title": "Breach of personal information notification",
+     "citation": "Va. Code § 18.2-186.6",
+     "officialUrl": "https://law.lis.virginia.gov/vacode/title18.2/chapter6/section18.2-186.6/",
+     "linkedFrom": null,
+     "effectiveDate": "2020-07-01",
+     "firstEnacted": "2008-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Social security number; 2. Driver's license number or state identification card number issued in lieu of a driver's license number; 3. Financial account number, or credit card or debit card number",
+     "appliesTo": "General breach law; its personal information definition does not list medical or health insurance information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "83fc0574e0d6a20f30b22dd61e7864ea3e0aa12e0490b6336666259cdae0f60a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.lexology.com/library/detail.aspx?g=c452c692-a0cc-4721-a1f3-560841af58a6",
+     "host": "www.lexology.com",
+     "usedFor": "Lead on 2010 medical information breach law"
+    }
+   ],
+   "note": "Medical breach law covers both elements but binds only public bodies and publicly funded entities. Notice goes to the Attorney General and Commissioner of Health. HIPAA entities are excluded. Effective date from Acts 2010, c. 852, cl. 2.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_VA",
+    "note": "§ 32.1-127.1:05 defines medical information to cover both elements. It binds public bodies and publicly funded entities and excludes HIPAA entities. 2010 c. 852 made it effective 2011-01-01. § 18.2-186.6 lists neither element.",
+    "resolution": [
+     {
+      "rows": [
+       "Q100",
+       "Q101"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://law.lis.virginia.gov/search_cov?query=%22artificial+intelligence%22",
+    "terms": [
+     "artificial intelligence",
+     "artificial intelligence health care",
+     "artificial intelligence prior authorization",
+     "AI utilization review"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.scc.virginia.gov/regulated-companies/insurance/",
+     "https://www.oag.state.va.us/consumer-protection/index.php",
+     "https://law.lis.virginia.gov/uncodifiedacts/2026/session1/chapter425/"
+    ],
+    "leadsChecked": [
+     "https://www.cblaw.com/virginia-health-care-legislative-update-2026",
+     "https://ai-law-center.orrick.com/virginia/",
+     "https://legiscan.com/VA/text/SB586/id/3344233"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.cblaw.com/virginia-health-care-legislative-update-2026",
+     "host": "www.cblaw.com",
+     "usedFor": "2026 enacted health bills list; none on AI"
+    },
+    {
+     "url": "https://legiscan.com/VA/text/SB586/id/3344233",
+     "host": "legiscan.com",
+     "usedFor": "SB 586 (insurer AI disclosure) continued to 2027"
+    }
+   ],
+   "note": "AI code sections found cover criminal justice and education only. HB 2094 (2025) was vetoed. SB 586 and SB 269 (2026) were continued to 2027.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_VA",
+    "note": "Own search covered the Code, 2026 LIS texts (SB 164, SB 500, SB 586, SB 269, HB 668, HB 1186), vetoed HB 2094, and SCC AL 2024-01. None qualifies. The downcoding rule is for providers and does not name AI. Researcher's SCC URL returns 404."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

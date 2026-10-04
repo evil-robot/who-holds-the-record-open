@@ -1,0 +1,461 @@
+{
+ "usps": "MI",
+ "fips": "26",
+ "name": "Michigan",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.legislature.mi.gov/Search/ExecuteSearch?docTypes=Section&contentFullText=%22consumer+health+data%22",
+    "terms": [
+     "\"consumer health data\"",
+     "\"sensitive data\"",
+     "\"personal data\"",
+     "\"data broker\""
+    ],
+    "regulatorPagesChecked": [
+     "https://www.michigan.gov/ag/consumer-protection"
+    ],
+    "leadsChecked": [
+     "https://www.fisherphillips.com/en/insights/insights/what-businesses-need-to-know-about-pending-consumer-privacy-and-identity-theft-legislation",
+     "https://natlawreview.com/article/michigan-pushes-legislation-safeguard-reproductive-privacy"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.fisherphillips.com/en/insights/insights/what-businesses-need-to-know-about-pending-consumer-privacy-and-identity-theft-legislation",
+     "host": "fisherphillips.com",
+     "usedFor": "Pointed to pending SB 359, Personal Data Privacy Act"
+    },
+    {
+     "url": "https://natlawreview.com/article/michigan-pushes-legislation-safeguard-reproductive-privacy",
+     "host": "natlawreview.com",
+     "usedFor": "Pointed to reproductive data privacy bills"
+    }
+   ],
+   "note": "MCL full-text search found no consumer health data or comprehensive privacy law. SB 359 of 2025 was last referred to Committee of the Whole on 6/12/2025. HB 5769 of 2026 sits in committee. Neither is enacted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MI",
+    "note": "My MCL section searches for \"consumer health data\" and \"sensitive data\" returned 0 results. \"health data\" hits were unrelated. SB 359 of 2025 was last referred to Committee of the Whole on 6/12/2025. Nothing in force."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "Medically indigent individual (as defined in MCL 400.106): all fees waived, limited to 1 set of copies per provider, facility or medical records company (MCL 333.26269(3)-(4))."
+    ],
+    "feeRules": [
+     "Initial fee of $20.00 per request (MCL 333.26269(1)(a)), but subsection (5) says the holder 'shall not charge a patient an initial fee for his or her medical record.'",
+     "Paper copies: 'One dollar per page for the first 20 pages', 'Fifty cents per page for pages 21 through 50', 'Twenty cents for pages 51 and over' (MCL 333.26269(1)(b)).",
+     "Non-paper media: 'the actual cost of preparing a duplicate' (MCL 333.26269(1)(c)).",
+     "Postage or shipping costs, and actual retrieval costs for records 7 years old or older not kept on-site (MCL 333.26269(1)(d)-(e)).",
+     "Fees adjusted annually by the Detroit consumer price index (MCL 333.26269(6))."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Medical Records Access Act, fee",
+     "citation": "MCL 333.26269",
+     "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-26269",
+     "linkedFrom": null,
+     "effectiveDate": "2004-04-01",
+     "firstEnacted": "2004-04-01",
+     "statusOfProvision": "in_force",
+     "quote": "Except as otherwise provided in subsection (4), a health care provider, health facility, or medical records company shall waive all fees for a medically indigent individual.",
+     "appliesTo": "health care provider, health facility, or medical records company",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "214e4bc0d902545441370869d3cdc149941f9ab38b866f31b4311c46f2d0f9b4"
+    },
+    {
+     "title": "Medical Records Access Act, response time",
+     "citation": "MCL 333.26265(2)-(3)",
+     "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-26265",
+     "linkedFrom": null,
+     "effectiveDate": "2004-04-01",
+     "firstEnacted": "2004-04-01",
+     "statusOfProvision": "in_force",
+     "quote": "as promptly as required under the circumstances, but not later than 30 days after receipt of the request or if the medical record is not maintained or accessible on-site not later than 60 days after receipt of the request",
+     "appliesTo": "a health care provider or health facility",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f206bf1da1de515546fab44c14fcee4e1127468927bb662923d4bb8209b0b355"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Free copy element met: all fees waived for a medically indigent individual, which goes beyond HIPAA and 45 CFR 171.302. Deadline is 30 days, extendable once by 30 days, so no shorter deadline.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MI",
+    "note": "beyondFederalFloor yes: the free copy covers paper copies for medically indigent people (MCL 400.106). Deadline is 30 days, or 60 if off-site, with no extension wording. The researcher's note wrongly says it is extendable once."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Michigan Health Information Network Shared Services (MiHIN)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "MiHIN Consumer Privacy Policy (updated June 2025)",
+     "citation": "MiHIN Consumer Privacy Policy",
+     "officialUrl": "https://mihin.org/consumer-privacy-policy/",
+     "linkedFrom": "https://www.michigan.gov/mdhhs/inside-mdhhs/legislationpolicy/2022-2024-social-determinants-of-health-strategy/community-information-exchange-task-force/community-information-exchange-micro-toolkit",
+     "effectiveDate": "2025-06-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "MiHIN facilitates opt out of health information exchange directly with patients in limited situations. We allow opt out of our community health record, which is oftentimes referred to as Longitudinal Health Record (LHR).",
+     "appliesTo": "Longitudinal Health Record (LHR)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5f3dc6a6a1355781a868edb31273d2c1f130f771f0b6333bc1c4dbeb7fffeb63"
+    },
+    {
+     "title": "MiHIN Consumer Privacy Policy, specially protected information",
+     "citation": "MiHIN Consumer Privacy Policy",
+     "officialUrl": "https://mihin.org/consumer-privacy-policy/",
+     "linkedFrom": "https://www.michigan.gov/mdhhs/inside-mdhhs/legislationpolicy/2022-2024-social-determinants-of-health-strategy/community-information-exchange-task-force/community-information-exchange-micro-toolkit",
+     "effectiveDate": "2025-06-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "For information that requires consent, such as specially protected information (SPI), the entity should not share with MiHIN unless they obtain the proper consent.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5f3dc6a6a1355781a868edb31273d2c1f130f771f0b6333bc1c4dbeb7fffeb63"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "No MCL consent rule for HIE found. MDHHS page says MiHIN was designated the state HIE in 2010. Opt-out uses a notarized form and covers the LHR only. Policy says updated June 2025; day not stated.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MI",
+    "note": "The MDHHS page says MiHIN was designated in 2010. My MCL search for \"health information exchange\" found no consent rule. The opt-out covers the LHR only and needs a notarized form."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Public Health Code, abortion informed consent, confidentiality",
+      "citation": "MCL 333.17015(19)",
+      "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-17015",
+      "linkedFrom": null,
+      "effectiveDate": "2024-02-13",
+      "firstEnacted": "1994-04-01",
+      "statusOfProvision": "in_force",
+      "quote": "The identity and address of a patient who is provided information or who consents to an abortion pursuant to this section is confidential and is subject to disclosure only with the consent of the patient or by judicial process.",
+      "appliesTo": "",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "f2cf0c91a0331f5c216cfd2bc4ba8cf98378f020aa2d141e746111438c1e91ff"
+     },
+     {
+      "title": "Parental Rights Restoration Act, waiver proceedings",
+      "citation": "MCL 722.904(2)(g)",
+      "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-722-904",
+      "linkedFrom": null,
+      "effectiveDate": "1991-03-28",
+      "firstEnacted": "1991-03-28",
+      "statusOfProvision": "in_force",
+      "quote": "All records of proceedings related to the petition for waiver of parental consent under this act are confidential.",
+      "appliesTo": "",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e83aa315a6ae84b2dd0a578acbe56a18384d8ca8b5ccec523934d137e1bf7a55"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://natlawreview.com/article/michigan-pushes-legislation-safeguard-reproductive-privacy",
+      "host": "natlawreview.com",
+      "usedFor": "Pointed to SB 1082 of 2024 and later reproductive data bills"
+     }
+    ],
+    "note": "MCL 333.2835 abortion reporting was repealed by 2023 PA 209, effective 2024-02-13. HB 5769 of 2026, a reproductive health data privacy act, is in committee and not enacted.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MI",
+     "note": "Subsection (19). The history shows the latest amendment is 2023 PA 209, effective Feb. 13, 2024. The MCL 333.2835 page shows it was repealed by 2023 PA 209. MCL 722.904(2)(g) quote verified."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental Health Code, confidentiality of recipient records",
+      "citation": "MCL 330.1748(1)",
+      "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-330-1748",
+      "linkedFrom": null,
+      "effectiveDate": "2017-04-10",
+      "firstEnacted": "1975-08-06",
+      "statusOfProvision": "in_force",
+      "quote": "Information in the record of a recipient, and other information acquired in the course of providing mental health services to a recipient, shall be kept confidential and is not open to public inspection.",
+      "appliesTo": "department, community mental health services program, licensed facility, or contract provider",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "f2cc4fa507337af18b303673fcf09c6a22722fba8938481d0291caa57f34cf30"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is allowed only as set out in sections 748 and 748a. Section 748(4) gives an adult recipient access within 30 days.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MI",
+     "note": "The history shows the latest amendment is 2016 PA 559, effective Apr. 10, 2017."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Public Health Code, HIV and AIDS confidentiality",
+      "citation": "MCL 333.5131(1)",
+      "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-5131",
+      "linkedFrom": null,
+      "effectiveDate": "2019-03-28",
+      "firstEnacted": "1989-03-30",
+      "statusOfProvision": "in_force",
+      "quote": "All reports, records, and data pertaining to testing, care, treatment, reporting, and research, and information pertaining to partner notification under section 5114a, that are associated with HIV infection and acquired immunodeficiency syndrome are confidential.",
+      "appliesTo": "",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "7e325490fed5382309c5da99edc72063b500aca407fe05e939de7ea2305929eb"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 5131 also sets limits on disclosure in response to court orders and subpoenas.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MI",
+     "note": "The history shows the latest amendment is 2018 PA 536, effective Mar. 28, 2019."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Insurance Code, genetic testing and disclosure",
+      "citation": "MCL 500.3407b(1)(b)",
+      "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-500-3407b",
+      "linkedFrom": null,
+      "effectiveDate": "2017-12-20",
+      "firstEnacted": "2000-03-15",
+      "statusOfProvision": "in_force",
+      "quote": "Disclose whether genetic testing has been conducted or the results of genetic testing or genetic information.",
+      "appliesTo": "An insurer that delivers, issues for delivery, or renews in this state a health insurance policy shall not require an insured or his or her dependent or an asymptomatic applicant for insurance or his or her asymptomatic dependent to do either of the following:",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "4555270fd92362059299ed03dcbf00176d4bb927d9874a6d4709f9dc82d5d82d"
+     },
+     {
+      "title": "Public Health Code, genetic test informed consent",
+      "citation": "MCL 333.17020(2)(f)",
+      "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-17020",
+      "linkedFrom": null,
+      "effectiveDate": "2000-03-15",
+      "firstEnacted": "2000-03-15",
+      "statusOfProvision": "in_force",
+      "quote": "Who will have access to the sample taken from the test subject in order to conduct the presymptomatic or predictive genetic test and the information obtained from the presymptomatic or predictive genetic test, and the test subject's right to confidential treatment of the sample and the information.",
+      "appliesTo": "presymptomatic or predictive genetic test ordered by a physician",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0e3b52854acebbb8d75f9d707c643d123a7ffeeed2adf97c970bcc61ca9d381d"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Health insurers may not require disclosure of genetic test results. Physicians must get written consent covering who will access genetic test information.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MI",
+     "note": "MCL 333.17020(2)(f) was added by 2000 PA 29, effective Mar. 15, 2000. The MCL 500.3407b(1)(b) quote was verified. Its latest amendment is 2017 PA 223, effective Dec. 20, 2017."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Actual damages or $1,000.00, whichever is greater, plus costs and reasonable attorney fees (HIV records, MCL 333.5131(8))."
+   },
+   "provisions": [
+    {
+     "title": "Public Health Code, HIV confidentiality violations",
+     "citation": "MCL 333.5131(8)",
+     "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-5131",
+     "linkedFrom": null,
+     "effectiveDate": "2019-03-28",
+     "firstEnacted": "1989-03-30",
+     "statusOfProvision": "in_force",
+     "quote": "is liable in a civil action for actual damages or $1,000.00, whichever is greater, and costs and reasonable attorney fees.",
+     "appliesTo": "A person who violates this section, and the employer of that person unless reasonable precautions were in effect",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7e325490fed5382309c5da99edc72063b500aca407fe05e939de7ea2305929eb"
+    },
+    {
+     "title": "Identity Theft Protection Act, breach notice fines",
+     "citation": "MCL 445.72(13)",
+     "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-445-72",
+     "linkedFrom": null,
+     "effectiveDate": "2011-04-01",
+     "firstEnacted": "2007-07-02",
+     "statusOfProvision": "in_force",
+     "quote": "The attorney general or a prosecuting attorney may bring an action to recover a civil fine under this section.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "78a7a8c94fae86ff372ff6ddac4e9ed58207d4337c9fa0ee1278cefce2bf8eaf"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The only private right found is for HIV records, one narrow category. The Medical Records Access Act and breach law name no private action. Breach fines are enforced by the attorney general or a prosecutor.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MI",
+    "note": "The private right covers HIV records only. The Medical Records Access Act index lists no remedy section. MCL 445.72(13) lets the attorney general or a prosecutor recover fines."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Identity Theft Protection Act, definitions",
+     "citation": "MCL 445.63(r)",
+     "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-445-63",
+     "linkedFrom": null,
+     "effectiveDate": "2011-04-01",
+     "firstEnacted": "2005-03-01",
+     "statusOfProvision": "in_force",
+     "quote": "means the first name or first initial and last name linked to 1 or more of the following data elements of a resident of this state:",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ec6fd4b94a12f8c1f1ee468ce6bbce084b4a4846315094e2b233874fcf302e9e"
+    },
+    {
+     "title": "Identity Theft Protection Act, notice timing",
+     "citation": "MCL 445.72(4)",
+     "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-445-72",
+     "linkedFrom": null,
+     "effectiveDate": "2011-04-01",
+     "firstEnacted": "2007-07-02",
+     "statusOfProvision": "in_force",
+     "quote": "A person or agency shall provide any notice required under this section without unreasonable delay.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "78a7a8c94fae86ff372ff6ddac4e9ed58207d4337c9fa0ee1278cefce2bf8eaf"
+    },
+    {
+     "title": "Identity Theft Protection Act, HIPAA compliance",
+     "citation": "MCL 445.72(10)",
+     "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-445-72",
+     "linkedFrom": null,
+     "effectiveDate": "2011-04-01",
+     "firstEnacted": "2007-07-02",
+     "statusOfProvision": "in_force",
+     "quote": "for the prevention of unauthorized access to customer information and customer notice is considered to be in compliance with this section.",
+     "appliesTo": "A person or agency that is subject to and complies with the health insurance portability and accountability act of 1996",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "78a7a8c94fae86ff372ff6ddac4e9ed58207d4337c9fa0ee1278cefce2bf8eaf"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Personal information lists only Social Security, driver license or state ID, and financial account numbers. No medical or health insurance data. Notice goes to consumer reporting agencies, not the attorney general.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MI",
+    "note": "MCL 445.63(r) lists only SSN, driver license or state ID, and financial account numbers. Notice is due without unreasonable delay. Notice goes to consumer reporting agencies, not a regulator. 445.72(10) deems HIPAA-compliant entities compliant."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.legislature.mi.gov/Search/ExecuteSearch?docTypes=Section&contentFullText=%22artificial+intelligence%22",
+    "terms": [
+     "\"artificial intelligence\"",
+     "algorithm"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.michigan.gov/difs/news-and-outreach/press-releases/2024/08/07/difs-issues-bulletin-to-address-use-of-ai-in-the-insurance-industry"
+    ],
+    "leadsChecked": [
+     "https://www.mdrxlaw.com/news-and-alerts/michigans-new-shield-against-ai-claim-denials-for-health-care-providers/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.mdrxlaw.com/news-and-alerts/michigans-new-shield-against-ai-claim-denials-for-health-care-providers/",
+     "host": "mdrxlaw.com",
+     "usedFor": "Pointed to HB 4536 on AI claim denials"
+    }
+   ],
+   "note": "MCL AI hits cover elections and schools only. HB 4536 was re-referred to committee on 3/19/2026. DIFS Bulletin 2024-20-INS is guidance, not a statute or rule.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MI",
+    "note": "My MCL search for \"artificial intelligence\" found 6 hits, on elections and schools only. \"automated decision\" found 0. HB 4536 was re-referred to committee on 3/19/2026. The DIFS 2024 bulletin is guidance."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

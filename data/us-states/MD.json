@@ -1,0 +1,547 @@
+{
+ "usps": "MD",
+ "fips": "24",
+ "name": "Maryland",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Maryland Online Data Privacy Act: controller duties (sensitive data)",
+     "citation": "Md. Code, Commercial Law § 14-4707(a)(1)-(2); Ch. 454 of 2024, as amended by Ch. 874 of 2026",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-4707&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2025-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "A controller may not: (1) Except where the collection or processing is strictly necessary to provide or maintain a specific product or service requested by the consumer to whom the personal data pertains, collect, process, or share sensitive data concerning a consumer; (2) Sell sensitive data;",
+     "appliesTo": "Controlled or processed the personal data of at least 35,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction (§ 14-4702(1)); or at least 10,000 consumers and more than 20% of gross revenue from sale of personal data (§ 14-4702(2)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "84ddfda2ecd0f1abe1cd0844f9f0924761d9287bcfa56309f503fcdd08c3761b"
+    },
+    {
+     "title": "Maryland Online Data Privacy Act: applicability",
+     "citation": "Md. Code, Commercial Law § 14-4702; Ch. 454 of 2024",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-4702&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2025-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "at least 35,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction; or (2) Controlled or processed the personal data of at least 10,000 consumers and derived more than 20% of its gross revenue from the sale of personal data.",
+     "appliesTo": "A person that conducts business in the State or provides products or services that are targeted to residents of the State and meets either threshold.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7423f58cec706995b6d20d6bc31b4e175333744292a1177aef44892f4f4846c2"
+    },
+    {
+     "title": "Genetic Information Privacy Act: consents required of direct-to-consumer genetic testing companies",
+     "citation": "Md. Code, Commercial Law § 14-4404; Ch. 501 of 2022",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-4404&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2022-10-01",
+     "firstEnacted": "2022-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "A direct–to–consumer genetic testing company, at a minimum, shall obtain the following consents from a consumer before collecting, using, or disclosing the consumer’s genetic data:",
+     "appliesTo": "Direct-to-consumer genetic testing companies only.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d18f64c638274d23f21fffea0f685bdf61528cbefa19dcab34820ebf29715a1c"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.enzuzo.com/blog/maryland-online-data-privacy-act",
+     "host": "www.enzuzo.com",
+     "usedFor": "Found MODPA codification at 14-4701 et seq. and the 2026 amendment (Ch. 874)"
+    },
+    {
+     "url": "https://law.justia.com/codes/maryland/2023/commercial-law/title-14/subtitle-44/section-14-4401/",
+     "host": "law.justia.com",
+     "usedFor": "Found the Genetic Information Privacy Act (14-4401 et seq.)"
+    }
+   ],
+   "note": "MODPA bars collecting or sharing sensitive data, including consumer health data, unless strictly necessary for a requested product, and bans its sale. Scored 2 as a gate at least as strict as opt-in. No dedicated health data law found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MD",
+    "note": "Ch. 874 of 2026 reenacted 14-4707(a), effective 2026-07-01; (a)(1)-(2) text unchanged. The MGA statute page does not yet show Ch. 874 edits. GIPA consent (Ch. 501 of 2022) also supports level 2. No dedicated health data law found.",
+    "resolution": [
+     {
+      "rows": [
+       "Q171"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "deadlineNote": "21 working days under HG § 4-309(a) (\"within a reasonable time but no more than 21 working days\"); at least 29 calendar days, so not counted as shorter than 30 days.",
+    "freeCopyCases": [
+     "Copies requested by the patient, the patient's personal representative, a nonprofit legal services representative, or an attorney representing the patient, to be used to file a claim or appeal a denial of Social Security disability income or Social Security benefits under Title II or Title XVI (HG § 4-304(c)(5))."
+    ],
+    "feeRules": [
+     "HG § 4-304(c)(2)(ii): \"a reasonable cost–based fee for providing the information requested\"",
+     "HG § 4-304(c)(3)(i): \"a fee for copying and mailing not exceeding 76 cents for each page of the medical record\"",
+     "HG § 4-304(c)(3)(ii)1: \"a preparation fee not to exceed $22.88 for medical record retrieval and preparation\", subject to 45 C.F.R. 164.524 fee limits for persons in interest",
+     "HG § 4-304(c)(3)(iii)2 (electronic copies): \"A per–page fee of 75% of the per–page fee charged by a health care provider under subparagraph (i) of this paragraph that may not exceed $80\"",
+     "HG § 4-304(c)(7) (Medical Assistance enrollees): \"a fee that exceeds $20, adjusted annually for inflation in accordance with the Consumer Price Index, for each 100 pages or portion of 100 pages copied\" is barred",
+     "HG § 4-304(c)(4): per-page fees may be adjusted annually for inflation; preparation fees may not"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Copies of medical records: fees; free copy for Social Security disability claims",
+     "citation": "Md. Code, Health-General § 4-304(c)(5); Ch. 837 and Ch. 838 of 2024",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=4-304&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2024-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A health care provider or a representative of the health care provider may not charge a fee for providing copies of a medical record: (i) Requested by: 1. The patient; 2. The patient’s personal representative;",
+     "appliesTo": "Health care providers; free copy applies only to copies that will be used for a Social Security disability or benefits claim or appeal.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a2ef6ffdee81bda9be6b12c4d597600e4cc36f102e97190aa245581eacfe2b62"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/md/health-general/md-code-health-gen-sect-4-304.html",
+     "host": "codes.findlaw.com",
+     "usedFor": "Located HG 4-304 fee and free-copy text"
+    },
+    {
+     "url": "https://nosscr.org/article/updated-state-medical-records-payment-rates/",
+     "host": "nosscr.org",
+     "usedFor": "Lead on Social Security free-copy rule"
+    }
+   ],
+   "note": "Free copy for Social Security disability claims or appeals beyond HIPAA and 45 CFR 171. Deadline is 21 working days (HG 4-309(a)), not counted as shorter than 30 days. Per-page caps recorded as facts only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MD",
+    "note": "beyondFederalFloor yes: free copy for a patient or personal representative for a Social Security claim or appeal, per Ruling D-1. Ch. 837 of 2024, effective 2024-10-01. 21 working days is at least 29 calendar days, so not counted."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "regulation",
+   "designatedHie": "CRISP (Chesapeake Regional Information System for our Patients)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "HIE privacy and security: health care consumer right to opt out",
+     "citation": "COMAR 10.25.18.03",
+     "officialUrl": "https://regs.maryland.gov/us/md/exec/comar/10.25.18.03",
+     "linkedFrom": null,
+     "effectiveDate": "2025-04-14",
+     "firstEnacted": "2014-03-17",
+     "statusOfProvision": "in_force",
+     "quote": "A health care consumer has the right to opt out of an HIE at any time and refuse access to the patient's PHI through an HIE, except when a disclosure is limited to:",
+     "appliesTo": "Health information exchanges operating in Maryland and their participating organizations.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6ecdd7876cf3c563c358c1f8950f201c44638d0f3573cd406050fda1413562e5"
+    },
+    {
+     "title": "HIE: access, use, or disclosure of sensitive health information",
+     "citation": "COMAR 10.25.18.04A(2)",
+     "officialUrl": "https://regs.maryland.gov/us/md/exec/comar/10.25.18.04",
+     "linkedFrom": null,
+     "effectiveDate": "2025-04-14",
+     "firstEnacted": "2014-03-17",
+     "statusOfProvision": "in_force",
+     "quote": "If federal or State law requires written consent or authorization for access, use, or disclosure of sensitive health information, a person shall obtain consent or authorization consistent with the applicable law prior to the access, use, or disclosure of sensitive health information to and through an HIE",
+     "appliesTo": "Sensitive health information, including records under 42 CFR Part 2 and HG § 4-302.5.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ed274b9862c6f9a9a8f2f0c4d0e3b53e1b6dab5a9a7cecd6e3323c35ff5e5b49"
+    },
+    {
+     "title": "HIE disclosure of abortion care and sensitive health services data",
+     "citation": "Md. Code, Health-General § 4-302.5(b); Ch. 248 of 2023",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=4-302.5&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2023-06-01",
+     "firstEnacted": "2023-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "a health information exchange or electronic health network may not disclose Mifepristone data or the diagnosis, procedure, medication, or related codes for abortion care and other sensitive health services as determined by the Secretary under subsection (d) of this section to a treating provider,",
+     "appliesTo": "Health information exchanges and electronic health networks.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b73cb49e13fa3d4bad953414d9247030cd11f4e91dc09e605e3fcfbca45d4df6"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://mhcc.maryland.gov/meeting/reporting-electronic-health-care-transactions-state-designated-hie-crisp",
+     "host": "mhcc.maryland.gov",
+     "usedFor": "Maryland Health Care Commission page naming CRISP as the State-Designated HIE"
+    },
+    {
+     "url": "https://www.law.cornell.edu/regulations/maryland/COMAR-10-25-18-04",
+     "host": "www.law.cornell.edu",
+     "usedFor": "Located COMAR 10.25.18.04"
+    }
+   ],
+   "note": "COMAR 10.25.18.03 gives an opt-out from HIE access. Sensitive data needs consent where federal or State law requires it (Part 2, HG 4-302.5). CRISP is named State-Designated HIE on an MHCC page. Dates from the COMAR chapter history.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MD",
+    "note": "Basis is regulation. COMAR history shows .03 and .04 last amended 2025-04-14. Regulation .03D requires the State-designated HIE to run a consent tool for opt-out. CRISP naming rests on an MHCC page listed as a lead."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIE and electronic health network disclosure of abortion care and sensitive health services data",
+      "citation": "Md. Code, Health-General § 4-302.5(b); Ch. 248 of 2023",
+      "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=4-302.5&enactments=false",
+      "linkedFrom": null,
+      "effectiveDate": "2023-06-01",
+      "firstEnacted": "2023-06-01",
+      "statusOfProvision": "in_force",
+      "quote": "a health information exchange or electronic health network may not disclose Mifepristone data or the diagnosis, procedure, medication, or related codes for abortion care and other sensitive health services as determined by the Secretary under subsection (d) of this section to a treating provider,",
+      "appliesTo": "Health information exchanges and electronic health networks; exceptions for claims adjudication and for a specific treating provider at the patient's written request and consent.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b73cb49e13fa3d4bad953414d9247030cd11f4e91dc09e605e3fcfbca45d4df6"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://mhcc.maryland.gov/mhcc/pages/hit/hit_ehn/documents/ehn_guidance.pdf",
+      "host": "mhcc.maryland.gov",
+      "usedFor": "Lead to HG 4-302.5 and Ch. 248/249 of 2023"
+     }
+    ],
+    "note": "HG 4-302.5 limits HIE and network disclosure of abortion care and sensitive health services codes and Mifepristone data. Disclosure allowed for claims, or to a named treating provider with the patient's written request and consent.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MD",
+     "note": "Current HG 4-302.5 text matches Ch. 248 of 2023, effective 2023-06-01. The disclosure limit applies from December 1, 2023. Exceptions: claims adjudication, or a named treating provider at the patient's written request and consent."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of mental health records",
+      "citation": "Md. Code, Health-General § 4-307(c); last amended by Ch. 682 of 2018",
+      "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=4-307&enactments=false",
+      "linkedFrom": null,
+      "effectiveDate": "2018-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "When a medical record developed in connection with the provision of mental health services is disclosed without the authorization of a person in interest, only the information in the record relevant to the purpose for which disclosure is sought may be released.",
+      "appliesTo": "Medical records developed in connection with the provision of mental health services.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ad0e10962c656efe056f2fdfb6adfeda2b4ea8ccf3bb2d625304c995caaf8447"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/maryland/health-general/title-4/subtitle-3/section-4-307/",
+      "host": "law.justia.com",
+      "usedFor": "Located HG 4-307"
+     }
+    ],
+    "note": "HG 4-307 adds rules for mental health records on top of the general medical records act. Unauthorized disclosure is limited to the relevant part of the record. Date from MGA Statutes Affected (2018 Ch. 682).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MD",
+     "note": "Ch. 682 of 2018 amended HG 4-307(k), effective 2018-10-01. Subsection (c) text is older. No later amendment to 4-307 found in this session."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV and AIDS case reports: confidentiality",
+      "citation": "Md. Code, Health-General § 18-201.1(d); Ch. 752 of 2024",
+      "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=18-201.1&enactments=false",
+      "linkedFrom": null,
+      "effectiveDate": "2024-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The reports and any proceedings, records, or files relating to the reports required under this section are not discoverable and are not admissible in evidence in any criminal, civil, or administrative action.",
+      "appliesTo": "Health care provider reports of HIV infection or AIDS to the health officer and the Secretary.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "3477a46ab06bc07ab5a8f19bbfd8a84c59449f2cf72c89514bd00c6209170ce5"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "HG 18-201.1(d) makes provider HIV and AIDS reports confidential and bars their use as evidence in legal actions. HG 18-337 separately governs partner notification by a physician.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MD",
+     "note": "Ch. 752 of 2024 (HB 119) repealed and reenacted HG 18-201.1 with amendments, effective 2024-10-01. Subsection (d)(1) also makes provider reports confidential."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act: required consents",
+      "citation": "Md. Code, Commercial Law § 14-4404; Ch. 501 of 2022",
+      "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-4404&enactments=false",
+      "linkedFrom": null,
+      "effectiveDate": "2022-10-01",
+      "firstEnacted": "2022-10-01",
+      "statusOfProvision": "in_force",
+      "quote": "A direct–to–consumer genetic testing company, at a minimum, shall obtain the following consents from a consumer before collecting, using, or disclosing the consumer’s genetic data:",
+      "appliesTo": "Direct-to-consumer genetic testing companies.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d18f64c638274d23f21fffea0f685bdf61528cbefa19dcab34820ebf29715a1c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/maryland/2023/commercial-law/title-14/subtitle-44/section-14-4401/",
+      "host": "law.justia.com",
+      "usedFor": "Located the Genetic Information Privacy Act"
+     }
+    ],
+    "note": "CL 14-4404 requires express consent before a direct-to-consumer genetic testing company transfers or discloses genetic data to third parties, uses it beyond the primary purpose, or keeps a sample.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MD",
+     "note": "CL 14-4404 was enacted by Ch. 501 of 2022, effective 2022-10-01. It applies to direct-to-consumer genetic testing companies only."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None stated. Actual damages only (HG § 4-309(a) and (f))."
+   },
+   "provisions": [
+    {
+     "title": "Confidentiality of Medical Records Act: liability for violations",
+     "citation": "Md. Code, Health-General § 4-309(f); reenacted without amendment by Ch. 270 of 2000",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=4-309&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2000-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A health care provider or any other person who knowingly violates any provision of this subtitle is liable for actual damages.",
+     "appliesTo": "Health care providers and any other person, for knowing violations of HG Title 4, Subtitle 3 (disclosure of medical records).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4cc547ed757646e2f965558f058510ffcbb943b90718fa2e7f664d877b428f0a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://mgaleg.maryland.gov/2000rs/billfile/sb0371.htm",
+     "host": "mgaleg.maryland.gov",
+     "usedFor": "Bill history showing SB 371 of 2000 became Chapter 270"
+    },
+    {
+     "url": "https://codes.findlaw.com/md/health-general/md-code-health-gen-sect-4-309/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Located HG 4-309"
+    }
+   ],
+   "note": "HG 4-309(f) makes anyone who knowingly violates the medical records subtitle, including unlawful disclosure, liable for actual damages. Date is Ch. 270 of 2000, which reenacted (f) unchanged; no later amendment found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MD",
+    "note": "SB 371 (Ch. 270 of 2000) reenacted 4-309(f) without amendment, effective 2000-07-01. The text predates 2000. 4-309(c)(2) makes disclosure in violation of the subtitle a violation. Actual damages only."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "As soon as reasonably practicable, but not later than 45 days after the business discovers or is notified of the breach (CL § 14-3504(b)(3)).",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Maryland Personal Information Protection Act: definition of personal information",
+     "citation": "Md. Code, Commercial Law § 14-3501(e)(1)(i)4-5; Ch. 502 of 2022",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-3501&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2022-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "4. Health information, including information about an individual’s mental health; 5. A health insurance policy or certificate number or health insurance subscriber identification number, in combination with a unique identifier used by an insurer or an employer that is self–insured, that permits access to an individual’s health information;",
+     "appliesTo": "Businesses that own, license, or maintain computerized personal information of Maryland residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b34cb86ab43f2df2379a5270c9fe85e3b9e41f842089506829552ab447625a75"
+    },
+    {
+     "title": "Breach notice to individuals and the Attorney General",
+     "citation": "Md. Code, Commercial Law § 14-3504(b)(3), (h)(1); Ch. 502 of 2022",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-3504&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2022-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Prior to giving the notification required under subsection (b) of this section and subject to subsection (d) of this section, a business shall provide notice of a breach of the security of a system to the Office of the Attorney General.",
+     "appliesTo": "Owners or licensees of computerized data that includes personal information of Maryland residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1d70445e099a96178b8d57bf4d33923034db65043783e1f7e99870ecebbe5e1f"
+    },
+    {
+     "title": "Deemed compliance for HIPAA-covered businesses",
+     "citation": "Md. Code, Commercial Law § 14-3507(d); Ch. 518 of 2017",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-3507&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2018-01-01",
+     "firstEnacted": "2018-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "A business that is subject to and in compliance with the federal Health Insurance Portability and Accountability Act of 1996 shall be deemed to be in compliance with this subtitle.",
+     "appliesTo": "HIPAA-covered businesses and their affiliates.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ea66a2fe232a78a622857378ad1eb61e6bdb48ad62cd7dcd4aaad8f9441f9344"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.mvalaw.com/data-points/maryland-amendments-to-data-security-and-breach-notification-law",
+     "host": "www.mvalaw.com",
+     "usedFor": "Lead to the 2022 PIPA amendments (HB 962)"
+    }
+   ],
+   "note": "Personal information includes health information and health insurance policy or subscriber numbers. Notice within 45 days; Attorney General notice before individual notice. HIPAA-compliant businesses are deemed compliant.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MD",
+    "note": "Ch. 502 of 2022, effective 2022-10-01, matches the current definition and 45-day deadline. Ch. 518 of 2017, effective 2018-01-01, covers 14-3507. No 2025 or 2026 amendment found."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "Insurance § 15-10B-05.1(d): \"An artificial intelligence, algorithm, or other software tool may not deny, delay, or modify health care services.\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Utilization review: use of artificial intelligence",
+     "citation": "Md. Code, Insurance § 15-10B-05.1(c)(4); Ch. 747 of 2025",
+     "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gin&section=15-10B-05.1&enactments=false",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2025-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "(4) an artificial intelligence, algorithm, or other software tool does not replace the role of a health care provider in the determination process under § 15–10B–07 of this subtitle;",
+     "appliesTo": "Carriers, and pharmacy benefits managers or private review agents, that use an artificial intelligence, algorithm, or other software tool for utilization review.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "29e78c583b91288769c8fb2157a0346184438228e85cad3da8dd908f966c544a"
+    },
+    {
+     "title": "Quarterly carrier report on adverse decisions, including AI use",
+     "citation": "Md. Code, Insurance § 15-10A-06(a); phrase added by Ch. 747 of 2025",
+     "officialUrl": "https://mgaleg.maryland.gov/2025RS/chapters_noln/Ch_747_hb0820T.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "AND WHETHER AN ARTIFICIAL INTELLIGENCE, ALGORITHM, OR OTHER SOFTWARE TOOL WAS USED IN MAKING THE ADVERSE DECISION;",
+     "appliesTo": "Carriers, reporting quarterly to the Insurance Commissioner. Earns no element: the report goes to the regulator, not the person.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "41f6fd562ff6d9e4ff494278ba368f9600bfd7361e90dfa9898e948f056c4635"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.jdsupra.com/legalnews/new-maryland-law-regulates-use-of-ai-in-7224376/",
+     "host": "www.jdsupra.com",
+     "usedFor": "Lead to HB 820 of 2025"
+    },
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "www.hklaw.com",
+     "usedFor": "Lead to 2026 bills (HB 1563, HB 995)"
+    }
+   ],
+   "note": "Ins. 15-10B-05.1 says AI may not replace the provider's role and may not deny, delay or modify care. No AI disclosure-to-patient or human-review rule found. HB 995 of 2026 was withdrawn.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MD",
+    "note": "Level 1 holds: clinician-decides element only, from Ch. 747 of 2025, effective 2025-10-01. HB 995 of 2026 was withdrawn. No disclosure or human-review rule for AI found. Only the reporting provision's date and source are wrong.",
+    "problems": [
+     "Second provision: the AI phrase in Ins. 15-10A-06(a) was added by Ch. 747 of 2025, effective 2025-10-01, not by Ch. 165 of 2026.",
+     "Ch. 165 of 2026 amended only 15-10A-06(b); (a) is reenacted lowercase text, so effectiveDate 2026-06-01 is wrong for the quoted phrase."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q041"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

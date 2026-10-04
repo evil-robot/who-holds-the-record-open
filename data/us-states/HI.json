@@ -1,0 +1,533 @@
+{
+ "usps": "HI",
+ "fips": "15",
+ "name": "Hawaii",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/",
+    "terms": [
+     "consumer health data",
+     "consumer data protection",
+     "consumer privacy",
+     "geolocation",
+     "data broker",
+     "sensitive data",
+     "RELATING TO PRIVACY (2026 bills passed list)"
+    ],
+    "regulatorPagesChecked": [
+     "https://cca.hawaii.gov/ocp/hawaii-ocp-opposes-federal-secure-data-act-legislation/",
+     "https://lrb.hawaii.gov/wp-content/uploads/2026_Passed.pdf",
+     "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=1163&year=2026",
+     "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2463&year=2026"
+    ],
+    "leadsChecked": [
+     "https://www.troutmanprivacy.com/2026/05/proposed-state-privacy-and-ai-law-update-may-11-2026/",
+     "https://www.hawaiidata.org/news/2026/6/25/data-policy-in-the-hawaii-legislature-2026-session-recap"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.troutmanprivacy.com/2026/05/proposed-state-privacy-and-ai-law-update-may-11-2026/",
+     "host": "www.troutmanprivacy.com",
+     "usedFor": "2026 session privacy and AI bill status"
+    },
+    {
+     "url": "https://www.hawaiidata.org/news/2026/6/25/data-policy-in-the-hawaii-legislature-2026-session-recap",
+     "host": "www.hawaiidata.org",
+     "usedFor": "2026 session data bill outcomes"
+    }
+   ],
+   "note": "No consumer health data or comprehensive privacy law in force. SB1163 (geolocation sale consent) stalled in House committee in 2026. HB2463 died in committee. HRS volume 11 lists no privacy chapter of this kind.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_HI",
+    "note": "Own search: HRS volume 11 chapter list has no privacy chapter. HB1566 (2024) died in Senate CPN. SB1037 carried over, no action. SB1163 and HB2463 (2026) stalled. 2026 passed list shows no such law. OCP page checked."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [
+     "HRS 622-57(g): \"Reasonable costs incurred by a health care provider in making copies of medical records shall be borne by the requesting person\". No dollar amount set."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Availability of medical records",
+     "citation": "HRS 622-57",
+     "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0622/HRS_0622-0057.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2004-07-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Reasonable costs incurred by a health care provider in making copies of medical records shall be borne by the requesting person",
+     "appliesTo": "a health care provider as defined in section 671-1",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "53407161a83aa493c13002ff5e5a74a1c1ddb34cf8bdc43dbb75efa74f92378a"
+    },
+    {
+     "title": "Availability of medical records (copies to patient's attorney)",
+     "citation": "HRS 622-57(b)",
+     "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0622/HRS_0622-0057.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2004-07-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "complete and accurate copies of the records shall be given to the attorney within a reasonable time not to exceed ten working days",
+     "appliesTo": "If an attorney for a patient asks a health care provider for copies of the patient's medical records and presents a proper authorization from the patient",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "53407161a83aa493c13002ff5e5a74a1c1ddb34cf8bdc43dbb75efa74f92378a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB248_.HTM",
+     "host": "data.capitol.hawaii.gov",
+     "usedFor": "found pending fee bill; HB248 and SB305 did not pass"
+    }
+   ],
+   "note": "Patient copies cost reasonable costs, with no free case. The 10 working day deadline binds copies to a patient's attorney only, not the patient, so it is not counted. Fee bills HB248 and SB305 died.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_HI",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P06"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Hawaii Health Information Exchange (Hawaii HIE, Health eNet)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Hawaii HIE policy HEN-009, Individual Notice and Participation",
+     "citation": "Hawaii HIE Operational Policy HEN-009, section 4.5",
+     "officialUrl": "https://www.hawaiihie.org/Data/Sites/1/media/docs/hen-009-policy-individual-notice-and-participation-2016-04-20-approved....pdf",
+     "linkedFrom": "https://data.capitol.hawaii.gov/sessions/session2014/bills/SCR36_SD1_.HTM",
+     "effectiveDate": "2016-04-20",
+     "firstEnacted": "2013-06-19",
+     "statusOfProvision": "in_force",
+     "quote": "To change participation status, an individual, or his/her personal representative, may request stopping (i.e. to “Opt-Out” of) his/her PHI participation in one or more Health eNet service lines.",
+     "appliesTo": "Hawaii HIE Participants exchanging PHI via the Health eNet",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fe766a00f41985b9673ca8b7e2caf61d56a1077ac11c26884b493238bbb54b6c"
+    },
+    {
+     "title": "Hawaii HIE policy HEN-007, Restricted and Sensitive Health Information",
+     "citation": "Hawaii HIE Operational Policy HEN-007, section 4.2.1",
+     "officialUrl": "https://www.hawaiihie.org/wp-content/uploads/2017/06/HEN-007-POLICY-Restricted-and-Sensitive-Information-2016-01-11-BOD-Approved.pdf",
+     "linkedFrom": "https://data.capitol.hawaii.gov/sessions/session2014/bills/SCR36_SD1_.HTM",
+     "effectiveDate": "2016-01-11",
+     "firstEnacted": "2013-06-19",
+     "statusOfProvision": "in_force",
+     "quote": "Data-contributing Participants shall not exchange Restricted Information using any Health eNet service.",
+     "appliesTo": "Restricted Information: 42 CFR Part 2 substance use treatment records and psychotherapy notes",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b908883956380bee69cc05157cbe381a56c32921e3225ee204c1903eaced0d5d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://healthit.gov/wp-content/uploads/2016/09/State-HIE-Opt-In-vs-Opt-Out-Policy-Research_09-30-16_Final.pdf",
+     "host": "healthit.gov",
+     "usedFor": "pointer to Hawaii HIE opt-out policy"
+    }
+   ],
+   "note": "No Hawaii statute sets an HIE consent rule. Default is participation; an opt-out form is published. SCR36 SD1 (2014) designates Hawaii HIE. Part 2 records and psychotherapy notes are not exchanged at all.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_HI",
+    "note": "Value, basis and stricterForSensitive hold. Both policies are linked as current on hawaiihie.org/policies. SCR36 SD1 (2014) designates Hawaii HIE. No HIE consent statute found; HB517 (2023) did not pass.",
+    "problems": [
+     "HEN-009 quote is in section 4.5 (Default Individual Participation Status), not section 4.2 as cited."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q021"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Protected health information; use or disclosure, when prohibited; covered entities; written consent (as amended by Act 59, SLH 2026)",
+      "citation": "HRS 323J-2, as amended by Act 59, SLH 2026 (HB1875 HD2 SD2), section 3",
+      "officialUrl": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1875_SD2_.HTM",
+      "linkedFrom": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1875_SD2_.PDF",
+      "effectiveDate": "2026-07-01",
+      "firstEnacted": "2023-03-22",
+      "statusOfProvision": "in_force",
+      "quote": "No covered entity shall use or disclose protected health information for purposes or activities relating to conducting a civil, criminal, or administrative investigation into any person for the mere act of seeking, obtaining, providing, or facilitating reproductive health care services",
+      "appliesTo": "\"Covered entity\" has the same meaning as in title 45 Code of Federal Regulations section 160.103",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "8b0a84a93e20229b0decf32298174b5fd69acb3ecbb154643375254abb47d70f"
+     },
+     {
+      "title": "Disclosures prohibited (Act 2, SLH 2023 text, replaced by Act 59, SLH 2026)",
+      "citation": "HRS 323J-2 (L 2023, c 2)",
+      "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0323J/HRS_0323J-0002.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2023-03-22",
+      "firstEnacted": "2023-03-22",
+      "statusOfProvision": "repealed_or_superseded",
+      "quote": "unless the patient or that patient's conservator, guardian, or other authorized legal representative explicitly consents to the disclosure in writing",
+      "appliesTo": "covered entity, as defined in title 45 Code of Federal Regulations section 160.103",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "6e78e4c412fc5a6d17724d1c4300985e04775a52c18f2d1603bbfa5370b24344"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://legiscan.com/HI/text/SB1/id/2706200/Hawaii-2023-SB1-Amended.html",
+      "host": "legiscan.com",
+      "usedFor": "found Act 2 (2023) reproductive records provisions"
+     }
+    ],
+    "note": "Act 59 (signed 2026-05-29, effective 2026-07-01) rewrote HRS 323J-2. It also requires a signed attestation for some requests. The HRS web page still shows the 2023 text.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_HI",
+     "note": "HB1875 SD2 became Act 59 on 2026-05-29. Its last section sets effect on July 1, 2026. Quote sits in amended HRS 323J-2. Act 2, SLH 2023 approved 2023-03-22.",
+     "resolution": [
+      {
+       "rows": [
+        "Q137"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of records",
+      "citation": "HRS 334-5",
+      "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0334/HRS_0334-0005.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2014-07-07",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "shall be kept confidential and shall not be disclosed by any person except as allowed by title 45 Code of Federal Regulations part 164, subpart E",
+      "appliesTo": "records made for the purposes of chapter 334 that are maintained, used, or disclosed by health care providers, health plans, and health care clearinghouses",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a3556f71b8fe113a2d44dee1bd82bd39db14c8b4336c8bfad62f12a9cd918500"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "HRS 334-5 sets a confidentiality rule for chapter 334 mental health records and ties permitted disclosures to the HIPAA Privacy Rule. Current text from Act 214, SLH 2014, approved 2014-07-07.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_HI",
+     "note": "Text blends Act 87 (effective 2014-07-01) and Act 214 (approved and effective 2014-07-07), SLH 2014. Latest date is 2014-07-07."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of records and information (HIV infection, ARC, and AIDS)",
+      "citation": "HRS 325-101",
+      "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0325/HRS_0325-0101.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2010-09-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "This information shall not be released or made public upon subpoena or any other method of discovery",
+      "appliesTo": "any state agency, health care provider or facility, physician, osteopathic physician, laboratory, clinic, blood bank, third party payor, or any other agency, individual, or organization in the State",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "92eb0babc97d640f4e1d01ea84483d242f5609ca7e7e5e39baa2bcdc1bee88d7"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "HRS 325-101 lists permitted releases, including with the person's prior written consent and by court order after in camera review. Latest amendment Act 135, SLH 2010, effective 2010-09-01.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_HI",
+     "note": "Latest amendment Act 135, SLH 2010, effective September 1, 2010, per the act. Releases listed include prior written consent and court order after in camera review."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic information nondiscrimination in accident and health or sickness insurance coverage",
+      "citation": "HRS 431:10A-118(a)(3)",
+      "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol09_Ch0431-0435H/HRS0431/HRS_0431-0010A-0118.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2003-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Disclose an individual's or a family member's genetic information without the written consent of the person affected",
+      "appliesTo": "No insurer may; does not apply to life, disability income, and long-term care insurance",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b35c6ac9f7673eade888d61c5fd98723eb95c13a3aab2dd5f393618795e08920"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule binds accident and health or sickness insurers. Consent is required for each disclosure and must name each recipient. No general genetic records statute for providers was found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_HI",
+     "note": "Act 212, SLH 2003 took effect July 1, 2003. Section binds accident and health or sickness insurers; life, disability income and long-term care policies are excluded."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "HRS 325-102: $1,000 to $10,000 per wilful violation of HIV records confidentiality, plus court costs and attorney's fees, paid to the person whose records were released. HRS 487N-3(b): actual damages only, plus attorney's fees."
+   },
+   "provisions": [
+    {
+     "title": "Penalties; civil action (security breach)",
+     "citation": "HRS 487N-3(b)",
+     "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0003.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2007-01-01",
+     "firstEnacted": "2007-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "any business that violates any provision of this chapter shall be liable to the injured party in an amount equal to the sum of any actual damages sustained by the injured party as a result of the violation",
+     "appliesTo": "No such action may be brought against a government agency.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "599483127cb3262a5ccdea5bf5f04954ba23f22c546ef95f7746406e23e92c24"
+    },
+    {
+     "title": "Civil penalty (HIV records)",
+     "citation": "HRS 325-102",
+     "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0325/HRS_0325-0102.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1992-06-08",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "fined not less than $1,000 nor more than $10,000 for each violation plus reasonable court costs and attorney's fees as determined by the court, which penalty and costs shall be paid to the person or persons whose records were released",
+     "appliesTo": "Any person or institution who wilfully violates any provision of this part",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f99ac3b687510d14ae1f54095d4a8299d38c858eafc7e8291456235ca63dbd65"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Suits are limited to a security breach (487N-3) and HIV records (325-102). Neither is a general right to sue over medical records. Breach chapter personal information excludes health data. Level 1.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_HI",
+    "note": "Act 135, SLH 2006 effective 2007-01-01. Act 162, SLH 1992 approved 1992-06-08. Act 59, SLH 2026 suit right covers abusive litigation, not record disclosure. No general medical records suit right found."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Definitions (personal information)",
+     "citation": "HRS 487N-1",
+     "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0001.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2008-07-08",
+     "firstEnacted": "2007-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "means an individual's first name or first initial and last name in combination with any one or more of the following data elements, when either the name or the data elements are not encrypted",
+     "appliesTo": "Data elements listed: Social security number; driver's license or Hawaii identification card number; financial account, credit or debit card number, access code, or password",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "37649973878b1e1f61e0aae2e1ef90c25694f67241226d60c952aa29742e180b"
+    },
+    {
+     "title": "Notice of security breach",
+     "citation": "HRS 487N-2(a), (f), (g)",
+     "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0002.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2008-04-17",
+     "firstEnacted": "2007-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any health plan or healthcare provider that is subject to and in compliance with the standards for privacy or individually identifiable health information",
+     "appliesTo": "Office of consumer protection notice applies when a business provides notice to more than one thousand persons at one time",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9e8f0ddb1ee7ea2bed161e06fe2a322459f36a574a41eaf6fb1e1496a751ba27"
+    },
+    {
+     "title": "Privacy of individually identifiable health information (breach notice deemed compliance)",
+     "citation": "HRS 323B-3(c)",
+     "officialUrl": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0323B/HRS_0323B-0003.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2012-07-10",
+     "firstEnacted": "2012-07-10",
+     "statusOfProvision": "in_force",
+     "quote": "any notice of breach of unsecured protected health information that complies with 45 Code of Federal Regulations part 164, subpart D, shall be deemed to comply with all state laws relating to notice of breach of protected health information",
+     "appliesTo": "HIPAA breach notices of unsecured protected health information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fa694cb12cf5ad8b0c8c388c1e1390c6c7e1e3b919d58cadcfc403d4b9356a9d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Personal information covers SSN, license or ID number, and financial account data only. Neither medical nor health insurance information is listed. Act 10, SLH 2008 Special Session became law 2008-07-08 by veto override.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_HI",
+    "note": "Listed elements: SSN, license or ID number, financial account data. Act 10, SLH 2008 Special Session, veto overridden 2008-07-08. SB3016 (2026) stalled in House JHA. Act 19 (2008) approved 2008-04-17; Act 315 (2012) approved 2012-07-10."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "Act 248, SLH 2026 (new HRS 481B section): an operator shall \"Not cause or program an AI companion to make any representation or statement that indicates that the AI companion is designed to provide professional mental or behavioral health care\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Artificial intelligence; AI companion; disclosures; reports; penalties",
+     "citation": "Act 248, SLH 2026 (SB3001 SD2 HD3 CD1), new section in HRS chapter 481B",
+     "officialUrl": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3001_CD1_.HTM",
+     "linkedFrom": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3001_CD1_.pdf",
+     "effectiveDate": "2026-07-14",
+     "firstEnacted": "2026-07-14",
+     "statusOfProvision": "in_force",
+     "quote": "Not cause or program an AI companion to make any representation or statement that indicates that the AI companion is designed to provide professional mental or behavioral health care",
+     "appliesTo": "operators of AI companions",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8205c14e5948c5ed2882a7360c9502b47ca9d72f8ebd20d124fb7ca6a8678066"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://lrb.hawaii.gov/wp-content/uploads/2026_Passed.pdf",
+    "terms": [
+     "artificial intelligence",
+     "automated decision",
+     "prior authorization",
+     "utilization review",
+     "chatbot"
+    ],
+    "regulatorPagesChecked": [
+     "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=3027&year=2026",
+     "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2175&year=2026",
+     "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2537&year=2026",
+     "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=1449&year=2026"
+    ],
+    "leadsChecked": [
+     "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "https://www.troutmanprivacy.com/2026/05/proposed-state-privacy-and-ai-law-update-may-11-2026/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.troutmanprivacy.com/2026/05/proposed-state-privacy-and-ai-law-update-may-11-2026/",
+     "host": "www.troutmanprivacy.com",
+     "usedFor": "found SB3001 (Act 248)"
+    },
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "www.hklaw.com",
+     "usedFor": "checked for Hawaii AI health care laws; none listed"
+    }
+   ],
+   "note": "Act 248 covers AI companions, not health care or coverage decisions, so no element counts. AI bills on insurer decisions (SB3027, HB2175, HB2537, SB1449) did not pass in 2026.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_HI",
+    "note": "SB3001 became Act 248 on 2026-07-14, effective upon approval. It is a prohibition only. Act 151, SLH 2025 (prior authorization) has no AI text. No 2026 passed bill covers AI in care or coverage.",
+    "resolution": [
+     {
+      "rows": [
+       "Q138",
+       "Q209"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

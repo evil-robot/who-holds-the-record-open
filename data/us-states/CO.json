@@ -1,0 +1,736 @@
+{
+ "usps": "CO",
+ "fips": "08",
+ "name": "Colorado",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Colorado Privacy Act, duty regarding sensitive data",
+     "citation": "C.R.S. 6-1-1308(7)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2025-05-23",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "A controller shall not process or sell a consumer's sensitive data without first obtaining the consumer's consent",
+     "appliesTo": "Satisfies one or both of the following thresholds: controls or processes the personal data of one hundred thousand consumers or more during a calendar year; or derives revenue or receives a discount on the price of goods or services from the sale of personal data and processes or controls the personal data of twenty-five thousand consumers or more",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a"
+    },
+    {
+     "title": "Colorado Privacy Act, applicability of part",
+     "citation": "C.R.S. 6-1-1304(1)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "controls or processes the personal data of one hundred thousand consumers or more during a calendar year; or derives revenue or receives a discount on the price of goods or services from the sale of personal data and processes or controls the personal data of twenty-five thousand consumers or more",
+     "appliesTo": "Controllers that conduct business in Colorado or target Colorado residents and meet the thresholds; any amount of biometric data also brings a controller in (6-1-1304(1)(a)(II)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a"
+    },
+    {
+     "title": "SB 25-276 (signed act), section 20 amending 6-1-1308(7)",
+     "citation": "SB 25-276, ch. 240, sec. 20",
+     "officialUrl": "https://leg.colorado.gov/bill_files/40789/download",
+     "linkedFrom": "https://leg.colorado.gov/bills/sb25-276",
+     "effectiveDate": "2025-05-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A controller shall not process OR SELL a consumer's sensitive data without first obtaining the consumer's consent",
+     "appliesTo": "Same controllers as 6-1-1304.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3ebf2bfad4d9df0bd650a45db77c2ecb687f74958624edfac27a0fdc4339242c"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/colorado-legislature-passes-amendments-to-colorado-privacy-act",
+     "host": "hunton.com",
+     "usedFor": "Found SB 25-276 adding sale to the sensitive data consent duty"
+    },
+    {
+     "url": "https://www.bclplaw.com/en-US/events-insights-news/colorados-childrens-privacy-amendments-a-compliance-check-at-the-six-month-mark.html",
+     "host": "bclplaw.com",
+     "usedFor": "Found SB 24-041 amendments"
+    },
+    {
+     "url": "https://law.justia.com/codes/colorado/title-6/fair-trade-and-restraint-of-trade/article-1/part-13/section-6-1-1308/",
+     "host": "law.justia.com",
+     "usedFor": "Located section; page blocked, not used as evidence"
+    }
+   ],
+   "note": "Colorado Privacy Act requires opt-in consent to process or sell sensitive data, which includes a mental or physical health condition or diagnosis. No dedicated consumer health data law found in title 6. Thresholds apply.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CO",
+    "note": "Quotes, citations and dates match the 2026 CRS and SB 25-276. Opt-in consent for sensitive data, including health condition, gives level 2. No dedicated consumer health data law found in title 6.",
+    "resolution": [
+     {
+      "rows": [
+       "Q163"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "One free copy to a third-party entity performing duties under the Laura Hershey Disability Support Act, for a disability benefit application, appeal or reapplication (25-1-800.3(3)(b)(I)).",
+     "A record not provided within 30 days, or without written notice of a 30-day extension, must be provided at no cost (25-1-801(1)(f)(IV); same rule in 25-1-802)."
+    ],
+    "feeRules": [
+     "Patient or personal representative: copies on payment of 'the fee a covered entity may impose in accordance with' HIPAA (25-1-801(1)(b)(I)(A)).",
+     "Third-party reasonable fees cap: $18.53 for the first ten pages, $0.85 per page for the next thirty, $0.57 per page after; microfilm $1.50 per page; certification $10; actual postage and media costs (25-1-800.3(3)(a)).",
+     "Attorney requests over 664 pages: total fees must not exceed $400, inflation-adjusted from 2028 (25-1-801(1)(b)(III), (IV)).",
+     "No fee for inspection of records (25-1-801(2))."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Patient records, definitions, free copy for disability benefit claims",
+     "citation": "C.R.S. 25-1-800.3(3)(b)(I)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-25.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2025-08-06",
+     "firstEnacted": "2014-04-18",
+     "statusOfProvision": "in_force",
+     "quote": "If a patient record is requested by a third-party entity that is performing duties under the \"Laura Hershey Disability Support Act\", part 2 of article 88 of title 8, the third party may obtain one free copy of the record for the application process",
+     "appliesTo": "Applies throughout part 8 of article 1 of title 25 (health-care facilities under 25-1-801 and individual providers under 25-1-802).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4adfbf57e044b652bd1500da17f75a4aaaecf7726e3beabf41aad660db76bc31"
+    },
+    {
+     "title": "Patient records in custody of health-care facility, late records at no cost",
+     "citation": "C.R.S. 25-1-801(1)(f)(IV)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-25.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2026-08-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A record not provided within thirty days or without written notification of a thirty-day extension must be provided to the requestor at no cost",
+     "appliesTo": "Health facilities licensed under 25-1.5-103(1) or article 3 of title 25 and title 10 entities providing health-care services; the same sentence appears in 25-1-802 for individual providers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4adfbf57e044b652bd1500da17f75a4aaaecf7726e3beabf41aad660db76bc31"
+    },
+    {
+     "title": "Patient records in custody of health-care facility, copy fee rule",
+     "citation": "C.R.S. 25-1-801(1)(b)(I)(A)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-25.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2026-08-12",
+     "firstEnacted": "1976-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "must provide copies of a patient's medical records, including X rays, to the patient or the patient's personal representative upon request and payment of the fee a covered entity may impose in accordance with the",
+     "appliesTo": "Health facilities licensed or certified under 25-1.5-103(1) or article 3 of title 25, and title 10 entities providing health-care services.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4adfbf57e044b652bd1500da17f75a4aaaecf7726e3beabf41aad660db76bc31"
+    },
+    {
+     "title": "Laura Hershey Disability Support Act, sunset review, repeal of part",
+     "citation": "C.R.S. 8-88-207 (as amended by HB 26-1382)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-08.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2027-07-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "This part 2 is repealed, effective July 1, 2027.",
+     "appliesTo": "Repeals the act that the free-copy rule in 25-1-800.3(3)(b)(I) cross-references. The amended section took effect 2026-06-02; the repeal takes effect 2027-07-01.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "80be0b305002b6f76bd65e1225c1cc0a20793a40d2e9e636279d943e5cf2d6be"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://colorado.public.law/statutes/crs_25-1-801",
+     "host": "colorado.public.law",
+     "usedFor": "Found free copy and fee text before reading official CRS"
+    },
+    {
+     "url": "https://colorado.public.law/statutes/crs_25-1-802",
+     "host": "colorado.public.law",
+     "usedFor": "Checked provider section for deadline or free copy"
+    },
+    {
+     "url": "https://www.grsm.com/insight/responding-to-medical-record-requests-changes-in-colorado-law-affect-health-care-facilities/",
+     "host": "grsm.com",
+     "usedFor": "Search result pointing to fee rules"
+    }
+   ],
+   "note": "Free copy for disability benefit claims and free copy when a record is late go beyond HIPAA and 45 CFR 171. Deadline is 30 days, not shorter. The disability act it cites is repealed 2027-07-01.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CO",
+    "note": "beyondFederalFloor yes: a free copy for a disability benefit claim, and a free copy when late, go past 45 CFR 164.524 and 171.302. Deadline is 30 days, not shorter. Provider subsection is now 25-1-802(1)(d)(IV)."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Contexture",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Contexture HIE Opt-In and Opt-Out Information",
+     "citation": "Contexture patient opt-in / opt-out policy page",
+     "officialUrl": "https://contexture.org/hie-opt-in-opt-out/",
+     "linkedFrom": "https://oehi.colorado.gov/oehi-initiatives/digital-inclusion-and-community-engagement/advancing-health-information-exchange",
+     "effectiveDate": "2026-02-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "opting out, your health information will not be accessible through Contexture’s HIE unless the sharing is required by law",
+     "appliesTo": "Patients of providers participating in Contexture's HIE in Colorado and Arizona; opt out by signing a form at the provider's office.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ded9a0609985b041689de51099eeb69b392c332aea4997d27223a059853f3dae"
+    },
+    {
+     "title": "Contexture FAQ for Patients, sensitive health information",
+     "citation": "Contexture patient FAQ",
+     "officialUrl": "https://contexture.org/faq-for-patients/",
+     "linkedFrom": "https://oehi.colorado.gov/oehi-initiatives/digital-inclusion-and-community-engagement/advancing-health-information-exchange",
+     "effectiveDate": "2023-09-22",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Yes, certain types of health information, including substance use information, are subject to additional legal protections.",
+     "appliesTo": "Same FAQ states substance use information is available only with the patient's written consent or in a bona fide medical emergency.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5da045e0336fe04584fa9b8a1dc27d61f499196863d21c47f0f7d790cee523b0"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://i2i.org/colorado-among-states-with-opt-out-options-for-health-information-exchanges/",
+     "host": "i2i.org",
+     "usedFor": "Found Colorado opt-out model"
+    }
+   ],
+   "note": "No Colorado statute on HIE consent found in titles 6 or 25 of the 2026 CRS. The OeHI page names Contexture as the one state-designated HIE. Its published policy is opt-out. Substance use data needs written consent.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CO",
+    "note": "OeHI names Contexture as the one state-designated HIE. Its published policy is opt-out. No HIE consent statute found in the 2026 CRS index or titles 6 and 25. Substance use data needs written consent."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Prohibition on issuing subpoena in connection with proceeding in another state",
+      "citation": "C.R.S. 13-1-140",
+      "officialUrl": "https://olls.info/crs/crs2026-title-13.htm",
+      "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+      "effectiveDate": "2023-04-14",
+      "firstEnacted": "2023-04-14",
+      "statusOfProvision": "in_force",
+      "quote": "provided that information relating to a medical procedure performed on an individual is not shared with an agency or individual from another state for the purpose of enforcing another state's abortion law.",
+      "appliesTo": "Courts, judicial officers, court employees and attorneys issuing subpoenas for out-of-state proceedings about legally protected health-care activity; 13-1-140.1 adds a subpoena affirmation.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "16a31770d5018a405ed16e685c94adf71ddd74e6a50156a0919466125dd6c8a5"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "SB 23-188 bars Colorado subpoenas for out-of-state proceedings about legally protected health-care activity and limits sharing procedure information with other states for abortion-law enforcement.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CO",
+     "note": "13-1-140 bars Colorado subpoenas for out-of-state proceedings on legally protected health-care activity and limits sharing procedure information with other states. Added by SB 23-188, effective 2023-04-14."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Care and treatment of persons with mental health disorders, records",
+      "citation": "C.R.S. 27-65-123(1)",
+      "officialUrl": "https://olls.info/crs/crs2026-title-27.htm",
+      "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+      "effectiveDate": "2022-08-10",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "all information obtained and records prepared in the course of providing any services to any person pursuant to any provision of this article 65 are confidential and privileged matter.",
+      "appliesTo": "Services under article 65 of title 27 (mental health holds, evaluation and treatment). Disclosure is allowed only in listed cases.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "724d1d9eb8abbb04618196312940fc9d92e5365165ef81e2ee627585e70b2b16"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Records of services under article 65 are confidential and privileged and may be disclosed only in listed cases. SB 26-149 added subsections (7) to (12), effective 2026-05-21.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CO",
+     "note": "Article 65 service records are confidential and privileged and may be disclosed only in listed cases. Lead-in text dates from HB 22-1256. SB 26-149 added (7) to (12), effective 2026-05-21."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Sexually transmitted infections, reports, confidentiality",
+      "citation": "C.R.S. 25-4-406(1); definition at 25-4-402(10)",
+      "officialUrl": "https://olls.info/crs/crs2026-title-25.htm",
+      "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+      "effectiveDate": "2024-06-05",
+      "firstEnacted": "2016-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "any records resulting from compliance with that section held by the state department and county and district public health agencies, or any health-care provider, facility, third-party payer, physician, clinic, laboratory, blood bank, health records database, or other agency, are confidential information.",
+      "appliesTo": "\"Sexually transmitted infection\" refers to chlamydia, syphilis, gonorrhea, HIV, and relevant types of hepatitis (25-4-402(10)).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "4adfbf57e044b652bd1500da17f75a4aaaecf7726e3beabf41aad660db76bc31"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "STI reports and resulting records, which include HIV, are confidential information and may be released only as the section lists. 25-4-406(3) treats STI diagnosis and treatment records as medical information.",
+    "crossCheck": {
+     "verdict": "set_aside",
+     "session": "main_crosscheck_CO",
+     "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+     "resolution": [
+      {
+       "rows": [
+        "P03"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic testing, limitations on disclosure of information",
+      "citation": "C.R.S. 10-3-1104.7(3)(a)",
+      "officialUrl": "https://olls.info/crs/crs2026-title-10.htm",
+      "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+      "effectiveDate": "1994-06-02",
+      "firstEnacted": "1994-06-02",
+      "statusOfProvision": "in_force",
+      "quote": "Information derived from genetic testing shall be confidential and privileged. Any release, for purposes other than diagnosis, treatment, or therapy, of genetic testing information that identifies the person tested with the test results released requires specific written consent by the person tested.",
+      "appliesTo": "Information derived from genetic testing, as defined in 10-3-1104.7(2).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d7df3e68e7c9ffbafb653dd7362f18da25fefe310e956d3292ea44dbbfce6f2a"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://colorado.public.law/statutes/crs_10-3-1104.7",
+      "host": "colorado.public.law",
+      "usedFor": "Located section text before reading official CRS"
+     }
+    ],
+    "note": "Genetic testing information is confidential and privileged. Release for purposes other than diagnosis, treatment or therapy needs the person's specific written consent.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CO",
+     "note": "Genetic testing information is confidential and privileged. Release for purposes other than diagnosis, treatment or therapy needs the person's specific written consent. Subsection (3)(a) is unchanged since 1994."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Genetic testing (10-3-1104.7(12)): greater of actual damages or $10,000 per violation, plus equitable relief; prevailing party may recover costs and reasonable attorney fees (10-3-1104.7(13))."
+   },
+   "provisions": [
+    {
+     "title": "Genetic testing, liability",
+     "citation": "C.R.S. 10-3-1104.7(12)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-10.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2009-07-01",
+     "firstEnacted": "1994-06-02",
+     "statusOfProvision": "in_force",
+     "quote": "Any individual who is injured by an entity's violation of this section may recover in a court of competent jurisdiction the following remedies:",
+     "appliesTo": "Violations of 10-3-1104.7 (genetic testing information) only.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d7df3e68e7c9ffbafb653dd7362f18da25fefe310e956d3292ea44dbbfce6f2a"
+    },
+    {
+     "title": "Colorado Privacy Act, liability",
+     "citation": "C.R.S. 6-1-1310(1)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2023-07-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "this part 13 does not authorize a private right of action for a violation of this part 13 or any other provision of law.",
+     "appliesTo": "Colorado Privacy Act controllers and processors.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a"
+    },
+    {
+     "title": "Notification of security breach, violations",
+     "citation": "C.R.S. 6-1-716(4)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2018-09-01",
+     "firstEnacted": "2006-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "The attorney general may bring an action in law or equity to address violations of this section, section 6-1-713, or section 6-1-713.5",
+     "appliesTo": "Covered entities under the breach statute.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://colorado.public.law/statutes/crs_10-3-1104.7",
+     "host": "colorado.public.law",
+     "usedFor": "Found the genetic testing remedy"
+    }
+   ],
+   "note": "A person may sue only for genetic testing violations under 10-3-1104.7. The Colorado Privacy Act bars a private right of action. The breach statute names the attorney general as enforcer.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CO",
+    "note": "Suit only for genetic testing violations by group disability or long-term care insurers: actual damages or $10,000 per violation, plus fees. Privacy Act bars suit. Breach law names the attorney general. No broader record right found."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "Most expedient time possible and without unreasonable delay, but not later than 30 days after the date of determination that a security breach occurred",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Notification of security breach, definition of personal information",
+     "citation": "C.R.S. 6-1-716(1)(g)(I)(A)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2018-09-01",
+     "firstEnacted": "2006-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "Social security number; student, military, or passport identification number; driver's license number or identification card number; medical information; health insurance identification number; or biometric data;",
+     "appliesTo": "Covered entities that maintain, own or license computerized personal information of Colorado residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a"
+    },
+    {
+     "title": "Notification of security breach, notice to attorney general",
+     "citation": "C.R.S. 6-1-716(2)(f)(I)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2018-09-01",
+     "firstEnacted": "2018-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "Colorado attorney general in the most expedient time possible and without unreasonable delay, but not later than thirty days after the date of determination that a security breach occurred, if the security breach is reasonably believed to have affected five hundred Colorado residents or more",
+     "appliesTo": "Breaches reasonably believed to affect 500 or more Colorado residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a"
+    },
+    {
+     "title": "Notification of security breach, procedures deemed in compliance",
+     "citation": "C.R.S. 6-1-716(3)(b)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2018-09-01",
+     "firstEnacted": "2006-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "maintains procedures for a security breach pursuant to the laws, rules, regulations, guidances, or guidelines established by its state or federal regulator is in compliance with this section; except that notice to the attorney general is still required",
+     "appliesTo": "Entities regulated by state or federal law, such as HIPAA entities; if notice periods conflict, the shortest one controls.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a"
+    },
+    {
+     "title": "HB 18-1128 (signed act), section 3 amending 6-1-716",
+     "citation": "HB 18-1128, ch. 266, sec. 3",
+     "officialUrl": "https://content.leg.colorado.gov/sites/default/files/2018a_1128_signed.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2018-09-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "INFORMATION; HEALTH INSURANCE IDENTIFICATION NUMBER; OR BIOMETRIC DATA;",
+     "appliesTo": "Enacting text of the current definition; HB 26-1426 later amended only (1)(a), (1)(b) and (2)(a.3).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "54f7935d01250b5bdc28092135f4c65dbea47477bd4f220daabde29853d990bf"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://colorado.public.law/statutes/crs_6-1-716",
+     "host": "colorado.public.law",
+     "usedFor": "Checked current definition text"
+    },
+    {
+     "url": "https://lewisbrisbois.com/blog/colorado-amends-data-breach-notification-statute",
+     "host": "lewisbrisbois.com",
+     "usedFor": "Search result on 2018 amendment"
+    }
+   ],
+   "note": "Personal information includes medical information and health insurance identification number. Notice within 30 days. Attorney general notice at 500 or more residents. Entities following their regulator's breach rules are deemed compliant but still notify the attorney general.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CO",
+    "note": "Definition includes medical information and health insurance identification number. Notice within 30 days. Attorney general notice at 500 or more residents. HB 26-1426 amended other parts of 6-1-716, not (1)(g).",
+    "resolution": [
+     {
+      "rows": [
+       "Q164"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 2,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": true,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     {
+      "citation": "C.R.S. 6-1-1705.2(1)(b)",
+      "status": "in_force",
+      "effectiveDate": "2026-08-12",
+      "quote": "Represents that the artificial intelligence system provides psychotherapy services; or"
+     },
+     {
+      "citation": "C.R.S. 12-245-224.5(5)(a)",
+      "status": "in_force",
+      "effectiveDate": "2026-08-12",
+      "quote": "Interact with clients in any form of therapeutic communication without synchronous, real-time interaction between the licensee, registrant, certificate holder, or other individual lawfully permitted to provide psychotherapy services in the state, the artificial intelligence system, and the client; or"
+     },
+     {
+      "citation": "C.R.S. 10-16-112.7(6)(a)",
+      "status": "enacted_not_yet_effective",
+      "effectiveDate": "2027-01-01",
+      "quote": "shall not provide coverage for services that constitute psychotherapy services, as defined in section 12-245-202 (14), that are provided directly to an individual and that are conducted by an artificial intelligence system."
+     }
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Colorado AI Act, deployer notice to consumer",
+     "citation": "C.R.S. 6-1-1703(4)(a)(I)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2025-11-25",
+     "firstEnacted": "2024-05-17",
+     "statusOfProvision": "enjoined_or_stayed",
+     "quote": "Notify the consumer that the deployer has deployed a high-risk artificial intelligence system to make, or be a substantial factor in making, a consequential decision before the decision is made;",
+     "appliesTo": "\"Consequential decision\" means a decision that has a material legal or similarly significant effect on the provision or denial to any consumer of, or the cost or terms of: (6-1-1701(3)), listing (e) Health-care services. Duty runs on and after June 30, 2026.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a",
+     "authorRuling": {
+      "ruling": "D-26 Q6",
+      "flag": "court order not yet pulled from the court record"
+     },
+     "orderSource": "https://www.troutmanprivacy.com/wp-content/uploads/sites/941/2026/04/US_DIS_COD_1_26cv1515_d8891528e364_MINUTE_ORDER_The_parties_Motion_ECF_No_22_is_GRANT.pdf",
+     "orderDate": "2026-04-27"
+    },
+    {
+     "title": "Colorado AI Act, appeal with human review",
+     "citation": "C.R.S. 6-1-1703(4)(b)(III)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2025-11-25",
+     "firstEnacted": "2024-05-17",
+     "statusOfProvision": "enjoined_or_stayed",
+     "quote": "An opportunity to appeal an adverse consequential decision concerning the consumer arising from the deployment of a high-risk artificial intelligence system, which appeal must, if technically feasible, allow for human review",
+     "appliesTo": "Deployers of high-risk AI systems for consequential decisions including health-care services. Version effective until January 1, 2027. 6-1-1705 exempts some HIPAA covered entity recommendations that are not high risk.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a",
+     "authorRuling": {
+      "ruling": "D-26 Q6",
+      "flag": "court order not yet pulled from the court record"
+     },
+     "orderSource": "https://www.troutmanprivacy.com/wp-content/uploads/sites/941/2026/04/US_DIS_COD_1_26cv1515_d8891528e364_MINUTE_ORDER_The_parties_Motion_ECF_No_22_is_GRANT.pdf",
+     "orderDate": "2026-04-27"
+    },
+    {
+     "title": "Use of AI systems for psychotherapy services, review of treatment plans",
+     "citation": "C.R.S. 12-245-224.5(5)(b)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-12.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2026-08-12",
+     "firstEnacted": "2026-08-12",
+     "statusOfProvision": "in_force",
+     "quote": "Generate therapeutic recommendations or treatment plans without review and approval by the licensee, registrant, certificate holder, or other individual lawfully permitted to provide psychotherapy services in the state.",
+     "appliesTo": "Licensees, registrants, certificate holders and others lawfully permitted to provide psychotherapy services in Colorado.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a39cecc4b4fa95a5b482a1fc796b8cde7de4f1dd3b5b9f3a16adad0eb978ef6a"
+    },
+    {
+     "title": "Use of AI systems for psychotherapy services, written notice and consent to record or transcribe",
+     "citation": "C.R.S. 12-245-224.5(4)(a)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-12.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2026-08-12",
+     "firstEnacted": "2026-08-12",
+     "statusOfProvision": "in_force",
+     "quote": "The client or the client's legally authorized representative is informed in advance in writing of the following:",
+     "appliesTo": "Psychotherapy providers using AI to record or transcribe a therapeutic session; notice covers that AI will be used and its specific purpose, plus written consent.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a39cecc4b4fa95a5b482a1fc796b8cde7de4f1dd3b5b9f3a16adad0eb978ef6a"
+    },
+    {
+     "title": "Use of AI systems in utilization review, clinician approval of denials",
+     "citation": "C.R.S. 10-16-112.7(5)(b) (HB 26-1139)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-10.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "A carrier's denial of coverage based in whole or in part on medical necessity shall not be issued solely on the output of an artificial intelligence system without human review and approval of the denial by a licensed clinician",
+     "appliesTo": "Carriers, PBMs and private utilization review organizations working for carriers, and behavioral health ASOs or managed care entities using AI for utilization review.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d7df3e68e7c9ffbafb653dd7362f18da25fefe310e956d3292ea44dbbfce6f2a"
+    },
+    {
+     "title": "Colorado AI Act as repealed and reenacted by SB 26-189, human review and reconsideration",
+     "citation": "C.R.S. 6-1-1705(1)(a)(II) (SB 26-189)",
+     "officialUrl": "https://olls.info/crs/crs2026-title-06.htm",
+     "linkedFrom": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "An opportunity for meaningful human review and reconsideration of the consequential decision, to the extent commercially reasonable.",
+     "appliesTo": "Deployers whose covered ADMT materially influences a consequential decision; SB 26-189 replaces part 17 on January 1, 2027.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c2019a08bc8ece69a2a12816232916e7adbc448f0c8e426f66ca92d64278904a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.troutmanprivacy.com/2026/05/proposed-state-privacy-and-ai-law-update-may-11-2026/",
+     "host": "troutmanprivacy.com",
+     "usedFor": "Found SB 26-189 replacing the Colorado AI Act"
+    },
+    {
+     "url": "https://www.dataprotectionreport.com/2026/09/internet-privacy-updates-calprivacy-fines-data-brokers-colorado-proposes-new-ai-regulations/",
+     "host": "dataprotectionreport.com",
+     "usedFor": "Search result on Colorado AI rules"
+    },
+    {
+     "url": "https://www.troutmanprivacy.com/wp-content/uploads/sites/941/2026/04/US_DIS_COD_1_26cv1515_d8891528e364_MINUTE_ORDER_The_parties_Motion_ECF_No_22_is_GRANT.pdf",
+     "host": "troutmanprivacy.com",
+     "usedFor": "Minute order, ECF No. 24, barring the attorney general from enforcing SB 24-205 until 14 days after a preliminary injunction ruling"
+    }
+   ],
+   "note": "In force: AI Act notice and human-review appeal for health-care decisions, and psychotherapist review of AI treatment plans. Pending 2027-01-01: SB 26-189 replaces the AI Act; HB 26-1139 requires clinician approval of AI coverage denials.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_CO",
+    "note": "In force: AI disclosure before recording therapy (12-245-224.5(4)(a)) and clinician approval of AI treatment plans ((5)(b)). AI Act appeal right is under a court stay. Pending 2027-01-01: HB 26-1139 and SB 26-189.",
+    "problems": [
+     "Enforcement of SB 24-205 (6-1-1703) is stayed by a 2026-04-27 order in X.AI LLC v. Weiser, D. Colo. No. 26-cv-01515. The file does not record it.",
+     "With 6-1-1703 stayed, the human review element (4)(b)(III) is not in force. No other in-force human recourse rule for health care or coverage was found.",
+     "The AI Act notice in 6-1-1703(4)(a)(I) is also stayed. Disclosure still holds through 12-245-224.5(4)(a).",
+     "6-1-1703 effectiveDate 2025-11-25 is the amendment date. The quoted duties apply only on and after 2026-06-30.",
+     "The order copy I read is on lead hosts only (troutmanprivacy.com; courtlistener.com returned 403). I found no copy on the court's own site."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q010"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q6",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://olls.info/crs/crs2026-title-06.htm",
+    "terms": [
+     "data broker",
+     "consumer health data",
+     "health data"
+    ],
+    "regulatorPagesChecked": [
+     "https://coag.gov/resources/data-protection-laws/"
+    ],
+    "leadsChecked": [
+     "https://www.troutmanprivacy.com/2026/05/proposed-state-privacy-and-ai-law-update-may-11-2026/"
+    ],
+    "searchedAt": "2026-10-03"
+   }
+  }
+ }
+}

@@ -1,0 +1,633 @@
+{
+ "usps": "IL",
+ "fips": "17",
+ "name": "Illinois",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.ilga.gov/Legislation/ILCS/Acts?ChapterID=67&ChapterNumber=815&Chapter=BUSINESS%20TRANSACTIONS",
+    "terms": [
+     "consumer health data",
+     "health data privacy",
+     "privacy",
+     "data",
+     "health",
+     "Protect Health Data Privacy Act",
+     "Consumer Data Privacy Act"
+    ],
+    "regulatorPagesChecked": [
+     "https://illinoisattorneygeneral.gov/consumer-protection/for-businesses/data-breach/",
+     "https://www.ilga.gov/Legislation/BillStatus?DocNum=3494&GAID=18&DocTypeID=HB&SessionID=114",
+     "https://www.ilga.gov/Legislation/BillStatus?DocNum=2875&GAID=18&DocTypeID=SB&SessionID=114"
+    ],
+    "leadsChecked": [
+     "https://privacymatters.dlapiper.com/2026/03/u-s-privacy-laws-legislative-update/",
+     "https://www.aclu-il.org/legislation/hb-3494-protect-health-data-privacy-act/",
+     "https://legiscan.com/IL/text/SB2875/id/3321314"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://privacymatters.dlapiper.com/2026/03/u-s-privacy-laws-legislative-update/",
+     "host": "privacymatters.dlapiper.com",
+     "usedFor": "Finding pending Illinois privacy bills"
+    },
+    {
+     "url": "https://www.aclu-il.org/legislation/hb-3494-protect-health-data-privacy-act/",
+     "host": "www.aclu-il.org",
+     "usedFor": "Identifying the Protect Health Data Privacy Act bill (HB 3494)"
+    },
+    {
+     "url": "https://legiscan.com/IL/text/SB2875/id/3321314",
+     "host": "legiscan.com",
+     "usedFor": "Identifying the Illinois Consumer Data Privacy Act bill (SB 2875)"
+    }
+   ],
+   "note": "No consumer health data law or comprehensive privacy law is in force. HB 3494 was re-referred to House Rules on 2026-04-17. SB 2875 was re-referred to Senate Assignments on 2026-05-22.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IL",
+    "note": "Own search: HB 3494 sits in House Rules and SB 2875 in Senate Assignments. Neither is a Public Act. The Genetic Information Privacy Act covers genetic data only, so it does not set D1."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "One complete copy free to support a claim for federal veterans' disability benefits",
+     "One complete copy free to support a claim for Social Security or SSI benefits",
+     "One complete copy free to support a claim for Aid to the Aged, Blind, or Disabled benefits",
+     "Updated records free for the same purposes",
+     "No handling fee for a patient or personal representative obtaining copies under Section 8-2001.5"
+    ],
+    "feeRules": [
+     "not to exceed a $20 handling charge for processing the request and the actual postage or shipping charge, if any",
+     "for paper copies 75 cents per page for the first through 25th pages",
+     "50 cents per page for pages 26 to 50, 25 cents per page above 50, electronic copies at 50% of the paper rate, rates adjusted under Section 8-2006"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Examination of health care records, free copy for benefits claims",
+     "citation": "735 ILCS 5/8-2001(h)",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/073500050K8-2001.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2022-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Notwithstanding any other provision of the law, a health care facility or health care practitioner shall provide without charge one complete copy of a patient's records if the records are being requested by the patient",
+     "appliesTo": "Health care facilities and health care practitioners. Free copy only when records support a veterans' disability, Social Security or SSI, or Aid to the Aged, Blind, or Disabled claim.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "37c9725f67a268964961e6f28eee7e2ace21561899a9c6ea67b87957732a05e3"
+    },
+    {
+     "title": "Examination of health care records, deadline",
+     "citation": "735 ILCS 5/8-2001(e)",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/073500050K8-2001.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2022-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The requirements of this Section shall be satisfied within 30 days of the receipt of a written request",
+     "appliesTo": "Health care facilities and health care practitioners. Extension allowed to no later than 60 days with a written statement of reasons.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "37c9725f67a268964961e6f28eee7e2ace21561899a9c6ea67b87957732a05e3"
+    },
+    {
+     "title": "Examination of health care records, fees",
+     "citation": "735 ILCS 5/8-2001(d), (d-5)",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/073500050K8-2001.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2022-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The handling fee shall not be collected from the patient or the patient's personal representative who obtains copies of records under Section 8-2001.5.",
+     "appliesTo": "Health care facilities and health care practitioners",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "37c9725f67a268964961e6f28eee7e2ace21561899a9c6ea67b87957732a05e3"
+    },
+    {
+     "title": "Examination of health care records, text after amendment by P.A. 104-598",
+     "citation": "735 ILCS 5/8-2001(h), as amended by P.A. 104-598",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/073500050K8-2001.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Aid to the Aged, Blind, or Persons with Disabilities benefits",
+     "appliesTo": "Health care facilities and health care practitioners",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "37c9725f67a268964961e6f28eee7e2ace21561899a9c6ea67b87957732a05e3"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Free copy for benefits claims goes beyond HIPAA and Part 171. Deadline is 30 days, not shorter. P.A. 104-598, effective 2027-01-01, only renames one benefit program in subsection (h).",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IL",
+    "note": "beyondFederalFloor yes: a free paper copy for benefits claims goes past HIPAA and Part 171. Deadline is 30 days. Minor: the (d-5) handling fee waiver is a fee rule, not a free copy case."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": true,
+   "basis": "statute",
+   "designatedHie": "None. The Illinois Health Information Exchange and Technology Act (20 ILCS 3860) is listed as repealed by P.A. 103-508.",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "Medical Patient Rights Act, HIE opt-out",
+     "citation": "410 ILCS 50/3",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041000500K3.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2024-08-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Patients shall be provided the opportunity to opt out of their health information being transmitted to or through a health information exchange in accordance with Section 9.6 of the Mental Health and Developmental Disabilities Confidentiality Act",
+     "appliesTo": "Patient information transmitted to or through a health information exchange",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "66fd6a6cf159249c142ad948cb9d8cc0dccc44683002538c426ac509a042f4be"
+    },
+    {
+     "title": "Mental Health and Developmental Disabilities Confidentiality Act, HIE opt-out notice",
+     "citation": "740 ILCS 110/9.6",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/074001100K9.6.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-08-15",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "These rules, standards, or contractual obligations shall provide for written notice of a recipient's right to opt out which directs the recipient to a health information exchange website",
+     "appliesTo": "Participants of any HIE. Does not apply to point-to-point transmission directed by the data custodian.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "128382ed785c8a9683a8d88e13030260cad23ca0c481214acdf133b2e9c0268f"
+    },
+    {
+     "title": "Mental Health and Developmental Disabilities Confidentiality Act, use and disclosure to an HIE",
+     "citation": "740 ILCS 110/9.5",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/074001100K9.5.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2023-08-04",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "may, without a recipient's consent, use or disclose information from a recipient's record in connection with an HIE",
+     "appliesTo": "Mental health and developmental disability records",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "abdb4e64c1c7a82f4886bd26b35697ff1ed7a561a5c57854d24652d5c3511c79"
+    },
+    {
+     "title": "Reproductive Health Records Privacy Act, out-of-state disclosure by electronic health networks",
+     "citation": "P.A. 104-471 (HB 5295), Section 10",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/publicacts/104/104-0471.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2027-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "An electronic health network shall prevent the disclosure of a patient's coded private health care information to a provider, business entity, other electronic health network, or health information exchange located outside this State unless the disclosure is:",
+     "appliesTo": "Electronic health networks, not providers or licensed hospitals. Covers abortion-related and gender dysphoria codes.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "204eb4718a547f48f1b119fbd021f21f534de6f910d07c730fb6dbd20f598d37"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://ilga.gov/legislation/publicacts/103/PDF/103-0508.pdf",
+     "host": "ilga.gov",
+     "usedFor": "Finding the 2023 act that ended the state HIE office and rewrote the HIE opt-out sections"
+    },
+    {
+     "url": "https://legalclarity.org/illinois-health-information-exchange-laws-and-compliance-requirements/",
+     "host": "legalclarity.org",
+     "usedFor": "Finding the Illinois HIE opt-out provisions"
+    }
+   ],
+   "note": "Statute gives an opt-out with notice pointing to an HIE website. Mental health records follow the same opt-out under 9.5. P.A. 104-471 adds out-of-state limits for some codes from 2027-07-01.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IL",
+    "note": "Statute sets opt-out. HIV and genetic records use the same opt-out route (410 ILCS 50/3). P.A. 104-471, effective 2027-07-01, is correctly listed as pending."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": true,
+    "provisions": [
+     {
+      "title": "Uniform Interstate Depositions and Discovery Act, unenforceable foreign subpoenas",
+      "citation": "735 ILCS 35/3.5",
+      "officialUrl": "https://www.ilga.gov/documents/legislation/ilcs/documents/073500350K3.5.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2023-01-13",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "(b) No clerk of court shall issue a subpoena based on a foreign subpoena that: (1) requests information or documents related to lawful health care activity, as defined in the Lawful Health Care Activity Act;",
+      "appliesTo": "Foreign subpoenas seeking documents or information related to lawful health care activity",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "41bd391a3ea2bc6e29f1b9c59074b20ba731f884eba9cc2806b88e245941fa7f"
+     },
+     {
+      "title": "Lawful Health Care Activity Act, definitions",
+      "citation": "735 ILCS 40/28-10",
+      "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/073500400K28-10.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2025-08-15",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "\"Lawful health care\" means: (1) reproductive health care that is not unlawful under the laws of this State",
+      "appliesTo": "Definition used by 735 ILCS 35/3.5",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "3eb760fea81e3f8b15efe190ce641be6bc6cc60dc3d46794efc1ac79237b235e"
+     },
+     {
+      "title": "Reproductive Health Records Privacy Act",
+      "citation": "P.A. 104-471 (HB 5295), Section 10",
+      "officialUrl": "https://www.ilga.gov/Documents/legislation/publicacts/104/104-0471.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2027-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "An electronic health network shall prevent the disclosure of a patient's coded private health care information to a provider, business entity, other electronic health network, or health information exchange located outside this State unless the disclosure is:",
+      "appliesTo": "Electronic health networks. Coded information on abortion-related services and gender dysphoria diagnoses.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "204eb4718a547f48f1b119fbd021f21f534de6f910d07c730fb6dbd20f598d37"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-signs-reproductive-health-records-privacy-act",
+      "host": "gov-pritzker-newsroom.prezly.com",
+      "usedFor": "Finding HB 5295 and its effective date"
+     },
+     {
+      "url": "https://williamsinstitute.law.ucla.edu/wp-content/uploads/Shield-Law-IL-Sep-2024.pdf",
+      "host": "williamsinstitute.law.ucla.edu",
+      "usedFor": "Finding the Illinois subpoena provisions"
+     }
+    ],
+    "note": "Clerks may not issue subpoenas from foreign subpoenas seeking records on lawful reproductive health care. P.A. 104-471 limits out-of-state disclosure by electronic health networks from 2027-07-01.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IL",
+     "note": "735 ILCS 35/3.5 in force since 2023-01-13. Definition in 735 ILCS 40/28-10 covers reproductive health care. P.A. 104-471 is pending until 2027-07-01."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental Health and Developmental Disabilities Confidentiality Act, disclosure and consent",
+      "citation": "740 ILCS 110/5",
+      "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/074001100K5.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2025-08-15",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "records and communications may be disclosed to someone other than those persons listed in Section 4 of this Act only with the written consent of those persons who are entitled to inspect and copy a recipient's record pursuant to Section 4 of this Act.",
+      "appliesTo": "Records and communications of recipients of mental health or developmental disabilities services, subject to Sections 6 through 12.2",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "9712db17aabe81074fb459b72e5895dae23def9b5ab1c9b3f74697c0f176b4c4"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Written consent with listed elements is required for disclosure, with exceptions in Sections 6 through 12.2.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IL",
+     "note": "740 ILCS 110/5, current text from P.A. 104-270, effective 2025-08-15. Quote and date match the page."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "AIDS Confidentiality Act, disclosure",
+      "citation": "410 ILCS 305/9",
+      "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041003050K9.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2021-07-27",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person may disclose or be compelled to disclose HIV-related information, except to the following persons:",
+      "appliesTo": "Any person holding HIV-related information",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "980f9f9840cb51c1783fc29c8e8862daf810ac47761d480df75f0356970d59b1"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure of HIV-related information is limited to listed persons.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IL",
+     "note": "410 ILCS 305/9, current text from P.A. 102-168, effective 2021-07-27. Quote and date match the page."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": true,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act, confidentiality",
+      "citation": "410 ILCS 513/15(a)",
+      "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041005130K15.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2009-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "genetic testing and information derived from genetic testing is confidential and privileged and may be released only to the individual tested and to persons specifically authorized, in writing in accordance with Section 30, by that individual to receive the information.",
+      "appliesTo": "Genetic testing and information derived from it",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a6d26da406c3b9b2d7032a7e2ecfcd532e26106d0c303ed1651bf5649d0477a7"
+     },
+     {
+      "title": "Genetic Information Privacy Act, confidentiality, text after amendment by P.A. 104-642",
+      "citation": "410 ILCS 513/15(a), as amended by P.A. 104-642",
+      "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041005130K15.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2027-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "biomarker testing, information derived from biomarker testing, genetic testing, and information derived from genetic testing are confidential and privileged",
+      "appliesTo": "Adds biomarker testing and information derived from it",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a6d26da406c3b9b2d7032a7e2ecfcd532e26106d0c303ed1651bf5649d0477a7"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Release only to the person tested or persons they authorize in writing. P.A. 104-642 adds biomarker testing from 2027-01-01.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IL",
+     "note": "Text before P.A. 104-642 is in force from P.A. 95-927, effective 2009-01-01. P.A. 104-642 adds biomarker testing from 2027-01-01, so pending true is right."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "statutoryDamages": "Genetic Information Privacy Act: $2,500 negligent or $15,000 intentional or reckless per violation, or actual damages if greater. AIDS Confidentiality Act: $2,000 negligent or $10,000 intentional or reckless per violation, or actual damages if greater."
+   },
+   "provisions": [
+    {
+     "title": "Genetic Information Privacy Act, right of action",
+     "citation": "410 ILCS 513/40",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041005130K40.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2015-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person aggrieved by a violation of this Act shall have a right of action in a State circuit court or as a supplemental claim in a federal district court against an offending party.",
+     "appliesTo": "Violations of the Genetic Information Privacy Act",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "27725aaa0ad4f700282dd5f54433fd4c5d6419b7150779375d6d8b30efcb0d32"
+    },
+    {
+     "title": "AIDS Confidentiality Act, right of action",
+     "citation": "410 ILCS 305/13",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041003050K13.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2008-06-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person aggrieved by a violation of this Act or of a regulation promulgated hereunder shall have a right of action in the circuit court",
+     "appliesTo": "Violations of the AIDS Confidentiality Act",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a7b9cadee1e0e3b0c48121e2b3943eeebb083fb5a8a797095b135e1dbfea4e1e"
+    },
+    {
+     "title": "Reproductive Health Records Privacy Act, violations (right to sue electronic health networks)",
+     "citation": "P.A. 104-471, Sec. 20",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/publicacts/104/104-0471.htm",
+     "effectiveDate": "2027-07-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Any person aggrieved by a violation of this Act by an electronic health network may bring an action against that electronic health network.",
+     "appliesTo": "Electronic health networks; the Act bars actions against health care providers",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "204eb4718a547f48f1b119fbd021f21f534de6f910d07c730fb6dbd20f598d37"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Rights to sue exist for genetic and HIV records. 740 ILCS 110/15 also lets a person sue for mental health records; its page gives no effective date. No general medical records right found.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_IL",
+    "note": "Rights to sue cover genetic, HIV and mental health records, each one category. No general medical records right found. Level 1 stands. Add pending true for P.A. 104-471, effective 2027-07-01.",
+    "problems": [
+     "pending is false, but P.A. 104-471 Section 20 creates a right to sue electronic health networks, effective 2027-07-01. It must be listed with pending true.",
+     "740 ILCS 110/15 (mental health records right to sue) is named in the note but not listed in provisions."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q027"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "in the most expedient time possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Personal Information Protection Act, definitions",
+     "citation": "815 ILCS 530/5",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/081505300K5.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2017-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(D) Medical information. (E) Health insurance information.",
+     "appliesTo": "Data elements in combination with first name or first initial and last name, when not encrypted or redacted",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a0f72bf18f78f35b68e887a79c5945dab582794ca63921e4253e7b66c68bfb9f"
+    },
+    {
+     "title": "Personal Information Protection Act, notice to Attorney General",
+     "citation": "815 ILCS 530/10",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/081505300K10.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2020-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "500 Illinois residents as a result of a single breach of the security system shall provide notice to the Attorney General of the breach",
+     "appliesTo": "Data collectors required to notify more than 500 Illinois residents of a single breach",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "91f78e66a3a9b7d62da42fb68c9dde5e2b4456ae031ff25aa2f70e03ee1b841d"
+    },
+    {
+     "title": "Personal Information Protection Act, HIPAA entities",
+     "citation": "815 ILCS 530/50",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/081505300K50.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2017-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall be deemed to be in compliance with the provisions of this Act, provided that any covered entity or business associate required to provide notification of a breach to the Secretary of Health and Human Services",
+     "appliesTo": "HIPAA covered entities and business associates in compliance with HIPAA and HITECH. They must notify the Attorney General within 5 business days of notifying HHS.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "51149ebcf87a787b1f7c091b75a0fcd7b00676eff60d66535a99287ea6df2d11"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://illinoisattorneygeneral.gov/consumer-protection/for-businesses/data-breach/",
+     "host": "illinoisattorneygeneral.gov",
+     "usedFor": "Confirming the Attorney General breach notice process"
+    }
+   ],
+   "note": "Both medical information and health insurance information are listed data elements. Medical information includes data given to a website or mobile app.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IL",
+    "note": "815 ILCS 530/5 from P.A. 99-503, effective 2017-01-01. AG notice over 500 residents and HIPAA deeming clause confirmed. Facts match the pages."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": true,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "An individual, corporation, or entity may not provide, advertise, or otherwise offer therapy or psychotherapy services, including through the use of Internet-based artificial intelligence, to the public in this State unless the therapy or psychotherapy services are conducted by an individual who is a licensed professional.",
+     "A licensed professional may not allow artificial intelligence to do any of the following: (1) make independent therapeutic decisions; (2) directly interact with clients in any form of therapeutic communication;",
+     "(4) detect emotions or mental states."
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Wellness and Oversight for Psychological Resources Act, permitted use of artificial intelligence",
+     "citation": "225 ILCS 155/15(b)",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/022501550K15.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the patient or the patient's legally authorized representative is informed in writing of the following: (A) that artificial intelligence will be used;",
+     "appliesTo": "Licensed professionals using AI for supplementary support in therapy or psychotherapy where the session is recorded or transcribed",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "77e1b84959639c48acbfc75aa04b0cead556bf12ae035f03e2e43230222539f2"
+    },
+    {
+     "title": "Wellness and Oversight for Psychological Resources Act, prohibition on unauthorized therapy services",
+     "citation": "225 ILCS 155/20(b)(3)",
+     "officialUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/022501550K20.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(3) generate therapeutic recommendations or treatment plans without review and approval by the licensed professional;",
+     "appliesTo": "Licensed professionals providing therapy or psychotherapy services",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1d8d50936b186ff0d15f0a081587e9206537a7632a734439affa8b0a4c199e46"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.orrick.com/en/Insights/2025/08/Illinois-Enacts-Law-Regulating-AI-with-Sweeping-Implications-for-Behavioral-Health-Delivery",
+     "host": "www.orrick.com",
+     "usedFor": "Finding 225 ILCS 155"
+    },
+    {
+     "url": "https://natlawreview.com/article/artificial-intelligence-infiltrating-healthcare-illinois-and-its-effects-insurers",
+     "host": "natlawreview.com",
+     "usedFor": "Finding HB 35 on AI in health insurance"
+    },
+    {
+     "url": "https://capitolnewsillinois.com/news/pritzker-signs-landmark-ai-regulation-bill-that-aims-to-mitigate-risks/",
+     "host": "capitolnewsillinois.com",
+     "usedFor": "Checking 2026 AI laws (SB 315 covers large AI developers, not health care)"
+    }
+   ],
+   "note": "Elements apply only to therapy and psychotherapy. HB 35 and SB 1425 on AI in insurance denials were not enacted; both were re-referred in 2025. No human recourse rule found.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_IL",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P09"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

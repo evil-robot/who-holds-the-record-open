@@ -1,0 +1,426 @@
+{
+ "usps": "SC",
+ "fips": "45",
+ "name": "South Carolina",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.scstatehouse.gov/query.php?search=SEARCH&searchtext=%22consumer%20health%20data%22&category=CODEOFLAWS&conid=0&result_pos=0&numrows=50",
+    "terms": [
+     "\"consumer health data\"",
+     "\"sensitive data\"",
+     "\"data broker\""
+    ],
+    "regulatorPagesChecked": [
+     "https://consumer.sc.gov/identity-theft-unit/security-breach-notices"
+    ],
+    "leadsChecked": [
+     "https://termly.io/us-data-privacy-laws/",
+     "https://www.scstatehouse.gov/sess126_2025-2026/bills/5075.htm",
+     "https://www.scstatehouse.gov/sess126_2025-2026/bills/3401.htm"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://termly.io/us-data-privacy-laws/",
+     "host": "termly.io",
+     "usedFor": "Search lead that SC has no comprehensive privacy law"
+    },
+    {
+     "url": "https://www.troutmanprivacy.com/2026/02/south-carolina-enacts-age-appropriate-design-code-act/",
+     "host": "troutmanprivacy.com",
+     "usedFor": "Lead on 2026 children's design code act, not a health data law"
+    }
+   ],
+   "note": "Code search found no consumer health data or comprehensive privacy law. H.5075 (Personal Privacy Protection Act) and H.3401 were not enacted as of the check date.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SC",
+    "note": "My code searches for \"consumer health data\" and \"automated decision\" found no matches. \"health data\" hit only unrelated chapters. H.5075 sits in Senate Judiciary with no act number. No in-force provision found."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 45,
+    "freeCopyCases": [
+     "Physician or other owner: records free when the patient is referred to another provider for continuation of treatment (44-115-80(B))",
+     "Health care facility or Title 40 licensed provider: no fee for records sent to a provider at the patient's request for continuing medical care (44-7-325(A)(2))"
+    ],
+    "feeRules": [
+     "44-115-80(A)(2) and 44-7-325(A)(1)(b): \"sixty-five cents per page for the first thirty printed pages and fifty cents per page for all other printed pages, plus a clerical fee not to exceed twenty-five dollars for searching and handling\"; paper cap $200 per request (physicians) or per admission (facilities)",
+     "Electronic copies: same per-page rates and clerical fee, capped at $150 per request (44-115-80(A)(1), 44-7-325(A)(1)(a))",
+     "Search fee may not be charged when no record is found if the patient made the request",
+     "All fees adjusted each July 1 by CPI-U South Region",
+     "X-ray copies: actual cost of reproduction only (44-115-80(C), 44-7-325(A)(3))"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Physicians' Patient Records Act: fees physician may charge",
+     "citation": "S.C. Code Ann. 44-115-80(B)",
+     "officialUrl": "https://www.scstatehouse.gov/code/t44c115.php",
+     "linkedFrom": null,
+     "effectiveDate": "2014-06-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "must provide a patient's medical records at no charge when the patient is referred by the physician, health care provider, or an employee, agent, or contractor of the owner of the record to another physician or health care provider for continuation of treatment",
+     "appliesTo": "A physician, health care provider, or other owner of medical records",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4b8df3f7894078cd60194ecd31ab683b869f0df38211610887ce753ed80a6455"
+    },
+    {
+     "title": "Fee for search and duplication of medical record; time limits",
+     "citation": "S.C. Code Ann. 44-7-325(A)(2)",
+     "officialUrl": "https://www.scstatehouse.gov/code/t44c007.php",
+     "linkedFrom": null,
+     "effectiveDate": "2014-06-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "no fee may be charged for records copied at the request of a health care provider or for records sent to a health care provider at the request of the patient for the purpose of continuing medical care",
+     "appliesTo": "A health care facility, as defined in Section 44-7-130, and a health care provider licensed pursuant to Title 40",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "619c564984acaf1ce747aaba4d2255735b903fb057545067dafd2cf1bc041d37"
+    },
+    {
+     "title": "Health care facility deadline to comply with a copy request",
+     "citation": "S.C. Code Ann. 44-7-325(B)(1)(a)",
+     "officialUrl": "https://www.scstatehouse.gov/code/t44c007.php",
+     "linkedFrom": null,
+     "effectiveDate": "2014-06-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "no later than forty-five days after the patient has been discharged or forty-five days after the request is received, whichever is later",
+     "appliesTo": "A health care facility shall comply with a request for copies of a medical record",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "619c564984acaf1ce747aaba4d2255735b903fb057545067dafd2cf1bc041d37"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Free copy for continuing care counts; HIPAA has no such free case. The 45-day facility deadline is longer than 30 days and does not count. Per-page caps are facts only.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_SC",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P18"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "no_law_found",
+   "value": "no_rule_found",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "",
+   "stricterForSensitive": null,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.scstatehouse.gov/query.php?search=SEARCH&searchtext=%22health%20information%20exchange%22&category=CODEOFLAWS&conid=0&result_pos=0&numrows=50",
+    "terms": [
+     "\"health information exchange\""
+    ],
+    "regulatorPagesChecked": [
+     "https://bhdd.sc.gov/hipaa-notice-privacy-practices"
+    ],
+    "leadsChecked": [
+     "https://sceha.org/privacy.php",
+     "https://www.scstatehouse.gov/sess119_2011-2012/bills/3413.htm"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://sceha.org/privacy.php",
+     "host": "sceha.org",
+     "usedFor": "SC eHealth Alliance (SCeHA) privacy page; no opt-out text found on it"
+    },
+    {
+     "url": "https://bhdd.sc.gov/hipaa-notice-privacy-practices",
+     "host": "bhdd.sc.gov",
+     "usedFor": "State agency notice describing SCeHA membership and an opt-out form"
+    }
+   ],
+   "note": "No statute or regulation found. A BHDD notice says patients may opt out of SCeHA, but no state page designating SCeHA as the state HIE was found. H.3413 (2011) was not enacted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SC",
+    "note": "Code search for \"health information exchange\" found no matches. A BHDD notice describes an SCeHA opt-out, but I found no current state page designating SCeHA. Its 2019 policy URL no longer serves a PDF."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortions must be reported",
+      "citation": "S.C. Code Ann. 44-41-60",
+      "officialUrl": "https://www.scstatehouse.gov/code/t44c041.php",
+      "linkedFrom": null,
+      "effectiveDate": "2023-05-25",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The names of the patient and physician may not be reported on the form or otherwise disclosed to the State Registrar.",
+      "appliesTo": "Any abortion performed in this State must be reported by the performing physician",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "5cb3b238e3844a9cb8b23435212207f5512c5ea688f5f81aa413a6e49a294e3d"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Abortion reports to the State Registrar must omit patient and physician names. Section 44-41-360 also lets courts seal records to keep a patient's identity from public disclosure in actions under that article.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_SC",
+     "note": "44-41-60, history ends 2023 Act No. 70, eff May 25, 2023. 44-41-360 lets a court seal records to keep the patient's identity from public disclosure."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of records; exceptions; violations and penalties",
+      "citation": "S.C. Code Ann. 44-22-100(A)",
+      "officialUrl": "https://www.scstatehouse.gov/code/t44c022.php",
+      "linkedFrom": null,
+      "effectiveDate": "2013-08-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "must be kept confidential, and must not be disclosed unless:",
+      "appliesTo": "Certificates, applications, records, and reports made for the purpose of this chapter",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "30f00b9dc27661d6a3a904893ef8c6bc072fb24aa66bdd336a60581ec63039f7"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Records identifying a mental health or substance use patient need consent or a listed exception, such as a court order. Violation is a misdemeanor. Section 44-22-90 makes therapist communications privileged.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_SC",
+     "note": "44-22-100(A), last amended by 2013 Act No. 22, eff August 1, 2013. Agency names were updated by Code Commissioner under 2025 Act No. 3, not by amendment."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of sexually transmitted disease records",
+      "citation": "S.C. Code Ann. 44-29-135",
+      "officialUrl": "https://www.scstatehouse.gov/code/t44c029.php",
+      "linkedFrom": null,
+      "effectiveDate": "2011-06-07",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "relating to a known or suspected case of a sexually transmitted disease are strictly confidential except as provided in this section. The information must not be released or made public, upon subpoena or otherwise",
+      "appliesTo": "All information and records held by the Department of Health and Environmental Control and its agents",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "59fad529fe14a84732583a1917e5f98c8fa6557b8a6fcbd9202f302f0581d1db"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Covers state health department STD records, with HIV named in the section. Section 44-29-136 requires a court order for release to prosecutors. Section 44-29-250 keeps anonymous HIV test results confidential.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_SC",
+     "note": "44-29-135, eff June 7, 2011, names HIV in item (f). 44-29-136 requires a court order for release to prosecutors. 44-29-250 makes anonymous HIV test results confidential."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic information: confidentiality; disclosure restrictions and exceptions",
+      "citation": "S.C. Code Ann. 38-93-40(A)",
+      "officialUrl": "https://www.scstatehouse.gov/code/t38c093.php",
+      "linkedFrom": null,
+      "effectiveDate": "2010-06-07",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All genetic information obtained before or after the effective date of this chapter must be confidential and must not be disclosed to a third party in a manner that allows identification of the individual tested without first obtaining the written informed consent of that individual",
+      "appliesTo": "This chapter applies to health insurance coverage offered in connection with an individual health plan, a group health plan, or a health benefit plan that is delivered, issued for delivery, or renewed in this State.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a25cf14d98fe8fb3eb7f3e1b9e7cde147d9527917fd923a7cffe4e6df5128b3b"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Chapter 38-93 sits in the Insurance title and applies to health insurance coverage, producers and insurance support organizations.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_SC",
+     "note": "38-93-40(A), 2010 Act No. 217, eff June 7, 2010. Chapter scope under 38-93-20 is health insurance coverage, producers, agencies and insurance support organizations."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None fixed. Breach: damages for wilful and knowing violations, actual damages for negligent ones, injunction, attorney's fees. Genetic: equitable relief and actual damages, costs and attorney's fees."
+   },
+   "provisions": [
+    {
+     "title": "Breach of security of business data: civil action by injured resident",
+     "citation": "S.C. Code Ann. 39-1-90(G)",
+     "officialUrl": "https://www.scstatehouse.gov/code/t39c001.php",
+     "linkedFrom": null,
+     "effectiveDate": "2013-04-23",
+     "firstEnacted": "2009-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "institute a civil action to recover damages in case of a wilful and knowing violation",
+     "appliesTo": "A resident of this State who is injured by a violation of this section",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "292b8bdbc673b9af546c280a80d3ca3baf18baf071432530ce81fa84f0fe49fa"
+    },
+    {
+     "title": "Genetic information privacy: violations",
+     "citation": "S.C. Code Ann. 38-93-90(D)",
+     "officialUrl": "https://www.scstatehouse.gov/code/t38c093.php",
+     "linkedFrom": null,
+     "effectiveDate": "2010-06-07",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An individual who is injured by a person's violation of this chapter may recover in a court of competent jurisdiction the following remedies",
+     "appliesTo": "This chapter applies to health insurance coverage offered in connection with an individual health plan, a group health plan, or a health benefit plan that is delivered, issued for delivery, or renewed in this State.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a25cf14d98fe8fb3eb7f3e1b9e7cde147d9527917fd923a7cffe4e6df5128b3b"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Suits allowed for breach notice violations and for genetic information violations in health insurance. No general right to sue found in the medical records acts (44-115, 44-22-100, 44-29-135).",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SC",
+    "note": "Suits allowed under 39-1-90(G), a breach law, eff April 23, 2013, and 38-93-90(D), genetic information in insurance, eff June 7, 2010. Both are narrow. No general right found in 44-115 or 44-7."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "in the most expedient time possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Business data, breach of security: definition of personal identifying information",
+     "citation": "S.C. Code Ann. 39-1-90(D)(3)",
+     "officialUrl": "https://www.scstatehouse.gov/code/t39c001.php",
+     "linkedFrom": null,
+     "effectiveDate": "2013-04-23",
+     "firstEnacted": "2009-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "means the first name or first initial and last name in combination with and linked to any one or more of the following data elements",
+     "appliesTo": "A person conducting business in this State, and owning or licensing computerized data or other data that includes personal identifying information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "292b8bdbc673b9af546c280a80d3ca3baf18baf071432530ce81fa84f0fe49fa"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Listed elements are SSN, license or state ID, financial account data and government identifiers. No medical or health insurance data. Consumer Affairs notice needed above 1,000 persons. Only GLBA and financial institutions get deemed compliance.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SC",
+    "note": "39-1-90(D)(3), rewritten by 2013 Act No. 15, eff April 23, 2013, lists SSN, license, financial and government ID data only. Consumer Affairs notice above 1,000 persons. No HIPAA deeming clause."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.scstatehouse.gov/query.php?search=SEARCH&searchtext=%22artificial%20intelligence%22&category=CODEOFLAWS&conid=0&result_pos=0&numrows=50",
+    "terms": [
+     "\"artificial intelligence\""
+    ],
+    "regulatorPagesChecked": [
+     "https://consumer.sc.gov/identity-theft-unit/security-breach-notices"
+    ],
+    "leadsChecked": [
+     "https://citizenportal.ai/articles/7488761/South-Carolina/2026-Legislative-Meetings/Charleston-senator-introduces-bill-to-require-human-review-when-insurers-use-AI-for-prior-authorization",
+     "https://www.scstatehouse.gov/sess126_2025-2026/bills/920.htm",
+     "https://www.scstatehouse.gov/sess126_2025-2026/bills/443.htm",
+     "https://www.scstatehouse.gov/sess126_2025-2026/bills/788.htm"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://citizenportal.ai/articles/7488761/South-Carolina/2026-Legislative-Meetings/Charleston-senator-introduces-bill-to-require-human-review-when-insurers-use-AI-for-prior-authorization",
+     "host": "citizenportal.ai",
+     "usedFor": "Lead to S.920/H.5206 on insurer AI prior authorization"
+    },
+    {
+     "url": "https://www.ailawsbystate.com/industry/insurance",
+     "host": "ailawsbystate.com",
+     "usedFor": "Lead list of insurance AI bills"
+    }
+   ],
+   "note": "The only code hit for artificial intelligence is a licensee work product rule, not health care. S.920, S.443 and S.788 remained in committee or chamber, not enacted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SC",
+    "note": "Code search for \"artificial intelligence\" hit only real estate rule 40-57. \"automated decision\" had no matches. S.443 is in Senate committee, S.920 in the Senate, H.5206 and S.788 in House committees. None enacted."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

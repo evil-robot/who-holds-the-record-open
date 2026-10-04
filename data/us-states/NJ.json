@@ -1,0 +1,569 @@
+{
+ "usps": "NJ",
+ "fips": "34",
+ "name": "New Jersey",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "New Jersey Data Privacy Act: controller duties (consent for sensitive data; no sale of sensitive data)",
+     "citation": "N.J.S.A. 56:8-166.12 (P.L.2023, c.266, s.9, amended P.L.2026, c.25, s.1)",
+     "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54204/54619?f=templates$fn=document-frame.htm$3.0",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-30",
+     "firstEnacted": "2024-01-16",
+     "statusOfProvision": "in_force",
+     "quote": "not process sensitive data concerning a consumer without first obtaining the consumer's consent",
+     "appliesTo": "Controllers that \"control or process the personal data of at least 100,000 consumers, excluding personal data processed solely for the purpose of completing a payment transaction\" (N.J.S.A. 56:8-166.5, P.L.2023, c.266, s.2), or 25,000 consumers plus revenue from sale. The sale ban applies \"regardless of the number of consumers\".",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "eb48576e9ecdc0fdef4e4334623d0c5388a7c9a3620fc5b0734db7a7cefc5f87"
+    },
+    {
+     "title": "New Jersey Data Privacy Act: definition of sensitive data",
+     "citation": "N.J.S.A. 56:8-166.4 (P.L.2023, c.266, s.1, amended P.L.2025, c.367, s.2)",
+     "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54204/54611?f=templates$fn=document-frame.htm$3.0",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-20",
+     "firstEnacted": "2024-01-16",
+     "statusOfProvision": "in_force",
+     "quote": "\"Sensitive data\" means personal data revealing racial or ethnic origin; religious beliefs; mental or physical health condition, treatment, or diagnosis",
+     "appliesTo": "Definition used by P.L.2023, c.266 (C.56:8-166.4 et seq.).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cc5affe9ba75c2ae0b29ebb2c2ba2440248c7c31bfee94fa7975d33099b00db9"
+    },
+    {
+     "title": "Data brokers and data collectors: ban on sale of sensitive data",
+     "citation": "P.L.2026, c.25, s.3 (C.56:8-166.22)",
+     "officialUrl": "https://pub.njleg.state.nj.us/Bills/2026/PL26/25_.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-30",
+     "firstEnacted": "2026-06-30",
+     "statusOfProvision": "in_force",
+     "quote": "In no case shall a data broker or data collector sell or license sensitive data to any other individual or entity.",
+     "appliesTo": "Data brokers and data collectors; excludes protected health information held by a HIPAA covered entity or business associate.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f3824240ff65b4ef791e84f273914ff7ff5f1dec25f2119505f9359941bf5d3a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The New Jersey Data Privacy Act requires opt-in consent to process sensitive data, which includes health data. Since 30 June 2026 sale of sensitive data is banned. It is a comprehensive law, not a dedicated consumer health data law.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NJ_r3",
+    "note": "Quotes, citations and dates hold. P.L.2026, c.25 approved 30 June 2026, effective immediately. P.L.2025, c.367 approved 20 January 2026, effective immediately. Opt-in consent for sensitive data gives level 2. No dedicated consumer health data law found."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "Hospital records: patient at or below 250 percent of the federal poverty level, or enrolled in SNAP, SSI, Medicaid, NJ FamilyCare, WIC, Work First NJ or similar assistance",
+     "Hospital records: a not-for-profit corporation representing a patient",
+     "Hospital records: a health care practitioner",
+     "Hospital records: an attorney representing a patient pro bono",
+     "Hospital records: a patient or attorney with a pending application for, or receiving, Social Security disability benefits",
+     "Hospital billing records: no fee for patient or legally authorized representative"
+    ],
+    "feeRules": [
+     "Hospital medical record, patient or representative: \"shall not exceed $1 per page or $50 per individual admission record, whichever is less\" (N.J.S.A. 26:2H-5n(a)(1)(a))",
+     "Patient request under HIPAA: 45 CFR 164.524(b) time and fee rules apply (N.J.S.A. 26:2H-5n(a)(1)(b))",
+     "Hospital billing record: \"A hospital shall not charge any fee\" (N.J.S.A. 26:2H-5n(a)(1)(c))",
+     "Authorized third party: no more than $1 per page, $1.50 per microfilm image (N.J.S.A. 26:2H-5n(a)(1)(d))",
+     "X-rays and other media: no more than $15 per printed image or $30 per CD or DVD, plus $10 administrative fee (N.J.S.A. 26:2H-5n(a)(1)(e))"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Hospital patient records: fee waivers",
+     "citation": "N.J.S.A. 26:2H-5n(d) (P.L.2019, c.217, s.1, amended 2021, c.359; 2021, c.427; 2022, c.114)",
+     "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/22562/23307?f=templates$fn=document-frame.htm$3.0",
+     "linkedFrom": null,
+     "effectiveDate": "2022-09-22",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The fees authorized by this section shall not be imposed on: (1) A patient who does not have the ability to pay and who presents either: (a) a statement certifying to annual income at or below 250 percent of the federal poverty level",
+     "appliesTo": "General, special, or psychiatric hospitals licensed under P.L.1971, c.136 (C.26:2H-1 et seq.).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bc005fb9387eaed235a9f54f6e49665f32674b60120a8c46278dd6b584d0307f"
+    },
+    {
+     "title": "Hospital patient records: deadline and fee cap",
+     "citation": "N.J.S.A. 26:2H-5n(a)",
+     "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/22562/23307?f=templates$fn=document-frame.htm$3.0",
+     "linkedFrom": null,
+     "effectiveDate": "2022-09-22",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the hospital shall provide a legible paper or electronic reproduction of the requested records within the dates requested to the patient, the patient's legally authorized representative, or the authorized third party within 30 days of the request",
+     "appliesTo": "General, special, or psychiatric hospitals licensed under P.L.1971, c.136 (C.26:2H-1 et seq.).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bc005fb9387eaed235a9f54f6e49665f32674b60120a8c46278dd6b584d0307f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-8-43G-15-3",
+     "host": "law.cornell.edu",
+     "usedFor": "Found hospital record rule N.J.A.C. 8:43G-15.3"
+    },
+    {
+     "url": "https://www.medicaleconomics.com/view/new-jersey-medical-records",
+     "host": "medicaleconomics.com",
+     "usedFor": "Lead on physician record rule N.J.A.C. 13:35-6.5 (not opened on official host)"
+    },
+    {
+     "url": "https://nj.gov/health/news/2025/approved/20250707a.shtml",
+     "host": "nj.gov",
+     "usedFor": "DOH notice of proposal to amend N.J.A.C. 8:43G-15.3"
+    },
+    {
+     "url": "https://www.nj.gov/health/legal/documents/adoption/8_43G-15.3%20NOA.pdf",
+     "host": "nj.gov",
+     "usedFor": "DOH adoption notice, effective 5 Jan 2026, pointing to N.J.S.A. 26:2H-5n"
+    }
+   ],
+   "note": "Hospital copies are free for low-income patients and Social Security disability claimants, beyond the HIPAA and 45 CFR 171.302 floor. The 30-day deadline is not shorter than HIPAA. Physician rule N.J.A.C. 13:35-6.5 could not be opened.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NJ_r3",
+    "note": "beyondFederalFloor yes: hospital copies must be free for low-income patients and disability claimants, which HIPAA and 45 CFR 171.302 do not require. Deadline is 30 days, not shorter. P.L.2022, c.114 approved 22 September 2022."
+   }
+  },
+  "hie_consent": {
+   "status": "not_checked",
+   "value": null,
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "New Jersey Health Information Network (NJHIN), operated by NJII, the State Designated Entity",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "NJHIN Opt-Out Guidance for Unrepresented Patients/Residents",
+     "citation": "NJII, NJHIN Opt-Out Guidance (policy document)",
+     "officialUrl": "https://www.njii.com/wp-content/uploads/2022/09/NJII-Guidance-on-Unrepresented-Patients.pdf",
+     "linkedFrom": "https://www.nj.gov/health/njhit/approach/",
+     "effectiveDate": "2014-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "it adopted the Opt-Out model of patient consent to participation. The Opt-Out model is one in which the default for all patients is to participate within the HIE and, should a patient elect to Opt-Out, they must request that opportunity.",
+     "appliesTo": "Patients whose records are exchanged through NJHIN.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b4b7e31947d72e34436493855f44f1fbae18bd20fae665bdcc53d7eb9d34afd9"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.jerseyhealthconnect.org/wp-content/uploads/Jersey-Health-Connect-Opt-Out-Form.Revised.pdf",
+     "host": "jerseyhealthconnect.org",
+     "usedFor": "Regional HIE opt-out form (not state-designated)"
+    },
+    {
+     "url": "https://www.shoremedicalcenter.org/sites/default/files/page_attachments/form_8232_360_92223_health_information_exchange_hie_opt_out.pdf",
+     "host": "shoremedicalcenter.org",
+     "usedFor": "Hospital HIE opt-out form"
+    }
+   ],
+   "note": "No statute sets an HIE consent rule; code search found none. NJII policy states opt-out since 2014 (year only, so date set to 1 January). NJHIN's own site publishes no patient opt-out form; opt-out runs through providers.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_NJ_r3",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P13"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of reproductive health care information by covered entities in civil, probate, legislative or administrative proceedings",
+      "citation": "N.J.S.A. 2A:84A-22.18 (P.L.2022, c.51, s.1, amended P.L.2026, c.74, s.3)",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/112/2122?f=templates$fn=document-frame.htm$3.0",
+      "linkedFrom": null,
+      "effectiveDate": "2026-08-20",
+      "firstEnacted": "2022-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "shall not disclose, unless the patient or that patient's conservator, guardian, or other authorized legal representative explicitly consents in writing to the disclosure",
+      "appliesTo": "HIPAA covered entities, in any civil action or proceeding preliminary thereto or in any probate, legislative or administrative proceeding.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "36a1ead176f7edaf747b1a9bde991a816b3d48968c7d6810c5c7772c73f25ea3"
+     },
+     {
+      "title": "Public entities: no information for interstate investigations into reproductive health care",
+      "citation": "N.J.S.A. 2A:84A-22.19 (P.L.2022, c.51, s.2, amended P.L.2026, c.74, s.9)",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/112/2123?f=templates$fn=document-frame.htm$3.0",
+      "linkedFrom": null,
+      "effectiveDate": "2026-08-20",
+      "firstEnacted": "2022-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "A public entity of this State or employee, appointee, officer or official or any other person acting on behalf of a public entity shall not provide any information",
+      "appliesTo": "State and local public entities and persons acting for them.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d9bb106d4c98c1e8e47659ed114a07b42fc8390a70ee2c75733c500231432655"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.nj.gov/governor/news/2026/20260820a.shtml",
+      "host": "nj.gov",
+      "usedFor": "Signing of S2260/A2218 on 20 Aug 2026, effective immediately"
+     },
+     {
+      "url": "https://pub.njleg.gov/Bills/2026/S2500/2260_R3.HTM",
+      "host": "pub.njleg.gov",
+      "usedFor": "Final passed text amending 2A:84A-22.18 and 22.19"
+     },
+     {
+      "url": "https://www.billtrack50.com/billdetail/1931671",
+      "host": "billtrack50.com",
+      "usedFor": "Chapter number P.L.2026, c.74"
+     }
+    ],
+    "note": "Quoted words appear in both the 2022 text and the 2026 amendment. P.L.2026, c.74 replaced \"services\" with \"activity\" and added federal investigations. The official code page still showed the 2022 text on 3 Oct 2026.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NJ_r3",
+     "note": "Code page still shows L.2022, c.51 text. Governor page shows S2260/A2218 signed 20 August 2026, effective immediately. Quoted words survive in the amended text. Chapter number c.74 not found on the legislature host."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of records of persons receiving services in noncorrectional institutions",
+      "citation": "N.J.S.A. 30:4-24.3 (L.1965, c.59, s.11, amended 2009, c.183, s.4)",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/26263/26532?f=templates$fn=document-frame.htm$3.0",
+      "linkedFrom": null,
+      "effectiveDate": "2010-01-11",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "directly or indirectly identifying any individual presently or formerly receiving services in a noncorrectional institution under Title 30 of the Revised Statutes, or for whom services in a noncorrectional institution shall be sought under this act shall be kept confidential and shall not be disclosed by any person",
+      "appliesTo": "Certificates, applications, records, and reports made under Title 30; disclosure allowed with consent, court direction, and listed exceptions.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "61e7b7339625e7f6fcfa06833822a648fe9e0d3caaf9b224d211008074e418cb"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Records of people served in noncorrectional institutions under Title 30 are confidential. Disclosure needs the person's consent, a court determination, or another listed exception.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NJ_r3",
+     "note": "Latest amendment P.L.2009, c.183, s.4, approved 11 January 2010, effective immediately. Quote and citation match the official page."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of AIDS and HIV infection records",
+      "citation": "N.J.S.A. 26:5C-7 (L.1989, c.303, s.3)",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/22562/24633?f=templates$fn=document-frame.htm$3.0",
+      "linkedFrom": null,
+      "effectiveDate": "1990-01-12",
+      "firstEnacted": "1990-01-12",
+      "statusOfProvision": "in_force",
+      "quote": "which contains identifying information about a person who has or is suspected of having AIDS or HIV infection is confidential and shall be disclosed only for the purposes authorized by this act",
+      "appliesTo": "The department, local health departments, contractors, health care providers and facilities, laboratories, blood banks, third-party payors, and any other institution or person.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "f3f7ac83ba711d51b5ec9116fc67ff19c8dac587098b69b52372b59f74d34eb8"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://repo.njstatelib.org/server/api/core/bitstreams/9c3f12e3-cbc2-488a-a918-d104f23aedc1/content",
+      "host": "repo.njstatelib.org",
+      "usedFor": "Legislative history of L.1989, c.303: approved 12 Jan 1990, effective immediately"
+     }
+    ],
+    "note": "Records identifying a person with or suspected of having AIDS or HIV infection may be disclosed only for purposes the act authorizes (N.J.S.A. 26:5C-8 to -13).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NJ_r3",
+     "note": "History note shows L.1989, c.303, s.3 with no amendment. State Library history shows approval 12 January 1990, effective immediately."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Privacy Act: conditions for disclosure of genetic information",
+      "citation": "N.J.S.A. 10:5-47 (L.1996, c.126, s.8)",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/7555/7670?f=templates$fn=document-frame.htm$3.0",
+      "linkedFrom": null,
+      "effectiveDate": "1996-11-19",
+      "firstEnacted": "1996-11-19",
+      "statusOfProvision": "in_force",
+      "quote": "a person may not disclose or be compelled, by subpoena or any other means, to disclose the identity of an individual upon whom a genetic test has been performed or to disclose genetic information about the individual in a manner that permits identification of the individual",
+      "appliesTo": "Any person, regardless of the manner of receipt or the source of genetic information.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "5d7aa158ff963bae4621115973bc7311bc093ed3e35d86e3aea0f29c940c83ec"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://repo.njstatelib.org/server/api/core/bitstreams/056c45bb-a751-482c-b5ca-4c510f865430/content",
+      "host": "repo.njstatelib.org",
+      "usedFor": "Legislative history of L.1996, c.126: approved 19 Nov 1996, effective immediately"
+     }
+    ],
+    "note": "Disclosure of genetic test identity or results needs the tested person's signed consent or another of ten listed exceptions, such as a court order or a criminal investigation.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NJ_r3",
+     "note": "History note shows L.1996, c.126, s.8 with no amendment. State Library history shows approval 19 November 1996, effective immediately. Ten listed exceptions appear on the page."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None fixed. Genetic Privacy Act: all actual damages. HIV records: actual damages, equitable relief, attorney's fees, punitive damages for wanton or malicious conduct; each disclosure a separate offense."
+   },
+   "provisions": [
+    {
+     "title": "Genetic Privacy Act: civil liability for unlawful disclosure",
+     "citation": "N.J.S.A. 10:5-49(c) (L.1996, c.126, s.10)",
+     "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/7555/7672?f=templates$fn=document-frame.htm$3.0",
+     "linkedFrom": null,
+     "effectiveDate": "1996-11-19",
+     "firstEnacted": "1996-11-19",
+     "statusOfProvision": "in_force",
+     "quote": "Any person who discloses an individual's genetic information in violation of P.L.1996, c.126, shall be liable to the individual for all actual damages, including damages for economic, bodily, or emotional harm which is proximately caused by the disclosure.",
+     "appliesTo": "Any person who discloses genetic information in violation of the act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f80f82284c890e84e730606f85c12a8ac233c3412471b731a58b90efac81578b"
+    },
+    {
+     "title": "AIDS and HIV records: civil actions against violators",
+     "citation": "N.J.S.A. 26:5C-14 (L.1989, c.303, s.10)",
+     "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/22562/24640?f=templates$fn=document-frame.htm$3.0",
+     "linkedFrom": null,
+     "effectiveDate": "1990-01-12",
+     "firstEnacted": "1990-01-12",
+     "statusOfProvision": "in_force",
+     "quote": "A person who has or is suspected of having AIDS or HIV infection who is aggrieved as a result of a violation of this act may commence a civil action against the individual or institution who committed the violation to obtain appropriate relief",
+     "appliesTo": "Individuals or institutions violating the AIDS and HIV records provisions.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ba6bfa63e0406c9011d74af21637ba6ec21a9da32a6e30ebe77a7ce8f73cd27c"
+    },
+    {
+     "title": "New Jersey Data Privacy Act: Attorney General enforcement only",
+     "citation": "P.L.2023, c.266, s.16",
+     "officialUrl": "https://pub.njleg.state.nj.us/Bills/2022/PL23/266_.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-15",
+     "firstEnacted": "2024-01-16",
+     "statusOfProvision": "in_force",
+     "quote": "shall be construed as providing the basis for, or subject to, a private right of action for violations of P.L.2023, c.266",
+     "appliesTo": "All of P.L.2023, c.266.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "80169a991165977744f0ea0862d5dfc86509fb441e11167b1a1b70f8914c2de0"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Private suits exist for two narrow record categories: genetic information and HIV records. The Data Privacy Act has no private right. Willful breach-law violations are Consumer Fraud Act violations (N.J.S.A. 56:8-166), which allows suits for ascertainable loss.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NJ_r3",
+    "note": "Private suits exist for genetic and HIV records only, which fits level 1. Data Privacy Act took effect 15 January 2025, the 365th day after 16 January 2024 approval, with no private right.",
+    "resolution": [
+     {
+      "rows": [
+       "NJ-7",
+       "Q109"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "most expedient time possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Definitions relative to security of personal information",
+     "citation": "N.J.S.A. 56:8-161 (L.2005, c.226, s.10, amended 2019, c.95, s.1)",
+     "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54204/54603?f=templates$fn=document-frame.htm$3.0",
+     "linkedFrom": null,
+     "effectiveDate": "2019-09-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "\"Personal information\" means an individual's first name or first initial and last name linked with any one or more of the following data elements: (1) Social Security number; (2) driver's license number or State identification card number;",
+     "appliesTo": "Businesses that conduct business in New Jersey and public entities.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9064e76135c1628e771f073e00a5cd4539d66d7d667bc91afee3739a72853827"
+    },
+    {
+     "title": "Disclosure of breach of security; report to State Police",
+     "citation": "N.J.S.A. 56:8-163 (L.2005, c.226, s.12, amended 2019, c.95, s.2)",
+     "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54204/54605?f=templates$fn=document-frame.htm$3.0",
+     "linkedFrom": null,
+     "effectiveDate": "2019-09-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "in advance of the disclosure to the customer, report the breach of security and any information pertaining to the breach to the Division of State Police in the Department of Law and Public Safety",
+     "appliesTo": "Any business or public entity required to disclose a breach.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c560cf095fbefdfea8139afe36cd9747a6c20b6fe28c9fe486f9c780af94641a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Personal information covers SSN, license or ID number, financial account data, and online credentials. Medical and health insurance information are not listed. Notice goes to the State Police first. Only an own-policy deemed-compliance clause exists, not a HIPAA one.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NJ_r3",
+    "note": "Definition lists four elements, none medical or health insurance. P.L.2019, c.95 approved 10 May 2019, so effective 1 September 2019. State Police notice and own-policy deemed compliance confirmed. A3339 of 2026 is only introduced."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist$xhitlist_x=Simple$xhitlist_vpc=first$xhitlist_xsl=xhitlist.xsl$xhitlist_sel=title;path;content-type;home-title;item-bookmark$xhitlist_d=%7bstatutes%7d$xhitlist_q=%22artificial%20intelligence%22",
+    "terms": [
+     "\"artificial intelligence\"",
+     "\"automated decision\"",
+     "algorithm",
+     "\"automated utilization\""
+    ],
+    "regulatorPagesChecked": [
+     "https://www.nj.gov/dobi/bulletins/blt25_03.pdf",
+     "https://pub.njleg.state.nj.us/Bills/2022/PL23/296_.HTM"
+    ],
+    "leadsChecked": [
+     "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "https://newjerseymonitor.com/2025/06/16/counseling-by-chatbot-new-jersey-legislators-act-to-ban-ai-in-therapy/",
+     "https://legiscan.com/NJ/text/A799/id/3339279",
+     "https://clunic.com/regulations/new-jersey-ai-healthcare-laws"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://legiscan.com/NJ/text/A799/id/3339279",
+     "host": "legiscan.com",
+     "usedFor": "Pending 2026 bill on AI advertised as mental health professional"
+    },
+    {
+     "url": "https://pub.njleg.state.nj.us/Bills/2026/S1000/735_I1.HTM",
+     "host": "pub.njleg.state.nj.us",
+     "usedFor": "Pending 2026 bill S735 on AI and mental health professionals"
+    }
+   ],
+   "note": "Statute hits for AI did not concern health care. P.L.2023, c.296 requires a physician to make prior authorization denials but does not mention AI. DOBI Bulletin 25-03 is guidance only. AI therapy bills remain pending.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NJ_r3",
+    "note": "My statute search: \"artificial intelligence\" 8 hits, algorithm 8 hits, none on health care; \"automated decision\" none. P.L.2023, c.296 requires physician adverse determinations but never mentions AI. DOBI Bulletin 25-03 is guidance."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "in_force",
+   "deletionMechanism": "No state deletion mechanism. Registrants must report whether they let individuals direct deletion of personal data.",
+   "provisions": [
+    {
+     "title": "Data broker and data collector annual registration",
+     "citation": "P.L.2026, c.25, s.2(c) (C.56:8-166.20)",
+     "officialUrl": "https://pub.njleg.state.nj.us/Bills/2026/PL26/25_.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-30",
+     "firstEnacted": "2026-06-30",
+     "statusOfProvision": "in_force",
+     "quote": "Each data broker and data collector engaged in selling or licensing personal data of New Jersey consumers shall annually register with the division and pay to the division a registration fee",
+     "appliesTo": "Data brokers and data collectors selling or licensing personal data of New Jersey consumers; fees from $5,000 to $1,500,000 by number of consumers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f3824240ff65b4ef791e84f273914ff7ff5f1dec25f2119505f9359941bf5d3a"
+    },
+    {
+     "title": "Public registry of data brokers and data collectors",
+     "citation": "P.L.2026, c.25, s.2(b) (C.56:8-166.20)",
+     "officialUrl": "https://pub.njleg.state.nj.us/Bills/2026/PL26/25_.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2027-03-27",
+     "firstEnacted": "2026-06-30",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "The Division of Consumer Affairs in the Department of Law and Public Safety shall establish and maintain a public registry of data brokers and data collectors engaged in selling or licensing personal data of New Jersey consumers.",
+     "appliesTo": "Subsection b. is inoperative for 270 days after enactment on 30 June 2026.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f3824240ff65b4ef791e84f273914ff7ff5f1dec25f2119505f9359941bf5d3a"
+    }
+   ]
+  }
+ }
+}

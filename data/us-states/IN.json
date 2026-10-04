@@ -1,0 +1,539 @@
+{
+ "usps": "IN",
+ "fips": "18",
+ "name": "Indiana",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Indiana Consumer Data Protection Act: controller duties, processing of sensitive data",
+     "citation": "IC 24-15-4-1(5)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_15.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "A controller shall not process sensitive data concerning a consumer without obtaining the consumer's consent",
+     "appliesTo": "Persons that \"controls or processes personal data of at least one hundred thousand (100,000) consumers who are Indiana residents\", or 25,000 with over 50% of revenue from sale (IC 24-15-1-1). HIPAA covered entities and business associates are exempt.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a8a7f5058eb7b1991a6d69ec71b2e30d4fc950958bc8e487d67108b781ab0795"
+    },
+    {
+     "title": "Indiana Consumer Data Protection Act: definition of sensitive data",
+     "citation": "IC 24-15-2-28",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_15.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "a mental or physical health diagnosis made by a health care provider",
+     "appliesTo": "Same thresholds as IC 24-15-1-1.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a8a7f5058eb7b1991a6d69ec71b2e30d4fc950958bc8e487d67108b781ab0795"
+    },
+    {
+     "title": "Consumer genetic testing providers: acts requiring consent",
+     "citation": "IC 24-4-24-9(a)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_4/Chapter_24.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-05-06",
+     "firstEnacted": "2025-05-06",
+     "statusOfProvision": "in_force",
+     "quote": "may not take any of the following actions unless the provider has solicited and received the individual's freely given, specific, informed, and unambiguous consent to the action:",
+     "appliesTo": "Consumer genetic testing providers (IC 24-4-24-2). Excludes testing ordered by a health care provider and subject to HIPAA (IC 24-4-24-1(b)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1b29ee20c23cb79279f508dd56eaeb66afc11743b0fa4c181fece2a10edd168f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.whitecase.com/insight-alert/indiana-becomes-seventh-state-enact-comprehensive-data-privacy-law",
+     "host": "whitecase.com",
+     "usedFor": "Found SEA 5 (2023), codified at IC 24-15"
+    }
+   ],
+   "note": "IC 24-15, effective 1 January 2026, requires consent to process sensitive data, which includes a health diagnosis by a provider. HIPAA entities are exempt. No dedicated consumer health data law found. Act effective date read from SEA 5 enrolled text.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_IN",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P10"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "Copy of or access to the patient's x-ray image, at no cost, for the patient or designee (IC 16-39-1-2)",
+     "Digital copy or digital access through an interoperability platform of an electronic health record (IC 16-39-9-2(1))"
+    ],
+    "feeRules": [
+     "IC 16-39-9-2: \"A provider may not charge a person for: (1) providing a digital copy or digital access through an interoperability platform of an individual's electronic health record; or (2) making and providing paper copies of medical records at an amount greater than the amount set in rules\"",
+     "Paper copy amounts are set by Department of Insurance rule under IC 16-39-9-4. Rule text not read in this session."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "X-rays: copy or access at no cost",
+     "citation": "IC 16-39-1-2",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_16/Article_39.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": "1993-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "a provider shall, at no cost, provide to the patient or the patient's designee: (1) access to; or (2) a copy of; the patient's x-ray image possessed by the provider.",
+     "appliesTo": "Any provider holding the patient's x-ray image.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fac7552054e716ac316f270e1cb4970ceea5881fe353b883ac43b1918fe43d40"
+    },
+    {
+     "title": "Right of access; deadline for written requests",
+     "citation": "IC 16-39-1-1(e)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_16/Article_39.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2021-07-01",
+     "firstEnacted": "1993-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "a provider shall provide the health records requested under this section within thirty (30) days after the date the written request is made",
+     "appliesTo": "Providers, for all health records except mental health records, communicable disease records and 42 CFR Part 2 records. One 30-day extension is allowed.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fac7552054e716ac316f270e1cb4970ceea5881fe353b883ac43b1918fe43d40"
+    },
+    {
+     "title": "Fees for records",
+     "citation": "IC 16-39-9-2",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_16/Article_39.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A provider may not charge a person for: (1) providing a digital copy or digital access through an interoperability platform of an individual's electronic health record; or (2) making and providing paper copies of medical records at an amount greater than the amount set in rules",
+     "appliesTo": "Providers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fac7552054e716ac316f270e1cb4970ceea5881fe353b883ac43b1918fe43d40"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.law.cornell.edu/regulations/indiana/760-IAC-1-71-3",
+     "host": "law.cornell.edu",
+     "usedFor": "Located the Department of Insurance copy fee rule, 760 IAC 1-71 (not used as evidence)"
+    }
+   ],
+   "note": "Free x-ray image copy for the patient or designee goes beyond the HIPAA cost-based fee. The deadline is 30 days plus one 30-day extension, equal to HIPAA. Free digital copy alone would not count under Ruling D-1.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IN",
+    "note": "beyondFederalFloor yes: free x-ray copy goes beyond HIPAA fees. Deadline is 30 days, not shorter. P.L.215-2025 effective July 1, 2025 and P.L.196-2021 effective July 1, 2021, per Acts. Fee amounts in 760 IAC 1-71 not recorded."
+   }
+  },
+  "hie_consent": {
+   "status": "no_law_found",
+   "value": "no_rule_found",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "",
+   "stricterForSensitive": null,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://iga.in.gov/ic/2026/Title_16.json",
+    "terms": [
+     "health information exchange",
+     "exchange",
+     "interoperab",
+     "health information",
+     "data broker"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.in.gov/grow-rural-health/initiatives/initiative-3",
+     "https://www.ihie.org/",
+     "https://www.ihie.org/privacy-policy/",
+     "https://www.ihie.org/general/how-indiana-health-information-exchange-impacts-patient-care/"
+    ],
+    "leadsChecked": [
+     "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "https://www.medicaleconomics.com/view/health-information-exchanges-introduce-patient-consent-questions"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.medicaleconomics.com/view/health-information-exchanges-introduce-patient-consent-questions",
+     "host": "medicaleconomics.com",
+     "usedFor": "Reported that IHIE participants follow an opt-out policy; not confirmed on a primary page"
+    }
+   ],
+   "note": "Searched Titles 4, 12, 16, 24 and 27 indexes. No HIE consent statute found. A state page calls IHIE the state's primary HIE, not designated. No published IHIE patient opt-out policy found. IC 16-39-5-1 allows provider record requests without consent.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IN",
+    "note": "My search of Title 16 and Title 12 PDFs for health information exchange found no consent rule. The state page calls IHIE primary, not designated. IHIE pages I opened show no opt-out policy."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion reports: quarterly public report, no identifying information",
+      "citation": "IC 16-34-2-5(e)",
+      "officialUrl": "https://iga.in.gov/ic/2026/Title_16/Article_34/Chapter_2.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2023-07-01",
+      "firstEnacted": "1993-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "The state department shall ensure that no identifying information of a pregnant woman is contained in the report.",
+      "appliesTo": "Department of Health reports compiled from abortion reports filed by health care providers.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "dd7f2b413ca7465998a478cab429be9b6d422a2f2cb81a0a91ccdd0f32dda813"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "IC 16-34-2-5 bars identifying information of the pregnant woman in the public report built from abortion reports. IC 16-34-2-4(i) makes court records of minor consent waiver proceedings confidential.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IN",
+     "note": "Quote is in IC 16-34-2-5(e). Last amendment P.L.56-2023, listed as effective 7/1/2023 in the 2023 Enrolled Act Summary. IC 16-34-2-4(i) also makes waiver proceeding court records confidential."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental health records: confidentiality",
+      "citation": "IC 16-39-2-3",
+      "officialUrl": "https://iga.in.gov/ic/2026/Title_16/Article_39.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "1993-07-01",
+      "firstEnacted": "1993-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "A patient's mental health record is confidential and shall be disclosed only with the consent of the patient unless otherwise provided in the following:",
+      "appliesTo": "Mental health records held by providers (IC 16-39-2-1).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "fac7552054e716ac316f270e1cb4970ceea5881fe353b883ac43b1918fe43d40"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Text unchanged since P.L.2-1993, approved 30 April 1993 with no section date, so July 1, 1993 under IC 1-1-3-3. Exceptions are listed in IC 16-39-2, 16-39-3, 16-39-4 and 16-39-5-3.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IN",
+     "note": "IC 16-39-2-3 history shows only P.L.2-1993. IC 16-18-3-4 states SEA 24 of 1993 took effect July 1, 1993, matching the researcher's date."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Prenatal HIV tests: results confidential",
+      "citation": "IC 16-41-6-8(g)",
+      "officialUrl": "https://iga.in.gov/ic/2026/Title_16/Article_41/Chapter_6.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2018-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "(g) The results of a test performed under section 5 or 6 of this chapter are confidential.",
+      "appliesTo": "A physician or advanced practice registered nurse who orders an HIV test for a pregnant woman under IC 16-41-6-5 or 16-41-6-6.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "1af4283bf6a262399d9e4dc8293c3a77dd70a5cc113a02065c40e981107042d1"
+     },
+     {
+      "title": "Communicable disease information: confidentiality",
+      "citation": "IC 16-41-8-1(b)",
+      "officialUrl": "https://iga.in.gov/ic/2026/Title_16/Article_41/Chapter_8.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2025-07-01",
+      "firstEnacted": "1993-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "a person may not disclose or be compelled to disclose medical or epidemiological information involving a communicable disease or other serious disease",
+      "appliesTo": "Diseases on the list published under IC 16-41-2-1. Release allowed with written consent of each person identified, among other listed cases.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "8620c54bf2397a2fe1a2780150e6814aa24a5442b327515849536ca7f9aa8b56"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "IC 16-41-6-8 names HIV tests. IC 16-41-8-1 covers listed communicable diseases. IC 16-39-1-1(b) routes communicable disease records to IC 16-41-8-1.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IN",
+     "note": "2018 Acts show P.L.129-2018 amending IC 16-41-6-8 effective July 1, 2018. 2025 Acts show P.L.143-2025 amending IC 16-41-8-1 effective July 1, 2025."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Consumer genetic testing providers: third party access requires consent",
+      "citation": "IC 24-4-24-9(a)(3)",
+      "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_4/Chapter_24.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2025-05-06",
+      "firstEnacted": "2025-05-06",
+      "statusOfProvision": "in_force",
+      "quote": "(3) Subject to section 10(b) of this chapter, provide access by a third party to: (A) the individual's biological material; or (B) data, other than deidentified data, resulting from genetic testing performed on the individual's biological material.",
+      "appliesTo": "Consumer genetic testing providers. Excludes testing ordered by a health care provider and subject to HIPAA.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "1b29ee20c23cb79279f508dd56eaeb66afc11743b0fa4c181fece2a10edd168f"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "IC 24-4-24-9 requires separate consent for third party access. IC 24-4-24-10(b) bars giving data to insurers or employers even with consent. P.L.233-2025 took effect on passage, approved 6 May 2025.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_IN",
+     "note": "2025 Acts show P.L.233-2025 (HEA 1521) approved May 6, 2025, with IC 24-4-24 effective upon passage and an emergency declared. IC 16-39-5-2(d) also requires separate written consent for insurers to obtain genetic test results."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None for individuals. Attorney general civil penalty up to $7,500 per violation under IC 24-15-10-2 and IC 24-4-24-11."
+   },
+   "provisions": [
+    {
+     "title": "Indiana Consumer Data Protection Act: no private right of action",
+     "citation": "IC 24-15-10-4",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_15.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in this article shall be construed as providing the basis for a private right of action for violations of this article or any other law.",
+     "appliesTo": "Controllers and processors under IC 24-15.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a8a7f5058eb7b1991a6d69ec71b2e30d4fc950958bc8e487d67108b781ab0795"
+    },
+    {
+     "title": "Consumer genetic testing providers: enforcement",
+     "citation": "IC 24-4-24-11(f)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_4/Chapter_24.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-05-06",
+     "firstEnacted": "2025-05-06",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in this section may be construed as providing the basis for a private right of action for violations of this chapter or any other law.",
+     "appliesTo": "Consumer genetic testing providers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1b29ee20c23cb79279f508dd56eaeb66afc11743b0fa4c181fece2a10edd168f"
+    },
+    {
+     "title": "Security breach disclosure: enforcement",
+     "citation": "IC 24-4.9-4-1(a)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_4.9.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2009-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "commits a deceptive act that is actionable only by the attorney general under this chapter.",
+     "appliesTo": "Persons required to disclose a breach under IC 24-4.9-3.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "93fe875f4759228914c14b7375336995cd946dd4d147a4c559d129d555c9606e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Indiana's privacy, genetic testing and breach laws give enforcement to the attorney general only. No civil action found in IC 16-39 or IC 16-41-8, which use fines, discipline and misdemeanors.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IN",
+    "note": "IC 24-4-24-11 and IC 27-8-26-10 also give enforcement to the attorney general or the commissioner. I found no civil action in IC 16-39 or IC 16-41-8. The 2009 enrolled HEA 1121 shows IC 24-4.9-4-1 effective July 1, 2009."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "Without unreasonable delay, not more than 45 days after discovery (IC 24-4.9-3-3)",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Definition of personal information",
+     "citation": "IC 24-4.9-2-10",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_4.9.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "one (1) or more of the following data elements that are not encrypted or redacted: (A) A driver's license number. (B) A state identification card number. (C) A credit card number.",
+     "appliesTo": "Data base owners doing business in Indiana.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "93fe875f4759228914c14b7375336995cd946dd4d147a4c559d129d555c9606e"
+    },
+    {
+     "title": "Timing of disclosure",
+     "citation": "IC 24-4.9-3-3(a)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_4.9.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2022-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall make the disclosure or notification without unreasonable delay, but not more than forty-five (45) days after the discovery of the breach.",
+     "appliesTo": "Persons required to disclose under IC 24-4.9-3.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "93fe875f4759228914c14b7375336995cd946dd4d147a4c559d129d555c9606e"
+    },
+    {
+     "title": "Disclosure of breach to the attorney general",
+     "citation": "IC 24-4.9-3-1(c)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_4.9.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2009-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If a data base owner makes a disclosure described in subsection (a), the data base owner shall also disclose the breach to the attorney general.",
+     "appliesTo": "Data base owners.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "93fe875f4759228914c14b7375336995cd946dd4d147a4c559d129d555c9606e"
+    },
+    {
+     "title": "Own disclosure procedures under federal law, including HIPAA",
+     "citation": "IC 24-4.9-3-4(d)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_24/Article_4.9.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(6) the federal Health Insurance Portability and Accountability Act (HIPAA) (P.L. 104-191); is not required to make a disclosure under this chapter",
+     "appliesTo": "Data base owners whose HIPAA compliance plan requires notice without unreasonable delay and who follow it.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "93fe875f4759228914c14b7375336995cd946dd4d147a4c559d129d555c9606e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Personal information covers Social Security, driver's license, state ID, card and account numbers, and adult website data. Medical and health insurance information are not listed.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IN",
+    "note": "The IC 24-4.9-2-10 definition omits medical and health insurance information. Acts confirm these effective dates: July 1, 2024 (P.L.98-2024), July 1, 2022 (P.L.171-2022), July 1, 2026 (P.L.23-2026 SEC.247) and July 1, 2009."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "IC 27-1-52-9(b): \"A provider may not use an automated: (1) process; (2) system; or (3) tool, including artificial intelligence; to submit a health benefits claim without the review of a provider or other person involved in the development of the claim for submission.\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Downcoding: limit on automated process, system or tool",
+     "citation": "IC 27-1-52-9(a)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_27/Article_1/Chapter_52.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2026-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "as the sole basis to downcode a claim based on medical necessity without the review of the covered individual's medical record by an employee or contractor of the insurer.",
+     "appliesTo": "Insurers issuing accident and sickness policies, HMOs, dental PPO insurers and their contractors. Not Medicaid or Medicaid managed care (IC 27-1-52-0.3).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7040739fd7451afd9c2fae079705c0fc1e5becabccb61c2c3deb1fea78ac9dcd"
+    },
+    {
+     "title": "Disclosure of AI use in prior authorization denials and downcoding",
+     "citation": "IC 27-1-52-9(c)",
+     "officialUrl": "https://iga.in.gov/ic/2026/Title_27/Article_1/Chapter_52.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2026-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "An insurer must disclose in an easily accessible and readable manner when artificial intelligence is used to: (1) make an adverse determination on a prior authorization request; or (2) downcode a claim.",
+     "appliesTo": "Same insurers as IC 27-1-52-9(a).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7040739fd7451afd9c2fae079705c0fc1e5becabccb61c2c3deb1fea78ac9dcd"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "hklaw.com",
+     "usedFor": "Found HEA 1271 (2026), P.L.88-2026"
+    },
+    {
+     "url": "https://regulations.ai/regulations/RAI-US-IN-HB12710-2026",
+     "host": "regulations.ai",
+     "usedFor": "Found HEA 1271 (2026) title"
+    }
+   ],
+   "note": "Counted: AI may not be the sole basis to downcode a claim. Not counted: 9(c) covers coverage decisions, not care communication or diagnosis, and names no recipient. Provider appeals in 27-1-52-12 are not patient recourse.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_IN",
+    "note": "2026 Acts show P.L.88-2026 (HEA 1271) adding IC 27-1-52 effective July 1, 2026. The 9(c) disclosure covers coverage decisions only. Appeals in section 12 are for providers. HB 1620 (2025) does not appear in the 2025 Acts."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

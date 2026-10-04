@@ -1,0 +1,580 @@
+{
+ "usps": "NM",
+ "fips": "35",
+ "name": "New Mexico",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://nmonesource.com/nmos/nmsa/en/nav_date.do",
+    "terms": [
+     "health data",
+     "consumer health",
+     "sensitive data",
+     "data broker",
+     "artificial intelligence"
+    ],
+    "regulatorPagesChecked": [
+     "https://nmdoj.gov/ (returned HTTP 403 on 2026-10-03)",
+     "https://www.nmlegis.gov/Legislation/Legislation?chamber=S&legType=B&legNo=53&year=26",
+     "https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legType=B&legNo=214&year=26"
+    ],
+    "leadsChecked": [
+     "https://ccianet.org/news/2026/02/ccia-raises-concerns-with-new-mexico-privacy-bill-that-departs-from-national-standards-and-risks-digital-innovation/",
+     "https://privacymatters.dlapiper.com/2026/03/u-s-privacy-laws-legislative-update/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://ccianet.org/news/2026/02/ccia-raises-concerns-with-new-mexico-privacy-bill-that-departs-from-national-standards-and-risks-digital-innovation/",
+     "host": "ccianet.org",
+     "usedFor": "Named 2026 SB 53 privacy bill"
+    },
+    {
+     "url": "https://privacymatters.dlapiper.com/2026/03/u-s-privacy-laws-legislative-update/",
+     "host": "privacymatters.dlapiper.com",
+     "usedFor": "Named 2026 HB 214 and other privacy bills"
+    }
+   ],
+   "note": "Chapter 57 NMSA, compiled through 2026 laws, has no consumer privacy or consumer health data law. 2026 SB 53 and HB 214 died in the legislature. The New Mexico Department of Justice site refused access.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NM",
+    "note": "Own search: full Chapter 57 and Chapter 24 NMSA PDFs on NMOneSource for consumer health, health data, sensitive data, personal data, data broker. None found. 2026 SB 53 and HB 214 show Died on nmlegis.gov. nmdoj.gov returned 403."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [],
+    "feeRules": [
+     "8.370.6.10 NMAC (social security disability requests): \"No health care provider shall charge more than: A. $2.00 per page for the first 10 one-sided pages\"; then not more than twenty cents per page.",
+     "16.10.17.8 NMAC (physicians): \"A reasonable charge is not more than $30 for the first 15 pages, and $0.25 per page thereafter\"."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Access to medical records by applicants for disability benefits",
+     "citation": "NMSA 1978, § 14-6-3",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4383/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "1999-06-18",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Within thirty days of receiving a request from a patient or former patient who is applying for benefits based on social security disability or who is appealing a denial of such benefits",
+     "appliesTo": "Health care providers; requests from patients applying for or appealing social security disability benefits.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "851074de9e4215ca993a4ea5f1748de6caa455ad50714792da40becf889f6c39"
+    },
+    {
+     "title": "Access to medical records by disability applicants: production of records",
+     "citation": "8.370.6.9 NMAC",
+     "officialUrl": "https://www.srca.nm.gov/parts/title08/08.370.0006.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall be produced within 30 calendar days of receipt of the written request, regardless of prior receipt of the fee for the records",
+     "appliesTo": "Health care providers receiving requests from persons applying for or appealing social security disability benefits.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "68c19ba55916861a9897c4f4ddb1fd97086ac06e8c75e0310e360787ef8045d4"
+    },
+    {
+     "title": "Access to medical records by disability applicants: fees",
+     "citation": "8.370.6.10 NMAC",
+     "officialUrl": "https://www.srca.nm.gov/parts/title08/08.370.0006.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "No health care provider shall charge more than: A. $2.00 per page for the first 10 one-sided pages",
+     "appliesTo": "Health care providers receiving requests from persons applying for or appealing social security disability benefits.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "68c19ba55916861a9897c4f4ddb1fd97086ac06e8c75e0310e360787ef8045d4"
+    },
+    {
+     "title": "Medical Board rule: release of medical records",
+     "citation": "16.10.17.8 NMAC",
+     "officialUrl": "https://www.srca.nm.gov/parts/title16/16.010.0017.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2009-01-01",
+     "firstEnacted": "2006-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "A reasonable charge is not more than $30 for the first 15 pages, and $0.25 per page thereafter",
+     "appliesTo": "Physicians who have physical possession or ownership of medical records.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8b4fd54bec4ce7aeec34ce69ff84fe5e9d62d505157e0b88b4582af72e0b5352"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.law.cornell.edu/regulations/new-mexico/16-10-17-8-NMAC",
+     "host": "law.cornell.edu",
+     "usedFor": "Located Medical Board records fee rule"
+    },
+    {
+     "url": "https://codes.findlaw.com/nm/chapter-14-records-rules-legal-notices-oaths/nm-st-sect-14-6-3/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Located 14-6-3 disability records statute"
+    }
+   ],
+   "note": "Deadline is 30 days, equal to HIPAA. No free copy case found. Fee caps are per page and do not count. Nothing goes beyond the HIPAA and information blocking floor.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NM",
+    "note": "beyondFederalFloor no. Deadline 30 days equals HIPAA. Only fee rules are per-page caps (8.370.6.10, 16.10.17.8). No free copy case found in statute or rule. Quotes and dates verified."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "SYNCRONYS",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Electronic Medical Records Act: use and disclosure of electronic health care information (record locator exclusion)",
+     "citation": "NMSA 1978, § 24-14B-6(E)",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4384/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2021-07-01",
+     "firstEnacted": "2009-06-19",
+     "statusOfProvision": "in_force",
+     "quote": "A record locator service shall provide a mechanism under which individuals may exclude their demographic information and information about the location of their electronic medical records from the record locator service",
+     "appliesTo": "Record locator services and health information exchanges.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "276ff6830ae1a2c05b1b4145f026c81aab5bc76eb790716115d6073def032bfd"
+    },
+    {
+     "title": "Electronic Medical Records Act: disclosure for treatment, payment and operations",
+     "citation": "NMSA 1978, § 24-14B-6(G)(3)",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4384/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2021-07-01",
+     "firstEnacted": "2009-06-19",
+     "statusOfProvision": "in_force",
+     "quote": "to a provider, health care institution or health care group purchaser for treatment, payment or health care operation activities",
+     "appliesTo": "Information in an individual's electronic medical record; applies notwithstanding any other provision of law.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "276ff6830ae1a2c05b1b4145f026c81aab5bc76eb790716115d6073def032bfd"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.syncronys.org/privacy-and-security/",
+     "host": "syncronys.org",
+     "usedFor": "HIE policy page states patients may completely opt out of the exchange; no date shown"
+    },
+    {
+     "url": "https://www.nmhealth.org/publication/view/guide/9051/",
+     "host": "nmhealth.org",
+     "usedFor": "Department of Health guide states SYNCRONYS runs the State of New Mexico's HIE"
+    }
+   ],
+   "note": "Statute allows exchange for treatment, payment and operations without consent and requires a record locator exclusion mechanism. SYNCRONYS publishes a full opt-out. TPO exchange must comply with 42 U.S.C. 290dd-2 where it applies, so substance use records keep the federal consent rule.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_NM",
+    "note": "Value opt_out on statute basis agreed, effective 2021-07-01. Set stricterForSensitive true: substance use records exchanged for TPO must meet 42 U.S.C. 290dd-2. linkedFrom nmlegis.gov links to NMOneSource, verified.",
+    "problems": [
+     "stricterForSensitive false is not supported: 24-14B-6(G)(3) itself conditions TPO disclosure on compliance with 42 U.S.C. 290dd-2, the federal substance use record consent rule.",
+     "Note says no stricter sensitive rule was found; the quoted subsection carries one for substance use records."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q056"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Reproductive and Gender-Affirming Health Care Protection Act: public body; prohibited release of information related to a protected health care activity",
+      "citation": "NMSA 1978, § 24-35-3",
+      "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4384/1/document.do",
+      "linkedFrom": "https://www.nmlegis.gov/",
+      "effectiveDate": "2023-06-16",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A public body or an individual or entity acting on behalf of or within the scope of the authority of a public body shall not release information or use resources available to it in furtherance of a foreign investigation or proceeding that seeks to impose civil or criminal liability",
+      "appliesTo": "Public bodies and those acting on their behalf; does not apply with the subject's affirmative written consent.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "276ff6830ae1a2c05b1b4145f026c81aab5bc76eb790716115d6073def032bfd"
+     },
+     {
+      "title": "Reproductive and Gender-Affirming Health Care Protection Act: electronically transmitted information",
+      "citation": "NMSA 1978, § 24-35-6",
+      "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4384/1/document.do",
+      "linkedFrom": "https://www.nmlegis.gov/",
+      "effectiveDate": "2023-06-16",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "\"Third party\" does not mean a covered entity or business associate as defined by the federal Health Insurance Portability and Accountability Act of 1996 and related regulations.",
+      "appliesTo": "Third parties that transmit information related to a protected health care activity in electronic format, other than HIPAA covered entities and business associates.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "276ff6830ae1a2c05b1b4145f026c81aab5bc76eb790716115d6073def032bfd"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Laws 2023, ch. 167 limits release of information about a protected health care activity by public bodies to out-of-state investigations and limits requests to third parties for such information with listed intents.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NM",
+     "note": "Section 24-35-3, Laws 2023, ch. 167, effective 2023-06-16, no later amendment shown. The 24-35-6 quote is a definition only; the 24-35-3 quote carries the value."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental Health and Developmental Disabilities Code: disclosure of information",
+      "citation": "NMSA 1978, § 43-1-19",
+      "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4395/1/document.do",
+      "linkedFrom": "https://www.nmlegis.gov/",
+      "effectiveDate": "2024-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "no person shall, without the authorization of the client, disclose or transmit any confidential information from which a person well acquainted with the client might recognize the client as the described person",
+      "appliesTo": "Confidential information about clients under the Mental Health and Developmental Disabilities Code, with listed exceptions in Subsection B.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e010e966e3cfc6633a10507e022d55f43d948bafb2bf647217ed8510c4e29410"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 43-1-19 requires client authorization for disclosure of identifying confidential information, with eight listed exceptions. Last amended by Laws 2024, ch. 31.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NM",
+     "note": "Section 43-1-19 last amended by Laws 2024, ch. 31, effective 2024-07-01 per annotation. Quote verbatim."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Human Immunodeficiency Virus Test Act: confidentiality",
+      "citation": "NMSA 1978, § 24-2B-6",
+      "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4384/1/document.do",
+      "linkedFrom": "https://www.nmlegis.gov/",
+      "effectiveDate": "2013-03-29",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person or the person's agents or employees who require or administer the test shall disclose the identity of any person upon whom a test is performed or the result of such a test in a manner that permits identification of the subject of the test",
+      "appliesTo": "Persons who require or administer an HIV test, and their agents and employees; listed exceptions follow.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "276ff6830ae1a2c05b1b4145f026c81aab5bc76eb790716115d6073def032bfd"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 24-2B-6 limits disclosure of HIV test identity and results to listed persons. Section 24-2B-7 bars redisclosure and 24-2B-9 sets a petty misdemeanor penalty.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NM",
+     "note": "Section 24-2B-6 last amended by Laws 2013, ch. 72, effective 2013-03-29 per annotation. Section 24-2B-7 bars redisclosure."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act: genetic analysis prohibited without informed consent",
+      "citation": "NMSA 1978, § 24-21-3(B)",
+      "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4384/1/document.do",
+      "linkedFrom": "https://www.nmlegis.gov/",
+      "effectiveDate": "2015-06-19",
+      "firstEnacted": "1998-05-20",
+      "statusOfProvision": "in_force",
+      "quote": "genetic analysis of an individual or collection, retention, transmission or use of genetic information without the informed and written consent of the individual or the individual's authorized representative is prohibited",
+      "appliesTo": "Any person, except the uses listed in Subsection C.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "276ff6830ae1a2c05b1b4145f026c81aab5bc76eb790716115d6073def032bfd"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 24-21-3 requires informed written consent to collect, retain, transmit or use genetic information, with listed exceptions. Section 24-21-5 requires destruction on request.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NM",
+     "note": "Section 24-21-3(B), last amended by Laws 2015, ch. 156, effective 2015-06-19 per annotation."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "24-35-8: compensatory or punitive damages, or $10,000 per violation, whichever is greater, plus attorney fees. 24-21-6: actual damages and up to $5,000 more for willful or grossly negligent violations, plus attorney fees."
+   },
+   "provisions": [
+    {
+     "title": "Genetic Information Privacy Act: penalties",
+     "citation": "NMSA 1978, § 24-21-6(B)",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4384/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2015-06-19",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An individual whose rights under the provisions of the Genetic Information Privacy Act have been violated may bring a civil action for damages or other relief",
+     "appliesTo": "Violations of the Genetic Information Privacy Act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "276ff6830ae1a2c05b1b4145f026c81aab5bc76eb790716115d6073def032bfd"
+    },
+    {
+     "title": "Reproductive and Gender-Affirming Health Care Protection Act: private right of action",
+     "citation": "NMSA 1978, § 24-35-8(A)",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4384/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2023-06-16",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An individual or entity claiming to be aggrieved by a violation of the Reproductive and Gender-Affirming Health Care Protection Act may file an action in district court for appropriate relief",
+     "appliesTo": "Claims against a public body or third party that intentionally, knowingly, willingly or recklessly released information related to a protected health care activity.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "276ff6830ae1a2c05b1b4145f026c81aab5bc76eb790716115d6073def032bfd"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Two narrow rights to sue: genetic information and protected health care activity information. The Data Breach Notification Act is enforced by the attorney general only (57-12C-11). No general medical records right to sue found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NM",
+    "note": "Rights to sue limited to genetic information (24-21-6) and protected health care activity information (24-35-8). Breach act is attorney general only (57-12C-11). No general medical records right to sue found."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "45 calendar days after discovery",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Data Breach Notification Act: definitions (personal identifying information)",
+     "citation": "NMSA 1978, § 57-12C-2(C)",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4423/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2017-06-16",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(d) account number, credit card number or debit card number in combination with any required security code, access code or password that would permit access to a person's financial account; or (e) biometric data",
+     "appliesTo": "Elements (a) to (e): social security number, driver's license number, government ID number, financial account data, biometric data.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aed1ce90027fa2eb89661d04042ebb2d8455ed17aa26348397d991ae01459cf8"
+    },
+    {
+     "title": "Data Breach Notification Act: notification of security breach",
+     "citation": "NMSA 1978, § 57-12C-6(A)",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4423/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2017-06-16",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall provide notification to each New Mexico resident whose personal identifying information is reasonably believed to have been subject to a security breach.",
+     "appliesTo": "A person that owns or licenses personal identifying information of a New Mexico resident.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aed1ce90027fa2eb89661d04042ebb2d8455ed17aa26348397d991ae01459cf8"
+    },
+    {
+     "title": "Data Breach Notification Act: notification to attorney general",
+     "citation": "NMSA 1978, § 57-12C-10",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4423/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2017-06-16",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall notify the office of the attorney general and major consumer reporting agencies",
+     "appliesTo": "Breaches requiring notice to more than one thousand New Mexico residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aed1ce90027fa2eb89661d04042ebb2d8455ed17aa26348397d991ae01459cf8"
+    },
+    {
+     "title": "Data Breach Notification Act: exemptions",
+     "citation": "NMSA 1978, § 57-12C-8",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4423/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2017-06-16",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The provisions of the Data Breach Notification Act shall not apply to a person subject to the federal Gramm-Leach-Bliley Act or the federal Health Insurance Portability and Accountability Act of 1996",
+     "appliesTo": "Persons subject to HIPAA or Gramm-Leach-Bliley.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aed1ce90027fa2eb89661d04042ebb2d8455ed17aa26348397d991ae01459cf8"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/new-mexico/chapter-57/article-12c/section-57-12c-2/",
+     "host": "law.justia.com",
+     "usedFor": "Located breach definitions section"
+    },
+    {
+     "url": "https://www.recordinglaw.com/us-laws/data-privacy-laws/new-mexico-data-privacy-laws/",
+     "host": "recordinglaw.com",
+     "usedFor": "Prompted check for 2026 amendments"
+    }
+   ],
+   "note": "Personal identifying information lists five elements. Neither medical nor health insurance information is listed. Text unchanged since Laws 2017, ch. 36. HIPAA-covered persons are exempt from the act entirely.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_NM",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P14",
+       "Q094"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [
+    {
+     "title": "Nursing Practice Act: board of nursing powers and duties",
+     "citation": "NMSA 1978, § 61-3-10(Y)",
+     "officialUrl": "https://nmonesource.com/nmos/nmsa/en/4397/1/document.do",
+     "linkedFrom": "https://www.nmlegis.gov/",
+     "effectiveDate": "2025-06-20",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall promulgate rules establishing standards for the use of artificial intelligence in nursing",
+     "appliesTo": "Board of nursing rulemaking duty; sets no requirement owed to the patient.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "31d5b31f1b470b934e79083229339c0e5fa324e35b615aaf515bdc4c3f3fae39"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://nmonesource.com/nmos/nmsa/en/nav_date.do",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "automated decision",
+     "machine learning",
+     "chatbot"
+    ],
+    "regulatorPagesChecked": [
+     "https://osi.state.nm.us/en/news/",
+     "https://www.srca.nm.gov/parts/title16/16.012.0002.pdf"
+    ],
+    "leadsChecked": [
+     "https://www.sheppard.com/insights/blogs/state-legislatures-consider-oversight-of-artificial-intelligence-in-health-insurance-decisions",
+     "https://www.nmlegis.gov/Legislation/Legislation?chamber=H&legType=B&legNo=141&year=26"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.sheppard.com/insights/blogs/state-legislatures-consider-oversight-of-artificial-intelligence-in-health-insurance-decisions",
+     "host": "sheppard.com",
+     "usedFor": "Checked for state AI coverage laws"
+    },
+    {
+     "url": "https://sourcenm.com/2026/10/01/new-mexico-attorney-general-and-state-lawmaker-announce-push-to-rein-in-rogue-ai-models/",
+     "host": "sourcenm.com",
+     "usedFor": "Proposed 2027 AI bill, not introduced"
+    }
+   ],
+   "note": "Only AI text found in chapters 24, 24A, 59A and 61 is a 2025 duty for the nursing board to set AI rules. No such rule found in 16.12.2 NMAC. 2026 HB 141 died. NMSA 59A-22B-5(E) automation review not counted.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_NM",
+    "note": "59A-22B-5, current text effective 2026-05-20 (Laws 2026, ch. 47). Judgment call: it says automation, not AI. 61-3-10(Y) verified but sets no patient element. 2026 HB 28, HB 141, SB 68 died.",
+    "problems": [
+     "Missed 59A-22B-5(E): a pended or denied auto-adjudicated prior authorization request must be reviewed by a licensed health care professional who makes the final determination. This meets element (b) for coverage decisions.",
+     "Search log lists automated decision as a term, yet the Prior Authorization Act auto-adjudication text was not recorded."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q057"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

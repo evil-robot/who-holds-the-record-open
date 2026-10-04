@@ -1,0 +1,710 @@
+{
+ "usps": "TX",
+ "fips": "48",
+ "name": "Texas",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Texas Data Privacy and Security Act: controller duties (consent for sensitive data)",
+     "citation": "Tex. Bus. & Com. Code § 541.101(b)(4)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.541.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "process the sensitive data of a consumer without obtaining the consumer's consent, or, in the case of processing the sensitive data of a known child, without processing that data in accordance with the Children's Online Privacy Protection Act of 1998",
+     "appliesTo": "\"is not a small business as defined by the United States Small Business Administration, except to the extent that Section 541.107 applies\" (§ 541.002(a)(3)); HIPAA covered entities and business associates are excluded (§ 541.002(b)(3)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1f56ef0a23bae698ba6234921a4dded70a2444059214093791dcc8d7797591be"
+    },
+    {
+     "title": "Texas Data Privacy and Security Act: definition of sensitive data",
+     "citation": "Tex. Bus. & Com. Code § 541.001(29)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.541.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "personal data revealing racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexuality, or citizenship or immigration status",
+     "appliesTo": "Same as § 541.002.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1f56ef0a23bae698ba6234921a4dded70a2444059214093791dcc8d7797591be"
+    },
+    {
+     "title": "Texas Data Privacy and Security Act: small businesses selling sensitive data",
+     "citation": "Tex. Bus. & Com. Code § 541.107(a)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.541.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "A person described by Section 541.002 (a)(3) may not engage in the sale of personal data that is sensitive data without receiving prior consent from the consumer.",
+     "appliesTo": "Small businesses as defined by the SBA, for sale of sensitive data only.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1f56ef0a23bae698ba6234921a4dded70a2444059214093791dcc8d7797591be"
+    },
+    {
+     "title": "Medical Records Privacy Act: authorization for electronic disclosure",
+     "citation": "Tex. Health & Safety Code § 181.154(b)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.181.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2012-09-01",
+     "firstEnacted": "2012-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "a covered entity may not electronically disclose an individual's protected health information to any person without a separate authorization from the individual or the individual's legally authorized representative for each disclosure.",
+     "appliesTo": "Covered entity in § 181.001(b)(2) includes any person who handles protected health information, including \"health researcher, health care facility, clinic, health care provider, or person who maintains an Internet site\". Exceptions for treatment, payment and operations in § 181.154(c).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d2d391689e4c481e7a843d0c576d0d1da96daa246d40161803953937b7bcea69"
+    },
+    {
+     "title": "Medical Records Privacy Act: sale of protected health information prohibited",
+     "citation": "Tex. Health & Safety Code § 181.153(a)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.181.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2012-09-01",
+     "firstEnacted": "2012-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "A covered entity may not disclose an individual's protected health information to any other person in exchange for direct or indirect remuneration",
+     "appliesTo": "Covered entities as defined in § 181.001(b)(2).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d2d391689e4c481e7a843d0c576d0d1da96daa246d40161803953937b7bcea69"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "healthit.gov",
+     "usedFor": "Background on Texas Chapter 181 scope (search result only)"
+    }
+   ],
+   "note": "TDPSA requires consent to process sensitive data, including health diagnosis. HSC 181.154 also requires authorization for electronic disclosure by broadly defined covered entities. Texas has no dedicated consumer health data law, so level 3 is not met.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_TX",
+    "note": "All quotes match the official pages. TDPSA 541.101(b)(4) requires consent for sensitive data, eff. July 1, 2024 (Acts 2023, H.B. 4). No dedicated consumer health data law found, so level 3 is not met.",
+    "resolution": [
+     {
+      "rows": [
+       "Q102"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 15,
+    "freeCopyCases": [
+     "Records requested by the patient or representative to support a disability benefits application or appeal under listed state and federal programs (HSC 161.202(a))",
+     "Hospital: no fee for a patient to examine the patient's own health care information (HSC 241.154(d)(2))",
+     "Hospital: no fee for records relating to treatment for which workers' compensation benefits are being sought (HSC 241.154(d)(4))"
+    ],
+    "feeRules": [
+     "Hospital (HSC 241.154(b)): paper retrieval fee up to $30 including first 10 pages; $1 per page for pages 11 to 60; 50 cents for pages 61 to 400; 25 cents after; plus delivery cost",
+     "Hospital microform: up to $45 including first 10 pages, then $1 per page",
+     "Hospital electronic copy: retrieval or processing fee up to $75 plus delivery cost",
+     "Physician (Occ. Code 159.008): reasonable fee as prescribed by Texas Medical Board rule, except where HSC 161.202 bars a fee"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Free records for disability benefit claims",
+     "citation": "Tex. Health & Safety Code § 161.202(a)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.161.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1999-09-01",
+     "firstEnacted": "1995-08-28",
+     "statusOfProvision": "in_force",
+     "quote": "A health care provider or health care facility may not charge a fee for a medical or mental health record requested by a patient or former patient, or by an attorney or other authorized representative of the patient or former patient, for use in supporting an application for disability benefits",
+     "appliesTo": "Any health care provider or health care facility; benefits under listed programs including Social Security Titles II, XVI, XVIII, Medicaid and veterans benefits.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ba507d17062193284b8a9c66a284c96f86d5aeb03b84cb7cc555dd1b57693e89"
+    },
+    {
+     "title": "Consumer access to electronic health records",
+     "citation": "Tex. Health & Safety Code § 181.102(a)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.181.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2015-04-02",
+     "firstEnacted": "2012-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "not later than the 15th business day after the date the health care provider receives a written request from a person for the person's electronic health record, shall provide the requested record to the person in electronic form",
+     "appliesTo": "\"if a health care provider is using an electronic health records system that is capable of fulfilling the request\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d2d391689e4c481e7a843d0c576d0d1da96daa246d40161803953937b7bcea69"
+    },
+    {
+     "title": "Physician: deadline to furnish records",
+     "citation": "Tex. Occ. Code § 159.006(d)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/OC/htm/OC.159.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-01",
+     "firstEnacted": "1999-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "not later than the 15th business day after the date of receipt of the written consent for release under Subsection (a) or the written request under Subsection (c)",
+     "appliesTo": "Physicians.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c52462575a139764eb3886bee9df78e5960d422eb772cd388eb823b8c952a2a8"
+    },
+    {
+     "title": "Hospital: deadline and fees for copies",
+     "citation": "Tex. Health & Safety Code § 241.154(a), (b), (d)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.241.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2009-09-01",
+     "firstEnacted": "1995-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "as promptly as required under the circumstances but not later than the 15th day after the date the request and payment authorized under Subsection (b) are received",
+     "appliesTo": "Licensed hospitals and their agents. Clock runs from receipt of request and payment.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "98b63f177b6370e61b1ff94e0f81096acae7b228637bb6ec7ad59d1a1f5d78a8"
+    },
+    {
+     "title": "Physician fees for records",
+     "citation": "Tex. Occ. Code § 159.008",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/OC/htm/OC.159.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2001-06-15",
+     "firstEnacted": "1999-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "A physician may not charge a fee for copying billing or medical records under Subsection (a) to the extent the fee is prohibited under Subchapter M, Chapter 161, Health and Safety Code.",
+     "appliesTo": "Physicians.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c52462575a139764eb3886bee9df78e5960d422eb772cd388eb823b8c952a2a8"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Beyond the federal floor: a free copy for disability benefit claims and appeals, including for a representative, and 15-day or 15-business-day deadlines for hospitals, physicians and EHR providers. Per-page hospital caps are recorded as facts only.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_TX",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P21"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "no_choice_required",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "Texas Health Services Authority (HIETexas), created under Tex. Health & Safety Code ch. 182",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Electronic disclosure without authorization for treatment, payment and operations",
+     "citation": "Tex. Health & Safety Code § 181.154(c)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.181.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2012-09-01",
+     "firstEnacted": "2012-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "The authorization for electronic disclosure of protected health information described by Subsection (b) is not required if the disclosure is made: (1) to another covered entity, as that term is defined by Section 181.001,",
+     "appliesTo": "Covered entities under § 181.001; purposes of treatment, payment, health care operations and listed insurance functions.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d2d391689e4c481e7a843d0c576d0d1da96daa246d40161803953937b7bcea69"
+    },
+    {
+     "title": "Texas Health Services Authority: privacy of information",
+     "citation": "Tex. Health & Safety Code § 182.103(b)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.182.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2019-09-01",
+     "firstEnacted": "2007-06-15",
+     "statusOfProvision": "in_force",
+     "quote": "The corporation shall comply with all state and federal laws and rules relating to the transmission of health information, including Chapter 181, and rules adopted under that chapter,",
+     "appliesTo": "Texas Health Services Authority.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9958c937963a4d55b1fe705a28ddde702b03c73de7c5b27d9806ae627d4306e2"
+    },
+    {
+     "citation": "Tex. Occ. Code § 58.102(b)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/OC/htm/OC.58.htm",
+     "effectiveDate": "2003-09-01",
+     "quote": "A person who holds genetic information about an individual may not disclose or be compelled to disclose, by subpoena or otherwise, that information unless the disclosure is specifically authorized as provided by Section 58.104.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3aa89e7913b46dcf92272eb8aaafdc74c0b3334ef8c5759864bda392c50b27d6",
+     "statusOfProvision": "in_force"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "http://thsa.org/wp-content/uploads/2020/02/HIETexas_SLTA_022020.pdf",
+     "host": "thsa.org",
+     "usedFor": "HIETexas participant agreement; opt-out there is for participant organizations, not patients"
+    },
+    {
+     "url": "https://thsa.org/hie-texas/",
+     "host": "thsa.org",
+     "usedFor": "Checked HIETexas page for a patient consent or opt-out policy; none found"
+    },
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "healthit.gov",
+     "usedFor": "Background on state HIE consent models"
+    }
+   ],
+   "note": "HSC 181.154(c) lets covered entities disclose electronically for treatment without authorization. Chapter 182 sets no patient consent rule. The THSA HIETexas page shows no patient opt-out. Regional HIE policies were not reviewed.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_TX",
+    "note": "Value and basis confirmed. Chapter 182 and Gov. Code 525 Subchapter E set no patient choice. The THSA HIETexas page, checked 2026-10-03, shows no patient opt-out. Set stricterForSensitive to true for genetic information.",
+    "problems": [
+     "stricterForSensitive is null. Occ. Code 58.102 requires a specific written authorization to disclose genetic information, with no treatment exception in 58.103, so it should be true."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q068",
+       "Q103"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion facility reporting: confidentiality of department records",
+      "citation": "Tex. Health & Safety Code § 245.011(d)",
+      "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.245.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2021-09-01",
+      "firstEnacted": "1989-09-01",
+      "statusOfProvision": "in_force",
+      "quote": "all information and records held by the department under this chapter are confidential and are not open records for the purposes of Chapter 552, Government Code. That information may not be released or made public on subpoena or otherwise,",
+      "appliesTo": "Information and records held by the state health department under Chapter 245 (abortion facility reports).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b3994387975f0e916faeb7ee6532ea36416ae9b331899048025c358bb4ff057d"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule covers abortion reports and records held by the department, with listed exceptions. No separate rule for provider-held reproductive health records was found in the chapters read.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_TX",
+     "note": "HSC 245.011(d) quote matches. The latest amendment took effect September 1, 2021 (Acts 2021, S.B. 8). The rule covers abortion reports held by the department."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of mental health information",
+      "citation": "Tex. Health & Safety Code § 611.002(a)-(b)",
+      "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.611.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2021-09-01",
+      "firstEnacted": "1991-09-01",
+      "statusOfProvision": "in_force",
+      "quote": "Communications between a patient and a professional, and records of the identity, diagnosis, evaluation, or treatment of a patient that are created or maintained by a professional, are confidential.",
+      "appliesTo": "Mental health professionals as defined in chapter 611.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "24892b8efea3b5f0aba776e7934dbc316a1d97996c6bace708869047fb8bdcfb"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is limited to the exceptions in sections 611.004, 611.0041 and 611.0045.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_TX",
+     "note": "HSC 611.002 quote matches. The latest amendment took effect September 1, 2021 (H.B. 549). Disclosure is limited to the cases in 611.004, 611.0041 and 611.0045."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of HIV and AIDS test results",
+      "citation": "Tex. Health & Safety Code § 81.103(a)",
+      "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.81.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2015-09-01",
+      "firstEnacted": "1989-09-01",
+      "statusOfProvision": "in_force",
+      "quote": "A test result is confidential. A person that possesses or has knowledge of a test result may not release or disclose the test result or allow the test result to become known except as provided by this section.",
+      "appliesTo": "Any person holding a \"test result\", defined in § 81.101 as a statement that an identifiable individual has or has not been tested for AIDS or HIV infection.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "f83295398b1c2fbad60aee4b3f9878004378cb854f4962063d5d3c73d34d3635"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Release is limited to the recipients listed in section 81.103(b).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_TX",
+     "note": "HSC 81.103(a) quote matches. The latest amendment took effect September 1, 2015 (S.B. 1574). A written, signed authorization is required under 81.103(d)."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of genetic information",
+      "citation": "Tex. Occ. Code § 58.102",
+      "officialUrl": "https://tcss.legis.texas.gov/resources/OC/htm/OC.58.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2003-09-01",
+      "firstEnacted": "2003-09-01",
+      "statusOfProvision": "in_force",
+      "quote": "A person who holds genetic information about an individual may not disclose or be compelled to disclose, by subpoena or otherwise, that information unless the disclosure is specifically authorized as provided by Section 58.104.",
+      "appliesTo": "Any person holding genetic information, including secondary recipients (§ 58.102(c)).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "3aa89e7913b46dcf92272eb8aaafdc74c0b3334ef8c5759864bda392c50b27d6"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 58.104 requires a written authorization naming the information, recipient and purpose. Exceptions are in section 58.103.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_TX",
+     "note": "Occ. Code 58.102 quote matches. It took effect September 1, 2003, with no later amendment. Section 58.104 sets the written authorization content."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "HIV test results (HSC 81.104): actual damages plus civil penalty up to $5,000 if negligent, $5,000 to $10,000 if wilful, plus costs and attorney's fees. Hospital, physician and mental health records: injunctive relief and damages, no fixed statutory amount."
+   },
+   "provisions": [
+    {
+     "title": "Hospital records: patient remedies",
+     "citation": "Tex. Health & Safety Code § 241.156(a)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.241.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1995-09-01",
+     "firstEnacted": "1995-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "A patient aggrieved by a violation of this subchapter relating to the unauthorized release of confidential health care information may bring an action for: (1) appropriate injunctive relief; and (2) damages resulting from the release.",
+     "appliesTo": "Hospitals licensed under chapter 241.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "98b63f177b6370e61b1ff94e0f81096acae7b228637bb6ec7ad59d1a1f5d78a8"
+    },
+    {
+     "title": "Physician records: cause of action for unauthorized release",
+     "citation": "Tex. Occ. Code § 159.009",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/OC/htm/OC.159.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1999-09-01",
+     "firstEnacted": "1999-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "A person aggrieved by a violation of this chapter relating to the unauthorized release of confidential and privileged communications may petition the district court",
+     "appliesTo": "Physicians; § 159.002(b) makes physician records of identity, diagnosis, evaluation or treatment confidential. § 159.009(b): \"The aggrieved person may prove a cause of action for civil damages.\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c52462575a139764eb3886bee9df78e5960d422eb772cd388eb823b8c952a2a8"
+    },
+    {
+     "title": "Mental health records: legal remedies",
+     "citation": "Tex. Health & Safety Code § 611.005",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.611.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1993-08-30",
+     "firstEnacted": "1991-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "A person aggrieved by the improper disclosure of or failure to disclose confidential communications or records in violation of this chapter may petition the district court of the county in which the person resides for appropriate relief, including injunctive relief.",
+     "appliesTo": "Mental health professionals under chapter 611.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "24892b8efea3b5f0aba776e7934dbc316a1d97996c6bace708869047fb8bdcfb"
+    },
+    {
+     "title": "HIV test results: injunction and civil liability",
+     "citation": "Tex. Health & Safety Code § 81.104",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.81.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1999-09-01",
+     "firstEnacted": "1989-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "A person may bring an action to restrain a violation or threatened violation of Section 81.102 or 81.103.",
+     "appliesTo": "Any person who releases an HIV test result in violation of § 81.103.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f83295398b1c2fbad60aee4b3f9878004378cb854f4962063d5d3c73d34d3635"
+    },
+    {
+     "title": "TDPSA: no private right of action",
+     "citation": "Tex. Bus. & Com. Code § 541.156",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.541.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "This chapter may not be construed as providing a basis for, or being subject to, a private right of action for a violation of this chapter or any other law.",
+     "appliesTo": "TDPSA. Medical Records Privacy Act (HSC ch. 181) is enforced by the attorney general under § 181.201.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1f56ef0a23bae698ba6234921a4dded70a2444059214093791dcc8d7797591be"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Patients may sue hospitals and physicians for unauthorized release of medical records generally. Separate rights cover mental health and HIV records. The TDPSA and chapter 181 have no private right.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_TX",
+    "note": "Patients may sue hospitals (HSC 241.156) and physicians (Occ. Code 159.009) for unauthorized release of records generally. HIV damages: up to $5,000 if negligent, $5,000 to $10,000 if wilful. Chapter 181 is enforced by the AG only.",
+    "resolution": [
+     {
+      "rows": [
+       "Q104"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "Without unreasonable delay and not later than 60 days after the person determines the breach occurred",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Definition of sensitive personal information",
+     "citation": "Tex. Bus. & Com. Code § 521.002(a)(2)(B)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2009-09-01",
+     "firstEnacted": "2009-04-01",
+     "statusOfProvision": "in_force",
+     "quote": "information that identifies an individual and relates to: (i) the physical or mental health or condition of the individual; (ii) the provision of health care to the individual; or (iii) payment for the provision of health care to the individual.",
+     "appliesTo": "Persons who conduct business in Texas and own or license computerized data that includes sensitive personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b029a09be5e271a4c9d14a0d175f927cf30c250c5e08664af3e5c810823c2d1b"
+    },
+    {
+     "title": "Breach notice to individuals",
+     "citation": "Tex. Bus. & Com. Code § 521.053(b)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2023-09-01",
+     "firstEnacted": "2009-04-01",
+     "statusOfProvision": "in_force",
+     "quote": "The disclosure shall be made without unreasonable delay and in each case not later than the 60th day after the date on which the person determines that the breach occurred,",
+     "appliesTo": "Persons who conduct business in Texas and own or license computerized data with sensitive personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b029a09be5e271a4c9d14a0d175f927cf30c250c5e08664af3e5c810823c2d1b"
+    },
+    {
+     "title": "Breach notice to the attorney general",
+     "citation": "Tex. Bus. & Com. Code § 521.053(i)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2023-09-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall notify the attorney general of that breach as soon as practicable and not later than the 30th day after the date on which the person determines that the breach occurred if the breach involves at least 250 residents of this state.",
+     "appliesTo": "Breaches involving at least 250 Texas residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b029a09be5e271a4c9d14a0d175f927cf30c250c5e08664af3e5c810823c2d1b"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The definition's clause on payment for health care is counted as health insurance information.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_TX",
+    "note": "Quotes and dates match. Notice within 60 days. AG notice within 30 days if 250 or more Texans are affected. No HIPAA-compliance clause. Reading payment for health care as health insurance information is an interpretive call.",
+    "problems": [
+     "Level 1 undercounts. The definition covers information relating to payment for the provision of health care, which includes health insurance claims and coverage information. Both elements are present, so level 2."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q105"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     },
+     {
+      "rows": [
+       "Q069"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q2",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": true,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "Tex. Ins. Code § 4201.156(a): \"A utilization review agent may not use an automated decision system to make, wholly or partly, an adverse determination.\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "AI in electronic health record: practitioner disclosure",
+     "citation": "Tex. Health & Safety Code § 183.005(b)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.183.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-01",
+     "firstEnacted": "2025-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "A health care practitioner who uses artificial intelligence for diagnostic purposes as described by Subsection (a) must disclose the practitioner's use of that technology to the practitioner's patients.",
+     "appliesTo": "Licensed health care practitioners using AI for diagnostic purposes (S.B. 1188).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "46aa20996c0ffd98849aeda06b6d4873cb59b74e4612caf80b807fb1e3837126"
+    },
+    {
+     "title": "AI in electronic health record: practitioner review",
+     "citation": "Tex. Health & Safety Code § 183.005(a)(3)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/HS/htm/HS.183.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-01",
+     "firstEnacted": "2025-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "the practitioner reviews all records created with artificial intelligence in a manner that is consistent with medical records standards developed by the Texas Medical Board.",
+     "appliesTo": "Licensed health care practitioners using AI for diagnosis or treatment recommendations.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "46aa20996c0ffd98849aeda06b6d4873cb59b74e4612caf80b807fb1e3837126"
+    },
+    {
+     "title": "Utilization review: no automated adverse determinations",
+     "citation": "Tex. Ins. Code § 4201.156",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/IN/htm/IN.4201.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-01",
+     "firstEnacted": "2025-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "A utilization review agent may not use an automated decision system to make, wholly or partly, an adverse determination.",
+     "appliesTo": "Utilization review agents; \"automated decision system\" includes an algorithm incorporating an artificial intelligence system (§ 4201.002(1-c)) (S.B. 815).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "51d4be290de1a5f3edf11ca1970398dbff19bd791ef3c47c3db94b4a1b71b676"
+    },
+    {
+     "title": "Texas Responsible AI Governance Act: disclosure in health care",
+     "citation": "Tex. Bus. & Com. Code § 552.051(f)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.552.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "If an artificial intelligence system is used in relation to health care service or treatment, the provider of the service or treatment shall provide the disclosure under Subsection (b) to the recipient of the service or treatment or the recipient's personal representative",
+     "appliesTo": "Providers of health care services or treatment (H.B. 149). Enforced by the attorney general only (§ 552.101).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9172f9cd2f179d8d858a1e12df63b61a1a9d5b5d1c2e6a773626f7bf7335e891"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Disclosure: HSC 183.005(b) and BCC 552.051(f). Clinician decides: HSC 183.005(a)(3) review, and Ins. Code 4201.156 bars automated adverse determinations. No AI-specific human review or contact right was found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_TX",
+    "note": "Disclosure: HSC 183.005(b) and BCC 552.051(f), in force from 2026-01-01. Clinician decides: HSC 183.005(a)(3) and Ins. Code 4201.156, both 2025-09-01. No AI-specific human review right was found."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "in_force",
+   "deletionMechanism": false,
+   "provisions": [
+    {
+     "title": "Data broker registration with the secretary of state",
+     "citation": "Tex. Bus. & Com. Code §§ 510.005, 510.006 (formerly ch. 509)",
+     "officialUrl": "https://tcss.legis.texas.gov/resources/BC/htm/BC.510.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-01",
+     "firstEnacted": "2023-09-01",
+     "statusOfProvision": "in_force",
+     "quote": "To conduct business in this state, a data broker to which this chapter applies shall register with the secretary of state by filing a registration statement and paying a registration fee of $300.",
+     "appliesTo": "Data brokers meeting the revenue tests in § 510.003.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "49f2c650e2acef876d9f3b7009e85e52177c852df64861c4573058ac876ab35b"
+    }
+   ]
+  }
+ }
+}

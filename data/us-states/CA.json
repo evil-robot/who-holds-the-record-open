@@ -1,0 +1,671 @@
+{
+ "usps": "CA",
+ "fips": "06",
+ "name": "California",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": true,
+   "provisions": [
+    {
+     "title": "Confidentiality of Medical Information Act: businesses deemed providers of health care",
+     "citation": "Cal. Civ. Code § 56.06(d)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.06",
+     "linkedFrom": null,
+     "effectiveDate": "2024-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any business that offers a mental health digital service to a consumer for the purpose of allowing the individual to manage the individual’s information, or for the diagnosis, treatment, or management of a medical condition of the individual, shall be deemed to be a provider of health care",
+     "appliesTo": "Subdivision (b) also covers “Any business that offers software or hardware to consumers, including a mobile application or other related device that is designed to maintain medical information”; subdivision (e) covers reproductive or sexual health digital services.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "82fd30b929065cc8b8b8d62839dfeb82cdb9efd6665ece045370770474d317aa"
+    },
+    {
+     "title": "Confidentiality of Medical Information Act: authorization required to disclose",
+     "citation": "Cal. Civ. Code § 56.10(a)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.10",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-20",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A provider of health care, health care service plan, or contractor shall not disclose medical information regarding a patient of the provider of health care or an enrollee or subscriber of a health care service plan without first obtaining an authorization",
+     "appliesTo": "Providers of health care, including businesses deemed providers under Civ. Code § 56.06.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "99dea9ff35da967a174a882e9214e028262bef344cb201e8db4ab2bed57378a3"
+    },
+    {
+     "title": "California Consumer Privacy Act: right to limit use of sensitive personal information",
+     "citation": "Cal. Civ. Code § 1798.121(a)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.121",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A consumer shall have the right, at any time, to direct a business that collects sensitive personal information about the consumer to limit its use of the consumer’s sensitive personal information",
+     "appliesTo": "Businesses that, among other tests, “had annual gross revenues in excess of twenty-five million dollars ($25,000,000) in the preceding calendar year, as adjusted pursuant to subdivision (d) of Section 1798.199.95” (Civ. Code § 1798.140).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b050ec75d82e45141005887975a739a76784f2335c212969a8814c0a82fe303a"
+    },
+    {
+     "title": "California Consumer Privacy Act: definition of sensitive personal information",
+     "citation": "Cal. Civ. Code § 1798.140(ae)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.140",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(B) Personal information collected and analyzed concerning a consumer’s health.",
+     "appliesTo": "Listed under paragraph (2) of the definition of “Sensitive personal information”.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "aecc7333c5335aa7b28da1be8ec4ffb4f64688fe496e17906a7d815024b920b5",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(B) Personal information collected and analyzed concerning a consumer’s health.",
+      "session": "main_check_quotes_CA_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "CMIA: health care chatbot businesses deemed providers of health care (AB 1979)",
+     "citation": "Cal. Civ. Code 56.06(f), as added by Stats. 2026, ch. 854 (AB 1979)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1979",
+     "effectiveDate": "2027-01-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Any business that offers a health care chatbot to a consumer for the purpose of allowing the individual to manage the individual's information, or for the diagnosis, treatment, or management of a medical condition of the individual, shall be deemed to be a provider of health care",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b39190714fda0edfa8a7e779cc234337c386ae4f91d5ef3e5a39c5a2688099ea"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Level 2 rests on the CMIA. It deems health apps, mental health and reproductive health digital services to be providers, which then need authorization to disclose. The CCPA gives only a right to limit sensitive data (level 1).",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_CA",
+    "note": "Level 2 holds: CMIA 56.06 (eff. 2024-01-01) plus 56.10 consent. No general consumer health data law found. AB 1542 (CCPA sensitive data sale ban) was vetoed 2026-09-27. AB 1979 chatbot clause is pending to 2027-01-01.",
+    "problems": [
+     "pending is false, but AB 1979 (Stats. 2026, Ch. 854, approved 2026-09-30, non-urgency) amends Civ. Code 56.06 to add subdivision (f) deeming health care chatbot businesses providers of health care. It takes effect 2027-01-01, so pending must be true and it must be listed in provisions[]."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q007"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 15,
+    "freeCopyCases": [
+     "One free copy of the relevant portion of the record when needed to support a claim or appeal for a public benefit program (Medi-Cal, IHSS, CalWORKs, SSDI, SSI/SSP, veterans benefits, CalFresh, CAPI, housing assistance)",
+     "Same free copy for a petition for U nonimmigrant status or a VAWA self-petition"
+    ],
+    "feeRules": [
+     "“a health care provider may impose a reasonable, cost-based fee for providing a paper or electronic copy or summary of patient records”",
+     "“The fee from a health care provider shall not exceed twenty-five cents ($0.25) per page for paper copies or fifty cents ($0.50) per page for records that are copied from microfilm.”",
+     "Free-copy case does not apply to a patient represented by a private attorney paying claim costs; free-copy requests must be met within 30 days."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Patient access to health records: copies",
+     "citation": "Cal. Health & Safety Code § 123110(b)(1)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=123110",
+     "linkedFrom": null,
+     "effectiveDate": "2024-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "any patient or patient’s personal representative shall be entitled to a paper or electronic copy of all or any portion of the patient records that they have a right to inspect",
+     "appliesTo": "Health care providers as defined in Health & Safety Code § 123105. The same subdivision states: “The health care provider shall ensure that the copies are transmitted within 15 days after receiving the request.”",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f250b3312b51fcebc39b8b25bc691a84dc2395127ce5a4c04e257a17fdfd189d"
+    },
+    {
+     "title": "Patient access to health records: free copy for benefit claims",
+     "citation": "Cal. Health & Safety Code § 123110(d)(1)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=123110",
+     "linkedFrom": null,
+     "effectiveDate": "2024-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "is entitled to a copy, at no charge, of the relevant portion of the patient’s records, upon presenting to the provider a written request, and proof that the records or supporting forms are needed to support a claim or appeal regarding eligibility for a public benefit program",
+     "appliesTo": "A patient, an employee of a nonprofit legal services entity representing the patient, or the patient’s personal representative.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f250b3312b51fcebc39b8b25bc691a84dc2395127ce5a4c04e257a17fdfd189d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Both elements beyond the HIPAA and information blocking floor: a 15-day copy deadline and a free paper or electronic copy for public benefit claims, also open to personal representatives. Per-page caps are recorded only as facts.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CA",
+    "note": "beyondFederalFloor yes. The 15-day deadline is shorter than 30 days. The free copy for benefit claims also covers personal representatives and paper copies, so it is beyond 171.302. Effective 2024-01-01 (SB 815)."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "no_choice_required",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "None found. California uses the CalHHS Data Exchange Framework (Health & Safety Code § 130290), administered by HCAI, not a single designated HIE.",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "California Health and Human Services Data Exchange Framework",
+     "citation": "Cal. Health & Safety Code § 130290(a)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=130290",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-29",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "is a collection of organizations that are required to share health information using a common set of policies and procedures in order to improve the health outcomes of the individuals they serve.",
+     "appliesTo": "Hospitals, skilled nursing facilities, clinical laboratories, physician organizations and medical groups, health insurers and health care service plans, among others.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "39ac93158066d1a1b92a55128676b65b19cd8d80713e789c6273094f8e39075c"
+    },
+    {
+     "title": "Confidentiality of Medical Information Act: disclosure for treatment without authorization",
+     "citation": "Cal. Civ. Code § 56.10(c)(1)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.10",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-20",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The information may be disclosed to providers of health care, health care service plans, contractors, or other health care professionals or facilities for purposes of diagnosis or treatment of the patient.",
+     "appliesTo": "Providers of health care, health care service plans and contractors.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a4a53a273f8782421ce93bd890f056d42e81109d064ef76fc5ab07a2031c3c99"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://dxf.chhs.ca.gov/faqs/14/",
+     "host": "dxf.chhs.ca.gov",
+     "usedFor": "DxF FAQ on whether individuals can opt out; points to consent only where other law requires it"
+    }
+   ],
+   "note": "Statute requires exchange under the DxF and CMIA permits treatment disclosures without authorization. No general opt-in or opt-out found. Category consent rules for exchange were not verified, so stricterForSensitive is left null.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CA",
+    "note": "Quote sits in 130290(a)(1); current text eff. 2026-06-29 (SB 164). The DxF FAQ offers no general opt-out, only consent where other law requires it. stricterForSensitive remains unresolved."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": true,
+    "provisions": [
+     {
+      "title": "Abortion-related medical information: subpoenas and out-of-state requests",
+      "citation": "Cal. Civ. Code § 56.108(a)",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.108",
+      "linkedFrom": null,
+      "effectiveDate": "2024-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a provider of health care, health care service plan, contractor, or employer shall not release medical information related to an individual seeking or obtaining an abortion in response to a subpoena or request if that subpoena or request is based on either another state’s laws",
+      "appliesTo": "Providers of health care, health care service plans, contractors and employers.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ae668d26d79d196408385cc1d3e77cc86b155cd2f0e3ba17abccf6c9553cde0a"
+     },
+     {
+      "title": "Electronic health records: segregation of reproductive and gender affirming care information",
+      "citation": "Cal. Civ. Code § 56.101(c)",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.101",
+      "linkedFrom": null,
+      "effectiveDate": "2025-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Segregate medical information related to gender affirming care, abortion and abortion-related services, and contraception from the rest of the patient’s record.",
+      "appliesTo": "Electronic health record systems and businesses described in the section.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "1d9e1e437620e4c5c079b6a61f4a4e2b95417f392576039f5a027908bba0dbee"
+     },
+     {
+      "title": "Notice to the Attorney General before producing records on legally protected abortion or gender-affirming care (AB 1930)",
+      "citation": "Cal. Civ. Code 1798.309(a)(1)(A), as added by Stats. 2026, ch. 468 (AB 1930)",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1930",
+      "effectiveDate": "2027-01-01",
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "regarding abortion or gender-affirming health care services that are legally protected health care activities secured by the Constitution or laws of California shall provide notice to the Attorney General at least seven business days prior to producing records in response to the request",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "94bf5c844032fe4d82428aa6a30a25819104ea8b32da2feb06d52819a87c0509"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Civ. Code § 56.108 limits release of abortion-related records in response to subpoenas or requests based on other states’ laws. Civ. Code § 56.101(c) requires segregation of these records in electronic systems.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_CA",
+     "note": "Civ. Code 56.108 (eff. 2024-01-01) and 56.101(c) (eff. 2025-01-01) are verified. AB 1930 adds an Attorney General notice rule before records are produced, effective 2027-01-01.",
+     "problems": [
+      "pending is false, but AB 1930 (Stats. 2026, Ch. 468, approved 2026-09-26, non-urgency) adds Civ. Code 1798.309, a disclosure rule for abortion records sought by subpoena or legal process. It takes effect 2027-01-01, so pending must be true and it must be listed."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q008"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Lanterman-Petris-Short Act: confidentiality of mental health services records",
+      "citation": "Cal. Welf. & Inst. Code § 5328(a)",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WIC&sectionNum=5328",
+      "linkedFrom": null,
+      "effectiveDate": "2023-09-13",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "recipients of services are confidential. Information and records obtained in the course of providing similar services to either voluntary or involuntary recipients before 1969 are also confidential. Information and records shall be disclosed only in any of the following cases:",
+      "appliesTo": "Records of services under Divisions 4, 4.1, 4.5, 5, 6 and 7 of the Welfare and Institutions Code.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "22811c7cc536184983ded47c917b8b76dd29ef0c0e11448f68476ff0078fec74"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Records of services under the listed divisions are confidential and may be disclosed only in the cases the section lists.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CA",
+     "note": "Welf. and Inst. Code 5328(a). Current text effective 2023-09-13 (SB 137, Stats. 2023, Ch. 191). Quote, citation and host verified."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of HIV test results",
+      "citation": "Cal. Health & Safety Code § 120980(a)",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=120980",
+      "linkedFrom": null,
+      "effectiveDate": "2006-04-17",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Any person who negligently discloses results of an HIV test, as defined in subdivision (c) of Section 120775, to any third party, in a manner that identifies or provides identifying characteristics of the person to whom the test results apply, except pursuant to a written authorization",
+      "appliesTo": "Any person, subject to listed statutory exemptions.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "4545359d740a4587e69babd2123fde740689f24864e6693abff381762943fde6"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Identifying disclosure of HIV test results needs written authorization unless a listed statute allows it. Penalties are paid to the subject of the test.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CA",
+     "note": "Health and Safety Code 120980(a). Current text effective 2006-04-17 (Stats. 2006, Ch. 20). Penalties are paid to the subject of the test."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act: consent for genetic data",
+      "citation": "Cal. Civ. Code § 56.181(a)(2)",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.181",
+      "linkedFrom": null,
+      "effectiveDate": "2022-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Obtain a consumer’s express consent for collection, use, and disclosure of the consumer’s genetic data, including, at a minimum, separate and express consent for each of the following:",
+      "appliesTo": "“a direct-to-consumer genetic testing company”",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "4ae9ecee88c9d383743ad076cf51fb2aad57f970ef8b0f15356f01f20cfec55c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Direct-to-consumer genetic testing companies need express consent for collection, use and disclosure of genetic data, with separate consent for listed uses.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CA",
+     "note": "Civ. Code 56.181(a)(2), added by SB 41 (Stats. 2021, Ch. 596), effective 2022-01-01. Applies to direct-to-consumer genetic testing companies."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Nominal damages of $1,000 for negligent release without proof of actual damages, plus actual damages (Civ. Code § 56.36(b)). Compensatory damages, punitive damages up to $3,000, attorney fees up to $1,000 and costs (Civ. Code § 56.35)."
+   },
+   "provisions": [
+    {
+     "title": "CMIA: action for negligent release of medical information",
+     "citation": "Cal. Civ. Code § 56.36(b)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.36",
+     "linkedFrom": null,
+     "effectiveDate": "2016-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "an individual may bring an action against a person or entity who has negligently released confidential information or records concerning him or her in violation of this part, for either or both of the following: (1) Except as provided in subdivision (e), nominal damages of one thousand dollars ($1,000).",
+     "appliesTo": "Any person or entity that violates the CMIA (Civ. Code Part 2.6).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "77388124269f067d30353134964fad101a0c56b55fa46e91d27d3c38887f9c31"
+    },
+    {
+     "title": "CMIA: damages for unlawful use or disclosure",
+     "citation": "Cal. Civ. Code § 56.35",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=56.35",
+     "linkedFrom": null,
+     "effectiveDate": "2022-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a patient whose medical information has been used or disclosed in violation of Section 56.10, 56.104, 56.107, or 56.20 or subdivision (a) of Section 56.26 and who has sustained economic loss or personal injury therefrom may recover compensatory damages, punitive damages not to exceed three thousand dollars ($3,000)",
+     "appliesTo": "Violations of the listed CMIA sections.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "57a42d6a0903b2509c85b7efb254992ba9e7049585b0c919ce0e2e93fb8edf41"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The CMIA lets a person sue for unlawful release, use or disclosure of medical information generally, with $1,000 nominal damages without proof of harm.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CA",
+    "note": "56.36 effective 2016-01-01 (AB 731). 56.35 effective 2022-01-01 (AB 1184). The CMIA right covers unlawful release of medical information generally, with $1,000 nominal damages."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "30 calendar days of discovery or notification of the data breach (subject to listed delays)",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Data breach notification: definition of personal information",
+     "citation": "Cal. Civ. Code § 1798.82(h)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.82",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(D) Medical information. (E) Health insurance information.",
+     "appliesTo": "Persons or businesses that conduct business in California and own or license computerized data with personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7b17a63640e53e629dd04419653f3deaa735afc635f73bd93912dbe674ec201d"
+    },
+    {
+     "title": "Data breach notification: deadline",
+     "citation": "Cal. Civ. Code § 1798.82(a)(2)(A)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.82",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Subject to subparagraph (B), the disclosure required by this subdivision shall be made within 30 calendar days of discovery or notification of the data breach.",
+     "appliesTo": "Same as above.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7b17a63640e53e629dd04419653f3deaa735afc635f73bd93912dbe674ec201d"
+    },
+    {
+     "title": "Data breach notification: Attorney General copy",
+     "citation": "Cal. Civ. Code § 1798.82(f)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.82",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "more than 500 California residents as a result of a single breach of the security system shall electronically submit a single sample copy of that security breach notification, excluding any personally identifiable information, to the Attorney General within 15 calendar days of notifying affected consumers",
+     "appliesTo": "Breaches affecting more than 500 California residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7b17a63640e53e629dd04419653f3deaa735afc635f73bd93912dbe674ec201d"
+    },
+    {
+     "title": "Data breach notification: HIPAA covered entities",
+     "citation": "Cal. Civ. Code § 1798.82(e)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.82",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "covered entity under the federal Health Insurance Portability and Accountability Act of 1996 (42 U.S.C. Sec. 1320d et seq.) will be deemed to have complied with the notice requirements in subdivision (d) if it has complied completely with Section 13402(f)",
+     "appliesTo": "HIPAA covered entities, as to notice content under subdivision (d).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7b17a63640e53e629dd04419653f3deaa735afc635f73bd93912dbe674ec201d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Both medical and health insurance information are in the definition. SB 446 (2025) set a 30-day deadline from 2026-01-01. HIPAA deeming covers notice content only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CA",
+    "note": "Civ. Code 1798.82(h), effective 2026-01-01 (SB 446). Attorney General copy within 15 days when over 500 residents. HIPAA deeming covers notice content under (d) only."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 3,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": true,
+     "clinicianDecides": true,
+     "humanRecourse": true
+    },
+    "prohibitions": [
+     "Bus. & Prof. Code § 4999.9(b): title protections “shall be enforceable against a person or entity who develops or deploys a system or device that uses one or more of those terms, letters, or phrases in the advertising or functionality of an artificial intelligence or generative artificial intelligence system” (effective 2026-01-01)",
+     "Health & Safety Code § 1367.01(k)(2): “the artificial intelligence, algorithm, or other software tool shall not deny, delay, or modify health care services based, in whole or in part, on medical necessity.”"
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Generative AI patient communications: disclaimer",
+     "citation": "Cal. Health & Safety Code § 1339.75(a)(1)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=1339.75",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A disclaimer that indicates to the patient that the communication was generated by generative artificial intelligence.",
+     "appliesTo": "“A health facility, clinic, physician’s office, or office of a group practice that uses generative artificial intelligence to generate written or verbal patient communications pertaining to patient clinical information”. Does not apply when a licensed or certified provider reads and reviews the communication.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(1) A disclaimer that indicates to the patient that the communication was generated by generative artificial intelligence.",
+      "session": "main_check_quotes_CA_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Generative AI patient communications: how to reach a human",
+     "citation": "Cal. Health & Safety Code § 1339.75(a)(2)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=1339.75",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Clear instructions describing how a patient may contact a human health care provider, employee of the health facility, clinic, physician’s office, or office of a group provider, or other appropriate person.",
+     "appliesTo": "Same as § 1339.75(a)(1).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(2) Clear instructions describing how a patient may contact a human health care provider, employee of the health facility, clinic, physician’s office, or office of a group provider, or other appropriate person.",
+      "session": "main_check_quotes_CA_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Health plan utilization review using AI: medical necessity by licensed clinician",
+     "citation": "Cal. Health & Safety Code § 1367.01(k)(2)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=1367.01",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A determination of medical necessity shall be made only by a licensed physician or a licensed health care professional competent to evaluate the specific clinical issues involved in the health care services requested by the provider",
+     "appliesTo": "Health care service plans, and entities they work through, that use “an artificial intelligence, algorithm, or other software tool for the purpose of utilization review or utilization management functions”.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "A determination of medical necessity shall be made only by a licensed physician or a licensed health care professional competent to evaluate the specific clinical issues involved in the health care services requested by the provider, as provided in subdivision (e),",
+      "session": "main_check_quotes_CA_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "AI and health care professional title protections",
+     "citation": "Cal. Bus. & Prof. Code § 4999.9(b)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=4999.9",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall be enforceable against a person or entity who develops or deploys a system or device that uses one or more of those terms, letters, or phrases in the advertising or functionality of an artificial intelligence or generative artificial intelligence system, program, device, or similar technology.",
+     "appliesTo": "Developers and deployers of AI systems using protected health care license terms.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "shall be enforceable against a person or entity who develops or deploys a system or device that uses one or more of those terms, letters, or phrases in the advertising or functionality of an artificial intelligence or generative artificial intelligence system, program, device, or similar technology.",
+      "session": "main_check_quotes_CA_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "AI clinical decision support: clinician keeps independent judgment (AB 1979)",
+     "citation": "Cal. Bus. & Prof. Code 22758.5(a), as added by Stats. 2026, ch. 854 (AB 1979)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1979",
+     "effectiveDate": "2027-01-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "shall take reasonable steps to ensure that a licensed health care provider, acting within their scope of practice, retains the ability to exercise independent professional judgment in their care of a patient whenever that care is informed by the output of a clinical decision support system.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bd68208ae63cc2434616c1d980618d9393204f4c7c79f7cdf5fb9b96855d36c9"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://hintzelaw.com/blog/2025/10/23/california-prohibits-ai-misrepresentations-about-health-care-licenses",
+     "host": "hintzelaw.com",
+     "usedFor": "Found AB 489 (2025), Bus. & Prof. Code Chapter 15.5"
+    }
+   ],
+   "note": "AB 3030 gives disclosure and a route to a human for generative AI clinical messages. SB 1120 reserves medical necessity decisions in plan utilization review to licensed clinicians. Insurance Code counterpart not opened.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_CA",
+    "note": "Level 3 holds. 1339.75 (eff. 2025-01-01) gives disclosure and a route to a human. 1367.01(k)(2) (eff. 2025-01-01) reserves medical necessity decisions to clinicians. SB 503 (Ch. 857) adds bias duties only.",
+    "problems": [
+     "pending is false, but AB 1979 (Stats. 2026, Ch. 854, approved 2026-09-30, non-urgency) adds Bus. and Prof. Code 22758.5, a clinician judgment rule for AI clinical decision support. It takes effect 2027-01-01, so pending must be true and it must be listed."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q009"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "in_force",
+   "deletionMechanism": true,
+   "provisions": [
+    {
+     "title": "Delete Act: data broker registration",
+     "citation": "Cal. Civ. Code § 1798.99.82(a)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.99.82",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "On or before January 31 following each year in which a business meets the definition of data broker as provided in this title, the business shall register with the California Privacy Protection Agency pursuant to the requirements of this section.",
+     "appliesTo": "“a business that knowingly collects and sells to third parties the personal information of a consumer with whom the business does not have a direct relationship” (Civ. Code § 1798.99.80).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8dee22e7a83ff461413673122c320f56f3f5c1961c0bbfee49cbb6a9abb910e7"
+    },
+    {
+     "title": "Delete Act: accessible deletion mechanism",
+     "citation": "Cal. Civ. Code § 1798.99.86(a)(2)",
+     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.99.86",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Allows a consumer, through a single verifiable consumer request, to request that every data broker that maintains any personal information delete any personal information related to that consumer held by the data broker or associated service provider or contractor.",
+     "appliesTo": "Registered data brokers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2bb69ef0a0bbe4a2572b7608f9c2948f7ccea21ff0a7213e24b8f646fcfdefec"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,509 @@
+{
+ "usps": "ID",
+ "fips": "16",
+ "name": "Idaho",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://legislature.search.idaho.gov/search?IW_FIELD_TEXT=%22consumer+health+data%22+OR+%22sensitive+data%22+OR+%22health+data%22&IW_DATABASE=Idaho+Statutes",
+    "terms": [
+     "\"consumer health data\"",
+     "\"sensitive data\"",
+     "\"health data\"",
+     "\"data privacy\"",
+     "\"personal data\"",
+     "\"data broker\" (2025 and 2026 regular session databases)"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.ag.idaho.gov/consumer-protection/"
+    ],
+    "leadsChecked": [
+     "https://termly.io/us-data-privacy-laws/",
+     "https://www.security.org/resources/digital-privacy-legislation-by-state/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://termly.io/us-data-privacy-laws/",
+     "host": "termly.io",
+     "usedFor": "Check for an Idaho comprehensive privacy law; none listed"
+    },
+    {
+     "url": "https://www.security.org/resources/digital-privacy-legislation-by-state/",
+     "host": "security.org",
+     "usedFor": "Check for an Idaho comprehensive privacy law; none listed"
+    }
+   ],
+   "note": "Idaho Statutes search found no comprehensive privacy law or consumer health data law. The 2025 and 2026 session searches found no enacted bill of that kind.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ID",
+    "note": "Idaho Statutes search for \"health data\" returned no section. \"sensitive data\" returned only 67-827A. The 2026 enacted law list shows no privacy or consumer health data act. Leads also list no Idaho comprehensive privacy law."
+   }
+  },
+  "copy_rights": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://legislature.search.idaho.gov/search?IW_FIELD_TEXT=%22medical+records%22+copy&IW_DATABASE=Idaho+Statutes",
+    "terms": [
+     "\"medical records\"",
+     "\"medical records\" copy",
+     "\"health care records\"",
+     "\"patient records\"",
+     "\"health records\"",
+     "\"medical records\" (2026 regular session database)"
+    ],
+    "regulatorPagesChecked": [
+     "https://healthandwelfare.idaho.gov/providers/acute-and-continuing-care/hospitals"
+    ],
+    "leadsChecked": [
+     "https://www.billtrack50.com/billdetail/1827083",
+     "https://idahofreedom.org/senate-bill-1395-medical-records-costs/",
+     "https://www.law.cornell.edu/regulations/idaho/IDAPA-16.03.14.220"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.law.cornell.edu/regulations/idaho/IDAPA-16.03.14.220",
+     "host": "law.cornell.edu",
+     "usedFor": "Lead to former hospital rule on record access; IDHW says state hospital rules ended July 1 2025"
+    },
+    {
+     "url": "https://www.billtrack50.com/billdetail/1827083",
+     "host": "billtrack50.com",
+     "usedFor": "Lead to 2025 S1087 free copy bill; legislature page shows it failed in the House"
+    },
+    {
+     "url": "https://idahofreedom.org/senate-bill-1395-medical-records-costs/",
+     "host": "idahofreedom.org",
+     "usedFor": "Lead to 2024 S1395; legislature page shows it was not enacted"
+    }
+   ],
+   "note": "No Idaho statute or rule in force sets a copy deadline or a free copy. Bills S1346 (2022), S1353 and S1395 (2024) and S1087 (2025) were not enacted. Idaho Code 9-420 covers hospital records under subpoena only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ID",
+    "note": "beyondFederalFloor no. Code searches found no copy deadline or free copy. S1087 (2025) failed in the House 28-42. 32-1015(6) gives parents access to a minor's records but sets no deadline or fee rule.",
+    "resolution": [
+     {
+      "rows": [
+       "Q212"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "no_law_found",
+   "value": "no_rule_found",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Idaho Health Data Exchange (named the state designated entity for 2009 federal HIE funding, per Office of Performance Evaluations report, October 2023)",
+   "stricterForSensitive": null,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://legislature.search.idaho.gov/search?IW_FIELD_TEXT=%22health+information+exchange%22+OR+%22health+data+exchange%22&IW_DATABASE=Idaho+Statutes",
+    "terms": [
+     "\"health information exchange\"",
+     "\"health data exchange\""
+    ],
+    "regulatorPagesChecked": [
+     "https://healthandwelfare.idaho.gov/providers/electronic-health-records-ehr/electronic-health-records-and-idaho-public",
+     "https://legislature.idaho.gov/wp-content/uploads/OPE/Reports/r2301.pdf",
+     "https://idahohde.org/faq"
+    ],
+    "leadsChecked": [
+     "https://gemstatechronicle.com/2026/04/what-happened-to-the-idaho-health-data-exchange/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://gemstatechronicle.com/2026/04/what-happened-to-the-idaho-health-data-exchange/",
+     "host": "gemstatechronicle.com",
+     "usedFor": "IHDE status; state data agreement ended June 30 2024; opt-out form link broken"
+    },
+    {
+     "url": "https://idahohde.org/faq",
+     "host": "idahohde.org",
+     "usedFor": "IHDE FAQ says patients may opt out by form; no form is linked"
+    }
+   ],
+   "note": "No Idaho statute or rule on HIE consent. IHDE's undated FAQ says patients may opt out by form, but no form is linked and its 2022 form URL returns 403. No current state designation page found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ID",
+    "note": "No statute on HIE consent found. OPE report r2301 ties IHDE designation to 2009 federal funding only. IHDE FAQ claims an opt-out form, but the 2022 form URL returns 403. No current state designation page found."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion complication reporting; confidentiality of reports",
+      "citation": "Idaho Code 39-9504(6)",
+      "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH95/SECT39-9504/",
+      "linkedFrom": null,
+      "effectiveDate": "2019-03-07",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Reports filed pursuant to this section shall not be deemed public records and shall remain confidential, except that disclosure may be made to law enforcement officials upon an order of a court after application showing good cause.",
+      "appliesTo": "Abortion complication reports filed with the department of health and welfare under section 39-9504",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d82afee706890d0eb09d2471bffca202dd9fc528068bfe0ea5865ec1b1d74114"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Rule covers abortion complication reports filed with the department. Subsection (9) bars the department from disclosing report contents in a way that identifies the woman. Last amended by 2019 ch. 50 (H64).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ID",
+     "note": "History shows am. 2019 ch. 50. The H0064 bill page shows Session Law Chapter 50, effective 03/07/2019. Quote matches the page."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Hospitalization of mentally ill; disclosure of information",
+      "citation": "Idaho Code 66-348",
+      "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title66/T66CH3/SECT66-348/",
+      "linkedFrom": null,
+      "effectiveDate": "2015-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All certificates, applications, records, and reports made for the purpose of this act and directly or indirectly identifying a patient or former patient or an individual whose involuntary assessment, detention or commitment is being sought under this act shall be kept subject to disclosure according to",
+      "appliesTo": "Records made for the purpose of Idaho's mental health hospitalization and commitment act (Title 66, chapter 3)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "fc1259bfa859f0b59fc0cb3b26077612ba9350a325ea64981466a735cdf8b468"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Records may also be disclosed with consent of the person, their mental health attorney in fact or guardian, to carry out the act, or on court direction. Last amended by 2015 ch. 141 (H91).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ID",
+     "note": "Last amended 2015 ch. 141 sec. 164 (H0091). The bill page shows 07/01/2015 for all sections other than section 71. Quote matches the page."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of HIV and HBV reporting information",
+      "citation": "Idaho Code 39-610(2)",
+      "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH6/SECT39-610/",
+      "linkedFrom": null,
+      "effectiveDate": "2025-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The significantly exposed person shall not be informed of the name of the infected patient or deceased person.",
+      "appliesTo": "Department of health and welfare notices to persons with a significant exposure to a patient with HIV or HBV",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e2f485d0e6ebaf808cd25a29fd79fbffd492b41e08e041e5d546475abe1d1736"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 39-610 governs disclosure of HIV and HBV reporting information. Section 39-606 also makes willful disclosure of confidential disease reports without written authorization a misdemeanor. Last amended by 2025 ch. 82 (H91).",
+    "crossCheck": {
+     "verdict": "set_aside",
+     "session": "main_crosscheck_ID",
+     "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+     "resolution": [
+      {
+       "rows": [
+        "P08"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Testing Privacy Act; restrictions on employers",
+      "citation": "Idaho Code 39-8303(2)(b)",
+      "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH83/SECT39-8303/",
+      "linkedFrom": null,
+      "effectiveDate": "2022-07-01",
+      "firstEnacted": "2006-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "An order compelling the disclosure of private genetic information pursuant to this subsection may be entered only upon a finding that:",
+      "appliesTo": "Employers, in connection with hiring, promotion, retention or other related decisions",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "31dab269bed809680f4874d2d24e874bdd741ed9b58bb0cff922875be1edea7e"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Employers may not access private genetic information for job decisions. Court-ordered disclosure is limited to essential parts and persons. Last amended by 2022 ch. 141 (H598).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ID",
+     "note": "Quote is at 39-8303(2)(b)(i). Last amended 2022 ch. 141 (H0598), effective 07/01/2022. First enacted 2006 ch. 293 (S1423), effective 07/01/06."
+    }
+   }
+  },
+  "private_right": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "none found"
+   },
+   "provisions": [
+    {
+     "title": "Breach notification; violations",
+     "citation": "Idaho Code 28-51-107",
+     "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title28/T28CH51/SECT28-51-107/",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": "2006-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "the primary regulator may bring a civil action to enforce compliance with that section and enjoin that agency, individual or commercial entity from further violations.",
+     "appliesTo": "Agencies, individuals and commercial entities subject to section 28-51-105",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7383a8f6d48c43b54bdecabb3db17c7c4ab3b89b8e5641f4444cdb45d1ae39fe"
+    },
+    {
+     "title": "Genetic Testing Privacy Act; enforcement",
+     "citation": "Idaho Code 39-8304(1)",
+     "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH83/SECT39-8304/",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": "2006-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Whenever the attorney general has reason to believe that any employer is engaging, has engaged, or is about to engage in any act in violation of this chapter, the attorney general may bring an action in the name of the state against that employer",
+     "appliesTo": "Employers under the Genetic Testing Privacy Act",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bcbb3c5d2a77e04504daf0365d9e2958f8dabcd7e84641ed5080520e5b32eb04"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://legislature.search.idaho.gov/search?IW_FIELD_TEXT=%22private+right+of+action%22&IW_DATABASE=Idaho+Statutes",
+    "terms": [
+     "\"private right of action\"",
+     "\"medical records\"",
+     "\"health records\"",
+     "\"genetic information\""
+    ],
+    "regulatorPagesChecked": [
+     "https://www.ag.idaho.gov/consumer-protection/"
+    ],
+    "leadsChecked": [
+     "https://www.security.org/resources/digital-privacy-legislation-by-state/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [],
+   "note": "Breach law and genetic privacy law are enforced by the primary regulator or attorney general only. No Idaho health records law found that lets a person sue or links a violation to the Consumer Protection Act.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_ID",
+    "note": "Level 1: right limited to one narrow category, parental access to a minor's health information. Current text from 2026 ch. 245 (H0860), effective 03/31/2026. Breach and genetic laws remain AG or regulator only.",
+    "problems": [
+     "Idaho Code 32-1015(13)(a) gives a parent a private right of action for violations of 32-1015, which includes the right of access to a minor child's health information in 32-1015(6).",
+     "Status and level should follow that in-force provision, not no_law_found and 0."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q025"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "most expedient time possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Breach notification; definitions",
+     "citation": "Idaho Code 28-51-104(5)",
+     "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title28/T28CH51/SECT28-51-104/",
+     "linkedFrom": null,
+     "effectiveDate": "2015-07-01",
+     "firstEnacted": "2006-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "\"Personal information\" means an Idaho resident’s first name or first initial and last name in combination with any one (1) or more of the following data elements that relate to the resident, when either the name or the data elements are not encrypted:",
+     "appliesTo": "Listed elements are Social security number; driver's license or Idaho ID number; financial account or card number with access code. No medical or health insurance element.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c57491982fcfe08ea38f0474b14df5074cc9d36edb48489f9f80f4d429b391e1"
+    },
+    {
+     "title": "Disclosure of breach of security of computerized personal information",
+     "citation": "Idaho Code 28-51-105(1)",
+     "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title28/T28CH51/SECT28-51-105/",
+     "linkedFrom": null,
+     "effectiveDate": "2014-07-01",
+     "firstEnacted": "2006-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Notice must be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement",
+     "appliesTo": "A city, county or state agency, individual or a commercial entity that conducts business in Idaho and owns or licenses computerized personal information of Idaho residents",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f91f20befb0e80a0d0299bc4ddf3c1d8b948e060997b928d90a8058abbaf4477"
+    },
+    {
+     "title": "Procedures deemed in compliance with security breach requirements",
+     "citation": "Idaho Code 28-51-106(2)",
+     "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title28/T28CH51/SECT28-51-106/",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": "2006-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "An individual or a commercial entity that is regulated by state or federal law and that maintains procedures for a breach of the security of the system pursuant to the laws, rules, regulations, guidances, or guidelines established by its primary or functional state or federal regulator",
+     "appliesTo": "Individuals and commercial entities regulated by state or federal law",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7c388221cf47295b61aa41bc9fdced87249ccab4f8faa571f31c86559d184c33"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The definition lists only SSN, driver's license or ID number, and financial account data. Agencies must notify the attorney general within 24 hours (28-51-105(1)); no regulator notice for commercial entities. Entities following their federal regulator's breach procedures are deemed compliant.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_ID",
+    "note": "Regulator notice applies to public agencies only, not commercial entities. The 28-51-104(5) list has no medical or health insurance element.",
+    "problems": [
+     "facts.regulatorNotice is false, but 28-51-105(1) requires an agency to notify the Idaho attorney general within 24 hours.",
+     "Level 0, definition quote and effective dates check out."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q026"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "enacted_not_yet_effective",
+   "level": 0,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "An operator shall not knowingly and intentionally cause or program a conversational AI service to make any representation or statement that explicitly indicates that the conversational AI service is designed to provide professional mental or behavioral health care. (S1297, 2026, effective 2027-07-01)"
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Conversational AI Safety Act; operator requirements",
+     "citation": "2026 Idaho Sess. Laws ch. 249 (Senate Bill 1297), new Title 48 chapter, bill section 48-2103(3)",
+     "officialUrl": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297E1.pdf",
+     "linkedFrom": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1297/",
+     "effectiveDate": "2027-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "An operator shall not knowingly and intentionally cause or program a conversational AI service to make any representation or statement that explicitly indicates that the conversational AI service is designed to provide professional mental or behavioral health care.",
+     "appliesTo": "\"Operator\" means a person who makes available a conversational AI service to the public.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "c7b79213eac67e806b0a59215139bd0665bf97f5288485c455529be16110f0f7",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(3) An operator shall not knowingly and intentionally cause or program a conversational AI service to make any representation or statement that explicitly indicates that the conversational AI service is designed to provide professional mental or behavioral health care.",
+      "session": "main_check_quotes_ID_r2",
+      "date": "2026-10-04"
+     }
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://ai-law-tracker.com/laws/idaho",
+     "host": "ai-law-tracker.com",
+     "usedFor": "Lead to the 2026 conversational AI law"
+    }
+   ],
+   "note": "S1297 is a general chatbot law effective 2027-07-01. Its AI disclosure duty is not tied to health care. Prior authorization bills H611, H841 and H829 (2026) and H127 (2025) were not enacted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ID",
+    "note": "S1297 page shows Session Law Chapter 249, effective 07/01/2027. H0611, H0829 and H0841 (2026) did not pass. Code search for \"artificial intelligence\" found only 18-6606.",
+    "resolution": [
+     {
+      "rows": [
+       "Q145"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

@@ -8,7 +8,7 @@
    "Bronze": 55,
    "Below Bronze": 0
   },
-  "asOfRun": "2026-10-02",
+  "asOfRun": "2026-10-03",
   "inputs": [
    "data/*.json",
    "analysis/source_classes.csv",
@@ -20,7 +20,7 @@
   "classesNotAudited": 0,
   "classesAuditDefault": 0,
   "provisionalCountries": [],
-  "dataSha256": "ad2e13259970e1727b6bc4a0442f31ed62597d3e93b70bc6f5dd5b1bb221229f"
+  "dataSha256": "8b590f0126fe91e73c4e4b91e376d986948eea9de10494d344b477ab01bbffa2"
  },
  "countries": {
   "AFG": {
@@ -39177,31 +39177,30 @@
    "provisional": false
   },
   "USA": {
-   "dti": 91,
-   "dtiExact": 91.32,
+   "dti": 92,
+   "dtiExact": 92.43,
    "tier": "Platinum",
    "tierCapped": false,
    "primaryCategories": 8,
    "cells": {
     "access": {
-     "dti": 92,
-     "dtiExact": 91.83,
+     "dti": 93,
+     "dtiExact": 92.67,
      "tier": "Platinum",
      "tierCapped": false,
      "dims": {
-      "provenance": 90,
+      "provenance": 100,
       "consent": 88,
       "recency": 100,
-      "quality": 93,
+      "quality": 87,
       "concordance": 80,
       "validation": 100,
-      "breadth": 90,
+      "breadth": 70,
       "stability": 100
      },
-     "primaryShare": 0.75,
+     "primaryShare": 1.0,
      "classFrom": {
-      "audit": 2,
-      "audit_claim": 1,
+      "audit": 3,
       "audit_rule": 1
      },
      "uncheckedLinks": 0,
@@ -39259,15 +39258,15 @@
      "underReview": false
     },
     "commercial": {
-     "dti": 93,
-     "dtiExact": 93.0,
+     "dti": 94,
+     "dtiExact": 93.67,
      "tier": "Platinum",
      "tierCapped": false,
      "dims": {
       "provenance": 100,
       "consent": 100,
       "recency": 90,
-      "quality": 80,
+      "quality": 87,
       "concordance": 80,
       "validation": 100,
       "breadth": 70,
@@ -39284,18 +39283,18 @@
      "underReview": false
     },
     "journey": {
-     "dti": 91,
-     "dtiExact": 91.0,
+     "dti": 94,
+     "dtiExact": 94.0,
      "tier": "Platinum",
      "tierCapped": false,
      "dims": {
       "provenance": 100,
       "consent": 88,
-      "recency": 90,
+      "recency": 100,
       "quality": 100,
       "concordance": 80,
       "validation": 100,
-      "breadth": 40,
+      "breadth": 70,
       "stability": 100
      },
      "primaryShare": 1.0,
@@ -39309,21 +39308,21 @@
      "underReview": false
     },
     "clinical": {
-     "dti": 88,
-     "dtiExact": 87.88,
-     "tier": "Gold",
+     "dti": 92,
+     "dtiExact": 92.5,
+     "tier": "Platinum",
      "tierCapped": false,
      "dims": {
-      "provenance": 88,
+      "provenance": 100,
       "consent": 88,
-      "recency": 80,
+      "recency": 90,
       "quality": 100,
       "concordance": 80,
       "validation": 100,
       "breadth": 70,
       "stability": 100
      },
-     "primaryShare": 0.75,
+     "primaryShare": 1.0,
      "classFrom": {
       "audit": 3,
       "audit_rule": 1
@@ -39360,14 +39359,14 @@
     },
     "ai": {
      "dti": 96,
-     "dtiExact": 96.5,
+     "dtiExact": 95.83,
      "tier": "Platinum",
      "tierCapped": false,
      "dims": {
       "provenance": 100,
       "consent": 100,
       "recency": 100,
-      "quality": 100,
+      "quality": 93,
       "concordance": 80,
       "validation": 100,
       "breadth": 70,
@@ -39375,8 +39374,7 @@
      },
      "primaryShare": 1.0,
      "classFrom": {
-      "audit": 3,
-      "audit_rule": 1
+      "audit": 4
      },
      "uncheckedLinks": 0,
      "unverifiedText": false,

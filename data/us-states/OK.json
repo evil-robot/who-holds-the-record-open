@@ -1,0 +1,584 @@
+{
+ "usps": "OK",
+ "fips": "40",
+ "name": "Oklahoma",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "enacted_not_yet_effective",
+   "level": 0,
+   "pending": true,
+   "provisions": [
+    {
+     "title": "Oklahoma Consumer Data Privacy Act (SB 546, 2026), controller duties: sensitive data consent",
+     "citation": "SB 546 (2026) Section 7, to be codified at 75A O.S. Section 306",
+     "officialUrl": "https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/SB/SB546%20ENR.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Process the sensitive data of a consumer without obtaining the consumer’s consent or, in the case of processing the sensitive data of a known child, without processing that data in accordance with the Children’s Online Privacy Protection Act of 1998.",
+     "appliesTo": "SB 546 Section 15 (75A O.S. Section 314): a controller or processor that \"controls or processes personal data of at least one hundred thousand (100,000) consumers, or\" 25,000 consumers with over 50% of gross revenue from sale of personal data. Sensitive data includes \"personal data revealing racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexual orientation, or citizenship or immigration status,\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5bd0846753bb87ffbca103b59c9b4cd7edc7c7051740ab884387c7f009fc8646"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://www.oklegislature.gov/osStatuesTitle.aspx",
+    "terms": [
+     "consumer health data",
+     "sensitive data",
+     "health data consent",
+     "data broker"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.oklegislature.gov/BillInfo.aspx?Bill=SB546&Session=2600"
+    ],
+    "leadsChecked": [
+     "https://www.clym.io/blog/oklahoma-data-privacy-law",
+     "https://www.troutmanprivacy.com/2026/03/oklahoma-enacts-consumer-data-privacy-law/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.clym.io/blog/oklahoma-data-privacy-law",
+     "host": "www.clym.io",
+     "usedFor": "Found SB 546 and its effective date"
+    },
+    {
+     "url": "https://www.troutmanprivacy.com/2026/03/oklahoma-enacts-consumer-data-privacy-law/",
+     "host": "www.troutmanprivacy.com",
+     "usedFor": "Found SB 546 signing date"
+    },
+    {
+     "url": "https://www.okhouse.gov/posts/news-20260323_2",
+     "host": "www.okhouse.gov",
+     "usedFor": "Press release on SB 546 signing"
+    }
+   ],
+   "note": "SB 546 was approved by the Governor on 2026-03-20 and takes effect 2027-01-01. It requires consent to process sensitive data, including health diagnosis. No in-force Oklahoma law found that requires consent for non-HIPAA health data today.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OK",
+    "note": "SB 546 Section 7 (75A O.S. 306(B)(4)) quote verified. Bill page shows approval 03/20/2026; Section 22 sets 2027-01-01. My web and AG page search found no in-force consent law for non-HIPAA health data. Level 0, pending true."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [
+     "76 O.S. 19(A)(2): \"The cost of each copy to such person or to the personal representative, spouse or responsible family member of such person, not including any x-ray or other photograph or image or pathology slide, shall be fifty cents ($0.50) for each page.\"",
+     "76 O.S. 19(A)(2): providers and business associates \"shall produce the records in digital form at the rate of thirty cents ($0.30) per page if:\" the request can be met from an EHR, is asked for electronically, and can be delivered electronically.",
+     "76 O.S. 19(A)(2): \"In no event shall a charge for the reproduction of electronically stored and delivered medical records pursuant to this paragraph exceed Two Hundred Dollars ($200.00) plus postage or delivery fee.\"",
+     "76 O.S. 19(A)(2): providers \"shall not charge a person who requests their own record a fee for searching, retrieving, reviewing, and preparing medical records of the person.\"",
+     "76 O.S. 19(A)(2): printed x-ray or image $15.00; image on CD/DVD $20.00; $20.00 base fee for attorneys, insurers and subpoenas; $15.00 for certification."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Access to medical records - Copies",
+     "citation": "76 O.S. Section 19",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os76.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2021-11-01",
+     "firstEnacted": "1976-04-08",
+     "statusOfProvision": "in_force",
+     "quote": "The cost of each copy to such person or to the personal representative, spouse or responsible family member of such person, not including any x-ray or other photograph or image or pathology slide, shall be fifty cents ($0.50) for each page.",
+     "appliesTo": "A patient of \"a doctor, hospital or other medical institution\"; mental health and substance abuse records excluded and governed by 43A O.S. 1-109.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "24672668076601ab85c209378bc7d4fc83b10645d8e120b9d21324f697e3e098"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/oklahoma/title-76/section-76-19/",
+     "host": "law.justia.com",
+     "usedFor": "Located 76 O.S. 19"
+    },
+    {
+     "url": "https://www.law.cornell.edu/regulations/oklahoma/OAC-310-667-19-3",
+     "host": "www.law.cornell.edu",
+     "usedFor": "Checked hospital records rule; copies on tender of expense, no deadline"
+    },
+    {
+     "url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=SB423&Session=2600",
+     "host": "www.oklegislature.gov",
+     "usedFor": "SB 423 (2026) on records access was pocket vetoed 2026-06-01"
+    }
+   ],
+   "note": "No deadline and no free-copy case found. 76 O.S. 19 sets per-page fees and bars search and retrieval fees. Per-page caps are facts only and do not go beyond HIPAA and 45 CFR 171.302.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OK",
+    "note": "76 O.S. 19 last amended Laws 2021, c. 231, eff. 2021-11-01; OSCN shows no later change. No deadline, no free-copy case. beyondFederalFloor no: per-page caps and the search-fee bar do not exceed HIPAA plus 45 CFR 171.302. SB 423 pocket vetoed."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "MyHealth Access Network (State Designated Entity for OKSHINE)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "State-designated entity for health information exchange",
+     "citation": "63 O.S. Section 1-133",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2024-11-01",
+     "firstEnacted": "2021-05-24",
+     "statusOfProvision": "in_force",
+     "quote": "Patient-specific protected health information shall only be disclosed in compliance with relevant state or federal privacy laws, rules, regulations, or policies including, but not limited to, the Health Insurance Portability and Accountability Act of 1996.",
+     "appliesTo": "The state-designated entity and health care providers that report data to it.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "27f6c9519574bc1ce37edbf7b08038273bb6776ac7de9febbc63a9dde06a2c90"
+    },
+    {
+     "title": "OKSHINE FAQs, Oklahoma Health Care Authority (patient opt-out policy)",
+     "citation": "OHCA OKSHINE FAQ page, last modified Sep 22, 2026",
+     "officialUrl": "https://oklahoma.gov/ohca/okshine/faqs.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-22",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Your information is automatically included in the HIE if your doctor participates. However, you have the option to opt out if you don’t want your health data shared.",
+     "appliesTo": "Patients of providers that participate in the HIE run by MyHealth Access Network, the State Designated Entity. Opt-out needs a notarized form.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0dda37ad6ff7a1f56d953064eab6eefc16ebf3973da76a79787cfcc3a6262ecd"
+    },
+    {
+     "title": "Confidential and privileged information - disclosure",
+     "citation": "43A O.S. 1-109(D), (E)(1)",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os43A.pdf",
+     "effectiveDate": "2013-11-01",
+     "quote": "Except as otherwise permitted, mental health and alcohol or substance abuse treatment information may not be disclosed without valid patient authorization or a valid court order issued by a court of competent jurisdiction.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "66f76d42e5ff0a27f7600a1fe0451ff518656b16951f24801963170f2f07dace",
+     "statusOfProvision": "in_force"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://myhealthaccess.net/opt-out/",
+     "host": "myhealthaccess.net",
+     "usedFor": "HIE's own opt-out page, linked from the OHCA FAQ; confirms opt-out; no date shown"
+    },
+    {
+     "url": "https://oklahoma.gov/ohca/policies-and-rules/proposed-changes/2023/statewidehie.html",
+     "host": "oklahoma.gov",
+     "usedFor": "OHCA rule history on provider exemptions"
+    }
+   ],
+   "note": "The statute defers to HIPAA and is silent on patient choice. OHCA states records are included unless the patient opts out by notarized form. 43A O.S. 1-109 requires authorization for substance abuse treatment data, even between providers. OAC 317:30-3-35 exempts 42 CFR Part 2 facilities from reporting.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_OK",
+    "note": "Value opt_out, basis hie_policy, confirmed. 63 O.S. 1-133 and OAC 317:30-3-35 set no general patient choice. FAQ last modified 2026-09-22. Substance abuse treatment data needs authorization under state law, so stricterForSensitive is true.",
+    "problems": [
+     "stricterForSensitive should be true: 43A O.S. 1-109(D) requires patient authorization for mental health and substance abuse treatment information, and 1-109(E)(1) leaves substance abuse information out of the provider-to-provider exception.",
+     "Note says no state rule requires consent for a sensitive category; 43A O.S. 1-109(D) does.",
+     "Researcher missed OHCA rule OAC 317:30-3-35, which exempts 42 CFR Part 2 facilities and lets providers exclude data on patient request."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q062"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Identity of woman upon whom abortion performed - Disclosure",
+      "citation": "63 O.S. Section 1-738.3h",
+      "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2012-09-01",
+      "firstEnacted": "2012-09-01",
+      "statusOfProvision": "in_force",
+      "quote": "In the absence of written consent of the female upon whom an abortion has been performed or attempted, anyone, other than a public official, who brings an action under this act shall do so under a pseudonym.",
+      "appliesTo": "Civil actions under the act containing 63 O.S. 1-738.3d to 1-738.3k. Section 1-738k also bars patient-identifying information on the Individual Abortion Form.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "27f6c9519574bc1ce37edbf7b08038273bb6776ac7de9febbc63a9dde06a2c90"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 1-738.3h limits disclosure of the patient's identity in court actions. Section 1-738k bars the patient's name and address from the abortion report form. A 2021 conditional repeal was itself repealed in 2022.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OK",
+     "note": "63 O.S. 1-738.3h added Laws 2012, c. 198, eff. 2012-09-01. Page note says the 2021 conditional repeal was repealed in 2022. Section 1-738k bars patient-identifying data on the abortion report form."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidential and privileged information - Disclosure",
+      "citation": "43A O.S. Section 1-109",
+      "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os43A.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2013-11-01",
+      "firstEnacted": "1987-11-01",
+      "statusOfProvision": "in_force",
+      "quote": "Except as otherwise provided in this section, such information shall not be disclosed to anyone not involved in the treatment of the patient or related administrative work.",
+      "appliesTo": "\"All mental health and drug or alcohol abuse treatment information, whether or not recorded, and all communications between a physician or licensed mental health professional\" and a consumer.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "66f76d42e5ff0a27f7600a1fe0451ff518656b16951f24801963170f2f07dace"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Mental health and substance use treatment information is privileged and confidential. Section 1-109(C) lists required elements of a written release. 76 O.S. 19 routes access to these records through this section.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OK",
+     "note": "43A O.S. 1-109 last amended Laws 2013, c. 155, eff. 2013-11-01; first added 1987. Subsection C lists written release elements. Subsection D says a subpoena alone does not authorize disclosure."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Exposure of prescriptions and records - Disclosure",
+      "citation": "63 O.S. Section 1-525",
+      "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2020-11-01",
+      "firstEnacted": "1963-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "No information shall be given to any person concerning any infected person except to persons authorized pursuant to Sections",
+      "appliesTo": "Infected persons with an STI. 63 O.S. 1-517: \"The term \"sexually transmitted infection (STI)\" means syphilis, gonorrhea, chlamydia, human immunodeficiency virus (HIV)/acquired immune deficiency syndrome (AIDS)\"",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "27f6c9519574bc1ce37edbf7b08038273bb6776ac7de9febbc63a9dde06a2c90"
+     },
+     {
+      "title": "Certain information to be confidential - HIV multidisciplinary teams",
+      "citation": "63 O.S. Section 1-502.2(C)",
+      "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2021-04-20",
+      "firstEnacted": "1988-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "The State Department of Health may convene a confidential meeting of a multidisciplinary team for recommendation on school placement of a student who is infected with the human immunodeficiency virus.",
+      "appliesTo": "Reportable disease records held by the State Department of Health; HIV-specific rules for students and health care workers.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "27f6c9519574bc1ce37edbf7b08038273bb6776ac7de9febbc63a9dde06a2c90"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 1-525 limits release of STI records, including HIV. Section 1-502.2 makes reportable disease records confidential, sets written consent rules, and names HIV in subsections C to F.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OK",
+     "note": "63 O.S. 1-525 last amended Laws 2020, c. 9, eff. 2020-11-01. Section 1-517 defines STI to include HIV. Section 1-502.2, amended eff. 2021-04-20, sets written consent rules for reportable disease records.",
+     "resolution": [
+      {
+       "rows": [
+        "Q093"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of genetic information",
+      "citation": "36 O.S. Section 3614.3",
+      "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os36.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "1998-07-01",
+      "firstEnacted": "1998-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "No person who maintains genetic information shall be compelled to disclose such information pursuant to a request for compulsory disclosure in any judicial, legislative, or administrative proceeding, unless:",
+      "appliesTo": "Any person who maintains genetic information; life, disability income and long-term care insurance excluded.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "58cc0f4ded67eb7f2c1a34ea14ecc944793a8aeb6c68b55822164c8edc0fd837"
+     },
+     {
+      "title": "Genetic Research Studies Nondisclosure Act",
+      "citation": "36 O.S. Section 3614.4(C)",
+      "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os36.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "1999-11-01",
+      "firstEnacted": "1999-11-01",
+      "statusOfProvision": "in_force",
+      "quote": "The records shall not be disclosed to employers or health insurers without the informed consent of the subject.",
+      "appliesTo": "Research records of individual subjects in IRB-approved genetic research studies.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "58cc0f4ded67eb7f2c1a34ea14ecc944793a8aeb6c68b55822164c8edc0fd837"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 3614.3 limits compelled disclosure of genetic information in proceedings, with four exceptions. Section 3614.4 requires informed consent before genetic research records go to employers or health insurers.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OK",
+     "note": "36 O.S. 3614.3 eff. 1998-07-01 and 3614.4 eff. 1999-11-01, neither amended. Both exclude life, disability income and long-term care insurance."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "statutoryDamages": "None fixed. 63 O.S. 1-502.2(H) allows court costs, attorney fees, exemplary damages and all actual damages."
+   },
+   "provisions": [
+    {
+     "title": "Certain information to be confidential - Wrongful disclosure",
+     "citation": "63 O.S. Section 1-502.2(H)",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2021-04-20",
+     "firstEnacted": "1988-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any person who negligently, knowingly or intentionally discloses or fails to protect medical or epidemiological information classified as confidential pursuant to this section shall be civilly liable to the person who is the subject of the disclosure for court costs, attorney fees, exemplary damages and all actual damages",
+     "appliesTo": "Information held by the State Department of Health about reportable communicable or noncommunicable diseases and public health investigations.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "27f6c9519574bc1ce37edbf7b08038273bb6776ac7de9febbc63a9dde06a2c90"
+    },
+    {
+     "title": "Oklahoma Consumer Data Privacy Act (SB 546, 2026), enforcement",
+     "citation": "SB 546 (2026) Section 14(E), to be codified at 75A O.S. Section 313",
+     "officialUrl": "https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/SB/SB546%20ENR.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Nothing in this act shall be construed as providing a basis for, or being subject to, a private right of action for a violation of this act or any other provision of law.",
+     "appliesTo": "Controllers and processors covered by SB 546.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5bd0846753bb87ffbca103b59c9b4cd7edc7c7051740ab884387c7f009fc8646"
+    },
+    {
+     "title": "Security Breach Notification Act, enforcement",
+     "citation": "24 O.S. Section 165",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os24.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2008-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "the Attorney General or a district attorney shall have exclusive authority to bring an action and may obtain actual damages for a violation of the Security Breach Notification Act",
+     "appliesTo": "Breach notification duties under 24 O.S. 161 to 166.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fba8ce37f8c3abbd3222bbde446795f09e1598ffb2379e7a391a353c7aac5eaf"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Suit allowed only for wrongful disclosure of state health department disease records. The breach act gives the AG and district attorneys exclusive authority. SB 546, effective 2027-01-01, bars a private right of action.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OK",
+    "note": "63 O.S. 1-502.2(H) covers only health department disease records, a narrow category. My search of Titles 36, 43A and 63 found no general right to sue. SB 546 Section 14(E), eff. 2027-01-01, bars a private right."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Security Breach Notification Act, definitions",
+     "citation": "24 O.S. Section 162(6)",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os24.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2008-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "“Personal information” means an individual’s first name or first initial and last name in combination with any one or more of the following data elements that relate to the individual",
+     "appliesTo": "Listed elements are SSN, government ID number, financial account or card numbers with codes, electronic identifier with codes, and biometric data. No medical or health insurance element.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fba8ce37f8c3abbd3222bbde446795f09e1598ffb2379e7a391a353c7aac5eaf"
+    },
+    {
+     "title": "Duty to provide notice of breach, Attorney General notice",
+     "citation": "24 O.S. Section 163(E)",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os24.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2008-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "shall also provide notice to the Attorney General of such breach without unreasonable delay but in no event more than sixty (60) days after providing notice to impacted residents of this state as required by this section.",
+     "appliesTo": "Breaches affecting 500 or more Oklahoma residents (1,000 for credit bureaus).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fba8ce37f8c3abbd3222bbde446795f09e1598ffb2379e7a391a353c7aac5eaf"
+    },
+    {
+     "title": "Notice procedures deemed in compliance",
+     "citation": "24 O.S. Section 164(B)(2)",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os24.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2008-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "An entity that complies with the notification requirements prescribed by the Oklahoma Hospital Cybersecurity Protection Act of 2023 or the Health Insurance Portability and Accountability Act of 1996 (HIPAA); and",
+     "appliesTo": "Deemed compliant only if the entity also gives the Attorney General notice under Section 163(E).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fba8ce37f8c3abbd3222bbde446795f09e1598ffb2379e7a391a353c7aac5eaf"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.workplaceprivacyreport.com/2025/06/articles/data-breach-notification/oklahoma-expands-its-security-breach-notification-law/",
+     "host": "www.workplaceprivacyreport.com",
+     "usedFor": "Found SB 626 (2025)"
+    },
+    {
+     "url": "https://www.constangy.com/constangy-cyber-advisor/all-about-oklahomas-security-breach-notification-acts-newest-reform-sb-626",
+     "host": "www.constangy.com",
+     "usedFor": "Found SB 626 (2025)"
+    }
+   ],
+   "note": "SB 626 (Laws 2025, c. 406), effective 2026-01-01, added government ID and biometric data but not medical or health insurance data. Enrolled SB 626 text checked. Some secondary sources say otherwise.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OK",
+    "note": "24 O.S. 162(6), amended Laws 2025, c. 406, eff. 2026-01-01, lists SSN, ID number, financial data and biometric data only. AG notice within 60 days for 500 or more residents. HIPAA-compliant entities deemed compliant if AG told."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [
+    {
+     "title": "Requirements for assessment mechanisms (remote eye assessments)",
+     "citation": "59 O.S. Section 646.2(B)",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os59.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2019-11-01",
+     "firstEnacted": "2019-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "An Oklahoma-licensed optometrist shall: 1. Read and interpret the diagnostic information and data, including any photographs and scans, gathered by the assessment mechanism;",
+     "appliesTo": "Eye assessments and eyewear prescriptions only. Section 646.2(E) says it shall not apply beyond ocular health and eye care.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a45d3e3e2af74cee7526fdb856c07bb65e4e5fd06b68fed9ff7c959d86c13e26"
+    },
+    {
+     "title": "Definitions, assessment mechanism",
+     "citation": "59 O.S. Section 646.1(1)",
+     "officialUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os59.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2019-11-01",
+     "firstEnacted": "2019-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "includes artificial intelligence devices and any equipment, electronic or nonelectronic, that is used to perform an eye assessment;",
+     "appliesTo": "Definition of \"assessment mechanism\" for 59 O.S. 646.1 to 646.4.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a45d3e3e2af74cee7526fdb856c07bb65e4e5fd06b68fed9ff7c959d86c13e26"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.kgou.org/politics-and-government/2026-06-18/oklahoma-holding-back-on-ai-regulations-amid-trumps-order-for-states-not-to-stifle-the-new-technology",
+     "host": "www.kgou.org",
+     "usedFor": "2026 session AI bills; no health AI bill passed"
+    },
+    {
+     "url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB3675&Session=2600",
+     "host": "www.oklegislature.gov",
+     "usedFor": "HB 3675 (AI in utilization review) stayed in Rules committee"
+    },
+    {
+     "url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=SB1967&Session=2600",
+     "host": "www.oklegislature.gov",
+     "usedFor": "SB 1967 (AI in utilization review) stayed in committee"
+    }
+   ],
+   "note": "Only element found: an optometrist must read and interpret data from remote eye assessment tools, defined to include AI devices. Narrow scope. No AI disclosure or human review rule for coverage found in Titles 36, 59 or 63.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OK",
+    "note": "59 O.S. 646.1 and 646.2, eff. 2019-11-01, eye care only. The 646.2(C) disclosure does not name AI. SB 1967 and HB 3675 (2026) died in committee. No AI terms found in Titles 36 or 63.",
+    "resolution": [
+     {
+      "rows": [
+       "Q208"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

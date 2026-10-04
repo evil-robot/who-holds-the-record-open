@@ -1,0 +1,594 @@
+{
+ "usps": "NH",
+ "fips": "33",
+ "name": "New Hampshire",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "New Hampshire Privacy Act, controller responsibilities (sensitive data consent)",
+     "citation": "RSA 507-H:6, I(d)",
+     "officialUrl": "https://gc.nh.gov/rsa/html/LII/507-H/507-H-6.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2025-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Not process sensitive data concerning a consumer without obtaining the consumer's consent",
+     "appliesTo": "Controlled or processed the personal data of not less than 35,000 unique consumers",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4e8700cd6616ec82e7c7a7a8518af599495cc328d6ff9eec6059ae939533ec5e"
+    },
+    {
+     "title": "New Hampshire Privacy Act, definition of sensitive data",
+     "citation": "RSA 507-H:1, XXVIII",
+     "officialUrl": "https://gc.nh.gov/rsa/html/LII/507-H/507-H-1.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2025-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Sensitive data\" means personal data that includes data revealing racial or ethnic origin, religious beliefs, mental or physical health condition or diagnosis",
+     "appliesTo": "Controllers covered by RSA 507-H:2. Protected health information under HIPAA is exempt (RSA 507-H:3).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "50acd5ce3d9840be9aa26e7c17a04463c5212bc6bdc2ac2cb5d5af8b9702d474"
+    },
+    {
+     "title": "New Hampshire Privacy Act, application thresholds",
+     "citation": "RSA 507-H:2, I",
+     "officialUrl": "https://gc.nh.gov/rsa/html/LII/507-H/507-H-2.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2025-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Controlled or processed the personal data of not less than 35,000 unique consumers",
+     "appliesTo": "Controlled or processed the personal data of not less than 35,000 unique consumers; or 10,000 consumers with more than 25 percent of gross revenue from the sale of personal data.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "71c6d7fa75b801a1fc9a7fc2fa3013439d18da86c7b551893428946a71e0e7b3"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.whitecase.com/insight-alert/new-hampshire-enacts-comprehensive-data-privacy-law",
+     "host": "www.whitecase.com",
+     "usedFor": "Locating the New Hampshire Privacy Act (SB 255, 2024)"
+    }
+   ],
+   "note": "RSA 507-H requires consent to process sensitive data, which includes mental or physical health condition or diagnosis. In force since 1 Jan 2025. No dedicated consumer health data law found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NH",
+    "note": "All three quotes are verbatim on gc.nh.gov. History notes show 2024, 5:1 and 229, eff. Jan. 1, 2025. The 2026 ch. 168 change adds I(e-1) on child data, eff. Jan. 1, 2027, and does not touch health data."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 14,
+    "freeCopyCases": [
+     "Request by the patient's health care provider: transfer within 14 days at no cost (RSA 332-I:1, I(f))",
+     "Records not provided within 30 days of a requestor's request are free (RSA 332-I:1, I(d))",
+     "Records provided on additional requests after an incomplete copy are free (RSA 332-I:1, I(e))"
+    ],
+    "feeRules": [
+     "Requestor, electronic copies: \"the cost for electronic copies of the patient's medical records, and all related services, shall be charged at a reasonable rate not to exceed $50.00\"",
+     "Requestor, paper copies: \"shall not exceed $5 for the first page, $.41 per page for pages 2 through 50, and $.30 per page for pages 51 and higher\"",
+     "Requested redactions: up to $25 per hour of labor"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Medical records; provider-to-provider transfer within 14 days at no cost",
+     "citation": "RSA 332-I:1, I(f)",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXX/332-I/332-I-1.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Notwithstanding any other provision of law, when the requestor of medical records is the person's health care provider, the requested transfer must be made within 14 days of the request at no cost",
+     "appliesTo": "Health care providers and their third-party records vendors; requests by the patient's health care provider",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fb29ef34acc1158ab9a605cd2525b33c87b5f98b9957f74e7c4e912b3c613d86"
+    },
+    {
+     "title": "Medical records; 30-day deadline for requestors, late records free",
+     "citation": "RSA 332-I:1, I(d)",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXX/332-I/332-I-1.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "any records not provided within 30 days shall be provided at no cost",
+     "appliesTo": "a \"requestor\" means the patient's personal representative, the patient's health care provider, an individual authorized to access the patient's medical record through a valid power of attorney, or the patient's attorney",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fb29ef34acc1158ab9a605cd2525b33c87b5f98b9957f74e7c4e912b3c613d86"
+    },
+    {
+     "title": "Medical records; fee caps for requestors",
+     "citation": "RSA 332-I:1, I(b)",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXX/332-I/332-I-1.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the cost for electronic copies of the patient's medical records, and all related services, shall be charged at a reasonable rate not to exceed $50.00",
+     "appliesTo": "Requests by a requestor as defined in RSA 332-I:1, I(a)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fb29ef34acc1158ab9a605cd2525b33c87b5f98b9957f74e7c4e912b3c613d86"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/new-hampshire/title-xxx/chapter-332-i/section-332-i-1/",
+     "host": "law.justia.com",
+     "usedFor": "Locating RSA 332-I:1 and its 2025 amendments"
+    }
+   ],
+   "note": "Both elements rest on provider requests: 14-day free transfer. Late records (over 30 days) are also free. Beyond the HIPAA and Part 171 floor. effectiveDate is the section's latest amendment (2025 ch. 233).",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NH",
+    "note": "beyondFederalFloor yes. A 14-day free transfer to the patient's provider is shorter than 30 days and free for continuing care. Patients themselves are not requestors. Latest amendment is 2025, 233:1, eff. Sept. 13, 2025."
+   }
+  },
+  "hie_consent": {
+   "status": "not_checked",
+   "value": null,
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Use and disclosure of protected health information; health information exchange",
+     "citation": "RSA 332-I:3, VI",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXX/332-I/332-I-3.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2014-09-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An individual shall be given an opportunity to opt out of sharing his or her name and address and his or her protected health care information through the health information organization",
+     "appliesTo": "Exchange through the health information organization",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "785597431c9b4179fbe863cfbc11797f9cea7754d526a250016970c28436d7c7"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://maehc.org/client-profiles/new-hampshire-health-information-organization-nhhio",
+     "host": "maehc.org",
+     "usedFor": "Background on the NH Health Information Organization"
+    },
+    {
+     "url": "https://law.justia.com/codes/new-hampshire/2023/title-xxx/chapter-332-i/section-332-i-3/",
+     "host": "law.justia.com",
+     "usedFor": "Locating RSA 332-I:3"
+    }
+   ],
+   "note": "RSA 332-I:3, VI is kept as a fact only. Its entity (RSA 332-I:1, II(c)) was repealed by 2020, 37:4, XXIII, eff. July 29, 2020.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_NH",
+    "note": "Section text is still in the code but its HIO definition was repealed in 2020. nhhio.org does not resolve. The DHHS HIE page returned HTTP 403. No current state-designated HIE or opt-out form found.",
+    "problems": [
+     "opt_out requires a published way to say no; researcher found no published opt-out and no designated HIE.",
+     "The 2020 act ch. 37 repealed the statutory definition of the health information organization and its board (RSA 332-I:1, II(c); 332-I:7 to 332-I:10).",
+     "RSA 332-I:3, VI names an entity that no longer has a statutory basis, so no operative state rule or current HIE policy was found."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q053"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "enacted_not_yet_effective",
+    "value": "none_in_force",
+    "pending": true,
+    "provisions": [
+     {
+      "citation": "RSA 329:49-a, II",
+      "officialUrl": "https://gc.nh.gov/rsa/html/XXX/329/329-49-a.htm",
+      "effectiveDate": "2027-07-01",
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "These reports shall not identify the patient or health care provider by name or include other personally identifiable information.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b20f473ea744119b36eaf335684938845a09ce0c3272a0f1b7931f30c58faec1"
+     }
+    ],
+    "searchLog": {
+     "codeSearchUrl": "https://gc.nh.gov/rsa/html/nhtoc.htm",
+     "terms": [
+      "reproductive health care records",
+      "abortion records confidentiality",
+      "RSA 132 table of contents",
+      "RSA 329 reproductive",
+      "shield law"
+     ],
+     "regulatorPagesChecked": [
+      "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-X-132.htm",
+      "https://gc.nh.gov/rsa/html/XXX/329/329-mrg.htm"
+     ],
+     "leadsChecked": [
+      "https://www.citizenscount.org/bills/sb-551-2026",
+      "https://newhampshirebulletin.com/2026/02/17/democrats-propose-new-hampshire-abortion-and-reproductive-health-shield-law/"
+     ],
+     "searchedAt": "2026-10-03"
+    },
+    "leads": [
+     {
+      "url": "https://www.citizenscount.org/bills/sb-551-2026",
+      "host": "www.citizenscount.org",
+      "usedFor": "Status of SB 551 (2026), a records shield bill killed in the Senate"
+     }
+    ],
+    "note": "No in-force statute on reproductive records found. SB 551 (2026) was killed in the Senate. RSA 132 holds no records rule. AG and DHHS sites returned HTTP 403.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_NH",
+     "note": "No in-force reproductive health record rule found. RSA 329:49-a takes effect July 1, 2027 (2025, 287:14; 2026, 15:1). Record it in provisions[] with pending true.",
+     "problems": [
+      "pending should be true: RSA 329:49-a, enacted 2025, 287:14, eff. July 1, 2027, bars identifying data in abortion reports.",
+      "Search log claim that RSA 329 holds no records rule is incorrect; 329:49-a is in RSA 329.",
+      "RSA 132:34, II(b) seals minor abortion waiver court records; these are court records, not health records, so this cell does not count them."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q054",
+        "Q217"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental health practice; privileged communications",
+      "citation": "RSA 330-A:32",
+      "officialUrl": "https://gc.nh.gov/rsa/html/XXX/330-A/330-A-32.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2019-09-08",
+      "firstEnacted": "1998-10-31",
+      "statusOfProvision": "in_force",
+      "quote": "The confidential relations and communications between any person licensed under provisions of this chapter and such licensee's client are placed on the same basis as those provided by law between attorney and client",
+      "appliesTo": "Persons licensed under RSA 330-A and persons under their supervision",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "c8aba8bb1465df25c83c32a82cfd113a38d6aa2235eb0978d86b0a49dba25a36"
+     },
+     {
+      "title": "Mental health services system; disclosure of certain information",
+      "citation": "RSA 135-C:19-a, I",
+      "officialUrl": "https://www.gencourt.state.nh.us/rsa/html/X/135-C/135-C-19-a.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2008-05-21",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Prior to the disclosure, the mental health center or facility shall request in writing the consent of the client.",
+      "appliesTo": "Community mental health centers and state facilities serving seriously or chronically mentally ill clients",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "2f535cded7f7e572b70b94422514dfddf73d2d8f3ae5820599aa00291ad2b82e"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "RSA 330-A:32 gives client communications the status of attorney-client privilege. RSA 135-C:19-a sets consent steps for disclosure to family members.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NH",
+     "note": "Quotes are verbatim. RSA 330-A:32 was last amended 2019, 200:1, eff. Sept. 8, 2019. RSA 135-C:19-a was last amended 2008, 61:2, eff. May 21, 2008. The gencourt URL redirects to gc.nh.gov."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV testing; confidentiality; release of information",
+      "citation": "RSA 141-F:8, I",
+      "officialUrl": "https://gc.nh.gov/rsa/html/X/141-F/141-F-8.htm",
+      "linkedFrom": null,
+      "effectiveDate": "1995-11-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The identity of a person tested for the human immunodeficiency virus shall not be disclosed except as provided in RSA 141-F:7 and RSA 141-F:8, III, IV and V",
+      "appliesTo": "Any person holding the identity of a person tested for HIV",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a3cb6abbdfb2ef1f8e8a05eca7fe3e1d239ef0ee564edf1b9b01e88f85904608"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "RSA 141-F:8 limits disclosure of the identity of a person tested for HIV. Written authorization permits disclosure under paragraph III.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NH",
+     "note": "Quote is verbatim. History note shows 1995, 310:175, eff. Nov. 1, 1995. Paragraph II also makes testing records confidential."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic testing; disclosure of testing and results",
+      "citation": "RSA 141-H:2, III",
+      "officialUrl": "https://gc.nh.gov/rsa/html/X/141-H/141-H-2.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2023-10-03",
+      "firstEnacted": "1996-01-01",
+      "statusOfProvision": "in_force",
+      "quote": "no person shall disclose to any other person that an individual has undergone genetic testing, and no person shall disclose the results of such testing to any other person, without the prior written and informed consent of the individual",
+      "appliesTo": "Any person",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "02bf9adf7e45b895a01bd032db27f46b56830279db0ac2c6966260a2ce9197e9"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "RSA 141-H:2 requires prior written and informed consent to disclose that a person had a genetic test or its results.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NH",
+     "note": "Quote is verbatim. Latest amendment is 2023, 230:1, eff. Oct. 3, 2023. Chapter first enacted by 1995, 101:1, eff. Jan. 1, 1996."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Not less than $1,000 per violation (RSA 332-I:6, RSA 141-H:6). HIV identity disclosure: actual damages plus civil penalty up to $5,000 (RSA 141-F:10). Breach: actual damages, 2 to 3 times if willful (RSA 359-C:21)."
+   },
+   "provisions": [
+    {
+     "title": "Medical records; complaints; right of action (marketing and fundraising)",
+     "citation": "RSA 332-I:6",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXX/332-I/332-I-6.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2010-01-01",
+     "firstEnacted": "2010-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "An aggrieved individual may bring a civil action under RSA 332-I:4 or RSA 332-I:5 and, if successful, shall be awarded special or general damages of not less than $1,000 for each violation",
+     "appliesTo": "Health care providers and business associates; marketing and fundraising uses under RSA 332-I:4 and 332-I:5",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9520c7ff36ef15ff5df622c790f37ebe8914f7a903e161592429205d47e05b30"
+    },
+    {
+     "title": "Genetic testing; civil action",
+     "citation": "RSA 141-H:6",
+     "officialUrl": "https://gc.nh.gov/rsa/html/X/141-H/141-H-6.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1996-01-01",
+     "firstEnacted": "1996-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "An aggrieved individual may bring a civil action under this chapter and, if successful, shall be awarded special or general damages of not less than $1,000 for each violation",
+     "appliesTo": "Violations of RSA 141-H (genetic testing)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4cc3220f1636e206f398695bec4f26c7f753603a89a8cfb649b07d1d66b2b498"
+    },
+    {
+     "title": "HIV testing; civil liability",
+     "citation": "RSA 141-F:10",
+     "officialUrl": "https://gc.nh.gov/rsa/html/X/141-F/141-F-10.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1988-04-30",
+     "firstEnacted": "1988-04-30",
+     "statusOfProvision": "in_force",
+     "quote": "Any person who purposely violates RSA 141-F:7, I or RSA 141-F:8, I and thereby discloses the identity of a person infected by a human immunodeficiency virus shall be liable to such person for actual damages, court costs and attorneys' fees",
+     "appliesTo": "Purposeful disclosure of HIV test identity or results",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "70861466333b7df23d0f003dae3df2aec537cb68e76ba7000dac3c4b63bb8651"
+    },
+    {
+     "title": "Security breach; violation; private action",
+     "citation": "RSA 359-C:21, I",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXXI/359-C/359-C-21.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2007-01-01",
+     "firstEnacted": "2007-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any person injured by any violation under this subdivision may bring an action for damages and for such equitable relief, including an injunction, as the court deems necessary and proper",
+     "appliesTo": "Breach notification duties under RSA 359-C:19 to 359-C:21",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fde06c9c616f2fea13829e9bf73df38ec193b8843e22cdb28f05fae417e4f852"
+    },
+    {
+     "title": "New Hampshire Privacy Act; enforcement; no private right of action",
+     "citation": "RSA 507-H:11, IV",
+     "officialUrl": "https://gc.nh.gov/rsa/html/LII/507-H/507-H-11.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2025-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in this chapter shall be construed as providing the basis for, or be subject to, a private right of action",
+     "appliesTo": "RSA 507-H",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6842ac8cb1657be0fa2559c6368506f4514683b221bfaf4f9e8e489db3ecfe28"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Private actions exist for marketing and fundraising misuse of records, genetic testing, HIV disclosure and data breach. No general action for unlawful use or disclosure of records. RSA 507-H bars private suits.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_NH",
+    "note": "Both sections sit in the Patients' Bill of Rights subdivision. RSA 151:30 dates from 1983, 274:10, eff. Aug. 17, 1983. RSA 151:21 was last amended 2025, 287:11, 12, eff. July 1, 2025. Damages: $50 per violation per day or actual damages.",
+    "problems": [
+     "Missed RSA 151:21, X and 151:30: patients of licensed facilities may sue over release of clinical record information without written consent.",
+     "That right covers disclosure of medical records generally at licensed facilities, not one narrow category, so level 2 applies, not 1.",
+     "Researcher quotes for RSA 332-I:6, 141-H:6, 141-F:10, 359-C:21 and 507-H:11 are verbatim and correctly dated."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q173"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     },
+     {
+      "rows": [
+       "Q055"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "as quickly as possible",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Security breach; definitions (personal information)",
+     "citation": "RSA 359-C:19, IV(a)",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXXI/359-C/359-C-19.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2007-01-01",
+     "firstEnacted": "2007-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Personal information\" means an individual's first name or initial and last name in combination with any one or more of the following data elements",
+     "appliesTo": "Elements listed: Social security number; Driver's license number or other government identification number; Account number, credit card number, or debit card number",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fe556661703e7cdba9a1665babaa2538363196f1d99a3317bb8db3891ed911f2"
+    },
+    {
+     "title": "Notification of security breach required",
+     "citation": "RSA 359-C:20, I(b)",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXXI/359-C/359-C-20.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2007-01-01",
+     "firstEnacted": "2007-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "The disclosure shall be made to affected individuals as quickly as possible, after the determination required under this section",
+     "appliesTo": "Any person doing business in this state who owns or licenses computerized data that includes personal information; All other persons shall notify the New Hampshire attorney general's office",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c96185c7a599f28e0e8ecba328cd2b2e8ed70eca8024da36e7aa47a808b09758"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Definition lists SSN, ID numbers and financial account numbers only. Neither medical nor health insurance information is included. RSA 359-C:20, V deems regulated businesses compliant if they follow their regulator's rules; HIPAA is not named.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NH",
+    "note": "Elements are SSN, government ID and financial account numbers only. Source 2006, 242:1, eff. Jan. 1, 2007, with no later amendment. Notice goes to the regulator or AG. RSA 359-C:20, V does not name HIPAA."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://gc.nh.gov/rsa/html/nhtoc.htm",
+    "terms": [
+     "artificial intelligence",
+     "RSA 5-D",
+     "RSA 420-J utilization review",
+     "algorithm",
+     "automated decision",
+     "HB 1406",
+     "SB 640"
+    ],
+    "regulatorPagesChecked": [
+     "https://gc.nh.gov/rsa/html/XXXVII/420-J/420-J-6.htm",
+     "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXXVII-420-J.htm",
+     "https://gc.nh.gov/rsa/html/I/5-D/5-D-mrg.htm",
+     "https://www.insurance.nh.gov/sites/g/files/ehbemt861/files/inline-documents/sonh/ins-2000-public-comments.pdf"
+    ],
+    "leadsChecked": [
+     "https://www.citizenscount.org/bills/hb-1406-2026",
+     "https://newhampshirebulletin.com/2025/12/15/bills-seek-to-promote-telemedicine-and-regulate-ai-in-new-hampshires-health-insurance-industry/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.citizenscount.org/bills/hb-1406-2026",
+     "host": "www.citizenscount.org",
+     "usedFor": "Status of HB 1406 (2026), AI in insurer claims, killed in the Senate"
+    }
+   ],
+   "note": "No AI rule for care or coverage found. RSA 5-D covers state agency AI use and does not name health care. HB 1406 (2026) was killed. Insurance Department page returned HTTP 403.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NH",
+    "note": "Own search: no 'artificial intelligence' text in RSA 420-J, 330-A, 329, 329-B, 330-C or 310 on gc.nh.gov, including future-effective text. RSA 5-D covers state agencies only. HB 1725 (2026) was found inexpedient."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

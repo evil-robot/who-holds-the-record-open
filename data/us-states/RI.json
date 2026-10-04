@@ -1,0 +1,589 @@
+{
+ "usps": "RI",
+ "fips": "44",
+ "name": "Rhode Island",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Rhode Island Data Transparency and Privacy Protection Act, Processing of information",
+     "citation": "R.I. Gen. Laws § 6-48.1-4(c)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE6/6-48.1/6-48.1-4.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "The controller shall not process sensitive data concerning a customer without obtaining customer consent",
+     "appliesTo": "Controlled or processed the personal data of not less than thirty-five thousand (35,000) customers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b98f77a22f50b2dacf236453db3fef02e1a21de611fd455ebde59b956ef786bd"
+    },
+    {
+     "title": "Rhode Island Data Transparency and Privacy Protection Act, Definitions (sensitive data)",
+     "citation": "R.I. Gen. Laws § 6-48.1-2(26)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE6/6-48.1/6-48.1-2.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "means personal data that includes data revealing racial or ethnic origin, religious beliefs, mental or physical health condition or diagnosis, sex life,",
+     "appliesTo": "Also: Controlled or processed the personal data of not less than ten thousand (10,000) customers and derived more than twenty percent (20%) of their gross revenue from the sale of personal data.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "28b50951980d91107e6b1340377bde2ea0d78bffb3735cf0e1fdba582050032d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.kelleydrye.com/state-privacy-laws/rhode-island-data-transparency-and-privacy-protection-act",
+     "host": "kelleydrye.com",
+     "usedFor": "Locating the RI comprehensive privacy act"
+    }
+   ],
+   "note": "Comprehensive privacy law in force since 1 January 2026 requires consent to process sensitive data, which includes mental or physical health condition or diagnosis. No dedicated consumer health data law found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_RI",
+    "note": "Quotes, citations and the 2026-01-01 date match the code pages. Minor: firstEnacted should be the 2024 enactment (P.L. 2024 ch. 430), and the 10,000-customer threshold is in 6-48.1-4(a)(2), not 6-48.1-2."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "Health care facilities: no charge for a record needed to support a Social Security Act appeal, a workers' compensation claim, or a veteran's benefits application (R.I. Gen. Laws § 23-17-19.1(16)).",
+     "Physicians: no charge for school immunization records or for a claim or appeal under the Social Security Act or a federal or state needs-based program (216-RICR-40-05-1, 1.5.12(B)(3))."
+    ],
+    "feeRules": [
+     "R.I. Gen. Laws § 23-1-48(c)(2): electronic copies, clerical fee up to $25.00, plus $0.50 per page for first 100 pages and $0.25 per page after; page charges capped at $100.",
+     "R.I. Gen. Laws § 23-1-48(d): paper records, clerical fee up to $25.00 plus same per-page rates and actual shipping.",
+     "R.I. Gen. Laws § 23-1-48(f): $10.00 special handling fee for delivery within 48 hours.",
+     "216-RICR-40-05-1, 1.5.12(B)(1): physician fee for a patient's own copy must be consistent with 45 C.F.R. § 164.524; no retrieval or certifying fee for own records."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Rights of patients (health care facilities), free record for benefits appeals",
+     "citation": "R.I. Gen. Laws § 23-17-19.1(16)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE23/23-17/23-17-19.1.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall be made for furnishing a health record or part of a health record to a patient, the patient’s attorney, or authorized representative if the record, or part of the record, is necessary for the purpose of supporting an appeal under any provision of the Social Security Act",
+     "appliesTo": "Every healthcare facility licensed under this chapter",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "faf00c84854a1aa973ac7155335a2879d1b334807b8fbbc0d23df26eb78caf95"
+    },
+    {
+     "title": "Licensure and Discipline of Physicians, Medical Records reimbursement",
+     "citation": "216-RICR-40-05-1, § 1.5.12(B)(3)",
+     "officialUrl": "https://rules.sos.ri.gov/Regulations/part/216-40-05-1",
+     "linkedFrom": null,
+     "effectiveDate": "2026-08-26",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Charges shall not be made if the record is requested for immunization records required for school admission or by the applicant or beneficiary or individual representing an applicant or beneficiary for the purposes of supporting a claim or appeal under the provision of the Social Security Act",
+     "appliesTo": "Physicians licensed in Rhode Island. The same rule sets a 30-day deadline: requested records must be provided within thirty (30) days.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "391986a34cc1bcccf49462cd8e9b5f4fd22e35adb080cfab38af8568146e995f"
+    },
+    {
+     "title": "Reimbursement for medical record copies",
+     "citation": "R.I. Gen. Laws § 23-1-48",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE23/23-1/23-1-48.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2017-07-05",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the charges for responding to requests for copies of medical records in electronic format shall not exceed a fee for clerical services, research, and handling of twenty-five dollars ($25.00), inclusive of shipping costs and the costs of data retrieval",
+     "appliesTo": "any healthcare provider as defined in § 5-37.3-3",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "90b8665989db8d7ce2317fb09da4a6f8107b045b002e021084b9a28aee0fea1c"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://nosscr.org/article/medical-records-payment-rates-2025/",
+     "host": "nosscr.org",
+     "usedFor": "Pointer to the physician rule on free copies for Social Security claims"
+    },
+    {
+     "url": "https://health.ri.gov/medicalrecords/about/feesforcopying/",
+     "host": "health.ri.gov",
+     "usedFor": "Attempted; page blocked by a bot check"
+    }
+   ],
+   "note": "Free copy for Social Security, needs-based benefit, workers' compensation and veterans' claims counts. Deadline is 30 days, not shorter than HIPAA. Per-page caps are recorded as facts only. 23-1-48 date is from P.L. 2017 ch. 120.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_RI",
+    "note": "beyondFederalFloor yes: free copies for benefits claims and appeals go past HIPAA and 45 CFR 171.302. Deadline is 30 days, so no deadline element. Dates 2025-07-01, 2026-08-26 and 2017-07-05 confirmed."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "CurrentCare (statewide HIE run by the state-designated RHIO)",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "Rhode Island Health Information Exchange Act, Disclosure",
+     "citation": "R.I. Gen. Laws § 5-37.7-7(a)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-37.7/5-37.7-7.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-07-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a patient or the patient’s authorized representative may opt out of having the patient’s confidential healthcare information disclosed from the HIE.",
+     "appliesTo": "The statewide HIE established under state authority (§ 5-37.7-4)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4bb2b60560ebb0b002d4f5f0ceb96dcb4ac7654e10142e049a90721d48b5cd80"
+    },
+    {
+     "title": "Regional Health Information Organization and Health Information Exchange rule, opt-out forms",
+     "citation": "216-RICR-10-10-6",
+     "officialUrl": "https://rules.sos.ri.gov/regulations/part/216-10-10-6",
+     "linkedFrom": null,
+     "effectiveDate": "2026-04-29",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Opt-out forms provided by the HIE shall be broadly available and accessible through a variety of methods. At minimum, such methods must include paper forms submitted by fax or mail, and electronic submission by website.",
+     "appliesTo": "The RHIO and the HIE",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cd14dfc011d21341845390c6714637b4740b0477aa3605a2228d490609770907"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.riaclu.org/app/uploads/2025/10/Testimony-%E2%80%93-2025-Regional-Health-Information-Organization-and-Health-Information-Exchange-Regulation-Proposal.pdf",
+     "host": "riaclu.org",
+     "usedFor": "Pointer to the 2025 HIE rule change"
+    }
+   ],
+   "note": "Statute and rule set opt-out with a published opt-out form. The rule states mental health treatment information is included and subject to the same opt-out. No stricter state consent rule for sensitive data was found in the HIE law.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_RI",
+    "note": "Statute dated 2021-07-12 and rule dated 2026-04-29 match the pages. The rule cites 42 CFR Part 2, which is federal, so stricterForSensitive false holds for state law."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Healthcare Provider Shield, Testimony, documents, and subpoenas",
+      "citation": "R.I. Gen. Laws § 23-101-5(e)(2)",
+      "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE23/23-101/23-101-5.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2024-06-25",
+      "firstEnacted": "2024-06-25",
+      "statusOfProvision": "in_force",
+      "quote": "Comply with an out-of-state subpoena, warrant, court order, or other civil or criminal legal process for records, information, facilities, or assistance that the business entity has reason to believe relates to legally protected healthcare activity",
+      "appliesTo": "A business entity that is incorporated, or has its principal place of business, in this state",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "56dd393ec5ca250951595e0a3c1bf62acbcdc4df65db8696446e9800ea73801e"
+     },
+     {
+      "title": "Healthcare Provider Shield, Definitions",
+      "citation": "R.I. Gen. Laws § 23-101-2(8)",
+      "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE23/23-101/23-101-2.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2024-06-25",
+      "firstEnacted": "2024-06-25",
+      "statusOfProvision": "in_force",
+      "quote": "The exercise and enjoyment or attempted exercise and enjoyment by any person of the right secured by this state to gender-affirming healthcare services or reproductive healthcare services",
+      "appliesTo": "",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "dfcb5a908db87569a6dc08f2fe9bee7bf8bddd2c3f1ca9243a3a8d259906234c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/rhode-island/title-23/chapter-23-101/section-23-101-5/",
+      "host": "law.justia.com",
+      "usedFor": "Locating chapter 23-101"
+     }
+    ],
+    "note": "Subsection (e) lists acts a state business entity may not do, including complying with out-of-state legal process for records about legally protected healthcare activity, which includes reproductive healthcare services.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_RI",
+     "note": "Section 23-101-5(e) and the definition in 23-101-2(8) match the pages. Both took effect 2024-06-25 under P.L. 2024 ch. 260 and ch. 261."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of confidential information and records (mental health services)",
+      "citation": "R.I. Gen. Laws § 40.1-5-26(a)",
+      "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE40.1/40.1-5/40.1-5-26.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2023-06-23",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The fact of admission or certification, and all information and records compiled, obtained, or maintained in the course of providing services to persons under this chapter, shall be confidential.",
+      "appliesTo": "Services to persons under chapter 40.1-5 (Mental Health Law)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "786ead71c5a581aeb71238dae34a13f3415104a6b4b9027aacaed625087a4b39"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Records may be disclosed only in listed cases, the first being written consent of the patient or guardian (§ 40.1-5-26(b)(1)).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_RI",
+     "note": "Quote and date match. The history note shows P.L. 2023 ch. 230, effective June 23, 2023. Subsection (b)(1) lists written consent of the patient or guardian as one ground for disclosure."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV testing, Confidentiality",
+      "citation": "R.I. Gen. Laws § 23-6.3-7(a)",
+      "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE23/23-6.3/23-6.3-7.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2009-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "It is unlawful for any person to disclose to a third-party the results of an individual’s HIV test without the prior written consent of that individual",
+      "appliesTo": "any person",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "9a8360382a69f2ebaea7b6865424b43e662ca71bfa7afdf10eb7c57cdcaba306"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Current text from P.L. 2009 ch. 196, which states it takes effect July 1, 2009.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_RI",
+     "note": "P.L. 2009 ch. 196 and ch. 289 both state an effective date of July 1, 2009. The acts were enacted in November 2009."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Health maintenance organizations, Genetic testing",
+      "citation": "R.I. Gen. Laws § 27-41-53(a)",
+      "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE27/27-41/27-41-53.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2001-07-02",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "insurance administrators, health plans, and providers shall be prohibited from releasing genetic information without prior written authorization of the individual.",
+      "appliesTo": "insurance administrators, health plans, and providers",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "60f65601af366541b4ad38bb30a68f3d1fcff85aab9a5fd776f9171f8fff4bfd"
+     },
+     {
+      "title": "Accident and sickness insurance, Genetic testing",
+      "citation": "R.I. Gen. Laws § 27-18-52(a)",
+      "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE27/27-18/27-18-52.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2002-06-28",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "insurance administrators, health plans, and providers shall be prohibited from releasing genetic information without prior written authorization of the individual.",
+      "appliesTo": "insurance administrators, health plans, and providers",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "21d2de7a530be3768e527a59b1cecca1e3f4b900d37d514307a85a20a3b244f1"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "27-41-53 last amended by P.L. 2001 ch. 38, effective on passage, enacted 27 June 2001. 27-18-52 last amended by P.L. 2002 ch. 292, effective on passage; 27-18-52: 2002-06-28; 27-41-53: 2001-07-02.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_RI",
+     "note": "Value stays yes. I set 27-18-52 effective 2002-06-28, from law02292.htm. 27-41-53 text took effect 2001-06-27 under ch. 38. Identical ch. 54 followed on 2001-07-02.",
+     "problems": [
+      "27-18-52 has a null effectiveDate. P.L. 2002 ch. 292, section 33, enacted 06/28/2002, took effect on passage, so the date is 2002-06-28.",
+      "27-41-53 was also amended by P.L. 2001 ch. 54, enacted 07/02/2001. The researcher cites only ch. 38."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q064",
+        "Q176"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None fixed. Actual and exemplary damages; attorney's fees at the court's discretion (§ 5-37.3-9). The privacy act bars a private action (§ 6-48.1-8(c))."
+   },
+   "provisions": [
+    {
+     "title": "Confidentiality of Health Care Communications and Information Act, Penalties",
+     "citation": "R.I. Gen. Laws § 5-37.3-9(a)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-37.3/5-37.3-9.htm",
+     "linkedFrom": null,
+     "effectiveDate": null,
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Anyone who violates the provisions of this chapter may be held liable for actual and exemplary damages.",
+     "appliesTo": "Anyone who violates chapter 5-37.3 (confidential healthcare information)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1a2bb516e02f0b620927a896eadf10cfce3964da418b380a066dbcdb62a904d5",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    },
+    {
+     "title": "Health Information Exchange Act, Penalties",
+     "citation": "R.I. Gen. Laws § 5-37.7-13(a)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-37.7/5-37.7-13.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2009-03-01",
+     "firstEnacted": "2009-03-01",
+     "statusOfProvision": "in_force",
+     "quote": "Anyone who violates the provisions of this chapter may be held liable for actual and exemplary damages.",
+     "appliesTo": "Anyone who violates chapter 5-37.7 (HIE)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3b89c08fc43a906e60ba2b366a10e4d1cdb981fc72d090d6dfbc0bc9f09eba40"
+    },
+    {
+     "title": "Rhode Island Data Transparency and Privacy Protection Act, Violations",
+     "citation": "R.I. Gen. Laws § 6-48.1-8(c)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE6/6-48.1/6-48.1-8.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in this section shall be construed to authorize any private right of action to enforce any provision of this chapter",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cc7a6ccd2ec4d9b1906172ef1a010464f222856ab65d638fb2d17e6cd551adf6"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "5-37.3-9 history ends with P.L. 1982 ch. 356. That act is not online, so its day of effect was not confirmed and effectiveDate is null. Its in-force status is shown on the current code page.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_RI",
+    "note": "Level 2 holds. The general disclosure rule, 5-37.3-4, carries the damages right in 5-37.3-9. Its current text dates from P.L. 1982 ch. 356, day not confirmable online. 5-37.7-13 took effect 2009-03-01 per law08171.htm.",
+    "problems": [
+     "The provision carrying the level, 5-37.3-9, has a null effectiveDate. Every evidenced provision needs one. P.L. 1982 ch. 356 returns 404 on the legislature site.",
+     "firstEnacted 2009-03-01 for 5-37.7-13 is the effective date. P.L. 2008 ch. 171 was enacted 07/02/2008."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q065",
+       "Q177"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q3",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "No later than 45 calendar days after confirmation of the breach",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Identity Theft Protection Act, Definitions (personal information)",
+     "citation": "R.I. Gen. Laws § 11-49.3-3(a)(10)(iv)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE11/11-49.3/11-49.3-3.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2023-06-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Medical or health insurance information; or",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "de4f0d5c3af44639c2fbc6871f1906b26f30c802efb18a0de50fa8c2a8b3ac09"
+    },
+    {
+     "title": "Identity Theft Protection Act, Notification of breach",
+     "citation": "R.I. Gen. Laws § 11-49.3-4(a)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE11/11-49.3/11-49.3-4.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2023-06-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "In the event that more than five hundred (500) Rhode Island residents are to be notified, the person shall notify the attorney general and the major credit reporting agencies",
+     "appliesTo": "Municipal agencies, state agencies and persons that store, own, collect, process, maintain, acquire, use, or license data with personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0c760ea203c0a57a24a258ddeed96c1c41bdba57230e467d7a1b41ef79cdc302"
+    },
+    {
+     "title": "Identity Theft Protection Act, Agencies or persons with security breach procedures",
+     "citation": "R.I. Gen. Laws § 11-49.3-6(c)",
+     "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE11/11-49.3/11-49.3-6.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2016-06-26",
+     "firstEnacted": "2016-06-26",
+     "statusOfProvision": "in_force",
+     "quote": "Act of 1996 (HIPAA) shall be deemed in compliance with this chapter.",
+     "appliesTo": "A provider of health care, healthcare service plan, health insurer, or a covered entity governed by the HIPAA rules",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d9e082245e55be2b572d611d1a1f33ecbc8270e66c4ef2839591de135618a0fd"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Personal information includes medical and health insurance information. Notice within 45 days. AG notice when over 500 residents. HIPAA entities deemed compliant. 11-49.3-6 date: P.L. 2015 ch. 138, effective one year after passage.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_RI",
+    "note": "Notice within 45 days for persons, 30 for agencies. AG notice above 500 residents. 11-49.3-6 took effect 2016-06-26: P.L. 2015 ch. 138 was enacted 06/26/2015, effective one year after passage."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": true,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "P.L. 2026 ch. 374, § 40.1-5.5-3(c): a licensed professional may not use AI to \"Make independent therapeutic decisions;\"",
+     "P.L. 2026 ch. 374, § 40.1-5.5-3(c)(3): \"Determine therapeutic recommendations or treatment plans.\"",
+     "P.L. 2026 ch. 374, § 40.1-5.5-3(b): \"An individual, corporation, or entity may not provide, advertise, or otherwise offer therapy or psychotherapy services\" unless conducted by a licensed professional."
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Oversight of Artificial Intelligence Technology in Mental Health Care Act, use restrictions (disclosure and consent)",
+     "citation": "P.L. 2026, ch. 374 (2026-S 2197 Sub A as amended), adding R.I. Gen. Laws § 40.1-5.5-3(a)",
+     "officialUrl": "https://webserver.rilegislature.gov/PublicLaws/law26/law26374.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-22",
+     "firstEnacted": "2026-06-22",
+     "statusOfProvision": "in_force",
+     "quote": "unless the patient or the patient's parent, guardian or other legally authorized representative is informed in writing of the following and provides consent as defined in § 40.1-5.5-2: (1) That artificial intelligence will be used;",
+     "appliesTo": "Licensed professionals or providers of therapy or psychotherapy services, where the client's session is recorded or transcribed",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ede0e6e7fd155a42e71e814e50e88f719da351a90d77c7bf96a4fe8b47295776"
+    },
+    {
+     "title": "Oversight of Artificial Intelligence Technology in Mental Health Care Act, use restrictions (clinician decides)",
+     "citation": "P.L. 2026, ch. 374, adding R.I. Gen. Laws § 40.1-5.5-3(c)",
+     "officialUrl": "https://webserver.rilegislature.gov/PublicLaws/law26/law26374.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-22",
+     "firstEnacted": "2026-06-22",
+     "statusOfProvision": "in_force",
+     "quote": "A licensed professional or provider may not allow or otherwise use artificial intelligence to do any of the following: (1) Make independent therapeutic decisions;",
+     "appliesTo": "Licensed professionals or providers of therapy or psychotherapy services",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ede0e6e7fd155a42e71e814e50e88f719da351a90d77c7bf96a4fe8b47295776"
+    },
+    {
+     "title": "Use of Artificial Intelligence by Healthcare Providers Notification Act",
+     "citation": "P.L. 2026, ch. 372 (2026-S 2570 Sub A), adding R.I. Gen. Laws chapter 23-108",
+     "officialUrl": "https://webserver.rilegislature.gov/PublicLaws/law26/law26372.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-22",
+     "firstEnacted": "2026-06-22",
+     "statusOfProvision": "in_force",
+     "quote": "shall notify patients of the use of AI for that sole purpose and review the AI-generated documentation for accuracy after the visit.",
+     "appliesTo": "Any and all healthcare providers and healthcare facilities that employ artificial intelligence (\"AI\") to document in-person or telehealth visits",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bb4f75847bc3a5ea0113f182b85357e2e7c66402c8849ed713924d55a8a3b8af"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/20/rhode-island-joins-the-wave-of-states-regulating-ai-in-healthcare-and-ai-companion-tools",
+     "host": "nixonpeabody.com",
+     "usedFor": "Locating 2026 AI health laws"
+    },
+    {
+     "url": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7190.pdf",
+     "host": "webserver.rilegislature.gov",
+     "usedFor": "Insurer AI bill; no enacted public law found"
+    }
+   ],
+   "note": "Level rests on the mental health AI act, effective on passage (enacted 22 June 2026). Both acts are not yet in the online code. No in-force insurer AI law or human review right was found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_RI",
+    "note": "Both acts were enacted 06/22/2026 and took effect on passage. I found no in-force human review right. Insurer bill S2010/H7190 was not enacted. Rule 230-20-30-14 has no AI terms."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

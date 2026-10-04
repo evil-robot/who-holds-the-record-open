@@ -1,0 +1,522 @@
+{
+ "usps": "MN",
+ "fips": "27",
+ "name": "Minnesota",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Minnesota Consumer Data Privacy Act, responsibilities of controllers (sensitive data consent)",
+     "citation": "Minn. Stat. 325M.16, subd. 2(d)",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/325M.16",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a controller may not process sensitive data concerning a consumer without obtaining the consumer's consent",
+     "appliesTo": "during a calendar year, controls or processes personal data of 100,000 consumers or more (325M.12, subd. 1); HIPAA protected health information and 144.291 health records are excluded",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a626c23d31040020b022e9541218a862fc0efa13084de24db33e712c5ccbe51a"
+    },
+    {
+     "title": "Minnesota Consumer Data Privacy Act, definition of sensitive data",
+     "citation": "Minn. Stat. 325M.11(v)",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/325M.11",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-31",
+     "firstEnacted": "2025-07-31",
+     "statusOfProvision": "in_force",
+     "quote": "personal data revealing racial or ethnic origin, religious beliefs, mental or physical health condition or diagnosis",
+     "appliesTo": "Controllers within 325M.12 scope",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bc33e99de2229854256ca8966d9fe03ac671a8c1a0dbbc0e37eb3a71767cc23e"
+    },
+    {
+     "title": "Minnesota Consumer Data Privacy Act, scope and exclusions",
+     "citation": "Minn. Stat. 325M.12, subd. 1 and 2",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/325M.12",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-31",
+     "firstEnacted": "2025-07-31",
+     "statusOfProvision": "in_force",
+     "quote": "during a calendar year, controls or processes personal data of 100,000 consumers or more",
+     "appliesTo": "Or derives over 25 percent of gross revenue from the sale of personal data and processes or controls personal data of 25,000 consumers or more. Excludes protected health information, as defined by and for purposes of the Health Insurance Portability and Accountability Act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "914c36fdb602f418b18e7cd316ff4e05b7efea38b49324a3752f226070cb15f3"
+    },
+    {
+     "title": "Genetic Information Privacy Act (direct-to-consumer genetic testing companies)",
+     "citation": "Minn. Stat. 325F.995, subd. 2",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/325F.995",
+     "linkedFrom": null,
+     "effectiveDate": "2023-08-01",
+     "firstEnacted": "2023-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "obtain a consumer's express consent to collect, use, and disclose the consumer's genetic data",
+     "appliesTo": "Direct-to-consumer genetic testing companies; enforced by the commissioner of commerce under 45.027",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3ef28e1ef9ae807701af9cbb78d25f712fee8ddd8a25880d45e3af79b0cb4d09"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/minnesota/chapters-324-342/chapter-325f/section-325f-995/",
+     "host": "law.justia.com",
+     "usedFor": "Found the Genetic Information Privacy Act citation"
+    },
+    {
+     "url": "https://www.privacyworld.blog/2025/08/minnesotas-comprehensive-privacy-law-takes-effect-and-enforcement-efforts-begin-immediately/",
+     "host": "www.privacyworld.blog",
+     "usedFor": "Confirmed MCDPA effective date lead"
+    }
+   ],
+   "note": "MCDPA requires opt-in consent for health data from 2025-07-31. It is not a dedicated consumer health data law and has no separate sale authorization. 325F.995 adds consent rules for genetic testing companies.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MN",
+    "note": "Level 2 stands. MCDPA consent rule for sensitive data is in force from 2025-07-31. Chapter 325M has no dedicated consumer health data law. Only the subdivision citation and firstEnacted need fixing.",
+    "problems": [
+     "Citation wrong: the consent quote sits in 325M.16, subd. 2 (Use of data), paragraph (d), not subd. 1(d). Subd. 1 is Transparency obligations.",
+     "firstEnacted 2025-07-31 is the effective date; the page history shows the section was added by Laws 2024, c. 121, art. 5, s. 8."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q044"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "Copy requested for purposes of reviewing current medical care (144.292, subd. 6(a))",
+     "Copy for appealing a denial of Social Security disability benefits: no per page or x-ray fee; no fee at all, including retrieval, when the patient receives public assistance or has a civil legal services or volunteer attorney (144.292, subd. 6(d))",
+     "Up to two medical record updates without charge for further Social Security disability appeals (144.292, subd. 6(d))"
+    ],
+    "feeRules": [
+     "Paper copies: $1 per page, plus $10 for time spent retrieving and copying the records",
+     "X-rays: a total of $30 for retrieving and reproducing x-rays",
+     "Electronic copies: a total of $20 for retrieving the records",
+     "Paper totals capped: $10 if no records; $30 up to 25 pages; $50 up to 100 pages; $50 plus 20 cents per page from page 101; $500 for any request"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Minnesota Health Records Act, patient rights, cost of copies",
+     "citation": "Minn. Stat. 144.292, subd. 6",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/144.292",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2007-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "When a patient requests a copy of the patient's record for purposes of reviewing current medical care, the provider must not charge a fee.",
+     "appliesTo": "Providers as defined in 144.291, subd. 2",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e7eaa01c31512d34cc91f296fe8059416afe01760d7fe5bec1b20db9772cee24"
+    },
+    {
+     "title": "Minnesota Health Records Act, free copies for Social Security disability appeals",
+     "citation": "Minn. Stat. 144.292, subd. 6(d)",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/144.292",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2007-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "must not charge a fee, including a retrieval fee, to provide copies of records requested by a patient or the patient's authorized representative if the request for copies of records is for purposes of appealing a denial of Social Security disability income",
+     "appliesTo": "Providers and their representatives; full waiver when the patient receives public assistance or is represented by a civil legal services or volunteer attorney program",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e7eaa01c31512d34cc91f296fe8059416afe01760d7fe5bec1b20db9772cee24"
+    },
+    {
+     "title": "Minnesota Health Records Act, copies of health records to patients (deadline)",
+     "citation": "Minn. Stat. 144.292, subd. 5",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/144.292",
+     "linkedFrom": null,
+     "effectiveDate": "2020-08-01",
+     "firstEnacted": "2007-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "a provider, at a reasonable cost to the patient, shall furnish to the patient within 30 calendar days of receiving a written request for medical records",
+     "appliesTo": "Providers as defined in 144.291, subd. 2",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e7eaa01c31512d34cc91f296fe8059416afe01760d7fe5bec1b20db9772cee24"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Free copy element met: no fee for reviewing current medical care, and for Social Security disability appeals. Both go beyond HIPAA and 45 CFR 171.302. Deadline is 30 calendar days, not shorter than HIPAA.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MN",
+    "note": "beyondFederalFloor yes. The free copy for reviewing current care covers any format, and the SSDI appeal waiver covers representatives. Both exceed 164.524 and 171.302. Deadline is 30 days. Subd. 6 text effective 2025-01-01."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_in",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "No single state-designated HIE. MDH certifies HIOs under 62J.4981; Koble-MN is listed as certified through May 15, 2027.",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "Minnesota Health Records Act, patient consent to release of records",
+     "citation": "Minn. Stat. 144.293, subd. 2",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/144.293",
+     "linkedFrom": null,
+     "effectiveDate": "2024-05-25",
+     "firstEnacted": "2007-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "A provider, or a person who receives health records from a provider, may not release a patient's health records to a person without:",
+     "appliesTo": "Providers and persons receiving records from providers; exceptions in subd. 5 for emergencies and related health care entities for current treatment",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7ee492203b2205c7edec8be4f1435ee537536f2945dd4eb3930ae930eee744aa"
+    },
+    {
+     "title": "Minnesota Health Records Act, record locator or patient information service",
+     "citation": "Minn. Stat. 144.293, subd. 8",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/144.293",
+     "linkedFrom": null,
+     "effectiveDate": "2015-08-01",
+     "firstEnacted": "2007-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "unless the patient has elected to be excluded from the service under paragraph (d)",
+     "appliesTo": "Providers, group purchasers and HIEs operating a record locator or patient information service",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7ee492203b2205c7edec8be4f1435ee537536f2945dd4eb3930ae930eee744aa"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Release of records needs signed patient consent. Only the record locator index is opt-out, and providers need specific consent to access it. Because routine data already needs consent, stricterForSensitive is false.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MN",
+    "note": "Statute requires signed consent for release, with emergency and related-entity exceptions. Subd. 2 text effective 2024-05-25; subd. 8 effective 2015-08-01. MDH lists Koble-MN as a certified HIO."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Health records; reproductive health care services",
+      "citation": "Minn. Stat. 144.2935, subd. 2",
+      "officialUrl": "https://www.revisor.mn.gov/statutes/cite/144.2935",
+      "linkedFrom": null,
+      "effectiveDate": "2023-04-28",
+      "firstEnacted": "2023-04-28",
+      "statusOfProvision": "in_force",
+      "quote": "Neither a law in another state authorizing a civil or criminal subpoena to obtain a patient's health records relating to the provision of reproductive health care services to the patient, nor an order issued by a court in another state",
+      "appliesTo": "Health records relating to reproductive health care services",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "c8684aded371ae3ac78c59450b7651a0f48ec605cb2b0839e1ab55d64342af7e"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "An out-of-state subpoena law or court order on reproductive health care records is not a specific authorization in law under 144.293, subd. 2. Release then needs patient consent.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MN",
+     "note": "Laws 2023, c. 31, s. 1, effective the day after enactment. Signed 2023-04-27, so effective 2023-04-28. Out-of-state subpoena laws and orders are not a specific authorization under 144.293, subd. 2."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": true,
+    "provisions": [
+     {
+      "title": "Records relating to mental health, release to family and caretaker",
+      "citation": "Minn. Stat. 144.294, subd. 3",
+      "officialUrl": "https://www.revisor.mn.gov/statutes/cite/144.294",
+      "linkedFrom": null,
+      "effectiveDate": "2007-08-01",
+      "firstEnacted": "2007-08-01",
+      "statusOfProvision": "in_force",
+      "quote": "If a provider reasonably determines that providing information under this subdivision would be detrimental to the physical or mental health of the patient or is likely to cause the patient to inflict self harm or to harm another, the provider must not disclose the information.",
+      "appliesTo": "Providers of mental health care and treatment",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "49ba811503da4a0fdc09166668938de45d2f3d8d012d0c2028b42d0cb7e714f1"
+     },
+     {
+      "title": "Laws 2026, chapter 121, article 8, section 2 (amends 144.294, subd. 2 cross-reference)",
+      "citation": "Laws 2026, c. 121, art. 8, s. 2",
+      "officialUrl": "https://www.revisor.mn.gov/laws/2026/0/Session+Law/Chapter/121/",
+      "linkedFrom": null,
+      "effectiveDate": "2028-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "Notwithstanding section 144.293, subdivisions 2 and 4, a provider must disclose health records relating to a patient's mental health to a law enforcement agency if the law enforcement agency provides the name of the patient and communicates that the:",
+      "appliesTo": "Providers; changes the mental health crisis definition reference to 245I.24",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "3670403638d12fb110fb7462cd221b40c1ebed61fc286972272368c84b8becd2"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "144.294 sets disclosure rules for mental health records to family members and law enforcement. A 2026 cross-reference change to subd. 2 takes effect 2028-01-01.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MN",
+     "note": "Subd. 3 text dates from Laws 2007, c. 147, effective 2007-08-01. Laws 2026, c. 121, art. 8, s. 2 changes a cross-reference in subd. 2, effective 2028-01-01, so pending is true."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Testing sex offender for human immunodeficiency virus, disclosure of test results",
+      "citation": "Minn. Stat. 611A.19, subd. 2",
+      "officialUrl": "https://www.revisor.mn.gov/statutes/cite/611A.19",
+      "linkedFrom": null,
+      "effectiveDate": "2007-08-01",
+      "firstEnacted": "1992-08-01",
+      "statusOfProvision": "in_force",
+      "quote": "The date and results of a test performed under subdivision 1 are private data as defined in section 13.02, subdivision 12, when maintained by a person subject to chapter 13, or may be released only with the subject's consent, if maintained by a person not subject to chapter 13.",
+      "appliesTo": "HIV tests of offenders ordered under 611A.19, subd. 1",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d1eadb6121cd41c91ad5c8423b840ed7c41da56f8ad65696ffad35d433871931"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.healthinfolaw.org/state-topics/24,63/f_states",
+      "host": "www.healthinfolaw.org",
+      "usedFor": "Located Minnesota HIV test confidentiality statutes"
+     }
+    ],
+    "note": "The rule covers court-ordered HIV tests of offenders. Results are private or released only with consent. Bloodborne pathogen test results for emergency workers fall under 144.7411.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MN",
+     "note": "Covers court-ordered HIV tests of offenders. The 2021 change was a revisor instruction touching subd. 1, so subd. 2 text dates from 2007. The 144.7411 point in the researcher note was not checked."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Treatment of genetic information held by government entities and other persons",
+      "citation": "Minn. Stat. 13.386, subd. 3",
+      "officialUrl": "https://www.revisor.mn.gov/statutes/cite/13.386",
+      "linkedFrom": null,
+      "effectiveDate": "2013-07-01",
+      "firstEnacted": "2006-08-01",
+      "statusOfProvision": "in_force",
+      "quote": "or any other person only with the written informed consent of the individual;",
+      "appliesTo": "Government entities and any other person collecting genetic information",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "56545f67e147cb5f2efa2e540bb8c0d1b26ea8b913342462ccced3d890686dbb"
+     },
+     {
+      "title": "Genetic Information Privacy Act",
+      "citation": "Minn. Stat. 325F.995, subd. 2",
+      "officialUrl": "https://www.revisor.mn.gov/statutes/cite/325F.995",
+      "linkedFrom": null,
+      "effectiveDate": "2023-08-01",
+      "firstEnacted": "2023-08-01",
+      "statusOfProvision": "in_force",
+      "quote": "obtain a consumer's express consent to collect, use, and disclose the consumer's genetic data",
+      "appliesTo": "Direct-to-consumer genetic testing companies",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "3ef28e1ef9ae807701af9cbb78d25f712fee8ddd8a25880d45e3af79b0cb4d09"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/minnesota/chapters-324-342/chapter-325f/section-325f-995/",
+      "host": "law.justia.com",
+      "usedFor": "Located 325F.995"
+     }
+    ],
+    "note": "13.386 requires written informed consent to collect, use, store or disseminate genetic information. 325F.995 requires express consent from genetic testing companies.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MN",
+     "note": "13.386, subd. 3 amended by Laws 2013, c. 82, s. 3, effective 2013-07-01. 325F.995 added by Laws 2023, c. 57, art. 4, s. 18, which has no effective date clause, so 2023-08-01."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None set. Compensatory damages plus costs and reasonable attorney fees (144.298, subd. 2 and 3)."
+   },
+   "provisions": [
+    {
+     "title": "Minnesota Health Records Act, liability of provider or other person",
+     "citation": "Minn. Stat. 144.298, subd. 2",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/144.298",
+     "linkedFrom": null,
+     "effectiveDate": "2015-08-01",
+     "firstEnacted": "2007-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "is liable to the patient for compensatory damages caused by an unauthorized release or an intentional, unauthorized access, plus costs and reasonable attorney fees",
+     "appliesTo": "Any person who negligently or intentionally requests or releases a health record in violation of 144.291 to 144.297",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e86b5a2271dc07a7b4aaf296075993e07a181bfd2831ff462f5d1a9be7267509"
+    },
+    {
+     "title": "Minnesota Consumer Data Privacy Act, attorney general enforcement",
+     "citation": "Minn. Stat. 325M.20(d)",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/325M.20",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-31",
+     "firstEnacted": "2025-07-31",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in sections 325M.10 to 325M.21 establishes a private right of action",
+     "appliesTo": "Controllers and processors under the MCDPA",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "585c59f633b5278e728674e5cad2d5a6a1efbdc69ef4924e0972be05c6bcbd45"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Patients may sue for unauthorized release of health records under 144.298. The MCDPA, which covers non-HIPAA health data, has no private right of action.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MN",
+    "note": "144.298, subd. 2 covers any unlawful request or release of a health record. Text from Laws 2015, c. 71, art. 8, s. 21, effective 2015-08-01. No statutory damages amount."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "In the most expedient time possible and without unreasonable delay",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Data warehouses; notice required for certain disclosures",
+     "citation": "Minn. Stat. 325E.61, subd. 1(e)",
+     "officialUrl": "https://www.revisor.mn.gov/statutes/cite/325E.61",
+     "linkedFrom": null,
+     "effectiveDate": "2006-08-01",
+     "firstEnacted": "2006-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "means an individual's first name or first initial and last name in combination with any one or more of the following data elements",
+     "appliesTo": "Any person or business that conducts business in this state and owns or licenses data that includes personal information; financial institutions exempt",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d309701642e11fe52c8757ab861d7c2c50821b0c0cce224768cb930eea14b43e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Personal information lists only Social Security, driver's license or state ID, and financial account numbers. No medical or health insurance data. Consumer reporting agencies get notice when over 500 people. No attorney general notice.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MN",
+    "note": "Listed elements are Social Security, driver's license or state ID, and financial account numbers only. Notice to consumer reporting agencies over 500 persons. No AG notice. Paragraph (h) deems own-policy notice compliant, not HIPAA."
+   }
+  },
+  "ai_care": {
+   "status": "enacted_not_yet_effective",
+   "level": 0,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [
+    {
+     "title": "Laws 2026, chapter 124, article 3, section 6 (amends 62M.09, subd. 3, utilization review)",
+     "citation": "Laws 2026, c. 124, art. 3, s. 6; Minn. Stat. 62M.09, subd. 3(f)",
+     "officialUrl": "https://www.revisor.mn.gov/laws/2026/0/Session+Law/Chapter/124/",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "A utilization review organization is prohibited from using any form of automated processing alone without a clinician review by an appropriate health professional, as required under this section, when making an adverse determination.",
+     "appliesTo": "Utilization review organizations; applies to health plans offered, sold, issued, or renewed on or after January 1, 2027",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1d3612a8bca538bbe4590175ac8c3b5649288d9bd1354d32a92da04e8d57dbef"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://insurify.com/health-insurance/news/minnesota-regulates-ai-use-in-health-insurance-decisions/",
+     "host": "insurify.com",
+     "usedFor": "Lead to the AI utilization review bill"
+    },
+    {
+     "url": "https://clunic.com/regulations/minnesota-ai-healthcare-laws",
+     "host": "clunic.com",
+     "usedFor": "Lead on AI health bills, including HF 3893"
+    },
+    {
+     "url": "https://www.house.mn.gov/hrd/bs/94/HF3893.pdf",
+     "host": "www.house.mn.gov",
+     "usedFor": "Lead on AI psychotherapy bill, not found enacted"
+    }
+   ],
+   "note": "Clinician review of automated adverse determinations starts 2027-01-01. The MCDPA right to question profiling (325M.14) does not require human review, so it is not counted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MN",
+    "note": "62M.09, subd. 3(f) is effective 2027-01-01. My revisor search found no in-force AI health provision. SF 1856 was not enacted. 325M.14 reevaluation does not require a human."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

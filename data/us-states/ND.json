@@ -1,0 +1,623 @@
+{
+ "usps": "ND",
+ "fips": "38",
+ "name": "North Dakota",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "citation": "N.D. Admin. Code 45-14-01-17",
+     "officialUrl": "https://ndlegis.gov/information/acdata/pdf/45-14-01.pdf",
+     "effectiveDate": "2001-12-01",
+     "quote": "A licensee shall not disclose nonpublic personal health information about a consumer or customer unless an authorization is obtained from the consumer or customer whose nonpublic personal health information is sought to be disclosed.",
+     "appliesTo": "insurance licensees; 45-14-01-20 exempts a licensee that complies with the HIPAA privacy rule",
+     "checkedAt": "2026-10-03",
+     "statusOfProvision": "in_force",
+     "quoteVerified": "raw",
+     "rawSha256": "8431620170fdc3096f508e7799d07a04593ff0d0cfb22b62d03bbabafbaec705"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://ndlegis.gov/general-information/north-dakota-century-code/index.html",
+    "terms": [
+     "consumer health data",
+     "consumer data privacy",
+     "sensitive data",
+     "personal data opt-in consent",
+     "health data app",
+     "artificial intelligence"
+    ],
+    "regulatorPagesChecked": [
+     "https://attorneygeneral.nd.gov/consumer-resources/identity-theft/"
+    ],
+    "leadsChecked": [
+     "https://www.ncsl.org/technology-and-communication/consumer-privacy-2025-legislation",
+     "https://termly.io/us-data-privacy-laws/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.ncsl.org/technology-and-communication/consumer-privacy-2025-legislation",
+     "host": "ncsl.org",
+     "usedFor": "Check for 2025 North Dakota consumer privacy bills; none listed"
+    },
+    {
+     "url": "https://termly.io/us-data-privacy-laws/",
+     "host": "termly.io",
+     "usedFor": "Lead that North Dakota has no comprehensive privacy law"
+    }
+   ],
+   "note": "No comprehensive privacy law or consumer health data law found in the Century Code. A 2023 privacy bill, HB 1330, failed in committee per leads. The legislature meets in odd years, so 2025 is the latest session.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_ND",
+    "note": "No comprehensive or consumer health data law found, as the researcher said. The insurance rule 45-14-01-17 (effective 2001-12-01) is an opt-in for one non-HIPAA holder class. It has broad insurance-function exceptions. Adjudicator may weigh scope.",
+    "problems": [
+     "Search missed NDAC chapter 45-14-01, an insurance department rule in force since December 1, 2001.",
+     "45-14-01-17 bars insurance licensees from disclosing nonpublic personal health information without the person's authorization. Licensees include life, disability and property insurers and producers that HIPAA does not cover.",
+     "Under the D1 anchor, a law covering one class of non-HIPAA holder that requires consent for that class earns level 2.",
+     "Search log checked only an AG identity theft page, not the insurance regulator's rules."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q051"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q1",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "A copy sent to a health care provider designated by the patient, when requested to transfer care for continuation of treatment (NDCC 23-12-14(1))"
+    ],
+    "feeRules": [
+     "Paper or fax: no more than $20 for the first 25 pages and $0.75 per page after 25 pages; electronic: $30 for the first 25 pages and $0.25 per page after 25 pages; charge includes administration, retrieval and postage (NDCC 23-12-14(2))"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Copies of medical records and medical bills (free copy for continuation of treatment)",
+     "citation": "N.D. Cent. Code § 23-12-14(1)",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t23c12.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2011-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Upon the request of a health care provider's patient or any person authorized by a patient, the provider shall provide a free copy of a patient's health care records to a health care provider designated by the patient or",
+     "appliesTo": "\"health care provider\" means a licensed individual or licensed facility providing health care services",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ff9e594565b8bea6b849060bb2d16d1f9bb848b5e97e8c20bb9f5af61cd36f0e"
+    },
+    {
+     "title": "Copies of medical records and medical bills (fee caps)",
+     "citation": "N.D. Cent. Code § 23-12-14(2)",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t23c12.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2011-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "at a charge of no more than twenty dollars for the first twenty-five pages and seventy-five cents per page after twenty-five pages or in an electronic, digital, or other computerized format at a charge of thirty dollars for the first twenty-five pages and twenty-five cents per page after twenty-five pages",
+     "appliesTo": "\"health care provider\" means a licensed individual or licensed facility providing health care services",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ff9e594565b8bea6b849060bb2d16d1f9bb848b5e97e8c20bb9f5af61cd36f0e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/nd/title-23-health-and-safety/nd-cent-code-sect-23-12-14/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Locate 23-12-14"
+    },
+    {
+     "url": "http://www.healthinfolaw.org/medical-records-collection-retention-and-access-north-dakota",
+     "host": "healthinfolaw.org",
+     "usedFor": "Locate 23-12-14"
+    },
+    {
+     "url": "https://ndlegis.gov/assembly/62-2011/documents/11-0199-05000.pdf",
+     "host": "ndlegis.gov",
+     "usedFor": "2011 HB 1174 enrolled text matching current 23-12-14; no emergency clause, so August 1, 2011"
+    }
+   ],
+   "note": "Free copy element met: a free copy to a provider the patient designates for continuing care goes beyond HIPAA, which permits a fee. No deadline shorter than 30 days found. Page fee caps are recorded only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ND",
+    "note": "beyondFederalFloor yes: a free copy for continuing care, in any format, is beyond HIPAA and 45 CFR 171.302. Text matches 2011 HB 1174, no emergency clause, so 2011-08-01. No deadline under 30 days found.",
+    "resolution": [
+     {
+      "rows": [
+       "Q136"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "North Dakota Health Information Network (NDHIN), the health information exchange created under NDCC chapter 54-59",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "Voluntary participation in the health information organization",
+     "citation": "N.D. Cent. Code § 23-12-19",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t23c12.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2013-08-01",
+     "firstEnacted": "2013-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "An individual may opt-out of participating in the health information organization by providing notice to the organization.",
+     "appliesTo": "\"Health information organization\" means the health information exchange created under chapter 54-59.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ff9e594565b8bea6b849060bb2d16d1f9bb848b5e97e8c20bb9f5af61cd36f0e"
+    },
+    {
+     "title": "Individual participation (NDHIN rule)",
+     "citation": "N.D. Admin. Code § 113-02-01-03",
+     "officialUrl": "https://www.ndlegis.gov/information/acdata/pdf/113-02-01.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2014-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "All individuals are considered to be participating until an individual has made a written decision to opt out of participation in the North Dakota health information network.",
+     "appliesTo": "Participants and authorized users of the North Dakota health information network",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "78936b4a085c0265a6d4c05a20829d1631637958bf17b51c0707cd04c6e2cf85"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.nd.gov/itd/statewide-alliances/ndhin/consumers/opt-out-participation",
+     "host": "nd.gov",
+     "usedFor": "Locate NDHIN opt-out page"
+    },
+    {
+     "url": "https://ndlegis.gov/files/rule-changes/changes/itd082213changes.pdf",
+     "host": "ndlegis.gov",
+     "usedFor": "Locate NDAC article 113-02 rule numbers"
+    },
+    {
+     "url": "https://ndlegis.gov/assembly/63-2013/regular/documents/13-0187-06000.pdf",
+     "host": "ndlegis.gov",
+     "usedFor": "2013 SB 2250 enrolled text creating 23-12-19; no emergency clause"
+    }
+   ],
+   "note": "Statute and NDHIN rule both set opt-out, with a full or emergency-only choice. No category with a stricter consent rule found in the statute or rule.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_ND",
+    "note": "Value, basis and stricterForSensitive false all hold. Statute 23-12-19 from 2013 SB 2250, no emergency clause, so 2013-08-01. Rule effective 2014-01-01. Only the FAQ date is unsupported.",
+    "problems": [
+     "NDHIN FAQ provision carries effectiveDate 2014-01-01, but the FAQ page shows no date. The date is borrowed from the rule, not read from the page."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q052"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Records required - Reporting of practice of abortion",
+      "citation": "N.D. Cent. Code § 14-02.1-07(1)(b)",
+      "officialUrl": "https://ndlegis.gov/cencode/t14c02-1.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2023-04-24",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The medical records of abortion facilities and hospitals in which abortions are performed and all information contained therein must remain confidential and may be used by the department of health and human services only for gathering statistical data and ensuring compliance with the provisions of this chapter.",
+      "appliesTo": "Abortion facilities and hospitals in which abortions are performed",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "5a7b47a199bd2ce3cdebeb73fd2ae04606c4c8914df17a062fb1dc05ce8d4c0c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://ndlegis.gov/assembly/68-2023/regular/documents/23-0137-08000.pdf",
+      "host": "ndlegis.gov",
+      "usedFor": "2023 SB 2150 enrolled text amending 14-02.1-07; emergency measure signed April 24, 2023"
+     }
+    ],
+    "note": "Section 14-02.1-07 makes abortion facility and hospital medical records confidential and limits department use to statistics and compliance. Date is from 2023 SB 2150, an emergency measure.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ND",
+     "note": "Quote is verbatim in 14-02.1-07(1)(b). 2023 SB 2150 amended the section with an emergency clause. The bill actions page shows it signed 2023-04-24. No 2025 amendment found."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidential records (commitment and treatment)",
+      "citation": "N.D. Cent. Code § 25-03.1-43",
+      "officialUrl": "https://www.ndlegis.gov/cencode/t25c03-1.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2011-08-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All information and records obtained in the course of an investigation, an evaluation, an examination, or treatment under this chapter and the presence or past presence of a patient in a treatment facility are confidential",
+      "appliesTo": "Information and records under chapter 25-03.1 (commitment procedures)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "aeeaaa4946125f3957340c4c021a8cfe263eda64e3ab6b254775d55a11b16821"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://ndlegis.gov/assembly/62-2011/regular/documents/11-0466-07000.pdf",
+      "host": "ndlegis.gov",
+      "usedFor": "2011 HB 1269 enrolled text amending 25-03.1-43"
+     }
+    ],
+    "note": "Records under the commitment chapter are confidential. Disclosure is allowed to a court for chapter purposes and as HIPAA permits. Date assumes the August 1, 2011 default for HB 1269.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ND",
+     "note": "2011 HB 1269 section 1 amended 25-03.1-43. Its emergency clause covers only section 4, so section 1 took effect 2011-08-01. No later amendment found in session law tables through 2025."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of reports (HIV)",
+      "citation": "N.D. Cent. Code § 23-07-02.2",
+      "officialUrl": "https://www.ndlegis.gov/cencode/t23c07.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2022-09-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A report required by section 23-07-02.1 and held by the department of health and human services is confidential information. The information may not be disclosed, shared with any agency or institution, or made public, upon subpoena, search warrant, discovery proceedings, or otherwise, except that:",
+      "appliesTo": "HIV infection reports held by the department of health and human services",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "07ec5399ffb2101faf426d9f9b813d4db08414418d6386c081737428525b1bb4"
+     },
+     {
+      "title": "Expanded disclosure of test results prohibited (bloodborne pathogens, including HIV)",
+      "citation": "N.D. Cent. Code § 23-07.5-06",
+      "officialUrl": "https://www.ndlegis.gov/cencode/t23c07-5.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2005-08-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The results of a test for bloodborne pathogens may be disclosed only to the individual who was tested; to an exposed individual for whom a test was conducted; and to the exposed individual's health care provider as provided by this chapter",
+      "appliesTo": "Bloodborne pathogen test results after an exposure; definition names the human immunodeficiency virus",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "619295f3efcf4028290d04a45b10194955489f6f9c66d4abe1fe9c2b5d46d801"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://ndlegis.gov/assembly/67-2021/regular/documents/21-0621-05000.pdf",
+      "host": "ndlegis.gov",
+      "usedFor": "2021 HB 1247 section 176 amending 23-07-02.2, effective September 1, 2022"
+     },
+     {
+      "url": "https://ndlegis.gov/assembly/59-2005/regular/bill-text/FBIB0400.pdf",
+      "host": "ndlegis.gov",
+      "usedFor": "2005 HB 1410 amending 23-07.5-06 and 23-07.5-07"
+     }
+    ],
+    "note": "HIV reports held by the department are confidential and not open to subpoena, with three listed exceptions. A separate chapter limits disclosure of bloodborne pathogen test results.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ND",
+     "note": "23-07-02.1 covers HIV infection reports. 2021 HB 1247 section 176 amended 23-07-02.2, effective 2022-09-01 under section 513. 23-07.5-06 quote and 2005-08-01 date also verified."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of genetic testing (parentage)",
+      "citation": "N.D. Cent. Code § 14-20-35",
+      "officialUrl": "https://ndlegis.gov/cencode/t14c20.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2005-08-01",
+      "firstEnacted": "2005-08-01",
+      "statusOfProvision": "in_force",
+      "quote": "The report of genetic testing for parentage is confidential. An individual who knowingly releases an identifiable specimen of another individual for any purpose other than that relevant to the proceeding regarding parentage without a court order or the written permission of the individual who furnished the specimen",
+      "appliesTo": "Genetic testing for parentage under the Uniform Parentage Act",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "67705bf3b1fe6ba0c48196c3516b9fbbf24f832433fcb966018d8859cc2a7219"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://ndlegis.gov/assembly/59-2005/regular/bill-text/FANC0400.pdf",
+      "host": "ndlegis.gov",
+      "usedFor": "2005 HB 1121 enrolled text enacting chapter 14-20; no emergency clause"
+     },
+     {
+      "url": "https://content.naic.org/sites/default/files/model-law-chart-hb-50-genetic-testing-for-insurance-coverage.pdf",
+      "host": "content.naic.org",
+      "usedFor": "Lead for genetic insurance rules; not used"
+     }
+    ],
+    "note": "The only genetic record rule found covers parentage test reports and specimens. No general genetic privacy statute was found in the Century Code.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ND",
+     "note": "14-20-35 is enacted by 2005 HB 1121, with no emergency or effective date clause, so 2005-08-01. No amendment found 2007 to 2025. Own search found no general genetic data statute."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None fixed. 23-07.5-07: actual damages, costs and exemplary damages. 51-15-09: up to three times actual damages if knowing, plus costs and attorney's fees."
+   },
+   "provisions": [
+    {
+     "title": "Civil liability (bloodborne pathogen test results)",
+     "citation": "N.D. Cent. Code § 23-07.5-07",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t23c07-5.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2005-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An individual who knowingly violates section 23-07.5-06 is liable to the subject of the test for actual damages and costs plus exemplary damages.",
+     "appliesTo": "Knowing disclosure of bloodborne pathogen test results in violation of 23-07.5-06",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "619295f3efcf4028290d04a45b10194955489f6f9c66d4abe1fe9c2b5d46d801"
+    },
+    {
+     "title": "Breach law enforcement (violation deemed consumer fraud violation)",
+     "citation": "N.D. Cent. Code § 51-30-07",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t51c30.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2005-06-01",
+     "firstEnacted": "2005-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "A violation of this chapter is deemed a violation of chapter 51-15. The remedies, duties, prohibitions, and penalties of this chapter are not exclusive and are in addition to all other causes of action, remedies, and penalties under chapter 51-15, or otherwise provided by law.",
+     "appliesTo": "Security breach notification duties under chapter 51-30",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a0d8b90e5d466df924b8135953df2ec72c373eb154e0c59663e06ba261b80027"
+    },
+    {
+     "title": "Claims not barred (consumer fraud private claim)",
+     "citation": "N.D. Cent. Code § 51-15-09",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t51c15.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2007-04-25",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "this chapter does not bar any claim for relief by any person against any person who has acquired any moneys or property by means of any practice declared to be unlawful in this chapter.",
+     "appliesTo": "A person who acquired money or property through a practice unlawful under chapter 51-15",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9f19189433402e2504818983dccb7ea96b84cf56ed39af8aa8ac52160ddf4432"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://ndlegis.gov/assembly/60-2007/regular/bill-text/HAHV0600.pdf",
+     "host": "ndlegis.gov",
+     "usedFor": "2007 SB 2040 amending 51-15-09; emergency measure signed April 25, 2007"
+    },
+    {
+     "url": "https://ndlegis.gov/assembly/59-2005/regular/bill-text/FRBS0500.pdf",
+     "host": "ndlegis.gov",
+     "usedFor": "2005 SB 2251 creating chapter 51-30, effective June 1, 2005"
+    }
+   ],
+   "note": "Two narrow routes: a suit over bloodborne pathogen test result disclosure, and a breach claim through chapter 51-15. No general private right over medical records or health data found. 23-12-14 has no private remedy.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ND",
+    "note": "Level 1 rests on 23-07.5-07. The 51-15-09 route reaches only a person who acquired money or property by an unlawful practice, so it may not fit most breaches. 51-15-09 signed 2007-04-25, confirmed."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "most expedient time possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Definitions (personal information includes medical and health insurance information)",
+     "citation": "N.D. Cent. Code § 51-30-01(4)(a)",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t51c30.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2015-08-01",
+     "firstEnacted": "2005-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "(7) Medical information; (8) Health insurance information;",
+     "appliesTo": "An individual's first name or first initial and last name in combination with the listed data elements, when not encrypted",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a0d8b90e5d466df924b8135953df2ec72c373eb154e0c59663e06ba261b80027"
+    },
+    {
+     "title": "Notice to attorney general and consumers",
+     "citation": "N.D. Cent. Code § 51-30-02",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t51c30.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2015-08-01",
+     "firstEnacted": "2005-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "shall disclose to the attorney general by mail or electronic mail any breach of the security system which exceeds two hundred fifty individuals. The disclosure must be made in the most expedient time possible and without unreasonable delay",
+     "appliesTo": "Any person that owns or licenses computerized data that includes personal information; attorney general notice when a breach exceeds 250 individuals",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a0d8b90e5d466df924b8135953df2ec72c373eb154e0c59663e06ba261b80027"
+    },
+    {
+     "title": "Alternate compliance (HIPAA entities)",
+     "citation": "N.D. Cent. Code § 51-30-06",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t51c30.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2013-08-01",
+     "firstEnacted": "2005-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "A covered entity, business associate, or subcontractor subject to breach notification requirements under title 45, Code of Federal Regulations, subpart D, part 164, is considered to be in compliance with this chapter.",
+     "appliesTo": "HIPAA covered entities, business associates and subcontractors",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a0d8b90e5d466df924b8135953df2ec72c373eb154e0c59663e06ba261b80027"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://ndlegis.gov/assembly/64-2015/documents/15-8181-04000.pdf",
+     "host": "ndlegis.gov",
+     "usedFor": "2015 SB 2214 enrolled text amending 51-30-01(4) and 51-30-02"
+    },
+    {
+     "url": "https://ndlegis.gov/assembly/63-2013/regular/documents/13-0771-02000.pdf",
+     "host": "ndlegis.gov",
+     "usedFor": "2013 HB 1435 amending 51-30-01 and 51-30-06"
+    },
+    {
+     "url": "https://www.hipaajournal.com/nevada-and-north-dakota-amend-data-breach-laws-7041/",
+     "host": "hipaajournal.com",
+     "usedFor": "Lead on 2015 amendment"
+    }
+   ],
+   "note": "Both medical information and health insurance information are in the definition. The attorney general must be told when a breach exceeds 250 people. HIPAA-regulated entities are deemed compliant.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ND",
+    "note": "Both elements in 51-30-01(4)(a). 2015 SB 2214 amended 51-30-01(4) and 51-30-02; 2013 HB 1435 amended 51-30-06. Session law tables show no later change. AG notice over 250 people; HIPAA entities deemed compliant."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [
+    {
+     "title": "Personnel qualified to make adverse determinations (prior authorization; does not name AI)",
+     "citation": "N.D. Cent. Code § 26.1-36.12-03",
+     "officialUrl": "https://www.ndlegis.gov/cencode/t26-1c36-12.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "A prior authorization review organization shall ensure all adverse determinations are made by a licensed physician or licensed pharmacist.",
+     "appliesTo": "Prior authorization review organizations",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0f36adf0283d2442e5858539865d8af31d3f9269d28268fc288f764f16f0d813"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://ndlegis.gov/general-information/north-dakota-century-code/index.html",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "automated",
+     "generative",
+     "prior authorization"
+    ],
+    "regulatorPagesChecked": [
+     "https://attorneygeneral.nd.gov/consumer-resources/identity-theft/"
+    ],
+    "leadsChecked": [
+     "https://www.americanbar.org/groups/health_law/news/2025/5/north-dakota-enacts-law-limiting-ai-health-care-decisions/",
+     "https://www.govtech.com/artificial-intelligence/north-dakota-law-expected-to-curb-ai-influence-in-health-care"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.americanbar.org/groups/health_law/news/2025/5/north-dakota-enacts-law-limiting-ai-health-care-decisions/",
+     "host": "americanbar.org",
+     "usedFor": "Lead describing 2025 SB 2280 as limiting AI"
+    },
+    {
+     "url": "https://ndlegis.gov/assembly/69-2025/regular/documents/25-1180-05000.pdf",
+     "host": "ndlegis.gov",
+     "usedFor": "2025 SB 2280 enrolled text; effective January 1, 2026; contains no AI terms"
+    }
+   ],
+   "note": "Press calls 2025 SB 2280 an AI limit, but the enacted text never mentions AI, algorithms or automation. It requires physician or pharmacist adverse determinations generally. No AI-specific health rule found, so no element is counted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ND",
+    "note": "SB 2280 text, effective 2026-01-01, has no AI, algorithm or automation term. Own search found only HB 1167 on AI in political ads. Physician review of all denials is not an AI rule, so no element counts."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

@@ -1,0 +1,689 @@
+{
+ "usps": "MA",
+ "fips": "25",
+ "name": "Massachusetts",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "not_checked",
+   "level": null,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://malegislature.gov/Laws/SessionLaws/Acts/2026",
+    "terms": [
+     "consumer health data",
+     "data privacy",
+     "sensitive data",
+     "consent",
+     "location data",
+     "privacy"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.mass.gov/info-details/massachusetts-law-about-privacy (HTTP 403, not readable)",
+     "https://malegislature.gov/Bills/194/S2619",
+     "https://malegislature.gov/Bills/194/H5479"
+    ],
+    "leadsChecked": [
+     "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/june/one-step-closer-to-a-massachusetts-data-privacy-law-comparing-the-current-house-and-senate-bills/",
+     "https://techcrunch.com/2026/06/08/massachusetts-votes-to-pass-new-privacy-rights-bill-that-bans-sale-of-precise-location-data/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/june/one-step-closer-to-a-massachusetts-data-privacy-law-comparing-the-current-house-and-senate-bills/",
+     "host": "foleyhoag.com",
+     "usedFor": "Identified bill numbers S.2619 and H.5479 for the Massachusetts Data Privacy Act"
+    },
+    {
+     "url": "https://techcrunch.com/2026/06/08/massachusetts-votes-to-pass-new-privacy-rights-bill-that-bans-sale-of-precise-location-data/",
+     "host": "techcrunch.com",
+     "usedFor": "House passage of privacy bill in June 2026"
+    }
+   ],
+   "note": "Data Privacy Act bills S.2619 and H.5479 went to a conference committee on 2026-06-11. No enacted act found in the 2026 session laws list. Code search tool returned an error, so the session laws index was used.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MA",
+    "note": "General Laws search for consumer health data and sensitive data found nothing. 2025 and 2026 session law titles show no privacy act. Acts 2025 c.16 s.6 covers legal process only. mass.gov returned 403 to curl and WebFetch.",
+    "problems": [
+     "Search log codeSearchUrl is the 2026 session laws index, not a search of the official General Laws.",
+     "No regulator or AG page was actually read: the only mass.gov page listed returned HTTP 403; the other two are bill pages.",
+     "Outcome itself holds: S.2619 is still in conference (last action 2026-06-17) and no consumer health data law is in force."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q033"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "Record requested to support a claim or appeal under the Social Security Act or any federal or state financial needs-based benefit program (c.111 s.70, c.111 s.70E(g), c.112 s.12CC)"
+    ],
+    "feeRules": [
+     "c.111 s.70 hospitals and clinics: base charge of not more than $15 per request; not more than $0.50 per page for the first 100 pages; not more than $0.25 per page after 100 pages; may be adjusted by the medical care CPI; extra fee allowed for postage and for a summary if requested",
+     "c.112 s.12CC health care providers: reasonable fee as defined in c.111 s.70",
+     "No fee for a record requested to support a Social Security Act or needs-based benefit claim or appeal, with reasonable documentation of that purpose"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Records of hospitals or clinics; custody; inspection; copies; fees",
+     "citation": "Mass. Gen. Laws c.111, s.70",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter111/Section70",
+     "linkedFrom": null,
+     "effectiveDate": "2008-08-10",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "no fee shall be charged to any applicant, beneficiary or individual representing said applicant or beneficiary for furnishing a record if the record is requested for the purpose of supporting a claim or appeal under any provision of the Social Security Act",
+     "appliesTo": "Hospitals or clinics subject to licensure by the department of public health or supported in whole or in part by the commonwealth",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cbfe5c985591c5b29fd61c14a4aa4b013ad567c5672855c3bd088b579f5a84fc"
+    },
+    {
+     "title": "Health care providers; inspection of records",
+     "citation": "Mass. Gen. Laws c.112, s.12CC",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section12CC",
+     "linkedFrom": null,
+     "effectiveDate": "2004-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A health care provider shall furnish a health record requested pursuant to a claim or appeal under any provision of the Social Security Act or any federal or state financial needs-based benefit program within thirty days of the request.",
+     "appliesTo": "''health care provider'' shall mean a person or entity providing medical care or services, including but not limited to, physicians and surgeons, therapists, dentists, nurses, optometrists, chiropractors, psychologists, and podiatrists.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "45560e3e1feb459d297668675a5cf1121b74cf9ccf4e8adbdeb50604e43280ac"
+    },
+    {
+     "title": "Patients' and residents' rights",
+     "citation": "Mass. Gen. Laws c.111, s.70E(g)",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter111/Section70E",
+     "linkedFrom": null,
+     "effectiveDate": "2023-03-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "upon request, to inspect his medical records and to receive a copy thereof in accordance with section seventy, and the fee for said copy shall be determined by the rate of copying expenses",
+     "appliesTo": "Patients and residents of facilities as defined in s.70E",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0ad93c9f517790d80adba10f99576aeab08741aa093ab10128fc5f581b26f075"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/massachusetts/part-i/title-xvi/chapter-111/section-70/",
+     "host": "law.justia.com",
+     "usedFor": "Located the 2003 fee act (Acts 2003 c.135)"
+    },
+    {
+     "url": "https://www.healthinfolaw.org/state-topics/22,60",
+     "host": "healthinfolaw.org",
+     "usedFor": "Pointer to records access statutes"
+    }
+   ],
+   "note": "Free copy for benefit claims counts (element b). The 30-day deadline is not shorter than HIPAA. Dates: Acts 2003 c.135 (effective 2004-07-01) set the fee text; Acts 2008 c.305 ss.12-13, an emergency act approved 2008-08-10, last amended s.70. Board of Medicine rules on mass.gov returned HTTP 403.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MA",
+    "note": "beyondFederalFloor yes: a free copy for a Social Security or needs-based benefit claim goes beyond 164.524 and 171.302. Deadline is 30 days, not shorter. s.70 latest amendment found: Acts 2008 c.305, emergency, 2008-08-10.",
+    "problems": [
+     "c.111 s.70 effectiveDate 2004-07-01 is not the latest amendment: Acts 2008 c.305 ss.12-13, an emergency law approved 2008-08-10, amended s.70. Note wrongly says Acts 2003 c.135 is the latest act found.",
+     "Level 1 and beyondFederalFloor yes are correct; quotes on s.70, s.12CC and s.70E(g) are verbatim on malegislature.gov."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q034"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "regulation",
+   "designatedHie": "Statewide health information exchange under Mass. Gen. Laws c.118I",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Plan requirements",
+     "citation": "Mass. Gen. Laws c.118I, s.11",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter118I/Section11",
+     "linkedFrom": null,
+     "effectiveDate": "2012-11-05",
+     "firstEnacted": "2012-11-05",
+     "statusOfProvision": "in_force",
+     "quote": "(1) establish a mechanism to allow patients to opt-in to the health information exchange and to opt-out at any time;",
+     "appliesTo": "Any plan approved by the executive office and council or the e-Health institute, including every grantee and implementing organization that receives monies funded in whole or in part from the e-Health Institute Fund established in section 6E of chapter 40J or the Massachusetts Health Information Exchange Fund",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c9baae7d1cbf51efe93dda768128200ca7c018b691ceea1841bf3a855114fd6f"
+    },
+    {
+     "title": "Mass HIway regulation: centralized opt-out",
+     "citation": "101 CMR 20.07(3)",
+     "officialUrl": "https://archives.lib.state.ma.us/server/api/core/bitstreams/e59d8dc5-2fd5-48ff-bb71-208f193ef936/content",
+     "linkedFrom": null,
+     "effectiveDate": "2019-10-04",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Opt-out. The Mass HIway or its designee administers a centralized opt out system. Patients and/or their authorized designees may notify the Mass HIway or its designee directly if they choose to opt-out.",
+     "quoteVerified": "raw",
+     "rawSha256": "78c82ac48ebafe0d221c7cc0297be5f7cc85f3888ba7244456733302f99f1d11",
+     "appliesTo": "Mass HIway-sponsored services",
+     "checkedAt": "2026-10-04",
+     "effectiveDateSource": {
+      "url": "https://archives.lib.state.ma.us/server/api/core/bitstreams/e59d8dc5-2fd5-48ff-bb71-208f193ef936/content",
+      "note": "archived Massachusetts Register (State Library); mass.gov returned HTTP 403"
+     }
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "101 CMR 20.07(3) sets a central opt-out for Mass HIway-sponsored services. Direct messaging needs no patient choice.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MA",
+    "note": "Basis is regulation 101 CMR 20.07, updated October 2019, from the EOHHS Mass HIway page. The c.118I s.11 opt-in text is real, but the implementing rule applies it only to sponsored services. mass.gov copy of the rule returned 403.",
+    "problems": [
+     "opt_in does not describe routine exchange. Under 101 CMR 20.07(1), HIway Direct Messaging runs under HIPAA and other privacy law with no opt-in; the central opt-in mechanism applies only to HIway-Sponsored Services, and none exist.",
+     "c.118I s.11 effectiveDate should be 2012-11-04 (90th day after 2012-08-06), not 2012-11-05; malegislature.gov dates non-emergency acts on the 90th day.",
+     "stricterForSensitive left null; the HIway rules defer to federal and state law (42 CFR Part 2, c.93H) rather than set an HIE-specific sensitive rule."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q035"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     },
+     {
+      "rows": [
+       "ruling 1"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-29",
+      "date": "2026-10-04"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": true,
+    "provisions": [
+     {
+      "title": "Center for Health Information and Analysis; access to health information",
+      "citation": "Mass. Gen. Laws c.12C, s.12(b), as amended by Acts 2025 c.16, s.3",
+      "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter12C/Section12",
+      "linkedFrom": null,
+      "effectiveDate": "2025-11-05",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Except as required by federal law, the center shall not provide access to any data, including de-identified data or any other data that would allow the identification of a patient or provider in response to an out-of-state or federal inquiry or investigation into services constituting legally-protected health care activity",
+      "appliesTo": "The Center for Health Information and Analysis",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "100d83cae9ac3bfbf6aa63adc5b8e19f35c33fb919b3471807d5fb2d98706c10"
+     },
+     {
+      "title": "Electronic medical information on abortion, IVF and gender-affirming care (new c.111 s.70I)",
+      "citation": "Acts 2025 c.16, s.12 (inserting Mass. Gen. Laws c.111, s.70I)",
+      "officialUrl": "https://malegislature.gov/Laws/SessionLaws/Acts/2025/Chapter16",
+      "linkedFrom": null,
+      "effectiveDate": "2027-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "prevent the disclosure, access, transfer, transmission or processing of medical information related to abortion or abortion-related health care services, in vitro fertilization or gender-affirming health care services to persons and entities outside of the commonwealth, absent the express written consent of the patient",
+      "appliesTo": "A business that electronically stores or maintains such medical information on behalf of a health care provider, health care insurance plan, pharmaceutical company, pharmacy benefit manager, contractor or employer",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "db54d0282557ee8af1f53038df14a29da9cb78c99c566d8d1c6cf120990d22b2"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.insideprivacy.com/health-privacy/massachusetts-enacts-new-shield-law-expanding-protections-for-certain-health-data/",
+      "host": "insideprivacy.com",
+      "usedFor": "Pointer to the 2025 shield law (Acts 2025 c.16)"
+     }
+    ],
+    "note": "Acts 2025 c.16 approved 2025-08-07, no emergency preamble; the section page dates the amended subsection November 5, 2025. Section 28 sets 2027-07-01 for new s.70I.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_MA",
+     "note": "Acts 2025 c.16 approved 2025-08-07 with no emergency preamble; the section page dates it 2025-11-05. New c.111 s.70I takes effect 2027-07-01 and is pending.",
+     "problems": [
+      "c.12C s.12(b) effectiveDate should be 2025-11-05; the official page says the subsection as amended by 2025, 16, Sec. 3 took effect November 5, 2025. Researcher gave 2025-11-06.",
+      "Value yes, pending true and the s.70I date of 2027-07-01 (Acts 2025 c.16 s.28) are correct; both quotes are verbatim."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q036"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Records of department of mental health facilities",
+      "citation": "Mass. Gen. Laws c.123, s.36",
+      "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter123/Section36",
+      "linkedFrom": null,
+      "effectiveDate": "2025-11-25",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Such records shall be private and not open to public inspection except (1) upon proper judicial order whether or not in connection with pending judicial proceedings",
+      "appliesTo": "Records of persons admitted to facilities under the supervision of the department of mental health",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ee45df3ec4fe0f356350dd2c876458d9d3c200f48f2b0f3905eaf4b0df19c112"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Latest amendment: Acts 2025 c.73, s.41, an emergency law approved 2025-11-25.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MA",
+     "note": "Quote is verbatim. The page shows the text as amended by 2025, 73, Sec. 41, effective November 25, 2025."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV testing; disclosure of results",
+      "citation": "Mass. Gen. Laws c.111, s.70F",
+      "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter111/Section70F",
+      "linkedFrom": null,
+      "effectiveDate": "2012-07-26",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "(2) disclose the results of such test to any person other than the subject of the test without first obtaining the subject's written informed consent",
+      "appliesTo": "A facility, as defined in section 70E, physician or health care provider",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "024665459afdc0a5245222a3423b8e8d8fe759445ba2cf350b805dd7fbe0151c",
+      "effectiveDateSource": {
+       "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2012/Chapter84",
+       "quote": "Approved, April 27, 2012.",
+       "rawSha256": "02b66dcfa3e013126a50c8df91fc9c6cdb7c7a65cc5d2ad381570fc69046795e",
+       "defaultRule": "Mass. Const. Amend. Art. 48, The Referendum, Pt. I (https://malegislature.gov/Laws/Constitution): \"No law passed by the general court shall take effect earlier than ninety days after it has become a law, excepting laws declared to be emergency laws and laws which may not be made the subject of a referendum petition, as herein provided.\"",
+       "count": "approval date plus 90 days (D-29)",
+       "retrievedAt": "2026-10-04T09:33:48Z"
+      }
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.wbur.org/news/2012/07/23/mass-hiv-test-law",
+      "host": "wbur.org",
+      "usedFor": "Pointer to the 2012 rewrite of s.70F"
+     }
+    ],
+    "note": "Section rewritten by Acts 2012 c.84, approved 2012-04-27, no emergency preamble; date is the 91st day.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_MA",
+     "note": "Acts 2012 c.84 rewrote s.70F, approved 2012-04-27, no emergency preamble or date clause. malegislature.gov counts the 90th day, as its c.12C s.12 note shows (2025-08-07 to 2025-11-05).",
+     "problems": [
+      "effectiveDate should be 2012-07-26, the 90th day after approval on 2012-04-27; researcher used the 91st day (2012-07-27). Quote, citation, host and value are correct."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "ruling 2"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-29",
+       "date": "2026-10-04"
+      },
+      {
+       "rows": [
+        "Q037"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-26 Q3",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic information and reports protected as private information",
+      "citation": "Mass. Gen. Laws c.111, s.70G",
+      "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter111/Section70G",
+      "linkedFrom": null,
+      "effectiveDate": "2000-11-20",
+      "firstEnacted": "2000-11-21",
+      "statusOfProvision": "in_force",
+      "quote": "(2) disclose the results of a genetic test to any person other than the subject thereof without first obtaining the informed written consent",
+      "appliesTo": "No facility, as defined in section 70E, and no physician or health care provider",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "636116d21e131d3367646adb85ec3540779638e69b21d3e5417794f1e8d1427a",
+      "effectiveDateSource": {
+       "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2000/Chapter254",
+       "quote": "Approved August 22, 2000.",
+       "rawSha256": "4ead8b1320393def62e5a3e4ed91e04e14d77752e4b3d5c564ad1bcf8cac8f00",
+       "defaultRule": "Mass. Const. Amend. Art. 48, The Referendum, Part I (https://malegislature.gov/Laws/Constitution): \"No law passed by the general court shall take effect earlier than ninety days after it has become a law, excepting laws declared to be emergency laws and laws which may not be made the subject of a referendum petition, as herein provided.\"",
+       "count": "approval date plus 90 days (D-29)",
+       "retrievedAt": "2026-10-04T09:33:48Z"
+      }
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Inserted by Acts 2000 c.254, approved 2000-08-22. No later amending act found. Date is the 91st day.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_MA",
+     "note": "Quote is verbatim. Acts 2000 c.254 inserted s.70G, approved 2000-08-22. No later amending act found.",
+     "problems": [
+      "effectiveDate and firstEnacted should be 2000-11-20, the 90th day after approval on 2000-08-22; researcher used 2000-11-21. Acts 2000 c.254 s.31 sets special dates only for sections 24A and 25A."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "ruling 2"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-29",
+       "date": "2026-10-04"
+      },
+      {
+       "rows": [
+        "Q038"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-26 Q3",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None stated. Action is brought under c.231 ss.60B to 60E."
+   },
+   "provisions": [
+    {
+     "title": "Patients' and residents' rights; civil action",
+     "citation": "Mass. Gen. Laws c.111, s.70E",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter111/Section70E",
+     "linkedFrom": null,
+     "effectiveDate": "2023-03-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person whose rights under this section are violated may bring, in addition to any other action allowed by law or regulation, a civil action under sections sixty B to sixty E, inclusive, of chapter two hundred and thirty-one",
+     "appliesTo": "Patients and residents of facilities as defined in s.70E",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0ad93c9f517790d80adba10f99576aeab08741aa093ab10128fc5f581b26f075"
+    },
+    {
+     "title": "Patients' and residents' rights; confidentiality of records",
+     "citation": "Mass. Gen. Laws c.111, s.70E(b)",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter111/Section70E",
+     "linkedFrom": null,
+     "effectiveDate": "2023-03-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(b) to confidentiality of all records and communications to the extent provided by law;",
+     "appliesTo": "Patients and residents of facilities as defined in s.70E",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0ad93c9f517790d80adba10f99576aeab08741aa093ab10128fc5f581b26f075"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "A patient can sue for breach of the s.70E records confidentiality right. Limited to facility patients. Latest amendment found: Acts 2022 c.144, s.25, in effect 2023-03-01. Breach law c.93H has no private right of action.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MA",
+    "note": "s.70E(b) confidentiality right plus its civil action covers all records of facility patients. Acts 2022 c.144 s.25 amended s.70E, effective 2023-03-01. s.70F also makes an HIV disclosure a c.93A s.2 violation."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "as soon as practicable and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Security breaches; definitions",
+     "citation": "Mass. Gen. Laws c.93H, s.1",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93H/Section1",
+     "linkedFrom": null,
+     "effectiveDate": "2007-10-31",
+     "firstEnacted": "2007-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "''Personal information'' a resident's first name and last name or first initial and last name in combination with any 1 or more of the following data elements that relate to such resident:",
+     "appliesTo": "Data elements listed: (a) Social Security number; (b) driver's license or state ID number; (c) financial account or card number. No medical or health insurance element.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a18e8a2d94326578140ef342cc7c1ac527aabd8ef2c1f41879ad507b7d08724b",
+     "effectiveDateSource": {
+      "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2007/Chapter82",
+      "quote": "Approved August 2, 2007.",
+      "rawSha256": "d2a3485b50137c45c7329a177732da46a441b69edc57342186517162b82de93e",
+      "defaultRule": "Mass. Const. Amend. Art. 48, The Referendum, I (https://malegislature.gov/Laws/Constitution): \"No law passed by the general court shall take effect earlier than ninety days after it has become a law, excepting laws declared to be emergency laws and laws which may not be made the subject of a referendum petition, as herein provided.\"",
+      "count": "approval date plus 90 days (D-29)",
+      "retrievedAt": "2026-10-04T09:33:48Z"
+     }
+    },
+    {
+     "title": "Duty to report known security breach",
+     "citation": "Mass. Gen. Laws c.93H, s.3(b)",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93H/Section3",
+     "linkedFrom": null,
+     "effectiveDate": "2019-04-10",
+     "firstEnacted": "2007-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "(b) A person or agency that owns or licenses data that includes personal information about a resident of the commonwealth, shall provide notice, as soon as practicable and without unreasonable delay,",
+     "appliesTo": "A person or agency that owns or licenses data that includes personal information about a resident; notice goes to the attorney general, the director of consumer affairs and business regulation and the resident",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "401e1fc3f1cb84f03a2fa4a36e9907700a8124c4e21b9dc24d5f2bf391d617a6",
+     "effectiveDateSource": {
+      "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2018/Chapter444",
+      "quote": "Approved, January 10, 2019.",
+      "rawSha256": "d3e2c06f858cdbd84f1d89f0b07983755ea8fdfe20609466ad6f979ee9ea4105",
+      "defaultRule": "Mass. Const. Amend. Art. 48, The Referendum, I (https://malegislature.gov/Laws/Constitution): \"No law passed by the general court shall take effect earlier than ninety days after it has become a law, excepting laws declared to be emergency laws and laws which may not be made the subject of a referendum petition, as herein provided.\"",
+      "count": "approval date plus 90 days (D-29)",
+      "retrievedAt": "2026-10-04T09:33:48Z"
+     }
+    },
+    {
+     "title": "Compliance with federal procedures",
+     "citation": "Mass. Gen. Laws c.93H, s.5",
+     "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93H/Section5",
+     "linkedFrom": null,
+     "effectiveDate": "2007-10-31",
+     "firstEnacted": "2007-11-01",
+     "statusOfProvision": "in_force",
+     "quote": "a person who maintains procedures for responding to a breach of security pursuant to federal laws, rules, regulations, guidance, or guidelines, is deemed to be in compliance with this chapter if the person notifies affected Massachusetts residents in accordance with the maintained or required procedures when a breach occurs",
+     "appliesTo": "Persons with federal breach procedures, who must also notify the attorney general and the consumer affairs director",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f095f78d30472434b65aac804c9858de47eb4c2a613598bf2927cd6301e686ff",
+     "effectiveDateSource": {
+      "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2007/Chapter82",
+      "quote": "Approved August 2, 2007.",
+      "rawSha256": "ebc60a812480885225c3d1c33be78344ed48d2282d1c383a2505fc5508ed4f9e",
+      "defaultRule": "Mass. Const. Amend. Art. 48, The Referendum, I (https://malegislature.gov/Laws/Constitution): \"No law passed by the general court shall take effect earlier than ninety days after it has become a law, excepting laws declared to be emergency laws and laws which may not be made the subject of a referendum petition, as herein provided.\"",
+      "count": "approval date plus 90 days (D-29)",
+      "retrievedAt": "2026-10-04T09:33:48Z"
+     }
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Chapter 93H inserted by Acts 2007 c.82, s.16, approved 2007-08-02; date is the 91st day. Section 3 amended by Acts 2018 c.444, approved 2019-01-10.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MA",
+    "note": "Definition lists only Social Security, license or state ID, and financial account or card numbers. No medical or health insurance element.",
+    "problems": [
+     "c.93H s.1 and s.5 effectiveDate should be 2007-10-31, the 90th day after Acts 2007 c.82 was approved on 2007-08-02; researcher gave 2007-11-01.",
+     "c.93H s.3 effectiveDate should be 2019-04-10, the 90th day after Acts 2018 c.444 was approved on 2019-01-10; researcher gave 2019-04-11.",
+     "Level 0 and the facts (without unreasonable delay, AG notice, federal-procedure deeming clause) are correct; quotes are verbatim."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "ruling 2"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-29",
+      "date": "2026-10-04"
+     },
+     {
+      "rows": [
+       "Q039"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q3",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "not_checked",
+   "level": null,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://malegislature.gov/Laws/SessionLaws/Acts/2026",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "utilization review",
+     "automated decision",
+     "health care decision-making"
+    ],
+    "regulatorPagesChecked": [
+     "https://malegislature.gov/Bills/194/S2632",
+     "https://www.mass.gov/info-details/massachusetts-law-about-privacy (HTTP 403, not readable)"
+    ],
+    "leadsChecked": [
+     "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "https://www.healthlawdiagnosis.com/2026/01/massachusetts-governor-healey-announces-new-department-of-insurance-regulations-intended-to-streamline-prior-authorization-practices/",
+     "https://hooperlundy.com/legislation-in-massachusetts-addresses-data-privacy-protections-use-of-ai-for-mental-health-and-use-of-ai-for-utilization-review/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "hklaw.com",
+     "usedFor": "2026 state AI health laws review; Massachusetts not listed"
+    },
+    {
+     "url": "https://www.healthlawdiagnosis.com/2026/01/massachusetts-governor-healey-announces-new-department-of-insurance-regulations-intended-to-streamline-prior-authorization-practices/",
+     "host": "healthlawdiagnosis.com",
+     "usedFor": "Prior authorization rules announcement; no AI terms"
+    }
+   ],
+   "note": "S.2632 (AI in health care decision-making) was sent to Senate Ways and Means on 2026-04-02 and is not enacted. No AI act found in the 2026 session laws list.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MA",
+    "note": "The 8 artificial intelligence hits are life sciences and tax sections, none on care or coverage. S.2632 sits in Senate Ways and Means. Acts 2026 c.187 and c.188 have no AI terms. DOI Bulletin 2024-10 is guidance; mass.gov returned 403.",
+    "problems": [
+     "Search log codeSearchUrl is the 2026 session laws index, not a General Laws search.",
+     "No regulator page was read: the mass.gov page returned 403 and S.2632 is a bill page. Division of Insurance not checked.",
+     "Outcome holds: no in-force element found."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q040"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

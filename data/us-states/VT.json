@@ -1,0 +1,526 @@
+{
+ "usps": "VT",
+ "fips": "50",
+ "name": "Vermont",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "enacted_not_yet_effective",
+   "level": 0,
+   "pending": true,
+   "provisions": [
+    {
+     "title": "Vermont Data Privacy and Online Surveillance Act; duties of controllers (sensitive data)",
+     "citation": "2026 Acts and Resolves No. 145, Sec. 1 (9 V.S.A. § 2415e(a)(4)(A))",
+     "officialUrl": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT145/ACT145%20As%20Enacted.pdf",
+     "linkedFrom": "https://legislature.vermont.gov/bill/status/2026/S.71",
+     "effectiveDate": "2028-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "not process the sensitive data unless the consumer has provided consent and unless the processing is reasonably necessary in relation to the purposes for which the sensitive data are collected",
+     "appliesTo": "controlled or processed the personal data of not fewer than 35,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction (also 3,000 consumers for sensitive data or sales; 9 V.S.A. § 2415b(a))",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "06e6c157cf970984bc4c00ebe440f9817961aa060ef0d3907017f7504558624f"
+    },
+    {
+     "title": "Consumer health data privacy",
+     "citation": "2026 Acts and Resolves No. 145, Sec. 1 (9 V.S.A. § 2415k(4))",
+     "officialUrl": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT145/ACT145%20As%20Enacted.pdf",
+     "linkedFrom": "https://legislature.vermont.gov/bill/status/2026/S.71",
+     "effectiveDate": "2028-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "sell, or offer to sell, consumer health data without first obtaining the consumer’s consent.",
+     "appliesTo": "apply to a person that conducts business in this State or a person that produces products or services that are targeted to residents of this State. (9 V.S.A. § 2415b(b), no volume threshold)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "06e6c157cf970984bc4c00ebe440f9817961aa060ef0d3907017f7504558624f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.mayerbrown.com/en/insights/publications/2026/06/vermont-enacts-comprehensive-consumer-privacy-law",
+     "host": "mayerbrown.com",
+     "usedFor": "Found S.71 (Act 145 of 2026) and its 2028 effective date"
+    },
+    {
+     "url": "https://www.cooley.com/news/insight/2026/2026-06-29-small-state-big-bite-what-sets-vermonts-new-privacy-law-apart",
+     "host": "cooley.com",
+     "usedFor": "Found consumer health data provisions in Act 145"
+    }
+   ],
+   "note": "Act 145 of 2026 requires consent for sensitive data, including health data, and consent to sell consumer health data. Sec. 4 says the act takes effect January 1, 2028. No in-force consent rule found, so level 0 for now.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_VT",
+    "note": "Both quotes verbatim in Act 145, linked from the S.71 status page. Sec. 4 sets January 1, 2028. 9 V.S.A. chapter 61A is not yet in the online code. No in-force consent rule found. Level 0, pending true."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "Copies requested to support a claim or appeal under the Social Security Act",
+     "Copies requested for any other federal or State needs-based benefit or program"
+    ],
+    "feeRules": [
+     "A custodian may impose a charge that is no more than a flat $5.00 fee or no more than $0.50 per page, whichever is greater (18 V.S.A. § 9419(a))",
+     "A custodian may charge an individual a fee, reasonably related to the associated costs, for providing copies of X-rays, films, models, disks, tapes, or other health care record information maintained in other formats (18 V.S.A. § 9419(b))"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Charges for access to medical records",
+     "citation": "18 V.S.A. § 9419(a)",
+     "officialUrl": "https://legislature.vermont.gov/statutes/section/18/221/09419",
+     "linkedFrom": null,
+     "effectiveDate": "2018-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A custodian shall not charge for providing copies of any health care record requested to support a claim or an appeal under any provision of the Social Security Act or for any other federal or State needs-based benefit or program.",
+     "appliesTo": "“Custodian” means any person who maintains health care information for any lawful purpose, including a health care provider, a health care facility, or a health insurer.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4c1eeb0da9517cc1a23b3fa76aa0c00e4c633b6d11f11cf79708aece1959d8b8"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/vt/title-18-health/vt-st-tit-18-sect-9419/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Found 18 V.S.A. § 9419"
+    },
+    {
+     "url": "https://vtmd.org/client_media/files/Vermont%20Guide%20to%20Health%20Care%20Law%20-%20December%202022%20Edition%20Final%201.4.2023.pdf",
+     "host": "vtmd.org",
+     "usedFor": "Search result pointing to the promptly standard in 26 V.S.A. § 1354"
+    }
+   ],
+   "note": "Free copy for Social Security and needs-based benefit claims goes beyond HIPAA and Part 171. No day deadline found; 26 V.S.A. § 1354(a)(10) says only promptly. The $5 or $0.50 per page fee is a fact, not counted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_VT",
+    "note": "beyondFederalFloor yes: free copy for benefit claims is not in HIPAA or Part 171. Current text from 2017 Act 113 (Adj. Sess.), effective July 1, 2018. No day deadline found; 26 V.S.A. 1354(a)(10) says promptly. No 2026 amendment."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "Vermont Information Technology Leaders (VITL), operator of the Vermont Health Information Exchange",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Health Information Technology Plan",
+     "citation": "18 V.S.A. § 9351(a)(3)(B)",
+     "officialUrl": "https://legislature.vermont.gov/statutes/section/18/219/09351",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "to the extent permitted under federal law unless the patient has affirmatively elected not to have the patient’s electronic health information shared in that manner.",
+     "appliesTo": "each patient’s electronic health information that is contained in the Vermont Health Information Exchange",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3a00dc6dc7b475f01aa8b4a4af374222bc85bcf2cb1951f570a8cd325f15d8b0"
+    },
+    {
+     "title": "Vermont Information Technology Leaders; designation",
+     "citation": "18 V.S.A. § 9352(c)(1)",
+     "officialUrl": "https://legislature.vermont.gov/statutes/section/18/219/09352",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "VITL shall be designated in the Health Information Technology Plan to operate the exclusive statewide health information exchange network for this State.",
+     "appliesTo": "Vermont Health Information Exchange",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e71b41b0e7a310804dff716bf5b42b81cf542ba69c35a3906534c015367f1f9d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://vitl.net/for-vermonters/options/",
+     "host": "vitl.net",
+     "usedFor": "Confirmed published opt-out by online form, print form or hotline 1-888-980-1243"
+    },
+    {
+     "url": "https://vitl.net/wp-content/uploads/2025/11/Protocols-for-access-to-PHI-on-VHIE.pdf",
+     "host": "vitl.net",
+     "usedFor": "VHIE protocols on SUD Identifying Records under 42 C.F.R. Part 2"
+    },
+    {
+     "url": "https://gmcboard.vermont.gov/sites/gmcb/files/documents/HIE%20Consent%20Management%20Amendment.pdf",
+     "host": "gmcboard.vermont.gov",
+     "usedFor": "Search result on the 2020 switch to opt-out"
+    }
+   ],
+   "note": "Statute makes the exchange opt-out. VITL publishes opt-out by form or hotline. VHIE protocols add 42 C.F.R. Part 2 protections for substance use disorder records; that rule is federal, not a state statute.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_VT",
+    "note": "Statute sets opt-out; last amended 2025 Act 62, effective July 1, 2025. VITL publishes an online form, print form and hotline. VHIE protocols add extra handling for 42 CFR Part 2 records, so stricterForSensitive true holds."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of protected health information prohibited",
+      "citation": "18 V.S.A. § 1881(c)(1)",
+      "officialUrl": "https://legislature.vermont.gov/statutes/section/18/042B/01881",
+      "linkedFrom": null,
+      "effectiveDate": "2025-05-13",
+      "firstEnacted": "2016-10-01",
+      "statusOfProvision": "in_force",
+      "quote": "a covered entity or business associate shall not disclose protected health information that is identifiable or susceptible to reidentification and is related to a legally protected health care activity:",
+      "appliesTo": "Covered entities and business associates as defined in 45 C.F.R. § 160.103",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "868b55023302c82055b3b4bc67d665e16e4e4e9314c12e6d982d17cdae782767"
+     },
+     {
+      "title": "Legally protected health care activity; definitions",
+      "citation": "1 V.S.A. § 150(c)",
+      "officialUrl": "https://legislature.vermont.gov/statutes/section/01/003/00150",
+      "linkedFrom": null,
+      "effectiveDate": "2025-05-13",
+      "firstEnacted": "2023-05-10",
+      "statusOfProvision": "in_force",
+      "quote": "“Reproductive health care services” means all supplies, care, and services of a medical,",
+      "appliesTo": "Defines the reproductive health care services that fall within legally protected health care activity",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "830bb7f2f917710194df7cc55d50ea8c4cdcdc03cf222b91512eaf874723fb9c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://vitl.net/wp-content/uploads/2024/08/Comparison-of-HIPAA-and-Shield-Law-Webinar-August-2024.pdf",
+      "host": "vitl.net",
+      "usedFor": "Search result pointing to 18 V.S.A. § 1881 and 1 V.S.A. § 150"
+     }
+    ],
+    "note": "Bars disclosure of records related to legally protected health care activity to out-of-state government bodies or for use in proceedings, unless the patient authorizes or listed exceptions apply.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_VT",
+     "note": "Quote verbatim. History note shows 2025 Act 20, effective May 13, 2025. 1 V.S.A. 150(c) defines reproductive health care services, same date. No 2026 amendment listed."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of information (mental health)",
+      "citation": "18 V.S.A. § 7103(a)",
+      "officialUrl": "https://legislature.vermont.gov/statutes/section/18/171/07103",
+      "linkedFrom": null,
+      "effectiveDate": "2023-07-01",
+      "firstEnacted": "1968-10-01",
+      "statusOfProvision": "in_force",
+      "quote": "together with clinical information relating to such persons shall be kept confidential and shall not be disclosed by any person except insofar:",
+      "appliesTo": "Records identifying a patient or individual whose hospitalization or care has been sought or provided under Part 8 of Title 18 (mental health)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "459379aa2eeddc3de699b66b0f5229011c7b778613ad0735cddccdde5d97d7ec"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is allowed with the individual's written consent, to carry out Part 8, by court direction, or for listed reporting. Violation carries a fine up to $2,000 or one year imprisonment.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_VT",
+     "note": "Quote verbatim. Last amended 2023 Act 6, effective July 1, 2023. Subsection (c) sets a fine up to $2,000 or prison up to one year."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Reports to Commissioner of Health; HIV and AIDS public health records",
+      "citation": "18 V.S.A. § 1001(b)",
+      "officialUrl": "https://legislature.vermont.gov/statutes/section/18/021/01001",
+      "linkedFrom": null,
+      "effectiveDate": "2024-03-13",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "shall be confidential and only disclosed following notice to and written authorization from the individual subject of the public health record or the individual’s legal representative.",
+      "appliesTo": "Public health records developed or acquired by State or local public health agencies that relate to HIV or AIDS",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "12ffbfe836732c7b498d9211e31e36fa4dc93d8234ab300a578608e749d8d62f"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Covers public health agency records on HIV or AIDS. Subsection (d) bars disclosure or discovery in any civil, criminal or administrative proceeding.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_VT",
+     "note": "Quote verbatim from 18 V.S.A. 1001(b). Last amended 2023 Act 87 (Adj. Sess.), effective March 13, 2024. Subsection (d) bars disclosure in proceedings."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic testing; limitations",
+      "citation": "18 V.S.A. § 9332(e)",
+      "officialUrl": "https://legislature.vermont.gov/statutes/section/18/217/09332",
+      "linkedFrom": null,
+      "effectiveDate": "1999-01-01",
+      "firstEnacted": "1999-01-01",
+      "statusOfProvision": "in_force",
+      "quote": "any results of genetic testing or the fact that an individual has requested genetic services or undergone genetic testing shall be disclosed only pursuant to a written authorization executed by the individual tested or by a person authorized by law to act for the individual.",
+      "appliesTo": "Any person, except the testing purposes listed in subsection (b)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "89b2cb3db016b8c99f4c39b50a3503241adaea32ab74f7a0ca51470cf7d94ad1"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure of genetic test results needs written authorization. Subsection (d) requires written authorization and informed consent before testing.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_VT",
+     "note": "Quote verbatim from 18 V.S.A. 9332(e). Added 1997 Act 160 (Adj. Sess.), effective January 1, 1999. Never amended."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Genetic testing: civil damages including punitive damages, costs and attorney's fees (18 V.S.A. § 9335(b)). HIV or other public health records: actual damages; civil penalty $10,000 to $25,000 for willful disclosure; up to $2,500 paid to the subject for negligent disclosure (18 V.S.A. § 1001(e))."
+   },
+   "provisions": [
+    {
+     "title": "Genetic testing; remedies",
+     "citation": "18 V.S.A. § 9335(b)",
+     "officialUrl": "https://legislature.vermont.gov/statutes/section/18/217/09335",
+     "linkedFrom": null,
+     "effectiveDate": "1999-01-01",
+     "firstEnacted": "1999-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any person aggrieved by a violation of this chapter may bring an action for civil damages, including punitive damages, equitable relief, including restraint of prohibited acts, restitution of wages or other benefits, and reinstatement, costs, and reasonable attorney’s fees, and other appropriate relief.",
+     "appliesTo": "Violations of 18 V.S.A. chapter 217 (genetic testing)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e23ebf246c2fb2e747e192e2015cfe683216387a6b1b3dc10a653917d59e0366"
+    },
+    {
+     "title": "Confidential public health records; liability",
+     "citation": "18 V.S.A. § 1001(e)(4)",
+     "officialUrl": "https://legislature.vermont.gov/statutes/section/18/021/01001",
+     "linkedFrom": null,
+     "effectiveDate": "2024-03-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Commits any act described in subdivision (1), (2), or (3) of this subsection shall be liable to the subject for all actual damages, including damages for any economic, bodily, or psychological harm that is a proximate result of the act.",
+     "appliesTo": "Disclosure of confidential public health records, including HIV test results",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "12ffbfe836732c7b498d9211e31e36fa4dc93d8234ab300a578608e749d8d62f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Suits limited to genetic testing and confidential public health records such as HIV. 18 V.S.A. § 1881 has no private right. Act 145 of 2026, Sec. 2, states an intent to give no private right under the new privacy act.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_VT",
+    "note": "Suits cover genetic tests and public health records only. 18 V.S.A. 1881 has none. Act 145 Sec. 2 declines a private right. Act 156 gives consumer protection suits for AI mental health services, not records."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": true,
+   "facts": {
+    "noticeDeadline": "Most expedient time possible and without unreasonable delay, but not later than 45 days after discovery or notification",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Definitions; personally identifiable information",
+     "citation": "9 V.S.A. § 2430(10)(A)(vii)",
+     "officialUrl": "https://legislature.vermont.gov/statutes/section/09/062/02430",
+     "linkedFrom": null,
+     "effectiveDate": "2020-07-01",
+     "firstEnacted": "2007-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "health records or records of a wellness program or similar program of health promotion or disease prevention; (II) a health care professional’s medical diagnosis or treatment of the consumer; or (III) a health insurance policy number.",
+     "appliesTo": "Data collectors that own or license computerized personally identifiable information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "764d1999fae1160b828d8dd4590f5f237ee80cc11b7b6a1a4a5a966252e0c08c"
+    },
+    {
+     "title": "Notice of security breaches",
+     "citation": "9 V.S.A. § 2435(b), (e)",
+     "officialUrl": "https://legislature.vermont.gov/statutes/section/09/062/02435",
+     "linkedFrom": null,
+     "effectiveDate": "2020-07-01",
+     "firstEnacted": "2007-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "shall be made in the most expedient time possible and without unreasonable delay, but not later than 45 days after the discovery or notification,",
+     "appliesTo": "Data collectors; a HIPAA-regulated data collector is deemed compliant for breaches limited to the health data in § 2430(10)(A)(vii) if it notifies under HIPAA",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ba203a1074bc1a201e4a7102df8b362e0a894d660ee97aab3ee2ae4d5979217f"
+    },
+    {
+     "title": "Act 138 (2026), Sec. 1, amending 9 V.S.A. chapter 62",
+     "citation": "2026 Vt. Acts No. 138, Sec. 1 (9 V.S.A. 2430(13)(A)(vii))",
+     "officialUrl": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT138/ACT138%20As%20Enacted.pdf",
+     "effectiveDate": "2027-01-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "health records or records of a wellness program or similar program of health promotion or disease prevention",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "36299e529e019cd6964f3a155288ef97298747297687ef8eb9708b4610918781"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Both medical and health insurance data are in the definition. The Attorney General or Department of Financial Regulation must get a preliminary notice within 14 business days.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_VT",
+    "note": "Level 2 holds. Deadline 45 days, AG or DFR preliminary notice in 14 business days, HIPAA clause present. Set pending true and list Act 138, effective January 1, 2027.",
+    "problems": [
+     "pending is false, but 2026 Act 138 Sec. 1 amends 9 V.S.A. 2430 and 2435, effective January 1, 2027, and is not listed in provisions.",
+     "Act 138 renumbers the definition to 2430(13) and rewrites the HIPAA compliance clause in 2435(e); health elements stay the same."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q074"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "A corporation or entity shall not provide, advertise, or otherwise offer mental health services, including through the use of artificial intelligence, to the public unless the mental health services are: (1) provided by a mental health professional; or (18 V.S.A. § 7115(b), Act 156 of 2026)"
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Prohibited uses of artificial intelligence (mental health services)",
+     "citation": "2026 Acts and Resolves No. 156, Sec. 3 (18 V.S.A. § 7115(d))",
+     "officialUrl": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT156/ACT156%20As%20Enacted.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-17",
+     "firstEnacted": "2026-06-17",
+     "statusOfProvision": "in_force",
+     "quote": "from utilizing artificial intelligence tools that are compliant with the Health Insurance Portability and Accountability Act of 1996, Pub. L. No. 104-191, provided that the mental health professional reviews and approves any mental health services.",
+     "appliesTo": "Mental health services and mental health professionals as defined in 18 V.S.A. § 7115(a)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e7e768c5bcc3803b26734c1b2ef858a716ace38e5308e8acb557950023826185"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://legislature.vermont.gov/bill/status/2026/H.776",
+     "host": "legislature.vermont.gov",
+     "usedFor": "Checked AI in coverage decisions bill; still in House Committee on Health Care"
+    }
+   ],
+   "note": "Act 156 took effect on passage, signed June 17, 2026. It covers mental health services only. Act 101 of 2026 orders only a study on AI in utilization review. No disclosure or human recourse rule found.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_VT",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P22"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "in_force",
+   "deletionMechanism": false,
+   "provisions": [
+    {
+     "title": "Data broker annual registration",
+     "citation": "9 V.S.A. § 2446(a)",
+     "officialUrl": "https://legislature.vermont.gov/statutes/section/09/062/02446",
+     "linkedFrom": null,
+     "effectiveDate": "2019-01-01",
+     "firstEnacted": "2019-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Annually, on or before January 31 following a year in which a person meets the definition of data broker as provided in section 2430 of this title, a data broker shall: (1) register with the Secretary of State;",
+     "appliesTo": "Data brokers as defined in 9 V.S.A. § 2430",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0268afaa8a3d858d805912b38a69f9b647d882177346e19a0c720e8563a89547"
+    },
+    {
+     "title": "Data broker registration amendments",
+     "citation": "2026 Acts and Resolves No. 138, Sec. 1 (9 V.S.A. chapter 62)",
+     "officialUrl": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT138/ACT138%20As%20Enacted.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "if the data broker permits deletion, allows a consumer to request that a data broker delete the brokered personal information of the consumer;",
+     "appliesTo": "Registered data brokers; Sec. 2 orders only a study of a single deletion mechanism",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "36299e529e019cd6964f3a155288ef97298747297687ef8eb9708b4610918781"
+    }
+   ]
+  }
+ }
+}

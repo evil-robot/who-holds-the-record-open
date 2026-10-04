@@ -1,0 +1,618 @@
+{
+ "usps": "TN",
+ "fips": "47",
+ "name": "Tennessee",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Tennessee Information Protection Act, controller duties (sensitive data consent)",
+     "citation": "2023 Tenn. Pub. Ch. 408 (HB1181), Sec. 2, new section 47-18-3204(a)(6) as numbered in the act (codified in Tenn. Code Ann. Title 47, Ch. 18, Part 33)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/113/pub/pc0408.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1181&GA=113",
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": "2023-05-11",
+     "statusOfProvision": "in_force",
+     "quote": "Not process sensitive data concerning a consumer without obtaining the consumer's consent",
+     "appliesTo": "Persons doing business in Tennessee that \"Exceed twenty-five million dollars ($25,000,000) in revenue\" and either derive over 50% of revenue from selling data of 25,000 consumers or, \"During a calendar year, control or process personal information of at least one hundred seventy-five thousand (175,000) consumers\". HIPAA PHI is exempt.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2bba6177abce35939fda0cce79ec0b80378ac52ebae6759163ed079be161aaea"
+    },
+    {
+     "title": "Tennessee Information Protection Act, definition of sensitive data",
+     "citation": "2023 Tenn. Pub. Ch. 408 (HB1181), Sec. 2, new section 47-18-3201(26) as numbered in the act (codified in Tenn. Code Ann. Title 47, Ch. 18, Part 33)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/113/pub/pc0408.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1181&GA=113",
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": "2023-05-11",
+     "statusOfProvision": "in_force",
+     "quote": "Personal information revealing racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexual orientation, or citizenship or immigration status",
+     "appliesTo": "Same thresholds as 47-18-3202.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2bba6177abce35939fda0cce79ec0b80378ac52ebae6759163ed079be161aaea"
+    },
+    {
+     "title": "Genetic Information Privacy Act, disclosure to insurers and employers",
+     "citation": "Tenn. Code Ann. 47-18-4905, enacted by 2023 Pub. Ch. 324 (HB1310)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/113/pub/pc0324.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1310&GA=113",
+     "effectiveDate": "2023-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A direct-to-consumer genetic testing company shall not disclose a consumer's genetic data without first obtaining the consumer's written consent to:",
+     "appliesTo": "Direct-to-consumer genetic testing companies only. The act also requires \"Separate express consent\" for transfer to third parties other than vendors.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cc23f4d2dbe54e701362fd4c61f2a0dcc3f9d4bbf04b35d95b781c4bb64be5fe"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.tn.gov/attorneygeneral/news/2025/4/30/pr25-25.html",
+     "host": "tn.gov",
+     "usedFor": "AG guidance confirming TIPA effective date July 1, 2025, sensitive data consent rule and HIPAA entity exemption"
+    },
+    {
+     "url": "https://www.ailawsbystate.com/blog/tennessee-ai-laws-2026-complete-guide",
+     "host": "ailawsbystate.com",
+     "usedFor": "Listing of Tennessee privacy laws"
+    }
+   ],
+   "note": "TIPA in force since July 1, 2025 requires consent to process sensitive data, including a mental or physical health diagnosis. It is a comprehensive law with revenue and volume thresholds, not a dedicated consumer health data law.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_TN",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P20"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 10,
+    "freeCopyCases": [
+     "Hospital records for an indigent person, or the person's attorney or representative, to support a Social Security Act claim or appeal, with a recent application or denial attached (68-11-304(a)(2)(B)). One free copy of the same records."
+    ],
+    "feeRules": [
+     "Providers (63-2-102, 2024 Pub. Ch. 737): paper copies \"Twenty-five dollars ($25.00) for paper copies of medical records five (5) pages or less in length\" and \"Fifty cents (50¢) per page for each page copied after the first five (5) pages\", plus mailing.",
+     "Providers: patient's own electronic copy \"governed by the Health Insurance Portability and Accountability Act\" (labor, supplies, postage).",
+     "Providers: other requesters' electronic copies $25 for 10 pages or less, then 25 cents per page up to $90; Social Security disability records a flat $20 when produced electronically.",
+     "Hospitals (68-11-304(a)(2)(A), 2025 Pub. Ch. 339): paper $25 for 5 pages or less, 50 cents per page after; patient's own electronic copy governed by HIPAA; other requesters \"a flat fee of ninety dollars ($90.00)\" for electronic records.",
+     "No fee for copies requested by the department of health for a complaint, inspection, or survey."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Release of medical records by health care providers, 10 working day deadline",
+     "citation": "Tenn. Code Ann. 63-2-101(a)(1), as substituted by 2024 Pub. Ch. 831, Section 2",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/113/pub/pc0831.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1882&GA=113",
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a health care provider shall provide to a patient or a patient's authorized representative a copy of such patient's medical records within ten (10) working days of receipt of a written request by the patient or the patient's authorized representative",
+     "appliesTo": "Health care providers under Title 63. Ten working days. The same act adds a 10 working day rule to 68-11-1809.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a43ae05d992600894150e1cb4bd8dda80edb98d25b02438f34f1863ea4717025"
+    },
+    {
+     "title": "Hospital records, no charge to indigent person for Social Security claim or appeal",
+     "citation": "Tenn. Code Ann. 68-11-304(a)(2)(B), as substituted by 2006 Pub. Ch. 691, Section 1",
+     "officialUrl": "https://capitol.tn.gov/Bills/104/Chapter/PC0691.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB3360&GA=104",
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a hospital may not impose a charge on an indigent person for furnishing to such person, or such person's attorney or authorized representative, a health record or part thereof concerning such patient for the purpose of supporting a claim or appeal under any provision of the Social Security Act",
+     "appliesTo": "Hospitals. Request must include a recent Social Security benefits application or denial. Legal aid and pro bono clients are presumed indigent.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1597b24c9f02d7fedd648a620cdc71d16efefda8f1cae072a25582fc4936def0"
+    },
+    {
+     "title": "Costs of reproduction, copying or mailing of records (providers)",
+     "citation": "Tenn. Code Ann. 63-2-102(a), as substituted by 2024 Pub. Ch. 737, Section 1",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/113/pub/pc0737.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB0647&GA=113",
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The reasonable fees for fulfilling a patient's request for the patient's own records are governed by the Health Insurance Portability and Accountability Act",
+     "appliesTo": "Health care providers and their third-party release of information vendors. Per-page caps apply to paper copies.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "70c38d79b07dc99391f96e9db20d7f3c6e81a82b63c50d67b3d521c0980a8eac"
+    },
+    {
+     "title": "Hospital record fees (paper and electronic)",
+     "citation": "Tenn. Code Ann. 68-11-304(a)(2)(A), as substituted by 2025 Pub. Ch. 339, Section 1",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/114/pub/pc0339.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB0495&GA=114",
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The fee for all electronic medical records must be a flat fee of ninety dollars ($90.00)",
+     "appliesTo": "Hospitals, for requesters other than the patient. The patient's own electronic copy is governed by HIPAA.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4722e1915899a989e91e06426abaa1a7dbea730c299e95bf28737451069da7be"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/tn/title-63-professions-of-the-healing-arts/tn-code-sect-63-2-101/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Current text of 63-2-101"
+    },
+    {
+     "url": "https://codes.findlaw.com/tn/title-63-professions-of-the-healing-arts/tn-code-sect-63-2-102/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Current fee text of 63-2-102"
+    },
+    {
+     "url": "https://codes.findlaw.com/tn/title-68-health-safety-and-environmental-protection/tn-code-sect-68-11-304/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Location of indigent Social Security free copy in 68-11-304(a)(2)(B)"
+    },
+    {
+     "url": "https://www.lamblawoffice.com/wp-content/uploads/2016/07/TN-2.pdf",
+     "host": "lamblawoffice.com",
+     "usedFor": "History note of 68-11-304 pointing to 2006 ch. 691"
+    },
+    {
+     "url": "https://capitol.tn.gov/Bills/113/Fiscal/FM1266.pdf",
+     "host": "capitol.tn.gov",
+     "usedFor": "Fiscal memo identifying HB647/SB1313 fee bill"
+    }
+   ],
+   "note": "Both elements in force. Providers must give copies within 10 working days, shorter than HIPAA's 30 days. Hospitals must give indigent Social Security claimants a free copy. SB0432 (2025), proposing 20 working days, did not pass.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_TN",
+    "note": "beyondFederalFloor yes is correct. 10 working days is shorter than 30 days. A free hospital copy for a Social Security claim goes beyond D-1. 2025 Pub. Ch. 339 replaced only (a)(2)(A). SB0432 stalled.",
+    "resolution": [
+     {
+      "rows": [
+       "Q179"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "no_law_found",
+   "value": "no_rule_found",
+   "pending": false,
+   "basis": null,
+   "designatedHie": "",
+   "stricterForSensitive": null,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.lexisnexis.com/hottopics/tncode",
+    "terms": [
+     "health information exchange",
+     "health information exchange consent",
+     "health information exchange opt-out",
+     "HIE designated Tennessee"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.tn.gov/news/2009/8/24/office-of-e-health-joins-new-statewide-electronic-health-information-partne.html",
+     "https://www.tn.gov/content/dam/tn/health/documents/TDH-HIPAA-Manual.pdf"
+    ],
+    "leadsChecked": [
+     "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "healthit.gov",
+     "usedFor": "2016 survey lists Tennessee as No policy for HIE consent"
+    }
+   ],
+   "note": "No Tennessee statute or rule on HIE consent found, and no current state-designated HIE policy found. The Lexis code site needs JavaScript, so searches ran on capitol.tn.gov and tn.gov. Regional HIEs such as etHIN publish their own opt-out policies.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_TN",
+    "note": "Lexis code site needs JavaScript. Searched capitol.tn.gov and tn.gov for health information exchange and opt-out. Found only a 2009 HIP TN notice and a Ballad COPA HIE plan. No statewide designated HIE or consent rule found."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Final disposition of fetal remains, confidentiality of completed forms",
+      "citation": "Tenn. Code Ann. 39-15-219(s)(1), enacted by 2021 Pub. Ch. 348 (HB1181), Section 1",
+      "officialUrl": "https://publications.tnsosfiles.com/acts/112/pub/pc0348.pdf",
+      "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1181&GA=112",
+      "effectiveDate": "2021-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A completed form described in subdivision (m)(1) is confidential and is not a public record open for inspection.",
+      "appliesTo": "Forms on the disposition of fetal remains, which the physician keeps in the patient's medical record.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "48ff9b1d002958013245c88060dc7c0462df3975c66fd05169169def54da2cd3"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://codes.findlaw.com/tn/title-39-criminal-offenses/tn-code-sect-39-15-203/",
+      "host": "codes.findlaw.com",
+      "usedFor": "39-15-203(d) states abortion records and reports are confidential; enacting act not opened"
+     }
+    ],
+    "note": "39-15-219(s)(1) makes the completed forms confidential and not public records. 39-15-203(d) also makes abortion records and reports confidential, but its enacting act was not opened. No court order staying 39-15-219 was found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_TN",
+     "note": "39-15-219(s)(1), 2021 Pub. Ch. 348, effective 2021-07-01. Subsection (s)(2) keeps the form in the medical record. No court order staying it was found.",
+     "resolution": [
+      {
+       "rows": [
+        "Q180"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of mental health records",
+      "citation": "Tenn. Code Ann. 33-3-103, enacted by 2000 Pub. Ch. 947 (HB3004), Section 1",
+      "officialUrl": "https://capitol.tn.gov/Bills/101/Chapter/PC0947.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2001-03-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All applications, certificates, records, reports, legal documents, and pleadings made and all information provided or received in connection with services applied for, provided under, or regulated under this title and directly or indirectly identifying a service recipient or former service recipient shall be kept confidential",
+      "appliesTo": "Services under Title 33 (mental health, substance use, intellectual and developmental disability). 33-3-104 sets consent by a recipient aged 16 or over.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "fc382cb998c09b734b1bf3f298e07f64e2d0962669f24208ed0309a931f7618a"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://codes.findlaw.com/tn/title-33-mental-health-and-substance-abuse-and-intellectual-and-developmental-disabilities/tn-code-sect-33-3-103/",
+      "host": "codes.findlaw.com",
+      "usedFor": "Current text of 33-3-103 matches the 2000 act"
+     }
+    ],
+    "note": "33-3-103 bars disclosure of Title 33 service records except as Part 3 allows. Current text matches the 2000 act. That act's general effective date was March 1, 2001.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_TN",
+     "note": "33-3-103, 2000 Pub. Ch. 947 Section 1. Section 12 sets March 1, 2001 for all other purposes. Quote is verbatim."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of sexually transmitted disease records and information",
+      "citation": "Tenn. Code Ann. 68-10-113 (Acts 1988, ch. 695; 1992, ch. 887)",
+      "officialUrl": "https://www.tn.gov/content/dam/tn/health/program-areas/68-10-113.pdf",
+      "linkedFrom": null,
+      "effectiveDate": null,
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All records and information held by the department or a local health department relating to known or suspected cases of sexually transmitted disease shall be strictly confidential. Such information shall not be released or made public upon subpoena, court order, discovery, search warrant or otherwise",
+      "appliesTo": "Department of Health and local health departments. Effective date not set: the 1992 amending act could not be opened online.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "245b343943dfd74a5cd65c3f54d8dcad47c345cf23de56a903ddabd32040afcb",
+      "authorRuling": {
+       "ruling": "D-26 Q3",
+       "flag": "current version date not confirmed"
+      }
+     },
+     {
+      "title": "Department of Health HIPAA Policies and Procedures Manual, HIV-AIDS disclosure exception",
+      "citation": "Tennessee Department of Health HIPAA Policies and Procedures Manual (revised July 21, 2025), applying Tenn. Code Ann. 68-10-113",
+      "officialUrl": "https://www.tn.gov/content/dam/tn/health/documents/TDH-HIPAA-Manual.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2025-07-21",
+      "firstEnacted": "2022-01-04",
+      "statusOfProvision": "in_force",
+      "quote": "HIV-AIDS information may not be disclosed to anyone without the specific written authorization of the client.",
+      "appliesTo": "Department of Health. The manual states 68-10-113 covers \"STD related medical records (including HIV)\".",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b8c0655a818db3c4e685ca34e20f67d84ab1f65f775aa7171251751241a8cf7e"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "68-10-113 limits release of health department STD records, including HIV, even on subpoena or court order. The Department of Health manual requires specific written authorization for HIV-AIDS information.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_TN",
+     "note": "Value is yes. The 68-10-113 effective date still needs the 1992 ch. 887 enacted text. The Department of Health manual, revised 2025-07-21, says 68-10-113 covers HIV records.",
+     "problems": [
+      "68-10-113 has effectiveDate null. The rubric requires an effectiveDate for every evidenced provision. The history note shows Acts 1992, ch. 887 as the latest amendment, but no date is given.",
+      "Value yes and quotes are otherwise correct."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q067",
+        "Q181"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-26 Q3",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act, consent requirements",
+      "citation": "Tenn. Code Ann. 47-18-4904(a)(3)(A), enacted by 2023 Pub. Ch. 324 (HB1310)",
+      "officialUrl": "https://publications.tnsosfiles.com/acts/113/pub/pc0324.pdf",
+      "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1310&GA=113",
+      "effectiveDate": "2023-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Separate express consent for: (i) The transfer or disclosure of the consumer's genetic data to a person other than the company's vendors and service providers",
+      "appliesTo": "Direct-to-consumer genetic testing companies.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "cc23f4d2dbe54e701362fd4c61f2a0dcc3f9d4bbf04b35d95b781c4bb64be5fe"
+     },
+     {
+      "title": "Genetic Information Privacy Act, disclosure to insurers and employers",
+      "citation": "Tenn. Code Ann. 47-18-4905, enacted by 2023 Pub. Ch. 324 (HB1310)",
+      "officialUrl": "https://publications.tnsosfiles.com/acts/113/pub/pc0324.pdf",
+      "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1310&GA=113",
+      "effectiveDate": "2023-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A direct-to-consumer genetic testing company shall not disclose a consumer's genetic data without first obtaining the consumer's written consent to:",
+      "appliesTo": "Disclosure to health, life or long-term care insurers, or to the consumer's employer.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "cc23f4d2dbe54e701362fd4c61f2a0dcc3f9d4bbf04b35d95b781c4bb64be5fe"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://uk.practicallaw.thomsonreuters.com/w-039-3276?transitionType=Default&contextData=%28sc.Default%29&firstPage=true",
+      "host": "practicallaw.thomsonreuters.com",
+      "usedFor": "Identified HB1310 as the Genetic Information Privacy Act"
+     }
+    ],
+    "note": "The 2023 Genetic Information Privacy Act requires separate express consent for transfers and written consent before disclosure to insurers or employers. The Attorney General's consumer affairs division enforces it.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_TN",
+     "note": "Genetic Information Privacy Act, 47-18-4904 and 47-18-4905, 2023 Pub. Ch. 324, effective 2023-07-01. The HB1310 bill page confirms the chapter and date. The AG consumer affairs division enforces it."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None stated. Breach law allows a civil action to recover damages and an injunction."
+   },
+   "provisions": [
+    {
+     "title": "Release of personal consumer information (breach notification), civil action",
+     "citation": "Tenn. Code Ann. 47-18-2107(h), as substituted by 2017 Pub. Ch. 91 (SB547)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/110/pub/pc0091.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0547&GA=110",
+     "effectiveDate": "2017-04-04",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any customer of an information holder who is a person or business entity, but who is not an agency of this state or any political subdivision of this state, and who is injured by a violation of this section, may institute a civil action to recover damages",
+     "appliesTo": "Breach notification duties only. HIPAA-subject information holders are excluded from the section.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "10a091d09b1543405bc31c4dc2e88a11c3b69ae857796683d14894d3b0e8ae7c"
+    },
+    {
+     "title": "Tennessee Information Protection Act, no private right of action",
+     "citation": "Tenn. Code Ann. 47-18-3212(e), enacted by 2023 Pub. Ch. 408 (HB1181)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/113/pub/pc0408.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1181&GA=113",
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": "2023-05-11",
+     "statusOfProvision": "in_force",
+     "quote": "A violation of this part shall not serve as the basis for, or be subject to, a private right of action",
+     "appliesTo": "TIPA, including its sensitive data consent rule. Attorney General enforcement only.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2bba6177abce35939fda0cce79ec0b80378ac52ebae6759163ed079be161aaea"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/tn/title-68-health-safety-and-environmental-protection/tn-code-sect-68-11-1504/",
+     "host": "codes.findlaw.com",
+     "usedFor": "68-11-1504 (Patient's Privacy Protection Act) allows civil actions for invasion of privacy; 1996 enacting act not available online"
+    }
+   ],
+   "note": "Level 1 rests on the breach-only civil action. 68-11-1504 may allow suits for disclosing patient identifying information, but only a lead was found. The 1996 act was not online, so it was not scored. TIPA and GIPA lack private suits.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_TN",
+    "note": "Level 1 rests on the breach civil action. 68-11-1504 may allow invasion of privacy suits. No primary copy could be opened, so it stays a lead. 2012 HB3410 was not enacted."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "No later than 45 days from discovery or notification of the breach",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Release of personal consumer information, definition of personal information",
+     "citation": "Tenn. Code Ann. 47-18-2107(a)(4), as substituted by 2017 Pub. Ch. 91 (SB547)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/110/pub/pc0091.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0547&GA=110",
+     "effectiveDate": "2017-04-04",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Means an individual's first name or first initial and last name, in combination with any one (1) or more of the following data elements: (i) Social security number; (ii) Driver license number; or",
+     "appliesTo": "Information holders doing business in Tennessee and state agencies. The third element is financial account or card numbers with access codes.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "10a091d09b1543405bc31c4dc2e88a11c3b69ae857796683d14894d3b0e8ae7c"
+    },
+    {
+     "title": "Release of personal consumer information, notice deadline",
+     "citation": "Tenn. Code Ann. 47-18-2107(b), as substituted by 2017 Pub. Ch. 91 (SB547)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/110/pub/pc0091.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0547&GA=110",
+     "effectiveDate": "2017-04-04",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The disclosure must be made no later than forty-five (45) days from the discovery or notification of the breach of system security",
+     "appliesTo": "Notice to affected residents. Consumer reporting agencies are told when over 1,000 persons are notified. No AG notice requirement found.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "10a091d09b1543405bc31c4dc2e88a11c3b69ae857796683d14894d3b0e8ae7c"
+    },
+    {
+     "title": "Release of personal consumer information, HIPAA and GLBA exclusion",
+     "citation": "Tenn. Code Ann. 47-18-2107(i), as substituted by 2017 Pub. Ch. 91 (SB547)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/110/pub/pc0091.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0547&GA=110",
+     "effectiveDate": "2017-04-04",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "This section does not apply to any information holder that is subject to:",
+     "appliesTo": "Excludes holders subject to GLBA Title V or HIPAA as expanded by HITECH.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "10a091d09b1543405bc31c4dc2e88a11c3b69ae857796683d14894d3b0e8ae7c"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/tn/title-47-commercial-instruments-and-transactions/tn-code-sect-47-18-2107/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Confirmed current definition matches 2017 act"
+    }
+   ],
+   "note": "The definition lists Social Security, driver license and financial account numbers only. Medical and health insurance information are not included. HIPAA-subject holders are excluded outright, recorded as hipaaDeemedCompliant true.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_TN",
+    "note": "2017 Pub. Ch. 91, effective 2017-04-04 per the SB0547 bill page. 45 day notice. No AG notice. HIPAA holders are excluded. 2018 HB2508, which would have added medical information, went to summer study and was not enacted."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "Tenn. Code Ann. 33-1-205(a) (2026 Pub. Ch. 647, effective July 1, 2026): \"A person who develops or deploys an artificial intelligence system shall not advertise or represent to the public that such system is or is able to act as a qualified mental health professional\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Artificial intelligence may not be represented as a qualified mental health professional",
+     "citation": "Tenn. Code Ann. 33-1-205, enacted by 2026 Pub. Ch. 647 (SB1580)",
+     "officialUrl": "https://publications.tnsosfiles.com/acts/114/pub/pc0647.pdf",
+     "linkedFrom": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB1580&GA=114",
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A person who develops or deploys an artificial intelligence system shall not advertise or represent to the public that such system is or is able to act as a qualified mental health professional",
+     "appliesTo": "Developers and deployers of AI systems. Violation is a Tennessee Consumer Protection Act violation, with a $5,000 civil penalty per violation.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6c92d608d27da9e8bba485ac602eef6e1cb775561b3c7b973a5b5c33d3e1c493"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.ailawsbystate.com/blog/tennessee-ai-laws-2026-complete-guide",
+     "host": "ailawsbystate.com",
+     "usedFor": "Listed pending health AI bills HB1866/SB1261"
+    },
+    {
+     "url": "https://www.healthcarelawinsights.com/2026/04/tennessee-draws-a-line-new-law-bars-ai-from-posing-as-mental-health-professionals/",
+     "host": "healthcarelawinsights.com",
+     "usedFor": "Identified SB1580 as Pub. Ch. 647"
+    }
+   ],
+   "note": "Only a marketing prohibition is in force. SB1261 on AI in utilization review was not enacted. HB2619/SB2155 on human review of AI-flagged denials failed in the Senate on April 7, 2026.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_TN",
+    "note": "33-1-205 took effect 2026-07-01 and is a prohibition only. SB2155 failed in Senate committee on 2026-04-07. HB1866 was taken off notice. SB1261/HB1382 did not advance past committee referral."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

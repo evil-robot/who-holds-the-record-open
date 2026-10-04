@@ -1,0 +1,573 @@
+{
+ "usps": "DC",
+ "fips": "11",
+ "name": "District of Columbia",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://code.dccouncil.gov/index.json",
+    "terms": [
+     "health",
+     "data",
+     "privacy",
+     "consumer",
+     "broker",
+     "medical",
+     "consumer health data",
+     "personal health data"
+    ],
+    "regulatorPagesChecked": [
+     "https://oag.dc.gov/page/district-columbia-consumer-protection-laws",
+     "https://oag.dc.gov/requirements-districts-data-breach-notification"
+    ],
+    "leadsChecked": [
+     "https://legiscan.com/DC/bill/B26-0525/2025",
+     "https://www.billtrack50.com/billdetail/1915432",
+     "https://epic.org/epic-testifies-in-support-of-dc-consumer-health-information-privacy-protection-act/",
+     "https://oag.dc.gov/release/attorney-general-schwalb-introduces-privacy-legislation"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://legiscan.com/DC/bill/B26-0525/2025",
+     "host": "legiscan.com",
+     "usedFor": "Status of B26-0525, Personal Health Data Security Amendment Act of 2025 (in committee)"
+    },
+    {
+     "url": "https://www.billtrack50.com/billdetail/1915432",
+     "host": "www.billtrack50.com",
+     "usedFor": "Status of B26-0525"
+    },
+    {
+     "url": "https://citizenportal.ai/articles/9820140/District-of-Columbia/Legislative/Committees/Committee-on-Health/DC-Committee-debates-healthdata-bill-industry-warns-of-implementation-problems-while-privacy-advocates-push-stronger-rules",
+     "host": "citizenportal.ai",
+     "usedFor": "March 23, 2026 Committee on Health hearing on B26-0525"
+    },
+    {
+     "url": "https://epic.org/epic-testifies-in-support-of-dc-consumer-health-information-privacy-protection-act/",
+     "host": "epic.org",
+     "usedFor": "Earlier bill B25-0930 (CHIPPA), not enacted"
+    }
+   ],
+   "note": "No consumer health data or comprehensive privacy law found in the D.C. Law Library list of laws through Council Period 26. B26-0525 would require consent but is a bill in committee, not enacted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DC",
+    "note": "My search: D.C. Law list through Council Period 26 in code.dccouncil.gov/index.json, Title 28 Chapter 38 contents, OAG pages. Only bills found (CHIPPA 2024, B26-0525 in committee). No in-force law."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [],
+    "feeRules": [
+     "D.C. Code 3-1210.11(b)(1): patient may be charged \"a reasonable fee for copying, as determined by the board through rulemaking\".",
+     "D.C. Code 3-1210.11(b)(2): a health care power of attorney holder or listed survivor may not be charged a fee different from the patient's fee.",
+     "D.C. Code 3-1210.12(b), requests by a person the patient authorizes, electronic: search and handling fee $22.88 plus up to 66 cents per page, total not over $86.54.",
+     "D.C. Code 3-1210.12(b), non-electronic: search and handling fee $22.88, up to 88 cents per page, plus actual postage.",
+     "D.C. Code 3-1210.12(d): fees adjusted yearly by CPI from January 1, 2024. DC Health 2026 maximums: $25.00 search fee, $0.72 per page electronic (total $94.57), $0.96 per page non-electronic.",
+     "D.C. Code 3-1210.12(a)(3)(B): fee reduced by $15 per day if the record is not sent within 60 days."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Patient or client records",
+     "citation": "D.C. Code § 3-1210.11",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/3-1210.11",
+     "linkedFrom": null,
+     "effectiveDate": "2023-03-10",
+     "firstEnacted": "2009-07-18",
+     "statusOfProvision": "in_force",
+     "quote": "a health care entity having custody and control of the patient's or client's personal medical record shall furnish a complete and current copy of that personal medical record.",
+     "appliesTo": "Health care entities with custody and control of the record; request by the patient or client, a health care power of attorney holder, or listed survivors.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "39292335bef1565ff882305314a7207f4c1ec5d7c8339f70d8d6eee5b433f4a8"
+    },
+    {
+     "title": "Patient or client records: fee",
+     "citation": "D.C. Code § 3-1210.11(b)(1)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/3-1210.11",
+     "linkedFrom": null,
+     "effectiveDate": "2023-03-10",
+     "firstEnacted": "2009-07-18",
+     "statusOfProvision": "in_force",
+     "quote": "to pay a reasonable fee for copying, as determined by the board through rulemaking.",
+     "appliesTo": "Health care entities.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "39292335bef1565ff882305314a7207f4c1ec5d7c8339f70d8d6eee5b433f4a8"
+    },
+    {
+     "title": "Persons authorized by a patient or client to receive personal medical records",
+     "citation": "D.C. Code § 3-1210.12(a)(1)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/%5B3-1210.12%5D",
+     "linkedFrom": null,
+     "effectiveDate": "2023-03-10",
+     "firstEnacted": "2023-03-10",
+     "statusOfProvision": "in_force",
+     "quote": "the health care entity shall transmit to the requester, within 30 days from the date the request was received, a complete and current copy of the personal medical record in the form and format requested",
+     "appliesTo": "\"the term \"health care entity\" means a health care provider or a business associate as defined in 45 C.F.R. § 160.103.\" Applies to requests by a person the patient authorizes.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d5e891c8407450894cd57c0d8b2fd7c1dc0c28dc8589edfd5a8c3cb29417e559"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/district-of-columbia/title-3/chapter-12/subchapter-x/section-3-1210-11/",
+     "host": "law.justia.com",
+     "usedFor": "Locate D.C. Code 3-1210.11"
+    },
+    {
+     "url": "https://nosscr.org/article/medical-records-payment-rates-2025/",
+     "host": "nosscr.org",
+     "usedFor": "Locate DC fee amounts; its free copy claim was not found in DC law"
+    },
+    {
+     "url": "https://dchealth.dc.gov/sites/default/files/dc/sites/doh/page_content/attachments/Medical%20Records%202026%20Fees.pdf",
+     "host": "dchealth.dc.gov",
+     "usedFor": "DC Health 2026 adjusted fee maximums under 3-1210.12"
+    }
+   ],
+   "note": "Deadline is 30 days and applies only to requests by an authorized third party, not shorter than HIPAA. No free copy case found. Per-page caps are facts only. Under Ruling D-1, nothing goes beyond the federal floor.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DC",
+    "note": "beyondFederalFloor no. Deadline 30 days, not shorter. 17 DCMR 4612.2 also says 30 days and a reasonable fee. No free copy case found. DC Health 2026 fee PDF table is headed 2025."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "regulation",
+   "designatedHie": "CRISP DC (Chesapeake Regional Information System for our Patients), District Designated HIE Entity",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Designated HIE entity requirements to promote consumer participation, access, and education",
+     "citation": "29 DCMR § 8710.12(c), as amended by DHCF final rulemaking, 73 DCR (Vol. 73, No. 18, May 1, 2026)",
+     "officialUrl": "https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/page_content/attachments/29%20DCMR%20Ch.%2087%20DC%20HIE%20Rule%20-%20Amended-%20May%201%202026%20Bolded.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-05-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A designated HIE entity shall not disclose information derived from a health care consumer's PHI if the health care consumer has submitted a written notice or request to opt-out of health information exchange, except as otherwise permitted under applicable law.",
+     "appliesTo": "Designated HIE entity under 29 DCMR Chapter 87. Section 8710.17 requires it to act on an opt-out request within seven calendar days.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "47dc8ea566fa0f91366f5c866bde11a5f715ff8dac428db42c2c0bb9a1c84416"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://crispdc.org/governance/",
+     "host": "crispdc.org",
+     "usedFor": "Identify CRISP DC as designated HIE (search result only)"
+    }
+   ],
+   "note": "DHCF page names CRISP DC as the District Designated HIE since April 2020. The rule took effect on publication, May 1, 2026. Whether DC law needs added consent for sensitive data in the HIE was not determined.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DC",
+    "note": "Rule effective on publication, May 1, 2026. stricterForSensitive could be false: D.C. Code 7-1203.01(b) and (c) let providers share mental health information for treatment unless the client asks them not to."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Human Rights Sanctuary: limits on District assistance to interstate investigations",
+      "citation": "D.C. Code § 2-1461.01(a)",
+      "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/2-1461.01",
+      "linkedFrom": null,
+      "effectiveDate": "2023-02-23",
+      "firstEnacted": "2023-02-23",
+      "statusOfProvision": "in_force",
+      "quote": "The District and its officers and employees acting in their official capacities shall not provide any information or expend or use time, money, facilities, property, equipment, personnel, or other resources in furtherance of any interstate investigation or proceeding seeking to impose civil or criminal liability upon any person",
+      "appliesTo": "District government and its officers and employees. Covered conduct includes receiving or seeking an abortion or contraception, and gender-affirming care.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d5fe61eede83e373d396af1881068cd4ed8cc0b938ec0311680508d1add9a769"
+     },
+     {
+      "title": "Foreign subpoenas: sworn statement required",
+      "citation": "D.C. Code § 13-449",
+      "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/13-449",
+      "linkedFrom": null,
+      "effectiveDate": "2023-02-23",
+      "firstEnacted": "2023-02-23",
+      "statusOfProvision": "in_force",
+      "quote": "A subpoena issued under the authority of a court of record of a foreign jurisdiction shall not be recognized as a valid foreign subpoena unless it is accompanied by a sworn written statement signed by the party seeking enforcement or their counsel under penalty of perjury",
+      "appliesTo": "Foreign subpoenas; the statement must say the subpoena does not further an investigation or proceeding of a type in § 2-1461.01(a).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "c64b94c819314ab72bb59e1777ff2025d89478e3f371a0ab3a9cae2f9ad809b7"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "D.C. Law 24-257 limits District disclosure of information to other states' proceedings on abortion and contraception, and conditions foreign subpoenas. These rules cover information generally, not only medical records.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_DC",
+     "note": "D.C. Law 24-257, effective 2023-02-23. Sections 2-1461.01(a) and 13-449 limit information to other states' proceedings on abortion and contraception. They cover information in general, not only medical records. D.C. Law 24-307 does not address records."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental Health Information Act: disclosures prohibited; exceptions",
+      "citation": "D.C. Code § 7-1201.02(a)",
+      "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/7-1201.02",
+      "linkedFrom": null,
+      "effectiveDate": "1979-03-03",
+      "firstEnacted": "1979-03-03",
+      "statusOfProvision": "in_force",
+      "quote": "Except as specifically authorized by subchapter II, III, or IV of this chapter, no mental health professional, mental health facility, data collector or employee or agent of a mental health professional, mental health facility or data collector shall disclose or permit the disclosure of mental health information to any person",
+      "appliesTo": "Mental health professionals, mental health facilities, data collectors, and their employees or agents.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "946062ced96982e53d0a71b314d61ee980b152aafe92ffca7c926021cbf49f02"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "D.C. Law 2-136 bars disclosure of mental health information except as the Act authorizes, including disclosure by client authorization under § 7-1202.01.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_DC",
+     "note": "D.C. Law 2-136, effective 1979-03-03, with no later amendment shown on the page. Section 7-1203.01 allows some disclosure to other providers, but not of progress notes."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of medical records and information (AIDS Health-Care Response Act)",
+      "citation": "D.C. Code § 7-1605",
+      "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/7-1605",
+      "linkedFrom": null,
+      "effectiveDate": "2022-09-21",
+      "firstEnacted": "1986-06-10",
+      "statusOfProvision": "in_force",
+      "quote": "All identifying information obtained, collected, or created by the Department under this subchapter shall not be discoverable or admissible as evidence in a civil or criminal action unless the person about whom the information pertains gives his or her prior written permission.",
+      "appliesTo": "Records of HIV infection or AIDS cases reported to the Department of Health, and any person holding the identifying information.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "795e92e2e5bd4703bfa5d3afec0fe374e2b546d724adf5e4569da00e22f6e1e3"
+     },
+     {
+      "title": "Insurer HIV testing: informed consent and restrictions on disclosure",
+      "citation": "D.C. Code § 31-1606",
+      "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/31-1606",
+      "linkedFrom": null,
+      "effectiveDate": "1997-05-21",
+      "firstEnacted": "1986-08-07",
+      "statusOfProvision": "in_force",
+      "quote": "An insurer shall not disclose the fact that a proposed insured was tested or the results of the test except to:",
+      "appliesTo": "Insurers that request or require the certified HIV testing protocol of a proposed insured.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "87f40f8a9c2cb5fb1203c118e9211b19122767dfb68f76c78705ea93a83aa476"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "§ 7-1605 needs prior written permission for other disclosure of identifying HIV or AIDS information. § 31-1606 limits insurer disclosure of HIV test results.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_DC",
+     "note": "7-1605 last amended by D.C. Law 24-170, effective 2022-09-21. 31-1606 limits insurer disclosure of HIV test results (D.C. Law 11-268, 1997-05-21). Both quotes match the page text."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "citation": "D.C. Code 2-1401.03(e)",
+      "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/2-1401.03",
+      "effectiveDate": "2005-04-05",
+      "quote": "provided, that the employee or applicant for employment provides, in writing, his or her informed consent, the genetic information is provided to the employee or applicant for employment in writing as soon as it is available, and the genetic information is not disclosed to any other person.",
+      "appliesTo": "an employer, an employment agency, or a labor organization",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a9773dc763a2b08d6e858d6db5218b7918440c3914a82cba9e38cac7cac129a4",
+      "statusOfProvision": "in_force",
+      "title": "§ 2–1401.03. Exceptions."
+     }
+    ],
+    "searchLog": {
+     "codeSearchUrl": "https://code.dccouncil.gov/index.json",
+     "terms": [
+      "genetic",
+      "genetic information",
+      "genetic test",
+      "DNA",
+      "privacy"
+     ],
+     "regulatorPagesChecked": [
+      "https://oag.dc.gov/page/district-columbia-consumer-protection-laws"
+     ],
+     "leadsChecked": [
+      "https://codes.findlaw.com/dc/division-i-government-of-district/dc-code-sect-3-1210-11/",
+      "https://law.justia.com/codes/district-of-columbia/title-3/chapter-12/subchapter-x/section-3-1210-11/"
+     ],
+     "searchedAt": "2026-10-03"
+    },
+    "leads": [],
+    "note": "D.C. Code 2-1401.03(e) requires an employer to get written consent before obtaining genetic information and bars its disclosure to others. It applies only in the employment context.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_DC",
+     "note": "Value agrees. I checked 2-1402.11 and 2-1402.31 (nondiscrimination and testing limits) and 7-858.02 (newborn screening, no mention of genetic). None governs disclosure of genetic records. Lead used: FindLaw 2-1402.31.",
+     "problems": [
+      "Search log lists no lead for this dimension. Both leads (FindLaw, Justia) point to 3-1210.11, the copy-rights section.",
+      "codeSearchUrl index.json lists law titles only. It is not a full-text search of section text."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q014",
+        "Q215"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Consumer Protection Procedures Act: treble damages or $1,500 per violation, whichever is greater. Mental Health Information Act: actual damages for negligent violation; not less than $1,000 for willful or intentional violation, plus costs and attorney's fees."
+   },
+   "provisions": [
+    {
+     "title": "Consumer Security Breach Notification: enforcement",
+     "citation": "D.C. Code § 28-3853(b)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3853",
+     "linkedFrom": null,
+     "effectiveDate": "2020-06-17",
+     "firstEnacted": "2007-03-08",
+     "statusOfProvision": "in_force",
+     "quote": "is an unfair or deceptive trade practice pursuant to § 28-3904(kk).",
+     "appliesTo": "Violations of the breach notification and security subchapter (§ 28-3851 et seq.).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "19adf3ad38b9867afde641242de80718cf10a0cb5e2abc8e5c04da16c1c73145"
+    },
+    {
+     "title": "Unfair or deceptive trade practices: violation of the breach subchapter",
+     "citation": "D.C. Code § 28-3904(b)(14)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3904",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-26",
+     "firstEnacted": "1976-07-22",
+     "statusOfProvision": "in_force",
+     "quote": "Violate any provision of Subchapter II of Chapter 38 of this title",
+     "appliesTo": "Merchants, in the context of a consumer transaction.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9f9f66c13a1664cf17c37596e2bdc74d1edf1b54c23c7e48ff6645cba81ff133"
+    },
+    {
+     "title": "Consumer Protection Procedures Act: consumer action",
+     "citation": "D.C. Code § 28-3905(k)(1)(A)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3905",
+     "linkedFrom": null,
+     "effectiveDate": "2021-11-13",
+     "firstEnacted": "1976-07-22",
+     "statusOfProvision": "in_force",
+     "quote": "A consumer may bring an action seeking relief from the use of a trade practice in violation of a law of the District.",
+     "appliesTo": "Consumers. Remedies include \"Treble damages, or $1,500 per violation, whichever is greater, payable to the consumer\".",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ffd6b04aabb235fd21ad14b68a8304d0d07f4fe31f45ffa5396b5fe432bc6a2b"
+    },
+    {
+     "title": "Mental Health Information Act: civil liability",
+     "citation": "D.C. Code § 7-1207.01(b)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/7-1207.01",
+     "linkedFrom": null,
+     "effectiveDate": "1979-03-03",
+     "firstEnacted": "1979-03-03",
+     "statusOfProvision": "in_force",
+     "quote": "any person who willfully or intentionally violates the provisions of this chapter shall be liable in damages sustained by the client in an amount not less than $1,000 plus the costs of the action and reasonable attorney’s fees.",
+     "appliesTo": "Violations of the Mental Health Information Act, except § 7-1205.05(a).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d6ef9caf63e8e0b024d56d1945053d4fd40c853512cc0fad67bd707392719ea7"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "A person can sue for breach law violations through the CPPA, and for mental health information violations. No general right to sue over medical records or consumer health data found. A 2026 amendment to § 28-3905 is not implemented.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DC",
+    "note": "Breach violations are actionable through the CPPA. 28-3904(b)(14) now holds the breach item. The mental health act covers one category. The 26-187 amendment to 28-3905 is not implemented, so the 2021-11-13 text applies."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "most expedient time possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Consumer Security Breach Notification: definitions (medical information)",
+     "citation": "D.C. Code § 28-3851(3)(A)(i)(III)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3851",
+     "linkedFrom": null,
+     "effectiveDate": "2020-06-17",
+     "firstEnacted": "2007-03-08",
+     "statusOfProvision": "in_force",
+     "quote": "(III) Medical information;",
+     "appliesTo": "Personal information means name or other identifier in combination with listed data elements. \"Medical Information\" means any information about a consumer's dental, medical, or mental health treatment or diagnosis by a health-care professional.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "55dc3ecf9a494bc5d8cdf17e31addd9e805cd6958e2a065d0e862157d6783f1d"
+    },
+    {
+     "title": "Consumer Security Breach Notification: definitions (health insurance information)",
+     "citation": "D.C. Code § 28-3851(3)(A)(i)(V)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3851",
+     "linkedFrom": null,
+     "effectiveDate": "2020-06-17",
+     "firstEnacted": "2007-03-08",
+     "statusOfProvision": "in_force",
+     "quote": "(V) Health insurance information, including a policy number, subscriber information number, or any unique identifier used by a health insurer to identify the person that permits access to an individual's health and billing information;",
+     "appliesTo": "Any person or entity who conducts business in the District and owns or licenses computerized or other electronic data that includes personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "55dc3ecf9a494bc5d8cdf17e31addd9e805cd6958e2a065d0e862157d6783f1d"
+    },
+    {
+     "title": "Notification of security breach",
+     "citation": "D.C. Code § 28-3852(b-1), (g)",
+     "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3852",
+     "linkedFrom": null,
+     "effectiveDate": "2020-06-17",
+     "firstEnacted": "2007-03-08",
+     "statusOfProvision": "in_force",
+     "quote": "The person or entity shall, in all cases, provide written notice of the breach of the security of the system to the Office of the Attorney General for the District of Columbia as required under subsection (b-1) of this section.",
+     "appliesTo": "Attorney General notice is required \"if the breach affects 50 or more District residents.\" HIPAA or HITECH compliant notice to residents is deemed compliance under § 28-3852(g).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b350221b0aad74ad01d4eb931d37734cb6d0a2435a49c4030a1c838af994e9ed"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://oag.dc.gov/requirements-districts-data-breach-notification",
+     "host": "oag.dc.gov",
+     "usedFor": "AG summary of breach law elements"
+    }
+   ],
+   "note": "Both medical information and health insurance information are in the definition since D.C. Law 23-98 (June 17, 2020). HIPAA-compliant entities are deemed compliant for resident notice but must still notify the Attorney General.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_DC",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P05"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://code.dccouncil.gov/index.json",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "automated decision",
+     "utilization review",
+     "health",
+     "insurance"
+    ],
+    "regulatorPagesChecked": [
+     "https://disb.dc.gov/sites/default/files/dc/sites/disb/page_content/attachments/DISB%20AI%20Bulletin%205.20.24.pdf"
+    ],
+    "leadsChecked": [
+     "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "https://www.manatt.com/insights/newsletters/health-highlights/manatt-health-health-ai-policy-tracker"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "www.hklaw.com",
+     "usedFor": "Survey of 2026 state health AI laws (search result only)"
+    }
+   ],
+   "note": "No DC statute or regulation on AI in care or coverage found. DISB Bulletin 24-IB-002 (May 2024) sets supervisory expectations for insurer AI use; it is guidance, not law, and earns nothing.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DC",
+    "note": "My search: D.C. Law titles through Council Period 26, prior authorization chapter 31-3875 (no AI terms), lead hklaw.com. The DISB bulletin is guidance, not a statute or rule."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

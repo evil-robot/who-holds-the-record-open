@@ -1,0 +1,552 @@
+{
+ "usps": "WV",
+ "fips": "54",
+ "name": "West Virginia",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://code.wvlegislature.gov/?s=genetic+information",
+    "terms": [
+     "consumer data protection act",
+     "consumer health data",
+     "sensitive data consent",
+     "personal data privacy",
+     "\"health data\"",
+     "\"sensitive data\""
+    ],
+    "regulatorPagesChecked": [
+     "https://ago.wv.gov/consumer-protection-and-antitrust-division"
+    ],
+    "leadsChecked": [
+     "https://www.privacyon.com/blog/privacy-laws-in-west-virginia",
+     "https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/20240307-state-comprehensive-privacy-law-update",
+     "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=5123&year=2026&sessiontype=RS&btype=bill"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.privacyon.com/blog/privacy-laws-in-west-virginia",
+     "host": "www.privacyon.com",
+     "usedFor": "Pointed to HB 2987 (2025) and HB 5123 (2026) Consumer Data Protection Act bills"
+    },
+    {
+     "url": "https://epic.org/documents/west-virginia-h-b-2987-consumer-data-protection-act/",
+     "host": "epic.org",
+     "usedFor": "Bill lead for HB 2987"
+    }
+   ],
+   "note": "No comprehensive privacy law or consumer health data law found. HB 5123 (2026 Consumer Data Protection Act) last action: referred to House committee on 02/03/26. It was not enacted.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_WV",
+    "note": "Finding agrees: no in-force provision found. HB 5123 (2026) last action is referral to House Environment, Infrastructure, and Technology on 02/03/26. Dispute is about the search log only.",
+    "problems": [
+     "searchLog.codeSearchUrl is a 'genetic information' query, not a search for the listed D1 terms.",
+     "That URL lacks the q= chapter parameter; the code site returns 'yielded 0 results in chapter' for any term at that URL, so the logged search could not find anything."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q081"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "One free set of copies per provider for an indigent person when the records support a Social Security Act claim or appeal (W. Va. Code 16-29-2(f), (g))"
+    ],
+    "feeRules": [
+     "Patient or personal representative: no more than a fee consistent with HIPAA, plus applicable taxes (16-29-2(a))",
+     "Other requesters: search and handling fee up to $20, 40 cents per paper page, plus postage and taxes (16-29-2(b)(1))",
+     "Electronic copies for other requesters: up to 20 cents per page, capped at $150 inclusive of all fees (16-29-2(b)(2))",
+     "Certification by affidavit: $10 (16-29-2(c))"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Reasonable expenses to be reimbursed (free copy for Social Security claims)",
+     "citation": "W. Va. Code 16-29-2(f)",
+     "officialUrl": "https://code.wvlegislature.gov/16-29-2/",
+     "linkedFrom": null,
+     "effectiveDate": "2021-07-08",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a provider shall not impose a charge on an indigent person or his or her authorized representative if the medical records are necessary for the purpose of supporting a claim or appeal under any provisions of the Social Security Act",
+     "appliesTo": "A provider; indigent person as defined in 16-29-2(f)(1)-(2); \"limited to one set of copies per provider\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "44ad295feffde72aaa988e10f15be6f8bffc646f236d30fbdd6036eb4374a95a"
+    },
+    {
+     "title": "Reasonable expenses to be reimbursed (patient fee rule)",
+     "citation": "W. Va. Code 16-29-2(a)",
+     "officialUrl": "https://code.wvlegislature.gov/16-29-2/",
+     "linkedFrom": null,
+     "effectiveDate": "2021-07-08",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A provider may charge a patient or the patient’s personal representative no more than a fee consistent with HIPAA",
+     "appliesTo": "A provider; patient or personal representative",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "44ad295feffde72aaa988e10f15be6f8bffc646f236d30fbdd6036eb4374a95a"
+    },
+    {
+     "title": "Copies of health care records to be furnished to patients",
+     "citation": "W. Va. Code 16-29-1(a)",
+     "officialUrl": "https://code.wvlegislature.gov/16-29-1/",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-11",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "within no more than thirty days from the receipt of the request, furnish a copy",
+     "appliesTo": "A health care provider so licensed, certified or registered under the laws of this state",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b9f3133c8f8a72d78d96e0148e75bbabe396141f1d4b572fde7a674561d1784e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Deadline is 30 days, equal to HIPAA, so it does not count. The free copy for an indigent Social Security claim or appeal goes beyond HIPAA and 45 CFR 171.302. One element in force.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WV",
+    "note": "Free copy for an indigent person's Social Security claim or appeal is a benefits-claim case beyond HIPAA and 45 CFR 171.302. The 30-day deadline equals HIPAA. HB 3311 (2021) and 2025 bill 2402 dates confirmed."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "West Virginia Health Information Network (WVHIN)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "WVHIN For Patients page (opt-out policy)",
+     "citation": "WVHIN patient FAQ and opt-out form",
+     "officialUrl": "https://wvhin.org/resources/for-patients/",
+     "linkedFrom": "https://health.wv.gov/article/governor-morrisey-announces-855400-award-strengthen-statewide-health-data-infrastructure",
+     "effectiveDate": "2026-07-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Yes, patients can choose not to make their data available in WVHIN. This is called opting-out.",
+     "appliesTo": "Patients whose providers participate in WVHIN; opt-out form at connect.wvhin.org/optoutform",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1000a023444b552c5251c37b8803ad0ea2c17329117cd11a448c8772b5cda1de"
+    },
+    {
+     "title": "WVHIN For Patients page (substance use treatment records)",
+     "citation": "WVHIN patient FAQ",
+     "officialUrl": "https://wvhin.org/resources/for-patients/",
+     "linkedFrom": "https://health.wv.gov/article/governor-morrisey-announces-855400-award-strengthen-statewide-health-data-infrastructure",
+     "effectiveDate": "2026-07-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Federal rules say that an addiction treatment provider needs your consent before they share information about your addiction treatment.",
+     "appliesTo": "Addiction treatment provider records exchanged through WVHIN",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1000a023444b552c5251c37b8803ad0ea2c17329117cd11a448c8772b5cda1de"
+    },
+    {
+     "title": "West Virginia Health Information Network; privacy; protection of information",
+     "citation": "W. Va. Code 16-29G-8(a)",
+     "officialUrl": "https://code.wvlegislature.gov/16-29G-8/",
+     "linkedFrom": null,
+     "effectiveDate": "2006-06-07",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The Health Care Authority shall ensure that patient specific protected health information be disclosed only in accordance with the patient's authorization or best interest to those having a need to know",
+     "appliesTo": "The West Virginia Health Information Network",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cb31d1716c6d8822a42d332fde04141a7792ce58846ac76f44a5a563a7ef71ea"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://wvhin.org/patients/",
+     "host": "wvhin.org",
+     "usedFor": "Located the WVHIN patient pages and opt-out form"
+    }
+   ],
+   "note": "Statute 16-29G-8 allows disclosure by authorization or best interest and sets no opt-in. WVHIN policy is opt-out. Health.wv.gov says WVHIN serves as the state's HIE. Effective date is the page's last modified date. Sensitive flag rests on federal Part 2.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WV",
+    "note": "Basis is WVHIN policy, page modified 2026-07-09, with an online opt-out form. 16-29G-8 (effective 2006-06-07) sets no opt-in. Sensitive flag rests on the page's addiction treatment consent statement."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Reports of abortions",
+      "citation": "W. Va. Code 16-5-22(a)(9)(B)",
+      "officialUrl": "https://code.wvlegislature.gov/16-5-22/",
+      "linkedFrom": null,
+      "effectiveDate": "2023-03-11",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Individual records may only be released for research purposes as approved by the state Registrar and may be released in a format designed to further protect the confidentiality of the woman as the state Registrar deems necessary.",
+      "appliesTo": "Abortion reports filed with the section of vital registration",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "191a496f4491cc34b5e9508ed6327754602185f20d1d06a820ecb2ca0ae1915a"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule covers abortion reports held by vital registration. Reports must omit personal identifiers. No separate rule for provider-held reproductive records was found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_WV",
+     "note": "Latest signed amendment is HB 3199 (2023), effective from passage March 11, 2023. HB 4978 (2024) is listed on the page but was not enacted. The rule covers abortion reports filed with vital registration."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Definition of confidential information; disclosure",
+      "citation": "W. Va. Code 27-3-1(b)",
+      "officialUrl": "https://code.wvlegislature.gov/27-3-1/",
+      "linkedFrom": null,
+      "effectiveDate": "2018-06-05",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Confidential information shall not be disclosed, except: (1) In a proceeding under §27-5-4 of this code to disclose the results of an involuntary examination made pursuant to §27-5-2, §27-5-3, or §27-5-4",
+      "appliesTo": "Communications and information obtained in the course of treatment or evaluation of any client or patient (Chapter 27)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0edd44cb802d18defeb5824c1322d9c7bfcba88ab0c3754c7d7d32496126263a"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://code.wvlegislature.gov/email/27-3-2/",
+      "host": "code.wvlegislature.gov",
+      "usedFor": "Search result pointing to Chapter 27 Article 3 consent rules"
+     }
+    ],
+    "note": "Chapter 27 Article 3 lists the cases where treatment information may be disclosed, including court orders.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_WV",
+     "note": "SB 543 (2018) effective June 5, 2018, matches the researcher's date. The section lists the cases in which treatment information may be disclosed."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of records; permitted disclosure",
+      "citation": "W. Va. Code 16-3C-3(a)",
+      "officialUrl": "https://code.wvlegislature.gov/16-3C-3/",
+      "linkedFrom": null,
+      "effectiveDate": "2011-06-10",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person may disclose or be compelled to disclose the identity of any person upon whom an HIV-related test is performed, or the results of such a test in a manner which permits identification of the subject of the test",
+      "appliesTo": "Any person; HIV-related test identity and results",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "fceb483ea1f1d2b0a1afaa5bc6f2785b996fb18f8390112724f86247cdf050fc"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is allowed only to listed persons, including anyone holding a specific release signed by the test subject.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_WV",
+     "note": "SB 488 (2011) effective June 10, 2011, matches. Listed recipients include a person who secures a specific release executed by the test subject."
+    }
+   },
+   "genetic": {
+    "status": "no_law_found",
+    "value": "none_in_force",
+    "pending": false,
+    "provisions": [],
+    "searchLog": {
+     "codeSearchUrl": "https://code.wvlegislature.gov/?s=genetic+information",
+     "terms": [
+      "genetic information",
+      "genetic test results confidential",
+      "genetic privacy",
+      "genetic data"
+     ],
+     "regulatorPagesChecked": [
+      "https://ago.wv.gov/consumer-protection-and-antitrust-division"
+     ],
+     "leadsChecked": [
+      "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5034+intr.htm&yr=2026&sesstype=RS&i=5034",
+      "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=5034&year=2026&sessiontype=RS&btype=bill"
+     ],
+     "searchedAt": "2026-10-03"
+    },
+    "leads": [
+     {
+      "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5034+intr.htm&yr=2026&sesstype=RS&i=5034",
+      "host": "www.wvlegislature.gov",
+      "usedFor": "HB 5034 (2026) Genomic Information Privacy Act bill, which would add new article 16-5EE"
+     }
+    ],
+    "note": "Genetic privacy bills were introduced in 2009, 2023, 2024, 2025 and 2026. HB 5034 (2026) last action: referred to House Health and Human Resources 02/02/26. No enacted genetic record rule found.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_WV",
+     "note": "Finding agrees: no in-force genetic record confidentiality rule found. Dispute concerns the search log and the bill status line.",
+     "problems": [
+      "searchLog.codeSearchUrl lacks the q= chapter parameter; at that URL the code site returns 0 results for any term, so the logged search could not find anything.",
+      "Note says HB 5034 (2026) last action is filed for introduction; the bill history shows referral to House Health and Human Resources on 02/02/26."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q082"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "HIV test law: liquidated damages of $1,000 (reckless) or $10,000 (intentional or malicious), or actual damages if greater, plus attorney fees (16-3C-5)"
+   },
+   "provisions": [
+    {
+     "title": "Remedies and penalties (HIV-related testing)",
+     "citation": "W. Va. Code 16-3C-5(a)",
+     "officialUrl": "https://code.wvlegislature.gov/16-3C-5/",
+     "linkedFrom": null,
+     "effectiveDate": "1988-09-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person aggrieved by a violation of this article has right of action in the circuit court and may recover for the violation",
+     "appliesTo": "Violations of Article 3C (AIDS-related medical testing and records confidentiality)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "43cc25a8f4eafa093e887c644895b02725d6eec901b4f3e449175c1348066a75"
+    },
+    {
+     "title": "Copies of health care records to be furnished to patients (enforcement)",
+     "citation": "W. Va. Code 16-29-1(c)",
+     "officialUrl": "https://code.wvlegislature.gov/16-29-1/",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-11",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The provisions of this article may be enforced by a patient, personal representative, authorized agent or authorized representative.",
+     "appliesTo": "Access to copies under Article 29 only",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b9f3133c8f8a72d78d96e0148e75bbabe396141f1d4b572fde7a674561d1784e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Private right limited to HIV test records (16-3C-5). The Article 29 enforcement right covers access to copies, not unlawful disclosure. Breach law enforcement is by the Attorney General only (46A-2A-104).",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WV",
+    "note": "Private right limited to HIV test records. 1988 HB 303 enrolled text says in effect September 1, 1988. Damages $1,000 or $10,000 liquidated, or actual if greater. 16-29-1(c) covers copy access only."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Definitions (personal information)",
+     "citation": "W. Va. Code 46A-2A-101(6)",
+     "officialUrl": "https://code.wvlegislature.gov/46A-2A-101/",
+     "linkedFrom": null,
+     "effectiveDate": "2008-06-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "when the data elements are neither encrypted nor redacted: (A) Social security number; (B) Driver's license number or state identification card number issued in lieu of a driver's license; or (C) Financial account number",
+     "appliesTo": "Individuals and entities that own or license computerized data that includes personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2e0769fe999e00e5ba3991717a5b4d99e32947ce8eb428a484c87efdea0199b8"
+    },
+    {
+     "title": "Notice of breach of security of computerized personal information",
+     "citation": "W. Va. Code 46A-2A-102(a)",
+     "officialUrl": "https://code.wvlegislature.gov/46A-2A-102/",
+     "linkedFrom": null,
+     "effectiveDate": "2008-06-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the notice shall be made without unreasonable delay",
+     "appliesTo": "An individual or entity that owns or licenses computerized data that includes personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "31352f696ee7516a3ea4214f2a63e7d269d7ed76dd3c96d27014f04e2cafb7b0"
+    },
+    {
+     "title": "Procedures deemed in compliance with security breach notice requirements",
+     "citation": "W. Va. Code 46A-2A-103(c)",
+     "officialUrl": "https://code.wvlegislature.gov/46A-2A-103/",
+     "linkedFrom": null,
+     "effectiveDate": "2008-06-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An entity that complies with the notification requirements or procedures pursuant to the rules, regulation, procedures or guidelines established by the entity's primary or functional regulator shall be in compliance with this article.",
+     "appliesTo": "Any entity with a primary or functional regulator",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1a5ecfb9d90f03442205ba856609831263c87eb26ebf3052dedf12898a4d9cda"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Personal information covers SSN, license and financial account numbers only. No AG notice; notice to consumer reporting agencies over 1,000 persons. HIPAA is not named; a general primary-regulator compliance clause exists.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_WV",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "Q187"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     },
+     {
+      "rows": [
+       "P24"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://code.wvlegislature.gov/?s=genetic+information",
+    "terms": [
+     "artificial intelligence health care",
+     "artificial intelligence prior authorization",
+     "artificial intelligence mental health",
+     "algorithm utilization review",
+     "\"artificial intelligence\"",
+     "\"automated decision\"",
+     "algorithm"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.wvinsurance.gov/Portals/0/24-03-Prior_Authorizations.pdf",
+     "https://ago.wv.gov/consumer-protection-and-antitrust-division"
+    ],
+    "leadsChecked": [
+     "https://www.sheppard.com/insights/blogs/state-legislatures-consider-oversight-of-artificial-intelligence-in-health-insurance-decisions",
+     "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=4770&year=2026&sessiontype=RS&btype=bill",
+     "https://www.wvlegislature.gov/bill_status/bills_text.cfm?billdoc=hb4965%20sub1%20enr.htm&yr=2026&sesstype=RS&i=4965"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.mmm-online.com/news/prior-authorization-insurance-delays-coverage-denials-state-laws-west-virginia/",
+     "host": "www.mmm-online.com",
+     "usedFor": "Pointed to HB 4965 (2026) prior authorization law"
+    },
+    {
+     "url": "https://ai-law-tracker.com/ask/west-virginia/ai-healthcare",
+     "host": "ai-law-tracker.com",
+     "usedFor": "Pointed to HB 4770 (2026) AI in mental health care bill"
+    }
+   ],
+   "note": "HB 4770 (2026) on AI in mental health care: last action referred to House Finance 02/03/26. Enrolled HB 4965 (2026) prior authorization law has no AI terms.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_WV",
+    "note": "Finding agrees: no in-force AI care provision. HB 4770 last action is referral to House Finance 02/03/26. Enrolled HB 4965 and Bulletin 24-03 contain no AI terms. Dispute is about the search log.",
+    "problems": [
+     "searchLog.codeSearchUrl is a 'genetic information' query, not a search for the listed AI terms.",
+     "That URL lacks the q= chapter parameter and returns 0 results for any term, so the logged search could not find anything."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q083"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

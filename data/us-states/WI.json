@@ -1,0 +1,563 @@
+{
+ "usps": "WI",
+ "fips": "55",
+ "name": "Wisconsin",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://docs.legis.wisconsin.gov/search/results?q=%22consumer+health+data%22&filter=doctype:statutes",
+    "terms": [
+     "\"consumer health data\"",
+     "\"sensitive data\"",
+     "\"data broker\""
+    ],
+    "regulatorPagesChecked": [
+     "https://datcp.wi.gov/Pages/Programs_Services/DataBreaches.aspx",
+     "https://docs.legis.wisconsin.gov/misc/lc/study/2026/3042"
+    ],
+    "leadsChecked": [
+     "https://www.foley.com/insights/publications/2023/11/wisconsin-state-assembly-data-privacy-act/",
+     "https://www.wispolitics.com/2026/gov-evers-takes-action-on-27-bills/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.foley.com/insights/publications/2023/11/wisconsin-state-assembly-data-privacy-act/",
+     "host": "www.foley.com",
+     "usedFor": "History of the Wisconsin Data Privacy Act bill (AB 466, 2023), which did not become law"
+    }
+   ],
+   "note": "Statute search for consumer health data and sensitive data returned no results on 2026-10-03. No comprehensive consumer privacy law found. A 2026 Legislative Council study committee is reviewing data privacy.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WI",
+    "note": "Statute searches returned no consumer health data or privacy law. 2025 SB 166 and AB 172 failed to pass on 2026-03-23. The 2026 study committee named in the researcher note studies AI in health care."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [
+     "Wis. Stat. 146.83(3f)(b)1: \"For paper copies: $1 per page for the first 25 pages; 75 cents per page for pages 26 to 50; 50 cents per page for pages 51 to 100; and 30 cents per page for pages 101 and above.\"",
+     "Wis. Stat. 146.83(3f)(b)2-6: microfiche or microfilm $1.50 per page; X-ray print $10 per image; $8 certification and $20 retrieval fees only if the requester is not the patient or a person authorized by the patient; actual shipping and taxes. Dollar amounts adjusted each July 1 by CPI under 146.83(3f)(c).",
+     "Wis. Stat. 146.83(1f)(cm): provider \"may not charge a patient or a person authorized by the patient more than 25 percent of the applicable fee under sub. (3f) for providing one set of copies\" when the patient is eligible for medical assistance.",
+     "Wis. Stat. 146.83(1f)(am): for an SSDI or SSI appeal, the provider \"may charge the patient or person authorized by the patient no more than the amount that the federal social security administration reimburses the department for copies of patient health care records.\""
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Access to patient health care records: copy fees",
+     "citation": "Wis. Stat. 146.83(3f)(b)1",
+     "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/146/83",
+     "linkedFrom": null,
+     "effectiveDate": "2011-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "For paper copies: $1 per page for the first 25 pages; 75 cents per page for pages 26 to 50; 50 cents per page for pages 51 to 100; and 30 cents per page for pages 101 and above.",
+     "appliesTo": "Health care providers. Fee caps apply to \"a health care provider\" under 146.83(3f)(b).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b4c61a52b282f86206e364beebbb149eda52e78927394c1f6120e54edb4a053d"
+    },
+    {
+     "title": "Access to patient health care records: reduced fee for medical assistance patients",
+     "citation": "Wis. Stat. 146.83(1f)(cm)",
+     "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/146/83",
+     "linkedFrom": null,
+     "effectiveDate": "2011-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "may not charge a patient or a person authorized by the patient more than 25 percent of the applicable fee under sub. (3f) for providing one set of copies",
+     "appliesTo": "Health care providers, for patients eligible for medical assistance; does not apply where the provider is the department or the department of corrections (146.83(1g)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b4c61a52b282f86206e364beebbb149eda52e78927394c1f6120e54edb4a053d"
+    },
+    {
+     "title": "Access to patient health care records: fee for social security disability appeals",
+     "citation": "Wis. Stat. 146.83(1f)(am)",
+     "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/146/83",
+     "linkedFrom": null,
+     "effectiveDate": "2011-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the health care provider may charge the patient or person authorized by the patient no more than the amount that the federal social security administration reimburses the department for copies of patient health care records.",
+     "appliesTo": "Health care providers, for copies used in appealing a denial of SSDI or SSI.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b4c61a52b282f86206e364beebbb149eda52e78927394c1f6120e54edb4a053d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "146.83 sets no deadline shorter than 30 days and no free-copy case. Fees are capped or reduced, not waived. beyondFederalFloor is no. A 2023 court annotation reads 3f as allowing no fee for electronic copies; that is not counted.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_WI",
+    "note": "146.83 sets no deadline and no free copy. Fees are capped or reduced only. 908.03(6m)(c)3 two business days is a subpoena trigger, not a copy duty. beyondFederalFloor is no under Ruling D-1.",
+    "problems": [
+     "effectiveDate 2014-04-25 is wrong for 146.83(3f)(b)1, (1f)(cm) and (1f)(am). 2013 Act 342 only created 146.83(1b). The quoted text was created or renumbered by 2011 Wis. Act 32, effective 2011-07-01."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q076"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Wisconsin Statewide Health Information Network (WISHIN)",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "WISHIN Patient Choice policy",
+     "citation": "WISHIN Patient Choice page",
+     "officialUrl": "https://wishin.org/patient-choice/",
+     "linkedFrom": "https://www.dhs.wisconsin.gov/publications/p01106-2.pdf",
+     "effectiveDate": null,
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "However, you can choose NOT to participate in Wisconsin’s health information exchange.",
+     "appliesTo": "Exchange through WISHIN Pulse. Opt-out excludes emergencies and public health reporting.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fbf6fc462fdf0d61fb84339c3c3ad4f7272619377e5dbd28c4eaec02b04938a0",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    },
+    {
+     "title": "Uses and disclosures of protected health information",
+     "citation": "Wis. Stat. 146.816(2)",
+     "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/146/816",
+     "linkedFrom": null,
+     "effectiveDate": "2018-03-28",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Sections 51.30 (4) (a) and (e) and 146.82 and rules promulgated under s. 51.30 (12) do not apply to a use, disclosure, or request for disclosure of protected health information by a covered entity or its business associate that meets all the following criteria:",
+     "appliesTo": "HIPAA covered entities and business associates acting in compliance with 45 CFR 164.500 to 164.534, for treatment, payment, health care operations and listed safety purposes.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "153163ea0ab66a339c3dcecf915c7ae71bee8289010c4395ce40965eeb483f56"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Statute 146.816 allows HIPAA-compliant TPO sharing without consent, including mental health records. WISHIN, named state-designated entity in DHS plan, publishes opt-out. The WISHIN page shows no date, so effectiveDate is null.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WI",
+    "note": "DHS document P-01106 (08/2022) names WISHIN the state-designated entity. WISHIN publishes an opt-out form; emergencies and public health reporting excepted. The policy page is undated. 146.816(2) as cited was last changed by 2017 Act 143.",
+    "resolution": [
+     {
+      "rows": [
+       "Q184"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q3",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Induced abortion reports: anonymity",
+      "citation": "Wis. Stat. 69.186(2)",
+      "officialUrl": "https://docs.legis.wisconsin.gov/document/statutes/69.186",
+      "linkedFrom": null,
+      "effectiveDate": "1986-11-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "the department may not disclose any information obtained under this section that reveals the identity of any patient, health care provider or hospital, clinic or other facility",
+      "appliesTo": "Department of Health Services, for induced abortion reports filed under 69.186(1).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e7894eed74d303cc45988a887ed597a5de89b63abeaddd3b6672f1fe7fe461b2"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.kff.org/state-health-policy-data/state-indicator/shield-laws/",
+      "host": "www.kff.org",
+      "usedFor": "Checked for a reproductive health records shield law; none listed for Wisconsin"
+     }
+    ],
+    "note": "The rule covers abortion reports held by the health department, not provider records. No separate rule for reproductive care records held by providers was found. Provider records fall under general 146.82.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_WI",
+     "note": "69.186(2) bars the health department from disclosing identities in induced abortion reports. Act 315 was published 1986-05-06 and took effect on the first day of the 6th month after publication.",
+     "problems": [
+      "effectiveDate 2016-02-01 is wrong. 2015 Act 56 created only 69.186(1)(hf), (k) and (L). The quoted 69.186(2) text is unchanged since 1985 Wis. Act 315, effective 1986-11-01."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q077"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": true,
+    "provisions": [
+     {
+      "title": "Records: confidentiality of treatment records",
+      "citation": "Wis. Stat. 51.30(4)(a)",
+      "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/51/30",
+      "linkedFrom": null,
+      "effectiveDate": "1999-06-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "all treatment records shall remain confidential and are privileged to the subject individual. Such records may be released only to the persons designated in this chapter or ss. 118.125 (4), 610.70 (3) and (5), 905.03 and 905.04, or to other designated persons with the informed written consent",
+      "appliesTo": "Treatment records for mental health, developmental disability, alcohol and drug abuse services. 146.816 lifts 51.30(4)(a) for HIPAA-compliant treatment, payment and operations uses.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d5bbf86661adb1ed25d6b9a1755ccf665cb4feafc9f7d90bf0cbf065e35a7b43"
+     },
+     {
+      "title": "2025 Wisconsin Act 148: release of treatment records to fatality review teams",
+      "citation": "2025 Wis. Act 148, s. 5, creating Wis. Stat. 51.30(4)(b)29",
+      "officialUrl": "https://docs.legis.wisconsin.gov/document/acts/2025/148",
+      "linkedFrom": "https://docs.legis.wisconsin.gov/2025/related/acts/148.pdf",
+      "effectiveDate": "2027-05-01",
+      "firstEnacted": null,
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "51.30 (4) (b) 29. To an authorized member of a fatality review team established under s. 250.22.",
+      "appliesTo": "Act takes effect on the first day of the 13th month after publication (published 2026-04-03).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0daf37501f21118fa22ba0ef5caa136e3cfe074b4b87a24fe5aaebad38cc43f3"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "51.30 requires informed written consent for release except listed cases. Act 148 adds a release to fatality review teams from 2027-05-01, so pending is true.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_WI",
+     "note": "51.30(4)(a) requires informed written consent except listed releases. Date checked against https://docs.legis.wisconsin.gov/1997/statutes/statutes/51.pdf. Act 148 adds a release to fatality review teams from 2027-05-01.",
+     "problems": [
+      "effectiveDate 2021-03-28 is wrong for 51.30(4)(a). 2021 Act 22 amended only 51.30(1)(b). The quoted text is identical to the 1997-98 text shown as effective 1999-06-01."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q078",
+        "Q110",
+        "Q185"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Restrictions on use of an HIV test: confidentiality and disclosure",
+      "citation": "Wis. Stat. 252.15(3m)(b)",
+      "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/252/15",
+      "linkedFrom": null,
+      "effectiveDate": "2010-05-06",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a person who is neither the subject of the HIV test nor the subject’s authorized representative may not disclose the subject’s HIV test results unless the subject of the HIV test or his or her authorized representative has signed authorization for the disclosure",
+      "appliesTo": "Any person other than the test subject or authorized representative, subject to exceptions in 252.15(3m)(d) and (e), including disclosure to treating providers.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "cc3a897e8a8035fbcbd56e3a8123038982c41bbc79dacd3389fc25c0701fd92a"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Signed authorization is required to disclose HIV test results, with listed exceptions. Latest amendment is 2025 Wis. Act 232, published 2026-04-09.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_WI",
+     "note": "252.15(3m)(b) requires signed authorization to disclose HIV test results, with exceptions in (3m)(d) and (e). Later acts 2011 Act 260, 2025 Acts 17, 107 and 232 changed other subunits.",
+     "problems": [
+      "effectiveDate 2026-04-10 is wrong. 2025 Act 232 amended only 252.15(1)(er). The quoted 252.15(3m)(b) text was set by 2009 Wis. Act 209, published 2010-05-05, effective 2010-05-06."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q079"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Restrictions on use of genetic test results",
+      "citation": "Wis. Stat. 631.89(2)(bm)",
+      "officialUrl": "https://docs.legis.wisconsin.gov/document/statutes/631.89",
+      "linkedFrom": null,
+      "effectiveDate": "2009-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a health care provider, as defined in s. 146.81 (1) (a) to (p), who is or may be providing or who has or may have provided health care services to an individual to reveal whether the individual or a member of the individual’s family has obtained a genetic test",
+      "appliesTo": "Insurers, the state for a self-insured health plan, and local governments with self-insured health plans. Life and income continuation insurers are excluded under 631.89(3).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "666559f41ae5e8c00eb9b6080d1d418abc69b7a3fe9dad89c0aaa4f509aee9b3"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "631.89(2) bars covered insurers and plans from requiring or requesting disclosure of genetic test results from the person or a provider. 111.372 separately limits genetic testing in employment.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_WI",
+     "note": "2009 Wis. Act 28, s. 3147g created 631.89(2)(bm); the act took effect 2009-07-01. Life and income continuation insurers are excluded by 631.89(3)(a).",
+     "resolution": [
+      {
+       "rows": [
+        "Q186"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "146.84(1)(b): actual damages, exemplary damages up to $25,000 for knowing and willful violation, costs and attorney fees; 146.84(1)(bm): exemplary damages up to $1,000 for negligent violation. 252.15(8): up to $2,000 negligent, $50,000 intentional for HIV test disclosure."
+   },
+   "provisions": [
+    {
+     "title": "Violations related to patient health care records: actions for violations",
+     "citation": "Wis. Stat. 146.84(1)(b)",
+     "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/146/84",
+     "linkedFrom": null,
+     "effectiveDate": "2000-05-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "who violates s. 146.82 or 146.83 in a manner that is knowing and willful shall be liable to any person injured as a result of the violation for actual damages to that person, exemplary damages of not more than $25,000 and costs and reasonable actual attorney fees.",
+     "appliesTo": "Any person, including the state and political subdivisions, who violates 146.82 (confidentiality) or 146.83 (access). Not nursing facilities or nursing homes as to resident record confidentiality (146.84(4)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f1dea67046c75bf32c634542a7a1cea378a559254bb19d7e13afda086a74c640"
+    },
+    {
+     "title": "Restrictions on use of an HIV test: civil liability",
+     "citation": "Wis. Stat. 252.15(8)(a)",
+     "officialUrl": "https://docs.legis.wisconsin.gov/document/statutes/252.15(8)(a)",
+     "linkedFrom": null,
+     "effectiveDate": "2010-05-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "is liable to the subject of the test for actual damages, costs and reasonable actual attorney fees, plus exemplary damages of up to $2,000 for a negligent violation and up to $50,000 for an intentional violation.",
+     "appliesTo": "Violations of 252.15(2m), (3m)(b), (d) or (f), (5m), (6) or (7)(c).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "71b62b326e31c52e10c5b8c792604248bb48dc167bc0bdad345cbdeba78957da"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "146.84 lets an injured person sue for unlawful disclosure of patient health care records under 146.82 or denied access under 146.83. 146.84(1)(c) also allows suits to enjoin violations.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_WI",
+    "note": "146.84 lets an injured person sue for any knowing or negligent violation of 146.82 confidentiality or 146.83 access. Damages: $25,000 exemplary knowing, $1,000 negligent, plus fees. Level 2 stands.",
+    "problems": [
+     "146.84(1)(b) officialUrl points to the 146.83 section page; the section page is https://docs.legis.wisconsin.gov/statutes/statutes/146/84.",
+     "146.84(1)(b) effectiveDate 2011-07-01 is wrong. 2011 Act 32 amended only 146.84(2)(a)1. The current (1)(b) text is from 1999 Wis. Act 79, effective 2000-05-06.",
+     "252.15(8)(a) effectiveDate 2026-04-10 is wrong. Its current text is from 2009 Wis. Act 209, effective 2010-05-06."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q111"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     },
+     {
+      "rows": [
+       "Q080"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q4",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "within a reasonable time, not to exceed 45 days",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Notice of unauthorized acquisition of personal information: definition",
+     "citation": "Wis. Stat. 134.98(1)(b)",
+     "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/134/98",
+     "linkedFrom": null,
+     "effectiveDate": "2008-03-28",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "“Personal information” means an individual’s last name and the individual’s first name or first initial, in combination with and linked to any of the following elements",
+     "appliesTo": "Listed elements: SSN, driver license or state ID, financial account data, DNA profile, unique biometric data. No medical or health insurance element.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a72ba2c8bf4313e764d23f0bde26db5656332f10cd665cf47b054abeb3b46117"
+    },
+    {
+     "title": "Notice of unauthorized acquisition of personal information: timing",
+     "citation": "Wis. Stat. 134.98(3)(a)",
+     "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/134/98",
+     "linkedFrom": null,
+     "effectiveDate": "2008-03-28",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "within a reasonable time, not to exceed 45 days after the entity learns of the acquisition of personal information.",
+     "appliesTo": "Entities that conduct business in Wisconsin and maintain or license personal information, and state and local government.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a72ba2c8bf4313e764d23f0bde26db5656332f10cd665cf47b054abeb3b46117"
+    },
+    {
+     "title": "Notice of unauthorized acquisition of personal information: regulated entities exempt",
+     "citation": "Wis. Stat. 134.98(3m)(b)",
+     "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/134/98",
+     "linkedFrom": null,
+     "effectiveDate": "2008-03-28",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An entity that is described in 45 CFR 164.104 (a), if the entity complies with the requirements of 45 CFR part 164.",
+     "appliesTo": "HIPAA covered entities that comply with 45 CFR part 164.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a72ba2c8bf4313e764d23f0bde26db5656332f10cd665cf47b054abeb3b46117"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Definition lists neither medical nor health insurance information. No AG or regulator notice; consumer reporting agencies must be told when 1,000 or more people are notified. HIPAA-compliant covered entities are exempt.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WI",
+    "note": "Elements are SSN, license or state ID, financial account, DNA profile, biometric data. No medical or insurance element. Notice within 45 days. No regulator notice. HIPAA-compliant covered entities exempt. Renumbered from 895.507 by 2007 Act 97."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://docs.legis.wisconsin.gov/search/results?q=%22artificial+intelligence%22&filter=doctype:statutes",
+    "terms": [
+     "\"artificial intelligence\"",
+     "\"automated decision\""
+    ],
+    "regulatorPagesChecked": [
+     "https://oci.wi.gov/Pages/Regulation/Bulletins.aspx",
+     "https://oci.wi.gov/Pages/Regulation/Bulletin20250318AI.aspx",
+     "https://docs.legis.wisconsin.gov/misc/lc/study/2026/3042"
+    ],
+    "leadsChecked": [
+     "https://www.beckerspayer.com/policy-updates/7-ai-health-insurance-state-laws-passed-in-2026/",
+     "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb1066",
+     "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab1109"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.beckerspayer.com/policy-updates/7-ai-health-insurance-state-laws-passed-in-2026/",
+     "host": "www.beckerspayer.com",
+     "usedFor": "Finding state AI health insurance laws; led to SB 1066 and AB 1109"
+    }
+   ],
+   "note": "Statute hits for artificial intelligence cover only real estate ads and election ads. SB 1066 and AB 1109 on AI prior authorization denials failed to pass on 2026-03-23. OCI's 2025-03-18 AI bulletin is guidance, not counted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WI",
+    "note": "Statute hits are only 11.1303 and 452.136. SB 1066 and AB 1109 on AI prior authorization failed on 2026-03-23. OCI's 2025-03-18 bulletin is guidance. A 2026 study committee is studying AI in health care."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

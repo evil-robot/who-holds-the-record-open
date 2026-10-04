@@ -1,0 +1,517 @@
+{
+ "usps": "MS",
+ "fips": "28",
+ "name": "Mississippi",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://billstatus.ls.state.ms.us/2026/pdf/all_measures/allmsrs.xml",
+    "terms": [
+     "privacy",
+     "personal data",
+     "personal information",
+     "health information",
+     "health record",
+     "consumer health data",
+     "data broker",
+     "genetic"
+    ],
+    "regulatorPagesChecked": [
+     "https://attorneygenerallynnfitch.com/divisions/consumer-protection/"
+    ],
+    "leadsChecked": [
+     "https://www.jdsupra.com/legalnews/mississippi-enacts-data-security-and-9570687/",
+     "https://www.dataguidance.com/jurisdictions/mississippi",
+     "https://termly.io/us-data-privacy-laws/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.jdsupra.com/legalnews/mississippi-enacts-data-security-and-9570687/",
+     "host": "jdsupra.com",
+     "usedFor": "Found that the 2026 enacted data law (HB 1596) covers money transmitters only"
+    },
+    {
+     "url": "https://termly.io/us-data-privacy-laws/",
+     "host": "termly.io",
+     "usedFor": "Lead that Mississippi has no comprehensive privacy law"
+    }
+   ],
+   "note": "Searched 2023 to 2026 session measure lists on the legislature site. HB 1051 and SB 2015 (2026 privacy bills) died in committee. No consent rule for non-HIPAA health data found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MS",
+    "note": "Own search of 2024, 2025 and 2026 measure lists: HB 1051 and SB 2015 (2026) and the 2024 health data privacy bill died. No in-force consent rule found. The log cites a bill list, not a code search."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [],
+    "feeRules": [
+     "Miss. Code 11-1-52(1): \"Twenty Dollars ($20.00) for pages one (1) through twenty (20); One Dollar ($1.00) per page for the next eighty (80) pages\"; 50 cents per page after that; 10% postage and handling; $15 off-site retrieval. Binds medical providers, hospitals, nursing homes and other medical facilities.",
+     "Miss. Code 11-1-52(3): $25 cap for executing a medical record affidavit requested by the patient or representative.",
+     "Miss. Code 11-1-52(4): \"In charging the fees authorized under subsection (1) of this section, the medical provider, hospital, nursing home or other medical facility shall comply with the federal Health Insurance Portability and Accountability Act\"."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Limitations on charges for photocopying patients' records",
+     "citation": "Miss. Code Ann. 11-1-52, as amended by 2006 HB 1235",
+     "officialUrl": "https://billstatus.ls.state.ms.us/documents/2006/html/HB/1200-1299/HB1235SG.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2006-04-21",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any medical provider or hospital or nursing home or other medical facility shall charge no more than the following amounts to patients or their representatives for photocopying any patient's records:",
+     "appliesTo": "Any medical provider or hospital or nursing home or other medical facility",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4854864027ff84c6202ccfad0a498f0ce7512026b7ce00a9cd95543aec22412d"
+    },
+    {
+     "title": "Board of Medical Licensure Rule 10.6, Release of Patient Records to Patient",
+     "citation": "30 Miss. Admin. Code Pt. 2635, R. 10.6",
+     "officialUrl": "https://www.msbml.ms.gov/sites/default/files/2026%20Law%20Documents/MSBML_Administrative_Code_Title30.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-12-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A licensee shall, upon request of authorized requesting party holding a written release and authorization, provide a copy of a patient's medical record to the authorized requesting party within a reasonable period of time.",
+     "appliesTo": "Persons licensed by the Mississippi State Board of Medical Licensure",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5cefebd9c2567b087ca77ee3c4d78e4eba4d0e6fde3c8b70d10bc0acae066f9d"
+    },
+    {
+     "title": "Medical and billing records to patient within 30 days",
+     "citation": "Miss. Code Ann. 41-10-5 (2022 SB 2725, ch. 435)",
+     "officialUrl": "https://billstatus.ls.state.ms.us/documents/2022/html/SB/2700-2799/SB2725SG.htm",
+     "effectiveDate": "2022-07-01",
+     "quote": "A health care provider or its agent(s), or both, shall provide medical records and billing records that are in their possession or custody to the patient who is the subject of the records or the patient's representative within thirty (30) days from the date a valid request",
+     "appliesTo": "Health care providers and their agents",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d6ebbf960e37ae355bd5eef2098f4abf5f9506dfb8bf734c27ce1da512052f4f",
+     "statusOfProvision": "in_force"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/ms/title-11-civil-practice-and-procedure/ms-code-sect-11-1-52.html",
+     "host": "codes.findlaw.com",
+     "usedFor": "Located 11-1-52 and its 2006 amendment"
+    },
+    {
+     "url": "https://www.law.cornell.edu/regulations/mississippi/30-Miss-Code-R-SS-2635-10-5",
+     "host": "law.cornell.edu",
+     "usedFor": "Located the Board of Medical Licensure records release rule"
+    }
+   ],
+   "note": "41-10-5 sets 30 days, equal to HIPAA. No free copy case found. 11-1-52 sets a per-page cap and defers to HIPAA. 2026 HB 75 (free copy for disability claims) died.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MS",
+    "note": "Level 0 stands. The 30-day deadline equals HIPAA. No free copy case in force; 2026 HB 75 died. beyondFederalFloor is no: 11-1-52 is a per-page cap and defers to HIPAA.",
+    "problems": [
+     "Omits Miss. Code 41-10-5 (2022 SB 2725, in force 2022-07-01), which sets a 30-day deadline for health care providers.",
+     "facts.deadlineDays is null; it should be 30. The note says only the board rule sets timing, which is not complete."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q046"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "repealed_or_superseded",
+   "value": "no_rule_found",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Health Information Technology Act (MS-HIN) automatic repealer",
+     "citation": "Miss. Code Ann. 41-119-21, as amended by 2014 HB 392",
+     "officialUrl": "https://billstatus.ls.state.ms.us/documents/2014/html/HB/0300-0399/HB0392SG.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2014-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "repealed_or_superseded",
+     "quote": "Sections 41-119-1 through 41-119-21 shall stand repealed on July 1,",
+     "appliesTo": "Mississippi Health Information Network (MS-HIN) and its board",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4906e613c8ebb833f184e14a5d4c480f6791e401a452b59e9aec501b6769d90f"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://billstatus.ls.state.ms.us/2026/pdf/all_measures/allmsrs.xml",
+    "terms": [
+     "health information exchange",
+     "Health Information Network",
+     "MS-HIN",
+     "Health Information Technology"
+    ],
+    "regulatorPagesChecked": [
+     "https://msdh.ms.gov/page/14,0,194.html"
+    ],
+    "leadsChecked": [
+     "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "https://law.justia.com/codes/mississippi/2016/title-41/chapter-119/section-41-119-13/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/mississippi/2016/title-41/chapter-119/section-41-119-13/",
+     "host": "law.justia.com",
+     "usedFor": "Showed chapter 41-119 repealed effective July 1, 2019"
+    },
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "healthit.gov",
+     "usedFor": "Prior MS-HIN consent rule background"
+    }
+   ],
+   "note": "The 2014 act set repeal of the MS-HIN chapter on July 1, 2019. 2019 extension bills SB 2427 and HB 803 died. 2026 HB 534 (new statewide HIE, opt-out) died in Senate committee. No designated HIE found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MS",
+    "note": "2014 HB 392 set repeal of 41-119 on July 1, 2019. 2019 HB 803 and SB 2427 died. 2026 HB 534 died. 2026 SB 2477 (HIE opt-out rules) was vetoed April 2. No designated HIE found."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion Complication Reporting Act, reports and confidentiality",
+      "citation": "Miss. Code Ann. 41-41-77, enacted by 2004 HB 1525",
+      "officialUrl": "https://billstatus.ls.state.ms.us/documents/2004/html/HB/1500-1599/HB1525SG.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2004-07-01",
+      "firstEnacted": "2004-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "The department or an employee of the department shall not disclose to a person or entity outside the department the reports or the contents of the reports required under this section",
+      "appliesTo": "State Department of Health and its employees, for physician reports of abortion complications",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "f97b09c0b8f3a325f9f0d8f7350c52e173998021e018fc477ff304990da706f3"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://unicourt.github.io/cic-code-ms/transforms/ms/ocms/r74/gov.ms.code.title.41.html",
+      "host": "unicourt.github.io",
+      "usedFor": "Located 41-41-77 and its history note (Laws 2004, ch. 499)"
+     }
+    ],
+    "note": "41-41-77 bars the health department from disclosing complication reports in a way that identifies the patient. Code section lookups for 2023 to 2026 show no measures affecting it.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MS",
+     "note": "Quote is in Section 3 of 2004 HB 1525, approved May 4, effective July 1, 2004, codified at 41-41-77. 2026 code lookup shows no measure affecting it."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of hospital records and information; exceptions",
+      "citation": "Miss. Code Ann. 41-21-97, as amended by 2023 SB 2797",
+      "officialUrl": "https://billstatus.ls.state.ms.us/documents/2023/html/SB/2700-2799/SB2797SG.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2023-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "hospital records of and information pertaining to patients at treatment facilities or patients being treated by physicians, psychologists (as defined in Section 73-31-3(e)), licensed master social workers or licensed professional counselors shall be confidential and shall be released only:",
+      "appliesTo": "Treatment facilities, physicians, psychologists, licensed master social workers and licensed professional counselors",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "23cc52b116876c58c50edad19fb8b745300f415134f77da8b24d25bfbb53a629"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/mississippi/title-41/chapter-21/persons-in-need-of-mental-treatment/section-41-21-97/",
+      "host": "law.justia.com",
+      "usedFor": "Located 41-21-97 and its 2023 amendment"
+     }
+    ],
+    "note": "Release only on written authorization, court order, continued treatment, benefits or reporting needs, or a threat of violence. Code section lookups for 2024 to 2026 show no later measures.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MS",
+     "note": "Quote matches 41-21-97(1) in 2023 SB 2797, approved March 10, effective July 1, 2023. Code lookups for 2024 to 2026 show no later measure."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Reporting of HIV/AIDS and Class 1 diseases; confidentiality of notification",
+      "citation": "Miss. Code Ann. 41-23-1, as amended by 2000 HB 1508",
+      "officialUrl": "https://billstatus.ls.state.ms.us/documents/2000/html/HB/1500-1599/HB1508SG.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2000-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "persons who receive notification of the infectious condition of an individual under this subsection and the rules established under this subsection shall hold such information in the strictest of confidence and privilege, shall not reveal the information to others",
+      "appliesTo": "Persons notified of an individual's HIV/AIDS or other Class 1 or Class 2 infection",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0ac9620ea03d4a04e2715f10ee5bd88ea3e28fc2f49c083a43c33321f53be4b2"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://codes.findlaw.com/ms/title-41-public-health/ms-code-sect-41-23-1.html",
+      "host": "codes.findlaw.com",
+      "usedFor": "Located the confidentiality text in 41-23-1"
+     },
+     {
+      "url": "https://unicourt.github.io/cic-code-ms/transforms/ms/ocms/r74/gov.ms.code.title.41.html",
+      "host": "unicourt.github.io",
+      "usedFor": "History note naming Laws 2000, ch. 449 as last amendment"
+     },
+     {
+      "url": "https://law.justia.com/codes/mississippi/title-41/chapter-34/section-41-34-7/",
+      "host": "law.justia.com",
+      "usedFor": "Lead to 41-34-7 on HIV carrier status reports, not opened on an official host"
+     }
+    ],
+    "note": "41-23-1 names HIV/AIDS among reportable diseases. Code section lookups for 2001 to 2026 show no enacted measure after 2000. A health department rule also keeps STD and HIV records in secret files.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MS",
+     "note": "Quote matches 41-23-1(9), effective July 1, 2000. It covers Class 1 and 2 diseases; the health department rule lists HIV as Class 1B. 2026 lookup shows no measure."
+    }
+   },
+   "genetic": {
+    "status": "no_law_found",
+    "value": "none_in_force",
+    "pending": false,
+    "provisions": [],
+    "searchLog": {
+     "codeSearchUrl": "https://billstatus.ls.state.ms.us/2026/pdf/all_measures/allmsrs.xml",
+     "terms": [
+      "genetic",
+      "DNA",
+      "genetic information",
+      "genetic test"
+     ],
+     "regulatorPagesChecked": [
+      "https://attorneygenerallynnfitch.com/divisions/consumer-protection/"
+     ],
+     "leadsChecked": [
+      "https://www.law.cornell.edu/regulations/mississippi/19-Miss-Code-R-SS-3-10-24",
+      "https://unicourt.github.io/cic-code-ms/transforms/ms/ocms/r74/gov.ms.code.title.83.html",
+      "https://billstatus.ls.state.ms.us/documents/2006/html/HB/0100-0199/HB0154IN.htm"
+     ],
+     "searchedAt": "2026-10-03"
+    },
+    "leads": [
+     {
+      "url": "https://www.law.cornell.edu/regulations/mississippi/19-Miss-Code-R-SS-3-10-24",
+      "host": "law.cornell.edu",
+      "usedFor": "Medicare supplement rule on genetic information; governs use in underwriting, not disclosure"
+     }
+    ],
+    "note": "No statute or rule on confidentiality or disclosure of genetic records found. A Medicare supplement rule limits insurer requests and use of genetic information. 2006 HB 154, a genetic privacy bill, was only introduced.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MS",
+     "note": "No genetic record rule found. Health department rules limit newborn specimen use and keep birth defects registry data confidential. Neither governs genetic records as such. 2024 to 2026 genetic bills died."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": ""
+   },
+   "provisions": [
+    {
+     "title": "Breach notice law: enforcement by Attorney General only",
+     "citation": "Miss. Code Ann. 75-24-29(8), as amended by 2021 HB 277",
+     "officialUrl": "https://billstatus.ls.state.ms.us/documents/2021/html/HB/0200-0299/HB0277SG.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-07-01",
+     "firstEnacted": "2011-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "nothing in this section may be construed to create a private right of action",
+     "appliesTo": "Any person who conducts business in this state and owns, licenses or maintains personal information of residents",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9a073be9f60d64648cd2f258b4ef74feecafcba270ec33d6d2ab81773adbc90b"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://billstatus.ls.state.ms.us/2026/pdf/lookup.htm",
+    "terms": [
+     "private right of action",
+     "medical records",
+     "health information",
+     "civil action",
+     "75-24-29",
+     "41-21-97"
+    ],
+    "regulatorPagesChecked": [
+     "https://attorneygenerallynnfitch.com/divisions/consumer-protection/"
+    ],
+    "leadsChecked": [
+     "https://law.justia.com/codes/mississippi/title-41/chapter-21/persons-in-need-of-mental-treatment/section-41-21-97/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [],
+   "note": "The breach law is enforced by the Attorney General and excludes a private right of action. No health records statute giving a person a right to sue was found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MS",
+    "note": "75-24-29(8) text matches 2021 HB 277, effective July 1, 2021. No later amendment through 2026. No health records statute giving a right to sue found."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Notice of breach of security involving personal information",
+     "citation": "Miss. Code Ann. 75-24-29(2)(b), as amended by 2021 HB 277",
+     "officialUrl": "https://billstatus.ls.state.ms.us/documents/2021/html/HB/0200-0299/HB0277SG.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-07-01",
+     "firstEnacted": "2011-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "means an individual's first name or first initial and last name in combination with any one or more of the following data elements:",
+     "appliesTo": "Any person who conducts business in this state and who owns, licenses or maintains personal information of any resident of this state",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9a073be9f60d64648cd2f258b4ef74feecafcba270ec33d6d2ab81773adbc90b"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/ms/title-75-regulation-of-trade-commerce-and-investments/ms-code-sect-75-24-29/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Current text showing tribal ID amendment, which led to 2021 HB 277"
+    }
+   ],
+   "note": "Data elements are SSN, driver's license, state or tribal ID number, and financial account numbers with codes. No medical or health insurance data. Deemed compliance applies to GLBA federal functional regulators, not HIPAA. AG notice bills died 2022 to 2026.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MS",
+    "note": "Definition lists SSN, license or ID numbers and account numbers only. Deemed compliance names GLBA regulators, not HIPAA. AG notice bills died 2022 to 2026."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": true,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [
+    {
+     "title": "Board of Medical Licensure Rule 13.4, Informed Consent for alternative therapies",
+     "citation": "30 Miss. Admin. Code Pt. 2635, R. 13.4",
+     "officialUrl": "https://www.msbml.ms.gov/sites/default/files/2026%20Law%20Documents/MSBML_Administrative_Code_Title30.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2019-08-26",
+     "firstEnacted": "2019-08-26",
+     "statusOfProvision": "in_force",
+     "quote": "Licensees who choose to utilize alternative therapies must obtain written informed consent from the patient prior to the utilization of said therapies.",
+     "appliesTo": "Persons licensed by the Mississippi State Board of Medical Licensure",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5cefebd9c2567b087ca77ee3c4d78e4eba4d0e6fde3c8b70d10bc0acae066f9d"
+    },
+    {
+     "title": "Board of Medical Licensure Rule 13.2(B), definition naming AI as an alternative therapy",
+     "citation": "30 Miss. Admin. Code Pt. 2635, R. 13.2(B)",
+     "officialUrl": "https://www.msbml.ms.gov/sites/default/files/2026%20Law%20Documents/MSBML_Administrative_Code_Title30.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2019-08-26",
+     "firstEnacted": "2019-08-26",
+     "statusOfProvision": "in_force",
+     "quote": "utilization of Artificial Intelligence, and stem cell therapy.",
+     "appliesTo": "Persons licensed by the Mississippi State Board of Medical Licensure",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5cefebd9c2567b087ca77ee3c4d78e4eba4d0e6fde3c8b70d10bc0acae066f9d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.managedcarelegaldatabase.org/state-law/sb-2140-2024-mississippi-prior-authorization-reform-act",
+     "host": "managedcarelegaldatabase.org",
+     "usedFor": "Located 2024 SB 2140 prior authorization act; enacted text has no AI provision"
+    },
+    {
+     "url": "https://www.billtrack50.com/billdetail/1945766",
+     "host": "billtrack50.com",
+     "usedFor": "Located 2026 HB 1717 Medical Judgment Protection Act, which died in committee"
+    }
+   ],
+   "note": "Board rule lists AI use as an alternative therapy needing prior written informed consent. Date is the chapter adoption date shown. 2026 HB 1717 (clinician review, disclosure) died. 2024 SB 2140 has no AI terms.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MS",
+    "note": "Rule 13.2(B) lists AI as an alternative therapy and 13.4 requires prior written consent. AI text also in the 2023 code, adopted 2019. 2026 HB 1717 died. HB 1723 only defines AI."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

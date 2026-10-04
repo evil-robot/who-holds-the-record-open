@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this data, please cite the paper below; the data have their own DOI."
-title: "The Health Record Rights Index: Scores, Sources and Rubric for 198 Countries and Territories (data, version 1.0)"
-version: "1.0"
-date-released: 2026-10-03
-doi: 10.5281/zenodo.23120173
+title: "The Health Record Rights Index: Scores, Sources and Rubric for 198 Countries and Territories, with the US State Layer for the 50 States and DC (data, version 1.1)"
+version: "1.1"
+date-released: 2026-10-04
+doi: 10.5281/zenodo.23137895
 url: "https://healthrecordrights.com/"
 repository-code: "https://github.com/evil-robot/who-holds-the-record-open"
 license: CC-BY-4.0
@@ -22,13 +22,25 @@ authors:
     given-names: Dustin
     orcid: "https://orcid.org/0009-0008-2968-529X"
     affiliation: "SuperTruth Inc."
+  - family-names: Sims
+    given-names: Leann
+    affiliation: "MedSync"
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.23120173
-    description: "The data (Zenodo)"
+    value: 10.5281/zenodo.23137895
+    description: "The data, version 1.1 (Zenodo)"
   - type: doi
-    value: 10.5281/zenodo.23120175
-    description: "The working paper (Zenodo)"
+    value: 10.5281/zenodo.23120172
+    description: "The data, all versions (Zenodo concept DOI; resolves to the latest)"
+  - type: doi
+    value: 10.5281/zenodo.23137550
+    description: "The working paper, version 1.2 (Zenodo)"
+  - type: doi
+    value: 10.5281/zenodo.23120174
+    description: "The working paper, all versions (Zenodo concept DOI; resolves to the latest)"
+  - type: url
+    value: "https://healthrecordrights.com/api/v1/"
+    description: "The data API, which serves the same data"
   - type: url
     value: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556298"
     description: "The working paper on SSRN"
@@ -49,12 +61,12 @@ keywords:
 preferred-citation:
   type: report
   title: "The Health Record Rights Index: Who Holds the Record in 198 Countries?"
-  doi: 10.5281/zenodo.23120175
-  url: "https://doi.org/10.5281/zenodo.23120175"
+  doi: 10.5281/zenodo.23137550
+  url: "https://doi.org/10.5281/zenodo.23137550"
   publisher:
     name: "SuperTruth Inc."
-  date-released: 2026-10-03
-  version: "1.0"
+  date-released: 2026-10-04
+  version: "1.2"
   status: preprint
   authors:
     - family-names: Snyder
@@ -70,3 +82,6 @@ preferred-citation:
       given-names: Dustin
       orcid: "https://orcid.org/0009-0008-2968-529X"
       affiliation: "SuperTruth Inc."
+    - family-names: Sims
+      given-names: Leann
+      affiliation: "MedSync"

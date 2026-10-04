@@ -1,5 +1,5 @@
 {
-  "_note": "Source for the paper's Zenodo record (publisher SuperTruth). JAS uploads; no token on file. Bobby Hill and Dustin Raney have no ORCID (JAS, 1 Oct 2026). title, description and notes are written by scripts/paper_gen.js from out/facts.json and the analysis files; do not edit them by hand. zenodo/build_deposit.py turns this file into the deposit file zenodo/paper.json: description becomes the paper's abstract, notes the paper's own Status, Author Contributions, Use of AI and Conflict of Interest text. The licence field covers the paper and data (CC BY 4.0); the code in the repository is MIT. Per-story data is NOT deposited. The dataset DOI (10.5281/zenodo.TODO-DATASET) is filled in at deposit; see zenodo/UPLOAD.md.",
+  "_note": "Source for the paper's Zenodo record (publisher SuperTruth). JAS uploads; no token on file. All three authors have ORCID iDs (JAS, 1 Oct 2026). title, description and notes are written by scripts/paper_gen.js from out/facts.json and the analysis files; do not edit them by hand. zenodo/build_deposit.py turns this file into the deposit file zenodo/paper.json: description becomes the paper's abstract, notes the paper's own Status, Author Contributions, Use of AI and Conflict of Interest text. The licence field covers the paper and data (CC BY 4.0); the code in the repository is MIT. Per-story data is NOT deposited. The dataset DOI (10.5281/zenodo.TODO-DATASET) is filled in at deposit; see zenodo/UPLOAD.md.",
   "metadata": {
     "upload_type": "publication",
     "publication_type": "workingpaper",
@@ -11,15 +11,17 @@
         "orcid": "0009-0001-6157-8100"
       },
       {
-        "name": "Hill, Bobby",
-        "affiliation": "SuperTruth Inc."
+        "name": "Hill, Robert P., IV",
+        "affiliation": "SuperTruth Inc.",
+        "orcid": "0009-0005-3737-6970"
       },
       {
         "name": "Raney, Dustin",
-        "affiliation": "SuperTruth Inc."
+        "affiliation": "SuperTruth Inc.",
+        "orcid": "0009-0008-2968-529X"
       }
     ],
-    "description": "We scored 198 countries and territories (all 193 UN member states, plus Greenland, Kosovo, Palestine, Taiwan and Vatican City), from 0 to 100 on one question: does a person get to see, control and share their own health record? Eight weighted categories cover access to the full record, control and consent, privacy and security, protection from commercial use, a connected care journey, clinician access, research consent and clinical AI governance. Every score cites the public pages it rests on. Finland (71), Denmark (70), Estonia (68), Hungary (68) and Sweden (67) have the highest scores; allowing for scoring error, each of them is first, alone or tied, in at least 5% of draws. The median is 39. By band: 9 Strong (7 to 14 across draws), 66 Mixed (58 to 72), 111 Weak (101 to 115) and 12 Poor (10 to 19); no country reaches the Leading band in any draw. A blind re-scoring of 58 sampled cells by a separate session of the same model family, run before the 2 October re-research, agreed with the scores at that time at an intraclass correlation of 0.82; a second, pre-registered blind re-scoring of 108 cells from the added countries agreed at 0.84, with access lowest (0.68); no human rater has scored the index. By who holds the keys by default: 51 systems give the person real controls inside a shared system, 66 leave it to the state and 81 to providers and insurers; none gives the person the default say. 446 published accounts of real record problems, from regulators, courts and the news, sit beside the scores without changing them. An audit of our own scores, and every change it led to, is reported in full. Research, scoring, cross-checking, re-scoring and drafting used research agents built on Anthropic's Claude models (Claude Opus 5.5 via Claude Code), 30 September to 2 October 2026; the authors directed the work and ruled on every finding and change. Everything is drawn from public information. Paper and data CC BY 4.0; scoring and analysis code MIT. Interactive index: https://healthrecordrights.com",
+    "description": "We scored 198 countries and territories (all 193 UN member states, plus Greenland, Kosovo, Palestine, Taiwan and Vatican City), from 0 to 100 on one question: does a person get to see, control and share their own health record? Eight weighted categories cover access to the full record, control and consent, privacy and security, protection from commercial use, a connected care journey, clinician access, research consent and clinical AI governance. Every score cites the public pages it rests on. Finland (71), Denmark (70), Estonia (68), Hungary (68) and Sweden (67) have the highest scores; allowing for scoring error, each of them is first, alone or tied, in at least 5% of draws. The median is 39. By band: 9 Strong (7 to 14 across draws), 66 Mixed (58 to 72), 111 Weak (101 to 115) and 12 Poor (10 to 19); no country reaches the Leading band in any draw. A blind re-scoring of 58 sampled cells by a separate session of the same model family, run before the 2 October re-research, agreed with the scores at that time at an intraclass correlation of 0.82; a second, pre-registered blind re-scoring of 108 cells from the added countries agreed at 0.84, with access lowest (0.68); no human rater has scored the index. By who holds the keys by default: 51 systems give the person real controls inside a shared system, 66 leave it to the state and 81 to providers and insurers; none gives the person the default say. 451 published accounts of real record problems, from regulators, courts and the news, sit beside the scores without changing them. An audit of our own scores, and every change it led to, is reported in full. Research, scoring, cross-checking, re-scoring and drafting used research agents built on Anthropic's Claude models (Claude Opus 5.5 via Claude Code), 30 September to 2 October 2026; the authors directed the work and ruled on every finding and change. Everything is drawn from public information. Paper and data CC BY 4.0; scoring and analysis code MIT. Interactive index: https://healthrecordrights.com",
     "access_right": "open",
     "license": "cc-by-4.0",
     "publication_date": "2026-10-0X",
@@ -35,7 +37,33 @@
       "HIPAA",
       "GDPR",
       "clinical AI governance",
-      "composite index"
+      "composite index",
+      "Health Record Rights Index",
+      "who holds the record",
+      "health record rights",
+      "patient rights",
+      "medical records",
+      "electronic health records",
+      "personal health data",
+      "right of access",
+      "data sovereignty",
+      "health data privacy",
+      "data protection",
+      "cross-border health data",
+      "MyHealth@EU",
+      "EHDS",
+      "21st Century Cures Act",
+      "information blocking",
+      "secondary use of health data",
+      "research consent",
+      "commercial use of health data",
+      "digital health",
+      "health information exchange",
+      "comparative health law",
+      "global health",
+      "health policy",
+      "country ranking",
+      "AI research agents"
     ],
     "related_identifiers": [
       {

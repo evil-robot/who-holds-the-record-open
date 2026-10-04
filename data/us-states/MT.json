@@ -1,0 +1,585 @@
+{
+ "usps": "MT",
+ "fips": "30",
+ "name": "Montana",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Montana Consumer Data Privacy Act: data processing by controller, limitations",
+     "citation": "Mont. Code Ann. 30-14-2812(2)(b)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0280/section_0120/0300-0140-0280-0120.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2024-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "process sensitive data concerning a consumer without obtaining the consumer's consent",
+     "appliesTo": "30-14-2803(1)(a): \"control or process the personal data of not less than 25,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f3319426ffcde0541a071bcbc9edc442d12cbf890b398526196d9ad2a34fb2bf"
+    },
+    {
+     "title": "Montana Consumer Data Privacy Act: definition of sensitive data",
+     "citation": "Mont. Code Ann. 30-14-2802(28)(a)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0280/section_0020/0300-0140-0280-0020.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2024-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "data revealing racial or ethnic origin, religious beliefs, a mental or physical health condition or diagnosis, information about a person's sex life, sexual orientation, or citizenship or immigration status;",
+     "appliesTo": "Controllers meeting 30-14-2803 thresholds (25,000 consumers, or 15,000 consumers and more than 25% of gross revenue from sale of personal data).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f00e2caedbd69e06950d825783ac8acb2ffe195ca4796162120e9356f403de3c"
+    },
+    {
+     "title": "Montana Consumer Data Privacy Act: applicability",
+     "citation": "Mont. Code Ann. 30-14-2803",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0280/section_0030/0300-0140-0280-0030.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2024-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "control or process the personal data of not less than 15,000 consumers and derive more than 25% of gross revenue from the sale of personal data.",
+     "appliesTo": "Persons that conduct business in Montana or target products or services to Montana residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b9830cecebd2e89d8fab01cef984f003c43ad05590ead4658877494dbf8202fa"
+    },
+    {
+     "title": "Genetic Information Privacy Act: consumer genetic or neurotechnology data, consent",
+     "citation": "Mont. Code Ann. 30-23-104(2)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0230/part_0010/section_0040/0300-0230-0010-0040.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2023-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "obtain initial express consent from a consumer, parent, guardian, or power of attorney for the collection, use, or disclosure of the consumer's genetic or neurotechnology data",
+     "appliesTo": "30-23-102(4): an entity that \"offers consumer genetic testing products or services directly to a consumer\" or \"collects, uses, or analyzes genetic data.\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "941dbb7d988cde050713b85209ce73ca4956c14714f17d23761a86953579c106"
+    },
+    {
+     "title": "Digital health care information: mental health digital services",
+     "citation": "Mont. Code Ann. 50-16-546(1)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0160/part_0050/section_0460/0500-0160-0050-0460.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2025-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "A mental health digital service is subject to the disclosure and confidentiality provisions of Title 50, chapter 16, part 5, when handling health care information as defined in 50-16-504 on behalf of an individual.",
+     "appliesTo": "A mobile-based application or internet website that collects information on mental health or substance use disorder and markets itself as facilitating those services (50-16-546(3)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4d03c7541fb2166fa800dae3a89ac2a1348aaaba4d21e07a09c68a6e40a5e1ed"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://fpf.org/blog/amendments-to-the-montana-consumer-data-privacy-act-bring-big-changes-to-big-sky-country/",
+     "host": "fpf.org",
+     "usedFor": "Found SB 297 (2025) amendments to the MCDPA"
+    },
+    {
+     "url": "https://bassberry.com/news/big-sky-bigger-privacy-montana-broadens-its-consumer-data-privacy-act/",
+     "host": "bassberry.com",
+     "usedFor": "SB 297 thresholds and effective date lead"
+    },
+    {
+     "url": "https://www.orrick.com/en/Insights/2025/06/Montana-Expands-Health-Care-Privacy-Law-to-Include-Mental-Health-Digital-Services",
+     "host": "orrick.com",
+     "usedFor": "Lead to mental health digital service law (HB 397, 2025)"
+    }
+   ],
+   "note": "The MCDPA requires consent to process sensitive data, including health conditions. No dedicated consumer health data law was found. Genetic data and mental health apps have their own consent rules. Effective dates are from the Legislature's 2023 and 2025 effective-date tables.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MT",
+    "note": "All five quotes match the pages. Ch. 567, 345 and 273, L. 2025 all take effect 10/01/2025 per the Legislature's 2025 effective-dates table. No dedicated consumer health data law found, so level 3 does not apply."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 10,
+    "freeCopyCases": [],
+    "feeRules": [
+     "50-16-540: \"A reasonable fee for providing health care information may not exceed 50 cents for each page for a paper copy or photocopy. A reasonable fee may include an administrative fee that may not exceed $15 for searching and handling recorded health care information.\"",
+     "50-16-816 (government providers): \"Unless prohibited by federal law, a reasonable fee for providing copies of health care information may not exceed 50 cents for each page for a paper copy or photocopy.\"",
+     "50-16-541(1)(a): examination is \"without charge, during regular business hours\"; copies are not free."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Uniform Health Care Information Act: requirements and procedures for patient's examination and copying",
+     "citation": "Mont. Code Ann. 50-16-541(1)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0160/part_0050/section_0410/0500-0160-0050-0410.html",
+     "linkedFrom": null,
+     "effectiveDate": "1999-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a health care provider, as promptly as required under the circumstances but no later than 10 days after receiving the request, shall:",
+     "appliesTo": "Health care providers receiving a written request from a patient. Delay for unusual circumstances may run to \"not later than 21 days after receiving the request\" (50-16-541(1)(d)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d49c362439f99da841d82ee78c1d61bd3fa90f5a89a15c3063ad23090f662213"
+    },
+    {
+     "title": "Uniform Health Care Information Act: reasonable fees allowed",
+     "citation": "Mont. Code Ann. 50-16-540",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0160/part_0050/section_0400/0500-0160-0050-0400.html",
+     "linkedFrom": null,
+     "effectiveDate": "1999-10-01",
+     "firstEnacted": "1999-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "A reasonable fee for providing health care information may not exceed 50 cents for each page for a paper copy or photocopy.",
+     "appliesTo": "Health care providers under Title 50, chapter 16, part 5.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "79f2e658d5ce2ccf8db9e49eb2e2b3ec52581c8e5ef916c11c5c2aaba8affe68"
+    },
+    {
+     "title": "Privacy of electronic health records: release of certain test results",
+     "citation": "Mont. Code Ann. 50-16-806(2)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0160/part_0080/section_0060/0500-0160-0080-0060.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2026-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "must be disclosed to a patient as part of the patient's electronic health record 72 hours after the results are finalized or when the patient's health care provider directs the release of the results, whichever occurs first:",
+     "appliesTo": "Listed results only: malignancy pathology or radiology reports, genetic marker tests, positive HIV tests, hepatitis antigens.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "61a28a2ebf119bd78291b1df55999e5a50ca5c2ff699421e4f567c4dbd2f3683"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://lamblawoffice.com/montana-medical-records-copying-charges-law-statute/",
+     "host": "lamblawoffice.com",
+     "usedFor": "Lead to Montana copy fee statute"
+    },
+    {
+     "url": "https://nosscr.org/article/updated-state-medical-records-payment-rates/",
+     "host": "nosscr.org",
+     "usedFor": "Checked for a free copy for benefits claims; none found for Montana"
+    }
+   ],
+   "note": "Beyond the federal floor: a 10-day deadline, shorter than 30 days. No free copy case found. Fees are capped per page. Effective dates for 1999 text use the 1-2-201 October 1 default; Ch. 300, L. 1999 was not opened.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MT",
+    "note": "beyondFederalFloor yes: 10-day deadline (21 with written delay notice) is shorter than 30 days. No free copy case found. 39-71-604 offers free claim assistance, not a free copy. Level 1 stands; only the 1999 date is unverified.",
+    "problems": [
+     "effectiveDate 1999-10-01 for 50-16-541 and 50-16-540 was not read from the amending act (Ch. 300, L. 1999, SB 399); the researcher presumed the 1-2-201 default.",
+     "I could not open the 1999 act either (legislature bill pages return 404), so the date stays unverified."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q047"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q4",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Big Sky Care Connect",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Big Sky Care Connect FAQ: Can I opt out as a patient?",
+     "citation": "Big Sky Care Connect patient FAQ (HIE policy)",
+     "officialUrl": "https://www.mtbscc.org/faq/",
+     "linkedFrom": "https://formergovernors.mt.gov/bullock/docs/EO-14-2019_Designating%20Big%20Sky%20Care%20Connect.pdf",
+     "effectiveDate": "2025-04-10",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "We encourage you to discuss any potential opt-out requests with your provider regarding the extent to which you do or don’t want your health information shared, and how your provider can accommodate the request.",
+     "appliesTo": "Patients of participating Big Sky Care Connect providers. The page links an online opt-out form (\"To opt out now, click here\").",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "43c5c1a59532328039816929c00fa103789c2cbe5b883e2299b48d75c2527402"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.lmtribune.com/northwest/montana-creates-health-information-exchange-f43505ce/",
+     "host": "lmtribune.com",
+     "usedFor": "Lead to executive order designating Big Sky Care Connect"
+    },
+    {
+     "url": "https://news.mt.gov/Governors-Office/Governor_Gianforte_DPHHS_Announce_Major_Investment_in_Montanas_Health_Information_Exchange",
+     "host": "news.mt.gov",
+     "usedFor": "State release calling BSCC Montana's state-designated HIE"
+    }
+   ],
+   "note": "No statute sets HIE consent. Executive Order 14-2019 designates Big Sky Care Connect. Its FAQ offers patient opt-out with an online form. Effective date is page metadata. Sensitive-record handling at the HIE was not determined.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MT",
+    "note": "FAQ links to /optout, which gives a mail form and an online form. A news.mt.gov release still calls BSCC the state-designated HIE. Page updatedOn metadata is 2025-04-10. No statute sets HIE consent. stricterForSensitive was left undetermined."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Reporting of practice of abortion: confidentiality",
+      "citation": "Mont. Code Ann. 50-20-110(6)",
+      "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0200/part_0010/section_0100/0500-0200-0010-0100.html",
+      "linkedFrom": null,
+      "effectiveDate": "2023-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Names and identities of persons submitting to abortion shall remain confidential among medical and medical support personnel directly involved in the abortion",
+      "appliesTo": "Facilities where abortions are performed and reports filed with the department.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "444df40068656d1421aed56033bc0441ed288167b0817e46c3bcd30454dbcb5b"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://statecourtreport.org/case-tracker/planned-parenthood-montana-v-state-planned-parenthood-4",
+      "host": "statecourtreport.org",
+      "usedFor": "Checked litigation on 2023 abortion laws; no order found for this subsection"
+     }
+    ],
+    "note": "50-20-110(6) requires abortion reports and documents to be treated as confidential medical records. 50-20-308 also lets courts seal records to keep the patient's identity private. Its effective date was not verified.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MT",
+     "note": "Last amended by Ch. 278, L. 2023 (HB 786), approved April 26, 2023. The act has no effective-date section, so 1-2-201 sets October 1, 2023. No court order found against HB 786."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental health commitment and treatment: records to be confidential",
+      "citation": "Mont. Code Ann. 53-21-166",
+      "officialUrl": "https://mca.legmt.gov/bills/mca/title_0530/chapter_0210/part_0010/section_0660/0530-0210-0010-0660.html",
+      "linkedFrom": null,
+      "effectiveDate": "2023-06-08",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All information obtained and records prepared in the course of providing any services under this part to individuals under any provision of this part are confidential and privileged matter",
+      "appliesTo": "Services under Title 53, chapter 21, part 1.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e16ff158f611bdc1b345a8001259f319d7a656abb74dbc18478b5e77fde0f823"
+     },
+     {
+      "title": "Digital health care information: mental health digital services",
+      "citation": "Mont. Code Ann. 50-16-546(1)",
+      "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0160/part_0050/section_0460/0500-0160-0050-0460.html",
+      "linkedFrom": null,
+      "effectiveDate": "2025-10-01",
+      "firstEnacted": "2025-10-01",
+      "statusOfProvision": "in_force",
+      "quote": "A mental health digital service is subject to the disclosure and confidentiality provisions of Title 50, chapter 16, part 5, when handling health care information as defined in 50-16-504 on behalf of an individual.",
+      "appliesTo": "Mental health apps and websites as defined in 50-16-546(3).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "4d03c7541fb2166fa800dae3a89ac2a1348aaaba4d21e07a09c68a6e40a5e1ed"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "53-21-166 lists the only cases where these records may be disclosed. 50-16-546 applies the health care information disclosure rules to mental health apps and websites.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MT",
+     "note": "Ch. 776, L. 2023 (SB 4) takes effect on passage. The 2023 session laws table lists 06/08/2023; the chapter text says approved June 9, 2023. 50-16-546 (Ch. 273, L. 2025) takes effect 10/01/2025."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "AIDS Prevention Act: confidentiality of records",
+      "citation": "Mont. Code Ann. 50-16-1009(1)",
+      "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0160/part_0100/section_0090/0500-0160-0100-0090.html",
+      "linkedFrom": null,
+      "effectiveDate": "2009-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A person may not disclose or be compelled to disclose the identity of a subject of an HIV diagnostic test or the results of a test in a manner that permits identification of the subject of the test",
+      "appliesTo": "Any person.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "c20b9e2aa80b31f1b17527e08355f70e5c0fd92a8d1ddcd372e45dec555acd60"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.hivlawandpolicy.org/state-profiles/montana",
+      "host": "hivlawandpolicy.org",
+      "usedFor": "Lead to HIV confidentiality provisions"
+     }
+    ],
+    "note": "Disclosure is allowed only as the health care information acts or federal law allow. Unlawful disclosure is a misdemeanor. Ch. 362, L. 2009 has no effective-date section, so October 1, 2009 applies.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MT",
+     "note": "I opened Ch. 362, L. 2009 (SB 350, approved April 24, 2009) in the 2009 session laws. It has no effective-date section, so October 1, 2009 applies."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act: consent for collection, use, or disclosure",
+      "citation": "Mont. Code Ann. 30-23-104(2)",
+      "officialUrl": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0230/part_0010/section_0040/0300-0230-0010-0040.html",
+      "linkedFrom": null,
+      "effectiveDate": "2025-10-01",
+      "firstEnacted": "2023-10-01",
+      "statusOfProvision": "in_force",
+      "quote": "obtain initial express consent from a consumer, parent, guardian, or power of attorney for the collection, use, or disclosure of the consumer's genetic or neurotechnology data",
+      "appliesTo": "Entities offering consumer genetic testing or that collect, use, or analyze genetic data (30-23-102(4)).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "941dbb7d988cde050713b85209ce73ca4956c14714f17d23761a86953579c106"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://fpf.org/blog/the-dna-of-genetic-privacy-legislation-montana-tennessee-texas-and-virginia-enter-2024-with-new-genetic-privacy-laws-incorporating-fpfs-best-practices/",
+      "host": "fpf.org",
+      "usedFor": "Lead to Genetic Information Privacy Act"
+     }
+    ],
+    "note": "Separate express consent is required for third-party transfer, secondary use, and sale. Disclosure to government needs valid legal process. SB 163 (2025) added neurotechnology data.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MT",
+     "note": "History note shows amd. Sec. 4, Ch. 345, L. 2025 (SB 163). The 2025 effective-dates table gives 10/01/2025."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "50-16-553: pecuniary loss, plus up to $5,000 for willful or grossly negligent violations. 50-16-1013 (HIV): $5,000 or actual damages if negligent; $20,000 or actual damages if intentional or reckless."
+   },
+   "provisions": [
+    {
+     "title": "Uniform Health Care Information Act: civil remedies",
+     "citation": "Mont. Code Ann. 50-16-553(1)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0160/part_0050/section_0530/0500-0160-0050-0530.html",
+     "linkedFrom": null,
+     "effectiveDate": "2009-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A person aggrieved by a violation of this part may maintain an action for relief as provided in this section.",
+     "appliesTo": "Violations of Title 50, chapter 16, part 5, including disclosure without authorization. Also reaches mental health digital services (50-16-546(2)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "94e8963965ee19ef2eb16f992f05c8f2a2746796c9ed5672531c485788320b3a"
+    },
+    {
+     "title": "AIDS Prevention Act: civil remedy",
+     "citation": "Mont. Code Ann. 50-16-1013(1)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0500/chapter_0160/part_0100/section_0130/0500-0160-0100-0130.html",
+     "linkedFrom": null,
+     "effectiveDate": "2009-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A person aggrieved by a violation of this part has a right of action in the district court and may recover for each violation:",
+     "appliesTo": "Violations of Title 50, chapter 16, part 10.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7470f8224bf87edf33269f1b4c2499877b18b4f96d3fc60df729f9371ebc60a9"
+    },
+    {
+     "title": "Montana Consumer Data Privacy Act: enforcement",
+     "citation": "Mont. Code Ann. 30-14-2817(5)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0280/section_0170/0300-0140-0280-0170.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": "2024-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in this part may be construed as providing the basis for or be subject to a private right of action for violations of this part or any other law.",
+     "appliesTo": "MCDPA only. Attorney general enforcement.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "00050a21f6e66c9f167b804757c3e207dc9097f52099d29a79eeef767139f47d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The health care information act allows suits for any violation, including unlawful disclosure. The MCDPA and Genetic Information Privacy Act (30-23-106) have no private right. 50-16-553's 2009 date uses the 1-2-201 default.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MT",
+    "note": "50-16-553 was last amended by Ch. 56, L. 2009 (HB 37), approved March 25, 2009, with no effective-date section, so October 1, 2009 applies. 30-14-2817(5) bars a private right under the MCDPA."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Computer security breach",
+     "citation": "Mont. Code Ann. 30-14-1704(4)(b)(i)(D)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0170/section_0040/0300-0140-0170-0040.html",
+     "linkedFrom": null,
+     "effectiveDate": "2015-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "medical record information as defined in 33-19-104 ;",
+     "appliesTo": "\"Any person or business that conducts business in Montana and that owns or licenses computerized data that includes personal information\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1d27838f50e2e20475ce4b031f935d4ad18fa24074eaeb987627e151ee17bea7"
+    },
+    {
+     "title": "Computer security breach: notice to attorney general",
+     "citation": "Mont. Code Ann. 30-14-1704(8)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0140/part_0170/section_0040/0300-0140-0170-0040.html",
+     "linkedFrom": null,
+     "effectiveDate": "2015-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall simultaneously submit an electronic copy of the notification and a statement providing the date and method of distribution of the notification to the attorney general's consumer protection office",
+     "appliesTo": "Any person or business required to notify under 30-14-1704.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1d27838f50e2e20475ce4b031f935d4ad18fa24074eaeb987627e151ee17bea7"
+    },
+    {
+     "title": "Insurance Information and Privacy Protection: definition of medical record information",
+     "citation": "Mont. Code Ann. 33-19-104(19)",
+     "officialUrl": "https://mca.legmt.gov/bills/mca/title_0330/chapter_0190/part_0010/section_0040/0330-0190-0010-0040.html",
+     "linkedFrom": null,
+     "effectiveDate": "2004-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "relates to an individual's physical or mental condition, medical history, medical claims history, or medical treatment; and",
+     "appliesTo": "Definition cross-referenced by 30-14-1704.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "deb0fc0a0a263b06c9ae9876026b6e1fdbfa49644ecf401cb69152308e52fe4c"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Medical information is in the definition. Health insurance information, such as a policy or subscriber number, is not listed. No HIPAA deemed-compliance clause.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MT",
+    "note": "Level 1 stands. The definition covers medical claims history but not policy or subscriber numbers. Ch. 62, L. 2015 (HB 74) has no effective-date section, so October 1, 2015 holds. AG notice required. No HIPAA deemed-compliance clause.",
+    "problems": [
+     "Quote 'medical record information as defined in 33-19-104 ;' is not verbatim; the page reads '33-19-104;' with no space.",
+     "effectiveDate 2003-10-01 for 33-19-104 is wrong. Ch. 385, L. 2003 (HB 205), Sec. 7(2), makes Section 1 (33-19-104) effective January 1, 2004."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q048"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://mca.legmt.gov/bills/mca/title_0020/chapter_0210/part_0010/sections_index.html",
+    "terms": [
+     "site:mca.legmt.gov \"artificial intelligence\"",
+     "site:mca.legmt.gov algorithm OR \"automated decision\" health insurer utilization review",
+     "Montana 2025 law artificial intelligence health insurance utilization review"
+    ],
+    "regulatorPagesChecked": [
+     "https://csimt.gov/advisory-memos/",
+     "https://mca.legmt.gov/bills/mca/title_0020/chapter_0210/part_0010/section_0040/0020-0210-0010-0040.html",
+     "https://mca.legmt.gov/bills/mca/title_0020/chapter_0210/part_0010/section_0030/0020-0210-0010-0030.html"
+    ],
+    "leadsChecked": [
+     "https://legiscan.com/MT/bill/HB556/2025",
+     "https://www.billtrack50.com/billdetail/1759721"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://legiscan.com/MT/bill/HB556/2025",
+     "host": "legiscan.com",
+     "usedFor": "HB 556 (2025), AI in health insurance, reported dead in process"
+    }
+   ],
+   "note": "2-21-103 and 2-21-104 (2025) require AI disclosure and human review for government entities only. They do not name health care or coverage, so they do not count. HB 556 (2025) did not pass.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MT",
+    "note": "My own search found no in-force provision: site:mca.legmt.gov 'artificial intelligence', Title 2 ch. 21 index (Part 1 only), and the CSI advisory memos page. 2-21-103 and 2-21-104 do not name health care. HB 556 (2025) died."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

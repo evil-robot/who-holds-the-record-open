@@ -1,0 +1,529 @@
+{
+ "usps": "ME",
+ "fips": "23",
+ "name": "Maine",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Privacy of broadband Internet access service customer personal information",
+     "citation": "35-A M.R.S. §9301, sub-§3",
+     "officialUrl": "https://legislature.maine.gov/statutes/35-A/title35-Asec9301-3.html",
+     "linkedFrom": null,
+     "effectiveDate": "2020-07-01",
+     "firstEnacted": "2020-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "A provider may use, disclose, sell or permit access to a customer's customer personal information if the customer gives the provider express, affirmative consent to such use, disclosure, sale or access.",
+     "appliesTo": "The requirements of this section apply to providers operating within the State when providing broadband Internet access service to customers that are physically located and billed for service received in the State.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "31c77ee6e1ef59fce16ee26b2c350b4c45bf2e08aa645eabcdc250633ec12890"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.mainepublic.org/politics/2026-03-06/maine-senate-advances-controversial-data-privacy-bill",
+     "host": "www.mainepublic.org",
+     "usedFor": "Found LD 1822 (Maine Online Data Privacy Act); status confirmed on legislature.maine.gov as dead 4/13/2026"
+    },
+    {
+     "url": "https://law.justia.com/codes/maine/2022/title-35-a/part-7/chapter-94/section-9301/",
+     "host": "law.justia.com",
+     "usedFor": "Found 35-A §9301 broadband privacy law"
+    },
+    {
+     "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=1822&SessionID=16",
+     "host": "legislature.maine.gov",
+     "usedFor": "Bill status of LD 1822: placed in Legislative Files (DEAD)"
+    }
+   ],
+   "note": "No comprehensive privacy law. LD 1822 died on 4/13/2026. The ISP law (one class of non-HIPAA holder) lists the customer's health information as customer personal information and requires express, affirmative consent.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ME",
+    "note": "Customer personal information includes the customer's health information. ISPs are one class of non-HIPAA holder, so level 2. LD 1822 (Maine Online Data Privacy Act) is shown as dead on the legislature site."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [
+     "Practitioners, paper copies: may not exceed $5 for the first page and 45¢ for each additional page, up to $250 (22 M.R.S. §1711-A)",
+     "Practitioners, electronic copies: reasonable actual costs, no retrieval fee, may not exceed $150 (22 M.R.S. §1711-A)",
+     "Hospitals, paper copies: may not exceed $5 for the first page and 45¢ for each additional page, up to $250; electronic copies capped at $150 (22 M.R.S. §1711)"
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Release of treatment records to the patient",
+     "citation": "22 M.R.S. §1711-B, sub-§2",
+     "officialUrl": "https://legislature.maine.gov/statutes/22/title22sec1711-B.html",
+     "linkedFrom": null,
+     "effectiveDate": "2019-09-19",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The copies or narrative must be released to the designated person in accordance with the requirements of 45 Code of Federal Regulations, Section 164.524 (2019) or for a health care practitioner not subject to the requirements of 45 Code of Federal Regulations, Section 164.524 (2019) within a reasonable time.",
+     "appliesTo": "Health care practitioners as defined in section 1711-B",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "34ad1a9b32bf6de94a5f7e6dacb4f724d288a91f148dc353f881d266a91f387b"
+    },
+    {
+     "title": "Fees charged for records",
+     "citation": "22 M.R.S. §1711-A",
+     "officialUrl": "https://legislature.maine.gov/statutes/22/title22sec1711-A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2013-10-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The charge for the copies or the report may not exceed $5 for the first page and 45¢ for each additional page, up to a maximum of $250 for the entire treatment record or medical report.",
+     "appliesTo": "Whenever a health care practitioner defined in section 1711-B furnishes in paper form requested copies of a patient's treatment record",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3b7dbc8a8f37efe730e261456b9d0c20e5636425f2f0fbc56da5563508e60a68"
+    },
+    {
+     "title": "Patient access to hospital medical records",
+     "citation": "22 M.R.S. §1711",
+     "officialUrl": "https://legislature.maine.gov/statutes/22/title22sec1711.html",
+     "linkedFrom": null,
+     "effectiveDate": "2013-10-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The charge for paper copies of records may not exceed $5 for the first page and 45¢ for each additional page, up to a maximum of $250 for the entire medical record.",
+     "appliesTo": "an institution licensed as a hospital by the State",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9cb617f5e9611dc04fefcc0e4bc313d40c326e4683f7a19115a34f3c00087d43"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/maine/2012/title22/chapter401/section1711a/",
+     "host": "law.justia.com",
+     "usedFor": "Found 22 §1711-A fee section"
+    },
+    {
+     "url": "https://www.findlaw.com/state/maine-law/maine-medical-records-laws.html",
+     "host": "www.findlaw.com",
+     "usedFor": "Lead on Maine medical records laws"
+    }
+   ],
+   "note": "Deadline follows 45 CFR 164.524, so no shorter deadline. No free-copy case found in statute. Per-page caps are facts only. Nothing beyond the HIPAA and information blocking floor.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ME",
+    "note": "beyondFederalFloor no. Deadline follows 164.524. No free-copy case found. Section 1718-E allows disclosed cost-based transfer fees, so it is not a free copy. Per-page caps are facts only."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "HealthInfoNet",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Participation in a state-designated statewide health information exchange",
+     "citation": "22 M.R.S. §1711-C, sub-§18, ¶C",
+     "officialUrl": "https://legislature.maine.gov/statutes/22/title22sec1711-C.html",
+     "linkedFrom": null,
+     "effectiveDate": "2012-05-22",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A state-designated statewide health information exchange to which health care information is disclosed under this section shall provide an individual protection mechanism by which an individual may opt out from participation to prohibit the state-designated statewide health information exchange from disclosing the individual's health care information",
+     "appliesTo": "A state-designated statewide health information exchange",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "54cb4e83dff21d03fe87da19078b726f7111344112c39e0d567133bb5b4fcf5c"
+    },
+    {
+     "title": "Mental health records: opt-in for HIE disclosure",
+     "citation": "34-B M.R.S. §1207, sub-§1",
+     "officialUrl": "https://legislature.maine.gov/statutes/34-B/title34-Bsec1207.html",
+     "linkedFrom": null,
+     "effectiveDate": "2011-09-28",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a state-designated statewide health information exchange that provides and maintains an individual protection mechanism by which a client may choose to opt in to allow the state-designated statewide health information exchange to disclose that client's health care information covered under this section",
+     "appliesTo": "Client records covered by 34-B §1207",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8889a36138646327db8adbc61106a6fb7f3815111ed10bc50924f1bf107cc77b"
+    },
+    {
+     "title": "HIV test results: opt-in for HIE disclosure",
+     "citation": "5 M.R.S. §19203",
+     "officialUrl": "https://legislature.maine.gov/statutes/5/title5sec19203.html",
+     "linkedFrom": null,
+     "effectiveDate": "2011-09-28",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "To a statewide health information exchange designated by the State that provides and maintains an individual protection mechanism by which an individual may choose to opt in to allow that statewide health information exchange to disclose that individual's health care information covered under this section",
+     "appliesTo": "HIV test results covered by 5 §19203",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "42a7e0e5be29ad42dd745d2365fc39d08ea5e7b5697dfddec71fba9f266b5785"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://mhdo.maine.gov/_haiCollabPrtns/HAI%20AR%20CP%20Draft%20Minutes%2020181026.pdf",
+     "host": "mhdo.maine.gov",
+     "usedFor": "State agency minutes naming HealthInfoNet as Maine's State-designated health information exchange"
+    }
+   ],
+   "note": "Statute requires an opt-out mechanism, a decline form at first contact, and processing within 2 business days. Mental health and HIV records need the person's opt-in before HIE disclosure, with emergency exceptions.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ME",
+    "note": "Basis is statute. PL 2011, c. 691 was an emergency law signed 5/22/2012. Mental health (34-B §1207) and HIV (5 §19203) records need opt-in, so stricterForSensitive is true."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Prohibited disclosure: reproductive and gender-affirming health care information in civil or administrative proceedings",
+      "citation": "22 M.R.S. §1711-C, sub-§8, ¶B",
+      "officialUrl": "https://legislature.maine.gov/statutes/22/title22sec1711-C.html",
+      "linkedFrom": null,
+      "effectiveDate": "2024-08-09",
+      "firstEnacted": "2024-08-09",
+      "statusOfProvision": "in_force",
+      "quote": "a health care practitioner, facility or state-designated statewide health information exchange may not disclose any of the following in a civil or administrative action or proceeding or in response to a subpoena issued in a civil or administrative action or proceeding unless authorized in writing by the individual",
+      "appliesTo": "Health care practitioners, facilities and the state-designated statewide health information exchange",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "54cb4e83dff21d03fe87da19078b726f7111344112c39e0d567133bb5b4fcf5c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Added by PL 2023, c. 648 (LD 227). Covers communications about, and examination information relating to, reproductive or gender-affirming health care services. Exceptions include court orders on good cause and some malpractice and licensing matters.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ME",
+     "note": "Sub-section 8, paragraph B, added by PL 2023, c. 648, Pt. F, §5. That chapter is non-emergency, so it took effect 8/9/2024. Exceptions in paragraph C."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of information (mental health clients)",
+      "citation": "34-B M.R.S. §1207, sub-§1",
+      "officialUrl": "https://legislature.maine.gov/statutes/34-B/title34-Bsec1207.html",
+      "linkedFrom": null,
+      "effectiveDate": "2011-09-28",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a state-designated statewide health information exchange that provides and maintains an individual protection mechanism by which a client may choose to opt in to allow the state-designated statewide health information exchange to disclose that client's health care information covered under this section",
+      "appliesTo": "Records pertaining to any client covered by 34-B §1207",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "8889a36138646327db8adbc61106a6fb7f3815111ed10bc50924f1bf107cc77b"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Section 1207 makes client records confidential, with listed exceptions such as written consent. The quoted paragraph requires the client's opt-in before HIE disclosure, and excludes psychotherapy notes.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ME",
+     "note": "The quoted HIE opt-in text is sub-section 1, paragraph I, from PL 2011, c. 347, §11. That chapter is non-emergency, 125th First Regular Session. No 2026 amendment found."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of test",
+      "citation": "5 M.R.S. §19203",
+      "officialUrl": "https://legislature.maine.gov/statutes/5/title5sec19203.html",
+      "linkedFrom": null,
+      "effectiveDate": "1988-08-04",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person may disclose the results of an HIV test, except as follows:",
+      "appliesTo": "Any person",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "42a7e0e5be29ad42dd745d2365fc39d08ea5e7b5697dfddec71fba9f266b5785"
+     },
+     {
+      "citation": "PL 2025, c. 559 (LD 1970), amending 5 MRSA §19203, sub-§2 and enacting §19203-D, sub-§7",
+      "officialUrl": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1314&item=6&snum=132",
+      "effectiveDate": "2026-07-29",
+      "statusOfProvision": "in_force",
+      "quote": "This section does not preclude disclosure of information in a medical record for the purpose of seeking insurance reimbursement for HIV testing.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0908d6f431abb7d30e1f858b466e3aea5d6bf0ec5f81eac905786edc664b5ee8"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure limited to listed recipients, such as the subject and a provider the subject designates (PL 2025, c. 559, effective 2026-07-29, removed 'in writing' and added 5 MRSA §19203-D, sub-§7 on insurance reimbursement). HIE disclosure needs the person's opt-in (PL 2011, c. 347).",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_ME",
+     "note": "Value yes is unchanged. Chapter 559 is non-emergency, effective 7/29/2026. It changed sub-section 2 and added 5 §19203-D, sub-§7 on insurance reimbursement.",
+     "problems": [
+      "Note says disclosure goes to a provider designated in writing. PL 2025, c. 559, Sec. 1 amended 5 §19203, sub-§2 and removed the writing requirement, per the Legislature's enacted law summary.",
+      "The statute page relied on was extracted 10/23/2025 and does not show c. 559, approved 3/19/2026 and effective 7/29/2026."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q042"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Use of information obtained through direct-to-consumer genetic testing",
+      "citation": "24-A M.R.S. §2159-C, sub-§4",
+      "officialUrl": "https://legislature.maine.gov/statutes/24-A/title24-Asec2159-C.html",
+      "linkedFrom": null,
+      "effectiveDate": "2019-09-19",
+      "firstEnacted": "2019-09-19",
+      "statusOfProvision": "in_force",
+      "quote": "an insurer may not request, require, purchase or use information obtained from an entity providing direct-to-consumer genetic testing without the informed written consent of the individual who has been tested.",
+      "appliesTo": "Insurers issuing life, credit life, disability, long-term care, accidental injury, specified disease, hospital indemnity or credit accident insurance or an annuity",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ba8b4ec42223b4c6b32fece8723a5022be43ad50799484406d8c0300a46d99cc"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/maine/title-19-a/part-3/chapter-61/subchapter-6/section-1910/",
+      "host": "law.justia.com",
+      "usedFor": "Lead on 19-A §1910 parentage genetic testing confidentiality (not opened as evidence)"
+     }
+    ],
+    "note": "Rule applies to insurers only. Section 2159-C also bars health carriers from requesting, requiring or purchasing genetic information for underwriting.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_ME",
+     "note": "Sub-section 4 added by PL 2019, c. 208, §1. That is the 129th First Regular Session, effective 9/19/2019. Applies to insurers only."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None stated for the individual. Action may seek injunction, costs, and a forfeiture or penalty under ¶C (civil penalty up to $5,000, payable to the State; up to $10,000 or $50,000 for a general business practice). Common law remedies preserved."
+   },
+   "provisions": [
+    {
+     "title": "Confidentiality of health care information: enforcement",
+     "citation": "22 M.R.S. §1711-C, sub-§13, ¶B",
+     "officialUrl": "https://legislature.maine.gov/statutes/22/title22sec1711-C.html",
+     "linkedFrom": null,
+     "effectiveDate": "2000-02-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An individual who is aggrieved by conduct in violation of this section may bring a civil action against a person who has intentionally unlawfully disclosed health care information in the Superior Court in the county in which the individual resides or the disclosure occurred.",
+     "appliesTo": "Health care practitioners, facilities and the state-designated statewide health information exchange under 22 §1711-C",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "54cb4e83dff21d03fe87da19078b726f7111344112c39e0d567133bb5b4fcf5c"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Right covers intentional unlawful disclosure of health care information generally. Suit must be brought within 2 years of discovery. AG may also sue.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ME",
+    "note": "The right covers intentional unlawful disclosure of health care information generally. Civil penalties are payable to the State. Effective date 2/1/2000 confirmed in PL 1999, c. 790, Sec. A-58."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "As expediently as possible and without unreasonable delay; no more than 30 days after becoming aware of the breach and identifying its scope, absent a law enforcement delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Notice of Risk to Personal Data Act: definitions",
+     "citation": "10 M.R.S. §1347, sub-§6",
+     "officialUrl": "https://legislature.maine.gov/statutes/10/title10sec1347.html",
+     "linkedFrom": null,
+     "effectiveDate": "2007-01-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "\"Personal information\" means an individual's first name, or first initial, and last name in combination with any one or more of the following data elements, when either the name or the data elements are not encrypted or redacted:",
+     "appliesTo": "Listed elements: Social Security number; driver's license or state ID number; account, credit or debit card number; passwords, PINs or access codes",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2b45f0478aa54807f61680cd6abf3344511d32263f900c5ca40655aac20b3dc8"
+    },
+    {
+     "title": "Security breach notice requirements",
+     "citation": "10 M.R.S. §1348",
+     "officialUrl": "https://legislature.maine.gov/statutes/10/title10sec1348.html",
+     "linkedFrom": null,
+     "effectiveDate": "2019-09-19",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the notices must be made no more than 30 days after the person identified in paragraph A or B becomes aware of a breach of security and identifies its scope",
+     "appliesTo": "Information brokers and other persons maintaining computerized personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "171179f31523df0272145e72f6811eaaee2abc7a85a0d904961d7f451d876865"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Definition lists no medical or health insurance element. Notice also goes to Department of Professional and Financial Regulation regulators or the Attorney General. §1349(4) deems a person compliant if it follows federal or state breach rules at least as protective as §1348.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_ME",
+    "note": "Level 0 is right. No medical or health insurance element. Deadline is 30 days. Regulator or AG notice is required. Sub-section 4 is from PL 2009, c. 161, effective 9/12/2009.",
+    "problems": [
+     "facts.hipaaDeemedCompliant is false, but 10 §1349, sub-§4 deems compliant a person that follows federal breach notice rules at least as protective as §1348. That covers HIPAA-regulated entities.",
+     "Note says no deemed-compliance clause was found in sections 1347 to 1349. That is wrong."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q043"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": true,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "10 M.R.S. §1500-EE, sub-§2: \"A person may not provide, advertise or otherwise offer therapy or psychotherapy services, including through the use of Internet-based artificial intelligence, to the public unless the therapy or psychotherapy services are provided by a licensed professional.\"",
+     "32 M.R.S. §2113, sub-§4 and parallel sections: a licensee may not allow AI to make independent therapeutic decisions or directly interact with clients in therapeutic communication"
+    ]
+   },
+   "provisions": [
+    {
+     "title": "An Act to Regulate the Use of Artificial Intelligence in Providing Certain Mental Health Services: supplementary support, written notice and consent",
+     "citation": "PL 2025, c. 687 (LD 2082), §2, enacting 32 M.R.S. §2113, sub-§3 (parallel text in §§2600-G, 3300-J, 3820-A, 6207-D, 7009, 13870)",
+     "officialUrl": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1397&item=3&snum=132",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-29",
+     "firstEnacted": "2026-07-29",
+     "statusOfProvision": "in_force",
+     "quote": "The client or the client's legally authorized representative is informed in writing of the following: (1) That artificial intelligence will be used;",
+     "appliesTo": "Licensees who provide therapy or psychotherapy services, when the session is recorded or transcribed",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c556d57dff8095400a12dede70c21c015a3ca67f80432282d596c1852ff75f7b"
+    },
+    {
+     "title": "An Act to Regulate the Use of Artificial Intelligence in Providing Certain Mental Health Services: prohibition of use",
+     "citation": "PL 2025, c. 687 (LD 2082), §2, enacting 32 M.R.S. §2113, sub-§4",
+     "officialUrl": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1397&item=3&snum=132",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-29",
+     "firstEnacted": "2026-07-29",
+     "statusOfProvision": "in_force",
+     "quote": "Generate therapeutic recommendations or treatment plans without review and approval by the licensee.",
+     "appliesTo": "Licensees who provide therapy or psychotherapy services",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c556d57dff8095400a12dede70c21c015a3ca67f80432282d596c1852ff75f7b"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "www.hklaw.com",
+     "usedFor": "Found LD 2082"
+    },
+    {
+     "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=2082&SessionID=16",
+     "host": "legislature.maine.gov",
+     "usedFor": "Chapter 687 signed 4/13/2026"
+    },
+    {
+     "url": "https://legislature.maine.gov/doc/12558",
+     "host": "legislature.maine.gov",
+     "usedFor": "General effective date July 29, 2026 for nonemergency laws"
+    },
+    {
+     "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=1301&SessionID=16",
+     "host": "legislature.maine.gov",
+     "usedFor": "LD 1301 (AI in insurance denials) placed in files DEAD 1/27/2026"
+    },
+    {
+     "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=955&SessionID=16",
+     "host": "legislature.maine.gov",
+     "usedFor": "LD 955 (human oversight in payment decisions) DEAD 5/20/2025"
+    }
+   ],
+   "note": "Applies to mental health therapy only. Written notice of AI use and licensee review of AI treatment recommendations in force from 7/29/2026. AI coverage-denial bills LD 955 and LD 1301 died.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_ME",
+    "note": "PL 2025, c. 687 is non-emergency and in force from 7/29/2026. It requires written notice and consent, and licensee review. It covers therapy only. LD 1301 was ONTP. 24-A §4304 has no AI text."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

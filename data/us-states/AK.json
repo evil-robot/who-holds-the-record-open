@@ -1,0 +1,496 @@
+{
+ "usps": "AK",
+ "fips": "02",
+ "name": "Alaska",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Genetic privacy: genetic testing",
+     "citation": "AS 18.13.010(a)(1)",
+     "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=18.13.010&secEnd=18.13.100",
+     "linkedFrom": null,
+     "effectiveDate": "2004-10-24",
+     "firstEnacted": "2004-10-24",
+     "statusOfProvision": "in_force",
+     "quote": "a person may not collect a DNA sample from a person, perform a DNA analysis on a sample, retain a DNA sample or the results of a DNA analysis, or disclose the results of a DNA analysis unless the person has first obtained the informed and written consent",
+     "appliesTo": "\"a person\"; exceptions in AS 18.13.010(b) for law enforcement, paternity, newborn screening and emergency medical treatment",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "569fc51e077446b462b70916597cb2b42b12cdb22212e271d918b5e36586e390"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://www.akleg.gov/basis/Search/SearchResults?search=%22consumer%20health%20data%22&source=Statutes&yearStart=2025&yearEnd=2026",
+    "terms": [
+     "\"consumer health data\"",
+     "\"data broker\""
+    ],
+    "regulatorPagesChecked": [],
+    "leadsChecked": [
+     "https://legiscan.com/AK/bill/HB367/2025",
+     "https://www.troutmanprivacy.com/2026/03/proposed-state-privacy-law-update-march-2-2026/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://legiscan.com/AK/bill/HB367/2025",
+     "host": "legiscan.com",
+     "usedFor": "HB 367 (2026) consumer data privacy bill; it did not pass"
+    },
+    {
+     "url": "https://law.justia.com/codes/alaska/title-18/chapter-13/section-18-13-010/",
+     "host": "law.justia.com",
+     "usedFor": "Locating AS 18.13 genetic privacy"
+    }
+   ],
+   "note": "Level rests only on AS 18.13, which requires written consent for DNA data held by any person. No comprehensive privacy or consumer health data law found. HB 367 (2026) died in committee.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_AK",
+    "note": "AS 18.13 text and 2004-10-24 date verified (ch. 176 SLA 2004). Statute search for consumer health data and sensitive data found 0 hits. HB 367 (2026) stopped in House Finance. AG consumer page shows no health data law.",
+    "problems": [
+     "Level 2 rests only on AS 18.13.010, which covers DNA samples and DNA analysis results, one narrow class of data, not health data held by non-HIPAA businesses generally.",
+     "The D1 level 2 anchor allows a narrower class of holder, not a narrower class of data. Genetic-only rules are recorded under D4 genetic and D5 as a narrow category.",
+     "searchLog.regulatorPagesChecked is empty. No AG or regulator page was logged."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q158"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     },
+     {
+      "rows": [
+       "Q001"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q1",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.akleg.gov/basis/Search/SearchResults?search=records%20%22without%20charge%22%20patient&source=Statutes&yearStart=2025&yearEnd=2026",
+    "terms": [
+     "records \"without charge\" patient",
+     "\"medical records\" copy"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.akleg.gov/basis/aac.asp?media=print&secStart=12.40.967&secEnd=12.40.967"
+    ],
+    "leadsChecked": [
+     "https://nosscr.org/article/updated-state-medical-records-payment-rates/",
+     "https://www.alaskainjurylawblog.com/are_you_entitled_to_receive_a/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://nosscr.org/article/updated-state-medical-records-payment-rates/",
+     "host": "nosscr.org",
+     "usedFor": "Checking for an Alaska copy fee rule"
+    },
+    {
+     "url": "https://www.alaskainjurylawblog.com/are_you_entitled_to_receive_a/",
+     "host": "www.alaskainjurylawblog.com",
+     "usedFor": "Locating AS 18.23.005"
+    }
+   ],
+   "note": "AS 18.23.005 gives a right to inspect and copy, with no deadline or fee terms. 12 AAC 40.967(11) sets 30 days for physicians, equal to HIPAA. No free copy case found. AS 40.25.121 covers public records for veterans, not health records.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AK",
+    "note": "beyondFederalFloor no: AS 18.23.005 sets no deadline or fee. Physician rule is 30 days, equal to HIPAA. AS 40.25.121 free copies cover public records for veterans benefits, not health records. Own searches found no free copy case.",
+    "resolution": [
+     {
+      "rows": [
+       "Q210",
+       "Q214"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q5",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "healthEconnect Alaska",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Health information exchange: confidentiality and security of information",
+     "citation": "AS 18.23.310(c), as amended by ch. 19 SLA 2026 (SB 272)",
+     "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=18.23.300&secEnd=18.23.399",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-19",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The designee shall establish procedures for a patient who is the subject of a health record contained in the system (1) to opt out of the system;",
+     "appliesTo": "The statewide electronic health information exchange system established under AS 18.23.300",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6a4d9905c4d5a8310cd46af3e52e1e89c68c397b35583bf353f0d278332d8c7b"
+    },
+    {
+     "title": "healthEconnect Alaska patient FAQs (HIE policy on SUD/MAT data)",
+     "citation": "healthEconnect Alaska Patient FAQs",
+     "officialUrl": "https://healtheconnectak.org/resources/patient-faqs/",
+     "linkedFrom": "https://health.alaska.gov/en/for-providers-professionals/for-health-care-facilities/",
+     "effectiveDate": "2025-09-30",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "SUD/MAT data sharing is voluntary and opt-in only.",
+     "appliesTo": "Substance use disorder and medication assisted treatment data shared through healthEconnect Alaska",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "44ec216e78b2cbef88fd551239e0a98491af39e669dfc008d64af7b065c5c708"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "www.healthit.gov",
+     "usedFor": "Background on state HIE consent models"
+    },
+    {
+     "url": "https://legiscan.com/AK/bill/SB272/2025",
+     "host": "legiscan.com",
+     "usedFor": "Locating SB 272 (2026) HIE law update"
+    }
+   ],
+   "note": "Statute requires an opt-out procedure. The health department names healthEconnect Alaska as the state HIE. Its FAQ effective date is the page's last-modified date. SUD/MAT data is opt-in by HIE policy.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_AK",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P01"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Report of induced termination of pregnancy",
+      "citation": "AS 18.50.245(a), (d)",
+      "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=18.50.245&secEnd=18.50.245",
+      "linkedFrom": null,
+      "effectiveDate": "2002-10-03",
+      "firstEnacted": "2002-10-03",
+      "statusOfProvision": "in_force",
+      "quote": "The report may not contain the name of the patient whose pregnancy was terminated but must contain the information required by the state registrar in regulations adopted under this section.",
+      "appliesTo": "Hospitals, clinics, other institutions and physicians that report to the state registrar",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a196142cec9d0d7b1662f48033a16e697adda4bfa340b67f24db49826d55456f"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Rule covers reports to the state registrar, not the clinical record. Date is ch. 141 SLA 2002 (HB 160). A later amendment to subsection (e) was not dated.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AK",
+     "note": "Quote verified in AS 18.50.245(a). Ch. 141 SLA 2002 (HB 160) shows effective date 2002-10-03. Rule covers reports to the state registrar."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidential records (mental health commitment and treatment)",
+      "citation": "AS 47.30.845, as amended by ch. 11 SLA 2024 (HB 66), sec. 59",
+      "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=47.30.845&secEnd=47.30.847",
+      "linkedFrom": null,
+      "effectiveDate": "2025-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Information and records obtained in the course of a screening investigation, evaluation, examination, or treatment are confidential and are not public records",
+      "appliesTo": "Records under AS 47.30.660 to 47.30.915 (evaluation, commitment and treatment)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0e89aa1643a8dc02330b9f0b38ac57a3ef48736edd1e4f36fad6304372f5f80a"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is limited to listed recipients, including the patient or a person with the patient's written consent. Effective date from sec. 69 of ch. 11 SLA 2024.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AK",
+     "note": "HB 66 sec. 59 amended AS 47.30.845 (ch. 11 SLA 2024). Sec. 69 sets 2025-01-01. Disclosure list includes the patient or a person with the patient's written consent."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Blood tests of persons charged with sex offenses: testing; test results",
+      "citation": "AS 18.15.310(e)",
+      "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=18.15.300&secEnd=18.15.320",
+      "linkedFrom": null,
+      "effectiveDate": "1994-02-18",
+      "firstEnacted": "1994-02-18",
+      "statusOfProvision": "in_force",
+      "quote": "to maintain the confidentiality of personal identifying data relating to the test results except for disclosures by the victim",
+      "appliesTo": "HIV and STD test results from court-ordered tests under AS 18.15.300 to 18.15.320",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e1fd396f5afb4a1f402bd09ff0d42ed118fc851a9af5819925af28a01006a666"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.hivlawandpolicy.org/states/alaska",
+      "host": "www.hivlawandpolicy.org",
+      "usedFor": "Locating Alaska HIV provisions"
+     }
+    ],
+    "note": "Rule covers court-ordered HIV tests in sex offense cases only. Date is ch. 1 SLA 1994 (HB 109). A later amendment to subsection (a) was not dated.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AK",
+     "note": "Quote verified in AS 18.15.310(e). HB 109 bill page shows ch. 1 SLA 1994, effective 1994-02-18. Scope is court-ordered tests in sex offense cases."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic privacy: genetic testing",
+      "citation": "AS 18.13.010(a)(1)",
+      "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=18.13.010&secEnd=18.13.100",
+      "linkedFrom": null,
+      "effectiveDate": "2004-10-24",
+      "firstEnacted": "2004-10-24",
+      "statusOfProvision": "in_force",
+      "quote": "a person may not collect a DNA sample from a person, perform a DNA analysis on a sample, retain a DNA sample or the results of a DNA analysis, or disclose the results of a DNA analysis unless the person has first obtained the informed and written consent",
+      "appliesTo": "\"a person\"; exceptions in AS 18.13.010(b)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "569fc51e077446b462b70916597cb2b42b12cdb22212e271d918b5e36586e390"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/alaska/title-18/chapter-13/section-18-13-010/",
+      "host": "law.justia.com",
+      "usedFor": "Locating AS 18.13"
+     }
+    ],
+    "note": "Enacted by ch. 176 SLA 2004 (SB 217). A general medical records release is not consent under AS 18.13.010(c).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AK",
+     "note": "Quote verified in AS 18.13.010(a)(1). SB 217 bill page shows ch. 176 SLA 2004, effective 2004-10-24. Subsection (c) bars a general records release from serving as consent.",
+     "resolution": [
+      {
+       "rows": [
+        "Q159"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Actual damages plus $5,000, or $100,000 if the violation resulted in profit or monetary gain (AS 18.13.020)"
+   },
+   "provisions": [
+    {
+     "title": "Genetic privacy: private right of action",
+     "citation": "AS 18.13.020",
+     "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=18.13.010&secEnd=18.13.100",
+     "linkedFrom": null,
+     "effectiveDate": "2004-10-24",
+     "firstEnacted": "2004-10-24",
+     "statusOfProvision": "in_force",
+     "quote": "A person may bring a civil action against a person who collects a DNA sample from the person, performs a DNA analysis on a sample, retains a DNA sample or the results of a DNA analysis, or discloses the results of a DNA analysis in violation of this chapter.",
+     "appliesTo": "Violations of AS 18.13 (DNA samples and analysis)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "569fc51e077446b462b70916597cb2b42b12cdb22212e271d918b5e36586e390"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Narrow right for genetic data only. Breach violations by businesses are unfair trade practices under AS 45.48.080(b), with damages capped at $500 actual economic damages. No general medical records right found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AK",
+    "note": "Narrow genetic right. Damages of $5,000, or $100,000 with profit, verified. AS 45.48.080(b) breach route caps damages at $500 actual economic damages. No general medical records right found."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "in the most expeditious time possible and without unreasonable delay",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Alaska Personal Information Protection Act: definitions",
+     "citation": "AS 45.48.090(7)",
+     "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=45.48.010&secEnd=45.48.090",
+     "linkedFrom": null,
+     "effectiveDate": "2009-07-01",
+     "firstEnacted": "2009-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "the individual's social security number; (ii) the individual's driver's license number or state identification card number;",
+     "appliesTo": "\"covered person\" means a (A) person doing business; (B) governmental agency; or (C) person with more than 10 employees",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cb119e94a63136da0f5b6da9ab0c71c96b83daf3426efa48914684aa66977fdd"
+    },
+    {
+     "title": "Disclosure of breach of security",
+     "citation": "AS 45.48.010(b)",
+     "officialUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=45.48.010&secEnd=45.48.090",
+     "linkedFrom": null,
+     "effectiveDate": "2009-07-01",
+     "firstEnacted": "2009-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "in the most expeditious time possible and without unreasonable delay, except",
+     "appliesTo": "Information collectors that own or license personal information on a state resident",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cb119e94a63136da0f5b6da9ab0c71c96b83daf3426efa48914684aa66977fdd"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Elements are SSN, license or ID number, account and card numbers, and access codes. No medical or health insurance element. The AG gets notice only when no-harm is determined (AS 45.48.010(c)). Enacted by ch. 92 SLA 2008.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AK",
+    "note": "AS 45.48.090(7) lists no medical or insurance element. HB 65 enrolled text sets 2009-07-01. AG notice only on a no-harm finding. No HIPAA deemed-compliance clause."
+   }
+  },
+  "ai_care": {
+   "status": "not_checked",
+   "level": null,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.akleg.gov/basis/Search/SearchResults?search=%22artificial%20intelligence%22&source=Statutes&yearStart=2025&yearEnd=2026",
+    "terms": [
+     "\"artificial intelligence\"",
+     "artificial OR algorithm OR automated in SB 133 (2025) enrolled text"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0133Z"
+    ],
+    "leadsChecked": [
+     "https://www.manatt.com/insights/newsletters/health-highlights/manatt-health-health-ai-policy-tracker",
+     "https://www.billtrack50.com/billdetail/1775660"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.billtrack50.com/billdetail/1775660",
+     "host": "www.billtrack50.com",
+     "usedFor": "SB 2 (AI use by state agencies) status; died 2026"
+    },
+    {
+     "url": "https://www.anhb.org/sb-133-prior-authorization/",
+     "host": "www.anhb.org",
+     "usedFor": "Locating SB 133 (2025) prior authorization law"
+    }
+   ],
+   "note": "The statute search returned no section using \"artificial intelligence\". SB 133 (2025) sets prior authorization deadlines but does not mention AI.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_AK",
+    "note": "Own akleg searches for artificial intelligence: 0 statutes, 0 Alaska Administrative Code rules. SB 133 has no AI terms and starts 2027-01-01. Division of Insurance pages returned 403, so its bulletins were not checked.",
+    "problems": [
+     "searchLog.regulatorPagesChecked lists only the SB 133 bill text, which is not an AG or regulator page. The log is incomplete under rubric section 4."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q002"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

@@ -8,17 +8,24 @@
   "categories": {
     "access": {
       "score": 50,
-      "summary": "HIPAA gives a right to the whole designated record set within 30 days at a cost-based fee, and OCR has brought 55 right of access enforcement actions. There is no national record: 65% used a portal in 2024, and 59% had more than one.",
+      "summary": "HIPAA gives a right to copies within 30 days, and the Cures Act penalizes providers and health IT firms that block a patient's electronic access without a listed exception. OCR has brought 55 access cases, but there is no national record, and 59% of people juggle several portals.",
       "detail": [
-        "Under 45 CFR 164.524 a provider or health plan must act on an access request within 30 days, with one 30-day extension. If the record is held electronically and readily producible, the patient gets it in the electronic form and format they ask for. Fees may cover only labor, supplies and postage.",
-        "OCR enforces the right. Its 55th Right of Access action, announced on August 27, 2026, fined Azul Vision $50,000 after a patient waited almost two years for records requested in January 2023.",
-        "Access runs provider by provider. In 2024, 65% of people were offered and used an online record or portal and 57% used an app. But 59% had several portals, and only 7% used an app to combine them (ASTP Data Brief 77).",
-        "OCR's regulatory agenda lists a proposed rule, planned for November 2026, on how long covered entities have to answer access requests, according to an HCCA report."
+        "Under 45 CFR 164.524 a provider or health plan must act within 30 days, with one 30-day extension. The right covers the designated record set, except psychotherapy notes and files prepared for a legal case. Electronic records go out in the form the patient asks for, if readily producible. Fees may cover only labor, supplies, postage and an agreed summary.",
+        "The 21st Century Cures Act rule, 45 CFR Part 171, calls it information blocking when a provider, health IT developer or network acts in a way likely to interfere with access to electronic health information. A provider is covered only if it knows the practice is unreasonable. Ten exceptions apply, such as preventing harm, privacy, security and infeasibility.",
+        "A fee for a patient's own online access falls outside the fees exception. Since September 1, 2023, HHS's Inspector General can penalize blocking developers and networks. Since July 31, 2024, a hospital or clinician it finds blocking can lose Medicare incentive status, and an accountable care organization can be removed from the Shared Savings Program for at least a year.",
+        "OCR enforces the HIPAA right. In OCR's 55th Right of Access action, announced on August 27, 2026, Azul Vision paid $50,000 under a resolution agreement after a patient waited almost two years for records she asked for in January 2023.",
+        "In 2024, 65% of people were offered and used an online record or portal and 57% used an app. But 59% had several portals, and only 7% used an app to combine them (ASTP Data Brief 77)."
       ],
       "sources": [
         {
           "title": "45 CFR 164.524 Access of individuals to protected health information (eCFR)",
           "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.524",
+          "date": "undated",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "45 CFR Part 171 Information Blocking (eCFR)",
+          "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-D/part-171",
           "date": "undated",
           "publisherClass": "legal_text"
         },
@@ -33,12 +40,6 @@
           "url": "https://healthit.gov/data/data-briefs/individuals-access-and-use-patient-portals-and-smartphone-health-apps-2024/",
           "date": "2025-07",
           "publisherClass": "official"
-        },
-        {
-          "title": "OCR Director Says Carry On: July sees news of Security delay, surprise access reg (HCCA via JD Supra)",
-          "url": "https://www.jdsupra.com/legalnews/ocr-director-says-carry-on-usually-6479185/",
-          "date": "2026-08-06",
-          "publisherClass": "news"
         }
       ]
     },
@@ -80,12 +81,12 @@
     },
     "privacy": {
       "score": 50,
-      "summary": "HIPAA is enforced, with breach reporting and fines, but breaches are vast: 397 large breaches exposed 33.77 million people in the first half of 2026. The Security Rule overhaul proposed in January 2025 now has a July 2027 target.",
+      "summary": "HIPAA is enforced, with breach reporting, settlements and penalties, but breaches are vast: 397 large breaches exposed 33.77 million people in the first half of 2026. The Security Rule overhaul proposed in January 2025 now has a July 2027 target.",
       "detail": [
         "HIPAA covers providers, health plans, clearinghouses and their business associates. Breaches affecting 500 or more people are reported to HHS. From January to June 2026 there were 397 such breaches affecting 33.77 million people, 343 of them hacking or IT incidents (HIPAA Journal tally of HHS OCR breach reports).",
-        "The largest health breach on record, at Change Healthcare in 2024, affected about 192.7 million people. OCR announced seven settlements in the first half of 2026, each with a fine for a missing risk analysis.",
+        "The largest health breach on record, at Change Healthcare in 2024, affected about 192.7 million people. OCR announced seven settlements in the first half of 2026, and each included a payment for a missing or weak risk analysis.",
         "The Security Rule update proposed on January 6, 2025 is not final. The Unified Agenda lists it as a long-term action with final action in July 2027.",
-        "Police can get records by court order, subpoena or administrative request under 164.512(f). A federal court vacated most of the 2024 reproductive health privacy rule on June 18, 2025 (Purl v. HHS). Texas requires electronic health records to be stored in the US from January 1, 2026."
+        "Police can get records by court order, subpoena or administrative request under 164.512(f). On June 18, 2025, a federal court vacated most of the 2024 reproductive health privacy rule (Purl v. HHS, No. 2:24-cv-00228, N.D. Tex.); its changes to privacy notices still stand. Texas requires electronic health records to be stored in the US from January 1, 2026."
       ],
       "sources": [
         {
@@ -116,12 +117,12 @@
     },
     "commercial": {
       "score": 38,
-      "summary": "Inside HIPAA, marketing and any sale of patient data need written authorization. But de-identified data falls outside the law, and health apps answer mainly to an FTC breach-notice rule and a few state laws such as Washington's.",
+      "summary": "Inside HIPAA, marketing and any sale of patient data need written authorization. Outside it, de-identified data can be sold, and health apps answer to the FTC, which treats an app's unauthorized sharing as a breach, and to a few state laws such as Washington's.",
       "detail": [
         "Under 164.508 a covered entity needs authorization for marketing, except face-to-face talks and nominal gifts, and for any sale of health information. The form must say the entity is being paid.",
         "Data that meets the de-identification standard in 164.514 is no longer individually identifiable health information. It can be used or sold without the patient's permission.",
-        "Apps and devices outside HIPAA fall under the FTC Health Breach Notification Rule, updated in April 2024 to cover health apps. It requires notice of breaches. It does not ban sharing.",
-        "States fill gaps unevenly. Washington's My Health My Data Act has made it unlawful since March 31, 2024 to sell consumer health data without a signed authorization. New York's governor vetoed a similar bill on December 19, 2025."
+        "Apps outside HIPAA fall under the FTC Health Breach Notification Rule. Since July 29, 2024 it says a breach includes an unauthorized disclosure, not only a hack. The FTC's first case under it (2023) barred GoodRx from sharing health data for ads, with a $1.5 million civil penalty; the second targeted the Premom ovulation app. It requires notice, not consent.",
+        "States fill gaps unevenly. Washington's My Health My Data Act has made it unlawful since March 31, 2024 to sell consumer health data without a signed authorization; small businesses had until June 30, 2024. New York's governor vetoed a similar bill on December 19, 2025."
       ],
       "sources": [
         {
@@ -131,15 +132,15 @@
           "publisherClass": "legal_text"
         },
         {
-          "title": "45 CFR 164.514 De-identification of protected health information (eCFR)",
-          "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.514",
-          "date": "undated",
+          "title": "Health Breach Notification Rule, final rule (Federal Register)",
+          "url": "https://www.federalregister.gov/documents/2024/05/30/2024-10855/health-breach-notification-rule",
+          "date": "2024-05-30",
           "publisherClass": "legal_text"
         },
         {
-          "title": "FTC Finalizes Changes to the Health Breach Notification Rule (FTC)",
-          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-finalizes-changes-health-breach-notification-rule",
-          "date": "2024-04-26",
+          "title": "FTC Enforcement Action to Bar GoodRx from Sharing Consumers' Sensitive Health Info for Advertising (FTC)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2023/02/ftc-enforcement-action-bar-goodrx-sharing-consumers-sensitive-health-info-advertising",
+          "date": "2023-02-01",
           "publisherClass": "official"
         },
         {
@@ -152,12 +153,12 @@
     },
     "journey": {
       "score": 60,
-      "summary": "Exchange is growing: 76% of hospitals did all four exchange tasks in 2025, and TEFCA went from 10 million to over 1 billion records in under a year. There is still no national record, and payer APIs are due in 2027.",
+      "summary": "Exchange is growing: 76% of hospitals did all four exchange tasks in 2025, and TEFCA passed 1 billion records. There is still no national record, and insurers' patient APIs, required since 2021, expand to providers and other insurers in 2027.",
       "detail": [
         "There is no national EHR. Records move through vendor networks, regional exchanges and TEFCA, the federal framework. HHS said on June 26, 2026 that TEFCA exchange grew from 10 million to more than 1 billion records in under a year, and it hired a contractor to check network rules.",
         "In 2025, 96% of hospitals sent, 93% received and 94% queried for outside records, but only 79% integrated them. 76% did all four, up from 70% in 2023 (ASTP).",
         "Public health links are strong. In 2024, 97% of hospitals reported immunizations electronically and 94% sent lab results. Virtually all pharmacies accept e-prescriptions, and 92% of prescribers send them.",
-        "Insurers lag. CMS-0057-F requires Medicare Advantage, Medicaid, CHIP and marketplace plans to run Patient Access, Provider Access and payer-to-payer FHIR APIs, with most deadlines on January 1, 2027."
+        "Medicare Advantage, Medicaid, CHIP and marketplace plans have had to offer a Patient Access API since 2021. CMS-0057-F adds prior authorization data to it and requires Provider Access and payer-to-payer APIs, mostly by January 1, 2027."
       ],
       "sources": [
         {
@@ -179,10 +180,10 @@
           "publisherClass": "official"
         },
         {
-          "title": "CMS Interoperability and Prior Authorization Final Rule CMS-0057-F (CMS)",
-          "url": "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
-          "date": "2024-01-17",
-          "publisherClass": "official"
+          "title": "Advancing Interoperability and Improving Prior Authorization Processes, final rule CMS-0057-F (Federal Register)",
+          "url": "https://www.federalregister.gov/documents/2024/02/08/2024-00895/medicare-and-medicaid-programs-patient-protection-and-affordable-care-act-advancing-interoperability",
+          "date": "2024-02-08",
+          "publisherClass": "legal_text"
         }
       ]
     },
@@ -191,8 +192,7 @@
       "summary": "HIPAA allows sharing for treatment without consent, so the limits are technical. In 2023, 71% of hospitals had routine access to outside records at the point of care, but only 42% said clinicians routinely used them.",
       "detail": [
         "ASTP's 2023 hospital survey found 71% of hospitals routinely had the clinical information they needed from outside providers when treating patients. Only 42% said clinicians routinely used it. Just 16% sent care summaries to most long-term care providers.",
-        "Medication history is better connected: 92% of prescribers e-prescribe and virtually all pharmacies accept e-prescriptions.",
-        "HHS announced a crackdown on information blocking on September 3, 2025. In early 2026 ASTP said it was issuing notices of investigation to health IT developers, who face fines of up to $1 million per violation. Nearly 1,600 complaints had been filed by February 2026 (Holland & Knight).",
+        "HHS announced a crackdown on information blocking on September 3, 2025. Since September 1, 2023, HHS's Inspector General can penalize health IT developers and networks up to $1 million per violation, before yearly inflation adjustments. ASTP counts 2,450 possible blocking claims filed since April 2021 (July 2026 update).",
         "Small and independent hospitals exchange less, so what a clinician sees depends on where the patient is treated."
       ],
       "sources": [
@@ -203,22 +203,22 @@
           "publisherClass": "official"
         },
         {
-          "title": "A Decade of Data Examined: The Evolution of Electronic Prescribing (ASTP/ONC)",
-          "url": "https://healthit.gov/blog/health-data/a-decade-of-data-examined-the-evolution-of-electronic-prescribing/",
-          "date": "2024-07-15",
-          "publisherClass": "official"
-        },
-        {
           "title": "HHS Announces Crackdown on Health Data Blocking (HHS)",
           "url": "https://www.hhs.gov/press-room/hhs-crackdown-health-data-blocking.html",
           "date": "2025-09-03",
           "publisherClass": "official"
         },
         {
-          "title": "The Wait Is Over: Information Blocking Enforcement Is Officially Here (Holland & Knight)",
-          "url": "https://www.hklaw.com/en/insights/publications/2026/02/the-wait-is-over-information-blocking-enforcement-is-officially-here",
-          "date": "2026-02",
-          "publisherClass": "law_firm"
+          "title": "Information Blocking; Office of Inspector General's Civil Money Penalty Rules, final rule (Federal Register)",
+          "url": "https://www.federalregister.gov/documents/2023/07/03/2023-13851/grants-contracts-and-other-agreements-fraud-and-abuse-information-blocking-office-of-inspector",
+          "date": "2023-07-03",
+          "publisherClass": "legal_text"
+        },
+        {
+          "title": "Information Blocking Claims: By the Numbers, Quick Stat (ASTP/ONC)",
+          "url": "https://healthit.gov/data/quickstats/information-blocking-claims-numbers/",
+          "date": "2026-07",
+          "publisherClass": "official"
         }
       ]
     },
@@ -226,8 +226,8 @@
       "score": 49,
       "summary": "An IRB or privacy board can waive the patient's authorization when risk is minimal, and de-identified data needs no consent, so there is no general opt-out. Three safeguards lift the cell: board review, Certificates of Confidentiality and a broad-consent route.",
       "detail": [
-        "Under 164.512(i) health information can be used for research without authorization if an IRB or privacy board finds no more than minimal privacy risk and that the research could not practicably be done without the waiver.",
-        "De-identified data under 164.514 is outside HIPAA, so large datasets are built without asking patients. None of the federal rules reviewed gives a general opt-out.",
+        "Under 164.512(i) health information can be used for research without authorization if an IRB or privacy board finds the privacy risk is minimal and the research could not practicably be done without the waiver or without the data.",
+        "De-identified data under 164.514 is outside HIPAA, so large datasets are built without asking patients. None of the federal rules reviewed gives a general opt-out. A limited data set, with names and other direct identifiers removed, can also be shared for research under a data use agreement.",
         "The Common Rule (45 CFR 46.116) requires informed consent for federally funded research, allows broad consent for storing and reusing identifiable data and specimens, and lets an IRB waive consent on similar criteria.",
         "Since 2017, NIH-funded research meeting set criteria is automatically covered by a Certificate of Confidentiality, which bars disclosure of identifiable research data without consent."
       ],
@@ -260,12 +260,12 @@
     },
     "ai": {
       "score": 56,
-      "summary": "FDA regulates AI devices, listing about 1,600, and has final guidance on change control plans. But HHS proposed removing the only federal AI transparency rule for certified EHRs, and January 2026 guidance took more decision support software out of oversight.",
+      "summary": "FDA regulates AI devices, listing about 1,600, and has final guidance on change control plans. Two HHS rules in force require source details for AI tools in certified EHRs and anti-bias checks by providers, and HHS has proposed cutting the first.",
       "detail": [
         "FDA's public list of AI-enabled devices (page current as of September 4, 2026) has about 1,600 entries, with decisions through June 2026. FDA says it will explore tagging devices that use large language models.",
         "FDA's final guidance on predetermined change control plans for AI device software (page dated August 2025) lets makers get planned model updates authorized in advance.",
-        "HTI-5, proposed on December 29, 2025, would remove 34 of 60 EHR certification criteria and strip the AI model card requirements from decision support. Comments closed on February 27, 2026, and no final rule was found. In January 2026 FDA also issued guidance narrowing oversight of decision support and wellness software.",
-        "States add rules. California AB 3030 requires a disclaimer on AI-written patient messages unless a clinician reviewed them. Texas SB 1188 requires practitioners to review AI-made records and tell patients when they use AI for diagnosis."
+        "Since January 1, 2025, certified EHRs must support decision support that shows users source details for predictive AI tools, under the HTI-1 rule (45 CFR 170.315(b)(11)). HTI-5, proposed on December 29, 2025, would remove 34 of 60 certification criteria and all of those source detail rules. Comments closed on February 27, 2026, and no final rule has been published.",
+        "Since May 2025, hospitals and other providers that take federal funds must make reasonable efforts to find decision support tools that use race, color, national origin, sex, age or disability, and to reduce the risk of discrimination (45 CFR 92.210)."
       ],
       "sources": [
         {
@@ -287,9 +287,9 @@
           "publisherClass": "legal_text"
         },
         {
-          "title": "California AB 3030, health care services: artificial intelligence (California Legislature)",
-          "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB3030",
-          "date": "2024",
+          "title": "45 CFR 92.210 Nondiscrimination in the use of patient care decision support tools (eCFR)",
+          "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92/subpart-C/section-92.210",
+          "date": "undated",
           "publisherClass": "legal_text"
         }
       ]
@@ -304,7 +304,7 @@
     "publicHealth": "connected",
     "research": "partial"
   },
-  "journeyNote": "No national record. TEFCA, regional exchanges and vendor networks link hospitals, clinics and labs unevenly; 59% of patients juggle several portals. E-prescribing and public health reporting are near universal. Payer APIs are due January 2027.",
+  "journeyNote": "No national record. TEFCA, regional exchanges and vendor networks link hospitals, clinics and labs unevenly; 59% of patients juggle several portals. E-prescribing and public health reporting are near universal. Insurer patient APIs date from 2021; more are due in 2027.",
   "laws": [
     {
       "name": "HIPAA Privacy Rule, right of access (45 CFR 164.524)",
@@ -331,7 +331,7 @@
       "name": "CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F)",
       "level": "National",
       "year": "2024",
-      "what": "Payer FHIR APIs for patients, providers and payer-to-payer exchange, mostly by January 1, 2027.",
+      "what": "Adds prior authorization data to the 2021 Patient Access API; Provider Access and payer-to-payer APIs, mostly by January 1, 2027.",
       "url": "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f"
     },
     {
@@ -349,11 +349,11 @@
       "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01188F.htm"
     },
     {
-      "name": "California AB 3030",
-      "level": "State/Provincial",
-      "year": "2024",
-      "what": "Disclaimer and human contact route on generative AI patient messages not reviewed by a clinician.",
-      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB3030"
+      "name": "21st Century Cures Act information blocking rule (45 CFR Part 171)",
+      "level": "National",
+      "year": "2020",
+      "what": "Penalizes blocking patients' electronic access; developer penalties since 2023, provider disincentives since 2024.",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-D/part-171"
     }
   ],
   "news": [
@@ -366,7 +366,7 @@
     },
     {
       "date": "2026-08-27",
-      "headline": "OCR fines eye care provider in 55th right of access case",
+      "headline": "OCR settles 55th right of access case with eye care provider",
       "source": "U.S. Department of Health and Human Services",
       "url": "https://www.hhs.gov/press-room/hhs-ocr-settles-hipaa-investigation-with-azul-vision.html",
       "why": "The access right is enforced, but this patient waited almost two years for her records."

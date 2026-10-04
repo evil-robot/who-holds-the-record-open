@@ -1,0 +1,549 @@
+{
+ "usps": "NV",
+ "fips": "32",
+ "name": "Nevada",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 3,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Collection and sharing of consumer health data by regulated entity prohibited; exceptions",
+     "citation": "NRS 603A.500 (2023 Nev. Stat. ch. 525, SB 370)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-603A.html#NRS603ASec500",
+     "linkedFrom": null,
+     "effectiveDate": "2024-03-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "With the affirmative, voluntary consent of the consumer to whom the consumer health data relates, which must be separate and distinct from the consent provided pursuant to subsection 1 for the collection of the data;",
+     "appliesTo": "\"Regulated entity\" means any person who: 1. Conducts business in this State or produces or provides products or services that are targeted to consumers in this State; and 2. Alone or with other persons, determines the purpose and means of processing, sharing or selling consumer health data. (NRS 603A.465)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b158c2235ea98fa63af2f92924a9298e68de0fc70dbfcdbe45430d4d75b48b06"
+    },
+    {
+     "title": "Unauthorized sale or offering of consumer health data prohibited; required contents of authorization",
+     "citation": "NRS 603A.535 (2023 Nev. Stat. ch. 525, SB 370)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-603A.html#NRS603ASec535",
+     "linkedFrom": null,
+     "effectiveDate": "2024-03-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A person who sells consumer health data shall provide a copy of the written authorization provided pursuant to subsection 1 to the consumer who signed the written authorization and the purchaser of the consumer health data.",
+     "appliesTo": "Any person who sells or offers to sell consumer health data. The written authorization must include the signature of the consumer to which the consumer health data pertains.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b158c2235ea98fa63af2f92924a9298e68de0fc70dbfcdbe45430d4d75b48b06"
+    },
+    {
+     "title": "SB 370 effective date",
+     "citation": "2023 Nev. Stat. ch. 525 (SB 370), sec. 36",
+     "officialUrl": "https://www.leg.state.nv.us/Statutes/82nd2023/Stats202329.html#Stats202329page3450",
+     "linkedFrom": null,
+     "effectiveDate": "2024-03-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "This act becomes effective on March 31, 2024.",
+     "appliesTo": "Whole act (NRS 603A.400 to 603A.550).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aa641f06ef0d02da6ffc7930c17abb07ece78b4f9aa9daadc08d2f53634d561a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.beneschlaw.com/insight/reminder-nevada-joins-washington-with-a-consumer-health-data-consent-law-now-in-effect/",
+     "host": "beneschlaw.com",
+     "usedFor": "Located SB 370 consumer health data law"
+    }
+   ],
+   "note": "SB 370 (NRS 603A.400 to 603A.550) applies to any regulated entity. It requires consent to collect or share and a signed written authorization to sell. In force since 31 March 2024.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NV",
+    "note": "Quotes match NRS 603A.500 and 603A.535. Separate consent to share is in 603A.500(2). Ch. 525 (SB 370) sec. 36 sets 31 March 2024. Regulated entity in 603A.465 is general in scope.",
+    "resolution": [
+     {
+      "rows": [
+       "Q139",
+       "Q140"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "Records needed to support a claim or appeal under the Social Security Act or a federal or state financial needs-based benefit program, for the patient or an authorized representative, with documentation of the claim (NRS 629.061(5)). First copy free; a second copy for the same claim may cost up to 60 cents per page."
+    ],
+    "feeRules": [
+     "NRS 629.061(4): copy for actual postage and copying cost, \"not to exceed 60 cents per page for photocopies\"; \"No administrative fee or additional service fee of any kind may be charged for furnishing such a copy.\"",
+     "NRS 629.062(2): electronic copy fee \"must not exceed $40 or the amount per page prescribed by NRS 629.061, whichever is less.\"",
+     "NRS 629.062(3)-(4): a $5 minimum fee, and $5, $20 and $25 fees for no-records confirmation, custodian certificate, film sheets and radiologic images (not for state or local government custodians)."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Health care records: inspection; copies and related charges",
+     "citation": "NRS 629.061(5)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-629.html#NRS629Sec061",
+     "linkedFrom": null,
+     "effectiveDate": "2018-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "or under any federal or state financial needs-based benefit program, without charge, to a patient, or a representative with written authorization from the patient, who requests it, if the request is accompanied by documentation of the claim or appeal.",
+     "appliesTo": "Each custodian of health care records. The free copy is due within 30 days after receipt of the request.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "58c1d3ef023f823b4b154317d179a513101f025fa4d66c61c650e7f8ef3c68da"
+    },
+    {
+     "title": "Health care records: copy fee cap",
+     "citation": "NRS 629.061(4)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-629.html#NRS629Sec061",
+     "linkedFrom": null,
+     "effectiveDate": "2018-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the costs of making the copy, not to exceed 60 cents per page for photocopies and a reasonable cost for copies of X-ray photographs and other health care records produced by similar processes.",
+     "appliesTo": "Each custodian of health care records. Records must be available for inspection within 10 working days (in state); no deadline is set for copies.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "58c1d3ef023f823b4b154317d179a513101f025fa4d66c61c650e7f8ef3c68da"
+    },
+    {
+     "title": "Furnishing of records electronically: request; method; fees",
+     "citation": "NRS 629.062 (2023 Nev. Stat. ch. 386, SB 283)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-629.html#NRS629Sec062",
+     "linkedFrom": null,
+     "effectiveDate": "2023-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "any fee to furnish those records electronically pursuant to subsection 1 must not exceed $40 or the amount per page prescribed by NRS 629.061, whichever is less.",
+     "appliesTo": "Custodians of health care records, including HIPAA covered entities and business associates. SB 283 sets no effective date, so NRS 218D.330 default of October 1 applies.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "58c1d3ef023f823b4b154317d179a513101f025fa4d66c61c650e7f8ef3c68da"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/nevada/chapter-629/statute-629-061/",
+     "host": "law.justia.com",
+     "usedFor": "Located NRS 629.061"
+    }
+   ],
+   "note": "Free copy for Social Security and needs-based benefit claims goes beyond HIPAA and Part 171. No copy deadline under 30 days; the 10 working day rule covers inspection only. Fee caps are recorded as facts.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NV",
+    "note": "beyondFederalFloor yes: a free copy for a benefits claim goes past HIPAA and Part 171. No copy deadline under 30 days. Current 629.061 text from AB 474 (2017), effective 1 Jan 2018. SB 283 sec. 8 sets 1 Oct 2023.",
+    "resolution": [
+     {
+      "rows": [
+       "Q141"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_in",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "Patient not required to participate in health information exchange; consent before retrieval",
+     "citation": "NRS 439.591(1) (as amended by 2025 Nev. Stat. ch. 514, SB 494, sec. 160)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-439.html#NRS439Sec591",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "health care records may be retrieved from a health information exchange, the patient must be fully informed and affirmatively consent, in the manner prescribed by the Director of the Authority.",
+     "appliesTo": "Any health information exchange in Nevada, except as provided in NRS 439.597(2).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ab2916815e15a73a70aa068f5ab090a093da4152d48dfde53b55ca5724a16d1d"
+    },
+    {
+     "title": "Electronic transmission of health information; opt out of electronic disclosure",
+     "citation": "NRS 439.597(2) (as amended by 2011 Nev. Stat. ch. 313, SB 43)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-439.html#NRS439Sec597",
+     "linkedFrom": null,
+     "effectiveDate": "2011-06-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall allow any person to opt out of having his or her individually identifiable health information disclosed electronically to other covered entities, except:",
+     "appliesTo": "HIPAA covered entities. Medicaid and CHIP recipients may not opt out.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ab2916815e15a73a70aa068f5ab090a093da4152d48dfde53b55ca5724a16d1d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Statute requires affirmative consent before records are retrieved from an HIE. No state-designated HIE name confirmed on a state page; NRS 439.587 lets the Director establish or contract with HIEs. Routine data already needs consent.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NV",
+    "note": "Basis is statute. SB 494 sec. 160 amends 439.591, effective 1 July 2025. SB 43 (2011) took effect on approval, 13 June 2011. Medicaid and CHIP exception under 439.597(2) noted.",
+    "resolution": [
+     {
+      "rows": [
+       "Q142"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "State agency not to cooperate in investigation or proceeding initiated in or by another state relating to reproductive health care services",
+      "citation": "NRS 232.0088 (2023 Nev. Stat. ch. 82, SB 131)",
+      "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-232.html#NRS232Sec0088",
+      "linkedFrom": null,
+      "effectiveDate": "2023-05-30",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Except as required by the order of a court of competent jurisdiction, a state agency shall not provide any information or expend or use time, money, facilities, property, equipment, personnel or other resources in furtherance of any investigation or proceeding initiated in or by another state",
+      "appliesTo": "Executive Department state agencies. Applies to services legal in Nevada.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0571b3a05b49cf9b286d7793bdfbcfb8ee2ce7a8a23f26f1fed8537d3d9102ec"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://legiscan.com/NV/bill/SB131/2023",
+      "host": "legiscan.com",
+      "usedFor": "Located SB 131 (2023)"
+     }
+    ],
+    "note": "NRS 232.0088 limits state agency disclosure of information to out-of-state proceedings about reproductive health care legal in Nevada. SB 131 took effect on approval, 30 May 2023.",
+    "crossCheck": {
+     "verdict": "set_aside",
+     "session": "main_crosscheck_NV",
+     "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+     "resolution": [
+      {
+       "rows": [
+        "P15"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Clinical records: contents; confidentiality",
+      "citation": "NRS 433A.360 (as amended by 2021 Nev. Stat. ch. 481, SB 70)",
+      "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-433A.html#NRS433ASec360",
+      "linkedFrom": null,
+      "effectiveDate": "2021-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The clinical record is not a public record and no part of it may be released, except as otherwise provided in subsection 2 or except:",
+      "appliesTo": "Division facilities, private institutions, facilities offering mental health services and professionals providing assisted outpatient treatment.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "89bc11d813d50f6d99ff709c3c22e91f709929a0d1c06ed403ab5ca6eca0fb13"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "NRS 433A.360 limits release of mental health clinical records to listed cases, including written authorization by the consumer and court order.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NV",
+     "note": "Last amendment is 2021 Stats. p. 3093, SB 70 (ch. 481) sec. 46. Sec. 76 sets 1 October 2021."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Communicable disease information: confidentiality; permissible disclosure",
+      "citation": "NRS 441A.220 (as amended by 2025 Nev. Stat. ch. 514, SB 494, sec. 205)",
+      "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-441A.html#NRS441ASec220",
+      "linkedFrom": null,
+      "effectiveDate": "2025-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "is confidential medical information and must not be disclosed to any person under any circumstances, including pursuant to any subpoena, search warrant or discovery proceeding, except:",
+      "appliesTo": "Personal information about a person who has a communicable disease. Subsection 9 names persons diagnosed with the human immunodeficiency virus.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "f08cfbc3ad70b1cdbc275c1946430b232c3b052ecb85369b02982be95c16c8f1"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule covers all communicable diseases, and an exception in subsection 9 names HIV. Disclosure is limited to listed cases, including written consent.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NV",
+     "note": "Rule covers communicable disease information; subsection 9 names HIV. SB 494 (2025) sec. 205 amends it; sec. 372 sets 1 July 2025."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of identity or genetic information of person without consent unlawful; exceptions",
+      "citation": "NRS 629.171 (as amended by 2023 Nev. Stat. ch. 386, SB 283)",
+      "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-629.html#NRS629Sec171",
+      "linkedFrom": null,
+      "effectiveDate": "2023-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "It is unlawful to disclose or to compel a person to disclose the identity of a person who was the subject of a genetic test or to disclose genetic information of that person in a manner that allows identification of the person, without first obtaining the informed consent",
+      "appliesTo": "Any person. SB 283 sets no effective date, so NRS 218D.330 default of October 1 applies.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "58c1d3ef023f823b4b154317d179a513101f025fa4d66c61c650e7f8ef3c68da"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "NRS 629.171 requires informed consent before identifying genetic information is disclosed, with listed exceptions.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NV",
+     "note": "Date 1 Oct 2023 is right. The appliesTo text says SB 283 sets no date, but SB 283 sec. 8(2) sets 1 Oct 2023 for sec. 1.5."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None. NRS 629.201 allows actual damages, including costs and attorney's fees."
+   },
+   "provisions": [
+    {
+     "title": "Right to bring civil action for disclosure of genetic information",
+     "citation": "NRS 629.201 (1997 Nev. Stat. ch. 412, AB 549)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-629.html#NRS629Sec201",
+     "linkedFrom": null,
+     "effectiveDate": "1997-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person who suffers an injury as a result of the disclosure of his or her genetic information by another person in violation of NRS 629.171 may bring a civil action for the recovery of his or her actual damages",
+     "appliesTo": "Disclosures in violation of NRS 629.171.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "58c1d3ef023f823b4b154317d179a513101f025fa4d66c61c650e7f8ef3c68da"
+    },
+    {
+     "title": "Consumer health data: enforcement; no private right of action",
+     "citation": "NRS 603A.550(2)(a)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-603A.html#NRS603ASec550",
+     "linkedFrom": null,
+     "effectiveDate": "2024-03-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(a) Do not create a private right of action; and",
+     "appliesTo": "Consumer health data law (SB 370).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b158c2235ea98fa63af2f92924a9298e68de0fc70dbfcdbe45430d4d75b48b06"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "A private suit exists only for disclosure of genetic information. The consumer health data law creates no private right of action. The breach law lets a data collector, not the person, sue the wrongdoer.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NV",
+    "note": "1997 act took effect 12:01 a.m. 1 Oct 1997. NRS 439.590(3) damages for unauthorized HIE access are also narrow. Level stays 1.",
+    "resolution": [
+     {
+      "rows": [
+       "Q143",
+       "Q144"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "most expedient time possible and without unreasonable delay",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "\"Personal information\" defined",
+     "citation": "NRS 603A.040(1)(d) (as amended by 2015 Nev. Stat. ch. 55, AB 179)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-603A.html#NRS603ASec040",
+     "linkedFrom": null,
+     "effectiveDate": "2015-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A medical identification number or a health insurance identification number.",
+     "appliesTo": "Combined with a person's first name or first initial and last name, when not encrypted.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b158c2235ea98fa63af2f92924a9298e68de0fc70dbfcdbe45430d4d75b48b06"
+    },
+    {
+     "title": "Disclosure of breach of security of system data",
+     "citation": "NRS 603A.220 (as amended by 2023 Nev. Stat. ch. 527, SB 355, sec. 17)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-603A.html#NRS603ASec220",
+     "linkedFrom": null,
+     "effectiveDate": "2023-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The disclosure must be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement,",
+     "appliesTo": "Data collectors that own or license computerized personal information; not persons licensed under chapter 675 of NRS. Notice to consumer reporting agencies when over 1,000 persons.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b158c2235ea98fa63af2f92924a9298e68de0fc70dbfcdbe45430d4d75b48b06"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Health insurance identification number is in the definition. Medical information is not; only a medical identification number is. No attorney general notice. Deeming clauses cover GLBA and own policies, not HIPAA.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NV",
+    "note": "AB 179 (2015 ch. 55) took effect 1 July 2015. SB 355 (2023 ch. 527) sec. 17 took effect 1 Oct 2023. No AG notice. Deeming covers GLBA and own policies, not HIPAA."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "NRS 629.610(1): \"a provider of mental and behavioral health care shall not use an artificial intelligence system in connection with providing professional mental and behavioral health care directly to a patient.\"",
+     "NRS 433.567(2): \"An artificial intelligence provider shall not make available for use by a person in this State an artificial intelligence system that is specifically programmed to provide a service or experience to a user that would constitute the practice of professional mental or behavioral health care if provided by a natural person.\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Certain uses of artificial intelligence systems prohibited; exceptions for administrative support tasks",
+     "citation": "NRS 629.610(4) (2025 Nev. Stat., AB 406, sec. 8)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-629.html#NRS629Sec610",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A provider of mental and behavioral health care shall independently review the accuracy of any report, data or other information compiled, summarized, analyzed or generated by an artificial intelligence system for a purpose described in paragraph (c) or (e) of subsection 2.",
+     "appliesTo": "Licensed or certified providers of mental and behavioral health care (psychiatrists, psychologists, clinical social workers, psychiatric nurses, therapists, counselors).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "58c1d3ef023f823b4b154317d179a513101f025fa4d66c61c650e7f8ef3c68da"
+    },
+    {
+     "title": "Prohibited activity of artificial intelligence provider",
+     "citation": "NRS 433.567 (2025 Nev. Stat., AB 406, sec. 7)",
+     "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-433.html#NRS433Sec567",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An artificial intelligence provider shall not make available for use by a person in this State an artificial intelligence system that is specifically programmed to provide a service or experience to a user that would constitute the practice of professional mental or behavioral health care",
+     "appliesTo": "Artificial intelligence providers offering systems to persons in Nevada.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "cfb3bf2b594db9a0d5ec14e20a4c4719b668b65c4022f32e5a8157cb88b2c8c0"
+    },
+    {
+     "title": "AB 406 effective date",
+     "citation": "AB 406 (2025), sec. 10",
+     "officialUrl": "https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB406_EN.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "On July 1, 2025, for all other purposes.",
+     "appliesTo": "Sections 1 to 9 of AB 406.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aa0733fa4dce8932ffd861170c2863d72e2cb23ddc05affe67312a1f0249e0d4"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.wsgr.com/en/insights/nevada-passes-law-limiting-ai-use-for-mental-and-behavioral-healthcare.html",
+     "host": "wsgr.com",
+     "usedFor": "Located AB 406 (2025)"
+    },
+    {
+     "url": "https://archive.leg.state.nv.us/Session/83rd2025/Bills/SB/SB128.pdf",
+     "host": "archive.leg.state.nv.us",
+     "usedFor": "SB 128 (2025) on AI in prior authorization; reported vetoed, not law"
+    }
+   ],
+   "note": "Clinician review counted from NRS 629.610(4): providers must review AI-generated billing records and session notes. No disclosure or human recourse rule found. Bans on AI therapy are recorded as prohibitions.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NV",
+    "note": "Review duty covers billing and session-note outputs only; counted as clinician review on its words. No AI text in NRS 683A, 687B or 695G, so SB 128 is not law."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

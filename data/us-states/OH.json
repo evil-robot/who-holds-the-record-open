@@ -1,0 +1,444 @@
+{
+ "usps": "OH",
+ "fips": "39",
+ "name": "Ohio",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://codes.ohio.gov/ohio-revised-code/search?start=1&pageSize=25&sort=BestMatch&keywords=consumer+health+data",
+    "terms": [
+     "consumer health data",
+     "sensitive data consent",
+     "data broker"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.ohioattorneygeneral.gov/Business/Services-for-Business/Business-Guide/Personal-Information-for-Consumers"
+    ],
+    "leadsChecked": [
+     "https://www.billtrack50.com/billdetail/1383634",
+     "https://www.legislature.ohio.gov/legislation/136/hb801"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.billtrack50.com/billdetail/1383634",
+     "host": "www.billtrack50.com",
+     "usedFor": "Prior Ohio Personal Privacy Act bill (HB 376, 134th GA), not enacted"
+    },
+    {
+     "url": "https://www.legislature.ohio.gov/legislation/136/hb801",
+     "host": "www.legislature.ohio.gov",
+     "usedFor": "HB 801 (136th GA), a bill on state government data, introduced only"
+    }
+   ],
+   "note": "The Revised Code search found no comprehensive privacy law or consumer health data law. The AG business guide lists only card, Social Security number and breach laws.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OH",
+    "note": "My Revised Code searches for consumer health data found no consumer privacy or health data consent law. HB 801 (136th GA) is introduced only and covers state agencies. The AG guide lists only card, SSN and breach laws."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "One free copy to a patient, personal representative or authorized person when the record supports a Social Security Title II or Title XVI claim and the request includes proof the claim was filed (R.C. 3701.741(C)(1)(e))."
+    ],
+    "feeRules": [
+     "Patient or representative: reasonable, cost-based amounts allowed under federal law; per-page charges capped at the (B)(2)(b) and (c) rates (R.C. 3701.741(B)(1)(a)).",
+     "Patient or representative, digital or electronically transmitted records: total cost shall not exceed fifty dollars (R.C. 3701.741(B)(1)(b)).",
+     "Other requesters: initial fee $16.84 plus $1.11 per page for pages 1 to 10, $0.57 for pages 11 to 50, $0.23 from page 51, $1.87 per page for x-ray, MRI or CAT data, plus postage, adjusted under R.C. 3701.742 (R.C. 3701.741(B)(2)).",
+     "Free copy without charge to the Bureau of Workers' Compensation, Industrial Commission, Department of Medicaid or county JFS, and the attorney general (R.C. 3701.741(C)(1)(a) to (d))."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Fees for providing copies of medical records",
+     "citation": "Ohio Rev. Code 3701.741(C)(1)(e)",
+     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3701.741",
+     "linkedFrom": null,
+     "effectiveDate": "2023-10-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A patient, patient's personal representative, or authorized person if the medical record is necessary to support a claim under Title II or Title XVI of the \"Social Security Act,\"",
+     "appliesTo": "\"Each health care provider and medical records company shall provide copies of medical records in accordance with this section.\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aa089b116232b16bda7e0f088a25a10dfef05268706cdb411c5518a1bbf76861"
+    },
+    {
+     "title": "Fees for providing copies of medical records (electronic access cap)",
+     "citation": "Ohio Rev. Code 3701.741(B)(1)(b)",
+     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3701.741",
+     "linkedFrom": null,
+     "effectiveDate": "2023-10-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the request is for access to digital records or electronically transmitted records, the total cost for that access or for the electronic transmission, and all related services, shall not exceed fifty dollars.",
+     "appliesTo": "Requests by the patient, the patient's personal representative, or a person holding a valid power of attorney.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aa089b116232b16bda7e0f088a25a10dfef05268706cdb411c5518a1bbf76861"
+    },
+    {
+     "title": "Patient access to medical records",
+     "citation": "Ohio Rev. Code 3701.74(B)",
+     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3701.74",
+     "linkedFrom": null,
+     "effectiveDate": "2025-04-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Within a reasonable time after receiving a request that meets the requirements of this division and includes sufficient information to identify the record requested, a health care provider that has the patient's medical records shall permit the patient to examine the record during regular business hours without charge",
+     "appliesTo": "\"Health care provider\" means a hospital, ambulatory care facility, long-term care facility, pharmacy, emergency facility, or health care practitioner.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8d7de86ed12ebf69676db3decd526d538ad34b531b1ef94b484a2a5ee51416ff"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Free copy for a Social Security disability claim goes beyond the federal floor. The access statute sets no day count, only a reasonable time. The $50 electronic cap is recorded as a fee fact.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OH",
+    "note": "beyondFederalFloor yes: free copy for a Social Security Title II or XVI claim, 3701.741(C)(1)(e), effective 2023-10-03. 3701.74(B) says only reasonable time, so no deadline. The $50 electronic cap does not count."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "Conditions for disclosure to health information exchange",
+     "citation": "Ohio Rev. Code 3798.07(A)(3)",
+     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3798.07",
+     "linkedFrom": null,
+     "effectiveDate": "2019-10-17",
+     "firstEnacted": "2012-09-10",
+     "statusOfProvision": "in_force",
+     "quote": "The covered entity shall restrict disclosure in a manner that is consistent with a written request from the individual or the individual's personal representative to restrict disclosure of all of the individual's protected health information.",
+     "appliesTo": "A covered entity when it discloses protected health information to a health information exchange.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "11632aa81e54a568b507649d972578090074a499880b1ef6df867564eba5d7cd"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://clinisync.org/patient-choice/",
+     "host": "clinisync.org",
+     "usedFor": "CliniSync (Ohio Health Information Partnership) opt-out process; designation not confirmed on a state page"
+    }
+   ],
+   "note": "Exchange proceeds unless the person submits a written request to restrict all records. Minor-consent and federal limits apply under 3798.07(A)(1) and (2); no added state consent rule for adult sensitive categories was found.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_OH",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P17"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion reports",
+      "citation": "Ohio Rev. Code 3701.79(C)",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3701.79",
+      "linkedFrom": null,
+      "effectiveDate": "2025-09-30",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The attending physician shall complete an individual abortion report for the abortion, by surgical procedure or by abortion-inducing drugs, of each zygote, blastocyte, embryo, or fetus the physician performs. The report shall be confidential and shall not contain the woman's name.",
+      "appliesTo": "Attending physicians reporting each abortion to the Department of Health.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "2ea5ce171ee564f2cd9f7a85a8117b6aceb3be3a683333ccbf0a42c92fc4b06b"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule covers abortion reports filed with the Department of Health. Division (H) makes postabortion complication reports confidential. No rule on legal process or out-of-state requests for reproductive records was found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OH",
+     "note": "R.C. 3701.79(C), effective 2025-09-30 (HB 96, 136th GA). Division (H) also makes postabortion complication reports confidential."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of mental health records",
+      "citation": "Ohio Rev. Code 5122.31(A)",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-5122.31",
+      "linkedFrom": null,
+      "effectiveDate": "2025-09-30",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "directly or indirectly identifying a patient or former patient or person whose hospitalization or commitment has been sought under this chapter, shall be kept confidential and shall not be disclosed by any person except",
+      "appliesTo": "Certificates, applications, records and reports made for the purpose of Chapter 5122 and R.C. 2945.38 to 2945.402.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "dce69a42513644313990187c35ea81ee78b537cc4d7cc7b510fc34b2d4834e27"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is allowed on the person's consent, by court order, for payment, and in other listed cases.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OH",
+     "note": "R.C. 5122.31(A), effective 2025-09-30 (HB 96, 136th GA). Disclosure is also allowed by court order, for payment and in other listed cases."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of HIV test results or diagnosis",
+      "citation": "Ohio Rev. Code 3701.243(A)",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3701.243",
+      "linkedFrom": null,
+      "effectiveDate": "2025-03-20",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "no person or agency of state or local government that acquires the information while providing any health care service or while in the employ of a health care facility or health care provider shall disclose or compel another to disclose any of the following",
+      "appliesTo": "Persons and government agencies that acquire the information while providing health care or working for a health care facility or provider.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "19275c402d6f0108ad903ceb35ce5dc5ca048266248f1c9182b74884cbf08380"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Covers identity of persons tested, identifying test results, and AIDS diagnoses. Disclosure is allowed by written release and to listed recipients in 3701.243(B).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OH",
+     "note": "R.C. 3701.243(A), effective 2025-03-20 (SB 196, 135th GA). Disclosure by written release under (B)(1)(b)."
+    }
+   },
+   "genetic": {
+    "status": "no_law_found",
+    "value": "none_in_force",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic screening or testing information - insurers",
+      "citation": "Ohio Rev. Code 3901.491(B)(2)",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3901.491",
+      "linkedFrom": null,
+      "effectiveDate": "2023-04-06",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Inquire, directly or indirectly, into the results of genetic screening or testing or use such information, in whole or in part, to cancel, refuse to issue or renew, limit benefits under, or set premiums for a sickness and accident insurance policy or public employee benefit plan.",
+      "appliesTo": "\"No insurer or public employee benefit plan shall do either of the following\"",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "421657e284c6460ee549ff968f2591929f7f7b96d19075fb25c43faab2a44892"
+     }
+    ],
+    "searchLog": {
+     "codeSearchUrl": "https://codes.ohio.gov/ohio-revised-code/search?start=1&pageSize=25&sort=BestMatch&keywords=genetic+information",
+     "terms": [
+      "genetic test",
+      "genetic information"
+     ],
+     "regulatorPagesChecked": [
+      "https://insurance.ohio.gov/Legal/Bulletins/Pages/BulletinIndex.aspx"
+     ],
+     "leadsChecked": [
+      "https://www.billtrack50.com/billdetail/1383634"
+     ],
+     "searchedAt": "2026-10-03"
+    },
+    "leads": [],
+    "note": "Sections 3901.491 and 3901.501 limit insurer and self-insurer inquiry into and use of genetic test results in underwriting. No section on confidentiality or disclosure of genetic records by holders was found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OH",
+     "note": "Code searches for genetic test and genetic information confidential found insurer underwriting limits, paternity testing and genetic counselor licensing sections (4778.14, 4778.18). None governs confidentiality or disclosure of genetic records.",
+     "resolution": [
+      {
+       "rows": [
+        "Q219"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None set. Compensatory damages, equitable relief and reasonable attorney's fees for a knowing HIV disclosure violation (R.C. 3701.244(B)); one-year limit."
+   },
+   "provisions": [
+    {
+     "title": "Civil action for HIV disclosure violations",
+     "citation": "Ohio Rev. Code 3701.244(B)",
+     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3701.244",
+     "linkedFrom": null,
+     "effectiveDate": "1990-08-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "may be found liable in a civil action; the action may be brought by any individual injured by the violation. Except as otherwise provided in division (C) or (D) of this section, the court may award compensatory damages and any equitable relief",
+     "appliesTo": "A person or government agency that knowingly violates 3701.242(A), 3701.243(A) or 3701.248(E).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0e2bc8f21230e35f719238b50b524ee41d3352ebc230de817b9e7d9bddcce9f1"
+    },
+    {
+     "title": "Patient access to medical records - civil action",
+     "citation": "Ohio Rev. Code 3701.74(C)",
+     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-3701.74",
+     "linkedFrom": null,
+     "effectiveDate": "2025-04-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If a health care provider fails to furnish a medical record as required by division (B) of this section, the patient, personal representative, or authorized person who requested the record may bring a civil action to enforce the patient's right of access to the record.",
+     "appliesTo": "Health care providers as defined in 3701.74(A)(5).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8d7de86ed12ebf69676db3decd526d538ad34b531b1ef94b484a2a5ee51416ff"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The disclosure right of action covers HIV records only. 3701.74(C) enforces access, not unlawful disclosure. The breach law, 1349.19(I), gives enforcement to the attorney general only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OH",
+    "note": "R.C. 3701.244(B), effective 1990-08-09, covers HIV records only. 3701.74(C) enforces access only. 1349.19(I) gives breach enforcement to the attorney general."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "Most expedient time possible, not later than 45 days after discovery",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Security breach notification - private disclosure",
+     "citation": "Ohio Rev. Code 1349.19(A)(7)(a)",
+     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-1349.19",
+     "linkedFrom": null,
+     "effectiveDate": "2007-03-30",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(i) Social security number; (ii) Driver's license number or state identification card number; (iii) Account number or credit or debit card number, in combination with and linked to any required security code, access code, or password that would permit access to an individual's financial account.",
+     "appliesTo": "Any person that owns or licenses computerized data that includes personal information and conducts business in Ohio. \"This section does not apply to any person or entity that is a covered entity as defined in 45 C.F.R. 160.103, as amended.\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "15075b7f78078f35afc93bb3b611e29d1efe5c09847151848f20d1ecfd3a9ce0"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Personal information covers Social Security, license and financial account numbers only. Notice goes to consumer reporting agencies when over 1,000 residents are affected, not to the AG. HIPAA covered entities are excluded entirely.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OH",
+    "note": "R.C. 1349.19, effective 2007-03-30. No medical or health insurance data. 45-day deadline. No regulator notice. (F)(2) excludes HIPAA covered entities."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://codes.ohio.gov/ohio-revised-code/search?start=1&pageSize=25&sort=BestMatch&keywords=artificial+intelligence",
+    "terms": [
+     "artificial intelligence",
+     "algorithm health plan issuer"
+    ],
+    "regulatorPagesChecked": [
+     "https://insurance.ohio.gov/Legal/Bulletins/Pages/BulletinIndex.aspx"
+    ],
+    "leadsChecked": [
+     "https://www.beckerspayer.com/policy-updates/7-ai-health-insurance-state-laws-passed-in-2026/",
+     "https://legiscan.com/OH/bill/HB525/2025",
+     "https://www.legislature.ohio.gov/legislation/136/hb525/status",
+     "https://www.legislature.ohio.gov/legislation/136/sb164/status"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://legiscan.com/OH/bill/HB525/2025",
+     "host": "legiscan.com",
+     "usedFor": "HB 525 (AI in therapy services), status page shows introduced and referred only"
+    },
+    {
+     "url": "https://www.beckerspayer.com/policy-updates/7-ai-health-insurance-state-laws-passed-in-2026/",
+     "host": "www.beckerspayer.com",
+     "usedFor": "SB 164 (AI use by health insurers), status page shows introduced and referred only"
+    }
+   ],
+   "note": "SB 315 enacts R.C. 5162.90 and 5164.11, effective 2026-10-06, requiring human review of Medicaid automated tools. They cover provider agreements, overpayments and visit verification, not a person's care or coverage.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OH",
+    "note": "SB 315 sections 5162.90 and 5164.11 take effect 2026-10-06. They cover Medicaid provider, visit verification and claims review, not a person's care or coverage. SB 164 and HB 525 are in committee."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

@@ -1,0 +1,628 @@
+{
+ "usps": "SD",
+ "fips": "46",
+ "name": "South Dakota",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Genetic material protection--Requirements",
+     "citation": "SDCL 37-24-60 (SL 2026, ch 164, § 2)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/37-24-60.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2026-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Obtain the consumer's express consent to collect, disclose, or use the consumer's genetic data",
+     "appliesTo": "\"Direct-to-consumer genetic testing company,\" an entity that:(a) Offers genetic testing products or services directly to consumers (SDCL 37-24-59); does not apply to \"Protected health information collected by a covered entity or business associate\" (SDCL 37-24-64)",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "60d223be98cffe45bd35b7a9632452e40a581e389e70ee1d75da0525fde1c3b0"
+    },
+    {
+     "title": "Genetic material protection--Exceptions",
+     "citation": "SDCL 37-24-64 (SL 2026, ch 164, § 6)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/37-24-64.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2026-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Protected health information collected by a covered entity or business associate, as those terms are defined in 45 C.F.R. § 160.103 (November 25, 2025);",
+     "appliesTo": "Exclusions from SDCL 37-24-60 to 37-24-63, including HIPAA PHI, clinical samples, higher education, forensic labs, research and licensed hospitals.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d2f4ed483f29df73fa73c33af6c35dacbaa49803ed50187c11d99e5e14399db5"
+    },
+    {
+     "title": "Sharing of genetic information prohibited--Health carrier, life insurer, long-term care insurer",
+     "citation": "SDCL 58-1-25.1 (SL 2021, ch 209, § 3)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/58-1-25.1.html",
+     "linkedFrom": null,
+     "effectiveDate": "2022-01-01",
+     "firstEnacted": "2022-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any company providing genetic testing directly to a consumer is prohibited from sharing any genetic test, genetic information, or other personally identifiable information of a consumer with any health carrier, life insurer, or long-term care insurer without written consent from the consumer.",
+     "appliesTo": "Any company providing genetic testing directly to a consumer; limited to sharing with health carriers, life insurers and long-term care insurers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6bf9e30feb4066a96de08e71d2e9630bc26f9fbde828e508351d09f82b1ea089"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/south-dakota-enacts-genetic-data-privacy-act",
+     "host": "www.hunton.com",
+     "usedFor": "Found SB 49 (2026) genetic data privacy act"
+    },
+    {
+     "url": "https://www.insideprivacy.com/health-privacy/utah-and-south-dakota-enact-genetic-privacy-laws-as-other-states-advance-bills/",
+     "host": "www.insideprivacy.com",
+     "usedFor": "Found SB 49 (2026)"
+    },
+    {
+     "url": "https://law.justia.com/codes/south-dakota/2019/title-34/chapter-14/section-34-14-22/",
+     "host": "law.justia.com",
+     "usedFor": "Found SDCL 58-1-24 to 58-1-25.1 genetic provisions"
+    }
+   ],
+   "note": "No comprehensive consumer privacy law found. Level rests on a one-class law: direct-to-consumer genetic testing companies need express consent to collect, disclose or use genetic data. Effective July 1, 2026 under SDCL 2-14-16.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SD",
+    "note": "All three quotes verbatim. Enrolled SB 49 (2026) has no effective date clause, so July 1, 2026 applies. No comprehensive consumer privacy law found. Level 2 rests on a one-class consent law for direct-to-consumer genetic testing companies."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [
+     "Paper copy: \"the fee may not exceed ten dollars for the first ten pages and thirty-three cents for each additional page\" (SDCL 36-2-16.4)",
+     "Electronic copy: \"the fee may not exceed twenty-five cents per page\" (SDCL 36-2-16.4)",
+     "Imaging: printed copy \"may not exceed ten dollars\"; on disc or other media \"may not exceed fifteen dollars\" (SDCL 36-2-16.4)",
+     "Postage: \"may also impose a charge to cover the cost of postage or shipping, together with any applicable tax\" (SDCL 36-2-16.4)",
+     "Search fee for designee or third-party requests: \"The search fee may not exceed eighteen dollars.\" (SDCL 36-2-16.5)",
+     "Certification: \"The certification fee may not exceed ten dollars.\" (SDCL 36-2-16.6)",
+     "Portal: \"A health care provider may not charge a patient a fee for access to the patient’s electronic health information through a patient portal.\" (SDCL 36-2-16.3)"
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Medical record--Provision upon request",
+     "citation": "SDCL 36-2-16.2 (SL 2023, ch 134, § 2)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/36-2-16.2.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-07-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Upon receiving a written request or an authorization for release of a medical record, signed by a patient, a health care provider or medical records company shall provide a copy of the patient’s medical record, if available, to the patient",
+     "appliesTo": "\"Health care provider,\" any licensed health care facility or any person licensed, certified, or otherwise authorized or permitted by law to provide health care (SDCL 36-2-16.1); also medical records companies.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c18ea8f3d7c6a2f2d370b8566b9ffbfbf3d19498dd5f26885fd16f5c8311434b"
+    },
+    {
+     "title": "Medical record--Copy fees--Other costs",
+     "citation": "SDCL 36-2-16.4 (SL 2023, ch 134, § 4)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/36-2-16.4.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-07-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "For a paper copy of a medical record not specified below, the fee may not exceed ten dollars for the first ten pages and thirty-three cents for each additional page;",
+     "appliesTo": "A health care provider or a medical records company.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "425dbc39164880a89af47b92273086c6ec6dc0ad1f4278c1a64aded97759147c"
+    },
+    {
+     "title": "Medical record--Patient portal access fee prohibited",
+     "citation": "SDCL 36-2-16.3 (SL 2023, ch 134, § 3)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/36-2-16.3.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-07-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "A health care provider may not charge a patient a fee for access to the patient’s electronic health information through a patient portal.",
+     "appliesTo": "A health care provider.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b912836c2f701fd11b2ce8c6e1c050daf1aa6afc298c1d04280d08158bf8a2da"
+    },
+    {
+     "title": "Medical record--Search fee--Designees or third parties",
+     "citation": "SDCL 36-2-16.5 (SL 2023, ch 134, § 5)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/36-2-16.5.html",
+     "linkedFrom": null,
+     "effectiveDate": "2023-07-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "The search fee may not exceed eighteen dollars.",
+     "appliesTo": "Copies sent to a patient's designee or to a third party under the patient's authorization.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b26c320ca9ce4da132983e2bcbda95e79bb5d4ccc36b53d747104ec7c20860e8"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/south-dakota/2021/title-36/chapter-02/section-36-2-16/",
+     "host": "law.justia.com",
+     "usedFor": "Found former SDCL 36-2-16, now repealed and replaced by 36-2-16.1 to 36-2-16.8"
+    },
+    {
+     "url": "https://lamblawoffice.com/south-dakota-medical-records-copying-charges-law-statute/",
+     "host": "lamblawoffice.com",
+     "usedFor": "Lead to copy fee statute"
+    }
+   ],
+   "note": "No deadline and no free copy case in SDCL 36-2-16.1 to 36-2-16.8. The only free item is patient portal access, which does not count under Ruling D-1. Per-page caps are recorded as facts only.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_SD",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "Q178"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     },
+     {
+      "rows": [
+       "P19"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "South Dakota Health Link (a South Dakota Department of Health program)",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "South Dakota Health Link patient FAQs, Point of Care Exchange opt-out",
+     "citation": "South Dakota Health Link patient FAQ (HIE policy)",
+     "officialUrl": "https://sdhealthlink.org/healthlink-resources/for-patients/faqs/",
+     "linkedFrom": "https://doh.sd.gov/programs/health-link/",
+     "effectiveDate": "2026-10-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "When your providers join the Point of Care Exchange, a limited set of information from your electronic patient chart will automatically be included. If you prefer not to participate in Point of Care Exchange, you MUST opt out.",
+     "appliesTo": "Patients of providers that join the Point of Care Exchange of South Dakota Health Link.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "abca6faf91db0ccb3d8bb7520ef56b23f0cf82b26fa8888fba8dafa0bb7e86ac"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "No HIE consent statute found. The policy page is undated; effectiveDate is the date it was read as current. A published opt-out form exists. No sensitive-category rule found on the FAQ page.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SD",
+    "note": "Quote verbatim. DOH page presents Health Link as its HIE program and links to sdhealthlink.org. No HIE consent statute found. Page is undated, so effectiveDate is the read date. stricterForSensitive is left null, not false."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Department to ensure anonymity--Confidentiality of communication",
+      "citation": "SDCL 34-23A-44 (SL 1998, ch 209, § 11; SL 2004, ch 234, § 5)",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/34-23A-44.html",
+      "linkedFrom": null,
+      "effectiveDate": "2004-07-01",
+      "firstEnacted": "1998-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "No report made under §§ 34-23A-34 to 34-23A-45, inclusive, may include the name of any female having an abortion.",
+      "appliesTo": "Abortion reports made under SDCL 34-23A-34 to 34-23A-45 and information collected to complete them.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b0805b2601808b859506fe68c7bb1ecec42ceeb75edec32f6e65eb458b2e65b0"
+     },
+     {
+      "title": "Release of confidential information as misdemeanor",
+      "citation": "SDCL 34-23A-59.2 (SL 2012, ch 186, § 9)",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/34-23A-59.2.html",
+      "linkedFrom": null,
+      "effectiveDate": "2012-07-01",
+      "firstEnacted": "2012-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "Any person who knowingly and intentionally releases any information obtained during any consultations resulting from §§ 34-23A-53 to 34-23A-61, inclusive, under circumstances not in accord with the confidentiality provisions required by §§ 34-23A-53 to 34-23A-61, inclusive, is guilty of a Class 2 misdemeanor.",
+      "appliesTo": "Information from pre-abortion consultations under SDCL 34-23A-53 to 34-23A-61.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "f972b3988e6f8b396955198a4cf326cf0f6ff869c52a0f186607271efe5cf1f1"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/south-dakota/title-34/chapter-23a/",
+      "host": "law.justia.com",
+      "usedFor": "Found chapter 34-23A confidentiality sections"
+     }
+    ],
+    "note": "Abortion reports may not name the patient. Information collected for them is privileged under 19-19-503(b), with an exception for proceedings under 22-22-1. Effective dates use the July 1 default in SDCL 2-14-16.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_SD",
+     "note": "Both quotes verbatim with matching source notes. A 2011 federal preliminary injunction on related chapter 34-23A consultation sections was vacated in 2022 (lead: clearinghouse.net). No current order found."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of information acquired in course of providing mental health services",
+      "citation": "SDCL 27A-12-26",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/27A-12-26.html",
+      "linkedFrom": null,
+      "effectiveDate": "1993-07-01",
+      "firstEnacted": "1975-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "Information in the record of a person, and other information acquired in the course of providing mental health services to a person, shall be kept confidential and are not open to public inspection.",
+      "appliesTo": "Centers, the department, mental health programs and inpatient facilities holding mental health records.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "93e282eb4ed2659d5a87d8d5b8b4e0bad544402cf080b086ca7123f676ed09f3"
+     },
+     {
+      "title": "Individual records required--Contents--Confidentiality",
+      "citation": "SDCL 27A-12-25",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/27A-12-25.html",
+      "linkedFrom": null,
+      "effectiveDate": "1991-07-01",
+      "firstEnacted": "1975-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "The material in the record shall be confidential in accordance with the provisions of this title.",
+      "appliesTo": "Each person receiving mental health services or detained under Title 27A.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "374a4b437b2a94dddc269dc4828001e60d27f60e5b22dbf4920e6deb64ad3eda"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.apadivisions.org/division-31/publications/records/south-dakota-record-keeping-laws.pdf",
+      "host": "www.apadivisions.org",
+      "usedFor": "Lead to mental health records statutes"
+     }
+    ],
+    "note": "Disclosure outside the holder requires consent of the holder and the person, or a listed exception in SDCL 27A-12-25 to 27A-12-32. Last amended by SL 1993, ch 213.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_SD",
+     "note": "Both quotes verbatim. Source notes show last amendments SL 1993, ch 213 (27A-12-26) and SL 1991, ch 220 (27A-12-25). July 1 dates follow SDCL 2-14-16."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of reports--Exceptions",
+      "citation": "SDCL 34-22-12.1 (SL 1989, ch 296, § 1; SL 2003, ch 184, § 1)",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/34-22-12.1.html",
+      "linkedFrom": null,
+      "effectiveDate": "2003-07-01",
+      "firstEnacted": "1989-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "To the extent necessary to comply with a proper judicial order requiring release of human immunodeficiency virus test results and related information to a prosecutor for an investigation of a violation of § 22-18-31; and",
+      "appliesTo": "Communicable disease reports to the Department of Health under SDCL 34-22-12, which \"No report may be released, shared with any agency or institution, or made public, upon subpoena, search warrant, discovery proceedings, or otherwise.\"",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "89de67d98f6c40c895e25055c4acb02a2c3ca944c49a3ca294fd76dfe28fe012"
+     },
+     {
+      "title": "Confidentiality of test results",
+      "citation": "SDCL 23A-35B-11 (SL 2012, ch 134, § 4)",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/23A-35B-11.html",
+      "linkedFrom": null,
+      "effectiveDate": "2012-07-01",
+      "firstEnacted": "2012-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "Except as provided in § 23A-35B-12, the results of the test shall remain confidential.",
+      "appliesTo": "Court-ordered HIV tests of persons convicted of prostitution or solicitation (SDCL 23A-35B-8).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "84807c34b3b604fce8ec27f08ff1830c481f6365bfa3d8c590364bf8736c18a2"
+     },
+     {
+      "title": "Confidentiality--Test results unavailable to establish guilt or innocence",
+      "citation": "SDCL 23A-35B-5 (SL 2010, ch 132, § 3)",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/23A-35B-5.html",
+      "linkedFrom": null,
+      "effectiveDate": "2010-07-01",
+      "firstEnacted": "1991-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "All persons involved in carrying out the provisions of this chapter shall act in a manner that will protect the confidentiality of the victim, the source individual, and the defendant or juvenile, including sealing relevant court records.",
+      "appliesTo": "Blood-borne pathogen testing, including HIV, of defendants, juveniles and source individuals under chapter 23A-35B.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e85ffa708bda81e08f1e4f290f9e95d8d7c8fb7e2cb9590371839d18ce7599ea"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://mylrc.sdlegislature.gov/api/Documents/22756.html?Year=2012",
+      "host": "mylrc.sdlegislature.gov",
+      "usedFor": "Located SL 2012, ch 134 on HIV testing, codified at 23A-35B-8 to 23A-35B-13"
+     }
+    ],
+    "note": "HIV test results reported to the Department of Health are confidential and inadmissible, with listed exceptions that name HIV results. Court-ordered HIV test results are confidential under chapter 23A-35B.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_SD",
+     "note": "All three quotes verbatim with matching source notes. 34-22-12.1 makes disease reports confidential and names HIV results in an exception. 23A-35B-11 makes court-ordered HIV test results confidential."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic material protection--Requirements",
+      "citation": "SDCL 37-24-60 (SL 2026, ch 164, § 2)",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/37-24-60.html",
+      "linkedFrom": null,
+      "effectiveDate": "2026-07-01",
+      "firstEnacted": "2026-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "Separate express consent, which must include the name of the person receiving the information, for each transfer or disclosure of the consumer's genetic data or biological sample to any person other than the company's vendors and service providers;",
+      "appliesTo": "Direct-to-consumer genetic testing companies (SDCL 37-24-59), with exclusions in SDCL 37-24-64.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "60d223be98cffe45bd35b7a9632452e40a581e389e70ee1d75da0525fde1c3b0"
+     },
+     {
+      "title": "Informed consent required prior to predictive genetic testing",
+      "citation": "SDCL 34-14-22 (SL 2001, ch 184, § 2)",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/34-14-22.html",
+      "linkedFrom": null,
+      "effectiveDate": "2001-07-01",
+      "firstEnacted": "2001-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "A listing of who will have access to the sample taken from the person tested in order to conduct the predictive genetic test and the information obtained from the predictive genetic test, and the person's right to confidential treatment of the sample and the information.",
+      "appliesTo": "Any person who orders or performs a predictive genetic test.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a522d1e1a4980f72e82cd3bdf6ed3920318c1a7487dfe10a158e09c6435e99b5"
+     },
+     {
+      "title": "Sharing of genetic information prohibited--Health carrier, life insurer, long-term care insurer",
+      "citation": "SDCL 58-1-25.1 (SL 2021, ch 209, § 3)",
+      "officialUrl": "https://sdlegislature.gov/api/Statutes/58-1-25.1.html",
+      "linkedFrom": null,
+      "effectiveDate": "2022-01-01",
+      "firstEnacted": "2022-01-01",
+      "statusOfProvision": "in_force",
+      "quote": "Any company providing genetic testing directly to a consumer is prohibited from sharing any genetic test, genetic information, or other personally identifiable information of a consumer with any health carrier, life insurer, or long-term care insurer without written consent from the consumer.",
+      "appliesTo": "Any company providing genetic testing directly to a consumer.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "6bf9e30feb4066a96de08e71d2e9630bc26f9fbde828e508351d09f82b1ea089"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/south-dakota/2019/title-34/chapter-14/section-34-14-22/",
+      "host": "law.justia.com",
+      "usedFor": "Found SDCL 34-14-22"
+     },
+     {
+      "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/south-dakota-enacts-genetic-data-privacy-act",
+      "host": "www.hunton.com",
+      "usedFor": "Found SB 49 (2026)"
+     }
+    ],
+    "note": "Three provisions govern genetic data disclosure: consent per transfer for consumer genetic testing companies (2026), written consent before sharing with insurers (2022), and consent content rules for predictive tests (2001).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_SD",
+     "note": "All three quotes verbatim. 58-1-25.1 source note reads eff. Jan. 1, 2022. 37-24-60 effective July 1, 2026. 34-14-22 from SL 2001, ch 184."
+    }
+   }
+  },
+  "private_right": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "none found"
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://sdlegislature.gov/Statutes",
+    "terms": [
+     "medical record civil action",
+     "health information damages",
+     "genetic data civil penalty",
+     "breach of system security action",
+     "37-24-31",
+     "confidentiality mental health action"
+    ],
+    "regulatorPagesChecked": [
+     "https://consumer.sd.gov/"
+    ],
+    "leadsChecked": [
+     "http://www.healthinfolaw.org/state-topics/42,63/f_topics",
+     "https://www.hunton.com/privacy-and-cybersecurity-law-blog/south-dakota-enacts-genetic-data-privacy-act"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/south-dakota-enacts-genetic-data-privacy-act",
+     "host": "www.hunton.com",
+     "usedFor": "Checked enforcement of SB 49 (2026)"
+    }
+   ],
+   "note": "Breach law: AG prosecutes failures as deceptive acts and seeks civil penalties (22-40-25). Genetic data law: AG civil penalty only (37-24-63). Neither declares a violation unlawful under 37-24-6, so 37-24-31 suits do not attach.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SD",
+    "note": "Own search of chapters 22-40, 37-24, 34-14, 36-2 and 58-1 found no suit right. 22-40-25 gives the AG, not persons, the deceptive-act route; 37-24-31 needs an act declared unlawful by 37-24-6. A law-firm lead reads this differently."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "not later than sixty days from the discovery or notification of the breach",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Definition of terms in §§ 22-40-19 to 22-40-26",
+     "citation": "SDCL 22-40-19(4)(d) (SL 2018, ch 135, § 1)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/22-40-19.html",
+     "linkedFrom": null,
+     "effectiveDate": "2018-07-01",
+     "firstEnacted": "2018-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Health information as defined in 45 CFR 160.103; or",
+     "appliesTo": "\"Information holder,\" any person or business that conducts business in this state, and that owns or licenses computerized personal or protected information of residents of this state;",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "605561e8acf4f3646060d91d7bca0a856f4b3114ca3fa2894edb3e98f00b4aaf"
+    },
+    {
+     "title": "Notice of breach of system security--Exception",
+     "citation": "SDCL 22-40-20 (SL 2018, ch 135, § 2)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/22-40-20.html",
+     "linkedFrom": null,
+     "effectiveDate": "2018-07-01",
+     "firstEnacted": "2018-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any information holder that experiences a breach of system security under this section shall disclose to the attorney general by mail or electronic mail any breach of system security that exceeds two hundred fifty residents of this state.",
+     "appliesTo": "Information holders; AG notice when a breach exceeds 250 residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "aecd8fb9c4f382ba63414e7e66282a0c454f1ea7f64120777f84895ebe5c62fa"
+    },
+    {
+     "title": "Notice of breach of system security in accordance with federal law",
+     "citation": "SDCL 22-40-26 (SL 2018, ch 135, § 8)",
+     "officialUrl": "https://sdlegislature.gov/api/Statutes/22-40-26.html",
+     "linkedFrom": null,
+     "effectiveDate": "2018-07-01",
+     "firstEnacted": "2018-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "is deemed to be in compliance with this chapter if the information holder notifies affected South Dakota residents in accordance with the provisions of the applicable federal law or regulation.",
+     "appliesTo": "Information holders regulated by federal law, including HIPAA, that maintain federal breach procedures.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b46eaf5823fe359e60329ad73480d067fff53a50f2133728bbf7feab2f602d0f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Health information under 45 CFR 160.103 counts as both medical and health insurance information.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_SD",
+    "note": "Quotes and facts verbatim: 60-day notice, AG told above 250 residents, HIPAA-regulated holders deemed compliant. The rubric asks what the definition includes, not whether insurance is named separately.",
+    "problems": [
+     "Level should be 2. SDCL 22-40-19(4)(d) adopts 45 CFR 160.103 health information, which covers information a health plan creates or receives about payment for health care, so health insurance information is included."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q066"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q2",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://sdlegislature.gov/Statutes",
+    "terms": [
+     "artificial intelligence",
+     "artificial intelligence health carrier",
+     "utilization review artificial intelligence",
+     "chatbot disclosure"
+    ],
+    "regulatorPagesChecked": [
+     "https://dlr.sd.gov/insurance/",
+     "https://sdlegislature.gov/api/Bills/ActionLog/26550"
+    ],
+    "leadsChecked": [
+     "https://bastiongpt.com/post/state-laws-on-healthcare-ai",
+     "https://www.beckerspayer.com/policy-updates/7-ai-health-insurance-state-laws-passed-in-2026/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://bastiongpt.com/post/state-laws-on-healthcare-ai",
+     "host": "bastiongpt.com",
+     "usedFor": "Lead listing 2026 SD AI bills HB 1144, SB 169, SB 170"
+    }
+   ],
+   "note": "2026 SB 169 on health carrier AI determinations was withdrawn at the prime sponsor's request on 2026-02-17, per the legislature's action log. No AI health care statute found in force.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_SD",
+    "note": "Quote is bill status, not law. Own search: no codified AI health statute. 2026 SB 169 and HB 1144 withdrawn; SB 168 deferred to the 41st day. Insurance division page shows no AI rule."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

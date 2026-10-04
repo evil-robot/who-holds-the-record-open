@@ -1,0 +1,584 @@
+{
+ "usps": "WA",
+ "fips": "53",
+ "name": "Washington",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 3,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "My Health My Data Act: collection or sharing of consumer health data",
+     "citation": "RCW 19.373.030",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.373.030",
+     "linkedFrom": null,
+     "effectiveDate": "2024-03-31",
+     "firstEnacted": "2023-07-23",
+     "statusOfProvision": "in_force",
+     "quote": "beginning March 31, 2024, a regulated entity or a small business may not collect any consumer health data except: (i) With consent from the consumer for such collection for a specified purpose",
+     "appliesTo": "\"Regulated entity\" means any legal entity that: (a) Conducts business in Washington, or produces or provides products or services that are targeted to consumers in Washington (RCW 19.373.010). Small businesses covered from June 30, 2024.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "075e45a67bb9776094aed6a197abf35b51300c6551a2c8a63603ae77491364a5"
+    },
+    {
+     "title": "My Health My Data Act: valid authorization to sell",
+     "citation": "RCW 19.373.070",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.373.070",
+     "linkedFrom": null,
+     "effectiveDate": "2024-03-31",
+     "firstEnacted": "2023-07-23",
+     "statusOfProvision": "in_force",
+     "quote": "it is unlawful for any person to sell or offer to sell consumer health data concerning a consumer without first obtaining valid authorization from the consumer.",
+     "appliesTo": "Any person. The sale must be consistent with the valid authorization signed by the consumer.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a7b7e4ae1bbea5d04c9d6f0758aac2b9d89a6333083dc7da4ca9ffd14a900cae"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.atg.wa.gov/news/news-releases/consumer-alert-washingtonians-data-privacy-rights-following-23andme-bankruptcy",
+     "host": "www.atg.wa.gov",
+     "usedFor": "AG summary of My Health My Data Act consent and authorization rules"
+    }
+   ],
+   "note": "Chapter 19.373 RCW requires consent to collect and to share consumer health data, and a signed valid authorization to sell. Effective date of Laws of 2023 ch. 191 is July 23, 2023; operative duties began March 31, 2024.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WA",
+    "note": "Both quotes verbatim on app.leg.wa.gov. Laws of 2023 ch. 191 took effect July 23, 2023 per the session law. Consent and sale duties operative March 31, 2024. Chapter never amended."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 15,
+    "freeCopyCases": [
+     "One free copy to a patient or personal representative when the patient is appealing a denial of federal SSI or Social Security disability benefits (RCW 70.02.030(2)(b)); not required again within two years."
+    ],
+    "feeRules": [
+     "RCW 70.02.080(2): \"the health care provider may charge a reasonable fee for providing the health care information\"",
+     "WAC 246-08-400(1)(a): \"No more than one dollar and twenty-four cents per page for the first thirty pages\"",
+     "WAC 246-08-400(1)(b): \"No more than ninety-four cents per page for all other pages.\"",
+     "WAC 246-08-400(2)(a): \"The provider can charge a twenty-eight dollar clerical fee for searching and handling records\"",
+     "WAC 246-08-400(3): HIPAA covered entities \"may not charge fees or costs that are not authorized by, or are prohibited by, Federal HIPAA regulation 45 C.F.R. Sec. 164.\""
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Patient's examination and copying: requirements",
+     "citation": "RCW 70.02.080",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=70.02.080",
+     "linkedFrom": null,
+     "effectiveDate": "2018-06-07",
+     "firstEnacted": "1991-07-28",
+     "statusOfProvision": "in_force",
+     "quote": "a health care provider, as promptly as required under the circumstances, but no later than fifteen working days after receiving the request shall: (a) Make the information available for examination during regular business hours and provide a copy, if requested, to the patient",
+     "appliesTo": "Health care providers. A delay notice may extend to \"not later than twenty-one working days after receiving the request\".",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d695bbc655e29535851f1550cde971a314a650d36156bfdb005b7f4f55021ec7"
+    },
+    {
+     "title": "Patient authorization of disclosure: free copy for SSI or SSDI appeal",
+     "citation": "RCW 70.02.030(2)(b)",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=70.02.030",
+     "linkedFrom": null,
+     "effectiveDate": "2024-06-06",
+     "firstEnacted": "1991-07-28",
+     "statusOfProvision": "in_force",
+     "quote": "shall provide the patient or representative with one copy of the patient's health care information free of charge if the patient is appealing the denial of federal supplemental security income or social security disability benefits.",
+     "appliesTo": "Health care facilities and health care providers, on request of a patient or personal representative. Free copy added by Laws of 2018 ch. 87 (effective June 7, 2018); section last amended by Laws of 2024 ch. 150.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5c18f11176ae4153abf0fac9684467a9d922bdcd463d04c4c9c626c2598cae30"
+    },
+    {
+     "title": "Health care providers charging for searching and duplicating health care records",
+     "citation": "WAC 246-08-400",
+     "officialUrl": "https://app.leg.wa.gov/WAC/default.aspx?cite=246-08-400",
+     "linkedFrom": null,
+     "effectiveDate": "2021-06-18",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "No more than one dollar and twenty-four cents per page for the first thirty pages",
+     "appliesTo": "Health care providers. Per-page cap recorded as a fact only.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6c72bda5eb4c90b4be93961428c38fbbebdf8035ae03814b3d6f9ae8a81cf062"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://lawfilesext.leg.wa.gov/biennium/2017-18/Htm/Bill%20Reports/Senate/1239-S.E%20SBR%20HLTC%2018.htm",
+     "host": "lawfilesext.leg.wa.gov",
+     "usedFor": "Locating ESHB 1239 (2018 c 87) free copy for SSI/SSDI appeal"
+    }
+   ],
+   "note": "Beyond the federal floor: 15 working days is shorter than 30 days, and a free copy for an SSI or SSDI appeal goes past HIPAA and 45 CFR 171.302. The deadline counts working days.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WA",
+    "note": "beyondFederalFloor yes. 15 working days is shorter than 30 days. Free copy for an SSI or SSDI appeal, also for a personal representative, goes past 45 CFR 164.524 and 171.302. Session law dates verified."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "no_choice_required",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "HCP OneHealthPort, LLC (OneHealthPort HIE), lead organization designated by the Health Care Authority under RCW 41.05.039",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "OneHealthPort HIE Participation Agreement, Business Associate Policy (effective 7/1/2026)",
+     "citation": "OneHealthPort HIE Participation Agreement, Version 1, effective 2026-07-01",
+     "officialUrl": "https://www.onehealthport.com/sites/default/files/content-uploads/documents/OneHealthPort_HIE_Participation_Agreement_July_2026_Sample.pdf",
+     "linkedFrom": "https://www.hca.wa.gov/assets/program/hca-clinical-data-repository-faq.pdf",
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Participant shall be responsible for obtaining any Consent or Authorization for the use of the HIE or any Service with respect to Protected Health Information which the Participant considers necessary or appropriate.",
+     "appliesTo": "Participants in the OneHealthPort HIE. HCA page: \"Health Commons Project (HCP) OneHealthPort, LLC is Health Care Authority’s (HCA) lead organization (LO) responsible for administering and providing technical support for the CDR.\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8c219ca873803bfce1dde9faf52c7031c55b72ff7e1db5bc325cab0c51618dd0"
+    },
+    {
+     "title": "Health information: secure access, lead organization",
+     "citation": "RCW 41.05.039",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=41.05.039",
+     "linkedFrom": null,
+     "effectiveDate": "2023-07-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the director shall designate one or more lead organizations to coordinate development of processes, guidelines, and standards to: (a) Improve patient access to and control of their own health care information and thereby enable their active participation in their own care",
+     "appliesTo": "Health Care Authority director. Sets no patient consent rule for exchange.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8103e1876e2728312b8bb09048dd8f514d759b4e3482b8b9c02c4fc4c89fa3cc"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.healthit.gov/sites/default/files/wa-state-hie-profile.pdf",
+     "host": "www.healthit.gov",
+     "usedFor": "Finding the OneHealthPort lead organization designation"
+    },
+    {
+     "url": "https://www.onehealthport.com/hie/contracting",
+     "host": "www.onehealthport.com",
+     "usedFor": "Locating the current July 2026 participation agreement"
+    }
+   ],
+   "note": "No statute sets an HIE consent rule. The designated HIE's current policy leaves consent to each participant and publishes no general patient opt-in or opt-out. stricterForSensitive not determined for the HIE.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WA",
+    "note": "No HIE consent rule found in chapter 70.02 RCW or the HCA privacy toolkit. Agreement effective 7/1/2026 offers no general patient choice. stricterForSensitive left null; RCW 70.02.050 carves out STD records."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Protected health care services: declaration of public policy, cooperation, business entities",
+      "citation": "RCW 7.115.020(3)",
+      "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=7.115.020",
+      "linkedFrom": null,
+      "effectiveDate": "2025-07-27",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Any information relating to any protected health care services provided to a specific individual shall not be shared with an agency, department, or individual from another state for the purpose of investigating or enforcing another state's law",
+      "appliesTo": "\"Protected health care services\" means gender-affirming treatment and reproductive health care services that are lawful in Washington (RCW 7.115.010). Amended by Laws of 2025 ch. 248, effective July 27, 2025.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0b9f7ebbc440d6d34e234fce436d37d2de3945e2c49dc68ba09ca244049c6701"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.omwlaw.com/news-events/important-considerations-regarding-washingtons-shield-law-after-federal-hipaa-ruling",
+      "host": "www.omwlaw.com",
+      "usedFor": "Finding chapter 7.115 RCW"
+     }
+    ],
+    "note": "RCW 7.115.020 limits sharing of information on reproductive and gender-affirming care with other states and sets an attestation rule for legal process served on Washington communication service businesses.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_WA",
+     "note": "Quote verbatim in RCW 7.115.020(3). Current text from Laws of 2025 ch. 248, effective July 27, 2025 per the session law. RCW 7.115.010 defines the services covered."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": true,
+    "provisions": [
+     {
+      "title": "Mental health services, confidentiality of records: permitted disclosures (effective until June 30, 2027)",
+      "citation": "RCW 70.02.230",
+      "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=70.02.230",
+      "linkedFrom": null,
+      "effectiveDate": "2024-06-06",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "all information and records compiled, obtained, or maintained in the course of providing mental health services to either voluntary or involuntary recipients of services at public or private agencies may not be disclosed except as provided in this section",
+      "appliesTo": "Public or private agencies providing mental health services. Current text from Laws of 2024 ch. 209 sec. 32.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "4b05b2b73fe7a629ca67b97888e21eca58d59f887f5da987b722eb0936637964"
+     },
+     {
+      "title": "Mental health services, confidentiality of records: permitted disclosures (effective June 30, 2027)",
+      "citation": "RCW 70.02.230 (as amended by Laws of 2025 ch. 58 sec. 5129)",
+      "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=70.02.230",
+      "linkedFrom": null,
+      "effectiveDate": "2027-06-30",
+      "firstEnacted": null,
+      "statusOfProvision": "enacted_not_yet_effective",
+      "quote": "all information and records compiled, obtained, or maintained in the course of providing mental health services to either voluntary or involuntary recipients of services at public or private agencies may not be disclosed except as provided in this section",
+      "appliesTo": "Same scope. Later version of the section.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d3c0560ee1e9844222bee7bc4e2ab661d1c236c3303d8c005241534ddc59f964"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "RCW 70.02.230 limits disclosure of mental health service records to listed cases or a valid authorization. A later version takes effect June 30, 2027.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_WA",
+     "note": "Value, status and dates hold. Laws of 2024 ch. 209 sec. 32 took effect June 6, 2024. Laws of 2025 ch. 58 version takes effect June 30, 2027, so pending is true.",
+     "problems": [
+      "Quote for both provisions is 51 words, over the 50-word limit."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q075",
+        "Q182",
+        "Q183"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Sexually transmitted diseases: permitted and mandatory disclosures",
+      "citation": "RCW 70.02.220",
+      "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=70.02.220",
+      "linkedFrom": null,
+      "effectiveDate": "2022-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person may disclose or be compelled to disclose information and records related to sexually transmitted diseases, except as authorized by this section",
+      "appliesTo": "Any person. Current text from Laws of 2021 ch. 270, effective January 1, 2022.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "42c8fd1899faab8532bdf74d3420930cdd112100c363a7eeedeba96f34e4cdf0"
+     },
+     {
+      "title": "Definitions: sexually transmitted disease includes HIV",
+      "citation": "RCW 70.24.017(12)",
+      "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=70.24.017",
+      "linkedFrom": null,
+      "effectiveDate": "2020-06-11",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The board shall designate chancroid, gonorrhea, granuloma inguinale, lymphogranuloma venereum, genital herpes simplex, chlamydia, trachomitis, genital human papilloma virus infection, syphilis, and human immunodeficiency virus",
+      "appliesTo": "RCW 70.02.010 adopts this definition of sexually transmitted disease.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ccffcebbaf8e3c4df96a8769256e124b686ff0a0529e57d468673988f7b019d7"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "HIV is a designated sexually transmitted disease, so RCW 70.02.220 disclosure limits apply to HIV information and records.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_WA",
+     "note": "Laws of 2021 ch. 270 took effect January 1, 2022 per the note at RCW 7.70.065. RCW 70.02.010(44) adopts the RCW 70.24.017 definition. Laws of 2020 ch. 76 amended 70.24.017."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Uniform Parentage Act: confidentiality of genetic testing, penalty",
+      "citation": "RCW 26.26A.355",
+      "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.26A.355",
+      "linkedFrom": null,
+      "effectiveDate": "2019-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "for a purpose not relevant to a proceeding regarding parentage, without a court order or written permission of the individual who furnished the specimen, commits a gross misdemeanor",
+      "appliesTo": "Specimens collected for parentage genetic testing. Reports of such testing are released under chapter 70.02 RCW.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "6ddfc6079bc8284c3b37cc750b6887fe1c20245b202a2f700b587027b245d1f7"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://codes.findlaw.com/wa/title-26-domestic-relations/wa-rev-code-26-26a-770/",
+      "host": "codes.findlaw.com",
+      "usedFor": "Finding chapter 26.26A RCW genetic testing sections"
+     }
+    ],
+    "note": "RCW 26.26A.355 covers parentage genetic testing only. Genetic data is also consumer health data under chapter 19.373 RCW. RCW 49.44.180 bars employers from requiring genetic information.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_WA",
+     "note": "Rule covers specimens from parentage genetic testing only. Laws of 2018 ch. 6 took effect January 1, 2019 per RCW 26.26A.903. No broader genetic records statute found on app.leg.wa.gov."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None fixed. RCW 70.02.170: actual damages, no consequential or incidental damages, attorneys' fees to the prevailing party. RCW 19.86.090 (for chapter 19.373 violations): actual damages, court may raise to three times actual damages, capped at $25,000 for RCW 19.86.020 violations, plus attorney's fee."
+   },
+   "provisions": [
+    {
+     "title": "Uniform Health Care Information Act: civil remedies",
+     "citation": "RCW 70.02.170",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=70.02.170",
+     "linkedFrom": null,
+     "effectiveDate": "1991-07-28",
+     "firstEnacted": "1991-07-28",
+     "statusOfProvision": "in_force",
+     "quote": "A person who has complied with this chapter may maintain an action for the relief provided in this section against a health care provider or facility who has not complied with this chapter.",
+     "appliesTo": "Health care providers and facilities. Two-year limit after discovery.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ab68643bf4da8231aa599129cd08e041b20dd14f718189247a353476059d6f7c"
+    },
+    {
+     "title": "My Health My Data Act: application of consumer protection act",
+     "citation": "RCW 19.373.090",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.373.090",
+     "linkedFrom": null,
+     "effectiveDate": "2023-07-23",
+     "firstEnacted": "2023-07-23",
+     "statusOfProvision": "in_force",
+     "quote": "A violation of this chapter is not reasonable in relation to the development and preservation of business, and is an unfair or deceptive act in trade or commerce and an unfair method of competition for the purpose of applying the consumer protection act, chapter 19.86 RCW.",
+     "appliesTo": "Regulated entities, small businesses and any person under chapter 19.373 RCW.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ab624b249f7a29e231456e74cf414d55f454c0c725c7cc5d186bbde097cd6dde"
+    },
+    {
+     "title": "Consumer Protection Act: civil action for damages",
+     "citation": "RCW 19.86.090",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.86.090",
+     "linkedFrom": null,
+     "effectiveDate": "2009-07-26",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person who is injured in his or her business or property by a violation of RCW 19.86.020",
+     "appliesTo": "Any person injured in business or property may bring a civil action in superior court.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "50a9dd71569db0595a4d8546bd0c4385804ce551f5b840586dad99e31eaed45f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Two routes: RCW 70.02.170 for medical records held by providers, and chapter 19.373 RCW through the Consumer Protection Act for consumer health data.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_WA",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P23"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "Without unreasonable delay and no more than 30 calendar days after discovery",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Data breach definitions: personal information, health insurance element",
+     "citation": "RCW 19.255.005(2)(a)(i)(G)",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.005",
+     "linkedFrom": null,
+     "effectiveDate": "2020-03-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Health insurance policy number or health insurance identification number",
+     "appliesTo": "Element counts when combined with the consumer's name, per the personal information definition.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "46a58c9161790c078fd2c953608c65d380369ff7be7c68b0cc6bb378281c848b"
+    },
+    {
+     "title": "Data breach definitions: personal information, medical element",
+     "citation": "RCW 19.255.005(2)(a)(i)(H)",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.005",
+     "linkedFrom": null,
+     "effectiveDate": "2020-03-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any information about a consumer's medical history or mental or physical condition or about a health care professional's medical diagnosis or treatment of the consumer",
+     "appliesTo": "Element counts when combined with the consumer's name, per the personal information definition.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "46a58c9161790c078fd2c953608c65d380369ff7be7c68b0cc6bb378281c848b"
+    },
+    {
+     "title": "Personal information: notice of security breaches",
+     "citation": "RCW 19.255.010(7), (8)",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.010",
+     "linkedFrom": null,
+     "effectiveDate": "2020-03-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Notification to affected consumers under this section must be made in the most expedient time possible, without unreasonable delay, and no more than thirty calendar days after the breach was discovered",
+     "appliesTo": "Persons or businesses that own or license data. AG notice when a breach requires notice to more than 500 Washington residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e3db704f91ee5d2c5b51855ada4f1a51ae30afc077484a5154f6ae682404d7a5"
+    },
+    {
+     "title": "Federal law: covered entities",
+     "citation": "RCW 19.255.030(1)",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.030",
+     "linkedFrom": null,
+     "effectiveDate": "2020-03-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "is deemed to have complied with the requirements of this chapter with respect to protected health information if it has complied with section 13402 of the federal health information technology for economic and clinical health act",
+     "appliesTo": "HIPAA covered entities. They must still notify the attorney general under RCW 19.255.010(7).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "693ff40906efd8becd408e7f0b5eedcf82b968c63eeba33befbd85609db8ec0e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Both medical information and health insurance numbers are personal information since Laws of 2019 ch. 241 took effect March 1, 2020. AG notice is due within 30 days for breaches over 500 residents.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WA",
+    "note": "Laws of 2019 ch. 241 took effect March 1, 2020 per its own section 8. Consumer notice within 30 days. AG notice over 500 residents. HITECH-compliant covered entities deemed compliant under RCW 19.255.030."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "RCW 48.43.830(3)(a): \"Artificial intelligence shall not be the sole means used to deny, delay, or modify health care services.\"",
+     "RCW 48.43.830(3)(a): \"Algorithms may be used to process and approve prior authorization requests, but may not be used without human review to deny care based on a determination of medical necessity.\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Prior authorization: standards, denials (effective until January 1, 2027)",
+     "citation": "RCW 48.43.830(3) (Laws of 2026 ch. 157 sec. 2)",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=48.43.830",
+     "linkedFrom": null,
+     "effectiveDate": "2026-06-11",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Only a licensed physician or a licensed health professional working within their scope of practice may deny a prior authorization request based on medical necessity.",
+     "appliesTo": "Carriers offering health plans, and health care benefit managers doing prior authorization for them. Laws of 2026 ch. 157 sec. 4 sets parallel rules for public employee plans (RCW 41.05.845).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6f34279b39ac73fd570e5f7f50863f20c0b73a8213ca9ad5b0f87cdd016820a2"
+    },
+    {
+     "title": "Prior authorization: standards, denials (effective January 1, 2027)",
+     "citation": "RCW 48.43.830 (Laws of 2026 ch. 157 sec. 3)",
+     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=48.43.830",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Artificial intelligence shall not be the sole means used to deny, delay, or modify health care services.",
+     "appliesTo": "Same scope. Later version of the section.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6f34279b39ac73fd570e5f7f50863f20c0b73a8213ca9ad5b0f87cdd016820a2"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://senatedemocrats.wa.gov/orwall/2026/03/25/orwall-bill-to-improve-prior-authorization-transparency-signed-into-law/",
+     "host": "senatedemocrats.wa.gov",
+     "usedFor": "Finding E2SSB 5395 (2026 c 157)"
+    },
+    {
+     "url": "https://www.kuow.org/stories/washington-passes-new-ai-laws-to-crack-down-on-misinformation-protect-minors",
+     "host": "www.kuow.org",
+     "usedFor": "Checking 2026 general AI disclosure bills (HB 1170, HB 2225); not health-specific"
+    }
+   ],
+   "note": "Laws of 2026 ch. 157 requires a licensed clinician to deny prior authorization on medical necessity. No in-force AI disclosure or AI-specific human recourse rule for care found. A later version starts January 1, 2027.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_WA",
+    "note": "Session law shows sec. 2 effective June 11, 2026, and sec. 3 January 1, 2027. No AI disclosure for care found. Laws of 2026 ch. 168 on companion chatbots starts January 1, 2027 and does not cover care."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

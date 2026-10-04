@@ -1,0 +1,605 @@
+{
+ "usps": "NE",
+ "fips": "31",
+ "name": "Nebraska",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Data Privacy Act; controller may not process sensitive data without consent",
+     "citation": "Neb. Rev. Stat. 87-1112(2)(d)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-1112",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Process the sensitive data of a consumer without obtaining the consumer's consent, or, in the case of processing the sensitive data of a known child, without processing that data in accordance with the federal Children's Online Privacy Protection Act of 1998",
+     "appliesTo": "Is not a small business as determined under the federal Small Business Act, as such act existed on January 1, 2024",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8e250409bf6eb18710b8295e3df76fa583dc8500f2615fdbc7b787a2c6cde21a"
+    },
+    {
+     "title": "Data Privacy Act; definition of sensitive data",
+     "citation": "Neb. Rev. Stat. 87-1102(30)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-1102",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Personal data revealing racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexual orientation, or citizenship or immigration status;",
+     "appliesTo": "Covered entity or business associate governed by the privacy, security, and breach notification rules issued by the United States Department of Health and Human Services, 45 C.F.R. parts 160 and 164",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0d2d10acffce79e353296e3a20a2b555b885f53eb4cae91856081536b760d8c1"
+    },
+    {
+     "title": "Data Privacy Act; applicability",
+     "citation": "Neb. Rev. Stat. 87-1103",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-1103",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Conducts business in this state or produces a product or service consumed by residents of this state;",
+     "appliesTo": "Is not a small business as determined under the federal Small Business Act, as such act existed on January 1, 2024, except to the extent that section 87-1118 applies to a person described by this subdivision.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0883cbacc0124997334b360758a16acea5c39118d66e3175dadaae96c4f0cee3"
+    },
+    {
+     "title": "Data Privacy Act; small business sale of sensitive data needs consent",
+     "citation": "Neb. Rev. Stat. 87-1118",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-1118",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A person described by subdivision (1)(c) of section 87-1103 shall not engage in the sale of personal data that is sensitive data without receiving prior consent from the consumer.",
+     "appliesTo": "A person described by subdivision (1)(c) of section 87-1103",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b92a5429a75f614cd46ec4b4ef603f9403a6d5ba6ed46b1c0bbfd908859d43d3"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "LB1074 (2024) sections 1 to 30 became operative January 1, 2025. Consent is needed to process sensitive data, including a mental or physical health diagnosis. HIPAA entities, nonprofits and state agencies are excluded.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NE",
+    "note": "Quotes, citations and the January 1, 2025 operative date (LB1074 sec. 100) check out. Minor: the appliesTo text for 87-1102 is really 87-1103(2)(c), the HIPAA exemption."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "Records requested by a patient to support an application or appeal for disability or other benefits or assistance under Neb. Rev. Stat. 43-501 to 43-536, the Medical Assistance Act, or Titles II, XVI or XVIII of the Social Security Act (71-8405(1)). The request must include a statement from the administering agency confirming the application or appeal (71-8405(3))."
+    ],
+    "feeRules": [
+     "71-8404: \"a provider may charge no more than twenty dollars as a handling fee and may charge no more than fifty cents per page as a copying fee.\" Reasonable cost for records not copied on a standard photocopier; labor and materials for X-rays.",
+     "71-8405(2): a provider may charge the 71-8404 fee when a state or federal agency requests the records for the benefits application or appeal."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Medical records; no fee for records used in a benefits application or appeal",
+     "citation": "Neb. Rev. Stat. 71-8405(1)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-8405",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A provider shall not charge a fee for medical records requested by a patient for use in supporting an application for disability or other benefits or assistance or an appeal relating to the denial of such benefits or assistance under:",
+     "appliesTo": "Providers under 71-8401 to 71-8407; sections do not apply to the release of medical records under the Nebraska Workers' Compensation Act (71-8407).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a716b01f855b51e62a67a34a96bd64fedc4e92b3167844221ecf198ef12cb8a6"
+    },
+    {
+     "title": "Medical records; copy within thirty days",
+     "citation": "Neb. Rev. Stat. 71-8403(2)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-8403",
+     "linkedFrom": null,
+     "effectiveDate": "2010-04-14",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the provider shall furnish the person making the request a copy of such records not later than thirty days after the written request is received.",
+     "appliesTo": "Upon receiving a written request for a copy of the patient's medical records under subsection (1) of this section",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "fc0e90e843ac7bc94eb4b6b0b4943bc2a7b664f6eb4ed4cdd6f058c3b2adaad6"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Free copy for Social Security, Medicare, Medicaid and state aid claims or appeals goes beyond HIPAA and 45 CFR 171.302. The 30-day copy deadline equals the federal floor. Inspection within 10 days is not a copy deadline.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NE",
+    "note": "beyondFederalFloor yes: a free copy for a benefits claim or appeal goes beyond 164.524 and 171.302. The copy deadline is 30 days, equal to the floor. LB849 (2010) had an emergency clause, so April 14, 2010 is right."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "Statewide health information exchange described in 71-2455 (Nebraska Health Information Initiative or successor, operating as CyncHealth)",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Population Health Information Act; individual right to opt out of designated HIE",
+     "citation": "Neb. Rev. Stat. 81-6,125(7)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=81-6,125",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-18",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "an individual shall have the right to opt out of the designated health information exchange or the sharing of information required under subsections (3) and (4) of this section.",
+     "appliesTo": "Such policy shall not apply to mandatory public health reporting requirements.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "26c7875a2834dab243a0367de2f19761bb7bdc1d8115779d512bc74a0908a812"
+    },
+    {
+     "title": "Statewide health information exchange named",
+     "citation": "Neb. Rev. Stat. 71-2455",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-2455",
+     "linkedFrom": null,
+     "effectiveDate": "2020-08-08",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "in collaboration with the Nebraska Health Information Initiative or any successor public-private statewide health information exchange,",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f093cb2f02d6e2f7f1861c9e0f1b061f09ae4000544a5b4a879913373098e63f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://cynchealth.org/patients/",
+     "host": "cynchealth.org",
+     "usedFor": "HIE operator page with published opt-out form; not used as evidence"
+    }
+   ],
+   "note": "Statute gives an opt-out and requires the HIE to adopt an opt-out policy. CyncHealth publishes an opt-out form. Facility participation is required by January 1, 2027. Sensitive-category consent rules were not researched.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NE",
+    "note": "Statute gives the opt-out. The page shows LB967 effective July 18, 2026. The CyncHealth page shows a published opt-out form. stricterForSensitive is still unresearched (null)."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion reporting form; confidential",
+      "citation": "Neb. Rev. Stat. 28-343",
+      "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-343",
+      "linkedFrom": null,
+      "effectiveDate": "2007-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The abortion reporting form shall not include the name of the person upon whom the abortion was performed. The abortion reporting form shall be confidential and shall not be revealed except upon the order of a court of competent jurisdiction in a civil or criminal proceeding.",
+      "appliesTo": "Abortion reporting forms sent by the attending physician to the Department of Health and Human Services",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b421af254d164b4e0510593f9897db042aae5d38d83634346dbb15b5d0b5defe"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule covers the state abortion reporting form, not the clinical record. The form omits the patient name and is released only on a court order in a civil or criminal proceeding.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NE",
+     "note": "The rule covers the abortion reporting form sent to the health department. The last amendment, LB296 (2007), became operative July 1, 2007."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental health practitioners; confidentiality",
+      "citation": "Neb. Rev. Stat. 38-2136",
+      "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=38-2136",
+      "linkedFrom": null,
+      "effectiveDate": "2023-09-02",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "shall disclose any information he or she may have acquired from any person consulting him or her in his or her professional capacity except: (1) With the written consent of the person",
+      "appliesTo": "No person who is licensed or certified pursuant to the Mental Health Practice Act",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "39299f5676d96e3ef309d7d6e5452fb24a33969532acd2f69980d73e000d2f51"
+     },
+     {
+      "title": "Nebraska Mental Health Commitment Act; subject's records confidential",
+      "citation": "Neb. Rev. Stat. 71-961",
+      "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-961",
+      "linkedFrom": null,
+      "effectiveDate": "2025-09-03",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All records kept on any subject shall remain confidential except as otherwise provided by law.",
+      "appliesTo": "Records kept on any subject under the Nebraska Mental Health Commitment Act",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "4fc42bbfb880700174cb65952c255839f6116ed0d20bac6f49149b8c354cf4fb"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "38-2136 lists exceptions, including HIPAA-permitted disclosures and the duty to warn. 71-961 lists who may access commitment records. 71-8403 lets a clinician withhold mental health records from the patient.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NE",
+     "note": "38-2136 was last amended by LB50 (2023), with no emergency clause. 71-961 was last amended by LB150 (2025) sec. 120, operative three months after adjournment. The dates match."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV test of convicted sex offender; results available only to listed persons",
+      "citation": "Neb. Rev. Stat. 29-2290(1)",
+      "officialUrl": "https://www.nebraskalegislature.gov/laws/statutes.php?statute=29-2290",
+      "linkedFrom": null,
+      "effectiveDate": "2006-07-14",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The Department of Correctional Services shall make the results of the test available only to the victim, to the parents or guardian of the victim if the victim is a minor or is mentally incompetent, to the convicted person,",
+      "appliesTo": "HIV tests ordered for persons convicted of sexual assault or other offenses involving sexual contact or penetration",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "aad6e5a27307398c220578256a439cbfe8e61b08c64f91c0000b25c06e3d2d87"
+     },
+     {
+      "title": "HIV test; right to remain anonymous",
+      "citation": "Neb. Rev. Stat. 71-531(1)",
+      "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-531",
+      "linkedFrom": null,
+      "effectiveDate": "2018-07-19",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A person seeking a human immunodeficiency virus test shall have the right to remain anonymous. If an anonymous test is requested, a health care provider shall confidentially refer such person to a site which provides anonymous testing.",
+      "appliesTo": "",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "bd2b6b6b9542f8720760711ed3843c431de29d06ad149e8964f42ba6c19f8ad1"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/nebraska/2017/chapter-71/statute-71-531/",
+      "host": "law.justia.com",
+      "usedFor": "Finding HIV testing statutes"
+     }
+    ],
+    "note": "29-2290 limits disclosure of court-ordered HIV test results. LB 1199 (2006) had no emergency clause and the session adjourned April 13, 2006. 71-511 also covers infectious disease information, including HIV.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NE",
+     "note": "LB 1199 (2006) and LB285 (2018) have no emergency clause. The dates July 14, 2006 and July 19, 2018 are consistent with three months after adjournment."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act; disclosure to insurers and employers",
+      "citation": "Neb. Rev. Stat. 87-903(2)",
+      "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-903",
+      "linkedFrom": null,
+      "effectiveDate": "2024-07-19",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A direct-to-consumer genetic testing company shall not disclose a consumer's genetic data to any entity offering health insurance, life insurance, or long-term care insurance or to any employer of the consumer without the consumer's written consent.",
+      "appliesTo": "Direct-to-consumer genetic testing company",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a2f7b9f0f09a97e9a0c5e1d94b5f9d79e69f6c74dee82e22603b14134db34104"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.mondaq.com/unitedstates/privacy-protection/1430466/nebraska-passes-genetic-information-privacy-act",
+      "host": "www.mondaq.com",
+      "usedFor": "Finding the Genetic Information Privacy Act"
+     }
+    ],
+    "note": "87-903 also requires separate express consent to transfer genetic data and a court order before disclosure to government. 71-551 requires written consent before a physician orders a predictive genetic test.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NE",
+     "note": "LB308 (2024) was approved February 13, 2024, with no emergency clause. July 19, 2024 is right. 71-551 also requires written consent before a predictive genetic test is ordered."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None for individuals. Genetic Information Privacy Act: AG civil penalty of $2,500 per violation plus the consumer's actual damages (87-903(3))."
+   },
+   "provisions": [
+    {
+     "title": "Data Privacy Act; no private right of action",
+     "citation": "Neb. Rev. Stat. 87-1125",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-1125",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The Data Privacy Act shall not be construed as providing a basis for, or being subject to, a private right of action for a violation of the Data Privacy Act or any other law.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6d843db0343f48bb17aea8d2fc600271c4fb4e55b150a8650e51231b0b2386de"
+    },
+    {
+     "title": "Data Privacy Act; Attorney General enforcement",
+     "citation": "Neb. Rev. Stat. 87-1119",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-1119",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The Attorney General has exclusive authority to enforce the Data Privacy Act.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e770d8b3216ff2ab69cdf035fc57f61dfcf430d8ae4e420321014bfad52ade38"
+    },
+    {
+     "title": "Genetic Information Privacy Act; Attorney General enforcement",
+     "citation": "Neb. Rev. Stat. 87-903(3)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-903",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-19",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The Attorney General may bring an action to enforce the provisions of the Genetic Information Privacy Act.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a2f7b9f0f09a97e9a0c5e1d94b5f9d79e69f6c74dee82e22603b14134db34104"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://nebraskalegislature.gov/laws/laws.php",
+    "terms": [
+     "private right of action",
+     "Data Privacy Act enforcement",
+     "Genetic Information Privacy Act enforcement",
+     "medical records civil action",
+     "breach of security Attorney General"
+    ],
+    "regulatorPagesChecked": [
+     "https://nebraskalegislature.gov/laws/statutes.php?statute=87-1119",
+     "https://nebraskalegislature.gov/laws/statutes.php?statute=87-903"
+    ],
+    "leadsChecked": [
+     "https://www.mondaq.com/unitedstates/privacy-protection/1430466/nebraska-passes-genetic-information-privacy-act"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "note": "Data Privacy Act and Genetic Information Privacy Act are enforced by the Attorney General. 87-1125 bars a private action under the Data Privacy Act. The medical records access sections 71-8401 to 71-8407 state no private remedy.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NE",
+    "note": "The AG enforces the Data Privacy Act, the genetic act and the breach act. My search of the legislature site found no statutory right to sue over medical records. 71-551(4) is about consent to a genetic test, not disclosure."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "as soon as possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Breach notification act; definition of personal information",
+     "citation": "Neb. Rev. Stat. 87-802(5)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-802",
+     "linkedFrom": null,
+     "effectiveDate": "2016-07-21",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A Nebraska resident's first name or first initial and last name in combination with any one or more of the following data elements that relate to the resident",
+     "appliesTo": "Individual or commercial entity that conducts business in Nebraska and owns or licenses computerized data that includes personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8a7044685036c593b22e91fceed87ade0b735486ec1035f55aa39b2fa02d2008"
+    },
+    {
+     "title": "Breach notice to resident and Attorney General",
+     "citation": "Neb. Rev. Stat. 87-803",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-803",
+     "linkedFrom": null,
+     "effectiveDate": "2016-07-21",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the individual or commercial entity shall also, not later than the time when notice is provided to the Nebraska resident, provide notice of the breach of security of the system to the Attorney General.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9871b96e3c0740589a90ce0a0d84f9cfe189e9c502969db289d51fe2f97985aa"
+    },
+    {
+     "title": "Deemed compliance for entities regulated by state or federal law",
+     "citation": "Neb. Rev. Stat. 87-804(2)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-804",
+     "linkedFrom": null,
+     "effectiveDate": "2016-07-21",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "that is regulated by state or federal law and that maintains procedures for a breach of the security of the system pursuant to the laws, rules, regulations, guidances, or guidelines established by its primary or functional state or federal regulator is deemed to be in compliance with section 87-803",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d2ed68b870e6e48c8140148592df9dee3f276b49d43076a7a6cb4b038848a70f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Data elements are SSN, license or state ID number, account numbers with codes, electronic ID numbers, biometric data, and online credentials. Neither medical nor health insurance information is listed. The deemed-compliance clause is general and does not name HIPAA.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NE",
+    "note": "The data elements listed are SSN, license or ID number, account numbers, electronic ID, biometric data and online credentials. No medical or insurance element. LB835 secs. 27 to 29 took effect three months after the 2016 adjournment.",
+    "resolution": [
+     {
+      "rows": [
+       "Q172"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 2,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": true
+    },
+    "prohibitions": [
+     "LB525 (2026) sec. 17, operative July 1, 2027: \"An operator shall not knowingly and intentionally cause or program a conversational artificial intelligence service to make any representation or statement that explicitly indicates that the conversational artificial intelligence service is designed to provide professional mental or behavioral health care.\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Ensuring Transparency in Prior Authorization Act; AI not sole basis of denial",
+     "citation": "Neb. Rev. Stat. 44-5443(1)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=44-5443",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An artificial intelligence-based algorithm shall not be the sole basis of a utilization review agent's decision to deny, delay, or modify health care services based, in whole or in part, on medical necessity.",
+     "appliesTo": "Utilization review agents for enrollees in a health benefit plan as defined in 44-1303",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6795214932167d14d3585aeefc484cf9f56ccef5af418c25a1355dd588694f30"
+    },
+    {
+     "title": "AI use disclosure in utilization review",
+     "citation": "Neb. Rev. Stat. 44-5443(2)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=44-5443",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A utilization review agent shall disclose to the department, to each health care provider in its network, to each enrollee, and on its public website if artificial intelligence-based algorithms are used or will be used in the utilization review process.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6795214932167d14d3585aeefc484cf9f56ccef5af418c25a1355dd588694f30"
+    },
+    {
+     "title": "Adverse determinations made by a physician",
+     "citation": "Neb. Rev. Stat. 44-5435(1)",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=44-5435",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A utilization review agent shall ensure that all adverse determinations for prior authorization are made by a physician, except that if the requesting health care provider is not a physician, the adverse determination may be made by a clinical peer of the requesting health care provider.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6ca54a8c6fbac2144275815958715ef0a9c12e18e5cd726baed45fbcc3caa8bf"
+    },
+    {
+     "title": "Appeals of adverse determinations reviewed by a physician",
+     "citation": "Neb. Rev. Stat. 44-5436",
+     "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=44-5436",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A utilization review agent shall ensure that all appeals of an adverse determination for prior authorization are reviewed by a physician.",
+     "appliesTo": "",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "52be769bfb48a63d487b937a441dc81fe1c3efe81771be32572627981ae11836"
+    },
+    {
+     "title": "Conversational Artificial Intelligence Safety Act (LB525, 2026)",
+     "citation": "Laws 2026, LB525, sec. 17",
+     "officialUrl": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB525.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2027-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "An operator shall not knowingly and intentionally cause or program a conversational artificial intelligence service to make any representation or statement that explicitly indicates that the conversational artificial intelligence service is designed to provide professional mental or behavioral health care.",
+     "appliesTo": "Operators of conversational artificial intelligence services",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "18547ac0cc79f8098f0f144b7c82c97ef6e0cd36604b1154702567dc42036943"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://nebmed.org/governor-pillen-signs-significant-prior-authorization-reform-into-law/",
+     "host": "nebmed.org",
+     "usedFor": "Finding LB77 prior authorization act"
+    },
+    {
+     "url": "https://wtlgovernance.com/insights/updates/nebraska-lb525-conversational-ai-safety-act/",
+     "host": "wtlgovernance.com",
+     "usedFor": "Finding LB525 chatbot act"
+    }
+   ],
+   "note": "LB77 sections operative January 1, 2026. Clinician decides and human appeal count. AI disclosure to enrollees covers utilization review, not care communication or diagnosis, so it is not counted. LB525 operative July 1, 2027.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NE",
+    "note": "Elements (b) and (c) are in force. The 44-5443(2) disclosure covers utilization review, not care, so (a) is not counted. LB525 sec. 17 becomes operative July 1, 2027, so pending is true."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

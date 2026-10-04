@@ -1,0 +1,719 @@
+{
+ "usps": "CT",
+ "fips": "09",
+ "name": "Connecticut",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Connecticut Data Privacy Act, controllers' duties: consent to process sensitive data",
+     "citation": "Conn. Gen. Stat. 42-520(a)(1)(D), as amended by P.A. 26-64, s. 14",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "(D) not process sensitive data concerning a consumer unless such processing is reasonably necessary in relation to the purposes for which such sensitive data are processed and without obtaining the consumer's consent",
+     "appliesTo": "(2) control or process consumers' sensitive data, excluding personal data controlled or processed solely for the purposes of completing a payment transaction",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dadca977dba5e7b6c29ef47d258a97c05ade1af6567d41b3656773eb5be6edc6"
+    },
+    {
+     "title": "Connecticut Data Privacy Act, applicability threshold",
+     "citation": "Conn. Gen. Stat. 42-516, as amended by P.A. 25-113, s. 6",
+     "officialUrl": "https://www.cga.ct.gov/2026/sup/chap_743jj.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "(2) control or process consumers' sensitive data, excluding personal data controlled or processed solely for the purposes of completing a payment transaction",
+     "appliesTo": "(1) Conduct business in this state, or produce products or services that are targeted to residents of this state, and during the preceding calendar year controlled or processed the personal data of not fewer than thirty-five thousand consumers",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a6e146b8ac102c7d179b3e0f54f0bc34086b56868dfe738c17bc6b1165d9473f"
+    },
+    {
+     "title": "Definition of sensitive data, which includes consumer health data",
+     "citation": "Conn. Gen. Stat. 42-515, as amended by P.A. 26-64, s. 12",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "means personal data that includes (A) data revealing (i) racial or ethnic origin, (ii) religious beliefs, (iii) a mental or physical health condition, diagnosis, disability or treatment, (iv) sex life, sexual orientation or status as nonbinary or transgender, or (v) citizenship or immigration status, (B) consumer health data",
+     "appliesTo": "Controllers within Conn. Gen. Stat. 42-516.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dadca977dba5e7b6c29ef47d258a97c05ade1af6567d41b3656773eb5be6edc6"
+    },
+    {
+     "title": "Consumer health data privacy: consent before sale, geofencing limit",
+     "citation": "Conn. Gen. Stat. 42-526(a)(1)(D)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_743jj.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2023-10-01",
+     "firstEnacted": "2023-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "(D) sell, or offer to sell, consumer health data without first obtaining the consumer's consent.",
+     "appliesTo": "no person shall",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ff6266b5a7ba0087ec489b463e1cff1cca3dd7be874a488aec01585d5396e633"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://privacylawmap.com/blog/connecticut-ctdpa-amendments-sb4-2026",
+     "host": "privacylawmap.com",
+     "usedFor": "Found P.A. 26-64 (SB 4, 2026) amending the CTDPA; not opened as evidence."
+    }
+   ],
+   "note": "Since July 1, 2026 the CTDPA covers any person that processes sensitive data, and requires consent to process it. Consumer health data is sensitive data. 42-526 requires consent to sell, not a separate signed authorization.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CT",
+    "note": "P.A. 26-64 s.14 (effective 2026-10-01) keeps consent for sensitive data, which includes consumer health data. 42-516 reaches any sensitive-data processor from 2026-07-01. 42-526 needs consent to sell, not a signed authorization, so not level 3."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [
+     "Record needed to support a claim or appeal under the Social Security Act, with documentation (providers, 20-7c(d); licensed institutions, 19a-490b(b))",
+     "Record needed to support a claim or appeal for veterans' benefits under Title 38 USC or chapter 506, with documentation (same sections)",
+     "Licensed institutions may not deny records for inability to pay; an affidavit is presumptive evidence (19a-490b(d))"
+    ],
+    "feeRules": [
+     "20-7c(d): No provider shall charge more than sixty-five cents per page, including any research fees, handling fees or related costs, and the cost of first class postage; x-ray copies at cost of materials.",
+     "19a-490b(a): No such institution shall charge more than sixty-five cents per page, including any research fees, clerical fees, handling fees or related costs, and the cost of first class postage.",
+     "20-7c(d): a provider returning records a patient brought, or a successor provider returning records, may not charge the patient for copying costs."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Access to medical records: free copy for Social Security or veterans' benefits claim",
+     "citation": "Conn. Gen. Stat. 20-7c(d)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_369.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2016-06-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "provided no such charge shall be made for furnishing a health record or part thereof to a patient, a patient's attorney or authorized representative if the record or part thereof is necessary for the purpose of supporting a claim or appeal under any provision of the Social Security Act",
+     "appliesTo": "a provider",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1b08b71f78be738a66f1d75a71901a8a704dae83ae4792fa8ec2824e185ddf19"
+    },
+    {
+     "title": "Access to medical records: deadline",
+     "citation": "Conn. Gen. Stat. 20-7c(d)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_369.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2016-06-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A provider shall furnish a health record requested pursuant to this section within thirty days of the request.",
+     "appliesTo": "A provider",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1b08b71f78be738a66f1d75a71901a8a704dae83ae4792fa8ec2824e185ddf19"
+    },
+    {
+     "title": "Furnishing of health records by licensed institutions: free copy for benefits claims and deadline",
+     "citation": "Conn. Gen. Stat. 19a-490b(b)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_368v.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2016-06-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "No institution licensed pursuant to this chapter shall charge for furnishing a health record or part thereof to a patient, his attorney or conservator if the record or part thereof is necessary for the purpose of supporting a claim or appeal under any provision of the Social Security Act",
+     "appliesTo": "institution licensed pursuant to this chapter",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bc809f7a74e63c9b124daff7df1a990b7b8bdc5763d35ea3c39140760ca9f4f8"
+    },
+    {
+     "title": "Furnishing of health records by licensed institutions: per-page fee cap",
+     "citation": "Conn. Gen. Stat. 19a-490b(a)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_368v.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2019-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "No such institution shall charge more than sixty-five cents per page, including any research fees, clerical fees, handling fees or related costs, and the cost of first class postage, if applicable, for furnishing or providing access to a health record pursuant to this subsection",
+     "appliesTo": "an institution licensed pursuant to this chapter",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bc809f7a74e63c9b124daff7df1a990b7b8bdc5763d35ea3c39140760ca9f4f8"
+    },
+    {
+     "title": "Furnishing of health records by licensed institutions: inability to pay",
+     "citation": "Conn. Gen. Stat. 19a-490b(d)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_368v.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1997-10-01",
+     "firstEnacted": "1997-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "No institution may deny a person the records available under subsection (a) of this section because of the person's inability to pay the required fees.",
+     "appliesTo": "institution licensed pursuant to this chapter",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bc809f7a74e63c9b124daff7df1a990b7b8bdc5763d35ea3c39140760ca9f4f8"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://cga.ct.gov/2026/BA/PDF/2026HB-05388-R000102-BA.PDF",
+     "host": "cga.ct.gov",
+     "usedFor": "Found HB 5388 (2026) on free records for state disability retirement claims; bill status page shows it was not enacted."
+    }
+   ],
+   "note": "Free copy for Social Security and veterans' benefits claims goes beyond HIPAA and the information blocking fees exception. Deadline is 30 days, not shorter. Undated history entries use the October 1 default in Conn. Gen. Stat. 2-32.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CT",
+    "note": "Free copy for Social Security and veterans' benefit claims (P.A. 16-109, effective 2016-06-03) is beyond HIPAA and 45 CFR 171.302. Deadline is 30 days, not shorter. No shorter deadline found."
+   }
+  },
+  "hie_consent": {
+   "status": "not_checked",
+   "value": null,
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Connie",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "State page: how to opt out of Connie",
+     "citation": "Office of Health Strategy knowledge base, How to opt out of Connie (dated June 09, 2024)",
+     "officialUrl": "https://portal.ct.gov/ohs/knowledge-base/articles/file-or-find-data/how-to-opt-out-of-connie",
+     "linkedFrom": "https://portal.ct.gov/ohs/knowledge-base/articles/file-or-find-data/health-information-exchange/about-connie",
+     "effectiveDate": "2024-06-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Individuals who do not want their data shared with their health care providers through Connie can complete the",
+     "appliesTo": "Patients whose data is shared through Connie, the HIE designated under Conn. Gen. Stat. 17b-59d.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2c440535f82214834eecf4334750427ad65492b8006dbf34ed9c4250e1a5b8b4"
+    },
+    {
+     "title": "State-wide Health Information Exchange: designation, now by OPM Secretary",
+     "citation": "Conn. Gen. Stat. 17b-59d(f), as amended by P.A. 26-68, s. 79",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00068-R00SB-00001-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2015-06-30",
+     "statusOfProvision": "in_force",
+     "quote": "Systems, technologies, entities, and programs that have not been so designated shall not be considered part of said exchange.",
+     "appliesTo": "State-wide Health Information Exchange",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "478022270b91123be7829f9ecb3167e4d59ab83e7b3edd1ad730c5e77dc16e82"
+    },
+    {
+     "title": "Provider connection duty: no sharing without legally required consent",
+     "citation": "Conn. Gen. Stat. 17b-59e(d)",
+     "officialUrl": "https://www.cga.ct.gov/2026/sup/chap_319o.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in this section shall be construed to require a health care provider to share patient information with the State-wide Health Information Exchange if (1) sharing such information is prohibited by state or federal privacy and security laws, or (2) affirmative consent from the patient is legally required",
+     "appliesTo": "a health care provider",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2583491fae69dcb56123cbd979383b8c3de34bb0a82049bcfa62f5751ec1e7ab"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://natlawreview.com/article/connecticut-disbands-office-health-strategy-and-reassigns-health-care-oversight-and",
+     "host": "natlawreview.com",
+     "usedFor": "Found that P.A. 26-68 moved HIE authority from OHS to OPM on July 1, 2026."
+    }
+   ],
+   "note": "Statute sets no routine consent rule, so the value comes from Connie policy. Connie pages show no policy date. OHS page still shows the designation; P.A. 26-68 moved that authority to OPM on July 1, 2026. Connie says opt-out data is deleted within 5 business days; page undated.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_CT",
+    "note": "Value stays opt_out, basis hie_policy, stricterForSensitive true. Statute 17b-59d and 17b-59e set no routine consent rule. Policy dates are missing and the designation page is archived OHS content.",
+    "problems": [
+     "Two Connie policy provisions carry effectiveDate null; every evidenced provision needs an effectiveDate, and neither Connie page shows a policy date.",
+     "linkedFrom OHS page carries a banner that OHS sunset effective June 30, 2026 and its content is retained for reference purposes.",
+     "Under 17b-59d(f) as amended by P.A. 26-68 s.79, OPM must post the designation list; no OPM page showing it was found."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q011",
+       "Q165",
+       "Q166"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of reproductive or gender-affirming health care information in proceedings",
+      "citation": "Conn. Gen. Stat. 52-146w(a)",
+      "officialUrl": "https://www.cga.ct.gov/2026/sup/chap_899.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2025-10-01",
+      "firstEnacted": "2022-07-01",
+      "statusOfProvision": "in_force",
+      "quote": "in any civil action or any proceeding preliminary thereto or in any probate, legislative or administrative proceeding, no covered entity or business associate, as defined in 45 CFR 160.103, shall disclose (1) any communication made to such covered entity or business associate",
+      "appliesTo": "covered entity or business associate, as defined in 45 CFR 160.103",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "111e69845f1a5a93cf13f1465f3ba93cbff88cc5f9d9a81b4d8e91ff4256d955"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.cga.ct.gov/2026/ba/pdf/2026SB-00295-R000560-BA.pdf",
+      "host": "cga.ct.gov",
+      "usedFor": "Found SB 295 (2026); bill status page shows it was not enacted."
+     }
+    ],
+    "note": "Disclosure in civil, probate, legislative or administrative proceedings needs the patient's explicit written consent, subject to listed exceptions.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_CT",
+     "note": "52-146w(a) bars disclosure in civil, probate, legislative or administrative proceedings without the patient's written consent, with listed exceptions. Current text effective 2025-10-01.",
+     "problems": [
+      "effectiveDate 2025-07-01 is not the date of the current text. P.A. 25-97 s.16 amended 52-146w(a) effective October 1, 2025, after P.A. 25-168 (July 1, 2025)."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q012"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Psychiatric and psychological communications and records: consent to disclose",
+      "citation": "Conn. Gen. Stat. 52-146e(a)",
+      "officialUrl": "https://www.cga.ct.gov/2026/sup/chap_899.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2025-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "no individual shall disclose or transmit any communication or record thereof, or the substance or any part or resume thereof, that identifies a person or patient to any individual, corporation or governmental agency without the consent of the person or patient or his or her authorized representative.",
+      "appliesTo": "Communications and records as defined in 52-146d.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "111e69845f1a5a93cf13f1465f3ba93cbff88cc5f9d9a81b4d8e91ff4256d955"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure needs the patient's consent, except as listed in 52-146f to 52-146i.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CT",
+     "note": "52-146e(a) requires consent to disclose, except under 52-146f to 52-146i. Current text from P.A. 25-97 s.6, effective 2025-07-01."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Limitations on disclosure of HIV-related information",
+      "citation": "Conn. Gen. Stat. 19a-583(a)",
+      "officialUrl": "https://www.cga.ct.gov/current/pub/chap_368x.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2016-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person who obtains confidential HIV-related information may disclose or be compelled to disclose such information, except to the following:",
+      "appliesTo": "Any person who obtains confidential HIV-related information.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "139349573c84e2137b432ce101d9a03e7744b1cecd84da57fd1849f5a6b34b69"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is limited to the listed recipients. Chapter 368x was not in the 2026 Supplement.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CT",
+     "note": "19a-583(a) limits disclosure to listed recipients. Last amended by P.A. 16-87, no date in history, so October 1, 2016. Chapter 368x has no 2026 Supplement page."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Direct-to-consumer genetic testing companies: separate express consent to disclose genetic data",
+      "citation": "P.A. 26-64, s. 19(a)(5)",
+      "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF",
+      "linkedFrom": null,
+      "effectiveDate": "2026-10-01",
+      "firstEnacted": "2026-10-01",
+      "statusOfProvision": "in_force",
+      "quote": "(5) In addition to the express consent required under subdivision (4) of this subsection, separately obtain a consumer's express consent to (A) disclose or transfer the consumer's genetic data to any person other than a vendor or service provider for the company",
+      "appliesTo": "any person doing business in this state who, in the ordinary course of such business, (i) offers genetic testing directly to a consumer, or (ii) collects, uses or analyzes genetic data that a consumer has provided to such person",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "dadca977dba5e7b6c29ef47d258a97c05ade1af6567d41b3656773eb5be6edc6"
+     },
+     {
+      "title": "Insurers: nonconsensual use of direct-to-consumer genetic test information",
+      "citation": "Conn. Gen. Stat. 38a-833(1)",
+      "officialUrl": "https://www.cga.ct.gov/current/pub/chap_704.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2021-10-01",
+      "firstEnacted": "2021-10-01",
+      "statusOfProvision": "in_force",
+      "quote": "request, require, purchase or use information obtained from an entity providing direct-to-consumer genetic testing without the informed written consent of the individual who has been tested",
+      "appliesTo": "No insurer, health care center or fraternal benefit society doing business in this state",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d52cc22fd15a62eddaee4ba267c98669c5f9cd8321f4e3ff944024de44780d17"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "P.A. 26-64 also bars disclosure of test results to others without express consent and bars disclosure to employers and insurers. 38a-833 covers listed non-health insurance lines.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_CT",
+     "note": "P.A. 26-64 s.19, effective 2026-10-01, requires separate express consent to disclose genetic data. 38a-833 (P.A. 21-137) requires written consent for listed insurance lines."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None set. 52-146j(b) and 19a-590 allow civil damages for injury; no fixed amount."
+   },
+   "provisions": [
+    {
+     "title": "Psychiatric communications and records: civil damages",
+     "citation": "Conn. Gen. Stat. 52-146j(b)",
+     "officialUrl": "https://www.cga.ct.gov/2026/sup/chap_899.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any individual aggrieved by a violation of any provision of sections 52-146d to 52-146i, inclusive, may prove a cause of action for civil damages.",
+     "appliesTo": "Violations of 52-146d to 52-146i (psychiatric and psychological communications and records).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "111e69845f1a5a93cf13f1465f3ba93cbff88cc5f9d9a81b4d8e91ff4256d955"
+    },
+    {
+     "title": "HIV-related information: private cause of action",
+     "citation": "Conn. Gen. Stat. 19a-590",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_368x.htm",
+     "linkedFrom": null,
+     "effectiveDate": "1989-10-01",
+     "firstEnacted": "1989-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any person, except as otherwise provided in this chapter, who wilfully violates any provision of this chapter shall be liable in a private cause of action for injuries suffered as a result of such violation.",
+     "appliesTo": "Wilful violations of chapter 368x (HIV-related information).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "139349573c84e2137b432ce101d9a03e7744b1cecd84da57fd1849f5a6b34b69"
+    },
+    {
+     "title": "CTDPA and consumer health data: no private right of action",
+     "citation": "Conn. Gen. Stat. 42-525(d)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_743jj.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2023-10-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in sections 42-515 to 42-524, inclusive, or section 42-526, shall be construed as providing the basis for, or be subject to, a private right of action for violations of said sections or any other law.",
+     "appliesTo": "Sections 42-515 to 42-524 and 42-526.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ff6266b5a7ba0087ec489b463e1cff1cca3dd7be874a488aec01585d5396e633"
+    },
+    {
+     "title": "Direct-to-consumer genetic testing: no private right of action",
+     "citation": "P.A. 26-64, s. 19(b)",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2026-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any violation of subsection (a) of this section shall be deemed an unfair or deceptive trade practice under subsection (a) of section 42-110b of the general statutes and shall be enforced solely by the Attorney General.",
+     "appliesTo": "Direct-to-consumer genetic testing companies.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dadca977dba5e7b6c29ef47d258a97c05ade1af6567d41b3656773eb5be6edc6"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Suits are available only for psychiatric records and HIV information. The CTDPA, consumer health data, genetic testing and breach laws are enforced by the Attorney General only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_CT",
+    "note": "Suits exist only for psychiatric records (52-146j, effective 2025-10-01) and HIV information (19a-590). CTDPA, consumer health data and genetic testing rules are AG-only. No statutory damages amount."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay but not later than sixty days after discovery",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Breach of security: definition of personal information",
+     "citation": "Conn. Gen. Stat. 36a-701b(a)(2)(A)(vii)-(viii)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_669.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2023-10-01",
+     "firstEnacted": "2006-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "(vii) medical information regarding an individual's medical history, mental or physical condition, or medical treatment or diagnosis by a health care professional; (viii) health insurance policy number or subscriber identification number, or any unique identifier used by a health insurer to identify the individual",
+     "appliesTo": "Any person who owns, licenses or maintains computerized data that includes personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2e249d87b267658dda0f0660b905932de802aa09b85723773d05476399821dc4"
+    },
+    {
+     "title": "Breach of security: notice deadline",
+     "citation": "Conn. Gen. Stat. 36a-701b(b)(1)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_669.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-10-01",
+     "firstEnacted": "2006-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Such notice shall be made without unreasonable delay but not later than sixty days after the discovery of such breach, unless a shorter time is required under federal law",
+     "appliesTo": "Any person who owns, licenses or maintains computerized data that includes personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2e249d87b267658dda0f0660b905932de802aa09b85723773d05476399821dc4"
+    },
+    {
+     "title": "Breach of security: notice to Attorney General",
+     "citation": "Conn. Gen. Stat. 36a-701b(b)(2)(A)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_669.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-10-01",
+     "firstEnacted": "2006-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "shall, not later than the time when notice is provided to the resident, also provide notice of the breach of security to the Attorney General",
+     "appliesTo": "The person who owns, licenses or maintains computerized data that includes personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2e249d87b267658dda0f0660b905932de802aa09b85723773d05476399821dc4"
+    },
+    {
+     "title": "Breach of security: HIPAA and HITECH compliance deemed compliance",
+     "citation": "Conn. Gen. Stat. 36a-701b(h)",
+     "officialUrl": "https://www.cga.ct.gov/current/pub/chap_669.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-10-01",
+     "firstEnacted": "2021-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any person that is subject to and in compliance with the privacy and security standards under the Health Insurance Portability and Accountability Act of 1996 and the Health Information Technology for Economic and Clinical Health Act",
+     "appliesTo": "Persons subject to HIPAA and HITECH, who must still notify the Attorney General.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2e249d87b267658dda0f0660b905932de802aa09b85723773d05476399821dc4"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Both medical information and health insurance identifiers are in the definition. HIPAA-compliant entities are deemed compliant but must also notify the Attorney General. Section 36a-701b is not in the 2026 Supplement.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_CT",
+    "note": "Level 2 stands. Notice within 60 days, AG notice required, HIPAA-compliant entities deemed compliant but must notify the AG. Only the dates of three fact provisions are wrong.",
+    "problems": [
+     "effectiveDate 2023-10-01 is wrong for 36a-701b(b)(1), (b)(2)(A) and (h). History shows P.A. 23-98 did not amend them; their current text is from P.A. 21-59 s.1, effective October 1, 2021.",
+     "Note says chapter 669 was not in the 2026 Supplement. The chapter is in it; section 36a-701b is not."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q013"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 0,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [
+    {
+     "title": "CTDPA: rights after profiling in furtherance of an automated decision",
+     "citation": "Conn. Gen. Stat. 42-518(a)(6), as amended by P.A. 26-64, s. 13",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2026-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "if the consumer's personal data were processed for the purposes of profiling in furtherance of any automated decision that produced any legal or similarly significant effect concerning the consumer, and if feasible, (A) question the result of such profiling",
+     "appliesTo": "Controllers within Conn. Gen. Stat. 42-516.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dadca977dba5e7b6c29ef47d258a97c05ade1af6567d41b3656773eb5be6edc6"
+    },
+    {
+     "title": "CTDPA: decisions covered include health care services",
+     "citation": "Conn. Gen. Stat. 42-515, as amended by P.A. 26-64, s. 12",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2023-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "means any decision made by the controller, or on behalf of the controller, that results in the provision or denial by the controller of any financial or lending service, any housing, any insurance, any education enrollment or opportunity, any criminal justice, any employment opportunity or any health care service.",
+     "appliesTo": "Controllers within Conn. Gen. Stat. 42-516.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dadca977dba5e7b6c29ef47d258a97c05ade1af6567d41b3656773eb5be6edc6"
+    },
+    {
+     "title": "AI companions and minors: limit on offering mental health services",
+     "citation": "P.A. 26-15, s. 6(a)(1)(B)",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": "2027-01-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "(B) Offering mental health services to such user, unless (i) such artificial intelligence companion is designed to deliver mental health services to users",
+     "appliesTo": "operator of an artificial intelligence companion, where the operator knows, or has reason to believe, that the user is younger than eighteen years of age",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "98052c119778bff6d594a94c4a9f927f75212a2d814cf27afcf30d9274c11fbf"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/06/connecticut-enacts-comprehensive-ai-legislation",
+     "host": "hklaw.com",
+     "usedFor": "Found SB 5 (P.A. 26-15) and its effective dates."
+    },
+    {
+     "url": "https://www.techlicious.com/blog/connecticut-bans-ai-only-health-insurance-denials-for-state-workers/",
+     "host": "techlicious.com",
+     "usedFor": "Found Comptroller rules for state employee plans from 2027-01-01; not a statute or regulation."
+    },
+    {
+     "url": "https://cga.ct.gov/2026/rpt/pdf/2026-R-0094.pdf",
+     "host": "cga.ct.gov",
+     "usedFor": "OLR 2026 Acts Affecting Insurance; no AI coverage rule found."
+    }
+   ],
+   "note": "CTDPA lets a person question a profiling decision on health care services, but requires no human review, clinician role or AI disclosure. P.A. 26-15 companion rules take effect 2027-01-01.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_CT",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P04"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "in_force",
+   "deletionMechanism": true,
+   "provisions": [
+    {
+     "title": "Data broker registration with Department of Consumer Protection",
+     "citation": "P.A. 26-64, s. 2(a)",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2026-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "no data broker shall sell or license brokered personal data in this state on or after January 1, 2027, unless the data broker is actively registered with the Department of Consumer Protection",
+     "appliesTo": "data broker",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dadca977dba5e7b6c29ef47d258a97c05ade1af6567d41b3656773eb5be6edc6"
+    },
+    {
+     "title": "Accessible deletion mechanism program",
+     "citation": "P.A. 26-64, s. 5(a)(1)",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2026-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "Not later than July 1, 2028, the Commissioner of Consumer Protection shall establish an accessible deletion mechanism program.",
+     "appliesTo": "registered data brokers and data service providers",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dadca977dba5e7b6c29ef47d258a97c05ade1af6567d41b3656773eb5be6edc6"
+    }
+   ]
+  }
+ }
+}

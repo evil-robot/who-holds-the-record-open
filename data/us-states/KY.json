@@ -1,0 +1,558 @@
+{
+ "usps": "KY",
+ "fips": "21",
+ "name": "Kentucky",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Kentucky Consumer Data Protection Act: controller duties (sensitive data consent)",
+     "citation": "KRS 367.3617(1)(e)",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55839",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Not process sensitive data concerning a consumer without obtaining the consumer's consent",
+     "appliesTo": "persons that conduct business in the Commonwealth or produce products or services that are targeted to residents of the Commonwealth and that during a calendar year control or process personal data of at least: (a) One hundred thousand (100,000) consumers",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "87ab88cc2fee8a4cb749330e8c7e2e6bcdd18b03abb5e9eb65c88d4684b55624"
+    },
+    {
+     "title": "Kentucky Consumer Data Protection Act: definition of sensitive data",
+     "citation": "KRS 367.3611(28)",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55836",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "\"Sensitive data\" means a category of personal data that includes: (a) Personal data indicating racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexual orientation, or citizenship or immigration status;",
+     "appliesTo": "Same thresholds as KRS 367.3613(1). KRS 367.3613(2)(c) excludes any \"Covered entity or business associate governed by the privacy, security, and breach notification rules\" under HIPAA.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b6399f97db527ef512d0847c7def3760565515291b1677a5be5d12739c57b3f2"
+    },
+    {
+     "title": "Kentucky Consumer Data Protection Act: application and exemptions",
+     "citation": "KRS 367.3613",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56648",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Twenty-five thousand (25,000) consumers and derive over fifty percent (50%) of gross revenue from the sale of personal data.",
+     "appliesTo": "Alternative threshold in KRS 367.3613(1)(b). Exempt: nonprofit organizations, institutions of higher education, state agencies, HIPAA covered entities and business associates, protected health information and health records.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "960b24fdb49b35a09fbba7fdc85f57ffe145d99c9648a91328ea6ce23976e7b3"
+    },
+    {
+     "title": "Genetic Information Privacy Act: direct-to-consumer genetic testing companies",
+     "citation": "KRS 311.705(2)(b)2.",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=52988",
+     "linkedFrom": null,
+     "effectiveDate": "2022-07-14",
+     "firstEnacted": "2022-07-14",
+     "statusOfProvision": "in_force",
+     "quote": "Separate express consent for transferring or disclosing the consumer’s genetic data to any person other than the company’s vendors and service providers, or for using genetic data beyond the primary purpose of the genetic testing product or service and inherent contextual uses;",
+     "appliesTo": "Direct-to-consumer genetic testing companies. Does not apply to protected health information collected by a HIPAA covered entity or business associate.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b58aa6f02589f819e7500c73d5c413b21e4f03405da6cc2ba29623582c175600"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://securiti.ai/privacy-laws/us/kentucky/",
+     "host": "securiti.ai",
+     "usedFor": "Locating the Kentucky Consumer Data Protection Act"
+    },
+    {
+     "url": "https://law.justia.com/codes/kentucky/chapter-311/section-311-705/",
+     "host": "law.justia.com",
+     "usedFor": "Locating KRS 311.705 genetic data law"
+    }
+   ],
+   "note": "KCDPA in force 1 Jan 2026 requires opt-in consent for sensitive data, which includes mental or physical health diagnosis. AG enforces. A 2026 amendment effective 1 July 2027 adds smart TV content data; it does not change health terms.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_KY",
+    "note": "Level 2 holds. KRS 367.3617(1)(e) requires consent for sensitive data, effective 2026-01-01 (2024 Ky. Acts ch. 72). The KCDPA is a general privacy law, not a dedicated health data law, so level 3 does not apply. Only the genetic citation is wrong.",
+    "problems": [
+     "The genetic provision is cited as KRS 311.705(3), but the quoted text is KRS 311.705(2)(b)2. Subsection (3) is the bar on disclosure to insurers and employers without written consent."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q029"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "First copy of the patient's medical record on the patient's written request, from a licensed hospital or a health care provider"
+    ],
+    "feeRules": [
+     "KRS 422.317(1): \"A copying fee, not to exceed one dollar ($1) per page, may be charged by the health care provider for furnishing a second copy of the patient's medical record\""
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Copy of patient's medical record to be supplied on patient's written request",
+     "citation": "KRS 422.317",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=18145",
+     "linkedFrom": null,
+     "effectiveDate": "1996-07-15",
+     "firstEnacted": "1994-07-15",
+     "statusOfProvision": "in_force",
+     "quote": "Upon a patient's written request, a hospital licensed under KRS Chapter 216B or a health care provider shall provide, without charge to the patient, a copy of the patient's medical record.",
+     "appliesTo": "Hospitals licensed under KRS Chapter 216B and health care providers. The Department of Corrections is not a health care provider under this section.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2b47f2d3f126b19fa6c4c361fd30adc66d0570be552ac70a3f5ff223d0e3017f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://hoptownchronicle.org/will-kentucky-legislature-end-a-patients-right-to-one-free-copy-of-medical-records/",
+     "host": "hoptownchronicle.org",
+     "usedFor": "Learning of 2026 HB 51, which would amend KRS 422.317; the bill record shows only a committee referral"
+    },
+    {
+     "url": "https://law.justia.com/codes/kentucky/chapter-422/section-422-317/",
+     "host": "law.justia.com",
+     "usedFor": "Locating KRS 422.317"
+    }
+   ],
+   "note": "Free first copy, paper or electronic, goes beyond HIPAA and 45 CFR 171.302. KRS 422.317 sets no deadline. 2026 HB 51 would end the free copy; it was not enacted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KY",
+    "note": "beyondFederalFloor yes: a free first copy in any format goes beyond HIPAA and 45 CFR 171.302. No deadline. The 2026 HB 51 record I opened concerns family impact statements, so the note's bill number looks wrong."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Kentucky Health Information Exchange (KHIE), operated by the Cabinet for Health and Family Services, Office of Health Data and Analytics, Division of Health Information",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "KHIE Consent Model and Opt-Out Policy",
+     "citation": "KHIE Consent Management policy page",
+     "officialUrl": "https://khie.ky.gov/consent-management/Pages/default.aspx",
+     "linkedFrom": "https://apps.legislature.ky.gov/law/kar/titles/900/009/010/",
+     "effectiveDate": "2026-10-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "KHIE, the Kentucky Health Information Exchange, adopted the Opt-Out policy which means a patient's health information can be included in KHIE unless the patient chooses to opt out",
+     "appliesTo": "Patients whose providers participate in KHIE. Opt-out form published at https://khie.ky.gov/Resources/Pages/KHIE-Consent-Model.aspx",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "66d5230246791d5234325a02ed664f0d09a55799a71ef99f5e5c6c35dedcc634"
+    },
+    {
+     "title": "KHIE Consent Management Tool for substance use disorder data",
+     "citation": "KHIE Consent Management Tool page",
+     "officialUrl": "https://khie.ky.gov/Resources/Pages/KHIE-Consent-Management-Tool.aspx",
+     "linkedFrom": "https://apps.legislature.ky.gov/law/kar/titles/900/009/010/",
+     "effectiveDate": "2026-10-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Patients provide electronic signatures to opt in to share 42 CFR Part 2 protected health information.",
+     "appliesTo": "Substance use disorder records protected by 42 CFR Part 2",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "265f95363e9d48d559e47b848827abe71a4b12c6dc8ddd05b3b566aaa2b8ecb9"
+    },
+    {
+     "title": "Kentucky Health Information Exchange participation",
+     "citation": "900 KAR 9:010",
+     "officialUrl": "https://apps.legislature.ky.gov/law/kar/titles/900/009/010/",
+     "linkedFrom": null,
+     "effectiveDate": "2019-03-13",
+     "firstEnacted": "2012-10-17",
+     "statusOfProvision": "in_force",
+     "quote": "the Office of Health Data and Analytics, Division of Health Information (DHI) has implemented the Kentucky Health Information Exchange (KHIE).",
+     "appliesTo": "Health care providers that participate in KHIE",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "83b3be2e60abd50d5acf38cc7b5c56989a69ed8abbd92cc47e9de17361eb092f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "900 KAR 9:010 sets up KHIE but is silent on patient consent. Value comes from the published KHIE policy, which has no date; effectiveDate shows the date it was read as current. Part 2 SUD data needs opt-in.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KY",
+    "note": "900 KAR 9:010 (text effective 2019-03-13, certified 2026-01-26) has no consent rule. The opt-out value rests on KHIE policy on a ky.gov host. Part 2 records need opt-in, so stricterForSensitive is true."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion required to be reported to Vital Statistics Branch: report contents",
+      "citation": "KRS 213.101(3)",
+      "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=52216",
+      "linkedFrom": null,
+      "effectiveDate": "2022-04-14",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The report shall not contain: (a) The name of the pregnant patient; (b) Common identifiers such as a Social Security number and motor vehicle operator's license number; and (c) Any other information or identifiers that would make it possible to ascertain the patient's identity.",
+      "appliesTo": "Abortion reports to the Vital Statistics Branch",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "286197096e314655388d16099048f08f365ef5ce4c13b191d680a20c8e94f5cd"
+     },
+     {
+      "title": "Use of induced termination of pregnancy reports",
+      "citation": "KRS 213.106",
+      "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=8736",
+      "linkedFrom": null,
+      "effectiveDate": "1990-07-13",
+      "firstEnacted": "1990-07-13",
+      "statusOfProvision": "in_force",
+      "quote": "The reports required under KRS 213.101 are statistical reports to be used only for medical and health purposes and shall not be incorporated into the permanent official records of the system of vital statistics.",
+      "appliesTo": "Reports required under KRS 213.101",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "27b8ab9245a0bf4a22f0a4a59df54d10ae24bd30c6fecda3fbb72b325a12bf81"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "The rule found covers abortion reports to the state. It bars patient names and identifiers in the report. No rule found on disclosure of reproductive care records held by providers.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_KY",
+     "note": "KRS 213.101(3), current text effective 2022-04-14, and KRS 213.106, effective 1990-07-13, govern the content and use of abortion reports to the state. They do not cover provider-held records."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidential nature of records: conditions under which records may be disclosed",
+      "citation": "KRS 210.235",
+      "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=42998",
+      "linkedFrom": null,
+      "effectiveDate": "2014-07-15",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "shall be kept confidential and shall not be disclosed by any person, except insofar as: (1) The person identified or his guardian, if any, shall consent; or",
+      "appliesTo": "Applications, requests for admission and release, certifications, records and reports of the Cabinet for Health and Family Services that identify a patient or former patient",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ce6a5d0d18d2aa35ca2f5a14bfb2fbc95d9282026b60b18e918facd60ad451b6"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "KRS 210.235 covers state mental health program records held by the Cabinet. It allows disclosure with consent, for treatment and HIPAA purposes, and by court direction.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_KY",
+     "note": "KRS 210.235, current text effective 2014-07-15 (first enacted 1954), covers Cabinet records that identify a patient. It allows disclosure with consent, for treatment and HIPAA purposes, and by court direction."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Consent for HIV tests: confidentiality of results",
+      "citation": "KRS 214.625(5)(c)",
+      "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49029",
+      "linkedFrom": null,
+      "effectiveDate": "2019-06-27",
+      "firstEnacted": "1990-07-13",
+      "statusOfProvision": "in_force",
+      "quote": "No person who has obtained or has knowledge of a test result pursuant to this section shall disclose or be compelled to disclose the identity of any person upon whom a test is performed, or the results of the test in a manner which permits identification",
+      "appliesTo": "Any person who has obtained or has knowledge of an HIV test result under this section",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "cbe9d97104ee5d57732dbb37018980ce4d7769267f0333d90495163f577c8913"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "KRS 214.625 limits disclosure of HIV test results to listed persons. KRS 214.181 has a parallel rule. KRS 214.995 sets penalties.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_KY",
+     "note": "KRS 214.625(5)(c), current text effective 2019-06-27 (2019 Ky. Acts ch. 134), first enacted 1990-07-13. Disclosure is limited to listed persons.",
+     "resolution": [
+      {
+       "rows": [
+        "Q170"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic Information Privacy Act: genetic testing, collection and use of genetic data",
+      "citation": "KRS 311.705(2)(b)2.",
+      "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=52988",
+      "linkedFrom": null,
+      "effectiveDate": "2022-07-14",
+      "firstEnacted": "2022-07-14",
+      "statusOfProvision": "in_force",
+      "quote": "Separate express consent for transferring or disclosing the consumer’s genetic data to any person other than the company’s vendors and service providers, or for using genetic data beyond the primary purpose of the genetic testing product or service and inherent contextual uses;",
+      "appliesTo": "Direct-to-consumer genetic testing companies",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b58aa6f02589f819e7500c73d5c413b21e4f03405da6cc2ba29623582c175600"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/kentucky/chapter-311/section-311-705/",
+      "host": "law.justia.com",
+      "usedFor": "Locating KRS 311.705"
+     }
+    ],
+    "note": "KRS 311.705 requires separate express consent before a direct-to-consumer genetic testing company discloses genetic data. KRS 304.12-085 on insurers was named in a lead but not opened.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_KY",
+     "note": "Value yes holds. KRS 311.705, effective 2022-07-14 (2022 Ky. Acts ch. 169). The quoted consent rule is (2)(b)2. The quote above is (3). Both apply to direct-to-consumer genetic testing companies only.",
+     "problems": [
+      "Citation KRS 311.705(3) is wrong for the quote. The quoted text is KRS 311.705(2)(b)2. Subsection (3) is a different rule on insurers and employers."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q030"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None stated. KRS 365.730 allows a civil action to recover damages and an injunction."
+   },
+   "provisions": [
+    {
+     "title": "Civil action for damages or injunction for violation of KRS 365.725 (records disposal)",
+     "citation": "KRS 365.730(1)",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=34844",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-12",
+     "firstEnacted": "2006-07-12",
+     "statusOfProvision": "in_force",
+     "quote": "Any customer injured by a violation of KRS 365.725 may institute a civil action to recover damages.",
+     "appliesTo": "Businesses that dispose of customer records containing personally identifiable information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7c789369c508d0065345efee21aebfe599a5efd1306e9f248b77592ef9c79e57"
+    },
+    {
+     "title": "Definitions for KRS 365.720 to 365.730",
+     "citation": "KRS 365.720(4)",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=34842",
+     "linkedFrom": null,
+     "effectiveDate": "2006-07-12",
+     "firstEnacted": "2006-07-12",
+     "statusOfProvision": "in_force",
+     "quote": "driver identification number, personal identification card number or code, date of birth, medical information, financial information, tax information, and disability information",
+     "appliesTo": "Personally identifiable information of a customer of a business; banks, credit unions and savings associations are excluded",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "75c0ee99171d8d6596fed068e7360362beb7d907ab8ea285aab97065ef9a8a52"
+    },
+    {
+     "title": "Kentucky Consumer Data Protection Act: no private right of action",
+     "citation": "KRS 367.3627(4)",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55844",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Nothing in KRS 367.3611 to 367.3629 or any other law, regulation, or the equivalent shall be construed as providing the basis for, or give rise to, a private right of action for violations of KRS 367.3611 to 367.3629.",
+     "appliesTo": "KCDPA controllers and processors",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7a8757954ee45f6a454ce36d0bd5c1f67d7844031d4e8148520f07cd00374e5c"
+    },
+    {
+     "title": "Penalty no bar to civil recovery",
+     "citation": "KRS 446.070",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=19395",
+     "linkedFrom": null,
+     "effectiveDate": "1942-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A person injured by the violation of any statute may recover from the offender such damages as he sustained by reason of the violation, although a penalty or forfeiture is imposed for such violation.",
+     "appliesTo": "Any statute; not tied by its own words to a health data law",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1952004495287092642456ea5b68ab15cf7e4bc436be696cbf2f65df2849c812"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Level 1 rests on KRS 365.730, a suit for failing to destroy records that include medical information. KCDPA bars private suits. KRS 446.070 is a general statute that no health law cross-references, so it is not counted.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KY",
+    "note": "KRS 365.730, effective 2006-07-12, allows suit for failing to destroy records that hold medical information. KCDPA, KRS 311.705, KRS 61.933(6) and KRS 214.625 give no private suit."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "most expedient time possible and without unreasonable delay",
+    "regulatorNotice": false,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Notification to affected persons of computer security breach",
+     "citation": "KRS 365.732",
+     "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=43326",
+     "linkedFrom": null,
+     "effectiveDate": "2014-07-15",
+     "firstEnacted": "2014-07-15",
+     "statusOfProvision": "in_force",
+     "quote": "\"Personally identifiable information\" means an individual's first name or first initial and last name in combination with any one (1) or more of the following data elements, when the name or data element is not redacted: 1. Social Security number; 2. Driver's license number; or",
+     "appliesTo": "Any person or business entity that conducts business in this state. Does not apply to persons subject to HIPAA or Gramm-Leach-Bliley, or to state and local agencies.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6b4827d89412020225f78cbc724d2180149c7bfdf69f14564112d6bf2da19dea"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Definition lists SSN, driver's license and financial account numbers only. No AG notice; consumer reporting agencies are told if over 1,000 persons. HIPAA-covered persons are exempt outright under KRS 365.732(8).",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_KY",
+    "note": "KRS 365.732 (private sector, 2014-07-15) has no health data, so its level is 0. KRS 61.931 covers agencies and their contractors and includes health information. Health insurance is not named separately, so level 1.",
+    "problems": [
+     "Missed KRS 61.931(6)(f), effective 2015-01-01: the state agency breach law defines personal information to include individually identifiable health information under 45 CFR 160.103.",
+     "hipaaDeemedCompliant true is wrong. KRS 365.732(8) exempts HIPAA-covered persons outright. It has no clause deeming HIPAA-compliant entities compliant.",
+     "For the agency law, KRS 61.933(1)(a) requires notice to the Attorney General within 72 hours."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q031"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://apps.legislature.ky.gov/lrcsearch",
+    "terms": [
+     "artificial intelligence health care",
+     "artificial intelligence prior authorization",
+     "artificial intelligence utilization review",
+     "mental health chatbot",
+     "consequential decision"
+    ],
+    "regulatorPagesChecked": [
+     "https://insurance.ky.gov/ppc/Documents/Bulletin%202026-03.pdf",
+     "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55893",
+     "https://apps.legislature.ky.gov/law/acts/26RS/documents/0102.pdf",
+     "https://apps.legislature.ky.gov/record/26rs/hb455.html",
+     "https://apps.legislature.ky.gov/record/26RS/hb641.html",
+     "https://apps.legislature.ky.gov/record/26rs/sb175.html"
+    ],
+    "leadsChecked": [
+     "https://www.sheppard.com/insights/blogs/state-legislatures-consider-oversight-of-artificial-intelligence-in-health-insurance-decisions",
+     "https://fpf.org/blog/the-state-of-state-ai-legislative-approaches-to-ai-in-2025/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://fpf.org/blog/the-state-of-state-ai-legislative-approaches-to-ai-in-2025/",
+     "host": "fpf.org",
+     "usedFor": "Locating 2025 SB 4 on state agency AI use"
+    }
+   ],
+   "note": "KRS 42.722 (2025 SB 4) covers state agency AI and does not name health care. 2026 HB 455, HB 641 and SB 175 on AI in therapy and health were not enacted. 2026 HB 176 on prior authorization has no AI terms.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_KY",
+    "note": "My search found no in-force law. 2026 HB 455 passed the House but stopped in the Senate. HB 641 and SB 175 stayed in committee. Acts ch. 102 (HB 176) has no AI terms. KRS 42.722 does not name health."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

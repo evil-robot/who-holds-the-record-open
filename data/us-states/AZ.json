@@ -1,0 +1,889 @@
+{
+ "usps": "AZ",
+ "fips": "04",
+ "name": "Arizona",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Genetic Information Privacy Act: direct-to-consumer genetic testing company requirements",
+     "citation": "A.R.S. 44-8002(A)(2) (Laws 2021, ch. 254, HB 2069)",
+     "officialUrl": "https://www.azleg.gov/ars/44/08002.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-09-29",
+     "firstEnacted": "2021-09-29",
+     "statusOfProvision": "in_force",
+     "quote": "Obtain a consumer's consent for collecting, using or disclosing the consumer's genetic data, including: (a) Initial express consent that clearly describes the uses of the genetic data collected through the genetic testing product or service",
+     "appliesTo": "\"Direct-to-consumer genetic testing company\" or \"company\" means an entity that offers genetic testing products or services directly to consumers (44-8001). Chapter does not apply to \"Protected health information that is collected by a covered entity or business associate\" (44-8003).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "23f0e810c3f3c55d10ea80c48c8405539d59332ef04da1def72d64a8bb9a22c5"
+    },
+    {
+     "title": "Genetic Information Privacy Act: separate consent to transfer or disclose",
+     "citation": "A.R.S. 44-8002(A)(2)(b)(i)",
+     "officialUrl": "https://www.azleg.gov/ars/44/08002.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-09-29",
+     "firstEnacted": "2021-09-29",
+     "statusOfProvision": "in_force",
+     "quote": "(b) Separate express consent for any of the following: (i) Transferring or disclosing the consumer's genetic data to any person other than the company's vendors and service providers.",
+     "appliesTo": "Direct-to-consumer genetic testing companies only (44-8001, paragraph 4).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "23f0e810c3f3c55d10ea80c48c8405539d59332ef04da1def72d64a8bb9a22c5"
+    },
+    {
+     "title": "Genetic Information Privacy Act: definitions",
+     "citation": "A.R.S. 44-8001",
+     "officialUrl": "https://www.azleg.gov/ars/44/08001.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-09-29",
+     "firstEnacted": "2021-09-29",
+     "statusOfProvision": "in_force",
+     "quote": "\"Express consent\" means a consumer's affirmative response to a clear and prominent notice regarding collecting, using or disclosing genetic data for a specific purpose.",
+     "appliesTo": "\"Consumer\" means an individual who is a resident of this state.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3fa228346f01e7486661f16d035d9709f8fdd7b708a4fac14b7edb763ea92aa8"
+    },
+    {
+     "title": "Session law adding the Genetic Information Privacy Act",
+     "citation": "Laws 2021, ch. 254 (HB 2069), approved April 20, 2021",
+     "officialUrl": "https://www.azleg.gov/legtext/55leg/1R/laws/0254.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2021-09-29",
+     "firstEnacted": "2021-09-29",
+     "statusOfProvision": "in_force",
+     "quote": "AMENDING TITLE 44, ARIZONA REVISED STATUTES, BY ADDING CHAPTER 38; RELATING TO GENETIC TESTING COMPANIES.",
+     "appliesTo": "No effective date clause; 2021 general effective date 09-29-2021 per https://www.azleg.gov/general-effective-dates/",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7e27c5183686c8706b041deebe11c0499680b220d60b1bc92cd86c3855746179"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/arizona/title-44/section-44-8002/",
+     "host": "law.justia.com",
+     "usedFor": "Found the DTC genetic testing law"
+    },
+    {
+     "url": "https://www.azleg.gov/legtext/55leg/1R/summary/S.2069HHS_STRIKERMEMO.DOCX.htm",
+     "host": "www.azleg.gov",
+     "usedFor": "Bill summary; general effective date"
+    },
+    {
+     "url": "https://termly.io/us-data-privacy-laws/",
+     "host": "termly.io",
+     "usedFor": "Check for a comprehensive privacy law (none enacted; SB 1815 of 2026 died)"
+    },
+    {
+     "url": "https://www.recordinglaw.com/us-laws/data-privacy-laws/arizona-data-privacy-laws/",
+     "host": "www.recordinglaw.com",
+     "usedFor": "Check for a comprehensive privacy law"
+    }
+   ],
+   "note": "No comprehensive consumer privacy law found. Level 2 rests on the 2021 Genetic Information Privacy Act, which requires express consent from one class of non-HIPAA holder: direct-to-consumer genetic testing companies.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AZ",
+    "note": "Express consent binds one non-HIPAA class, DTC genetic testing companies, from 2021-09-29. No comprehensive privacy law: azleg API shows SB 1815 (2026) Held in Committees. The session-law quote is the act title and supports the date only."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 10,
+    "freeCopyCases": [
+     "Records sent to another health care provider for continuing care (12-2295(B)(1))",
+     "Patient request for the demonstrated purpose of obtaining health care (12-2295(B)(2))",
+     "Health care decision maker request to obtain health care for the patient (12-2295(B)(3))",
+     "Patient or legal representative appealing a denial of Social Security benefits, first request in a calendar year (12-2295(B)(5))"
+    ],
+    "feeRules": [
+     "\"a health care provider or contractor may charge a person who requests reproductions of medical records or payment records a reasonable fee for the reproduction of the records pursuant to this section\" (12-2295(A)); no dollar amount or per-page cap stated in 12-2295"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Release of medical records to patients; time frames",
+     "citation": "A.R.S. 12-2293(E)(1)(a) (Laws 2026, ch. 98, HB 2557)",
+     "officialUrl": "https://www.azleg.gov/ars/12/02293.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "1. If the request is made by a patient or the patient's health care decision maker and is for the purpose of upcoming medical treatment: (a) Within ten business days after receiving the request if the medical records are less than twelve months old",
+     "appliesTo": "Health care providers. Ten business days for records under 12 months old in the current EHR system; fifteen business days if 12 months or older; thirty calendar days for other purposes, including personal copies.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1009734adfe31c793d0e154c1559c0a9c147dc0f739c6d735ed9bdfb166e3637"
+    },
+    {
+     "title": "Release of medical records to patients; general promptness rule",
+     "citation": "A.R.S. 12-2293(A) (Laws 2026, ch. 98, HB 2557)",
+     "officialUrl": "https://www.azleg.gov/ars/12/02293.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the health care provider in possession of the medical record or payment record shall provide access to or copies of the medical records or payment records to the patient or the patient's health care decision maker promptly and within not more than seven business days.",
+     "appliesTo": "Health care provider in possession of the record; subsection E applies \"Notwithstanding any other provision of this section\".",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1009734adfe31c793d0e154c1559c0a9c147dc0f739c6d735ed9bdfb166e3637"
+    },
+    {
+     "title": "Session law: releasing medical records; promptness",
+     "citation": "Laws 2026, ch. 98 (HB 2557), approved June 4, 2026",
+     "officialUrl": "https://www.azleg.gov/legtext/57leg/2R/laws/0098.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "WITHIN TEN BUSINESS DAYS AFTER RECEIVING THE REQUEST IF THE",
+     "appliesTo": "No effective date clause; 2026 general effective date 09-12-2026 per https://www.azleg.gov/general-effective-dates/",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2ee6412cdca520e584910b47e57985396a3e0c15cfa11414b8d7d095d8c7ccd0"
+    },
+    {
+     "title": "Charges for medical records; free copies for continuing care",
+     "citation": "A.R.S. 12-2295(B)(1)",
+     "officialUrl": "https://www.azleg.gov/ars/12/02295.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2019-08-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "B. A health care provider or contractor shall not charge for the pertinent information contained in medical records provided to: 1. Another health care provider for the purpose of providing continuing care to the patient to whom the medical record pertains.",
+     "appliesTo": "Health care providers and contractors.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "05382badb40eb785c241b2be9c6035420f8a854ba5e96e546c543e1176bf4b08"
+    },
+    {
+     "title": "Charges for medical records; free copy for Social Security appeal",
+     "citation": "A.R.S. 12-2295(B)(5) (Laws 2019, ch. 171, SB 1169)",
+     "officialUrl": "https://www.azleg.gov/ars/12/02295.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2019-08-27",
+     "firstEnacted": "2019-08-27",
+     "statusOfProvision": "in_force",
+     "quote": "5. The patient or the patient's legal representative for the purpose of appealing a denial of benefits under the social security act.",
+     "appliesTo": "Health care providers and contractors; later requests in the same calendar year may carry a reasonable fee; a legal representative must provide form SSA-1696.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "05382badb40eb785c241b2be9c6035420f8a854ba5e96e546c543e1176bf4b08"
+    },
+    {
+     "title": "Session law adding the Social Security appeal free copy",
+     "citation": "Laws 2019, ch. 171 (SB 1169), approved May 6, 2019",
+     "officialUrl": "https://www.azleg.gov/legtext/54leg/1R/laws/0171.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2019-08-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "PURPOSE OF APPEALING A DENIAL OF BENEFITS UNDER THE SOCIAL SECURITY ACT.",
+     "appliesTo": "No effective date clause; 2019 general effective date 08-27-2019 per https://www.azleg.gov/general-effective-dates/",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "853765ad927f78b8741fd5874cf9e36f6a0c53a1dfaa8b7e23ba3cc6dc427bba"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.chartrequest.com/articles/arizona-hb2557-medical-records-deadline",
+     "host": "www.chartrequest.com",
+     "usedFor": "Found HB 2557 (2026) deadline amendment"
+    },
+    {
+     "url": "https://www.billtrack50.com/billdetail/1937770",
+     "host": "www.billtrack50.com",
+     "usedFor": "HB 2557 status"
+    },
+    {
+     "url": "https://legiscan.com/AZ/bill/HB2557/2026",
+     "host": "legiscan.com",
+     "usedFor": "HB 2557 chapter number"
+    },
+    {
+     "url": "https://law.justia.com/codes/arizona/2022/title-12/section-12-2295/",
+     "host": "law.justia.com",
+     "usedFor": "Found 12-2295 and SB 1169"
+    }
+   ],
+   "note": "Deadline: 10 business days (records under 12 months) or 15 business days, only for requests for upcoming treatment; personal copies get 30 calendar days. Free copies for continuing care, obtaining care and Social Security appeals go beyond HIPAA and 45 CFR 171.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AZ",
+    "note": "beyondFederalFloor yes. Free paper copies for a Social Security appeal and for obtaining care go beyond 164.524 and 171.302. The 10 business day deadline covers upcoming treatment requests only. Laws 2026 ch. 98 took effect 2026-09-12.",
+    "resolution": [
+     {
+      "rows": [
+       "Q106",
+       "Q107"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "Contexture (operates Health Current, Arizona's HIE)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Individual right to opt out of health information organizations",
+     "citation": "A.R.S. 36-3803 (Laws 2019, ch. 311, SB 1321)",
+     "officialUrl": "https://www.azleg.gov/ars/36/03803.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2019-08-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Except as otherwise provided in state or federal law, an individual has the right to opt out of having the individual's individually identifiable health information accessible through a health information organization by providing notice as explained in the health information organization's notice of health information practices.",
+     "appliesTo": "Health information organizations and participating health care providers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "804392874966bdf0ff6ebb33663cd4df5b68dcdbcdbe9e6cf6d25e3d047f565a"
+    },
+    {
+     "title": "Disclosure through a health information organization; conditions",
+     "citation": "A.R.S. 36-3805(A)(1)",
+     "officialUrl": "https://www.azleg.gov/ars/36/03805.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2019-08-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "1. The individual has not opted out of having the individual's individually identifiable health information accessible through the health information organization.",
+     "appliesTo": "Disclosure through a health information organization.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e766e20fd9cf4842a182b2cfd8743b9ac1410dbb37eee324df1278f7562d22f8"
+    },
+    {
+     "title": "Session law: health information organizations",
+     "citation": "Laws 2019, ch. 311 (SB 1321)",
+     "officialUrl": "https://azleg.gov/legtext/54leg/1R/laws/0311.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2019-08-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "AMENDING SECTIONS 36-509, 36-664, 36-3801, 36-3802, 36-3803, 36-3804, 36-3805 AND 36-3806, ARIZONA REVISED STATUTES; REPEALING SECTION 36-3807, ARIZONA REVISED STATUTES;",
+     "appliesTo": "No effective date clause; 2019 general effective date 08-27-2019 per https://www.azleg.gov/general-effective-dates/",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "42d7224cf6451a53efed4dda526057f4d62e350a67a5f507d682d6c4aa4a3668"
+    },
+    {
+     "title": "AHCCCS member guide: What is the HIE? (names Contexture; Part 2 records blocked without consent)",
+     "citation": "AHCCCS Office of Individual and Family Affairs, What is the HIE?, 2024-12-20",
+     "officialUrl": "https://www.azahcccs.gov/AHCCCS/Downloads/WhatisHIE.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2024-12-20",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "No, providers can decide to enroll in the HIE through Contexture, the organization in Arizona that manages the HIE.",
+     "appliesTo": "Providers enrolled in the HIE through Contexture.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8b2ea5156d9e6225e8caaacf1c7d79d97d72d4f78e1c477f77aa6001c0289884"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://contexture.org/hie-opt-in-opt-out/",
+     "host": "contexture.org",
+     "usedFor": "HIE opt-out practice"
+    },
+    {
+     "url": "https://law.justia.com/codes/arizona/title-36/section-36-3803/",
+     "host": "law.justia.com",
+     "usedFor": "Found 36-3803 and SB 1321"
+    }
+   ],
+   "note": "Statute sets opt-out. The AHCCCS page says 42 CFR Part 2 substance use records are blocked in the HIE without written consent, so stricterForSensitive is true. That rule is federal; the state HIO chapter defers to it.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AZ",
+    "note": "Statute sets opt-out, from Laws 2019 ch. 311 (2019-08-27). AHCCCS publishes the way to opt out. Part 2 records need written consent, so stricterForSensitive true. The session-law quote is the act title."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion reports; confidentiality",
+      "citation": "A.R.S. 36-2163(E) (Laws 2018, ch. 219, SB 1394)",
+      "officialUrl": "https://www.azleg.gov/ars/36/02163.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2019-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a report filed pursuant to this article is not a public record and is not available for public inspection, except that disclosure may be made to law enforcement officials on an order of a court after application showing good cause.",
+      "appliesTo": "Abortion, complication and informed consent reports filed under title 36, chapter 20, article 2.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "4accd38930b5d1925d9d15d62af9fd89992b8172cf4e2b981076779193540308"
+     },
+     {
+      "title": "Session law amending 36-2163",
+      "citation": "Laws 2018, ch. 219 (SB 1394), Sec. 5",
+      "officialUrl": "https://azleg.gov/legtext/53leg/2r/laws/0219.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2019-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "This act is effective from and after December 31, 2018.",
+      "appliesTo": "Amends 36-2161, 36-2162 and 36-2163 and adds 36-2162.01.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "6d26b0ac357d514cf7f2d84e947e366b4ec4af870a08b42aae80d2fd10afcf9c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://azgovernor.gov/office-arizona-governor/executive-order/2023-11",
+      "host": "azgovernor.gov",
+      "usedFor": "Executive Order 2023-11 on out-of-state investigations; an executive order, not a statute or regulation, so not recorded as a provision"
+     },
+     {
+      "url": "https://www.guttmacher.org/state-policy/explore/shield-laws-sexual-and-reproductive-health-care",
+      "host": "www.guttmacher.org",
+      "usedFor": "Check for a reproductive records statute"
+     }
+    ],
+    "note": "36-2163 keeps abortion reports out of public records and limits disclosure to law enforcement to court orders. Executive Order 2023-11 was noted but not counted. No statute limiting disclosure to other states was found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AZ",
+     "note": "36-2163(E) text matches Laws 2018 ch. 219, effective 2019-01-01. It covers abortion reports filed with the state. No statute on disclosure to other states was found."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental health records; confidential records",
+      "citation": "A.R.S. 36-509(A)",
+      "officialUrl": "https://www.azleg.gov/ars/36/00509.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2019-08-27",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A health care entity must keep records and information contained in records confidential and not as public records, except as provided in this section.",
+      "appliesTo": "Health care entities holding records under title 36, chapter 5 (mental health services).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "cddf8dba918f295d06a56c3890d0d8c64ac157decf405116ff03c343fa4d4aec"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://codes.findlaw.com/az/title-36-public-health-and-safety/az-rev-st-sect-36-509/",
+      "host": "codes.findlaw.com",
+      "usedFor": "Section history search"
+     }
+    ],
+    "note": "Subsection A text dates from Laws 2019, ch. 311. A later act added paragraph 23 (medical examiner); that act was not identified. 36-509 lists 23 permitted recipients.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AZ",
+     "note": "Paragraph 23 came from Laws 2019 ch. 239 (SB 1240), also a 2019 regular session act. So 2019-08-27 is the right date for the current text."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Communicable disease information; HIV-related information",
+      "citation": "A.R.S. 36-664(J) (as reenacted by Laws 2022, ch. 246, HB 2433)",
+      "officialUrl": "https://www.azleg.gov/ars/36/00664.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2022-09-24",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a person who receives HIV-related information in the course of providing a health service or pursuant to a release of HIV-related information shall not disclose that information to another person or legal entity",
+      "appliesTo": "Persons receiving HIV-related information; does not apply to \"persons or entities that are subject to regulation under title 20\" (36-664(K)).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "5ca5e4077a21c4dc039acda6eed16229acebc6970cb287cd01902abd233395b6"
+     },
+     {
+      "title": "Session law amending 36-664",
+      "citation": "Laws 2022, ch. 246 (HB 2433), approved May 20, 2022",
+      "officialUrl": "https://www.azleg.gov/legtext/55leg/2r/laws/0246.pdf",
+      "linkedFrom": null,
+      "effectiveDate": "2022-09-24",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "REPEALING SECTION 36-663, ARIZONA REVISED STATUTES; AMENDING SECTION 36-664, ARIZONA REVISED STATUTES; RELATING TO COMMUNICABLE DISEASE INFORMATION.",
+      "appliesTo": "No effective date clause; 2022 general effective date 09-24-2022 per https://www.azleg.gov/general-effective-dates/",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "9986bf7f0eb15502cd99aaaac4575c22ed485db58776315a98c88c5b09540801"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.billtrack50.com/billdetail/1423929",
+      "host": "www.billtrack50.com",
+      "usedFor": "Found HB 2433 (2022)"
+     }
+    ],
+    "note": "36-664(J) bars disclosure of HIV-related information and bars compelled disclosure by subpoena except by a 36-665 order. Subsection K changed after 2022 by an act not identified; J text matches the 2022 act.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AZ",
+     "note": "Subsection J matches Laws 2022 ch. 246. The 36-663 reference in K appears to be struck text in that act, not a later amendment. The session-law quote is the act title."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of genetic testing results; disclosure",
+      "citation": "A.R.S. 12-2802(A) (Laws 2019, ch. 250, SB 1297)",
+      "officialUrl": "https://www.azleg.gov/ars/12/02802.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2019-08-27",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "genetic testing and information derived from genetic testing are confidential and considered privileged to the person tested and shall be released only as authorized by state or federal law",
+      "appliesTo": "Any holder of genetic testing information, subject to the listed exceptions.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "9ad2bf4892d3ae8c7bbdcf0405d3e1dccfc1c6a2e6bdf965073cff8e198558ef"
+     },
+     {
+      "title": "Session law amending 12-2802",
+      "citation": "Laws 2019, ch. 250 (SB 1297), approved May 22, 2019",
+      "officialUrl": "https://www.azleg.gov/legtext/54leg/1R/laws/0250.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2019-08-27",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "genetic testing and information derived from genetic testing are confidential and considered privileged to the person tested and shall be released only as authorized by state or federal law",
+      "appliesTo": "No effective date clause; 2019 general effective date 08-27-2019 per https://www.azleg.gov/general-effective-dates/",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "3de60c6ab27bc661c2325dda60930206a899d46777328721f0b7298972b94897"
+     },
+     {
+      "title": "Direct-to-consumer genetic testing company; disclosure to insurers and employers",
+      "citation": "A.R.S. 44-8002(B)",
+      "officialUrl": "https://www.azleg.gov/ars/44/08002.htm",
+      "linkedFrom": null,
+      "effectiveDate": "2021-09-29",
+      "firstEnacted": "2021-09-29",
+      "statusOfProvision": "in_force",
+      "quote": "a direct-to-consumer genetic testing company may not disclose a consumer's genetic data to any entity offering health insurance, life insurance or long-term care insurance or to any employer of the consumer.",
+      "appliesTo": "Direct-to-consumer genetic testing companies.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "23f0e810c3f3c55d10ea80c48c8405539d59332ef04da1def72d64a8bb9a22c5"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.azleg.gov/legtext/54leg/1r/laws/0250.htm",
+      "host": "www.azleg.gov",
+      "usedFor": "Found SB 1297 via search"
+     }
+    ],
+    "note": "12-2802 makes genetic test information confidential and privileged. 44-8002 bars DTC genetic testing companies from disclosing genetic data to insurers or employers. 12-2804(B) bars state agencies and local health authorities from releasing genetic testing information; it is recorded undated.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_AZ",
+     "note": "Value yes rests on 12-2802(A), amended by Laws 2019 ch. 250, effective 2019-08-27. The 12-2804 date could not be found on a primary page, so leave it unset.",
+     "problems": [
+      "12-2804 effectiveDate 2019-08-27 is assumed. Laws 2019 ch. 250 amends only 12-2802 and 20-448.02, not 12-2804.",
+      "The session-law quote for ch. 250 is the act title, not operative text."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q005"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None stated. 36-668 allows \"legal and equitable relief\". 44-8004 allows actual damages, but only in an attorney general action."
+   },
+   "provisions": [
+    {
+     "title": "Communicable disease information; private right of action",
+     "citation": "A.R.S. 36-668",
+     "officialUrl": "https://www.azleg.gov/ars/36/00668.htm",
+     "linkedFrom": null,
+     "effectiveDate": null,
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A protected person may bring an action in superior court for legal and equitable relief on his own behalf against a person who violates this article.",
+     "appliesTo": "Violations of title 36, chapter 6, article 4 (communicable disease related information, including HIV). Not applicable to entities regulated under title 20 (36-664(K)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7911d29fe2af7302b5a098028d3ac2f014cd810c33413a4ba547e9d65c047790",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    },
+    {
+     "title": "Breach notification enforcement",
+     "citation": "A.R.S. 18-552(L)",
+     "officialUrl": "https://www.azleg.gov/ars/18/00552.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2022-09-24",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A knowing and wilful violation of this section is an unlawful practice pursuant to section 44-1522, and only the attorney general may enforce such a violation",
+     "appliesTo": "Breach notification law; attorney general enforcement only.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2c5c4e4ae407f08901724930b60a3a51a4cd7e6871d9c77c74b900c246eec582"
+    },
+    {
+     "title": "Genetic Information Privacy Act enforcement",
+     "citation": "A.R.S. 44-8004",
+     "officialUrl": "https://www.azleg.gov/ars/44/08004.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2021-09-29",
+     "firstEnacted": "2021-09-29",
+     "statusOfProvision": "in_force",
+     "quote": "The attorney general may bring an action to enforce this chapter.",
+     "appliesTo": "Direct-to-consumer genetic testing companies; civil penalty up to $2,500 per violation.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1b602ad6428503652925b5176e499b07dedc8db1d745dd9e06140851738de06b"
+    },
+    {
+     "title": "Medical records; good-faith immunity",
+     "citation": "A.R.S. 12-2296",
+     "officialUrl": "https://www.azleg.gov/ars/12/02296.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2011-07-20",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A health care provider, contractor or clinical laboratory that acts in good faith under this article is not liable for damages in any civil action for the disclosure of medical records",
+     "appliesTo": "Medical records article (12-2291 et seq.); no private right of action stated in 12-2292 or 12-2296.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "579ebfec7e68366b2403c417cbb581ef32ff4a719ddec1d0c245962ef5e6afdd",
+     "effectiveDateSource": {
+      "url": "https://www.azleg.gov/legtext/50leg/1r/laws/0268.pdf",
+      "quote": "APPROVED BY THE GOVERNOR APRIL 26, 2011.",
+      "rawSha256": "81ba940459e6b2c2b22fd314147638950abcab3e0f681a81be2095dd9003cd41",
+      "defaultRule": "Ariz. Const. art. IV, pt. 1, sec. 1(3) (https://www.azleg.gov/const/4/1.p1.htm): \"no act passed by the legislature shall be operative for ninety days after the close of the session of the legislature enacting such measure, except such as require earlier operation to preserve the public peace, health or safety\". The general effective date for the 2011 Fiftieth Legislature, First Regular Session is 07-20-2011 per https://www.azleg.gov/general-effective-dates/.",
+      "retrievedAt": "2026-10-04T09:27:12Z"
+     }
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.lawserver.com/law/state/arizona/az-laws/arizona_laws_title_36_chapter_6_article_4",
+     "host": "www.lawserver.com",
+     "usedFor": "Located the communicable disease article"
+    }
+   ],
+   "note": "Level 1: right to sue limited to communicable disease and HIV information (36-668). The azleg page shows no history note; 36-668 was in force by 2019-08-27, since Laws 2019 ch. 311 cites it. The 12-2296 date was not found.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_AZ",
+    "note": "Level 1 holds: a right to sue limited to communicable disease information. 44-8004 and 18-552 allow AG enforcement only. The azleg page shows no history note, and I found no primary date for 36-668.",
+    "problems": [
+     "36-668 carries the level but has effectiveDate null. Every evidenced provision needs an effectiveDate.",
+     "12-2296 also has effectiveDate null."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q006",
+       "Q160",
+       "Q161"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q3",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "45 days after determination of a breach",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Data security breaches; definitions (specified data element)",
+     "citation": "A.R.S. 18-551 (Laws 2018, ch. 177, HB 2154)",
+     "officialUrl": "https://www.azleg.gov/ars/18/00551.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2018-08-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(e) An individual's health insurance identification number. (f) Information about an individual's medical or mental health treatment or diagnosis by a health care professional.",
+     "appliesTo": "A person that conducts business in this state and owns, maintains or licenses unencrypted and unredacted computerized personal information (18-552(A)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ef80321df28778ba48b64eca413060903b4d64790b08e77ffe8634f015baaa3f"
+    },
+    {
+     "title": "Session law adding health data elements",
+     "citation": "Laws 2018, ch. 177 (HB 2154), approved April 11, 2018",
+     "officialUrl": "https://www.azleg.gov/legtext/53leg/2R/laws/0177.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2018-08-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(e) AN INDIVIDUAL'S HEALTH INSURANCE IDENTIFICATION NUMBER.",
+     "appliesTo": "No effective date clause found; 2018 general effective date 08-03-2018 per https://www.azleg.gov/general-effective-dates/",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2cebabcc717fb5cf3024ddab325373f6b91248dcd77f9829b427339c882e6353"
+    },
+    {
+     "title": "Notification of security system breaches; deadline and regulator notice",
+     "citation": "A.R.S. 18-552(B) (Laws 2022, ch. 81, HB 2146)",
+     "officialUrl": "https://www.azleg.gov/ars/18/00552.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2022-09-24",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If the investigation results in a determination that there has been a security system breach, the person that owns or licenses the computerized data, within forty-five days after the determination, shall:",
+     "appliesTo": "If more than 1,000 individuals: notice to the three largest consumer reporting agencies, the attorney general and the director of the Arizona department of homeland security.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2c5c4e4ae407f08901724930b60a3a51a4cd7e6871d9c77c74b900c246eec582"
+    },
+    {
+     "title": "Breach law exception for HIPAA covered entities",
+     "citation": "A.R.S. 18-552(N)(2)",
+     "officialUrl": "https://www.azleg.gov/ars/18/00552.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2022-09-24",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A covered entity or business associates as defined under regulations implementing the health insurance portability and accountability act of 1996",
+     "appliesTo": "The article \"does not apply to\" HIPAA covered entities and business associates; 18-552(I) also deems compliance with a federal regulator's rules as compliance.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2c5c4e4ae407f08901724930b60a3a51a4cd7e6871d9c77c74b900c246eec582"
+    },
+    {
+     "title": "Session law amending 18-552",
+     "citation": "Laws 2022, ch. 81 (HB 2146), approved March 29, 2022",
+     "officialUrl": "https://www.azleg.gov/legtext/55leg/2R/laws/0081.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2022-09-24",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "AMENDING SECTION 18-552, ARIZONA REVISED STATUTES; RELATING TO DATA SECURITY BREACHES.",
+     "appliesTo": "No effective date clause; 2022 general effective date 09-24-2022 per https://www.azleg.gov/general-effective-dates/",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dea17988ce8713016bd0c9bd22887c4e2d04faaa616c93f38f1b963cf502b25d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.dataguidance.com/news/arizona-bill-amend-breach-notification-requirements",
+     "host": "www.dataguidance.com",
+     "usedFor": "Found HB 2146 (2022)"
+    },
+    {
+     "url": "https://natlawreview.com/article/more-breach-law-changes-arizona-updates-notice-law",
+     "host": "natlawreview.com",
+     "usedFor": "Found HB 2154 (2018)"
+    }
+   ],
+   "note": "Both medical information and health insurance ID numbers are data elements. HIPAA covered entities and business associates are outside the article, recorded as hipaaDeemedCompliant true. No later amendment of 18-551 was found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AZ",
+    "note": "Both elements are in 18-551, matching Laws 2018 ch. 177. 45-day notice. AG and homeland security notice over 1,000 people. 18-552(N)(2) excludes HIPAA entities. The ch. 81 quote is the act title."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [
+    {
+     "title": "Denial of claims; review of claims",
+     "citation": "A.R.S. 20-3103 (Laws 2025, ch. 165, HB 2175)",
+     "officialUrl": "https://www.azleg.gov/ars/20/03103.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2026-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "health care insurer may deny a claim that was submitted by a provider on the basis of medical necessity, the medical director shall individually review the denial. During each individual review, the medical director shall exercise independent medical judgment and may not rely solely on recommendations from any other source.",
+     "appliesTo": "Health care insurers; claim denials on the basis of medical necessity.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "eb2210e825c166ff976ea00098ac66a09e407472e1b2436c1a017d783bd2cba1"
+    },
+    {
+     "title": "Denial of prior authorization; review of prior authorization",
+     "citation": "A.R.S. 20-3407 (Laws 2025, ch. 165, HB 2175)",
+     "officialUrl": "https://www.azleg.gov/ars/20/03407.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": "2026-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "During each individual review, the medical director shall exercise independent medical judgment and may not rely solely on recommendations from any other source.",
+     "appliesTo": "Health care insurers; direct denials of prior authorization that involve medical necessity.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9fbaade04f214c26c0fc8c955718967514f25911cf2caa591b9b4ac6f7ca414d"
+    },
+    {
+     "title": "Session law: prior authorization; claims",
+     "citation": "Laws 2025, ch. 165 (HB 2175), Sec. 3, approved May 12, 2025",
+     "officialUrl": "https://www.azleg.gov/legtext/57leg/1R/laws/0165.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "This act is effective from and after June 30, 2026.",
+     "appliesTo": "Adds 20-3103 and 20-3407.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "75ebd941127aa6abf9cd3b24d4915346404086c7585005d8c2792c7246dd3eba"
+    },
+    {
+     "title": "Health care insurers; medical directors (licensure of reviewing medical director)",
+     "citation": "A.R.S. 20-2510(B) (Laws 2025, ch. 222, HB 2054)",
+     "officialUrl": "https://www.azleg.gov/ars/20/02510.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-26",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "any direct denial of prior authorization of a service requested by a health care provider on the basis of medical necessity by a health care insurer shall be made in writing by a medical director who holds an active unrestricted license to practice medicine in this state",
+     "appliesTo": "Health care insurers; dental and optometric service corporations may use other licensees (20-2510(C), (D)).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7b730811f671f294ff1b1ca89dd30e6e871b285dfaa97f55388153285e5f39ec"
+    },
+    {
+     "title": "Session law amending 20-2510",
+     "citation": "Laws 2025, ch. 222 (HB 2054), approved June 25, 2025",
+     "officialUrl": "https://www.azleg.gov/legtext/57leg/1r/laws/0222.pdf",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-26",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "made in writing by a medical director who holds an active unrestricted license",
+     "appliesTo": "2025 general effective date 09-26-2025 per https://www.azleg.gov/general-effective-dates/",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0ed9948a451930cb2eb543de92aee0b8e5f8bbbc2f2ad158cae85700eb0fca24"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.azmed.org/news/701312/Keeping-Healthcare-Human-How-a-New-Arizona-Law-Will-Protect-Patient-Care-From-AI.htm",
+     "host": "www.azmed.org",
+     "usedFor": "Found HB 2175 (2025)"
+    },
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "www.hklaw.com",
+     "usedFor": "Reported Board of Behavioral Health Examiners AI consent rule (R4-6-1101), effective 2027-01-01; primary text blocked, not verified"
+    },
+    {
+     "url": "https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R4-6-1101",
+     "host": "www.law.cornell.edu",
+     "usedFor": "Lead for R4-6-1101"
+    },
+    {
+     "url": "https://www.troutmanprivacy.com/2026/03/proposed-state-ai-law-update-march-30-2026/",
+     "host": "www.troutmanprivacy.com",
+     "usedFor": "2026 AI bills; HB 2311 chatbot bill reported vetoed"
+    }
+   ],
+   "note": "20-3103 and 20-3407 do not name AI. They bar sole reliance on any other source, which covers AI output. A reported AI consent rule for behavioral health (R4-6-1101, from 2027-01-01) was not verified; the bbhe.az.gov and azsos.gov pages blocked access.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AZ",
+    "note": "Element (b) only, in force 2026-07-01. The text does not name AI but bars sole reliance on any source for coverage denials. R4-6-1101 (2027) is unverified: the bbhe, grrc and azsos pages return Cloudflare challenges.",
+    "resolution": [
+     {
+      "rows": [
+       "Q108",
+       "Q162"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

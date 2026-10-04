@@ -1,0 +1,560 @@
+{
+ "usps": "GA",
+ "fips": "13",
+ "name": "Georgia",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.legis.ga.gov/search?k=consumer%20health%20data",
+    "terms": [
+     "consumer health data",
+     "consumer privacy protection act",
+     "sensitive data consent",
+     "health data",
+     "SB 111"
+    ],
+    "regulatorPagesChecked": [
+     "https://law.georgia.gov/consumer-information"
+    ],
+    "leadsChecked": [
+     "https://www.carpedatumlaw.com/2026/05/southeastern-privacy-laws-taking-shape-current-and-upcoming-omnibus-laws-for-alabama-georgia-florida-and-tennessee/",
+     "https://www.billtrack50.com/billdetail/1821173"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.billtrack50.com/billdetail/1821173",
+     "host": "billtrack50.com",
+     "usedFor": "SB 111 (2025-26) text versions; enrolled text opened on legis.ga.gov"
+    },
+    {
+     "url": "https://www.carpedatumlaw.com/2026/05/southeastern-privacy-laws-taking-shape-current-and-upcoming-omnibus-laws-for-alabama-georgia-florida-and-tennessee/",
+     "host": "carpedatumlaw.com",
+     "usedFor": "Report that SB 111 privacy text was replaced before enactment"
+    }
+   ],
+   "note": "No comprehensive or consumer health data law found. SB 111 passed the Senate as a privacy bill, but the enrolled act (legis.ga.gov document 249143) only amends the rural hospital tax credit, O.C.G.A. 31-8-9.1.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_GA",
+    "note": "Enrolled SB 111 (legis.ga.gov document 249143) only amends 31-8-9.1. The 2026 legislative counsel summary lists no privacy or consumer health data act. My own searches found no in-force provision."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "Records requested to make or complete an application for a disability benefits program (O.C.G.A. 31-33-3(a))"
+    ],
+    "feeRules": [
+     "DCH rates effective July 1, 2026: search, retrieval and other direct administrative costs up to $25.88",
+     "Certification fee up to $9.70 per record",
+     "Paper copies: $0.97 per page for pages 1-20, $0.83 for pages 21-100, $0.66 over 100",
+     "DCH: state rates should not be applied when individuals request records for themselves from a covered entity; HIPAA fee rules apply",
+     "Rates do not apply to records requests for a disability benefits program or vocation rehabilitation program application"
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Costs of copying and mailing; disability benefits exception (Composite Medical Board guidance)",
+     "citation": "O.C.G.A. 31-33-3(a)",
+     "officialUrl": "https://medicalboard.georgia.gov/can-my-doctor-charge-me-copy-my-medical-records",
+     "linkedFrom": null,
+     "effectiveDate": "2015-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "physician may not charge for medical records requested in order to make or complete an application for a disability benefits program per O.C.G.A. § 31-33-3(a).",
+     "appliesTo": "Providers having custody of patient records under O.C.G.A. Chapter 31-33; the Board page addresses physicians.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "970298697a08eae059802882012859053e0991ea4961dfcf03d8418bf66029f3"
+    },
+    {
+     "title": "Medical Records Retrieval Rates (Department of Community Health)",
+     "citation": "O.C.G.A. 31-33-3",
+     "officialUrl": "https://dch.georgia.gov/medical-records-retrieval-rates",
+     "linkedFrom": null,
+     "effectiveDate": "2015-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Rates do not apply to records requests necessary to make or complete an application for a disability benefits program or vocation rehabilitation program.",
+     "appliesTo": "Providers charging under O.C.G.A. 31-33-3; DCH publishes the annual rates.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ac16e9aff208cb6682001d9a9fd02dbec7df8a09317a784e43f99ec3bcadb532"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://unicourt.github.io/cic-code-ga/transforms/ga/ocga/r86/gov.ga.ocga.title.31.html",
+     "host": "unicourt.github.io",
+     "usedFor": "Text and history notes of 31-33-2 and 31-33-3 (Public.Resource.Org copy, release 86, 2022)"
+    },
+    {
+     "url": "https://codes.findlaw.com/ga/title-31-health/ga-code-sect-31-33-3/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Locating 31-33-3 text"
+    }
+   ],
+   "note": "Free copy for a disability benefits application goes beyond HIPAA and 45 CFR 171. Deadline left null: lead copy of 31-33-2 says 30 days, equal to HIPAA, and no official text was reachable. Date is DCH's July 1, 2015 change.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_GA",
+    "note": "beyondFederalFloor yes: Ruling D-1 counts a free copy for a benefits claim. No deadline under 30 days found. Subsection (a) current text is HB 385, effective 2015-07-01; HB 910 (2016) added (c).",
+    "problems": [
+     "Both quotes are agency wording (Medical Board FAQ, DCH note), not the statute's own words.",
+     "The Medical Board links a copy of 31-33-3 that carries the statutory exception verbatim; it should be quoted instead."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q017"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Georgia Health Information Network (GaHIN)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "GaHIN Policy GaHIN-1007, Opt-Out",
+     "citation": "Georgia Health Information Network, Inc., Policies and Procedures, Policy GaHIN-2002",
+     "officialUrl": "https://www.gahin.org/sites/default/files/assets/inline-files/GaHIN%20GeorgiaConnX%20Network%20Operating%20Policies_2021_0.pdf",
+     "linkedFrom": "https://dch.georgia.gov/divisionsoffices/office-information-technology/health-information-technology/georgia-health",
+     "effectiveDate": "2021-09-30",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Patients of a Network Participant or Member Affiliate who is a health care provider shall be automatically enrolled in the Network without a written HIPAA authorization.",
+     "appliesTo": "This Policy applies to all Network Participants and Member Affiliates.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "26e2c82006cfea53f11d4d2769ffe0817a3a4e163e94555fa911805ec65b8d62"
+    },
+    {
+     "title": "GaHIN Policy GaHIN-1009, Restrictions on Sensitive Health Information",
+     "citation": "Georgia Health Information Network, Inc., Policies and Procedures, Policy GaHIN-2005",
+     "officialUrl": "https://www.gahin.org/sites/default/files/assets/inline-files/GaHIN%20GeorgiaConnX%20Network%20Operating%20Policies_2021_0.pdf",
+     "linkedFrom": "https://dch.georgia.gov/divisionsoffices/office-information-technology/health-information-technology/georgia-health",
+     "effectiveDate": "2021-09-30",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The sending Network Participant or Member Affiliate shall obtain an appropriate consent in accordance with applicable law from the patient prior to disclosing or re-disclosing SHI through the Network.",
+     "appliesTo": "This Policy applies to all Network Participants and Member Affiliates.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "26e2c82006cfea53f11d4d2769ffe0817a3a4e163e94555fa911805ec65b8d62"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "healthit.gov",
+     "usedFor": "Locating state HIE consent model"
+    }
+   ],
+   "note": "No Georgia statute on HIE consent found. DCH names GaHIN the State-Designated Entity. GeorgiaConnX policies effective 30 Sep 2021. GaHIN's current patient page also says patients can opt out by contacting their physician.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_GA",
+    "note": "Same value: opt_out, basis hie_policy, stricterForSensitive true. Evidence should be GeorgiaConnX policies effective 2021-09-30, found at gahin.org/resources/policies-agreements. No state HIE consent statute found.",
+    "problems": [
+     "The cited 2014 Georgia ConnectedCare policies are not linked from GaHIN's current policies page and look superseded.",
+     "Current GeorgiaConnX policies (GaHIN-2002, GaHIN-2005) took effect 2021-09-30, so effectiveDate 2013-08-28 is wrong.",
+     "The DCH linkedFrom page names GaHIN but does not link to the cited PDF."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q018"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Restrictions on abortion; availability of health records (HB 481, LIFE Act, Section 4)",
+      "citation": "O.C.G.A. 16-12-141(f), as amended by Ga. L. 2019, p. 711, HB 481",
+      "officialUrl": "https://www.legis.ga.gov/api/legislation/document/20192020/187013",
+      "linkedFrom": null,
+      "effectiveDate": "2020-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Health records shall be available to the",
+      "appliesTo": "Health records of abortions performed in Georgia.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "53c2a694e31f95117eaa2fdf18fd0d5a485dd033614abe9662f247f0353fd881"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.billtrack50.com/billdetail/1081731",
+      "host": "billtrack50.com",
+      "usedFor": "HB 481 text version links"
+     },
+     {
+      "url": "https://statecourtreport.org/case-tracker/sistersong-v-georgia",
+      "host": "statecourtreport.org",
+      "usedFor": "SisterSong v. State litigation status"
+     },
+     {
+      "url": "https://reproductiverights.org/cases/post-roe-state-abortion-ban-litigation/sistersong-v-state-georgia/",
+      "host": "reproductiverights.org",
+      "usedFor": "Litigation chronology on the records provision"
+     }
+    ],
+    "note": "Subsection (f) makes health records available to the district attorney where the abortion occurs or the patient resides. A 2024 Fulton order on it was vacated 20 Feb 2025 (S25A0300) per leads. No court order opened.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_GA",
+     "note": "HB 481 effective 2020-01-01. SB 448 (2024) changed only (e)(2). The 20 Feb 2025 S25A0300 order vacated the trial order; I read only a lead copy. No court page opened shows an order now blocking (f).",
+     "resolution": [
+      {
+       "rows": [
+        "Q112"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of mental health and developmental disabilities information (DBHDD provider guidance)",
+      "citation": "O.C.G.A. 37-3-166(a), as revised by HB 89 (2025), Act 43",
+      "officialUrl": "https://law.georgia.gov/document/here-5/download",
+      "linkedFrom": null,
+      "effectiveDate": "2025-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The clinical record shall not be a public record and no part of it shall be released except:",
+      "appliesTo": "Clinical records of mental health and developmental disability patients under Title 37.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "6fa1ea56f056adc096a8b734480fcc4664436bff9c08b77e8404f612eb12083d"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://unicourt.github.io/cic-code-ga/transforms/ga/ocga/r86/gov.ga.ocga.title.37.html",
+      "host": "unicourt.github.io",
+      "usedFor": "Text and history note of 37-3-166 (last amended Ga. L. 2011, p. 99, HB 24)"
+     }
+    ],
+    "note": "DBHDD (August 2014 provider training) states written consent or a specific legal authorization is needed. HB 89 revised subsection (a), effective 1 July 2025.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_GA",
+     "note": "Value stays yes. The AG Open Records exceptions list quotes 37-3-166(a). HB 89 re-enacted subsection (a) with this sentence, effective 2025-07-01.",
+     "problems": [
+      "Quote is a DBHDD training slide paraphrase, not the statute's own words.",
+      "effectiveDate 2013-01-01 is wrong: HB 89 (2025) revised 37-3-166(a), effective 2025-07-01, per the legislature's 2025 summary.",
+      "Date was taken from a lead copy only."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q019"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of AIDS confidential information (HB 1058, Section 5)",
+      "citation": "O.C.G.A. 24-12-21(c), as amended by Ga. L. 2016, p. 735, HB 1058",
+      "officialUrl": "https://www.legis.ga.gov/api/legislation/document/20152016/161663",
+      "linkedFrom": null,
+      "effectiveDate": "2016-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "AIDS confidential information may be disclosed to such person's parent",
+      "appliesTo": "AIDS confidential information as defined in O.C.G.A. 31-22-9.1.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "6f4605743012216de0288e91da5bee3c4c2cd60e02cc937dbf97b448019ccfd1"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.billtrack50.com/billdetail/717679",
+      "host": "billtrack50.com",
+      "usedFor": "HB 1058 (2016) text version links"
+     },
+     {
+      "url": "https://unicourt.github.io/cic-code-ga/transforms/ga/ocga/r86/gov.ga.ocga.title.24.html",
+      "host": "unicourt.github.io",
+      "usedFor": "History notes of 24-12-20 and 24-12-21"
+     }
+    ],
+    "note": "24-12-21 sets who may receive AIDS confidential information. HB 1058 has no date clause, so Georgia's default 1 July date applies. DPH's privacy notice says written consent is needed before disclosing HIV/AIDS information.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_GA",
+     "note": "Subsection (c) dates from HB 1058, effective 2016-07-01 per the 2016 summary. HB 327 (2025) revised only (y) and (bb). HB 1268 (2026) added a comma in (bb)(2).",
+     "resolution": [
+      {
+       "rows": [
+        "Q113"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "not_checked",
+    "value": null,
+    "pending": false,
+    "provisions": [],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://unicourt.github.io/cic-code-ga/transforms/ga/ocga/r86/gov.ga.ocga.title.33.html",
+      "host": "unicourt.github.io",
+      "usedFor": "Text of O.C.G.A. 33-54-3 (genetic testing information confidential and privileged), enacted Ga. L. 1995, p. 1242"
+     },
+     {
+      "url": "https://law.justia.com/codes/georgia/title-33/chapter-54/section-33-54-3/",
+      "host": "law.justia.com",
+      "usedFor": "Locating 33-54-3"
+     }
+    ],
+    "note": "Lead copies show O.C.G.A. 33-54-3 (1995) on consent and confidentiality for genetic testing. The official Lexis code needs a login, and no official or agency page with the text was reachable.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_GA",
+     "note": "My searches found 33-54-3 only on lead sites. The Lexis official code needs a sign-in. No georgia.gov, OCI or legislature page with the text was found. The 2024 to 2026 summaries list no new genetic law."
+    }
+   }
+  },
+  "private_right": {
+   "status": "not_checked",
+   "level": null,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": ""
+   },
+   "provisions": [],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://unicourt.github.io/cic-code-ga/transforms/ga/ocga/r86/gov.ga.ocga.title.33.html",
+     "host": "unicourt.github.io",
+     "usedFor": "O.C.G.A. 33-54-8 cause of action for genetic testing violations (1995)"
+    },
+    {
+     "url": "https://www.regulon.ai/bills/GA-SB-540",
+     "host": "regulon.ai",
+     "usedFor": "SB 540 has AG enforcement only"
+    }
+   ],
+   "note": "A lead copy of O.C.G.A. 33-54-8 gives harmed individuals a cause of action for genetic testing violations, with actual damages, costs and fees. No official text was reachable, so no level is set.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_GA",
+    "note": "33-54-8 (genetic testing cause of action) appears only on lead copies. Lexis requires sign-in. No official page found for it or any general medical records right to sue. SB 540 is AG-enforced and not yet effective."
+   }
+  },
+  "breach_health": {
+   "status": "not_checked",
+   "level": null,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "in the most expedient time possible and without unreasonable delay",
+    "regulatorNotice": null,
+    "hipaaDeemedCompliant": null
+   },
+   "provisions": [],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://unicourt.github.io/cic-code-ga/transforms/ga/ocga/r86/gov.ga.ocga.title.10.html",
+     "host": "unicourt.github.io",
+     "usedFor": "O.C.G.A. 10-1-911(6) definition (SSN, license, account numbers, passwords; no medical or health insurance items), last amended 2007 SB 236"
+    },
+    {
+     "url": "https://consumered.georgia.gov/ask-ed/2023-08-30/getting-notified-following-data-breach",
+     "host": "consumered.georgia.gov",
+     "usedFor": "AG Consumer Protection Division page quoting the 10-1-912 notice deadline"
+    }
+   ],
+   "note": "Lead copy of 10-1-911(6) lists no medical or health insurance items. Official text not reachable, so no level. The AG Consumer Protection Division page quotes the 10-1-912 deadline used above.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_GA",
+    "note": "Deadline fact verified on the AG consumer page. No official text of the 10-1-911 definition found on any state host. The 2024 to 2026 summaries show no amendment to 10-1-910 to 10-1-912."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "An operator shall not knowingly and intentionally cause or program an AI companion chatbot to make any representation that it is licensed, certified, or otherwise authorized to provide professional mental health, behavioral health, medical, or counseling services"
+    ]
+   },
+   "provisions": [
+    {
+     "title": "SB 444 (2026): AI in utilization review by private review agents",
+     "citation": "O.C.G.A. 33-46-7.1(c), enacted by SB 444 (2026)",
+     "officialUrl": "https://www.legis.ga.gov/api/legislation/document/20252026/247655",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "not issue an adverse determination to a patient until a natural person qualifying as a private",
+     "appliesTo": "Private review agents and utilization review entities certified under O.C.G.A. Chapter 33-46.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "348ed65b7c013d2548a0003ec774ec742a3627c7ecf30ff73fbcdca8ef71404b"
+    },
+    {
+     "title": "SB 540 (2026): Conversational AI services",
+     "citation": "O.C.G.A. 39-5-6(h), enacted by SB 540 (2026)",
+     "officialUrl": "https://www.legis.ga.gov/api/legislation/document/20252026/248169",
+     "linkedFrom": null,
+     "effectiveDate": "2027-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "provide professional mental health, behavioral health, medical, or counseling services,",
+     "appliesTo": "Operators of AI companion chatbots and conversational AI services available in Georgia.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7fb0d4fe0f1cd5cfa5daa4381f2cc57ddf94f89f116d49ae536b4fc26c62e727"
+    },
+    {
+     "citation": "O.C.G.A. 31-12-12(a)(1), (d)(2) and (d)(4), as revised by HB 203 (2023)",
+     "officialUrl": "https://www.legis.ga.gov/api/legislation/document/20232024/218043",
+     "effectiveDate": "2023-07-01",
+     "quote": "Not use the data or information obtained from an eye assessment as the sole basis for",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f54aef5cf5212077adf420fcd5d929ce90ae5f002f2bb23206ec5953f32e613b",
+     "effectiveDateSource": {
+      "url": "https://www.legis.ga.gov/api/document/docs/default-source/senate-research-office-document-library/final-passage-doc-2023-pdf.pdf?sfvrsn=31e63f20_0",
+      "quote": "Amends the Restrictions on the Sale and Dispensing of Contact Lenses Sponsors: Representative Newton of the 127th and Senator Brass of the 28th Effective Date: July 1, 2023",
+      "rawSha256": "c2959c11ca76075e854e9e9848b8a06be34241d3c3945f2cc61b762adf1c4fb0",
+      "defaultRule": "O.C.G.A. § 1-3-4 (Acts approved by the Governor on or after January 1 and before July 1 take effect July 1). HB 203 has no effective-date section: its Section 2 only repeals conflicting laws. No verbatim quote: an official copy of § 1-3-4 could not be fetched (sos.ga.gov returned a Cloudflare challenge; the official LexisNexis code site cannot be read with curl).",
+      "retrievedAt": "2026-10-04T09:27:12Z"
+     },
+     "statusOfProvision": "in_force"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.billtrack50.com/billdetail/1959960",
+     "host": "billtrack50.com",
+     "usedFor": "SB 444 text links and effective date"
+    },
+    {
+     "url": "https://www.regulon.ai/bills/GA-SB-540",
+     "host": "regulon.ai",
+     "usedFor": "SB 540 enrolled text link and effective date"
+    },
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "hklaw.com",
+     "usedFor": "Survey of 2026 state health AI laws"
+    }
+   ],
+   "note": "SB 444 meets clinician decides from 1 Jan 2027. SB 540's chatbot ban starts 1 Jul 2027 and is recorded as a pending prohibition. No AI health care provision in force found.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_GA",
+    "note": "HB 203 has no date clause, so the 2023-07-01 default applies. Keep pending true: SB 444 starts 2027-01-01, SB 540 starts 2027-07-01. Both quotes verified.",
+    "problems": [
+     "Missed HB 203 (2023), O.C.G.A. 31-12-12, in force: assessment mechanisms include AI devices, and eye assessment data may not be the sole basis for a prescription.",
+     "That meets element (b) clinician decides, so status is in_force and level 1, not enacted_not_yet_effective and 0."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q114"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     },
+     {
+      "rows": [
+       "Q020",
+       "Q115"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

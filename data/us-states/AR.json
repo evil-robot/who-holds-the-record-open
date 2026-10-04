@@ -1,0 +1,651 @@
+{
+ "usps": "AR",
+ "fips": "05",
+ "name": "Arkansas",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://arkleg.state.ar.us/Bills/Search?ddBienniumSession=2025%2F2025R",
+    "terms": [
+     "consumer health data",
+     "consumer data privacy",
+     "sensitive data consent",
+     "health data",
+     "Arkansas Digital Responsibility, Safety, and Trust Act",
+     "4-110-103"
+    ],
+    "regulatorPagesChecked": [
+     "https://arkansasag.gov/divisions/public-protection/"
+    ],
+    "leadsChecked": [
+     "https://www.multistate.us/insider/2026/2/4/all-of-the-comprehensive-privacy-laws-that-take-effect-in-2026",
+     "https://openagreements.org/practice-guides/privacy/us/arkansas",
+     "https://www.dwt.com/blogs/privacy--security-law-blog/2025/06/arkansas-children-privacy-law-coppa"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.multistate.us/insider/2026/2/4/all-of-the-comprehensive-privacy-laws-that-take-effect-in-2026",
+     "host": "www.multistate.us",
+     "usedFor": "Check for a comprehensive privacy law in Arkansas"
+    },
+    {
+     "url": "https://openagreements.org/practice-guides/privacy/us/arkansas",
+     "host": "openagreements.org",
+     "usedFor": "Pointer to SB258 of 2025, which failed"
+    },
+    {
+     "url": "https://arkleg.state.ar.us/Bills/Detail?id=SB258&ddBienniumSession=2025%2F2025R",
+     "host": "arkleg.state.ar.us",
+     "usedFor": "Bill status: SB258 died on the Senate calendar at sine die, 5/5/2025"
+    },
+    {
+     "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2FACT952.pdf",
+     "host": "arkleg.state.ar.us",
+     "usedFor": "Act 952 of 2025, teen online privacy, effective 2026-07-01; not a health data law"
+    }
+   ],
+   "note": "No comprehensive or consumer health data law found. SB258 of 2025 failed. Act 952 of 2025 covers online data of children and teens, not health data as such, so it was not scored here.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AR",
+    "note": "Own search: SB258 of 2025 died on the Senate calendar at sine die. Act 952 of 2025, in force 2026-07-01, covers child and teen online data and has no health data term. No other provision found."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 30,
+    "freeCopyCases": [],
+    "feeRules": [
+     "Paper photocopy cap: \"fifty cents (50¢) per page for the first twenty-five (25) pages and twenty-five cents (25¢) for each additional page.\"",
+     "Labor charge up to $25.00 per request plus actual postage (Act 765 of 2023 amended this from $15.00).",
+     "Electronic records: \"The fee for producing medical records under this subsection is seventy-five dollars ($75.00), and the actual cost of postage, if any postage is required, may be charged in addition to the fee for producing medical records.\"",
+     "Notarized or certified copy: \"an additional fee of two dollars ($2.00) may be charged.\"",
+     "Patient's own request follows HIPAA patient access rules as of 2023-01-01, except the HIPAA fee provisions (16-46-106(h))."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Access to medical records: electronic records deadline",
+     "citation": "Ark. Code § 16-46-106(c)(3), as amended by Act 765 of 2023",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2F&file=765.pdf&ddBienniumSession=2023%2F2023R",
+     "linkedFrom": null,
+     "effectiveDate": "2023-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall be produced within thirty (30) days after receipt of the request unless",
+     "appliesTo": "\"Medical provider\" means a doctor, hospital, ambulance provider, medical healthcare provider, or other medical institution that provides medical care",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3a172173aed211889b71d7f78c531282ba648dfe667ce8641e47935f4815ac1d"
+    },
+    {
+     "title": "Access to medical records: fee for electronic records",
+     "citation": "Ark. Code § 16-46-106(c)(4)(A), as amended by Act 765 of 2023",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2F&file=765.pdf&ddBienniumSession=2023%2F2023R",
+     "linkedFrom": null,
+     "effectiveDate": "2023-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "subsection is seventy-five dollars ($75.00), and the actual cost of postage,",
+     "appliesTo": "Requests in contemplation of a legal proceeding, adjustment of an insurance claim, or a life insurance application; binds a \"medical provider\".",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3a172173aed211889b71d7f78c531282ba648dfe667ce8641e47935f4815ac1d"
+    },
+    {
+     "title": "Patient's own request follows HIPAA patient access rules",
+     "citation": "Ark. Code § 16-46-106(h)(1), as added by Act 765 of 2023",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2F&file=765.pdf&ddBienniumSession=2023%2F2023R",
+     "linkedFrom": null,
+     "effectiveDate": "2023-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "records under this section, then access shall be provided according to all",
+     "appliesTo": "Patient or person authorized to request the patient's records.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "3a172173aed211889b71d7f78c531282ba648dfe667ce8641e47935f4815ac1d"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://codes.findlaw.com/ar/title-16-practice-procedure-and-courts/ar-code-sect-16-46-106/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Locate 16-46-106 and its fee and deadline terms"
+    },
+    {
+     "url": "https://www.accountablehq.com/post/arkansas-medical-records-access-laws-patient-rights-request-process-and-fees",
+     "host": "www.accountablehq.com",
+     "usedFor": "Claimed a free copy for benefit appeals; not found in the enacted text of Act 765"
+    },
+    {
+     "url": "https://arkleg.state.ar.us/Bills/Detail?id=HB1961&ddBienniumSession=2025%2F2025R",
+     "host": "arkleg.state.ar.us",
+     "usedFor": "HB1961 of 2025 on withholding records, vetoed 4/22/2025"
+    }
+   ],
+   "note": "Deadline is 30 days, not shorter. No free-copy case found. The $75 electronic fee and per-page caps are fee facts only. Nothing goes beyond HIPAA plus the information blocking rule, so beyondFederalFloor is no.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AR",
+    "note": "beyondFederalFloor: no. Deadline is 30 days, not shorter. Act 765 has no free-copy case. Legislature list shows no 2025 amendment to 16-46-106. Effective 2023-08-01 per Senate page.",
+    "resolution": [
+     {
+      "rows": [
+       "Q148",
+       "Q149",
+       "Q150"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "regulation",
+   "designatedHie": "State Health Alliance for Records Exchange (SHARE), run by the Office of Health Information Technology",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Individual control of information available through the State Health Alliance for Records Exchange",
+     "citation": "25 CAR § 20-105(b)",
+     "officialUrl": "https://codeofarrules.arkansas.gov/Rules/Rule?levelType=section&titleID=25&chapterID=209&subChapterID=255&partID=933&subPartID=6542&sectionID=42662",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "All individuals may choose not to have information about them made available through the State Health Alliance for Records Exchange.",
+     "appliesTo": "This policy applies to the Office of Health Information Technology, the State Health Alliance for Records Exchange, and all participating entities.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7f1885ae9c2e020455a4c4f681b3c4495b6394a2c046bf8e49f6fc6851d167b5"
+    },
+    {
+     "title": "Information subject to special protection",
+     "citation": "25 CAR § 20-107(b)(5)",
+     "officialUrl": "https://codeofarrules.arkansas.gov/Rules/Rule?levelType=section&titleID=25&chapterID=209&subChapterID=255&partID=933&subPartID=6542&sectionID=42664",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Participating entities should not make protected health information requiring special protection available to the State Health Alliance for Records Exchange.",
+     "appliesTo": "This policy applies to the Office of Health Information Technology and all participating entities.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5cb54a1c97c5d653a9b43ff96f57f75c680ce4bc012433471a7f343b672bdda1"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.sos.arkansas.gov/uploads/rulesRegs/Arkansas%20Register/2011/August11Reg/220.00.11-001.pdf",
+     "host": "www.sos.arkansas.gov",
+     "usedFor": "Earlier 2011 OHIT privacy policies with the opt-out model"
+    },
+    {
+     "url": "https://healthy.arkansas.gov/boards-commissions/commissions/ohit-share/",
+     "host": "healthy.arkansas.gov",
+     "usedFor": "Health Department page describing SHARE as a state-wide HIE"
+    },
+    {
+     "url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2011%2FPublic%2F&file=891.pdf&ddBienniumSession=2011%2F2011R",
+     "host": "arkleg.state.ar.us",
+     "usedFor": "Act 891 of 2011 creating OHIT and SHARE"
+    },
+    {
+     "url": "https://sharearkansas.com/patients/how-to-participate/",
+     "host": "sharearkansas.com",
+     "usedFor": "SHARE patient opt-out page; blocked to curl, so not quoted"
+    }
+   ],
+   "note": "Opt-out set by OHIT rule, 25 CAR pt. 20. Date is the Code of Arkansas Rules effective date; first rule filed 2011. Rule tells entities not to send records needing special protection, such as 42 CFR Part 2 records.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AR",
+    "note": "Both quotes verbatim on the official Code of Arkansas Rules. Opt-out is exercised through the participating entity. 2025-01-01 is the codification date; the part was first promulgated earlier as OHIT privacy policies."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Informed Consent for Chemical Abortion Act: individual reporting, confidentiality",
+      "citation": "Ark. Code § 20-16-2504(b)(1) (enacted as § 20-16-2404 by Act 560 of 2021)",
+      "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2F&file=560.pdf&ddBienniumSession=2021%2F2021R",
+      "linkedFrom": null,
+      "effectiveDate": "2021-07-28",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "section is not a public record and shall remain confidential except that a",
+      "appliesTo": "Individual reporting forms that a healthcare provider or healthcare facility submits to the Department of Health.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "fc32d7fb0ede635cc7b0ea22bf6db54af189a9a08e175bed838e6c419d550183"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/arkansas/title-20/subtitle-2/chapter-16/subchapter-25/section-20-16-2504/",
+      "host": "law.justia.com",
+      "usedFor": "Locate the reporting confidentiality section"
+     }
+    ],
+    "note": "Reports to the Health Department are confidential; disclosure to law enforcement needs a court order on good cause. Act 560 of 2021 has no emergency clause; date is the 2021 general effective date.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AR",
+     "note": "Act text shows the section as 20-16-2404; 20-16-2504 is the codified number. Legislature list shows no 2023 or 2025 amendment to 20-16-25xx. Act has no emergency clause; 2021-07-28 per Senate page.",
+     "resolution": [
+      {
+       "rows": [
+        "Q151"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of mental health and drug or alcohol abuse treatment information",
+      "citation": "20 CAR § 416-311(b)",
+      "officialUrl": "https://codeofarrules.arkansas.gov/Rules/Rule?levelType=section&titleID=20&chapterID=38&subChapterID=50&partID=1430&subPartID=8833&sectionID=58184",
+      "linkedFrom": null,
+      "effectiveDate": "2025-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "and the procedures for informed consent for release of information from the record must be followed.",
+      "appliesTo": "Programs under 20 CAR pt. 416, the Therapeutic Communities Certification Manual.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "7d4c5ac0041e8995b9e4a89043e0dc1c979e9ad16eaa630b7d98caf2438461ef"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/arkansas/title-20/subtitle-3/chapter-46/subchapter-1/section-20-46-104/",
+      "host": "law.justia.com",
+      "usedFor": "Ark. Code 20-46-104, State Hospital records; official text not opened"
+     }
+    ],
+    "note": "Rule in the therapeutic communities certification manual requires informed consent procedures for release. Date is the Code of Arkansas Rules effective date. Statute 20-46-104 found only through a lead.",
+    "crossCheck": {
+     "verdict": "set_aside",
+     "session": "main_crosscheck_AR",
+     "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+     "resolution": [
+      {
+       "rows": [
+        "P02"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Reports and information confidentiality (practitioner HIV, HBeAg and HCV status)",
+      "citation": "17 CAR § 140-1006(a)",
+      "officialUrl": "https://codeofarrules.arkansas.gov/Rules/Rule?levelType=section&titleID=17&chapterID=173&subChapterID=216&partID=1045&subPartID=5589&sectionID=36283",
+      "linkedFrom": null,
+      "effectiveDate": "2025-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Reports and information furnished to the Arkansas State Medical Board relative to the HbeAg, HCV, or HIV status of a practitioner shall not be deemed to constitute a public record but shall be deemed and maintained by the board as confidential and privileged as a medical record",
+      "appliesTo": "Reports to the Arkansas State Medical Board about a practitioner's HIV, HBeAg or HCV status.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "289c0e24b56aa909be8f755a75cfe7987875f06286e11d7fec31b13695a8a389"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://codes.findlaw.com/ar/title-20-public-health-and-welfare/ar-code-sect-20-15-904/",
+      "host": "codes.findlaw.com",
+      "usedFor": "Ark. Code 20-15-904, HIV report confidentiality; official text not opened"
+     }
+    ],
+    "note": "Medical Board rule keeps practitioner HIV status reports confidential and not subject to subpoena. Statute 20-15-904 on HIV reports found only through leads. Date is the Code of Arkansas Rules effective date.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AR",
+     "note": "Quote verbatim. The rule covers reports to the Medical Board about a practitioner's HIV status. It also bars disclosure by subpoena. The date is the codification date."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosures of genetic information: compulsory disclosure",
+      "citation": "Ark. Code § 16-43-1101 (Act 1222 of 2001)",
+      "officialUrl": "https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2001%2FPublic%2F&file=1222.pdf&ddBienniumSession=2001%2FR",
+      "linkedFrom": null,
+      "effectiveDate": "2001-08-13",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person or other entity who maintains genetic information",
+      "appliesTo": "Any person or other entity who maintains genetic information.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "630c2b94a20431983a854ca044667f922f59bd16495d4d41fbc63429490f7619"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/arkansas/2020/title-16/subtitle-4/chapter-43/subchapter-11/section-16-43-1101/",
+      "host": "law.justia.com",
+      "usedFor": "Codification of Act 1222 of 2001"
+     },
+     {
+      "url": "https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2001%2FPublic%2F&file=1251.pdf&ddBienniumSession=2001%2FR",
+      "host": "www.arkleg.state.ar.us",
+      "usedFor": "Act 1251 of 2001, Genetic Research Studies Nondisclosure Act"
+     }
+    ],
+    "note": "Limits compelled disclosure of genetic information in proceedings, with four listed exceptions. Date is 91 days after the 2001 session ended May 14, 2001 under Amendment 7; no amending act found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AR",
+     "note": "Act text shows Section 1 only; 16-43-1101 is the codified number. Legislature list shows no 2023 or 2025 amendment to 16-43. Act has no emergency clause.",
+     "resolution": [
+      {
+       "rows": [
+        "Q152"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None found"
+   },
+   "provisions": [
+    {
+     "title": "Personal Information Protection Act: penalties",
+     "citation": "Ark. Code § 4-110-108 (Act 1526 of 2005)",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2005%2FPublic%2F&file=1526.pdf&ddBienniumSession=2005%2F2005R",
+     "linkedFrom": null,
+     "effectiveDate": "2005-08-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Attorney General under the provisions of §§ 4-88-101 through 4-88-115.",
+     "appliesTo": "Violations of the Personal Information Protection Act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "94f9f988bc57e0f9bd1bf68e5cea501b385fa5cb187e3f98e1217bd7cb985293"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://arkleg.state.ar.us/Bills/Search?ddBienniumSession=2025%2F2025R",
+    "terms": [
+     "private right of action",
+     "civil action",
+     "medical records",
+     "genetic information",
+     "4-110-108",
+     "16-46-106"
+    ],
+    "regulatorPagesChecked": [
+     "https://arkansasag.gov/divisions/public-protection/identity/security-or-data-breach/"
+    ],
+    "leadsChecked": [
+     "https://www.constangy.com/data-privacy-us-ar"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.constangy.com/data-privacy-us-ar",
+     "host": "www.constangy.com",
+     "usedFor": "Enforcement summary for the breach law"
+    }
+   ],
+   "note": "Breach law enforcement is by the Attorney General. Genetic employment and research acts of 2001 opened had no private suit clause. 16-46-106(f) awards fees when a patient must subpoena records; not a suit for misuse.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AR",
+    "note": "Own search: Act 1407 of 2001 (genetic information in the workplace) sets a misdemeanor only. Act 1251 of 2001 has no suit clause. No private right of action found.",
+    "resolution": [
+     {
+      "rows": [
+       "Q153"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "most expedient time and manner possible and without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Personal Information Protection Act: definition of medical information",
+     "citation": "Ark. Code § 4-110-103(5) (Act 1526 of 2005)",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2005%2FPublic%2F&file=1526.pdf&ddBienniumSession=2005%2F2005R",
+     "linkedFrom": null,
+     "effectiveDate": "2005-08-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "\"Medical information\" means any individually identifiable",
+     "appliesTo": "Persons, businesses and state agencies that acquire, own or license computerized personal information of Arkansas residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "94f9f988bc57e0f9bd1bf68e5cea501b385fa5cb187e3f98e1217bd7cb985293"
+    },
+    {
+     "title": "Personal information includes medical information",
+     "citation": "Ark. Code § 4-110-103(7)(D) (Act 1526 of 2005; subdivision (7) last amended by Act 1030 of 2019)",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2005%2FPublic%2F&file=1526.pdf&ddBienniumSession=2005%2F2005R",
+     "linkedFrom": null,
+     "effectiveDate": "2019-07-24",
+     "firstEnacted": "2005-08-12",
+     "statusOfProvision": "in_force",
+     "quote": "(D) Medical information;",
+     "appliesTo": "Name in combination with the data element, when either is not encrypted or redacted.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "94f9f988bc57e0f9bd1bf68e5cea501b385fa5cb187e3f98e1217bd7cb985293"
+    },
+    {
+     "title": "Disclosure of breach: timing",
+     "citation": "Ark. Code § 4-110-105(a)(2) (Act 1526 of 2005)",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2005%2FPublic%2F&file=1526.pdf&ddBienniumSession=2005%2F2005R",
+     "linkedFrom": null,
+     "effectiveDate": "2005-08-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "manner possible and without unreasonable delay, consistent with the",
+     "appliesTo": "Notice to any Arkansas resident whose unencrypted personal information was or is reasonably believed to have been acquired.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "94f9f988bc57e0f9bd1bf68e5cea501b385fa5cb187e3f98e1217bd7cb985293"
+    },
+    {
+     "title": "Disclosure of breach to the Attorney General",
+     "citation": "Ark. Code § 4-110-105(b)(2) (Act 1030 of 2019)",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2019R%2FPublic%2F&file=1030.pdf&ddBienniumSession=2019%2F2019R",
+     "linkedFrom": null,
+     "effectiveDate": "2019-07-24",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "breach is disclosed to an affected individual or within forty-five (45) days",
+     "appliesTo": "Breaches affecting the personal information of more than 1,000 individuals.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7d03fc809395d9fc506810fa9dc6259eb1417f565bfa3b98ce0cfcaefc52e89f"
+    },
+    {
+     "title": "Exemptions: compliance with other law deemed compliance",
+     "citation": "Ark. Code § 4-110-106(a)(2) (Act 1526 of 2005)",
+     "officialUrl": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2005%2FPublic%2F&file=1526.pdf&ddBienniumSession=2005%2F2005R",
+     "linkedFrom": null,
+     "effectiveDate": "2005-08-12",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Compliance with the state or federal law shall be deemed",
+     "appliesTo": "A person or business regulated by a state or federal law with greater protection and at least as thorough breach disclosure rules.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "94f9f988bc57e0f9bd1bf68e5cea501b385fa5cb187e3f98e1217bd7cb985293"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://lewisbrisbois.com/blog/category/data-privacy-cyber-security/legislative-alert-arkansas-amends-personal-information-protection-act",
+     "host": "lewisbrisbois.com",
+     "usedFor": "Pointer to Act 1030 of 2019"
+    },
+    {
+     "url": "https://senate.arkansas.gov/senate-news/posts/2019/07/arkansas-senate-many-bills-take-effect-on-91st-day-after-regular-session/",
+     "host": "senate.arkansas.gov",
+     "usedFor": "2019 general effective date, July 24, 2019, and the 91st-day rule"
+    }
+   ],
+   "note": "Medical information is in the definition; health insurance information is not. HIPAA is not named; the deemed-compliance clause covers entities under a federal law with equal or stronger breach rules. 2005 date is 91 days after the May 13, 2005 session end.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AR",
+    "note": "Act 1030 of 2019 adds biometric data as (7)(E), so (A) to (D) were the only elements. No health insurance element. Legislature list shows no 4-110 amendment in 2021, 2023 or 2025.",
+    "resolution": [
+     {
+      "rows": [
+       "Q154",
+       "Q155",
+       "Q156",
+       "Q157"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://arkleg.state.ar.us/Bills/Search?ddBienniumSession=2025%2F2025R&hdnSessions=z2025R%2Cz2026F%2Cz2026S1%2C&tbExactPhrase=artificial+intelligence&ddChamber=B&ddExclusivity=0",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "automated decision",
+     "prior authorization",
+     "utilization review",
+     "generative artificial intelligence"
+    ],
+    "regulatorPagesChecked": [
+     "https://portal.insurance.arkansas.gov/LegalPubsPublic/Documents/Bulletins/bulletin_13-2024.pdf"
+    ],
+    "leadsChecked": [
+     "https://www.mitchellwilliamslaw.com/2025-arkansas-insurance-legislation-summary-health",
+     "https://digitalpolicyalert.org/event/27703-act-amending-arkansas-code-to-regulate-artificial-intelligence-and-automated-technologies-in-healthcare-insurance-hb-1297-including-non-discrimination-requirement-was-introduced-to-arkansas-house-of-representatives"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.mitchellwilliamslaw.com/2025-arkansas-insurance-legislation-summary-health",
+     "host": "www.mitchellwilliamslaw.com",
+     "usedFor": "HB1297 and HB1816 of 2025 on AI in health care and insurance did not pass"
+    },
+    {
+     "url": "https://arkleg.state.ar.us/Bills/Detail?id=HB1816&ddBienniumSession=2025%2F2025R",
+     "host": "arkleg.state.ar.us",
+     "usedFor": "HB1816 of 2025 withdrawn by author 4/14/2025"
+    },
+    {
+     "url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=848.pdf&ddBienniumSession=2025%2F2025R",
+     "host": "arkleg.state.ar.us",
+     "usedFor": "Act 848 of 2025, AI use policies for public entities; does not name health care decisions"
+    },
+    {
+     "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2FACT927.pdf",
+     "host": "arkleg.state.ar.us",
+     "usedFor": "Act 927 of 2025, ownership of generative AI content; not health care"
+    }
+   ],
+   "note": "No law in force on AI in care or coverage. HB1297 and HB1816 of 2025 did not pass. Insurance Department Bulletin 13-2024 on insurer AI use is guidance, not law, and was not scored.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AR",
+    "note": "Own search: HB1297 and HB1816 of 2025 were withdrawn by the author. Act 511 of 2025 amends prior authorization rules without AI terms. Bulletin 13-2024 is guidance. No in-force provision found."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

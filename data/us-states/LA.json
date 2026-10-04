@@ -1,0 +1,595 @@
+{
+ "usps": "LA",
+ "fips": "22",
+ "name": "Louisiana",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "enacted_not_yet_effective",
+   "level": 0,
+   "pending": true,
+   "provisions": [
+    {
+     "title": "Louisiana Data Privacy Act, consent for sensitive data",
+     "citation": "Acts 2026, No. 502 (SB 386), enacting R.S. 51:1780.1 through 1780.5",
+     "officialUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480202",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Process the sensitive data of a consumer without obtaining the",
+     "appliesTo": "Has annual gross revenues in excess of twenty-five million dollars.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c0d18d805dace759a5f4b953c99d40269597af35432550c140ee05ad44660b90"
+    },
+    {
+     "title": "Louisiana Data Privacy Act, definition of sensitive data",
+     "citation": "Acts 2026, No. 502, R.S. 51:1780.1(29)",
+     "officialUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480202",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "mental or physical health diagnosis, sexuality, or citizenship or immigration",
+     "appliesTo": "Also applies to an entity that annually buys, receives, sells or shares personal information of 75,000 or more consumers, households, or devices, or derives 50 percent or more of revenue from selling it. HIPAA covered entities and business associates are excluded.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c0d18d805dace759a5f4b953c99d40269597af35432550c140ee05ad44660b90"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://legis.la.gov/legis/LawSearch.aspx",
+    "terms": [
+     "consumer health data",
+     "consumer data privacy",
+     "sensitive data consent",
+     "health data"
+    ],
+    "regulatorPagesChecked": [
+     "https://ag.louisiana.gov/Page/DataBreach"
+    ],
+    "leadsChecked": [
+     "https://www.workplaceprivacyreport.com/2026/06/articles/consumer-privacy/new-louisiana-data-privacy-act-set-to-take-effect-in-2027/",
+     "https://aiweekly.co/alerts/louisiana-passes-five-ai-disclosure-and-privacy-bills"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.workplaceprivacyreport.com/2026/06/articles/consumer-privacy/new-louisiana-data-privacy-act-set-to-take-effect-in-2027/",
+     "host": "workplaceprivacyreport.com",
+     "usedFor": "Found SB 386 and its 2027 date"
+    },
+    {
+     "url": "https://aiweekly.co/alerts/louisiana-passes-five-ai-disclosure-and-privacy-bills",
+     "host": "aiweekly.co",
+     "usedFor": "Listed 2026 privacy and AI bills"
+    }
+   ],
+   "note": "Act 502 of 2026 requires consent to process sensitive data, including health diagnosis. It takes effect 2027-01-01, so it earns nothing yet. No in-force Louisiana law found that requires consent for non-HIPAA health data.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_LA",
+    "note": "Act 502 of 2026 requires consent for sensitive data, including health diagnosis, from 2027-01-01. pending true. My web and legislature searches found no in-force Louisiana law requiring consent for non-HIPAA health data.",
+    "resolution": [
+     {
+      "rows": [
+       "Q095",
+       "Q096"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 15,
+    "freeCopyCases": [],
+    "feeRules": [
+     "R.S. 40:1165.1(A)(2)(b)(i), paper records: \"not to exceed one dollar per page for the first twenty-five pages, fifty cents per page for twenty-six to three hundred fifty pages, and twenty-five cents per page thereafter\"",
+     "R.S. 40:1165.1(A)(2)(b)(i), handling: \"a handling charge not to exceed twenty-five dollars for hospitals, nursing homes, and other health care providers, and actual postage\"",
+     "R.S. 40:1165.1(A)(2)(b)(i), digital records: \"the charges for providing digital copies shall not exceed one hundred dollars, plus all postage charges actually incurred\"",
+     "R.S. 40:1165.1(C)(2), optional only: providers giving records to a nonprofit assisting with Social Security or Medicaid applications \"may waive or charge an amount less than the maximum charges\"",
+     "R.S. 46:18(A), Social Security disability claims: \"Cost of each photocopy shall not exceed fifty cents per page for the first five pages and twenty-five cents for each additional page\""
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Healthcare information; records (15-day limit)",
+     "citation": "La. R.S. 40:1165.1(A)(2)(c)",
+     "officialUrl": "https://legis.la.gov/Legis/law.aspx?d=964709",
+     "linkedFrom": null,
+     "effectiveDate": "2021-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If a copy of the record is not provided within a reasonable period of time, not to exceed fifteen days following the receipt of the request and written authorization, and production of the record is obtained through a court order or subpoena duces tecum",
+     "appliesTo": "Health care providers as defined in R.S. 40:1231.1, state health care providers, and clinical laboratories or medical facilities.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4b9e05f47e1a46eb9aa95533a3d3b9ea61ca06896333474fc44f53c72845520b",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    },
+    {
+     "title": "Health care records; copies for Social Security disability claims",
+     "citation": "La. R.S. 46:18",
+     "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=207155",
+     "linkedFrom": null,
+     "effectiveDate": "2007-08-15",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If a copy of the record is not provided within a reasonable period of time, not to exceed fifteen days following the receipt of the request and written authorization, and production of the record is obtained through a court order or subpoena duces tecum",
+     "appliesTo": "The provider of health care, for records needed for social security disability or supplemental security income claims.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9404e10be4efb142bccaf612abe58a668306d41a178a705358d4eea3e15c6afb",
+     "effectiveDateSource": {
+      "url": "https://legis.la.gov/legis/ViewDocument.aspx?d=451790",
+      "quote": "Effective August 15, 2007. (Amends R.S. 46:18)",
+      "rawSha256": "fd0bb111443993e4ed4d4adcfab83ab08958dda9b664762d30c0d7496a8c8147",
+      "defaultRule": "La. Const. Art. III §19 as in force in 2007 (before Acts 2009, No. 537, eff. Jan. 1, 2012). The enrolled SB 5 of 2009 (https://legis.la.gov/legis/ViewDocument.aspx?d=666721) shows the old wording with 'fifteenth' struck and 'first' inserted: 'All laws enacted during a regular session of the legislature shall take effect on August fifteenth first of the calendar year in which the regular session is held'. Current text and history: https://legis.la.gov/legis/Law.aspx?d=206415",
+      "retrievedAt": "2026-10-04T09:27:12Z"
+     }
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://nosscr.org/article/medical-records-payment-rates-2025/",
+     "host": "nosscr.org",
+     "usedFor": "Pointed to R.S. 46:18; confirmed a 2025 free-copy rule it lists is Virginia, not Louisiana"
+    },
+    {
+     "url": "https://www.neelacares.com/medical-record-request-rules-for-louisiana",
+     "host": "neelacares.com",
+     "usedFor": "Checked for a Louisiana free-copy rule; none cited"
+    }
+   ],
+   "note": "Both statutes set a 15-day limit, enforced by fee-shifting after certified notice. No required free copy found; R.S. 40:1165.1(C)(2) only permits a waiver. Per-page fees above HIPAA cost-based fees do not count.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_LA",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P12"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q3",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "no_law_found",
+   "value": "no_rule_found",
+   "pending": false,
+   "basis": null,
+   "designatedHie": "",
+   "stricterForSensitive": null,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://legis.la.gov/legis/LawSearch.aspx",
+    "terms": [
+     "health information exchange consent",
+     "health information exchange",
+     "LaHIE",
+     "opt out health information exchange"
+    ],
+    "regulatorPagesChecked": [
+     "https://legis.la.gov/legis/Law.aspx?d=964710",
+     "https://ldh.la.gov/assets/docs/RFIs/LAMedicaidHITInnovationRFI.pdf",
+     "https://lhcqf.org/service/health-information-exchange-platform/"
+    ],
+    "leadsChecked": [
+     "https://www.healthit.gov/sites/default/files/la_state_hie_profile.pdf",
+     "https://www.stateregstoday.com/health/healthcare/health-information-exchange-systems-in-louisiana"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.healthit.gov/sites/default/files/la_state_hie_profile.pdf",
+     "host": "healthit.gov",
+     "usedFor": "Older profile naming the Quality Forum and LaHIE"
+    }
+   ],
+   "note": "R.S. 40:1165.2 creates an advisory collaborative but sets no consent rule. No current state page designating an HIE and no published HIE consent policy found. The Quality Forum HIE page states no patient choice policy.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_LA",
+    "note": "R.S. 40:1165.2 sets an advisory body, no consent rule. The Quality Forum LaHIE page and its site search for opt out show no patient choice policy. Web search found no Louisiana HIE consent statute."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion reports",
+      "citation": "La. R.S. 40:1061.21(A)",
+      "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=965014",
+      "linkedFrom": null,
+      "effectiveDate": "2022-08-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "An individual abortion report for each abortion performed or induced shall be completed by the attending physician. The report shall be confidential and shall not contain the name or address of the woman.",
+      "appliesTo": "Attending physicians filing reports with the Louisiana Department of Health.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "5ef63167bf9e44e7d3dd4192e82693e670b353fb7fd56d05cb6285f8fd01b105"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/louisiana/2017/code-revisedstatutes/title-40/rs-40-1061.21/",
+      "host": "law.justia.com",
+      "usedFor": "Located R.S. 40:1061.21"
+     }
+    ],
+    "note": "The rule covers individual abortion reports sent to the health department, not the full patient chart. Latest amendment is Acts 2022, No. 545, Section 3, effective on the default date.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_LA",
+     "note": "Latest amendment is Act 545 of 2022, Section 3, which touched 1061.21(F). Section 7 gives a special date only to Section 1, so Section 3 took the August 1, 2022 default. Rule covers reports, not charts."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Privileged communications (psychologists)",
+      "citation": "La. R.S. 37:2363(A)",
+      "officialUrl": "https://legis.la.gov/legis/Law.aspx?d=93644",
+      "linkedFrom": null,
+      "effectiveDate": "2024-08-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a patient or client or his legal representative may refuse to disclose or prevent the disclosure of confidential information, including information contained in administrative records, communicated to a psychologist, a licensed psychological associate, or a licensed specialist in school psychology",
+      "appliesTo": "Judicial, legislative and administrative proceedings; information given for diagnosis, evaluation, or treatment of any mental or emotional condition or disorder.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "46458c13a42e52b4e6b002931cb0dd4a4fdce7fcd2524830987bb7158713113e"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://lsbep.org/wp-content/uploads/Laws-Affecting-Psychologists.pdf",
+      "host": "lsbep.org",
+      "usedFor": "Pointed to R.S. 37:2363"
+     }
+    ],
+    "note": "R.S. 37:2363 limits disclosure of psychologist records in legal proceedings. Title 28 (R.S. 28:171) lists patient rights but its text has no records confidentiality clause.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_LA",
+     "note": "R.S. 37:2363(A) applies in judicial, legislative and administrative proceedings. History note ends with Acts 2024, No. 286, with no special date, so August 1, 2024."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of HIV test result; disclosure",
+      "citation": "La. R.S. 40:1171.4(D)",
+      "officialUrl": "https://www.legis.la.gov/legis/Law.aspx?d=964727",
+      "linkedFrom": null,
+      "effectiveDate": "2010-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person to whom confidential HIV test results have been disclosed pursuant to this Subpart shall disclose the information to another person except as authorized by this Subpart",
+      "appliesTo": "Any person who receives confidential HIV test results.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e9f399911ad0195776293193e0a61be3d564ba2ed23c57f9ae702044136358d5"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-40/rs-40-1171-4/",
+      "host": "law.justia.com",
+      "usedFor": "Located the redesignated section number"
+     }
+    ],
+    "note": "R.S. 40:1171.4 also bars release under a general authorization that refuses HIV results. R.S. 40:1171.5 allows court-ordered disclosure only on stated grounds, with sealed filings.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_LA",
+     "note": "Quote is R.S. 40:1171.4(D). History note shows Acts 2010, No. 939, eff. July 1, 2010, then redesignation only. R.S. 40:1171.5 limits court-ordered disclosure and requires sealed filings."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Prohibited discrimination; genetic information; disclosure requirements",
+      "citation": "La. R.S. 22:1023(C)(1)",
+      "officialUrl": "https://www.legis.la.gov/legis/Law.aspx?d=507863",
+      "linkedFrom": null,
+      "effectiveDate": "2016-08-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No insurer shall obtain genetic information from an insured or enrollee, or from their DNA sample, without first obtaining written informed consent from the insured, enrollee, or their representative.",
+      "appliesTo": "Insurers; disclosure authorizations must be written, signed and dated under R.S. 22:1023(C)(2).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "dac85bc81314ea2e94188358581dd97ad1b180127cb702d5de69f4320128aeee"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.justia.com/codes/louisiana/2021/revised-statutes/title-22/rs-1023/",
+      "host": "law.justia.com",
+      "usedFor": "Located R.S. 22:1023"
+     }
+    ],
+    "note": "R.S. 22:1023 requires written consent to obtain genetic information, a signed authorization to disclose it, and authorization to retain it. Latest amendment Acts 2016, No. 58.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_LA",
+     "note": "R.S. 22:1023(C)(1). History note ends with Acts 2016, No. 58, with no special date, so August 1, 2016."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": true,
+   "facts": {
+    "statutoryDamages": "Genetic: greater of actual damages or $50,000 per violation, treble damages if profit, plus costs and attorney fees (R.S. 22:1023(F)). Breach: actual damages only (R.S. 51:3075). Copy rule: $500 civil penalty per violation payable to requestor (R.S. 40:1165.1)."
+   },
+   "provisions": [
+    {
+     "title": "Genetic information; civil liability",
+     "citation": "La. R.S. 22:1023(F)(1)",
+     "officialUrl": "https://www.legis.la.gov/legis/Law.aspx?d=507863",
+     "linkedFrom": null,
+     "effectiveDate": "2016-08-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person who through negligence collects, stores, or analyzes a DNA sample in violation of this Section, or discloses genetic information in violation of this Section, shall be liable to the individual for each such violation",
+     "appliesTo": "Any person violating R.S. 22:1023.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "dac85bc81314ea2e94188358581dd97ad1b180127cb702d5de69f4320128aeee"
+    },
+    {
+     "title": "Database Security Breach Notification Law; recovery of damages",
+     "citation": "La. R.S. 51:3075",
+     "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=322031",
+     "linkedFrom": null,
+     "effectiveDate": "2006-01-01",
+     "firstEnacted": "2006-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "A civil action may be instituted to recover actual damages resulting from the failure to disclose in a timely manner to a person that there has been a breach of the security system resulting in the disclosure of a person's personal information.",
+     "appliesTo": "Persons and agencies subject to R.S. 51:3074.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0dae5207c14871eeaaef8cce525f4f31878e1b53b08844848c4d4d36c3c6faed"
+    },
+    {
+     "title": "Louisiana Data Privacy Act; enforcement",
+     "citation": "Acts 2026, No. 502, R.S. 51:1780.5(C)",
+     "officialUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480202",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Consumer Protection Law, R.S. 51:1401 et seq., excluding private rights of",
+     "appliesTo": "Controllers covered by the Louisiana Data Privacy Act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c0d18d805dace759a5f4b953c99d40269597af35432550c140ee05ad44660b90"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.legalfix.com/statutes/state-codes/louisiana/code-revisedstatutes/title-51/rs-51-3075",
+     "host": "legalfix.com",
+     "usedFor": "Located R.S. 51:3075"
+    }
+   ],
+   "note": "Private suits exist for genetic information and for late breach notice. No general private action for unlawful disclosure of medical records found. Act 502, pending for 2027, excludes private actions.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_LA",
+    "note": "Genetic and breach suits only. Facts omit R.S. 22:1023(F)(2): willful violations carry the greater of actual damages or $100,000. Act 502, pending 2027-01-01, excludes private actions.",
+    "resolution": [
+     {
+      "rows": [
+       "Q097"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "Most expedient time possible and without unreasonable delay, not later than 60 days from discovery",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": false
+   },
+   "provisions": [
+    {
+     "title": "Database Security Breach Notification Law; definitions",
+     "citation": "La. R.S. 51:3073(4)(a)",
+     "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=322029",
+     "linkedFrom": null,
+     "effectiveDate": "2018-08-01",
+     "firstEnacted": "2006-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "\"Personal information\" means the first name or first initial and last name of an individual resident of this state in combination with any one or more of the following data elements, when the name or the data element is not encrypted or redacted:",
+     "appliesTo": "Listed elements are SSN, driver's license or state ID, financial account with access code, passport number, and biometric data. No medical or health insurance element.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1b9570c91a34ecc55e700f10b2f424d3f933afbf00ee140447648fdf25097fd3"
+    },
+    {
+     "title": "Notification requirements",
+     "citation": "La. R.S. 51:3074(E)",
+     "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=322030",
+     "linkedFrom": null,
+     "effectiveDate": "2018-08-01",
+     "firstEnacted": "2006-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "shall be made in the most expedient time possible and without unreasonable delay but not later than sixty days from the discovery of the breach",
+     "appliesTo": "Any person or agency that owns or licenses computerized data that includes personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9a87b3c3a53c0d0e1ace4ca16b5356df6125113e397b6bc647a8dedc55235de9"
+    },
+    {
+     "title": "Attorney General rule: database security breach notification reporting requirements",
+     "citation": "LAC 16:III.701 (LR 33:466, March 2007)",
+     "officialUrl": "https://ag.louisiana.gov/Page/DataBreach",
+     "linkedFrom": null,
+     "effectiveDate": "2007-03-20",
+     "firstEnacted": "2007-03-20",
+     "statusOfProvision": "in_force",
+     "quote": "Notice to the attorney general shall be timely if received within 10 days of distribution of notice to Louisiana citizens.",
+     "appliesTo": "Persons or agencies required to notify Louisiana residents under R.S. 51:3074.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2b16c4c36569337f53d103cb437af74ee976e630fc6f66dfc1d5983b42c14a0f"
+    },
+    {
+     "title": "Financial institution; compliance",
+     "citation": "La. R.S. 51:3076",
+     "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=322032",
+     "linkedFrom": null,
+     "effectiveDate": "2006-01-01",
+     "firstEnacted": "2006-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "A financial institution that is subject to and in compliance with the Federal Interagency Guidance on Response Programs for Unauthorized Access to Customer Information and Customer Notice",
+     "appliesTo": "Financial institutions only.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "c6405d3baaefbcacdce8c168fde16f475e50f065fa92daa717447ece029f928f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.law.cornell.edu/regulations/louisiana/La-Admin-Code-tit-16-SS-III-701",
+     "host": "law.cornell.edu",
+     "usedFor": "Found LR 33:466 history for LAC 16:III.701"
+    },
+    {
+     "url": "https://www.louisianalawblog.com/data-security-and-privacy/louisiana-governor-signs-significant-changes-louisianas-database-security-breach-notification-law/",
+     "host": "louisianalawblog.com",
+     "usedFor": "Found Act 382 of 2018"
+    }
+   ],
+   "note": "The definition omits medical and health insurance information. AG notice within 10 days of resident notice, per rule published in the Louisiana Register, March 20, 2007. Only a financial institution deemed-compliance clause; none for HIPAA.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_LA",
+    "note": "Listed elements omit medical and health insurance data. The AG rule date was cited from a lead; I confirmed it in the official Louisiana Register, March 20, 2007, at doa.la.gov. No HIPAA deemed-compliance clause."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [
+    {
+     "title": "Recordings; artificial intelligence; disclosure",
+     "citation": "La. R.S. 37:22.1, enacted by Acts 2026, No. 649 (HB 475)",
+     "officialUrl": "https://legis.la.gov/legis/ViewDocument.aspx?d=1480567",
+     "linkedFrom": null,
+     "effectiveDate": "2026-08-01",
+     "firstEnacted": "2026-08-01",
+     "statusOfProvision": "in_force",
+     "quote": "A healthcare professional licensed by this Title shall verbally disclose the",
+     "appliesTo": "Healthcare professionals licensed under Title 37.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d2485bcd5fabd673b411c3ca758770ae408e9fa9bfac1800faf1f66d747b75db"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.agg.com/news-insights/publications/louisiana-requires-verbal-disclosure-before-ai-assisted-recording-of-patient-encounters/",
+     "host": "agg.com",
+     "usedFor": "Found Act 649 of 2026"
+    },
+    {
+     "url": "https://www.beckerspayer.com/policy-updates/louisiana-bill-would-require-human-review-of-ai-driven-coverage-denials/",
+     "host": "beckerspayer.com",
+     "usedFor": "Found SB 246 of 2026, later withdrawn"
+    }
+   ],
+   "note": "Disclosure counted for AI transcription of an appointment or treatment. SB 246 of 2026, on insurer AI use and human review, was withdrawn on 2026-05-28. HB 114 of 2025 stayed in committee.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_LA",
+    "note": "Act 649 is in force from 2026-08-01, but it covers AI documentation of a visit. Legislature pages show SB 246 withdrawn and SB 5 (chatbots) pending in committee. This is a reading of anchor (a).",
+    "problems": [
+     "Element (a) is not met on the anchor's words: R.S. 37:22.1 requires disclosure of recording for AI transcription, not of AI used to communicate with the patient or in diagnosis or treatment.",
+     "Level 1 should be 0; no other element in force."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q032",
+       "Q098",
+       "Q207"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

@@ -1,0 +1,753 @@
+{
+ "usps": "AL",
+ "fips": "01",
+ "name": "Alabama",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": true,
+   "provisions": [
+    {
+     "title": "Alabama Genetic Data Privacy Act: consumer consent requirements",
+     "citation": "Ala. Code § 8-43-3(a)(3) (Act 2024-384, § 3)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-43-3%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-43-3",
+     "effectiveDate": "2024-10-01",
+     "firstEnacted": "2024-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "A genetic testing company shall obtain the consumer’s express consent every time the company does any of the following:",
+     "appliesTo": "Any person, other than a health care provider, who directly solicits a biological sample from a consumer for analysis in order to provide products or services to the consumer",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b8f4b68c96981778c9afc14c6e1bd3232a01aceb55ee323ede8eada207947ec3"
+    },
+    {
+     "title": "Alabama Genetic Data Privacy Act: exclusion of HIPAA entities",
+     "citation": "Ala. Code § 8-43-5(1) (Act 2024-384, § 5)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-43-5%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-43-5",
+     "effectiveDate": "2024-10-01",
+     "firstEnacted": "2024-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "A covered entity or business associate as those terms are defined in 45 C.F.R. Parts 160 and 164.",
+     "appliesTo": "Lists entities to which the chapter does not apply.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1fb8293f97c2174f40b9265ad4094900a8e279a7fea354a3856f540efb859ec0"
+    },
+    {
+     "title": "Alabama Personal Data Protection Act: consent for sensitive data",
+     "citation": "Ala. Code § 8-44-7(b)(2) (Act 2026-552, § 7)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-44-7%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-44-7",
+     "effectiveDate": "2027-05-01",
+     "firstEnacted": "2027-05-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "Process sensitive data concerning a consumer other than a known child without obtaining that consumer’s consent",
+     "appliesTo": "Control or process the personal data of more than 25,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9de1f8c777278fa2f571181a8f36c131b709e13ca432c70b696124326cbfcae2"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.insideprivacy.com/health-privacy/alabama-enacts-genetic-privacy-bill/",
+     "host": "insideprivacy.com",
+     "usedFor": "Finding the 2024 genetic data privacy act"
+    },
+    {
+     "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/alabama-becomes-21st-state-with-comprehensive-consumer-privacy-law",
+     "host": "hunton.com",
+     "usedFor": "Finding the 2026 comprehensive privacy act"
+    },
+    {
+     "url": "https://www.mayerbrown.com/en/insights/publications/2026/04/alabama-enacts-comprehensive-consumer-data-privacy-law",
+     "host": "mayerbrown.com",
+     "usedFor": "Finding the 2026 comprehensive privacy act"
+    }
+   ],
+   "note": "Act 2024-384 requires express consent from direct-to-consumer genetic testing companies, one class of non-HIPAA holder. Act 2026-552 requires consent for sensitive data, including health conditions, from May 1, 2027. Act 2026-552 § 12 sets that date.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AL_r2",
+    "note": "Act 2024-384 section 7 sets October 1, 2024, read in HB21 enrolled text. It requires consent from one class of non-HIPAA holder, which gives level 2. Act 2026-552 (HB351) section 12 sets May 1, 2027, so pending is true.",
+    "resolution": [
+     {
+      "rows": [
+       "Q116",
+       "Q117",
+       "Q118",
+       "Q201",
+       "Q203",
+       "Q206"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "When a physician leaves a group practice and the group notifies patients, the group bears the cost of reproducing or transferring records; if the departing physician notifies, the physician bears it (Ala. Admin. Code r. 540-X-9-.10)."
+    ],
+    "feeRules": [
+     "Ala. Code § 12-21-6.1(b)(2): \"shall not be more than one dollar ($1) for each page of the first 25 pages, not more than 50 cents ($.50) for each page in excess of 25 pages, and a search fee of five dollars ($5).\" Mailing at actual cost; X-rays at actual cost. Binds any medical provider or entity that maintains medical records.",
+     "Ala. Admin. Code r. 540-X-9-.10(b): \"The cost of reproduction shall not exceed what is authorized under state and federal law.\" Binds physicians."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Joint Rules of the State Board of Medical Examiners and Medical Licensure Commission for Medical Records Management",
+     "citation": "Ala. Admin. Code r. 540-X-9-.10",
+     "officialUrl": "https://admincode.legislature.state.al.us/api/rule/540-X-9-.10",
+     "linkedFrom": null,
+     "effectiveDate": "2022-01-14",
+     "firstEnacted": "1998-05-20",
+     "statusOfProvision": "in_force",
+     "quote": "Absent a contractual provision to the contrary, when the group or medical practice undertakes to notify patients of the physician's departure, the group shall bear the cost of notifying patients and reproducing or transferring medical records.",
+     "appliesTo": "Physicians and physician group practices licensed in Alabama; applies when a physician departs a group.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "f2dae13274608bbaab3e510b5c16924339ea9e35f53b9d902335dd2d609e1b78"
+    },
+    {
+     "title": "Reproduction and Delivery of Medical Records",
+     "citation": "Ala. Code § 12-21-6.1 (Act 94-609)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%2212-21-6.1%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=12-21-6.1",
+     "effectiveDate": "1994-04-25",
+     "firstEnacted": "1994-04-25",
+     "statusOfProvision": "in_force",
+     "quote": "shall not be more than one dollar ($1) for each page of the first 25 pages, not more than 50 cents ($.50) for each page in excess of 25 pages, and a search fee of five dollars ($5).",
+     "appliesTo": "Any medical provider or company or other legal entity that maintains medical records.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9808bb97ad0dabc844a38b67e00d4e4d648f637317c183e0afbe1764b718cdae"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.law.cornell.edu/regulations/alabama/Ala-Admin-Code-r-540-X-9-.10",
+     "host": "law.cornell.edu",
+     "usedFor": "Finding the medical records management rule"
+    },
+    {
+     "url": "https://www.healthinfolaw.org/state-law/joint-guidelines-state-board-medical-examiners-and-medical-licensure-commission-medical-re",
+     "host": "healthinfolaw.org",
+     "usedFor": "Finding the medical records management rule"
+    },
+    {
+     "url": "https://codes.findlaw.com/al/title-12-courts/al-code-sect-12-21-6-1/",
+     "host": "codes.findlaw.com",
+     "usedFor": "Finding the copy fee statute"
+    }
+   ],
+   "note": "No state deadline found. Free case is narrow: records transfer when a physician leaves a group, cost on the practice or physician. HIPAA permits a fee for such copies, so this goes beyond the federal floor. Per-page cap is a fact only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AL_r2",
+    "note": "beyondFederalFloor yes: the rule puts the cost of copying or transferring records on the practice or departing physician, covering paper copies, so it is more than free electronic self-access. No deadline under 30 days found in code search.",
+    "resolution": [
+     {
+      "rows": [
+       "Q119",
+       "Q190"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "not_checked",
+   "value": null,
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "One Health Record (Alabama Medicaid Agency)",
+   "stricterForSensitive": null,
+   "provisions": [],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://medicaid.alabama.gov/news_detail.aspx?ID=9660",
+     "host": "medicaid.alabama.gov",
+     "usedFor": "Medicaid news item dated 5/28/2015 describing a provider-offered opt-out; not a current policy"
+    },
+    {
+     "url": "https://www.onehealthrecord.alabama.gov/Content/uploads/AHIE-Policies-And-Procedures%20Latest.pdf",
+     "host": "onehealthrecord.alabama.gov",
+     "usedFor": "HIE policy; blocked by captcha and certificate errors, not read"
+    },
+    {
+     "url": "https://www.childrensal.org/sites/default/files/workfiles/HIPAA/Patient-OptOut-Reverse-OptOut-Information-Form-OneHealth-Record.pdf",
+     "host": "childrensal.org",
+     "usedFor": "Hospital copy of HIE opt-out form"
+    },
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "healthit.gov",
+     "usedFor": "Background on state HIE consent models"
+    }
+   ],
+   "note": "No HIE statute found in the code. One Health Record policy pages return a 403 captcha. A Medicaid news item dated 5/28/2015 mentions opt-out but is not a current policy, so the cell is not checked.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_AL_r2",
+    "note": "Code full-text search for health information exchange found no statute. One Health Record pages returned 403 captcha or certificate errors, so its current policy could not be read. Status stays not_checked.",
+    "problems": [
+     "The lead and note call the Medicaid news item undated. The page shows the date 5/28/2015, so it is dated, but it is not a current policy."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q003"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Reports of Induced Termination of Pregnancy",
+      "citation": "Ala. Code § 22-9A-13(b)(5) (Act 2012-363)",
+      "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%2222-9A-13%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+      "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=22-9A-13",
+      "effectiveDate": "2012-05-14",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Individual induced termination of pregnancy reports shall be maintained in strict confidence by the Office of Vital Statistics, shall not be available for public inspection, and shall not be made available except:",
+      "appliesTo": "Reports filed with the Office of Vital Statistics; exceptions include the Attorney General or a district attorney in a criminal investigation.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "277f8579b6702e37fd71da7bdc321c5bd8922f95c20e7540f62c6facaa097312"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Rule covers state vital statistics reports of induced termination of pregnancy, not provider records generally. Listed exceptions allow release to prosecutors and by court order. Act 2012-363 took effect on approval.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AL_r2",
+     "note": "Latest amendment is Act 2012-363 (HB362), approved 5-14-2012 per Secretary of State. Its section 7 makes it effective on approval. Subdivision (b)(5) text dates from Act 2011-672.",
+     "resolution": [
+      {
+       "rows": [
+        "Q120",
+        "Q194"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental Health Consumers' Rights",
+      "citation": "Ala. Code § 22-56-4(b)(6) (Act 95-744)",
+      "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%2222-56-4%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+      "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=22-56-4",
+      "effectiveDate": "1996-01-01",
+      "firstEnacted": "1995-08-07",
+      "statusOfProvision": "in_force",
+      "quote": "The right to confidentiality of all information in the consumer’s mental health, medical, and financial records.",
+      "appliesTo": "Consumers of mental health services.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "8680738eb28d42bce91ce50ee48396d559311936066bc8e1cabb773167276ced",
+      "effectiveDateSource": {
+       "url": "https://archive.org/download/alabama-acts-1995_v2/1995_v2_djvu.txt",
+       "quote": "Section 12. This act shall become effective on January 1. 1996.",
+       "rawSha256": "fff97a0b088bbfcdda2f803b7e6b814d15519d8fb40b710162e5e78cc7644b02",
+       "archive": "archive.org item alabama-acts-1995_v2, Alabama legislative acts 1995 vol. 2, uploaded by the Alabama Department of Archives and History",
+       "captureDate": "2019-08-07",
+       "retrievedAt": "2026-10-04T09:33:48Z"
+      }
+     },
+     {
+      "title": "Confidential Relations Between Licensed Psychologists, Licensed Psychiatrists, or Licensed Psychological Technicians and Their Clients",
+      "citation": "Ala. Code § 34-26-2 (Act 97-387)",
+      "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%2234-26-2%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+      "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=34-26-2",
+      "effectiveDate": "1997-05-12",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "are placed upon the same basis as those provided by law between attorney and client",
+      "appliesTo": "Licensed psychologists, licensed psychiatrists, and licensed psychological technicians and their clients.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "83c9c3f675eeb1ab6fb1f4a8e2d19cef507a8318092ef6001fa29f629943b8ab"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Effective dates are the Governor's approval dates on the Secretary of State act pages (Act 95-744, Act 97-387). Act images were not online to confirm any later date.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_AL_r2",
+     "note": "Value yes stands on both sections. Act 95-744 approved 8-7-1995 and Act 97-387 approved 5-12-1997 per Secretary of State. Pre-1999 act text was not online to read effective-date clauses.",
+     "problems": [
+      "Citation is wrong: the quoted right is Section 22-56-4(b)(6), not (a)(6). Paragraph (a)(6) is the right to free exercise of religion.",
+      "Effective date 1995-08-07 is only the approval date. Section 22-56-5 refers to January 1, 1996, so the act may have taken effect later. Not confirmed."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q121",
+        "Q122",
+        "Q193",
+        "Q196"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      },
+      {
+       "rows": [
+        "Q004"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      },
+      {
+       "rows": [
+        "ruling 4"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-29",
+       "date": "2026-10-04"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality (HIV test results)",
+      "citation": "Ala. Code § 22-11A-54 (Act 91-120)",
+      "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%2222-11A-54%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+      "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=22-11A-54",
+      "effectiveDate": "1991-05-16",
+      "firstEnacted": "1991-05-16",
+      "statusOfProvision": "in_force",
+      "quote": "A health care or other testing facility shall maintain confidentiality regarding medical test results with respect to the HIV infection or a specific sickness or medical condition derived from such infection and shall disclose results only to those individuals designated by this article or otherwise as authorized by law.",
+      "appliesTo": "Health care or other testing facilities.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "5e21c90adb6fd6a340608011c70ffb1d07e126cfb19b005083219ea9cce04705"
+     },
+     {
+      "title": "Medical Records of Persons Infected with Sexually Transmitted Diseases Confidential; Penalty for Release",
+      "citation": "Ala. Code § 22-11A-22 (Act 87-574)",
+      "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%2222-11A-22%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+      "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=22-11A-22",
+      "effectiveDate": "1987-07-23",
+      "firstEnacted": "1987-07-23",
+      "statusOfProvision": "in_force",
+      "quote": "Individual medical records may be released on the written consent of the patient.",
+      "appliesTo": "Information, reports and medical records on sexually transmitted diseases designated by the State Board of Health.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d5e485639c6322015057c22a80a2cdda03364d5dcab7d47648d2af76218d8d09"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Effective dates are the Governor's approval dates on the Secretary of State act pages (Act 91-120, Act 87-574). Act images were not online to confirm any later date.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AL_r2",
+     "note": "Both quotes match the code text. Secretary of State shows Act 91-120 approved 5-16-1991 and Act 87-574 approved 7-23-1987. These are approval dates; act text was not online.",
+     "resolution": [
+      {
+       "rows": [
+        "Q123",
+        "Q124",
+        "Q191",
+        "Q192"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Alabama Genetic Data Privacy Act: disclosure to insurers and employers",
+      "citation": "Ala. Code § 8-43-3(c) (Act 2024-384, § 3)",
+      "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-43-3%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+      "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-43-3",
+      "effectiveDate": "2024-10-01",
+      "firstEnacted": "2024-10-01",
+      "statusOfProvision": "in_force",
+      "quote": "A genetic testing company may not do any of the following without a consumer’s express written consent:",
+      "appliesTo": "Any person, other than a health care provider, who directly solicits a biological sample from a consumer for analysis in order to provide products or services to the consumer",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "b8f4b68c96981778c9afc14c6e1bd3232a01aceb55ee323ede8eada207947ec3"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.insideprivacy.com/health-privacy/alabama-enacts-genetic-privacy-bill/",
+      "host": "insideprivacy.com",
+      "usedFor": "Finding the 2024 genetic data privacy act"
+     }
+    ],
+    "note": "The listed acts are disclosure to health, life, disability or long-term care insurers and to employers. The act excludes HIPAA covered entities and business associates.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_AL_r2",
+     "note": "Subsection (c) lists disclosure to health, life, disability or long-term care insurers and to employers. Act 2024-384 section 7 sets October 1, 2024. Section 8-43-5(1) excludes HIPAA covered entities.",
+     "resolution": [
+      {
+       "rows": [
+        "Q125",
+        "Q202"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 0,
+   "pending": true,
+   "facts": {
+    "statutoryDamages": "none"
+   },
+   "provisions": [
+    {
+     "title": "Data Breach Notification Act: violations",
+     "citation": "Ala. Code § 8-38-9(a)(1) (Act 2018-396, § 9)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-38-9%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-38-9",
+     "effectiveDate": "2018-06-01",
+     "firstEnacted": "2018-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "A violation of this chapter does not establish a private cause of action under Section 8-19-10.",
+     "appliesTo": "Covered entities and third-party agents under the breach chapter.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "35bb5a4f2d68672d8ff33471faa86c142e7e899f629e485f461f9d21cb329a7c"
+    },
+    {
+     "title": "Alabama Genetic Data Privacy Act: enforcement",
+     "citation": "Ala. Code § 8-43-6(b) (Act 2024-384, § 6)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-43-6%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-43-6",
+     "effectiveDate": "2024-10-01",
+     "firstEnacted": "2024-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "may enforce this chapter by a civil action in circuit court to enjoin any practice or conduct in violation of this chapter or to recover a civil penalty of up to three thousand dollars ($3,000) for each violation.",
+     "appliesTo": "Consumer Interest Division of the Office of the Attorney General.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7220d8fc83e4d5a6e72021a8d73a528d00695bbfbab1e7ffaed8b94f824d1106"
+    },
+    {
+     "title": "Alabama Personal Data Protection Act: enforcement",
+     "citation": "Ala. Code § 8-44-11(a) (Act 2026-552, § 11)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-44-11%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-44-11",
+     "effectiveDate": "2027-05-01",
+     "firstEnacted": "2027-05-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "The Attorney General may enforce violations of this chapter.",
+     "appliesTo": "Controllers and processors meeting the § 8-44-3 thresholds.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b8839dd8b0bb957cbdca02522b3d0c81fb516c6a7eacad56da1d0aed68e60708"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://alison.legislature.state.al.us/code-of-alabama",
+    "terms": [
+     "private cause of action",
+     "private right of action",
+     "medical record",
+     "genetic",
+     "HIV",
+     "human immunodeficiency",
+     "mental health confidential",
+     "consumer health",
+     "sensitive data"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.alabamaag.gov/data-breach-notification/",
+     "https://www.alabamaag.gov/divisions/consumer-interest-division/"
+    ],
+    "leadsChecked": [
+     "https://www.insideprivacy.com/health-privacy/alabama-enacts-genetic-privacy-bill/",
+     "https://www.hunton.com/privacy-and-information-security-law/alabama-becomes-final-state-enact-data-breach-notification-law"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.insideprivacy.com/health-privacy/alabama-enacts-genetic-privacy-bill/",
+     "host": "insideprivacy.com",
+     "usedFor": "Checking genetic act enforcement"
+    }
+   ],
+   "note": "Breach act bars a private action under § 8-19-10. Genetic act and the 2027 privacy act are enforced by the Attorney General only. No health records statute found that lets a person sue.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AL_r2",
+    "note": "My code searches found no health records cause of action. Section 22-56-4(b)(14) gives mental health consumers a court enforcement right, but 22-56-10 bars expanding rights beyond other persons. Flag for review; level 0 kept.",
+    "resolution": [
+     {
+      "rows": [
+       "Q126",
+       "Q127",
+       "Q128",
+       "Q200",
+       "Q204",
+       "Q205",
+       "Q213"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-26 Q5",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "45 days",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Data Breach Notification Act: definitions (medical information)",
+     "citation": "Ala. Code § 8-38-2(6)a.4. (Act 2018-396, § 2)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-38-2%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-38-2",
+     "effectiveDate": "2018-06-01",
+     "firstEnacted": "2018-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "Any information regarding an individual’s medical history, mental or physical condition, or medical treatment or diagnosis by a health care professional.",
+     "appliesTo": "Covered entities: any person or business or government entity that acquires or uses sensitive personally identifying information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6a0cb4702a4b316ee41710b21c6c36d6a1cfaf251a1b68d855fc3d9aa1b9db15"
+    },
+    {
+     "title": "Data Breach Notification Act: definitions (health insurance information)",
+     "citation": "Ala. Code § 8-38-2(6)a.5. (Act 2018-396, § 2)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-38-2%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-38-2",
+     "effectiveDate": "2018-06-01",
+     "firstEnacted": "2018-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "An individual’s health insurance policy number or subscriber identification number and any unique identifier used by a health insurer to identify the individual.",
+     "appliesTo": "Covered entities under the breach chapter.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6a0cb4702a4b316ee41710b21c6c36d6a1cfaf251a1b68d855fc3d9aa1b9db15"
+    },
+    {
+     "title": "Notice of Security Breach: Individuals Affected",
+     "citation": "Ala. Code § 8-38-5(b) (Act 2018-396, § 5)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-38-5%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-38-5",
+     "effectiveDate": "2018-06-01",
+     "firstEnacted": "2018-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "the covered entity shall provide notice within 45 days of the covered entity’s receipt of notice from a third-party agent that a breach has occurred",
+     "appliesTo": "Breaches reasonably likely to cause substantial harm.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "11b21b190739f9a9448b122f44eb71a5fc71f04a3858f5be194e5e3526b21773"
+    },
+    {
+     "title": "Notice of Security Breach: Attorney General",
+     "citation": "Ala. Code § 8-38-6(a) (Act 2018-396, § 6)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-38-6%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-38-6",
+     "effectiveDate": "2018-06-01",
+     "firstEnacted": "2018-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "If the number of individuals a covered entity is required to notify under Section 8-38-5 exceeds 1,000, the entity shall provide written notice of the breach to the Attorney General as expeditiously as possible and without unreasonable delay.",
+     "appliesTo": "Breaches requiring notice to more than 1,000 individuals.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7182c7d11f22dee2cb48fdb782140960755c37e4ba74a0c4a0e979032110d2b8"
+    },
+    {
+     "title": "Exemptions: Federal",
+     "citation": "Ala. Code § 8-38-11 (Act 2018-396, § 11)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%228-38-11%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=8-38-11",
+     "effectiveDate": "2018-06-01",
+     "firstEnacted": "2018-06-01",
+     "statusOfProvision": "in_force",
+     "quote": "is exempt from this chapter as long as the entity does all of the following:",
+     "appliesTo": "Entities subject to federal breach notification rules that keep procedures, notify individuals under those rules, and copy the Attorney General when over 1,000 are notified.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d2e8ff5c8aed8e255c7ca6432e5cc0605cffadf9ebf3993fcbc4ff228855562e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2018/04/alabama-becomes-50th-state-to-enact-data-breach-notification-law",
+     "host": "ballardspahr.com",
+     "usedFor": "Effective date lead for Act 2018-396"
+    },
+    {
+     "url": "https://www.hunton.com/privacy-and-information-security-law/alabama-becomes-final-state-enact-data-breach-notification-law",
+     "host": "hunton.com",
+     "usedFor": "Effective date lead for Act 2018-396"
+    }
+   ],
+   "note": "Act 2018-396 § 13 sets effect on the first day of the third month after approval (approved March 28, 2018), so June 1, 2018. Both medical and health insurance information are in the definition.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AL_r2",
+    "note": "Legislature's 2018 summaries list Act 2018-396 effective June 1, 2018. Notice within 45 days. Attorney General notice when over 1,000. Section 8-38-11 exempts entities that follow federal breach rules.",
+    "resolution": [
+     {
+      "rows": [
+       "Q129",
+       "Q130",
+       "Q131",
+       "Q132",
+       "Q133",
+       "Q197",
+       "Q198",
+       "Q199"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": true,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "Ala. Code § 27-1-17.2(b)(2)a. (annual certification): \"The artificial intelligence does not rely on a group dataset to make determinations.\""
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Limitations on Use of Artificial Intelligence by Health Benefit Plan Providers; Enforcement",
+     "citation": "Ala. Code § 27-1-17.2(b)(3) (Act 2026-589, § 1)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%2227-1-17.2%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=27-1-17.2",
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2026-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "a determination to deny, delay, or modify a request for prior authorization based on medical necessity shall always be made by a licensed physician or other health care professional who is competent to evaluate any recommendation or conclusion of artificial intelligence",
+     "appliesTo": "Health benefit plan providers, including insurers, HMOs, and utilization review contractors, for prior authorization under health benefit plans.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "595189956283234ba8f18e7936bbff74f340ec679b686121609660df530c6b46"
+    },
+    {
+     "title": "Limitations on Use of Artificial Intelligence by Health Benefit Plan Providers: disclosure in policies",
+     "citation": "Ala. Code § 27-1-17.2(c)(1) (Act 2026-589, § 1)",
+     "officialUrl": "https://alison.legislature.state.al.us/graphql?query=%7BcodesOfAlabama%28where%3A%7Btype%3A%7Beq%3ASection%7D%2CdisplayId%3A%7Beq%3A%2227-1-17.2%22%7D%7D%2Cversions%3Atrue%29%7Bdata%7BdisplayId%20title%20content%20history%20effectiveDate%7D%7D%7D",
+     "linkedFrom": "https://alison.legislature.state.al.us/code-of-alabama?section=27-1-17.2",
+     "effectiveDate": "2026-10-01",
+     "firstEnacted": "2026-10-01",
+     "statusOfProvision": "in_force",
+     "quote": "Make prominent written disclosures regarding its use of artificial intelligence in utilization review in its policies and procedures.",
+     "appliesTo": "Health benefit plan providers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "595189956283234ba8f18e7936bbff74f340ec679b686121609660df530c6b46"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Act 2026-589 § 2 sets October 1, 2026. Policy-level disclosure is not notice to the person, so disclosure is not counted. No human review right for the enrollee found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_AL_r2",
+    "note": "SB63 enrolled section 2 sets October 1, 2026. Only clinician decides counts. Disclosure is in plan policies, not to the person. No human review right. Code search found no other health AI provision.",
+    "resolution": [
+     {
+      "rows": [
+       "Q134",
+       "Q135",
+       "Q195"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

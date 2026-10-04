@@ -1,0 +1,608 @@
+{
+ "usps": "FL",
+ "fips": "12",
+ "name": "Florida",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Florida Digital Bill of Rights, privacy and data security: controller may not process sensitive data without consent",
+     "citation": "Fla. Stat. s. 501.71",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.71.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Process the sensitive data of a consumer without obtaining the consumer’s consent",
+     "appliesTo": "Controllers as defined in s. 501.702, which include an entity that \"Makes in excess of $1 billion in global gross annual revenues; and\" meets further listed tests.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7b9258698a91f1bbc3d7778a2f67c096065cc1351d991e28fd29769b6147a03b"
+    },
+    {
+     "title": "Florida Digital Bill of Rights, definitions (sensitive data, controller)",
+     "citation": "Fla. Stat. s. 501.702",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.702.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Personal data revealing an individual’s racial or ethnic origin, religious beliefs, mental or physical health diagnosis, sexual orientation, or citizenship or immigration status.",
+     "appliesTo": "Makes in excess of $1 billion in global gross annual revenues; and",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "12150d01e9a896a6c2aab0325d860dfb951f7e07f7226ad380128f88f8dc8ad8"
+    },
+    {
+     "title": "Requirements for sensitive data: consent before sale of sensitive data",
+     "citation": "Fla. Stat. s. 501.715(1)",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.715.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "for the definition of a controller may not engage in the sale of personal data that is sensitive data without receiving prior consent from the consumer",
+     "appliesTo": "A person who meets the requirements of s. 501.702(9)(a)1.-3. for the definition of a controller (no revenue threshold).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "19580e9626ad940c7f24f9038c76f2f30b42f0d90c615318dda7fcc218c353e9"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://natlawreview.com/article/florida-s-consumer-privacy-law-signed-governor",
+     "host": "natlawreview.com",
+     "usedFor": "Finding the Florida Digital Bill of Rights"
+    },
+    {
+     "url": "https://www.dwt.com/blogs/privacy--security-law-blog/2023/06/florida-digital-bill-of-rights-data-privacy",
+     "host": "dwt.com",
+     "usedFor": "Finding the Florida Digital Bill of Rights"
+    }
+   ],
+   "note": "ch. 2023-201 took effect July 1, 2024. Consent for sensitive data, including health diagnosis, binds only controllers with over $1 billion revenue. Consent before sale of sensitive data binds smaller for-profit entities too.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_FL",
+    "note": "Quotes verbatim on leg.state.fl.us. Ch. 2023-201 takes effect July 1, 2024, per the session law. Sensitive data includes mental or physical health diagnosis. Consent rule meets level 2.",
+    "resolution": [
+     {
+      "rows": [
+       "Q146"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 14,
+    "freeCopyCases": [
+     "Licensed facility (hospital): no charge when records are copied or searched for the purpose of continuing to receive medical care (s. 395.3025(1))."
+    ],
+    "feeRules": [
+     "Licensed facility: \"may not exceed $1 per page\"; nonpaper records up to $2; up to $1 per year of records requested (s. 395.3025(1)).",
+     "Practitioners: \"no more than the actual cost of copying, including reasonable staff time, or the amount specified in administrative rule\" (s. 456.057).",
+     "Physicians (Board of Medicine): $1.00 per page for the first 25 pages, 25 cents per page after (r. 64B8-10.003).",
+     "Nursing homes: \"may not exceed $1 per page for the first 25 pages and 25 cents per page for each additional page\" (s. 400.145)."
+    ],
+    "beyondFederalFloor": "yes",
+    "deadlineScope": "Nursing home residents only: within 14 working days (Fla. Stat. s. 400.145(1)). Other practitioners must provide copies \"in a timely manner\" (s. 456.057)."
+   },
+   "provisions": [
+    {
+     "title": "Patient and personnel records; copies; examination (licensed facilities)",
+     "citation": "Fla. Stat. s. 395.3025(1)",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0395/Sections/0395.3025.html",
+     "linkedFrom": null,
+     "effectiveDate": "2017-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "However, a patient whose records are copied or searched for the purpose of continuing to receive medical care is not required to pay a charge for copying or for the search.",
+     "appliesTo": "Any licensed facility (hospitals and other facilities licensed under ch. 395).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "36e5b389ebfb82973986b9b8de22c8864f4ff1f7aeb9ee492dde200af50d1cde"
+    },
+    {
+     "title": "Nursing home resident records; deadline to furnish copies",
+     "citation": "Fla. Stat. s. 400.145(1)",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0400/Sections/0400.145.html",
+     "linkedFrom": null,
+     "effectiveDate": "2014-06-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The facility shall provide the requested records within 14 working days after receipt of a request relating to a current resident or within 30 working days after receipt of a request relating to a former resident.",
+     "appliesTo": "A nursing home facility, for a competent resident or the resident's authorized representative.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "39ad457dc532c3a5ff613384a87596b3414fc0419f39b24828fe8b0d604ff541"
+    },
+    {
+     "title": "Ownership and control of patient records; copies to be furnished (practitioners)",
+     "citation": "Fla. Stat. s. 456.057",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0456/Sections/0456.057.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "furnish, in a timely manner, without delays for legal review, copies of all reports and records relating to such examination or treatment, including X rays and insurance information.",
+     "appliesTo": "Any health care practitioner licensed by the department or a board within the department.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1703acbe53db9d502d3bfb052b20daade0e5f2ddc9177de5a80804a9f80eb5a1"
+    },
+    {
+     "title": "Board of Medicine rule: Costs of Reproducing Medical Records",
+     "citation": "Fla. Admin. Code r. 64B8-10.003",
+     "officialUrl": "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=6848605&type=1&file=64B8-10.003.doc",
+     "linkedFrom": "https://flboardofmedicine.gov/resources/",
+     "effectiveDate": "2009-03-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(a) For the first 25 pages, the cost shall be $1.00 per page.",
+     "appliesTo": "Any person licensed pursuant to chapter 458, F.S. (physicians).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ea645f5963c7abd7200b0dec77afe9f64b15dd5e5c82a2305b036a0a8a62f0a0"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.findlaw.com/state/florida-law/florida-medical-records-laws.html",
+     "host": "findlaw.com",
+     "usedFor": "Finding Florida medical records statutes"
+    }
+   ],
+   "note": "Beyond the federal floor: free hospital copy for continuing care, and 14 working days for current nursing home residents. Practitioners have only a timely standard. Per-page caps are recorded as facts only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_FL",
+    "note": "beyondFederalFloor yes: a free hospital copy for continuing care, in any format, and a 14 working day nursing home deadline both go past HIPAA and 171.302. The 456.057 date is the section's; ch. 2026-165 amended only (7)(a).",
+    "resolution": [
+     {
+      "rows": [
+       "Q167"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "hie_policy",
+   "designatedHie": "Florida Health Information Exchange (AHCA program, operated by CRISP Shared Services)",
+   "stricterForSensitive": true,
+   "provisions": [
+    {
+     "title": "Florida HIE, For Patients: right to opt out",
+     "citation": "Florida HIE patient opt-out policy (web page, modified 2026-08-13)",
+     "officialUrl": "https://www.flhie.org/for-patients/",
+     "linkedFrom": "https://ahca.myflorida.com/agency-administration/florida-center-for-health-information-and-transparency/office-of-health-information-exchange-and-policy-analysis/florida-health-information-exchange.html",
+     "effectiveDate": "2026-08-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Yes, patients can choose not to make their data available in the HIE. This action is called opting-out. If you opt-out of the HIE, none of your data will be shared via the HIE.",
+     "appliesTo": "Clinical data shared through the Florida HIE; public health reporting and PDMP data continue after opt-out.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "467ee125506f6b61e0ccf6abc3acd4124f63d98494effca750a7f02f65f6f528"
+    },
+    {
+     "title": "Florida Electronic Health Records Exchange Act",
+     "citation": "Fla. Stat. s. 408.051",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0408/Sections/0408.051.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "make available all admission, transfer, and discharge data to the agency’s Florida Health Information Exchange program for the purpose of supporting public health data registries and patient care coordination.",
+     "appliesTo": "Hospitals and other listed entities that maintain certified electronic health record technology.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7dee93cf6106d981c92cce62c73953835825f83d8a1a12a34754f03334ad081f"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Statute sets no general HIE consent rule, so the value comes from the AHCA-linked Florida HIE policy. Its stricter rule for substance use records reflects federal 42 CFR Part 2, not state law.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_FL",
+    "note": "AHCA page links flhie.org and says AHCA governs the Florida HIE. s. 395.3025(4)(a) allows treatment sharing without consent. The 408.051 quote is from subsection (6), nursing homes, not hospitals.",
+    "resolution": [
+     {
+      "rows": [
+       "Q168"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "citation": "Fla. Stat. 390.0112(3)",
+      "officialUrl": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399%2F0390%2FSections%2F0390.0112.html",
+      "effectiveDate": "2022-07-01",
+      "quote": "Reports submitted pursuant to this section shall be confidential and exempt from the provisions of s. 119.07 (1) and shall not be revealed except upon the order of a court of competent jurisdiction in a civil or criminal proceeding.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ff30000743a3eeebe057f1bb8d5f5c3f38da2edc5e58c9ca541eebd56fb94a9b",
+      "statusOfProvision": "in_force"
+     }
+    ],
+    "searchLog": {
+     "codeSearchUrl": "http://www.leg.state.fl.us/statutes/index.cfm?AppMode=Display_Results&Mode=Search%20Statutes&Submenu=2&Tab=statutes&Search_String=abortion&StatuteYear=2026",
+     "terms": [
+      "reproductive health",
+      "abortion"
+     ],
+     "regulatorPagesChecked": [
+      "https://www.myfloridalegal.com/sites/default/files/2025-01/digital-bill-of-rights-annual-report.pdf",
+      "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0390/Sections/0390.0112.html"
+     ],
+     "leadsChecked": [
+      "https://www.findlaw.com/state/florida-law/florida-medical-records-laws.html",
+      "https://law.ucla.edu/sites/default/files/PDFs/Center_on_Reproductive_Health/Shield-Law-DE-Mar-2026.pdf"
+     ],
+     "searchedAt": "2026-10-03"
+    },
+    "leads": [
+     {
+      "url": "https://www.findlaw.com/state/florida-law/florida-medical-records-laws.html",
+      "host": "findlaw.com",
+      "usedFor": "Checking for a reproductive records confidentiality rule"
+     }
+    ],
+    "note": "No rule on confidentiality or disclosure of a person's reproductive health record found. s. 390.0112 makes monthly termination reports to the agency confidential and free of identifying information; these are agency reports, not the patient record.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_FL",
+     "note": "My statute search for abortion and confidential found no in-force rule on the patient record. s. 390.01116 and s. 390.01118 cover court records of minors seeking a judicial waiver. s. 390.012 points to chapter 458.",
+     "resolution": [
+      {
+       "rows": [
+        "Q211",
+        "Q216"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Clinical records; confidentiality (Baker Act)",
+      "citation": "Fla. Stat. s. 394.4615",
+      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0394/Sections/0394.4615.html",
+      "linkedFrom": null,
+      "effectiveDate": "2024-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "A clinical record is confidential and exempt from the provisions of s. 119.07",
+      "appliesTo": "Clinical records of patients under part I of chapter 394 (Florida Mental Health Act).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "cf9c8db3e9136a477a9c20961851f935904517fefaddf3b23a51b2495ed2fbc3"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "s. 394.4615 makes the clinical record confidential. Confidential status is kept unless waived by express and informed consent of the patient or a listed representative.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_FL",
+     "note": "Quote verbatim. History note ends with ch. 2024-245, effective July 1, 2024, per the session law. That act amended subsection (2).",
+     "resolution": [
+      {
+       "rows": [
+        "Q147"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV testing; confidentiality of test results",
+      "citation": "Fla. Stat. s. 381.004(2)(e)",
+      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0381/Sections/0381.004.html",
+      "linkedFrom": null,
+      "effectiveDate": "2018-07-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person who has obtained or has knowledge of a test result pursuant to this section may disclose or be compelled to disclose the identity of any person upon whom a test is performed, or the results of such a test in a manner which permits identification",
+      "appliesTo": "Any person who has obtained or has knowledge of an HIV test result under s. 381.004.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "85be1318a97350601f07a3831140ba2dc80ddf123039ba370fc357787ef33842"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "s. 381.004 limits disclosure of HIV test results and the identity of the person tested to listed exceptions. Malicious disclosure of HIV status is a third degree felony.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_FL",
+     "note": "Quote verbatim. History note ends with ch. 2018-24, effective July 1, 2018, per the session law. The third degree felony clause is on the page."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Genetic testing; express consent required; confidentiality",
+      "citation": "Fla. Stat. s. 760.40(2)",
+      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0760/Sections/0760.40.html",
+      "linkedFrom": null,
+      "effectiveDate": "2021-10-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "The results of such DNA analysis, whether held by a public or private entity, are the exclusive property of the person tested, are confidential, and may not be disclosed without express consent.",
+      "appliesTo": "Any person or entity that performs DNA analysis or holds its results, public or private.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "ff069a7d31f63cc2ccbb386c8bd0017ca70f462172496ad8415e717fd33f9fe0"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "s. 760.40 requires express consent to perform DNA analysis and to disclose its results. Exceptions are in s. 817.5655.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_FL",
+     "note": "Quote verbatim in s. 760.40(2). Ch. 2021-216 took effect October 1, 2021, per the session law."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None fixed. s. 408.051: compensatory damages plus reasonable attorney's fees and costs. s. 394.459: damages as determined by law."
+   },
+   "provisions": [
+    {
+     "title": "Florida Electronic Health Records Exchange Act: liability for forged or false-pretense authorization",
+     "citation": "Fla. Stat. s. 408.051",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0408/Sections/0408.051.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "may be liable to the patient or a health care provider that has released an identifiable health record in reliance on an authorization form presented to the health care provider by the person for compensatory damages caused by an unauthorized release, plus reasonable attorney’s fees and costs",
+     "appliesTo": "A person who forges or alters an authorization form, or obtains a form or health record under false pretenses.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "7dee93cf6106d981c92cce62c73953835825f83d8a1a12a34754f03334ad081f"
+    },
+    {
+     "title": "Rights of patients (mental health): liability for violations",
+     "citation": "Fla. Stat. s. 394.459",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0394/Sections/0394.459.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person who violates or abuses any rights or privileges of patients provided by this part is liable for damages as determined by law.",
+     "appliesTo": "Rights of patients under part I of chapter 394, which includes clinical record confidentiality in s. 394.4615.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ea07465bef3319955b0773b286141fc25a8fbf43d5060819566e0d7d4e984d48"
+    },
+    {
+     "title": "Security of confidential personal information: no private cause of action",
+     "citation": "Fla. Stat. s. 501.171(10)",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.171.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-04-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "This section does not establish a private cause of action.",
+     "appliesTo": "Breach notification law.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b5784c3de9c88481a10b601655789fe6bea0450e89eb15ca3536141f368d73de"
+    },
+    {
+     "title": "Florida Digital Bill of Rights: enforcement, no private cause of action",
+     "citation": "Fla. Stat. s. 501.72",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.72.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "This part does not establish a private cause of action.",
+     "appliesTo": "Florida Digital Bill of Rights, part V of chapter 501.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5ea48d7e36ffff432639fb9dcca25d6b5431290b5f91e83df933e212f9dd45d0"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Suits are limited to narrow cases: false-pretense or forged record authorizations (s. 408.051) and mental health patient rights (s. 394.459). The breach law and Digital Bill of Rights bar private suits. s. 456.057 and s. 760.40 state no private remedy.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_FL",
+    "note": "Mental health part rights and forged or false-pretense authorizations only. Level 1. The 501.171 date is the section's; ch. 2026-52 amended only (11)(d). No remedy found in 456.057, 381.004 or 760.40."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "No later than 30 days after determination of the breach; 15 more days for good cause given in writing.",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Security of confidential personal information: medical information in definition",
+     "citation": "Fla. Stat. s. 501.171(1)(g)",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.171.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-04-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any information regarding an individual’s medical history, mental or physical condition, or medical treatment or diagnosis by a health care professional;",
+     "appliesTo": "Covered entities that acquire, maintain, store or use personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b5784c3de9c88481a10b601655789fe6bea0450e89eb15ca3536141f368d73de"
+    },
+    {
+     "title": "Security of confidential personal information: health insurance information in definition",
+     "citation": "Fla. Stat. s. 501.171(1)(g)",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.171.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-04-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "An individual’s health insurance policy number or subscriber identification number and any unique identifier used by a health insurer to identify the individual;",
+     "appliesTo": "Covered entities that acquire, maintain, store or use personal information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b5784c3de9c88481a10b601655789fe6bea0450e89eb15ca3536141f368d73de"
+    },
+    {
+     "title": "Notice to Department of Legal Affairs",
+     "citation": "Fla. Stat. s. 501.171(3)",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.171.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-04-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A covered entity shall provide notice to the department of any breach of security affecting 500 or more individuals in this state.",
+     "appliesTo": "Breaches affecting 500 or more individuals in Florida.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b5784c3de9c88481a10b601655789fe6bea0450e89eb15ca3536141f368d73de"
+    },
+    {
+     "title": "Federal regulator notice deemed compliant",
+     "citation": "Fla. Stat. s. 501.171(4)",
+     "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.171.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-04-23",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Notice provided pursuant to rules, regulations, procedures, or guidelines established by the covered entity’s primary or functional federal regulator is deemed to be in compliance with the notice requirement in this subsection",
+     "appliesTo": "Covered entities with a primary or functional federal regulator.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b5784c3de9c88481a10b601655789fe6bea0450e89eb15ca3536141f368d73de"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Both medical and health insurance information are in the definition. Section last amended by ch. 2026-52, effective on approval April 23, 2026. Individual notice is due within 30 days.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_FL",
+    "note": "Both items are in (1)(g)1.a.(IV) and (V). 2026-04-23 is the section date from ch. 2026-52, which changed only (11)(d). The (1)(g) text dates from ch. 2023-201, effective July 1, 2024."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "http://www.leg.state.fl.us/statutes/index.cfm?AppMode=Display_Results&Mode=Search%20Statutes&Submenu=2&Tab=statutes&Search_String=artificial+intelligence&StatuteYear=2026",
+    "terms": [
+     "artificial intelligence",
+     "artificial intelligence patient",
+     "\"artificial intelligence\""
+    ],
+    "regulatorPagesChecked": [
+     "https://floir.com/",
+     "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0381/Sections/0381.026.html",
+     "https://www.flsenate.gov/Session/Bill/2026/527",
+     "https://www.flsenate.gov/Session/Bill/2026/482"
+    ],
+    "leadsChecked": [
+     "https://www.repairerdrivennews.com/2026/04/16/florida-ai-insurance-claims-handling-bills-die-in-committee/",
+     "https://www.wusf.org/politics-issues/2026-03-06/florida-senate-approves-ai-bill-of-rights-remains-halted-in-house"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.repairerdrivennews.com/2026/04/16/florida-ai-insurance-claims-handling-bills-die-in-committee/",
+     "host": "repairerdrivennews.com",
+     "usedFor": "HB 527 / SB 202 (2026) AI claim denial bills"
+    },
+    {
+     "url": "https://www.wusf.org/politics-issues/2026-03-06/florida-senate-approves-ai-bill-of-rights-remains-halted-in-house",
+     "host": "wusf.org",
+     "usedFor": "SB 482 (2026) AI Bill of Rights"
+    }
+   ],
+   "note": "No in-force law found. HB 527 (2026), on human review of AI claim denials, died in Rules. SB 482 (2026), the AI Bill of Rights, died in Messages on March 13, 2026.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_FL",
+    "note": "My 2026 statute search for artificial intelligence found no health care or coverage AI rule. HB 527 and HB 281 (2026) died, per flsenate.gov bill pages. No in-force provision found."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

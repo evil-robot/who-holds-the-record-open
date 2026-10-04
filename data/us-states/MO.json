@@ -1,0 +1,448 @@
+{
+ "usps": "MO",
+ "fips": "29",
+ "name": "Missouri",
+ "censusRegion": "Midwest",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://revisor.mo.gov/main/Home.aspx",
+    "terms": [
+     "consumer health data",
+     "consumer data privacy",
+     "sensitive data",
+     "health data consent",
+     "data broker"
+    ],
+    "regulatorPagesChecked": [
+     "https://ago.mo.gov/get-help/programs-services-from-a-z/identity-theft-data-security/statutory-guide/"
+    ],
+    "leadsChecked": [
+     "https://securiti.ai/privacy-laws/us/missouri/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://securiti.ai/privacy-laws/us/missouri/",
+     "host": "securiti.ai",
+     "usedFor": "Lead that Missouri has no comprehensive consumer privacy law"
+    }
+   ],
+   "note": "No comprehensive privacy law or consumer health data law found in RSMo. The AG statutory guide to privacy laws lists none. Revisor search is a form postback, so terms were also run through web searches.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MO",
+    "note": "Own search: web searches of revisor.mo.gov for consumer health data, personal data, consent and sale found nothing. The AG statutory guide lists no consumer privacy or health data law. Leads say Missouri has no comprehensive privacy law."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [
+     "Search and retrieval, in an amount not more than twenty-four dollars and eighty-five cents plus copying in the amount of fifty-seven cents per page for the cost of supplies and labor",
+     "at the time of the request or one hundred eight dollars and eighty-eight cents total, whichever is less",
+     "Notary fee, not to exceed two dollars, if requested."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Medical records to be released to patient; fees",
+     "citation": "RSMo 191.227",
+     "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=191.227",
+     "linkedFrom": null,
+     "effectiveDate": "2025-08-28",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "such record shall be furnished within a reasonable time of the receipt of the request therefor and upon payment of a fee as provided in this section.",
+     "appliesTo": "All physicians, chiropractors, hospitals, dentists, and other duly licensed practitioners in this state, herein called \"providers\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4874962d173b30ea226038c1617f50de7a339b3b527878eb0d3a1858efac9b51"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.healthinfolaw.org/medical-records-collection-retention-and-access-missouri",
+     "host": "healthinfolaw.org",
+     "usedFor": "Search result pointing to RSMo 191.227"
+    },
+    {
+     "url": "https://www.findlaw.com/state/missouri-law/missouri-medical-records-laws.html",
+     "host": "findlaw.com",
+     "usedFor": "Search result pointing to medical records statutes"
+    }
+   ],
+   "note": "Deadline is a reasonable time, not under 30 days. No free-copy case found. Fees also allow postage and adjust each February 1 by medical CPI-U. Nothing goes beyond the HIPAA and information blocking floor.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MO",
+    "note": "beyondFederalFloor: no. Deadline is a reasonable time, not under 30 days. Section 191.227 (effective 2025-08-28) lists fees and no free copy case. Nothing beyond HIPAA plus information blocking."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "no_choice_required",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "citation": "RSMo 191.237.2",
+     "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=191.237",
+     "effectiveDate": "2013-08-28",
+     "quote": "A health information organization shall not restrict the exchange of state agency data or standards-based clinical summaries for patients for federal Health Insurance Portability and Accountability Act (HIPAA) allowable uses.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "148ae3dbd780315701c85fc8ee42580edb84911476e56aa3bc6e66bd995ec8ed",
+     "statusOfProvision": "in_force"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://missourihealthconnection.org/portfolio/patients-faq/",
+     "host": "missourihealthconnection.org",
+     "usedFor": "Search result describing a private HIE consent model (Consent to Access)"
+    }
+   ],
+   "note": "No HIE consent statute found. No state page found that designates one HIE; search results describe several state-contracted networks. Missouri Health Connection policy was not used because no state designation was shown.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_MO",
+    "note": "Basis: statute, 191.237 (effective 2013-08-28). It gives no patient choice and ties exchange to HIPAA uses. State contracts with several networks; none shown as designated. stricterForSensitive not determined. Judgment call.",
+    "problems": [
+     "Missed RSMo 191.237, in force since 2013-08-28, a state rule on HIE exchange tied to HIPAA allowable uses.",
+     "no_rule_found requires no state rule in force; one exists.",
+     "No state-designated HIE found, so Missouri Health Connection opt-out policy does not set the value."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q045"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Breach of confidentiality prohibited (abortion records and reports)",
+      "citation": "RSMo 188.070",
+      "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=188.070",
+      "linkedFrom": null,
+      "effectiveDate": "1974-06-14",
+      "firstEnacted": "1974-06-14",
+      "statusOfProvision": "in_force",
+      "quote": "Any physician or other person who fails to maintain the confidentiality of any records or reports required under sections 188.010 to 188.085 is guilty of a misdemeanor",
+      "appliesTo": "Any physician or other person",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "da854cf0c9a10257e8bbbb971098647205b056f58d9f9c255afaaa5253ca304c"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Covers records and reports required under sections 188.010 to 188.085. Litigation over other chapter 188 sections was not reviewed for this cell.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MO",
+     "note": "Section 188.070, effective 1974-06-14 per the revisor page. Covers records and reports required under sections 188.010 to 188.085. No court order on this section was reviewed."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental health records confidential; permitted disclosures",
+      "citation": "RSMo 630.140",
+      "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=630.140",
+      "linkedFrom": null,
+      "effectiveDate": "2023-08-28",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "in the course of providing services to either voluntary or involuntary patients, residents or clients shall be confidential",
+      "appliesTo": "residential facility, mental health program operated, funded or licensed by the department or otherwise, specialized service, or by any mental health facility or mental health program in which people may be civilly detained pursuant to chapter 632",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "9df2433f7d8bee798191e6b701f7b374a3daca3c62d89142c4d626cdc3de4f1f"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Records of department-run, funded or licensed mental health facilities and programs are confidential, with listed disclosures.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MO",
+     "note": "Section 630.140, effective 2023-08-28 (A.L. 2023 S.B. 106). Records of covered mental health facilities and programs are confidential, with listed disclosures. Chapter 632 court records are also confidential."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of HIV reports and records",
+      "citation": "RSMo 191.656",
+      "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=191.656",
+      "linkedFrom": null,
+      "effectiveDate": "2002-08-28",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "concerning an individual's HIV infection status or the results of any individual's HIV testing shall be strictly confidential and shall not be disclosed except to",
+      "appliesTo": "any person, or by any agency, department, or political subdivision of the state",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "5aae13d3a55101b93800f6e0f637a30c7f410b5d267fe40e6c22b5f80b1117bc"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "HIV status and test results may be disclosed only to listed recipients, including on the person's written authorization.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MO",
+     "note": "Section 191.656, effective 2002-08-28 (A.L. 2002 H.B. 1756). HIV status and test results may be disclosed only to listed recipients."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of genetic information",
+      "citation": "RSMo 375.1309",
+      "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=375.1309",
+      "linkedFrom": null,
+      "effectiveDate": "2007-08-28",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "shall hold such information as confidential medical records and shall not disclose such genetic information except pursuant to written authorization of the person to whom such information pertains",
+      "appliesTo": "Any person who, in the ordinary course of business, practice of a profession or rendering of a service, creates, stores, receives or furnishes genetic information",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e1601fe087d05e87ccee1dc2276481fa640c88a26ec217bda606014af2eda4e4"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure needs written authorization. Exceptions include statistical data, certain research, legal or regulatory process, and body identification.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_MO",
+     "note": "Section 375.1309, effective 2007-08-28 (A.L. 2007 S.B. 66). Disclosure needs written authorization, with listed exceptions. The insurance director enforces it."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "Greater of actual damages or $1,000 per negligent violation, or $5,000 per willful, intentional or reckless violation, plus costs and attorney fees (RSMo 191.656, HIV records only)."
+   },
+   "provisions": [
+    {
+     "title": "Civil action for violation of HIV confidentiality",
+     "citation": "RSMo 191.656(6)",
+     "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=191.656",
+     "linkedFrom": null,
+     "effectiveDate": "2002-08-28",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any individual aggrieved by a violation of this section or regulations promulgated by the department of health and senior services may bring a civil action for damages",
+     "appliesTo": "Violations of HIV status and test result confidentiality",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5aae13d3a55101b93800f6e0f637a30c7f410b5d267fe40e6c22b5f80b1117bc"
+    },
+    {
+     "title": "Breach notification enforcement by attorney general",
+     "citation": "RSMo 407.1500(4)",
+     "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=407.1500",
+     "linkedFrom": null,
+     "effectiveDate": "2009-08-28",
+     "firstEnacted": "2009-08-28",
+     "statusOfProvision": "in_force",
+     "quote": "The attorney general shall have exclusive authority to bring an action",
+     "appliesTo": "Breach notification law",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9eeef9a00e4da754ee3f76aeb07093821e0ec22e20f24ab92f20a4a7490a2394"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Private suit exists for one category, HIV records. Breach law is AG only. Genetic confidentiality (375.1309) is enforced by the insurance director. No general medical records private right found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MO",
+    "note": "Private suit only for HIV records: greater of actual or $1,000 (negligent) or $5,000 (willful), plus costs and fees. Breach law is AG only. Genetic section 375.1309 is enforced by the director only."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Breach notification: definition of medical information",
+     "citation": "RSMo 407.1500(1)(6), (1)(9)(e)",
+     "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=407.1500",
+     "linkedFrom": null,
+     "effectiveDate": "2009-08-28",
+     "firstEnacted": "2009-08-28",
+     "statusOfProvision": "in_force",
+     "quote": "\"Medical information\", any information regarding an individual's medical history, mental or physical condition, or medical treatment or diagnosis by a health care professional",
+     "appliesTo": "Any person that owns or licenses personal information of residents of Missouri",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9eeef9a00e4da754ee3f76aeb07093821e0ec22e20f24ab92f20a4a7490a2394"
+    },
+    {
+     "title": "Breach notification: definition of health insurance information",
+     "citation": "RSMo 407.1500(1)(5), (1)(9)(f)",
+     "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=407.1500",
+     "linkedFrom": null,
+     "effectiveDate": "2009-08-28",
+     "firstEnacted": "2009-08-28",
+     "statusOfProvision": "in_force",
+     "quote": "\"Health insurance information\", an individual's health insurance policy number or subscriber identification number, any unique identifier used by a health insurer to identify the individual",
+     "appliesTo": "Any person that owns or licenses personal information of residents of Missouri",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9eeef9a00e4da754ee3f76aeb07093821e0ec22e20f24ab92f20a4a7490a2394"
+    },
+    {
+     "title": "Breach notification: AG notice above 1,000 consumers",
+     "citation": "RSMo 407.1500(2)(8)",
+     "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=407.1500",
+     "linkedFrom": null,
+     "effectiveDate": "2009-08-28",
+     "firstEnacted": "2009-08-28",
+     "statusOfProvision": "in_force",
+     "quote": "the person shall notify, without unreasonable delay, the attorney general's office",
+     "appliesTo": "In the event a person provides notice to more than one thousand consumers at one time",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9eeef9a00e4da754ee3f76aeb07093821e0ec22e20f24ab92f20a4a7490a2394"
+    },
+    {
+     "title": "Breach notification: deemed compliance for regulated entities",
+     "citation": "RSMo 407.1500(3)(2)",
+     "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=407.1500",
+     "linkedFrom": null,
+     "effectiveDate": "2009-08-28",
+     "firstEnacted": "2009-08-28",
+     "statusOfProvision": "in_force",
+     "quote": "is deemed to be in compliance with this section if the person notifies affected consumers in accordance with the maintained procedures when a breach occurs",
+     "appliesTo": "A person that is regulated by state or federal law and that maintains procedures for a breach pursuant to its primary or functional state or federal regulator",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9eeef9a00e4da754ee3f76aeb07093821e0ec22e20f24ab92f20a4a7490a2394"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Both medical and health insurance information are in the definition. AG notice applies above 1,000 consumers. Deemed compliance covers entities regulated by state or federal law; HIPAA is not named.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MO",
+    "note": "Section 407.1500, effective 2009-08-28. Both items are in personal information. Notice without unreasonable delay. AG notice above 1,000 consumers. Regulated entities following their regulator's procedures are deemed compliant; HIPAA is not named."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://revisor.mo.gov/main/Home.aspx",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "automated decision",
+     "chatbot",
+     "utilization review artificial intelligence",
+     "407.3007",
+     "1.2045"
+    ],
+    "regulatorPagesChecked": [
+     "https://revisor.mo.gov/main/OneSection.aspx?section=407.3007",
+     "https://revisor.mo.gov/main/OneSection.aspx?section=1.2045",
+     "https://house.mo.gov/BillContent.aspx?bill=HB2372&year=2026&code=R&style=new",
+     "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5868S.08T.pdf",
+     "https://www.senate.mo.gov/26info/pdf-bill/tat/SB1019.pdf"
+    ],
+    "leadsChecked": [
+     "https://regulations.ai/regulations/RAI-US-MO-SB10190-2026",
+     "https://www.troutmanprivacy.com/2026/04/proposed-state-ai-law-update-april-13-2026/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://regulations.ai/regulations/RAI-US-MO-SB10190-2026",
+     "host": "regulations.ai",
+     "usedFor": "Claims SB 1019 (2026) has an AI mental health ad ban; the truly agreed text does not contain it"
+    },
+    {
+     "url": "https://www.troutmanprivacy.com/2026/04/proposed-state-ai-law-update-april-13-2026/",
+     "host": "troutmanprivacy.com",
+     "usedFor": "Named SB 1444 (2026), AI in mental health; no truly agreed text found"
+    }
+   ],
+   "note": "Truly agreed SB 1019 and HB 2372 (2026) contain no AI terms. Revisor says sections 407.3007 and 1.2045 do not exist. No in-force AI rule for care or coverage found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_MO",
+    "note": "Own check: truly agreed SB 1019 and HB 2372 (2026) PDFs contain no AI terms. SB 1324 stopped in committee. Revisor site search found no AI section. A lead's claim of a chatbot ad ban is not in the enacted text."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

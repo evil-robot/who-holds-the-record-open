@@ -1,0 +1,708 @@
+{
+ "usps": "DE",
+ "fips": "10",
+ "name": "Delaware",
+ "censusRegion": "South",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": true,
+   "provisions": [
+    {
+     "title": "Delaware Personal Data Privacy Act, duties of controllers (sensitive data consent)",
+     "citation": "6 Del. C. § 12D-106(a)(4) [Effective until Jan. 1, 2027]",
+     "officialUrl": "https://delcode.delaware.gov/title6/c012d/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2025-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Not process sensitive data concerning a consumer without obtaining the consumer’s consent",
+     "appliesTo": "(1) Controlled or processed the personal data of not less than 35,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5f0ab3d73014bb0d9ea733cb0525f7d01bdaf79d30ddaf69599c158c522fe2c9"
+    },
+    {
+     "title": "Delaware Personal Data Privacy Act, definition of sensitive data",
+     "citation": "6 Del. C. § 12D-102(30) [Effective until Jan. 1, 2027]",
+     "officialUrl": "https://delcode.delaware.gov/title6/c012d/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2025-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "Data revealing racial or ethnic origin, religious beliefs, mental or physical health condition or diagnosis (including pregnancy)",
+     "appliesTo": "(2) Controlled or processed the personal data of not less than 10,000 consumers and derived more than 20% of their gross revenue from the sale of personal data.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5f0ab3d73014bb0d9ea733cb0525f7d01bdaf79d30ddaf69599c158c522fe2c9"
+    },
+    {
+     "title": "Delaware Personal Data Privacy Act, session law and effective date",
+     "citation": "84 Del. Laws, c. 197, § 3 (HB 154, approved Sept. 11, 2023)",
+     "officialUrl": "https://delcode.delaware.gov/sessionlaws/ga152/chp197.shtml",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If this Act is enacted before or on January 1, 2024, this Act takes effect on January 1, 2025.",
+     "appliesTo": "Persons that conduct business in Delaware or target products or services to Delaware residents and meet the 6 Del. C. § 12D-103(a) thresholds.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "bea44bbf5fb9712b90aee0ed412285c8513975331882d658652d978f4c02f77c"
+    },
+    {
+     "title": "Delaware Personal Data Privacy Act as amended, duties of controllers (sensitive data consent)",
+     "citation": "6 Del. C. § 12D-106(a)(4)a. [Effective Jan. 1, 2027], as amended by 85 Del. Laws, c. 463",
+     "officialUrl": "https://delcode.delaware.gov/title6/c012d/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2027-01-01",
+     "firstEnacted": "2025-01-01",
+     "statusOfProvision": "enacted_not_yet_effective",
+     "quote": "The consumer consents to the processing of sensitive data.",
+     "appliesTo": "(1) Controlled or processed the personal data of not less than 10,000 consumers, excluding personal data controlled or processed solely for the purpose of completing a payment transaction.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5f0ab3d73014bb0d9ea733cb0525f7d01bdaf79d30ddaf69599c158c522fe2c9"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Comprehensive privacy law requires consent to process sensitive data, which includes health condition or diagnosis. An amendment effective Jan. 1, 2027 keeps consent, adds necessity, and lowers the threshold to 10,000 consumers.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DE",
+    "note": "Consent for sensitive data in force since 2025-01-01. PHI is excluded. Pending 2027 text keeps consent. Minor: the appliesTo on the 12D-102(30) entry holds the 12D-103(a)(2) threshold, not the definition's scope."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 45,
+    "freeCopyCases": [],
+    "feeRules": [
+     "24 Del. C. § 1761(d): copy \"according to a payment schedule established by the Board of Medical Licensure and Discipline\"; postage or shipping may be added.",
+     "24 DE Admin. Code 1700-16.1: \"$2.00 per page for pages 1-10\", $1.00 per page for pages 11-20, $0.90 per page for pages 21-60, $0.50 per page for pages 61 and above.",
+     "24 Del. C. § 1761(h): films, models, photographs or fetal monitoring strips at \"the full cost of such reproduction\".",
+     "24 Del. C. § 1761(i): prepayment may be required, except for copies requested for a disability benefits program application. This waives prepayment, not the fee.",
+     "24 Del. C. § 1761(c): on a change of physician, a summary may be forwarded at no charge if patient and new physician agree. This is optional and is a summary, not a copy."
+    ],
+    "beyondFederalFloor": "yes",
+    "deadlineScope": "Long-term care residents only: on 2 working days' notice (16 Del. C. § 1121(25)). Physicians have 45 days (24 Del. C. § 1761(l))."
+   },
+   "provisions": [
+    {
+     "title": "Medical Practice Act, patient access to records, response deadline",
+     "citation": "24 Del. C. § 1761(l)",
+     "officialUrl": "https://delcode.delaware.gov/title24/c017/sc05/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-02-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A person certified to practice medicine shall have 45 days from the closure of the record or the assembly of a complete record to fulfill a request for medical records unless a faster response is medically necessary.",
+     "appliesTo": "Persons certified to practice medicine (physicians).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5069d89ed63199b0504b33c388c54e4dccc81e22db5ba5fe3154da0842e72aca"
+    },
+    {
+     "title": "Medical Practice Act, patient right to a copy and fees",
+     "citation": "24 Del. C. § 1761(d)",
+     "officialUrl": "https://delcode.delaware.gov/title24/c017/sc05/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-02-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Patients, on their own behalf, shall have the right to obtain a copy of their medical records from any person certified to practice medicine according to a payment schedule established by the Board of Medical Licensure and Discipline.",
+     "appliesTo": "Persons certified to practice medicine (physicians).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5069d89ed63199b0504b33c388c54e4dccc81e22db5ba5fe3154da0842e72aca"
+    },
+    {
+     "title": "Medical Practice Act, prepayment exception for disability benefits applications",
+     "citation": "24 Del. C. § 1761(i)",
+     "officialUrl": "https://delcode.delaware.gov/title24/c017/sc05/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-02-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "This subsection shall not apply to copies of the records requested in order to make or complete an application for a disability benefits program.",
+     "appliesTo": "Providers and their third-party release-of-information services.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5069d89ed63199b0504b33c388c54e4dccc81e22db5ba5fe3154da0842e72aca"
+    },
+    {
+     "title": "Amending act for § 1761, effective date",
+     "citation": "84 Del. Laws, c. 161, § 2 (approved Aug. 9, 2023)",
+     "officialUrl": "https://delcode.delaware.gov/sessionlaws/ga152/chp161.shtml",
+     "linkedFrom": null,
+     "effectiveDate": "2024-02-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "This Act takes effect 6 months after its enactment into law.",
+     "appliesTo": "Persons certified to practice medicine.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b3a32688683f83c66b0e5014e5c0df4e6a6bc88a3e9742b7ec1cda1eaa2af7d9"
+    },
+    {
+     "title": "Board of Medical Licensure and Discipline, patient records fee schedule for copies",
+     "citation": "24 DE Admin. Code 1700-16.1",
+     "officialUrl": "https://archive.regulations.delaware.gov/AdminCode/title24/1700.shtml",
+     "linkedFrom": null,
+     "effectiveDate": "2025-04-11",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "$2.00 per page for pages 1-10",
+     "appliesTo": "A patient requesting of a copy of his or her own medical records to be transferred to another physician or to be obtained on their own behalf",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "eed6b0797f339134a9fdac613af56cd71a797ce51d27a7e07c527cc2d8bdde72"
+    },
+    {
+     "citation": "16 Del. C. § 1121(25)",
+     "officialUrl": "https://delcode.delaware.gov/title16/c011/sc02/index.html",
+     "effectiveDate": "2018-02-14",
+     "statusOfProvision": "in_force",
+     "quote": "Each resident has the right to purchase photocopies of such records or any portion of them, at a cost not to exceed the community standard, upon written request and 2 working days’ advance notice to the facility.",
+     "appliesTo": "Residents of long-term care facilities",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "a3c6024cf8144e96c05439351295fac076a3c725b4568cd3289cd9f7614a496a"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://law.justia.com/codes/delaware/title-24/chapter-17/subchapter-v/section-1761/",
+     "host": "law.justia.com",
+     "usedFor": "Found 24 Del. C. § 1761"
+    },
+    {
+     "url": "https://www.law.cornell.edu/regulations/delaware/24-Del-Admin-Code-SS-1700-16.0",
+     "host": "www.law.cornell.edu",
+     "usedFor": "Found Board fee schedule regulation 1700-16.0"
+    },
+    {
+     "url": "https://nosscr.org/article/updated-state-medical-records-payment-rates/",
+     "host": "nosscr.org",
+     "usedFor": "Checked for a free copy for benefits claims"
+    }
+   ],
+   "note": "Element (a) is met for long-term care facilities only: residents get copies on 2 working days' notice.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_DE",
+    "note": "beyondFederalFloor: yes. Element (a) met for long-term care facilities (2 working days, § 1121(25), last amended 85 Del. Laws c. 203, approved 2025-09-03). No free copy found. Physician deadline is 45 days.",
+    "problems": [
+     "Level 0 is wrong. 16 Del. C. § 1121(25), in force, gives long-term care residents copies on 2 working days' notice, a deadline shorter than 30 days.",
+     "beyondFederalFloor should be yes, not no.",
+     "The search missed facility-specific copy rules outside 24 Del. C. § 1761."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q015"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "regulation",
+   "designatedHie": "Delaware Health Information Network (DHIN)",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "DHIN regulation, Community Health Record definition (patient opt-out)",
+     "citation": "1 DE Admin. Code 104, § 2.0 (Delaware Health Care Claims Database Data Access Regulation)",
+     "officialUrl": "https://regulations.delaware.gov/api/AdminCode/title1/104/79a1cb42-804a-466f-a4d1-ffb87f6117ee",
+     "linkedFrom": null,
+     "effectiveDate": "2021-12-11",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Patients can opt out of allowing their CHR data to be searchable by anyone who was not the ordering provider",
+     "appliesTo": "Patient records in DHIN's Community Health Record.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5fc939355225eec9fcf17bc9442fa9f50e2047315bdc388f89b9388a93f3ff7a"
+    },
+    {
+     "title": "DHIN statute, designation as the State's HIE",
+     "citation": "16 Del. C. § 10301(a)",
+     "officialUrl": "https://delcode.delaware.gov/title16/c103/sc01/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-08-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "DHIN is the State’s sanctioned provider of health information exchange and health data utility services.",
+     "appliesTo": "Delaware Health Information Network.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6e8a55518bfe99475e4aa1e6bf02f1b3fb1d0b171e4bb06652110d82d8c55484"
+    },
+    {
+     "title": "DHIN statute, privacy rule for patient-specific information",
+     "citation": "16 Del. C. § 10307(a)(1)",
+     "officialUrl": "https://delcode.delaware.gov/title16/c103/sc01/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-08-31",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "DHIN shall by rule or regulation ensure that patient specific health information is disclosed only with the patient’s consent or best interest to those having a need to know.",
+     "appliesTo": "Delaware Health Information Network.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "6e8a55518bfe99475e4aa1e6bf02f1b3fb1d0b171e4bb06652110d82d8c55484"
+    },
+    {
+     "title": "DHIN published opt-out forms",
+     "citation": "DHIN Governance and Transparency, Opt-Outs page",
+     "officialUrl": "https://dhin.org/governance/opt-outs/",
+     "linkedFrom": "https://delcode.delaware.gov/title16/c103/sc01/index.html",
+     "effectiveDate": "2026-07-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Use this form if you do not want your medical information to be accessible to authorized healthcare providers through DHIN.",
+     "appliesTo": "Patients whose data flows through DHIN.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0e9230727127c3cdf09c79685797b4d88bfcfb11bd453c5f0b62d35b7ab07be9"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "www.healthit.gov",
+     "usedFor": "Lead to DHIN consent model; not opened as evidence"
+    }
+   ],
+   "note": "DHIN regulation lets patients opt out of CHR search by anyone but the ordering provider. DHIN publishes opt-out forms. Statute dates reflect SB 341, effective on signature Aug. 31, 2026. Sensitive-category consent rules not checked.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DE",
+    "note": "Opt-out holds. 1 DE Admin. Code 101 § 5.3 is the main DHIN rule and backs the HCCD definition quoted. SB 341 signed 2026-08-31 per Governor's advisory. stricterForSensitive was left null; it should be recorded."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Production of reproductive health services records",
+      "citation": "10 Del. C. § 3926A(b)",
+      "officialUrl": "https://delcode.delaware.gov/title10/c039/index.html",
+      "linkedFrom": null,
+      "effectiveDate": "2022-06-29",
+      "firstEnacted": "2022-06-29",
+      "statusOfProvision": "in_force",
+      "quote": "Notwithstanding any law or court rule to the contrary, in any civil action or proceeding, no health-care provider may disclose any of the following unless authorized in writing by the patient, the patient’s guardian, or legal representative:",
+      "appliesTo": "Health-care providers, in civil actions or proceedings, for communications and examination information relating to reproductive health services.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e326abbb1441b0d481a2d39d72b19aa905252a1238dfb1f8af49692fd30f5940"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://law.ucla.edu/sites/default/files/PDFs/Center_on_Reproductive_Health/Shield-Law-DE-Mar-2026.pdf",
+      "host": "law.ucla.edu",
+      "usedFor": "Found 10 Del. C. § 3926A and related sections"
+     }
+    ],
+    "note": "Added by 83 Del. Laws, c. 327 (HB 455), approved June 29, 2022, with no separate effective date clause. Exceptions cover malpractice plaintiffs, licensing boards and abuse investigations.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_DE",
+     "note": "Added by 83 Del. Laws c. 327, approved 2022-06-29, with no separate effective date clause. Written authorization is required in civil proceedings, with listed exceptions."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Rights of patients in mental health hospitals or residential centers, clinical records",
+      "citation": "16 Del. C. § 5161(b)(13)",
+      "officialUrl": "https://delcode.delaware.gov/title16/c051/sc05/index.html",
+      "linkedFrom": null,
+      "effectiveDate": "2022-07-25",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No information reported to the Department and no clinical records maintained with respect to patients shall be public records. Such information and records shall not be released to any person or agency outside of the Department except in conformity with existing law and as follows:",
+      "appliesTo": "Mental health hospitals or residential centers.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e96eff09acbd9a722167dadab06b3e95ef1125b53f889e3fdf837736fa796372"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Latest amendment listed is 83 Del. Laws, c. 364, approved July 25, 2022. Release is limited to listed cases, such as the patient or a court order.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_DE",
+     "note": "Latest amendment to § 5161 is 83 Del. Laws c. 364, approved 2022-07-25. The rule covers mental health hospitals and residential centers."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV testing, confidentiality",
+      "citation": "16 Del. C. § 717(a)",
+      "officialUrl": "https://delcode.delaware.gov/title16/c007/sc02/index.html",
+      "linkedFrom": null,
+      "effectiveDate": "2022-07-25",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person may disclose or be compelled to disclose the identity of any person upon whom an HIV-related test is performed, or the results of such test in a manner which permits identification of the subject of the test, except to the following person:",
+      "appliesTo": "Any person.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "36f70a5d35799a3b43b118e7f106a393e49b5b035f6eb7039f9d3208588109c2"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://codes.findlaw.com/de/title-16-health-and-safety/de-code-sect-16-717/",
+      "host": "codes.findlaw.com",
+      "usedFor": "Found 16 Del. C. § 717"
+     }
+    ],
+    "note": "Latest amendment listed is 83 Del. Laws, c. 364, approved July 25, 2022. Redisclosure is also limited by § 717(b).",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_DE",
+     "note": "Latest amendment to § 717 is 83 Del. Laws c. 364, approved 2022-07-25. Disclosure is limited to listed recipients."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Conditions for disclosure to others of genetic information",
+      "citation": "16 Del. C. § 1205(a)",
+      "officialUrl": "https://delcode.delaware.gov/title16/c012/sc01/index.html",
+      "linkedFrom": null,
+      "effectiveDate": "2015-07-27",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a person shall not disclose or be compelled, by subpoena or any other means, to disclose the identity of an individual upon whom a genetic test has been performed",
+      "appliesTo": "Any person, for genetic information that can be identified as belonging to an individual or family (§ 1206).",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "e8350070f13b500c0bf89d50b4e54f48a4262abafc9a50cb2e9bf63058a5e536"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Latest amendment listed is 80 Del. Laws, c. 126, approved July 27, 2015. Disclosure is allowed with informed consent and in listed cases.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_DE",
+     "note": "Latest amendment to § 1205 is 80 Del. Laws c. 126, approved 2015-07-27. Disclosure is allowed in listed cases."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "HIV: $1,000 or actual damages if greater for negligent violations; $5,000 or actual damages if greater for intentional or reckless violations; plus attorneys' fees (16 Del. C. § 718). Genetic: actual damages (16 Del. C. § 1208(c))."
+   },
+   "provisions": [
+    {
+     "title": "HIV testing subchapter, enforcement",
+     "citation": "16 Del. C. § 718(a)",
+     "officialUrl": "https://delcode.delaware.gov/title16/c007/sc02/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2012-06-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person aggrieved by a violation of this subchapter shall have a right of action in the Superior Court and may recover for each violation:",
+     "appliesTo": "Violations of the HIV testing and confidentiality subchapter.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "36f70a5d35799a3b43b118e7f106a393e49b5b035f6eb7039f9d3208588109c2"
+    },
+    {
+     "title": "Genetic information, liability for unlawful disclosure",
+     "citation": "16 Del. C. § 1208(c)",
+     "officialUrl": "https://delcode.delaware.gov/title16/c012/sc01/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2012-06-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Any person who wilfully discloses an individual’s genetic information in violation of this subchapter, shall be liable to the individual for all actual damages, including damages for economic, bodily or emotional harm which is proximately caused by the disclosure.",
+     "appliesTo": "Wilful disclosure of genetic information.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e8350070f13b500c0bf89d50b4e54f48a4262abafc9a50cb2e9bf63058a5e536"
+    },
+    {
+     "title": "Medical Practice Act, patient records, civil action",
+     "citation": "24 Del. C. § 1761(g)",
+     "officialUrl": "https://delcode.delaware.gov/title24/c017/sc05/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-02-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "any aggrieved patient or the patient’s personal representative may bring a civil action for damages or injunctive relief, or both, against the violator.",
+     "appliesTo": "Physicians who violate § 1761 (record transfer, retention and patient access).",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5069d89ed63199b0504b33c388c54e4dccc81e22db5ba5fe3154da0842e72aca"
+    },
+    {
+     "title": "Mental Health Patients' Bill of Rights, enforcement",
+     "citation": "16 Del. C. § 5163",
+     "officialUrl": "https://delcode.delaware.gov/title16/c051/sc05/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2009-08-24",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "This subchapter shall be enforceable by the Attorney General or by any interested citizen.",
+     "appliesTo": "Rights of patients in mental health hospitals or residential centers, in the Court of Chancery.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "e96eff09acbd9a722167dadab06b3e95ef1125b53f889e3fdf837736fa796372"
+    },
+    {
+     "title": "Delaware Personal Data Privacy Act, enforcement",
+     "citation": "6 Del. C. § 12D-111(e) [Effective until Jan. 1, 2027]",
+     "officialUrl": "https://delcode.delaware.gov/title6/c012d/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-01-01",
+     "firstEnacted": "2025-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "shall be enforced solely by the Department of Justice",
+     "appliesTo": "Controllers and processors under the Delaware Personal Data Privacy Act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "5f0ab3d73014bb0d9ea733cb0525f7d01bdaf79d30ddaf69599c158c522fe2c9"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Private suits exist for narrow categories: HIV tests, genetic information, physician record access, and mental health facility patient rights. The privacy act is Department of Justice only. No general medical records right of action found.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_DE",
+    "note": "Level 1 holds. Suits exist for narrow categories only (HIV, genetic, physician record rules, mental health facility rights). The privacy act and breach law are state enforcement only. Only the § 5163 date is wrong.",
+    "problems": [
+     "16 Del. C. § 5163 effectiveDate 2022-07-25 is wrong. Its history note ends at 77 Del. Laws c. 202, approved 2009-08-24. 83 Del. Laws c. 364 amended § 5161, not § 5163."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q016"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay but not later than 60 days after determination of the breach of security",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Computer security breaches, definition of personal information (medical)",
+     "citation": "6 Del. C. § 12B-101(7)a.6.",
+     "officialUrl": "https://delcode.delaware.gov/title6/c012b/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-02",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Medical history, medical treatment by a health-care professional, diagnosis of mental or physical condition by a health care professional, or deoxyribonucleic acid profile.",
+     "appliesTo": "Any person who conducts business in this State and who owns or licenses computerized data that includes personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "29b8b3b2e77aba9342e24421e770b6c2db5f0dfd3dee853c942e1956696515b3"
+    },
+    {
+     "title": "Computer security breaches, definition of personal information (health insurance)",
+     "citation": "6 Del. C. § 12B-101(7)a.7.",
+     "officialUrl": "https://delcode.delaware.gov/title6/c012b/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-02",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Health insurance policy number, subscriber identification number, or any other unique identifier used by a health insurer to identify the person",
+     "appliesTo": "Any person who conducts business in this State and who owns or licenses computerized data that includes personal information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "29b8b3b2e77aba9342e24421e770b6c2db5f0dfd3dee853c942e1956696515b3"
+    },
+    {
+     "title": "Notice to the Attorney General",
+     "citation": "6 Del. C. § 12B-102(d)",
+     "officialUrl": "https://delcode.delaware.gov/title6/c012b/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-02",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If the affected number of Delaware residents to be notified exceeds 500 residents, the person required to provide notice shall, not later than the time when notice is provided to the resident, also provide notice of the breach of security to the Attorney General.",
+     "appliesTo": "Breaches affecting more than 500 Delaware residents.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "29b8b3b2e77aba9342e24421e770b6c2db5f0dfd3dee853c942e1956696515b3"
+    },
+    {
+     "title": "Procedures deemed in compliance (HIPAA-regulated persons)",
+     "citation": "6 Del. C. § 12B-103(b)",
+     "officialUrl": "https://delcode.delaware.gov/title6/c012b/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-09-02",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "is deemed to be in compliance with § 12B-102(c) of this title if the person notifies affected Delaware residents in accordance with the maintained procedures when a breach of security occurs.",
+     "appliesTo": "A person regulated by state or federal law, including HIPAA, that maintains breach procedures under its regulator's rules.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "29b8b3b2e77aba9342e24421e770b6c2db5f0dfd3dee853c942e1956696515b3"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.dataguidance.com/news/delaware-governor-signs-bill-clarifying-timing",
+     "host": "www.dataguidance.com",
+     "usedFor": "Found HB 381 (2026) amending chapter 12B"
+    }
+   ],
+   "note": "Both medical and health insurance information are in the definition. Current text reflects 85 Del. Laws, c. 464 (HB 381), signed Sept. 2, 2026, effective on signature per the legislature's bill page.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DE",
+    "note": "Both elements are in the definition. HB 381 (85 Del. Laws c. 464) signed 2026-09-02, effective on signature per the legislature's bill page. AG notice is required above 500 residents. HIPAA deemed-compliance clause present."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "24 Del. C. § 1720(k): \"A nonhuman entity, including an agent powered by artificial intelligence, may not be certified to practice medicine in this State.\" Similar bars in §§ 1920 and 1773 (HB 191, signed Apr. 23, 2026)."
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Certification requirements to practice medicine, nonhuman entities",
+     "citation": "24 Del. C. § 1720(k)",
+     "officialUrl": "https://delcode.delaware.gov/title24/c017/sc03/index.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-04-23",
+     "firstEnacted": "2026-04-23",
+     "statusOfProvision": "in_force",
+     "quote": "A nonhuman entity, including an agent powered by artificial intelligence, may not be certified to practice medicine in this State.",
+     "appliesTo": "Certification to practice medicine. A prohibition only; it moves no level.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "8a73faace4e61f9c4b4913b55febe852e8e06348e0afa002ff9473eb8a2f6867"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://delcode.delaware.gov/Search?query=artificial%20intelligence",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "automated",
+     "chatbot",
+     "utilization review",
+     "pre-authorization"
+    ],
+    "regulatorPagesChecked": [
+     "https://insurance.delaware.gov/wp-content/uploads/sites/15/2025/02/domestic-foreign-insurers-bulletin-no148.pdf",
+     "https://legis.delaware.gov/BillDetail/142896",
+     "https://legis.delaware.gov/BillDetail/142752",
+     "https://legis.delaware.gov/BillDetail?LegislationId=142107"
+    ],
+    "leadsChecked": [
+     "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "https://housedems.delaware.gov/2026/05/06/house-passes-bills-to-increase-transparency-and-reduce-the-risk-of-negative-outcomes-during-interactions-with-ai/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare",
+     "host": "www.hklaw.com",
+     "usedFor": "Found HB 191 (2026)"
+    },
+    {
+     "url": "https://housedems.delaware.gov/2026/05/06/house-passes-bills-to-increase-transparency-and-reduce-the-risk-of-negative-outcomes-during-interactions-with-ai/",
+     "host": "housedems.delaware.gov",
+     "usedFor": "Found HB 306 chatbot disclosure bill"
+    }
+   ],
+   "note": "No disclosure, clinician review or human recourse rule found. HB 306 (chatbot disclosure) awaits Senate committee. SB 6 pre-authorization act has no AI terms. Insurance Bulletin 148 is guidance without these elements.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_DE",
+    "note": "My search (code, site search, Pre-Authorization Act 85 Del. Laws c. 176, HB 306 bill page) found no in-force AI disclosure, clinician-review or human-recourse rule. HB 306 is still in Senate committee. § 1720(k) is a ban only."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://delcode.delaware.gov/title6/index.html",
+    "terms": [
+     "data broker",
+     "broker",
+     "registry"
+    ],
+    "regulatorPagesChecked": [
+     "https://attorneygeneral.delaware.gov/fraud/personal-data-privacy-portal/"
+    ],
+    "leadsChecked": [
+     "https://delawarebusinesstimes.com/news/data-broker-registry-bill-presses-forward/"
+    ],
+    "searchedAt": "2026-10-03"
+   }
+  }
+ }
+}

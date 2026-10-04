@@ -1,0 +1,663 @@
+{
+ "usps": "OR",
+ "fips": "41",
+ "name": "Oregon",
+ "censusRegion": "West",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "provisions": [
+    {
+     "title": "Oregon Consumer Privacy Act: duties of controller; prohibitions",
+     "citation": "ORS 646A.578(2)(b)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Process sensitive data about a consumer without first obtaining the consumer’s consent or, if the controller knows the consumer is a child, without processing the sensitive data in accordance with the Children’s Online Privacy Protection Act of 1998",
+     "appliesTo": "apply to any person that conducts business in this state, or that provides products or services to residents of this state, and that during a calendar year, controls or processes: (A) The personal data of 100,000 or more consumers",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(b) Process sensitive data about a consumer without first obtaining the consumer’s consent or, if the controller knows the consumer is a child, without processing the sensitive data in accordance with the Children’s Online Privacy Protection Act of 1998, 15 U.S.C. 6501 et seq.",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Oregon Consumer Privacy Act: definition of sensitive data",
+     "citation": "ORS 646A.570(18)(a)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Reveals a consumer’s racial or ethnic background, national origin, religious beliefs, mental or physical condition or diagnosis, sexual orientation, status as transgender or nonbinary",
+     "appliesTo": "The personal data of 25,000 or more consumers, while deriving 25 percent or more of the person’s annual gross revenue from selling personal data.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(18)(a) “Sensitive data” means personal data that: (A) Reveals a consumer’s racial or ethnic background, national origin, religious beliefs, mental or physical condition or diagnosis, sexual orientation, status as transgender or nonbinary, status as a victim of crime or citizenship or immigration status;",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Oregon Consumer Privacy Act: scope and exclusions (HIPAA protected health information excluded)",
+     "citation": "ORS 646A.572(2)(b)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2025-09-26",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "Protected health information that a covered entity or business associate processes in accordance with, or documents that a covered entity or business associate creates for the purpose of complying with, the Health Insurance Portability and Accountability Act of 1996",
+     "appliesTo": "Exclusion from ORS 646A.570 to 646A.589. Public bodies and Oregon Health and Science University are also excluded.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(b) Protected health information that a covered entity or business associate processes in accordance with, or documents that a covered entity or business associate creates for the purpose of complying with, the Health Insurance Portability and Accountability Act of 1996, P.L. 104-191,",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Oregon Consumer Privacy Act (2023 c.369, operative July 1, 2024) requires consent to process sensitive data, which includes mental or physical condition or diagnosis. No dedicated consumer health data law was found in ORS chapter 646A.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OR",
+    "note": "ORS 646A.578(2)(b) requires consent for sensitive data. History 2025 c.251, effective 2026-01-01. ORS 646A.570(18)(a)(A) covers mental or physical condition. No dedicated consumer health data law found in ORS 646A. Dates checked against session laws."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "deadlineDays": 5,
+    "freeCopyCases": [
+     "One free copy of health information for an individual appealing a denial of Social Security disability benefits, paper or electronic (ORS 192.576). Binds covered entities."
+    ],
+    "feeRules": [
+     "ORS 192.563: \"No more than $30 for copying 10 or fewer pages of written material, no more than 50 cents per page for pages 11 through 50 and no more than 25 cents for each additional page\". Also a $5 bonus if mailed within seven business days, plus postage and summary costs. Per-page cap, not counted.",
+     "ORS 192.576(3): a fee under ORS 192.563 may be charged when the request is by someone other than the individual or personal representative, or after one copy has been given."
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Disclosure to individual appealing denial of Social Security benefits",
+     "citation": "ORS 192.576(1)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html",
+     "linkedFrom": null,
+     "effectiveDate": "2017-07-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "In the case of an individual appealing the denial of Social Security disability benefits, a covered entity shall upon request provide to the individual or the individual’s personal representative, free of charge, one copy of the individual’s health information",
+     "appliesTo": "Covered entities. The free copy covers health information created after the alleged onset date and before the administrative hearing.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "00c6550e96605fa4adc5b31c53a5d455d2bcaf1167b1830c1bb5701aabf26b48",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(1) In the case of an individual appealing the denial of Social Security disability benefits, a covered entity shall upon request provide to the individual or the individual’s personal representative, free of charge, one copy of the individual’s health information created after the date that the individual alleged as the onset of disability",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Disclosure of written accounts by health care services provider: copy to the individual",
+     "citation": "ORS 179.505(9)(a)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors179.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "upon written request of the individual or a personal representative of the individual, shall be disclosed to the individual or the personal representative of the individual within a reasonable time not to exceed five working days",
+     "appliesTo": "Medical personnel or other staff employed by or under contract with a public provider to provide health care or maintain written accounts of health care provided to individuals",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "760907c98e07649a601503b346ed91f70545aceea7d911f8b7be9b64e8d8c450"
+    },
+    {
+     "title": "Health care provider and state health plan charges",
+     "citation": "ORS 192.563",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html",
+     "linkedFrom": null,
+     "effectiveDate": "2007-07-17",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "No more than $30 for copying 10 or fewer pages of written material, no more than 50 cents per page for pages 11 through 50 and no more than 25 cents for each additional page",
+     "appliesTo": "A health care provider or state health plan that receives an authorization to disclose protected health information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "0b078a7265a051030a9d1753d27a92d6ea4145d5e7732c9486c695782832e810"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://oregon.public.law/rules/oar_333-076-0165",
+     "host": "oregon.public.law",
+     "usedFor": "Search result pointing to Oregon rules on medical record access; not used as evidence."
+    },
+    {
+     "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3882",
+     "host": "secure.sos.state.or.us",
+     "usedFor": "Oregon Medical Board OAR 847-012 read via condensed fetch only (curl blocked). It sets 30 days; not used as evidence."
+    }
+   ],
+   "note": "Free copy for a Social Security disability appeal goes beyond the federal floor. A 5 working day deadline binds public providers only (ORS 179.505). The 2007 per-page cap is recorded as a fact.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OR",
+    "note": "beyondFederalFloor yes. Free copy for a disability benefits appeal and a 5 working day deadline for public providers both go beyond HIPAA and 45 CFR 171. Dates 2017-07-03, 2026-01-01, 2007-07-17 confirmed in session laws.",
+    "resolution": [
+     {
+      "rows": [
+       "Q087",
+       "Q088"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "no_law_found",
+   "value": "no_rule_found",
+   "pending": false,
+   "basis": null,
+   "designatedHie": "None found. OHA ended its CareAccord service on March 31, 2018.",
+   "stricterForSensitive": null,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.oregonlegislature.gov/bills_laws/Pages/ORS.aspx",
+    "terms": [
+     "health information exchange",
+     "information exchange",
+     "opt out",
+     "opt in",
+     "consent (ORS 413.300 to 413.308)"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.oregon.gov/oha/HPA/OHIT/Pages/Programs-Archive.aspx",
+     "https://www.oregonlegislature.gov/bills_laws/ors/ors413.html",
+     "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html"
+    ],
+    "leadsChecked": [
+     "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
+     "host": "www.healthit.gov",
+     "usedFor": "2016 survey listing Oregon as having no HIE consent policy."
+    },
+    {
+     "url": "https://www.oregon.gov/oha/hpa/ohit/pages/hie-onboarding-program-development.aspx",
+     "host": "www.oregon.gov",
+     "usedFor": "Search result on the HIE Onboarding Program, which ended September 30, 2021."
+    }
+   ],
+   "note": "ORS 413.300 to 413.308 set up a Health IT council but no HIE consent rule. No current state-designated HIE or published HIE consent policy was found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OR",
+    "note": "Own search: ORS 413 and 192 have no HIE consent rule. ORS 413.310 lets OHA set privacy standards but none found. June 2026 HITOC update names no designated HIE. Old opt-out plans were for the ended CareAccord service."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of individually identifiable information (legally protected reproductive or gender-affirming health care)",
+      "citation": "Oregon Laws 2026, chapter 52, section 9(2)(c) (HB 4088), added to ORS 435.190 to 435.245",
+      "officialUrl": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4088/Enrolled",
+      "linkedFrom": "https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/HB4088",
+      "effectiveDate": "2026-03-31",
+      "firstEnacted": "2026-03-31",
+      "statusOfProvision": "in_force",
+      "quote": "Is confidential, nondiscoverable and inadmissible in any judicial or administrative proceeding that is not directly connected with the authority’s administration of the state medical assistance program or the programs described in ORS 435.230.",
+      "appliesTo": "Individually identifiable information obtained by the Oregon Health Authority that relates to applications for or receipt of legally-protected reproductive or gender-affirming health care activities, unless the individual consents.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "f750faccb7b29ac7102931806db5514a4800f1d2fa6b489026b452b4c03c032d"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.opb.org/article/2026/02/26/think-out-loud-oregon-senate-hb-4088-gender-affirming-care/",
+      "host": "www.opb.org",
+      "usedFor": "Pointed to HB 4088 (2026)."
+     },
+     {
+      "url": "https://williamsinstitute.law.ucla.edu/wp-content/uploads/Shield-Law-OR-Sep-2024.pdf",
+      "host": "williamsinstitute.law.ucla.edu",
+      "usedFor": "Search result on Oregon shield law; not opened."
+     }
+    ],
+    "note": "The rule covers information held by the Oregon Health Authority. The act took effect on March 31, 2026 under an emergency clause.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OR",
+     "note": "Oregon Laws 2026, chapter 52, section 9. Emergency clause. Approved and effective March 31, 2026. Applies to information held by the Oregon Health Authority unless the individual consents.",
+     "resolution": [
+      {
+       "rows": [
+        "Q089"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of written accounts by health care services provider: psychotherapy notes",
+      "citation": "ORS 179.505(17)(a)",
+      "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors179.html",
+      "linkedFrom": null,
+      "effectiveDate": "2026-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Except as provided in paragraph (b) of this subsection, a health care services provider must obtain an authorization from an individual or a personal representative of the individual to disclose psychotherapy notes.",
+      "appliesTo": "Medical personnel or other staff employed by or under contract with a public provider to provide health care or maintain written accounts of health care provided to individuals",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "760907c98e07649a601503b346ed91f70545aceea7d911f8b7be9b64e8d8c450"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Public providers include community mental health programs and Oregon State Hospital campuses. Current text from 2025 c.60, effective January 1, 2026.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OR",
+     "note": "ORS 179.505(17)(a). Latest amendment 2025 c.60, effective January 1, 2026, confirmed in the session law. Binds public providers only."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Notice of HIV test required; exceptions (confidentiality of test identity and results)",
+      "citation": "ORS 433.045(4)(a)",
+      "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors433.html",
+      "linkedFrom": null,
+      "effectiveDate": "2019-06-20",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a person may not disclose or be compelled to disclose the identity of any individual upon whom an HIV-related test is performed, or the results of such a test in a manner that permits identification of the subject of the test",
+      "appliesTo": "Any person, regardless of the manner of receipt or the source of the information.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "401eea02371b46d8b6394798cc1a5d1d78d1e81494518469818bbb1e8ad923ac"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is allowed where federal or state law or rule requires or permits it. Latest amendment 2019 c.456.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_OR",
+     "note": "ORS 433.045(4)(a). 2019 c.456 section 32, act effective June 20, 2019. Subsection (4)(b) excludes individuals acting in a private capacity, which appliesTo leaves out."
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Disclosure of genetic information; exceptions",
+      "citation": "ORS 192.539(1)",
+      "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html",
+      "linkedFrom": null,
+      "effectiveDate": "2020-01-01",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "a person may not disclose or be compelled, by subpoena or any other means, to disclose the identity of an individual upon whom a genetic test has been performed",
+      "appliesTo": "Any person, regardless of the manner of receipt or the source of genetic information.",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "session",
+      "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "quoteReRead": {
+       "verdict": "confirm",
+       "pageText": "including information received from an individual or a blood relative of the individual, a person may not disclose or be compelled, by subpoena or any other means, to disclose the identity of an individual upon whom a genetic test has been performed or the identity of a blood relative of the individual,",
+       "session": "main_check_quotes_OR_r2",
+       "date": "2026-10-04"
+      }
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Part of the Oregon genetic privacy statutes, ORS 192.531 to 192.549. Latest amendment 2019 c.141. Date source: 2019 c.141 s.29(1), HB 2464 enrolled text on olis.oregonlegislature.gov.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_OR",
+     "note": "Value yes stands. Only the date is wrong. Current text of ORS 192.539 took effect 2020-01-01. The act itself took effect 2019-09-29.",
+     "problems": [
+      "effectiveDate 2019-09-29 is wrong. 2019 c.141 section 29 makes the section 11 amendment to ORS 192.539 operative on January 1, 2020."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q063",
+        "Q090"
+       ],
+       "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+       "basis": "DEVIATIONS D-25",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "ORS 179.507(2): actual damages or $500, whichever is greater, plus punitive damages for intentional violations and attorney fees. ORS 192.541: greater of actual damages or $100 to $250,000 by type of genetic privacy violation."
+   },
+   "provisions": [
+    {
+     "title": "Enforcement of ORS 179.495 and 179.505; actions; venue; damages",
+     "citation": "ORS 179.507(2)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors179.html",
+     "linkedFrom": null,
+     "effectiveDate": "2003-05-24",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If a violation of ORS 179.495 or 179.505 is proven, the person commencing the action shall recover actual damages or $500, whichever is greater.",
+     "appliesTo": "Medical personnel or other staff employed by or under contract with a public provider to provide health care or maintain written accounts of health care provided to individuals",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "760907c98e07649a601503b346ed91f70545aceea7d911f8b7be9b64e8d8c450"
+    },
+    {
+     "title": "Genetic privacy: private right of action",
+     "citation": "ORS 192.541(1)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html",
+     "linkedFrom": null,
+     "effectiveDate": "2001-06-25",
+     "firstEnacted": "2001-06-25",
+     "statusOfProvision": "in_force",
+     "quote": "blood relative, representative or estate may bring a civil action against any person who violates ORS 192.535, 192.537, 192.539 or 192.547.",
+     "appliesTo": "Any person who violates the genetic privacy statutes named.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(1) An individual or an individual’s blood relative, representative or estate may bring a civil action against any person who violates ORS 192.535, 192.537, 192.539 or 192.547.",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Oregon Consumer Privacy Act: Attorney General's exclusive authority",
+     "citation": "ORS 646A.589(7)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2024-07-01",
+     "statusOfProvision": "in_force",
+     "quote": "ORS 646A.570 to 646A.589, or any other laws of this state, do not create a private right of action to enforce a violation of ORS 646A.570 to 646A.589.",
+     "appliesTo": "Oregon Consumer Privacy Act.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(7) The Attorney General has exclusive authority to enforce the provisions of ORS 646A.570 to 646A.589. ORS 646A.570 to 646A.589, or any other laws of this state, do not create a private right of action to enforce a violation of ORS 646A.570 to 646A.589.",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "ORS 179.507 lets a person sue for any unlawful disclosure of records held by public providers. That covers medical records generally, but only public providers. The consumer privacy act has no private right.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OR",
+    "note": "ORS 179.507 covers any unlawful disclosure of public provider records. ORS 192.571 bars a private right under the general health privacy statute. Level 2 rests on the public provider right only. Dates confirmed.",
+    "resolution": [
+     {
+      "rows": [
+       "Q091"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "Most expeditious manner possible, without unreasonable delay, but not later than 45 days after discovery",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Oregon Consumer Information Protection Act: definition of personal information",
+     "citation": "ORS 646A.602(12)(a)(A)(vi) and (vii)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2020-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A consumer’s health insurance policy number or health insurance subscriber identification number in combination with any other unique identifier that a health insurer uses to identify the consumer; or (vii) Any information about a consumer’s medical history or mental or physical condition",
+     "appliesTo": "In combination with the consumer’s first name or first initial and last name, if not rendered unusable.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(vi) A consumer’s health insurance policy number or health insurance subscriber identification number in combination with any other unique identifier that a health insurer uses to identify the consumer; or (vii) Any information about a consumer’s medical history or mental or physical condition or about a health care professional’s medical diagnosis or treatment of the consumer.",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Notice of breach of security: deadline",
+     "citation": "ORS 646A.604(3)(a)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2020-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A covered entity shall give notice of a breach of security in the most expeditious manner possible, without unreasonable delay, but not later than 45 days after discovering or receiving notification of the breach of security.",
+     "appliesTo": "Covered entities as defined in ORS 646A.602.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(3)(a) A covered entity shall give notice of a breach of security in the most expeditious manner possible, without unreasonable delay, but not later than 45 days after discovering or receiving notification of the breach of security.",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Notice of breach of security: Attorney General",
+     "citation": "ORS 646A.604(1)(b)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2020-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The Attorney General, either in writing or electronically, if the number of consumers to whom the covered entity must send the notice described in paragraph (a) of this subsection exceeds 250.",
+     "appliesTo": "Breaches affecting more than 250 consumers.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(b) The Attorney General, either in writing or electronically, if the number of consumers to whom the covered entity must send the notice described in paragraph (a) of this subsection exceeds 250.",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    },
+    {
+     "title": "Notice of breach of security: HIPAA exemption",
+     "citation": "ORS 646A.604(9)(d)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2020-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A covered entity or vendor that complies with regulations promulgated under the Health Insurance Portability and Accountability Act of 1996 (P.L. 104-191, 110 Stat. 1936) and the Health Information Technology for Economic and Clinical Health Act of 2009",
+     "appliesTo": "This section does not apply to entities complying with HIPAA and HITECH, if the personal information is also subject to those Acts.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "quoteReRead": {
+      "verdict": "confirm",
+      "pageText": "(d) A covered entity or vendor that complies with regulations promulgated under the Health Insurance Portability and Accountability Act of 1996 (P.L. 104-191, 110 Stat. 1936) and the Health Information Technology for Economic and Clinical Health Act of 2009 (P.L. 111-5, Title XIII, 123 Stat. 226), as those Acts existed on January 1, 2020,",
+      "session": "main_check_quotes_OR_r2",
+      "date": "2026-10-04"
+     }
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "Both medical and health insurance information are in the definition (2019 c.180, effective January 1, 2020). HIPAA-compliant entities are exempt, but ORS 646A.604(10) still requires a copy of notices to the Attorney General.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OR",
+    "note": "ORS 646A.602(12)(a)(A)(vi) and (vii). 2019 c.180 effective January 1, 2020, confirmed. 45 day deadline, AG notice above 250 consumers, HIPAA exemption with AG copy under ORS 646A.604(10)."
+   }
+  },
+  "ai_care": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": [
+     "ORS 678.027: \"A nonhuman entity, including but not limited to an agent powered by artificial intelligence, may not use any of the following titles: (1) Advanced Practice Registered Nurse or the abbreviation APRN\" (also RN, LPN, NP, CRNA, CNS, CMA, CNA)."
+    ]
+   },
+   "provisions": [
+    {
+     "title": "Use of titles by nonhuman entity",
+     "citation": "ORS 678.027",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors678.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": "2026-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "A nonhuman entity, including but not limited to an agent powered by artificial intelligence, may not use any of the following titles:",
+     "appliesTo": "Any nonhuman entity, including an agent powered by artificial intelligence.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "9b7df5134618fe278eab262230ad614fb81f15b5522edfa6f94dc7f2dc0d667d"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://www.oregonlegislature.gov/bills_laws/Pages/ORS.aspx",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "automated"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.oregonlegislature.gov/bills_laws/ors/ors743B.html",
+     "https://www.oregonlegislature.gov/bills_laws/ors/ors743A.html",
+     "https://www.oregonlegislature.gov/bills_laws/ors/ors677.html",
+     "https://www.oregonlegislature.gov/bills_laws/ors/ors678.html",
+     "https://www.oregonlegislature.gov/bills_laws/lawsstatutes/2026orLaw0109.pdf"
+    ],
+    "leadsChecked": [
+     "https://www.sheppard.com/insights/blogs/state-legislatures-consider-oversight-of-artificial-intelligence-in-health-insurance-decisions"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.sheppard.com/insights/blogs/state-legislatures-consider-oversight-of-artificial-intelligence-in-health-insurance-decisions",
+     "host": "www.sheppard.com",
+     "usedFor": "Search result on state AI insurance bills; no Oregon law named."
+    }
+   ],
+   "note": "No disclosure, clinician review or human recourse rule for AI in care or coverage found. The 2026 AI companion act (2026 c.85, effective January 1, 2027) does not cover care or coverage decisions.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_OR",
+    "note": "Own search of ORS 677, 678, 743A, 743B found no disclosure, clinician review or human recourse rule. 2025 c.378 effective 2026-01-01. 2026 c.85 chatbot act, effective 2027-01-01, does not cover care decisions.",
+    "resolution": [
+     {
+      "rows": [
+       "Q092"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "in_force",
+   "deletionMechanism": false,
+   "provisions": [
+    {
+     "title": "Data brokers: requirement to register with Department of Consumer and Business Services",
+     "citation": "ORS 646A.593(2)(a)",
+     "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors646A.html",
+     "linkedFrom": null,
+     "effectiveDate": "2024-01-01",
+     "firstEnacted": "2024-01-01",
+     "statusOfProvision": "in_force",
+     "quote": "a data broker may not collect, sell or license brokered personal data within this state unless the data broker first registers with the Department of Consumer and Business Services as provided in subsection (3) of this section.",
+     "appliesTo": "A business entity or part of a business entity that collects and sells or licenses brokered personal data to another person. Registration requires only a statement of whether residents may opt out.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "session",
+     "rawSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,523 @@
+{
+ "usps": "NY",
+ "fips": "36",
+ "name": "New York",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.nysenate.gov/search/legislation?search_term=consumer%20health%20data&type=f_bill",
+    "terms": [
+     "consumer health data",
+     "health information privacy act",
+     "regulated health information",
+     "comprehensive consumer privacy"
+    ],
+    "regulatorPagesChecked": [
+     "https://ag.ny.gov/publications/protecting-consumers-personal-information"
+    ],
+    "leadsChecked": [
+     "https://www.nixonpeabody.com/insights/alerts/2026/07/23/new-york-renews-push-to-enact-consumer-health-information-privacy-act-nyhipa",
+     "https://www.insideprivacy.com/health-privacy/new-york-governor-vetoes-restrictive-health-privacy-law/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.hipaajournal.com/new-york-health-information-privacy-act/",
+     "host": "www.hipaajournal.com",
+     "usedFor": "Veto of S929 on 2025-12-19"
+    },
+    {
+     "url": "https://www.nixonpeabody.com/insights/alerts/2026/07/23/new-york-renews-push-to-enact-consumer-health-information-privacy-act-nyhipa",
+     "host": "www.nixonpeabody.com",
+     "usedFor": "Revised 2026 bill S9269"
+    },
+    {
+     "url": "https://www.mofo.com/resources/insights/260316-nyhipa-returns-in-2026-revised-bill",
+     "host": "www.mofo.com",
+     "usedFor": "Bill numbers S9269 and A10357"
+    }
+   ],
+   "note": "No comprehensive or consumer health data law in force. S9269 (NY Health Information Privacy Act) passed both houses June 3 and 4, 2026. The official bill page shows no delivery to the Governor and no signature. S929 was vetoed in 2025.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NY",
+    "note": "Own search found no in-force law. S929 vetoed 2025-12-19 (memo 135). S9269 passed both houses June 3 and 4, 2026; bill page shows no delivery or signature. Researcher's search URL opens a blank search form only."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [
+     "Copies requested to support an application, claim or appeal for any government benefit or program (PHL 18(2)(e))",
+     "No charge for copying an original mammogram when the original has been furnished (PHL 18(2)(e))"
+    ],
+    "feeRules": [
+     "\"The provider may impose a reasonable charge for all inspections and copies, not exceeding the costs incurred by such provider\"",
+     "\"However, the reasonable charge for paper copies shall not exceed seventy-five cents per page.\" (per-page cap, not counted)",
+     "\"A qualified person shall not be denied access to patient information solely because of inability to pay.\""
+    ],
+    "beyondFederalFloor": "yes"
+   },
+   "provisions": [
+    {
+     "title": "Access to patient information: charges and free copy for government benefits",
+     "citation": "N.Y. Public Health Law 18(2)(e), as amended by L.2017, ch.322",
+     "officialUrl": "https://legislation.nysenate.gov/pdf/laws/PBH18",
+     "linkedFrom": null,
+     "effectiveDate": "2017-09-13",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "No charge may be imposed under this section for providing, releasing, or delivering patient information or copies of patient information where requested for the purpose of supporting an application, claim or appeal for any government benefit or program",
+     "appliesTo": "\"Health care provider\" or \"provider\" means a \"health care facility\" or a \"health care practitioner\" as defined by this subdivision.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "647c6690dbdcda1a9d733c940670959b8ab442e0dd6bc0e0fc44ecbd59229e91"
+    },
+    {
+     "title": "Access to patient information: copy furnished within a reasonable time",
+     "citation": "N.Y. Public Health Law 18(2)(d), as amended by L.2024, ch.347",
+     "officialUrl": "https://legislation.nysenate.gov/pdf/laws/PBH18",
+     "linkedFrom": null,
+     "effectiveDate": "2024-09-27",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "upon the written request of any qualified person, a health care provider shall furnish to such person, within a reasonable time, a copy of any patient information requested",
+     "appliesTo": "\"Health care provider\" or \"provider\" means a \"health care facility\" or a \"health care practitioner\" as defined by this subdivision.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "647c6690dbdcda1a9d733c940670959b8ab442e0dd6bc0e0fc44ecbd59229e91"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.mlmic.com/blog/open-bar-chapter-347/",
+     "host": "www.mlmic.com",
+     "usedFor": "Chapter 347 of 2024, physical copy right"
+    },
+    {
+     "url": "http://health.wnylc.com/health/entry/219/",
+     "host": "health.wnylc.com",
+     "usedFor": "Chapter 322 of 2017, free copies for benefits"
+    }
+   ],
+   "note": "Free copy for government benefit claims counts, beyond HIPAA and Part 171. Copies are due \"within a reasonable time\". Ten days applies to inspection, and to copies only where a practitioner lacks inspection space (18(2)(g)). Deadline element not counted.",
+   "crossCheck": {
+    "verdict": "set_aside",
+    "session": "main_crosscheck_NY",
+    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
+    "resolution": [
+     {
+      "rows": [
+       "P16"
+      ],
+      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
+      "basis": "DEVIATIONS D-25",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_in",
+   "pending": false,
+   "basis": "regulation",
+   "designatedHie": "Statewide Health Information Network for New York (SHIN-NY), accessed through qualified entities",
+   "stricterForSensitive": false,
+   "provisions": [
+    {
+     "title": "SHIN-NY: sharing of patient information",
+     "citation": "10 NYCRR 300.5(a)",
+     "officialUrl": "https://regs.health.ny.gov/content/section-3005-sharing-patient-information",
+     "linkedFrom": null,
+     "effectiveDate": "2024-07-10",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a qualified entity shall only allow access to patient information by SHIN‑NY participants with a written authorization from:",
+     "appliesTo": "Qualified entities and SHIN-NY participants",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2446d92a627ae299de73b076841b16e521a14776b4340a60ee6bb7998dd31a6e"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.nixonpeabody.com/insights/alerts/2024/02/21/nysdoh-proposes-amendments-to-the-shin-ny",
+     "host": "www.nixonpeabody.com",
+     "usedFor": "2024 Part 300 amendments"
+    }
+   ],
+   "note": "Access through SHIN-NY needs written authorization on a statewide consent form, with exceptions for emergencies and uses required by law. Routine data already needs consent. Minor consent information has added rules.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NY",
+    "note": "Quote verbatim on DOH page showing effective date 07/10/2024. Basis regulation. Routine data already needs written consent, so stricterForSensitive false is consistent."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Out-of-state proceedings regarding legally protected health activities",
+      "citation": "N.Y. CPLR 3119(g), as amended by L.2025, ch.694",
+      "officialUrl": "https://legislation.nysenate.gov/pdf/laws/CVP3119",
+      "linkedFrom": null,
+      "effectiveDate": "2025-12-19",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "no court, county clerk, or attorney licensed to practice in this state shall issue a subpoena under this section in connection with an out-of-state proceeding relating to any legally protected health activity, unless:",
+      "appliesTo": "Courts, county clerks and New York attorneys issuing subpoenas for out-of-state proceedings",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "dddd9d93d42e496b79493c8fd3dfbbbcc6137cf474fa1314193e9eb1fd4129cf"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.bsk.com/news-events-videos/new-york-amends-and-strengthens-its-health-care-ldquo-shield-rdquo-law",
+      "host": "www.bsk.com",
+      "usedFor": "2025 shield law amendment S4914B"
+     }
+    ],
+    "note": "Limits subpoenas, including for records, tied to reproductive or gender-affirming care in out-of-state proceedings. Exceptions need patient-brought tort or contract claims, express consent, and an affirmation. Ch.694 signed 2025-12-19, effective immediately.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_NY",
+     "note": "Quote verbatim in CPLR 3119(g). S4914B became L.2025 ch.694, signed 2025-12-19, effective immediately."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Clinical records; confidentiality",
+      "citation": "N.Y. Mental Hygiene Law 33.13(e)",
+      "officialUrl": "https://legislation.nysenate.gov/pdf/laws/MHY33.13",
+      "linkedFrom": null,
+      "effectiveDate": null,
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "Clinical information tending to identify patients or clients and clinical records maintained at a facility not operated by the offices, shall not be a public record and shall not be released to any person or agency outside such facility",
+      "appliesTo": "Facilities licensed or operated by the mental hygiene offices",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "16e04e04e6e90e8ef57e88dfe1bdae3158ada8e7d405ac16e60a2df4e6f20f1e",
+      "authorRuling": {
+       "ruling": "D-26 Q3",
+       "flag": "current version date not confirmed"
+      }
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Effective date not traced. The official page has no history note; its latest database revision is 2022-04-22. Subdivision (c) sets the same rule for office-operated facilities.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_NY",
+     "note": "Quote and value hold. The official page lists database revisions back to 2014-09-22 but no history note, so the date of the current text of 33.13(e) could not be traced on an official host.",
+     "problems": [
+      "effectiveDate is null. The rubric requires an effective date for every evidenced provision."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q058",
+        "Q174"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-26 Q3",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "HIV and AIDS related information: confidentiality and disclosure",
+      "citation": "N.Y. Public Health Law 2782(1)",
+      "officialUrl": "https://legislation.nysenate.gov/pdf/laws/PBH2782",
+      "linkedFrom": null,
+      "effectiveDate": "2020-12-02",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "No person who obtains confidential HIV related information in the course of providing any health or social service or pursuant to a release of confidential HIV related information may disclose or be compelled to disclose such information, except to the following:",
+      "appliesTo": "Any person who obtains confidential HIV related information in providing a health or social service or under a release",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "0b744ac3d0e50703c3ff63c43a78309119c6b2f51d97c18aa1feddb51896f8b6"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Date is the last traced amendment of subdivision 1 (L.2016, ch.461, adding paragraph (r), effective 120 days after 2016-11-28). Subdivision 1 last amended by L.2020 ch.312 (eff. immediately, signed 2020-12-02) and L.2021 ch.36 (signed 2021-02-16, effective with ch.312).",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_NY",
+     "note": "Ch.312 of 2020 (S6437A) signed 2020-12-02, effective immediately. Ch.36 of 2021 (S861) signed 2021-02-16, effective with ch.312. Current subdivision 1 date: 2020-12-02.",
+     "problems": [
+      "effectiveDate 2017-03-28 is not the current text of subdivision 1. L.2020 ch.312 amended paragraphs (n) and (o), and L.2021 ch.36 added paragraph (s)."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q059"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-27 (agree to all)",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   },
+   "genetic": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of genetic test records",
+      "citation": "N.Y. Civil Rights Law 79-l(3)(a), as added by L.1996, ch.497",
+      "officialUrl": "https://legislation.nysenate.gov/pdf/laws/CVR79-L",
+      "linkedFrom": null,
+      "effectiveDate": null,
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "All records, findings and results of any genetic test performed on any person shall be deemed confidential and shall not be disclosed without the written informed consent of the person to whom such genetic test relates.",
+      "appliesTo": "Any person holding records or results of a genetic test",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "8386b2bc788f7a3fc344e554b2c038d89be8cde9d18ae7cc2f52299282272f2d",
+      "authorRuling": {
+       "ruling": "D-26 Q3",
+       "flag": "current version date not confirmed"
+      }
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Bill A5123 (2025) cites subdivision 3 as added by chapter 497 of 1996 and not since amended. The 1996 session law is not on the official host, so the exact effective date is not recorded.",
+    "crossCheck": {
+     "verdict": "dispute",
+     "session": "main_crosscheck_NY",
+     "note": "Quote and value hold. A5123 (2025, in committee) cites subdivision 3 as added by L.1996 ch.497. That session law is not on an official host, so its effective date stays untraced.",
+     "problems": [
+      "effectiveDate is null. The rubric requires an effective date for every evidenced provision."
+     ],
+     "status": "resolved (crossCheck.resolution)",
+     "resolution": [
+      {
+       "rows": [
+        "Q060",
+        "Q175"
+       ],
+       "by": "J. A. Snyder, author",
+       "basis": "DEVIATIONS D-26 Q3",
+       "date": "2026-10-03"
+      }
+     ]
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None for individuals. GBL 899-aa(6): AG may recover actual costs or losses and civil penalties. CRL 79-l(5): civil fine up to $1,000; willful violation a misdemeanor, fine up to $5,000. PHL 2801-d(2): at least 25% of the daily per-patient rate per day of injury; punitive damages if willful or reckless."
+   },
+   "provisions": [
+    {
+     "citation": "PHL 2801-d(1)",
+     "officialUrl": "https://legislation.nysenate.gov/pdf/laws/PBH2801-D",
+     "quote": "Any residential health care facility that deprives any patient of said facility of any right or benefit, as hereinafter defined, shall be liable to said patient for injuries suffered as a result of said deprivation, except as hereinafter provided.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "02e02665cff81e4426b0e2801d3371c3534a0cfc64b7322e316ea0bf11c5de41",
+     "effectiveDate": "2009-06-09",
+     "effectiveDateSource": {
+      "url": "https://nyassembly.gov/leg/?default_fld=&bn=A00763&term=2009&Summary=Y&Actions=Y&Text=Y",
+      "quote": "05/29/2009 delivered to governor 06/09/2009 signed chap.61",
+      "rawSha256": "0cf41519aad52792723f4ff759c71ed7aab710b5190f3c27ddd004ab097bde8b",
+      "defaultRule": null,
+      "retrievedAt": "2026-10-04T09:27:12Z"
+     },
+     "statusOfProvision": "in_force"
+    },
+    {
+     "citation": "PHL 2803-c(3)(f)",
+     "officialUrl": "https://legislation.nysenate.gov/pdf/laws/PBH2803-C",
+     "quote": "Every patient shall have the right to have privacy in treatment and in caring for personal needs, confidentiality in the treatment of personal and medical records, and security in storing personal possessions.",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "faf1c755fb0027e614449171c9479b4ef84e33c581007661245e4303e410f85c",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     },
+     "statusOfProvision": "in_force"
+    }
+   ],
+   "searchLog": {
+    "codeSearchUrl": "https://www.nysenate.gov/search/legislation?search_term=medical%20records%20private%20right%20of%20action&type=f_bill",
+    "terms": [
+     "private right of action",
+     "medical records",
+     "action for damages",
+     "genetic test",
+     "confidential HIV related information"
+    ],
+    "regulatorPagesChecked": [
+     "https://ag.ny.gov/publications/protecting-consumers-personal-information",
+     "https://legislation.nysenate.gov/pdf/laws/GBS899-AA",
+     "https://legislation.nysenate.gov/pdf/laws/CVR79-L",
+     "https://legislation.nysenate.gov/pdf/laws/PBH18",
+     "https://legislation.nysenate.gov/pdf/laws/PBH2782"
+    ],
+    "leadsChecked": [
+     "https://www.insideprivacy.com/health-privacy/new-york-governor-vetoes-restrictive-health-privacy-law/"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [],
+   "note": "No express private right of action found. GBL 899-aa(6) gives enforcement to the attorney general. CRL 79-l sets fines only. PHL 18 and 2782 name no personal action. S9269 is not law.",
+   "crossCheck": {
+    "verdict": "dispute",
+    "session": "main_crosscheck_NY",
+    "note": "Level 1: limited to residential health care facility records. 2801-d last amended L.2022 ch.502, effective 2022-08-17. Minimum damages 25% of daily rate per day; punitive damages if willful. PHL 2783 and CRL 79-l give penalties only.",
+    "problems": [
+     "Search missed PHL 2801-d, a private action for nursing home patients deprived of any statutory right, read with PHL 2803-c(3)(f), the right to confidentiality of medical records.",
+     "Status should be in_force, not no_law_found."
+    ],
+    "status": "resolved (crossCheck.resolution)",
+    "resolution": [
+     {
+      "rows": [
+       "Q061",
+       "Q218"
+      ],
+      "by": "J. A. Snyder, author",
+      "basis": "DEVIATIONS D-27 (agree to all)",
+      "date": "2026-10-03"
+     }
+    ]
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "Most expedient time possible and without unreasonable delay, within 30 days after discovery",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Notification; person without valid authorization has acquired private information",
+     "citation": "N.Y. General Business Law 899-aa(1)(b)(i)(6)-(7), added by L.2024, ch.613, as amended by A.920 (2025)",
+     "officialUrl": "https://legislation.nysenate.gov/pdf/laws/GBS899-AA",
+     "linkedFrom": null,
+     "effectiveDate": "2025-03-21",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "(6) medical information, meaning any information regarding an individual's medical history, mental or physical condition, or medical treatment or diagnosis by a health care professional; or (7) health insurance information, meaning an individual's health insurance policy number or subscriber identification number",
+     "appliesTo": "Any person or business which owns or licenses computerized data which includes private information",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "23fdf13ff563d0ef30dba918a969609411187028f2754d90eca73098c7224b09"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.bytebacklaw.com/2025/02/new-york-amends-its-data-breach-notification-law/",
+     "host": "www.bytebacklaw.com",
+     "usedFor": "2024 and 2025 amendments"
+    }
+   ],
+   "note": "AG, Department of State and State Police get notice; DFS too for its covered entities. HIPAA notice to persons suffices, but AG notice is still due. HIPAA covered entities must tell the AG within five business days of notifying HHS.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NY",
+    "note": "L.2024 ch.613 (S2376B) signed 2024-12-21, effective 90th day, 2025-03-21. L.2025 ch.30 (A920) takes effect with it. 30-day deadline, AG notice, and HIPAA clause confirmed in text."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.nysenate.gov/search/legislation?search_term=artificial%20intelligence%20utilization%20review&type=f_bill",
+    "terms": [
+     "artificial intelligence",
+     "algorithm",
+     "utilization review",
+     "clinical peer reviewer",
+     "generative artificial intelligence patient communication"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.dfs.ny.gov/industry-guidance/circular-letters/cl2024-07",
+     "https://legislation.nysenate.gov/pdf/laws/ISC4903"
+    ],
+    "leadsChecked": [
+     "https://legiscan.com/NY/text/A11048/id/3425648",
+     "https://www.billtrack50.com/billdetail/1894683"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://legiscan.com/NY/text/A11048/id/3425648",
+     "host": "legiscan.com",
+     "usedFor": "Pending AI utilization review bill"
+    }
+   ],
+   "note": "Insurance Law 4903 has no AI terms. S10241/A11048, S7896/A8556 and A1456 remain in committee. DFS Circular Letter 2024-7 is guidance on underwriting and pricing, not a rule on care or coverage decisions.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_NY",
+    "note": "Own search: S10241 and A1456 in committee. Insurance Law 4903 has no AI terms. DFS Circular Letter 2024-7 is guidance limited to underwriting and pricing. RAISE Act covers frontier models, not care."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

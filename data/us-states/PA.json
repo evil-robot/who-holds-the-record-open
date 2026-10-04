@@ -1,0 +1,515 @@
+{
+ "usps": "PA",
+ "fips": "42",
+ "name": "Pennsylvania",
+ "censusRegion": "Northeast",
+ "asOf": "2026-10-03",
+ "dimensions": {
+  "consumer_health_data": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.palegis.us/statutes/unconsolidated/keyword-search-results?keywords=%22consumer+health+data%22",
+    "terms": [
+     "\"consumer health data\"",
+     "\"sensitive data\"",
+     "\"data broker\""
+    ],
+    "regulatorPagesChecked": [
+     "https://www.attorneygeneral.gov/report-a-data-breach/bpina/"
+    ],
+    "leadsChecked": [
+     "https://www.fisherphillips.com/en/insights/insights/pennsylvania-house-passes-consumer-privacy-bill",
+     "https://www.palegis.us/legislation/bills/2025/hb78"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.fisherphillips.com/en/insights/insights/pennsylvania-house-passes-consumer-privacy-bill",
+     "host": "www.fisherphillips.com",
+     "usedFor": "Found HB 78, the Consumer Data Privacy Act bill"
+    },
+    {
+     "url": "https://www.palegis.us/legislation/bills/2025/hb78",
+     "host": "www.palegis.us",
+     "usedFor": "Bill status: passed House Oct. 1, 2025; Senate second consideration June 25, 2026; not enacted"
+    }
+   ],
+   "note": "Keyword searches of the session laws returned no results for these terms. HB 78, a consumer data privacy bill, passed the House in 2025. Its last action was Senate second consideration on June 25, 2026. It is not law.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_PA",
+    "note": "Both official statute searches return nothing for consumer health data. HB 78 page shows last action Senate second consideration on June 25, 2026. Not enacted. No in-force provision found."
+   }
+  },
+  "copy_rights": {
+   "status": "in_force",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "deadlineDays": null,
+    "freeCopyCases": [],
+    "feeRules": [
+     "42 Pa.C.S. 6155(b)(1): patient fee may not exceed the amounts in 6152(a)(2)(i).",
+     "42 Pa.C.S. 6152(a)(2)(i) base amounts: \"$20.62 for searching for and retrieving the records, $1.39 per page for the first 20 pages, $1.03 per page for pages 21 through 60 and 34¢ per page for pages 61 and thereafter\", adjusted yearly by CPI.",
+     "42 Pa.C.S. 6152.1(a)(1): \"a flat fee of $19\" plus postage for records supporting a Social Security or needs-based benefit claim or appeal, adjusted yearly.",
+     "55 Pa.B. 8441 (effective Jan. 1, 2026): pages 1-20 $2, pages 21-60 $1.48, pages 61 on $0.52, microfilm $2.95, search and retrieval $29.61 not chargeable for own record, benefit-claim flat fee $37.52.",
+     "28 Pa. Code 115.29 (hospitals): charges \"shall be reasonably related to the cost of making the copy\"."
+    ],
+    "beyondFederalFloor": "no"
+   },
+   "provisions": [
+    {
+     "title": "Rights of patients: rights to records generally",
+     "citation": "42 Pa.C.S. § 6155(b)(1)",
+     "officialUrl": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=61&sctn=55&subsctn=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "1998-04-19",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "A health care provider or facility shall not charge a patient or his designee, including his attorney, a fee in excess of the amounts set forth in section 6152(a)(2)(i) (relating to subpoena of records).",
+     "appliesTo": "\"A health care provider or facility\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "b9ff70e54723e5881397ca7afff38d066108df3ee1de0b923662363abc717a0c"
+    },
+    {
+     "title": "Subpoena of records: fee amounts",
+     "citation": "42 Pa.C.S. § 6152(a)(2)(i)",
+     "officialUrl": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=61&sctn=52&subsctn=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "2012-09-03",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The payment shall be $20.62 for searching for and retrieving the records, $1.39 per page for the first 20 pages, $1.03 per page for pages 21 through 60 and 34¢ per page for pages 61 and thereafter for paper copies or reproductions on electronic media",
+     "appliesTo": "\"the health care provider or facility or a designated agent\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "4cffcdec753db93803838d28339973f67314853cf416d07d7cab1c02fdf62218"
+    },
+    {
+     "title": "Limit on charges for benefit claims",
+     "citation": "42 Pa.C.S. § 6152.1(a)(1)",
+     "officialUrl": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=42&div=0&chapter=61&sctn=52&subsctn=1&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "1998-02-18",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "a health care provider or facility shall not charge more than a flat fee of $19 for the expense of reproducing medical charts or records, plus the actual cost of postage, shipping or delivery",
+     "appliesTo": "Requests \"for the purpose of supporting a claim or appeal under any provision of the Social Security Act\" or a needs-based benefit program",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "2ad0e50bca98764eb81de9354f0e128f7cddec20e6414c7726e3ad9dc2d9270a"
+    },
+    {
+     "title": "Department of Health notice: Amendments to Charges for Medical Records",
+     "citation": "55 Pa.B. 8441 (Pa.B. Doc. No. 25-1680)",
+     "officialUrl": "https://www.pacodeandbulletin.gov/Display/pabull?file=/secure/pabulletin/data/vol55/55-50/1680.html",
+     "linkedFrom": null,
+     "effectiveDate": "2026-01-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Search and retrieval of records (cannot be charged if requestor is requesting their own personal health record)",
+     "appliesTo": "\"a health care facility or health care provider\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ef92d91876bd188e944093962fa4f0a2c27931055dc3b801b861d32fe9708335"
+    },
+    {
+     "title": "Hospital regulation: patient access",
+     "citation": "28 Pa. Code § 115.29",
+     "officialUrl": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/028/chapter115/s115.29.html",
+     "linkedFrom": null,
+     "effectiveDate": "1982-12-04",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "The patient or the patient’s next of kin may be charged for the cost of reproducing the copies; however, the charges shall be reasonably related to the cost of making the copy.",
+     "appliesTo": "Hospitals licensed under the Health Care Facilities Act",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d7ba3a635646b587a2e4663f509995d771f899f0b4529cbcc67ba8f2a10a11e2"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.pa.gov/agencies/health/resources/medical-record-fees",
+     "host": "www.pa.gov",
+     "usedFor": "Pointed to the yearly Pa. Bulletin fee notice"
+    }
+   ],
+   "note": "No state deadline under 30 days and no free copy case found. The state sets per-page caps and a $19 base flat fee for benefit claims, not a free copy. Caps do not count. Not beyond the federal floor.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_PA",
+    "note": "beyondFederalFloor: no. No deadline under 30 days in 42 Pa.C.S. 6155 or 28 Pa. Code 103.22 and 115.29. The benefit-claim rule caps a fee, it is not free. Per-page caps never count."
+   }
+  },
+  "hie_consent": {
+   "status": "in_force",
+   "value": "opt_out",
+   "pending": false,
+   "basis": "statute",
+   "designatedHie": "Pennsylvania Patient & Provider Network (P3N), run by the Department of Human Services eHealth Partnership Program",
+   "stricterForSensitive": null,
+   "provisions": [
+    {
+     "title": "Human Services Code, consent and confidentiality of health information: opt-out registry",
+     "citation": "Human Services Code (Act of June 13, 1967, P.L.31, No.21) § 1407-C(c)(1), added by Act 76 of 2016",
+     "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=1967&ActNum=0021.&SessInd=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "2016-07-08",
+     "firstEnacted": "2016-07-08",
+     "statusOfProvision": "in_force",
+     "quote": "In order to decline participation in the health information exchange, a patient must sign and date a form declining participation.",
+     "appliesTo": "The Statewide health information exchange established under Article XIV-C",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1336876b0412ad3e6b65495273de6a773e7e28a2ed85a68fe316d20878d5e219"
+    },
+    {
+     "title": "Human Services Code: published consent form and notice",
+     "citation": "Human Services Code § 1407-C(b)",
+     "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=1967&ActNum=0021.&SessInd=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "2016-07-08",
+     "firstEnacted": "2016-07-08",
+     "statusOfProvision": "in_force",
+     "quote": "The department shall publish a consent form including notice of a patient's ability to decline to allow exchange of the patient's electronic health information in the health information exchange.",
+     "appliesTo": "Department of Human Services",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "1336876b0412ad3e6b65495273de6a773e7e28a2ed85a68fe316d20878d5e219"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.pa.gov/agencies/dhs/resources/for-residents/ehealth-citizens",
+     "host": "www.pa.gov",
+     "usedFor": "DHS page confirming P3N under Act 76 and a published patient opt-out form"
+    }
+   ],
+   "note": "Records are exchanged unless the patient signs an opt-out form. DHS publishes the form. Section 1407-C(a)(2) keeps other laws needing added consent. Whether HIV records need consent for P3N exchange was not resolved.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_PA",
+    "note": "Section 1407-C added by Act 76 of 2016, effective immediately on July 8, 2016. DHS publishes the opt-out form. stricterForSensitive stays unresolved; HIV Act 7(a)(6) lets providers in the person's care receive HIV data."
+   }
+  },
+  "sensitive_records": {
+   "reproductive": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Abortion Control Act: reporting, confidentiality of reports",
+      "citation": "18 Pa.C.S. § 3214(e)(2)",
+      "officialUrl": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=18&div=0&chapter=32&sctn=14&subsctn=0&iFrame=true",
+      "linkedFrom": null,
+      "effectiveDate": "1988-04-24",
+      "firstEnacted": null,
+      "statusOfProvision": "in_force",
+      "quote": "shall remain confidential, except that disclosure may be made to law enforcement officials upon an order of a court of common pleas after application showing good cause therefor.",
+      "appliesTo": "Reports filed with the Department of Health under subsections (a) and (h)",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "17382c28afcc1bb742d8f01d3f97d00a483f178471b7247b77e542d1b69f9989"
+     }
+    ],
+    "searchLog": null,
+    "leads": [
+     {
+      "url": "https://www.guttmacher.org/state-policy/explore/shield-laws-sexual-and-reproductive-health-care",
+      "host": "www.guttmacher.org",
+      "usedFor": "Checked for a shield law on reproductive health data; none listed"
+     }
+    ],
+    "note": "The rule covers abortion reports filed with the Department of Health. Disclosure to law enforcement needs a court order. No statute on reproductive data sent to other states was found. Subsection (e) was last amended by Act 31 of 1988.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_PA",
+     "note": "Covers abortion reports filed with the Department of Health. Act 31 of 1988 amended subsection (e), effective 30 days after March 25, 1988. Shield bills from 2025 are not enacted."
+    }
+   },
+   "mental_health": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Mental Health Procedures Act: confidentiality of records",
+      "citation": "Mental Health Procedures Act § 111(a) (Act 143 of 1976; 50 P.S. § 7111)",
+      "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=1976&ActNum=0143.&SessInd=0&iFrame=true",
+      "linkedFrom": null,
+      "effectiveDate": "2022-07-07",
+      "firstEnacted": "1976-07-09",
+      "statusOfProvision": "in_force",
+      "quote": "All documents concerning persons in treatment shall be kept confidential and, without the person's written consent, may not be released or their contents disclosed to anyone except:",
+      "appliesTo": "Documents concerning persons in treatment under the act",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "a2fd43a121c12dfb8dc493f5fd9a4f88c417a789e10f5332cb3c4f43bc4a1a01"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Act 32 of 2022 added an exception for HIPAA covered entities and business associates acting under 45 CFR Part 164 Subpart E. Privileged communications still need written consent.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_PA",
+     "note": "Section 111(a) last amended by Act 32 of 2022, which took effect immediately on July 7, 2022. The act page confirms this."
+    }
+   },
+   "hiv": {
+    "status": "in_force",
+    "value": "yes",
+    "pending": false,
+    "provisions": [
+     {
+      "title": "Confidentiality of HIV-Related Information Act: confidentiality of records",
+      "citation": "Act 148 of 1990, § 7(a) (35 P.S. § 7607)",
+      "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=1990&ActNum=0148.&SessInd=0&iFrame=true",
+      "linkedFrom": null,
+      "effectiveDate": "1991-02-27",
+      "firstEnacted": "1990-11-29",
+      "statusOfProvision": "in_force",
+      "quote": "No person or employee, or agent of such person, who obtains confidential HIV-related information in the course of providing any health or social service or pursuant to a release of confidential HIV-related information under subsection (c) may disclose or be compelled to disclose the information",
+      "appliesTo": "Any person who obtains confidential HIV-related information while providing a health or social service",
+      "checkedAt": "2026-10-03",
+      "quoteVerified": "raw",
+      "rawSha256": "d243c8638fe667ee247125cff214b5d1252443555ba80bbe0463eb0bb2c8318d"
+     }
+    ],
+    "searchLog": null,
+    "leads": [],
+    "note": "Disclosure is limited to listed persons or a written consent meeting section 7(c). Section 8 limits court orders for access.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_PA",
+     "note": "Act of Nov. 29, 1990, No. 148, effective in 90 days. The 2011 amendments by Act 59 touched sections 2, 5 and 6, not section 7."
+    }
+   },
+   "genetic": {
+    "status": "no_law_found",
+    "value": "none_in_force",
+    "pending": false,
+    "provisions": [],
+    "searchLog": {
+     "codeSearchUrl": "https://www.palegis.us/statutes/unconsolidated/keyword-search-results?keywords=%22genetic+information%22",
+     "terms": [
+      "\"genetic information\"",
+      "\"genetic test\"",
+      "genetic"
+     ],
+     "regulatorPagesChecked": [
+      "https://www.attorneygeneral.gov/report-a-data-breach/bpina/"
+     ],
+     "leadsChecked": [
+      "https://www.billtrack50.com/billdetail/1896426",
+      "https://www.palegis.us/legislation/bills/text/HTM/2003/0/SB0684/PN0787"
+     ],
+     "searchedAt": "2026-10-03"
+    },
+    "leads": [
+     {
+      "url": "https://www.billtrack50.com/billdetail/1896426",
+      "host": "www.billtrack50.com",
+      "usedFor": "Genetic privacy bill HB 1530; bill only"
+     }
+    ],
+    "note": "Search results showed DNA database, paternity testing, genetic counselor licensing and insurance references to federal GINA. No state rule on confidentiality of genetic test records was found.",
+    "crossCheck": {
+     "verdict": "confirm",
+     "session": "main_crosscheck_PA",
+     "note": "Searches for genetic information and genetic test hit DNA databases, vital statistics, paternity and GINA references only. HB 1530 sits in a Senate committee since Dec. 22, 2025. Not enacted."
+    }
+   }
+  },
+  "private_right": {
+   "status": "in_force",
+   "level": 1,
+   "pending": false,
+   "facts": {
+    "statutoryDamages": "None. Compensatory damages; attorney fees and costs for section 6 violations by a source patient's physician."
+   },
+   "provisions": [
+    {
+     "title": "Confidentiality of HIV-Related Information Act: civil cause of action",
+     "citation": "Act 148 of 1990, § 10 (35 P.S. § 7610)",
+     "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=1990&ActNum=0148.&SessInd=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "1991-02-27",
+     "firstEnacted": "1990-11-29",
+     "statusOfProvision": "in_force",
+     "quote": "Any person aggrieved by a violation of this act shall have a cause of action against the person who committed such violation and may recover compensatory damages.",
+     "appliesTo": "Violations of the HIV-Related Information Act",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "d243c8638fe667ee247125cff214b5d1252443555ba80bbe0463eb0bb2c8318d"
+    },
+    {
+     "title": "Breach of Personal Information Notification Act: civil relief",
+     "citation": "Act 94 of 2005, § 8 (73 P.S. § 2308)",
+     "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=2005&ActNum=0094.&SessInd=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "2006-06-20",
+     "firstEnacted": "2005-12-22",
+     "statusOfProvision": "in_force",
+     "quote": "The Office of Attorney General shall have exclusive authority to bring an action under the Unfair Trade Practices and Consumer Protection Law for a violation of this act.",
+     "appliesTo": "Violations of the breach notification act",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ac85fbb68766452c528aedc6079b09a0a99160913dab9a932af3fa9844a7f398"
+    }
+   ],
+   "searchLog": null,
+   "leads": [],
+   "note": "The only right to sue found covers HIV-related information, one narrow category. The breach act gives the Attorney General exclusive enforcement. No general right to sue over medical records was found.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_PA",
+    "note": "Right to sue covers HIV-related information only. The breach act leaves enforcement to the Attorney General. No statutory damages; attorney fees only for section 6 violations by a source patient's physician."
+   }
+  },
+  "breach_health": {
+   "status": "in_force",
+   "level": 2,
+   "pending": false,
+   "facts": {
+    "noticeDeadline": "without unreasonable delay",
+    "regulatorNotice": true,
+    "hipaaDeemedCompliant": true
+   },
+   "provisions": [
+    {
+     "title": "Breach of Personal Information Notification Act: definition of personal information",
+     "citation": "Act 94 of 2005, § 2 (73 P.S. § 2302), as amended by Act 33 of 2024",
+     "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=2005&ActNum=0094.&SessInd=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "2024-09-26",
+     "firstEnacted": "2005-12-22",
+     "statusOfProvision": "in_force",
+     "quote": "(iv) Medical information in the possession of a State agency or State agency contractor. (v) Health insurance information.",
+     "appliesTo": "\"An entity that maintains, stores or manages computerized data that includes personal information\"",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ac85fbb68766452c528aedc6079b09a0a99160913dab9a932af3fa9844a7f398"
+    },
+    {
+     "title": "Notice to Attorney General",
+     "citation": "Act 94 of 2005, § 3(c.1) (73 P.S. § 2303)",
+     "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=2005&ActNum=0094.&SessInd=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "2024-09-26",
+     "firstEnacted": "2005-12-22",
+     "statusOfProvision": "in_force",
+     "quote": "When notice of the breach of the security of the system under this section must be given to more than 500 affected individuals in this Commonwealth, notice shall be made concurrently to the Office of Attorney General.",
+     "appliesTo": "Breaches affecting more than 500 Pennsylvania residents; entities under 40 Pa.C.S. Ch. 45 are exempt",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ac85fbb68766452c528aedc6079b09a0a99160913dab9a932af3fa9844a7f398"
+    },
+    {
+     "title": "Notice timing",
+     "citation": "Act 94 of 2005, § 3(a) (73 P.S. § 2303)",
+     "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=2005&ActNum=0094.&SessInd=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "2023-05-02",
+     "firstEnacted": "2005-12-22",
+     "statusOfProvision": "in_force",
+     "quote": "Except as provided in section 4 or in order to take any measures necessary to determine the scope of the breach and to restore the reasonable integrity of the data system, the notice shall be made without unreasonable delay.",
+     "appliesTo": "Entities holding computerized personal information of Pennsylvania residents",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ac85fbb68766452c528aedc6079b09a0a99160913dab9a932af3fa9844a7f398"
+    },
+    {
+     "title": "Entities subject to HIPAA",
+     "citation": "Act 94 of 2005, § 5.3 (73 P.S. § 2305.3)",
+     "officialUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=HTM&SessYr=2005&ActNum=0094.&SessInd=0&iFrame=true",
+     "linkedFrom": null,
+     "effectiveDate": "2023-05-02",
+     "firstEnacted": "2005-12-22",
+     "statusOfProvision": "in_force",
+     "quote": "Any covered entity or business associate that is subject to and in compliance with the privacy and security standards for the protection of electronic personal health information established under the Health Insurance Portability and Accountability Act of 1996",
+     "appliesTo": "HIPAA covered entities and business associates",
+     "checkedAt": "2026-10-03",
+     "quoteVerified": "raw",
+     "rawSha256": "ac85fbb68766452c528aedc6079b09a0a99160913dab9a932af3fa9844a7f398"
+    }
+   ],
+   "searchLog": null,
+   "leads": [
+    {
+     "url": "https://www.attorneygeneral.gov/report-a-data-breach/bpina/",
+     "host": "www.attorneygeneral.gov",
+     "usedFor": "AG page confirming Sept. 26, 2024 effective date of amendments"
+    }
+   ],
+   "note": "Both elements are in the definition. Medical information counts only when held by a State agency or State agency contractor. Health insurance information has no such limit. Medical information added by Act 151 of 2022.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_PA",
+    "note": "Definition amended by Act 33, approved June 28, 2024, effective Sept. 26, 2024. Medical information counts only for State agencies and contractors. Notice without unreasonable delay. AG notice over 500. HIPAA-compliant entities deemed compliant."
+   }
+  },
+  "ai_care": {
+   "status": "no_law_found",
+   "level": 0,
+   "pending": false,
+   "facts": {
+    "elements": {
+     "disclosure": false,
+     "clinicianDecides": false,
+     "humanRecourse": false
+    },
+    "prohibitions": []
+   },
+   "provisions": [],
+   "searchLog": {
+    "codeSearchUrl": "https://www.palegis.us/statutes/unconsolidated/keyword-search-results?keywords=%22artificial+intelligence%22",
+    "terms": [
+     "\"artificial intelligence\""
+    ],
+    "regulatorPagesChecked": [
+     "https://www.pacodeandbulletin.gov/Display/pabull?file=%2Fsecure%2Fpabulletin%2Fdata%2Fvol54%2F54-14%2F484.html"
+    ],
+    "leadsChecked": [
+     "https://www.businessinsurance.com/Pennsylvania-bill-would-mandate-insurer-disclosure-of-AI-in-utilization-review-/",
+     "https://www.palegis.us/legislation/bills/2025/hb1925"
+    ],
+    "searchedAt": "2026-10-03"
+   },
+   "leads": [
+    {
+     "url": "https://www.businessinsurance.com/Pennsylvania-bill-would-mandate-insurer-disclosure-of-AI-in-utilization-review-/",
+     "host": "www.businessinsurance.com",
+     "usedFor": "Found AI utilization review bills"
+    },
+    {
+     "url": "https://www.palegis.us/legislation/bills/2025/hb1925",
+     "host": "www.palegis.us",
+     "usedFor": "HB 1925 status: passed House Sept. 30, 2026 (144-59); not enacted"
+    }
+   ],
+   "note": "The 20 session-law hits cover schools, crimes, 911 and transcripts. None covers health care. HB 1925 passed the House on Sept. 30, 2026 and is not law. Insurance Department Notice 2024-04 is guidance only.",
+   "crossCheck": {
+    "verdict": "confirm",
+    "session": "main_crosscheck_PA",
+    "note": "Consolidated hits are Title 18 crimes only. Session law hits cover schools, 911 and transcripts. HB 1925 passed the House Sept. 30, 2026 and is not law. No element in force."
+   }
+  }
+ },
+ "context": {
+  "data_broker_registry": {
+   "status": "no_law_found",
+   "deletionMechanism": null,
+   "provisions": []
+  }
+ }
+}

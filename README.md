@@ -11,7 +11,7 @@ By SuperTruth Inc. Index version 1.0, data as of 2 October 2026. Data release 1.
 
 ## Use the data
 
-The Health Record Rights Index is also open as read-only JSON at https://healthrecordrights.com/api/v1/, with no key and no sign-up. The same data is open to AI assistants through an MCP server at https://healthrecordrights.com/mcp. MCP is a shared standard that lets an assistant read outside data. Each address may make 60 requests a minute, with bursts up to 120, shared between the API and the MCP server. For the whole index at once, use the downloads instead. The data is licensed under CC BY 4.0; credit "SuperTruth, Inc., Health Record Rights Index". Quoted law and source titles stay with their owners, and the code in this repository is MIT. Every route, field and example is on https://healthrecordrights.com/developers/.
+The Health Record Rights Index is also open as read-only JSON at https://healthrecordrights.com/api/v1/, with no key and no sign-up. The same data is open to AI assistants through an MCP server at https://healthrecordrights.com/mcp. MCP is a shared standard that lets an assistant read outside data. Each address may make 60 requests a minute, with bursts up to 120, shared between the API and the MCP server. For the whole index at once, use the downloads instead. The data is licensed under CC BY 4.0; credit "SuperTruth, Inc., Health Record Rights Index". Quoted law and source titles stay with their owners, and the code in this repository is MIT. Every route, field and example is on https://healthrecordrights.com/developers/. To start quickly, [`starter-kit/`](starter-kit/) has a small web app, a Python notebook and MCP settings for Claude Code and VS Code, each with a README.
 
 ![Health Record Rights Index: the globe and the headline finding](brand/og.png)
 
@@ -140,6 +140,7 @@ Does your record follow you across a border? The live page at https://healthreco
 | [`analysis/literature/`](analysis/literature/) | Literature review |
 | [`analysis/us/states/`](analysis/us/states/) | The US state layer: plan and its hashes (`PLAN.md`, `plan_stamp.txt`), rubric (`RUBRIC_STATES.md`), log of changes to the plan (`DEVIATIONS.md`), decision rules, counts by question (`aggregate.json`), how rulings were made and every ruling applied (`main/RULINGS_METHOD.md`, `main/rulings_applied.json`), and the agreement results before and after the rulings (`main/reliability.json`, `main/reliability_post_rulings.json`) |
 | [`LICENSE-DATA.md`](LICENSE-DATA.md) | What the CC BY 4.0 data license covers, and what it does not (quoted law, third-party titles, linked pages) |
+| [`starter-kit/`](starter-kit/) | A starter kit for the data API: a plain JavaScript web app, a pandas notebook and MCP settings, each with a README (MIT) |
 | [`scripts/`](scripts/) | Paper generation (every number in the paper is computed, never typed), figure generators, checks and tests |
 | `build.js`, `template.html`, `brief.js`, `presskit.js`, `nav.js`, `traveller*.js` | The code that builds the site from the data |
 

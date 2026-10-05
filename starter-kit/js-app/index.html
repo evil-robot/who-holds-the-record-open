@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Health Record Rights Index: every country</title>
+<style>
+  /* the site's paper color, under the same name as the site's design tokens */
+  :root { --st-paper:#FBF8F2; }
+  body { margin: 0; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: #1f2937; background: var(--st-paper); }
+  main { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 26px; margin: 0 0 8px; }
+  label { display: block; font-weight: 600; margin: 16px 0 4px; }
+  input { font: inherit; padding: 8px 10px; width: 100%; max-width: 320px; border: 1px solid #9ca3af; border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 16px; background: #fff; }
+  caption { text-align: left; padding: 8px 0; color: #4b5563; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e5e7eb; }
+  th button { font: inherit; font-weight: 600; background: none; border: 0; padding: 0; cursor: pointer; color: inherit; }
+  td.num { font-variant-numeric: tabular-nums; }
+  a { color: #0f766e; }
+  :focus-visible { outline: 2px solid #0f766e; outline-offset: 2px; }
+  .credit { font-size: 14px; color: #4b5563; margin-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Health Record Rights Index: every country</h1>
+  <p id="status" role="status">Loading the data...</p>
+  <label for="filter">Filter by country, code, region or band</label>
+  <input id="filter" type="search" autocomplete="off">
+  <table>
+    <caption id="caption">Countries and territories, scored out of 100</caption>
+    <thead>
+      <tr>
+        <th scope="col" aria-sort="none"><button type="button" data-key="name">Country or territory</button></th>
+        <th scope="col" aria-sort="descending"><button type="button" data-key="overall">Score out of 100</button></th>
+        <th scope="col" aria-sort="none"><button type="button" data-key="band">Band</button></th>
+        <th scope="col">Standing</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p class="credit" id="credit"></p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

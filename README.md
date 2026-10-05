@@ -180,4 +180,6 @@ SuperTruth sells health data verification products, and three of the authors are
 
 This is a research tool, not legal advice. If we got a country wrong, open an issue with the page that shows it and we will fix it in the open.
 
+**Addresses, 5 October 2026.** Country briefs and US state pages now carry the place's name in the address: `https://healthrecordrights.com/brief/finland/`, `/us/states/ohio/`, `/us/states/compare/california-vs-texas/`. The code forms used until then (`/brief/FIN/`, `/us/states/OH/`, `/us/states/compare/CA-TX/`), including the form printed in versions 1.0 to 1.2 of the paper, redirect permanently, so published links keep working. The feeds (`/feeds/countries/FIN.xml`), the data API (`/api/v1/countries/FIN`) and the share images keep their codes.
+
 The published accounts of record problems shown on the site are not deposited here, so that a removal request can be honoured; each links to its public source on the site.

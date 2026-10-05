@@ -946,6 +946,8 @@ The state layer is not yet in the public export or in the Zenodo data record; it
 
 The interactive index is at https://healthrecordrights.com. Each of the <!-- GEN:briefs -->198<!-- /GEN:briefs --> countries also has a printable one-page brief at https://healthrecordrights.com/brief/ISO3/ (for example /brief/FIN/ for Finland). "Ask the index" is an agent on the same page that answers questions only from the index's own data and says so when the index does not hold an answer.
 
+Note added 5 October 2026: brief addresses now carry the country's name, for example https://healthrecordrights.com/brief/finland/, and the US state pages the state's name (/us/states/ohio/). The code form printed above, and in versions 1.0 to 1.2 of this paper, redirects permanently to the named address, so the published links keep resolving.
+
 The accounts in Section 5 are linked from the interactive index and are not deposited with this paper, so that an account can be taken down from the index on request. Copies made while the accounts were public on 2 October 2026 cannot be recalled. Aggregate counts are in Tables 4 to 6. Removal and correction requests: see the interactive index.
 
 ## Author Contributions

@@ -158,7 +158,7 @@
    "value": "no_rule_found",
    "pending": false,
    "basis": "statute",
-   "designatedHie": "",
+   "designatedHie": "Indiana Health Information Exchange (IHIE), named by the state as its primary HIE",
    "stricterForSensitive": null,
    "provisions": [],
    "searchLog": {
@@ -194,7 +194,25 @@
     "verdict": "confirm",
     "session": "main_crosscheck_IN",
     "note": "My search of Title 16 and Title 12 PDFs for health information exchange found no consent rule. The state page calls IHIE primary, not designated. IHIE pages I opened show no opt-out policy."
-   }
+   },
+   "designatedHieSources": [
+    {
+     "title": "Grow Rural Health, Initiative 3 FAQ (Indiana)",
+     "citation": "in.gov Grow Rural Health Initiative 3 page, FAQ \"What is an HIE?\"",
+     "officialUrl": "https://www.in.gov/grow-rural-health/initiatives/initiative-3",
+     "quote": "The Indiana Health Information Exchange (IHIE), founded in 2004, is the state's primary HIE.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "c9f69f69c61b595529c5ad3691a02f4af6a01160fb3c249bd1fdea8bfdbc9674"
+    },
+    {
+     "title": "IHIE home page",
+     "citation": "Indiana Health Information Exchange home page",
+     "officialUrl": "https://www.ihie.org/",
+     "quote": "IHIE combines, enhances, and exchanges health data across all care settings to support treatment, care coordination, quality improvement, and public and population health.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "0bcb8125f155b45aaafdc46cdab79fb3b1424d4521fa0f77652a8f10ce69b0d2"
+    }
+   ]
   },
   "sensitive_records": {
    "reproductive": {

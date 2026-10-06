@@ -120,7 +120,7 @@
    "value": "opt_out",
    "pending": false,
    "basis": "statute",
-   "designatedHie": "",
+   "designatedHie": "CliniSync (Ohio Health Information Partnership)",
    "stricterForSensitive": false,
    "provisions": [
     {
@@ -144,6 +144,11 @@
      "url": "https://clinisync.org/patient-choice/",
      "host": "clinisync.org",
      "usedFor": "CliniSync (Ohio Health Information Partnership) opt-out process; designation not confirmed on a state page"
+    },
+    {
+     "url": "https://ohid.ohio.gov/wps/wcm/connect/gov/8bdd742f-890a-42db-a390-a7d15a39dcdc/Ohio%2BRHT%2BPROGRAM%2BNARRATIVE.pdf",
+     "host": "ohid.ohio.gov",
+     "usedFor": "Ohio Rural Health Transformation narrative refers to the vendor for Ohio's HIE, CliniSync"
     }
    ],
    "note": "Exchange proceeds unless the person submits a written request to restrict all records. Minor-consent and federal limits apply under 3798.07(A)(1) and (2); no added state consent rule for adult sensitive categories was found.",
@@ -161,7 +166,33 @@
       "date": "2026-10-03"
      }
     ]
-   }
+   },
+   "designatedHieSources": [
+    {
+     "title": "Ohio Department of Health memorandum, public comment on Ohio Administrative Code rule 3701-3-16, drug overdose reporting",
+     "citation": "Ohio Department of Health memo dated November 24, 2023",
+     "officialUrl": "https://odh.ohio.gov/wps/wcm/connect/gov/dc360e69-f4b4-4a5b-8f2e-54fad8d7a42a/Combined+to+Post+for+Public+Comment+-+30+days.pdf",
+     "quote": "The evolution of Clinisync as a statewide health information exchange has facilitated the ability of emergency departments to report this information",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "4ba2b4340f8509432f57cd1e78579b89237afb97f176f4cfc5ab7404d8c6f3a5"
+    },
+    {
+     "title": "Ohio State Trauma Committee minutes, May 8, 2024",
+     "citation": "Ohio Department of Public Safety, EMS Trauma Committee minutes 5/8/2024",
+     "officialUrl": "https://dam.assets.ohio.gov/image/upload/ems.ohio.gov/links/ems_tc_minutes0524.pdf",
+     "quote": "the Ohio Health Information Partnership which operates as CliniSync, to enable emergency departments to seamlessly report the required non-fatal drug overdose data",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "0a0b65143adc1ed42f1951b2d92e3baab24569c22c87a8660b289ea36e0dc962"
+    },
+    {
+     "title": "CliniSync, Patient Choice",
+     "citation": "CliniSync patient choice page",
+     "officialUrl": "https://clinisync.org/patient-choice/",
+     "quote": "You can opt out of the CliniSync health information exchange by completing the form below.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "6efa31c3d28330f1cbb0b55b080a7790740b0be0d4252d4646655c2d1aadfaa9"
+    }
+   ]
   },
   "sensitive_records": {
    "reproductive": {

@@ -146,29 +146,79 @@
    }
   },
   "hie_consent": {
-   "status": "not_checked",
-   "value": null,
+   "status": "no_law_found",
+   "value": "no_rule_found",
    "pending": false,
    "basis": "hie_policy",
-   "designatedHie": "New Jersey Health Information Network (NJHIN), operated by NJII, the State Designated Entity",
+   "designatedHie": "New Jersey Health Information Network (NJHIN), operated by NJII for the NJ Department of Health",
    "stricterForSensitive": null,
    "provisions": [
     {
-     "title": "NJHIN Opt-Out Guidance for Unrepresented Patients/Residents",
-     "citation": "NJII, NJHIN Opt-Out Guidance (policy document)",
+     "title": "NJII, NJHIN Opt-Out Guidance for Unrepresented Patients/Residents",
+     "citation": "NJII NJHIN policy guidance (PDF created 1 Sept 2022)",
      "officialUrl": "https://www.njii.com/wp-content/uploads/2022/09/NJII-Guidance-on-Unrepresented-Patients.pdf",
-     "linkedFrom": "https://www.nj.gov/health/njhit/approach/",
-     "effectiveDate": "2014-01-01",
-     "firstEnacted": null,
+     "linkedFrom": "https://www.nj.gov/health/meaningfuluse/readiness",
+     "effectiveDate": "2022-09-01",
+     "firstEnacted": "2014-01-01",
      "statusOfProvision": "in_force",
-     "quote": "it adopted the Opt-Out model of patient consent to participation. The Opt-Out model is one in which the default for all patients is to participate within the HIE and, should a patient elect to Opt-Out, they must request that opportunity.",
-     "appliesTo": "Patients whose records are exchanged through NJHIN.",
-     "checkedAt": "2026-10-03",
+     "quote": "it adopted the Opt-Out model of patient consent to participation",
+     "appliesTo": "Patients whose data flows through NJHIN. Same document: the default is participation and a patient who wants out must request it. No NJHIN patient opt-out form or instructions were found on njii.com; opt-out requests run through providers and regional HIEs. Effective date is the PDF creation date; 2014 is year only. Kept as policy text only: no published patient opt-out path was found, so under the rubric it does not set an opt_out value.",
+     "checkedAt": "2026-10-05",
      "quoteVerified": "raw",
      "rawSha256": "b4b7e31947d72e34436493855f44f1fbae18bd20fae665bdcc53d7eb9d34afd9"
+    },
+    {
+     "title": "NJ Department of Health news release, Camden Coalition joins New Jersey Health Information Network",
+     "citation": "NJDOH news release, 6 September 2018",
+     "officialUrl": "https://www.nj.gov/health/news/2018/approved/20180906a.shtml",
+     "linkedFrom": null,
+     "effectiveDate": "2018-09-06",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "interconnected data exchange network known as the NJHIN",
+     "appliesTo": "State source naming NJHIN and NJII as the Department of Health's partner; used for the exchange name.",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "9d02b5ae8df5e17402c62f339986bb60f05e7ab7aab86b94054003fc85505859"
+    },
+    {
+     "title": "NJ Department of Health, Public Health Promoting Interoperability, Declaration of Readiness",
+     "citation": "NJDOH declaration of readiness, updated August 9, 2023",
+     "officialUrl": "https://www.nj.gov/health/meaningfuluse/readiness",
+     "linkedFrom": null,
+     "effectiveDate": "2023-08-09",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "New Jersey Health Information Network (NJHIN) - NJII",
+     "appliesTo": "State page linking NJHIN to its NJII page; used for the exchange name.",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "eac686fcb4d18b2575c7c366086478f046d807042656ffdbbffe3893310fcde1"
     }
    ],
-   "searchLog": null,
+   "searchLog": {
+    "codeSearchUrl": "https://www.google.com/search?q=site%3Anjleg.state.nj.us+%22health+information+network%22+statutes",
+    "terms": [
+     "NJHIN opt out",
+     "health information exchange opt out",
+     "NJII policies and procedures",
+     "health information exchange",
+     "health information network",
+     "NJHIN"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.nj.gov/health/meaningfuluse/readiness",
+     "https://www.nj.gov/health/news/2018/approved/20180906a.shtml",
+     "https://www.njii.com/healthcare/new-jersey-health-information-network-njhin/"
+    ],
+    "leadsChecked": [
+     "https://www.jerseyhealthconnect.org/wp-content/uploads/Jersey-Health-Connect-Opt-Out-Form.Revised.pdf",
+     "https://www.shoremedicalcenter.org/sites/default/files/page_attachments/form_8232_360_92223_health_information_exchange_hie_opt_out.pdf",
+     "https://www.guidestar.org/profile/47-1042118"
+    ],
+    "searchedAt": "2026-10-05",
+    "codeSearchNote": "Fallback search: a Google index search limited to the NJ Legislature site, because every NJ Legislature host timed out on 2026-10-05 from three networks. N.J.A.C. not searched. Rerun on the Legislature search before treating this as complete (D-35; open for an author ruling)."
+   },
    "leads": [
     {
      "url": "https://www.jerseyhealthconnect.org/wp-content/uploads/Jersey-Health-Connect-Opt-Out-Form.Revised.pdf",
@@ -179,24 +229,14 @@
      "url": "https://www.shoremedicalcenter.org/sites/default/files/page_attachments/form_8232_360_92223_health_information_exchange_hie_opt_out.pdf",
      "host": "shoremedicalcenter.org",
      "usedFor": "Hospital HIE opt-out form"
+    },
+    {
+     "url": "https://www.guidestar.org/profile/47-1042118",
+     "host": "guidestar.org",
+     "usedFor": "NJII Form 990 text calls NJII the state designated entity for NJHIN; not an official state page"
     }
    ],
-   "note": "No statute sets an HIE consent rule; code search found none. NJII policy states opt-out since 2014 (year only, so date set to 1 January). NJHIN's own site publishes no patient opt-out form; opt-out runs through providers.",
-   "crossCheck": {
-    "verdict": "set_aside",
-    "session": "main_crosscheck_NJ_r3",
-    "note": "Planted cell in the cross-checker's copy; verdict set aside; this cell is unchecked by the cross-check.",
-    "resolution": [
-     {
-      "rows": [
-       "P13"
-      ],
-      "by": "J. A. Snyder, author",
-      "basis": "DEVIATIONS D-27 (agree to all)",
-      "date": "2026-10-03"
-     }
-    ]
-   }
+   "note": "No statute sets an HIE consent rule. NJII policy says NJHIN uses an opt-out model, but neither NJHIN nor the state publishes a patient opt-out path, so the rubric's opt_out test is not met and no rule is recorded. D-35: status no_law_found / no_rule_found pending an author ruling; NJII policy text describes an opt-out model, but no published patient opt-out path was found, so it does not meet the rubric for opt_out."
   },
   "sensitive_records": {
    "reproductive": {

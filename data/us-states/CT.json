@@ -188,54 +188,108 @@
    }
   },
   "hie_consent": {
-   "status": "not_checked",
-   "value": null,
+   "status": "in_force",
+   "value": "opt_out",
    "pending": false,
    "basis": "hie_policy",
    "designatedHie": "Connie",
    "stricterForSensitive": null,
    "provisions": [
     {
-     "title": "State page: how to opt out of Connie",
-     "citation": "Office of Health Strategy knowledge base, How to opt out of Connie (dated June 09, 2024)",
+     "title": "Office of Health Strategy knowledge base, How to opt out of Connie",
+     "citation": "OHS knowledge base article dated June 09, 2024",
      "officialUrl": "https://portal.ct.gov/ohs/knowledge-base/articles/file-or-find-data/how-to-opt-out-of-connie",
-     "linkedFrom": "https://portal.ct.gov/ohs/knowledge-base/articles/file-or-find-data/health-information-exchange/about-connie",
+     "linkedFrom": null,
      "effectiveDate": "2024-06-09",
      "firstEnacted": null,
      "statusOfProvision": "in_force",
-     "quote": "Individuals who do not want their data shared with their health care providers through Connie can complete the",
-     "appliesTo": "Patients whose data is shared through Connie, the HIE designated under Conn. Gen. Stat. 17b-59d.",
-     "checkedAt": "2026-10-03",
+     "quote": "Individuals who do not want their data shared with their health care providers through Connie can complete the Connie opt-out form",
+     "appliesTo": "Everyone whose data is in Connie; the page links the online opt-out form at connect.conniect.org/OptoutForm.",
+     "checkedAt": "2026-10-05",
      "quoteVerified": "raw",
-     "rawSha256": "2c440535f82214834eecf4334750427ad65492b8006dbf34ed9c4250e1a5b8b4"
+     "rawSha256": "3fa5eb28b561e2f25c95c309efe372b90efab19afdf41d7293448e17d4e8f19d"
     },
     {
-     "title": "State-wide Health Information Exchange: designation, now by OPM Secretary",
-     "citation": "Conn. Gen. Stat. 17b-59d(f), as amended by P.A. 26-68, s. 79",
-     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00068-R00SB-00001-PA.PDF",
+     "title": "Office of Health Strategy knowledge base, About Connie",
+     "citation": "OHS knowledge base article dated June 09, 2024",
+     "officialUrl": "https://portal.ct.gov/ohs/knowledge-base/articles/file-or-find-data/health-information-exchange/about-connie",
      "linkedFrom": null,
-     "effectiveDate": "2026-07-01",
-     "firstEnacted": "2015-06-30",
+     "effectiveDate": "2024-06-09",
+     "firstEnacted": null,
      "statusOfProvision": "in_force",
-     "quote": "Systems, technologies, entities, and programs that have not been so designated shall not be considered part of said exchange.",
-     "appliesTo": "State-wide Health Information Exchange",
-     "checkedAt": "2026-10-03",
+     "quote": "Connecticut's designated statewide health information exchange (HIE)",
+     "appliesTo": "Names Connie as the designated statewide HIE under Conn. Gen. Stat. 17b-59d.",
+     "checkedAt": "2026-10-05",
      "quoteVerified": "raw",
-     "rawSha256": "478022270b91123be7829f9ecb3167e4d59ab83e7b3edd1ad730c5e77dc16e82"
+     "rawSha256": "e5e24ce943062a2c3241b35a6d909d87ce9cb047227f08108891e5db1bd98014"
     },
     {
-     "title": "Provider connection duty: no sharing without legally required consent",
+     "title": "Electronic health record systems; connection to the State-wide Health Information Exchange",
      "citation": "Conn. Gen. Stat. 17b-59e(d)",
      "officialUrl": "https://www.cga.ct.gov/2026/sup/chap_319o.htm",
      "linkedFrom": null,
-     "effectiveDate": "2024-07-01",
-     "firstEnacted": "2024-07-01",
+     "effectiveDate": null,
+     "firstEnacted": null,
      "statusOfProvision": "in_force",
-     "quote": "Nothing in this section shall be construed to require a health care provider to share patient information with the State-wide Health Information Exchange if (1) sharing such information is prohibited by state or federal privacy and security laws, or (2) affirmative consent from the patient is legally required",
-     "appliesTo": "a health care provider",
-     "checkedAt": "2026-10-03",
+     "quote": "affirmative consent from the patient is legally required and such consent has not been obtained",
+     "appliesTo": "Health care providers required to connect to the exchange; the statute sets no routine consent rule and only excuses sharing where other law forbids it or requires consent.",
+     "checkedAt": "2026-10-05",
      "quoteVerified": "raw",
-     "rawSha256": "2583491fae69dcb56123cbd979383b8c3de34bb0a82049bcfa62f5751ec1e7ab"
+     "rawSha256": "2583491fae69dcb56123cbd979383b8c3de34bb0a82049bcfa62f5751ec1e7ab",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    },
+    {
+     "title": "Connie, Opt Out page",
+     "citation": "Connie patient opt-out page",
+     "officialUrl": "https://www.conniect.org/optout",
+     "linkedFrom": "https://portal.ct.gov/ohs/knowledge-base/articles/file-or-find-data/health-information-exchange/about-connie",
+     "effectiveDate": null,
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Once you opt-out, your health information will be deleted from Connie within 5 business days.",
+     "appliesTo": "Patients; page undated. Public health reporting and prescription monitoring data continue after opt-out.",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "6e897910468f1433b01deed961a209d39870ecb46617ea85db429feeb6fc6494",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    },
+    {
+     "title": "Connie, Patient FAQs, Opt Out",
+     "citation": "Connie patient FAQ",
+     "officialUrl": "https://www.conniect.org/patientsfaqs",
+     "linkedFrom": "https://portal.ct.gov/ohs/knowledge-base/articles/file-or-find-data/health-information-exchange/about-connie",
+     "effectiveDate": null,
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "If a patient opts out, they are opted out of every aspect of data sharing that is not otherwise required by law.",
+     "appliesTo": "Patients; page undated. Same page says state law does not allow opting out of the prescription monitoring program.",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "d31ae01f7fa245a1769652db49080097d189f15bc53cd553002c3a1c3129aebc",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    },
+    {
+     "title": "Public Act 26-68, Office of Policy and Management as successor to the Office of Health Strategy for the State-wide Health Information Exchange",
+     "citation": "P.A. 26-68 (2026 SB 1), successor-agency section; s. 79 amending Conn. Gen. Stat. 17b-59d",
+     "officialUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00068-R00SB-00001-PA.PDF",
+     "linkedFrom": null,
+     "effectiveDate": "2026-07-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "shall continue in force and effect as an order, decision, agreed settlement or regulation of the Office of Policy and Management until amended, repealed or superseded pursuant to law",
+     "appliesTo": "OHS orders and decisions on the State-wide Health Information Exchange carry over to OPM from July 1, 2026; the act sets no consent rule.",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "478022270b91123be7829f9ecb3167e4d59ab83e7b3edd1ad730c5e77dc16e82"
     }
    ],
    "searchLog": null,
@@ -246,30 +300,7 @@
      "usedFor": "Found that P.A. 26-68 moved HIE authority from OHS to OPM on July 1, 2026."
     }
    ],
-   "note": "Statute sets no routine consent rule, so the value comes from Connie policy. Connie pages show no policy date. OHS page still shows the designation; P.A. 26-68 moved that authority to OPM on July 1, 2026. Connie says opt-out data is deleted within 5 business days; page undated.",
-   "crossCheck": {
-    "verdict": "dispute",
-    "session": "main_crosscheck_CT",
-    "note": "Value stays opt_out, basis hie_policy, stricterForSensitive true. Statute 17b-59d and 17b-59e set no routine consent rule. Policy dates are missing and the designation page is archived OHS content.",
-    "problems": [
-     "Two Connie policy provisions carry effectiveDate null; every evidenced provision needs an effectiveDate, and neither Connie page shows a policy date.",
-     "linkedFrom OHS page carries a banner that OHS sunset effective June 30, 2026 and its content is retained for reference purposes.",
-     "Under 17b-59d(f) as amended by P.A. 26-68 s.79, OPM must post the designation list; no OPM page showing it was found."
-    ],
-    "status": "resolved (crossCheck.resolution)",
-    "resolution": [
-     {
-      "rows": [
-       "Q011",
-       "Q165",
-       "Q166"
-      ],
-      "by": "J. A. Snyder, author",
-      "basis": "DEVIATIONS D-27 (agree to all)",
-      "date": "2026-10-03"
-     }
-    ]
-   }
+   "note": "Statute sets no routine consent rule (17b-59e(d) only excuses sharing where other law requires consent), so the value comes from Connie policy. The dated OHS pages (June 9, 2024) name Connie as the designated statewide HIE and point to the opt-out form. P.A. 26-68, s. 79 moved HIE authority from OHS to OPM on July 1, 2026; the act keeps OHS orders in force under OPM, and no OPM page on Connie was found. Connie says it does not collect federally protected (42 CFR Part 2) substance use data; that is a federal rule, and no state consent step for a sensitive category was established, so stricterForSensitive is left null."
   },
   "sensitive_records": {
    "reproductive": {

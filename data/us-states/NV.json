@@ -169,7 +169,7 @@
    "value": "opt_in",
    "pending": false,
    "basis": "statute",
-   "designatedHie": "",
+   "designatedHie": "HealtHIE Nevada",
    "stricterForSensitive": false,
    "provisions": [
     {
@@ -202,7 +202,18 @@
     }
    ],
    "searchLog": null,
-   "leads": [],
+   "leads": [
+    {
+     "url": "https://www.healthienevada.org/patients",
+     "host": "healthienevada.org",
+     "usedFor": "HealtHIE Nevada patient page describing its consent form (I consent / I do not consent)"
+    },
+    {
+     "url": "https://prod.dhhs.nv.gov/siteassets/content/programs/frn/ACRN_Report_2024_2.pdf",
+     "host": "dhhs.nv.gov",
+     "usedFor": "DHHS ACRN 2024 draft report recommends promoting the HealtHIE Nevada provider portal"
+    }
+   ],
    "note": "Statute requires affirmative consent before records are retrieved from an HIE. No state-designated HIE name confirmed on a state page; NRS 439.587 lets the Director establish or contract with HIEs. Routine data already needs consent.",
    "crossCheck": {
     "verdict": "confirm",
@@ -218,7 +229,33 @@
       "date": "2026-10-03"
      }
     ]
-   }
+   },
+   "designatedHieSources": [
+    {
+     "title": "Maternal and Child Health Advisory Board minutes, May 6, 2022 (approved), HealtHIE Nevada presentation",
+     "citation": "Nevada DPBH, MCHAB minutes 5/6/2022",
+     "officialUrl": "https://www.dpbh.nv.gov/contentassets/7e3c1e2892c84c22af0f2d1ec01385fc/mchab-draft-minutes-5.6.22-approved.pdf",
+     "quote": "HealtHIE Nevada is a 501(c) non-profit that is the health information exchange (HIE) for Nevada",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "54d176c4a30692e92a9e971e96b81187b442b2191f2aedf868c023dc03d02cf2"
+    },
+    {
+     "title": "NAC 439.580, certification of health information exchanges",
+     "citation": "NAC 439.580(2)",
+     "officialUrl": "https://www.leg.state.nv.us/NAC/NAC-439.html#NAC439Sec580",
+     "quote": "The certification of a health information exchange must be renewed every 3 years.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "6c0623270dd811c912b6e0f01270ee13db834aa9c0d8bc6bf84776114bfae8fa"
+    },
+    {
+     "title": "HealtHIE Nevada, For Patients, What is consent?",
+     "citation": "HealtHIE Nevada patient page",
+     "officialUrl": "https://www.healthienevada.org/patients",
+     "quote": "Your medical information will pass through the HIE, but you control whether your doctors can see it.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "01f8babc76e6f3d2a0b3a6b43fe7d40b3684d324a586af43dc30ee759b438822"
+    }
+   ]
   },
   "sensitive_records": {
    "reproductive": {

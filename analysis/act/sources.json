@@ -1,0 +1,87 @@
+{
+ "note": "Federal pages behind /act/, who to contact about your health record in the United States. Stored as fetched; act.js checks each file against its hash and each quote against the stored page text, and stops the build on a miss.",
+ "sources": [
+  {
+   "id": "cfr524",
+   "title": "45 CFR 164.524, Access of individuals to protected health information",
+   "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.524",
+   "fetchUrl": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-45?part=164&section=164.524",
+   "file": "ecfr_45_164_524.html",
+   "quotes": [
+    "an individual has a right of access to inspect and obtain a copy of protected health information about the individual in a designated record set",
+    "the covered entity must act on a request for access no later than 30 days after receipt of the request",
+    "the covered entity may extend the time for such actions by no more than 30 days",
+    "provides the individual with a written statement of the reasons for the delay and the date by which the covered entity will complete its action on the request",
+    "only one such extension of time for action on a request for access",
+    "The covered entity, within the time limit set by paragraph (b)(2)(i) of this section, as applicable, provides the individual with a written statement"
+   ],
+   "sha256": "4f1afc9859d24b053a244848de962ee01d01e2b0495ce253f617f1d1aeaf3ed7",
+   "fetchedAt": "2026-10-05",
+   "via": "eCFR renderer"
+  },
+  {
+   "id": "hhsComplaint",
+   "title": "Filing a HIPAA Complaint (HHS)",
+   "url": "https://www.hhs.gov/hipaa/filing-a-complaint/index.html",
+   "file": "hhs_hipaa_filing-a-complaint.html",
+   "quotes": [
+    "File your HIPAA or Part 2 complaint electronically via the OCR Complaint Portal"
+   ],
+   "sha256": "c54f27c0027336c1ef939d526ad59ca14969ee989d6875455d4497e8b595015a",
+   "fetchedAt": "2026-10-05",
+   "via": "ScrapingBee (hhs.gov refuses direct requests)",
+   "links": [
+    "https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf"
+   ]
+  },
+  {
+   "id": "hhsProcess",
+   "title": "Complaint Process (HHS)",
+   "url": "https://www.hhs.gov/hipaa/filing-a-complaint/complaint-process/index.html",
+   "file": "hhs_hipaa_complaint-process.html",
+   "quotes": [
+    "Be filed in writing by mail, fax, e-mail, or via the OCR Complaint Portal",
+    "Be filed within 180 days of when you knew that the act or omission complained of occurred",
+    "OCR may extend the 180- day period if you can show \"good cause\"",
+    "an entity cannot retaliate against you for filing a complaint",
+    "Print and mail the completed complaint and consent forms to: Centralized Case Management Operations U.S. Department of Health and Human Services 200 Independence Avenue, S.W. Room 509F HHH Bldg. Washington, D.C. 20201",
+    "Email the completed complaint and consent forms to OCRComplaint@hhs.gov",
+    "communication by unencrypted email presents a risk that personally identifiable information contained in such an email, may be intercepted by unauthorized third parties"
+   ],
+   "sha256": "828a6fe3f771024376f52a48e984370395e938481bd93716a59d788a3c2a885e",
+   "fetchedAt": "2026-10-05",
+   "via": "ScrapingBee (hhs.gov refuses direct requests)",
+   "links": [
+    "https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf"
+   ]
+  },
+  {
+   "id": "ocrPortal",
+   "title": "OCR Complaint Portal (HHS Office for Civil Rights)",
+   "url": "https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf",
+   "file": "ocrportal_main.html",
+   "quotes": [
+    "Office for Civil Rights Complaint Portal Assistant",
+    "Health Insurance Portability and Accountability Act (HIPAA) Privacy, Security, and Breach Notification Rules"
+   ],
+   "sha256": "d28e1fcedcdafb73d4af7724de99de8521b8be73a11de53ea25076432e243a58",
+   "fetchedAt": "2026-10-05",
+   "via": "direct"
+  },
+  {
+   "id": "ib",
+   "title": "Information Blocking (ASTP/ONC, HealthIT.gov)",
+   "url": "https://healthit.gov/information-blocking/",
+   "file": "healthit_information-blocking.html",
+   "quotes": [
+    "Information blocking claims can be submitted online through ONC's Report Information Blocking Portal"
+   ],
+   "sha256": "cc7523b9de67148c265eb145b4b3928642e8c9df4e2c0b8bf90bf8e543584f20",
+   "fetchedAt": "2026-10-05",
+   "via": "direct",
+   "links": [
+    "https://healthit.gov/report-info-blocking"
+   ]
+  }
+ ]
+}

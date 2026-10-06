@@ -146,63 +146,84 @@
    }
   },
   "hie_consent": {
-   "status": "not_checked",
-   "value": null,
+   "status": "repealed_or_superseded",
+   "value": "no_rule_found",
    "pending": false,
    "basis": "statute",
-   "designatedHie": "",
+   "designatedHie": "None. New Hampshire repealed the definition of its health information organization in 2020 (2020 N.H. Laws ch. 37).",
    "stricterForSensitive": null,
    "provisions": [
     {
-     "title": "Use and disclosure of protected health information; health information exchange",
+     "title": "Use and Disclosure of Protected Health Information; Health Information Exchange",
      "citation": "RSA 332-I:3, VI",
      "officialUrl": "https://gc.nh.gov/rsa/html/XXX/332-I/332-I-3.htm",
      "linkedFrom": null,
      "effectiveDate": "2014-09-09",
      "firstEnacted": null,
-     "statusOfProvision": "in_force",
-     "quote": "An individual shall be given an opportunity to opt out of sharing his or her name and address and his or her protected health care information through the health information organization",
-     "appliesTo": "Exchange through the health information organization",
-     "checkedAt": "2026-10-03",
+     "statusOfProvision": "repealed_or_superseded",
+     "quote": "An individual shall be given an opportunity to opt out of sharing his or her name and address and his or her protected health care information through the health information organization.",
+     "appliesTo": "Applies only to \"the health information organization\" established under RSA 332-I. The text remains in the code, but the entity it binds no longer exists in law (see RSA 332-I:1 and 2020 ch. 37). Status reflects that the provision has no subject, not a repeal of paragraph VI itself.",
+     "checkedAt": "2026-10-05",
      "quoteVerified": "raw",
      "rawSha256": "785597431c9b4179fbe863cfbc11797f9cea7754d526a250016970c28436d7c7"
+    },
+    {
+     "title": "Medical Records; Definitions (definition of the health information organization repealed)",
+     "citation": "RSA 332-I:1, II(c), (g), (h)",
+     "officialUrl": "https://gc.nh.gov/rsa/html/XXX/332-I/332-I-1.htm",
+     "linkedFrom": null,
+     "effectiveDate": "2020-07-29",
+     "firstEnacted": null,
+     "statusOfProvision": "repealed_or_superseded",
+     "quote": "2020, 37:4, XXIII, XXIV, eff. July 29, 2020.",
+     "appliesTo": "Source note showing the 2020 repeal; subparagraphs (c), (g) and (h) now read [Repealed.].",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "fb29ef34acc1158ab9a605cd2525b33c87b5f98b9957f74e7c4e912b3c613d86"
+    },
+    {
+     "title": "2020 omnibus act (HB 1245, chapter 37), repeal of the health information organization provisions",
+     "citation": "2020 N.H. Laws ch. 37:4, XXII-XXIV",
+     "officialUrl": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2020&id=1652&txtFormat=html",
+     "linkedFrom": null,
+     "effectiveDate": "2020-07-29",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "RSA 332-I:1, II(c), relative to the definition of the health information organization.",
+     "appliesTo": "Repeals the health information organization board (RSA 332-I:7 to 332-I:10) and its definitions; section 37:20 also removes the DHHS commissioner's duty to contract with that organization.",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "b5527b9d5da2cd200e33112bafbcb59855686d48abe012386ca212ae33551184"
     }
    ],
-   "searchLog": null,
+   "searchLog": {
+    "codeSearchUrl": "https://gc.nh.gov/rsa/html/nhtoc/NHTOC-XXX-332-I.htm",
+    "terms": [
+     "health information exchange",
+     "health information organization",
+     "opt out"
+    ],
+    "regulatorPagesChecked": [
+     "https://www.dhhs.nh.gov/"
+    ],
+    "leadsChecked": [
+     "https://maehc.org/client-profiles/new-hampshire-health-information-organization-nhhio"
+    ],
+    "searchedAt": "2026-10-05"
+   },
    "leads": [
     {
      "url": "https://maehc.org/client-profiles/new-hampshire-health-information-organization-nhhio",
      "host": "maehc.org",
-     "usedFor": "Background on the NH Health Information Organization"
+     "usedFor": "Background on the former NH Health Information Organization"
     },
     {
-     "url": "https://law.justia.com/codes/new-hampshire/2023/title-xxx/chapter-332-i/section-332-i-3/",
-     "host": "law.justia.com",
-     "usedFor": "Locating RSA 332-I:3"
+     "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1730&txtFormat=html",
+     "host": "gc.nh.gov",
+     "usedFor": "2024 HB 1663 proposed to repeal and replace RSA 332-I; current RSA text shows chapter not replaced"
     }
    ],
-   "note": "RSA 332-I:3, VI is kept as a fact only. Its entity (RSA 332-I:1, II(c)) was repealed by 2020, 37:4, XXIII, eff. July 29, 2020.",
-   "crossCheck": {
-    "verdict": "dispute",
-    "session": "main_crosscheck_NH",
-    "note": "Section text is still in the code but its HIO definition was repealed in 2020. nhhio.org does not resolve. The DHHS HIE page returned HTTP 403. No current state-designated HIE or opt-out form found.",
-    "problems": [
-     "opt_out requires a published way to say no; researcher found no published opt-out and no designated HIE.",
-     "The 2020 act ch. 37 repealed the statutory definition of the health information organization and its board (RSA 332-I:1, II(c); 332-I:7 to 332-I:10).",
-     "RSA 332-I:3, VI names an entity that no longer has a statutory basis, so no operative state rule or current HIE policy was found."
-    ],
-    "status": "resolved (crossCheck.resolution)",
-    "resolution": [
-     {
-      "rows": [
-       "Q053"
-      ],
-      "by": "J. A. Snyder, author",
-      "basis": "DEVIATIONS D-27 (agree to all)",
-      "date": "2026-10-03"
-     }
-    ]
-   }
+   "note": "RSA 332-I:3, VI gives an opt-out from \"the health information organization\", but 2020 ch. 37 repealed that organization's definition, board and the DHHS contract duty (eff. July 29, 2020). No current state-designated or statewide HIE was found on gc.nh.gov or in DHHS search results. With no entity for the opt-out to bind and no designated exchange policy, the cell is no_rule_found."
   },
   "sensitive_records": {
    "reproductive": {

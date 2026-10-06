@@ -133,7 +133,7 @@
    "value": "no_rule_found",
    "pending": false,
    "basis": "statute",
-   "designatedHie": "",
+   "designatedHie": "None designated by the state. The SC eHealth Alliance (SCeHA) calls itself the statewide exchange and publishes an opt-out, but no state source designates it.",
    "stricterForSensitive": null,
    "provisions": [],
    "searchLog": {
@@ -160,6 +160,21 @@
      "url": "https://bhdd.sc.gov/hipaa-notice-privacy-practices",
      "host": "bhdd.sc.gov",
      "usedFor": "State agency notice describing SCeHA membership and an opt-out form"
+    },
+    {
+     "url": "https://sceha.org/",
+     "host": "sceha.org",
+     "usedFor": "SC eHealth Alliance (SCeHA) calls itself South Carolina's statewide HIE, operated by Health Sciences South Carolina; publishes an online opt-out form; no state designation shown"
+    },
+    {
+     "url": "https://bhdd.sc.gov/hipaa-notice-privacy-practices",
+     "host": "bhdd.sc.gov",
+     "usedFor": "State agency notice: BHDD is a member of SCeHA; patients may opt out by signed form"
+    },
+    {
+     "url": "https://www.rfa.sc.gov/index.php/media/12462",
+     "host": "rfa.sc.gov",
+     "usedFor": "2021 HIE Strategy Development Committee agenda listing SCHIEx, CeHA and CeHN as existing systems; FY2021-22 Proviso 117.75(A) allowed HIE release with or without consent"
     }
    ],
    "note": "No statute or regulation found. A BHDD notice says patients may opt out of SCeHA, but no state page designating SCeHA as the state HIE was found. H.3413 (2011) was not enacted.",
@@ -167,7 +182,41 @@
     "verdict": "confirm",
     "session": "main_crosscheck_SC",
     "note": "Code search for \"health information exchange\" found no matches. A BHDD notice describes an SCeHA opt-out, but I found no current state page designating SCeHA. Its 2019 policy URL no longer serves a PDF."
-   }
+   },
+   "designatedHieSources": [
+    {
+     "title": "Fiscal year 2026-27 General Appropriations Act, Part IB, Proviso 117.73, Information Technology for Health Care",
+     "citation": "H.5126 (2026), Part IB, Proviso 117.73",
+     "officialUrl": "https://www.scstatehouse.gov/sess126_2025-2026/appropriations2026/tap1b.htm",
+     "quote": "the department shall advance the use of health information technology and health information exchange to improve quality and efficiency of health care by creating the capability of moving clinical information among different health care information systems.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "03bd435c9981035e5a3740f939f4583abf973fcdeb6d1472fa1f0c26c1340ec9"
+    },
+    {
+     "title": "Fiscal year 2021-22 Proviso 117.75(A), health information exchange release for treatment (reproduced in a Revenue and Fiscal Affairs Office committee agenda)",
+     "citation": "Act 94 of 2021, Part IB, Proviso 117.75(A)",
+     "officialUrl": "https://www.rfa.sc.gov/index.php/media/12462",
+     "quote": "with or without express written consent or authorization from the patient",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "9d2f3b3fcf9df801918f4e21f15430d8c434330a44485f87e45127eb42672b5d"
+    },
+    {
+     "title": "SC Department of Behavioral Health and Developmental Disabilities, Notice of Privacy Practices, SCeHA section",
+     "citation": "BHDD HIPAA notice of privacy practices",
+     "officialUrl": "https://bhdd.sc.gov/hipaa-notice-privacy-practices",
+     "quote": "By opting out, your personal health information will not be shared through SCeHA.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "bb274b352ee81f287901a72c3f788d2a8aebcdeda56426c7efdfc41a7a18a08b"
+    },
+    {
+     "title": "SC eHealth Alliance (SCeHA) home page, Opt Out",
+     "citation": "SCeHA home page",
+     "officialUrl": "https://sceha.org/",
+     "quote": "Opting out means your electronic health information will not be shared through SCeHA.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "4b42286adc602b74e05771596df25910b8bbc64f12555f4d8dcaec48134c851b"
+    }
+   ]
   },
   "sensitive_records": {
    "reproductive": {

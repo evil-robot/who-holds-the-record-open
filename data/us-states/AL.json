@@ -175,56 +175,95 @@
    }
   },
   "hie_consent": {
-   "status": "not_checked",
-   "value": null,
+   "status": "in_force",
+   "value": "opt_out",
    "pending": false,
    "basis": "hie_policy",
-   "designatedHie": "One Health Record (Alabama Medicaid Agency)",
+   "designatedHie": "Alabama One Health Record (statewide HIE administered by the Alabama Medicaid Agency)",
    "stricterForSensitive": null,
-   "provisions": [],
+   "provisions": [
+    {
+     "title": "Alabama Health Information Exchange Policy Manual, AHIE Policy 006, Individual Participation and Choice (Opt-Out Procedures)",
+     "citation": "AHIE Policy Manual (revised August 2023), Policy 006",
+     "officialUrl": "https://www.onehealthrecord.alabama.gov/Content/uploads/AHIE-Policies-And-Procedures%20Latest.pdf",
+     "linkedFrom": "https://medicaid.alabama.gov/content/2.0_Newsroom/2.7_Special_Initiatives/2.7.2_Patient_Access.aspx",
+     "effectiveDate": "2023-10-01",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "the Participant shall provide Individuals the option to choose not to participate in the electronic sharing of his or her protected health information through One Health Record",
+     "appliesTo": "All participants in One Health Record. Same manual: exchange for permitted purposes needs no authorization, and data is available unless the person has opted out. Manual states One Health Record is administered and managed by the Alabama Medicaid Agency. Live file sits behind a captcha; stored bytes are the Wayback Machine raw capture of 2026-05-14.",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "8d9f8e7b9196d65ca41c9edfa58f17c3ac25ba582e6826409f9849ff91bdf78a",
+     "retrievedVia": "https://web.archive.org/web/20260514140024id_/https://www.onehealthrecord.alabama.gov/Content/uploads/AHIE-Policies-And-Procedures%20Latest.pdf"
+    },
+    {
+     "title": "Alabama One Health Record Patient Opt-Out Info and Request to Opt-Out/Reverse Opt-Out form",
+     "citation": "One Health Record patient opt-out form, v2 07/15/21",
+     "officialUrl": "https://www.onehealthrecord.alabama.gov/Content/uploads/Patient-OptOut-Reverse-OptOut-Information-Form-OneHealth-Record.v2.071521.pdf",
+     "linkedFrom": "https://medicaid.alabama.gov/content/2.0_Newsroom/2.7_Special_Initiatives/2.7.2_Patient_Access.aspx",
+     "effectiveDate": "2021-07-15",
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Your choice to opt-out of the health information exchange will not affect your ability to access medical care.",
+     "appliesTo": "Patients of providers participating in One Health Record; the signed form goes to a participating provider. Effective date taken from the form version string v2.071521. Stored bytes are the Wayback Machine raw capture of 2026-05-14 (live site captcha).",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "530b31e9b11c5f064f65a9a8f0e096e3d8beb072ed636c6e2fc2ba1b531753cc",
+     "retrievedVia": "https://web.archive.org/web/20260514124416id_/https://www.onehealthrecord.alabama.gov/Content/uploads/Patient-OptOut-Reverse-OptOut-Information-Form-OneHealth-Record.v2.071521.pdf"
+    },
+    {
+     "title": "Alabama One Health Record FAQs, What if patients do not want their information shared?",
+     "citation": "One Health Record FAQ page",
+     "officialUrl": "https://www.onehealthrecord.alabama.gov/FAQS.aspx",
+     "linkedFrom": "https://medicaid.alabama.gov/content/2.0_Newsroom/2.7_Special_Initiatives/2.7.2_Patient_Access.aspx",
+     "effectiveDate": null,
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Opt-Out assistance is also available through our Service Desk at 844-746-3540.",
+     "appliesTo": "Patients; page undated. Stored bytes are the Wayback Machine raw capture of 2026-05-14 (live site captcha).",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "b76c7898f72e20ee4ddea8eb3491fa7f885e796949364d9ea55552c93798a96e",
+     "retrievedVia": "https://web.archive.org/web/20260514124505id_/https://www.onehealthrecord.alabama.gov/FAQS.aspx",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    },
+    {
+     "title": "Alabama Medicaid Agency, Accessing Your Health Information",
+     "citation": "Alabama Medicaid Agency patient access page",
+     "officialUrl": "https://medicaid.alabama.gov/content/2.0_Newsroom/2.7_Special_Initiatives/2.7.2_Patient_Access.aspx",
+     "linkedFrom": null,
+     "effectiveDate": null,
+     "firstEnacted": null,
+     "statusOfProvision": "in_force",
+     "quote": "Alabama Medicaid offers the Alabama One Health Record App",
+     "appliesTo": "State agency page that names One Health Record and links to it as \"One Health Record - HIE\"; used for the exchange name, not the consent rule.",
+     "checkedAt": "2026-10-05",
+     "quoteVerified": "raw",
+     "rawSha256": "71c63f57fd7b95b242a6b2e8ab2114074b6732687c2b64d087bf8ab52e6229a7",
+     "authorRuling": {
+      "ruling": "D-26 Q3",
+      "flag": "current version date not confirmed"
+     }
+    }
+   ],
    "searchLog": null,
    "leads": [
     {
      "url": "https://medicaid.alabama.gov/news_detail.aspx?ID=9660",
      "host": "medicaid.alabama.gov",
-     "usedFor": "Medicaid news item dated 5/28/2015 describing a provider-offered opt-out; not a current policy"
-    },
-    {
-     "url": "https://www.onehealthrecord.alabama.gov/Content/uploads/AHIE-Policies-And-Procedures%20Latest.pdf",
-     "host": "onehealthrecord.alabama.gov",
-     "usedFor": "HIE policy; blocked by captcha and certificate errors, not read"
+     "usedFor": "Medicaid news item dated 5/28/2015 calls One Health Record Alabama's HIE and says providers must offer an opt-out; history only"
     },
     {
      "url": "https://www.childrensal.org/sites/default/files/workfiles/HIPAA/Patient-OptOut-Reverse-OptOut-Information-Form-OneHealth-Record.pdf",
      "host": "childrensal.org",
-     "usedFor": "Hospital copy of HIE opt-out form"
-    },
-    {
-     "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
-     "host": "healthit.gov",
-     "usedFor": "Background on state HIE consent models"
+     "usedFor": "Hospital copy of the HIE opt-out form"
     }
    ],
-   "note": "No HIE statute found in the code. One Health Record policy pages return a 403 captcha. A Medicaid news item dated 5/28/2015 mentions opt-out but is not a current policy, so the cell is not checked.",
-   "crossCheck": {
-    "verdict": "dispute",
-    "session": "main_crosscheck_AL_r2",
-    "note": "Code full-text search for health information exchange found no statute. One Health Record pages returned 403 captcha or certificate errors, so its current policy could not be read. Status stays not_checked.",
-    "problems": [
-     "The lead and note call the Medicaid news item undated. The page shows the date 5/28/2015, so it is dated, but it is not a current policy."
-    ],
-    "status": "resolved (crossCheck.resolution)",
-    "resolution": [
-     {
-      "rows": [
-       "Q003"
-      ],
-      "by": "editor rulings drafted by an agent against primary sources, approved by J. A. Snyder under delegation",
-      "basis": "DEVIATIONS D-25",
-      "date": "2026-10-03"
-     }
-    ]
-   }
+   "note": "No Alabama statute on HIE consent was found (earlier code search). One Health Record, run by the Alabama Medicaid Agency, publishes an opt-out policy (Policy 006, effective 1 October 2023) and a patient opt-out form. The live exchange site returns a DataDome captcha, so the stored copies are raw Wayback Machine captures of the official files from 14 May 2026. The policy manual defers to law for sensitive information and sets no added consent step of its own."
   },
   "sensitive_records": {
    "reproductive": {

@@ -178,7 +178,7 @@
    "value": "no_rule_found",
    "pending": false,
    "basis": null,
-   "designatedHie": "",
+   "designatedHie": "None designated. The Louisiana Department of Health last named the Louisiana Health Information Exchange (LaHIE) in a 2013 report; its 2023 quality strategy names no exchange.",
    "stricterForSensitive": null,
    "provisions": [],
    "searchLog": {
@@ -205,6 +205,11 @@
      "url": "https://www.healthit.gov/sites/default/files/la_state_hie_profile.pdf",
      "host": "healthit.gov",
      "usedFor": "Older profile naming the Quality Forum and LaHIE"
+    },
+    {
+     "url": "https://lhcqf.org/service/health-information-exchange-platform/",
+     "host": "lhcqf.org",
+     "usedFor": "LaHIE (Louisiana Health Care Quality Forum) describes itself as exchanging data across the state; no current state page names it as designated"
     }
    ],
    "note": "R.S. 40:1165.2 creates an advisory collaborative but sets no consent rule. No current state page designating an HIE and no published HIE consent policy found. The Quality Forum HIE page states no patient choice policy.",
@@ -212,7 +217,25 @@
     "verdict": "confirm",
     "session": "main_crosscheck_LA",
     "note": "R.S. 40:1165.2 sets an advisory body, no consent rule. The Quality Forum LaHIE page and its site search for opt out show no patient choice policy. Web search found no Louisiana HIE consent statute."
-   }
+   },
+   "designatedHieSources": [
+    {
+     "title": "Louisiana Department of Health, 2023 Medicaid Managed Care Quality Strategy, section 2.4.3, health information technology",
+     "citation": "Louisiana Department of Health, Medicaid Managed Care Quality Strategy (2023), s. 2.4.3",
+     "officialUrl": "https://ldh.la.gov/assets/docs/MQI/MQIStrategy2023.pdf",
+     "quote": "These reviews will result in the updating of the Louisiana Department of Health Roadmap with future state goals that will support sustainability of current projects and statewide interoperability development.",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "648ff21175c2366607e9199cdb044489a833f566622577b26370c27d910c6f67"
+    },
+    {
+     "title": "Department of Health and Hospitals, Office of Public Health, Annual Management and Program Analysis Report, fiscal year 2012-13",
+     "citation": "LDH (then DHH) OPH ACT 160 report, FY14 budget documents",
+     "officialUrl": "https://ldh.la.gov/assets/docs/budget/FY14DHHAMPAR.pdf",
+     "quote": "Continued expansion of the Louisiana Health Information Exchange (LaHIE)",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "6235b92eb5bb229eb5cd427f38316bd7504578c9f37da2e45a6bb47e2bbb219c"
+    }
+   ]
   },
   "sensitive_records": {
    "reproductive": {

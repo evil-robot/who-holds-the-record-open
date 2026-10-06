@@ -2,7 +2,7 @@
 
 **Who holds the record?** An open index that scores 198 countries and territories, from 0 to 100, on one question: can a person see, control and share their own health record?
 
-By SuperTruth Inc. Index version 1.0, data as of 2 October 2026. Data release 1.1 adds the US state layer: what the law of each of the 50 states and DC adds to federal law, read on 3 and 4 October 2026. Data and paper CC BY 4.0, code MIT.
+By SuperTruth Inc. Index version 1.0, data as of 2 October 2026. Data release 1.1 added the US state layer: what the law of each of the 50 states and DC adds to federal law, read on 3 and 4 October 2026. Data release 1.2 (5 October 2026) fills the last health information exchange gaps and adds the sources behind the US contacts page. Data and paper CC BY 4.0, code MIT.
 
 - **Live index:** https://healthrecordrights.com
 - **Paper:** [`paper/paper.pdf`](paper/paper.pdf) (working paper, version 1.2; source in [`paper/paper.md`](paper/paper.md))
@@ -87,7 +87,7 @@ Everything comes from public information: 5,147 cited sources. Of 7,156 cited li
 
 The index scores the United States as one country, on federal law. The state layer records what each state's own law adds to that federal floor, for the 50 states and DC: copy rights, consent for health information exchange, health data held outside HIPAA, breach notice, a private right to sue, rules for AI in care, and four kinds of sensitive record (genetic, HIV, mental health and reproductive). It gives no state score and no state rank, and it changes no country score.
 
-Each state file in [`data/us-states/`](data/us-states/) cites the provisions its answers rest on: 929 in all, each with its citation, its official link and the words of the law quoted from it. 912 of the quotes were found word for word in a stored copy of the page (`quoteVerified: "raw"`, with the copy's SHA-256 in `rawSha256`). The other 17 come from pages built by script that could not be stored as text (`quoteVerified: "session"`); a second agent session re-read each of them. The stored copies are not in this repository, because statute pages hosted by vendors carry their own terms.
+Each state file in [`data/us-states/`](data/us-states/) cites the provisions its answers rest on: 940 in all, each with its citation, its official link and the words of the law quoted from it. 923 of the quotes were found word for word in a stored copy of the page (`quoteVerified: "raw"`, with the copy's SHA-256 in `rawSha256`). The other 17 come from pages built by script that could not be stored as text (`quoteVerified: "session"`); a second agent session re-read each of them. The stored copies are not in this repository, because statute pages hosted by vendors carry their own terms.
 
 A blind re-reading of 150 sampled cells, by agent sessions that could read only stored copies of the cited pages, agreed with the published cells at an intraclass correlation of 0.965 on the 114 cells with ordered levels where the rater settled a level (bootstrap interval clustered by state, 0.92 to 1.00). Section 11 of the paper sets out the method and its limits. The plan, the rubric, the log of changes, the decision rules, the rulings and the agreement results are in [`analysis/us/states/`](analysis/us/states/).
 
@@ -138,7 +138,8 @@ Does your record follow you across a border? The live page at https://healthreco
 | [`analysis/crossborder/`](analysis/crossborder/) | Cross-border record exchange and copy rights behind the traveling patient |
 | [`analysis/confidence/`](analysis/confidence/), [`analysis/dti/`](analysis/dti/), [`analysis/variance/`](analysis/variance/), [`analysis/strain/`](analysis/strain/) | Confidence labels, evidence grades, variance structure, health system strain |
 | [`analysis/literature/`](analysis/literature/) | Literature review |
-| [`analysis/us/states/`](analysis/us/states/) | The US state layer: plan and its hashes (`PLAN.md`, `plan_stamp.txt`), rubric (`RUBRIC_STATES.md`), log of changes to the plan (`DEVIATIONS.md`), decision rules, counts by question (`aggregate.json`), how rulings were made and every ruling applied (`main/RULINGS_METHOD.md`, `main/rulings_applied.json`), and the agreement results before and after the rulings (`main/reliability.json`, `main/reliability_post_rulings.json`) |
+| [`analysis/us/states/`](analysis/us/states/) | The US state layer: plan and its hashes (`PLAN.md`, `plan_stamp.txt`), rubric (`RUBRIC_STATES.md`), log of changes to the plan (`DEVIATIONS.md`), decision rules, counts by question (`aggregate.json`), how rulings were made and every ruling applied (`main/RULINGS_METHOD.md`, `main/rulings_applied.json`, and `main/hie_gaps_d35.json` for the exchange answers filled under D-35), and the agreement results before and after the rulings (`main/reliability.json`, `main/reliability_post_rulings.json`) |
+| [`analysis/act/`](analysis/act/) | The sources behind the US contacts page (https://healthrecordrights.com/act/): the federal pages with their quotes (`sources.json`), an attorney general or state consumer office contact for each of the 50 states and DC (`state_ag.json`) and its independent check (`state_ag_verify.json`), and plain link titles taken from each official page (`titles.json`). The stored copies of those pages are not in this repository |
 | [`LICENSE-DATA.md`](LICENSE-DATA.md) | What the CC BY 4.0 data license covers, and what it does not (quoted law, third-party titles, linked pages) |
 | [`starter-kit/`](starter-kit/) | A starter kit for the data API: a plain JavaScript web app, a pandas notebook and MCP settings, each with a README (MIT) |
 | [`scripts/`](scripts/) | Paper generation (every number in the paper is computed, never typed), figure generators, checks and tests |
@@ -155,14 +156,14 @@ zsh paper/build.sh             # builds paper/paper.pdf (needs pandoc and Chrome
 
 The paper generator checks a hash of the data against every analysis output and stops if any figure was computed on older data.
 
-One limit: the published accounts (the stories layer) are not in this repository, so that removal requests can be honoured. `build.js` runs without them and leaves the stories out; `paper_gen.js` needs them for Section 5's counts and will not run from this repository alone. Every score, rank and analysis rebuilds from what is here. Two more limits for data release 1.1: the code here is the version 1.0 code, so it rebuilds the country data but not the state pages or the version 1.2 paper; and the state layer's harness scripts are not in this repository, so the hashes in `analysis/us/states/plan_stamp.txt` cannot be checked from here.
+One limit: the published accounts (the stories layer) are not in this repository, so that removal requests can be honoured. `build.js` runs without them and leaves the stories out; `paper_gen.js` needs them for Section 5's counts and will not run from this repository alone. Every score, rank and analysis rebuilds from what is here. Two more limits since data release 1.1: the code here is the version 1.0 code, so it rebuilds the country data but not the state pages or the version 1.2 paper; and the state layer's harness scripts are not in this repository, so the hashes in `analysis/us/states/plan_stamp.txt` cannot be checked from here.
 
 ## How to cite
 
 Snyder, J. A., Hill, R. P., IV, Raney, D., & Sims, L. (2026). *The Health Record Rights Index: Who Holds the Record in 198 Countries?* (version 1.2). SuperTruth Inc. https://doi.org/10.5281/zenodo.23137550
 
 Paper, version 1.2: https://doi.org/10.5281/zenodo.23137550 (all versions: https://doi.org/10.5281/zenodo.23120174)
-Data, version 1.1: https://doi.org/10.5281/zenodo.23137895 (all versions: https://doi.org/10.5281/zenodo.23120172)
+Data, version 1.2: https://doi.org/10.5281/zenodo.23174624 (all versions: https://doi.org/10.5281/zenodo.23120172)
 
 Citation metadata is in [`CITATION.cff`](CITATION.cff). The four authors share equal credit.
 

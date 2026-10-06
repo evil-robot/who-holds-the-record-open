@@ -96,7 +96,7 @@
    "value": "no_choice_required",
    "pending": false,
    "basis": "statute",
-   "designatedHie": "",
+   "designatedHie": "None designated. A 2026 Department of Social Services report lists several networks the state uses and designates none.",
    "stricterForSensitive": null,
    "provisions": [
     {
@@ -116,6 +116,11 @@
      "url": "https://missourihealthconnection.org/portfolio/patients-faq/",
      "host": "missourihealthconnection.org",
      "usedFor": "Search result describing a private HIE consent model (Consent to Access)"
+    },
+    {
+     "url": "https://dss.mo.gov/hie/",
+     "host": "dss.mo.gov",
+     "usedFor": "Former DSS HIE page once cited for Missouri Health Connection as state-designated entity; now returns 404"
     }
    ],
    "note": "No HIE consent statute found. No state page found that designates one HIE; search results describe several state-contracted networks. Missouri Health Connection policy was not used because no state designation was shown.",
@@ -139,7 +144,17 @@
       "date": "2026-10-03"
      }
     ]
-   }
+   },
+   "designatedHieSources": [
+    {
+     "title": "Missouri Department of Social Services, Children's Division, second semiannual 2025 Maintaining Medical Records Report",
+     "citation": "Missouri Department of Social Services, Children's Division report for July 1 to December 31, 2025",
+     "officialUrl": "https://mydss.mo.gov/sites/mydss/files/media/pdf/2026/02/2nd-Semiannual-Maintaining-Medical-Records-2025.pdf",
+     "quote": "Show-Me Health Information Network of Missouri (SHINE): A physician-led health information network delivered in partnership between the Missouri State Medical Association (MSMA) and KONZA Health",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "e2b6dd3122027cc24fc93587db3940a2ad6c3e4addfc0a37bb39e451e7c47c1c"
+    }
+   ]
   },
   "sensitive_records": {
    "reproductive": {

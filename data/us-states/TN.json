@@ -209,7 +209,7 @@
    "value": "no_rule_found",
    "pending": false,
    "basis": null,
-   "designatedHie": "",
+   "designatedHie": "None statewide. A July 2026 TennCare contract refers to the Tennessee health information exchange \"as it is developed\".",
    "stricterForSensitive": null,
    "provisions": [],
    "searchLog": {
@@ -234,6 +234,11 @@
      "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
      "host": "healthit.gov",
      "usedFor": "2016 survey lists Tennessee as No policy for HIE consent"
+    },
+    {
+     "url": "https://www.tn.gov/content/dam/tn/health/documents/copa/2022-07-01-FINAL-EXECUTED-Third-Amended-and-Restated-Terms-of-Certification-Governing-the-COPA.pdf",
+     "host": "tn.gov",
+     "usedFor": "TDH COPA terms require Ballad Health to fund a region-wide (Northeast TN) HIE; regional, not statewide"
     }
    ],
    "note": "No Tennessee statute or rule on HIE consent found, and no current state-designated HIE policy found. The Lexis code site needs JavaScript, so searches ran on capitol.tn.gov and tn.gov. Regional HIEs such as etHIN publish their own opt-out policies.",
@@ -241,7 +246,17 @@
     "verdict": "confirm",
     "session": "main_crosscheck_TN",
     "note": "Lexis code site needs JavaScript. Searched capitol.tn.gov and tn.gov for health information exchange and opt-out. Found only a 2009 HIP TN notice and a Ballad COPA HIE plan. No statewide designated HIE or consent rule found."
-   }
+   },
+   "designatedHieSources": [
+    {
+     "title": "TennCare contract with Volunteer State Health Plan, Amendment 4, care coordination duty",
+     "citation": "TennCare contract Edison 78843, Amendment 4 (signed July 2026), A.2.d",
+     "officialUrl": "https://www.tn.gov/content/dam/tn/tenncare/documents2/VSHP78843.pdf",
+     "quote": "Leverage the Tennessee health information exchange, as it is developed, the TennCare Care Coordination Tool, or an alternative approach approved by TennCare",
+     "checkedAt": "2026-10-05",
+     "rawSha256": "1465a7a0a52e43755cb655aa03958fc07e235e77fe418bb0c1310804e6ad93c4"
+    }
+   ]
   },
   "sensitive_records": {
    "reproductive": {

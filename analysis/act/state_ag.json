@@ -1,5 +1,5 @@
 {
- "note": "State attorney general consumer protection / consumer complaint pages for the 50 states and DC, one per state, built 2026-10-05. Each page was fetched (curl with a Safari user agent from this Mac; where blocked, Playwright on the Macly box, or for three Cloudflare/Akamai-walled domains ScrapingBee with a US premium proxy, as recorded in via) and stored unedited in pages/ag/<USPS>.html; sha256 is of the stored file. quote and nameQuote are verbatim and are found in the stored page text under act.js norm. title is the page <title> with HTML entities decoded and whitespace collapsed. agHandlesConsumerComplaints is false where the AG page itself says consumer complaints go to another agency. Non-obvious or non-.gov domains carry ownershipEvidence: an official page that links to, redirects to, or names the page. No page here is claimed to handle HIPAA or health record complaints. contactKind is attorney_general, or state_consumer_office where the attorney general page says consumer complaints go to another state office (Hawaii, South Carolina, Utah, Wisconsin): those rows point to that office, and the attorney general page is kept in agPage.",
+ "note": "State attorney general consumer protection / consumer complaint pages for the 50 states and DC, one per state, built 2026-10-05. Each page was fetched (curl with a Safari user agent from this Mac; where blocked, Playwright on a remote browser machine, or for three Cloudflare/Akamai-walled domains a commercial fetching service with a US proxy, as recorded in via) and stored unedited in pages/ag/<USPS>.html; sha256 is of the stored file. quote and nameQuote are verbatim and are found in the stored page text under act.js norm. title is the page <title> with HTML entities decoded and whitespace collapsed. agHandlesConsumerComplaints is false where the AG page itself says consumer complaints go to another agency. Non-obvious or non-.gov domains carry ownershipEvidence: an official page that links to, redirects to, or names the page. No page here is claimed to handle HIPAA or health record complaints. contactKind is attorney_general, or state_consumer_office where the attorney general page says consumer complaints go to another state office (Hawaii, South Carolina, Utah, Wisconsin): those rows point to that office, and the attorney general page is kept in agPage.",
  "states": [
   {
    "usps": "AL",
@@ -306,14 +306,14 @@
    "file": "ag/KS.html",
    "sha256": "126faf8049413eae4847339f64fb970e873642c49beefbeecd2666ea1edade1e",
    "fetchedAt": "2026-10-05",
-   "via": "ScrapingBee premium proxy (US)",
+   "via": "commercial fetching service, US proxy",
    "httpStatus": 200,
    "quote": "the consumer protection specialists in Kansas Attorney General Kris Kobach's office are here to help.",
    "nameQuote": "Kansas Attorney General",
    "agHandlesConsumerComplaints": true,
    "ownershipEvidence": null,
    "blocked": false,
-   "notes": "curl from this Mac and Playwright on Macly (headless Chromium and headful Chrome) all returned HTTP 403 (bot wall) for this domain; fetched through ScrapingBee with a US premium proxy, the route analysis/act/fetch.js already uses for hhs.gov. The URL in our data (https://www.ag.ks.gov/divisions/consumer-protection) is a real 404 behind the wall; the live page is /divisions/public-protection/consumer-protection.",
+   "notes": "curl from this Mac and Playwright on a remote browser machine (headless Chromium and headful Chrome) all returned HTTP 403 (bot wall) for this domain; fetched through a commercial fetching service with a US proxy, the route analysis/act/fetch.js already uses for hhs.gov. The URL in our data (https://www.ag.ks.gov/divisions/consumer-protection) is a real 404 behind the wall; the live page is /divisions/public-protection/consumer-protection.",
    "contactKind": "attorney_general"
   },
   {
@@ -401,14 +401,14 @@
    "file": "ag/MA.html",
    "sha256": "9fd6e8e546f8ceb9d44d62c078e092f2e1395f0cb0bd0627e7da81dedc6a12ca",
    "fetchedAt": "2026-10-05",
-   "via": "Macly Chromium",
+   "via": "remote-machine Chromium",
    "httpStatus": 200,
    "quote": "If you have questions about filing a complaint, please contact the AGO's Consumer Hotline.",
    "nameQuote": "Attorney General's Consumer Advocacy & Response Division",
    "agHandlesConsumerComplaints": true,
    "ownershipEvidence": "https://www.mass.gov/orgs/office-of-the-attorney-general",
    "blocked": false,
-   "notes": "mass.gov returned 403 to curl; fetched on Macly. The page states it is offered by the Office of the Attorney General.",
+   "notes": "mass.gov returned 403 to curl; fetched on a remote browser machine. The page states it is offered by the Office of the Attorney General.",
    "contactKind": "attorney_general"
   },
   {
@@ -496,14 +496,14 @@
    "file": "ag/MT.html",
    "sha256": "5affbd10869ceb01a82b231adf160a66f88f6ab8e196efcfe452c0fb6c3ebe32",
    "fetchedAt": "2026-10-05",
-   "via": "ScrapingBee premium proxy (US)",
+   "via": "commercial fetching service, US proxy",
    "httpStatus": 200,
    "quote": "However, if you are not satisfied after contacting the business and are unable to resolve the issue, file a complaint.",
    "nameQuote": "Office of Consumer Protection",
    "agHandlesConsumerComplaints": true,
    "ownershipEvidence": null,
    "blocked": false,
-   "notes": "curl from this Mac and Playwright on Macly (headless Chromium and headful Chrome) all returned HTTP 403 (bot wall) for this domain; fetched through ScrapingBee with a US premium proxy, the route analysis/act/fetch.js already uses for hhs.gov. Montana's Attorney General heads the Department of Justice (dojmt.gov).",
+   "notes": "curl from this Mac and Playwright on a remote browser machine (headless Chromium and headful Chrome) all returned HTTP 403 (bot wall) for this domain; fetched through a commercial fetching service with a US proxy, the route analysis/act/fetch.js already uses for hhs.gov. Montana's Attorney General heads the Department of Justice (dojmt.gov).",
    "contactKind": "attorney_general"
   },
   {
@@ -553,14 +553,14 @@
    "file": "ag/NH.html",
    "sha256": "fc53d713523f23167db27bbd6fa071c35665d84bc7f03e3de35826ee51a27ec4",
    "fetchedAt": "2026-10-05",
-   "via": "Macly Chrome (Playwright, headful)",
+   "via": "remote-machine Chrome (Playwright, headful)",
    "httpStatus": 200,
    "quote": "If you are having a problem with a business that you believe has engaged in unfair or deceptive acts or practices, you may file a complaint with the Consumer Protection and Antitrust Bureau.",
    "nameQuote": "Consumer Protection and Antitrust Bureau",
    "agHandlesConsumerComplaints": true,
    "ownershipEvidence": null,
    "blocked": false,
-   "notes": "curl and headless Chromium got 403; Google Chrome driven by Playwright (headful) on Macly loaded it. The page names the Office of the Attorney General.",
+   "notes": "curl and headless Chromium got 403; Google Chrome driven by Playwright (headful) on a remote browser machine loaded it. The page names the Office of the Attorney General.",
    "contactKind": "attorney_general"
   },
   {
@@ -572,14 +572,14 @@
    "file": "ag/NJ.html",
    "sha256": "bf6eaf09c47c5ca5f5771f767cde50fbb3821317c9a569a55cd31fb08b477c48",
    "fetchedAt": "2026-10-05",
-   "via": "Macly Chromium",
+   "via": "remote-machine Chromium",
    "httpStatus": 200,
    "quote": "Office of Consumer Protection Primary investigative section for consumer complaints.",
    "nameQuote": "Division of Consumer Affairs",
    "agHandlesConsumerComplaints": true,
    "ownershipEvidence": "https://www.njoag.gov/about/divisions-and-offices/",
    "blocked": false,
-   "notes": "curl got an Incapsula challenge; fetched on Macly. This page does not itself name the Attorney General; the NJ AG divisions page lists the Division of Consumer Affairs among its divisions, and njoag.gov links njconsumeraffairs.gov.",
+   "notes": "curl got an Incapsula challenge; fetched on a remote browser machine. This page does not itself name the Attorney General; the NJ AG divisions page lists the Division of Consumer Affairs among its divisions, and njoag.gov links njconsumeraffairs.gov.",
    "contactKind": "attorney_general"
   },
   {
@@ -591,14 +591,14 @@
    "file": "ag/NM.html",
    "sha256": "9fe580f0b8ab048cba3b09db66787269c08d0dc9638f62a04f97335755bdc487",
    "fetchedAt": "2026-10-05",
-   "via": "Macly Chromium",
+   "via": "remote-machine Chromium",
    "httpStatus": 200,
    "quote": "The Division collects reports, receives complaints and conducts investigations",
    "nameQuote": "New Mexico Department of Justice",
    "agHandlesConsumerComplaints": true,
    "ownershipEvidence": null,
    "blocked": false,
-   "notes": "nmdoj.gov returned 403 (Cloudflare) to curl and its homepage stays blocked on Macly; the requested /get-help/consumer-protection/ redirected on Macly to this page, which loaded. The NM Attorney General heads the Department of Justice.",
+   "notes": "nmdoj.gov returned 403 (Cloudflare) to curl and its homepage stays blocked on a remote browser machine; the requested /get-help/consumer-protection/ redirected on a remote browser machine to this page, which loaded. The NM Attorney General heads the Department of Justice.",
    "contactKind": "attorney_general"
   },
   {
@@ -743,14 +743,14 @@
    "file": "ag/RI.html",
    "sha256": "6d1474d6195208200faf6fc109d440c5804f2814db7d36e49c25572ea7a85e85",
    "fetchedAt": "2026-10-05",
-   "via": "ScrapingBee premium proxy (US)",
+   "via": "commercial fetching service, US proxy",
    "httpStatus": 200,
    "quote": "We help consumers resolve complaints against businesses, whether it's a refund for a cancelled trip or services paid for but never delivered.",
    "nameQuote": "Rhode Island Attorney General's Office",
    "agHandlesConsumerComplaints": true,
    "ownershipEvidence": null,
    "blocked": false,
-   "notes": "curl from this Mac and Playwright on Macly (headless Chromium and headful Chrome) all returned HTTP 403 (bot wall) for this domain; fetched through ScrapingBee with a US premium proxy, the route analysis/act/fetch.js already uses for hhs.gov. The URL first tried (/about-our-office/divisions-and-units/civil-division/consumer-protection) is a 404.",
+   "notes": "curl from this Mac and Playwright on a remote browser machine (headless Chromium and headful Chrome) all returned HTTP 403 (bot wall) for this domain; fetched through a commercial fetching service with a US proxy, the route analysis/act/fetch.js already uses for hhs.gov. The URL first tried (/about-our-office/divisions-and-units/civil-division/consumer-protection) is a 404.",
    "contactKind": "attorney_general"
   },
   {

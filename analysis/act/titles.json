@@ -1,5 +1,5 @@
 {
- "note": "Plain titles for link text and official full names for abbreviations, each taken from the stored official document. Every quote is found in the stored file (for PDFs, the pdftotext -layout -l 2 output) after act.js norm(). title null = the URL is dead (404) and has no usable title; long null = no expansion stated on the official page (isName true: the short form is the name; isName null: unresolved). Fetched 2026-10-05 with curl unless via says Macly Chromium. Check: node /tmp/check_titles.js.",
+ "note": "Plain titles for link text and official full names for abbreviations, each taken from the stored official document. Every quote is found in the stored file (for PDFs, the pdftotext -layout -l 2 output) after act.js norm(). title null = the URL is dead (404) and has no usable title; long null = no expansion stated on the official page (isName true: the short form is the name; isName null: unresolved). Fetched 2026-10-05 with curl unless via says remote-machine Chromium. Check: node /tmp/check_titles.js.",
  "links": [
   {
    "url": "https://www.healthit.gov/sites/default/files/State%20HIE%20Opt-In%20vs%20Opt-Out%20Policy%20Research_09-30-16_Final.pdf",
@@ -750,7 +750,7 @@
    "sha256": "eae03fd4c8d5947771ebd1feadab2f81a262a9fcefcfce3eaf98ef1e5f43f0d2",
    "textSha256": null,
    "fetchedAt": "2026-10-05",
-   "via": "Macly Chromium",
+   "via": "remote-machine Chromium",
    "httpStatus": 200,
    "note": "Note the full name includes \"Shared Services\". curl received a Brotli body it could not decode, so the page was fetched with Chromium."
   },
@@ -822,7 +822,7 @@
    "sha256": "0c8d4ea3f1f22483511edaa83fcb9ed7351e95b22196d44b05c5a000ce81d58c",
    "textSha256": null,
    "fetchedAt": "2026-10-05",
-   "via": "Macly Chromium",
+   "via": "remote-machine Chromium",
    "httpStatus": 200,
    "note": "A name, not an acronym. syncronys.org (no www) fails TLS for both curl and Chromium; www.syncronys.org answered Chromium (curl got 403)."
   },
@@ -873,7 +873,7 @@
    "file": "ag/MA.html",
    "sha256": "9fd6e8e546f8ceb9d44d62c078e092f2e1395f0cb0bd0627e7da81dedc6a12ca",
    "fetchedAt": "2026-10-05",
-   "via": "Macly Chromium"
+   "via": "remote-machine Chromium"
   },
   {
    "short": "OAG",

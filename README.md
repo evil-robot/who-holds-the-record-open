@@ -160,9 +160,9 @@ One limit: the published accounts (the stories layer) are not in this repository
 
 ## How to cite
 
-Snyder, J. A., Hill, R. P., IV, Raney, D., & Sims, L. (2026). *The Health Record Rights Index: Who Holds the Record in 198 Countries?* (version 1.2). SuperTruth Inc. https://doi.org/10.5281/zenodo.23137550
+Snyder, J. A., Hill, R. P., IV, Raney, D., & Sims, L. (2026). *The Health Record Rights Index: Who Holds the Record in 198 Countries?* (version 1.3). SuperTruth Inc. https://doi.org/10.5281/zenodo.23199733
 
-Paper, version 1.2: https://doi.org/10.5281/zenodo.23137550 (all versions: https://doi.org/10.5281/zenodo.23120174)
+Paper, version 1.3: https://doi.org/10.5281/zenodo.23199733 (all versions: https://doi.org/10.5281/zenodo.23120174)
 Data, version 1.2: https://doi.org/10.5281/zenodo.23174624 (all versions: https://doi.org/10.5281/zenodo.23120172)
 
 Citation metadata is in [`CITATION.cff`](CITATION.cff). The four authors share equal credit.
